@@ -20,3 +20,17 @@ Clock rate depends on E_s/η and the delay only; the energy split depends on εg
 ## 2026-10-19 — Accumulation depth as an additive rapidity (RULER) — open
 
 Compositions of depth obey the tanh addition law; Ξ ∝ cosh² composes as γ² of a rapidity sum. A presentation for Chapter II.
+
+## 2026-10-19 — A resting-clock comparison across two depths decides γ (from run aq_identification; all four peers) — open
+
+The charts' light quantities fit two readings of the lapse: √q (giving a = 1 − q, γ = 1/(1 − a), PPN γ = 1) and q (γ = 0).
+Two resting clocks at different depths exchanging teeth give a received ratio √(q_e/q_r) under the first and q_e/q_r under the
+second. No construction has compared resting clocks; the unused `reception` construction is the candidate. Recommended next.
+
+## 2026-10-19 — Status note on "Map the manuscript's a to q": the identification a = 1 − q is now the peers' converged reading (three of four), with the lapse fork open; the earlier worry about k = 1 versus k = ½ dissolves because γ runs as 1/(1 − a) with PPN value exactly 1 — status unchanged (open) pending Sean's word.
+
+## 2026-10-19 — Recommended model per role (lead's recommendation after the comparison) — open
+
+Peers: Opus by default (matched Fable on every instrument number in aq_identification); Fable for a run the owner wants the
+strongest minds on; mechanical peers and conversions: Sonnet; watchers: shell loops. Making this a field of the Duck 2.0
+method document is a permanent change and awaits "Allow permanent changes".

@@ -1,0 +1,17 @@
+# Run record — aq_identification (the a(q) identification; Duck 2.0.0; Opus peers)
+
+- **Date (UTC):** 2026-10-19, window 23:09:58–23:24:58.
+- **Directed by:** Sean Brady. **Executed with:** Claude Code (GEN6 Duck run `aq_identification`; peers CLOCK, RULER, PROPAGATION, JOINT on the Opus model).
+- **Where it ran:** ironclad campaign `campaigns/aq_identification_20261019`, commit `7616256`, history entry `H002732`, run `runs/duck/aq_identification`.
+- **Installed version:** Duck 2.0.0 / IRONCLAD-R22. Temporary change for this run, read back and approved by Sean Brady ("temporary change approved"): peers on Opus instead of Fable; reverted with this record.
+- **What ran:** the lead's recommended idea from `ideas/IDEAS.md`: what identification between Volume I's dimensionless lift a (coordinate speed c(1 − a), route index √((1 + γa)/(1 − a)), pp. 64–68; n = √(1 − a), p. 32) and the charts' accumulation fraction q makes them one statement exactly, and what it says γ is. One 900 s window; 141 returns (124 COMPLETED, 10 FAILED, 7 REFUSED); 115 peer submissions accepted; 12 methods authored, 38 executed.
+- **What it showed** (engineering labels; the peers' readings as ideas):
+  - possible reduction: the two accumulation charts (reservoir sech², return 1 − (κτ)²) are one function of one rapidity; the previous record's second-order discrepancy came from reading them on different clocks (JOINT, certified).
+  - possible follow-up: identification a = 1 − q (the reservoir's own energy share) makes c(1 − a) exact with γ(a) = 1/(1 − a); PPN γ = 1 exactly; γ − 1 = a/(1 − a) at second order, about 4.2 × 10⁻⁶ at a declared solar-limb lift, inside the Cassini band (CLOCK, RULER, JOINT; methods that fail at γ = 1 and pass at γ = 1/q).
+  - possible reduction: the second-order gap between the chart index and the γ = 1 truncated index is a²/2.
+  - **possible follow-up, decisive:** the chart's own tick runs at q (certified twice). If that tick is the lapse, γ = 0, excluded by Cassini; the identification above needs the lapse √q, which is p. 32's n = √(1 − a). Two resting clocks at different depths exchanging teeth decide it (ratio √(q_e/q_r) versus q_e/q_r); no construction in this run compared resting clocks. PROPAGATION dissents from the identification on this ground.
+  - needs inspection: in the return chart a grows with R as κ²τ², accumulated over the round trip, not a lift falling off from a source; a(x) along a route needs a profile no chart supplies.
+- **What failed, plainly:** the lead's plan builder left the old source binding inside two construction packets; both openings were refused and the peers rebuilt them. Peers' own method failures (step type, Hermitian declaration, log sign convention, checker coverage, a κ = 1 assumption) were all revised and passed in-window; two controls failed by design.
+- **What it changes or opens in the volumes:** Volume I Chapter IV (pp. 64–68): c(1 − a) exact under a = 1 − q with running γ; the fork on the lapse; the a²/2 second-order statement. Page 32's n = √(1 − a) as the lapse the identification needs. No change to the living text yet; `ideas/IDEAS.md` updated.
+- **Model comparison (for the recommended-model decision):** Opus peers vs Fable peers at 900 s: returns 141 vs 133, accepted submissions 115 vs 110, methods authored 12 vs 10, executed 38 vs 26, first submission 60 s vs 115 s. Reports of equal candour.
+- **Concluded by:** `scripts/conclude.sh`, see git log.
