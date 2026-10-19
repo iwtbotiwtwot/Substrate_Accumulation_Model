@@ -34,3 +34,17 @@ second. No construction has compared resting clocks; the unused `reception` cons
 Peers: Opus by default (matched Fable on every instrument number in aq_identification); Fable for a run the owner wants the
 strongest minds on; mechanical peers and conversions: Sonnet; watchers: shell loops. Making this a field of the Duck 2.0
 method document is a permanent change and awaits "Allow permanent changes".
+
+## 2026-10-19 — Status note on the resting-clock decider: run `resting_clock` (H002733) could not decide; both ratios are exact rows of every exchange; every certified rate runs at q. The decider now needs two constructions (below). Status unchanged (open) pending Sean's word.
+
+## 2026-10-19 — A static, spatially varying accumulation profile Λ(x) with two positions (all four peers of resting_clock) — open
+
+The reservoir is homogeneous (J = V = 0, no position); the returning field has one source; reception binds one state against a
+clockless reference. A reservoir with a source term J(x), two positions, and a light path whose delay integrates 1/c_eff along it
+would make redshift and Shapiro delay two readings of one q(x). A new construction in the vendored library: permanent change.
+
+## 2026-10-19 — Derive the local metric clock instead of supplying the lapse (RULER, PROPAGATION, JOINT) — open
+
+`common_action.py` marks `local_metric_clock` OPEN and names "redshift-to-Ξ density" among its unknowns; feedback forces the lapse
+to 1. Candidate: the kinetic-metric phase rate e^(Λ/2)ψ̇ = 2E₀√q against the coordinate phase rate 2E₀q, as a pre-registered test
+that fails one way or the other. Permanent change.
