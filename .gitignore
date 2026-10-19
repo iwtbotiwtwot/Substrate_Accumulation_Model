@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+*.sqlite
+*.sqlite3
+runs/**/native_returns/

@@ -1,0 +1,14 @@
+{
+ "schema": "SAM_VOLUME_SOURCE_V1",
+ "volume": "II",
+ "title": "SAM Volume II",
+ "pdf": "volumes/II/source/SAM_Volume_II_Formatted.pdf",
+ "pdf_sha256": "25b53eb116dc19bdc601987d990a5b2b6ad9168accc8c8f41ab28fb2c3eb8cc3",
+ "pdf_bytes": 699398,
+ "pages": 99,
+ "conversion": "pdftotext -enc UTF-8 (reading order; -layout merged the two text columns)",
+ "converted_utc": "2026-10-19T23:00:28+00:00",
+ "living_text": "volumes/II/SAM_Volume_II.md",
+ "living_text_sha256_at_conversion": "3308f621cbe25ccf89620688358d058ac848c145a7f0fb3f26e4699ee3e2aabf",
+ "origin": "/home/lilhelper/Downloads (Sean Brady, 2026-10-19)"
+}
