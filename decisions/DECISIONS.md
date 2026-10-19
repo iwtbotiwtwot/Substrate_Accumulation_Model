@@ -11,3 +11,4 @@
   model' for each run if some are less complex than others." Lead's readback: peers on Opus for the a(q) run as a temporary
   change, reverting after. Sean Brady: "temporary change approved".
 - 2026-10-19 — Follow up on the lead's recommended idea: the a(q) identification (ironclad campaign `aq_identification_20261019`).
+- 2026-10-19 — "follow your next recommended idea, temporary change to use Opus peers." → ironclad campaign `resting_clock_20261019` (the resting-clock comparison that decides γ); peers on Opus as a temporary change for this run, reverting after.
