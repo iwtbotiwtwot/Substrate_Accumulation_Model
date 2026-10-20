@@ -126,3 +126,13 @@ frustrated-spin source is the operand; that transfer needs a source-derived thre
 - **Next material (Sean Brady's paste):** explore from the a(q) identification, the resting-clock fork and the spin-memory results (hidden history in the
   64-state system; the four-state work advantage with preparation, measurement, erasure and reset outside the account). Campaign `explore_voli_threads_20261020` staged. — open
 - **Feedback clock definition and routed-clock prototype (2026-10-20, proposed by Claude at Sean Brady's request):** end = Σ ΔN·χ reaches the propagator by native pointer; source block scaled by N. Prototype and test matrix on ironclad branch sandbox/feedback-lapse-20261020. Decisions taken by Sean Brady 2026-10-20: χ = 1/N, N scales the source block; installed as core 0.11.1 / Duck 2.3.1 (H002746). — adopted
+
+## 2026-10-20 — from explore_voli_threads_2 (proposed by Claude peers; status open; only Sean Brady changes a status)
+- **Per-event derived lapse with a path-ordered propagator** (feedback history N_i per event, field state carried between events, domain check kept): the 0.11.1 clock collapses a history to its end; order matters on receipts. — open, construction candidate
+- **A construction that derives Γ (field inertia)** from the source or the profile: in the present constructions a lapse is exactly κ → N·κ, so the q vs √q fork is a free choice of inertia per tick until Γ is derived. — open
+- **Kinetic-reading light path** (c₀·√q beside c₀·q) in static_profile, or a derivation of the c₀·q convention. — open
+- **Inertia identity as an enforced recipe** (entry-by-entry check). — open
+- **History policy at separation ≈ 2**, where the decision-bit information peaks; does the achieved gain follow the ceiling? — open
+- **Field-strength control per branch** (dwell alone cannot reach the j = 0 information). — open
+- **Reset stroke and repeated cycles with the register reused**; the register ledger on the 64-state source once a control Hamiltonian is declared. — open
+- **Matched-present test on the order-dependent field state** (same present ticks, different field memory). — open
