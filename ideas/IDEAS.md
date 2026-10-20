@@ -48,3 +48,9 @@ would make redshift and Shapiro delay two readings of one q(x). A new constructi
 `common_action.py` marks `local_metric_clock` OPEN and names "redshift-to-Ξ density" among its unknowns; feedback forces the lapse
 to 1. Candidate: the kinetic-metric phase rate e^(Λ/2)ψ̇ = 2E₀√q against the coordinate phase rate 2E₀q, as a pre-registered test
 that fails one way or the other. Permanent change.
+
+## 2026-10-20 — Full-observable-distribution control as a method note for Volume II's spin-memory chapter (from the abandoned Codex run spin_memory; lead's triage) — open
+
+Matching only one visible port manufactures spurious hidden memory; matching the whole present visible distribution (16
+ports) is necessary, shown exactly on a decoupled null source (exact rank 1). A tool the chapter could use once SAM's own
+frustrated-spin source is the operand; that transfer needs a source-derived three-time tensor and controlled Hamiltonians.
