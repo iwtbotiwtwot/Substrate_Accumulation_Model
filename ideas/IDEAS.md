@@ -125,3 +125,4 @@ frustrated-spin source is the operand; that transfer needs a source-derived thre
 - **Controls by sign, not declared FAILED:** singular solves and ranks return "unresolved", not FAILED; the declared-control rule should accept a sign/rank report. — open
 - **Next material (Sean Brady's paste):** explore from the a(q) identification, the resting-clock fork and the spin-memory results (hidden history in the
   64-state system; the four-state work advantage with preparation, measurement, erasure and reset outside the account). Campaign `explore_voli_threads_20261020` staged. — open
+- **Feedback clock definition and routed-clock prototype (2026-10-20, proposed by Claude at Sean Brady's request):** end = Σ ΔN·χ reaches the propagator by native pointer; source block scaled by N. Prototype and test matrix on ironclad branch sandbox/feedback-lapse-20261020. Decisions pending: direction of the lapse (χ = 1/N), N-scaling of the source block, release as core 0.11.1. — open
