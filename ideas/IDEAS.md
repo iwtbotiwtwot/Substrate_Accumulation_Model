@@ -115,3 +115,13 @@ frustrated-spin source is the operand; that transfer needs a source-derived thre
   the construction takes an exact rational, so an exact q from a declared profile is the current route). — open
 - **Update the 2.0 method document's §6:** three of the seven listed defects remain outside the Duck (per-stroke trace time: core; recipe scalar
   inputs: SLC engine). — open
+
+## 2026-10-20 — from voli_lapse (proposed by Claude peers; status open; only Sean Brady changes a status)
+- **Fix the feedback lapse (program defect, core 0.11.0):** make the history step run with nonzero events so lapse_source reaches τ and elapsed time; today it is a label. — open, next release
+- **Native √q in the reservoir** (exp(−Λ/2)) so the kinetic lapse is computed, not read as sech. — open
+- **Exact chart meeting:** algebraic or enclosure-valued rapidity in the profile. — open
+- **Profile with a declared γ in the light index**, so the light-path row becomes a scan. — open
+- **Does the floor A₀ belong in the light path?** The two readings' light-path ratio depends on it. — open
+- **Controls by sign, not declared FAILED:** singular solves and ranks return "unresolved", not FAILED; the declared-control rule should accept a sign/rank report. — open
+- **Next material (Sean Brady's paste):** explore from the a(q) identification, the resting-clock fork and the spin-memory results (hidden history in the
+  64-state system; the four-state work advantage with preparation, measurement, erasure and reset outside the account). Campaign `explore_voli_threads_20261020` staged. — open
