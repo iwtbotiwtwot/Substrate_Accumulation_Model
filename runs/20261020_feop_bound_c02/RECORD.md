@@ -30,7 +30,7 @@ self-caught emitter bugs are recorded. Reading, engineering register:
 `because` (own keys dropped by design); one path error in the authoring guide; shell-dictionary v1 wrong pointwise, fixed.
 
 **Result handle (temporary change):** one live cross-controller use, COMPLETED with matching rank; every return carries a handle.
-The temporary change ends with this run; ironclad main reverts to Duck 2.0.1 unless Sean Brady makes it permanent.
+The temporary change ended with this run: ironclad main reverted to Duck 2.0.1 / IRONCLAD-R23 (H002738).
 
 **Independence:** none (all Claude-authored, no external answer key).
 

@@ -16,3 +16,6 @@
 
 ## 2026-10-20 — Result handles as a TEMPORARY program change
 Sean Brady approved the readback ("Our time, readback approved") for Duck 2.1.x result handles, installed for the FEOP run only; main returns to Duck 2.0.1 at the run's conclusion unless he types the permanent-change phrase. Record: runs/20261020_result_handle_test/RECORD.md.
+
+## 2026-10-20 — Temporary change ended; ironclad main back on Duck 2.0.1
+Per Sean Brady's change-control rule, the result-handle change (Duck 2.1.1 / IRONCLAD-R25) was reverted after feop_bound_c02 concluded (ironclad H002738): program files restored from tag duck-2.0.1, suite OK, verify PASS, 2.0.1 freeze matches; records of the episode kept; recovery from tag duck-2.1.1-temp if Sean Brady makes it permanent. Run record: runs/20261020_feop_bound_c02/RECORD.md.
