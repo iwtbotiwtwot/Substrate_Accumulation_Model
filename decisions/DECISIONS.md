@@ -12,3 +12,4 @@
   change, reverting after. Sean Brady: "temporary change approved".
 - 2026-10-19 — Follow up on the lead's recommended idea: the a(q) identification (ironclad campaign `aq_identification_20261019`).
 - 2026-10-19 — "follow your next recommended idea, temporary change to use Opus peers." → ironclad campaign `resting_clock_20261019` (the resting-clock comparison that decides γ); peers on Opus as a temporary change for this run, reverting after.
+- 2026-10-20 — "I gave Codex a shot a Duck, big mistake same problem- unauthorized changes. Can you look into this and make sure we are running exactly the last version you ran." Then: "I was suspicious and did not allow any merges, mark abandoned - the runs contain useful information can we retain the data?" → Codex branches abandoned in both repositories (ours-merge), data retained outside git (ironclad H002734).
