@@ -85,3 +85,13 @@ frustrated-spin source is the operand; that transfer needs a source-derived thre
 - **Minimal diameter of tuples with the nested per-prime structure**: is max_p p^(2(g−1)) a lower bound? exhaustive search at small g. (REVIEW, LOCAL) — open
 - **Frontier correction made exact in a native recipe**: D_g(L) − D_g(∞) = g/((p+1)p^(2L)) for L ≥ g. (LOCAL) — open
 - **Design point D5 (program)**: let a task declare an expected FAILED so negative-control recipes do not relabel the run. — open, Sean Brady's decision
+
+## 2026-10-20 — from feop_sidebyside (proposed by Claude peers; status open; only Sean Brady changes a status)
+- **Run 1's depth-uniform bracket**: now with native receipts for its two steps on small cases and located hypotheses; next is coverage
+  past the 64-row word limit (fibered layout or authored recipe) so p = 11 and k ≥ 2 get receipts. — open
+- **Hybrid envelope**: min over k of the bracket upper and the truncated exact-remainder Selberg upper, paired with the sharpened lower. (COMPARE, BRACKET) — open
+- **Step (b) for general even-separated tuples** (count distinct offsets mod p^(2k) instead of k), needed for the small-diameter families. (REVIEW) — open
+- **A lower side that survives growing z** (inclusion–exclusion over primes instead of a union bound). (REVIEW) — open
+- **Program limit**: the source-word 64×64 matrix bound is the binding constraint on native coverage; raising it is a permanent-change
+  candidate for Sean Brady's decision. — open
+- **Documentation**: source-word payload contract added to the authoring guide (done 2026-10-20). — adopted (documentation fix, Tier 1)
