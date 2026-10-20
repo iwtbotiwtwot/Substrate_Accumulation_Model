@@ -25,3 +25,6 @@ Sean Brady asked for the same FEOP run without the data it had gained, to compar
 
 ## 2026-10-20 — Third FEOP replicate on the installed version
 Sean Brady asked for the same run on the reverted Duck 2.0.1 to check it does not underperform the temporary build; agreed framing: regression check plus third replicate, not a performance comparison. Result: the installed version ran the full recipe; the temporary handle change was not needed by this campaign. Open design point D5: a run with one declared failing control is labelled FAILED_WITH_RETAINED_OUTCOMES because a task cannot declare an expected FAILED. Record: runs/20261020_feop_bound_c02_run3/RECORD.md.
+
+## 2026-10-20 — Matrix limit: recipe route tried first, engine release not needed for reach
+Sean Brady chose to try the fibering/recipe route before any engine release. Result (ironclad H002742): fibering reaches far past the 64-row word limit with no program change, and the real obstruction is the residue count p^(2k), which no matrix limit changes. The engine-release candidate for the matrix limit is therefore downgraded to a convenience; the route to the bracket rows at large k is a per-level receipt, logged as an open idea. Record: runs/20261020_feop_bracket_fiber/RECORD.md.

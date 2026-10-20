@@ -95,3 +95,12 @@ frustrated-spin source is the operand; that transfer needs a source-derived thre
 - **Program limit**: the source-word 64×64 matrix bound is the binding constraint on native coverage; raising it is a permanent-change
   candidate for Sean Brady's decision. — open
 - **Documentation**: source-word payload contract added to the authoring guide (done 2026-10-20). — adopted (documentation fix, Tier 1)
+
+## 2026-10-20 — from feop_bracket_fiber (proposed by Claude peers; status open; only Sean Brady changes a status)
+- **Receipt per cylinder level** for the bracket's steps: a transfer operator (about g × p²) checked natively on reached levels and iterated,
+  O(k) numbers per case instead of p^(2k) residues; the only visible route to k = 6..24. (FIBER, ELEVEN, REVIEW) — open
+- **Bind the partition into the recipe gate**: coverage and first-moment residuals as zero checks, selectors fixed to whole single-case words,
+  offsets recomputed from (p, g, k, L). (REVIEW, RECIPE) — open
+- **Partition step in every summing word** (row coverage as one extra step). (REVIEW) — open
+- **Cost curve**: p=7 k=3 (about 205 words) and p=11 k=2 L=4 by a two-level summing tree in a longer window. (FIBER) — open
+- **Engine release for the 64×64 limit**: downgraded from a reach item to a convenience item by this run. — open, Sean Brady's decision
