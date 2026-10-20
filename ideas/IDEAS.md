@@ -54,3 +54,17 @@ that fails one way or the other. Permanent change.
 Matching only one visible port manufactures spurious hidden memory; matching the whole present visible distribution (16
 ports) is necessary, shown exactly on a decoupled null source (exact rank 1). A tool the chapter could use once SAM's own
 frustrated-spin source is the operand; that transfer needs a source-derived three-time tensor and controlled Hamiltonians.
+
+## 2026-10-20 — from feop_bound_c02 (proposed by Claude peers; status open; only Sean Brady changes a status)
+- **Depth-uniform two-sided bracket** for the fixed-z count: S_g ∈ X∏d_p(k) ± envelope for any k ≤ g, uniform in g, L, A; write the
+  derivation and check the superset step and the k-class count pointwise natively. (BOUND) — open
+- **Ultrametric tree formula** 1 − D(L) = (1/(p+1)) Σ_j max(0, p^(−σ_j) − p^(−2L)) for any even-valuation tuple; proof or break with a
+  verifier separate from the emitter. (LOCAL) — open
+- **Sparse-digit families** (base-p⁴ binary digits): bounded density with polynomial diameter; run through the Legendre count and
+  the two-sided bracket (TARGET item 2). (LOCAL, REVIEW) — open
+- **True remainder size**: observed max |E| grows roughly like T, not (1+T)^π(z); certify a full-period worst case as a receipt.
+  (CRT) — open
+- **Restate C02** as fixed-z Legendre plus depth truncation, then ask what is left of C01/C02; the FEOP question proper begins when z
+  grows with X. (REVIEW) — open
+- **Literature**: get Halberstam–Richert (Selberg Λ², level of distribution) into the retrieval index before any write-up. — open
+
