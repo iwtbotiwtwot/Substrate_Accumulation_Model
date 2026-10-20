@@ -31,3 +31,6 @@ Sean Brady chose to try the fibering/recipe route before any engine release. Res
 
 ## 2026-10-20 — Permanent release Duck 2.2.0 (five Duck-layer defects) and the Volume I pair
 Sean Brady typed the permanent-change phrase and approved the readback for two items in order: the five Duck-layer defects as one release (done: Duck 2.2.0 / IRONCLAD-R26, ironclad H002743, tag duck-2.2.0) and then the Volume I pair (a static Λ(x) profile with two positions; a derived local metric clock), which live in the sealed core and therefore proceed as a new core version with its own written plan, fixtures and rollback check before install. Record: runs/20261020_duck_2_2_0_release/RECORD.md.
+
+## 2026-10-20 — Core 0.11.0 installed as a new version beside the sealed 0.10.2
+Sean Brady's permanent-change phrase and readback approval covered the Volume I pair; because both live in the sealed core, they were built as core 0.11.0 (a copy with additions; 0.10.2 untouched), installed as Duck 2.3.0 / IRONCLAD-R27 (ironclad H002744, tag duck-2.3.0). Procedure adopted for future core changes: new version directory, manifest repointed with the history entry as authority, predecessor manifest retained, rollback verified, fixtures pre-registered. Record: runs/20261020_core_0_11_0_release/RECORD.md.

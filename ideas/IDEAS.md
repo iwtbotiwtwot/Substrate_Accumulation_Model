@@ -104,3 +104,14 @@ frustrated-spin source is the operand; that transfer needs a source-derived thre
 - **Partition step in every summing word** (row coverage as one extra step). (REVIEW) — open
 - **Cost curve**: p=7 k=3 (about 205 words) and p=11 k=2 L=4 by a two-level summing tree in a longer window. (FIBER) — open
 - **Engine release for the 64×64 limit**: downgraded from a reach item to a convenience item by this run. — open, Sean Brady's decision
+
+## 2026-10-20 — after core 0.11.0 (proposed by Claude; status open; only Sean Brady changes a status)
+- **Volume I follow-up run (the one the constructions were built for):** a pre-registered peer run that puts the two readings of a declared
+  profile (q_r/q_e and √(q_r/q_e)) and the reservoir's two lapses beside the manuscript's N = √(1 − a) and the retired raw-lapse control
+  √(1 − A₀ − a), with the Gravity Probe A first-order coefficient as the external answer key (the closing section's table). — open
+- **Derived profile:** a reservoir with a source term J(x) so that q(x) is derived rather than declared; the static_profile construction then
+  becomes its reading layer. — open
+- **Derived lapse carried into the field:** feedback with lapse_source derived from a reservoir readout by reference (the readout is an enclosure;
+  the construction takes an exact rational, so an exact q from a declared profile is the current route). — open
+- **Update the 2.0 method document's §6:** three of the seven listed defects remain outside the Duck (per-stroke trace time: core; recipe scalar
+  inputs: SLC engine). — open
