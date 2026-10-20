@@ -12,3 +12,5 @@
   change, reverting after. Sean Brady: "temporary change approved".
 - 2026-10-19 — Follow up on the lead's recommended idea: the a(q) identification (ironclad campaign `aq_identification_20261019`).
 - 2026-10-19 — "follow your next recommended idea, temporary change to use Opus peers." → ironclad campaign `resting_clock_20261019` (the resting-clock comparison that decides γ); peers on Opus as a temporary change for this run, reverting after.
+
+- 2026-10-19 local / 2026-10-20 UTC — Sean Brady: "execute the run" following the proposed spin-memory comparison with Muruga et al., DOI 10.1038/s41567-026-03442-w. Ironclad campaign `spin_memory_20261019`, H002734; ordinary Duck2 four-peer900-second method. No installed change or automatic successor was authorized.

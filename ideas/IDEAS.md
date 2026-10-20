@@ -48,3 +48,7 @@ would make redshift and Shapiro delay two readings of one q(x). A new constructi
 `common_action.py` marks `local_metric_clock` OPEN and names "redshift-to-Ξ density" among its unknowns; feedback forces the lapse
 to 1. Candidate: the kinetic-metric phase rate e^(Λ/2)ψ̇ = 2E₀√q against the coordinate phase rate 2E₀q, as a pre-registered test
 that fails one way or the other. Permanent change.
+
+## 2026-10-20 — Operational spin memory and paid control beyond finite references (Codex peers) — open
+
+Ironclad H002734 / `campaigns/spin_memory_20261019` identifies three proposed continuations: compute the original-source three-time present/future tensor or a rigorous matched-preparation bound on its integer attempt clock; declare an allowed inherited64 control Hamiltonian before transferring the four-state work construction; and price measurement, preparation, controller memory/erasure and repeated-engine reset costs. The finite references retain a scoped history-dependent extraction-stage work advantage. These are proposals, not another run authorization. Directed by Sean Brady. Executed with Codex.
