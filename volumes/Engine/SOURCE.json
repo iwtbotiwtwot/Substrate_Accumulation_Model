@@ -1,0 +1,14 @@
+{
+ "schema": "SAM_VOLUME_SOURCE_V1",
+ "volume": "Engine",
+ "title": "SAM Engine Volume \u2014 The Exact Engine, GEN6 and the Duck",
+ "pdf": null,
+ "pdf_sha256": null,
+ "pdf_bytes": null,
+ "pages": null,
+ "conversion": "authored directly in Markdown in this repository (no PDF source)",
+ "converted_utc": "2026-10-20T23:23:20+00:00",
+ "living_text": "volumes/Engine/SAM_Engine_Volume.md",
+ "living_text_sha256_at_conversion": "726855e06558ae5fc09ab8a5858329c9c894b25ef392f2f9a8955d24062b0239",
+ "origin": "Sean Brady, 2026-10-20: \"Can you generate a paper in the same format as vol i-iii for the SLC, GEN6 and 'The Duck'. Everything there is to know about the program, its history and evolvement, capabilities and connections to SAM ... throw some examples of the collaborative work.\" Written by Claude Code from the ironclad history entries, installed documents and run reports listed in the volume's record of sources."
+}

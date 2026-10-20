@@ -13,6 +13,7 @@ and keep their credit; Claude Code executes under Sean's direction.
 
 | path | what it holds |
 |---|---|
+| `volumes/Engine` | the authored SAM Engine Volume (SLC, GEN6 and the Duck: history, capabilities, method, connections to the volumes, collaborative examples), its `SOURCE.json` and `CHANGELOG.md`; no PDF source |
 | `volumes/I`, `volumes/II`, `volumes/III` | the living Markdown of each volume (`SAM_Volume_*.md`), its `SOURCE.json` (PDF hash, pages, conversion), its `CHANGELOG.md`, and the source PDF under `source/` |
 | `runs/` | one folder per run or test that bears on the volumes: `RECORD.md` from `templates/RUN_RECORD.md`, pointing at the ironclad campaign, commit and history entry; no bulk data |
 | `decisions/DECISIONS.md` | Sean Brady's decisions, dated, in his words |
