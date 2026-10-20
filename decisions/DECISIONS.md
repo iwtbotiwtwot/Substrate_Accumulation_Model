@@ -22,3 +22,6 @@ Per Sean Brady's change-control rule, the result-handle change (Duck 2.1.1 / IRO
 
 ## 2026-10-20 — Blind replication of the FEOP run
 Sean Brady asked for the same FEOP run without the data it had gained, to compare. Done as a worktree at the pre-run commit with Duck 2.1.1 reinstalled there temporarily (approved readback); main stayed on 2.0.1; worktree removed after. Procedure adopted for future replications: pre-run commit worktree, fresh peers, lead's capture outside what peers read. Record: runs/20261020_feop_bound_c02_rerun/RECORD.md.
+
+## 2026-10-20 — Third FEOP replicate on the installed version
+Sean Brady asked for the same run on the reverted Duck 2.0.1 to check it does not underperform the temporary build; agreed framing: regression check plus third replicate, not a performance comparison. Result: the installed version ran the full recipe; the temporary handle change was not needed by this campaign. Open design point D5: a run with one declared failing control is labelled FAILED_WITH_RETAINED_OUTCOMES because a task cannot declare an expected FAILED. Record: runs/20261020_feop_bound_c02_run3/RECORD.md.

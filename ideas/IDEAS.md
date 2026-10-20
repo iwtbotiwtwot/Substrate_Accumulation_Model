@@ -76,3 +76,12 @@ frustrated-spin source is the operand; that transfer needs a source-derived thre
 - **Measured interval discrepancy instead of T^ω(m)**: the observed worst case sits 3× to 50× below the cylinder count. (CRT, LOCAL, REVIEW) — open
 - **Growing z with X**: the only setting where capping the Selberg support is needed and where a statement beyond the standard fixed-level sieve could sit. (CRT, BOUND) — open
 - **Procedure**: peers keep host generators under peers/<NAME>/gen/ (shared scratchpad collisions); lead's live capture outside what peers read. — open
+
+## 2026-10-20 — from feop_bound_c02_run3 (proposed by Claude peers; status open; only Sean Brady changes a status)
+- **Exact remainder polynomial** 4T³+19T²+12T+1 (z=7), 14T³+34T²+15T+1 (z=11) in place of 9|D|²T³; restate C02 with it and compare at equal X
+  with the two-sided Legendre count using the measured remainder. (CRT, BOUND) — open
+- **Form of the measured joint discrepancy**: not additive across primes (refuted), not linear in T; candidates ∏(1+D_p) − 1 or k·max D_p,
+  tested exactly at 3–4 primes. (CRT) — open
+- **Minimal diameter of tuples with the nested per-prime structure**: is max_p p^(2(g−1)) a lower bound? exhaustive search at small g. (REVIEW, LOCAL) — open
+- **Frontier correction made exact in a native recipe**: D_g(L) − D_g(∞) = g/((p+1)p^(2L)) for L ≥ g. (LOCAL) — open
+- **Design point D5 (program)**: let a task declare an expected FAILED so negative-control recipes do not relabel the run. — open, Sean Brady's decision
