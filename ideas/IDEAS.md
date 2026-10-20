@@ -68,3 +68,11 @@ frustrated-spin source is the operand; that transfer needs a source-derived thre
   grows with X. (REVIEW) — open
 - **Literature**: get Halberstam–Richert (Selberg Λ², level of distribution) into the retrieval index before any write-up. — open
 
+## 2026-10-20 — from feop_bound_c02_rerun (proposed by Claude peers; status open; only Sean Brady changes a status)
+- **Exact Selberg remainder in C02's frame**: replace the coarse 324/576 constant by B_z(g) = Σ|γ_m|T^ω(m) (leading constant ≈1.44 / 3.27);
+  gate the signs of γ_m natively. (BOUND) — open
+- **Roster as a free parameter**: build the best-roster curve against g natively; the ≤14 roster already beats C02's and Legendre at g=16..19. (BOUND, REVIEW) — open
+- **Put run 1's depth-uniform bracket and the rerun's exact remainder side by side natively**; neither recurred in the other run. (lead) — open
+- **Measured interval discrepancy instead of T^ω(m)**: the observed worst case sits 3× to 50× below the cylinder count. (CRT, LOCAL, REVIEW) — open
+- **Growing z with X**: the only setting where capping the Selberg support is needed and where a statement beyond the standard fixed-level sieve could sit. (CRT, BOUND) — open
+- **Procedure**: peers keep host generators under peers/<NAME>/gen/ (shared scratchpad collisions); lead's live capture outside what peers read. — open
