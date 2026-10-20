@@ -149,3 +149,10 @@ frustrated-spin source is the operand; that transfer needs a source-derived thre
 
 ## 2026-10-20 — Sean Brady: "Why am I thinking of the RH program reading these results?" (idea, logged at his word "just log it")
 The spin results have an RH shape: an ordered past entering a present quantity through a kernel (reciprocal history ↔ hidden-history memory; path-order dependence of the field ↔ the ordered switching ledger); the staircase share of the ceiling (0.45, 0.65, 0.79 → 1 in the quasistatic limit) as a nested recurrence with a complete remainder, the FEOP form; the same sign-bracketing instrument; novelty dissolved in both by widening the comparison family (Selberg sieve; benchmark family); the 64 wall (matrix limit; 64-state control Hamiltonian). Concrete check proposed by Claude: write the staircase gain as a function of stage count with its remainder to I(i;h|j) and test whether the remainder has the FEOP recurrence structure. Low confidence it connects; cheap to find out. — open
+
+## 2026-10-20 — from spin_work_2 (proposed by Claude peers; status open)
+- **Share of I against total time** for 2, 3, 4 free stages, both policies re-optimised at every dwell, each chain inside one recipe DAG. — open
+- **Records chosen for correlation with the hidden part**, not completeness (64-state: port 0 carries 68 % of the ceiling at a quarter of the price); noisy or coarse records to raise ceiling/floor above 6 %. — open
+- **A hidden-field stroke on one hidden port of the 64-state source**, priced against its ~5e-4 ceiling. — open
+- **A repeated-cycle family** that reuses j as the next cycle's i. — open
+- **Program note:** the Duck's run-wide queue bound (64 queued-or-running) should be in every briefing; a per-peer in-flight cap is the peers' discipline. — open (method)
