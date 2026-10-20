@@ -136,3 +136,13 @@ frustrated-spin source is the operand; that transfer needs a source-derived thre
 - **Field-strength control per branch** (dwell alone cannot reach the j = 0 information). — open
 - **Reset stroke and repeated cycles with the register reused**; the register ledger on the 64-state source once a control Hamiltonian is declared. — open
 - **Matched-present test on the order-dependent field state** (same present ticks, different field memory). — open
+
+## 2026-10-20 — from spin_work_1 (proposed by Claude peers; status open; only Sean Brady changes a status)
+- **Finite-dwell staircase** with a hidden-spin field: how much of the 0.79 share of the hidden information survives finite time; compare the two schedules (visible then hidden vs both together). — open
+- **Price the record at the staircase optimum** natively at separations 1/2, 1, 2, 4; reuse the j = 1 record over repeated cycles against a per-cycle cost. — open
+- **Dwell plus hidden field at separation 1/4**: is the short-separation dwell gain the finite-dwell part of the hidden-field route? — open
+- **The hidden-field stroke on one hidden port of the 64-state source** (a concrete control Hamiltonian); the visible-field staircase there needs only stationary weights of declared generators. — open
+- **A source with more than two earlier values**, to test whether a coarse record keeps the gain. — open
+- **Is a field on an unobserved spin an admissible control?** (the hidden-field family's premise.) — open
+- **Recipes with interval_contains checks enforcing the gain signs**, so the separation trend becomes a checked result. — open
+- **Benchmark families**: any future history-vs-current-only comparison must give both the same control family (strength, stages, hidden field); the earlier 0.00023 did not. — open (method)
