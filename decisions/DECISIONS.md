@@ -28,3 +28,6 @@ Sean Brady asked for the same run on the reverted Duck 2.0.1 to check it does no
 
 ## 2026-10-20 — Matrix limit: recipe route tried first, engine release not needed for reach
 Sean Brady chose to try the fibering/recipe route before any engine release. Result (ironclad H002742): fibering reaches far past the 64-row word limit with no program change, and the real obstruction is the residue count p^(2k), which no matrix limit changes. The engine-release candidate for the matrix limit is therefore downgraded to a convenience; the route to the bracket rows at large k is a per-level receipt, logged as an open idea. Record: runs/20261020_feop_bracket_fiber/RECORD.md.
+
+## 2026-10-20 — Permanent release Duck 2.2.0 (five Duck-layer defects) and the Volume I pair
+Sean Brady typed the permanent-change phrase and approved the readback for two items in order: the five Duck-layer defects as one release (done: Duck 2.2.0 / IRONCLAD-R26, ironclad H002743, tag duck-2.2.0) and then the Volume I pair (a static Λ(x) profile with two positions; a derived local metric clock), which live in the sealed core and therefore proceed as a new core version with its own written plan, fixtures and rollback check before install. Record: runs/20261020_duck_2_2_0_release/RECORD.md.
