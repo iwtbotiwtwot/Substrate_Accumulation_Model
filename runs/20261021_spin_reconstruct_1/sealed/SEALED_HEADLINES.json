@@ -1,0 +1,88 @@
+{
+ "schema": "SEALED_HEADLINES_V1",
+ "campaign": "spin_reconstruct_1_20261021",
+ "sealed_utc": "2026-10-21",
+ "note": "Prior values of the five objects defined in prior/DEFINITIONS.md, with provenance; written by the lead before preparation, hashed into ironclad campaigns/spin_reconstruct_1_20261021/sealed/SEALED_HEADLINES.sha256, held in the documentation repository until the window closes. Comparison: to the printed digits (1e-10), or within the stated width, or disagreed. Engineering labels only; nothing is a claim. Directed by Sean Brady. Executed with Claude Code.",
+ "objects": {
+  "S1": {
+   "definition": "4 stages, dwell 4 each (T=16), fields in G10w, per-chain optimum",
+   "gain": "0.0159283072",
+   "share_of_I": "0.7037",
+   "provenance": [
+    "spin_work_4 ONE one_d4n4 (library recipe PASSED, CERTIFIED_LOG witness), H002758",
+    "spin_work_3 host sum 0.704 of I"
+   ],
+   "lead_host_check": {
+    "exhaustive_grid": "0.015928307215850368",
+    "coordinate_descent_from_zero": "0.017314726898502816 (a worse current-only optimum inflates the difference; the sealed value is the exhaustive grid optimum)"
+   }
+  },
+  "S2a": {
+   "definition": "2 stages, dwells (4,4) (T=8), fields in G10n",
+   "gain": "0.0122070844",
+   "share_of_I": "0.5393",
+   "provenance": [
+    "spin_work_4 THREE three_s2_4_4 and ONE one_d4n2; spin_work_3 FOUR s2t8; library offline-test 0.0122070844490"
+   ],
+   "lead_host_check": {
+    "exhaustive_grid": "0.012207084448955872",
+    "note": "the same value on G10w"
+   }
+  },
+  "S2b": {
+   "definition": "2 stages, dwells (4,4), fields in G20",
+   "gain": "0.0119173272",
+   "share_of_I": "0.5265",
+   "difference_S2a_minus_S2b": "+0.00028976 (positive: the coarser grid gives the larger gain)",
+   "provenance": [
+    "spin_work_4 FOUR four_cl2 = THREE three_f20_s2_4_4; four_grid / four_grid_pos CERTIFIED_LOG"
+   ],
+   "lead_host_check": {
+    "exhaustive_grid": "0.01191732721868647"
+   }
+  },
+  "S2c": {
+   "definition": "T=8 on dwell lattice 2, shapes (2,2,4) and (2,2,2,2), fields in G10n",
+   "gain_224": "0.0125995807",
+   "gain_2222": "0.0122389840",
+   "ordering_224_minus_2222": "+3.605967e-04 (three stages beat four on this grid)",
+   "provenance": [
+    "spin_work_4 THREE three_s3_2_2_4, three_s4_2222 (= ONE one_fr4 0.0122389840), three_ord_o43 PASSED, three_negctl_o43 FAILED_AS_DECLARED"
+   ],
+   "lead_host_check": {
+    "exhaustive_224": "0.012599580671311096",
+    "exhaustive_2222": "0.012238984007444248",
+    "coordinate_descent_2222": "0.012190303021526266 (under-optimised)"
+   }
+  },
+  "S2d": {
+   "definition": "the same shapes with fields in G20",
+   "gain_224": "0.0124150254",
+   "gain_2222": "0.0128545998",
+   "ordering_2222_minus_224": "+4.395744e-04 (four stages beat three on this grid: the reversal)",
+   "provenance": [
+    "spin_work_4 THREE three_f20_s3_2_2_4, three_f20_s4_2222, three_ord_f43 PASSED, three_negctl_f43 FAILED_AS_DECLARED"
+   ],
+   "search_caveat": "THREE's G20 fields were chosen near the continuous host optimum, not by exhaustive search over G20; an exhaustive rebuild may exceed these gains. The match criterion for S2d is the sign of the ordering and gains at or above the sealed values; a lower gain with the same declared search would be a disagreement.",
+   "lead_host_check": {
+    "coordinate_descent_224": "0.01241502537865894",
+    "coordinate_descent_2222": "0.012841905124884881 (below THREE's 0.0128545998: coordinate descent is not exhaustive on G20 at four stages)"
+   }
+  }
+ },
+ "constants": {
+  "I": "0.0226357",
+  "separation": "1",
+  "E0": [
+   "0",
+   "1",
+   "2",
+   "0"
+  ],
+  "attempts": [
+   "1/2",
+   "1/2"
+  ]
+ },
+ "what_a_match_means": "The definitions are complete enough for a separate implementation to reach the same engine numbers; it does not make the earlier runs independent of this model or of the lead's definitions (CLAUDE.md section 8)."
+}
