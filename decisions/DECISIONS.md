@@ -46,3 +46,6 @@ Sean Brady, on the lead's readback of the ordered feedback clock (one metric lap
 
 ## 2026-10-21 — D5 and the 64×64 word limit: "proceed as recommended"
 Sean Brady, on the lead's options: for D5, richer control declarations (an expected engine output status, an expected failure reason) plus declared superseding of undeclared failed first attempts, as one Duck release (2.3.3), prepared on ironclad branch `duck-2.3.3` and awaiting his "Allow permanent changes" and readback approval (docs/DUCK_2.3_3_RELEASE_PLAN.md). For the 64×64 source-word limit: the engine limit stays (option A); a Duck-side fibering helper with partition receipts is adopted (option C), ironclad `campaigns/recipe_library/fibered_word/` (commit 03915ea). An engine revision to 128 remains the step to ask for if the FEOP work needs p = 11 at k ≥ 3 by enumeration.
+
+## 2026-10-21 — Duck 2.3.3 installed
+Sean Brady: "Allow permanent changes readback approved" on docs/DUCK_2.3_3_RELEASE_PLAN.md. Installed as Duck 2.3.3 / IRONCLAD-R30 (ironclad H002754, tag duck-2.3.3). Record: runs/20261021_duck_2_3_3_release/RECORD.md.
