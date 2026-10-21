@@ -232,3 +232,16 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
 - **Φ, the map from the stationary (g+2) form to the 4-state form, for the v_p(Q) = e family**; a reusable "4-state = Φ·stationary" gate as a library candidate. (ONE) — open
 - **Chained summing words** for p = 2 at depths 9–10 and p = 3 at depth 6. (ONE) — open
 
+## 2026-10-21 — from volii_matter_1 (proposed by Claude peers; status open; only Sean Brady changes a status)
+- **Native shares**: recompute every share with THREE's log-trace ceiling route and witness share orderings by cross-multiplication (gain_B·I_Z − gain_Z·I_B), so no host
+  division remains; the ceiling route as a library recipe. (ONE, THREE) — open
+- **The Chapter IX sub-source wider**: one port plus two hidden spins (8 states, or fibered), a field on one tau_p against a field on the hidden sum H; IX-A on G40 or at
+  the continuous optimum; IX.3's conditional-variance payment natively on the exact 3^±1 weights; IX-B at two stages and separation 1/2 (prepared, not run). (ONE) — open
+- **A staircase recipe returning each stage's state**, so the energy recipient's lapse-switching work (N_{k+1} − N_k)·E0·q_k is native; then the ordered-clock pair under
+  both recipients (clock order-blind, energies order-sensitive); the energy recipient's share against N; a mixed recipient (clock N^a, energies N^(1−a)). (FOUR, THREE) — open
+- **Information into the binding flow**: a policy reading the full state (including r) that switches at y = r against one reading y alone, with declared readout noise or a
+  declared ensemble of starting states; certify the clock saturation sqrt(eta/(2E)) and the g-independence of the phase as a recipe; coupling staircases at eta ≥ 1 with
+  switch timing optimised on one family; a fibered recipe so a coupling staircase fits one method. (TWO) — open
+- **Method note**: a recipe control whose failure may come from an engine error is declared by `expected_reason`, or its bases are tested offline first (second occurrence
+  of the named-check misdeclaration). — open, lead's note
+
