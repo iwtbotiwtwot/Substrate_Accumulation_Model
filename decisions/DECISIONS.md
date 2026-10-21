@@ -43,3 +43,6 @@ Sean Brady asked for a rollback of the Volume I pair, then withdrew it: "Disrega
 
 ## 2026-10-21 — Γ stays declared; ordered feedback clock installed as core 0.11.2
 Sean Brady, on the lead's readback of the ordered feedback clock (one metric lapse per event, field carried between events, inertia-identity certificate, N·Γ readout): "Leave it declared - Allow permanent changes", then "readback approved". Γ = κ/(2c) remains an input of the action; no construction derives it. Installed as core 0.11.2 / Duck 2.3.2 / IRONCLAD-R29 (ironclad H002753, tag duck-2.3.2). Record: runs/20261021_core_0_11_2_release/RECORD.md.
+
+## 2026-10-21 — D5 and the 64×64 word limit: "proceed as recommended"
+Sean Brady, on the lead's options: for D5, richer control declarations (an expected engine output status, an expected failure reason) plus declared superseding of undeclared failed first attempts, as one Duck release (2.3.3), prepared on ironclad branch `duck-2.3.3` and awaiting his "Allow permanent changes" and readback approval (docs/DUCK_2.3_3_RELEASE_PLAN.md). For the 64×64 source-word limit: the engine limit stays (option A); a Duck-side fibering helper with partition receipts is adopted (option C), ironclad `campaigns/recipe_library/fibered_word/` (commit 03915ea). An engine revision to 128 remains the step to ask for if the FEOP work needs p = 11 at k ≥ 3 by enumeration.

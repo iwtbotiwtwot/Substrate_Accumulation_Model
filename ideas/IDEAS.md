@@ -84,7 +84,7 @@ frustrated-spin source is the operand; that transfer needs a source-derived thre
   tested exactly at 3–4 primes. (CRT) — open
 - **Minimal diameter of tuples with the nested per-prime structure**: is max_p p^(2(g−1)) a lower bound? exhaustive search at small g. (REVIEW, LOCAL) — open
 - **Frontier correction made exact in a native recipe**: D_g(L) − D_g(∞) = g/((p+1)p^(2L)) for L ≥ g. (LOCAL) — open
-- **Design point D5 (program)**: let a task declare an expected FAILED so negative-control recipes do not relabel the run. — open, Sean Brady's decision
+- **Design point D5 (program)**: let a task declare an expected FAILED so negative-control recipes do not relabel the run. — decided 2026-10-21 ("proceed as recommended"): expected_output_status, expected_reason and supersedes, prepared as Duck 2.3.3 on ironclad branch duck-2.3.3; awaiting "Allow permanent changes" and readback approval. — adopted (pending install)
 
 ## 2026-10-20 — from feop_sidebyside (proposed by Claude peers; status open; only Sean Brady changes a status)
 - **Run 1's depth-uniform bracket**: now with native receipts for its two steps on small cases and located hypotheses; next is coverage
@@ -93,7 +93,7 @@ frustrated-spin source is the operand; that transfer needs a source-derived thre
 - **Step (b) for general even-separated tuples** (count distinct offsets mod p^(2k) instead of k), needed for the small-diameter families. (REVIEW) — open
 - **A lower side that survives growing z** (inclusion–exclusion over primes instead of a union bound). (REVIEW) — open
 - **Program limit**: the source-word 64×64 matrix bound is the binding constraint on native coverage; raising it is a permanent-change
-  candidate for Sean Brady's decision. — open
+  candidate for Sean Brady's decision. — decided 2026-10-21 ("proceed as recommended"): the engine limit stays; the Duck-side fibering helper `campaigns/recipe_library/fibered_word/` (partition receipts built in) is the route (ironclad 03915ea). — adopted (helper), dropped (engine release for now)
 - **Documentation**: source-word payload contract added to the authoring guide (done 2026-10-20). — adopted (documentation fix, Tier 1)
 
 ## 2026-10-20 — from feop_bracket_fiber (proposed by Claude peers; status open; only Sean Brady changes a status)
@@ -103,7 +103,7 @@ frustrated-spin source is the operand; that transfer needs a source-derived thre
   offsets recomputed from (p, g, k, L). (REVIEW, RECIPE) — open
 - **Partition step in every summing word** (row coverage as one extra step). (REVIEW) — open
 - **Cost curve**: p=7 k=3 (about 205 words) and p=11 k=2 L=4 by a two-level summing tree in a longer window. (FIBER) — open
-- **Engine release for the 64×64 limit**: downgraded from a reach item to a convenience item by this run. — open, Sean Brady's decision
+- **Engine release for the 64×64 limit**: downgraded from a reach item to a convenience item by this run. — decided 2026-10-21: not now; fibering helper adopted instead (see feop_sidebyside entry). — dropped (for now)
 
 ## 2026-10-20 — after core 0.11.0 (proposed by Claude; status open; only Sean Brady changes a status)
 - **Volume I follow-up run (the one the constructions were built for):** a pre-registered peer run that puts the two readings of a declared
@@ -176,7 +176,7 @@ The spin results have an RH shape: an ordered past entering a present quantity t
 - **How each n-stage finite-dwell curve closes the gap to its stationary value**; a real optimiser through the exact maps. — open
 - **A runnable protocol combining geodesic spacing with end half-steps**, priced by forward work only; a native thermodynamic-length recipe; geodesic schedules inside the history/current-only gain; whether the symmetric-1/n / asymmetric-1/n² split survives finite dwell. — open
 - **The flag record**: a → 1 share in closed form as a ratio of two relative entropies; the channel (a, b) optimum per separation; the flag record on the 64-state source; a staircase driven by the flag record. — open
-- **Program note (D5):** the three declared controls carried their status this run; the six undeclared failures were first attempts against an exact-zero-eigenvalue log trace. A support-only trace is the workaround; worth a line in the authoring guide. — open (method)
+- **Program note (D5):** the three declared controls carried their status this run; the six undeclared failures were first attempts against an exact-zero-eigenvalue log trace. A support-only trace is the workaround; worth a line in the authoring guide. — addressed by Duck 2.3.3 `supersedes` (prepared, pending install); the authoring-guide line is still to add. — open (method)
 
 ## 2026-10-21 — Ordered feedback clock: definition and prototype (proposed by Claude at Sean Brady's "Proceed with item 2"; status open; only Sean Brady changes a status)
 One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i natively in an event-clock word, the propagator as the path-ordered product of one exponential per event acting on the full (z, p, a) state so the field is carried between events, an optional initial field coordinate a(0), the domain check kept, and per event two native certificates: the energy identity and the inertia identity G(N_i, Γ)·elapsed_i = G(1, N_i·Γ)·ΔN_i, with N_i·Γ emitted as the readout `inertia_scale`. Legacy and 0.11.1 charts byte-identical. Offline matrix on ironclad branch `sandbox/feedback-ordered-20261021` (`sandbox/feedback_ordered_20261021/FEEDBACK_ORDERED_DEFINITION.md`, `RESULTS.md`): path order reproduces the peers' hand-built gaps (kinetic z gap 1.4635e-3, coordinate 4.031e-3), the reversal invariant h_end from rest holds to 1e-47 on both readings, all certificates zero. **Γ is not derived**: the state depends on N and Γ only through N·Γ and on time through the tick count; separating them needs an observable outside the contract (reservoir η = E₀/(2α²) as a field inertia replacing κ; a radiated-energy ledger per proper time; the bracketed twin). Decisions taken by Sean Brady 2026-10-21: Γ stays declared ("Leave it declared - Allow permanent changes", "readback approved"); installed as core 0.11.2 / Duck 2.3.2 / IRONCLAD-R29 (H002753). The three Γ candidates stay open ideas. — adopted
