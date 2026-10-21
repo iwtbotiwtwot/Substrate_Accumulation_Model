@@ -213,3 +213,13 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
 - **The bracket's R1..R6 at k = 24 from the operator** for the z = 7 and z = 11 openings by $result, then the hybrid envelope from operator columns; the explicit per-set coefficients against the ω levels of the Selberg exact remainder. — open
 - **Fibering library fixes** (single-case summing word; 2-D row count once per column block), each with a declared control. — fixed 2026-10-21 (ironclad b940fa95): regression test_gaps.py passes on the single-case word, the honest 2-D 6561-residue case and a dropped-block control. A generic "iterate against closed form" gate as a library recipe. — open
 - **Reconcile** ONE's nilpotent-shift reading of the pre-depth phase with the Jordan block of the 4-state form (same counts, two coordinates). — open
+
+## 2026-10-21 — from spin_verify_1 (proposed by Claude peers; status open; only Sean Brady changes a status)
+- **Each gain beside its spread across grids** (1/20, 1/40, 1/80, 1/160): any ordering smaller than the spread (about 1e-5 at two stages, 5e-5 at four) is unresolved. (ONE) — open
+- **Per-chain continuous optimum with a native gradient certificate**, so gains compare against the grid-free limit instead of grid to grid. (ONE, TWO, THREE) — open
+- **Per-policy grid loss as one recipe**: for each shape and grid, how far each policy's grid optimum falls short of its continuous optimum. (THREE) — open
+- **Grid-offset scan at fixed step** to separate alignment from step in the T = 8 reversal; certify the odd-1/12 and 1/12-offset-1/24 reversal cases FOUR found on the host. (FOUR) — open
+- **Several staircases' stages as one block product** (up to 16 chains in 64 dimensions) to cut the serial depth of independent-code chains. (FOUR) — open
+- **Per-policy increments G40 → G80 and at (2,2,2,2)**: is the sign of the mechanism ordering set by alignment with each chain's optimum? (TWO) — open
+- **Status note on an earlier idea:** "fix the comparison family before any ordering" (spin_work_4) is confirmed and sharpened: the family must be each policy's continuous optimum, not a finer grid. — open, Sean Brady's decision
+
