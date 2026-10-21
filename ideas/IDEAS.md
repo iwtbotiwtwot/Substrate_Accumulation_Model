@@ -184,3 +184,12 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
 ## 2026-10-21 — from the Duck 2.3.3 fixture (proposed by Claude; status open)
 - **Plan openings carry no author and cannot be superseded** under the same-author rule of `supersedes`; peer runs are unaffected (peers submit both sides). If root-authored openings ever need superseding, treat a missing author as ROOT_SUBMITTED in a later Duck release. — open (method)
 - **Authoring-guide line for the next campaign:** the three control fields (expected_output_status, expected_reason, supersedes) and the support-only log-trace workaround for exact-zero diagonals. — open (method, do at the next staging)
+
+## 2026-10-21 — from voli_threads_4 (proposed by Claude peers; status open)
+- **The adjacent-swap closed form as a native recipe**: block-diagonal 4×4 generators carrying both orders in one product and a SOLVE-based ratio against the exact s-difference; on the off-fixture family with s replaced by k = εg²W/(2NΓ). — open (next construction-level certificate)
+- **Which permutation statistics are exactly affine** for 4 and 5 segments; **why the coordinate/kinetic gap ratio** sits below the two-segment value 35/12. — open
+- **Energy per event as the readout** that tells a radar palindrome from its sorted rearrangement; native recipes for m₁₂ + m₂₁ = 0 and the reversal energy sum. — open
+- **Ticks tied to positions as their own family** (collinearity breaks there; the reversal law survives). — open
+- **Chains past 2R/c against the retained-delay successor** the refusal names; the domain bounds field time, not the dynamics. — open
+- **Per-event ε or port, or a two-port construction**: the first place N·Γ and k would come apart along a path; a construction candidate. — open
+- **Program note:** declare `expected_reason` on controls that fail by construction; ONE's wrong-reason control shows why. — open (method)
