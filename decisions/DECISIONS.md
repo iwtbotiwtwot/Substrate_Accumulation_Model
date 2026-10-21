@@ -52,3 +52,6 @@ Sean Brady: "Allow permanent changes readback approved" on docs/DUCK_2.3_3_RELEA
 
 ## 2026-10-21 — 1500 s window, one run (temporary)
 Sean Brady: "Do both cheap changes and prepare the next run at 1500 seconds", then "readback approved". Temporary per CLAUDE.md §13: voli_threads_5 ran with a 1500 s window; the method's 900 s stands. Result of the trial: 67 identities certified natively against 12 at 900 s. The standing window is his next decision.
+
+## 2026-10-21 — 1500 s is the standing window; 600 s probe runs as an option; recipes validated into the library
+Sean Brady, after the voli_threads_5 trial (67 identities certified natively against 12 at 900 s): "1500 seconds is the standing window with a 600 second 'probe' run as an option. If recipes are validated pass, talk to me about the expected_reason fix." Recorded in ironclad docs/DUCK_2.0_METHOD.md (commit 2e591ff2). The 24 recipes the peers admitted in voli_threads_5 were replayed offline (admit, compile with the peers' inputs, execute): every passing execute PASSED and every declared control FAILED at its check; they are now in campaigns/recipe_library/identities/ with examples. The expected_reason fix is the next discussion.
