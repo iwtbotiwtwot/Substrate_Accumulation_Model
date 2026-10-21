@@ -207,3 +207,9 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
 - **Staircase library variants:** maps keyed by (field, dwell) so free dwell needs no lattice; more than seven stages; a declared-field-list recipe deriving generator energies and coefficient rows together. — open (Tier 1)
 - **Flag record:** three and four stages; the channel (a, b) optimised with the fields for gain/B; native I_f and B from exact rational conditionals. — open
 - **Program note:** a log trace inside a recipe fails by engine error; declare such controls by `expected_reason`, not `expected_failed_check` (a recipe-level sign predicate would make the named-check form available). — open (method)
+
+## 2026-10-21 — from feop_transfer_1 (proposed by Claude peers; status open)
+- **The general offset-tree operator** (p ∤ Q by even separations; odd separations by whole-cluster death; non-nested tuples), so a growing-z run needs no enumeration; a reduced joint operator of about 2^π(z) states from the per-prime (T, Z) blocks, since the Kronecker form passes 64 at four primes. — open
+- **The bracket's R1..R6 at k = 24 from the operator** for the z = 7 and z = 11 openings by $result, then the hybrid envelope from operator columns; the explicit per-set coefficients against the ω levels of the Selberg exact remainder. — open
+- **Fibering library fixes** (single-case summing word; 2-D row count once per column block), each with a declared control; a generic "iterate against closed form" gate as a library recipe. — open (Tier 1, lead)
+- **Reconcile** ONE's nilpotent-shift reading of the pre-depth phase with the Jordan block of the 4-state form (same counts, two coordinates). — open
