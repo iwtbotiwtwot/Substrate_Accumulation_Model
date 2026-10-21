@@ -1,7 +1,7 @@
 # Release record: Duck 2.3.3 / IRONCLAD-R30, D5 completed, 2026-10-21
 
 **Kind:** permanent installed-version change, Duck layer only (CLAUDE.md §13). Sean Brady: "proceed as recommended", then "Allow permanent changes readback approved".
-**Where:** ironclad main 03915ea (tag duck-2.3.3), history entry H002754, plan docs/DUCK_2.3_3_RELEASE_PLAN.md, fixture qualification/fixtures/declared_control_2
+**Where:** ironclad main 4566c04 (merge commit; release commit e3dc873, tag duck-2.3.3), history entry H002754, plan docs/DUCK_2.3_3_RELEASE_PLAN.md, fixture qualification/fixtures/declared_control_2
 (PREREGISTRATION.json with two open amendments, RUN_CHECK.json), runs runs/duck/ironclad-r30-declared-control-2, -2b, -2c.
 
 **What changed.** A control task may now declare the engine status it must complete with (expected_output_status, for controls the engine completes as
