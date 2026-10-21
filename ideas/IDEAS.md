@@ -171,7 +171,7 @@ The spin results have an RH shape: an ordered past entering a present quantity t
 - **Program notes:** 64 operators per word; GEN5 entropy routes take exact probabilities only. — open (method)
 
 ## 2026-10-21 — from spin_work_3 (proposed by Claude peers; status open)
-- **One recipe DAG per staircase** (generators, maps, states, contraction, witness), then the full total-time-8 set for 1–4 stages natively with the 3-vs-2 and 4-vs-3 witnesses that nesting does not decide. — open (method, first for the next spin run)
+- **One recipe DAG per staircase** (generators, maps, states, contraction, witness), then the full total-time-8 set for 1–4 stages natively with the 3-vs-2 and 4-vs-3 witnesses that nesting does not decide. — adopted as a standing requirement by Sean Brady 2026-10-21 ("Lets do the one-recipe-per-staircase requirement"): ironclad `campaigns/recipe_library/staircase/` (commit bcc02e2): recipe generator, Duck task writer, offline harness; reproduces spin_work_3's one-, two- and three-stage gains to every digit and runs a four-stage case in one method. The total-time-8 set itself remains an open run item.
 - **Free unequal dwell per stage at fixed total time** (a family that nests properly): where should the dwell go? — open
 - **How each n-stage finite-dwell curve closes the gap to its stationary value**; a real optimiser through the exact maps. — open
 - **A runnable protocol combining geodesic spacing with end half-steps**, priced by forward work only; a native thermodynamic-length recipe; geodesic schedules inside the history/current-only gain; whether the symmetric-1/n / asymmetric-1/n² split survives finite dwell. — open
