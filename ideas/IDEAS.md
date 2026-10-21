@@ -223,3 +223,12 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
 - **Per-policy increments G40 → G80 and at (2,2,2,2)**: is the sign of the mechanism ordering set by alignment with each chain's optimum? (TWO) — open
 - **Status note on an earlier idea:** "fix the comparison family before any ordering" (spin_work_4) is confirmed and sharpened: the family must be each policy's continuous optimum, not a finer grid. — open, Sean Brady's decision
 
+## 2026-10-21 — from feop_verify_1 (proposed by Claude peers; status open; only Sean Brady changes a status)
+- **The offset-tree rule as an operator on cluster states**, certified natively against the ten new tuples; then a joint case pairing a non-nested tuple at one prime
+  with p ∤ Q at another. (FOUR) — open
+- **A reduced joint operator** of about 2^π(z) states (instead of 4^π(z)) so the joint step passes four primes; deeper direct joint enumerations including 11
+  (3⁴·5²·11², 245,025 residues); the coefficient formula with v_p(Q) varying by prime. (THREE) — open
+- **The children identity as a library gate**; B's T column as a children word; p = 11 or 13 at depth 3. (TWO) — open
+- **Φ, the map from the stationary (g+2) form to the 4-state form, for the v_p(Q) = e family**; a reusable "4-state = Φ·stationary" gate as a library candidate. (ONE) — open
+- **Chained summing words** for p = 2 at depths 9–10 and p = 3 at depth 6. (ONE) — open
+
