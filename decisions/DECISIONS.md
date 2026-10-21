@@ -40,3 +40,6 @@ Sean Brady, during the voli_lapse run: "We are done binding these runs to manusc
 
 ## 2026-10-20 — Rollback of the Volume I pair withdrawn; feedback clock defined and installed as core 0.11.1
 Sean Brady asked for a rollback of the Volume I pair, then withdrew it: "Disregard the rollback, I need a precise definition connecting lapse, event count, elapsed time and the feedback evolution time..." He adopted the recommended conventions ("proceed with your recommendations": coordinate time per source tick = 1/N; N scales the source block of the feedback generator) and approved the permanent change ("Allow permanent changes, readback approved"). Installed as core 0.11.1 / Duck 2.3.1 / IRONCLAD-R28 (ironclad H002746, tag duck-2.3.1). Record: runs/20261020_core_0_11_1_release/RECORD.md.
+
+## 2026-10-21 — Γ stays declared; ordered feedback clock installed as core 0.11.2
+Sean Brady, on the lead's readback of the ordered feedback clock (one metric lapse per event, field carried between events, inertia-identity certificate, N·Γ readout): "Leave it declared - Allow permanent changes", then "readback approved". Γ = κ/(2c) remains an input of the action; no construction derives it. Installed as core 0.11.2 / Duck 2.3.2 / IRONCLAD-R29 (ironclad H002753, tag duck-2.3.2). Record: runs/20261021_core_0_11_2_release/RECORD.md.
