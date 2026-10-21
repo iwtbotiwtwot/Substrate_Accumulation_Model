@@ -156,3 +156,9 @@ The spin results have an RH shape: an ordered past entering a present quantity t
 - **A hidden-field stroke on one hidden port of the 64-state source**, priced against its ~5e-4 ceiling. — open
 - **A repeated-cycle family** that reuses j as the next cycle's i. — open
 - **Program note:** the Duck's run-wide queue bound (64 queued-or-running) should be in every briefing; a per-peer in-flight cap is the peers' discipline. — open (method)
+
+## 2026-10-21 — from voli_threads_3 (proposed by Claude peers; status open)
+- **A feedback construction with an initial field coordinate, or one lapse per event carrying the field state** with the domain check kept; the reversal recipe as its regression check. — open, construction candidate
+- **A readout that fixes N·Γ separately from N** (from the reservoir's E₀ and α): the only route to deriving Γ the runs can see. — open
+- **A bracketed twin in the reservoir chart** (sech²(αt′) = sech(αt)) as the observable that ties a to the source and could separate the two readings. — open
+- **A kinetic light-index option in static_profile** for general rational u; a radiated-energy or phase readout telling a radar palindrome from its sorted rearrangement; how the symmetry matrix relates to the energy identity. — open
