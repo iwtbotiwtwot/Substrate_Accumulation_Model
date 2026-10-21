@@ -49,3 +49,6 @@ Sean Brady, on the lead's options: for D5, richer control declarations (an expec
 
 ## 2026-10-21 — Duck 2.3.3 installed
 Sean Brady: "Allow permanent changes readback approved" on docs/DUCK_2.3_3_RELEASE_PLAN.md. Installed as Duck 2.3.3 / IRONCLAD-R30 (ironclad H002754, tag duck-2.3.3). Record: runs/20261021_duck_2_3_3_release/RECORD.md.
+
+## 2026-10-21 — 1500 s window, one run (temporary)
+Sean Brady: "Do both cheap changes and prepare the next run at 1500 seconds", then "readback approved". Temporary per CLAUDE.md §13: voli_threads_5 ran with a 1500 s window; the method's 900 s stands. Result of the trial: 67 identities certified natively against 12 at 900 s. The standing window is his next decision.
