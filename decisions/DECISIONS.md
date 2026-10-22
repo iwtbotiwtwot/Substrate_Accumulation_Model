@@ -70,3 +70,11 @@ Sean Brady: "Apply the suggested words to all of them and commit, proceed with t
 
 ## 2026-10-22 — the grid-free optimum item closed; the switched share directed with four constraints
 Sean Brady: "Apply the suggested words and run the switched share please. For the proposed check, keep the record preparation, switching account and information denominator consistent, optimize both policies for total work, and test the switched N=1/2 versus N=1/4 ordering on the second field family." Applied: volii_matter_4's "grid-free optimum per chain with a native gradient certificate" — adopted (done in volii_matter_5, H002766). Run volii_matter_6 staged under the four constraints: records prepared on the unlapsed source (N_0 = 1, separation 1) for every case; the switching account is the native lapse ledger (gain_total = gain + gain_lapse) with the same lapse list form (1, N, N, 1) for every N; the information denominator is I(1), the unlapsed record's ceiling, for every N (THREE's stage-lapse denominator is not a bound and is not used); every chain at its field-plus-lapse (total) optimum on the family; the N = 1/2 against 1/4 ordering of gain_total tested on the second family (G160) with its negation declared.
+
+## 2026-10-22 — RH exterior ledger: route A (domain experiment plus a standard verification window); no window change; no pod now
+Sean Brady, after the lead compared a long Duck window carrying the arithmetic (B) against native sessions for the arithmetic and a standard 1500 s Duck window for
+separate-code verification (A), and asked about a pod: "proceed as recommended". Route A: the native exterior ledger comes from the RH DomainSession runs on T500
+(single process with fail-fast checks, and a six-shard replicate), followed by a 1500 s Duck verification window in which the peers reconstruct the ledger with separate
+code, re-derive the mask topology, spot-check native forms and witness the headline differences and the published target. The standing window stays 1500 s (his
+earlier "remove the time limit" was offered, not needed). A pod is deferred to a many-transition campaign (the sign of the exterior move across many accounts), staged
+under the pod protocol with his cost and deadline bounds when he directs it.
