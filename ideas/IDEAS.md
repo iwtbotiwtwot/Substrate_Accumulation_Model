@@ -405,3 +405,13 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
   storage and every exterior rise is unpaid. — open
 - **Method note**: the retained published target (−2.223195245316) reproduced by two fresh implementations is the regression anchor for any future RH reconstruction
   when the original source bank is absent; keep it in the framing of RH runs. — open (method)
+
+## 2026-10-22 — Volume I's later chapters and the run program (Sean Brady: "some of vol i is out of place, for example galaxy halos just don't tie into the work we are doing"; lead's survey; status open; only Sean Brady changes a status)
+Survey of the living text (volumes/I/SAM_Volume_I.md, 35,067 lines, 12 chapters and Appendix A): Chapter X "Many-source accumulation and galaxy halos" (pages 208–216)
+holds 106 of the volume's 118 halo/galaxy mentions. Run contact to date: Chapters I–V (the ordered clock and inertia identity, a(q), rapidity, path-mean delay, the
+static profile, the lapse link to Volume II Chapter XV); Chapter VI indirectly through Volume II's record work; Chapters VII–XII (horizon thermodynamics, cosmic
+inventory, thermal history and CMB, halos, ringdown, cosmological fate) none. The volume's own preface calls VII–XII "later chapters" whose standing depends on
+additional premises at each extension. Options, in the lead's order: (1) mark, do not move: a status line per chapter naming the runs that touch it and, for VII–XII,
+the premise each adds, one change-log line each; (2) split the living text into Part A (I–VI, reached by the program) and Part B (VII–XII, extensions, labelled);
+(3) retire Chapter X to an appendix with its text preserved and a change-log line naming the decision. No deletion in any option. Any of them edits the living text and
+awaits Sean Brady's word. — open
