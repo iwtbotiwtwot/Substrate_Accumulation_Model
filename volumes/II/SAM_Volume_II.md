@@ -10898,3 +10898,64 @@ October 2026.
 
 99
 
+
+<!-- living-text addition, 2026-10-22 -->
+
+# Run results received into Volume II (October 2026, engineering register)
+
+An addition to the living text, not part of the submitted manuscript above: what the GEN6 Duck runs of 20–22 October 2026 showed that bears on Volume II, by chapter,
+with the campaign and history entry that carry each statement. Labels as in Volume I's addition: **result** (natively certified receipt; engineering labels only),
+**reading**, **idea** (open; only Sean Brady changes a status). Units kT = 1, nats. The four-state prototype is the declared two-spin analogue (energies 0, 1, 2, 0; β = 1;
+attempts 1/2; visible bit 0, hidden bit 1; hidden spin s = (−1, −1, 1, 1)); records are two readings at separation 1; a staircase is one admitted library recipe
+(standing requirement, Sean Brady 2026-10-21). Directed by Sean Brady. Executed with Claude Code. Earlier credit (ChatGPT, Codex) is unchanged.
+
+## Chapters VII–IX — spin memory, records and the staircase engine
+
+- **Result.** The headline staircase values of the prototype are reproduced by three implementations with exhaustive per-chain optima (spin_verify_1, H002760; the
+  verification form adopted 2026-10-21): the one-stage gain 0.0087532343 at dwell 4 (0.387 of the record's information ceiling I = 0.0226357492536), the two-stage gain
+  0.0119173272 on the 1/20 family (0.527), the four-stage gain 0.0159283 at total time 16 (0.704), and the seven-stage share 0.765 above the four-stage stationary 0.756.
+  The grid artefact of the earlier runs is understood: a gain is a difference of two separately maximised works, so a coarse family inflates it and can reverse
+  orderings; the comparison family is each policy's optimum on one fine family, and orderings below the family spread are unresolved (spin_work_4 H002… series,
+  spin_verify_1).
+- **Result.** The flag record keeps a net-price advantage through a staircase (gain per net price 0.0400 against 0.0319 clean at two stages, +25 % relative, witnessed;
+  spin_work_4); no cycle closes; the best working net-price share is about 4 %, half of I/B.
+- **Result.** The Chapter IX sub-source (one port plus hidden spins, declared) converts the same share of its own ceiling as the prototype (volii_matter_1, H002762); the
+  record's information ceiling has a native route (one exact product forming the marginals of the four branch records, four log traces, one combine), and share
+  orderings are witnessed by cross-multiplication without division.
+
+## Chapter XV — common action, the two recipients of a lapse, the switching ledger
+
+- **Result.** A lapse N has two recipients in the matter engine, separated natively (volii_matter_1, H002762). Recipient A (clock N on every state) is a time rescaling:
+  the dwell-d map at lapse N equals the unlapsed dwell-N·d map, invisible in ticks, and the two lapse orders of the ordered clock give the same gain to every digit
+  (identity recipe, 62 checks, control failed as declared; volii_matter_2, H002763). Recipient B (energies N·E₀, field unscaled, clock 1) changes the Gibbs law the
+  record reads: the ceiling and gain fall, the share of the ceiling rises as N falls (0.527, 0.557, 0.579, 0.599 at N = 1, 3/4, 1/2, 1/4, every adjacent ordering witnessed
+  by disjoint cross products; volii_matter_3, H002764), and when the lapse changes between stages a switching term (N_k − N_{k+1})·E₀·q_k is paid, native since library
+  revision 2.
+- **Result.** Under recipient B the quantity to optimise is the field-plus-lapse total. Every chain at its total optimum, the first lapse order (4/5 then 3/5) keeps a
+  total lead of 1.83e-4 to 1.90e-4 over the reverse on five field families, each witnessed with its negation failing as declared; the totals agree across families to
+  under 1e-5 while the lapse term does not (it flips sign between families) and which ledger carries the ordering reverses (volii_matter_3 H002764, volii_matter_4
+  H002765). The entry switch contributes exactly zero on nine receipts; the interior and exit switches both move between families; on nested grids the family move is
+  carried wholly by one policy.
+- **Result.** At each chain's continuous optimum (host Newton, rounded to 1/4096) the total is a certified local maximum against four axis neighbours on all twelve chains
+  of both orders, while the field work alone and the lapse work alone each fail the same cross: their gradients are equal and opposite at the total's optimum, which is
+  the mechanism of the family dependence (volii_matter_5, H002766). The lead's earlier mechanism (a soft Hessian direction) is refuted and recorded.
+- **Result.** Under four fixed conventions set by Sean Brady (records prepared on the unlapsed source; the lapse list (1, N, N, 1) paid by the native ledger; the
+  denominator I(1) for every N; both policies at their total optimum) the switched share at N = 1/4 is above N = 1/2 on three families (gaps of the total +3.05e-5,
+  +2.16e-5, +2.42e-5, witnessed; spread 8.9e-6, which is also the gap's own drift, so the ordering is resolved by a factor of two to three); the switched curve on the
+  second family rises with diminishing increments; the exit-switch identity gain_lapse = −(1 − N)(Σ_h − Σ_c)·E₀·q₂ holds on every family with controls (volii_matter_6,
+  H002767). The mixed recipient (clock N^a, energies N^(1−a)) at a = 1/2 folds into recipient B at map level (identity passed, control failed as declared).
+- **Result, cross-volume.** Recipient A's order-blindness is Volume I's inertia identity inside this chapter's engine (see Volume I's addition).
+- **Idea (open).** The Volume I per-event switching work W_i = E_{i+1}(x_i) − E_i(x_i) is the same ledger as recipient B's lapse term; a coupled binding driven by a
+  per-event lapse would connect the volumes properly and waits on the three definition choices.
+
+## Chapters V and XV — binding constructions
+
+- **Result.** The `coupled` quadratic-action binding construction (source metric, inverse inertia, coupling g, canonical state, reservoir) ran for the first time on the
+  18-coordinate Volume II spin carrier (41 segments) and its switching ledger carries the prototype's identities (volii_matter_1, H002762).
+
+## Instruments built for this volume (recipe library, ironclad)
+
+The staircase library (one admitted recipe per staircase; revision 2 returns every stage state and the lapse ledger; revision 3 adds probe chains and per-chain works),
+the staircase front (generators, maps, records and the ceiling in one method; a case to its witness in seven tasks; cross-checked by the classic route to 1e-40), and
+the identities library. Program notes: a method admits at most 64 steps; an admitted method is visible only to the controller that admitted it; about 45 tasks per
+peer per 1500 s window with chain steps ahead of new maps.

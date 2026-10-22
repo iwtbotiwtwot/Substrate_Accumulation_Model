@@ -35065,3 +35065,50 @@ physically open are deliberately kept distinct.
 
 240
 
+
+<!-- living-text addition, 2026-10-22 -->
+
+# Run results received into Volume I (October 2026, engineering register)
+
+This section is an addition to the living text, not part of the submitted manuscript above. It records what the GEN6 Duck runs of 19–22 October 2026 showed that
+bears on Volume I, chapter by chapter, with the run and record that carry each statement. Labels: **result** means a natively certified receipt of a retained run
+(engineering labels COMPLETED, PASSED, CERTIFIED; nothing here is a Courtroom classification); **reading** means the peers' or the lead's interpretation of a declared
+chart; **idea** means an open proposal that only Sean Brady's status word changes. Sources are ironclad campaigns (`campaigns/<name>/`), history entries (H…), and the
+run records of this repository (`runs/<date>_<name>/RECORD.md`). Directed by Sean Brady. Executed with Claude Code. Earlier credit (ChatGPT, Codex) is unchanged.
+
+## Chapters I, IV and V — the clock, its lapse and the inertia identity
+
+- **Result.** The one-principle feedback construction carries a per-event metric lapse N_i with χ_i = 1/N_i, the source block scaled by N, the propagator as the
+  path-ordered product of one exponential per event acting on the full state, and two native certificates per event: the energy identity and the inertia identity
+  G(N_i, Γ)·elapsed_i = G(1, N_i·Γ)·ΔN_i, emitting N_i·Γ as the readout `inertia_scale`. Installed as core 0.11.1 (feedback clock, H002746, Sean Brady's choices χ = 1/N and
+  N scaling the source block) and core 0.11.2 (ordered feedback clock, H002753). Path order reproduces the peers' hand-built gaps (kinetic z gap 1.4635e-3, coordinate
+  4.031e-3); the reversal invariant from rest holds to 1e-47 on both readings. Decision 2026-10-21: Γ stays declared; it is not derived by any run.
+- **Result.** Twenty-four identities of the ordered clock (reversal law, adjacent-swap closed form, order statistics, energy per event) admitted to the recipe library
+  after replaying with the run (ironclad 2e591ff2; campaigns voli_threads_4 and voli_threads_5; 67 identities certified natively in one 1500 s window).
+- **Result, cross-volume.** The inertia identity appears inside Volume II's matter engine: under the clock recipient of a lapse (clock N on every state) two lapse
+  orders of the ordered clock give the same staircase gain to every digit, certified by an identity recipe on every stage state with its control failing as declared
+  (volii_matter_2, H002763; `runs/20261022_volii_matter_2`). This is the one connection between Volumes I and II with native receipts on both sides.
+- **Idea (open).** The per-event coupling definition's three choices (continuity convention; which side books the switching work; one field or two ports) await Sean
+  Brady before any core 0.11.3 prototype; four peer sections propose the same construction as the first place N·Γ and k would come apart along a path.
+
+## Chapters II and IV — accumulation, the a(q) identification and the ruler
+
+- **Reading (open).** With the charts' certified Ξ density ∝ 1/q and c_eff = c₀q, three of four peers read the identification a = 1 − q with γ running as 1/(1 − a) and
+  PPN value 1 (campaign aq_identification, 2026-10-19). The lapse fork between the readings √q and q is not decided by any run.
+- **Result.** The resting-clock comparison meant to decide the fork could not: both ratios are exact rows of every exchange and every certified rate runs at q
+  (campaign resting_clock, H002733). The decider now needs a static, spatially varying profile Λ(x) with two positions, a permanent change to the vendored library
+  (idea, open).
+- **Idea (open).** The ruler reads a path mean of 1/q (teeth per internal tick ν₀⟨1/q⟩), so Chapter IV's delay would be a path average rather than an endpoint value;
+  accumulation depth composes as an additive rapidity (tanh law; Ξ ∝ cosh²), a presentation for Chapter II.
+
+## Chapters VII–XII — status
+
+No run of 19–22 October 2026 used or tested a premise of Chapters VII to XII (horizon thermodynamics, cosmic inventory, thermal history, halos, ringdown, cosmological
+fate). The volume's preface already calls them later chapters whose standing depends on additional premises at each extension. The lead's survey and three options for
+their placement are in `ideas/IDEAS.md` (2026-10-22) and await Sean Brady's word.
+
+## Method notes that bear on how this volume is read
+
+Runs are for learning, not for testing the volumes against external keys (Sean Brady, 2026-10-20/21); verifying what the runs learned is allowed and is done in the
+verification form: everything given to the peers, separate code, exhaustive optima where a search is claimed, predictions written before computing. No number in this
+section is a classification; the three Courtroom phrases are Sean Brady's alone.

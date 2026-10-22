@@ -7109,3 +7109,54 @@ original scope; no new campaign was executed for this edition.
 
 69
 
+
+<!-- living-text addition, 2026-10-22 -->
+
+# Run results received into Volume III (October 2026, engineering register)
+
+An addition to the living text, not part of the submitted manuscript above: what the GEN6 Duck runs and the RH domain experiments of 20–22 October 2026 showed that
+bears on Volume III, by chapter, with the campaign and history entry that carry each statement. Labels as in Volume I's addition: **result** (natively certified
+receipt; engineering labels only), **reading**, **idea** (open). No complete-price constant, uniform arithmetic exponent or all-scale bound is assigned anywhere below;
+BOUND_C02 stays CANDIDATE. Directed by Sean Brady. Executed with Claude Code. Earlier credit (ChatGPT, Codex) is unchanged.
+
+## Chapter IX — reciprocal history: the original source's next transition
+
+- **Result.** The original fixed-sharp odd Möbius source (ε = 1/2, s = 3/2, k = π/log 2; retained cut Y = 4096/3, 1365 coordinates, 217 odd-prime cuts) was moved to
+  its next changed source account, the first new active coordinate 1367 (prime), entering at exactly zero kernel. The complete price P(Y) = uᵀ(H_adm − C_Self)u − C_scalar
+  was built twice from the bound rules by separate code (a pair census; the cut-by-cut energy telescope of the original scalar script). Both agree to 8e-80 at 80 digits,
+  reproduce the H002629 crossing values m = 0.0759247800948… and ℓ = 0.0578748989347… to every digit, give the original census of 104,788 BALANCED events, and at the
+  retained cut give P = −2.223195245315831…, which is the completed program's published signed target −2.223195245316 to every digit (rh_transition_1, H002768;
+  `runs/20261022_rh_transition_1`).
+- **Result.** The transition's ledger, every account once: core 0; mixed (the K = [3, 15, 33] crossing) +2.4238e-7; exterior admitted-H −7.3024e-4; exterior Self
+  −1.2208e-6; the paid complement uᵀ(Q*R + RQ − Q*RQ)u exactly 0 because Qu = 0; scalar +1.2065e-6; 302 newly admitted events (m, 1367) at zero kernel. The direct
+  difference P(Y₁) − P(Y₀) = −7.3001e-4 equals the ledger's sum to 5e-80. Natively at 512 bits (1262 calls, 1185 checks): the Fchi storage of H002629 releases
+  +4.2713e-7 and pays the crossing rise of +2.4238e-7 with the finite frozen-chart identity ΔPchi − ΔFchi = 2aΔℓ closing as a zero enclosure; every host value lies
+  inside its native enclosure.
+- **Reading.** There is no increase to cover at this transition and nothing is unpaid: the storage pays the crossing and only the crossing; the exterior term, which has
+  no storage recipient, moves three thousand times more and here lowers the price. A transition with a rising exterior would be unpaid by Fchi in full; how often that
+  occurs across accounts is the all-scale question in finite form. Three of the lead's seven pre-registered predictions failed (the sign and size of ΔP; an unpaid
+  remainder; the event count) and are recorded.
+- **Result, in progress at the time of this addition.** The native exterior ledger (the whole price at both cuts by native bilinear forms of exact integer masks, four per
+  cut per Y, with the one-use identity EXCL = BEF − BM − SELF − ADM checked in integers) runs as a single process and a six-shard replicate; its record and a
+  separate-code verification window (rh_transition_2) follow under their own history entries.
+- **Reading (earlier, open).** The staircase remainder of Volume II's spin engine and this program's recurrence-plus-remainder structure share a form (rh_crossover_1,
+  H002751); the peers call the match a coincidence until one construction makes the residue-tree level and the staircase stage the same object.
+
+## Chapter X — prime coordinates: the FEOP local operator and the bound
+
+- **Result.** The FEOP transfer operator (classes S, X, Z, T; a 4×4 split-level matrix A and a no-split matrix B normalised by q = p⁻²; schedule h = j·e with e = v_p(Q) per
+  offset) was re-derived four times and verified at p = 11, 13, 17, 19, 23, at p = 5 with L = 4, and on joint moduli with 11 and 13; its spectrum (B − I)(B − qI) = 0 and
+  (A − I)(A − qI)² = 0 with a Jordan block; the remainder N·R = g/(p + 1) from L ≥ g − 1; the joint recurrence has roots Π_{p∈S} p⁻²; the stationary (g + 2) form and the
+  4-state form are reconciled by an explicit map Φ (feop_transfer_1 H002759, feop_verify_1 H002761). The operator fails only when two offsets share a class, under
+  whole-cluster death, when p ∤ Q, or under a wrong per-offset schedule; the children at a split are Z 1, T 1, dead 2(p − 1), settled p² − 2p.
+- **Result.** For the bound BOUND_C02 (CANDIDATE): a depth-uniform two-sided bracket with native receipts for its two steps on small cases; an exact Selberg remainder in
+  its frame (polynomials 4T³ + 19T² + 12T + 1 at z = 7 and 14T³ + 34T² + 15T + 1 at z = 11); the measured joint discrepancy is not additive across primes and not linear in
+  T; a fibering helper carries native coverage past the 64-row source-word limit with partition receipts (feop_bound_c02 series, feop_sidebyside, feop_bracket_fiber,
+  2026-10-20/21). No run has addressed the bound since 2026-10-20; the operator is the stated route to its deeper coverage.
+
+## Method notes
+
+RH-side arithmetic runs as domain experiments in the current RH DomainSession (RH-GEN3-GROWTH-V5 / SLC-GEN5-R1, 512 bits) with Python enumerating exact integer topology
+and every transcendental value, product and solve native; Duck windows carry the separate-code verification. The native LOG operation returns the negative logarithm of
+a positive argument; a method admits at most 64 steps; a Hermitian diagonal of result cells larger than 1×1 is refused. The original numeric source bank (c8b6…) is absent
+locally; the published target is the regression anchor for any reconstruction.
