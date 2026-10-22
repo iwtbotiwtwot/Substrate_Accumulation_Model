@@ -37,18 +37,20 @@ adopted; next identities). State: 24 recipes adopted into `campaigns/recipe_libr
 fixture, gap-ratio rule, swap across a Γ jump) are open run items.
 
 **T5 — Hidden-history conversion: staircases, records, the Chapter IX sub-source, binding (Volume II Chapters VII.4, IX, X, XV, XVIII).**
-Sections: the spin_memory method note, spin_work_1 to spin_work_4, spin_verify_1, volii_matter_1, volii_matter_2, volii_matter_3, volii_matter_4. State: the staircase
+Sections: the spin_memory method note, spin_work_1 to spin_work_4, spin_verify_1, volii_matter_1, volii_matter_2, volii_matter_3, volii_matter_4, volii_matter_5. State: the staircase
 library is at revision 2 (one recipe per staircase, stage states returned, lapse ledger native); five headline values verified by three
 implementations with exhaustive optima; the Chapter IX sub-source converts the prototype's share; the flag record keeps its net-price
 advantage through two stages; the coupled binding construction has run once (41 segments); the energy recipient's share rises as the
 lapse falls (0.527 at N = 1 to 0.599 at N = 1/4, native). Next, by all four peers of volii_matter_2: optimise the field-plus-lapse total
 natively with the entry-switch split certified from the stage states. **Done 2026-10-22 (volii_matter_3, H002764):** order 1 larger on both families at
 total-optimal fields; lapse-term family ratio under two; entry switch contains 0 natively, family dependence in the interior switch; all share orderings witnessed. **2026-10-22 (volii_matter_4, H002765):** five families; the total is
-stable to 1e-5 and the lapse term is not (flat direction; the pinning reading withdrawn); front library cross-checked by the classic route.
+stable to 1e-5 and the lapse term is not (flat direction; the pinning reading withdrawn); front library cross-checked by the classic route. **2026-10-22 (volii_matter_5,
+H002766):** each chain's continuous optimum certified a local maximum natively; the field and lapse ledgers have equal and opposite gradients there (neither is
+stationary), the mechanism of the family dependence; the soft-direction reading refuted.
 
 **T6 — The comparison family (method, Volume II; standing).** Sections: spin_work_1 (benchmark families), spin_work_4 (fix the family
 before any ordering), spin_verify_1 (the family is each policy's continuous optimum, not a finer grid), volii_matter_2 (the quantity is the
-field-plus-lapse total, not the field gain), volii_matter_3 (the total agrees between families to 3e-5), volii_matter_4 (five families: the total is the well-posed quantity; the lapse term and both interior and exit switches depend on the family; report a lapse term with its family, order on the total). State: sharpened three times and never contradicted; the lead recommends it become a line of
+field-plus-lapse total, not the field gain), volii_matter_3 (the total agrees between families to 3e-5), volii_matter_4 (five families: the total is the well-posed quantity; the lapse term and both interior and exit switches depend on the family; report a lapse term with its family, order on the total), volii_matter_5 (the grid-free form: a certified local maximum of the total per chain, with the ledgers' gradients equal and opposite; the split is a property of the point). State: sharpened three times and never contradicted; the lead recommends it become a line of
 the briefing template rather than an open item.
 
 **T7 — The FEOP local operator (program thread; no volume home yet).** Sections: feop_bracket_fiber (receipt per cylinder level),
@@ -373,3 +375,13 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
 - **Status notes**: "the front recipe as a library candidate" (volii_matter_3) — adopted and built at Sean Brady's word 2026-10-22 ("Put three's recipe in"; ironclad
   11bc35e5). "A third family for the total-optimal pair", "per-chain and per-policy split of the interior switch", "cross-family bands with a failing control",
   "rM1/rM2 as full staircases" (volii_matter_3) — done in this run; the "local refinement" item is superseded by the grid-free optimum above. Statuses await Sean Brady's word.
+
+## 2026-10-22 — from volii_matter_5 (proposed by Claude peers and the lead; status open; only Sean Brady changes a status)
+- **The certificate's own resolution limit**: a neighbour step of 1/4096 around the 1/8192 centres (where the margins of 1e-8 meet the rounding). (TWO) — open
+- **A cross along the Hessian eigenvectors** instead of the field axes, putting both eigenvalues into native second differences. (TWO) — open
+- **Per-chain first differences summed against the six-chain lapse-term shift between roundings**: does the ledger's resolution shift equal the sum of the chain
+  gradients times the rounding moves? (FOUR) — open
+- **The gradient products as a library recipe beside the certificate** ("local maximum + non-stationary ledgers" as one gate). (lead) — open
+- **The second-family switched share** (G160 tN12/tN14 through the front), still unopened after two runs. (THREE, FOUR) — open
+- **Status notes**: volii_matter_4's "grid-free optimum per chain with a native gradient certificate" — done in this run (the lead's recommendation, Sean Brady's
+  "proceed"); its mechanism reading (a soft direction) refuted and replaced by equal-and-opposite ledger gradients. Statuses await Sean Brady's word.
