@@ -365,7 +365,7 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
 
 ## 2026-10-22 — from volii_matter_4 (proposed by Claude peers and the lead; status open; only Sean Brady changes a status)
 - **A grid-free optimum per chain with a native gradient certificate**, since no finite family fixes the lapse term; until then every lapse term is reported with its
-  family and orderings are made on the total. (ONE, FOUR, lead) — open
+  family and orderings are made on the total. (ONE, FOUR, lead) — decided by Sean Brady 2026-10-22 ("Apply the suggested words and run the switched share please"): done in volii_matter_5 (H002766): every chain's continuous optimum certified a local maximum natively, the two ledgers' gradients equal and opposite; the lead's soft-direction reading refuted. — adopted (done)
 - **The switched-share ordering on a second family** (G160 tN12/tN14): |D| = 6.9e-7 is small beside the families' total drift of about 3e-6. (THREE) — open
 - **A ceiling convention for switched lapse lists** that is neither I(1) nor I(N) (the stage-lapse ceiling is not a bound). (THREE) — open
 - **A host family scan of the exit product alone**; the classic-against-front cross-check for order 2; the fold checked against an independent mixed-recipient route.
