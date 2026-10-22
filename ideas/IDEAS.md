@@ -37,16 +37,17 @@ adopted; next identities). State: 24 recipes adopted into `campaigns/recipe_libr
 fixture, gap-ratio rule, swap across a Γ jump) are open run items.
 
 **T5 — Hidden-history conversion: staircases, records, the Chapter IX sub-source, binding (Volume II Chapters VII.4, IX, X, XV, XVIII).**
-Sections: the spin_memory method note, spin_work_1 to spin_work_4, spin_verify_1, volii_matter_1, volii_matter_2. State: the staircase
+Sections: the spin_memory method note, spin_work_1 to spin_work_4, spin_verify_1, volii_matter_1, volii_matter_2, volii_matter_3. State: the staircase
 library is at revision 2 (one recipe per staircase, stage states returned, lapse ledger native); five headline values verified by three
 implementations with exhaustive optima; the Chapter IX sub-source converts the prototype's share; the flag record keeps its net-price
 advantage through two stages; the coupled binding construction has run once (41 segments); the energy recipient's share rises as the
 lapse falls (0.527 at N = 1 to 0.599 at N = 1/4, native). Next, by all four peers of volii_matter_2: optimise the field-plus-lapse total
-natively with the entry-switch split certified from the stage states.
+natively with the entry-switch split certified from the stage states. **Done 2026-10-22 (volii_matter_3, H002764):** order 1 larger on both families at
+total-optimal fields; lapse-term family ratio under two; entry switch contains 0 natively, family dependence in the interior switch; all share orderings witnessed.
 
 **T6 — The comparison family (method, Volume II; standing).** Sections: spin_work_1 (benchmark families), spin_work_4 (fix the family
 before any ordering), spin_verify_1 (the family is each policy's continuous optimum, not a finer grid), volii_matter_2 (the quantity is the
-field-plus-lapse total, not the field gain). State: sharpened three times and never contradicted; the lead recommends it become a line of
+field-plus-lapse total, not the field gain), volii_matter_3 (the total agrees between families to 3e-5; the lapse term's residual family dependence sits in the interior switch). State: sharpened three times and never contradicted; the lead recommends it become a line of
 the briefing template rather than an open item.
 
 **T7 — The FEOP local operator (program thread; no volume home yet).** Sections: feop_bracket_fiber (receipt per cylinder level),
@@ -342,3 +343,19 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
 - **Method**: about 40 tasks per peer per 1500 s window on the 12/6 topology; chain steps ahead of new maps; the lead's briefing should say so. (ONE, FOUR) — open, lead's note
 - **Status note**: volii_matter_1's "staircase recipe returning each stage's state" — adopted and built (library revision 2, 2026-10-22, Sean Brady's direction).
 
+
+## 2026-10-22 — from volii_matter_3 (proposed by Claude peers; status open; only Sean Brady changes a status)
+- **A third family for the total-optimal pair** (G120, G160 or an offset G80): does the order-1 lapse-term ratio stay under two, and does the interior-switch term
+  converge while the exit term stays? (ONE, FOUR, TWO) — open
+- **Per-chain and per-policy split of the interior switch**, to see which chains and which policy's q_1 move between families; local continuous refinement around
+  each chain's optimum to separate the grid effect from a flat lapse direction. (all four) — open
+- **The front recipe as a library candidate** ("staircase front": generators, maps, records and the ceiling route in one admitted method; a case in 7 tasks);
+  the ceiling and cross products then sit beside the staircase in two methods. (THREE) — open
+- **Switched-lapse shares**: the lapse-1/4 case natively, the switched-share ordering 1/2 against 1/4 (host: flat, about 0.5545 against 0.556), a ceiling read at
+  the stage lapse as the switched share's denominator, a one-product exit-switch identity at the lapse list (1, N, N, 1). (THREE) — open
+- **Cross-family bands with a failing control** (the exit-switch agreement and the interior-switch disagreement); rM1/rM2 as full staircases through the fold;
+  the split at the switched lapse list. (TWO) — open
+- **A recipe deriving the field rows from the declared field list**, so the fields are tied to the maps natively (the host-provenance gap). (FOUR) — open
+- **Program note**: an admitted method's result_ref is not visible across controllers; sharing admitted methods by content hash is a Duck change candidate. (FOUR) — open
+- **Status note**: volii_matter_2's "optimise the field-plus-lapse total natively", "per-switch split recipe", "share witnesses in one pass" and the budget note — done
+  in this run (the mixed-recipient folding at map level only; its a ≠ 1/2 control replaced by an unfolded-dwell control). Statuses await Sean Brady's word.
