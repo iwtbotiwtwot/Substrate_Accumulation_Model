@@ -425,3 +425,9 @@ awaits Sean Brady's word. — open
 - **A method chapter in Volume III** on the Duck and SLC: the frozen, dated account of the peer method, gates, declared controls, verification form, budget, failure classes
   and recipe libraries as used, citing the installed authority (`docs/DUCK_2.0_METHOD.md` and release plans in ironclad) by release and commit; the living document stays
   in ironclad under change control and is not replaced by the chapter. — open
+- **Status note, same day (Sean Brady's clarification):** RH, spin, FEOP, A0 and Volume I are separate works; the connection is traffic in ideas and methods, mostly into
+  RH, to be recorded as a **transfer ledger** (what moved, from which branch, when, what it produced in RH, what it did not), in the register H002629 already uses
+  ("method transfer, method only, numerical coefficients transferred: false"), and not as a claimed unity. Entries so far: the source-action diagnostic (spin → H002629;
+  method only); the verification form (spin runs 20–22 Oct → rh_transition_1; procedure only); the recurrence-plus-remainder shape (spin and FEOP → rh_crossover_1; a
+  question, called a coincidence until one construction decides it). Nothing has yet gone out of RH into the other works; the ledger should say so. Volume IV's "shared
+  structure" part becomes this ledger. — open
