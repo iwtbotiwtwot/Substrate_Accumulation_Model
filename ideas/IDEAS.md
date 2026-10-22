@@ -66,7 +66,7 @@ feop_sidebyside, feop_bracket_fiber, feop_transfer_1 (R1..R6 at k = 24 from the 
 depth-uniform bracket beside the exact Selberg remainder, the hybrid envelope, the measured joint discrepancy's form, growing z.
 BOUND_C02 stays CANDIDATE.
 
-**T9 — The RH crossover (Volume II against the FEOP program).** Sections: Sean Brady's logged idea of 2026-10-20, rh_crossover_1. State: a
+**T9 — The RH crossover (Volume II against the FEOP program) and the RH transition ledger.** Sections: Sean Brady's logged idea of 2026-10-20, rh_crossover_1, rh_transition_1 (2026-10-22: the original source's next transition in the verification form; the storage pays the crossing, the exterior carries the price). State: a
 shape match (exact recurrence plus remainder on both sides, p⁻² against refinement⁻²) that the peers call a coincidence until one
 construction makes the residue-tree level and the staircase stage the same object. Revision 2 of the staircase library makes the
 stage-by-stage remainder to the ceiling native, the cheap half of that test; the one construction for both sides is unbuilt.
@@ -395,3 +395,13 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
 - **The switched curve's limit as N → 0** at the continuous optimum; the per-chain gradient reading of which chains carry the lapse flip on every family. (TWO) — open
 - **The exit identity as a library gate** beside the local-maximum certificate. (THREE) — open
 - **Status note**: volii_matter_4's and volii_matter_5's "second-family switched share" — done in this run under Sean Brady's four conventions. Status awaits his word.
+
+## 2026-10-22 — from rh_transition_1 (proposed by Claude, the lead; status open; only Sean Brady changes a status)
+- **The native exterior ledger**: the complete admitted-H and Self change over all pairs with 217 owner weights, as bilinear forms with integer masks per owner (or the cut
+  telescope's prefix energies with sector exclusions), so the whole transition ledger is native, not host-side. — open
+- **The sign of the exterior move across transitions**: the next accounts after 1367 (1371 = 3·457, 1373, 1377 = 3⁴·17 zero, …) and the adaptive receiver's target
+  (−0.434885315452) at the same transition; whether exterior rises occur and what pays them is the all-scale question in finite form. — open
+- **A storage recipient for the exterior** analogous to Fchi: a complete square on the full Nout block if its sign structure allows one; otherwise the exterior has no
+  storage and every exterior rise is unpaid. — open
+- **Method note**: the retained published target (−2.223195245316) reproduced by two fresh implementations is the regression anchor for any future RH reconstruction
+  when the original source bank is absent; keep it in the framing of RH runs. — open (method)
