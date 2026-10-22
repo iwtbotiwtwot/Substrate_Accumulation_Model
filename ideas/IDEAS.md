@@ -415,3 +415,13 @@ additional premises at each extension. Options, in the lead's order: (1) mark, d
 the premise each adds, one change-log line each; (2) split the living text into Part A (I–VI, reached by the program) and Part B (VII–XII, extensions, labelled);
 (3) retire Chapter X to an appendix with its text preserved and a change-log line naming the decision. No deletion in any option. Any of them edits the living text and
 awaits Sean Brady's word. — open
+
+## 2026-10-22 — a Volume IV for Reciprocal History, and a method chapter in Volume III (Sean Brady: "I think an RH volume is the right thing ... tying directly to the spin/feop results helps tie the complete work together"; lead's assessment; status open; only Sean Brady changes a status)
+- **Volume IV, Reciprocal History: the arithmetic program.** Five parts proposed by the lead: the original source and completed program with its retained targets (from
+  the live authority, historically scoped); the finite transitions and the storage question (rh_transition_1 and successors); the FEOP local operator and the bound
+  (BOUND_C02 CANDIDATE); the shared structure and shared instruments with the spin engine (the rh_crossover_1 question presented as open, with the one construction that
+  would decide it; the verification form and library gates as established practice); what remains (the all-scale bound). Volume III keeps Chapters IX and X as the
+  computational-interface chapters and points across. — open
+- **A method chapter in Volume III** on the Duck and SLC: the frozen, dated account of the peer method, gates, declared controls, verification form, budget, failure classes
+  and recipe libraries as used, citing the installed authority (`docs/DUCK_2.0_METHOD.md` and release plans in ironclad) by release and commit; the living document stays
+  in ironclad under change control and is not replaced by the chapter. — open

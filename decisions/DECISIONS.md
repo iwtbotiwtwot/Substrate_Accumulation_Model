@@ -78,3 +78,9 @@ separate-code verification (A), and asked about a pod: "proceed as recommended".
 code, re-derive the mask topology, spot-check native forms and witness the headline differences and the published target. The standing window stays 1500 s (his
 earlier "remove the time limit" was offered, not needed). A pod is deferred to a many-transition campaign (the sign of the exterior move across many accounts), staged
 under the pod protocol with his cost and deadline bounds when he directs it.
+
+## 2026-10-22 — Volumes track the record: every run's conclusion adds its entry to the living text
+Sean Brady: "lets update before we remove or rearrange" and "I think that is a good idea lets update the data as we go and see what we end up with." Procedure from here: the
+conclusion of every run or test adds its entry to the relevant volume's appended "Run results received into Volume N" section (result / reading / idea labels, campaign and
+history entry cited) with a change-log line, as part of CLAUDE.md §2 of this repository. The three sections were created 2026-10-22 (doc repo 9bcf242). No removal or
+rearrangement of manuscript text until Sean Brady decides the placement of Volume I's Chapters VII–XII (ideas/IDEAS.md).
