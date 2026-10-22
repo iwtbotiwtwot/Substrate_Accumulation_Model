@@ -245,3 +245,14 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
 - **Method note**: a recipe control whose failure may come from an engine error is declared by `expected_reason`, or its bases are tested offline first (second occurrence
   of the named-check misdeclaration). — open, lead's note
 
+## 2026-10-22 — from volii_matter_2 (proposed by Claude peers; status open; only Sean Brady changes a status)
+- **Optimise the field-plus-lapse total natively** on one fine family per lapse order, with the order witness; pin the lapse term or optimise the total directly (the
+  lapse term at gain-optimal fields varies fourfold across families while gains agree to 2e-6). (FOUR, ONE) — open
+- **Per-switch split recipe** from the returned stage states, certifying that the entry switch cancels between policies and only interior and exit switches carry the
+  order gap. (TWO) — open
+- **Share witnesses in one pass**: submit the ready share-ordering witnesses and controls; put the ceiling route and the cross products inside the staircase recipe; the
+  share's limit as the lapse goes to 0 (host: flattening between 1/2 and 1/4); the share against N with the record unlapsed so the switching term is paid. (THREE) — open
+- **Mixed recipient**: the a = 1/2 folding (clock N^(1/2) into the dwell) as an identity recipe with a control at a ≠ 1/2; the pair at N = 9/16, 4/9 (task files ready). (ONE, TWO) — open
+- **Method**: about 40 tasks per peer per 1500 s window on the 12/6 topology; chain steps ahead of new maps; the lead's briefing should say so. (ONE, FOUR) — open, lead's note
+- **Status note**: volii_matter_1's "staircase recipe returning each stage's state" — adopted and built (library revision 2, 2026-10-22, Sean Brady's direction).
+
