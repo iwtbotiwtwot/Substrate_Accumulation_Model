@@ -347,15 +347,15 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
 
 ## 2026-10-22 — from volii_matter_3 (proposed by Claude peers; status open; only Sean Brady changes a status)
 - **A third family for the total-optimal pair** (G120, G160 or an offset G80): does the order-1 lapse-term ratio stay under two, and does the interior-switch term
-  converge while the exit term stays? (ONE, FOUR, TWO) — open
+  converge while the exit term stays? (ONE, FOUR, TWO) — decided by Sean Brady 2026-10-22 ("Apply the suggested words to all of them"): run on G160, G320 and an offset family in volii_matter_4 (H002765); the ratio does not stay under two and the interior term does not converge. — adopted (done)
 - **Per-chain and per-policy split of the interior switch**, to see which chains and which policy's q_1 move between families; local continuous refinement around
-  each chain's optimum to separate the grid effect from a flat lapse direction. (all four) — open
+  each chain's optimum to separate the grid effect from a flat lapse direction. (all four) — decided by Sean Brady 2026-10-22 ("Apply the suggested words to all of them"): the per-policy, per-chain split done in volii_matter_4 (TWO, nine receipts) — adopted (done); local refinement — dropped (superseded by the grid-free optimum item of volii_matter_4)
 - **The front recipe as a library candidate** ("staircase front": generators, maps, records and the ceiling route in one admitted method; a case in 7 tasks);
-  the ceiling and cross products then sit beside the staircase in two methods. (THREE) — open
+  the ceiling and cross products then sit beside the staircase in two methods. (THREE) — decided by Sean Brady 2026-10-22 ("Apply the suggested words to all of them"): built as campaigns/recipe_library/staircase_front (ironclad 11bc35e5), cross-checked by the classic route to 1e-40 in volii_matter_4. — adopted
 - **Switched-lapse shares**: the lapse-1/4 case natively, the switched-share ordering 1/2 against 1/4 (host: flat, about 0.5545 against 0.556), a ceiling read at
-  the stage lapse as the switched share's denominator, a one-product exit-switch identity at the lapse list (1, N, N, 1). (THREE) — open
+  the stage lapse as the switched share's denominator, a one-product exit-switch identity at the lapse list (1, N, N, 1). (THREE) — decided by Sean Brady 2026-10-22 ("Apply the suggested words to all of them"): lapse-1/4 case, the 1/2-against-1/4 ordering (one family) and the exit-switch identity done in volii_matter_4 — adopted (done); the stage-lapse ceiling as denominator is not a bound — dropped; the second family for the ordering is its own open item under volii_matter_4
 - **Cross-family bands with a failing control** (the exit-switch agreement and the interior-switch disagreement); rM1/rM2 as full staircases through the fold;
-  the split at the switched lapse list. (TWO) — open
+  the split at the switched lapse list. (TWO) — decided by Sean Brady 2026-10-22 ("Apply the suggested words to all of them"): bands with failing controls, rM1/rM2 as full staircases, and the split at the switched lapse list (THREE's exit identity) done in volii_matter_4. — adopted (done)
 - **A recipe deriving the field rows from the declared field list**, so the fields are tied to the maps natively (the host-provenance gap). (FOUR) — open
 - **Program note**: an admitted method's result_ref is not visible across controllers; sharing admitted methods by content hash is a Duck change candidate. (FOUR) — open
 - **Status note**: volii_matter_2's "optimise the field-plus-lapse total natively", "per-switch split recipe", "share witnesses in one pass" and the budget note — done
