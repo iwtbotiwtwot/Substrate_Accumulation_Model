@@ -72,7 +72,7 @@ spin_work_3, spin_work_4, the Duck 2.3.3 fixture and volii_matter_1 (declaring c
 `expected_failed_check` for recipe checks), voli_threads_5 (1500 s window adopted; Duck 2.3.4 adopted), Recommended model per role,
 volii_matter_2 (about 40 tasks per peer per window, chain steps ahead of new maps). State: most are done; see the list below.
 
-### Items the lead reads as done or superseded (statuses unchanged; Sean Brady's word decides)
+### Items the lead read as done or superseded — Sean Brady 2026-10-22: "Apply the suggested words to all seven" (applied in the sections below: six adopted, one dropped as superseded; the (field, dwell) part of the library-variants line adopted, its other two parts open)
 
 - voli_lapse, "Fix the feedback lapse (program defect, core 0.11.0)", marked open, next release: done in core 0.11.1 (H002746).
 - spin_work_4, "maps keyed by (field, dwell)": done in staircase library revision 2, which keys by field, dwell and lapse (ironclad d027c39d).
@@ -203,7 +203,7 @@ frustrated-spin source is the operand; that transfer needs a source-derived thre
   inputs: SLC engine). — open
 
 ## 2026-10-20 — from voli_lapse (proposed by Claude peers; status open; only Sean Brady changes a status)
-- **Fix the feedback lapse (program defect, core 0.11.0):** make the history step run with nonzero events so lapse_source reaches τ and elapsed time; today it is a label. — open, next release
+- **Fix the feedback lapse (program defect, core 0.11.0):** make the history step run with nonzero events so lapse_source reaches τ and elapsed time; today it is a label.  — decided by Sean Brady 2026-10-22 ("Apply the suggested words to all seven"): done in core 0.11.1 (H002746). — adopted
 - **Native √q in the reservoir** (exp(−Λ/2)) so the kinetic lapse is computed, not read as sech. — open
 - **Exact chart meeting:** algebraic or enclosure-valued rapidity in the profile. — open
 - **Profile with a declared γ in the light index**, so the light-path row becomes a scan. — open
@@ -241,7 +241,7 @@ The spin results have an RH shape: an ordered past entering a present quantity t
 - **Records chosen for correlation with the hidden part**, not completeness (64-state: port 0 carries 68 % of the ceiling at a quarter of the price); noisy or coarse records to raise ceiling/floor above 6 %. — open
 - **A hidden-field stroke on one hidden port of the 64-state source**, priced against its ~5e-4 ceiling. — open
 - **A repeated-cycle family** that reuses j as the next cycle's i. — open
-- **Program note:** the Duck's run-wide queue bound (64 queued-or-running) should be in every briefing; a per-peer in-flight cap is the peers' discipline. — open (method)
+- **Program note:** the Duck's run-wide queue bound (64 queued-or-running) should be in every briefing; a per-peer in-flight cap is the peers' discipline.  — decided by Sean Brady 2026-10-22 ("Apply the suggested words to all seven"): in every briefing since spin_work_3. — adopted
 
 ## 2026-10-21 — from voli_threads_3 (proposed by Claude peers; status open)
 - **A feedback construction with an initial field coordinate, or one lapse per event carrying the field state** with the domain check kept; the reversal recipe as its regression check. — open, construction candidate
@@ -262,14 +262,14 @@ The spin results have an RH shape: an ordered past entering a present quantity t
 - **How each n-stage finite-dwell curve closes the gap to its stationary value**; a real optimiser through the exact maps. — open
 - **A runnable protocol combining geodesic spacing with end half-steps**, priced by forward work only; a native thermodynamic-length recipe; geodesic schedules inside the history/current-only gain; whether the symmetric-1/n / asymmetric-1/n² split survives finite dwell. — open
 - **The flag record**: a → 1 share in closed form as a ratio of two relative entropies; the channel (a, b) optimum per separation; the flag record on the 64-state source; a staircase driven by the flag record. — open
-- **Program note (D5):** the three declared controls carried their status this run; the six undeclared failures were first attempts against an exact-zero-eigenvalue log trace. A support-only trace is the workaround; worth a line in the authoring guide. — addressed by Duck 2.3.3 `supersedes` (prepared, pending install); the authoring-guide line is still to add. — open (method)
+- **Program note (D5):** the three declared controls carried their status this run; the six undeclared failures were first attempts against an exact-zero-eigenvalue log trace. A support-only trace is the workaround; worth a line in the authoring guide. — addressed by Duck 2.3.3 `supersedes` (prepared, pending install); the authoring-guide line is still to add. — decided by Sean Brady 2026-10-22 ("Apply the suggested words to all seven"): Duck 2.3.4 `expected_failed_check` and RECIPE_AUTHORING.md line 151 cover it. — adopted
 
 ## 2026-10-21 — Ordered feedback clock: definition and prototype (proposed by Claude at Sean Brady's "Proceed with item 2"; status open; only Sean Brady changes a status)
 One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i natively in an event-clock word, the propagator as the path-ordered product of one exponential per event acting on the full (z, p, a) state so the field is carried between events, an optional initial field coordinate a(0), the domain check kept, and per event two native certificates: the energy identity and the inertia identity G(N_i, Γ)·elapsed_i = G(1, N_i·Γ)·ΔN_i, with N_i·Γ emitted as the readout `inertia_scale`. Legacy and 0.11.1 charts byte-identical. Offline matrix on ironclad branch `sandbox/feedback-ordered-20261021` (`sandbox/feedback_ordered_20261021/FEEDBACK_ORDERED_DEFINITION.md`, `RESULTS.md`): path order reproduces the peers' hand-built gaps (kinetic z gap 1.4635e-3, coordinate 4.031e-3), the reversal invariant h_end from rest holds to 1e-47 on both readings, all certificates zero. **Γ is not derived**: the state depends on N and Γ only through N·Γ and on time through the tick count; separating them needs an observable outside the contract (reservoir η = E₀/(2α²) as a field inertia replacing κ; a radiated-energy ledger per proper time; the bracketed twin). Decisions taken by Sean Brady 2026-10-21: Γ stays declared ("Leave it declared - Allow permanent changes", "readback approved"); installed as core 0.11.2 / Duck 2.3.2 / IRONCLAD-R29 (H002753). The three Γ candidates stay open ideas. — adopted
 
 ## 2026-10-21 — from the Duck 2.3.3 fixture (proposed by Claude; status open)
 - **Plan openings carry no author and cannot be superseded** under the same-author rule of `supersedes`; peer runs are unaffected (peers submit both sides). If root-authored openings ever need superseding, treat a missing author as ROOT_SUBMITTED in a later Duck release. — open (method)
-- **Authoring-guide line for the next campaign:** the three control fields (expected_output_status, expected_reason, supersedes) and the support-only log-trace workaround for exact-zero diagonals. — open (method, do at the next staging)
+- **Authoring-guide line for the next campaign:** the three control fields (expected_output_status, expected_reason, supersedes) and the support-only log-trace workaround for exact-zero diagonals.  — decided by Sean Brady 2026-10-22 ("Apply the suggested words to all seven"): present in the volii_matter_2 RECIPE_AUTHORING.md (lines 133, 151). — adopted
 
 ## 2026-10-21 — from voli_threads_4 (proposed by Claude peers; status open)
 - **The adjacent-swap closed form as a native recipe**: block-diagonal 4×4 generators carrying both orders in one product and a SOLVE-based ratio against the exact s-difference; on the off-fixture family with s replaced by k = εg²W/(2NΓ). — open (next construction-level certificate)
@@ -289,10 +289,10 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
 
 ## 2026-10-21 — from spin_work_4 (proposed by Claude peers; status open)
 - **Fix the comparison family before any ordering between stage counts:** both policies optimised to one tolerance on one fine field family (1/20 or 1/40 around the continuous optimum), each policy's work and a gradient row reported beside the gain, the grid loss per policy as a recipe; then share(T) per stage count against the stationary values. — open (method; first for the next spin run)
-- **Execute TWO's compiled continuous-family recipes** (unequal two-stage, three and four stages at T = 8) and their orderings; inputs exist. — open
-- **Staircase library variants:** maps keyed by (field, dwell) so free dwell needs no lattice; more than seven stages; a declared-field-list recipe deriving generator energies and coefficient rows together. — open (Tier 1)
+- **Execute TWO's compiled continuous-family recipes** (unequal two-stage, three and four stages at T = 8) and their orderings; inputs exist.  — decided by Sean Brady 2026-10-22 ("Apply the suggested words to all seven"): superseded by spin_verify_1's exhaustive per-chain optima on the same shapes. — dropped (superseded)
+- **Staircase library variants:** maps keyed by (field, dwell) so free dwell needs no lattice; more than seven stages; a declared-field-list recipe deriving generator energies and coefficient rows together.  — decided by Sean Brady 2026-10-22 ("Apply the suggested words to all seven"): (field, dwell) keying done in staircase library revision 2 (ironclad d027c39d) — adopted for that part; more than seven stages and the declared-field-list recipe stay — open (Tier 1)
 - **Flag record:** three and four stages; the channel (a, b) optimised with the fields for gain/B; native I_f and B from exact rational conditionals. — open
-- **Program note:** a log trace inside a recipe fails by engine error; declare such controls by `expected_reason`, not `expected_failed_check` (a recipe-level sign predicate would make the named-check form available). — open (method)
+- **Program note:** a log trace inside a recipe fails by engine error; declare such controls by `expected_reason`, not `expected_failed_check` (a recipe-level sign predicate would make the named-check form available).  — decided by Sean Brady 2026-10-22 ("Apply the suggested words to all seven"): in the authoring guide. — adopted
 
 ## 2026-10-21 — from feop_transfer_1 (proposed by Claude peers; status open)
 - **The general offset-tree operator** (p ∤ Q by even separations; odd separations by whole-cluster death; non-nested tuples), so a growing-z run needs no enumeration; a reduced joint operator of about 2^π(z) states from the per-prime (T, Z) blocks, since the Kronecker form passes 64 at four primes. — open
@@ -329,7 +329,7 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
   declared ensemble of starting states; certify the clock saturation sqrt(eta/(2E)) and the g-independence of the phase as a recipe; coupling staircases at eta ≥ 1 with
   switch timing optimised on one family; a fibered recipe so a coupling staircase fits one method. (TWO) — open
 - **Method note**: a recipe control whose failure may come from an engine error is declared by `expected_reason`, or its bases are tested offline first (second occurrence
-  of the named-check misdeclaration). — open, lead's note
+  of the named-check misdeclaration).  — decided by Sean Brady 2026-10-22 ("Apply the suggested words to all seven"): in the authoring guide; same note as spin_work_4 and the Duck 2.3.3 fixture. — adopted
 
 ## 2026-10-22 — from volii_matter_2 (proposed by Claude peers; status open; only Sean Brady changes a status)
 - **Optimise the field-plus-lapse total natively** on one fine family per lapse order, with the order witness; pin the lapse term or optimise the total directly (the
