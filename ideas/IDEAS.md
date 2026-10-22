@@ -37,7 +37,7 @@ adopted; next identities). State: 24 recipes adopted into `campaigns/recipe_libr
 fixture, gap-ratio rule, swap across a Γ jump) are open run items.
 
 **T5 — Hidden-history conversion: staircases, records, the Chapter IX sub-source, binding (Volume II Chapters VII.4, IX, X, XV, XVIII).**
-Sections: the spin_memory method note, spin_work_1 to spin_work_4, spin_verify_1, volii_matter_1, volii_matter_2, volii_matter_3, volii_matter_4, volii_matter_5. State: the staircase
+Sections: the spin_memory method note, spin_work_1 to spin_work_4, spin_verify_1, volii_matter_1, volii_matter_2, volii_matter_3, volii_matter_4, volii_matter_5, volii_matter_6. State: the staircase
 library is at revision 2 (one recipe per staircase, stage states returned, lapse ledger native); five headline values verified by three
 implementations with exhaustive optima; the Chapter IX sub-source converts the prototype's share; the flag record keeps its net-price
 advantage through two stages; the coupled binding construction has run once (41 segments); the energy recipient's share rises as the
@@ -46,11 +46,12 @@ natively with the entry-switch split certified from the stage states. **Done 202
 total-optimal fields; lapse-term family ratio under two; entry switch contains 0 natively, family dependence in the interior switch; all share orderings witnessed. **2026-10-22 (volii_matter_4, H002765):** five families; the total is
 stable to 1e-5 and the lapse term is not (flat direction; the pinning reading withdrawn); front library cross-checked by the classic route. **2026-10-22 (volii_matter_5,
 H002766):** each chain's continuous optimum certified a local maximum natively; the field and lapse ledgers have equal and opposite gradients there (neither is
-stationary), the mechanism of the family dependence; the soft-direction reading refuted.
+stationary), the mechanism of the family dependence; the soft-direction reading refuted. **2026-10-22 (volii_matter_6, H002767):** the switched share at N = 1/4
+above N = 1/2 on three families under four fixed conventions (gaps 2e-5 to 3e-5, spread 9e-6); the G160 switched curve; the carrying ledger reverses between grids.
 
 **T6 — The comparison family (method, Volume II; standing).** Sections: spin_work_1 (benchmark families), spin_work_4 (fix the family
 before any ordering), spin_verify_1 (the family is each policy's continuous optimum, not a finer grid), volii_matter_2 (the quantity is the
-field-plus-lapse total, not the field gain), volii_matter_3 (the total agrees between families to 3e-5), volii_matter_4 (five families: the total is the well-posed quantity; the lapse term and both interior and exit switches depend on the family; report a lapse term with its family, order on the total), volii_matter_5 (the grid-free form: a certified local maximum of the total per chain, with the ledgers' gradients equal and opposite; the split is a property of the point). State: sharpened three times and never contradicted; the lead recommends it become a line of
+field-plus-lapse total, not the field gain), volii_matter_3 (the total agrees between families to 3e-5), volii_matter_4 (five families: the total is the well-posed quantity; the lapse term and both interior and exit switches depend on the family; report a lapse term with its family, order on the total), volii_matter_5 (the grid-free form: a certified local maximum of the total per chain, with the ledgers' gradients equal and opposite; the split is a property of the point), volii_matter_6 (the share form: a common denominator makes a share ordering a difference of totals, resolved only against its drift across families). State: sharpened three times and never contradicted; the lead recommends it become a line of
 the briefing template rather than an open item.
 
 **T7 — The FEOP local operator (program thread; no volume home yet).** Sections: feop_bracket_fiber (receipt per cylinder level),
@@ -385,3 +386,12 @@ One metric lapse per event (`metric_lapse` N_i), chi_i = 1/N_i and elapsed_i nat
 - **The second-family switched share** (G160 tN12/tN14 through the front), still unopened after two runs. (THREE, FOUR) — open
 - **Status notes**: volii_matter_4's "grid-free optimum per chain with a native gradient certificate" — done in this run (the lead's recommendation, Sean Brady's
   "proceed"); its mechanism reading (a soft direction) refuted and replaced by equal-and-opposite ledger gradients. Statuses await Sean Brady's word.
+
+## 2026-10-22 — from volii_matter_6 (proposed by Claude peers and the lead; status open; only Sean Brady changes a status)
+- **A resolution statement for share orderings**: a gap is resolved only against its own drift across families (here 9e-6 against gaps of 2e-5 to 3e-5); write this
+  beside every share ordering as the comparison-family rule's share form. (lead) — open
+- **A width or tolerance rule for cross-product witnesses**: a cross product with the ceiling inherits the ceiling's width (4.8e-41) and fails the 1e-40 tolerance;
+  prefer the plain difference under a common denominator, or declare the tolerance. (THREE) — open
+- **The switched curve's limit as N → 0** at the continuous optimum; the per-chain gradient reading of which chains carry the lapse flip on every family. (TWO) — open
+- **The exit identity as a library gate** beside the local-maximum certificate. (THREE) — open
+- **Status note**: volii_matter_4's and volii_matter_5's "second-family switched share" — done in this run under Sean Brady's four conventions. Status awaits his word.
