@@ -2,6 +2,92 @@
 
 The ironclad repository keeps its own `sandbox/IDEAS.md` for instrument ideas. This file holds ideas that bear on the volumes.
 
+## Thread index (lead's map, written 2026-10-22 at Sean Brady's direction; it changes no status)
+
+The sections below are a log by run. This index groups their items into threads so that one question appearing under several run
+names reads as one thread, and so that connections between volumes are visible. Each thread names the sections that carry it, the
+volume and chapters it bears on, and its state on 2026-10-22. Statuses live in the sections, not here; only Sean Brady changes one.
+"Program thread" means a line of ironclad work with no home in a volume's living text yet.
+
+**T1 — The lapse: time rescaling against energy rescaling (Volume I Chapters II, IV–V; Volume II Chapter XV).** Sections: voli_lapse
+(feedback clock definition, adopted as core 0.11.1), explore_voli_threads_2 (per-event derived lapse), voli_threads_3 (one lapse per
+event), Ordered feedback clock (adopted as core 0.11.2), volii_matter_1 (lapse recipients A and B), volii_matter_2 (ordered pair under
+both recipients; mixed recipient). State: the clock recipient is order-blind, certified natively in the feedback engine (inertia identity,
+core 0.11.2) and in the matter engine (FOUR's identity recipe, 62 checks, volii_matter_2); the energy recipient is order-sensitive and pays
+a native lapse term; the mixed recipient's folding identity is open. This is the one connection between volumes that has native receipts
+on both sides. Its Volume I face waits on T2.
+
+**T2 — Deriving Γ, or separating N·Γ from N (Volume I).** Sections: explore_voli_threads_2 (a construction that derives Γ), voli_threads_3
+(readout fixing N·Γ; bracketed twin), Ordered feedback clock (three candidates: reservoir η as inertia, radiated-energy ledger, bracketed
+twin), voli_threads_4 and voli_threads_5 (per-event ε or port, or two-port feedback: the first place N·Γ and k come apart). State: Γ stays
+declared by Sean Brady's decision of 2026-10-21; the per-event construction is the agreed next step and waits on three choices put to Sean
+Brady (continuity convention; which side books the switching work; one field or two ports). Four sections propose the same construction
+under different names.
+
+**T3 — Volume I observables: a(q), resting clocks, a static profile Λ(x), path means, rapidity (Volume I Chapters II, IV–V).** Sections:
+the five entries of 2026-10-19 and their two status notes, after core 0.11.0, voli_lapse (native √q, exact chart meeting, declared γ in the
+light index, the floor A₀), explore_voli_threads_2 and voli_threads_3 (kinetic light path). State: a = 1 − q is the converged reading of
+three of four peers (2026-10-19) and awaits Sean Brady's word; the resting-clock decider could not decide (H002733) and now needs the
+derived-profile construction, a permanent change; the "Volume I follow-up run" item of after core 0.11.0 is written with an external
+answer key, which the rule of 2026-10-20/21 (runs are for learning, not for testing the volumes) excludes as written.
+
+**T4 — Order statistics and identities of the ordered clock (Volume I).** Sections: voli_threads_3 (reversal recipe), voli_threads_4
+(adjacent-swap closed form, affine permutation statistics, radar palindromes, ticks tied to positions), voli_threads_5 (identities library,
+adopted; next identities). State: 24 recipes adopted into `campaigns/recipe_library/identities/`; the next identities (2-D, det M off the
+fixture, gap-ratio rule, swap across a Γ jump) are open run items.
+
+**T5 — Hidden-history conversion: staircases, records, the Chapter IX sub-source, binding (Volume II Chapters VII.4, IX, X, XV, XVIII).**
+Sections: the spin_memory method note, spin_work_1 to spin_work_4, spin_verify_1, volii_matter_1, volii_matter_2. State: the staircase
+library is at revision 2 (one recipe per staircase, stage states returned, lapse ledger native); five headline values verified by three
+implementations with exhaustive optima; the Chapter IX sub-source converts the prototype's share; the flag record keeps its net-price
+advantage through two stages; the coupled binding construction has run once (41 segments); the energy recipient's share rises as the
+lapse falls (0.527 at N = 1 to 0.599 at N = 1/4, native). Next, by all four peers of volii_matter_2: optimise the field-plus-lapse total
+natively with the entry-switch split certified from the stage states.
+
+**T6 — The comparison family (method, Volume II; standing).** Sections: spin_work_1 (benchmark families), spin_work_4 (fix the family
+before any ordering), spin_verify_1 (the family is each policy's continuous optimum, not a finer grid), volii_matter_2 (the quantity is the
+field-plus-lapse total, not the field gain). State: sharpened three times and never contradicted; the lead recommends it become a line of
+the briefing template rather than an open item.
+
+**T7 — The FEOP local operator (program thread; no volume home yet).** Sections: feop_bracket_fiber (receipt per cylinder level),
+feop_transfer_1, feop_verify_1. State: the 4-state transfer operator re-derived four times and verified at p = 11, 13, 17, 19, 23, at p = 5
+L = 4, and on joint moduli with 11 and 13; its failure conditions mapped by break attempts; Φ reconciles the stationary (g+2) form with
+the 4-state form. Open: the general offset-tree operator, a reduced joint operator of about 2^π(z) states, the children identity as a
+library gate, chained summing words at p = 2 and 3.
+
+**T8 — The FEOP bound, BOUND_C02 (program thread; CANDIDATE).** Sections: feop_bound_c02, feop_bound_c02_rerun, feop_bound_c02_run3,
+feop_sidebyside, feop_bracket_fiber, feop_transfer_1 (R1..R6 at k = 24 from the operator). State: no run has addressed the bound since
+2026-10-20; the four FEOP runs since went to T7, whose operator is the stated route to the bracket's k = 24 coverage. Open: the
+depth-uniform bracket beside the exact Selberg remainder, the hybrid envelope, the measured joint discrepancy's form, growing z.
+BOUND_C02 stays CANDIDATE.
+
+**T9 — The RH crossover (Volume II against the FEOP program).** Sections: Sean Brady's logged idea of 2026-10-20, rh_crossover_1. State: a
+shape match (exact recurrence plus remainder on both sides, p⁻² against refinement⁻²) that the peers call a coincidence until one
+construction makes the residue-tree level and the staircase stage the same object. Revision 2 of the staircase library makes the
+stage-by-stage remainder to the ceiling native, the cheap half of that test; the one construction for both sides is unbuilt.
+
+**T10 — Program and method notes (Duck, engine, procedure).** Sections: feop_bound_c02_run3 (D5, adopted as Duck 2.3.3), feop_sidebyside
+and feop_bracket_fiber (64×64 limit: fibering helper adopted, engine release dropped for now), spin_work_2 (queue bound in every briefing),
+spin_work_3, spin_work_4, the Duck 2.3.3 fixture and volii_matter_1 (declaring controls: `expected_reason` for engine errors,
+`expected_failed_check` for recipe checks), voli_threads_5 (1500 s window adopted; Duck 2.3.4 adopted), Recommended model per role,
+volii_matter_2 (about 40 tasks per peer per window, chain steps ahead of new maps). State: most are done; see the list below.
+
+### Items the lead reads as done or superseded (statuses unchanged; Sean Brady's word decides)
+
+- voli_lapse, "Fix the feedback lapse (program defect, core 0.11.0)", marked open, next release: done in core 0.11.1 (H002746).
+- spin_work_4, "maps keyed by (field, dwell)": done in staircase library revision 2, which keys by field, dwell and lapse (ironclad d027c39d).
+- Duck 2.3.3 fixture, "Authoring-guide line for the next campaign": present in the volii_matter_2 authoring guide (RECIPE_AUTHORING.md lines 133 and 151).
+- spin_work_2, "run-wide queue bound in every briefing": in every briefing since spin_work_3.
+- spin_work_4, "Execute TWO's compiled continuous-family recipes": covered by spin_verify_1's exhaustive per-chain optima on the same shapes.
+- The control-declaration note appears three times (spin_work_4, the Duck 2.3.3 fixture, volii_matter_1); one note, and it is in the authoring guide.
+- spin_work_3, "the authoring-guide line is still to add" (support-only trace workaround): the Duck 2.3.4 `expected_failed_check` route and the guide's line 151 cover it.
+
+### Connections between volumes, as the index shows them
+
+- Volume I to Volume II: T1, firm, native receipts on both sides; advancing its Volume I face depends on T2's three choices.
+- Volume II to the FEOP program: T9, a shape match, half the test now cheap.
+- Volume I to Volume III: none recorded. The FEOP material (T7, T8) does not appear in any volume's living text; if it is to be a chapter, the text needs a home for it with the usual idea-versus-reading labels.
+
 ## 2026-10-19 — Map the manuscript's accumulation a to the chart's q (proposed by Claude; from ironclad run peer_restore_next) — open
 
 The GEN6 charts certify Ξ density ∝ 1/q and c_eff = c₀q. Volume I's teeth law is (1−a)^(−k) with γ = 2k and Cassini needing
