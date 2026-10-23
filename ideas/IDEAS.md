@@ -467,3 +467,12 @@ went through exactly this). Pass rule for a construction: one declared measure y
 4. **VIII**: mathematics only (the measure excluding 2/(9π); six-stage attenuation). 5. **X**: no run without a radial law; supports the placement options of 2026-10-22.
 Lesson carried from rh_transition_3: declare the receiver's weights first; the sign of a change can belong to the weighting (IX's two rulers, X's two receivers, XI's
 count-equals-energy weights, VIII's unweighted containers). — open
+
+## 2026-10-23 — roadmap item 1 done: Chapter XII's road law is the p = 3, Ξ_∞ = 1 − 1/π member of Chapter IV's estimable family, and survives only as the channel ratio (lead's derivation, volumes/I/ROAD_LAW_CHECK_XII_AGAINST_IV_20261023.md; Sean Brady: "word"; status open; only Sean Brady changes a status)
+
+- f(s) = (1 − 1/π) + (1/π)e^{−3s} is Ξ(s) = Ξ_∞ + (1 − Ξ_∞)e^{−ps} at p = 3, Ξ_∞ = 1 − 1/π; coefficients 3/π, −6/π, 10/π are (1 − Ξ_∞)·(3, −6, 10). q_0,inferred =
+  q_0 − 2p(1 − Ξ_∞) in general (XII's −6/π at the pinned values; 0.60 at IV's fiducial). As an absolute single-channel map the road gives η_D = 1/f = 1.386 at z = 1,
+  excluded by few-percent duality tests; as IV's GW/EM channel ratio it is untested and its plateau is poorly determined at low redshift (IV Appendix F).
+- Proposed placement (for Sean's word): XII §2–8 rebuilt as a short section of IV Part C; "fate" title retired; XII §9–18 to the boundary chapter.
+- Prospective test with a declared value: does IV's estimable exponent p come out at d̂ = 3? The only selected identification in VIII–XII testable without the data
+  having chosen it. — open
