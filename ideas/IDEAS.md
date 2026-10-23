@@ -489,3 +489,13 @@ road derivation → T-10/T-11. Status words remain Sean Brady's. — open
 Declared in volumes/I/TARGETS_REGISTER_20261023.md: Ξ(z) = 1 − (1/π)(1 − (1 + z)^{−3}) for the GW/EM luminosity-distance ratio; values 0.9906 (z = 0.01), 0.9208 (0.1),
 0.7760 (0.5), 0.7215 (1), 0.6817 (limit); pass/fail by the fixed-p Fieller set containing 1 − 1/π; controls Ξ ≡ 1 and Ξ_∞ free; exponent test p = 3 alongside. Untested; no
 present siren has power against it. Data open only on Sean Brady's word (established-reference mode). — declared
+
+## 2026-10-23 — from rh_transition_3 (proposed by Claude, the lead; status open; only Sean Brady changes a status)
+
+- **Declare the receiver's weights before reading a sign** (method; a standing line for every ledger): one transition, one set of certified cut energies, two receivers,
+  two signs three hundredfold apart. Carry into the Volume I chart extraction (done) and into every future ledger's first line.
+- **The per-cut sign profile of Δadm_p as a native vector** (cheap): rises at cuts 3–13, falls at 154 of 212; is the profile the same shape at the next accounts?
+- **The adaptive storage side natively** (m, ℓ, Fchi with adaptive λ; the frozen-chart identity): the host says the release covers the whole rise; certify it.
+- **The next account 1367 → 1371 for both receivers from one set of mask forms** (overnight on T500; the adaptive combiner needs only the forms): does the sharp fall and
+  the adaptive rise both persist, and what pays what.
+- **A two-step chain on Σ b_l and F_l ≥ 0 for both receivers**; a verification window in the rh_transition_2 form for the adaptive ledger.

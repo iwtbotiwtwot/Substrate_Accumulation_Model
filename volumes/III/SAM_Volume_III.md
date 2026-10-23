@@ -7143,11 +7143,13 @@ BOUND_C02 stays CANDIDATE. Directed by Sean Brady. Executed with Claude Code. Ea
   two further implementations written from the rules alone, a pair census and an arb cut telescope of radius 2e-148, give P(Y₀), P(Y₁) and ΔP to every printed digit;
   the topology, the owners, the 104,788 BALANCED events, the one-use identity and the 302 new events (199 BALANCED, 103 NEGATIVE_PP) are reproduced exactly; the mask
   forms at cuts 13 and 953 are rebuilt natively to 5e-93; the storage values m and ℓ are reproduced by separate code and every headline sign is witnessed.
-- **Reading (host-only, one implementation, not yet native).** The adaptive receiver's price at the retained cut comes out −0.43488531545237, the program's other published
-  signed target −0.434885315452 to twelve digits, so both published receivers are now reproduced from the rules. At this same transition the adaptive price **rises**, by
-  +2.715e-6, with the exterior up +1.209e-6, the crossing up +1.150e-6 and the scalar up +3.49e-7: the first concrete case of an exterior rise that nothing in the present
-  account pays. On the sharp receiver the price falls at each of the next eight accounts (1371 … 1389), the exterior carrying each fall, and the Fchi release turns negative
-  from 1383 → 1385 onward. The next native step is the adaptive receiver with its weights' Y-dependence as its own ledger line and a two-step chain on Σ b_l and F_l ≥ 0.
+- **Result (2026-10-23, rh_transition_3, H002770).** The adaptive receiver natively on T500 and the cloud replica (5067 calls, 880 checks, identical enclosures): P(Y₀) =
+  −0.4348853154523694, the program's other published signed target to its twelve digits, so both receivers are reproduced from the rules. At this transition the adaptive
+  price rises by +2.715e-6, and the rise is structural: with the receiver frozen at its Y₀ weights it rises by +2.494e-6, the weight-change account being +2.21e-7. The
+  sign of the exterior change belongs to the receiver's weights: the admitted energy rises at the five smallest cuts (+2.76e-4) and falls at 154 of the other 212, so
+  near-uniform weights (Pi_adaptive = 1.005) read a rise and sharp weights growing to 4.58 read a fall three hundred times larger. Host-side, both implementations: the
+  adaptive chart's storage release (+1.375e-5; m = 0.00427) covers the crossing rise (+1.150e-6) and the whole price rise, so nothing is unpaid at the adaptive receiver
+  either by that chart; the native storage side is queued. Four of the lead's five testable predictions failed and are recorded.
 - **Reading (earlier, open).** The staircase remainder of Volume II's spin engine and this program's recurrence-plus-remainder structure share a form (rh_crossover_1,
   H002751); the peers call the match a coincidence until one construction makes the residue-tree level and the staircase stage the same object.
 
