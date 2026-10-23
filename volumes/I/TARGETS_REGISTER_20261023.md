@@ -105,7 +105,18 @@ Legend for "status": **grammar** (a declared primitive of the count language; no
   atanh(π^{−1/2})) kept apart from A_los as the core itself keeps them.
 - **Check:** prospective, declared value: does the estimable exponent p come out at d̂ = 3 from standard sirens? The one selected identification in VIII–XII
   testable without the data having chosen it.
-- **Status:** selected (exponent and plateau); retired as stated (as an absolute map).
+- **Status:** selected (exponent and plateau); retired as stated (as an absolute map). **Carried as written (Sean Brady, 2026-10-23: "the ceiling is 1/π if we
+  are talking about redshift distance"; "Carry the T-10 entry as written and declare the plateau test").**
+- **Declared plateau test (2026-10-23, before any data are examined).** In Chapter IV's channel-ratio form Ξ(s) = Ξ_∞ + (1 − Ξ_∞)e^{−ps}, s = ln(1 + z), the
+  ceiling fixes Ξ_∞ = 1 − 1/π = 0.68169011 and the grammar fixes p = d̂ = 3. Prediction: the ratio of gravitational-wave to electromagnetic luminosity distance
+  to one source, after calibration C_cal and the declared detector and source factors, follows Ξ(z) = 1 − (1/π)(1 − (1 + z)^{−3}): at z = 0.01, 0.9906; at z = 0.1,
+  0.9183; at z = 0.5, 0.7762; at z = 1, 0.7215; at z = 2, 0.6935; limit 0.6817. Observable: standard sirens with electromagnetic counterparts (or statistical hosts)
+  at z ≳ 0.3, where the predicted departure exceeds 10 % and the low-redshift leverage problem of Chapter IV Appendix F no longer applies. Pass/fail rule: the
+  Fieller set for (Ξ_∞, C_cal) at fixed p = 3 (Chapter IV Appendix E.4) contains 1 − 1/π → the ceiling stands as the plateau; excludes it at the declared level →
+  the ceiling as plateau is falsified and p, Ξ_∞ return to Chapter IV's estimable status. A fit with p free is reported alongside as the exponent test (p = 3?).
+  Controls: the null Ξ ≡ 1 (no road) and the shape-only alternative Ξ_∞ free must be scored on the same data with the same nuisance policy. Current standing:
+  untested; GW170817 at z ≈ 0.01 (predicted departure 0.94 %) has no power against it. Established-reference mode applies when data are opened; Sean Brady's word
+  opens them.
 
 ### T-11 The fate coefficient H_fit,∞ = H_0Ω_Λ^{3/2}
 - **Entered:** Chapter XII §6.

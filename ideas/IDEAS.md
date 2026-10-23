@@ -483,3 +483,9 @@ Fourteen entries T-01…T-14 (container algebra; the floor; 1/π; χ; η; the pe
 Home; the entry convention; the crossing postulate), each with entered / opened / awaits / construction / check / status. Two already carry today's result (T-10, T-11).
 Roadmap items map onto entries: measures run → T-02/T-04/T-07; finite-entry staircase → T-13/T-12; recombination receipt → T-06's lane; passive-surface QNM → T-08;
 road derivation → T-10/T-11. Status words remain Sean Brady's. — open
+
+## 2026-10-23 — T-10 carried; the plateau test declared (Sean Brady: "the ceiling is 1/π if we are talking about redshift distance"; "Carry the T-10 entry as written and declare the plateau test")
+
+Declared in volumes/I/TARGETS_REGISTER_20261023.md: Ξ(z) = 1 − (1/π)(1 − (1 + z)^{−3}) for the GW/EM luminosity-distance ratio; values 0.9906 (z = 0.01), 0.9183 (0.1),
+0.7762 (0.5), 0.7215 (1), 0.6817 (limit); pass/fail by the fixed-p Fieller set containing 1 − 1/π; controls Ξ ≡ 1 and Ξ_∞ free; exponent test p = 3 alongside. Untested; no
+present siren has power against it. Data open only on Sean Brady's word (established-reference mode). — declared
