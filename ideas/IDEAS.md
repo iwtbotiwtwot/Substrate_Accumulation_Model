@@ -476,3 +476,10 @@ count-equals-energy weights, VIII's unweighted containers). — open
 - Proposed placement (for Sean's word): XII §2–8 rebuilt as a short section of IV Part C; "fate" title retired; XII §9–18 to the boundary chapter.
 - Prospective test with a declared value: does IV's estimable exponent p come out at d̂ = 3? The only selected identification in VIII–XII testable without the data
   having chosen it. — open
+
+## 2026-10-23 — Volume I targets register written (Sean Brady: "set them as targets to receive their own more mature foundations"; "word"; volumes/I/TARGETS_REGISTER_20261023.md)
+
+Fourteen entries T-01…T-14 (container algebra; the floor; 1/π; χ; η; the perturbation selectors; 10/π; 3/8 and 4/45; 1/8; the road; the fate coefficient; the
+Home; the entry convention; the crossing postulate), each with entered / opened / awaits / construction / check / status. Two already carry today's result (T-10, T-11).
+Roadmap items map onto entries: measures run → T-02/T-04/T-07; finite-entry staircase → T-13/T-12; recombination receipt → T-06's lane; passive-surface QNM → T-08;
+road derivation → T-10/T-11. Status words remain Sean Brady's. — open
