@@ -84,3 +84,5 @@ Sean Brady: "lets update before we remove or rearrange" and "I think that is a g
 conclusion of every run or test adds its entry to the relevant volume's appended "Run results received into Volume N" section (result / reading / idea labels, campaign and
 history entry cited) with a change-log line, as part of CLAUDE.md §2 of this repository. The three sections were created 2026-10-22 (doc repo 9bcf242). No removal or
 rearrangement of manuscript text until Sean Brady decides the placement of Volume I's Chapters VII–XII (ideas/IDEAS.md).
+
+- 2026-10-23 — Sean Brady, on the pods live page reaching its 32 KiB allowance (the predecessor-era sections were moved verbatim to ironclad docs/live_archive instead): "if we need to expand the live page to make sure we have everything we need that is approved." Standing approval to raise the live-page allowance in the validator (precedent H002719, 16 → 32 KiB) when a move would lose anything; not exercised yet, nothing was lost.
