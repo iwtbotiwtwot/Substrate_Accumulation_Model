@@ -7152,6 +7152,15 @@ BOUND_C02 stays CANDIDATE. Directed by Sean Brady. Executed with Claude Code. Ea
   either by that chart; the storage side is native as well (1463 calls, 1567 checks; the frozen-chart identity closes with its moving-margin term −a²Δm, Δm = −1.03e-9).
   The exterior change of this transition vanishes for weights growing by 1.7 % across the cuts (θ* = 0.0110 in the family Pi_sharp^θ): the transition is nearly balanced
   under uniform weights and any growth above that reads it as a fall. Four of the lead's five testable predictions failed and are recorded.
+- **Result (2026-10-23, rh_transition_4, H002771).** The next account 1367 → 1371 for both receivers natively (unattended overnight on T500; three PASSes; both chain
+  identities zero enclosures, so the ledger runs from 4096/3 through 1367 to 1371 without a seam). Both signs persist and both changes grow: sharp ΔP = −1.752e-3 (2.4
+  times the previous step, the admitted-H term carrying it), adaptive ΔP = +8.43e-6 (3.1 times, 93.8 % of it with the receiver frozen). The admitted energy rises at the
+  seven smallest cuts (+7.09e-4) and falls at 211; θ* moved from 0.0110 to 0.0138. 557 new pairs (m, 1371), 482 admitted at zero kernel. Both 130-digit host
+  implementations lie inside every native enclosure. The two-cut combiner (one process per cut, a ledger process after) reproduces the single combiner's fourteen headline
+  endpoints identically and is the form for a sweep. The storage side (host, 130 digits): at the sharp receiver the release covers the crossing rise by the exact factor
+  1 + (ℓ₀ + ℓ₁)/(2m) = 1.7623 at both steps, because Δm = 0 there (Fchi = (m + ℓ)²/m, Pchi = ℓ²/m); "the release covers the crossing" is equivalent to "ℓ decreases", the
+  two signs can only flip together, and the storage question reduces to the sign of Δℓ and the size of m (at the adaptive receiver the same up to the Δm term, 12.08
+  against 12.06). Two of six predictions failed in one clause each (the event count; the size of the adaptive rise) and are recorded.
 - **Reading (earlier, open).** The staircase remainder of Volume II's spin engine and this program's recurrence-plus-remainder structure share a form (rh_crossover_1,
   H002751); the peers call the match a coincidence until one construction makes the residue-tree level and the staircase stage the same object.
 

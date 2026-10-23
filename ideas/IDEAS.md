@@ -499,3 +499,17 @@ present siren has power against it. Data open only on Sean Brady's word (establi
 - **The next account 1367 → 1371 for both receivers from one set of mask forms** (overnight on T500; the adaptive combiner needs only the forms): does the sharp fall and
   the adaptive rise both persist, and what pays what.
 - **A two-step chain on Σ b_l and F_l ≥ 0 for both receivers**; a verification window in the rh_transition_2 form for the adaptive ledger.
+
+## 2026-10-23 — from rh_transition_4 (proposed by Claude, the lead; status open; only Sean Brady changes a status)
+
+- **The storage coverage at the sharp receiver is the chart's algebra** (reduction; exact): with a = −1 and Δm = 0, release / crossing = 1 + (ℓ0 + ℓ1)/(2m) (1.7623 at both
+  steps). "The release covers the crossing" ⇔ "the crossing rises" ⇔ "ℓ decreases". Fchi adds no second witness there; the storage question is the sign of Δℓ (the
+  exterior–core coupling at K = [3, 15, 33]) and the size of m. Carry into every storage reading; check the adaptive receiver's Δm term as the only place a second witness lives.
+- **Declared prediction for the sweep:** where peer ONE's host scan found the sharp release turning negative (1383 → 1385), the crossing term 2aΔℓ turns negative with it;
+  Δℓ changes sign there. Unchecked.
+- **Both changes grew at the second account** (sharp 2.4×, adaptive 3.1×) while every sign and structure persisted; the lead's prediction bias is now "persistence at the
+  previous scale". Next predictions should be written on growth laws (per new pair? per admitted event? per unit of Δℓ?) rather than on the last value.
+- **The two-cut combiner is the sweep form**: cut forms per account (reusable), ledger steps after (cheap); a sweep 1371 → 1389 for both receivers with the Δℓ-sign
+  prediction above; the per-cut Δadm_p profile as a native vector along the sweep.
+- **Housekeeping:** the forms session store of this campaign is 128 GB (out of git; SHA manifest in results/); compression awaits Sean Brady's word. The scripts'
+  source-binding parent text is stale (rh_transition_1 wording) and is corrected in the next script version, not in these stores.
