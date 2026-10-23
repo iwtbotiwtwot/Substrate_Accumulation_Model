@@ -21,3 +21,5 @@
   into the Volume I chart extraction (IX's two rulers, X's two geometries, XI's count-equals-energy weights, VIII's unweighted containers).
 - **Ideas logged:** `ideas/IDEAS.md` "2026-10-23 — from rh_transition_3".
 - **Concluded by:** `scripts/conclude.sh` (hash in the commit).
+
+**Addendum 04:27Z.** The adaptive storage side is native (storage_adaptive1: PASS, 1463 calls, 1567 checks): release +1.3752e-5 against a crossing rise +1.1502e-6, the frozen-chart identity closing with its moving-margin term (Δm = −1.03e-9), both 130-digit hosts inside all 13 enclosures. The weighting family: the exterior change of this transition vanishes at θ* = 0.0110 (1.7 % total weight growth); host preview of 1367 → 1371: sharp −1.75e-3, adaptive +8.43e-6, θ* = 0.0138 (results/THETA_FAMILY_HOST.json; rh_transition_4 overnight).

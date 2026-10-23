@@ -7149,7 +7149,9 @@ BOUND_C02 stays CANDIDATE. Directed by Sean Brady. Executed with Claude Code. Ea
   sign of the exterior change belongs to the receiver's weights: the admitted energy rises at the five smallest cuts (+2.76e-4) and falls at 154 of the other 212, so
   near-uniform weights (Pi_adaptive = 1.005) read a rise and sharp weights growing to 4.58 read a fall three hundred times larger. Host-side, both implementations: the
   adaptive chart's storage release (+1.375e-5; m = 0.00427) covers the crossing rise (+1.150e-6) and the whole price rise, so nothing is unpaid at the adaptive receiver
-  either by that chart; the native storage side is queued. Four of the lead's five testable predictions failed and are recorded.
+  either by that chart; the storage side is native as well (1463 calls, 1567 checks; the frozen-chart identity closes with its moving-margin term −a²Δm, Δm = −1.03e-9).
+  The exterior change of this transition vanishes for weights growing by 1.7 % across the cuts (θ* = 0.0110 in the family Pi_sharp^θ): the transition is nearly balanced
+  under uniform weights and any growth above that reads it as a fall. Four of the lead's five testable predictions failed and are recorded.
 - **Reading (earlier, open).** The staircase remainder of Volume II's spin engine and this program's recurrence-plus-remainder structure share a form (rh_crossover_1,
   H002751); the peers call the match a coincidence until one construction makes the residue-tree level and the staircase stage the same object.
 
