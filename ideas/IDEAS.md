@@ -447,3 +447,19 @@ awaits Sean Brady's word. — open
   (version 2) as the standing form for native sweeps; one RH session grows to 6.5 GB, three at most on T500.
 - **Labelling** (ONE): "exterior_Self" in the lead's ledger is the total Self change including the crossing pairs' Self part; the split is a convention and either
   labelling gives the same exterior total (witnessed). Record the convention in the next ledger's names.
+
+## 2026-10-23 — Volume I Chapters VII–XII: chart extraction and the ranked low-lying fruit (Sean Brady: "Lets do the extraction to see what we already have, what we don't, and rank the low lying fruit. This could lead to some good busy work for ironclad."; lead's extraction in volumes/I/CHART_EXTRACTION_VII_XII_20261023.md; status open; only Sean Brady changes a status)
+
+Every statement sorted into exact algebra (A), selected identification (B: 1/π, (1−χ), (7/4)A_0^6, A_s/n_s/τ, 10/π, 3/8, 4/45, 1/8, A_0 = A_H/4πD) and missing law
+(C: emission clock, boundary response R(ω) shared by VII and XI, allocation measure, radial organisation law, exchange law, the evolution law for 1/π). Runs act on
+(A) when it has a storage question and on (C) when a candidate is small enough to declare; they do nothing for (B). Ranked:
+1. **Finite-entry staircase as a storage ledger (VII + XII), Duck idea run.** Exact payments ΔE_j, horizon/bath entropy accounts, step temperature as the
+   order-sensitive term, floor as stop rule, XII's receipts as inflow; controls ready made (depletion-feedback error, floor at N = 2). One evening. Cleanest Volume I ↔
+   Volume II transfer-ledger entry: does the boundary staircase have the matter engine's algebra?
+2. **Reproduce CR001c@19 (IX) in the verification form.** Two host implementations of the chapter's Peebles transport, both rulers, predictions first, our receipt as
+   regression, the chapter's four-calculation design for the 2% ruler gap. A day. No external data until Sean Brady's word.
+3. **Passive-surface quasinormal mode (XI).** Regge–Wheeler exterior, surface impedance class, root search; does any passive surface give 3/8 − 4i/45? One to two days.
+   Constrains the one blank two chapters share.
+4. **VIII**: mathematics only (the measure excluding 2/(9π); six-stage attenuation). 5. **X**: no run without a radial law; supports the placement options of 2026-10-22.
+Lesson carried from rh_transition_3: declare the receiver's weights first; the sign of a change can belong to the weighting (IX's two rulers, X's two receivers, XI's
+count-equals-energy weights, VIII's unweighted containers). — open
