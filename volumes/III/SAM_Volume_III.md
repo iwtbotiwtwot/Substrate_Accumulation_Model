@@ -7136,9 +7136,18 @@ BOUND_C02 stays CANDIDATE. Directed by Sean Brady. Executed with Claude Code. Ea
   no storage recipient, moves three thousand times more and here lowers the price. A transition with a rising exterior would be unpaid by Fchi in full; how often that
   occurs across accounts is the all-scale question in finite form. Three of the lead's seven pre-registered predictions failed (the sign and size of ΔP; an unpaid
   remainder; the event count) and are recorded.
-- **Result, in progress at the time of this addition.** The native exterior ledger (the whole price at both cuts by native bilinear forms of exact integer masks, four per
-  cut per Y, with the one-use identity EXCL = BEF − BM − SELF − ADM checked in integers) runs as a single process and a six-shard replicate; its record and a
-  separate-code verification window (rh_transition_2) follow under their own history entries.
+- **Result (2026-10-23).** The native exterior ledger is complete: the whole price at both cuts by native bilinear forms of exact integer masks (four per cut per Y;
+  EXCL = BEF − BM − SELF − ADM ∈ {0, 2} with zero diagonal checked in integers at every cut), six shards and a combiner at 512 bits, 1673 calls, 881 checks, all passed;
+  native P(Y₀) = −2.2231952453158312, the published signed target to every digit; the six-account ledger, the admitted-plus-excluded split and the sharp telescope close
+  as zero enclosures (H002769; `runs/20261023_rh_transition_2`). In the verification window rh_transition_2 (218 returns, none late, every failure a declared control)
+  two further implementations written from the rules alone, a pair census and an arb cut telescope of radius 2e-148, give P(Y₀), P(Y₁) and ΔP to every printed digit;
+  the topology, the owners, the 104,788 BALANCED events, the one-use identity and the 302 new events (199 BALANCED, 103 NEGATIVE_PP) are reproduced exactly; the mask
+  forms at cuts 13 and 953 are rebuilt natively to 5e-93; the storage values m and ℓ are reproduced by separate code and every headline sign is witnessed.
+- **Reading (host-only, one implementation, not yet native).** The adaptive receiver's price at the retained cut comes out −0.43488531545237, the program's other published
+  signed target −0.434885315452 to twelve digits, so both published receivers are now reproduced from the rules. At this same transition the adaptive price **rises**, by
+  +2.715e-6, with the exterior up +1.209e-6, the crossing up +1.150e-6 and the scalar up +3.49e-7: the first concrete case of an exterior rise that nothing in the present
+  account pays. On the sharp receiver the price falls at each of the next eight accounts (1371 … 1389), the exterior carrying each fall, and the Fchi release turns negative
+  from 1383 → 1385 onward. The next native step is the adaptive receiver with its weights' Y-dependence as its own ledger line and a two-step chain on Σ b_l and F_l ≥ 0.
 - **Reading (earlier, open).** The staircase remainder of Volume II's spin engine and this program's recurrence-plus-remainder structure share a form (rh_crossover_1,
   H002751); the peers call the match a coincidence until one construction makes the residue-tree level and the staircase stage the same object.
 

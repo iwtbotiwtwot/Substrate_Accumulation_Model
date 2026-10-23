@@ -35,3 +35,7 @@ exponent in one consistency field; the complete exterior ledger is host-side (tw
 the archive host did not answer, so the rules were applied from formulas and the published target served as the external anchor. Independence: none in the §8 sense.
 
 Directed by Sean Brady. Executed with Claude Code (RH DomainSession experiment rh_transition_1, IRONCLAD-R31).
+
+**Addendum 2026-10-23 (H002769).** The complete exterior ledger is now native: six shards of mask products and a combiner, 1673 calls, 881 checks, PASS; native
+P(Y₀) = −2.2231952453158312 (the published target to every digit), ΔP = −7.3001e-4, the six-account ledger, the admitted-plus-excluded split and the sharp telescope
+closing as zero enclosures, every host value inside its enclosure. Verified by four peers' separate code in rh_transition_2 (`runs/20261023_rh_transition_2`).

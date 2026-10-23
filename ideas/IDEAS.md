@@ -66,7 +66,7 @@ feop_sidebyside, feop_bracket_fiber, feop_transfer_1 (R1..R6 at k = 24 from the 
 depth-uniform bracket beside the exact Selberg remainder, the hybrid envelope, the measured joint discrepancy's form, growing z.
 BOUND_C02 stays CANDIDATE.
 
-**T9 — The RH crossover (Volume II against the FEOP program) and the RH transition ledger.** Sections: Sean Brady's logged idea of 2026-10-20, rh_crossover_1, rh_transition_1 (2026-10-22: the original source's next transition in the verification form; the storage pays the crossing, the exterior carries the price). State: a
+**T9 — The RH crossover (Volume II against the FEOP program) and the RH transition ledger.** Sections: Sean Brady's logged idea of 2026-10-20, rh_crossover_1, rh_transition_1 (2026-10-22: the original source's next transition in the verification form; the storage pays the crossing, the exterior carries the price), rh_transition_2 (2026-10-23: the exterior ledger native and the price reproduced four ways; host-only, the adaptive receiver's published target reproduced and its price rising at this step). State: a
 shape match (exact recurrence plus remainder on both sides, p⁻² against refinement⁻²) that the peers call a coincidence until one
 construction makes the residue-tree level and the staircase stage the same object. Revision 2 of the staircase library makes the
 stage-by-stage remainder to the ceiling native, the cheap half of that test; the one construction for both sides is unbuilt.
@@ -431,3 +431,19 @@ awaits Sean Brady's word. — open
   method only); the verification form (spin runs 20–22 Oct → rh_transition_1; procedure only); the recurrence-plus-remainder shape (spin and FEOP → rh_crossover_1; a
   question, called a coincidence until one construction decides it). Nothing has yet gone out of RH into the other works; the ledger should say so. Volume IV's "shared
   structure" part becomes this ledger. — open
+
+## 2026-10-23 — from rh_transition_2 (proposed by Claude peers ONE–FOUR and the lead; status open; only Sean Brady changes a status)
+
+- **The adaptive receiver natively at this transition** (ONE, THREE): its price at the retained cut reproduces the program's other published target host-side
+  (−0.43488531545237 against −0.434885315452) and rises by +2.7e-6 at 1365 → 1367 with the exterior up +1.2e-6. Open natively: the adaptive weights' Y-dependence as its
+  own ledger line, its own storage chart, and whether anything in the account pays the rise. This is the first concrete exterior rise; the lead would run it next.
+- **The next accounts natively** (ONE, FOUR): host-only, the sharp price falls at 1371 … 1389 with the exterior carrying each fall and the Fchi release turning negative
+  from 1383 → 1385. A two-step native chain witnessing Σ b_l and F_l ≥ 0 across consecutive accounts (THREE) would turn the single-transition statement into a finite
+  stretch of the storage inequality. The Google Cloud replica is sized for this sweep.
+- **A storage recipient for the exterior block** (THREE, FOUR): the 7.3e-4 margin belongs to the exterior admitted-H term, which has no storage recipient in H002629's
+  account; the all-scale question is whether one can be written. Mathematics, not computation.
+- **Method.** A narrow per-prime log route inside a recipe (GEN5_LOG_EVALUATE gives radius 3e-154 against 2.5e-41 for a HERMITIAN diagonal LOG of the primes) (TWO,
+  FOUR); the Y₁ native forms at cuts 3, 5, 7 to witness the new events entering at zero kernel (TWO); the shared-primitives, rotating-session form of the exterior script
+  (version 2) as the standing form for native sweeps; one RH session grows to 6.5 GB, three at most on T500.
+- **Labelling** (ONE): "exterior_Self" in the lead's ledger is the total Self change including the crossing pairs' Self part; the split is a convention and either
+  labelling gives the same exterior total (witnessed). Record the convention in the next ledger's names.
