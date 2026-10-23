@@ -452,7 +452,11 @@ awaits Sean Brady's word. — open
 
 Every statement sorted into exact algebra (A), selected identification (B: 1/π, (1−χ), (7/4)A_0^6, A_s/n_s/τ, 10/π, 3/8, 4/45, 1/8, A_0 = A_H/4πD) and missing law
 (C: emission clock, boundary response R(ω) shared by VII and XI, allocation measure, radial organisation law, exchange law, the evolution law for 1/π). Runs act on
-(A) when it has a storage question and on (C) when a candidate is small enough to declare; they do nothing for (B). Ranked:
+(A) when it has a storage question, on (C) when a candidate is small enough to declare, and on (B) through declared candidate constructions that can move an
+identification to exact-given-the-construction or kill the candidate (Sean Brady 2026-10-23: runs "can move them into a different bucket"; the RH published targets
+went through exactly this). Pass rule for a construction: one declared measure yields several of the chapter's numbers at once. Ranked (0 added after Sean's remark):
+0. **Bucket-movers (VIII, X, XI), Duck idea runs**: controllers propose measures on the 144-container/sphere structure; pass = 1/(12π), 2/(9π), 10/π from one measure.
+   Item 3 is the mover for 3/8 and 4/45.
 1. **Finite-entry staircase as a storage ledger (VII + XII), Duck idea run.** Exact payments ΔE_j, horizon/bath entropy accounts, step temperature as the
    order-sensitive term, floor as stop rule, XII's receipts as inflow; controls ready made (depletion-feedback error, floor at N = 2). One evening. Cleanest Volume I ↔
    Volume II transfer-ledger entry: does the boundary staircase have the matter engine's algebra?

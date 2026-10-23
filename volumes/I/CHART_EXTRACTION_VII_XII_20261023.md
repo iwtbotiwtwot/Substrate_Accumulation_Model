@@ -14,13 +14,16 @@ Every numbered statement in these chapters falls into one of three bins, and the
 
 - **(A) Exact algebra given declared premises.** Safe to carry; a run can certify it, and certifying it teaches us only whether our transcription is right.
 - **(B) Selected identifications.** A number from the count grammar matched to a known value after the value was known. The chapters say so in each case.
-  These are the "blanks filled": they are not wrong, they are unexplained, and a run cannot explain them; only a construction that produces them from a
-  declared measure can.
+  These are the "blanks filled": they are not wrong, they are unexplained. A run cannot explain one by itself, but a run on a declared candidate
+  construction can move it: if the construction yields the number, the identification becomes exact given that construction (bin A, conditional) and the
+  construction becomes the thing to test; if not, the candidate dies and is recorded. This is what the RH published targets went through this week. Guard:
+  a construction earns standing only when one declared measure yields several of the chapter's numbers at once (Chapter VIII's grammar warning); a
+  single-target hit stays in this bin. (Sean Brady, 2026-10-23: runs "can move them into a different bucket".)
 - **(C) Missing laws.** A dynamical, boundary or measure law the chapter names as absent. No run is possible until one is written down; a run can only test a
   candidate.
 
-The runs we know how to do well act on (A) when (A) has the shape of a ledger with a storage question, and on (C) when a candidate law is small enough to declare.
-They do nothing for (B).
+The runs we know how to do well act on (A) when (A) has the shape of a ledger with a storage question, on (C) when a candidate law is small enough to declare,
+and on (B) through candidate constructions generated in Duck idea runs and judged by the multiplicity rule.
 
 ## Chapter VII — horizon thermodynamics and the finite-entry ledger (pages 181–189)
 
@@ -164,6 +167,11 @@ exactly as it was asked of the RH transition. The transfer toys are the chapter'
 is a statement about bin (C) and needs no run.
 
 ## The ranking: low-lying fruit for ironclad, by what we would learn per hour
+
+0. **Bucket-movers for the selected identifications (Chapters VIII, X, XI; Duck idea runs).** Controllers propose declared measures on the 144-container and
+   sphere structure (R = 12, Θ = 18, A_H = 1, D = 3) and compute what each yields; pass condition is multiplicity: one measure producing 1/(12π), 2/(9π) and
+   10/π together, not one of them. Chapter VIII's own argument that a finite enumerator cannot produce π means any survivor carries a geometric or continuous
+   weight, which is a constraint in itself. Item 3 below is the bucket-mover for 3/8 and 4/45. Cost: one window per run.
 
 1. **The finite-entry staircase as a storage ledger (Chapters VII + XII; Duck idea run in the standard form).** Stages N → N − j with the exact payments ΔE_j; accounts:
    horizon entropy (−j k_B), reservoir or bath entropy, step temperature; the floor as stop rule; the replenishment I_n from XII's recurrence. Questions: where
