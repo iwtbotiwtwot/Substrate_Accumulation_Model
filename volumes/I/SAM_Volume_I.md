@@ -35203,6 +35203,12 @@ their placement are in `ideas/IDEAS.md` (2026-10-22) and await Sean Brady's word
 - Record: ironclad `campaigns/voli_ceiling_5_20261024/RUN_REPORT.md`, `runs/20261024_voli_ceiling_5/RECORD.md`. Runtime label FAILED_WITH_RETAINED_OUTCOMES (two first-revision
   controls on engine errors, superseded); the lead's framing table slip is recorded there.
 
+## Chapter VII — the step temperature against the spin engine's hazards (volii_gate_1, 2026-10-24, H002782)
+
+- **Reading.** Volume II's spin engine, passed through this volume's lawfulness gate, gives hazards that sum to the attempt clock and split by the Gibbs correlation of the two spins;
+  reading them as Chapter VII's step temperature ΔE_j/(j k_B) is a change of name (all four peers), and the one line that reads the bath is Arrhenius through the saddle, T_A → 1/β.
+  The finite-entry staircase of Chapter VII with its order-sensitive step temperature remains unrun (extraction ranking item 1). Record: ironclad `campaigns/volii_gate_1_20261024/RUN_REPORT.md`.
+
 ## Method notes that bear on how this volume is read
 
 Runs are for learning, not for testing the volumes against external keys (Sean Brady, 2026-10-20/21); verifying what the runs learned is allowed and is done in the

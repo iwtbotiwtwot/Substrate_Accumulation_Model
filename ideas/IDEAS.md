@@ -667,3 +667,31 @@ present siren has power against it. Data open only on Sean Brady's word (establi
 - **Lead's note on the five ceiling runs together:** floor, weight and count are three declared numbers; each now has an exact native language (a floor beside the reservoir or a
   parallel channel; a weight on the reservoir or an energy ratio; an exponent or a count of equally stiff directions) and none a derivation. The derivation, if there is one, must
   fix E_χ/E₀ and make the directional stiffnesses equal; the siren exponent test is the one place d̂ = 3 is decided from outside. — open
+
+## 2026-10-24 — Doors opened for Volume II by the ceiling runs and the RH readback (Sean Brady: "What about vol ii, I know we have opened some interesting doors for it in the last few days."; lead's reading; status open; only Sean Brady changes a status)
+- **A lawfulness gate for Volume II's staircases** (lead; from voli_ceiling_2/3): pass the spin engine's gain, the hidden spin's relaxation and the record's retained information
+  through the moment-and-sign, realisation, monotonicity and slope faces; positive mixture, staged ledger or neither; the hazard-as-temperature reading against Chapter VII's step
+  temperature. — adopted as the first run at Sean Brady's word ("Lets start with your recommendation please."): volii_gate_1, 2026-10-24.
+- **The lapse family as a source of lapse lists** (from voli_ceiling_5): the reservoir's two lapses are the d = 1, 2 members of q^{1/d}, q^{1/3} is native, and unequal stiffnesses give
+  each direction its own lapse; a lapse list for the ordered clock and the switching ledger drawn from the reservoir chart rather than declared. — open
+- **A conserved term invisible to one readout** (from voli_ceiling_5): shear carries its own conserved energy and is invisible to the volume law; Volume II's ledgers are the
+  language for "counted but not read"; look for the matter engine's analogue. — open
+- **A floored source in the matter engine** (from voli_ceiling_5, picture C): a parallel channel of declared energy that does no accumulation, the weight as an energy ratio; the
+  spin runs' share-of-ceiling ratios are the same kind of number. — open
+- **The finite-entry staircase (Volume I Chapters VII + XII) as the transfer entry into Volume II** (extraction ranking item 1): order-blind energy total, order-sensitive step
+  temperature; still unrun. — open
+- **Transfer-ledger note** (from the RH readback, 2026-10-24): the two separated lapse recipients of volii_matter are the nearest worked example of building a second recipient,
+  which the RH exterior lacks; a pattern, not a claim. — open
+
+## 2026-10-24 — from volii_gate_1 (Duck idea run: Volume II's staircase objects through the lawfulness gate; proposed by Claude peers ONE–FOUR and the lead; status open; only Sean Brady changes a status)
+- **The gain's mode weights as the record's projections on v̂ ± ĥ** (TWO), and the weight law w_s = −λ_f (slow weight = fast hazard) certified with a native log step. — open
+- **The entrance threshold p*(β) as a recipe** and the conjecture F-1: the first-flip ledger is completely monotone iff the entrance's exit rate is at least the slow hazard; more β
+  (FOUR, THREE). — open
+- **√I as a two-mode ledger**: the retained information as a signed quadratic form in the mode amplitudes, natively; why its hazard tends to twice the slow hazard (ONE, FOUR). — open
+- **n spins**: does the hazard sum stay fixed by the attempt clock and the split become a correlation Gram spectrum (TWO)? — open
+- **The two-stage staircase's eight modes and the stage mode count N(n) = 2^{n+2} − 2n − 4 natively**, through the maps-only front (ONE). — open
+- **Authoring**: a tolerance form for a regression check against a declared rational; a refusal is "not certified positive", never a certified zero; running tallies (lead). — open
+- **Lead's note:** the gate built for Volume I's line of sight sorts Volume II's engine cleanly — mixture (the hidden spin's relaxation), staged ledger (its first flip from the ground
+  state), neither (the gain), and a lawful survival that is no finite object at all (the retained information) — and behind them one exact structure, the generator as half the sum
+  of two projections. The hazard is a clock rate split by a correlation, not a temperature; Chapter VII's step temperature does not come out of the spin engine, and the finite-entry
+  staircase is the next place to ask. — open

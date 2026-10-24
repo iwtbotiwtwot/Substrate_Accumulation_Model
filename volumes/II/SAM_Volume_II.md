@@ -10953,6 +10953,26 @@ attempts 1/2; visible bit 0, hidden bit 1; hidden spin s = (−1, −1, 1, 1)); 
 - **Result.** The `coupled` quadratic-action binding construction (source metric, inverse inertia, coupling g, canonical state, reservoir) ran for the first time on the
   18-coordinate Volume II spin carrier (41 segments) and its switching ledger carries the prototype's identities (volii_matter_1, H002762).
 
+## Chapters VII–IX and XV — the lawfulness gate on the spin engine (volii_gate_1, 2026-10-24, H002782)
+
+- **Result.** Passed through the gate built for Volume I's line of sight (voli_ceiling_2/3), the engine's objects sort into the gate's three kinds. The one-stage gain as a function
+  of dwell, built natively at nine dwells from the one-step maps (g(4) = 0.0086068113930, the spin_work_3 receipt; the limit g_∞ = 0.00651197729931 native; g(1) < g_∞ < g(4)
+  certified), is neither a positive mixture nor a one-signed relaxation: it overshoots its limit. Per field it is an exact two-mode ledger whose pencil roots are the generator's
+  eigenvalues and whose weight signs are certified (slow negative, fast positive at fields 2/5 and 1/10; the reverse at 1/5, −1/5 and 3/10).
+- **Result.** The hidden spin's autocorrelation is a positive two-mode mixture (Hankel log-determinants certified at zero field and at 2/5). Its first-flip time is a positive mixture
+  from a Gibbs-restricted entrance and a lawful ledger with a hidden stage from the ground-state entrance (two constructions, β = 1/2, 1, 2 and a field; threshold 4/5 < p* < 5/6 at
+  β = 1): the gate's label depends on the entrance law, not on the generator, with det H₀ = −h′(0) and its sign set by the coupling.
+- **Result (exact structure, four routes).** The heat-bath generator is Q = (P_v + P_h)/2 − I, half the sum of the two conditional-expectation projections minus the identity, so its
+  spectrum is {0, −1, −(1 ∓ |ρ|)/2} with ρ the stationary visible–hidden correlation: the hazard sum θ_s + θ_f = 1 is the attempt clock and only the split reads temperature and field
+  (native Cayley–Hamilton witness at seven (β, μ); Qχ = −χ and tr Q = −2 at four energy sets); |ρ(μ)| = sinh(3/2)/(2√(cosh(1/2) cosh(1) cosh(μ − 1/2) cosh(μ + 1))); the −1 mode is the
+  two-spin parity χ = (1, −1, −1, 1), an exact eigenvector of every map with eigenvalue e^{−1} and orthogonal to the hidden spin, which is why it carries no weight in any hidden-spin
+  object. The slow mode's weight in the autocorrelation equals the fast mode's hazard (host).
+- **Result.** The record's retained information I(i; h_d | j) after a field-free dwell (I(0) the ceiling 0.0226357492536) is certified monotone and log-convex, its information hazard
+  falling from 0.918 toward twice the slow hazard, and is not completely monotone: a lawful survival that is neither a mixture of decays nor a finite staircase.
+- **Reading.** Reading the mode hazards as Chapter VII's step temperature is a change of name: the clock fixes the total hazard and only the split reads the bath, through a
+  correlation. The one line that reads the bath is Arrhenius through the saddle, θ_s ≈ (1/2)e^{−β} with barrier 1 (the visible step, not the direct 2), T_A → 1/β.
+- Record: ironclad `campaigns/volii_gate_1_20261024/RUN_REPORT.md`, `runs/20261024_volii_gate_1/RECORD.md`. Runtime label COMPLETE; the two- and four-stage staircases not yet gated.
+
 ## Instruments built for this volume (recipe library, ironclad)
 
 The staircase library (one admitted recipe per staircase; revision 2 returns every stage state and the lapse ledger; revision 3 adds probe chains and per-chain works),
