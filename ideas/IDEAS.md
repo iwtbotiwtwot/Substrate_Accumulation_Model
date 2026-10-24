@@ -635,3 +635,20 @@ present siren has power against it. Data open only on Sean Brady's word (establi
   speed. For Volume I's prose: the siren plateau test distinguishes memoryless from staged at the half-per-cent level and from the polynomial law's lawful edge at five per cent; what it
   cannot do is read lawfulness from its own low-redshift coefficients. The floor and the conservation law now exist as declared constructions on a prepared branch; their derivation
   from the action is the one object still unwritten. — open
+
+## 2026-10-24 — from voli_ceiling_4 (Duck idea run: one chart for the floored reservoir and the line of sight; proposed by Claude peers ONE–FOUR and the lead; status open; only Sean Brady changes a status)
+- **A product of d one-dimensional reservoirs** (THREE, ONE, FOUR): each with its own lapse q_i; does N = q^{1/d} and the volume law appear as the number of independent directions? — open
+- **An action term with an explicit spatial measure or gradient** (ONE, TWO, FOUR): J or V ≠ 0 is the one structural place d could enter; write its Noether charges and ask whether a
+  continuity current d(Ξ a^d)/ds = 0 appears with d set by the measure. — open
+- **The gap identity as a definition** (TWO): a floored action with a term in Λ_obs; a recipe that reads d from delays alone (it cannot be read from the regression without w). — open
+- **A photon-rule construction** (THREE): frequency carried along static_profile segments with a declared lapse power, so the lapse reading (d = 1 or 2) becomes native rather than a
+  host assumption. — open
+- **GEN3_COMPLEX_LOG on the unipotent Toeplitz matrix T(cosh²φ)** (FOUR): so the reservoir's Λ series is itself native; if refused, record why. — open
+- **What reading of the delay would choose 1/π rather than 1/d** (FOUR, TWO): delay flatness at z² gives w = 1/d = 1/3, 0.015 from the declared ceiling; a third-order condition?
+  FOUR notes the z³ coefficient at d = 3 vanishes at no rational q_floor near 0.68 (unchecked). — open
+- **Briefing and authoring-guide rules** (lead): a running task count per peer (ONE 38 against 36); read the board before a second recipe of the same identity (THREE's 9-task
+  replication); GEN5 recipes may consume construction readouts by `$result` (the voli_ruler limit concerns constructions). — open
+- **Lead's note on the four ceiling runs together:** the ceiling is a floor plus a weight; the road is the isothermal staircase; lawfulness is global; and now the two declared
+  objects are one object on one chart, with the exponent living only in the declared conversion s = Λ/d. The tie renames the conservation law without deriving it, and the
+  homogeneous action cannot fix d. The one new exact relation, delay = accumulation gap, is the scalar in which floor and reservoir meet. For Volume I's prose: the derivation
+  §7 asks for needs a term the action lacks (a spatial measure) or a structure it lacks (d directions), and that is now a precise statement rather than a hope. — open

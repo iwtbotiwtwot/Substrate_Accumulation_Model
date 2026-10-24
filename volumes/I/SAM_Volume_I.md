@@ -35167,6 +35167,22 @@ their placement are in `ideas/IDEAS.md` (2026-10-22) and await Sean Brady's word
 - Record: ironclad `campaigns/voli_ceiling_3_20261024/RUN_REPORT.md`, `runs/20261024_voli_ceiling_3/RECORD.md`. Core 0.11.3 (floored reservoir; line_of_sight) is prepared on its
   branch and awaits the §13 phrase; it was not used.
 
+## Chapters II, IV and XII — one chart for the floored reservoir and the line of sight (voli_ceiling_4, 2026-10-24, H002780)
+
+- **Result.** The two constructions installed as core 0.11.3 are one object on the chart tied by cosh²φ = e^{d s}, s = Λ(φ)/d: at matched points their q_obs, Λ_obs and delay
+  differ by exactly the approximant error of the rational path points (predicted before the read; native widths ~1e-47 against gaps ~1e-12), and a one-chart recipe built from
+  one exponential pair encloses zero at five values of the reservoir time with its control failed as declared. In reservoir time every readout (q_obs, the drawn share w tanh²φ,
+  headroom, d·s, d·D) is the same for every exponent; d lives only in the declared conversion s = Λ/d.
+- **Result.** The dictionary between reservoir time and the line of sight, witnessed natively by four separate codes: the regression (w d, −w d(d + 1)/2, w d(d + 1)(d + 2)/6)
+  is the chart change of w tanh²φ under z = cosh^{2/d}φ − 1 for d = 1, 2, 3 (and 3/2, 4), with z generated from the reservoir's own Λ; the drawn share is the squared fraction of
+  the saturating cyclic field, A = w((ψ − ψ₀)/ψ_∞)²; headroom and drawn share are the weighted field and Λ-sector energies; Ξ q = ν₀/c₀.
+- **Result (new).** The light-path delay is the accumulation gap, d q_floor c₀ D = Λ_res − Λ_obs, exactly: the one scalar in which the floor and the reservoir meet.
+- **Reading (on the exponent).** Nothing in the homogeneous action fixes d: on the tied chart its Noether charge Ξ ψ̇ = const and the declared law Ξ a^d = const are one equation
+  for every d (the tie renames the law, it does not derive it); relabelling Λ = dσ moves d into the stiffness and nowhere else; the reservoir's two lapses read as d = 1 or d = 2
+  under a photon rule, never 3; the vanishing φ⁴ term of z(φ) at d = 3 is a fact of sech²'s series in one chart, not a mechanism. The floored density Ξ_obs a^d is not conserved:
+  the declared law belongs to the reservoir sector and the floor sits outside it. The continuity current of §7 below remains unwritten; this run says where it cannot come from.
+- Record: ironclad `campaigns/voli_ceiling_4_20261024/RUN_REPORT.md`, `runs/20261024_voli_ceiling_4/RECORD.md`. First run on the installed core 0.11.3; runtime label COMPLETE.
+
 ## Method notes that bear on how this volume is read
 
 Runs are for learning, not for testing the volumes against external keys (Sean Brady, 2026-10-20/21); verifying what the runs learned is allowed and is done in the
@@ -35335,6 +35351,14 @@ when its cell's proper volume is passed"); equivalently a reason γ² tracks the
 not have: a native floored reservoir q ≥ Ω_Λ would carry the ceiling as a stop rule. Both are permanent changes to the vendored library and wait on Sean Brady's word. Until
 one exists the ceiling remains what the register says: a selected identification with a declared test, now understood as a floor plus a weight, in which "the further out you
 look, the more accumulation you look through" saturates because matter is the only declared component that dilutes.
+
+*Addendum (voli_ceiling_4, 24 October 2026, H002780).* With the floored reservoir and the line of sight now native, the two were read on one chart, cosh²φ = e^{d s}. They are one
+object, and the reading sharpens what §7 asks for: on that chart the reservoir's one Noether charge Ξ ψ̇ = const and the declared law Ξ a^d = const are the same equation for every
+exponent, so the tie renames the conservation law without deriving it; the homogeneous action has no spatial measure, relabelling Λ = dσ moves d only into the stiffness, and the
+reservoir's own two lapses read as d = 1 or d = 2, never 3. One exact relation is new: the light-path delay is the accumulation gap, d q_floor c₀ D = Λ_res − Λ_obs, the one scalar
+in which the floor and the reservoir meet, and the floored density Ξ_obs a^d is not conserved (the declared law lives in the reservoir sector, the floor outside it). The current
+this section calls for must therefore come from a term the present action lacks: a spatial measure or gradient (J or V ≠ 0), or a product of d one-dimensional reservoirs whose
+lapse is q^{1/d}. Nothing here is a claim.
 
 ## 8. Status
 
