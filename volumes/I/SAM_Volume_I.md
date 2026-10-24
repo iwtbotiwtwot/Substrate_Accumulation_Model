@@ -35131,6 +35131,26 @@ their placement are in `ideas/IDEAS.md` (2026-10-22) and await Sean Brady's word
   d̂ = 3, and every target is Ω_m times a container rational; 10/π is the road's own z³ coefficient. Selected, not derived (Chapter VIII §4.1).
 - Record: ironclad `campaigns/voli_ceiling_1_20261024/RUN_REPORT.md` (every outcome tagged; the lead's opening slip recorded first), `runs/20261024_voli_ceiling_1/RECORD.md`.
 
+## Chapters VII and XII — the line of sight as a staircase (voli_ceiling_2, 2026-10-24, H002777)
+
+- **Result.** A staged ledger of the line of sight, f(ψ) = α e^{Sψ} 1 with ψ = 3 ln(1 + z), that matches K ψ-conditions of the road is forced to the road unless it has at least K
+  hidden stages (four independent routes: Laplace degree count, Cayley–Hamilton, exponential-polynomial order). The road's declared regression (ceiling, 3/π, −6/π, 10/π) therefore
+  forces every ledger with up to three stages to the road; the smallest lawful staircase that passes it and is not the road has four hidden stages and first differs at z⁴; with
+  −15/π imposed as well, five stages and z⁵. The four-stage family (stages 1–3 exit at the road's hazard and advance at rate L − 1; stage 4 exits at λ; S·1 = (−1, −1, −1, −λ),
+  lumpable iff λ = 1; f − e^{−ψ} = (L − 1)³(1 − λ)ψ⁴/24, either sign) was built three times independently, each as one admitted method with the regression as its checks, every
+  check certified natively; the Hankel rank of its Markov parameters is exactly 4. Five-stage counters and Coxian-5 ledgers do the same for the full regression.
+- **Result.** If no stage is faster than one hazard per volume e-fold, the first coefficient alone forces the road: the memory a passing ledger carries lives in fast hidden
+  transitions. Last run's polynomial memory law is a survival only for c ≤ 8/9; the lawful staged alternative with the same ψ⁴ coefficient sits +0.004 above the road at z = 1
+  (native matrix exponentials: 0.99064, 0.92089, 0.77835, 0.72542, 0.69657), not +0.031.
+- **Result.** The moment-and-sign recipe (moment solve, Hankel ranks, pencil spectrum in one method) separates the road (rank 1, hazard 3), a positive mixture (rank 2, hazards 2
+  and 4) and a signed law (rank jump), but flags every passing staged ledger as "not a positive mixture", lawful or not: it certifies complete monotonicity; a monotonicity or
+  phase-type gate is the missing companion. A zero-hazard last stage passes the low-z coefficients and lowers the ceiling; only the ceiling condition excludes it.
+- **Reading (open).** With one shared S the shell maps commute and the total telescopes, as Chapter VII's finite-entry total does; shell-dependent ledgers let order into the
+  total at fourth order, ∝ λ³(d₁ − d₂) (native −3/2; a four-shell gap 3/32 exactly). The hazard h = −f′/f plays the part of VII's step temperature: the road is isothermal (h ≡ 1),
+  which is why it is memoryless; a fast last stage heats the line of sight toward the ceiling, a slow one cools it; the order term vanishes when shells share a terminal hazard,
+  as VII's fixed-bath balance vanishes at T_b = T_step. VII's staircase is itself a hidden-state ledger (payments depend on N; the floor is the absorbing stage).
+- Record: ironclad `campaigns/voli_ceiling_2_20261024/RUN_REPORT.md` (every outcome tagged; the lead's index slip recorded first), `runs/20261024_voli_ceiling_2/RECORD.md`.
+
 ## Method notes that bear on how this volume is read
 
 Runs are for learning, not for testing the volumes against external keys (Sean Brady, 2026-10-20/21); verifying what the runs learned is allowed and is done in the
@@ -35256,6 +35276,17 @@ rate one; S·1 = −1 natively); so memorylessness was forced in the staged case
 The consequence for the declared test is a sharpening, not a change. The siren plateau test of T-10 is a test of memorylessness in the line-of-sight draw: the plateau
 1 − 1/π and the exponent 3 are the memoryless prediction, and the shape of the channel ratio between z ≈ 0.5 and 2 is where a memory law would show. When the data are opened
 at Sean Brady's word, the memory family should be scored beside the two declared controls (Ξ ≡ 1 and Ξ_∞ free).
+
+*Correction and sharpening (same day, voli_ceiling_2, H002777).* G_c is a survival (nonincreasing) only for c ≤ 8/9; at c = 1 it un-draws matter on z ∈ (1.34, 2.08), so the
+values quoted above for c = 1 are not those of a storage ledger. The lawful memory alternative is a staircase with hidden stages: a staged ledger α e^{Sψ} 1 matching K
+ψ-conditions of the road is forced to the road unless it has at least K stages, so the regression above forces every ledger with up to three hidden stages to the road, and the
+smallest lawful ledger that passes it and is not the road has four (first difference at z⁴; five stages and z⁵ if −15/π is imposed as well). Three peers built the same
+four-stage family independently as one admitted method each (stages 1–3 at the road's hazard advancing at rate L − 1, stage 4 exiting at λ; lumpable iff λ = 1; first difference
+(L − 1)³(1 − λ)ψ⁴/24, of either sign), every check certified natively. Its shape with G_c's ψ⁴ coefficient is 0.99064, 0.92089, 0.77835, 0.72542, 0.69657 at the declared
+redshifts, +0.004 above the road at z = 1 where the polynomial law sat +0.031: the memory a lawful line of sight can carry is about eight times smaller than §5 first suggested,
+and it lives in hidden transitions faster than the road's hazard (if no stage is faster than one hazard per volume e-fold, the first coefficient alone forces the road). The
+hazard h = −f′/f is the line-of-sight analogue of Chapter VII's step temperature: the road is isothermal, h ≡ 1, which is why it is memoryless. The memory family to score
+beside the controls is therefore the staged ledger, not G_c at c = 1.
 
 ## 6. The measure framing, with its coincidences labelled
 

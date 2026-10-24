@@ -601,3 +601,19 @@ present siren has power against it. Data open only on Sean Brady's word (establi
   coincidence. — open
 - **Lead's note:** the lesson of the run for Volume I's prose: in every language the ceiling is a floor plus a weight, and the floor is Ω_Λ; "the further out you look the more
   accumulation you look through" saturates because matter is the only declared component that dilutes. The run derives nothing; it names the missing law four ways. — open
+
+## 2026-10-24 — from voli_ceiling_2 (Duck idea run: the line of sight as a staircase; proposed by Claude peers ONE–FOUR and the lead; status open; only Sean Brady changes a status)
+- **Moment-and-sign recipe revision 3** (THREE, ONE, TWO, FOUR): assemble the Hankel matrices from the solve output inside the method; add the phase-type realisation / monotonicity
+  gate (α ≥ 0, off-diagonal S ≥ 0, S·1 ≤ 0, or f nonincreasing) and the Markov-parameter Hankel rank as companions; extend to m₅, m₆ so a five-stage ledger is visible. Without the
+  gate the recipe flags every lawful staircase and every unlawful memory law alike. — open
+- **A five-stage complex-eigenvalue (ring-type) ledger in proper phase-type form** (TWO, THREE): does Ξ − Ξ_road change sign along z? The minimal phase-type order of the ring readout
+  and the exact μ where its positivity fails (host: between 0.9 and 0.95). — open
+- **The commutator series as an identities-library recipe** (TWO): α(e^{T₁x}e^{T₂y} − e^{T₂y}e^{T₁x})1 = λ³(d₁ − d₂)·xy(2x² + 3xy + 2y²)/12 + O(5); the exact statement of when shell
+  order enters the total. — open
+- **Carry the staged alternatives beside the T-10 controls** (lead): the four-stage ledger with G_c's ψ⁴ coefficient and the Coxian-5 with r = 1/2 replace G_c(c = 1) as the memory
+  family; their shapes are on record natively. — open
+- **The hazard as the line-of-sight temperature in the boundary chapter** (ONE, FOUR, THREE, TWO): h = −f′/f beside VII's step temperature ΔE_j/(j k_B); the road isothermal; VII's
+  finite-entry staircase itself a hidden-state (phase-type-like) ledger with the floor as the absorbing stage. A sentence for the VII + XI + XII chapter plan. — open
+- **Lead's note on the two runs together:** the ceiling is a floor plus a weight (ceiling_1), and the road is the isothermal staircase — the unique ledger with up to three hidden
+  stages that fits its own regression (ceiling_2). What a lawful line of sight could add is a fast hidden transition, and it would show at z ≳ 0.5 at the half-per-cent level
+  in the channel ratio. Nothing derives the ceiling. — open
