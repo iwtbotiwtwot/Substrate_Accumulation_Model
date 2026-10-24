@@ -541,6 +541,11 @@ present siren has power against it. Data open only on Sean Brady's word (establi
   per-prime terms depending on p alone with the small primes carrying it. Cheap; decisive either way. (Item 1 — done 2026-10-24, H002773: the answer is sharper than the question. ΔP_p ∝ ΔY at every cut; dP/dY = −4.3e-4 slowly varying;
   new coordinates enter at zero kernel; P(Y) is continuous (host at 1375, 1377 at 1/3, 2/3 of the step as predicted). The owner profile is fixed but is not a power law and not
   a product over primes — it is the window sum Σ_{n>Y/2} R_n split by owner. The local-factor question moves to that window sum: does R_n by owner factor over the primes of n?)
+  (Window sum done 2026-10-24, H002774, at Sean's word: the sign is readable from the census. For owners ≥ 37 every pair is prime-pair and the owner sum is a closed form over the
+  primes, 2 w_p Σ cos(π log2(q/p)) on the negative half-periods across the window (peaks at 29–31, 137, 521, zero above Y/√2, a function of p/Y). For owners ≤ 31 the positive
+  BALANCED mass is the mirror of the excluded donor carve-out. The unrestricted window sum is near zero (+785 against halves of ±6e4): the fall is the admission rule's choice.
+  So the ledger does have a per-prime structure, but it is not feop's Kronecker product: it is one cosine in log2(q/p) per owner prime, integrated over the window — a local
+  factor in the ratio q/p, not in p alone. Open: the adaptive receiver's table; the profile shift at far Y; why the two excluded excesses (+6383, −5108) nearly cancel.)
 - **A census operator from the factorization of Y1?** (open) Primes admit 0.54 of the new pairs with an identical split both times; composites 0.86–0.96 rising with the
   smallest factor. feop's four residue classes are carried by two exact 4×4 matrices. Test in the verification form: predict the sector census of 1391, 1393, 1395 from the
   prime factorization alone, then compute. 1379 = 7·197 (3× the others) must come out of it or break it; the lead's guess is that cut 7 carries the excess, and feop's split

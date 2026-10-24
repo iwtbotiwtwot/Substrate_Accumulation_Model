@@ -36,3 +36,14 @@
   sign of the window sum Σ_{n>Y/2} R_n(Y) under the receiver's weights; the per-cut profile is that sum split by owner (fixed across accounts; positive at 3 … 19; not a power law).
 - **Failed, plainly:** the lead's guess that cut 7 carried the 1379 excess; a power-law owner profile; new events driving the small-cut rise. Record:
   `campaigns/rh_sweep_1371_1389_20261023/results/per_cut/`.
+
+## Addendum — 2026-10-24 15:20Z, the window sum by sector and owner (H002774; Sean Brady: "proceed with your recommendation")
+- **Possible reduction.** New host code enumerates every pair of the window (Y/2, Y] by sector and owner (checked against host ΔP to 1e-31 at ten intervals and the native
+  per-cut values to 1e-17 at 220 cuts). At Y = 1389 the admitted window sum S = −31 179 is NEGATIVE_PP −57 331 plus BALANCED +26 222, and BALANCED is the mirror of the excluded
+  RESERVED_DONOR −31 330 (92 % of it at owners ≤ 19: that is why the small owners are positive); the unrestricted sum over all sectors is +785, so the fall is the admission
+  rule's choice. Owners ≥ 37 are exactly prime-pair, so their profile is 2 w_p Σ cos(π log2(q/p)) over the negative half-periods across the window: peaks at 29–31, 137, 521,
+  zero above Y/√2, and a function of p/Y (it shifts an octave when Y doubles). All 96 window primes have R_n < 0. The next account was predicted from the table before
+  computing: ΔP_sharp(1389 → 1391) = −8.6303e-4, host A afterwards −8.63047e-4; standing prediction for a native account −8.6305e-4.
+- **Failed, plainly:** both 10 % mirror bounds (11 %, 19 %); the 137 peak against 123; both trough positions (67, 277 against 61, 245) and their depths; the expectation that
+  composites have both signs (181/187 negative). Record: `campaigns/rh_sweep_1371_1389_20261023/results/window_sum/` (ironclad).
+
