@@ -546,6 +546,11 @@ present siren has power against it. Data open only on Sean Brady's word (establi
   BALANCED mass is the mirror of the excluded donor carve-out. The unrestricted window sum is near zero (+785 against halves of ±6e4): the fall is the admission rule's choice.
   So the ledger does have a per-prime structure, but it is not feop's Kronecker product: it is one cosine in log2(q/p) per owner prime, integrated over the window — a local
   factor in the ratio q/p, not in p alone. Open: the adaptive receiver's table; the profile shift at far Y; why the two excluded excesses (+6383, −5108) nearly cancel.)
+  (Adaptive done 2026-10-24, H002775: same calculus. At unit weight the admitted window sum is a 2 % residual (+230 of halves ±12 600: donor mirror at owners 3 … 19 against prime
+  pairs at owners ≥ 23); the adaptive weights (≤ 1.005) keep it positive, the sharp weights (to 4.58) tip it to −31 179 by weighting the large owners 3.5–4.6×. So the rigid/soft
+  pair of item 3 is, at the level of the window sum, one unit-weight object S_1(p) by owner and two weight profiles across owners: rigid = p-only weights that amplify the large
+  owners, soft = near-unit weights that leave the residual. Every coordinate's sign is the receiver's. New concrete question for the far-Y host test: the small-owner mirror is
+  fixed while the large-owner cosine pattern slides with Y, so the adaptive residual may change sign at some Y.)
 - **A census operator from the factorization of Y1?** (open) Primes admit 0.54 of the new pairs with an identical split both times; composites 0.86–0.96 rising with the
   smallest factor. feop's four residue classes are carried by two exact 4×4 matrices. Test in the verification form: predict the sector census of 1391, 1393, 1395 from the
   prime factorization alone, then compute. 1379 = 7·197 (3× the others) must come out of it or break it; the lead's guess is that cut 7 carries the excess, and feop's split

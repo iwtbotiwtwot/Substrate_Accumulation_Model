@@ -47,3 +47,15 @@
 - **Failed, plainly:** both 10 % mirror bounds (11 %, 19 %); the 137 peak against 123; both trough positions (67, 277 against 61, 245) and their depths; the expectation that
   composites have both signs (181/187 negative). Record: `campaigns/rh_sweep_1371_1389_20261023/results/window_sum/` (ironclad).
 
+## Addendum — 2026-10-24 16:05Z, the adaptive receiver under the window table (H002775; Sean Brady: "proceed with #1")
+- **Possible reduction.** A weight-free pair table (reproduces host adaptive P and frozen P at 1389 exactly; own a_p, w_p to 1e-31 at 220 cuts) shows the adaptive change is the
+  same window calculus as the sharp. At unit weight the admitted window sum is +230 out of halves of ±12 600 (owners 3 … 19 +12 691 from the donor mirror, owners ≥ 23 −12 461 from
+  the prime pairs). The adaptive weights (1 to 1.005) see +190 and the receiver rises; the sharp weights (1 to 4.58) weight the large owners 3.5 to 4.6 times and see −31 179,
+  S_sharp = Σ_p w_p S_1(p) − Self exactly. The receivers disagree in sign because of how they weight the owners, not because they see different pairs; every coordinate's sign is
+  the receiver's (all 96 window primes positive at unit weight, all negative under the sharp weights). The adaptive sum grew 61 % across the sweep (118 → 190): the sweep's
+  "adaptive per-event growth" is this residual growing. The weight part W is window calculus too (1.0e-6 clean, 4.25e-7 in the host's convention). Next account predicted
+  6.683e-6 before computing; host A at 1391: 6.449e-6 (695 leaves the window at the midpoint; the exact form reproduces the host to 1e-34). Standing predictions for a native
+  account 1389 → 1391: sharp −8.6305e-4, adaptive +6.449e-6.
+- **Failed, plainly:** the prime/composite sign expectation at unit weight (reversed); W concentrated at cuts 3 … 13 (37 %, not 80 %); the 2e-8 accuracy clause (2.3e-7).
+  Record: `campaigns/rh_sweep_1371_1389_20261023/results/window_sum/` (ironclad).
+
