@@ -35136,3 +35136,152 @@ their placement are in `ideas/IDEAS.md` (2026-10-22) and await Sean Brady's word
 Runs are for learning, not for testing the volumes against external keys (Sean Brady, 2026-10-20/21); verifying what the runs learned is allowed and is done in the
 verification form: everything given to the peers, separate code, exhaustive optima where a search is claimed, predictions written before computing. No number in this
 section is a classification; the three Courtroom phrases are Sean Brady's alone.
+
+# Addition (24 October 2026): the 1/π ceiling as a recurring theme — a drafted section
+
+*An addition to the living text at Sean Brady's direction ("lets update the volume"), not a change to the submitted manuscript. Nothing above is moved or removed. The
+section is drafted so that it can be placed with Chapter IV Part C (the p = 3, Ξ_∞ = 1 − 1/π member) and Chapter VIII §3 when the placement of Chapters VII–XII is decided;
+until then it stands here. Sources: the targets register (T-02, T-03, T-04, T-07, T-10), the road-law check of 23 October, and the Duck idea run voli_ceiling_1 of 24 October
+(ironclad campaign `campaigns/voli_ceiling_1_20261024/`, history H002776; every native number below is a certified receipt of that run or exact algebra checked by sympy).
+Engineering labels only; nothing in this section is a claim; the status words of the register are Sean Brady's. Directed by Sean Brady. Executed with Claude Code.*
+
+## 1. One number in three places
+
+The number 1/π enters Volume I three times and from one input. In the inventory (Chapter VIII §3) the matter fraction is Ω_m = RA_0 with the floor A_0 = 1/(12π) and the
+container count R = ĥ²d̂ = 12, so Ω_m = 1/π = 0.31831 and the complement is Ω_Λ = 1 − 1/π = 0.68169. In the road (Chapter XII §2) the accumulation seen along a line of sight
+to redshift z is
+
+  A_los(z) = (1/π)(1 − (1 + z)^{−3}),   f(z) = 1 − A_los(z),
+
+which saturates at 1/π as z → ∞. In Chapter XII §3 the two are joined, A_los(∞) = Ω_m, and the chapter says correctly that the join is one of construction: both sides are
+A_0R. The register records Ω_m = 1/π as a *selected* identification (matched to a known value after the value was known; the grammar enumeration finds about two per cent
+of admissible expressions doing as well), and the road's exponent and plateau as the two selections that pin Chapter IV's estimable family Ξ(s) = Ξ_∞ + (1 − Ξ_∞)e^{−ps},
+s = ln(1 + z), at p = d̂ = 3 and Ξ_∞ = 1 − 1/π. As an absolute single-channel distance map the road is excluded by distance duality at the few-per-cent level (a 39 %
+violation at z = 1); it survives as the ratio of two channels reaching one receiver, and in that form a prospective test is declared (register T-10): the ratio of
+gravitational-wave to electromagnetic luminosity distance should follow Ξ(z), with the values 0.9906, 0.9208, 0.7760, 0.7215, 0.6935 at z = 0.01, 0.1, 0.5, 1, 2.
+
+The ceiling is therefore not the spine of the volume. It is a recurring theme: the one selected number that ties the inventory to the distance work and carries a test the
+data did not choose.
+
+## 2. The reading that makes it structural
+
+Written in the scale factor a = (1 + z)^{−1}, the road is
+
+  A_los = Ω_m (1 − a³),   dA_los/ds = 3 Ω_m a³ = 3 (Ω_m − A_los).
+
+In words: the accumulation seen along a line of sight is the matter looked through, counted as the comoving-volume fraction between the emitter's epoch and now, in units in
+which the whole inventory is 1. The exponent is d̂ = 3 because it is a volume; the ceiling is 1/π because it is all the matter there is. The three one-exponent markers of
+23 October are this sentence seen from three sides: matter equals complement where (1 + z)³ = π − 1 (z = 0.2893); the road is half saturated at z = 2^{1/3} − 1 = 0.2599; it
+e-folds at z = e^{1/3} − 1 = 0.3956. The small-redshift coefficients of A_los are 3/π, −6/π, 10/π: the triangular numbers of d = 3 over π.
+
+What is missing from this reading is the law that makes "accumulation along a path" count matter by comoving volume with no other weight. The idea run of 24 October did
+not supply that law. It wrote the function in four languages, each exact, and showed that each names the same missing law in its own words.
+
+## 3. Which quantity the volume law counts
+
+The GEN6 core's reservoir carries the constitutive law q = sech²φ, Λ = 2 log cosh φ = −ln q, with φ additive along a path (the tanh addition law), c_eff = c_0 q, Ξ density
+∝ 1/q, impedance Z = 1. Reading the channel ratio Ξ as q gives a dictionary: u = tanh φ (the static-profile construction's own coordinate, q = 1 − u²), and the road becomes
+
+  1 − q = tanh²φ = u² = Ω_m (1 − a³).
+
+Four peers reached this independently. The quantity drawn by comoving volume is u², the squared velocity in the Lorentz dictionary (u = β, q = 1/γ², Ξ density = γ²), not the
+rapidity φ, not u, not Λ. The alternatives, each saturating at the same ceiling with the same exponent, fail the road's regression: drawing φ or u by volume gives A_los
+starting at z² with no linear term; drawing Λ by volume gives a first coefficient 3(1 − 1/π) ln(π/(π − 1)) = 3.611/π instead of 3/π. In the rapidity the road is not analytic at
+the observer, φ ~ √(3 Ω_m s), and its rate dφ/ds = 3(Ω_m − T²)/(2T(1 − T²)) with T = tanh φ diverges there, so no smooth rapidity law natural to the reservoir reproduces it. The
+reservoir's additive variable is the wrong ledger for the road; the right one is u². Channel-ratio shapes at the five declared redshifts (the road 0.9906, 0.9208, 0.7760,
+0.7215, 0.6935): φ drawn by volume 0.9996, 0.9752, 0.8223, 0.7426, 0.6999; u drawn 0.9997, 0.9803, 0.8424, 0.7563, 0.7048; Λ drawn 0.9888, 0.9091, 0.7637, 0.7151, 0.6914.
+
+The light-path delay of the q-reading has a closed form, D(s) = ∫₀^s ds′/Ξ = ln(Ω_Λ(1 + z)³ + Ω_m)/(3Ω_Λ), with asymptotic slope 1/Ω_Λ = π/(π − 1); the native static profiles
+of the road returned their delays as the exact rationals predicted before submission (2.759868 at four segments, 2.758073 at eight, against the continuum 2.757543).
+
+## 4. Four languages for one function
+
+**(a) The mirrored Friedmann reading.** f(z) = Ω_Λ + Ω_m (1 + z)^{−3} is E²_ΛCDM(x) evaluated at x = 1 + z read as a *future* scale factor: the squared Hubble ratio the same
+inventory would have when the universe is 1 + z times larger. The ceiling is the de Sitter attractor of that mirrored expansion, f → Ω_Λ; dΛ/ds = 3 Ω_m(x), the matter fraction
+at the mirrored epoch. The past reading 1/E²(z) has no ceiling; a complement with w ≠ −1 has no plateau (w = −0.9 falls to 0.171 by z = 100, w = −1.1 grows past 1). A
+plateau at exactly Ω_Λ is the statement that the complement does not dilute.
+
+**(b) The floored reservoir.** Ξ = Ω_Λ + Ω_m sech²φ with cosh²φ = (1 + z)³, i.e. Λ_res = 3s: the reservoir's log-attenuation along the line of sight is the log comoving volume,
+additive at the rate d̂ per e-fold, and the reservoir's Ξ density 1/q_res = (1 + z)³ is the matter-density law ρ_m(z)/ρ_m(0). The rapidity law is dφ/ds = (3/2) coth φ. The four
+markers become reservoir statements, each read natively on the one-log reservoir to the rational approximant of its time: half-saturation ⇔ q_res = 1/2 (Λ = 0.693122 at
+αt = 52/59 against ln 2); e-fold ⇔ Λ_res = 1 (1.000108 at 51/47); matter = complement ⇔ q_res = Ω_m/Ω_Λ = 1/(π − 1) (0.466714 at 92/99 against 0.466942); z = 1 ⇔ Λ_res = 3 ln 2
+(2.079363 at 17/10). In the accumulated delay τ = ∫ ds/q_res = ((1 + z)³ − 1)/3 the road is A_los = Ω_m · 3τ/(1 + 3τ), a Langmuir saturation in the delay, and 1 + 3τ multiplies
+over shells. **The ceiling is not in the reservoir.** The reservoir alone has q → 0 as φ grows and no floor (a profile at u = 1, q = 0, is refused by the construction); the
+ceiling is the floor Ω_Λ added beside it and the weight Ω_m on it. The floor the road needs is Ω_Λ = 1 − 1/π, not A_0. A selection-rule candidate follows: with Λ_res = ps for
+the general member of Chapter IV's family, the Ξ count per comoving volume scales as (1 + z)^{p − d̂}; p = d̂ is the one member in which it is conserved along the line of sight.
+
+**(c) The rate measure.** Write the channel ratio as a floor plus a mixture of memoryless draws,
+
+  Ξ(s) = ∫₀^∞ e^{−λs} dν(λ),   ν ≥ 0,   ν[0, ∞) = 1,
+
+a one-use ledger in which every undrawn element has its own constant hazard λ per e-fold. The z^k coefficient of A_los is (−1)^{k+1} ∫ C(λ + k − 1, k) dν, so the road's
+coefficients are moments: 3/π, −6/π, 10/π, −15/π ↔ (1, 3, 9, 27, 81) in units of Ω_m, a moment sequence of Hankel rank one. Within this class the ceiling and the first two
+coefficients alone force ν = Ω_Λ δ_0 + Ω_m δ_3 (mean 3, second moment 9, Cauchy–Schwarz equality): the hazard has zero variance, and 10/π, −15/π, … are then predictions of the
+class rather than inputs. Both halves were witnessed natively (the moment solve (1, 3, 9) with residual 0; Hankel rank 1). A nearby genuine mixture, half the mass at rate 2
+and half at rate 4, gives 0.9907, 0.9219, 0.7839, 0.7314, 0.7013. Read physically, λ is each inventory component's dilution exponent, ρ_i ∝ a^{−λ_i}: vacuum λ = 0, matter λ = d̂,
+and
+
+  Ξ(z) = Σ_i Ω_i ρ_i(0)/ρ_i(z),   A_los(∞) = Σ_{λ_i > 0} Ω_i.
+
+Why at the matter fraction: because in the declared inventory matter is the only component that dilutes. A curvature-like (λ = 2) or radiation-like (λ = 4) component, not
+among the declared inputs, would join the ceiling with Ω_i and shift the z coefficient of A_los by Ω_i(λ − 3) and the z² coefficient by −Ω_i(λ(λ + 1)/2 − 6). In this language
+the reservoir's sech² is a signed rate series, 4 Σ (−1)^{n+1} n e^{−2nφ}, with no rate-zero atom: no floor, which is (b) again.
+
+**(d) The union composition law.** On x = A_los/Ω_m with ψ = 3s the volume e-folds, shells compose by x ⊕ y = x + y − xy, equivalently A_1 ⊕ A_2 = A_1 + A_2 − A_1A_2/Ω_m: survival
+1 − x is multiplicative, and each shell is the column-stochastic ledger M(x) = [[1 − x, 0], [x, 1]] on (undrawn, drawn). Column sums of one are receipts counted once; the drawn
+column is the floor never debited; M(1) sends every state to (0, 1), the ceiling as the absorbing element. Native products gave the state (1/8, 7/8) at z = 1 and (1/27, 26/27) at
+z = 2, the road exactly. The neighbouring law, velocity addition x ⊕ y = (x + y)/(1 + xy), gives A_los = Ω_m tanh 3s: it meets 3/π and the ceiling but has z² coefficient −3/(2π)
+instead of −6/π (native 63/65 at z = 1 and 364/365 at z = 2 against the road's 7/8 and 26/27), and it is not a positive rate mixture (its moment pencil x² − x − 9 is indefinite).
+
+**(e) The Lorentz dictionary.** u = β, q = 1/γ², A_los = Ω_m β², Ξ density = γ², and the road is γ²_los = (1 + z)^{d̂}: the ceiling is Ω_m times β²_max with β_max = 1, the light-speed
+limit of an ever-boosted line of sight, the matter fraction the weight the receiver puts on β². Under isotropic uncorrelated kicks β² adds and γ multiplies in the mean (two
+native averaging witnesses: a Gram trace equal to 4(|k_1|² + |k_2|²) exactly; ⟨γ_12⟩ = γ_1γ_2 = 65/48 exactly over a rotation set summing to zero). What this dictionary does
+not supply is why the per-e-fold factor in γ² should be e^{d̂}; a one-axis contraction changes a volume by γ, not γ².
+
+Languages (a) and (c) appear to be one statement (component-wise inverse dilution); (b), (d) and (e) are its rewritings in the reservoir's, the ledger's and the kinematic
+coordinates. All five are exact for the same function and none derives it.
+
+## 5. What the regression assumes
+
+The regression any construction must meet to reproduce the road — the ceiling and the coefficients 3/π, −6/π, 10/π — over-determines the road only inside the memoryless
+class. Outside it, a monotone law that respects the storage inequality A_los ≤ Ω_m passes every declared coefficient and the ceiling and still differs from the road:
+
+  G_c(ψ) = 1 − e^{−ψ}(1 + c ψ⁴/24),   A_los = Ω_m G_c(3s),
+
+for every c; it first departs at z⁴. For c < 0 it crosses the ceiling beyond z = 1.09 and is excluded by the storage inequality; for c = 1 it is admissible and gives 0.9906,
+0.9209, 0.7846, 0.7525, 0.7514 at the declared redshifts against the road's 0.7215 at z = 1. Its moment Hankel matrix has rank two (natively), so it lies outside the mixtures
+of memoryless draws of §4(c). Two- and sampled three-stage hidden ledgers (Coxian phase-type draws) that pass the regression collapse to the road (each stage exits at total
+rate one; S·1 = −1 natively); so memorylessness was forced in the staged cases tried, not proved in general.
+
+The consequence for the declared test is a sharpening, not a change. The siren plateau test of T-10 is a test of memorylessness in the line-of-sight draw: the plateau
+1 − 1/π and the exponent 3 are the memoryless prediction, and the shape of the channel ratio between z ≈ 0.5 and 2 is where a memory law would show. When the data are opened
+at Sean Brady's word, the memory family should be scored beside the two declared controls (Ξ ≡ 1 and Ξ_∞ free).
+
+## 6. The measure framing, with its coincidences labelled
+
+The register asks for one measure on the container and sphere structure that yields 1/(12π), 2/(9π) and 10/π together. The look-back measure of the road, dμ = 3e^{−3s}ds
+with total mass Ω_m, has median s = (ln 2)/3 (the half-saturation marker), mean 1/3 (the e-fold marker), and
+
+  Ω_m E[s²] = 2/(9π) = χ (T-04),   Ω_m C(5, 2) = 10/π = X_∞ (T-07).
+
+Both hold only at d̂ = 3 with ĥ = 2 (8/(3R) = 2/d̂² and C(d + 2, 2) = ĥ²d − ĥ fail at other d), and π enters only through the sphere weight Ω_m = R/(4πD). Every one of the
+three targets is Ω_m times a container rational (1/R, 2/D² = 4/Θ, C(D + 2, 2)), and 10/π is the road's own z³ coefficient, so once the road is given it is not independent of
+it. Chapter VIII §4.1 applies: a finite unweighted count cannot produce π, and here the one 1/(4π) is supplied by the sphere and the rest by rationals the grammar supplies
+freely. These are coincidences of the d̂ = 3 instance, selected and not derived; the pass rule needs the rationals forced, not found. What would move them: a reason the
+allocation χ is the second moment — a variance — of the line of sight.
+
+## 7. What would derive the ceiling
+
+Each language names the same missing law in its own words: a continuity current for the Ξ density on the reservoir chart, d(Ξ a³)/ds = 0, from the core's own action (today
+homogeneous, J = V = 0, carrying no such current), which would derive Λ_res = 3s and so p = d̂; equivalently one hazard per e-fold equal to d̂ for every matter element ("drawn
+when its cell's proper volume is passed"); equivalently a reason γ² tracks the comoving volume. And in every language the floor the road needs is Ω_Λ, which the reservoir does
+not have: a native floored reservoir q ≥ Ω_Λ would carry the ceiling as a stop rule. Both are permanent changes to the vendored library and wait on Sean Brady's word. Until
+one exists the ceiling remains what the register says: a selected identification with a declared test, now understood as a floor plus a weight, in which "the further out you
+look, the more accumulation you look through" saturates because matter is the only declared component that dilutes.
+
+## 8. Status
+
+Nothing in this section is a claim. Ω_m = 1/π remains selected (T-03); the road's exponent and plateau remain selected and carried (T-10) with the plateau test declared and
+untested; χ and X_∞ remain selected (T-04, T-07) with the coincidences above labelled. The floor's derivation (T-02) and the density operator (T-03) are what the theme awaits.
+The Duck run's own failures are recorded in its report: the lead's opening slip (the rapidity approximant placed in the profile's u = tanh φ slot), one undeclared failed task,
+one control declared under the wrong label, and no derivation.
