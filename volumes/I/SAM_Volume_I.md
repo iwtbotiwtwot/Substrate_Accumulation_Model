@@ -35151,6 +35151,22 @@ their placement are in `ideas/IDEAS.md` (2026-10-22) and await Sean Brady's word
   as VII's fixed-bath balance vanishes at T_b = T_step. VII's staircase is itself a hidden-state ledger (payments depend on N; the floor is the absorbing stage).
 - Record: ironclad `campaigns/voli_ceiling_2_20261024/RUN_REPORT.md` (every outcome tagged; the lead's index slip recorded first), `runs/20261024_voli_ceiling_2/RECORD.md`.
 
+## Chapters IV and XII — the regression gate (voli_ceiling_3, 2026-10-24, H002778)
+
+- **Result.** The regression gate exists as three native faces with declared controls: a realisation face (phase-type lawfulness as applicability assumptions on declared rationals;
+  the road, the four-stage ledgers and the Coxian-5 accepted, the polynomial memory law refused in its exact Jordan form), a monotonicity face (positivity carried by a certified
+  log-determinant of grid differences) and a slope face (the exact rational slope factor of an exponential-polynomial law under an interval check). They were not joined into one
+  method in the window.
+- **Result.** Certified natively from both sides: the polynomial memory law is a survival iff c ≤ 8/9 (tangency of the slope at ψ = 3; 9/10 un-draws on [2.86, 3.14]); the ring ledger
+  is a survival iff μ ≤ tanh(π/2) = 0.917152 (two peers independently; 11/12 against 12/13 and 367/400). At either edge the law is a survival with no finite phase-type form; below it
+  the lawful staircases realising it need hidden speed that grows without bound (c*(Λ) → 8/9 exactly; L_min(c) = ⌈16/(8 − 9c)⌉ witnessed at c = 1/2; μ*(Λ) → tanh(π/2)).
+- **Result.** A lawful five-stage staircase carries the unlawful law's jet exactly through fourth order and passes the realisation face: lawfulness is a global property invisible to
+  any finite set of low-redshift coefficients. For the same ψ⁴ departure, lawful iff c ≤ 8/9 (polynomial), c ≤ tanh⁴(π/2) (ring), always (staged).
+- **Result (deliverable for the plateau test, T-10).** Native shapes at z = 0.01, 0.1, 0.5, 1, 2 for the road, four lawful staircases, the ring at μ = 1/2, the polynomial law at
+  c = 8/9 and c = 1, and the two controls; the lawful staircases within |ΔΞ| ≤ 0.0083 of the road at z = 2, the polynomial law's lawful edge +0.051 above.
+- Record: ironclad `campaigns/voli_ceiling_3_20261024/RUN_REPORT.md`, `runs/20261024_voli_ceiling_3/RECORD.md`. Core 0.11.3 (floored reservoir; line_of_sight) is prepared on its
+  branch and awaits the §13 phrase; it was not used.
+
 ## Method notes that bear on how this volume is read
 
 Runs are for learning, not for testing the volumes against external keys (Sean Brady, 2026-10-20/21); verifying what the runs learned is allowed and is done in the
@@ -35287,6 +35303,16 @@ redshifts, +0.004 above the road at z = 1 where the polynomial law sat +0.031: t
 and it lives in hidden transitions faster than the road's hazard (if no stage is faster than one hazard per volume e-fold, the first coefficient alone forces the road). The
 hazard h = −f′/f is the line-of-sight analogue of Chapter VII's step temperature: the road is isothermal, h ≡ 1, which is why it is memoryless. The memory family to score
 beside the controls is therefore the staged ledger, not G_c at c = 1.
+
+*Second sharpening (same day, voli_ceiling_3, H002778).* Whether a departure from the road is lawful cannot be read from any finite set of low-redshift coefficients: for the same
+ψ⁴ departure the polynomial memory law is a survival iff c ≤ 8/9, a ring-type law iff c ≤ tanh⁴(π/2), and a staged ledger for every value; and a lawful five-stage staircase carries
+the unlawful law's coefficients exactly through fourth order. Lawfulness is a global property, certified natively only by monotonicity on a grid or by a realisation with nonnegative
+rates in a declared basis; three such faces now exist as admitted methods with controls. The two edges are exact (the polynomial law's at c = 8/9 by the tangency of its slope at ψ = 3;
+the ring's at μ = tanh(π/2) = 0.917152, where the slope's ratio has its minimum at t = π), both certified from both sides on rational grids, and at either edge the law is a survival
+with no finite staircase behind it, the staircases that realise it below the edge needing hidden transitions of unbounded speed (c*(Λ) → 8/9; L_min(c) = ⌈16/(8 − 9c)⌉). The native
+shape table for the plateau test, at z = 0.01, 0.1, 0.5, 1, 2: the road 0.99064, 0.92084, 0.77600, 0.72148, 0.69348; the lawful staircases within 0.0083 of it out to z = 2; the
+polynomial law at its lawful edge c = 8/9 at 0.99064, 0.92090, 0.78365, 0.74903, 0.74500 (+0.051 at z = 2, further from the road than a lowered ceiling at +0.031); the controls Ξ ≡ 1 and
+the zero-hazard ledger (Ξ_∞ free) beside them.
 
 ## 6. The measure framing, with its coincidences labelled
 

@@ -617,3 +617,21 @@ present siren has power against it. Data open only on Sean Brady's word (establi
 - **Lead's note on the two runs together:** the ceiling is a floor plus a weight (ceiling_1), and the road is the isothermal staircase — the unique ledger with up to three hidden
   stages that fits its own regression (ceiling_2). What a lawful line of sight could add is a fast hidden transition, and it would show at z ≳ 0.5 at the half-per-cent level
   in the channel ratio. Nothing derives the ceiling. — open
+
+## 2026-10-24 — from voli_ceiling_3 (Duck idea run: the regression gate; proposed by Claude peers ONE–FOUR and the lead; status open; only Sean Brady changes a status)
+- **One gate recipe joining the three faces** (ONE, THREE, FOUR): realisation (applicability assumptions on α, S), monotonicity (certified log-determinant of grid differences, or FOUR's
+  exact slope factor under `interval_contains` where the law is exponential-polynomial), and a **ceiling face** (S nonsingular with a reachable positive exit) so the zero-hazard
+  lowered-ceiling ledger is labelled; each label's control declared by its reason where a refusal carries it. — open
+- **Derivative bounds inside grid cells** (ONE): make the monotonicity grid face sufficient, not only necessary. — open
+- **The ring's minimal phase-type order** (TWO): the cone-edge lemma (its complex poles sit on the order-4 eigenvalue cone edge); an explicit order-5 realisation by adding one real pole
+  and a positivity LP, passed through the gate; the ladder of later un-draw thresholds tanh((2k + 1)π/2). — open
+- **The uniformisation laws as recipes** (THREE, FOUR): c*(Λ) = r⁴Λ³/max_k[C(k + 1, 4)r − C(k, 4)] with its worst stage k = 3Λ − 1 (the discrete image of ψ = 3) and L_min(c) = ⌈16/(8 − 9c)⌉;
+  the same for the ring, whose μ*(Λ) → tanh(π/2) has no closed form yet. — open
+- **moment_sign r2 on the gc1jet witness beside G_c(1)** (THREE): expected identical verdicts, which would show the moment face is jet-local and the separation lives only in the
+  global faces. — open
+- **Briefing rule** (TWO, FOUR): admitted methods live in the admitting controller's store; shared openings must be admitted on every controller, or the briefing must say so. — open
+- **Lead's note on the three ceiling runs together:** the ceiling is a floor plus a weight; the road is the isothermal staircase, the unique ledger with up to three hidden stages fitting
+  its regression; a lawful departure cannot be read from any finite jet, and the two memory laws of the week have exact lawful edges that are limits of staircases of unbounded hidden
+  speed. For Volume I's prose: the siren plateau test distinguishes memoryless from staged at the half-per-cent level and from the polynomial law's lawful edge at five per cent; what it
+  cannot do is read lawfulness from its own low-redshift coefficients. The floor and the conservation law now exist as declared constructions on a prepared branch; their derivation
+  from the action is the one object still unwritten. — open
