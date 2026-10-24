@@ -560,3 +560,24 @@ present siren has power against it. Data open only on Sean Brady's word (establi
   hard/soft, the local factor double/simple roots (rh_crossover_1 peers: coincidence until one construction unifies them). Log the pattern; do not run on it. (Item 3.)
 - **From the matter runs:** the two separated lapse recipients of volii_matter are the nearest worked example of building a second recipient; the exterior has no storage
   recipient and the adaptive Δm term is the only place a second storage witness can live.
+
+## 2026-10-24 — The 1/π ceiling as a central object of Volume I (Sean Brady: "What about the 1/pi ceiling, I think this is going to end up an important part of vol i."; idea, logged; lead's assessment; status open; only Sean Brady changes a status)
+- **Where 1/π stands on record.** Three faces, one input: Ω_m = RA_0 = 1/π (T-03, selected as a density; 0.4σ Planck, ≈ 4σ against DESI DR2 + CMB, flagged "verify");
+  the road ceiling A_los(∞) = 1/π (T-10, carried at Sean's word as the plateau of Chapter IV's channel ratio, with the siren test declared); the typed join
+  A_los(∞) = Ω_m (XII §3, an identity of construction, both sides A_0R). The grammar enumeration puts 1/π among the 2 % of values that do as well for Ω_m, with
+  rivals at equal closeness, so its weight cannot come from the match; it comes from its role.
+- **The reading that makes it structural.** A_los(z) = Ω_m (1 − (1 + z)^{−3}) says: the accumulation seen along a line of sight is the matter looked through, counted as
+  the comoving-volume fraction between a and 1, in units where the whole inventory is 1. The exponent is d̂ = 3 because it is a volume; the ceiling is 1/π because it
+  is all the matter there is. That is the join between the inventory chapter and the distance work, stated as physics rather than as common provenance, and it is
+  the only selected identification in VIII–XII with a prospective test the data did not choose (the siren plateau; z ≈ 0.29 where matter equals complement).
+- **What it still lacks to be a derivation.** (a) A mechanism that saturates line-of-sight accumulation: XII's toy dB/dN = λ(B* − B) is written and not derived; the
+  "floor never debited / finite reservoir" ledger form is the natural home (a ceiling is a storage question: the fraction of a finite inventory one line of sight can
+  draw). (b) A density operator making the dimensionless substrate product a density fraction (T-03 awaits). (c) The source-measure construction (T-02/T-03: one
+  preparation, inventory and road operators both normalising to A_0R) — the Duck measures run of the extraction's ranking item 0 is its mover. The rapidity reading
+  (q = sech²φ; line-of-sight rapidity saturating at atanh(π^{−1/2}) = 0.639) is a candidate language for (a) and stays a reading, as the core keeps it.
+- **The risk to face if it becomes the spine.** Ω_m from BAO + CMB (DESI DR2 ≈ 0.303 ± 0.004) sits well below 1/π = 0.3183 and below the effective 0.3138. The
+  closing section asked for the DESI figures to be verified against the primary paper and recorded either way; that record does not yet exist and must precede any
+  chapter built on the ceiling. The siren test is the ceiling's own exam and is clean of this.
+- **Lead's recommendation (for Sean's word):** make the ceiling the organising object of the rebuilt distance-and-inventory material — a "ceiling" section in Chapter IV
+  Part C (as ROAD_LAW_CHECK §3 proposes) joined to the inventory's Ω_m with the typed join made explicit, the siren plateau test as its prospective check, the DESI
+  comparison verified and recorded, and the mechanism named as open (T-02/T-03 constructions). No text moved by this entry. — open
