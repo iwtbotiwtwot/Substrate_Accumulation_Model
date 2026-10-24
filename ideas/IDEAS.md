@@ -513,3 +513,22 @@ present siren has power against it. Data open only on Sean Brady's word (establi
   prediction above; the per-cut Δadm_p profile as a native vector along the sweep.
 - **Housekeeping:** the forms session store of this campaign is 128 GB (out of git; SHA manifest in results/); compression awaits Sean Brady's word. The scripts'
   source-binding parent text is stale (rh_transition_1 wording) and is corrected in the next script version, not in these stores.
+
+## 2026-10-24 — from rh_sweep_1371_1389 (proposed by Claude, the lead; status open; only Sean Brady changes a status)
+
+- **The growth variable is the account, not the admitted event** (reduction): six of seven sharp changes lie within 0.6 % of −8.66e-4 whether 302 or 539 events were
+  admitted; the adaptive rise is likewise ~+6.3e-6 from 1381 on. Something per account — the new coordinate's kernel L_Y(Y1) times a sum that barely moves with Y — sets the
+  size; the sector mix sets only the small remainder. Decompose ΔP per sector and per owner from the cut forms before writing the next growth prediction.
+- **Why 1379 = 7·197?** The one account 3.0× (sharp) and 2.8× (adaptive) larger than its neighbours, with the most NEGATIVE_PP events of any composite (21). 1387 = 19·73 is
+  ordinary, so "both factors > 5" is not it. Open; the per-owner decomposition above should show which cut carries the excess.
+- **The sharp storage side is closed as a witness** (reduction, now tested across a sign change): release/crossing = 1 + ℓ̄/m held at all seven steps and the two signs flipped
+  together at 1383 → 1385 exactly as declared. The sharp storage reading is the sign of Δℓ and nothing else; Δℓ is now positive and growing (+2.5e-8 → +4.8e-8).
+- **The adaptive receiver's storage is where a second witness could live:** its ratio falls 11.66 → 10.56 against 12.06, its Δm term is 1e-8-sized and growing (the lead
+  guessed 1e-10), and its Δℓ has not flipped. Write the Δm term out as the weights' dependence on Y and predict its sign along the next accounts before running them.
+- **An eighth rising cut at the prime accounts** (967 at 1373, 971 at 1381; not the new prime): observation without explanation; the per-cut Δadm_p vector along the sweep as a
+  native object would show whether these are the cuts just below Y1 − 2·203 or something else.
+- **θ* is a band, not a drift** (0.014–0.021): the weighting-family balance point does not move monotonically; predictions on it should be ranges.
+- **Prediction craft:** of nine predictions written as laws, the ones that failed were the quantitative bands whose variable the lead had not identified (per-event growth,
+  adaptive ratio, θ* drift) and the time estimate; every sign and structural law held. Next time: identify the variable first, then band it.
+- **Housekeeping:** archive pipeline proven (23 stores, ~400 GB → ~20 GB on Drive, SHA-256 manifests, verified, removed); per-file manifests above 40 MB live beside their
+  archives with pointers in git (GitHub limit). The chain form costs ~80 min per account on T500; further accounts beyond 1389 are a matter of running it again.
