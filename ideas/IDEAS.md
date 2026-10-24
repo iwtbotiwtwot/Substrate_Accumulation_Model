@@ -581,3 +581,23 @@ present siren has power against it. Data open only on Sean Brady's word (establi
 - **Lead's recommendation (for Sean's word):** make the ceiling the organising object of the rebuilt distance-and-inventory material — a "ceiling" section in Chapter IV
   Part C (as ROAD_LAW_CHECK §3 proposes) joined to the inventory's Ω_m with the typed join made explicit, the siren plateau test as its prospective check, the DESI
   comparison verified and recorded, and the mechanism named as open (T-02/T-03 constructions). No text moved by this entry. — open
+
+## 2026-10-24 — from voli_ceiling_1 (Duck idea run on the 1/π ceiling at Sean Brady's "go"; proposed by Claude peers ONE–FOUR and the lead; status open; only Sean Brady changes a status)
+- **A continuity current for the Ξ density on the reservoir chart** (ONE; THREE's "one hazard per e-fold equal to d̂"): d(Ξ a³)/ds = 0 from the core's own action would derive
+  Λ_res = 3s, i.e. p = d̂ as the only member of Chapter IV's family conserving the Ξ count per comoving volume. The action today is homogeneous (J = V = 0) and carries no such
+  current; a permanent change to the vendored library. — open
+- **A native floored reservoir** q ≥ Ω_Λ (ONE, TWO, FOUR): the reservoir has no floor (q → 0; the u = 1 controls refuse); the road needs the floor Ω_Λ = 1 − 1/π, not A_0. The
+  construction would carry the ceiling as a stop rule natively. Permanent change. — open
+- **The smallest non-memoryless staircase ledger that passes the regression** (FOUR, THREE): a phase-type or non-Markov draw matching the ceiling, 3/π and −6/π but differing at z⁴
+  (FOUR's G_c has Hankel rank 2; Coxian-2 and sampled Coxian-3 collapse to the road), built as a staircase recipe, with its channel-ratio shape as the memory alternative to score
+  beside the T-10 controls. — open
+- **A moment-and-sign recipe** (THREE): one admitted method certifying the moment solve (1, 3, 9) and the positivity of the moment matrix for any ledger that claims to reproduce the
+  road; the regression check for every future candidate. — open
+- **Why γ² per e-fold would be e^{d̂}** (TWO's Lorentz dictionary: u = β, q = 1/γ², A = Ω_m β², ceiling = Ω_m × β²_max): isotropic uncorrelated shell kicks make β² additive and γ
+  multiplicative (two native averaging witnesses), but a one-axis contraction changes a volume by γ, not γ²; the per-e-fold factor is open. — open
+- **Whether ONE's mirrored Friedmann and THREE's rate measure are one statement** (component-wise inverse dilution Ξ = Σ Ω_i ρ_i(0)/ρ_i(z) with ν = Σ Ω_i δ_{λ_i}): they appear to be;
+  write it as one identity with the w ≠ −1 and λ ≠ 3 departures as its two tilts. — open
+- **Why χ is a variance of the line of sight** (ONE's measure note: Ω_m E[s²] = χ for the look-back measure at d̂ = 3): the one route by which the measure framing would stop being a
+  coincidence. — open
+- **Lead's note:** the lesson of the run for Volume I's prose: in every language the ceiling is a floor plus a weight, and the floor is Ω_Λ; "the further out you look the more
+  accumulation you look through" saturates because matter is the only declared component that dilutes. The run derives nothing; it names the missing law four ways. — open

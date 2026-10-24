@@ -35107,6 +35107,30 @@ No run of 19–22 October 2026 used or tested a premise of Chapters VII to XII (
 fate). The volume's preface already calls them later chapters whose standing depends on additional premises at each extension. The lead's survey and three options for
 their placement are in `ideas/IDEAS.md` (2026-10-22) and await Sean Brady's word.
 
+## Chapters VIII and XII — the 1/π ceiling (voli_ceiling_1, 2026-10-24, H002776)
+
+- **Reading (four peers independently; a reading of a declared chart, not a result about the volume).** With the channel ratio Ξ = 1 − A_los read as the core's q = sech²φ, the
+  road A_los = (1/π)(1 − (1 + z)^{−3}) says 1 − q = u² = Ω_m(1 − a³): the quantity drawn by comoving volume is u² (β²), not the rapidity φ, not u, not Λ = −ln q. Drawing the
+  rapidity by volume starts at z² and cannot carry the 3/π coefficient; the reservoir's own additive variable is the wrong ledger for the road (φ ~ √(3Ω_m s) at the observer).
+- **Result.** Four exact languages for the one function, each natively witnessed on its identities: the mirrored Friedmann reading (Ξ(z) = Ω_Λ + Ω_m(1 + z)^{−3} = E²_ΛCDM at a
+  future scale factor; the ceiling is its de Sitter attractor; no plateau for w ≠ −1); the floored reservoir (cosh²φ = (1 + z)³, i.e. the reservoir's log-attenuation Λ_res = 3s is
+  the log comoving volume; the markers z = 0.2599, 0.3956, 0.2893 and z = 1 are reservoir readings q = 1/2, Λ = 1, q = 1/(π − 1), Λ = 3 ln 2, each read natively to the rational
+  approximant); the rate measure (within mixtures of memoryless draws the ceiling plus the two coefficients 3/π, −6/π force ν = Ω_Λδ₀ + Ω_mδ₃, Hankel rank 1 and moments (1, 3, 9)
+  natively, so 10/π and −15/π are predictions of the class); the union composition law on shells (multiplicative survival, the drawn column never debited, the ceiling the
+  absorbing element; (1/8, 7/8) at z = 1 and (1/27, 26/27) at z = 2 as native products). In every language **the ceiling is a floor Ω_Λ beside the reservoir and the weight Ω_m
+  on it; the reservoir alone has no floor (q → 0), and the floor the road needs is Ω_Λ, not A_0.**
+- **Result.** A memory law G_c = 1 − e^{−ψ}(1 + cψ⁴/24), ψ = 3 ln(1 + z), passes all three declared coefficients and the ceiling for every c and differs from the road from z ≈ 0.5 on
+  (Ξ(1) = 0.7525 against 0.7215 at c = 1; moment Hankel rank 2 natively; c < 0 crosses the ceiling and is excluded by A ≤ Ω_m). The regression that pins the road therefore
+  over-determines it only inside the memoryless class, and the declared siren plateau test (targets register T-10) is, more sharply, a test of memorylessness in the
+  line-of-sight draw: the plateau and exponent are the memoryless prediction, the shape at z ≈ 0.5–2 is where memory would show.
+- **Idea (open).** "Why at the matter fraction": the line of sight draws each element once when its cell's proper volume is passed (one hazard per e-fold equal to d̂), and matter is
+  the only declared component that dilutes (Ξ = Σ Ω_i ρ_i(0)/ρ_i(z); the ceiling is the total of the diluting components). Selection-rule candidate: p = d̂ is the only member of
+  Chapter IV's family in which the Ξ count per comoving volume is conserved. What would derive it: a continuity current for the Ξ density in the core's action (today homogeneous,
+  no such current), or a native floored reservoir q ≥ Ω_Λ (a permanent change).
+- **Idea (open; coincidences labelled).** The measure framing gave no forced rationals: for the look-back measure dμ = 3e^{−3s}ds, Ω_m E[s²] = χ and Ω_m C(5, 2) = X_∞ hold only at
+  d̂ = 3, and every target is Ω_m times a container rational; 10/π is the road's own z³ coefficient. Selected, not derived (Chapter VIII §4.1).
+- Record: ironclad `campaigns/voli_ceiling_1_20261024/RUN_REPORT.md` (every outcome tagged; the lead's opening slip recorded first), `runs/20261024_voli_ceiling_1/RECORD.md`.
+
 ## Method notes that bear on how this volume is read
 
 Runs are for learning, not for testing the volumes against external keys (Sean Brady, 2026-10-20/21); verifying what the runs learned is allowed and is done in the

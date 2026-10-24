@@ -41,7 +41,8 @@ Legend for "status": **grammar** (a declared primitive of the count language; no
   combination, clean and effective packets scored separately.
 - **Status:** selected.
 
-### T-04 The allocation χ = (8/3)A_0 = 2/(9π) and Ω_b = 2A_0(1 − χ)
+### T-04- **Result note (voli_ceiling_1, 2026-10-24, H002776; status unchanged):** four exact languages give the road with the ceiling as a floor Ω_Λ = 1 − 1/π beside the core's reservoir and the weight Ω_m on it; in the rate-measure language the ceiling is the total of the components that dilute (1/π because matter is the only declared one), and within mixtures of memoryless draws the ceiling plus two coefficients force ν = Ω_Λδ₀ + Ω_mδ₃ (Hankel rank 1 natively). A density operator is still what T-03 awaits.
+ The allocation χ = (8/3)A_0 = 2/(9π) and Ω_b = 2A_0(1 − χ)
 - **Entered:** Chapter VIII §4.
 - **Opened:** the baryon fraction of matter 0.1549; the "two-sided" floor (2A_0 in τ, 2A_0(1 − χ) in Ω_b) the Volume I repository's Q2 asks about.
 - **Awaits:** a measure whose excluded share is exactly χ; VIII §4.1 proves a finite unweighted enumerator cannot produce it, so any survivor carries a geometric or
@@ -50,7 +51,8 @@ Legend for "status": **grammar** (a declared primitive of the count language; no
 - **Check:** internal: one measure giving 1/(12π), 2/(9π) and 10/π together; external (held): a frozen BBN calculation at the selected abundance (VIII §13).
 - **Status:** selected.
 
-### T-05 The abundance η = (7/4)A_0^6
+### T-05- **Result note (voli_ceiling_1, 2026-10-24, H002776):** for the look-back measure dμ = 3e^{−3s}ds (total Ω_m), Ω_m E[s²] = 2/(9π) = χ, holding only at d̂ = 3 with ĥ = 2; π enters through the sphere weight alone. A coincidence of the instance, labelled; what would move it is a reason the allocation is a variance of the line of sight.
+ The abundance η = (7/4)A_0^6
 - **Entered:** Chapter VIII §6.
 - **Opened:** the Hubble cascade H_0 = 67.2504 (conditional on the thermal anchor and the critical-density convention); the sensitivity 2.538 to the floor.
 - **Awaits:** six independent stages with the same attenuation, or a six-dimensional measure, or another demonstrated multiplicative structure; a mechanism for 7/4.
@@ -73,7 +75,8 @@ Legend for "status": **grammar** (a declared primitive of the count language; no
 - **Awaits:** a radial organisation law (X §9: "the decisive missing ingredient"); the median-inversion identity shows the mass-placement test restates this one.
 - **Construction that would move it:** none yet; the positivity filter and the asymptotic incompatibility (finite X_∞ ⇒ Keplerian fall) constrain any candidate.
 - **Check (held, established-reference mode):** the prospective CR034 holdout with frozen statistic and stopping rule (X §11).
-- **Status:** selected; downstream of everything else (Sean Brady, 2026-10-23: "an outlier and downstream from pretty much everything else and should not be its own
+- **Status:** selected; downstream of everything else- **Result note (voli_ceiling_1, 2026-10-24, H002776):** Ω_m C(d̂ + 2, 2) = 10/π is the road's own z³ coefficient (the triangular numbers 3, 6, 10 of d = 3), so once the road is given 10/π is not independent of it; selected, not derived.
+ (Sean Brady, 2026-10-23: "an outlier and downstream from pretty much everything else and should not be its own
   work"). Placement proposal: labelled extension; the spherical lift-against-force identity to Chapter III.
 
 ### T-08 The ringdown rationals ω̂_R = Θd̂/R² = 3/8, γ̂ = R/(L − V) = 4/45, and (L + ĥ)/L
@@ -115,7 +118,7 @@ Legend for "status": **grammar** (a declared primitive of the count language; no
   Fieller set for (Ξ_∞, C_cal) at fixed p = 3 (Chapter IV Appendix E.4) contains 1 − 1/π → the ceiling stands as the plateau; excludes it at the declared level →
   the ceiling as plateau is falsified and p, Ξ_∞ return to Chapter IV's estimable status. A fit with p free is reported alongside as the exponent test (p = 3?).
   Controls: the null Ξ ≡ 1 (no road) and the shape-only alternative Ξ_∞ free must be scored on the same data with the same nuisance policy. Current standing:
-  untested; GW170817 at z ≈ 0.01 (predicted departure 0.94 %) has no power against it. Established-reference mode applies when data are opened; Sean Brady's word
+  untested; GW170817 at z ≈ 0.01 (predicted departure 0.94 %) has no power against it. **Sharpened by voli_ceiling_1 (2026-10-24, H002776):** a memory law G_c = 1 − e^{−ψ}(1 + cψ⁴/24), ψ = 3 ln(1 + z), passes the same three coefficients and the same ceiling for every c and differs from the memoryless road from z ≈ 0.5 on (Ξ(1) = 0.7525 at c = 1 against 0.7215); the regression pins the road only inside the memoryless class (rate measure ν = Ω_Λδ₀ + Ω_mδ₃ forced there). The plateau test is therefore a test of memorylessness in the line-of-sight draw, and the shape at z ≈ 0.5–2 is where memory would show; the memory family should be scored beside the two declared controls. Established-reference mode applies when data are opened; Sean Brady's word
   opens them.
 
 ### T-11 The fate coefficient H_fit,∞ = H_0Ω_Λ^{3/2}
