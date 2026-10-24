@@ -31,6 +31,7 @@ Legend for "status": **grammar** (a declared primitive of the count language; no
 - **Check:** the two normalisations agree from one preparation; linear invisibility to laboratory comparisons preserved.
 - **Status:** grammar (as a declared floor); selected (as a density, see T-03).
 - **Result note (voli_ceiling_4, 2026-10-24, H002780; status unchanged):** with the floor native (core 0.11.3) the floored density Ξ_obs a^d = ν₀/(c₀(q_floor e^{ds} + 1 − q_floor)) is not conserved; the declared conservation law belongs to the reservoir sector and the floor sits outside it. The one scalar in which the two meet is the light-path delay, d q_floor c₀ D = Λ_res − Λ_obs (the accumulation gap, exact natively at fifteen points). A frame-free derivation of the floor is still what T-02 awaits.
+- **Result note (voli_ceiling_5, 2026-10-24, H002781; status unchanged):** the additive floor belongs to the volume (it does not factor over directions; a per-direction floor would change c₁ by 1/(1 + f + f²) and leave the ceiling), and it is produced exactly by a declared unaccumulated parallel channel of energy E_χ beside the reservoir, q_obs = (E_χ + E₀q)/(E_χ + E₀), q_floor = E_χ/(E_χ + E₀). The floor is thereby renamed as an energy share, not derived; what fixes E_χ/E₀ is what T-02 now awaits.
 
 ### T-03 Ω_m = RA_0 = 1/π and Ω_Λ,ledger = 1 − 1/π
 - **Entered:** Chapter VIII §3; Chapter XII §3 (the join A_los(∞) = Ω_m).
@@ -41,6 +42,8 @@ Legend for "status": **grammar** (a declared primitive of the count language; no
 - **Check:** internal: the two normalisations; external (held until Sean Brady's word; established-reference mode): the frozen packet against a named likelihood
   combination, clean and effective packets scored separately.
 - **Status:** selected.
+
+- **Result note (voli_ceiling_5, 2026-10-24, H002781; status unchanged):** in the channel language of T-02's note the weight is the energy ratio w = E₀/(E₀ + E_χ) (7/22 at the declared E_χ = 15/7), the first language in which Ω_m has a dynamical name; nothing in the run fixes the ratio, and the density operator is still what T-03 awaits.
 
 ### T-04- **Result note (voli_ceiling_1, 2026-10-24, H002776; status unchanged):** four exact languages give the road with the ceiling as a floor Ω_Λ = 1 − 1/π beside the core's reservoir and the weight Ω_m on it; in the rate-measure language the ceiling is the total of the components that dilute (1/π because matter is the only declared one), and within mixtures of memoryless draws the ceiling plus two coefficients force ν = Ω_Λδ₀ + Ω_mδ₃ (Hankel rank 1 natively). A density operator is still what T-03 awaits.
  The allocation χ = (8/3)A_0 = 2/(9π) and Ω_b = 2A_0(1 − χ)
@@ -123,6 +126,8 @@ Legend for "status": **grammar** (a declared primitive of the count language; no
   opens them.
 
 - **Result note (voli_ceiling_4, 2026-10-24, H002780; status unchanged):** on the reservoir chart tied by cosh²φ = (1 + z)^d the road's drawn share is w tanh²φ for every exponent, and the exponent lives only in the declared conversion s = Λ/d; the regression's weight-free ratios c₂/c₁ = −(d + 1)/2, c₃/c₁ = (d + 1)(d + 2)/6 fix d without the weight (witnessed natively for d = 1, 2, 3). Nothing in the homogeneous action fixes d: the reservoir's own lapses read as d = 1 or 2, never 3; the φ⁴ flatness of z(φ) at d = 3 is a series fact, not a mechanism. The exponent test (p = 3?) therefore remains the one place d̂ = 3 is decided, as the entry says.
+
+- **Result note (voli_ceiling_5, 2026-10-24, H002781; status unchanged):** the exponent can be the number of accumulation directions — one field with kinetic metric e^{ΣΛ_i} and three equally stiff accumulations has the installed reservoir as its symmetric solution with per-direction scale factor q^{1/3} (built natively) — but the count is then a declared stiffness ratio d = η_dir/η_tot (unequal stiffnesses give each direction its own exponent). The redshift chart cannot count directions per charge; a clock can (H² = (4α²/3)(1 − (1 + z)^{−3}) against 4α²(1 − (1 + z)^{−1})). The exponent test remains the one place d̂ = 3 is decided.
 
 ### T-11 The fate coefficient H_fit,∞ = H_0Ω_Λ^{3/2}
 - **Entered:** Chapter XII §6.

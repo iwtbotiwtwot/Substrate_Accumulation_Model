@@ -35183,6 +35183,26 @@ their placement are in `ideas/IDEAS.md` (2026-10-22) and await Sean Brady's word
   the declared law belongs to the reservoir sector and the floor sits outside it. The continuity current of §7 below remains unwritten; this run says where it cannot come from.
 - Record: ironclad `campaigns/voli_ceiling_4_20261024/RUN_REPORT.md`, `runs/20261024_voli_ceiling_4/RECORD.md`. First run on the installed core 0.11.3; runtime label COMPLETE.
 
+## Chapters II, IV and XII — the exponent as the number of accumulation directions (voli_ceiling_5, 2026-10-24, H002781)
+
+- **Result.** The lapse the volume law needs, q^{1/3}, exists natively: built from the installed reservoir's own accumulation as exp(−Λ/3), its cube is q and it equals the d = 1
+  line of sight at s = Λ/3 to the approximant error. The reservoir's two installed lapses, q and √q, are the d = 1 and d = 2 members of the one family a_d = q^{1/d}.
+- **Result.** Two pictures make the exponent a count of directions: (A) one cyclic field with the kinetic metric e^{Λ₁+Λ₂+Λ₃} and three accumulations, whose symmetric solution is the
+  installed one-log reservoir with α_tot = √3 α and per-direction scale factor q^{1/3}; (B) three independent one-log reservoirs. They agree on everything the line of sight reads
+  (q_tot = (1 + z)^{−3} in both; (B)'s volume drawn share is 3u² − 3u⁴ + u⁶ in (A)'s) and differ only in a clock (H_A² = (4α²/3)(1 − (1 + z)^{−3}) against H_B² = 4α²(1 − (1 + z)^{−1}))
+  and an energy (E₀ against 3E₀). With n charges each spanning k directions, the redshift chart reads nk, the clock reads k and the energy reads n.
+- **Reading (the derivation ledger of A).** The exponent is the number of accumulations under one charge only when their stiffnesses are equal, d = η_dir/η_tot; with unequal
+  stiffnesses each direction has its own exponent a_i = q^{p_i}, p_i ∝ 1/η_i (witnessed natively). The declared count three becomes a declared isotropy of stiffness; the photon
+  rule (that e^{−Λ_i} is a length ratio), the floor and the weight stay declared.
+- **Result.** The volume law is blind to shear (Λ_i = Λ_tot/3 + c_it, Σc_i = 0: the three directional factors multiply to the volume factor natively), and shear carries its own
+  conserved energy E_total = E₀ + (η/2)Σc_i², so declaring the total energy E₀ forces isotropy; declaring the total instead makes shear a slower clock and a multiplicative ceiling.
+- **Result.** The additive floor belongs to the volume: it does not factor over directions, and a per-direction floor would change the first regression coefficient by
+  1/(1 + f + f²) while leaving the ceiling. It is produced exactly by a declared unaccumulated parallel channel of energy E_χ, q_obs = (E_χ + E₀q)/(E_χ + E₀), in which language the
+  weight is the energy ratio w = E₀/(E₀ + E_χ) (15/22 and 7/22 at E_χ = 15/7). A one-dimensional law for the observed accumulation alone exists,
+  Λ_obs″ = 2(Q − q_f)(Q² + q_fQ − 2q_f)/((1 − q_f)Q²), Liouville's at q_f = 0.
+- Record: ironclad `campaigns/voli_ceiling_5_20261024/RUN_REPORT.md`, `runs/20261024_voli_ceiling_5/RECORD.md`. Runtime label FAILED_WITH_RETAINED_OUTCOMES (two first-revision
+  controls on engine errors, superseded); the lead's framing table slip is recorded there.
+
 ## Method notes that bear on how this volume is read
 
 Runs are for learning, not for testing the volumes against external keys (Sean Brady, 2026-10-20/21); verifying what the runs learned is allowed and is done in the
@@ -35359,6 +35379,14 @@ reservoir's own two lapses read as d = 1 or d = 2, never 3. One exact relation i
 in which the floor and the reservoir meet, and the floored density Ξ_obs a^d is not conserved (the declared law lives in the reservoir sector, the floor outside it). The current
 this section calls for must therefore come from a term the present action lacks: a spatial measure or gradient (J or V ≠ 0), or a product of d one-dimensional reservoirs whose
 lapse is q^{1/d}. Nothing here is a claim.
+
+*Second addendum (voli_ceiling_5, 24 October 2026, H002781).* The exponent can be the number of accumulation directions. One cyclic field with the kinetic metric e^{Λ₁+Λ₂+Λ₃}
+and three equally stiff accumulations has the installed reservoir as its symmetric solution, with per-direction scale factor q^{1/3} (now built natively) and Ξ_tot = e^{ΣΛ_i} a
+volume density by construction. What this derives is the form of the law once the count is given; what it declares is the count, which in this picture is the ratio of a
+directional stiffness to the composite's, d = η_dir/η_tot, so that the number three is a declared isotropy of stiffness. Shear among the directions is invisible to the
+volume law and carries a conserved energy of its own; the additive floor does not factor over directions and is exactly a declared unaccumulated channel E_χ beside the
+reservoir, in which language the weight is the energy ratio E₀/(E₀ + E_χ). Four runs on the ceiling thus end with floor, weight and count each holding an exact native language
+and none a derivation; the places a derivation could come from are now named: what fixes the directional stiffnesses equal, and what fixes E_χ/E₀. Nothing here is a claim.
 
 ## 8. Status
 

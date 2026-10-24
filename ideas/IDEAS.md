@@ -652,3 +652,18 @@ present siren has power against it. Data open only on Sean Brady's word (establi
   objects are one object on one chart, with the exponent living only in the declared conversion s = Λ/d. The tie renames the conservation law without deriving it, and the
   homogeneous action cannot fix d. The one new exact relation, delay = accumulation gap, is the scalar in which floor and reservoir meet. For Volume I's prose: the derivation
   §7 asks for needs a term the action lacks (a spatial measure) or a structure it lacks (d directions), and that is now a precise statement rather than a hope. — open
+
+## 2026-10-24 — from voli_ceiling_5 (Duck idea run: the exponent as the number of directions; proposed by Claude peers ONE–FOUR and the lead; status open; only Sean Brady changes a status)
+- **A clock construction beside the reservoir** (FOUR): the expansion rate H = Λ̇_i read natively — the one readout that separates picture (A) from (B) on the redshift chart and counts
+  directions per charge (z chart reads nk, clock reads k, energy reads n). — open
+- **Picture (C) as a floored two-channel action** (ONE; lead): E_χ as a declared unaccumulated channel with w = E₀/(E₀ + E_χ); ask what fixes E_χ/E₀ (15/7 at the fixture floor; π − 1 = 2.1416
+  against 15/7 = 2.1429 is a labelled coincidence, not a reason). — open
+- **The stiffness-isotropy statement** (ONE, THREE): what in the grammar makes the three directional stiffnesses equal; with unequal stiffnesses a_i = q^{p_i}, p_i ∝ 1/η_i. — open
+- **Shear as a declared energy** (TWO): the fixed-total reading's multiplicative ceiling 1 − σ/E₀ and slower clock α√(1 − σ/E₀) beside the additive floor on one chart. — open
+- **The floored Liouville law in the library** (THREE): Λ_obs″ = 2(Q − q_f)(Q² + q_fQ − 2q_f)/((1 − q_f)Q²) as a recipe; its convexity change Q* (0.8756 at q_f = 15/22) as a marker. — open
+- **An anisotropic line of sight** (TWO, THREE): three d = 1 lines on sheared paths as a native construction; the shear mark (2/3)(cosh δ − 1)a₀ in the arithmetic-over-geometric mean. — open
+- **Authoring rules** (lead): a control's declared check must be reachable before any step that can raise (two against-declaration labels this run); a 1×1 exponential needs one
+  square basis; `supersedes` never on a control; the lead's framing numbers must be computed, not typed. — open
+- **Lead's note on the five ceiling runs together:** floor, weight and count are three declared numbers; each now has an exact native language (a floor beside the reservoir or a
+  parallel channel; a weight on the reservoir or an energy ratio; an exponent or a count of equally stiff directions) and none a derivation. The derivation, if there is one, must
+  fix E_χ/E₀ and make the directional stiffnesses equal; the siren exponent test is the one place d̂ = 3 is decided from outside. — open
