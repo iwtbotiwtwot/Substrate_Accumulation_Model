@@ -532,3 +532,21 @@ present siren has power against it. Data open only on Sean Brady's word (establi
   adaptive ratio, θ* drift) and the time estimate; every sign and structural law held. Next time: identify the variable first, then band it.
 - **Housekeeping:** archive pipeline proven (23 stores, ~400 GB → ~20 GB on Drive, SHA-256 manifests, verified, removed); per-file manifests above 40 MB live beside their
   archives with pointers in git (GitHub limit). The chain form costs ~80 min per account on T500; further accounts beyond 1389 are a matter of running it again.
+
+## 2026-10-24 — RH sweep read back against spin/feop (Sean Brady's question "does it give us any hints, open any doors?"; Claude's reading; status open; logged at Sean's word)
+
+- **Local-factor structure of the ledger?** (open) The rising set is exactly the small primes {3, 5, 7, 11, 13, 17, 19} at every account and the sharp change per account
+  (−8.66e-4) ignores the admitted census; the sharp weights depend only on p (hence Δm = 0). feop's local factor is per prime (spectrum {p², 1, p⁻²}, remainder p⁻² per level)
+  and a Kronecker product across primes. Test: decompose the per-account sharp change by owner cut from the cut forms already on Drive/in git and see whether it is a sum of
+  per-prime terms depending on p alone with the small primes carrying it. Cheap; decisive either way. (Item 1 — done 2026-10-24, H002773: the answer is sharper than the question. ΔP_p ∝ ΔY at every cut; dP/dY = −4.3e-4 slowly varying;
+  new coordinates enter at zero kernel; P(Y) is continuous (host at 1375, 1377 at 1/3, 2/3 of the step as predicted). The owner profile is fixed but is not a power law and not
+  a product over primes — it is the window sum Σ_{n>Y/2} R_n split by owner. The local-factor question moves to that window sum: does R_n by owner factor over the primes of n?)
+- **A census operator from the factorization of Y1?** (open) Primes admit 0.54 of the new pairs with an identical split both times; composites 0.86–0.96 rising with the
+  smallest factor. feop's four residue classes are carried by two exact 4×4 matrices. Test in the verification form: predict the sector census of 1391, 1393, 1395 from the
+  prime factorization alone, then compute. 1379 = 7·197 (3× the others) must come out of it or break it; the lead's guess is that cut 7 carries the excess, and feop's split
+  levels (multiples of v_p(Q)) are the nearest mechanism for one prime behaving differently. (Item 2.)
+- **A third rigid/soft pair** (open; pattern only, no claim of identity): the sharp receiver (weights in p alone) obeys an exact identity with Δm ≡ 0 and flipped sign where
+  predicted; the adaptive receiver (weights through the Y-dependent ratio) drifts off it monotonically as Δm grows and has not flipped. The spin and field staircases have
+  hard/soft, the local factor double/simple roots (rh_crossover_1 peers: coincidence until one construction unifies them). Log the pattern; do not run on it. (Item 3.)
+- **From the matter runs:** the two separated lapse recipients of volii_matter are the nearest worked example of building a second recipient; the exterior has no storage
+  recipient and the adaptive Δm term is the only place a second storage witness can live.

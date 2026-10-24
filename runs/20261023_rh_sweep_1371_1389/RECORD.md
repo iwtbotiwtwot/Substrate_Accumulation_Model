@@ -28,3 +28,11 @@
   tested sign change; the adaptive receiver's separate storage law.
 - **Ideas logged:** `ideas/IDEAS.md` "2026-10-24 — from rh_sweep_1371_1389".
 - **Concluded by:** `scripts/conclude.sh` (hash in the commit).
+
+## Addendum — 2026-10-24 02:40Z, per-cut decomposition (H002773; Sean Brady: "Log all three as open and do item 1")
+- **Possible reduction.** The sharp change is dP/dY × ΔY cut by cut: 1379 is 3.00 × and 1371 2.00 × the ordinary per-cut profile because ΔY = 6 and 4 there; dP/dY = −4.38e-4 →
+  −4.32e-4 across 1367 → 1389. New coordinates enter at zero kernel, so the census of new pairs does not move the account it arrives at. Host at Y = 1375 and 1377 (support of
+  1373): 0.3349 and 0.6682 of the 1373 → 1379 step, predicted 1/3 and 2/3 before running — P(Y) is continuous and the ledger samples it. The sign of the exterior change is the
+  sign of the window sum Σ_{n>Y/2} R_n(Y) under the receiver's weights; the per-cut profile is that sum split by owner (fixed across accounts; positive at 3 … 19; not a power law).
+- **Failed, plainly:** the lead's guess that cut 7 carried the 1379 excess; a power-law owner profile; new events driving the small-cut rise. Record:
+  `campaigns/rh_sweep_1371_1389_20261023/results/per_cut/`.
