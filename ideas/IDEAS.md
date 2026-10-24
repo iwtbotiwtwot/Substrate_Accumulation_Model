@@ -695,3 +695,22 @@ present siren has power against it. Data open only on Sean Brady's word (establi
   state), neither (the gain), and a lawful survival that is no finite object at all (the retained information) — and behind them one exact structure, the generator as half the sum
   of two projections. The hazard is a clock rate split by a correlation, not a temperature; Chapter VII's step temperature does not come out of the spin engine, and the finite-entry
   staircase is the next place to ask. — open
+
+## 2026-10-24 — Volume II: chart extraction and the ranked low-lying fruit (Sean Brady: "I would like to focus on the broader vol ii work, polish the first three volumes, find some continuity then come back to RH."; "go"; lead's extraction in volumes/II/CHART_EXTRACTION_VOLII_20261024.md; status open; only Sean Brady changes a status)
+
+Every statement of the fourteen untouched chapters (I–VI, X–XIV, XVI–XIX) sorted into exact algebra (A), selected identification or frozen readout (B) and missing law (C),
+with the weights each chapter assumes and whether its object has a ledger form our instruments hold. The archive holds the 321-row catalog, the Li6 source and ledger, and the
+GEN4 campaigns behind Chapters XI–XVIII on disk, read-only. Ranked:
+0. **Continuity-map entries, not runs**: 1/8 = Θ/R² = 2^{−D} across the volumes; the demand baselines 1, π, 11π, 12π as Volume I's floor read from the matter side; A(r) = r_s/r;
+   Chapter X's interface table; Chapter XIX's export list; E*, I*, L* beside floor, weight and count. — open
+1. **The Li-6 receiver algebra natively (XII.1–2, XVIII.2–4), Duck idea run**: F, R_F, K (rank 12), the nine Writes, equal currents with different next responses, closure dimensions
+   6 → 10 → 16 and 10 → 12 → 18, the response algebra ranks 9/18/36, the carrier R⁶ = −I and its isometry, T_phase; controls ready made; all within recipe limits; source on disk.
+   Learn: does Volume II's retained-history algebra reproduce natively from the printed definitions, and is the retained complement h = Kx a hidden stage (the gate) or a path-order
+   term (Volume I's inertia identity)? — open (lead's recommendation for the first Volume II run)
+2. **Nuclear ledger, asymmetry identity and lift classes from the catalog on disk (II–V)**, verification form, an afternoon; the data chain into ironclad. — open (fold into 1)
+3. **Heat-bath spectrum beyond two spins (VI, VII, X)**: the 64-state source's generator as a sum of projections; hazard sum fixed by the clock; Chapter X's clock criterion with
+   the installed lapses. — open
+4. **Formation as a payments ledger (XI.6–8)**: D_form, D_contact, D_total with a frozen-ground floor and the warm/cold reversal; the RH storage-ledger shape in nuclear form. — open
+5. Chapter X's interface table and XV's E*, I*, L* as the continuity skeleton (phase three, writing). — open
+6. XIV–XVI: no run until the connector action exists; XVI's 37-isotope panel read as a declared target. 7. XVII reception results and XIII indexing: no run; placement notes. — open
+Lesson carried: the first line of any chart is its weights and its entrance law. — open
