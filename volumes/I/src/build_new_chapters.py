@@ -1,12 +1,12 @@
 from pathlib import Path
 import re,subprocess,json,sys
 ROOT=Path(__file__).resolve().parent
-TITLES={6:'Quantum routes, shared fields and retained physical records',7:'Horizon thermodynamics and accessible information',8:'Cosmic inventory and the Hubble cascade',9:'Thermal history, recombination and CMB structure',10:'Many-source accumulation and galaxy halos',11:'Carrier radiation and ringdown dynamics',12:'Cosmological fate and the completed boundary',13:'Evidence, closures and remaining physical assignments'}
-ROMANS={6:'VI',7:'VII',8:'VIII',9:'IX',10:'X',11:'XI',12:'XII',13:'Appendix'}
+TITLES={6:'Quantum routes, shared fields and retained physical records',7:'Horizon thermodynamics and accessible information',8:'Cosmic inventory and the Hubble cascade',9:'Thermal history, recombination and CMB structure',10:'Many-source accumulation and galaxy halos',11:'Carrier radiation and ringdown dynamics',12:'Cosmological fate and the completed boundary',13:'Evidence, closures and remaining physical assignments',14:'Supplement: retired targets (Chapter X; Chapter XII Sections 6 and 9--19 of the 19 October 2026 edition)'}
+ROMANS={6:'VI',7:'VII',8:'VIII',9:'IX',10:'X',11:'XI',12:'XII',13:'Appendix',14:'Supplement'}
 selected={int(x) for x in sys.argv[1:]} if len(sys.argv)>1 else set(TITLES)
 for i,title in TITLES.items():
  if i not in selected: continue
- p=ROOT/('closure_appendix.tex' if i==13 else f'ch{i:02d}.tex')
+ p=ROOT/('closure_appendix.tex' if i==13 else 'supplement_retired.tex' if i==14 else f'ch{i:02d}.tex')
  if not p.exists():continue
  body=p.read_text()
  abstract=''
@@ -19,18 +19,19 @@ for i,title in TITLES.items():
 \newcommand{\ChapterRoman}{'''+roman+r'''}
 \hypersetup{pdftitle={SAM Volume I: '''+title+r'''},pdfauthor={Sean Brady}}
 \begin{document}
+'''+(r'\fancyhead[L]{\footnotesize SAM Volume I | Supplement}' if i==14 else r'\fancyhead[L]{\footnotesize SAM Volume I | Appendix A}' if i==13 else '')+r'''
 \twocolumn[{
 \begin{center}
 {\small SAM VOLUME I\par}
 \vspace{0.4em}
 {\LARGE\bfseries '''+title+r'''\par}
 \vspace{0.4em}
-{\large '''+('Appendix' if i==13 else 'Chapter '+roman)+r'''\par}
+{\large '''+('Appendix' if i==13 else 'Supplement to Volume I' if i==14 else 'Chapter '+roman)+r'''\par}
 \vspace{0.5em}
 {\large Sean Brady\par}
 {\small Originator and conceptual director\par}
 {\small Research development with OpenAI ChatGPT and Codex\par}
-{\small Unified expanded edition | 19 October 2026\par}
+{\small Edition of 25 October 2026 (text of the unified expanded edition, 19 October 2026)\par}
 \end{center}
 '''
  if abstract:opener+=r'\begin{minipage}{0.97\textwidth}\noindent\textbf{Abstract.} '+abstract+r'\end{minipage}'+'\n'

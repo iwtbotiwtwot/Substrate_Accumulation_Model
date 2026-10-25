@@ -1,5 +1,5 @@
 {
-  "pages": 240,
+  "pages": 227,
   "chapters": [
     {
       "chapter": "I",
@@ -54,45 +54,38 @@
       "chapter": "VIII",
       "title": "Cosmic inventory and the Hubble cascade",
       "start": 190,
-      "pages": 9,
+      "pages": 10,
       "file": "chapter08.pdf"
     },
     {
       "chapter": "IX",
       "title": "Thermal history, recombination and CMB structure",
-      "start": 199,
+      "start": 200,
       "pages": 9,
       "file": "chapter09.pdf"
     },
     {
-      "chapter": "X",
-      "title": "Many-source accumulation and galaxy halos",
-      "start": 208,
-      "pages": 9,
-      "file": "chapter10.pdf"
-    },
-    {
       "chapter": "XI",
       "title": "Carrier radiation and ringdown dynamics",
-      "start": 217,
+      "start": 209,
       "pages": 9,
       "file": "chapter11.pdf"
     },
     {
       "chapter": "XII",
       "title": "Cosmological fate and the completed boundary",
-      "start": 226,
-      "pages": 9,
+      "start": 218,
+      "pages": 4,
       "file": "chapter12.pdf"
     },
     {
       "chapter": "A",
       "title": "Evidence, closures and remaining physical assignments",
-      "start": 235,
+      "start": 222,
       "pages": 6,
       "file": "chapter13.pdf"
     }
   ],
-  "output": "SAM_Volume_I_Unified_Expanded_Chapters_I-XII_20261019.pdf",
-  "sha256": "6e1032f4136d94a4c192d8ea653f8819586c01dd5324268108333ba1c102e814"
+  "output": "SAM_Volume_I_Trimmed_20261025.pdf",
+  "sha256": "5c7276ba14f53e7b05e0ad8e123610f5ca1470e723b02984a510edb484812273"
 }

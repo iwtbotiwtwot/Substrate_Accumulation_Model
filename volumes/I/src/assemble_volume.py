@@ -1,30 +1,33 @@
 from pathlib import Path
 import fitz, json, re, subprocess, hashlib
 ROOT=Path(__file__).resolve().parent
-TITLES=[('I','Original Write histories and an interacting source-field action'),('II','Retention, accumulation, and the finite ledger'),('III','The spherical accumulation kernel and the source-to-field interface'),('IV','Clocks, signals, and calibrated observation'),('V','Strong fields and the approach to unit accumulation'),('VI','Quantum routes, shared fields and retained physical records'),('VII','Horizon thermodynamics and accessible information'),('VIII','Cosmic inventory and the Hubble cascade'),('IX','Thermal history, recombination and CMB structure'),('X','Many-source accumulation and galaxy halos'),('XI','Carrier radiation and ringdown dynamics'),('XII','Cosmological fate and the completed boundary'),('A','Evidence, closures and remaining physical assignments')]
-files=[ROOT/'assets'/f'ch{i:02d}_retained.pdf' if i<=5 else ROOT/f'chapter{i:02d}.pdf' for i in range(1,14)]
+TITLES=[('I','Original Write histories and an interacting source-field action'),('II','Retention, accumulation, and the finite ledger'),('III','The spherical accumulation kernel and the source-to-field interface'),('IV','Clocks, signals, and calibrated observation'),('V','Strong fields and the approach to unit accumulation'),('VI','Quantum routes, shared fields and retained physical records'),('VII','Horizon thermodynamics and accessible information'),('VIII','Cosmic inventory and the Hubble cascade'),('IX','Thermal history, recombination and CMB structure'),('XI','Carrier radiation and ringdown dynamics'),('XII','Cosmological fate and the completed boundary'),('A','Evidence, closures and remaining physical assignments')]
+files=[ROOT/'assets'/f'ch{i:02d}_retained.pdf' if i<=5 else ROOT/f'chapter{i:02d}.pdf' for i in range(1,14) if i!=10]
 for f in files:
  if not f.exists(): raise SystemExit('Not ready: '+str(f))
 entries=[];pos=4
 for (roman,title),file in zip(TITLES,files):
  d=fitz.open(file); entries.append(dict(chapter=roman,title=title,start=pos,pages=len(d),file=str(file.relative_to(ROOT))));pos+=len(d)
-rows='\n'.join(r'\textbf{'+x['chapter']+r'} & '+x['title']+r' & '+str(x['start'])+r'\\[9pt]' for x in entries)
+PARTS={'I':r'\multicolumn{3}{l}{\textit{Part 1 --- Substrate and accumulation}}\\[6pt]','VII':r'\multicolumn{3}{l}{\textit{Part 2 --- Extensions the program is working on}}\\[6pt]','A':r'\multicolumn{3}{l}{\textit{Appendix}}\\[6pt]'}
+rows='\n'.join(PARTS.get(x['chapter'],'')+r'\textbf{'+x['chapter']+r'} & '+x['title']+r' & '+str(x['start'])+r'\\[9pt]' for x in entries)
 front=r'''\input{preamble.tex}
 \newcommand{\ChapterRoman}{Front matter}
-\begin{document}\onecolumn\fancyhead[L]{\footnotesize SAM Volume I | Substrate and Accumulation}\thispagestyle{empty}
+\begin{document}\onecolumn\fancyhead[L]{\footnotesize SAM Volume I | Substrate and Accumulation}\fancyhead[R]{\footnotesize Brady | Edition of 25 October 2026}\thispagestyle{empty}
 \begin{center}
 \vspace*{0.8in}
 {\small SUBSTRATE ACCUMULATION MODEL\par}\vspace{0.35in}
 {\Huge\bfseries SAM Volume I\par}\vspace{0.15in}
 {\LARGE Substrate and Accumulation\par}\vspace{0.18in}
-{\large Chapters I--XII\par}\vspace{0.65in}
+{\large Chapters I--IX and XI--XII, in two parts, with an appendix and a separate supplement\par}\vspace{0.65in}
 {\Large Sean Brady\par}\vspace{0.08in}
 {\normalsize Originator and conceptual director\par}\vspace{0.5in}
-{\large Unified expanded working edition\par}
-{\normalsize 19 October 2026\par}
+{\large Trimmed working edition\par}
+{\normalsize 25 October 2026\par}
 \end{center}
 \vfill
-\noindent This edition brings the twelve chapters into one continuous manuscript. Chapters I--V retain the submitted mathematical text; Chapter VI is retypeset from its integrated source without its separate contents pages. Chapters VII--XII are substantially expanded with worked derivations, explicit physical assumptions, and reproducible arithmetic checks. A reconciled evidence appendix replaces the earlier closing review and interface list.
+\noindent The unified expanded edition of 19 October 2026 brought the twelve chapters into one continuous manuscript. Chapters I--V retain the submitted mathematical text; Chapter VI is retypeset from its integrated source without its separate contents pages. Chapters VII--XII are substantially expanded with worked derivations, explicit physical assumptions, and reproducible arithmetic checks. A reconciled evidence appendix replaces the earlier closing review and interface list.
+
+\noindent\textbf{Edition of 25 October 2026.} This trimmed edition reorders the unified expanded edition of 19 October 2026 without changing its text: Part 1 (Chapters I--VI) is the body the program has reached with native constructions; Part 2 (Chapters VII--IX, XI--XII) carries the extensions the program is working on, each opening with a status paragraph naming the premise it adds and the runs that touch it; Appendix A is unchanged. Chapter X and Sections 6 and 9--19 of Chapter XII are retired from the body on Sean Brady's decision and retained unchanged, with their original numbering, in the separate Supplement (retired targets). Chapter numbers are unchanged so that every existing reference resolves. The volume therefore has no Chapter X in its body.
 \vspace{0.15in}
 \noindent\small Chapters I--VI were developed with OpenAI ChatGPT and Codex, with the contributor credits recorded in the individual chapters retained. The submitted Chapter VII and initial VIII--XII drafts, and the earlier closing review, credit Claude/Claude Code under Sean Brady's direction. The present expansion, source recovery, editorial reconciliation and unified assembly were prepared with OpenAI ChatGPT and Codex. These credits describe the development history, not independent scientific endorsement.
 \clearpage
@@ -80,7 +83,7 @@ for ent,file in zip(entries,files):
   p.draw_rect(fitz.Rect(0,0,p.rect.width,44),color=None,fill=(1,1,1))
   label='Appendix A' if ent['chapter']=='A' else 'Chapter '+ent['chapter']
   p.insert_text((49,36),'SAM Volume I | '+label,fontname='tiro',fontsize=8,color=(0,0,0))
-  right='Brady | Unified expanded edition';w=fitz.get_text_length(right,fontname='tiro',fontsize=8)
+  right='Brady | Edition of 25 October 2026';w=fitz.get_text_length(right,fontname='tiro',fontsize=8)
   p.insert_text((563-w,36),right,fontname='tiro',fontsize=8)
   p.draw_line((49,42),(563,42),color=(.35,.35,.35),width=.3)
   folio=str(j+1);w=fitz.get_text_length(folio,fontname='tiro',fontsize=8)
@@ -90,9 +93,9 @@ out.set_toc(toc)
 for ent in entries:
  for rect in out[1].search_for(ent["title"]):
   out[1].insert_link({"kind":fitz.LINK_GOTO,"from":rect,"page":ent["start"]-1})
-out.set_metadata(dict(title='SAM Volume I: Substrate and Accumulation — Unified Expanded Edition',author='Sean Brady',subject='Twelve-chapter unified working manuscript, 19 October 2026',keywords='SAM, substrate accumulation, quantum records, cosmology'))
+out.set_metadata(dict(title='SAM Volume I: Substrate and Accumulation — Unified Expanded Edition',author='Sean Brady',subject='Trimmed working edition, 25 October 2026: Part 1 Chapters I-VI, Part 2 Chapters VII-IX and XI-XII, Appendix A; Chapter X and XII Sections 6, 9-19 in a separate supplement',keywords='SAM, substrate accumulation, quantum records, cosmology'))
 (ROOT.parent/'pdf').mkdir(exist_ok=True)
-final=ROOT.parent/'pdf'/'SAM_Volume_I_Unified_Expanded_Chapters_I-XII_20261019.pdf'
+final=ROOT.parent/'pdf'/'SAM_Volume_I_Trimmed_20261025.pdf'
 out.save(final,garbage=4,deflate=True)
 (ROOT/'checks'/'assembly.json').write_text(json.dumps(dict(pages=len(out),chapters=entries,output=final.name,sha256=hashlib.sha256(final.read_bytes()).hexdigest()),indent=2))
 print(final,len(out))

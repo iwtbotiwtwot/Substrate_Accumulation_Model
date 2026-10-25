@@ -1,0 +1,37 @@
+FAIL 12:  fontmap entry for `rsfs10' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-dist/fonts/map/dvips/rs
+fs/rsfs.map): fontmap entry for `rsfs5' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-dist/fonts/map/dvips/rs
+fs/rsfs.map): fontmap entry for `rsfs7' already exists, duplicates ignored
+}) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./chapter12.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg) (./chapter12.out
+) (./chapter12.out) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd) (./body12.tex
+! You can't use a prefix with `end-group character }'.
+<to be read again> 
+                   \egroup 
+l.3 ...rring theme: results of 24 October 2026\'\'
+                                                  ). Sections 6 and 9--19, t...
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on chapter12.log.
+
+BUILT 13
+BUILT 14

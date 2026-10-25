@@ -1,0 +1,444 @@
+
+
+\paragraph*{Status, 25 October 2026 (Part 2).} This chapter adds the inventory premise: the floor $A_0=1/(12\pi)$, the weight and the count $\hat d=3$ (register T-01, T-02, T-05), from which $\Omega_m=1/\pi$ and the Hubble cascade follow as identities. Five runs of 24 October (voli\_ceiling\_1--5, ironclad H002776--H002778, H002780, H002781) gave the road four exact languages, a lawfulness gate for staged alternatives, one chart for the floored reservoir and the line of sight, and the exponent as a count of accumulation directions; none derived the floor, the weight or the count. Their content is summarized in Section~\ref{sec:c8:ceiling2026} below.
+
+
+\section{Purpose and status of the inventory}
+The cosmic inventory assigns a small set of dimensionless substrate expressions to cosmological density fractions. A thermal conversion then turns the baryon-to-photon ratio into a physical baryon density and, together with the assigned baryon fraction, into a Hubble constant. This chapter expands that chain into an explicit dependency calculation, separates arithmetic closure from physical selection, and fixes the information that a joint observational test must carry.
+
+The retained clean packet is
+\begin{align}
+ \Omega_m&=\frac1\pi=0.3183098862,\label{c8:om}\\
+ \Omega_b&=2A_0(1-\chi)=0.0492990113,\label{c8:ob}\\
+ \Omega_c&=\Omega_m-\Omega_b=0.2690108749,\label{c8:oc}\\
+ \Omega_{\Lambda,\mathrm{ledger}}&=1-\Omega_m=0.6816901138.
+ \label{c8:ol}
+\end{align}
+Here $A_0=1/(12\pi)$ and $\chi=8A_0/3$. The subscript on the final expression is intentional: an exact matter-complement ledger is not automatically a complete present-day Friedmann budget including radiation, curvature, and a declared neutrino convention.
+
+The baryon-to-photon assignment and thermal conversion give
+\begin{equation}
+ \eta_{\rm SAM}=\frac74A_0^6=6.0960895245\times10^{-10},
+ \label{c8:eta}
+\end{equation}
+followed, under the conversion assumptions below, by $\omega_b\simeq0.0222960$ and $H_{0,\rm SAM}\simeq67.2504\,\mathrm{km\,s^{-1}\,Mpc^{-1}}$. These numbers are reproducible arithmetic consequences of the selected rules and the temperature anchor. They are not independent evidence that the allocation and exponent rules are uniquely selected by a microscopic dynamics.
+
+The closing review supplies an important methodological correction. The expressions were selected within a discrete grammar after relevant target values were known. They have no continuously adjustable cosmological parameters in the frozen packet, but a selection among expressions is still a model choice. Accordingly this chapter distinguishes \emph{conditional derivation} of downstream quantities from \emph{retrospective matching} of upstream identities and \emph{prospective testing} on data that did not select them. That distinction makes the inventory more testable rather than less useful.
+
+\section{Typed primitives and their roles}
+Use $\widehat h=2$ for binary arity and $\widehat d=3$ for spatial support. To avoid confusing a retained integer with gravitating mass, denote the retained count by $M_{\rm count}$. The declared objects are
+\begin{align}
+ R&=\widehat h^2\widehat d=12,& S&=\widehat h^{\widehat d}=8,\label{c8:primitive1}\\
+ \Theta&=\widehat h\widehat d^2=18,&M_{\rm count}&=\frac78R^2=126,\label{c8:primitive2}\\
+ L&=R^2+\Theta=162,&V&=\widehat d^3=27,\label{c8:primitive3}\\
+ A_0&=\frac1{R\pi},&\chi&=\frac{S}{\widehat d}A_0=\frac2{9\pi}.
+ \label{c8:primitive4}
+\end{align}
+All quantities in these equations are dimensionless. Their names describe proposed roles in the substrate partition; the names alone do not identify an experimentally conserved number density. In particular, a ledger count is not a photon count until the mapping to physical modes is specified.
+
+The same floor enters three different operations. The distance-road calculation uses $RA_0$ as an amplitude. The inventory uses it as the proposed matter fraction. The thermal chain uses powers and ratios of the same containers. Their common ancestry is mathematically clear. Their physical equivalence requires an operator map: a propagation amplitude is not a density merely because its numerical value equals a density fraction. This chapter therefore preserves the shared expression while maintaining the separate operational meanings.
+
+A useful dependency diagram can be read directly as a sequence:
+\begin{equation}
+ \begin{gathered}
+ (\widehat h,\widehat d)\longrightarrow(R,S,\Theta,M_{\rm count},L,V,A_0)\\
+ \longrightarrow(\Omega_b,\Omega_m,\eta)\longrightarrow(\omega_b,H_0).
+ \end{gathered}
+ \label{c8:dependency}
+\end{equation}
+The final arrow additionally uses physical constants, a measured temperature, a photon distribution, a mean mass per baryon, and the critical-density convention. Those external inputs must remain visible even though they are not adjustable cosmological fit parameters.
+
+\section{The clean matter assignment}
+\subsection{A conditional algebraic identity}
+The matter rule is $\Omega_m=RA_0$. Since $A_0=1/(R\pi)$, cancellation gives $\Omega_m=1/\pi$ exactly. There is no approximation or numerical fit in this cancellation after the rule is chosen. The unresolved physical question is why a dimensionless substrate product should equal the density ratio $\rho_m/\rho_{\rm crit}$ for the cosmological epoch and observer convention being used.
+
+The distinction can be made experimentally meaningful. If $\Omega_m$ means today's physical matter fraction, the rule predicts one number at today's epoch and does not imply that $\Omega_m(z)$ remains fixed. In a standard expanding model with separately conserved matter, $\rho_m\propto a^{-3}$ and $\rho_{\rm crit}\propto H^2$, so
+\begin{equation}
+ \Omega_m(z)=\frac{\Omega_{m0}(1+z)^3}{E(z)^2},
+ \qquad E(z)=\frac{H(z)}{H_0}.
+ \label{c8:omegaevolution}
+\end{equation}
+If the substrate account instead intends a conserved fraction at all times, it must provide a different evolution or definition. The present frozen packet is interpreted as a present-epoch assignment when exported into conventional cosmological calculations.
+
+\subsection{Horizon projection and dimensional continuation}
+The retained projection writes a dimensionless closure marker $A_{\rm cl}=1$ as
+\begin{equation}
+ A_0(D)=\frac{A_{\rm cl}}{4\pi D},\qquad
+ R(D)=2\widehat hD.
+ \label{c8:projection}
+\end{equation}
+For binary arity this coincides with $R=\widehat h^2D$. The product then satisfies
+\begin{equation}
+ R(D)A_0(D)=\frac{\widehat hA_{\rm cl}}{2\pi}
+ =\frac1\pi.
+ \label{c8:formalD}
+\end{equation}
+This is a valid \emph{formal continuation of the declared algebra} with a fixed $4\pi$ normalization. It is not a proof that physical horizon areas in arbitrary spatial dimension have the same angular normalization. The area of the unit $(D-1)$-sphere is
+\begin{equation}
+ \mathcal S_{D-1}=\frac{2\pi^{D/2}}{\Gamma(D/2)}.
+ \label{c8:solidangle}
+\end{equation}
+If a genuinely dimension-dependent geometric projection replaced $4\pi$ by $\mathcal S_{D-1}$, the same cancellation of $D$ would leave $2\widehat hA_{\rm cl}/\mathcal S_{D-1}$, which generally depends on $D$. Thus the original dimension-independence statement must be restricted to its stipulated projection convention. At $D=3$, $\mathcal S_2=4\pi$, and the two formulations agree.
+
+The projection also uses a dimensionless closure marker rather than the physical horizon area $\mathcal A_H$ of Chapter VII. Substituting square metres into equation~\eqref{c8:projection} would make $A_0$ dimensional and invalidate the inventory. A future physical derivation must specify the area normalization before relating a completed compact boundary to a universal cosmological floor.
+
+\section{The baryonic share and what selects it}
+\subsection{Retained allocation}
+The first allocation step forms the face-per-direction quotient,
+\begin{equation}
+ \chi=\frac{S}{\widehat d}A_0
+ =\frac{8}{3}\frac1{12\pi}
+ =\frac2{9\pi}=0.0707355303.
+ \label{c8:chi}
+\end{equation}
+The second step assigns a binary share of the floor reduced by that quotient:
+\begin{equation}
+ \Omega_b=\widehat hA_0(1-\chi)
+ =\frac1{6\pi}\left(1-\frac2{9\pi}\right).
+ \label{c8:baryonclosed}
+\end{equation}
+This is positive because $0<\chi<1$. It is less than the total matter fraction because
+\begin{equation}
+ f_b\equiv\frac{\Omega_b}{\Omega_m}
+ =\frac{\widehat h}{R}(1-\chi)
+ =\frac{1-\chi}{6}\simeq0.1548774.
+ \label{c8:fb}
+\end{equation}
+Thus the clean ledger reserves about $15.49\%$ of its matter component for baryons. The complement within matter is the proposed nonbaryonic component. This bookkeeping distinguishes the baryonic fraction of all critical density from the baryonic fraction of matter; conflating them would introduce a factor of approximately six.
+
+The arithmetic establishes closure and positivity, but it does not establish the allocation's uniqueness. To derive the factor $(1-\chi)$ from counting, the theory needs a sample space or set of weighted configurations, a rule that identifies the baryonic subset, and a measure whose excluded share is exactly $\chi$. Since $\chi$ contains $\pi$, it cannot be the ratio of two unweighted finite integer cardinalities. A continuous measure, geometric weight, limiting procedure, or normalized amplitude could produce such a share, but that additional structure has to be stated.
+
+This observation does not refute the rule. It specifies the kind of derivation that could justify it. A finite enumerator of containers alone cannot turn an irrational weight into an exact unweighted fraction. Conversely, if the containers carry geometric weights, the allocation proof must conserve their total weighted measure and show why the binary baryon branch uses precisely this normalization.
+
+\subsection{Alternatives expose the selection problem}
+Nearby expressions illustrate why the allocation needs a mechanism. The unsuppressed binary floor is $2A_0$. A repeated exclusion would give $2A_0(1-\chi)^2$. A saturating normalization might give $2A_0/(1+\chi)$. These alternatives are examples of algebraic competitors, not proposed replacements. They share the same named ingredients while producing different densities. Declaring that one looks closest to a measured baryon fraction is a selection rule based on that measurement, not an independent physical derivation.
+
+A legitimate restricted grammar can be much narrower than arbitrary combinations. It could require linear additivity over disjoint branches, one application of a face quotient, and conservation of a specified measure. But each restriction must arise from the model before the target comparison. The publication test is whether another researcher, given the primitives and restrictions but not the observed density, recovers the same expression.
+
+The nonbaryonic remainder
+\begin{equation}
+ \Omega_c=\frac1\pi-\frac1{6\pi}
+ \left(1-\frac2{9\pi}\right)
+ \label{c8:nonbaryon}
+\end{equation}
+is a density assignment, not a composition theorem. It does not decide whether the component consists of primordial compact objects, field energy, particles, or a mixture. Chapter X must supply clustering and halo behavior; Chapter XII must supply any formation history. Conservation of the sum does not substitute for those dynamics.
+
+\section{Clean and effective inventories}
+The retained directional refinement is
+\begin{equation}
+ \Omega_{m,\rm eff}=RA_0-2A_0(\chi+\widehat d\chi^2)
+ =0.3137609155690572.
+ \label{c8:effective}
+\end{equation}
+The parentheses matter. Both the linear and quadratic terms are multiplied by $2A_0$. The baryon row is held fixed by the refinement's definition. Consequently an effective nonbaryonic row, if that operator is used, must be $\Omega_{c,\rm eff}=\Omega_{m,\rm eff}-\Omega_b$. One cannot combine an effective total with the clean dark component and still retain additive closure.
+
+There are two scientifically different possibilities. The refinement could be an observational response operator mapping one underlying density to an effective measured parameter. Alternatively it could be a second candidate background model with a different matter density. The first possibility requires an explicit forward map from the clean state to each observable. The second requires separate predictions and separate statistical scores. Neither permits selecting whichever number agrees better with each dataset after inspecting its residual.
+
+For the expanded volume, the clean packet is the default structural ledger. The effective packet remains a separately named conditional lane. A calculation that uses it must state the input, the operator's scope, and the associated complement. The common road amplitude remains $RA_0$ unless the road operator itself is independently changed. These conventions preserve the original distinction while preventing silent movement between ledgers.
+
+Holding $\Omega_b$ and the thermal conversion fixed leaves $H_0$ unchanged in this particular refinement. It does not leave $H(z)$, the age, growth, matter-radiation equality, or the distance-redshift relation unchanged. Those depend on the matter row and must be recomputed. The importance of the distinction is therefore physical, even though the Hubble cascade itself is unchanged.
+
+\section{The baryon-to-photon assignment}
+The two retained container ratios are
+\begin{equation}
+ \frac{M_{\rm count}}{\widehat h^2\Theta}=\frac{126}{72}=\frac74,
+ \qquad \frac LV=\frac{162}{27}=6.
+ \label{c8:ratios}
+\end{equation}
+The selected rule then gives
+\begin{equation}
+ \eta=\frac{M_{\rm count}}{\widehat h^2\Theta}
+       A_0^{L/V}=\frac7{4(12\pi)^6}.
+ \label{c8:etacontainers}
+\end{equation}
+The simplification is exact. Its physical interpretation is a proposed baryon number per photon after the entropy transfers relevant to the measured late-time photon bath. For standard adiabatic evolution after those transfers, both number densities dilute as $a^{-3}$ and the ratio is constant. A theory with later photon creation, baryon production, or transfer into a hidden sector would need an evolution law for $\eta$.
+
+The exponent is a major source of selectivity. Replacing six by five multiplies the result by $1/A_0$, approximately $37.70$; replacing six by seven multiplies it by $A_0$, approximately $0.02653$. This demonstrates why the integer is consequential, but does not explain why it is six. A physical derivation would need six independent stages with the same attenuation, a six-dimensional measure, or another explicitly demonstrated multiplicative structure. Merely observing that a ledger-to-volume ratio equals six is not such a demonstration.
+
+Similarly, $7/4$ is a retained-to-carrier ratio in the declared grammar. It is not yet a proof of a baryon asymmetry mechanism, a chemical potential, or a baryogenesis efficiency. The rule fixes a proposed final abundance without supplying the time-dependent production mechanism. This is acceptable as a phenomenological inventory hypothesis, provided the distinction is retained when Chapter IX computes a thermal history.
+
+For later tests, one should freeze both $\eta$ and the conservation assumptions. A light-element calculation can then use the same baryon abundance at nucleosynthesis and compare deuterium and helium yields with observations. If the abundance is adjusted after inspecting those yields, the result becomes another calibration rather than the intended out-of-selection test.
+
+\section{The dimensional Hubble cascade}
+\subsection{Photon density from the thermal anchor}
+A blackbody with two photon polarizations has number density
+\begin{equation}
+ n_\gamma=\frac{2\zeta(3)}{\pi^2}
+ \left(\frac{k_BT_0}{\hbar c}\right)^3.
+ \label{c8:photons}
+\end{equation}
+This follows by integrating the occupation $(e^{pc/k_BT_0}-1)^{-1}$ over momentum phase space, including two polarizations. The dimensionless integral is $\int_0^\infty x^2/(e^x-1)\,dx=2\zeta(3)$, obtained by expanding the denominator as a positive exponential series and integrating term by term. The assumed spectrum is therefore part of the conversion, not just a numerical convenience.
+
+The retained ledger uses $T_0=2.7255\,\mathrm K$, a rounded thermal anchor consistent with Fixsen's combined estimate $2.72548\pm0.00057\,\mathrm K$ [VIII.1]. The photon density is then approximately $410.727\,\mathrm{cm^{-3}}$. Using the rounded or unrounded temperature changes only later digits at the precision relevant here; the exact choice must nevertheless be recorded in a reproducible calculation.
+
+\subsection{Critical density and mass per baryon}
+Define
+\begin{equation}
+ H_{100}=100\,\mathrm{km\,s^{-1}\,Mpc^{-1}},\qquad
+ \rho_{\rm crit,100}=\frac{3H_{100}^2}{8\pi G}.
+ \label{c8:critical}
+\end{equation}
+If $\overline m_b$ is the mean rest mass per counted baryon, then
+\begin{equation}
+ \rho_b=\overline m_b\eta n_\gamma,\qquad
+ \omega_b=\Omega_bh^2=\frac{\rho_b}{\rho_{\rm crit,100}},
+ \qquad h=\frac{H_0}{H_{100}}.
+ \label{c8:physicalbaryon}
+\end{equation}
+The retained computation approximates $\overline m_b$ by the proton mass $m_p$. This makes the conversion exactly reproducible, but its accuracy should not be confused with the number of printed digits. A physically precise conversion must specify helium abundance, nuclear binding, electron contributions, and the convention used by the cosmological code for baryon mass density. These effects are small compared with order-unity changes of the inventory but matter when claiming precision at the $10^{-4}$ level.
+
+Introducing the dimensionless conversion factor
+\begin{equation}
+ K=\frac{\rho_{\rm crit,100}}{m_pn_\gamma}
+ \simeq2.73416\times10^{-8}
+ \label{c8:K}
+\end{equation}
+gives $\eta=K\omega_b$, so $\omega_b=\eta/K\simeq0.0222960$. Finally,
+\begin{equation}
+ h^2=\frac{\omega_b}{\Omega_b}\simeq0.452261,
+ \qquad H_0\simeq67.2504\,\mathrm{km\,s^{-1}\,Mpc^{-1}}.
+ \label{c8:hubble}
+\end{equation}
+The supplied check script independently evaluates this arithmetic with the constants stated in the script. It is not a rerun of the native cosmological source or a likelihood analysis.
+
+Combining the chain into one expression displays its dependencies:
+\begin{equation}
+ H_0^2=\frac{8\pi G}{3}
+ \frac{\overline m_b\eta n_\gamma}{\Omega_b}.
+ \label{c8:directH}
+\end{equation}
+The expansion rate arises because the density fraction is defined relative to a critical density proportional to $H_0^2$. A theory that rejects that critical-density relation cannot retain this Hubble inference unchanged. Likewise, the calculation uses measured dimensionful constants as well as one measured cosmological thermal anchor. ``One anchor'' means one cosmological calibration in this chain, not an absence of external metrology or physical assumptions.
+
+\section{Sensitivity, uncertainty, and numerical precision}
+The logarithmic derivative of equation~\eqref{c8:directH} is
+\begin{equation}
+ \begin{aligned}
+ d\log H_0={}&\tfrac12d\log G+\tfrac12d\log\overline m_b\\
+ &+\tfrac12d\log\eta-\tfrac12d\log\Omega_b\\
+ &+\tfrac32d\log T_0.
+ \end{aligned}
+ \label{c8:sensitivity}
+\end{equation}
+with the exact SI constants held fixed. This gives an immediate audit of calibration changes. A fractional temperature shift is amplified by $3/2$ in the inferred expansion rate. A fractional change in the baryon mass convention enters with coefficient $1/2$.
+
+If $A_0$ is varied diagnostically while the selected allocation functions are retained, $\eta\propto A_0^6$ and $\Omega_b\propto A_0(1-bA_0)$ with $b=8/3$. Therefore
+\begin{equation}
+ \frac{d\log H_0}{d\log A_0}
+ =\frac12\left(5+\frac{\chi}{1-\chi}\right)
+ \simeq2.53806.
+ \label{c8:floorresponse}
+\end{equation}
+This is a sensitivity calculation, not a declaration that the floor is a freely fitted parameter. It quantifies why changing one upstream convention requires all downstream lanes to be recomputed.
+
+Propagating only Fixsen's quoted temperature uncertainty would give an expansion-rate uncertainty of approximately $0.0211\,\mathrm{km\,s^{-1}\,Mpc^{-1}}$. That is a conditional metrological contribution, not a total theory uncertainty. It omits uncertainty in the allocation, exponent, physical bridges, mass convention, and model selection. The chapter therefore does not attach that small error bar to a claim of comprehensive predictive precision.
+
+A discrete selection uncertainty is not automatically Gaussian. It can be represented by a declared finite set of candidate models with prior weights, by a sensitivity envelope, or by separate hypotheses. Choosing one expression retrospectively and assigning only the thermal measurement error understates the scope of the inference. More printed decimal places improve arithmetic reproducibility; they do not create additional observational evidence.
+
+\section{Selection, enumeration, and honest comparison}
+\subsection{What the closing review establishes}
+The closing review reports a grammar enumeration with multiplicative expressions $2^a3^b7^c\pi^d$. Its smallest stated ranges are $|a|\le8$, $|b|\le6$, $|c|\le1$, and $|d|\le4$, giving $17\cdot13\cdot3\cdot9=5967$ exponent tuples. In that enumeration it reports 14 expressions in a one-standard-deviation matter window, 14 in a baryon window, and six in an $\eta_{10}$ window. These are retained review results, not independently reproduced enumeration outputs in this chapter.
+
+Several qualifications are essential. The target windows and their units must be explicit: $\eta_{10}=10^{10}\eta$ is not the same numerical target as $\eta$. Additive expressions such as $2A_0(1-\chi)$ are not members of the purely multiplicative base grammar, although multiplicative competitors can land near their target value. Counting tuples is not necessarily counting distinct numerical expressions if a richer grammar admits identities. And the fraction of a finite arbitrary list landing inside a window is not automatically a probability or a statistical significance.
+
+The review's wider grammars admit larger exponents, named additive factors, and half-integer powers. Their increasing match counts demonstrate that a match's impressiveness depends on the available search space. They do not determine the correct prior over physical hypotheses. The required next step is a restricted, role-sensitive grammar fixed before new data are inspected, with canonicalization, range limits, target definitions, and all rejected candidates retained.
+
+\subsection{A prospective protocol}
+A usable protocol has four stages. First, publish the admissible operations and the physical rule selecting each expression. Second, freeze the clean or effective interpretation and every downstream bridge. Third, compute observables on an identified dataset not used to choose the expression. Fourth, report the full residual vector and covariance without revising the grammar in response. A failed prediction can motivate a revised model, but the revision should receive a new version and a new prospective test.
+
+This approach preserves a real advantage of a small grammar: a frozen packet imposes correlations across observables. It also prevents those correlations from being overstated. If $H_0$ is calculated from $\eta$ and $\Omega_b$, agreement of all three is not three independent miracles. Their joint significance depends on the data covariance and on which quantities participated in the original selection.
+
+\section{Observational placement}
+Planck's published base-$\Lambda$CDM inference gives $H_0=67.4\pm0.5\,\mathrm{km\,s^{-1}\,Mpc^{-1}}$ and $\Omega_m=0.315\pm0.007$ [VIII.2]. With those rounded comparator values, the clean inventory differs by about $-0.30$ standard deviations in $H_0$ and $+0.47$ in $\Omega_m$, treating the SAM point as fixed for this descriptive calculation. These are model-dependent posterior comparisons, not direct measurements of bare substrate quantities, and they are not an independent joint likelihood.
+
+The original draft also compared $H_0$ with the SH0ES value $73.04\pm1.04\,\mathrm{km\,s^{-1}\,Mpc^{-1}}$ [VIII.3]. The inventory's lower value is a commitment of its frozen chain. It does not resolve the discrepancy by agreeing with one side. Any proposed resolution must propagate the same cosmology into distance calibration, selection effects, stellar standardization, and the observables used by the relevant analysis.
+
+DESI DR2 supplies an important later test [VIII.4]. Its primary paper finds that the preferred flat-$\Lambda$CDM parameters depend on the selected data combination and that allowing evolving dark energy changes the interpretation. The closing review's provisional $\Omega_m\simeq0.303\pm0.004$ was explicitly marked for verification. It is not promoted here into a universal DESI number or a definitive exclusion significance. A valid comparison must name the exact likelihood combination, neutrino assumptions, dark-energy model, and posterior statistic. The clean and effective inventories should then be scored separately against the same setup.
+
+The literature placement is therefore clear without a broad originality claim. Standard analyses infer cosmological parameters from a specified dynamical model and data likelihood. This inventory proposes algebraic restrictions on several of those parameters and then tests the restricted packet. Its distinctive proposal is the particular substrate-to-density assignment. The elementary use of a blackbody photon density and critical-density conversion is shared physical infrastructure. A universal claim that no prior structural proposal resembles these expressions would require a dedicated historical survey and is not established here.
+
+\section{A complement is not yet dark-energy dynamics}
+Setting a ledger remainder equal to $1-\Omega_m$ supplies a number, not an equation of state. In a conventional homogeneous background,
+\begin{equation}
+ E^2(z)=\Omega_{r0}(1+z)^4+\Omega_{m0}(1+z)^3
+ +\Omega_{k0}(1+z)^2+\Omega_{X0}f_X(z),
+ \label{c8:background}
+\end{equation}
+where a separately conserved dark component obeys
+\begin{equation}
+ f_X(z)=\exp\left[3\int_0^z\frac{1+w_X(z')}{1+z'}\,dz'\right].
+ \label{c8:darkevolution}
+\end{equation}
+A cosmological constant has $w_X=-1$ and $f_X=1$. An evolving component requires a specified $w_X(z)$ or field equation. The inventory alone selects neither.
+
+At $z=0$, exact closure requires $\Omega_{r0}+\Omega_{m0}+\Omega_{k0}+\Omega_{X0}=1$. Thus in a spatially flat radiation-aware implementation the physical complement is $\Omega_{X0}=1-\Omega_{m0}-\Omega_{r0}$, with neutrinos counted consistently between the matter and radiation terms. The clean ledger's $1-\Omega_m$ is a late-time radiation-neglecting complement unless an alternative accounting convention is explicitly adopted. Radiation is numerically small today but essential for Chapter IX and cannot be silently counted twice.
+
+If redshift is attributed in part to a propagation mechanism, the model must predict the transformation of photon energies, arrival intervals, solid angles, and number flux together. Matching a luminosity-distance curve alone does not establish consistency with time dilation, temperature evolution, or distance duality. In the standard metric, photon-conserving case the latter reads $D_L=(1+z)^2D_A$. A replacement road law must specify which hypotheses it changes and produce a new joint test rather than inherit this relation selectively.
+
+\section{One frozen packet across the volume}
+The inventory value $H_{0,\rm SAM}$ is the default expansion-rate normalization for a prospective joint test. The retained supernova packet used $73.04$ and the retained BAO packet used $68.76\,\mathrm{km\,s^{-1}\,Mpc^{-1}}$. They remain historical calibration lanes until rerun with a declared common packet. Merely placing their separate residuals in one table would not make them a joint test.
+
+For fixed dimensionless $E(z)$, distances scale as $H_0^{-1}$ and luminosity distances enter distance moduli logarithmically. The purely kinematic rescaling is
+\begin{equation}
+ \Delta\mu=5\log_{10}\left(\frac{H_{0,\rm old}}{H_{0,\rm new}}\right).
+ \label{c8:modulus}
+\end{equation}
+This identity is useful for auditing a normalization change, but it is not a substitute for rerunning a lane whose sound horizon, physical densities, or shape also changes. Supernova absolute magnitude can absorb a global normalization in some analyses; BAO uses a calibrated ruler whose value depends on early-time physics. Those degeneracies must be treated in the appropriate likelihood.
+
+The packet delivered to Chapter IX includes $\eta$, the density rows, $H_0$, and explicit radiation and neutrino conventions. The proposed perturbation relations $A_s=\eta\sqrt R$, $n_s=1-\chi/2$, and $\tau=2A_0$ remain separately selected assignments, discussed there. Chapter X receives the clean matter row for its stated $X_\infty=(R-\widehat h)\Omega_m$ relation unless it explicitly declares another operator. Chapter XII receives both the inventory complement and the chosen dynamical interpretation, since a density fraction without an evolution law does not determine a cosmic fate.
+
+A joint run should publish its input manifest, code versions, units, data masks, covariance treatment, nuisance parameters, and residuals. Residuals in incompatible units should not be added by eye. If $r$ is a concatenated data residual with covariance $C$, a Gaussian diagnostic is $r^TC^{-1}r$ only after cross-correlations and nuisance treatment are specified. The present expansion supplies the protocol; it does not invent the missing joint execution.
+
+\section{Independent abundance tests and a reproducible input manifest}
+The abundance rule becomes most valuable when it commits to a calculation that did not choose its coefficients. Primordial nucleosynthesis is a natural candidate because the baryon-to-photon ratio affects nuclear reaction competition in an expanding plasma. The calculation also depends on the expansion history, neutron lifetime, effective relativistic content, and laboratory reaction rates. Holding only $\eta$ fixed while adjusting those quantities to force agreement would not be a clean test of the proposed packet.
+
+A prospective abundance analysis should therefore begin with a written input manifest. The manifest specifies whether $\eta$ refers to the post-electron-annihilation photon bath, which neutrino temperature and effective species count are adopted, and whether the standard thermal relation between cosmic time and temperature is used. It records the treatment of nuclear binding in the baryon mass conversion and distinguishes that conversion from the baryon number that enters reaction equations. It identifies the reaction-rate compilation and its covariance, since several yields share rate uncertainties.
+
+The principal outputs are element abundances with uncertainty budgets separated into nuclear, observational, and cosmological components. Deuterium is useful because its surviving abundance responds strongly to the baryon density, but a numerical scaling law should be obtained from the selected network over its stated range rather than imported without verification. Helium supplies a complementary sensitivity to the expansion and weak-interaction history. Lithium should be reported as well, even where the standard calculation and astrophysical inference have known difficulties; selective reporting of only favorable elements would defeat the prospective protocol.
+
+No BBN network was executed for this expansion. The purpose of the specification is to prevent an analytic inventory from being presented as if it had already passed a reaction-network test. A future result should include the calculated yields, the observed comparison set, the adopted systematic uncertainties, and the change in fit relative to a baseline using the same network. If the abundance rule fails, the analysis should first identify whether the failure is stable under measured rate uncertainties before assigning it to substrate physics.
+
+A parallel manifest is needed for the background and perturbation codes. At minimum it contains $T_0$, $H_0$, $\Omega_b$, the chosen total-matter row, the nonbaryonic split, the neutrino masses, spatial curvature, the dark-energy law, and the radiation normalization. Where a code accepts physical densities $\omega_i$ rather than fractions $\Omega_i$, all conversions must use the same $h$. Passing a clean fraction to one module and an effective physical density to another is an input inconsistency even if each number looks individually reasonable.
+
+The manifest should distinguish calculated values from retained source values and from observational anchors. A hash or version identifier makes later changes detectable. It should also record numerical precision, integration tolerances, and the treatment of species crossing between relativistic and nonrelativistic regimes. These details are not extra cosmological freedom when fixed in advance; they are the information required to reproduce the meaning of a result.
+
+Finally, holdout data should remain holdout data. Once an independent test has been examined and used to revise the grammar, it becomes part of the development history. The revised model can still be scientifically valuable, but its subsequent predictive claim belongs to a new comparison. This versioned discipline gives the inventory a route from numerical pattern to constrained physical model without obscuring either successes or failures along the way.
+
+\section{Worked dimensional conversion and unit checks}
+A numerical cascade is easiest to audit when each step has a dimensional meaning. The independent arithmetic check accompanying this chapter uses $c=299792458\,\mathrm{m\,s^{-1}}$, $k_B=1.380649\times10^{-23}\,\mathrm{J\,K^{-1}}$, $\hbar=1.054571817\times10^{-34}\,\mathrm{J\,s}$, $G=6.67430\times10^{-11}\,\mathrm{m^3\,kg^{-1}\,s^{-2}}$, and $m_p=1.67262192595\times10^{-27}\,\mathrm{kg}$. These are the chosen numerical inputs to this check, with the displayed rounding of $\hbar$; they are not an independent determination of the constants. The length conversion is $1\,\mathrm{Mpc}=3.085677581491367\times10^{22}\,\mathrm m$.
+
+The ratio $k_BT_0/(\hbar c)$ has units of inverse length. Cubing it and multiplying by $2\zeta(3)/\pi^2$ therefore gives a number per cubic metre. The result is $4.10726849\times10^8\,\mathrm{m^{-3}}$, which becomes $410.726849\,\mathrm{cm^{-3}}$ because one cubic metre contains one million cubic centimetres. Losing that conversion factor would corrupt every subsequent density by six orders of magnitude while leaving all dimensionless inventory identities untouched.
+
+Next, $H_{100}=10^5/(3.085677581491367\times10^{22})\,\mathrm{s^{-1}}$. Its square divided by $G$ has units of mass density, as required for $\rho_{\rm crit,100}$. The factor $K$ divides that mass density by $m_pn_\gamma$, another mass density, and is therefore dimensionless. Finally, $\eta/K$ is a dimensionless physical baryon density parameter, whereas $\eta n_\gamma$ is a physical number density. Distinguishing these two uses of the word density prevents a hidden unit error when the packet is passed to a numerical solver.
+
+The inferred baryon number density is approximately $0.2504\,\mathrm{m^{-3}}$ in this convention. It is an average over cosmological volume, not the density in stars, gas clouds, or galaxies. Multiplying by $m_p$ produces a mean baryonic mass density of order $4.19\times10^{-28}\,\mathrm{kg\,m^{-3}}$. Dividing that result by the critical density at $H_0$, rather than at $H_{100}$, recovers $\Omega_b$ by construction. The independent script checks this closure in both directions.
+
+There are therefore two equivalent paths through the conversion. One computes $K$, then $\omega_b$, then $h$. The other uses equation~\eqref{c8:directH} directly. Agreement between the paths is an implementation check because the same algebra underlies both. It is not a second observational constraint. A useful release should nevertheless retain both paths: one is convenient for cosmological-code inputs and the other exposes dimensional dependencies.
+
+The calculation also shows why the proton-mass approximation deserves explicit treatment. Baryon number counts nucleons, whereas mass density includes the composition-dependent energy of bound nuclei and associated electrons according to the adopted convention. A future high-precision implementation should compute $\overline m_b$ from the same primordial composition used in the thermal calculation. Replacing $m_p$ by that mean mass changes $H_0$ by the square root of their ratio. This correction can be calculated once the composition convention is fixed; it should not be treated as an arbitrary nuisance parameter selected to move the expansion rate toward an observational preference.
+
+\section{A bounded alternative-expression experiment}
+A small transparent calculation illustrates discrete selection without pretending to reconstruct the whole historical grammar. Hold the floor and baryon allocation fixed, and examine only the nine abundance expressions
+\begin{equation}
+ \eta_{w,p}=wA_0^p,\qquad
+ w\in\{1,7/4,2\},\quad p\in\{5,6,7\}.
+ \label{c8:ninegrammar}
+\end{equation}
+This is a newly declared diagnostic set, not a claim that these nine candidates were the original admissible universe of theories. It is small enough that every candidate can be listed and its consequence evaluated without fitting.
+
+Relative to the selected expression, each candidate obeys
+\begin{equation}
+ \frac{\eta_{w,p}}{\eta_{7/4,6}}
+ =\frac{4w}{7}A_0^{p-6},\qquad
+ \frac{H_{0,w,p}}{H_{0,7/4,6}}
+ =\sqrt{\frac{4w}{7}}A_0^{(p-6)/2}.
+ \label{c8:nineratios}
+\end{equation}
+The second identity follows because $\Omega_b$, the thermal anchor, and all dimensional constants were held fixed. If a candidate also changed the baryon allocation, it would require the additional square-root denominator change. This controlled construction isolates the abundance selection alone.
+
+At $p=6$, changing the weight from $7/4$ to one gives $H_0\simeq50.84\,\mathrm{km\,s^{-1}\,Mpc^{-1}}$, while changing it to two gives about $71.89$ in the same units. At weight $7/4$, choosing exponent five gives approximately $412.9$, while exponent seven gives about $10.95$. These examples make the physical leverage of the selected ingredients visible. They do not claim those alternatives are plausible cosmologies; their purpose is to show that ``no continuous fit'' does not mean ``no consequential choice.''
+
+The exercise can be made into an auditable selection test by declaring a comparator interval before evaluating the nine entries. The number landing inside the interval then has a definite meaning for this set. It still does not become a universal false-alarm probability, because the set was not drawn from a physical probability distribution and does not include all conceivable expressions. Expanding the grammar after seeing that count changes the experiment. A defensible significance calculation would require an explicit prior over the alternatives or a prospective predictive score.
+
+A role-sensitive derivation could make eight of the nine candidates inadmissible for structural reasons. For example, a demonstrated six-stage independent transfer law could select the exponent before any cosmological target is consulted. A conservation theorem could select the weight. If those arguments are supplied, the numerical comparison becomes much stronger because the expression is no longer selected by its agreement. The present chapter identifies those possible forms of explanation without inventing the missing theorem.
+
+The same logic applies to the clean and effective matter rows. Treating them as two prespecified hypotheses is legitimate. Moving between them separately for Planck, BAO, halos, and fate introduces an undeclared selection at every comparison. A bounded diagnostic should therefore print both complete prediction vectors and apply one scoring rule to each, rather than construct a favorable hybrid after inspecting residuals.
+
+\section{Correlated observables and a worked covariance example}
+The Hubble cascade contains algebraic correlations before any observational covariance is considered. In logarithmic variables, with temperature and constants fixed,
+\begin{equation}
+ \delta\log H_0=\tfrac12\delta\log\eta
+ -\tfrac12\delta\log\Omega_b.
+ \label{c8:covgradient}
+\end{equation}
+If a model ensemble or uncertainty prescription assigns a covariance matrix to $\log\eta$ and $\log\Omega_b$, propagation gives
+\begin{equation}
+ \begin{aligned}
+ \operatorname{Var}(\log H_0)=\tfrac14\bigl[&\operatorname{Var}(\log\eta)\\
+ &+\operatorname{Var}(\log\Omega_b)\\
+ &-2\operatorname{Cov}(\log\eta,\log\Omega_b)\bigr].
+ \end{aligned}
+ \label{c8:covH}
+\end{equation}
+Positive correlation can cancel in the ratio; negative correlation can amplify it. Adding independent error bars in quadrature is therefore wrong unless independence is justified. The formula is meaningful only after a probability model for the upstream uncertainty is specified; it does not assign one by itself.
+
+As an illustration, suppose both logarithmic inputs have standard deviation $0.01$. With correlation $0.8$, the propagated logarithmic expansion-rate uncertainty is approximately $0.003162$, or $0.316\%$. With correlation $-0.8$, it is approximately $0.009487$, or $0.949\%$. If one incorrectly assumes independence, the answer is $0.007071$, or $0.707\%$. These are examples of covariance propagation, not uncertainty estimates for SAM. They demonstrate how the same individual input precision can lead to quite different precision in a derived ratio.
+
+Observational residuals have a related issue. Consider two standardized residuals with correlation matrix
+\begin{equation}
+ C=\begin{pmatrix}1&\rho\\\rho&1\end{pmatrix},\qquad
+ C^{-1}=\frac1{1-\rho^2}
+ \begin{pmatrix}1&-\rho\\-\rho&1\end{pmatrix}.
+ \label{c8:twocov}
+\end{equation}
+For residual vector $(1,1)$ the quadratic score is $2/(1+\rho)$; for $(1,-1)$ it is $2/(1-\rho)$. At $\rho=0.8$, these are approximately $1.111$ and $10$, although each individual residual has magnitude one. Ignoring covariance would assign both the value two. A comparison that reports only a list of separate sigma offsets cannot distinguish these cases.
+
+The physical interpretation is straightforward. Positively correlated data commonly move together, so a common-direction displacement is relatively unsurprising. A displacement in opposite directions fights that correlation and is more strongly penalized. Cosmological parameter posteriors and overlapping sky measurements contain precisely this kind of structure, albeit in much larger spaces. It is therefore inappropriate to multiply separate agreement probabilities or add individually quoted sigma values to summarize the inventory's success.
+
+A complete test should operate as close as practical to the actual observable data vector. If compressed parameter posteriors are used instead, their model dependence, covariance, and prior information must be retained. The comparison should also distinguish a fixed prediction from a model whose nuisance quantities were optimized. The number of displayed identities does not determine the effective number of independent tests.
+
+\section{A conditional background example from the clean packet}
+To show what an additional dynamical assumption buys, temporarily adopt a spatially flat, matter-plus-cosmological-constant background and neglect radiation. This is the standard late-time Friedmann example, not the native fate law of Chapter XII. With $\Omega_\Lambda=1-\Omega_m$, the age is
+\begin{equation}
+ t_0=\frac1{H_0}\int_0^1
+ \frac{da}{a\sqrt{\Omega_ma^{-3}+\Omega_\Lambda}}
+ =\frac{2}{3H_0\sqrt{\Omega_\Lambda}}
+ \operatorname{arsinh}\sqrt{\frac{\Omega_\Lambda}{\Omega_m}}.
+ \label{c8:age}
+\end{equation}
+The integral follows by setting $u=a^{3/2}\sqrt{\Omega_\Lambda/\Omega_m}$. The resulting Hubble-scaled age depends on the matter row even if the Hubble cascade is unchanged. This is one explicit reason the effective and clean inventories cannot be swapped without recomputing downstream quantities.
+
+Under the same assumptions, the acceleration changes sign when $\rho_m=2\rho_\Lambda$, giving
+\begin{equation}
+ 1+z_{\rm acc}=\left(\frac{2\Omega_\Lambda}{\Omega_m}\right)^{1/3},
+ \qquad H_\infty=H_0\sqrt{\Omega_\Lambda}.
+ \label{c8:lateexample}
+\end{equation}
+These are inherited consequences of pressureless matter and $w=-1$. They do not follow from a density complement alone. If another chapter proposes a different asymptotic power of $\Omega_\Lambda$, that proposal must be associated with a different evolution law or clock definition; the formulas cannot describe the same $H(t)$ under identical assumptions.
+
+The example is useful as a baseline because it creates a full function $H(z)$ from a small packet and a clear dynamical law. It also makes circularity easy to identify. Agreement with a standard-background age after importing the standard background is a consistency check of the restricted parameter packet. A genuinely new substrate prediction would require deriving or modifying the background law and carrying that modification through distances, growth, and thermal history.
+
+No numerical age is used as a new observational claim here. The companion check evaluates the integral's closed form and the acceleration expression for audit purposes. Radiation, massive-neutrino evolution, and any evolving dark component are omitted by construction. A precision comparison must restore them or bound their effects, rather than present the simple analytic exercise as a complete cosmological computation.
+
+\subsection{An explicit audit of shared information}
+The conditional background example makes it possible to assign each conclusion to its actual inputs. The matter fraction uses the floor and the chosen density identification. The baryon fraction uses the allocation rule. The baryon-to-photon ratio uses the container weight and exponent. The Hubble constant then uses those quantities plus the thermal and critical-density bridges. The age uses the Hubble constant, matter fraction, and an additional expansion law. These dependencies form a directed graph rather than a list of independent successes.
+
+If the same observed CMB posterior helped select the matter rule, baryon allocation, and abundance expression, agreement of the derived age with an age inferred from that posterior is especially correlated. It can expose a transcription error or an inconsistent conversion, but it cannot honestly be counted as a wholly new observation predicted without contact with the data. The route to additional evidence is to test a consequence whose relevant information did not participate in the selections.
+
+There are different strengths of such a test. Reusing the same sky with a different statistic can check an aspect not explicitly fitted, but shared cosmic variance and selection history remain. A different instrument provides different systematics while often measuring the same underlying realization. A light-element abundance or a local distance measurement probes different physical processes, yet still brings model and calibration assumptions. Independence is a graded property to be documented, not a label supplied by a new filename.
+
+This audit also prevents excessive pessimism. A selected expression can become useful when it survives increasingly demanding, genuinely frozen tests. The appropriate record is a sequence of versioned hypotheses and their results. The inventory is not disqualified because its first identification was retrospective; it is simply required to earn prospective status through the next tests. Publishing dependencies and rejected alternatives makes that transition visible to a reader.
+
+\section{The \texorpdfstring{$1/\pi$}{1/pi} ceiling as a recurring theme: results of 24 October 2026}\label{sec:c8:ceiling2026}
+The number $1/\pi$ enters this volume three times from one input. Here, $\Omega_m=RA_0=1/\pi$ with the floor $A_0=1/(12\pi)$ and the container count $R=\hat h^2\hat d=12$, so that $\Omega_\Lambda=1-1/\pi$. In Chapter XII the accumulation seen along a line of sight to redshift $z$ is $A_{\rm los}(z)=(1/\pi)\,(1-(1+z)^{-3})$, saturating at $1/\pi$; and Chapter XII joins the two by construction, $A_{\rm los}(\infty)=\Omega_m$, both sides being $A_0R$. The register of 23 October records $\Omega_m=1/\pi$ as a selected identification and the road's exponent and plateau as the two selections that fix Chapter IV's family $\Xi(s)=\Xi_\infty+(1-\Xi_\infty)e^{-ps}$, $s=\ln(1+z)$, at $p=\hat d=3$ and $\Xi_\infty=1-1/\pi$. The ceiling is therefore not the spine of the volume; it is a recurring theme, the one selected number that ties the inventory to the distance work and carries a declared test the data did not choose (the ratio of gravitational-wave to electromagnetic luminosity distance following $\Xi(z)$: $0.9906$, $0.9208$, $0.7760$, $0.7215$, $0.6935$ at $z=0.01,0.1,0.5,1,2$; register T-10).
+
+Five idea runs of 24 October 2026 on the installed exact engine (ironclad H002776--H002778, H002780, H002781; four research peers each, the lead outside the window, no external data) asked what the road is as a law. Their results are readings in the engineering register, not claims, and they are recorded here because they change how Sections~3 and the road should be read together.
+
+\paragraph*{One sentence in four exact languages.} Written in the scale factor $a=(1+z)^{-1}$, the road is $A_{\rm los}=\Omega_m(1-a^3)$ with $dA_{\rm los}/ds=3(\Omega_m-A_{\rm los})$: the accumulation seen along a line of sight is the matter looked through, counted by comoving volume, in units in which the whole inventory is one. The exponent is $\hat d=3$ because it is a volume; the ceiling is $1/\pi$ because it is all the matter there is. The run wrote this in four exact languages, each certified natively and each naming the same missing law. (a) The mirrored Friedmann reading: $f(z)=\Omega_\Lambda+\Omega_m(1+z)^{-3}$ is the $\Lambda$CDM $E^2$ at a future scale factor $1+z$, the ceiling its de Sitter attractor; a complement with $w\neq-1$ has no plateau, so a plateau at exactly $\Omega_\Lambda$ states that the complement does not dilute. (b) The floored reservoir: $\Xi=\Omega_\Lambda+\Omega_m\,{\rm sech}^2\varphi$ with $\cosh^2\varphi=(1+z)^3$, so the reservoir's log-attenuation along the line of sight is the log comoving volume and its density law $1/q_{\rm res}=(1+z)^3$ is $\rho_m(z)/\rho_m(0)$; the four one-exponent markers of the road (half-saturation at $z=2^{1/3}-1$, the e-fold at $e^{1/3}-1$, matter equal to complement at $(1+z)^3=\pi-1$, and $z=1$) were read natively on the reservoir to the rational approximants of their times. The ceiling is not in the reservoir, whose $q\to0$ with no floor; it is the floor $\Omega_\Lambda$ added beside it, and that floor is $1-1/\pi$, not $A_0$. (c) The rate measure: as a floor plus a mixture of memoryless draws, $\Xi(s)=\int e^{-\lambda s}\,d\nu(\lambda)$, the road's coefficients $3/\pi,-6/\pi,10/\pi,-15/\pi$ are the moments $(1,3,9,27)$ of a measure of Hankel rank one, and within the class the ceiling and the first two coefficients force $\nu=\Omega_\Lambda\delta_0+\Omega_m\delta_3$: each component dilutes at its own exponent, vacuum at $0$ and matter at $\hat d$, and the ceiling is the sum of the fractions that dilute. (d) The union law: on $x=A_{\rm los}/\Omega_m$ shells compose by $x\oplus y=x+y-xy$, survival is multiplicative, and each shell is a column-stochastic ledger on (undrawn, drawn) whose drawn column is a floor never debited; the neighbouring velocity-addition law meets the ceiling and the first coefficient but fails the second ($-3/(2\pi)$ against $-6/\pi$) and is not a positive mixture.
+
+\paragraph*{Which quantity the volume law counts.} In the reservoir's own coordinates, $u=\tanh\varphi$ and $q=1-u^2$, the road is $1-q=u^2=\Omega_m(1-a^3)$: the quantity drawn by comoving volume is $u^2$, the squared velocity of the Lorentz dictionary ($u=\beta$, $q=1/\gamma^2$), not the rapidity $\varphi$, not $u$ and not $\Lambda$. Each alternative saturates at the same ceiling with the same exponent and fails the road's regression at the first or second coefficient; in the rapidity the road is not analytic at the observer. The reservoir's additive variable is the wrong ledger for the road.
+
+\paragraph*{The regression and its blind spot.} The ceiling with the coefficients $3/\pi$, $-6/\pi$, $10/\pi$ over-determines the road only inside the memoryless class. Outside it, $G_c(\psi)=1-e^{-\psi}(1+c\psi^4/24)$ with $\psi=3s$ passes every declared coefficient and departs at $z^4$; it is a survival only for $c\le 8/9$, with tangency at $\psi=3$, and the admissible member gives $0.7525$ at $z=1$ against the road's $0.7215$. A staged ledger matching $K$ conditions of the road is forced to the road unless it has at least $K$ stages, so the smallest lawful alternative has four hidden stages; its memory lives in hidden transitions faster than the road's hazard. The run built the test of lawfulness as three native faces (realisation, monotonicity, slope) and found that lawfulness is global: a lawful five-stage staircase carries the jet of an unlawful law through fourth order, so no finite set of coefficients decides it. The declared siren test of T-10 is therefore a test of memorylessness in the line-of-sight draw, and the shape of the channel ratio between $z\approx0.5$ and $2$ is where a memory law would show.
+
+\paragraph*{One object, and what fixes the exponent.} With a declared floor and a conserved ruler density along the line of sight installed as constitutive objects of the engine (core 0.11.3, derivation marked open), the floored reservoir at $\varphi$ and the line of sight at $s=\Lambda(\varphi)/d$ are one object on $\cosh^2\varphi=e^{ds}$; matched-point gaps equal the approximant error exactly, and the light-path delay is the accumulation gap $d\,q_{\rm floor}D=\Lambda_{\rm res}-\Lambda_{\rm obs}$. The tie renames the conservation law for every $d$ ($\Xi\dot\psi={\rm const}\equiv\Xi a^d={\rm const}$) and derives none: the reservoir's two lapses read $d=1$ or $2$, never $3$; a volume-measure action with three accumulation directions gives $a=q^{1/3}$ natively and the count $d=\eta_{\rm dir}/\eta_{\rm tot}$ as a declared stiffness isotropy, with shear invisible to the volume law and the floor a declared channel $E_\chi$ with weight $E_0/(E_0+E_\chi)$. Nothing in any action examined fixes $d$, the floor or the weight.
+
+\paragraph*{What this section does not change.} The identifications of Section~3 remain selected; the complement remains a complement and not a dark-energy dynamics (Section~11); the ceiling has four exact languages and no law that selects it. What is new is the location of the open question: a continuity current deriving the conserved ruler density from the reservoir action, and a construction that fixes the number of accumulation directions, would make the ceiling structural. Until then $1/\pi$ is a theme with a test, which is what this chapter has said of it since the register.
+
+\section{Results, open closures, and failure conditions}
+The completed arithmetic establishes exact conditional identities for the clean inventory, its baryonic fraction, the container expression for $\eta$, and the thermal conversion to $H_0$. The formal dimensional cancellation is valid within its fixed angular convention. The finite differences between clean and effective matter rows are explicit. Sensitivity derivatives identify how changes propagate. These are the mathematical closures added here.
+
+Three physical derivations remain central. The baryon allocation needs a measure and a selection theorem for $(1-\chi)$. The abundance needs a mechanism selecting the sixth power and the $7/4$ weight. The cosmological bridge needs a dynamical interpretation of density, critical density, and the complement. None is supplied by repeating an exact decimal match.
+
+Three tests are particularly useful. A frozen BBN calculation tests the abundance outside the original parameter matching, provided reaction rates and their uncertainties are propagated. A single distance and recombination calculation tests whether one expansion-rate ledger can serve all lanes. A specified late-time $w(z)$ or native road law tests the complement's physical interpretation using joint distance and timing observables. Each can fail while the algebra remains correct; that is what makes the physical assignment empirical.
+
+Failure should be recorded at the level of the affected claim. A discrepancy in deuterium could challenge the abundance or thermal assumptions without invalidating $126/72=7/4$. A distance mismatch could challenge the expansion history rather than the photon integral. A lack of unique selection would weaken predictive status while leaving a useful phenomenological parametrization. The distinction between arithmetic truth, conditional modeling, and observational adequacy is the organizing discipline of this chapter.
+
+\section*{References and provenance}
+\begingroup\small
+\begin{enumerate}[label={[VIII.\arabic*]},leftmargin=*]
+\item D. J. Fixsen, ``The Temperature of the Cosmic Microwave Background,'' \emph{Astrophysical Journal} \textbf{707}, 916 (2009). \url{https://arxiv.org/abs/0911.1955}.
+\item Planck Collaboration, ``Planck 2018 results. VI. Cosmological parameters,'' \emph{Astronomy \& Astrophysics} \textbf{641}, A6 (2020). \url{https://arxiv.org/abs/1807.06209}.
+\item A. G. Riess et al., ``A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km s$^{-1}$ Mpc$^{-1}$ Uncertainty from the Hubble Space Telescope and the SH0ES Team,'' \emph{Astrophysical Journal Letters} \textbf{934}, L7 (2022). \url{https://arxiv.org/abs/2112.04510}.
+\item DESI Collaboration, ``DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints,'' \emph{Physical Review D} \textbf{112}, 083515 (2025). \url{https://arxiv.org/abs/2503.14738}.
+\item S. Brady, \emph{SAM Unified Technical Synthesis, Volume I}, Sections 7.5, 8, A.9--A.10; original Chapter VIII and closing review, supplied complete volume dated 19 October 2026. Internal provenance includes CR018, CR019, CR023, CR281; CR003 and CR036 in the thermal-ladder campaign; LC06; and CR004 in the gravitational-wave discrimination map. These records are cited as source provenance, not as newly executed evidence.
+\end{enumerate}
+\endgroup
