@@ -292,11 +292,21 @@ Brady asked for on 22 October; its list of what leaves the volume and what does 
 
 ## The ranking: low-lying fruit for ironclad, by what we would learn per hour
 
+**Top of the list (Sean Brady, 2026-10-25: "Put #2 on the top of the vol ii ideas list").** *The lightest systems natively, continuing volii_li6_1 (H002783).* The source
+model refit with the light rows inside it (runs/20261025_spin_light_refit; Volume II V.14) leaves a signed pattern on the lightest isotopes: H-1 −9.41, H-2 −13.70,
+He-3 +6.95, He-4 −3.92 MeV (Li-6 +1.00, Li-7 −0.24), while Contract E records He-4 at 0.3451 natively and the H-3/He-3 misses of 4.03/3.27 MeV. The Li-6 receiver algebra
+reproduced exactly from the archive's operands on 24–25 October; the next target is the same algebra on A ≤ 4 (the one-, two-, three- and four-site sources: receiver F,
+right inverse, retained projector K, the Writes, the preparations, closure dimensions, response algebra), to say natively what the source-cell model lacks below Li.
+Verification form: everything given, archive operands by hash, predictions first, separate host code; one 1500 s window. **Learn:** whether the retained complement h = Kx
+exists at all for A ≤ 4 (K may be zero or trivial on so few sites), and whether the light-row residual pattern has the sign of a missing retained term. This is Volume II
+Chapter V's open sentence ("two models stand in the record until a construction joins them") given to the engine. Status: open; not yet run.
+
+
 0. **Continuity-map entries, not runs** (Chapters I, X, XVII, XIX): the 1/8 = Θ/R² = 2^{−D} that appears as the carrier fraction here, the radiated-energy ceiling in Volume I
    (T-09) and the Higgs packet's release; the demand baselines 1, π, 11π, 12π at A = A₀, 1/12, 11/12, 1 as Volume I's floor read from the matter side; the handoff A(r) = r_s/r;
    Chapter X's interface table; Chapter XIX's export list; Volume II's three declared physical numbers E*, I*, L* beside Volume I's floor, weight and count. These go into the
    continuity document of phase three; cost an afternoon of writing, no compute.
-1. **The Li-6 receiver algebra natively (Chapters XII.1–XII.2 and XVIII.2–XVIII.4; Duck idea run in the standard form).** The projection F (6×18), its right inverse R_F and
+1. **The Li-6 receiver algebra natively (Chapters XII.1–XII.2 and XVIII.2–XVIII.4; Duck idea run in the standard form). Done 2026-10-25, volii_li6_1 (H002783): every predicted number exact.** The projection F (6×18), its right inverse R_F and
    complement K (rank 12), the nine quarter-turn Writes as exact 18×18 matrices, the block update, the two preparations with equal currents and different next responses, the
    closure dimensions 6 → 10 → 16 and 10 → 12 → 18, the reciprocal-completion identity, the response-algebra ranks 9, 18, 36, the carrier R with R⁶ = −I and the isometry
    RᵀG₀R = G₀, T_phase with eigenvalue 1/2, the 36 products of rank 36 — all exact rational linear algebra within the recipe limits, with the source ledger
