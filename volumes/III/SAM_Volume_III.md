@@ -7186,3 +7186,31 @@ RH-side arithmetic runs as domain experiments in the current RH DomainSession (R
 and every transcendental value, product and solve native; Duck windows carry the separate-code verification. The native LOG operation returns the negative logarithm of
 a positive argument; a method admits at most 64 steps; a Hermitian diagonal of result cells larger than 1×1 is refused. The original numeric source bank (c8b6…) is absent
 locally; the published target is the regression anchor for any reconstruction.
+
+## Chapters IX and X — status at 25 October 2026 and the transfer ledger (added 2026-10-25)
+
+- **Status.** No RH computation has run since the window addenda of 24 October (H002775). The standing native prediction for the next account, made before computing,
+  is ΔP(1389 → 1391): sharp −8.6305e-4, adaptive +6.449e-6. Sean Brady's direction of 24–25 October parks RH until Volumes I–III are cleaned up ("I would like to focus on
+  the broader vol ii work, polish the first three volumes, find some continuity then come back to RH"; "hold on vol iv I want to continue RH work once we clean up
+  i-iii"). BOUND_C02 stays CANDIDATE; the FEOP operator (H002759, H002761) is the stated route to its deeper coverage, untouched since 21 October.
+- **Transfer ledger (Sean Brady, 2026-10-22: the works are separate; the connection is traffic in ideas and methods, recorded as what moved, from where, when, what it
+  produced, what it did not).** Into this volume's program: the source-action diagnostic (spin → H002629; method only; no numerical coefficient transferred); the
+  verification form (spin runs 20–22 October → rh_transition_1 and every RH entry since; procedure only); the recurrence-plus-remainder shape (spin and FEOP →
+  rh_crossover_1, H002751; a question, called a coincidence by the peers until one construction makes the residue-tree level and the staircase stage the same object);
+  the receiver lesson (rh_transition_3 → the "weights first" line of every chart extraction and the Volume II binding-readout ledger; a reading moved out of RH, the
+  first). Out of RH into the other volumes: nothing else yet; the ledger says so. These entries are the shared-structure part of the Reciprocal History volume when it is
+  written (on hold, 25 October).
+
+# Part 2 — The SLC and its implementation (declared 2026-10-25)
+
+Sean Brady, 2026-10-25: "potentially add a 'part 2' specifically for SCL work and its implementation. The most recent version Claude has produced of Duck has been the most
+successful and consistent to date. A starting manuscript has been made for the SLC work already." By his approval of the spine skeleton the same day, Volume III has two
+parts. **Part 1** is the manuscript above (Chapters I–XII and the reader's contract) with its received results. **Part 2** is the Engine manuscript,
+`volumes/Engine/SAM_Engine_Volume.md`, kept as its own file under its own change log and incorporated here by reference, not copied, so that one text is maintained.
+Its chapters: I What the engine is for; II Lineage of the exact engine, August to October 2026; III The SLC today: SLC-GEN5-R1; IV GEN6: the one-principle core and its
+adapter; V The Duck: name, lineage and the road to version 2; VI The refined Duck method; VII Capabilities, limits and known defects (with the 25 October addendum);
+VIII Connections to Volumes I, II and III; IX Collaborative work (nine runs and one release, continued to the twenty-one runs and three releases of 21–25 October);
+X Lessons of method (1–18); XI Status, limits and what is not decided (at 20 and at 25 October); Record of sources. Part 2 adopts Part 1's reader's contract: four
+levels of statement kept apart, installed facts exact, procedures quoted, readings labelled, no physical interpretation. The living method document stays in ironclad
+under change control (`docs/DUCK_2.0_METHOD.md` and the release plans) and is cited by release and commit; Part 2 is the dated account. Directed by Sean Brady. Executed
+with Claude Code.

@@ -15,6 +15,7 @@ SUBSTRATE ACCUMULATION MODEL
 SAM Engine Volume
 The Exact Engine, GEN6 and the Duck
 A companion to Volumes I–III
+Volume III, Part 2 — The SLC and its implementation (so declared by Sean Brady, 25 October 2026)
 
 Sean Brady
 Originator and conceptual director
@@ -671,3 +672,102 @@ sandbox/feedback-lapse-20261020 (FEEDBACK_LAPSE_DEFINITION.md, RESULTS.md).
 Archive (SAM_Research_Project, read-only): GEN4/furious_open1/PROTOCOL.md; GEN4/duck_process1/RUN_CYCLE.md; GEN4/duck_twelve_isotope1.
 
 Documentation repository: `runs/20261020_*/RECORD.md`; `decisions/DECISIONS.md`; `ideas/IDEAS.md`.
+
+---
+
+# Addition (25 October 2026): the continuation to the 25 October state
+
+Sean Brady, 2026-10-25: "a modernized vol ii and vol iii updated with the latest spin/feop work, potentially add a 'part 2' specifically for SCL work and its
+implementation. The most recent version Claude has produced of Duck has been the most successful and consistent to date. A starting manuscript has been made
+for the SLC work already." This manuscript is that starting text; from this date it is Volume III, Part 2. The sections below continue Chapters VII, IX, X and XI
+to the installed state of 25 October 2026 in the same register: installed facts read from the repository, procedures quoted, readings labelled as readings,
+no physical interpretation. Directed by Sean Brady. Executed with Claude Code.
+
+## Chapter IX continued — the runs and releases of 21–25 October 2026
+
+Twenty-one further runs and three releases since the edition of 20 October. Duck runs are 1500 s windows with four Opus peers and the lead outside unless
+stated; RH entries are domain experiments in the RH DomainSession (host enumeration, native transcendentals and solves) with one Duck verification window.
+
+| Date | Run or release | Record | Machine | Returns / status | What it showed (engineering register) |
+|---|---|---|---|---|---|
+| 21 Oct | spin_verify_1 | H002760 | Duck 2.3.4 | verification form adopted | five spin results verified to the enclosure width by three implementations; S2d's reversal stands; one account corrected |
+| 21 Oct | feop_verify_1 | H002761 | Duck 2.3.4 | two code bases, predictions first | transfer operator re-derived four times, verified at p = 11…23 and joint moduli; hypotheses mapped; Φ reconciles the two forms |
+| 21 Oct | volii_matter_1 | H002762 | Duck 2.3.4 | one control against declaration (basis error) | `coupled` construction's first research use; the two recipients of a lapse separated natively |
+| 22 Oct | volii_matter_2 | H002763 | Duck 2.3.4, staircase rev 2 | — | lapse orders invisible under the clock recipient, order-sensitive under the energy recipient |
+| 22 Oct | volii_matter_3 | H002764 | Duck 2.3.4 | 250 returns, 0 late, 0 undeclared | field-plus-lapse total optimised natively per chain; THREE's front recipe |
+| 22 Oct | volii_matter_4 | H002765 | Duck 2.3.4, front library | 235 / 0 / 0 | order 1's total lead 1.83–1.90e-4 on every family; front cross-checked to 1e-40 |
+| 22 Oct | volii_matter_5 | H002766 | Duck 2.3.4, staircase rev 3 | 247 / 0 / 0 | every chain's continuous optimum certified a local maximum; the lead's mechanism fails host and native |
+| 22 Oct | volii_matter_6 | H002767 | Duck 2.3.4 | 207 / 0 / 0 | the switched share at N = 1/4 above N = 1/2, witnessed; Sean Brady's four conventions as rules |
+| 22 Oct | rh_transition_1 | H002768 | RH DomainSession | 1262 calls, 1185 checks | the original source's transition to 1367; two host implementations agree to 8e-80; published target to every digit |
+| 23 Oct | rh_transition_2 (window) + native ledger + cloud replica | H002769 | Duck 2.3.4; GCE c3d-highcpu-180 | 218 returns, 0 late; 1673 calls, 881 checks | native exterior ledger PASS; four separate implementations agree; the replica proved exact by `./sam verify` (now STOPPED) |
+| 23 Oct | rh_transition_3 | H002770 | T500 + cloud | 5067 calls, 880 checks, identical enclosures | adaptive receiver reproduced; its rise structural; the sign belongs to the receiver's weights; four of five predictions failed |
+| 23 Oct | rh_transition_4 | H002771 | T500, unattended | three PASSes | account 1367 → 1371 both receivers; the two-cut combiner form; storage covers the crossing by 1 + ℓ̄/m exactly |
+| 24 Oct | rh_sweep_1371_1389 | H002772 | T500, 9.47 h unattended | fourteen PASSes, 44,066 calls | seven accounts to 1389, ledger seamless; sharp −8.66e-4 per account; Δℓ flip at 1383 → 1385 as declared |
+| 24 Oct | rh_sweep addenda | H002773–H002775 | host + native checks | — | the change is dP/dY × ΔY; the sign is the admission rule's choice; the adaptive sign a 2 % residual decided by the weights; standing prediction 1389 → 1391: sharp −8.6305e-4, adaptive +6.449e-6 |
+| 24 Oct | voli_ceiling_1 | H002776 | Duck 2.3.4, 900 s | FAILED_WITH_RETAINED_OUTCOMES (one undeclared), 44 COMPLETED | four exact languages for the 1/π road; the ceiling a floor beside the reservoir |
+| 24 Oct | voli_ceiling_2 | H002777 | Duck 2.3.4, 900 s | FAILED_WITH_RETAINED_OUTCOMES, 93 COMPLETED | the line of sight as a staircase; smallest lawful non-road ledger has four hidden stages |
+| 24 Oct | voli_ceiling_3 | H002778 | Duck 2.3.4, 900 s | eleven methods | the regression gate as three native faces; lawfulness global, invisible to any finite jet |
+| 24 Oct | **Core 0.11.3 / Duck 2.3.5 / IRONCLAD-R32** | H002779 | PERMANENT | 182 tests OK; verify PASS; rollback duck-2.3.4 verified; tag duck-2.3.5 | declared reservoir floor and the `line_of_sight` construction (derivation OPEN) |
+| 24 Oct | voli_ceiling_4 | H002780 | Duck 2.3.5, 900 s | COMPLETE, 143 returns, 0 undeclared, 0 late | the two constructions are one object on cosh²φ = e^{ds}; the delay is the accumulation gap |
+| 24 Oct | voli_ceiling_5 | H002781 | Duck 2.3.5, 1500 s | FAILED_WITH_RETAINED_OUTCOMES (superseded controls), 165 returns, 0 late | the exponent as a count of directions is a declared stiffness isotropy; shear invisible to the volume law |
+| 24 Oct | volii_gate_1 | H002782 | Duck 2.3.5, 1500 s | COMPLETE, 0 undeclared | Volume II's spin engine through the gate: gain neither mixture nor one-signed; the label is the entrance's |
+| 25 Oct | volii_li6_1 | H002783 | Duck 2.3.5, 1500 s | STOPPED_INCOMPLETE by the lead after a 49-min drain; 170 outcomes, 147 COMPLETED, 4 undeclared | Li-6 receiver algebra from archive operands, every prediction exact; the retained complement a Z₄ phase register with a J gauge |
+
+Releases between runs: **Duck 2.3.3** (IRONCLAD-R30; `expected_output_status`, `expected_reason`, `supersedes`: a control can name the engine status it expects, the
+reason it expects, and a repaired attempt can supersede its own failed first attempt), **Duck 2.3.4** (IRONCLAD-R31; `expected_failed_check`: a control names the recipe
+step whose check must fail, and a generic failure phrase no longer passes as a declaration), **Core 0.11.3 / Duck 2.3.5** (above). Each followed the §13 procedure:
+readback document, branch, tests, pre-registered fixture, rollback verified, "Allow permanent changes" typed by Sean Brady, install, freeze, tag.
+
+## Chapter VII addendum — limits and defects found 21–25 October
+
+- **The drain has no deadline.** After a window closes the Duck drains the running tasks with no time limit. In volii_li6_1 one exact 36×36 rank with entries near
+  10⁵⁷ held the drain for 49 minutes until the lead stopped the run (`./sam duck stop`), which labels the run STOPPED_INCOMPLETE, queued tasks DEFERRED and the running
+  task INTERRUPTED. Logged as a Duck defect (ideas file); the process remedy proposed to the owner is three briefing lines: a size rule for exact tasks (depth ≤ 3,
+  operands ≲ 10¹², else modular ranks or the host), a late-window rule (nothing heavy in the last three minutes), and the lead's drain clock (stop five minutes after
+  close, recorded as an operator stop). Awaiting Sean Brady's agreement; the code is untouched.
+- **Source words.** `GEN3_SOURCE_OPERATOR_WORD` takes exactly the fields name, source_binding, context, data (operators, program, output) and refuses any other
+  ("Supply exactly the source operation fields"); the output must carry the declared basis row count ("Word output basis differs"). Products of rational matrices are
+  certified enclosures of width about 2⁻¹²⁶, not exact; identities are read by `interval_contains`. Ranks of rational matrices are exact integers.
+- **Recipes.** Matrices inside a recipe are limited to 512 entries; larger objects go as single operations.
+- **Peers' host tools.** sympy's `.rank()` on a 36-dimensional span with entries near 10¹¹ did not finish in thirty minutes; exact Fraction elimination finishes in
+  seconds. `pkill -f <script>` matches the shell that issues it; use `pgrep` and kill by pid. Both are process notes, not engine defects.
+- **Lead slips, recorded as such.** Framing-table numbers typed rather than computed (voli_ceiling_5; the rule now: compute every framing number and host-check every
+  framing identity before hashing); a briefing that claimed width-zero products (volii_li6_1; corrected after the offline precheck).
+- **Closed since the edition.** The 2.3.3 and 2.3.4 fields close Chapter VII.2's note that controls must be read by status: a control now names the status, the reason
+  or the failing check it expects, and the ledger counts the rest against the run.
+
+## Chapter X continued — lessons 11–18
+
+11. **The verification form** (adopted 21 October, spin_verify_1): everything given, separate code, predictions first. A result stands when two implementations
+    written from the rules alone agree to the enclosure width and the lead's pre-registered predictions are scored, failures included, in the report.
+12. **Weights first** (rh_transition_3 to the window addenda): the receiver's weights decide the sign of a change before the arithmetic does. The first line of any
+    chart is what it weights; a prediction is a prediction of a receiver's reading.
+13. **Compute every framing number** (voli_ceiling_5). A number typed into a framing table is a number the peers will inherit; host-check every identity before the
+    preregistration hash.
+14. **A control's declared check must be reachable** before any step that could raise (voli_ceiling_3 and after); a control that breaks earlier is right for the wrong
+    reason, and 2.3.4 now labels it AGAINST_DECLARATION.
+15. **Supersedes is for first attempts**, never for a control, and must name the latest failed attempt (2.3.3; the ceilings).
+16. **Precheck openings offline** through the core's own adapter before deploying; a refused opening in the window costs the peers minutes and the lead a slip
+    (volii_li6_1's word payload, found offline).
+17. **Admit on your own controller; keep a running task count; read the board before duplicating.** The briefing lines that cut the duplicated submissions of the
+    matter runs to zero.
+18. **Size exact tasks for the window** (proposed after volii_li6_1, awaiting the owner): depth, operand size and timing rules in the briefing rather than a change
+    to the drain.
+
+## Chapter XI — status at 25 October 2026
+
+**Installed.** Duck 2.3.5, IRONCLAD-R32, core 0.11.3 beside 0.11.2, 0.11.1, 0.11.0 and the sealed 0.10.2 (`active_core/`, never modified); SLC-GEN5-R1; 182 tests OK at the
+install; `./sam verify` PASS; history entries through H002783 (2,373 index rows); rollback target `duck-2.3.4` verified; research peers on the Opus model by default. The
+Google Cloud replica ironclad-c3d-20261022 is STOPPED; session stores are archived to Google Drive by SHA manifest and removed locally. Nothing is deployed; nothing is
+pending that the owner has not been told, except his decision on the three process lines above.
+
+**What changed in the method since the edition.** Controls declare what they expect in three ways and a peer can supersede its own failed attempt; the verification
+form is standard for reproductions; the recipe libraries (staircase, front, identities, gate faces) are admitted at the start of a run and consumed by `$result`;
+runs are prepared from the owner's words and the volumes' own chapters as material, never as keys; the lead triages every outcome after the close and writes its own
+slips first.
+
+**What this part does not claim** is unchanged from the edition of 20 October: no engine result is a physical result; within-run agreement between Claude instances is
+not independence; the engine decides none of the volumes' open joins (the lapse, Γ, the floor, the count, the connector action, the common energy map, the all-scale
+bound), and every run report names the construction each would need.
+
+Directed by Sean Brady. Executed with Claude Code.
