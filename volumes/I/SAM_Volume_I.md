@@ -127,6 +127,19 @@ identifier.
 
 2
 
+[Addition, 2026-10-25] Contents of the trimmed edition (25 October 2026)
+
+| Part | Contents | Pages of the source PDF |
+|---|---|---|
+| Front matter | title page, original contents, this contents block and the edition note | 1–3 |
+| Part 1 — Substrate and accumulation | Chapters I–VI: I Original Write histories and an interacting source-field action; II Retention, accumulation, and the finite ledger; III The spherical accumulation kernel and the source-to-field interface; IV Clocks, signals, and calibrated observation; V Strong fields and the approach to unit accumulation; VI Quantum routes, shared fields and retained physical records | 4–180 |
+| Part 2 — Extensions the program is working on | VII Horizon thermodynamics and accessible information; VIII Cosmic inventory and the Hubble cascade; IX Thermal history, recombination and CMB structure; XI Carrier radiation and ringdown dynamics; XII Cosmological fate and the completed boundary (its §6 and §9–19 labelled as retired targets) | 181–207, 217–234 |
+| Appendix A — Evidence, closures and remaining physical assignments | the closing review, unchanged | 235–240 |
+| Appendix B — Retired targets | preface; Chapter X Many-source accumulation and galaxy halos, moved whole | 208–216 |
+| Received results and drafted sections | the October 2026 sections, unchanged | — |
+
+[Addition, 2026-10-25] Edition note. The edition of 25 October 2026 is a reordering of this living text with no change of text: whole blocks move, nothing inside a block is edited, nothing is deleted, and chapter numbers are unchanged. The chapters of Part 2 each carry a premise beyond Part 1; the status line under each chapter's title names it, with the register entry (`TARGETS_REGISTER_20261023.md`) that owns it. Appendix B holds retired targets with their text preserved in full. The source PDF (sha256 698b2316…, 240 pages) and the git history hold the original order; the trim plan is `TRIM_PLAN_20261025.md`.
+
 <!-- page 3 -->
 
 SAM Volume I | Substrate and Accumulation
@@ -171,6 +184,9 @@ and conservation, causal horizons and future evolution. Solved examples expose w
 require an additional physical law. This is a fuller working manuscript for scientific review, with no imposed chapter page limit.
 
 3
+
+
+[Addition, 2026-10-25] Part 1 — Substrate and accumulation (Chapters I–VI)
 
 <!-- page 4 -->
 
@@ -27223,6 +27239,9 @@ a constant form domain, Mathematics 10 (2022), 218. Theorem
 .11063.
 180
 
+
+[Addition, 2026-10-25] Part 2 — Extensions the program is working on (Chapters VII–IX, XI–XII)
+
 <!-- page 181 -->
 
 SAM Volume I | Chapter VII
@@ -27237,6 +27256,8 @@ Sean Brady
 Originator and conceptual director
 Research development with OpenAI ChatGPT and Codex
 Unified expanded edition | 19 October 2026
+
+[Addition, 2026-10-25] Part 2. This chapter adds to Part 1 the thermal premise: a static metric, a normalized Killing time, the Hawking conversion and the quarter-area entry convention (register T-13). The finite-entry staircase and its Catalan series are exact conditional mathematics; the entry convention is declared, not derived. Runs that touch it: volii_gate_1 (H002782; the hazard-as-temperature reading, received-results section).
 
 Abstract. The completed boundary connects exterior geometry, finite thermodynamics, and accessible records. This chapter
 derives the surface gravity and first law under the explicitly inherited metric, temperature, and quarter-area premises; develops
@@ -28569,6 +28590,8 @@ Originator and conceptual director
 Research development with OpenAI ChatGPT and Codex
 Unified expanded edition | 19 October 2026
 
+[Addition, 2026-10-25] Part 2. This chapter adds the inventory premise: the floor A_0 = 1/(12π), the weight and the count d̂ = 3 (T-01, T-02, T-05), from which Ω_m = 1/π and the Hubble cascade follow as identities. The drafted ceiling section of 24 October belongs with this chapter. Runs: voli_ceiling_1–5 (H002776–H002778, H002780, H002781): four exact languages for the road, the lawfulness gate, one chart for the floored reservoir and the line of sight, the exponent as a count of directions; no run derived the floor, the weight or the count.
+
 Abstract. The selected SAM inventory is developed as a reproducible chain from dimensionless container assignments to
 physical baryon density and a conditional Hubble constant. The clean and effective matter ledgers are kept separate, the baryonic
 allocation and abundance exponent are identified as unresolved physical selections, and the horizon projection’s dimensional
@@ -29744,6 +29767,8 @@ Originator and conceptual director
 Research development with OpenAI ChatGPT and Codex
 Unified expanded edition | 19 October 2026
 
+[Addition, 2026-10-25] Part 2. This chapter adds the recombination premise and the two rulers (the drag ruler and the sound-horizon ruler) under one background ledger; its receiver lesson, that the ruler is chosen before the comparison is made, is the volume's clearest statement of the receiver thread. The native recombination lane and the external full-shape lane answer different questions and stay separate. No run has touched this chapter; the register's T-06 belongs to it.
+
 Abstract. This chapter expands the thermal-history and microwave-background test of the selected SAM inventory. It separates
 internally implemented hydrogen transport from the standard-physics full-spectrum lane, derives the optical-depth and acoustic
 bookkeeping, preserves the reported numerical receipts, and corrects their evidential interpretation. The remaining obligations
@@ -30879,1280 +30904,8 @@ CR001c, CR035A, CR035A2, CR036, CR036B, CR037A–C,
 and CR038. Their reported results are preserved as documentary claims, with the missing execution evidence and outstanding tests stated above.
 207
 
-<!-- page 208 -->
 
-SAM Volume I | Chapter X
-
-Brady | Unified expanded edition
-
-SAM VOLUME I
-
-Many-source accumulation and galaxy halos
-Chapter X
-Sean Brady
-Originator and conceptual director
-Research development with OpenAI ChatGPT and Codex
-Unified expanded edition | 19 October 2026
-
-Abstract. This chapter develops the many-source accumulation account of galaxy support. It preserves the reported SPARC
-results while separating potential lifts, radial force, and geometry-dependent mass inference. The proposed coordinate 10/π is
-analyzed as a population identification, with explicit treatment of selection history, uncertainty, and the algebraic dependence of
-the mass-ratio statistic. A radial organization law and an untouched-sample test remain necessary for a predictive halo theory.
-The reported support deficit, radial randomization results, and outer mass assignment are preserved with their original receipt
-identifiers. New derivations expose which results share the same underlying statistic, quantify the approximate resolution of the
-population median, and constrain admissible radial profiles through density positivity. Disk geometry, stellar mass-to-light ratios,
-correlated observational uncertainties, and the distinction between measured-radius and virial masses are treated explicitly. The
-constituent interpretation is kept separate from the gravitational support measurement. No SPARC replay or new halo-formation
-simulation is claimed; the chapter ends with a prospective protocol and falsifiable requirements for a completed organization
-law.
-
-1. Inventory is not a halo profile
-
-2. The many-source field and the force readout
-
-A cosmic inventory specifies how much of a component exists
-on average. A rotation curve specifies the radial gravitational
-support required in one galaxy. Connecting them requires a
-distribution law. The identity Ωc = Ωm − Ωb cannot, by itself,
-determine a halo radius, a central density, a concentration, or
-the relation between a halo and its baryonic disk. This chapter
-develops the original many-source accumulation proposal while
-making that missing dynamical step explicit.
-The empirical starting point is the supplied chapter’s analysis
-of SPARC, a public compilation of 175 late-type galaxies with
-infrared photometry and resolved rotation curves [X.1]. The reported campaign finds a large baryonic support deficit, a radial
-rise in a dimensionless support ratio, and an outer population
-centre near 10/π. It also reports a near-unity median for masses
-assigned with that coordinate. These results are preserved as
-historical receipts. The underlying galaxy tables, cuts, randomization code, and profile parameters were not supplied with this
-expansion; no independent SPARC reanalysis is claimed.
-Three questions must remain distinct. Does a support deficit
-exist under the adopted stellar population and geometry assumptions? Does the selected ratio summarize its population centre?
-Does a substrate transport law predict the radial profile and its
-galaxy-to-galaxy variation? The first two are empirical or phenomenological questions addressed by the retained campaign.
-The third is the outstanding physical closure. Identifying these
-levels prevents a successful descriptive coordinate from being
-presented as a completed theory of galaxy formation.
-The symbol X∞ is retained for continuity with the original
-draft, but its present empirical meaning is an outer-sample
-coordinate. It has not been established as the mathematical
-limit r → ∞ of each galaxy. This distinction becomes essential
-when considering finite baryonic mass and approximately flat
-rotation curves.
-
-2.1 Linear lifts and their continuum limit
-The weak-field proposal adds source lifts,
-ρ(x′ ) 3 ′
-d x.
-|x − x′ |
-(1)
-The second expression assumes a continuum density for which
-the integral is defined, with an appropriate boundary or background subtraction. An infinite homogeneous universe cannot
-be inserted into an isolated-system potential integral without
-specifying that subtraction. For the present galaxy calculation
-the kernel is an isolated weak-field adapter, not a derivation of
-cosmological boundary conditions.
-Under the Newtonian identification Φ = −c2 Alift /2, circular
-motion in an axisymmetric midplane obeys
-2GMi
-,
-Alift (x) = ∑ 2
-c
-|x − xi |
-i
-
-Vc2 (R) = R
-
-Alift (x) =
-
-2G
-c2
-
-Z
-
-∂ Φ(R, 0)
-c2 R ∂ Alift (R, 0)
-=−
-.
-∂R
-2
-∂R
-
-(2)
-
-This equation exposes an important distinction obscured by
-calling every accumulation quantity simply A. Circular support
-is determined by a derivative of the potential-like lift. It is not
-generally the value of that lift. A useful dimensionless force
-account is therefore
-Acirc (R) ≡
-
-2Vc2 (R)
-= −R ∂R Alift (R, 0).
-c2
-
-(3)
-
-For a point mass, the derivative restores the familiar
-2GM/(c2 R), so the two expressions coincide. That special
-coincidence must not be generalized without checking the mass
-geometry.
-
-208
-
-<!-- page 209 -->
-
-SAM Volume I | Chapter X
-
-Brady | Unified expanded edition
-
-2.2 A spherical identity and its proof
-
-mass, not the full exclusion rule or the identities and reasons
-for the two omissions.
-The quantity fsupp is exactly a fraction of modeled circular
-support. It is a physical enclosed mass fraction only when the
-conversion from speed to mass is valid for both components in
-the stated geometry. In a disk-plus-spherical-halo model, the
-2 /G is generally
-halo mass rVh2 /G can be meaningful, while rVbar
-an equivalent spherical baryonic mass rather than the true disk
-mass inside r. This distinction does not invalidate the support
-ratio; it prevents a geometrical overinterpretation.
-
-For a spherical density with finite exterior potential, the lift can
-be written
-
-
-Z ∞
-2G M(< r)
-+
-4πr′ ρ(r′ ) dr′ .
-(4)
-Alift (r) = 2
-c
-r
-r
-Differentiate the bracket. The derivative of M/r contains
-M ′ /r − M/r2 . Since M ′ = 4πr2 ρ, the derivative of the exteriorshell integral cancels the M ′ /r term. Consequently,
-Acirc (r) =
-
-2GM(< r)
-,
-c2 r
-
-Vc2 (r) =
-
-GM(< r)
-.
-r
-
-(5)
-
-4. The reported deficit and the clustering requirement
-
-This proves the original cumulative support reading under spherical symmetry and the Newtonian adapter. It also shows why
-exterior shells may contribute to the lift while contributing no
-radial force. The enclosed account in Eq. (5) is a force-derived
-quantity, not the full potential in Eq. (4).
-The superposition law is linear in prescribed source density.
-It does not determine that density. A linear Green function
-supplies the response to a source; a halo-formation law must
-explain the source’s distribution, its conservation, and its equilibrium or time evolution. This is the central dependency
-of the chapter. Summing known baryonic lifts cannot create
-an unspecified nonbaryonic component merely by changing
-notation.
-
-The original campaign reports three successive results.
-CR022@08 finds nonzero many-source accumulation wherever
-matter is present. CR024@08 uses 175 galaxies and 3,391
-measured points and finds a median outer support fraction
-0.760699. Its bounded post-Big-Bang compact or trappedfield subchannel supplies only 2.58% of the residual in that
-account. CR025@08 introduces a clustered profile and reports
-a median rotation-curve RMS falling from 40.95 to 3.63 km s−1 ,
-with median overdensity about 7.9 × 104 relative to the cosmic
-dark-component mean.
-These are distinct conclusions. The bounded subchannel
-result excludes that specific allocation as a sufficient explanation within its assumptions; it does not exclude every possible
-post-formation mechanism. The improved RMS shows that
-the chosen clustered profile can supply the missing support;
-without its explicit parameters, priors, and fitting procedure,
-it does not establish parameter-free predictive accuracy. The
-profile itself must be published before the improvement can be
-compared fairly with alternative halo descriptions.
-A simple calculation explains why a homogeneous cosmic
-component is insufficient on galactic scales under ordinary
-gravity. If its density is ρ̄c = Ωc ρcrit , then
-
-3. What the rotation-curve decomposition measures
-Let Vobs denote the inferred circular speed after the observational analysis, and let the baryonic model supply gas, disk, and
-bulge contributions. With consistent force signs,
-2
-2
-2
-2
-Vbar
-= Vgas
-+ ϒd Vdisk
-+ ϒbVbulge
-,
-2
-2
-Vh2 = Vobs
-−Vbar
-,
-
-V2
-X = 2h ,
-Vbar
-
-(6)
-fsupp =
-
-X
-.
-1+X
-
-(7)
-
-Mc (< r) =
-
-Here ϒd and ϒb are stellar mass-to-light ratios at the specified
-observing band. The original convention is ϒd = 0.5 at 3.6 µm.
-It does not print a numerical bulge value, so the expanded
-chapter does not invent one. That value, including treatment of
-galaxies without bulges, belongs in the campaign manifest.
-The squared-component notation conventionally means a
-signed contribution to radial force. In regions where a component’s geometry produces an outward radial contribution,
-the tabulated signed convention must be respected; squaring a
-signed speed without restoring its force sign is incorrect. The
-total baryonic radial acceleration must be positive where X is
-interpreted as the ratio in Eq. (7).
-A negative residual Vh2 can arise from measurement uncertainty, an inappropriate stellar normalization, noncircular motion, or model inadequacy. It should not be silently clipped to
-zero and then omitted from logarithmic statistics. The analysis
-must specify its handling before examining the desired median.
-The difference between the original 175-galaxy sample and the
-173-galaxy mass-ratio sample is therefore part of the result: the
-supplied text states only that 173 have nonzero measured halo
-
-4π
-ρ̄c r3 ,
-3
-
-Vc2 (r) =
-r
-Ωc
-Vc = H0 r
-.
-2
-
-Ωc H02 r2
-,
-2
-
-(8)
-
-This is a local spherical estimate, not a treatment of a homogeneous background as an isolated bound halo. For illustrative
-values H0 = 67.25 km s−1 Mpc−1 , Ωc = 0.27, and r = 20 kpc,
-it yields about 0.49 km s−1 . The assumptions and arithmetic,
-rather than a new galaxy observation, establish the scale mismatch. Raising the contribution to galactic speeds requires a
-substantial overdensity, an altered force law, or both.
-If the model retains the weak-field kernel, clustering is therefore necessary. It is not sufficient: an arbitrarily chosen clustered density can fit many curves. The scientific question is
-whether the source observables and a common physical law
-select the required density before the rotation speeds are used
-to determine it.
-
-209
-
-<!-- page 210 -->
-
-Brady | Unified expanded edition
-
-(a) Residual support fraction
-
-1.0
-
-(b) Corresponding speed ratio
-Speed ratio Vobs/Vbar = √ 1 + X
-
-Support fraction fsupp = X/(1 + X)
-
-SAM Volume I | Chapter X
-
-0.8
-0.6
-X = 10/π
-fsupp ≃ 0.76094
-
-0.4
-0.2
-0.0
-0
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-3.0
-
-2.5
-
-2.0
-
-√
-
-1.5
-
-1 + 10/π ≃ 2.0453
-
-1.0
-0
-
-Halo-to-baryon support ratio X
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-Halo-to-baryon support ratio X
-
-Illustrative algebra only: no galaxy measurements or radial profile are plotted.
-2 , for positive baryonic support and nonnegative
-Figure 1: Illustrative algebra of the halo-to-baryon circular-support coordinate, X = Vh2 /Vbar
-√
-residual support. (a) The residual fraction is fsupp = X/(1 + X). (b) The corresponding speed ratio is Vobs /Vbar = 1 + X. The marked
-count-selected coordinate 10/π maps to fsupp ≃ 0.76094 and a speed ratio of approximately 2.0453. No galaxy data, empirical scatter, radial
-profile or fitted trend is shown. A support fraction is an enclosed mass fraction only under the geometry assumptions needed for that conversion.
-
-5. Radial organization and the reported permutation tests
-
-lish a particular physical mechanism, or compare SAM with
-a realistic galaxy-formation model. Observed radii are not exchangeable under many physically motivated alternatives, so a
-shuffle that destroys a general galaxy trend is not a complete
-competing theory. The two p values should not be multiplied as
-though independent: both are derived from the same galaxies
-and related support measurements.
-Normalized radius also introduces selection effects. Rout is
-the last measured radius, determined partly by sensitivity, gas
-extent, angular resolution, inclination, and data quality. It is
-not necessarily a common multiple of a physical halo radius. A
-trend in r/Rout should be checked beside trends in disk scale
-lengths, absolute radius, and baryonic acceleration. Those
-checks can distinguish a universal physical organization from
-an alignment enhanced by the observing window.
-
-CR031 and its appeal CR031b compute X(r) at measured radii
-and bin the result in u = r/Rout . The retained summary reports
-a median rising from baryon-dominated interiors toward an
-outer value near 3.12, an inner-to-outer change +1.971, and a
-logarithmic-spread contraction 0.218. The exact spread definition and binning rule need to accompany a reproduction; a
-change in a logarithmic width is not necessarily a change in an
-ordinary standard deviation.
-Two null families, each with 1,000 seeded trials, are reported. Within-galaxy radial shuffles remove the original ordering
-of support values in each galaxy. Galaxy-randomized normalized radii remove the original cross-galaxy radial alignment.
-No randomized trial reaches the canonical statistic. With the
-conventional plus-one Monte Carlo correction,
-pb =
-
-b+1
-1
-=
-,
-B + 1 1001
-
-b = 0, B = 1000.
-
-6. The coordinate 10/π and its actual precision
-The proposed outer coordinate is
-
-(9)
-
-12 − 2 10
-X∞ = (R − b
-h)Ωm =
-=
-= 3.18309886 . . . , (10)
-π
-π
-where R is the radix and b
-h the binary arity. Under the supportfraction mapping,
-
-This is the finite-randomization reporting floor, not proof that
-the underlying tail probability equals exactly 1/1001. A Monte
-Carlo estimate also has sampling uncertainty. Valid calibration
-requires exchangeability under the proposed null and a statistic
-fixed before inspecting the randomized results.
-The original CR031 used a binary kill-fraction score and
-returned BOUNDARY; CR031b rescored the same trials using
-a continuous statistic. Preserving both is appropriate. The
-revised statistic can reveal information discarded by a binary
-score, but a statistic chosen after looking at results requires its
-selection history to be disclosed. A new independent validation
-should freeze that statistic before generating its null ensemble.
-These tests address radial structure under specified randomizations. They do not test the numerical identity 10/π, estab-
-
-f∞ =
-
-X∞
-10
-=
-= 0.76094278 . . . .
-1 + X∞
-π + 10
-
-(11)
-
-The campaign reports an empirical plateau 3.18 in CR025 and
-a binned median 3.12 in CR031b. Its raw outer support-fraction
-median is 0.760699. These numbers are compatible at the
-resolution of the sample, but they are not one interchangeable
-estimator: a binned median, a raw galaxy median, and a fitted
-plateau can weight the data differently.
-CR033 calculated the coordinate from the substrate atoms
-behind a file guard excluding earlier branch results. The source
-210
-
-<!-- page 211 -->
-
-SAM Volume I | Chapter X
-
-Brady | Unified expanded edition
-
-also states that the identity was proposed after the empirical
-plateau had been measured. The guard establishes a restricted
-execution dependency; it cannot make the earlier human or programmatic selection prospective. The appropriate description
-is a structural identification of a known empirical centre. The
-phrase “no continuous per-galaxy adjustment” is defensible for
-the later evaluation; “no selection freedom” is not.
-The closing review correctly emphasizes statistical resolution.
-Suppose, only as an approximation, that independent galaxy
-values of y = log10 X are Gaussian with standard deviation
-s = 0.38 dex and sample size n = 173. The asymptotic variance
-of a sample median is 1/[4np(y0 )2 ]. Inserting the Gaussian
-density at its centre gives
-r
-π s
-√ ≃ 0.0362 dex.
-SE(e
-y) ≃
-(12)
-2 n
-
-odd sample with positive values and the usual order-statistic
-median, monotonic inversion implies
- 
-X∞
-X∞
-med
-.
-(16)
-=
-Xi
-med(Xi )
-The proof is simply that sorting positive Xi reverses their order
-under inversion, leaving the middle index in the middle. Thus
-a near-unity median mass ratio on the same selected sample is
-principally a restatement of agreement with its outer supportratio median. It is a useful consistency check and a way to
-express the scale in mass units, but not an independent prediction of 173 halo masses.
-For even samples, interpolated medians require care because
-averaging and nonlinear transformation need not commute.
-Nonpositive residuals and different weighting conventions also
-break the simple statement. These are reasons to publish the
-estimator, not reasons to disregard the cancellation. A genuinely independent mass test could use a different gravitational
-observable with its own geometry and errors, or a prospective
-rotation-curve sample untouched during selector construction.
-For the draft’s illustrative galaxy, Vbar = 100 km s−1 at Rout =
-−1
-20 kpc, with G = 4.30091 × 10−6 kpc (km s−1 )2 M⊙
-, the equiv10
-alent baryonic mass is 4.65 × 10 M⊙ . Equation (14) gives
-1.48 × 1011 M⊙ , and the associated speed is
-p
-Vpred = Vbar 1 + X∞ ≃ 204.5 km s−1 .
-(17)
-
-A linearized fractional uncertainty is ln(10) SE(e
-y) ≃ 8.3%; converting one positive logarithmic standard error exactly gives
-about 8.7%. These are two conventions for the same approximate scale, not conflicting uncertainty estimates.
-Differentiating f = X/(1 + X) with respect to y gives
-df
-X
-= ln(10)
-,
-dy
-(1 + X)2
-
-SE( fe) ≃ 0.0152.
-
-(13)
-
-The review rounds this scale to about 0.016. The numerical
-difference between 0.760943 and 0.760699 is only about 0.016
-of the linearized standard error. Four-decimal agreement therefore carries no four-decimal evidential precision. Moreover,
-the calculation assumes independent Gaussian log scatter; a
-galaxy bootstrap, measurement-error model, and systematic
-uncertainties are needed for a defensible interval. The formula
-is a diagnostic, not a replacement for that analysis.
-
-These are arithmetic consequences of the assumed coordinate
-and illustrative inputs. They are not an additional observed
-galaxy or a native dynamical run.
-
-8. Disk geometry and stellar-population sensitivity
-A thin exponential disk makes the spherical approximation’s
-limitation explicit. For surface density Σ(R) = Σ0 e−R/Rd , its
-mass inside cylindrical radius R is
-
-7. The mass-placement result and its dependence
-on the plateau
-
-Md (< R) = 2πΣ0 R2d [1 − e−u (1 + u)],
-
-For a spherical halo, the selected coordinate supplies an outer
-mass assignment,
-Mh,pred (< Rout ) =
-
-2 (R )
-Rout X∞Vbar
-out
-.
-G
-
-2 −V 2 ]
-Rout [Vobs
-bar
-,
-G
-
-Mh,pred
-X∞
-=
-.
-Mh,obs
-X(Rout )
-
-(18)
-
-The midplane speed is instead given by the disk Green function;
-for the ideal exponential disk [X.3],
-
-(14)
-
-Vd2 = 4πGΣ0 Rd y2 [I0 (y)K0 (y) − I1 (y)K1 (y)],
-
-y = R/(2Rd ).
-(19)
-The modified Bessel functions encode the force from material
-both inside and outside the cylindrical radius. Define qd =
-RVd2 /[GMd (< R)]. Equation (19) does not reduce to qd = 1 at
-every radius. Therefore a spherical “baryonic mass” inferred
-from the disk speed is radius-dependent relative to the actual
-disk mass.
-The correct comparison does not require abandoning the support ratio. It requires retaining the disk force computed from
-photometry and using a separately stated halo geometry when
-turning the residual into halo mass. A finite-thickness disk,
-gas distribution, and bulge add their own kernels. Using SPARC’s disk-based component speeds is already different from
-assuming a spherical baryon distribution; an additional geometry correction must not double-count the correction contained
-in those components.
-
-The original results for the 173-galaxy subset are a median
-predicted/measured ratio 0.9983 for the empirical value 3.18
-(CR032), and 0.99928 for 10/π (CR033), evaluated against a
-reported precommitted ±12% tolerance. The reported scatter is
-approximately 0.38 dex. That scatter is a factor 100.38 ≃ 2.40
-multiplicatively, far larger than the difference of the median
-from unity.
-The following algebra determines what independent information this test contains. If the measured halo mass uses the same
-outer speed residual and spherical conversion,
-Mh,obs =
-
-u = R/Rd .
-
-(15)
-
-The radius, gravitational constant, and baryonic speed normalization cancel except through the already-defined X. For an
-211
-
-<!-- page 212 -->
-
-SAM Volume I | Chapter X
-
-Brady | Unified expanded edition
-
-For example, the spherical equilibrium identity d(ρσr2 )/dr +
-2β ρσr2 /r = −ρ dΦ/dr would introduce a velocity-dispersion
-profile and an anisotropy β . It is a possible bookkeeping framework, not a SAM-derived closure. Unless those additional
-functions are supplied by a physical law or constrained independently, writing the equilibrium equation merely relocates the
-freedom. The same caution applies to a diffusion equation with
-an unspecified diffusion coefficient or a source term chosen to
-recover the desired profile.
-
-The dependence on stellar mass-to-light ratio can be derived
-2 and D = V 2 , holding
-without a new data run. Write B = Vbar
-disk
-the observed speed and other components fixed. Then
-V2 D
-∂X
-= − obs2 ,
-∂ ϒd
-B
-
-∂ fsupp
-D
-=− 2 .
-∂ ϒd
-Vobs
-
-(20)
-
-Increasing stellar mass lowers the inferred missing support,
-as expected. The effect differs across galaxies because disk,
-gas, and bulge contributions differ. A common ϒd shift is a
-population systematic; it does not average away like independent velocity noise. A required robustness product is therefore
-the median mass ratio and scatter as functions of ϒd , with a
-declared literature-motivated range and bulge policy.
-Distance and inclination also matter. At fixed angular photometry, baryonic model speeds generally scale with adopted distance, whereas inclination affects deprojected observed
-speeds strongly for nearly face-on disks. These uncertainties
-are correlated within a galaxy across radii. Treating thousands
-of radial points as independent measurements of one global
-coordinate would produce an artificially small uncertainty. The
-galaxy, rather than the radial point, is the natural top-level
-resampling unit for a population median.
-
-10. Comparators, constituents, and independent
-constraints
-A fair comparison distinguishes a single population coordinate
-from a full radial model. The NFW family uses a scale density
-and scale radius,
-ρNFW (r) =
-
-ρB (r) =
-
-ρ0
-.
-(1 + r/r0 )[1 + (r/r0 )2 ]
-
-(23)
-
-These are specified profile families [X.4–X.5]; their effective
-freedom depends on which scaling relations or priors are imposed. A numerical comparison must count those assumptions
-alongside stellar mass-to-light ratio, distance, and inclination
-policies. It would be misleading to compare a two-parameter
-full-curve fit with a one-number outer median and report only
-which has fewer named parameters.
-The radial-acceleration relation uses the same physical accel2 /r and g
-2
-erations, gobs = Vobs
-bar = Vbar /r, so
-
-A valid organization law must map source observables and
-stated initial or boundary conditions to X(r) or ρh (r) without
-using the target rotation curve to set an undisclosed profile
-parameter. It must conserve the relevant inventory, explain its
-concentration, allow galaxy diversity, and yield an admissible
-density. Even within the spherical adapter, positivity gives a
-nontrivial constraint:
-
-d 
-1
-2
-rX(r)Vbar
-(r) ≥ 0.
-2
-4πGr dr
-
-(22)
-
-while a cored Burkert family can be written
-
-9. What a radial law must accomplish
-
-ρh (r) =
-
-ρs
-,
-(r/rs )(1 + r/rs )2
-
-X=
-
-(21)
-
-gobs
-− 1.
-gbar
-
-(24)
-
-The empirical relation reported by McGaugh, Lelli, and
-Schombert [X.2] is therefore a direct comparator for radial
-organization, not an unrelated cosmological test. Its commonly
-used interpolation is
-
-An arbitrary smooth rise toward a plateau can violate this condition if the baryonic force falls too rapidly. Smoothness and
-visual agreement are not enough. The derivative condition
-should be checked together with finite enclosed mass and the
-intended outer boundary.
-A constant X at arbitrarily large radii has a particularly clear
-2 ∼
-consequence. Outside a finite baryonic distribution, Vbar
-2
-GMb /r. If X → X∞ < ∞, then Vobs ∼ (1 + X∞ )GMb /r, which
-declines in the Keplerian manner. Conversely, an indefinitely
-flat observed curve with finite baryonic mass would require
-X ∝ r. The two asymptotic statements cannot both hold. This
-proves why the currently observed outer-sample centre should
-not be promoted to an infinite-radius saturation theorem.
-A candidate equilibrium or transport law should state its physical content before presenting a fitted formula. A collisionless
-component needs a phase-space distribution and a dynamical
-equation. A pressure-supported effective medium needs a stress
-relation and stability criteria. A dissipative component needs
-an energy-loss and heating account. A population of compact
-objects needs its formation, mass spectrum, relaxation, and
-accretion assumptions. Calling these alternatives “trapped-A”
-does not choose among them.
-
-gobs =
-
-gbar
-p
-,
-1 − exp[− gbar /g† ]
-
-(25)
-
-with a fitted acceleration
-scale g† . Its low-acceleration behavp
-ior implies X ∼ g† /gbar , rather than a universal constant for
-every outer point. A narrow population centre can still occur
-because a sample has a particular distribution of outer accelerations. Testing this possibility is necessary before interpreting
-the centre as a new universal capacity law.
-The closing review contrasts roughly 0.1 dex scatter for a
-radial-acceleration description with the present 0.38 dex halomass-ratio scatter. These are not automatically commensurate
-residuals: the observables, cuts, weights, and propagated uncertainties differ. The proper response is to evaluate both prescriptions on the same data, in the same residual variable, using
-identical nuisance assumptions and holdout rules. That comparison remains to be performed; the raw scatter contrast alone is
-neither a fair rejection nor a validation.
-212
-
-<!-- page 213 -->
-
-SAM Volume I | Chapter X
-
-Brady | Unified expanded edition
-
-Finally, gravitational support does not identify halo constituents. A viable compact-object account must specify the
-compact fraction, normalized mass function, spatial clustering,
-and the physical meaning of any noncompact trapped component. Microlensing, dynamical heating, accretion emission, and
-cosmological energy injection depend on those quantities [X.6].
-A total halo density without a constituent prescription cannot
-be tested against them. Neither the support plateau nor a population median mass ratio establishes primordial black holes as
-the carrier of the dark inventory.
-Chapter XII must supply the formation epoch and abundance
-for any proposed primordial component. Those results must be
-compatible with the thermal history and light-element tests of
-Chapter IX. No present-day allowed mass interval alone proves
-that the required objects form with the required abundance. In
-particular, an epoch relevant to heavy seeds can interact with
-nucleosynthesis, whereas a much lighter surviving population
-can require physics far earlier than the recombination lane covers. The dependence across chapters is a physical calculation
-still owed, not an interpretive bridge already crossed.
-
-passes, the result validates that population statistic on the tested
-domain, not automatically the constituent model or the whole
-cosmology.
-The immediate completion priorities are therefore concrete:
-publish CR025’s full profile and parameter origins; reproduce
-the support statistics with galaxy-level uncertainties; separate
-force accounts from potential lifts and true masses; test stellar
-and geometric sensitivity; and execute the frozen independent
-comparison. The present chapter supplies a coherent empirical
-coordinate and several analytic checks. The radial dynamical
-law remains the decisive missing ingredient.
-
-12. An inference ledger for the halo claim
-A useful way to organize the remaining work is to track which
-inference each observation can support. The observed line-ofsight velocities, distances, and inclinations first determine a
-kinematic rotation curve. Photometry and gas maps, combined
-with stellar assumptions and geometry, determine the baryonic
-contribution. Subtracting the two yields a residual acceleration.
-Choosing a halo shape converts that acceleration to a density or
-enclosed mass. Choosing a constituent model converts the density to a number of objects or an effective field state. Finally, a
-formation model connects that population to the early-universe
-inventory. Each arrow adds assumptions, and no agreement at
-an earlier arrow eliminates the later ones.
-This ledger is especially important when discussing the
-phrase “the halo is the cosmic inventory, clustered.” Within a model that identifies the residual with nonbaryonic mass
-and retains the standard force law, the phrase is a sensible programmatic statement. It is not a measured identity between
-a local rotation-curve residual and the cosmological density
-fraction. The local baryon retention efficiency, material outside
-the measured radius, halo assembly, and selection of luminous
-disks all intervene. A universal cosmic ratio need not be the
-ratio inside the last observed radius of every galaxy.
-There is also a distinction between an enclosed mass and
-a virial mass. Equation (14) applies only inside Rout under
-the adopted halo geometry. It does not supply a mass at an
-overdensity radius such as R200 . Extrapolating to that radius requires the missing outer profile and a definition of the reference
-density. Any comparison with cosmological mass functions or
-abundance matching must therefore include the extrapolation
-rather than label the measured-radius mass simply “the halo
-mass.”
-A model with a correct population centre but unmodeled
-scatter can still be useful. It provides a baseline against which
-to ask whether residuals correlate with independent observables.
-If a concentration relation is later proposed to explain those
-residuals, it should be fitted on a training subset, frozen, and
-tested elsewhere. Repeatedly explaining the same residuals with
-new structural expressions would accumulate discrete model
-flexibility even if no continuous parameter appears in the final
-printed formula.
-The most valuable next result would not be another decimal
-place in the median. It would be a demonstrated map from
-a galaxy’s baryonic surface-density profile and specified for-
-
-11. A prospective test with explicit stopping rules
-The proposed CR034 test should freeze 10/π, the stellar conventions, geometry, sample cuts, statistic, and uncertainty procedure before opening a genuinely untouched sample. A different
-survey name is insufficient if many of its galaxies or rotation
-measurements already occur in SPARC. Cross-matching objects and data provenance is part of protecting the holdout.
-Candidate surveys named in the original draft include THINGS,
-LITTLE THINGS, and PROBES; no claim is made here that
-any particular subset is untouched.
-The primary observable should be specified in advance. For
-an outer-support test, use one defined outer estimator per galaxy
-and retain failed or nonpositive residual cases under a declared
-rule. The primary statistic can be the median log10 [X∞ /Xout ],
-but a median alone can conceal broad or systematic failure.
-Secondary diagnostics should include scatter, coverage, and
-residual trends with surface brightness, gas fraction, mass, scale
-length, outer acceleration, and radial extent. These diagnostics
-test whether a common centre is hiding distinct populations.
-Measurement uncertainty should propagate by drawing correlated galaxy-level nuisance variables and velocity uncertainties,
-then recomputing the full estimator. Population uncertainty can
-be estimated by resampling galaxies. Shared photometric or
-stellar-population systematics require separate perturbations
-rather than independent draws for each point. The final interval
-should state which of these sources is included. The historical
-±12% criterion can be retained as a declared centre tolerance,
-but it must not be confused with a claim that individual halo
-masses are predicted to twelve percent.
-A minimal failure rule is that the frozen coordinate falls outside the prespecified population interval or exhibits a prespecified systematic residual that the claimed universality forbids. A
-stronger radial-law claim must also predict the curve shape and
-its scatter without fitting hidden galaxy-specific parameters. If
-the holdout fails, selecting a new simple constant creates a new
-hypothesis; it does not rescue the original prospective test. If it
-213
-
-<!-- page 214 -->
-
-SAM Volume I | Chapter X
-
-Brady | Unified expanded edition
-
-For Σ = Σ0 e−R/Rd , the transform is
-
-mation information to its entire residual acceleration profile,
-together with an uncertainty distribution. Such a result would
-explain why galaxies with very different interiors exhibit the
-reported aggregate trend, state where the trend should fail, and
-distinguish a physical organization law from a convenient normalization. The present analytic identities identify exactly what
-that map must respect.
-
-S(k) =
-
-The distinction between a potential-like lift and circular support
-can be developed directly for a disk. Take an axisymmetric
-surface density Σ(R′ ) confined to the plane z = 0, with finite
-total mass. At a point (R, z), the Newtonian potential is
-Z ∞
-
-R′ dR′ Σ(R′ )
-
-0
-
-Z 2π
-0
-
-′2
-
-2
-
-′
-
-dϕ ′
-√ ,
-s
-
-′
-
-(26)
-
-2
-
-s = R + R − 2RR cos ϕ + z .
-This follows from summing point-source potentials over rings,
-with area element R′ dR′ dϕ ′ . It supplies a concrete many-source
-realization of Eq. (1). Differentiating before taking the midplane limit yields
-Vc2 (R, z) = GR
-
-Z ∞
-
-R′ dR′ Σ(R′ )
-
-Z 2π
-
-R − R′ cos ϕ ′
-
-0
-
-s3/2
-
-0
-
-14. A positive-density radial example with no fitted galaxy data
-
-dϕ ′ . (27)
-
-A complete radial function can be constructed analytically to
-illustrate the constraints on a future organization law. This is
-a conditional example, not a proposed derivation of the SAM
-halo profile. Choose a spherical baryonic model with enclosed
-mass
-
-The radial derivative is the essential operation. Rings outside
-the observation radius do not disappear as spherical shells do.
-In fact, sufficiently interior to an isolated ring, its net in-plane
-pull is outward. An enclosed-mass approximation discards
-precisely this geometrical information.
-For a razor-thin disk the kernel has an integrable potential
-singularity at the source plane, while its differentiated form
-requires careful limiting or principal-value treatment. It is
-unsafe to evaluate a naïve point grid with a source exactly at
-the observation point. A finite-thickness density regularizes the
-local structure physically; a softened numerical kernel changes
-the physical model unless its scale is tied to that thickness and a
-convergence study is provided. These are practical requirements
-for a native many-source computation, not optional numerical
-details.
-An alternative representation separates the vertical dependence through a Hankel transform. Define
-Z ∞
-
-S(k) =
-0
-
-′
-
-′
-
-′
-
-′
-
-R Σ(R )J0 (kR ) dR .
-
-Mb (< r) = Mb
-
-Z ∞
-0
-
-S(k)J0 (kR)e−k|z| dk.
-
-r2
-,
-(r + b)2
-
-2
-Vbar
-(r) =
-
-GMb r
-,
-(r + b)2
-
-b > 0.
-
-(31)
-Now stipulate a support ratio that rises from zero to the selected
-coordinate,
-r
-X(r) = X∞
-.
-(32)
-r+b
-Because both components are spherical in this example, multiplying enclosed baryonic mass by X is legitimate. The halo
-mass and density are
-r3
-,
-(r + b)3
-3X∞ Mb b
-ρh (r) =
-.
-4π(r + b)4
-
-Mh (< r) = X∞ Mb
-
-(28)
-
-(33)
-
-The density follows by differentiating Mh and dividing by 4πr2 .
-It is positive everywhere, finite at the centre, and falls as r−4 at
-large radius. Its total mass is X∞ Mb . Thus a rising support ratio
-with a finite plateau is mathematically compatible with a cored,
-finite-mass spherical halo. That existence statement does not
-select this profile over infinitely many alternatives.
-Several checks are immediate. At r = b, X = X∞ /2 and
-fsupp = X∞ /(2 + X∞ ) ≃ 0.614. At r = 9b, the ratio has reached
-0.9X∞ . The halo half-mass radius is
-
-The axisymmetric solution of the thin-sheet Poisson problem
-can then be written
-Φ(R, z) = −2πG
-
-(30)
-
-It can be obtained by differentiating the Laplace transform of
-J0 with respect to the exponential decay constant. Substitution gives the Bessel-function disk result quoted earlier. This
-route makes clear which assumptions are responsible for that
-result: an infinitesimally thin exponential sheet, a Newtonian
-kernel, and axisymmetry. A different observed surface-density
-profile should be integrated directly rather than forced into an
-exponential solely because the analytic formula is convenient.
-At radii much larger than a finite disk’s extent, the leading
-potential is −GMd /r and the spherical force approximation
-becomes asymptotically valid. Near the disk scale length it
-need not be accurate. A useful geometry audit therefore reports
-the exact-kernel and spherical-equivalent forces as functions
-of radius, then propagates their difference through the same
-support estimator. It does not apply one global correction factor
-to all galaxies and radii.
-
-13. Deriving a finite-disk force kernel
-
-Φ(R, z) = −G
-
-Σ0 R2d
-.
-[1 + (kRd )2 ]3/2
-
-(29)
-
-One verifies the construction by applying the cylindrical Laplacian away from the plane and using the jump of the vertical
-derivative across the sheet. That jump is 4πGΣ, as required by
-integrating Poisson’s equation
-through the disk. Radial differenR
-tiation gives Vc2 = 2πGR kS(k)J1 (kR) dk in the midplane. The
-force and the mass integral are manifestly different transforms
-of the same surface density.
-
-r1/2 =
-214
-
-b
-≃ 3.847b.
-21/3 − 1
-
-(34)
-
-<!-- page 215 -->
-
-SAM Volume I | Chapter X
-
-Brady | Unified expanded edition
-
-These quantities follow from the stipulated profile; they have
-not been measured in SPARC. A real organization theory would
-have to explain why its baryonic scale and halo scale are tied
-as in this example, or predict a different relation and its scatter.
-The halo speed in the example is Vh2 = X∞ GMb r2 /(r + b)3 .
-Its logarithmic derivative is 2/r − 3/(r + b), so it reaches its
-maximum at r = 2b. It then declines, and the total curve eventually becomes Keplerian. The example therefore respects the
-asymptotic argument given earlier. It also demonstrates that a
-plateau in a ratio does not mean a plateau in either component’s
-speed.
-A useful local diagnostic generalizes the calculation. Sup2 ∝ r −p and X ∝ r q . Then
-pose over an interval Vbar
-Mh ∝ r1+q−p ,
-
-ρh ∝ (1 + q − p)rq−p−2 .
-
-points available. Shared mass-to-light-ratio systematics impose
-a floor that increasing n cannot remove.
-A genuine prediction interval should combine intrinsic diversity with measurement uncertainty and uncertainty in any
-population parameters learned from the training set. If the same
-galaxies determine the scatter and assess its coverage, the apparent success is optimistic. A useful held-out report therefore
-freezes the interval rule and counts how many new galaxies fall
-inside it, while also publishing their distribution across mass
-and surface brightness. Correct average coverage can conceal
-systematic undercoverage in one physically important class.
-The outer-radius selection can itself shift the centre. In the
-explicit radial example above, observing a galaxy only to r = b
-yields half the asymptotic support ratio, while reaching 9b
-yields ninety percent. A population with different radial reach
-can therefore have different outer medians even if every galaxy
-obeys the same underlying law. This is a calculable selection
-effect, not evidence of a changing fundamental constant. A
-future test must either predict that effect from the radial law
-or define a common physical radial domain before comparing
-population centres.
-The strongest use of a holdout is consequently two-stage.
-First, predict the selected outer statistic with its observingwindow dependence. Second, predict the radial profile wherever
-data are available, using the same frozen law. Passing the first
-and failing the second would support a useful normalization
-but reject the claim of a complete organization law. Passing
-both with calibrated scatter would provide substantially more
-evidence than another close median on the original sample.
-
-(35)
-
-A positive normalization requires 1 + q − p ≥ 0, with equality
-describing an interval containing no additional halo density. If
-the halo dominates a flat rotation curve, q = p and the density scales as r−2 in this local approximation. If the baryons
-are already in their finite-mass exterior, p = 1, a constant support ratio gives no further halo mass growth. These relations
-are simple but strong filters on any phenomenological radial
-proposal.
-Density recovery from measured curves is also an inverse
-problem. Equation (21) differentiates data, amplifying shortscale noise. Smoothing can stabilize the derivative, but its scale
-and functional restrictions can impose a core or cusp artificially.
-A responsible analysis should forward-predict velocities from a
-nonnegative density representation and compare that with any
-direct inversion. Agreement between these routes is useful;
-treating a noisy derivative as a unique local density is not.
-
-16. A likelihood that respects the galaxy as the
-unit of inference
-A future radial comparison can be organized as a forward velocity model rather than as a fit to noisy subtracted masses. For
-galaxy i, let the model predict
-q
-2
-2
-vmod
-=
-Vbar,i
-(37)
-ij
-j (νi ) +Vh,i j (λ , νi ),
-
-15. Population precision versus individual prediction
-The approximate 0.036 dex error of a population median should
-not be used as the uncertainty of a new galaxy’s halo assignment.
-To see the difference, assume for illustration that independent
-future log mass ratios are normally distributed with centre zero
-and standard deviation 0.38 dex. The central roughly 68%
-interval for an individual ratio is then
-10−0.38 < Mh,pred /Mh,obs < 100.38 ,
-
-where j indexes radii, λ contains the frozen global physical law,
-and νi denotes explicitly declared galaxy nuisance quantities. A
-covariance-weighted residual uses the full within-galaxy matrix,
-not one independent error for every appearance of the same
-distance or inclination. If the observational input is a line-ofsight speed, the inclination projection belongs in the forward
-model before comparison.
-This formulation distinguishes two kinds of freedom. A
-measured distance with an external uncertainty is a nuisance
-input whose uncertainty should propagate. A new halo scale
-chosen to minimize each galaxy’s residual is a model parameter.
-Both may appear in an inference, but they cannot be counted
-in the same way when claiming a parameter-free prediction.
-Fixing a nuisance quantity at a convenient value can also make
-a model appear more precise than the measurements allow.
-The analysis should preserve the observed-velocity space
-wherever possible because subtraction can create unstable ratios.
-2 −V 2 is a small difference
-Near baryonic dominance, Vh2 = Vobs
-bar
-of two larger quantities. Its fractional uncertainty can become
-
-(36)
-
-or approximately 0.417 to 2.399. A roughly 95% interval under
-the same Gaussian assumption is about 0.180 to 5.56. These
-wide intervals are consequences of the stated scatter model,
-not calibrated coverage claims for the actual sample. They
-show why a precisely estimated centre can coexist with limited
-individual predictive power.
-For a fresh sample of n = 100 otherwise identical independent galaxies, the normal-theory standard error of its median
-would be about 0.0476 dex. The centre could therefore be
-tested at a fractional scale near eleven percent even while individual residuals remain much larger. A prospective study
-should choose its sample size based on the centre displacement
-or residual trend it intends to detect, not on the number of radial
-215
-
-<!-- page 216 -->
-
-SAM Volume I | Chapter X
-
-Brady | Unified expanded edition
-
-large even if both speeds are measured accurately. Taking a
-logarithm of that residual excludes zero or negative values and
-introduces a selection boundary. A forward likelihood can
-include those cases without inventing negative physical halo
-masses or silently discarding inconvenient measurements.
-An independent outer-mass observation would test more
-than the median identity, but only if its inference is genuinely
-independent. For example, a tracer-dynamics or lensing mass
-estimate introduces its own anisotropy, projection, or geometry
-assumptions. The right goal is not an assumption-free mass,
-which is rarely available, but a comparison with sufficiently
-different systematics and an explicit common physical model.
-Agreement then supplies information that reexpressing the same
-rotation speed in mass units cannot supply.
-The eventual evidence package should therefore contain the
-forward model, the complete nuisance policy, its training and
-holdout split, residual plots in velocity and support space, and
-calibrated prediction intervals. These objects allow another
-investigator to distinguish a real radial prediction from a flexible
-reconstruction. They also make a negative result useful: the
-location and dependence of the failure can identify whether
-the inventory normalization, radial organization, geometry, or
-constituent interpretation needs revision.
-
-17. Sources and provenance
-[X.1] F. Lelli, S. S. McGaugh, and J. M. Schombert, “SPARC:
-Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves,” Astronomical Journal
-152, 157 (2016), author-hosted paper; SPARC data release.
-[X.2] S. S. McGaugh, F. Lelli, and J. M. Schombert, “The Radial
-Acceleration Relation in Rotationally Supported Galaxies,” Physical Review Letters 117, 201101 (2016), arXiv:1609.05917.
-[X.3] K. C. Freeman, “On the Disks of Spiral and S0 Galaxies,”
-Astrophysical Journal 160, 811 (1970), original paper via
-ADS.
-[X.4] J. F. Navarro, C. S. Frenk, and S. D. M. White, “The Structure of Cold Dark Matter Halos,” Astrophysical Journal
-462, 563 (1996), astro-ph/9508025.
-[X.5] A. Burkert, “The Structure of Dark Matter Haloes in Dwarf
-Galaxies,” Astrophysical Journal Letters 447, L25 (1995),
-astro-ph/9504041.
-[X.6] B. Carr, K. Kohri, Y. Sendouda, and J. Yokoyama, “Constraints on Primordial Black Holes,” arXiv:2002.12778.
-Used to identify required constituent-dependent tests, not
-to assert a newly evaluated allowed window.
-Internal provenance. Original Chapter X and the supplied
-closing review of 19 October 2026. Historical receipts are
-CR022–CR033@08, including CR029b and CR031b. All empirical counts, RMS values, permutation outcomes, and population summaries above are retained reports; the new calculations
-are the explicitly conditional algebra, error-resolution estimates,
-geometry checks, and illustrative dimensional example.
-216
+[Addition, 2026-10-25] Chapter X, Many-source accumulation and galaxy halos (source PDF pages 208–216), has moved whole to Appendix B — Retired targets; its text is unchanged.
 
 <!-- page 217 -->
 
@@ -32168,6 +30921,8 @@ Sean Brady
 Originator and conceptual director
 Research development with OpenAI ChatGPT and Codex
 Unified expanded edition | 19 October 2026
+
+[Addition, 2026-10-25] Part 2. This chapter adds the carrier premise: the released carrier account as a radiation law, the ringdown rationals ω̂_R = 3/8 and γ̂ = 4/45 (T-08) and the radiated-energy ceiling Θ/R² = 1/8 (T-09), the last by the same uniform count-equals-energy weighting Volume II Chapter XVII uses. A boundary law R(ω) is the open operand. No run has touched this chapter.
 
 Abstract. The carrier partition supplies three compact proposals: a radiated-energy ceiling of one eighth of an initial
 source budget, a fundamental frequency coefficient 3/8, and a damping coefficient 4/45. Their arithmetic is exact, but their
@@ -33368,6 +32123,8 @@ Sean Brady
 Originator and conceptual director
 Research development with OpenAI ChatGPT and Codex
 Unified expanded edition | 19 October 2026
+
+[Addition, 2026-10-25] Part 2. Sections 1–5, 7–8 and 20 carry the road law A_los(z) = (1/π)(1 − (1 + z)^(−3)) (T-10), the distinction of equal numbers under different operators, the background adapter and the finite-redshift tests; these are the sections the ceiling runs used (voli_ceiling_1–5), and the road is now one object with the floored reservoir on cosh²φ = e^(ds). Sections 6 and 9–19, the fate coefficient (T-11), the completed Home (T-12) and the crossing postulate (T-14), are retired targets: see Appendix B.
 
 Abstract. The closing chapter brings together two different structures: a line-of-sight accumulation law with saturation 1/π,
 and a matter-inventory assignment with the same numerical value. Their equality is exact within the declared count rules, but a
@@ -35067,6 +33824,1287 @@ physically open are deliberately kept distinct.
 
 
 <!-- living-text addition, 2026-10-22 -->
+
+
+[Addition, 2026-10-25] Appendix B — Retired targets
+
+[Addition, 2026-10-25] The chapters and sections gathered here were written as extensions of Part 1 and are retained in full, in their original words and numbering. They are retired from the body of the volume on Sean Brady's decision of 25 October 2026 because the targets they pursue await their own foundations and are not premises of the program: the halo coordinate X_∞ = 10/π (Chapter X; T-07), the fate coefficient H_∞ = H_0Ω_Λ^(3/2) (Chapter XII §6; T-11), the completed Home re-indexing and recurrence (Chapter XII §9–19; T-12; historical Home rules H000791, H000794–H000797) and the crossing postulate (T-14). The halo work remains of interest and is less connected to the rest of the volume than the other extensions; the SAM Research Project archive holds the SPARC campaign receipts the chapter cites, the Home rule entries, and the register entries that own each target (`TARGETS_REGISTER_20261023.md`). Chapter XII's §6 and §9–19 remain in place in Part 2, labelled by its status line (Option A of the trim plan). Nothing here is withdrawn; a retired target returns to the body when a construction supplies its foundation.
+
+<!-- page 208 -->
+
+SAM Volume I | Chapter X
+
+Brady | Unified expanded edition
+
+SAM VOLUME I
+
+Many-source accumulation and galaxy halos
+Chapter X
+Sean Brady
+Originator and conceptual director
+Research development with OpenAI ChatGPT and Codex
+Unified expanded edition | 19 October 2026
+
+Abstract. This chapter develops the many-source accumulation account of galaxy support. It preserves the reported SPARC
+results while separating potential lifts, radial force, and geometry-dependent mass inference. The proposed coordinate 10/π is
+analyzed as a population identification, with explicit treatment of selection history, uncertainty, and the algebraic dependence of
+the mass-ratio statistic. A radial organization law and an untouched-sample test remain necessary for a predictive halo theory.
+The reported support deficit, radial randomization results, and outer mass assignment are preserved with their original receipt
+identifiers. New derivations expose which results share the same underlying statistic, quantify the approximate resolution of the
+population median, and constrain admissible radial profiles through density positivity. Disk geometry, stellar mass-to-light ratios,
+correlated observational uncertainties, and the distinction between measured-radius and virial masses are treated explicitly. The
+constituent interpretation is kept separate from the gravitational support measurement. No SPARC replay or new halo-formation
+simulation is claimed; the chapter ends with a prospective protocol and falsifiable requirements for a completed organization
+law.
+
+1. Inventory is not a halo profile
+
+2. The many-source field and the force readout
+
+A cosmic inventory specifies how much of a component exists
+on average. A rotation curve specifies the radial gravitational
+support required in one galaxy. Connecting them requires a
+distribution law. The identity Ωc = Ωm − Ωb cannot, by itself,
+determine a halo radius, a central density, a concentration, or
+the relation between a halo and its baryonic disk. This chapter
+develops the original many-source accumulation proposal while
+making that missing dynamical step explicit.
+The empirical starting point is the supplied chapter’s analysis
+of SPARC, a public compilation of 175 late-type galaxies with
+infrared photometry and resolved rotation curves [X.1]. The reported campaign finds a large baryonic support deficit, a radial
+rise in a dimensionless support ratio, and an outer population
+centre near 10/π. It also reports a near-unity median for masses
+assigned with that coordinate. These results are preserved as
+historical receipts. The underlying galaxy tables, cuts, randomization code, and profile parameters were not supplied with this
+expansion; no independent SPARC reanalysis is claimed.
+Three questions must remain distinct. Does a support deficit
+exist under the adopted stellar population and geometry assumptions? Does the selected ratio summarize its population centre?
+Does a substrate transport law predict the radial profile and its
+galaxy-to-galaxy variation? The first two are empirical or phenomenological questions addressed by the retained campaign.
+The third is the outstanding physical closure. Identifying these
+levels prevents a successful descriptive coordinate from being
+presented as a completed theory of galaxy formation.
+The symbol X∞ is retained for continuity with the original
+draft, but its present empirical meaning is an outer-sample
+coordinate. It has not been established as the mathematical
+limit r → ∞ of each galaxy. This distinction becomes essential
+when considering finite baryonic mass and approximately flat
+rotation curves.
+
+2.1 Linear lifts and their continuum limit
+The weak-field proposal adds source lifts,
+ρ(x′ ) 3 ′
+d x.
+|x − x′ |
+(1)
+The second expression assumes a continuum density for which
+the integral is defined, with an appropriate boundary or background subtraction. An infinite homogeneous universe cannot
+be inserted into an isolated-system potential integral without
+specifying that subtraction. For the present galaxy calculation
+the kernel is an isolated weak-field adapter, not a derivation of
+cosmological boundary conditions.
+Under the Newtonian identification Φ = −c2 Alift /2, circular
+motion in an axisymmetric midplane obeys
+2GMi
+,
+Alift (x) = ∑ 2
+c
+|x − xi |
+i
+
+Vc2 (R) = R
+
+Alift (x) =
+
+2G
+c2
+
+Z
+
+∂ Φ(R, 0)
+c2 R ∂ Alift (R, 0)
+=−
+.
+∂R
+2
+∂R
+
+(2)
+
+This equation exposes an important distinction obscured by
+calling every accumulation quantity simply A. Circular support
+is determined by a derivative of the potential-like lift. It is not
+generally the value of that lift. A useful dimensionless force
+account is therefore
+Acirc (R) ≡
+
+2Vc2 (R)
+= −R ∂R Alift (R, 0).
+c2
+
+(3)
+
+For a point mass, the derivative restores the familiar
+2GM/(c2 R), so the two expressions coincide. That special
+coincidence must not be generalized without checking the mass
+geometry.
+
+208
+
+<!-- page 209 -->
+
+SAM Volume I | Chapter X
+
+Brady | Unified expanded edition
+
+2.2 A spherical identity and its proof
+
+mass, not the full exclusion rule or the identities and reasons
+for the two omissions.
+The quantity fsupp is exactly a fraction of modeled circular
+support. It is a physical enclosed mass fraction only when the
+conversion from speed to mass is valid for both components in
+the stated geometry. In a disk-plus-spherical-halo model, the
+2 /G is generally
+halo mass rVh2 /G can be meaningful, while rVbar
+an equivalent spherical baryonic mass rather than the true disk
+mass inside r. This distinction does not invalidate the support
+ratio; it prevents a geometrical overinterpretation.
+
+For a spherical density with finite exterior potential, the lift can
+be written
+
+
+Z ∞
+2G M(< r)
++
+4πr′ ρ(r′ ) dr′ .
+(4)
+Alift (r) = 2
+c
+r
+r
+Differentiate the bracket. The derivative of M/r contains
+M ′ /r − M/r2 . Since M ′ = 4πr2 ρ, the derivative of the exteriorshell integral cancels the M ′ /r term. Consequently,
+Acirc (r) =
+
+2GM(< r)
+,
+c2 r
+
+Vc2 (r) =
+
+GM(< r)
+.
+r
+
+(5)
+
+4. The reported deficit and the clustering requirement
+
+This proves the original cumulative support reading under spherical symmetry and the Newtonian adapter. It also shows why
+exterior shells may contribute to the lift while contributing no
+radial force. The enclosed account in Eq. (5) is a force-derived
+quantity, not the full potential in Eq. (4).
+The superposition law is linear in prescribed source density.
+It does not determine that density. A linear Green function
+supplies the response to a source; a halo-formation law must
+explain the source’s distribution, its conservation, and its equilibrium or time evolution. This is the central dependency
+of the chapter. Summing known baryonic lifts cannot create
+an unspecified nonbaryonic component merely by changing
+notation.
+
+The original campaign reports three successive results.
+CR022@08 finds nonzero many-source accumulation wherever
+matter is present. CR024@08 uses 175 galaxies and 3,391
+measured points and finds a median outer support fraction
+0.760699. Its bounded post-Big-Bang compact or trappedfield subchannel supplies only 2.58% of the residual in that
+account. CR025@08 introduces a clustered profile and reports
+a median rotation-curve RMS falling from 40.95 to 3.63 km s−1 ,
+with median overdensity about 7.9 × 104 relative to the cosmic
+dark-component mean.
+These are distinct conclusions. The bounded subchannel
+result excludes that specific allocation as a sufficient explanation within its assumptions; it does not exclude every possible
+post-formation mechanism. The improved RMS shows that
+the chosen clustered profile can supply the missing support;
+without its explicit parameters, priors, and fitting procedure,
+it does not establish parameter-free predictive accuracy. The
+profile itself must be published before the improvement can be
+compared fairly with alternative halo descriptions.
+A simple calculation explains why a homogeneous cosmic
+component is insufficient on galactic scales under ordinary
+gravity. If its density is ρ̄c = Ωc ρcrit , then
+
+3. What the rotation-curve decomposition measures
+Let Vobs denote the inferred circular speed after the observational analysis, and let the baryonic model supply gas, disk, and
+bulge contributions. With consistent force signs,
+2
+2
+2
+2
+Vbar
+= Vgas
++ ϒd Vdisk
++ ϒbVbulge
+,
+2
+2
+Vh2 = Vobs
+−Vbar
+,
+
+V2
+X = 2h ,
+Vbar
+
+(6)
+fsupp =
+
+X
+.
+1+X
+
+(7)
+
+Mc (< r) =
+
+Here ϒd and ϒb are stellar mass-to-light ratios at the specified
+observing band. The original convention is ϒd = 0.5 at 3.6 µm.
+It does not print a numerical bulge value, so the expanded
+chapter does not invent one. That value, including treatment of
+galaxies without bulges, belongs in the campaign manifest.
+The squared-component notation conventionally means a
+signed contribution to radial force. In regions where a component’s geometry produces an outward radial contribution,
+the tabulated signed convention must be respected; squaring a
+signed speed without restoring its force sign is incorrect. The
+total baryonic radial acceleration must be positive where X is
+interpreted as the ratio in Eq. (7).
+A negative residual Vh2 can arise from measurement uncertainty, an inappropriate stellar normalization, noncircular motion, or model inadequacy. It should not be silently clipped to
+zero and then omitted from logarithmic statistics. The analysis
+must specify its handling before examining the desired median.
+The difference between the original 175-galaxy sample and the
+173-galaxy mass-ratio sample is therefore part of the result: the
+supplied text states only that 173 have nonzero measured halo
+
+4π
+ρ̄c r3 ,
+3
+
+Vc2 (r) =
+r
+Ωc
+Vc = H0 r
+.
+2
+
+Ωc H02 r2
+,
+2
+
+(8)
+
+This is a local spherical estimate, not a treatment of a homogeneous background as an isolated bound halo. For illustrative
+values H0 = 67.25 km s−1 Mpc−1 , Ωc = 0.27, and r = 20 kpc,
+it yields about 0.49 km s−1 . The assumptions and arithmetic,
+rather than a new galaxy observation, establish the scale mismatch. Raising the contribution to galactic speeds requires a
+substantial overdensity, an altered force law, or both.
+If the model retains the weak-field kernel, clustering is therefore necessary. It is not sufficient: an arbitrarily chosen clustered density can fit many curves. The scientific question is
+whether the source observables and a common physical law
+select the required density before the rotation speeds are used
+to determine it.
+
+209
+
+<!-- page 210 -->
+
+Brady | Unified expanded edition
+
+(a) Residual support fraction
+
+1.0
+
+(b) Corresponding speed ratio
+Speed ratio Vobs/Vbar = √ 1 + X
+
+Support fraction fsupp = X/(1 + X)
+
+SAM Volume I | Chapter X
+
+0.8
+0.6
+X = 10/π
+fsupp ≃ 0.76094
+
+0.4
+0.2
+0.0
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+3.0
+
+2.5
+
+2.0
+
+√
+
+1.5
+
+1 + 10/π ≃ 2.0453
+
+1.0
+0
+
+Halo-to-baryon support ratio X
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+Halo-to-baryon support ratio X
+
+Illustrative algebra only: no galaxy measurements or radial profile are plotted.
+2 , for positive baryonic support and nonnegative
+Figure 1: Illustrative algebra of the halo-to-baryon circular-support coordinate, X = Vh2 /Vbar
+√
+residual support. (a) The residual fraction is fsupp = X/(1 + X). (b) The corresponding speed ratio is Vobs /Vbar = 1 + X. The marked
+count-selected coordinate 10/π maps to fsupp ≃ 0.76094 and a speed ratio of approximately 2.0453. No galaxy data, empirical scatter, radial
+profile or fitted trend is shown. A support fraction is an enclosed mass fraction only under the geometry assumptions needed for that conversion.
+
+5. Radial organization and the reported permutation tests
+
+lish a particular physical mechanism, or compare SAM with
+a realistic galaxy-formation model. Observed radii are not exchangeable under many physically motivated alternatives, so a
+shuffle that destroys a general galaxy trend is not a complete
+competing theory. The two p values should not be multiplied as
+though independent: both are derived from the same galaxies
+and related support measurements.
+Normalized radius also introduces selection effects. Rout is
+the last measured radius, determined partly by sensitivity, gas
+extent, angular resolution, inclination, and data quality. It is
+not necessarily a common multiple of a physical halo radius. A
+trend in r/Rout should be checked beside trends in disk scale
+lengths, absolute radius, and baryonic acceleration. Those
+checks can distinguish a universal physical organization from
+an alignment enhanced by the observing window.
+
+CR031 and its appeal CR031b compute X(r) at measured radii
+and bin the result in u = r/Rout . The retained summary reports
+a median rising from baryon-dominated interiors toward an
+outer value near 3.12, an inner-to-outer change +1.971, and a
+logarithmic-spread contraction 0.218. The exact spread definition and binning rule need to accompany a reproduction; a
+change in a logarithmic width is not necessarily a change in an
+ordinary standard deviation.
+Two null families, each with 1,000 seeded trials, are reported. Within-galaxy radial shuffles remove the original ordering
+of support values in each galaxy. Galaxy-randomized normalized radii remove the original cross-galaxy radial alignment.
+No randomized trial reaches the canonical statistic. With the
+conventional plus-one Monte Carlo correction,
+pb =
+
+b+1
+1
+=
+,
+B + 1 1001
+
+b = 0, B = 1000.
+
+6. The coordinate 10/π and its actual precision
+The proposed outer coordinate is
+
+(9)
+
+12 − 2 10
+X∞ = (R − b
+h)Ωm =
+=
+= 3.18309886 . . . , (10)
+π
+π
+where R is the radix and b
+h the binary arity. Under the supportfraction mapping,
+
+This is the finite-randomization reporting floor, not proof that
+the underlying tail probability equals exactly 1/1001. A Monte
+Carlo estimate also has sampling uncertainty. Valid calibration
+requires exchangeability under the proposed null and a statistic
+fixed before inspecting the randomized results.
+The original CR031 used a binary kill-fraction score and
+returned BOUNDARY; CR031b rescored the same trials using
+a continuous statistic. Preserving both is appropriate. The
+revised statistic can reveal information discarded by a binary
+score, but a statistic chosen after looking at results requires its
+selection history to be disclosed. A new independent validation
+should freeze that statistic before generating its null ensemble.
+These tests address radial structure under specified randomizations. They do not test the numerical identity 10/π, estab-
+
+f∞ =
+
+X∞
+10
+=
+= 0.76094278 . . . .
+1 + X∞
+π + 10
+
+(11)
+
+The campaign reports an empirical plateau 3.18 in CR025 and
+a binned median 3.12 in CR031b. Its raw outer support-fraction
+median is 0.760699. These numbers are compatible at the
+resolution of the sample, but they are not one interchangeable
+estimator: a binned median, a raw galaxy median, and a fitted
+plateau can weight the data differently.
+CR033 calculated the coordinate from the substrate atoms
+behind a file guard excluding earlier branch results. The source
+210
+
+<!-- page 211 -->
+
+SAM Volume I | Chapter X
+
+Brady | Unified expanded edition
+
+also states that the identity was proposed after the empirical
+plateau had been measured. The guard establishes a restricted
+execution dependency; it cannot make the earlier human or programmatic selection prospective. The appropriate description
+is a structural identification of a known empirical centre. The
+phrase “no continuous per-galaxy adjustment” is defensible for
+the later evaluation; “no selection freedom” is not.
+The closing review correctly emphasizes statistical resolution.
+Suppose, only as an approximation, that independent galaxy
+values of y = log10 X are Gaussian with standard deviation
+s = 0.38 dex and sample size n = 173. The asymptotic variance
+of a sample median is 1/[4np(y0 )2 ]. Inserting the Gaussian
+density at its centre gives
+r
+π s
+√ ≃ 0.0362 dex.
+SE(e
+y) ≃
+(12)
+2 n
+
+odd sample with positive values and the usual order-statistic
+median, monotonic inversion implies
+ 
+X∞
+X∞
+med
+.
+(16)
+=
+Xi
+med(Xi )
+The proof is simply that sorting positive Xi reverses their order
+under inversion, leaving the middle index in the middle. Thus
+a near-unity median mass ratio on the same selected sample is
+principally a restatement of agreement with its outer supportratio median. It is a useful consistency check and a way to
+express the scale in mass units, but not an independent prediction of 173 halo masses.
+For even samples, interpolated medians require care because
+averaging and nonlinear transformation need not commute.
+Nonpositive residuals and different weighting conventions also
+break the simple statement. These are reasons to publish the
+estimator, not reasons to disregard the cancellation. A genuinely independent mass test could use a different gravitational
+observable with its own geometry and errors, or a prospective
+rotation-curve sample untouched during selector construction.
+For the draft’s illustrative galaxy, Vbar = 100 km s−1 at Rout =
+−1
+20 kpc, with G = 4.30091 × 10−6 kpc (km s−1 )2 M⊙
+, the equiv10
+alent baryonic mass is 4.65 × 10 M⊙ . Equation (14) gives
+1.48 × 1011 M⊙ , and the associated speed is
+p
+Vpred = Vbar 1 + X∞ ≃ 204.5 km s−1 .
+(17)
+
+A linearized fractional uncertainty is ln(10) SE(e
+y) ≃ 8.3%; converting one positive logarithmic standard error exactly gives
+about 8.7%. These are two conventions for the same approximate scale, not conflicting uncertainty estimates.
+Differentiating f = X/(1 + X) with respect to y gives
+df
+X
+= ln(10)
+,
+dy
+(1 + X)2
+
+SE( fe) ≃ 0.0152.
+
+(13)
+
+The review rounds this scale to about 0.016. The numerical
+difference between 0.760943 and 0.760699 is only about 0.016
+of the linearized standard error. Four-decimal agreement therefore carries no four-decimal evidential precision. Moreover,
+the calculation assumes independent Gaussian log scatter; a
+galaxy bootstrap, measurement-error model, and systematic
+uncertainties are needed for a defensible interval. The formula
+is a diagnostic, not a replacement for that analysis.
+
+These are arithmetic consequences of the assumed coordinate
+and illustrative inputs. They are not an additional observed
+galaxy or a native dynamical run.
+
+8. Disk geometry and stellar-population sensitivity
+A thin exponential disk makes the spherical approximation’s
+limitation explicit. For surface density Σ(R) = Σ0 e−R/Rd , its
+mass inside cylindrical radius R is
+
+7. The mass-placement result and its dependence
+on the plateau
+
+Md (< R) = 2πΣ0 R2d [1 − e−u (1 + u)],
+
+For a spherical halo, the selected coordinate supplies an outer
+mass assignment,
+Mh,pred (< Rout ) =
+
+2 (R )
+Rout X∞Vbar
+out
+.
+G
+
+2 −V 2 ]
+Rout [Vobs
+bar
+,
+G
+
+Mh,pred
+X∞
+=
+.
+Mh,obs
+X(Rout )
+
+(18)
+
+The midplane speed is instead given by the disk Green function;
+for the ideal exponential disk [X.3],
+
+(14)
+
+Vd2 = 4πGΣ0 Rd y2 [I0 (y)K0 (y) − I1 (y)K1 (y)],
+
+y = R/(2Rd ).
+(19)
+The modified Bessel functions encode the force from material
+both inside and outside the cylindrical radius. Define qd =
+RVd2 /[GMd (< R)]. Equation (19) does not reduce to qd = 1 at
+every radius. Therefore a spherical “baryonic mass” inferred
+from the disk speed is radius-dependent relative to the actual
+disk mass.
+The correct comparison does not require abandoning the support ratio. It requires retaining the disk force computed from
+photometry and using a separately stated halo geometry when
+turning the residual into halo mass. A finite-thickness disk,
+gas distribution, and bulge add their own kernels. Using SPARC’s disk-based component speeds is already different from
+assuming a spherical baryon distribution; an additional geometry correction must not double-count the correction contained
+in those components.
+
+The original results for the 173-galaxy subset are a median
+predicted/measured ratio 0.9983 for the empirical value 3.18
+(CR032), and 0.99928 for 10/π (CR033), evaluated against a
+reported precommitted ±12% tolerance. The reported scatter is
+approximately 0.38 dex. That scatter is a factor 100.38 ≃ 2.40
+multiplicatively, far larger than the difference of the median
+from unity.
+The following algebra determines what independent information this test contains. If the measured halo mass uses the same
+outer speed residual and spherical conversion,
+Mh,obs =
+
+u = R/Rd .
+
+(15)
+
+The radius, gravitational constant, and baryonic speed normalization cancel except through the already-defined X. For an
+211
+
+<!-- page 212 -->
+
+SAM Volume I | Chapter X
+
+Brady | Unified expanded edition
+
+For example, the spherical equilibrium identity d(ρσr2 )/dr +
+2β ρσr2 /r = −ρ dΦ/dr would introduce a velocity-dispersion
+profile and an anisotropy β . It is a possible bookkeeping framework, not a SAM-derived closure. Unless those additional
+functions are supplied by a physical law or constrained independently, writing the equilibrium equation merely relocates the
+freedom. The same caution applies to a diffusion equation with
+an unspecified diffusion coefficient or a source term chosen to
+recover the desired profile.
+
+The dependence on stellar mass-to-light ratio can be derived
+2 and D = V 2 , holding
+without a new data run. Write B = Vbar
+disk
+the observed speed and other components fixed. Then
+V2 D
+∂X
+= − obs2 ,
+∂ ϒd
+B
+
+∂ fsupp
+D
+=− 2 .
+∂ ϒd
+Vobs
+
+(20)
+
+Increasing stellar mass lowers the inferred missing support,
+as expected. The effect differs across galaxies because disk,
+gas, and bulge contributions differ. A common ϒd shift is a
+population systematic; it does not average away like independent velocity noise. A required robustness product is therefore
+the median mass ratio and scatter as functions of ϒd , with a
+declared literature-motivated range and bulge policy.
+Distance and inclination also matter. At fixed angular photometry, baryonic model speeds generally scale with adopted distance, whereas inclination affects deprojected observed
+speeds strongly for nearly face-on disks. These uncertainties
+are correlated within a galaxy across radii. Treating thousands
+of radial points as independent measurements of one global
+coordinate would produce an artificially small uncertainty. The
+galaxy, rather than the radial point, is the natural top-level
+resampling unit for a population median.
+
+10. Comparators, constituents, and independent
+constraints
+A fair comparison distinguishes a single population coordinate
+from a full radial model. The NFW family uses a scale density
+and scale radius,
+ρNFW (r) =
+
+ρB (r) =
+
+ρ0
+.
+(1 + r/r0 )[1 + (r/r0 )2 ]
+
+(23)
+
+These are specified profile families [X.4–X.5]; their effective
+freedom depends on which scaling relations or priors are imposed. A numerical comparison must count those assumptions
+alongside stellar mass-to-light ratio, distance, and inclination
+policies. It would be misleading to compare a two-parameter
+full-curve fit with a one-number outer median and report only
+which has fewer named parameters.
+The radial-acceleration relation uses the same physical accel2 /r and g
+2
+erations, gobs = Vobs
+bar = Vbar /r, so
+
+A valid organization law must map source observables and
+stated initial or boundary conditions to X(r) or ρh (r) without
+using the target rotation curve to set an undisclosed profile
+parameter. It must conserve the relevant inventory, explain its
+concentration, allow galaxy diversity, and yield an admissible
+density. Even within the spherical adapter, positivity gives a
+nontrivial constraint:
+
+d 
+1
+2
+rX(r)Vbar
+(r) ≥ 0.
+2
+4πGr dr
+
+(22)
+
+while a cored Burkert family can be written
+
+9. What a radial law must accomplish
+
+ρh (r) =
+
+ρs
+,
+(r/rs )(1 + r/rs )2
+
+X=
+
+(21)
+
+gobs
+− 1.
+gbar
+
+(24)
+
+The empirical relation reported by McGaugh, Lelli, and
+Schombert [X.2] is therefore a direct comparator for radial
+organization, not an unrelated cosmological test. Its commonly
+used interpolation is
+
+An arbitrary smooth rise toward a plateau can violate this condition if the baryonic force falls too rapidly. Smoothness and
+visual agreement are not enough. The derivative condition
+should be checked together with finite enclosed mass and the
+intended outer boundary.
+A constant X at arbitrarily large radii has a particularly clear
+2 ∼
+consequence. Outside a finite baryonic distribution, Vbar
+2
+GMb /r. If X → X∞ < ∞, then Vobs ∼ (1 + X∞ )GMb /r, which
+declines in the Keplerian manner. Conversely, an indefinitely
+flat observed curve with finite baryonic mass would require
+X ∝ r. The two asymptotic statements cannot both hold. This
+proves why the currently observed outer-sample centre should
+not be promoted to an infinite-radius saturation theorem.
+A candidate equilibrium or transport law should state its physical content before presenting a fitted formula. A collisionless
+component needs a phase-space distribution and a dynamical
+equation. A pressure-supported effective medium needs a stress
+relation and stability criteria. A dissipative component needs
+an energy-loss and heating account. A population of compact
+objects needs its formation, mass spectrum, relaxation, and
+accretion assumptions. Calling these alternatives “trapped-A”
+does not choose among them.
+
+gobs =
+
+gbar
+p
+,
+1 − exp[− gbar /g† ]
+
+(25)
+
+with a fitted acceleration
+scale g† . Its low-acceleration behavp
+ior implies X ∼ g† /gbar , rather than a universal constant for
+every outer point. A narrow population centre can still occur
+because a sample has a particular distribution of outer accelerations. Testing this possibility is necessary before interpreting
+the centre as a new universal capacity law.
+The closing review contrasts roughly 0.1 dex scatter for a
+radial-acceleration description with the present 0.38 dex halomass-ratio scatter. These are not automatically commensurate
+residuals: the observables, cuts, weights, and propagated uncertainties differ. The proper response is to evaluate both prescriptions on the same data, in the same residual variable, using
+identical nuisance assumptions and holdout rules. That comparison remains to be performed; the raw scatter contrast alone is
+neither a fair rejection nor a validation.
+212
+
+<!-- page 213 -->
+
+SAM Volume I | Chapter X
+
+Brady | Unified expanded edition
+
+Finally, gravitational support does not identify halo constituents. A viable compact-object account must specify the
+compact fraction, normalized mass function, spatial clustering,
+and the physical meaning of any noncompact trapped component. Microlensing, dynamical heating, accretion emission, and
+cosmological energy injection depend on those quantities [X.6].
+A total halo density without a constituent prescription cannot
+be tested against them. Neither the support plateau nor a population median mass ratio establishes primordial black holes as
+the carrier of the dark inventory.
+Chapter XII must supply the formation epoch and abundance
+for any proposed primordial component. Those results must be
+compatible with the thermal history and light-element tests of
+Chapter IX. No present-day allowed mass interval alone proves
+that the required objects form with the required abundance. In
+particular, an epoch relevant to heavy seeds can interact with
+nucleosynthesis, whereas a much lighter surviving population
+can require physics far earlier than the recombination lane covers. The dependence across chapters is a physical calculation
+still owed, not an interpretive bridge already crossed.
+
+passes, the result validates that population statistic on the tested
+domain, not automatically the constituent model or the whole
+cosmology.
+The immediate completion priorities are therefore concrete:
+publish CR025’s full profile and parameter origins; reproduce
+the support statistics with galaxy-level uncertainties; separate
+force accounts from potential lifts and true masses; test stellar
+and geometric sensitivity; and execute the frozen independent
+comparison. The present chapter supplies a coherent empirical
+coordinate and several analytic checks. The radial dynamical
+law remains the decisive missing ingredient.
+
+12. An inference ledger for the halo claim
+A useful way to organize the remaining work is to track which
+inference each observation can support. The observed line-ofsight velocities, distances, and inclinations first determine a
+kinematic rotation curve. Photometry and gas maps, combined
+with stellar assumptions and geometry, determine the baryonic
+contribution. Subtracting the two yields a residual acceleration.
+Choosing a halo shape converts that acceleration to a density or
+enclosed mass. Choosing a constituent model converts the density to a number of objects or an effective field state. Finally, a
+formation model connects that population to the early-universe
+inventory. Each arrow adds assumptions, and no agreement at
+an earlier arrow eliminates the later ones.
+This ledger is especially important when discussing the
+phrase “the halo is the cosmic inventory, clustered.” Within a model that identifies the residual with nonbaryonic mass
+and retains the standard force law, the phrase is a sensible programmatic statement. It is not a measured identity between
+a local rotation-curve residual and the cosmological density
+fraction. The local baryon retention efficiency, material outside
+the measured radius, halo assembly, and selection of luminous
+disks all intervene. A universal cosmic ratio need not be the
+ratio inside the last observed radius of every galaxy.
+There is also a distinction between an enclosed mass and
+a virial mass. Equation (14) applies only inside Rout under
+the adopted halo geometry. It does not supply a mass at an
+overdensity radius such as R200 . Extrapolating to that radius requires the missing outer profile and a definition of the reference
+density. Any comparison with cosmological mass functions or
+abundance matching must therefore include the extrapolation
+rather than label the measured-radius mass simply “the halo
+mass.”
+A model with a correct population centre but unmodeled
+scatter can still be useful. It provides a baseline against which
+to ask whether residuals correlate with independent observables.
+If a concentration relation is later proposed to explain those
+residuals, it should be fitted on a training subset, frozen, and
+tested elsewhere. Repeatedly explaining the same residuals with
+new structural expressions would accumulate discrete model
+flexibility even if no continuous parameter appears in the final
+printed formula.
+The most valuable next result would not be another decimal
+place in the median. It would be a demonstrated map from
+a galaxy’s baryonic surface-density profile and specified for-
+
+11. A prospective test with explicit stopping rules
+The proposed CR034 test should freeze 10/π, the stellar conventions, geometry, sample cuts, statistic, and uncertainty procedure before opening a genuinely untouched sample. A different
+survey name is insufficient if many of its galaxies or rotation
+measurements already occur in SPARC. Cross-matching objects and data provenance is part of protecting the holdout.
+Candidate surveys named in the original draft include THINGS,
+LITTLE THINGS, and PROBES; no claim is made here that
+any particular subset is untouched.
+The primary observable should be specified in advance. For
+an outer-support test, use one defined outer estimator per galaxy
+and retain failed or nonpositive residual cases under a declared
+rule. The primary statistic can be the median log10 [X∞ /Xout ],
+but a median alone can conceal broad or systematic failure.
+Secondary diagnostics should include scatter, coverage, and
+residual trends with surface brightness, gas fraction, mass, scale
+length, outer acceleration, and radial extent. These diagnostics
+test whether a common centre is hiding distinct populations.
+Measurement uncertainty should propagate by drawing correlated galaxy-level nuisance variables and velocity uncertainties,
+then recomputing the full estimator. Population uncertainty can
+be estimated by resampling galaxies. Shared photometric or
+stellar-population systematics require separate perturbations
+rather than independent draws for each point. The final interval
+should state which of these sources is included. The historical
+±12% criterion can be retained as a declared centre tolerance,
+but it must not be confused with a claim that individual halo
+masses are predicted to twelve percent.
+A minimal failure rule is that the frozen coordinate falls outside the prespecified population interval or exhibits a prespecified systematic residual that the claimed universality forbids. A
+stronger radial-law claim must also predict the curve shape and
+its scatter without fitting hidden galaxy-specific parameters. If
+the holdout fails, selecting a new simple constant creates a new
+hypothesis; it does not rescue the original prospective test. If it
+213
+
+<!-- page 214 -->
+
+SAM Volume I | Chapter X
+
+Brady | Unified expanded edition
+
+For Σ = Σ0 e−R/Rd , the transform is
+
+mation information to its entire residual acceleration profile,
+together with an uncertainty distribution. Such a result would
+explain why galaxies with very different interiors exhibit the
+reported aggregate trend, state where the trend should fail, and
+distinguish a physical organization law from a convenient normalization. The present analytic identities identify exactly what
+that map must respect.
+
+S(k) =
+
+The distinction between a potential-like lift and circular support
+can be developed directly for a disk. Take an axisymmetric
+surface density Σ(R′ ) confined to the plane z = 0, with finite
+total mass. At a point (R, z), the Newtonian potential is
+Z ∞
+
+R′ dR′ Σ(R′ )
+
+0
+
+Z 2π
+0
+
+′2
+
+2
+
+′
+
+dϕ ′
+√ ,
+s
+
+′
+
+(26)
+
+2
+
+s = R + R − 2RR cos ϕ + z .
+This follows from summing point-source potentials over rings,
+with area element R′ dR′ dϕ ′ . It supplies a concrete many-source
+realization of Eq. (1). Differentiating before taking the midplane limit yields
+Vc2 (R, z) = GR
+
+Z ∞
+
+R′ dR′ Σ(R′ )
+
+Z 2π
+
+R − R′ cos ϕ ′
+
+0
+
+s3/2
+
+0
+
+14. A positive-density radial example with no fitted galaxy data
+
+dϕ ′ . (27)
+
+A complete radial function can be constructed analytically to
+illustrate the constraints on a future organization law. This is
+a conditional example, not a proposed derivation of the SAM
+halo profile. Choose a spherical baryonic model with enclosed
+mass
+
+The radial derivative is the essential operation. Rings outside
+the observation radius do not disappear as spherical shells do.
+In fact, sufficiently interior to an isolated ring, its net in-plane
+pull is outward. An enclosed-mass approximation discards
+precisely this geometrical information.
+For a razor-thin disk the kernel has an integrable potential
+singularity at the source plane, while its differentiated form
+requires careful limiting or principal-value treatment. It is
+unsafe to evaluate a naïve point grid with a source exactly at
+the observation point. A finite-thickness density regularizes the
+local structure physically; a softened numerical kernel changes
+the physical model unless its scale is tied to that thickness and a
+convergence study is provided. These are practical requirements
+for a native many-source computation, not optional numerical
+details.
+An alternative representation separates the vertical dependence through a Hankel transform. Define
+Z ∞
+
+S(k) =
+0
+
+′
+
+′
+
+′
+
+′
+
+R Σ(R )J0 (kR ) dR .
+
+Mb (< r) = Mb
+
+Z ∞
+0
+
+S(k)J0 (kR)e−k|z| dk.
+
+r2
+,
+(r + b)2
+
+2
+Vbar
+(r) =
+
+GMb r
+,
+(r + b)2
+
+b > 0.
+
+(31)
+Now stipulate a support ratio that rises from zero to the selected
+coordinate,
+r
+X(r) = X∞
+.
+(32)
+r+b
+Because both components are spherical in this example, multiplying enclosed baryonic mass by X is legitimate. The halo
+mass and density are
+r3
+,
+(r + b)3
+3X∞ Mb b
+ρh (r) =
+.
+4π(r + b)4
+
+Mh (< r) = X∞ Mb
+
+(28)
+
+(33)
+
+The density follows by differentiating Mh and dividing by 4πr2 .
+It is positive everywhere, finite at the centre, and falls as r−4 at
+large radius. Its total mass is X∞ Mb . Thus a rising support ratio
+with a finite plateau is mathematically compatible with a cored,
+finite-mass spherical halo. That existence statement does not
+select this profile over infinitely many alternatives.
+Several checks are immediate. At r = b, X = X∞ /2 and
+fsupp = X∞ /(2 + X∞ ) ≃ 0.614. At r = 9b, the ratio has reached
+0.9X∞ . The halo half-mass radius is
+
+The axisymmetric solution of the thin-sheet Poisson problem
+can then be written
+Φ(R, z) = −2πG
+
+(30)
+
+It can be obtained by differentiating the Laplace transform of
+J0 with respect to the exponential decay constant. Substitution gives the Bessel-function disk result quoted earlier. This
+route makes clear which assumptions are responsible for that
+result: an infinitesimally thin exponential sheet, a Newtonian
+kernel, and axisymmetry. A different observed surface-density
+profile should be integrated directly rather than forced into an
+exponential solely because the analytic formula is convenient.
+At radii much larger than a finite disk’s extent, the leading
+potential is −GMd /r and the spherical force approximation
+becomes asymptotically valid. Near the disk scale length it
+need not be accurate. A useful geometry audit therefore reports
+the exact-kernel and spherical-equivalent forces as functions
+of radius, then propagates their difference through the same
+support estimator. It does not apply one global correction factor
+to all galaxies and radii.
+
+13. Deriving a finite-disk force kernel
+
+Φ(R, z) = −G
+
+Σ0 R2d
+.
+[1 + (kRd )2 ]3/2
+
+(29)
+
+One verifies the construction by applying the cylindrical Laplacian away from the plane and using the jump of the vertical
+derivative across the sheet. That jump is 4πGΣ, as required by
+integrating Poisson’s equation
+through the disk. Radial differenR
+tiation gives Vc2 = 2πGR kS(k)J1 (kR) dk in the midplane. The
+force and the mass integral are manifestly different transforms
+of the same surface density.
+
+r1/2 =
+214
+
+b
+≃ 3.847b.
+21/3 − 1
+
+(34)
+
+<!-- page 215 -->
+
+SAM Volume I | Chapter X
+
+Brady | Unified expanded edition
+
+These quantities follow from the stipulated profile; they have
+not been measured in SPARC. A real organization theory would
+have to explain why its baryonic scale and halo scale are tied
+as in this example, or predict a different relation and its scatter.
+The halo speed in the example is Vh2 = X∞ GMb r2 /(r + b)3 .
+Its logarithmic derivative is 2/r − 3/(r + b), so it reaches its
+maximum at r = 2b. It then declines, and the total curve eventually becomes Keplerian. The example therefore respects the
+asymptotic argument given earlier. It also demonstrates that a
+plateau in a ratio does not mean a plateau in either component’s
+speed.
+A useful local diagnostic generalizes the calculation. Sup2 ∝ r −p and X ∝ r q . Then
+pose over an interval Vbar
+Mh ∝ r1+q−p ,
+
+ρh ∝ (1 + q − p)rq−p−2 .
+
+points available. Shared mass-to-light-ratio systematics impose
+a floor that increasing n cannot remove.
+A genuine prediction interval should combine intrinsic diversity with measurement uncertainty and uncertainty in any
+population parameters learned from the training set. If the same
+galaxies determine the scatter and assess its coverage, the apparent success is optimistic. A useful held-out report therefore
+freezes the interval rule and counts how many new galaxies fall
+inside it, while also publishing their distribution across mass
+and surface brightness. Correct average coverage can conceal
+systematic undercoverage in one physically important class.
+The outer-radius selection can itself shift the centre. In the
+explicit radial example above, observing a galaxy only to r = b
+yields half the asymptotic support ratio, while reaching 9b
+yields ninety percent. A population with different radial reach
+can therefore have different outer medians even if every galaxy
+obeys the same underlying law. This is a calculable selection
+effect, not evidence of a changing fundamental constant. A
+future test must either predict that effect from the radial law
+or define a common physical radial domain before comparing
+population centres.
+The strongest use of a holdout is consequently two-stage.
+First, predict the selected outer statistic with its observingwindow dependence. Second, predict the radial profile wherever
+data are available, using the same frozen law. Passing the first
+and failing the second would support a useful normalization
+but reject the claim of a complete organization law. Passing
+both with calibrated scatter would provide substantially more
+evidence than another close median on the original sample.
+
+(35)
+
+A positive normalization requires 1 + q − p ≥ 0, with equality
+describing an interval containing no additional halo density. If
+the halo dominates a flat rotation curve, q = p and the density scales as r−2 in this local approximation. If the baryons
+are already in their finite-mass exterior, p = 1, a constant support ratio gives no further halo mass growth. These relations
+are simple but strong filters on any phenomenological radial
+proposal.
+Density recovery from measured curves is also an inverse
+problem. Equation (21) differentiates data, amplifying shortscale noise. Smoothing can stabilize the derivative, but its scale
+and functional restrictions can impose a core or cusp artificially.
+A responsible analysis should forward-predict velocities from a
+nonnegative density representation and compare that with any
+direct inversion. Agreement between these routes is useful;
+treating a noisy derivative as a unique local density is not.
+
+16. A likelihood that respects the galaxy as the
+unit of inference
+A future radial comparison can be organized as a forward velocity model rather than as a fit to noisy subtracted masses. For
+galaxy i, let the model predict
+q
+2
+2
+vmod
+=
+Vbar,i
+(37)
+ij
+j (νi ) +Vh,i j (λ , νi ),
+
+15. Population precision versus individual prediction
+The approximate 0.036 dex error of a population median should
+not be used as the uncertainty of a new galaxy’s halo assignment.
+To see the difference, assume for illustration that independent
+future log mass ratios are normally distributed with centre zero
+and standard deviation 0.38 dex. The central roughly 68%
+interval for an individual ratio is then
+10−0.38 < Mh,pred /Mh,obs < 100.38 ,
+
+where j indexes radii, λ contains the frozen global physical law,
+and νi denotes explicitly declared galaxy nuisance quantities. A
+covariance-weighted residual uses the full within-galaxy matrix,
+not one independent error for every appearance of the same
+distance or inclination. If the observational input is a line-ofsight speed, the inclination projection belongs in the forward
+model before comparison.
+This formulation distinguishes two kinds of freedom. A
+measured distance with an external uncertainty is a nuisance
+input whose uncertainty should propagate. A new halo scale
+chosen to minimize each galaxy’s residual is a model parameter.
+Both may appear in an inference, but they cannot be counted
+in the same way when claiming a parameter-free prediction.
+Fixing a nuisance quantity at a convenient value can also make
+a model appear more precise than the measurements allow.
+The analysis should preserve the observed-velocity space
+wherever possible because subtraction can create unstable ratios.
+2 −V 2 is a small difference
+Near baryonic dominance, Vh2 = Vobs
+bar
+of two larger quantities. Its fractional uncertainty can become
+
+(36)
+
+or approximately 0.417 to 2.399. A roughly 95% interval under
+the same Gaussian assumption is about 0.180 to 5.56. These
+wide intervals are consequences of the stated scatter model,
+not calibrated coverage claims for the actual sample. They
+show why a precisely estimated centre can coexist with limited
+individual predictive power.
+For a fresh sample of n = 100 otherwise identical independent galaxies, the normal-theory standard error of its median
+would be about 0.0476 dex. The centre could therefore be
+tested at a fractional scale near eleven percent even while individual residuals remain much larger. A prospective study
+should choose its sample size based on the centre displacement
+or residual trend it intends to detect, not on the number of radial
+215
+
+<!-- page 216 -->
+
+SAM Volume I | Chapter X
+
+Brady | Unified expanded edition
+
+large even if both speeds are measured accurately. Taking a
+logarithm of that residual excludes zero or negative values and
+introduces a selection boundary. A forward likelihood can
+include those cases without inventing negative physical halo
+masses or silently discarding inconvenient measurements.
+An independent outer-mass observation would test more
+than the median identity, but only if its inference is genuinely
+independent. For example, a tracer-dynamics or lensing mass
+estimate introduces its own anisotropy, projection, or geometry
+assumptions. The right goal is not an assumption-free mass,
+which is rarely available, but a comparison with sufficiently
+different systematics and an explicit common physical model.
+Agreement then supplies information that reexpressing the same
+rotation speed in mass units cannot supply.
+The eventual evidence package should therefore contain the
+forward model, the complete nuisance policy, its training and
+holdout split, residual plots in velocity and support space, and
+calibrated prediction intervals. These objects allow another
+investigator to distinguish a real radial prediction from a flexible
+reconstruction. They also make a negative result useful: the
+location and dependence of the failure can identify whether
+the inventory normalization, radial organization, geometry, or
+constituent interpretation needs revision.
+
+17. Sources and provenance
+[X.1] F. Lelli, S. S. McGaugh, and J. M. Schombert, “SPARC:
+Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves,” Astronomical Journal
+152, 157 (2016), author-hosted paper; SPARC data release.
+[X.2] S. S. McGaugh, F. Lelli, and J. M. Schombert, “The Radial
+Acceleration Relation in Rotationally Supported Galaxies,” Physical Review Letters 117, 201101 (2016), arXiv:1609.05917.
+[X.3] K. C. Freeman, “On the Disks of Spiral and S0 Galaxies,”
+Astrophysical Journal 160, 811 (1970), original paper via
+ADS.
+[X.4] J. F. Navarro, C. S. Frenk, and S. D. M. White, “The Structure of Cold Dark Matter Halos,” Astrophysical Journal
+462, 563 (1996), astro-ph/9508025.
+[X.5] A. Burkert, “The Structure of Dark Matter Haloes in Dwarf
+Galaxies,” Astrophysical Journal Letters 447, L25 (1995),
+astro-ph/9504041.
+[X.6] B. Carr, K. Kohri, Y. Sendouda, and J. Yokoyama, “Constraints on Primordial Black Holes,” arXiv:2002.12778.
+Used to identify required constituent-dependent tests, not
+to assert a newly evaluated allowed window.
+Internal provenance. Original Chapter X and the supplied
+closing review of 19 October 2026. Historical receipts are
+CR022–CR033@08, including CR029b and CR031b. All empirical counts, RMS values, permutation outcomes, and population summaries above are retained reports; the new calculations
+are the explicitly conditional algebra, error-resolution estimates,
+geometry checks, and illustrative dimensional example.
+216
+
 
 # Run results received into Volume I (October 2026, engineering register)
 

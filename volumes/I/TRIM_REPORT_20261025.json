@@ -1,0 +1,28 @@
+{
+  "before_lines": 35403,
+  "checks": {
+    "block_hash_unchanged": true,
+    "line_multiset_unchanged": true,
+    "line_count": 35441,
+    "addition_lines": 38,
+    "page_markers": 240,
+    "page_markers_unique": true
+  },
+  "chapter_X": {
+    "lines": [
+      30882,
+      32156
+    ],
+    "count": 1275,
+    "sha256_16_before": "ba337d35f9bf62d9",
+    "new_first_line": 33833,
+    "sha256_16_after": "ba337d35f9bf62d9"
+  },
+  "additions": {
+    "contents_and_edition_note": 13,
+    "part_headers": 6,
+    "status_lines": 5,
+    "cut_note": 3,
+    "appendix_B_preface_and_header": 5
+  }
+}

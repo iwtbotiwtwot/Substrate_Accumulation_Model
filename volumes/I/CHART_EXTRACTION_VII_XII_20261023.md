@@ -204,3 +204,5 @@ the five smallest cuts and fell at 154 of the rest, so near-uniform weights read
 (photon ruler against drag ruler), X (spherical against disk receiver; outer-radius weighting of the population), XI (count weights assumed equal to energy weights)
 and VIII (unweighted containers against a π-measure) each contain the same unstated step. The first line of any chart extracted from these chapters should be its
 weights.
+
+> Note, 2026-10-25: Chapter X is now in Volume I Appendix B — Retired targets (trim, Option A; `TRIM_PLAN_20261025.md`); Chapter XII's §6 and §9–19 are labelled retired targets in place. Section references in this extraction are unchanged.

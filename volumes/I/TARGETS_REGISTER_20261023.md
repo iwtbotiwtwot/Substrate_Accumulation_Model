@@ -74,6 +74,7 @@ Legend for "status": **grammar** (a declared primitive of the count language; no
 - **Status:** selected. Placement proposal: with the packet appendix (VIII) as its tests.
 
 ### T-07 The halo coordinate X_∞ = (R − ĥ)Ω_m = 10/π
+- **Status note (trim, 2026-10-25, Sean Brady: Option A):** retired target; Chapter X moved whole to Appendix B — Retired targets; text preserved in full; see `TRIM_PLAN_20261025.md`.
 - **Entered:** Chapter X §6 ("proposed after the empirical plateau had been measured").
 - **Opened:** a compact description of the SPARC outer support centre (0.760699 against 10/(π + 10) = 0.76094; the difference is 0.016 of one standard error).
 - **Awaits:** a radial organisation law (X §9: "the decisive missing ingredient"); the median-inversion identity shows the mass-placement test restates this one.
@@ -130,6 +131,7 @@ Legend for "status": **grammar** (a declared primitive of the count language; no
 - **Result note (voli_ceiling_5, 2026-10-24, H002781; status unchanged):** the exponent can be the number of accumulation directions — one field with kinetic metric e^{ΣΛ_i} and three equally stiff accumulations has the installed reservoir as its symmetric solution with per-direction scale factor q^{1/3} (built natively) — but the count is then a declared stiffness ratio d = η_dir/η_tot (unequal stiffnesses give each direction its own exponent). The redshift chart cannot count directions per charge; a clock can (H² = (4α²/3)(1 − (1 + z)^{−3}) against 4α²(1 − (1 + z)^{−1})). The exponent test remains the one place d̂ = 3 is decided.
 
 ### T-11 The fate coefficient H_fit,∞ = H_0Ω_Λ^{3/2}
+- **Status note (trim, 2026-10-25, Sean Brady: Option A):** retired target; Chapter XII §6 labelled a retired target in place (Option A); text preserved in full; see `TRIM_PLAN_20261025.md`.
 - **Entered:** Chapter XII §6.
 - **Opened:** the distinction, now exact in the chapter, between a distance-fit coefficient and a fractional expansion rate (eq. 19: Ḋ/D = H − ḟ/f).
 - **Awaits:** an exchange law Q between the complement and matter; XII §16 proves the same present inventory has different futures for different Q, so Q is the
@@ -139,6 +141,7 @@ Legend for "status": **grammar** (a declared primitive of the count language; no
 - **Status:** retired as stated; target = Q. Sean Brady, 2026-10-23: the fate work is "set as a target to receive its own more mature foundation".
 
 ### T-12 The completed Home: re-indexing A_0 = A_H/(4πD), the recurrence E_{n+1} = E_n + I_n − O_n, custody
+- **Status note (trim, 2026-10-25, Sean Brady: Option A):** retired target; Chapter XII §9–19 labelled retired targets in place (Option A); text preserved in full; see `TRIM_PLAN_20261025.md`.
 - **Entered:** Chapter XII §9–13 (H000791, H000794–H000797); Chapter V's closure; Chapter VII's custody laws.
 - **Opened:** the storage-ledger form itself: receipts counted once, a floor never debited, gross emission with net growth; the custody channel as a CPTP map.
 - **Awaits:** one boundary law R(ω) shared with VII and XI; a quantum instrument for the receipts (XII §12); Chapter V's source law in place of the postulate of
@@ -160,6 +163,7 @@ Legend for "status": **grammar** (a declared primitive of the count language; no
 - **Status:** conditional.
 
 ### T-14 The crossing postulate: "crossing any positive measurable distance has infinite cost"
+- **Status note (trim, 2026-10-25, Sean Brady: Option A):** retired target; labelled a retired target by Chapter XII's status line (Option A); text preserved in full; see `TRIM_PLAN_20261025.md`.
 - **Entered:** Chapter V (closure), used by Chapters VII and XII.
 - **Opened:** the Home's sealing rule and the "road that thickens faster than the square root near A = 1", the one strong-field prediction the closing section
   names, with the ringdown and echo spectrum of XI as its observable.
