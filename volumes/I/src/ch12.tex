@@ -2,7 +2,7 @@
 The closing chapter brings together two different structures: a line-of-sight accumulation law with saturation $1/\pi$, and a matter-inventory assignment with the same numerical value. Their equality is exact within the declared count rules, but a cosmological future requires a time-evolution law and a calibrated observable. We distinguish a distance-fit coefficient from the fractional expansion rate, derive the conditions under which the original $\Omega_\Lambda^{3/2}$ expression is meaningful, and formulate finite-redshift tests. The completed-boundary or Home continuation is then developed as an explicit conditional ledger, with conservation, radius-floor and information-channel requirements. A worked receipt sequence demonstrates growth while emitting, and a differential distance test exposes the assumptions hidden in a simple rate rescaling. The resulting closure program connects the thermal boundary, radiation response and cosmological inventory without treating their common numerical factors as a substitute for dynamics. No transition mechanism or future cosmological solution is claimed to have been established by count identities alone.
 \end{abstract}
 
-\paragraph*{Status, 25 October 2026 (Part 2).} Sections 1--5, 7, 8 and 20 carry the road law $A_{\rm los}(z)=(1/\pi)\,(1-(1+z)^{-3})$ (register T-10), the distinction of equal numbers under different operators, the background adapter and the finite-redshift tests. These are the sections the ceiling runs of 24 October used, and the road is now one object with the floored reservoir on $\cosh^2\varphi=e^{ds}$ (Chapter~VIII, the section ``The $1/\pi$ ceiling as a recurring theme: results of 24 October 2026''). Sections 6 and 9--19, the fate coefficient (T-11), the completed Home (T-12) and the crossing postulate (T-14), are retired targets, retained unchanged in the Supplement.
+\paragraph*{Status, 25 October 2026 (Part 2).} Sections 1--8 carry the road law $A_{\rm los}(z)=(1/\pi)\,(1-(1+z)^{-3})$ (register T-10), the distinction of equal numbers under different operators, the background adapter and the finite-redshift tests. These are the sections the ceiling runs of 24 October used, and the road is now one object with the floored reservoir on $\cosh^2\varphi=e^{ds}$ (Chapter~VIII, the section ``The $1/\pi$ ceiling as a recurring theme: results of 24 October 2026''). Section 6, the fate coefficient (T-11), is an open target that hands forward to the completed Home, which the 25 October edition gives its own chapter: Chapter~XIII (T-12, T-14).
 
 
 \section{The two arcs that meet at the end of the volume}
@@ -130,9 +130,44 @@ The future limit also needs a family of observations. Does the observer follow a
 
 As a mathematical example only, a future variable $B(N)$ with $N=\log a$ could obey $dB/dN=\lambda(B_*-B)$ for $\lambda>0$. Then $B=B_*+[B(0)-B_*]e^{-\lambda N}$, so $B_*$ is an attractor. Choosing $B_*=1/\pi$ reproduces the desired limit but does not derive it. This toy equation identifies the missing tasks: derive the fixed point, the sign and magnitude of its relaxation, the physically allowed interval and the source of any dissipated energy.
 
-\paragraph*{Retired section.} The submitted chapter's Section 6, ``The fate coefficient and the meaning of an expansion rate'', is retired from the body of the volume in the 25 October 2026 edition and is retained unchanged in the Supplement (retired targets); see the register entry T-11. Section numbering is kept so that references to Sections 7 and 8 remain valid.
+\section{The fate coefficient and the meaning of an expansion rate}
+The working draft uses
+\begin{equation}
+ D_{\rm native}=fD_{\rm readout}
+ \label{c12:distancemap}
+\end{equation}
+and proposes multiplication of the background rate by $f_\infty$. There is one clear operational situation where that multiplication is correct. If a separately fixed velocity-like numerator obeys $v=H_{\rm native}D_{\rm native}$ and one fits the same numerator against $D_{\rm readout}$, then
+\begin{equation}
+ H_{\rm fit}\equiv\frac{v}{D_{\rm readout}}
+              =fH_{\rm native}.
+ \label{c12:fitrate}
+\end{equation}
+Assuming additionally that a future observing family has $f_\infty=\Omega_{\Lambda,*}$, and using the radiation-neglecting adapter, this gives the original expression
+\begin{equation}
+ H_{{\rm fit},\infty}=H_0\Omega_{\Lambda,*}^{3/2}
+ =H_0\left(\frac{\pi-1}{\pi}\right)^{3/2}
+ \simeq0.562834H_0.
+ \label{c12:conditionalfate}
+\end{equation}
+This is a conditional distance-fit coefficient. The numerator, clock and calibration must remain fixed exactly as stipulated. At cosmological distances, recession velocity is not generally a directly measured local velocity, so the observation rule cannot be left implicit.
 
-\setcounter{section}{6}
+A fractional expansion rate behaves differently. For a comoving separation $D_{\rm native}=a\chi$ with fixed $\chi$, differentiating \eqref{c12:distancemap} using the same time coordinate yields
+\begin{equation}
+ \frac{\dot D_{\rm readout}}{D_{\rm readout}}
+ =H_{\rm native}-\frac{\dot f}{f}.
+ \label{c12:fractionalrate}
+\end{equation}
+If $f$ approaches a nonzero constant and $\dot f/f\to0$, this rate approaches $H_{\rm native}$, not $f_\infty H_{\rm native}$. A constant rescaling of distance cancels from a logarithmic derivative. This simple identity is essential to the final claim: the original multiplication cannot be described as a future Hubble rate without an operational definition that differs from the usual fractional expansion rate.
+
+Changing the clock would add another factor. If $dt_{\rm readout}=g(t)dt$, then the measured fractional rate becomes $[H_{\rm native}-\dot f/f]/g$. Neither $g$ nor its asymptote follows from a distance fraction. Chapter IV's local invariant light speed is compatible with many coordinate or readout conventions; it does not select one of them. The calibration of clocks, rulers and propagation must be supplied together.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/ch12_distinct_limits.pdf}
+\caption{Two mathematically distinct limits. (a) The declared past-cone road law $A_{\rm los}(z)=\pi^{-1}[1-(1+z)^{-3}]$ approaches $1/\pi$ as redshift increases for a fixed observer. (b) With radiation neglected, $\Omega_m=1/\pi$ and $\Omega_\Lambda=1-1/\pi$, the adopted flat matter--constant-vacuum adapter gives $H_{\rm native}(a)/H_0=\sqrt{\Omega_m a^{-3}+\Omega_\Lambda}$ and tends to $\sqrt{\Omega_\Lambda}$. The lower dotted reference, $\Omega_\Lambda^{3/2}$, is a conditional distance-fit coefficient, not the native fractional-expansion limit; it requires the additional future observing-family and calibration assumptions in the text. Past-cone saturation does not derive a future road limit. These curves are analytic illustrations of declared premises, not observational data or an independently derived SAM future.}
+\label{fig:c12:limits}
+\end{figure*}
+
 \section{Numerical values with an honest uncertainty ledger}
 Using the original clean fractions and the frozen Chapter VIII value $H_{0,\rm SAM}=67.2504\ {\rm km\,s^{-1}\,Mpc^{-1}}$, the native adapter limit is approximately $55.525$ in the same units and the conditional fit coefficient is approximately $37.851$. The original alternatives $H_0=68.76$ and $73.04$ give conditional fit values about $38.700$ and $41.109$. These are rescalings of a selected input, not three independent confirmations of the theory.
 
@@ -179,13 +214,10 @@ The same point appears in a small-redshift expansion. If $q_0$ is the adapter de
 \end{equation}
 The shift is large. It is a falsifiable consequence of this particular uncompensated distance map, not a claim that all possible SAM road operators predict it. A viable alternative must explicitly show which other calibration or geometry factors compensate it; silently canceling the factor would erase the claimed new observable.
 
-\paragraph*{Retired sections.} The submitted chapter's Sections 9--19, from ``A completed Home: retained proposal and conditional closure'' to ``A finite program for deciding the fate proposal'', are retired from the body of the volume in the 25 October 2026 edition and are retained unchanged in the Supplement (retired targets); see the register entries T-12 and T-14. The closing section follows with its original number.
-\setcounter{section}{19}
-
 \section{What the completed volume establishes and what it hands forward}
 The road identities establish a bounded past-cone function and its equality, within the chosen count grammar, to a clean inventory fraction. The standard background adapter gives a conditional native late-time rate. The original $\Omega_\Lambda^{3/2}$ coefficient is retained with the specific distance-fit interpretation that makes its algebra valid; it is not established as the usual fractional expansion rate. The future saturation needed for that coefficient remains a separate dynamical requirement.
 
-The Home recurrence gives a rigorous nonnegative exterior account, a conditional radius floor and a distinction between gross output and net growth. It does not by itself establish an impenetrable surface, a complete evaporation law, a child universe or a source of dark energy. The completed boundary can become a unifying physical object only when one source-selected action supplies those operations with their energy and information costs.
+The Home recurrence, carried in Chapter~XIII, gives a rigorous nonnegative exterior account, a conditional radius floor and a distinction between gross output and net growth. It does not by itself establish an impenetrable surface, a complete evaporation law, a child universe or a source of dark energy. The completed boundary can become a unifying physical object only when one source-selected action supplies those operations with their energy and information costs.
 
 That is the useful ending of Volume I. The early source, clock, field and record constructions have exposed interfaces that the cosmological and boundary proposals must now meet. Volume II's matter and unit calibration can strengthen those interfaces, but should not be invoked as an already completed proof. The program advances when each remaining connection becomes a declared calculation whose success or failure changes the theory.
 

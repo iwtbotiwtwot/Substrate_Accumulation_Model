@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.25)  25 OCT 2026 12:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.25)  25 OCT 2026 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1782,18 +1782,9 @@ Package hyperref Info: Link coloring OFF on input line 4.
 \@outlinefile=\write4
 \openout4 = `chapter13.out'.
 
- (./body13.tex [1{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-
-]
-Underfull \hbox (badness 2653) in paragraph at lines 44--45
-\T1/ptm/m/n/10 (+20) second-order mo-tion, frame drag-ging, or-bital ra-di-a-ti
-on,
- []
-
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 55.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+ 20.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1801,19 +1792,18 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 55.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+ 20.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 55.
+ 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 55.
+ 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
@@ -1828,20 +1818,28 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
-5.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
- [2] [3] [4] [5])
-[6
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+ (./body13.tex
+[1{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+
+] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+|[]\T1/ptm/b/n/12 (+20) Formation his-tory and the primordial-
+ []
+
+[3] [4] [5]) [6
 
 ] (./chapter13.aux)
  ***********
@@ -1849,28 +1847,29 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `chapter13.out' has not changed.
-(rerunfilecheck)             Checksum: A3F11286619CC11FFA0963F8710279A2;402.
+(rerunfilecheck)             Checksum: 278DCE4397D2E4258459BAAE77E6FCC4;4198.
  ) 
 Here is how much of TeX's memory you used:
- 33162 strings out of 476182
- 647587 string characters out of 5795594
- 1950975 words of memory out of 5000000
- 54303 multiletter control sequences out of 15000+600000
- 610343 words of font info for 253 fonts, out of 8000000 for 9000
+ 33190 strings out of 476182
+ 648208 string characters out of 5795594
+ 1951975 words of memory out of 5000000
+ 54350 multiletter control sequences out of 15000+600000
+ 611176 words of font info for 238 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 98i,12n,102p,1006b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on chapter13.pdf (6 pages, 118107 bytes).
+ 98i,13n,102p,1478b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbo
+l/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on chapter13.pdf (6 pages, 138470 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 50341 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 213 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 50437 words of extra memory for PDF output out of 51595 (max. 10000000)
 

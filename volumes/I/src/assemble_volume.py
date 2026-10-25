@@ -1,8 +1,8 @@
 from pathlib import Path
 import fitz, json, re, subprocess, hashlib
 ROOT=Path(__file__).resolve().parent
-TITLES=[('I','Original Write histories and an interacting source-field action'),('II','Retention, accumulation, and the finite ledger'),('III','The spherical accumulation kernel and the source-to-field interface'),('IV','Clocks, signals, and calibrated observation'),('V','Strong fields and the approach to unit accumulation'),('VI','Quantum routes, shared fields and retained physical records'),('VII','Horizon thermodynamics and accessible information'),('VIII','Cosmic inventory and the Hubble cascade'),('IX','Thermal history, recombination and CMB structure'),('XI','Carrier radiation and ringdown dynamics'),('XII','Cosmological fate and the completed boundary'),('A','Evidence, closures and remaining physical assignments')]
-files=[ROOT/'assets'/f'ch{i:02d}_retained.pdf' if i<=5 else ROOT/f'chapter{i:02d}.pdf' for i in range(1,14) if i!=10]
+TITLES=[('I','Original Write histories and an interacting source-field action'),('II','Retention, accumulation, and the finite ledger'),('III','The spherical accumulation kernel and the source-to-field interface'),('IV','Clocks, signals, and calibrated observation'),('V','Strong fields and the approach to unit accumulation'),('VI','Quantum routes, shared fields and retained physical records'),('VII','Horizon thermodynamics and accessible information'),('VIII','Cosmic inventory and the Hubble cascade'),('IX','Thermal history, recombination and CMB structure'),('XI','Carrier radiation and ringdown dynamics'),('XII','Cosmological fate and the completed boundary'),('XIII','Home: information on an endless chain of two-dimensional closed spheres'),('A','Evidence, closures and remaining physical assignments')]
+files=[ROOT/'assets'/f'ch{i:02d}_retained.pdf' if i<=5 else ROOT/f'chapter{i:02d}.pdf' for i in range(1,15) if i!=10]
 for f in files:
  if not f.exists(): raise SystemExit('Not ready: '+str(f))
 entries=[];pos=4
@@ -18,7 +18,7 @@ front=r'''\input{preamble.tex}
 {\small SUBSTRATE ACCUMULATION MODEL\par}\vspace{0.35in}
 {\Huge\bfseries SAM Volume I\par}\vspace{0.15in}
 {\LARGE Substrate and Accumulation\par}\vspace{0.18in}
-{\large Chapters I--IX and XI--XII, in two parts, with an appendix and a separate supplement\par}\vspace{0.65in}
+{\large Chapters I--IX and XI--XIII, in two parts, with an appendix and a separate supplement\par}\vspace{0.65in}
 {\Large Sean Brady\par}\vspace{0.08in}
 {\normalsize Originator and conceptual director\par}\vspace{0.5in}
 {\large Trimmed working edition\par}
@@ -27,7 +27,7 @@ front=r'''\input{preamble.tex}
 \vfill
 \noindent The unified expanded edition of 19 October 2026 brought the twelve chapters into one continuous manuscript. Chapters I--V retain the submitted mathematical text; Chapter VI is retypeset from its integrated source without its separate contents pages. Chapters VII--XII are substantially expanded with worked derivations, explicit physical assumptions, and reproducible arithmetic checks. A reconciled evidence appendix replaces the earlier closing review and interface list.
 
-\noindent\textbf{Edition of 25 October 2026.} This trimmed edition reorders the unified expanded edition of 19 October 2026 without changing its text: Part 1 (Chapters I--VI) is the body the program has reached with native constructions; Part 2 (Chapters VII--IX, XI--XII) carries the extensions the program is working on, each opening with a status paragraph naming the premise it adds and the runs that touch it; Appendix A is unchanged. Chapter X and Sections 6 and 9--19 of Chapter XII are retired from the body on Sean Brady's decision and retained unchanged, with their original numbering, in the separate Supplement (retired targets). Chapter numbers are unchanged so that every existing reference resolves. The volume therefore has no Chapter X in its body.
+\noindent\textbf{Edition of 25 October 2026.} This trimmed edition reorders the unified expanded edition of 19 October 2026 without changing its text: Part 1 (Chapters I--VI) is the body the program has reached with native constructions; Part 2 (Chapters VII--IX, XI--XIII) carries the extensions the program is working on, each opening with a status paragraph naming the premise it adds and the runs that touch it; Appendix A is unchanged. Chapter X is retired from the body on Sean Brady's decision and retained unchanged in the separate Supplement (retired targets). The completed Home, Sections 9--19 of the submitted Chapter XII, becomes Chapter XIII and closes the volume, on Sean Brady's decision of 25 October 2026 (``the best idea is hidden in the appendix and it shouldn't be''). Chapter numbers are unchanged so that every existing reference resolves. The volume therefore has no Chapter X in its body.
 \vspace{0.15in}
 \noindent\small Chapters I--VI were developed with OpenAI ChatGPT and Codex, with the contributor credits recorded in the individual chapters retained. The submitted Chapter VII and initial VIII--XII drafts, and the earlier closing review, credit Claude/Claude Code under Sean Brady's direction. The present expansion, source recovery, editorial reconciliation and unified assembly were prepared with OpenAI ChatGPT and Codex. These credits describe the development history, not independent scientific endorsement.
 \clearpage
@@ -93,7 +93,7 @@ out.set_toc(toc)
 for ent in entries:
  for rect in out[1].search_for(ent["title"]):
   out[1].insert_link({"kind":fitz.LINK_GOTO,"from":rect,"page":ent["start"]-1})
-out.set_metadata(dict(title='SAM Volume I: Substrate and Accumulation — Unified Expanded Edition',author='Sean Brady',subject='Trimmed working edition, 25 October 2026: Part 1 Chapters I-VI, Part 2 Chapters VII-IX and XI-XII, Appendix A; Chapter X and XII Sections 6, 9-19 in a separate supplement',keywords='SAM, substrate accumulation, quantum records, cosmology'))
+out.set_metadata(dict(title='SAM Volume I: Substrate and Accumulation — Unified Expanded Edition',author='Sean Brady',subject='Trimmed working edition, 25 October 2026: Part 1 Chapters I-VI, Part 2 Chapters VII-IX and XI-XIII (XIII: Home), Appendix A; Chapter X in a separate supplement',keywords='SAM, substrate accumulation, quantum records, cosmology'))
 (ROOT.parent/'pdf').mkdir(exist_ok=True)
 final=ROOT.parent/'pdf'/'SAM_Volume_I_Trimmed_20261025.pdf'
 out.save(final,garbage=4,deflate=True)

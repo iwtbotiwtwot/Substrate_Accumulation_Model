@@ -1,5 +1,5 @@
 {
-  "pages": 227,
+  "pages": 234,
   "chapters": [
     {
       "chapter": "I",
@@ -75,17 +75,24 @@
       "chapter": "XII",
       "title": "Cosmological fate and the completed boundary",
       "start": 218,
-      "pages": 4,
+      "pages": 5,
       "file": "chapter12.pdf"
+    },
+    {
+      "chapter": "XIII",
+      "title": "Home: information on an endless chain of two-dimensional closed spheres",
+      "start": 223,
+      "pages": 6,
+      "file": "chapter13.pdf"
     },
     {
       "chapter": "A",
       "title": "Evidence, closures and remaining physical assignments",
-      "start": 222,
+      "start": 229,
       "pages": 6,
-      "file": "chapter13.pdf"
+      "file": "chapter14.pdf"
     }
   ],
   "output": "SAM_Volume_I_Trimmed_20261025.pdf",
-  "sha256": "5c7276ba14f53e7b05e0ad8e123610f5ca1470e723b02984a510edb484812273"
+  "sha256": "576b80ad8b1da1dfc82404d496cc143c412f497e1d7d1b457a0a1389f1c48f39"
 }

@@ -141,6 +141,7 @@ Legend for "status": **grammar** (a declared primitive of the count language; no
 - **Status:** retired as stated; target = Q. Sean Brady, 2026-10-23: the fate work is "set as a target to receive its own more mature foundation".
 
 ### T-12 The completed Home: re-indexing A_0 = A_H/(4πD), the recurrence E_{n+1} = E_n + I_n − O_n, custody
+- **Status note (2026-10-25, later; Sean Brady: "The best idea is hidden in the appendix and it shouldn't be- Homes"):** returned to the body of Volume I as Chapter XIII (Sections 9–19 of the submitted Chapter XII, text unchanged); the target itself is unchanged.
 - **Status note (trim, 2026-10-25, Sean Brady: Option A):** retired target; Chapter XII §9–19 labelled retired targets in place (Option A); text preserved in full; see `TRIM_PLAN_20261025.md`.
 - **Entered:** Chapter XII §9–13 (H000791, H000794–H000797); Chapter V's closure; Chapter VII's custody laws.
 - **Opened:** the storage-ledger form itself: receipts counted once, a floor never debited, gross emission with net growth; the custody channel as a CPTP map.
@@ -163,6 +164,7 @@ Legend for "status": **grammar** (a declared primitive of the count language; no
 - **Status:** conditional.
 
 ### T-14 The crossing postulate: "crossing any positive measurable distance has infinite cost"
+- **Status note (2026-10-25, later; Sean Brady: "The best idea is hidden in the appendix and it shouldn't be- Homes"):** returned to the body of Volume I as Chapter XIII (Sections 9–19 of the submitted Chapter XII, text unchanged); the target itself is unchanged.
 - **Status note (trim, 2026-10-25, Sean Brady: Option A):** retired target; labelled a retired target by Chapter XII's status line (Option A); text preserved in full; see `TRIM_PLAN_20261025.md`.
 - **Entered:** Chapter V (closure), used by Chapters VII and XII.
 - **Opened:** the Home's sealing rule and the "road that thickens faster than the square root near A = 1", the one strong-field prediction the closing section
