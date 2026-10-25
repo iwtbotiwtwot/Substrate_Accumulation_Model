@@ -4,3 +4,8 @@ __pycache__/
 *.sqlite
 *.sqlite3
 runs/**/native_returns/
+volumes/III/src/book_20261025/book.aux
+volumes/III/src/book_20261025/book.out
+volumes/III/src/book_20261025/book.toc
+volumes/III/src/book_20261025/book.pdf
+volumes/*/src/**/*.aux
