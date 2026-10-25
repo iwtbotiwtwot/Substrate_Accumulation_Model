@@ -1,0 +1,115 @@
+\bookchapter{Joint State Spaces and Layered Exact Sources}\label{v3-exact-joint}
+
+The N100 construction established an important computational pattern: retain the complete source, then exploit a decomposition that belongs to that source. Later spin work develops that pattern in two directions. A richer integer table retains energy, magnetization and ordered boundaries, allowing new exact responses after the original solve. A separate layered method recognizes collective structure inside dense couplings and returns an exact ground energy, degeneracy and witness. The requested mathematical object determines which of these methods is appropriate.\samref{V3S01,V3S05}
+
+\subsection{A joint count is an executable source object}
+
+Use the later spin convention
+\begin{equation}
+ E(s)=-\sum_{u<v}J_{uv}s_us_v-\sum_u h_us_u,
+ \qquad s_u\in\{-1,1\}.
+\end{equation}
+The sign convention is part of the source identity; the earlier chapters retain their own declared Hamiltonians. Let $M(s)=\sum_us_u$ and let $b$ be the signs at an ordered list of $p$ retained vertices. The integer object is
+\begin{equation}
+ g(E,M,b)=\#\{s:E(s)=E,\ M(s)=M,\ s|_{\rm ports}=b\}.
+\end{equation}
+Every entry counts labelled configurations. Summing over $M$ recovers the original boundary-conditioned DOS, and summing over $E,M,b$ gives $2^N$. Ordering the boundary is essential: opposite signs applied to two ports depend on which source vertex receives each sign.\samref{V3S01,V3S04}
+
+This extra coordinate has a simple independent count identity. If a boundary row has $k_b$ positive signs, its total magnetization marginal satisfies
+\begin{equation}
+ \sum_Eg(E,2k-N,b)=\binom{N-p}{k-k_b},
+\end{equation}
+with the binomial understood as zero outside its permitted range. The condition checks the full assignment count in each magnetization sector, rather than merely the grand total. The completed joint solver also checks the projection back to its scalar DOS, independent global encodings and small-source direct comparisons. Thus the richer object carries several independently arranged readings of the same source.\samref{V3S03,V3S04}
+
+The joint table supports an exact response transformation
+\begin{align}
+ E'={}&E-hM-\frac{g}{2}(M^2-N)\notag\\
+ &-\sum_{i=1}^{p}\eta_i b_i.
+\end{align}
+Here $h$, $g$ and $\eta_i$ are exact rational request parameters. Boundary conditioning selects rows; a fixed-$M$ request selects magnetization sectors. Counts remain arbitrary-precision integers, while changed energies remain rational. Combining equal transformed energies recovers a complete transformed DOS. No microscopic spin enumeration is required for this reading.\samref{V3S01}
+
+One can also find exact ground-state crossings. For each allowed $M$, retain $e_M=\min\{E:g(E,M,b)>0\}$ after the requested boundary selection. Under a uniform field, the ground energy is the lower envelope of $e_M-hM$. A crossing of two supported sectors occurs at
+\begin{equation}
+ h_* = \frac{e_{M_2}-e_{M_1}}{M_2-M_1}.
+\end{equation}
+The reader checks all sectors at that exact rational value and returns all coexisting magnetizations and their counts. The implementation uses an exact convex-envelope construction, preserving ties that a rounded field could split.\samref{V3S04}
+
+The retained $N=120$ signed-packet-chain source with dense fill $-1$ gives a concrete example. At $h=1/2$ and ordered boundary $[+1,\text{free},-1,\text{free}]$, the query returns ground energy $-639$, ground magnetization $2$ and degeneracy $15$, within exactly $2^{118}$ permitted configurations. These are source-coordinate energies and magnetizations. Their physical units are supplied by the calling source map.\samref{V3S04}
+
+\subsection{Dense completion can expose a sparse correction}
+
+For binary signs,
+\begin{equation}
+ \sum_{u<v}s_us_v=\frac{M^2-N}{2}.
+\end{equation}
+If $J_0$ is the uniform complete-graph fill, write the actual source as that fill plus its exact correction. Its energy becomes
+\begin{equation}
+ E=E_{\rm corr}-J_0\frac{M^2-N}{2}.
+\end{equation}
+The dense collective part is now a function of a retained coordinate. Local factorization works on the correction graph while carrying $M$. The complete original dense source remains in the final energy.\samref{V3S03}
+
+Subtracting the fill can remove an interaction from the correction graph: an original edge with coupling $J_0$ has zero correction. This can expose independent components and repeated local operators even though every original vertex is coupled to every other vertex. The resulting computational route follows the source identity and the observable being retained; visual graph density alone does not determine its cost.
+
+For disconnected correction components, local energy/magnetization polynomials multiply and their coefficients convolve. Repeated components permit exact polynomial powers and balanced products. Signed single-gateway chains require boundary messages that retain the gateway sign. The scalar compiler has a further specialization only when the two complete gateway-conditioned energy polynomials agree. It explicitly checks that equality before using it.\samref{V3S01,V3S03}
+
+That last condition depends on the output. Two gateway rows can agree after magnetization has been summed out and differ as joint polynomials in energy and magnetization. Applying a scalar shortcut to the richer object would erase the new information. The joint compiler therefore retains both signed messages. A field-broken chain serves as a retained control: it rejects the equality specialization and agrees with general variable elimination. This is a useful example of a computational identity carrying its actual domain of applicability into the implementation.\samref{V3S02,V3S03}
+
+\subsection{Exact contractions beyond packet families}
+
+The shared interface also accepts explicit weighted integer graphs and a declared decomposition. Every vertex and interaction must be accounted for, and retained ports must match their declared block positions. Generic sources without an admitted component or chain decomposition can use joint polynomial variable elimination. Small local tables can be enumerated with native integer Gray-code updates; CUDA local enumeration and CPU FLINT composition supply a separate qualified route for the supported cases.\samref{V3S01,V3S05}
+
+For ordinary energy-polynomial elimination, the local interaction contributes the nonnegative power $|J|-Js_us_v$, and a field contributes $|h|-hs_u$. If
+\begin{equation}
+ B=\sum_{u<v}|J_{uv}|+\sum_u|h_u|,
+\end{equation}
+the resulting polynomial has exponent $E+B$. Subtracting $B$ recovers signed energy. Native integer coefficients preserve counts throughout elimination and convolution. The table schedule and energy-support span are separate resource quantities. Neither is the formal cardinality $2^N$.\samref{V3S05}
+
+The generic finite-factor contraction operation extends the same idea to explicitly listed finite domains and signed integer factors. It sums variables outside a retained set, with no implicit probability normalization. An isolated eliminated variable contributes its domain cardinality. An empty factor collection is the multiplicative identity. These details matter when a source becomes a tensor program: omitted interactions and an empty state space have different algebraic meanings.\samref{V3S05}
+
+\subsection{What the completed inventory contains}
+
+The shared installation retains 120 canonical defaults and 123 source-family records through $N=120$, with packet and connected frustrated lineages distinguished. Three packet families extend through $N=1408$. Six complete signed graph constructions at each size through $1408$ give 8,448 constructed graphs. Those source definitions are catalogued separately from their solved spectra.\samref{V3S02}
+
+The completed dense magnetization production contains 54 cases: six each at $N=30,60,96,120,300,450,600,750,900$. The full joint energy/magnetization/ordered-boundary production contains 24 cases: six each at $N=120,300,750,900$. Its compressed joint data total 6,871,786,917 bytes. The installation retains 1,840 native mathematical objects, including the applicable dependencies. These numbers describe different objects and should remain separate in both discovery and exposition.\samref{V3S02}
+
+The installation's 369 shared-route checks and 381 scoped GEN4 checks include actual CPU/CUDA equality, weighted generic elimination, rational responses, crossing ties and portable recovery. A3D41 executes both retained frustrated six-spin phase sources through the shared implementation. Starbreaker recomputes the joint operator of its inherited N100 basis, preserves the original DOS and reads ordered opposite-sign endpoint fields. These adoptions connect the compiler to existing applications through their actual source maps.\samref{V3S02}
+
+For the retained phase chart,
+\begin{equation}
+ z=\frac{s+t}{2}+\ii\frac{s-t}{2},
+\end{equation}
+the relevant source relation is $E_{\rm spin}=2H_{\rm phase}$ and $M=2\sum\Re z$. The binary field therefore supplies an exact phase-alignment response in that model. It does not add material constituents or assign a magnetic unit. The application receives the response using the chart and energy convention it already supplies.\samref{V3S03}
+
+\subsection{A layered exact ground-state successor}
+
+The later dense-source method, H002708, addresses sources whose complete graph defeats small-component or low-width elimination but whose couplings contain a small number of collective signed layers. Its admitted decomposition is
+\begin{equation}
+ J_{uv}=\sum_{k=1}^{K}a_kv_{ku}v_{kv}+S_{uv},\qquad u<v,
+\end{equation}
+where $a_k$ and $S_{uv}$ are integers, $v_{ku}\in\{-1,1\}$ and $S$ is sparse. With $M_k=\sum_uv_{ku}s_u$, the exact energy is
+\begin{align}
+ E(s)={}&-\frac12\sum_k a_k(M_k^2-N)\notag\\
+ &-\sum_{u<v}S_{uv}s_us_v-\sum_u h_us_u.
+\end{align}
+The implementation may use a floating-point eigensystem to propose the sign vectors. It then checks the displayed integer coupling identity over every pair. The proposal affects admission and work, while the accepted decomposition is an exact identity of the original source.\samref{V3S05,V3S06,V3S07}
+
+Frontier elimination of the sparse residual retains the signs still needed by future residual edges and the full vector $(M_1,\ldots,M_K)$. Each state carries four pieces: minimum residual energy, exact number of minimizers, total represented configuration count, and a witness. These serve different purposes. A discarded higher residual energy cannot affect the minimum at fixed frontier and magnetizations, but its configurations still belong in the exhaustive accounting.\samref{V3S07}
+
+For two contributions reaching the same state, the merge rule adds total configuration counts in every case. It keeps the lower energy and its minimizing count; at equal minima it adds their minimizing counts. Joining disconnected residual components uses min-plus convolution over magnetization vectors, multiplying counts for independent choices. Only after all components have joined does the method add the collective quadratic energy and compare magnetization sectors.\samref{V3S07}
+
+Consequently the retained table evaluates
+\begin{equation}
+ E_0=\min_{\mathbf M}\left[e_{\rm res}(\mathbf M)
+ -\frac12\sum_k a_k(M_k^2-N)\right],
+\end{equation}
+while the separate totals satisfy $\sum_{\mathbf M}n(\mathbf M)=2^N$. Ground degeneracy counts labelled configurations, including ties between distinct minimizing magnetization vectors. The returned witness is reconstructed and its energy recomputed against the original edge list and fields.\samref{V3S05,V3S07}
+
+The answer is explicitly a ground-state object: energy, degeneracy, witness and exhaustive-accounting/decomposition certificate. The minimum merge does not retain all excited energies, so it supplies a different object from the full DOS or $g(E,M,b)$. A thermal partition function needs the corresponding full distribution or a separate justified construction. Keeping the return schema explicit lets the application request the object it actually needs.
+
+\subsection{Latest completed use and the computational boundary}
+
+The retained validation admits 52 of 60 planted sources at $N=10$ through $16$; every admitted source agrees with complete enumeration in energy, degeneracy and witness. Small sources keep the DOS route. An explicitly selected other method is preserved. Automatic selection tries the layered route after variable elimination exceeds its admission. Sources without an admitted decomposition retain a capacity result identifying the relevant limits.\samref{V3S06}
+
+In the recorded Duck1.2.4 Masquerade run, both unchanged raw dense SOLVE tasks complete through this fallback: source A at $N=360$ in about 6.2 seconds and source B at $N=180$ in about 4.4 seconds within their workers. Both SELECT tasks fail on an absent mathematical-library objects store. The exact solves and that separate store failure remain distinct outcomes of the same recorded run.\samref{V3S06}
+
+Default limits of six layers, residual frontier sixteen and residual degree eight are implementation admission settings. They describe the retained execution route, with configurable work and memory ceilings. The contribution is the exact decomposition and the state carried by its dynamic program. It extends the original N100 lesson: structural compression can preserve the entire assignment accounting while evaluating the requested source observable with substantially less local work.\samref{V3S05,V3S06}

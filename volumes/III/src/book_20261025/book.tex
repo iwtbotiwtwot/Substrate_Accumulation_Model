@@ -1,0 +1,60 @@
+\input{book_preamble.tex}
+\newcommand{\VolumeRoman}{III}
+\newcommand{\bookpart}[2]{%
+\clearpage\onecolumn\markboth{Part #1}{}%
+\phantomsection\addcontentsline{toc}{part}{Part #1: #2}%
+\vspace*{\fill}\begin{center}{\Large\bfseries Part #1\par}\vspace{0.4in}
+{\LARGE\bfseries #2\par}\end{center}\vfill\clearpage}
+\hypersetup{pdftitle={SAM Volume III: Computation and Reciprocal History - Edition of 25 October 2026},pdfauthor={Sean Brady}}
+\begin{document}\onecolumn\thispagestyle{empty}
+\begin{center}\vspace*{0.8in}
+{\small SUBSTRATE ACCUMULATION MODEL\par}\vspace{0.35in}
+{\Huge\bfseries SAM Volume III\par}\vspace{0.15in}
+{\LARGE Computation and Reciprocal History\par}\vspace{0.25in}
+{\large Part 1: the exact computational record, 28 chapters\par Part 2: the exact engine, GEN6 and the Duck as installed\par}\vspace{0.4in}
+{\Large Sean Brady\par}\vspace{0.08in}
+{\normalsize Originator and conceptual director\par}\vspace{0.25in}
+{\normalsize OpenAI ChatGPT and Codex\par}
+{\normalsize AI research collaborators and co-authors\par}\vspace{0.12in}
+{\normalsize Claude Code\par}
+{\normalsize Executor under Sean Brady's direction from 17 October 2026 (Part 2 and the received results)\par}\vspace{0.4in}
+{\large Working manuscript in two parts\par}
+{\normalsize 25 October 2026\par}\end{center}
+\vfill\noindent Part 1 follows the revised manuscript of 20 October 2026 (28 chapters) built from source; Part 2 is the Engine manuscript of 20 October with its continuation to 25 October. Original formatting and historical scientific results retain their recorded scope. The credits describe the development history, not independent scientific endorsement.
+\clearpage\markboth{Contents}{}\tableofcontents\thispagestyle{fancy}
+\clearpage\markboth{Source boundary}{}\input{preface.tex}
+\bookpart{1}{The exact computational record}
+\input{body01.tex}
+\input{body02.tex}
+\input{body03.tex}
+\input{n5000_chapter.tex}
+\input{n2000_chapter.tex}
+\input{exact_01.tex}
+\input{body04.tex}
+\input{body05.tex}
+\input{body06.tex}
+\input{history_chapter.tex}
+\input{body07.tex}
+\input{body08.tex}
+\input{applications_01.tex}
+\input{runtime_01.tex}
+\input{runtime_02.tex}
+\input{exchange_chapter.tex}
+\input{applications_02.tex}
+\input{response_01.tex}
+\input{rh_chapter.tex}
+\input{body09.tex}
+\input{arithmetic_01.tex}
+\input{body10.tex}
+\input{arithmetic_02.tex}
+\input{prime_main.tex}
+\input{prime_continuation.tex}
+\input{body11.tex}
+\input{body12.tex}
+\input{connections_01.tex}
+\bookpart{2}{The exact engine, GEN6 and the Duck, as installed on 25 October 2026}
+\setcounter{section}{0}
+\fancyhead[L]{\footnotesize SAM Volume \VolumeRoman, Part 2 | \leftmark}
+\input{engine_part2.tex}
+\clearpage\onecolumn\fancyhead[L]{\footnotesize SAM Volume \VolumeRoman\ | \leftmark}\markboth{Source register}{}\input{source_register.tex}
+\end{document}

@@ -1,0 +1,236 @@
+\bookchapter{Prime Events from Ising Sources: Boundary Response, Feedback and Native Memory}
+\label{v3-prime-event}
+
+\subsection{The object being constructed}
+
+The Prime Event program joins two explicit constructions. A finite Ising source decides whether to emit at an integer candidate, while accepted emissions create recurrence channels that become later inputs to that same source. Its mathematical interest lies in the join: a conditional boundary interaction becomes a probabilistic gate, the gate changes its future input history, and hidden source state survives between decisions. The completed work now includes a measured transfer from large exact spin responses into newly compiled gates, a substantial reduction in conditional leakage, raw unrepaired execution, source-derived activity clocks, and an exact correction for clock information omitted by an accurate event-only reduction. These are different results on linked, explicitly identified objects.\samref{V3PE01}\samref{V3PE02}
+
+The seven-spin gate must first be distinguished from the large graphs used to obtain boundary responses. Its two Boolean bank inputs are clamped; its output and six hidden spins are free. For each input pair it therefore has exactly $2^7=128$ microscopic states. A large-$N$ response can supply design coefficients for a new gate without transferring the large graph's dynamics. Conversely, a successful gate coefficient does not by itself supply the recurrence channels. This separation makes the measured spin-to-prime connection precise: exact equilibrium source features inform a new microscopic model, whose finite-rate response is then evaluated with its own state space and clock.\samref{V3PE03}
+
+The original source design is attributable to the project lineage recorded in the reports: Sean Brady supplied the concept and research direction; ChatGPT and Codex collaborated on the constructions. Codex supplied the selective compiler examples, the finite dynamics and controls, the balance and leakage derivations, and the clock and memory deductions described below. The connecting exposition in this chapter is manuscript synthesis of those completed sources; it adds no scientific calculation.
+
+\subsection{A selected interaction from pairwise microscopic edges}
+
+Write the output as $e=\pm1$ and the return inputs as $r_1,r_2=\pm1$, with $+1$ meaning that a bank returns. Let
+\[
+ \mathcal P_+=\{+++,+--,-+-,--+\}.
+\]
+Two hidden spins $h_1,h_2$ provide pair modules. Four more, $z_p$ indexed by $p\in\mathcal P_+$, provide a field-bearing triple module. The retained Hamiltonian is
+\[\begin{aligned}
+ E={}&-u h_1(e+r_1)-u h_2(e+r_2)\\
+ &-t\sum_{p\in\mathcal P_+}z_p
+       (1+p_1e+p_2r_1+p_3r_2).
+\end{aligned}\]
+Every microscopic term is a pair interaction or an explicit hidden field. The visible three-spin term is created by eliminating hidden variables. The fields are essential: a zero-field Ising source has global inversion symmetry, whereas an odd visible interaction requires that symmetry to be broken by a field or by a pinned boundary.\samref{V3PE01}\samref{V3PE02}
+
+For one pair module, hidden summation gives
+\[
+ \sum_{h=\pm1}e^{\beta u h(e+r)}
+       =2\cosh[\beta u(e+r)].
+\]
+The local field has magnitude $2u$ when $e=r$ and vanishes otherwise. Thus its free energy is a constant minus $aer$, with
+\[
+ a(\beta,u)=\frac{\log\cosh(2\beta u)}{2\beta}.
+\]
+For the four-spin hidden module, the absolute local fields are $4t,0,0,0$ when $er_1r_2=+1$, and $2t,2t,2t,2t$ when it is $-1$. Consequently
+\begin{align*}
+ Z_{3,+}&=16\cosh(4\beta t),\\
+ Z_{3,-}&=16\cosh(2\beta t)^4,\\
+ b(\beta,t)&=\frac{4\log\cosh(2\beta t)
+                    -\log\cosh(4\beta t)}{2\beta}.
+\end{align*}
+The complete marginal has the selected form
+\begin{align*}
+ F(e\mid r_1,r_2)&=C(r_1,r_2)+eH(r_1,r_2),\\
+ H(r_1,r_2)&=-a(r_1+r_2)+b r_1r_2.
+\end{align*}
+Here the input-only constant is harmless for conditional output probabilities, but is not a statement that the full thermodynamic source has zero offset.\samref{V3PE02}
+
+This compiler was obtained by more than choosing a favorable truth table. Its predecessor enumerated all 67 four-boundary sign subgroups and showed that a single subgroup projection retains an interaction family closed under XOR. Retaining two disjoint pairs therefore also permits their four-spin product; retaining two overlapping pairs permits the remaining pair. Unequal nonnegative copies of gauge-transformed stars can remove unwanted companions. The search examined 6,560 nonempty copy vectors with multiplicities zero, one or two, and its derivation extended the relevant minima to arbitrary nonnegative integer multiplicities within that dictionary. Independent local modules then allowed the two pair strengths and triple orientation to be selected separately. Exact character cancellation establishes all-temperature \emph{support}; the numerical coefficients still depend on temperature. The theorem fixes interaction support at all temperatures; amplitude matching is performed at its declared temperature.\samref{V3PE01}
+
+The accepting output is $e=-1$, so
+\[
+ \Pr(e=-1\mid r_1,r_2)
+       =\frac{1}{1+e^{-2\beta H(r_1,r_2)}}.
+\]
+The three distinct fields are $2a+b$ with no returning bank, $-b$ with exactly one, and $-2a+b$ with both. The desired static truth table requires $a>0$ and $0<b<2a$. Its two blocking margins are therefore $b$ and $2a-b$. Exactly one bank is a revealing sector: $r_1+r_2=0$, so the two pair contributions cancel. Increasing only the pair strength cannot improve that sector's equilibrium suppression. This elementary cancellation later explains the actual microscopic first-error data.
+
+\subsection{From a driven response to an event-created sieve}
+
+The first dynamic construction drove the source with externally specified recurrence periods. It retained the complete 128-state distribution, used continuous-time heat-bath switching, and compared corrugated traversal intervals with uniform and rough accumulation profiles. In the column convention, neighboring states have rates
+\[
+ L_{yx}=\frac{\Gamma}{1+e^{\beta(E_y-E_x)}},
+ \qquad L_{xx}=-\sum_{y\ne x}L_{yx}.
+\]
+The exposure of a supplied interval is proportional to $\Gamma d_k\sqrt{1-A_k}$. Matching the step mean of $A$ and the total exposure does not fix the response to an ordered sequence of changing bank inputs. For periods $5/7$, pair strength two and $\Gamma=8$, balanced correctness was $71.737824\%$ under uniform accumulation, $71.236764\%$ under exposure-matched rough accumulation, and $71.525318\%$ when the same rough values were reversed. At fast relaxation the ordering difference fell below numerical comparison resolution. The rough profile could improve or worsen the response according to its alignment with the inputs. These completed driven comparisons establish a finite-memory mechanism, with clamping and accumulation supplied as drives; their work and backreaction were not assigned by that experiment.\samref{V3PE04}
+
+The feedback successor makes the periods event-created. Begin at candidate $n=2$ with no channels. Every accepted event at $n$ installs a channel of period $n$, with first return at $2n$ and subsequent returns at $3n,4n,\ldots$. Channels are assigned alternately to two banks in creation order. A bank input is the OR of its channels returning at the current candidate. The ideal decision rule accepts exactly when neither bank returns.\samref{V3PE05}
+
+That ideal rule generates primes by induction. If all previous accepted events are the primes below $n$, a prime $n$ has no earlier prime divisor and no channel returns. A composite has a smaller prime divisor $p$ and hence a returning channel at $n=mp$, $m\ge2$. The induction depends on retaining the whole accepted history, rather than periodically replacing it with a list supplied by a primality oracle. The implemented probabilistic gate can make mistakes, and each mistaken emission creates a real channel under the same rule.
+
+An extra composite channel never directly returns at a later prime: every return $mp$ with $m\ge2$ is composite even if its period $p$ was itself composite. It can nevertheless alter future decisions by changing creation-order parity, bank assignment, and the carried microscopic state. A missed prime removes a period that could have blocked later composites. These mechanisms make feedback a history-dependent source process, rather than a set of independent truth-table samples. The integer counter, the event-created periods and alternating bank rule remain explicit parts of the algorithm; the spin source has not derived that integer recurrence from autonomous matter dynamics.\samref{V3PE02}\samref{V3PE05}
+
+Three confirming readings reduce leakage while preserving the source trajectory. If $T_n$ is the propagator for one third of the declared exposure and $D$ projects onto output $-1$, then
+\[
+ P_{\rm acc}(n\mid\rho)
+   =\mathbf1^\top D T_n D T_n D T_n\rho.
+\]
+The incoming vector $\rho$ contains all seven spins. A sampled trajectory keeps its actual state after every reading and after both accepted and rejected candidates. The formula is a masked matrix contraction, not the cube of an equilibrium output probability. The three readings share the same bank input at a candidate, since a channel created there cannot return until a later candidate. Uniform and rough production profiles retain 35 phases and matched total exposure; their phase ordering remains available to influence transient state.\samref{V3PE02}
+
+\subsection{What the first errors revealed, and what balancing changed}
+
+For the historical scale-two source, $\beta=1$, $u=4$ and $t=2$. Exact marginal formulas give
+\begin{align*}
+ a&=3.6534264659876117,\\
+ b&=2.9609499856382886.
+\end{align*}
+The one-bank sector has output gap $2b=5.9218999712765772$, with equilibrium false-output probability approximately $0.00267293946$ per reading. The finite three-reading probabilities are much smaller, but source replay identified this same sector as the principal composite-error bottleneck.\samref{V3PE02}
+
+The seed-mechanism study compared the first error of 63 seeds under both profiles, producing 126 matched comparisons. Swapping the incoming microscopic state and the next draw triple between failing and good paths showed that the tested failures followed the draws: failing state with the good seed's draws was correct in $126/126$ comparisons, while the good state with the failing draws reproduced the error in $126/126$. Incoming states were already identical in 32 comparisons. This identifies the local mechanism tested; it does not assign a special number-theoretic property to the one seed with an unusually long correct path. All 120 first composite errors occurred with exactly one returning bank; the other six first errors were missed primes.\samref{V3PE06}
+
+A later parity example shows why errors cannot be interpreted locally forever. In one rough-profile path, an extra event at $312596611$ changed the parity of the event count before prime $483920363$. That prime's channel entered a different bank. At $967840726=2\times483920363$, the period-two and prime-period returns occupied one bank in the uniform history and separate banks in the rough history. One path falsely emitted; the other suppressed. The extra event was not a divisor of the later candidate. Its influence passed through creation order and bank placement. The retained study replayed 230 selected five-million chunks and 264 detailed windows to reconstruct such mechanisms.\samref{V3PE06}
+
+At fixed pair coefficient $a$, balancing the two blocked margins means maximizing $\min(b,2a-b)$. Its solution is $b=a$. This criterion was selected before observing successor seed outcomes. At $\beta=1$ define $C=\cosh(2u)$. Solving the analytic marginal gives
+\[
+ t(u)=\frac12\operatorname{acosh}
+       \sqrt{C+\sqrt{C^2-C}}.
+\]
+For $u=4$, the four triple rows and their hidden fields change from strength two to $2.3464897298984759$; the pair rows remain four. The topology and 128-state space stay fixed. This is a fixed-temperature amplitude balance. It is distinct from the all-temperature copy constructions used elsewhere in the spin program.\samref{V3PE07}
+
+The matched billion-candidate comparison used 64 seeds under each profile. Original uniform errors were 271 false emissions and 13 missed primes; rough errors were 272 and 13. The balanced source produced 17 and three under each profile. Summed over the matched observations, errors fell from 569 to 40, a $92.9701\%$ reduction. Exact histories increased from $1/64$ to $47/64$ in each profile; 62 seeds improved, one tied and one worsened. At 100 million candidates the exact count improved from $42/64$ to $64/64$. A frozen fresh set of 16 seeds per profile had $13/16$ exact histories, with two false emissions and one missed prime per profile. Profiles share seeds and nested horizons repeat paths; these counts are not independent accuracy samples.\samref{V3PE07}
+
+The conditional table explains both the gain and its cost. The one-bank three-reading false-emission maximum fell from about $1.91\times10^{-8}$ to $3.04\times10^{-10}$. The both-bank probability rose from about $4.74\times10^{-12}$ to the same balanced scale. Balancing improved the weakest blocked sector by giving up an unnecessarily strong other sector. The criterion optimizes the blocked static margins; the total-error objective also depends on bank frequency, incoming preparation and the confirmation protocol.
+
+\subsection{A measured bridge from exact graph responses}
+
+The spin/prime dataset made the common interface explicit. Its completed first build joined 6,000 spin cases at sizes 1--1000, 91,620 boundary ground-response records, 183,240 certified thermal readouts and 183,272 interaction-coefficient records, together with the two historical gate variants and their observed outcomes. It preserved graph identity, port ordering, temperature, source pointers and aliases. The 1,056 seed/horizon records include repeated measurements; the database does not turn them into 1,056 independent runs. Full joint density tables were not expanded simply to make the join.\samref{V3PE08}
+
+Every indexed spin graph had zero local fields. All 91,620 odd-degree coefficient intervals contained zero, as required by global inversion. A direct odd triple could therefore not be extracted from an unchanged zero-field four-port source. The completed connection instead pins one port. For the original even four-port expansion, setting a boundary spin to $p$ yields
+\[
+ \beta F(e,r_1,r_2\mid p)
+ =\text{input terms}+e(d+ur_1+vr_2+wr_1r_2).
+\]
+The four-body term becomes the visible triple $w$; the pair joining output to the pinned port becomes the output bias $d$. A declared local output field can cancel that bias at the specified temperature. This is a concrete boundary condition and source modification. It explains how odd gate terms arise while the original zero-field inversion theorem remains intact.\samref{V3PE03}\samref{V3PE08}
+
+For the $N=1000$ positive-fill packet at $\beta=4/1000$, the selected pinned role and sign convention give dimensionless coefficients
+\begin{align*}
+ d=u=v&=-1.907980462097066,\\
+ w&=+1.730671594798363.
+\end{align*}
+After the specified bias cancellation, the triple-to-pair ratio is $b/a=0.9070698726632545$. Transferring that ratio into the existing six-hidden-spin compiler at gate temperature $\beta=1$, and fixing the mean pair coefficient to $3.6534264659876117$, constructs a new 128-state model. Its finite-rate transition calculation does not inherit the dynamics or relaxation time of the original 1000-spin graph.\samref{V3PE03}
+
+The measured comparison covered both profiles, 35 phases and all 128 incoming states. Worst uniform one-bank false-emission probabilities were $1.91437\times10^{-8}$ for the original gate, $5.10148\times10^{-9}$ for the new $N=62$ positive packet ratio, $2.60902\times10^{-9}$ for $N=300$, and $2.31833\times10^{-9}$ for $N=1000$. The last gives an $8.26$-fold improvement over the historical gate. The already balanced design remained better at $3.04423\times10^{-10}$. The negative-fill $N=1000$ packet supplied a contrasting ratio of approximately $8.66\times10^{-7}$ and one-bank leakage $0.124998814$. Boundary response is therefore a useful design feature, but its sign and scale must actually be retained.\samref{V3PE03}
+
+Keeping the pinned output bias provides an instructive control. The unadjusted $N=1000$ design suppresses one-bank false emissions to about $7.0\times10^{-19}$, but its worst no-bank missed-emission probability is $2.67\times10^{-6}$. Cancelling the bias brings the latter to $1.79\times10^{-9}$ while giving one-bank error $2.32\times10^{-9}$. Three-confirmation readout treats emission and suppression asymmetrically, so even a favorable smallest equilibrium margin is not a complete dynamic objective.
+
+Entropy is part of this transfer. The retained thermal response reconstructs the pinned field through
+\[
+ \frac{\beta}{2}\Delta F
+ =\frac{\beta}{2}\Delta\langle E\rangle-\frac12\Delta S.
+\]
+For the selected no-return packet field the actual decomposition is
+\[
+ 3.6386520569=4.0074318192-0.3687797623.
+\]
+Ground energies alone would miss the entropy contribution that changes the gate bias. The exact joint and boundary machinery of Chapter~\ref{v3-exact-joint} supplies the source identity, normalization and thermal information needed to make this connection reproducible.\samref{V3PE03}
+
+The source search examined 11,268 source/temperature pairs with 192 role/gauge choices, both with and without bias cancellation: 4,326,912 candidate evaluations. Twenty-four selected candidates received 96 Arb truth-table checks, and six compiled gate designs received finite-rate evaluation. No new closed-loop stream was generated by this connection experiment. Positive packet and frustrated signed-chain ratios at $N=1000$ differ by only about $5.95\times10^{-7}$; their conditional errors are correspondingly almost equal. The completed result identifies boundary-response structure as the effective design input. It does not identify frustration itself as the cause of the measured improvement.\samref{V3PE03}
+
+\subsection{Uniform leakage improvement and the first-error theorem}
+
+A separate continuation increased the balanced source strength while retaining the same readout. At $u=5$, the analytic balance gives $t=2.8465622403941495$ and $a=b=4.653426410750604$. Temperature remains one, attempt exposure remains $\Gamma=512$, and there are still three readings. Under balance, the no-bank field is $3a$ and every blocked input field is $-a$. Independent equilibrium readings suggest an error scale near $e^{-6a}$; this explains the design direction, while the actual result uses the complete finite-rate sampler.\samref{V3PE09}\samref{V3PE10}
+
+All $35\times4\times128=17,920$ phase/bank/state inputs strictly improved. The worst blocked-input emission probability fell from $3.04422969\times10^{-10}$ to $8.0581104\times10^{-13}$; worst no-bank suppression fell from $9.06033914\times10^{-10}$ to $2.250089\times10^{-12}$. The minimum improvement across individual inputs exceeded $377.78$. These are probabilities of the encoded CDF sampler. Its binary64 transition tables were independently compared with matrix exponentials, but exact finite-table counting has its own precise meaning.\samref{V3PE09}
+
+Let $L=2^{53}$ and let $C_s(j)$ be a stored row CDF. The number of uniform-grid draws selecting state $j$ is
+\[
+ W_{sj}=\lceil LC_s(j)\rceil-\lceil LC_s(j-1)\rceil,
+\]
+with endpoints clipped to the draw range. Each row sums to $L$. Set $V_0(s)=1$ and
+\[
+ V_{k+1}(s)=\sum_{j:\,e(j)=-1}W_{sj}V_k(j).
+\]
+Then the exact three-reading emission probability is $V_3(s)/L^3$, with denominator $2^{159}$. This counts retained-state paths through all three readings. It establishes exactness for the encoded sampler under independent uniform-grid draws, rather than asserting that rounded tables equal exact real exponentials.\samref{V3PE10}
+
+The conditional table also supports a useful finite first-error theorem. Suppose accepted history is exactly the primes before the next candidate, and fresh draw triples are independent uniform-grid draws conditional on the entire past. Let $c$ bound blocked-input emission over all phases and incoming states, and $d$ bound no-bank suppression. The induction above assigns a nonzero mask to every composite and mask zero to every prime, regardless of the microscopic preparation. Disjointly decomposing by the position of the first error gives
+\begin{align*}
+ \Pr(\text{an error through }N)
+ &\le [N-1-\pi(N)]c+\pi(N)d,
+\end{align*}
+with the bound capped at one. Dependence of incoming states across candidates is allowed. The hypothesis concerns new conditional draws; a fixed PCG64 seed is a realized deterministic algorithmic path. After an error, accepted periods can be wrong, so this proof is a first-error bound and does not bound every subsequent error in a corrupted feedback history.\samref{V3PE10}
+
+\subsection{Raw execution, exact continuation and resource evidence}
+
+The lower-leakage source was actually run without correction, learner, factoring veto or replacement of event history. The initial paired CPU pilot used seed 9368001 and an extra draw seed 10368001. Both original and $u5$ sources completed 100 million decisions with zero false emissions and zero missed primes, producing 5,761,455 events. Median complete rates were 8.540 and 8.487 million decisions per second respectively, including truth observation, compression and durable checkpoints. Six timing trials, three per source, executed 600 million decisions in total, reusing the same 100-million prefix for each source; they measure timing and reproducibility, not six independent accuracy exposures.\samref{V3PE11}
+
+An indexed-history integration then reached 200 million unique decisions for the $u5$ seed, with 11,078,937 accepted events and zero errors. Resident-reference, continuous-indexed and stopped-at-85-million/restored paths agreed at every checked chunk and endpoint. Six hundred million executed decisions across those paths represent the same 200-million unique prefix. The bounded 8 MiB decoded cache reduced resident memory and authenticated old history on demand. Payload was durably written before checkpoint publication. An uncommitted journal was deliberately quarantined and regenerated; this establishes the tested orphan-recovery case, rather than an unstated arbitrary-power-failure theorem. The complete checkpoint preserves actual source state, RNG and history index.\samref{V3PE12}
+
+A later RTX3090 implementation qualified the raw 128-state source, rather than applying the earlier eight-state GPU controller's checked-repair rule. Reusable RAM buffers and exact disjoint PCG64 subsequences gave 14.43--14.70 million decisions per second for the whole 100-million prefix, including CPU startup, initial GPU parity checking, observation, compression and durable writes. Later 90-million windows reached 17.60--17.89 million per second. The matched CPU reference, all checked chunk states and draw-stream endpoints agreed; stopping at 35 million and restoring reproduced uninterrupted execution. Repeated GPU qualification paths remain one unique 100-million source prefix. This was a qualified backend and bounded performance result, not a silently started continuous production run.\samref{V3PE13}
+
+The installed local resource successor preserved seed 9370001 at migration, both PCG64 states and all 23,336 prior history records. Its scientific configuration remained byte-equivalent while the execution cache and checkpoint index changed. Adjacent production windows showed a 10.3\% complete-rate gain, from 9.772 to 10.776 million decisions per second; this observation includes overlap and contention rather than isolating a kernel change. The later 908.480-billion rollout observation was subsequently superseded by the completed local endpoint.\samref{V3PE14}\samref{V3PE15}
+
+The local CPU trajectory was intentionally stopped on 3 October 2026 at 13:15:20 UTC after 1,039,515,000,000 decisions, through candidate 1,039,515,000,001. It retained 39,036,981,351 events in 207,903 five-million chunks, with zero false events and zero missed primes. Its final 500-million chunk-loop window ran at 7.152970 million decisions per second; current throughput is zero because this is a stopped result. Final checks authenticated the frozen source, all 207 index blocks and positions/ranks of all indexed records, plus the final journal and complete terminal state/RNG agreement. That check did not replay the trillion-decision path or rehash every earlier journal. STOP remained present and continuation disabled.\samref{V3PUB01}\samref{V3PUB02}\samref{V3PUB03}
+
+The same seed's separately continued three-GPU execution stopped at exactly 8,000,000,000,000 decisions on 3 October at 16:49:18 UTC, with 279,010,070,814 actual events, three false emissions and no missed primes. The false positions were $2{,}274{,}828{,}165{,}298$, $2{,}379{,}059{,}006{,}438$ and $2{,}687{,}315{,}963{,}345$. Each error reproduced in a retained one-billion CPU replay with preceding history, microscopic state and both RNG streams. Every false emission fed back unchanged. The independent segmented sieve only scored decisions. The final hundred-billion interval averaged 155.410939 million decisions per second; this dated production result uses a later Blackwell configuration and does not replace the earlier RTX3090 pilot measurement. Its 1,600,000 committed records, final state and archive-chain custody were retained. Three GPUs separated speculative proposals, bank-mask construction from authenticated actual history, and ordered event extraction/scoring; CPUs retained ordered state consumption, exact random streams and the sole durable writer. Local and pod executions overlap on the same seed, so their prefixes are not summed as independent accuracy exposure. Both endpoints are intentional stops, not current running counters.\samref{V3PUB04}\samref{V3PUB05}\samref{V3PUB06}
+
+\subsection{Native clocks retain information beyond accepted indices}
+
+The clock continuation returns to the balanced seven-spin source with its retained kinetic policy, $\beta=1$, $\Gamma=512$, $\eta=3/8$, and actual source-time observation schedule. It does not treat the $u5$ production horizon as a new clock experiment. For the actual state $S_t$ and bank $b$, let $\lambda_b$ be the sum of all seven flip rates and $\kappa_b$ the output-spin flip rate. Two native activity coordinates are
+\[
+ \tau_{\rm all}(t)=\int_0^t\lambda_b(S_s)\,ds,
+ \qquad
+ \tau_{\rm out}(t)=\int_0^t\kappa_b(S_s)\,ds.
+\]
+The compensated flip counts are martingales under the source process. Their usual expectation identity applies to the declared unconditioned or appropriately stopped horizon; it does not automatically hold after selection on a future accepted history.\samref{V3C04}\samref{V3PE17}
+
+For any positive activity $a$, time change gives the column generator $Q^a=Q\operatorname{diag}(1/a)$ and speed measure proportional to $a\pi$, where $\pi$ is stationary for $Q$. Dividing by the output hazard makes the output flip rate exactly one from every microscopic state. Therefore, if $C_e$ groups only the visible output,
+\[
+ C_eQ^{\rm out}=H C_e,
+ \qquad
+ H=\begin{pmatrix}-1&1\\1&-1\end{pmatrix}.
+\]
+This is an exact two-state output quotient in output-activity time, for every bank and hidden preparation. Its apparent simplicity does not remove the source's memory. The actual readings occur at random stopping coordinates $\tau_{\rm out}(t_j)$ inherited from source-time waits. Substituting equal clock waits changes the protocol. The all-spin activity clock does not even have this output-only quotient, because $\kappa/\lambda$ varies within each output sector.\samref{V3PE17}
+
+The full accepted clock law uses the tilted kernel
+\[
+ F_b(z,t)=\exp[(Q_b-z\operatorname{diag}\kappa_b)t].
+\]
+The masked product $\mathbf1^\top D F_3 D F_2 D F_1\rho$ is the clock-weighted acceptance mass. Divide by its value at $z=0$ to obtain the conditional Laplace transform. Normalization and all three masks are part of the observable.
+
+At bank zero, initial states 24 and 102 both show output $-1$ and have acceptance mass $0.999999999093968$. Their conditional transforms at $z=1$ are nevertheless $0.9999998550562574$ and $0.2252263286074421$. Directed mean-clock bounds put the first mean below $0.000141473371361$ and the second above $1.49064947744$, a separation of at least $1.490508004067729$ activity units. Bank-one Laplace values also differ, but its displayed mean intervals overlap and do not order those means. These are declared hidden preparations, not equal-frequency production populations.\samref{V3C04}
+
+A finite raw-feedback experiment ran 32 fresh seeds through candidate 2048: 65,504 decisions, 23,256,750 actual flips and 54,138 output flips. Each seed accepted the same 309 events without errors, yet all 31 comparison seeds had different internal clock coordinates from the first. Doubling every rate while halving every laboratory wait reproduced states, readings, bank history and both clocks bitwise. The achieved clock is therefore a source-path quantity invariant under the common time-unit change. Its units are activity; a physical lapse or calibration in seconds was not supplied by this construction.\samref{V3C04}
+
+\subsection{An accurate event quotient can omit clock memory}
+
+The next completed comparison retained output and hidden bits 5 and 6, giving eight coarse coordinates. Let $C$ group these blocks and $R$ lift each block using its declared conditional Gibbs weights. Then $CR=I_8$, $P=RC$ is a projection, and the omitted residual has dimension 120. The stored rate model is bound as exact binary rationals with diagonals rebuilt exactly; conditional weights are normalized within blocks. This does not silently assert that the stored Gibbs weights are stationary for the rounded generator.\samref{V3PE18}\samref{V3PE19}
+
+For a masked, possibly tilted interval operator $T$, decompose the full state as $x=Ru+v$. The exact update is
+\begin{align*}
+ u'&=CTR u+CTv,\\
+ v'&=(I-P')T(Ru+v).
+\end{align*}
+The signed injection $CTv$ is the source information lost by replacing the residual with zero. This is the same structural issue treated for spin preparation and selected readout in Chapter~\ref{v3-response-composition}, now evaluated on the actual prime gate and clock.
+
+For three readings, set $T_i=D F_b(z,d_i)$ using the actual source-time waits $d_i$, and write
+\begin{align*}
+ G_{\rm full}&=CT_3T_2T_1,\\
+ G_8&=CT_3PT_2PT_1P.
+\end{align*}
+The exact difference is $G_{\rm full}-G_8=\Delta_0+\Delta_1+\Delta_2$, with
+\begin{align*}
+ \Delta_0&=CT_3PT_2PT_1(I-P),\\
+ \Delta_1&=CT_3PT_2(I-P)T_1,\\
+ \Delta_2&=CT_3(I-P)T_2T_1.
+\end{align*}
+These are respectively the preparation replacement, first-reading reset and second-reading reset. Keeping the full first interval removes only $\Delta_0$. Adding all three signed operators restores the evaluated full response for every preparation; it is not an autonomous eight-state production algorithm.\samref{V3PE19}
+
+For the retained bank-zero protocol, the ordinary eight-coordinate endpoint discrepancy was at most $6.175\times10^{-20}$ in $L^1$, while the clock-weighted discrepancy was about $0.774772$. States 102 and 120 share all retained coordinates, yet their conditional Laplace responses differ by $0.7747725033$. Any initializer using only those coordinates must therefore miss at least one response by $0.3873862517$. Keeping the exact first microscopic interval reduced the complete clock-weighted endpoint discrepancy to at most $2.636\times10^{-11}$ uniformly over all probability preparations. Event-only agreement had hidden a substantial preparation response.\samref{V3PE18}
+
+For bank one, the post-first-interval unnormalized discrepancy was at most $1.575\times10^{-14}$, but acceptance was only about $3.014\times10^{-10}$. Its conditioned bound is consequently $5.222\times10^{-5}$. Retaining this denominator prevents a rare accepted branch from appearing accurate merely because its total mass is small. Joint clock closure would require both a generator intertwining and a block-constant clock hazard; the latter fails in all eight blocks for all four banks. The exact two-state activity-clock output quotient remains valid because its random stopping map still carries that hidden information.\samref{V3PE18}\samref{V3PE19}
+
+\subsection{What has been established, and the next source-bound join}
+
+The compiler, balance, leakage, raw execution, measured spin-to-gate transfer, native-clock and clock-memory reports each retain the classification \emph{The test result suggests strong contact with the concept.} Each classification applies to its specified finite source and consumer. The completed connection is substantial: an exact thermal response supplies interaction features; a pairwise microscopic gate realizes them; its finite-rate probabilities guide a source change; raw feedback creates recurrence history; and complete masked operators expose timing information that accepted indices alone cannot recover. The large-source transfer has not yet received a matched closed-loop prime-stream comparison, and the full three-term clock correction has not yet become a smaller autonomous production representation.\samref{V3PE03}\samref{V3PE09}\samref{V3PE18}
+
+Two focused assignments follow directly. One is to select new boundary-derived designs against the actual three-reading objective across every bank sector, then compare the selected gates in matched raw feedback. The other is to preserve the joint clock/readout injection at actual bank changes, retaining clock-selected preparation and both later reset terms. The latest frustrated-spin source work supports the method of carrying actual residual directions, signed mixed terms and physical/background payments through a selected consumer. Its 28-spin or large-$N$ source, $N/\xi$ site-attempt clock and resolvent parameter remain distinct from this seven-spin gate and clock Laplace parameter. Reusing that method is an identifiable mathematical connection; assigning its numerical constants to Prime Event would change the source.\samref{V3S14}

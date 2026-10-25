@@ -1,0 +1,2501 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.10.25)  25 OCT 2026 13:31
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**book.tex
+(./book.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(./book_preamble.tex (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen141
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count191
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count192
+\leftroot@=\count193
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count194
+\DOTSCASE@=\count195
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count196
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count197
+\dotsspace@=\muskip16
+\c@parentequation=\count198
+\dspbrk@lvl=\count199
+\tag@help=\toks18
+\row@=\count266
+\column@=\count267
+\maxfields@=\count268
+\andhelp@=\toks19
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks20
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks28
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count269
+\calc@Bcount=\count270
+\calc@Adimen=\dimen150
+\calc@Bdimen=\dimen151
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count271
+\calc@Cskip=\skip58
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count272
+\l_MT_multwidth_dim=\dimen152
+\origjot=\skip59
+\l_MT_shortvdotswithinadjustabove_dim=\dimen153
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen154
+\l_MT_above_intertext_sep=\dimen155
+\l_MT_below_intertext_sep=\dimen156
+\l_MT_above_shortintertext_sep=\dimen157
+\l_MT_below_shortintertext_sep=\dimen158
+\xmathstrut@box=\box53
+\xmathstrut@dim=\dimen159
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup9
+\symitalic=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count273
+\Gm@cntv=\count274
+\c@Gm@tempcnt=\count275
+\Gm@bindingoffset=\dimen160
+\Gm@wd@mp=\dimen161
+\Gm@odd@mp=\dimen162
+\Gm@even@mp=\dimen163
+\Gm@layoutwidth=\dimen164
+\Gm@layoutheight=\dimen165
+\Gm@layouthoffset=\dimen166
+\Gm@layoutvoffset=\dimen167
+\Gm@dimlist=\toks29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen168
+\Gin@req@width=\dimen169
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen170
+\lightrulewidth=\dimen171
+\cmidrulewidth=\dimen172
+\belowrulesep=\dimen173
+\belowbottomsep=\dimen174
+\aboverulesep=\dimen175
+\abovetopsep=\dimen176
+\cmidrulesep=\dimen177
+\cmidrulekern=\dimen178
+\defaultaddspace=\dimen179
+\@cmidla=\count276
+\@cmidlb=\count277
+\@aboverulesep=\dimen180
+\@belowrulesep=\dimen181
+\@thisruleclass=\count278
+\@lastruleclass=\count279
+\@thisrulewidth=\dimen182
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen183
+\ar@mcellbox=\box54
+\extrarowheight=\dimen184
+\NC@list=\toks30
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box55
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen185
+\TX@old@table=\dimen186
+\TX@old@col=\dimen187
+\TX@target=\dimen188
+\TX@delta=\dimen189
+\TX@cols=\count280
+\TX@ftn=\toks31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip62
+\LTright=\skip63
+\LTpre=\skip64
+\LTpost=\skip65
+\LTchunksize=\count281
+\LTcapwidth=\dimen190
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@gbox=\box60
+\LT@cols=\count282
+\LT@rows=\count283
+\c@LT@tables=\count284
+\c@LT@chunks=\count285
+\LT@p@ftn=\toks32
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip66
+\multirow@cntb=\count286
+\multirow@dima=\skip67
+\bigstrutjot=\dimen191
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)
+\MT@toks=\toks33
+\MT@tempbox=\box61
+\MT@count=\count288
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks34
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen192
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count289
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2023/03/13 v3.1a Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 238.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip68
+\f@nch@O@elh=\skip69
+\f@nch@O@erh=\skip70
+\f@nch@O@olh=\skip71
+\f@nch@O@orh=\skip72
+\f@nch@O@elf=\skip73
+\f@nch@O@erf=\skip74
+\f@nch@O@olf=\skip75
+\f@nch@O@orf=\skip76
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen193
+\captionmargin=\dimen194
+\caption@leftmargin=\dimen195
+\caption@rightmargin=\dimen196
+\caption@width=\dimen197
+\caption@indent=\dimen198
+\caption@parindent=\dimen199
+\caption@hangindent=\dimen256
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count290
+\c@continuedfloat=\count291
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box62
+\beforetitleunit=\skip77
+\aftertitleunit=\skip78
+\ttl@plus=\dimen257
+\ttl@minus=\dimen258
+\ttl@toksa=\toks35
+\titlewidth=\dimen259
+\titlewidthlast=\dimen260
+\titlewidthfirst=\dimen261
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip79
+\enit@outerparindent=\dimen262
+\enit@toks=\toks36
+\enit@inbox=\box63
+\enit@count@id=\count292
+\enitdp@description=\count293
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count294
+\float@exts=\toks37
+\float@box=\box64
+\@float@everytoks=\toks38
+\@floatcapt=\box65
+)
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count295
+)
+\@linkdim=\dimen263
+\Hy@linkcounter=\count296
+\Hy@pagecounter=\count297
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count298
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4062
+.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 4062.
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count299
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen264
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count300
+\Field@Width=\dimen265
+\Fld@charsize=\dimen266
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count301
+\c@Item=\count302
+\c@Hfootnote=\count303
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2024-01-20 v7.01h Hyperref driver for XeTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box66
+\c@Hy@AnnotLevel=\count304
+\HyField@AnnotCount=\count305
+\Fld@listcount=\count306
+\c@bookmark@seq@number=\count307
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip80
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+)
+\c@theorem=\count308
+\c@proposition=\count309
+
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip81
+\cftbeforetoctitleskip=\skip82
+\cftaftertoctitleskip=\skip83
+\cftbeforepartskip=\skip84
+\cftpartnumwidth=\skip85
+\cftpartindent=\skip86
+\cftbeforesecskip=\skip87
+\cftsecindent=\skip88
+\cftsecnumwidth=\skip89
+\cftbeforesubsecskip=\skip90
+\cftsubsecindent=\skip91
+\cftsubsecnumwidth=\skip92
+\cftbeforesubsubsecskip=\skip93
+\cftsubsubsecindent=\skip94
+\cftsubsubsecnumwidth=\skip95
+\cftbeforeparaskip=\skip96
+\cftparaindent=\skip97
+\cftparanumwidth=\skip98
+\cftbeforesubparaskip=\skip99
+\cftsubparaindent=\skip100
+\cftsubparanumwidth=\skip101
+\cftbeforeloftitleskip=\skip102
+\cftafterloftitleskip=\skip103
+\cftbeforefigskip=\skip104
+\cftfigindent=\skip105
+\cftfignumwidth=\skip106
+\c@lofdepth=\count310
+\c@lotdepth=\count311
+\cftbeforelottitleskip=\skip107
+\cftafterlottitleskip=\skip108
+\cftbeforetabskip=\skip109
+\cfttabindent=\skip110
+\cfttabnumwidth=\skip111
+))
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 9.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-01-04 L3 backend support: XeTeX
+\g__graphics_track_int=\count312
+\l__pdf_internal_box=\box67
+\g__pdf_backend_object_int=\count313
+\g__pdf_backend_annotation_int=\count314
+\g__pdf_backend_link_int=\count315
+)
+(./book.aux)
+\openout1 = `book.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(49.14307pt, 516.00887pt, 49.14307pt)
+* v-part:(T,H,B)=(49.14307pt, 696.68385pt, 49.14307pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=516.00887pt
+* \textheight=696.68385pt
+* \oddsidemargin=-23.12692pt
+* \evensidemargin=-23.12692pt
+* \topmargin=-47.96698pt
+* \headheight=14.0pt
+* \headsep=10.84006pt
+* \topskip=10.0pt
+* \footskip=20.2355pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=18.7898pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \microtypecontext on input line 9.
+Package microtype Info: Applying patch `item' on input line 9.
+Package microtype Info: Applying patch `toc' on input line 9.
+Package microtype Info: Applying patch `eqnum' on input line 9.
+Package microtype Info: Applying patch `footnote' on input line 9.
+Package microtype Info: Applying patch `verbatim' on input line 9.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 9.
+ (./book.out)
+(./book.out)
+\@outlinefile=\write3
+\openout3 = `book.out'.
+
+ [1
+
+
+] (./book.toc
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ztmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+
+Overfull \hbox (1.32962pt too wide) detected at line 540
+\T1/ptm/b/n/10 XXVIII 
+ []
+
+[2
+
+])
+\tf@toc=\write4
+\openout4 = `book.toc'.
+
+ [3] (./preface.tex
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 6.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+[]\T1/ptm/m/n/10 The orig-i-nal foun-da-tion was as-sem-bled from the fixed 8 S
+eptem-ber 2026 SAMA source re-vi-sion
+ []
+
+) [4
+
+] [5
+
+
+] (./body01.tex
+Underfull \hbox (badness 1668) in paragraph at lines 56--60
+[]\T1/ptm/m/n/10 Can a source-derived 100-row gram-mar ex-pose
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
+7.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [6
+
+
+
+]
+Underfull \hbox (badness 3758) in paragraph at lines 248--253
+[]\T1/ptm/m/n/10 expressed on five records. The type con-trols pre-
+ []
+
+[7] [8]
+Underfull \hbox (badness 3029) in paragraph at lines 567--570
+[]\T1/ptm/b/n/10 Shared72 ag-gre-gate connector-incidence el-i-gi-bil-ity.
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 653--656
+[]\T1/pcr/b/n/10 SAMA-D000033\T1/ptm/b/n/10 . \T1/ptm/m/n/10 Con-nec-tion: Sup-
+plies
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 653--656
+\T1/ptm/m/n/10 M126/N144/L162 types with-out merg-ing them with
+ []
+
+[10] [11] [12]
+Underfull \hbox (badness 1742) in paragraph at lines 1122--1124
+[]\T1/ptm/m/n/10 a one-edge par-tial join, width 5, ground sec-tor ((-
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 1161--1164
+[]\T1/ptm/m/n/10 correction: in-spect the new ob-ject's own com-po-
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 1180--1188
+\T1/ptm/m/n/10 piler gap. N100 has 100/100 typed source keys and
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 1180--1188
+\T1/ptm/m/n/10 not be re-placed by ag-gre-gate counts or ex-ter-nal la-bels.
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 1192--1195
+\T1/ptm/m/n/10 Historical H14F, structure-first, Ex-act Write, W9P/Theta,
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 1192--1195
+\T1/ptm/m/n/10 lin-eage. Recorded au-thor-ity is \T1/pcr/m/n/10 SLCQ2-RZ\T1/ptm
+/m/n/10 , the source-
+ []
+
+) (./body02.tex [13] [14
+
+
+]
+Underfull \hbox (badness 5878) in paragraph at lines 287--291
+\T1/ptm/m/n/10 The same path is then in-voked un-der three pro-files.
+ []
+
+[15]
+Underfull \hbox (badness 1052) in paragraph at lines 369--371
+\T1/ptm/m/n/10 The four frozen real re-quest can-di-dates \T1/pcr/m/n/10 REQ02\
+T1/ptm/m/n/10 , \T1/pcr/m/n/10 REQ08\T1/ptm/m/n/10 ,
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
+[]\T1/ptm/m/n/10 return \T1/pcr/m/n/10 SLCState12 \T1/ptm/m/n/10 and a sep-a-ra
+te
+ []
+
+[17]
+Underfull \hbox (badness 2591) in paragraph at lines 639--642
+[]\T1/ptm/b/n/10 interface changes se-man-tics. \T1/ptm/m/n/10 De-tect-ing ev-i
+-dence:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 672--675
+[]\T1/ptm/m/n/10 one de-clared parser/resolver/checker/type/registry/
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 692--696
+\T1/ptm/m/n/10 ment/publication, phys-i-cal con-nec-tiv-ity, cou-pling/cost
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 713--717
+[]\T1/pcr/b/n/10 SAMA-D000034\T1/ptm/b/n/10 . \T1/ptm/m/n/10 Con-nec-tion: Sup-
+plies the N100
+ []
+
+) (./body03.tex [18] [19
+
+
+] [20]
+Underfull \hbox (badness 4036) in paragraph at lines 392--395
+[]\T1/ptm/m/n/10 The par-ent pre-served its pre-com-mit, ex-e-cutable and
+ []
+
+[21]
+Underfull \hbox (badness 1406) in paragraph at lines 515--517
+\T1/ptm/m/n/10 Let the di-men-sion-less in-verse scale be $\OML/ztmcm/m/it/10 b
+ \OT1/ztmcm/m/n/10 = \OML/ztmcm/m/it/10 ^^L^^O[]$\T1/ptm/m/n/10 , where
+ []
+
+[22]
+Underfull \hbox (badness 5274) in paragraph at lines 679--683
+[]\T1/ptm/m/n/10 The pre-served de-vi-a-tion re-sult is equally im-por-tant:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--700
+[]\T1/ptm/m/n/10 A fu-ture di-rect ev-i-dence route must reg-is-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--700
+\T1/ptm/m/n/10 SLCX023/SLCX023A, N96, T1--T6A and cur-rent
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 696--700
+\T1/pcr/m/n/10 SLCQ2-RZ \T1/ptm/m/n/10 ar-ti-facts be-fore those sources can po
+p-u-
+ []
+
+) (./n5000_chapter.tex [23]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+ [24
+
+
+]
+Underfull \hbox (badness 3260) in paragraph at lines 85--86
+[]\T1/ptm/m/n/10 The GPU route mul-ti-plies in-te-ger poly-no-mi-als us-ing
+ []
+
+[25]
+Underfull \hbox (badness 2856) in paragraph at lines 113--114
+[]\T1/ptm/m/n/10 Lossless zstd com-pres-sion and byte dedu-pli-ca-tion re-
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 113--114
+\T1/ptm/m/n/10 1,045,145,366,546 dis-tinct raw bytes. Com-pres-sion took
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+[]\T1/ptm/m/n/10 Boundary fields, par-tial bound-ary clo-sure, fixed-
+ []
+
+[26]
+Overfull \hbox (27.82025pt too wide) detected at line 168
+\OML/ztmcm/m/it/10 ^^_[] \OT1/ztmcm/m/n/10 = 1\OML/ztmcm/m/it/10 ;  ^^_[] \OT1/
+ztmcm/m/n/10 = 1 \OMS/ztmcm/m/n/10 ^^@ []\OML/ztmcm/m/it/10 ;  ^^_[] \OT1/ztmcm
+/m/n/10 = []\OML/ztmcm/m/it/10 :
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 217--218
+[]\T1/ptm/m/n/10 The ex-act sus-cep-ti-bil-ity dif-fer-ence is $\OML/ztmcm/m/it
+/10 ^^_[] \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 ^^_[] \OT1/ztmcm/m/n/10 =
+ []
+
+[27]
+Overfull \hbox (43.00192pt too wide) detected at line 238
+\OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 4
+30454602216\OML/ztmcm/m/it/10 ;  \OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/zt
+mcm/m/n/10 000189921648477\OML/ztmcm/m/it/10 ;  \OT1/ztmcm/m/n/10 0\OML/ztmcm/m
+/it/10 :\OT1/ztmcm/m/n/10 000344266087525\OML/ztmcm/m/it/10 :
+ []
+
+
+Overfull \hbox (36.66019pt too wide) detected at line 264
+[]\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 W\OT1/ztmcm/m/n/10 ) = [] [] \OML/ztmcm
+/m/it/10 g\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 k; t[]; b\OT1/ztmcm/m/n/10 ) []
+  [] \OML/ztmcm/m/it/10 :
+ []
+
+) (./n2000_chapter.tex [28] [29
+
+]
+Underfull \hbox (badness 1354) in paragraph at lines 15--16
+[]\T1/ptm/m/n/10 The re-tained bound-ary is the or-dered ver-tex list $\OML/ztm
+cm/m/it/10 P \OT1/ztmcm/m/n/10 =
+ []
+
+[30
+
+
+]
+Overfull \hbox (47.1159pt too wide) in paragraph at lines 89--102
+ [][] 
+ []
+
+[31]
+Overfull \hbox (48.48648pt too wide) in paragraph at lines 142--142
+ []|\T1/ptm/m/n/7 200771302400067787126123131419286927944400|
+ []
+
+
+Overfull \hbox (48.48648pt too wide) in paragraph at lines 143--143
+ []|\T1/ptm/m/n/7 200771302400067787126123131419286927944400|
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 163--164
+[]\T1/ptm/m/n/10 Changing 400 signed-layer edges shifts the un-bridged
+ []
+
+
+Overfull \hbox (6.73674pt too wide) detected at line 180
+[] [] \OT1/ztmcm/m/n/10 = []\OML/ztmcm/m/it/10 ;  [] [] \OT1/ztmcm/m/n/10 = []\
+OML/ztmcm/m/it/10 :
+ []
+
+[32]
+Underfull \hbox (badness 1478) in paragraph at lines 220--221
+[]\T1/ptm/m/n/10 A sep-a-rate C++ arbitrary-integer con-vo-lu-tion pro-duced
+ []
+
+[33]) (./exact_01.tex [34]
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+[]\T1/ptm/m/n/10 For dis-con-nected cor-rec-tion com-po-nents, lo-cal en-
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 53--54
+\T1/ptm/m/n/10 ergy/magnetization poly-no-mi-als mul-ti-ply and their co-ef-fi-
+
+ []
+
+[35
+
+
+]
+Underfull \hbox (badness 1231) in paragraph at lines 75--76
+\T1/ptm/m/n/10 generic elim-i-na-tion, ra-tio-nal re-sponses, cross-ing ties an
+d
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 96--97
+\T1/ptm/m/n/10 still needed by fu-ture resid-ual edges and the full vec-tor
+ []
+
+[36]) (./body04.tex [37
+
+] [38
+
+
+]
+Underfull \hbox (badness 5592) in paragraph at lines 178--182
+[]\T1/ptm/m/n/10 The ter-mi-nal equal-ity $\OML/ztmcm/m/it/10 W\OT1/ztmcm/m/n/1
+0 9 = \OML/ztmcm/m/it/10 X\OT1/ztmcm/m/n/10 1 + \OML/ztmcm/m/it/10 W\OT1/ztmcm/
+m/n/10 8$ \T1/ptm/m/n/10 is there-fore
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 178--182
+\T1/ptm/m/n/10 typed life-cy-cle short-hand, not or-di-nary ma-te-rial ad-di-ti
+on.
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 178--182
+\T1/pcr/m/n/10 SAMA-D000039 \T1/ptm/m/n/10 de-vel-ops that dis-tinc-tion and it
+s failed
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 225--227
+[]\T1/ptm/m/n/10 Composing the op-po-site signed trans-la-tion re-stores the
+ []
+
+[39]
+Underfull \hbox (badness 1675) in paragraph at lines 322--325
+[]\T1/ptm/m/n/10 logical prim-i-tive tran-si-tions. Se-quen-tial na-tive ex-e-c
+u-
+ []
+
+[40]
+Underfull \hbox (badness 1424) in paragraph at lines 579--584
+\T1/ptm/m/n/10 re-con-struc-tion, sep-a-rate re-solved re-sponse and re-main-de
+r,
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 625--630
+\T1/ptm/m/n/10 e-gated ser-vice in the frozen, non-cur-rent \T1/pcr/m/n/10 SLCV
+21R \T1/ptm/m/n/10 arith-
+ []
+
+[41]
+Underfull \hbox (badness 1221) in paragraph at lines 642--648
+\T1/ptm/m/n/10 ap-pli-ca-tion bound-ary hands for-ward to \T1/pcr/m/n/10 SAMA-D
+000056\T1/ptm/m/n/10 ;
+ []
+
+) (./body05.tex [42
+
+]
+Underfull \hbox (badness 1609) in paragraph at lines 117--121
+[]\T1/ptm/b/n/10 W9 / \T1/pcr/b/n/10 W9_CLOSURE_WITNESS\T1/ptm/b/n/10 . \T1/ptm
+/m/n/10 Type in this doc-u-
+ []
+
+[43
+
+
+]
+Underfull \hbox (badness 1953) in paragraph at lines 146--150
+\T1/ptm/m/n/10 records re-main vis-i-ble; What is not counted there:
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 225--227
+[]\T1/ptm/m/n/10 verify their frozen hashes and de-clared in-put/output
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+[]$\T1/pcr/m/n/10 S 8 _ B I N A R Y _ S U R F A C E$ \T1/ptm/m/n/10 : Bi-na-ry-
+Surface,
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 251--252
+[]$\T1/pcr/m/n/10 W 9 _ C L O S U R E _ W I T N E SS$ \T1/ptm/m/n/10 : Clo-sure
+-Wit-ness,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
+[]\T1/ptm/m/n/10 select the reg-is-tered fixed re-sult en-tity
+ []
+
+[44]
+Underfull \hbox (badness 1286) in paragraph at lines 312--316
+[]\T1/ptm/m/n/10 so the in-stalled fixed-result run-time con-tains zero bits
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 312--316
+\T1/ptm/m/n/10 of input-dependent W9 vari-a-tion. That is a runtime-
+ []
+
+[45]
+Underfull \hbox (badness 7504) in paragraph at lines 495--498
+[]\T1/ptm/b/n/10 CR261 20-row hold-out. \T1/ptm/m/n/10 Base-line RMS MeV:
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 495--498
+\T1/ptm/m/n/10 3.017113068; Can-di-date RMS MeV: 4.071613571;
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 498--501
+[]\T1/ptm/b/n/10 CR277 78-row ex-ten-sion. \T1/ptm/m/n/10 Base-line RMS MeV:
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 498--501
+\T1/ptm/m/n/10 7.974144225; Can-di-date RMS MeV: 8.067445504;
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 501--503
+[]\T1/ptm/b/n/10 CR277 118-row ob-served. \T1/ptm/m/n/10 Base-line RMS MeV:
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 501--503
+\T1/ptm/m/n/10 6.672483502; Can-di-date RMS MeV: 6.828884165;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 565--571
+[]\T1/ptm/m/n/10 The unique sur-vivor is QP093A-0305
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 565--571
+\T1/pcr/m/n/10 A_FIELD_CARRIER\T1/ptm/m/n/10 , with zero na-tive mass, zero ar-
+ity,
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 588--588
+|[]\T1/ptm/b/n/10 Correction: the Theta-normalized dual-depth
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--618
+[]\T1/ptm/m/n/10 Every reg-is-tered car-rier is sub-sti-tuted us-ing na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--618
+\T1/ptm/m/n/10 tive pay-load and par-ti-tion scalar. QP093A-0300
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 612--618
+\T1/pcr/m/n/10 TENSOR_CARRIER\T1/ptm/m/n/10 /Theta18 is the sole can-di-date th
+at
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 612--618
+\T1/ptm/m/n/10 re-pro-duces the com-plete lad-der in both com-par-isons.
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 612--618
+\T1/ptm/m/n/10 All 32 CR256 rows re-main ex-act to max-i-mum re-ported
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--618
+\T1/ptm/m/n/10 resid-ual \T1/pcr/m/n/10 5.000e-08\T1/ptm/m/n/10 ; only route de
+pth \T1/pcr/m/n/10 d=1 \T1/ptm/m/n/10 gives
+ []
+
+[46]
+Underfull \hbox (badness 1946) in paragraph at lines 639--642
+[]\T1/ptm/b/n/10 structural out-put fam-ily \T1/pcr/b/n/10 {6,9,18,54}\T1/ptm/b
+/n/10 . \T1/ptm/m/n/10 Re-sult:
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 702--706
+[]\T1/ptm/b/n/10 room-temperature NV. \T1/ptm/m/n/10 For-ward me-dian neg-a-tiv
+-ity:
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 729--732
+[]\T1/ptm/m/n/10 omitting or ex-chang-ing B and X1 ver-i-fies that the
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 732--736
+[]\T1/ptm/m/n/10 distinguishing \T1/pcr/m/n/10 W9_CLOSURE_WITNESS \T1/ptm/m/n/1
+0 from scalar-
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 736--739
+[]\T1/ptm/m/n/10 keeping all 105 records vis-i-ble while count-ing 100
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 736--739
+\T1/ptm/m/n/10 pre-vents source dele-tion from mas-querad-ing as an
+ []
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 786--789
+[]\T1/ptm/m/n/10 Theta18, not X1, per-forms the tested carrier-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 829--831
+[]\T1/pcr/b/n/10 SAMA-D000045\T1/ptm/b/n/10 . \T1/ptm/m/n/10 Con-nec-tion: Uses
+ re-tained
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 829--831
+\T1/ptm/m/n/10 W8/X1/W9 his-tory and Theta ac-tiv-ity in re-la-tional
+ []
+
+) (./body06.tex [48
+
+]
+Underfull \hbox (badness 1960) in paragraph at lines 18--23
+\T1/ptm/m/n/10 Directional com-pu-ta-tion keeps two things at once: the
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 52--61
+[]\T1/ptm/m/n/10 The in-stalled deriva-tion is cu-mu-la-tive be-cause sev-eral
+ []
+
+[49
+
+
+]
+Underfull \hbox (badness 1655) in paragraph at lines 224--228
+[]\T1/ptm/m/n/10 Replacing $\OML/ztmcm/m/it/10 e$ \T1/ptm/m/n/10 by its re-cip-
+ro-cal ori-en-ta-tion sends $\OML/ztmcm/m/it/10 U[]$ \T1/ptm/m/n/10 to
+ []
+
+[50] [51]) (./history_chapter.tex [52]
+Overfull \hbox (4.13959pt too wide) detected at line 17
+\OML/ztmcm/m/it/10 L\OT1/ztmcm/m/n/10 (1) = []\OML/ztmcm/m/it/10 ;  L\OT1/ztmcm
+/m/n/10 (8) = []\OML/ztmcm/m/it/10 ;  L\OT1/ztmcm/m/n/10 (8) \OMS/ztmcm/m/n/10 
+^^@ \OML/ztmcm/m/it/10 L\OT1/ztmcm/m/n/10 (1) = [] = 7\OML/ztmcm/m/it/10 :\OT1/
+ztmcm/m/n/10 4375\OML/ztmcm/m/it/10 :
+ []
+
+[53
+
+
+]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Missing character: There is no − ("2212) in font ptmr8t!
+) (./body07.tex [54]
+Underfull \hbox (badness 2221) in paragraph at lines 53--60
+\T1/ptm/m/n/10 1,024 canon-i-cal queries and 512 reciprocal/replicate-safe
+ []
+
+[55
+
+
+]
+Underfull \hbox (badness 1478) in paragraph at lines 187--190
+\T1/ptm/m/n/10 a-rately de-clared adapter/model; Out-put: application-
+ []
+
+[56] [57]
+Underfull \hbox (badness 1365) in paragraph at lines 583--588
+[]\T1/ptm/b/n/10 002. \T1/ptm/m/n/10 Fail-ure: code as-sumed uni-form group mul
+-ti-
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 593--598
+[]\T1/ptm/b/n/10 004. \T1/ptm/m/n/10 Fail-ure: a se-ri-al-izer could not carry 
+the ex-
+ []
+
+[58]
+Underfull \hbox (badness 6675) in paragraph at lines 618--622
+[]\T1/ptm/m/n/10 Attempt 001 ex-pected an \T1/pcr/m/n/10 assertions_passed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--622
+\T1/ptm/m/n/10 field, while the in-de-pen-dent re-ceipt records
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 678--681
+[]\T1/ptm/m/n/10 Promotion changed the live se-lec-tion pointer through
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 693--699
+\T1/ptm/m/n/10 Q1 and re-cov-ers ev-ery com-plete ex-act best set.
+ []
+
+) (./body08.tex [59]
+Underfull \hbox (badness 1292) in paragraph at lines 61--66
+\T1/ptm/m/n/10 state ac-count-ing, di-rec-tional con-tact, con-tin-u-ous
+ []
+
+[60
+
+
+]
+Underfull \hbox (badness 7168) in paragraph at lines 175--179
+\T1/ptm/m/n/10 The two event or-ders are lex-i-co-graphic and reverse-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--252
+[]\T1/ptm/m/n/10 The me-dian closure-minus-escape mar-gin is
+ []
+
+[61]
+Underfull \hbox (badness 1533) in paragraph at lines 281--284
+[]\T1/ptm/m/n/10 M126 re-tains record ori-gin with-out pro-mo-tion in 468
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 400--406
+\T1/ptm/m/n/10 pared with all 96 Star-breaker post-bounce unit-carrier
+ []
+
+[62]
+Underfull \hbox (badness 2547) in paragraph at lines 510--515
+[]\T1/pcr/m/n/10 CR:CR005h@21[] \T1/ptm/m/n/10 con-structs a com-plete 53,568-r
+ow per-
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 510--515
+\T1/ptm/m/n/10 occurrence trace-free quadrupole, in-di-vid-ual power, ex-act
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 562--566
+[]\T1/ptm/m/n/10 Candidate scores, thresh-olds, his-to-ries, flow and ev-ery
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 572--575
+[]\T1/ptm/m/n/10 CR005e fail-ure -> CR005f cor-rec-tion pre-com-mit ->
+ []
+
+[63]
+Underfull \hbox (badness 2293) in paragraph at lines 600--604
+[]\T1/ptm/m/n/10 There are 8,340 history-101 re-la-tions and 59,191,245
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 615--622
+\T1/ptm/m/n/10 do not es-tab-lish phys-i-cal tim-ing be-cause $\OML/ztmcm/m/it/
+10 ^^U$ \T1/ptm/m/n/10 is a stage-
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 714--719
+[]\T1/ptm/m/n/10 The ap-pli-ca-tion ev-i-dence is cu-mu-la-tive rather than se-
+
+ []
+
+
+Underfull \hbox (badness 4479) in paragraph at lines 714--719
+\T1/ptm/m/n/10 lec-tively cleaned. The external-collapse, typed-ledger,
+ []
+
+) (./applications_01.tex [64]
+Underfull \hbox (badness 6758) in paragraph at lines 8--9
+[]\T1/ptm/m/n/10 The ap-plied chain be-gins with Star-breaker's ac-tual
+ []
+
+[65
+
+
+] [66]) (./runtime_01.tex [67] [68
+
+
+] [69]
+Underfull \hbox (badness 1253) in paragraph at lines 117--118
+\T1/ptm/m/n/10 e-mat-i-cal con-se-quence. Each lo-cal quar-tic fam-ily closes
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 126--127
+\T1/ptm/m/n/10 The six co-op-er-at-ing GEN5 ker-nel fam-i-lies share ex-act
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 126--127
+\T1/ptm/m/n/10 ex-pres-sions, op-er-a-tor func-tions, ther-mal re-sponse, his-t
+o-
+ []
+
+) (./runtime_02.tex [70] [71
+
+
+] [72] [73]) (./exchange_chapter.tex [74
+
+]
+Overfull \hbox (34.8916pt too wide) detected at line 25
+\OML/ztmcm/m/it/10 a \OT1/ztmcm/m/n/10 = 8 + 96\OML/ztmcm/m/it/10 g;  b \OT1/zt
+mcm/m/n/10 = 8 + 32\OML/ztmcm/m/it/10 g;  h \OT1/ztmcm/m/n/10 = 1344\OML/ztmcm/
+m/it/10 g;  x \OT1/ztmcm/m/n/10 = \OML/ztmcm/m/it/10 q \OMS/ztmcm/m/n/10 ^^@ \O
+T1/ztmcm/m/n/10 (84 + 672\OML/ztmcm/m/it/10 g\OT1/ztmcm/m/n/10 )\OML/ztmcm/m/it
+/10 :
+ []
+
+[75
+
+
+]
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+[76]) (./applications_02.tex [77] [78
+
+
+]
+Underfull \hbox (badness 1173) in paragraph at lines 48--49
+[]\T1/ptm/m/n/10 The quo-tient re-tains method iden-ti-ties and fiber mul-ti-
+ []
+
+[79]
+Underfull \hbox (badness 2418) in paragraph at lines 84--85
+[]\T1/ptm/m/n/10 Validation se-lects an es-tab-lished momentum-Q3 di-rec-
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 84--85
+\T1/ptm/m/n/10 tion method with trans-verse as-sem-bly/response, an es-tab-
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 84--85
+\T1/ptm/m/n/10 macro-F1. The se-lected di-rec-tion read-out re-duces its
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 84--85
+\T1/ptm/m/n/10 measured-jet start-ing er-ror from $\OT1/ztmcm/m/n/10 0\OML/ztmc
+m/m/it/10 :\OT1/ztmcm/m/n/10 010917399$ \T1/ptm/m/n/10 ra-di-ans by
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 88--89
+\T1/ptm/m/n/10 The com-pleted method mem-ory con-se-quently records ac-
+ []
+
+[80]) (./response_01.tex [81
+
+]
+Underfull \hbox (badness 1715) in paragraph at lines 37--37
+|[]\T1/ptm/b/n/10 Five orig-i-nal tra-jec-to-ries re-ceived the re-fined
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 41--42
+[]\T1/ptm/m/n/10 All five suc-ces-sor cases com-plete, each with its full
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 41--42
+\T1/ptm/m/n/10 in-de-pen-dent re-pro-duc-tion. They ex-e-cute 4,781 orig-i-nal
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 41--42
+\T1/ptm/m/n/10 re-con-structs the signed source paths with sep-a-rate high-
+ []
+
+[82
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+[]\T1/ptm/m/n/10 For the com-pleted five-coordinate ba-sis $\OML/ztmcm/m/it/10 
+b[] \OT1/ztmcm/m/n/10 =
+ []
+
+[83]) (./rh_chapter.tex [84]
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+
+Underfull \hbox (badness 3009) in paragraph at lines 45--46
+\T1/ptm/m/n/10 The di-vi-sor cal-cu-la-tion groups ac-tual signed factor-pair
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 45--46
+\T1/ptm/m/n/10 terms into prod-uct bands while re-tain-ing all in-ter-band
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 45--46
+\T1/ptm/m/n/10 is ap-prox-i-mately 28,252.560385784 and the signed cross
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 45--46
+\T1/ptm/m/n/10 sum is 28,252.184906209; their joint re-tained en-ergy is
+ []
+
+[85
+
+
+]
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+
+Overfull \hbox (5.84172pt too wide) in paragraph at lines 148--148
+[]|\T1/ptm/m/n/7 [0.069410267,+0.075024700]|  
+ []
+
+Missing character: There is no − ("2212) in font ptmr8t!
+
+Overfull \hbox (5.84172pt too wide) in paragraph at lines 149--149
+[]|\T1/ptm/m/n/7 [0.096696737,+0.106700383]|  
+ []
+
+Missing character: There is no − ("2212) in font ptmr8t!
+
+Overfull \hbox (5.84172pt too wide) in paragraph at lines 150--150
+[]|\T1/ptm/m/n/7 [0.072035796,+0.081854948]|  
+ []
+
+) (./body09.tex [86] [87]
+Underfull \hbox (badness 1092) in paragraph at lines 53--57
+[]\T1/ptm/m/n/10 Scaling $\OML/ztmcm/m/it/10 r \OMS/ztmcm/m/n/10 7! \OML/ztmcm/
+m/it/10 nr$ \T1/ptm/m/n/10 be-comes $\OML/ztmcm/m/it/10 u \OMS/ztmcm/m/n/10 7! 
+\OML/ztmcm/m/it/10 u \OT1/ztmcm/m/n/10 + [] \OML/ztmcm/m/it/10 n$\T1/ptm/m/n/10
+ , and the half-
+ []
+
+[88
+
+
+]
+Underfull \hbox (badness 1005) in paragraph at lines 209--213
+\T1/ptm/m/n/10 history-prime Eu-ler co-ef-fi-cient di-rectly with the ordinary-
+
+ []
+
+[89] [90]
+Underfull \hbox (badness 1168) in paragraph at lines 501--508
+\T1/ptm/m/n/10 data ab-so-lute PNT2 ma-jo-rant route. The iso-lated pole--
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 501--508
+\T1/ptm/m/n/10 Gamma--Lebesgue de-ter-min-is-tic frame also has neg-a-tive
+ []
+
+[91]
+Underfull \hbox (badness 1584) in paragraph at lines 623--626
+[]\T1/ptm/m/n/10 Identify the P2 his-tory co-ef-fi-cient di-rectly with the
+ []
+
+) (./arithmetic_01.tex [92]
+Underfull \hbox (badness 1127) in paragraph at lines 4--4
+|[]\T1/ptm/b/n/10 From the arith-metic in-ter-face to an ex-e-cutable
+ []
+
+[93
+
+
+]
+Underfull \hbox (badness 1571) in paragraph at lines 216--222
+\T1/ptm/m/n/10 all-scale de-ter-mi-nant es-ti-mate re-mains the named source
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 232--240
+[]\T1/ptm/m/n/10 For the re-tained rank-40 packet at pole $\OT1/ztmcm/m/n/10 33
+\OML/ztmcm/m/it/10 =\OT1/ztmcm/m/n/10 2$ \T1/ptm/m/n/10 and pa-
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 232--240
+\T1/ptm/m/n/10 ram-e-ter $\OT1/ztmcm/m/n/10 1\OML/ztmcm/m/it/10 =\OT1/ztmcm/m/n
+/10 3$\T1/ptm/m/n/10 , the whole $\OML/ztmcm/m/it/10 h[]$ \T1/ptm/m/n/10 re-spo
+nse is $\OT1/ztmcm/m/n/10 2\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 50093808544$\T
+1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--240
+\T1/ptm/m/n/10 against Galerkin $\OT1/ztmcm/m/n/10 2\OML/ztmcm/m/it/10 :\OT1/zt
+mcm/m/n/10 49293778112$\T1/ptm/m/n/10 , with cor-rec-tion
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 232--240
+\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 00800030431736$\T1/ptm
+/m/n/10 . The rank-40 half-pole cal-cu-la-tion
+ []
+
+[94]
+Underfull \hbox (badness 1117) in paragraph at lines 327--332
+\T1/ptm/m/n/10 product pay-ment. At $\OML/ztmcm/m/it/10 " \OT1/ztmcm/m/n/10 = 1
+\OML/ztmcm/m/it/10 =\OT1/ztmcm/m/n/10 2$\T1/ptm/m/n/10 , an el-e-men-tary up-pe
+r is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--404
+\T1/ptm/m/n/10 The com-pleted fixed-margin pay-ment $\OT1/ztmcm/m/n/10 16\OML/z
+tmcm/m/it/10 `[]$ \T1/ptm/m/n/10 is
+ []
+
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 415--423
+\T1/ptm/m/n/10 Native com-po-si-tion re-tains the full mixed Gram
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--423
+\T1/ptm/m/n/10 of $\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 `; J[]\OT1/ztmcm/m/n/1
+0 )$\T1/ptm/m/n/10 , in-clud-ing their neg-a-tive cor-re-la-tion.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--423
+\T1/ptm/m/n/10 Con-se-quently the positive-payment deriva-tive is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--423
+\OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 0
+00151581702305060533 []$\T1/ptm/m/n/10 , while the negative-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--423
+\T1/ptm/m/n/10 square deriva-tive is $\OT1/ztmcm/m/n/10 +0\OML/ztmcm/m/it/10 :\
+OT1/ztmcm/m/n/10 000350438333171710846 []$\T1/ptm/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--423
+\T1/ptm/m/n/10 Their sum is the ac-tual cross-ing deriva-tive
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 438--438
+|[]\T1/ptm/b/n/10 Complete tran-si-tion re-cip-i-ents and the re-tained
+ []
+
+) (./body10.tex [96
+
+]
+Underfull \hbox (badness 1527) in paragraph at lines 24--31
+\T1/ptm/m/n/10 The Mersenne ap-pli-ca-tion be-gins from an owner-defined
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 125--126
+[]\T1/ptm/m/n/10 factor as-signed OR fi-nite miss re-mains PRI-MAL-
+ []
+
+[97
+
+
+] [98]
+Underfull \hbox (badness 1127) in paragraph at lines 356--358
+[]\T1/ptm/m/n/10 This ob-ject records change be-tween con-sec-u-tive prime
+ []
+
+[99]
+Underfull \hbox (badness 3199) in paragraph at lines 499--501
+[]\T1/ptm/b/n/10 exact Lucas--Lehmer ter-mi-nal. \T1/ptm/m/n/10 Au-tho-rized ty
+pe:
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 518--518
+|[]\T1/ptm/b/n/10 Harmony and tran-si-tion dis-cov-ery: MP-S1
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 542--542
+|[]\T1/ptm/b/n/10 Compilation and blind-range anatomy: MP-
+ []
+
+[100]
+Underfull \hbox (badness 1910) in paragraph at lines 703--706
+[]\T1/ptm/m/n/10 the ac-tive re-mote M143064041 power-9 run is not
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 709--714
+\T1/ptm/m/n/10 31/127-versus-fixed-L162 ro-tated com-par-i-son re-mains
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 738--742
+\T1/pcr/m/n/10 22/22 \T1/ptm/m/n/10 and \T1/pcr/m/n/10 12/12\T1/ptm/m/n/10 ; pr
+oducer-independent re-con-struc-tion
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 746--754
+\T1/ptm/m/n/10 car-ries ex-act state through a chun-ked CAS cer-tifi-cate
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 761--767
+[]\T1/ptm/m/n/10 Topology-derived end-point ob-ser-va-tion is in-stalled, but
+ []
+
+[101]) (./arithmetic_02.tex [102
+
+]
+Underfull \hbox (badness 7203) in paragraph at lines 90--99
+[]\T1/ptm/m/n/10 The staged p2--p292 work-load com-bines composite-
+ []
+
+[103
+
+
+]
+Underfull \hbox (badness 3138) in paragraph at lines 132--139
+[]\T1/ptm/m/n/10 Recovery plus project me-di-ans are $\OT1/ztmcm/m/n/10 4\OML/z
+tmcm/m/it/10 :\OT1/ztmcm/m/n/10 042923356$ \T1/ptm/m/n/10 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--157
+[]\T1/ptm/m/n/10 In the com-pleted eval-u-a-tion, \T1/pcr/m/n/10 LOW_FIRST \T1/
+ptm/m/n/10 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--184
+[]\T1/ptm/m/n/10 The com-bined con-troller in-ves-ti-gates 28 sup-ported
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 196--208
+[]\T1/ptm/m/n/10 Resident GPU his-tory has its own achieved con-sumer.
+ []
+
+
+Underfull \hbox (badness 4254) in paragraph at lines 209--209
+|[]\T1/ptm/b/n/10 Shared pow-ers and source-bound arith-metic
+ []
+
+[104]
+Underfull \hbox (badness 2057) in paragraph at lines 318--332
+\T1/ptm/m/n/10 premises; RH trees con-sume the orig-i-nal signed co-ef-fi-
+ []
+
+) (./prime_main.tex [105]
+Overfull \hbox (22.98012pt too wide) detected at line 25
+\OML/ztmcm/m/it/10 F\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 e \OMS/ztmcm/m/n/10 j
+ \OML/ztmcm/m/it/10 r[]; r[]\OT1/ztmcm/m/n/10 ) = \OMS/ztmcm/m/n/10 ^^@ [] []f\
+OT1/ztmcm/m/n/10 2 [][(\OML/ztmcm/m/it/10 Wx\OT1/ztmcm/m/n/10 )[] + \OML/ztmcm/
+m/it/10 ^^Q[]\OT1/ztmcm/m/n/10 ]\OMS/ztmcm/m/n/10 g \OT1/ztmcm/m/n/10 = \OML/zt
+mcm/m/it/10 C\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 r[]; r[]\OT1/ztmcm/m/n/10 ) 
++ \OML/ztmcm/m/it/10 eH\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 r[]; r[]\OT1/ztmcm
+/m/n/10 )\OML/ztmcm/m/it/10 ;
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 33--34
+[]\T1/ptm/m/n/10 The equi-lib-rium prob-a-bil-ity of an ac-cept-ing out-put is
+ []
+
+
+Underfull \hbox (badness 4366) in paragraph at lines 35--36
+[]\T1/ptm/m/n/10 For the base-line u=4 and t=2, the co-ef-fi-cients are
+ []
+
+[106
+
+
+]
+Underfull \hbox (badness 2980) in paragraph at lines 39--40
+\T1/ptm/m/n/10 The ex-per-i-ment re-tains all 2^^B7=128 free-spin con-fig-u-ra-
+
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 45--46
+[]\T1/ptm/m/n/10 The fi-nal sam-pled state ini-tial-izes the next can-di-date
+ []
+
+[107]
+Underfull \hbox (badness 7433) in paragraph at lines 106--107
+\T1/ptm/m/n/10 A base-line pro-file pair ex-poses a con-crete feed-back
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 106--107
+\T1/ptm/m/n/10 path. Rough seed 1000053 ac-cepts an ex-tra com-pos-
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 106--107
+\T1/ptm/m/n/10 ite at 312,596,611. That changes event-count par-ity.
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 106--107
+\T1/ptm/m/n/10 ters a dif-fer-ent bank than in the uni-form part-ner. At
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 112--113
+\T1/ptm/m/n/10 For a Pois-son ref-er-ence with mean er-ror count lambda,
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 112--113
+\T1/ptm/m/n/10 uni-form mean is 284/64=4.4375, giv-ing 0.011825, com-
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 112--113
+\T1/ptm/m/n/10 mean is 20/64=0.3125, giv-ing 0.731616, com-pared with
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 118--119
+[]\T1/ptm/m/n/10 The ideal-history cen-sus con-tains 50,847,534 no-return
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 118--119
+\T1/ptm/m/n/10 bank-1-only can-di-dates and 742,094,273 both-bank can-
+ []
+
+
+Underfull \hbox (badness 7047) in paragraph at lines 118--119
+\T1/ptm/m/n/10 di-dates, to-tal-ing 999,999,999 de-ci-sions. The re-sult-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+\T1/ptm/m/n/10 ing uniform-profile nu-mer-i-cal sur-vival en-velopes are
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 124--125
+\T1/ptm/m/n/10 pared. Sum-ming ab-so-lute cou-plings gives B_J=4u+12t.
+ []
+
+
+Underfull \hbox (badness 5756) in paragraph at lines 124--125
+\T1/ptm/m/n/10 In-clud-ing the four hid-den fields gives B_Jeta=4u+16t.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+\T1/ptm/m/n/10 Base-line bud-gets are (40,48); bal-anced bud-gets are
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 124--125
+\T1/ptm/m/n/10 are di-men-sion-less source-strength con-ven-tions; no de-vice
+ []
+
+[108]) (./prime_continuation.tex [109]
+Overfull \hbox (43.15865pt too wide) detected at line 15
+\OML/ztmcm/m/it/10 a\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 ^^L; u\OT1/ztmcm/m/n/
+10 ) = []\OML/ztmcm/m/it/10 ;  b\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 ^^L; t\OT
+1/ztmcm/m/n/10 ) = []\OML/ztmcm/m/it/10 :
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 15--17
+\T1/ptm/m/n/10 The fi-nite three-reading ex-per-i-ment re-tains the full state
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 24--25
+\T1/ptm/m/n/10 or-der-ing, tem-per-a-ture, source point-ers and aliases. The
+ []
+
+[110
+
+
+]
+Underfull \hbox (badness 1584) in paragraph at lines 59--60
+\T1/ptm/m/n/10 while re-tain-ing the same read-out. At $\OML/ztmcm/m/it/10 u \O
+T1/ztmcm/m/n/10 = 5$\T1/ptm/m/n/10 , the an-a-
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 70--72
+\T1/ptm/m/n/10 with de-nom-i-na-tor $\OT1/ztmcm/m/n/10 2[]$\T1/ptm/m/n/10 . Thi
+s counts retained-state paths
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 70--72
+\T1/ptm/m/n/10 through all three read-ings. It es-tab-lishes ex-act-ness for
+ []
+
+[111]
+Underfull \hbox (badness 1953) in paragraph at lines 84--85
+\T1/ptm/m/n/10 events and zero er-rors. Resident-reference, continuous-
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 88--89
+[]\T1/ptm/m/n/10 The in-stalled lo-cal re-source suc-ces-sor pre-served seed
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 92--93
+\T1/ptm/m/n/10 three false emis-sions and no missed primes. The false
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 92--93
+\T1/ptm/m/n/10 po-si-tions were $\OT1/ztmcm/m/n/10 2[]274[]828[]165[]298$\T1/pt
+m/m/n/10 , $\OT1/ztmcm/m/n/10 2[]379[]059[]006[]438$ \T1/ptm/m/n/10 and
+ []
+
+[112]
+Underfull \hbox (badness 2913) in paragraph at lines 118--119
+\T1/ptm/m/n/10 put $\OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 1$ \T1/ptm/m/n/10 an
+d have ac-cep-tance mass $\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n
+/10 999999999093968$\T1/ptm/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 3503) in paragraph at lines 118--119
+\T1/ptm/m/n/10 Their con-di-tional trans-forms at $\OML/ztmcm/m/it/10 z \OT1/zt
+mcm/m/n/10 = 1$ \T1/ptm/m/n/10 are nev-er-the-less
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 9999998550562574$ \T1/
+ptm/m/n/10 and $\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 225226
+3286074421$\T1/ptm/m/n/10 . Di-
+ []
+
+
+Underfull \hbox (badness 7907) in paragraph at lines 118--119
+\T1/ptm/m/n/10 rected mean-clock bounds put the first mean be-low
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 143--145
+\T1/ptm/m/n/10 These are re-spec-tively the prepa-ra-tion re-place-ment, first-
+
+ []
+
+) (./body11.tex [113] [114
+
+] [115
+
+
+]
+Underfull \hbox (badness 1057) in paragraph at lines 294--295
+[]\T1/ptm/m/n/10 Those branches es-cape with mag-ni-tude pro-por-tional to
+ []
+
+[116]
+Underfull \hbox (badness 10000) in paragraph at lines 430--433
+[]\T1/ptm/m/n/10 This di-rectly joins the append-only reel of
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 430--433
+\T1/ptm/m/n/10 rier, in-ter-sec-tion or mat-ter ledger con-sumes the full JC1
+ []
+
+[117]
+Underfull \hbox (badness 2261) in paragraph at lines 501--505
+[]\T1/ptm/m/n/10 Two im-ple-men-ta-tion at-tempts are pre-served: NumPy-
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 568--568
+|[]\T1/ptm/b/n/10 HF6T/HF6TF: blinded jet rule and trans-fer
+ []
+
+[118]
+Underfull \hbox (badness 1642) in paragraph at lines 610--617
+\T1/ptm/m/n/10 u-lar cy-cle types re-con-struct. A re-peated edge re-mains
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 715--720
+[]\T1/ptm/b/n/10 JCR1-6. \T1/ptm/m/n/10 Work: re-veal JC1/HF3--HF6TH ob-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 715--720
+\T1/ptm/m/n/10 ser-va-tions one at a time; Re-quired out-put
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 715--720
+\T1/ptm/m/n/10 or bound-ary: rediscovered/compatible/scaffold-
+ []
+
+[119]
+Underfull \hbox (badness 2368) in paragraph at lines 791--796
+\T1/ptm/m/n/10 The es-tab-lished cur-rent re-sult is the iso-lated JC1 al-ge-
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 791--796
+\T1/ptm/m/n/10 bra/monodromy and endpoint-history dis-tinc-tion, to-gether
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 797--801
+[]\T1/ptm/m/n/10 The next math-e-mat-i-cal step is the un-ex-e-cuted source-
+ []
+
+) (./body12.tex [120
+
+]
+Underfull \hbox (badness 1199) in paragraph at lines 19--24
+\T1/ptm/m/n/10 cussed at dif-fer-ent scales: a nonzero ac-cu-mu-la-tion field
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 39--42
+[]\T1/ptm/m/n/10 This doc-u-ment records an owner-originated con-cep-tual
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 78--79
+\T1/ptm/b/n/10 vives co-her-ent com-po-si-tion, al-low-ing particle-
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 78--79
+\T1/ptm/b/n/10 macro-scopic and galac-tic ac-cu-mu-la-tion struc-
+ []
+
+[121
+
+
+]
+Underfull \hbox (badness 1917) in paragraph at lines 145--145
+|[]\T1/ptm/b/n/10 Exact com-po-si-tion rather than point-particle
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--182
+[]\T1/ptm/m/n/10 their source-conditioned do-mains over-lap in the
+ []
+
+[122]
+Underfull \hbox (badness 1412) in paragraph at lines 345--349
+\T1/ptm/m/n/10 The two source-conditioned writes are car-ried sep-a-rately.
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 402--408
+\T1/ptm/m/n/10 through counts, in-de-pen-dent re-la-tion rows and sep-a-rately
+ []
+
+[123]
+Underfull \hbox (badness 1460) in paragraph at lines 467--470
+[]\T1/ptm/m/n/10 Determine which in-ter-ac-tion data se-lects or re-duces
+ []
+
+) (./connections_01.tex [124
+
+] [125
+
+
+]) [126
+
+] [127
+
+
+] (./engine_part2.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 2.
+
+[128
+
+] [129
+
+
+
+]
+Underfull \hbox (badness 1924) in paragraph at lines 61--67
+\T1/ptm/b/n/10 Au-gust). \T1/ptm/m/n/10 SLCV1.1 (H000142), SLCV1.2 with depth-9
+
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 61--67
+\T1/ptm/m/n/10 train-ing on 60,123,392 cases (H000143), SLCV1.3 with
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 61--67
+\T1/ptm/m/n/10 ex-act block depths 1--18 (H000207), then the graph-
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 68--73
+[]\T1/ptm/b/n/10 SLCV21R and the re-ceipt Gram (15--17 Au-gust).
+ []
+
+Missing character: There is no − ("2212) in font ptmr8t!
+[130
+
+
+] [131
+
+] [132
+
+
+] [133
+
+]
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no √ ("221A) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no ρ ("3C1) in font ptmr8t!
+Missing character: There is no κ ("3BA) in font ptmr8t!
+Missing character: There is no κ ("3BA) in font ptmr8t!
+Missing character: There is no Γ ("393) in font ptmr8t!
+Missing character: There is no κ ("3BA) in font ptmr8t!
+Missing character: There is no ρ ("3C1) in font ptmr8t!
+Missing character: There is no τ ("3C4) in font ptmr8t!
+Missing character: There is no Ξ ("39E) in font ptmr8t!
+Missing character: There is no ν ("3BD) in font ptmr8t!
+Missing character: There is no ₀ ("2080) in font ptmr8t!
+
+Underfull \hbox (badness 7944) in paragraph at lines 210--214
+[]\T1/ptm/m/n/10 Readout sta-tuses are part of the con-tract. DE-
+ []
+
+Missing character: There is no ż ("17C) in font ptmr8t!
+Missing character: There is no ṗ ("1E57) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no ȧ ("227) in font ptmr8t!
+Missing character: There is no Γ ("393) in font ptmr8t!
+Missing character: There is no ε ("3B5) in font ptmr8t!
+Missing character: There is no ᵀ ("1D40) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no ᵀ ("1D40) in font ptmr8t!
+Missing character: There is no ᵀ ("1D40) in font ptmr8t!
+Missing character: There is no Γ ("393) in font ptmr8t!
+[134
+
+
+] [135
+
+] [136
+
+
+] [137]
+Underfull \hbox (badness 1014) in paragraph at lines 345--350
+\T1/ptm/m/n/10 One ad-mis-sion win-dow, 900 sec-onds by de-fault, opened
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 345--350
+\T1/ptm/m/n/10 by $\T1/pcr/m/n/10 R O U N D 1 \ _ S T A R T . j s on$ \T1/ptm/m
+/n/10 and closed by $\T1/pcr/m/n/10 R O U N
+ []
+
+[138
+
+
+] [139
+
+]
+Missing character: There is no ≤ ("2264) in font ptmr8t!
+Missing character: There is no ≤ ("2264) in font ptmr8t!
+
+Underfull \hbox (badness 5548) in paragraph at lines 419--422
+[]\T1/ptm/m/n/10 A cer-ti-fied solve of a sin-gu-lar ma-trix is COM-
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 419--422
+\T1/ptm/m/n/10 PLETED with IN-VERT-IBIL-ITY_UNRESOLVED; a
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 419--422
+\T1/ptm/m/n/10 rank of an ex-actly rank-deficient ma-trix may re-turn
+ []
+
+[140
+
+
+]
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no ₀ ("2080) in font ptmr8t!
+Missing character: There is no Λ ("39B) in font ptmr8t!
+Missing character: There is no ψ ("3C8) in font ptmr8t!
+Missing character: There is no ̇ ("307) in font ptmr8t!
+Missing character: There is no η ("3B7) in font ptmr8t!
+Missing character: There is no Λ ("39B) in font ptmr8t!
+Missing character: There is no ̇ ("307) in font ptmr8t!
+Missing character: There is no Λ ("39B) in font ptmr8t!
+Missing character: There is no Λ ("39B) in font ptmr8t!
+Missing character: There is no ̇ ("307) in font ptmr8t!
+Missing character: There is no Λ ("39B) in font ptmr8t!
+Missing character: There is no α ("3B1) in font ptmr8t!
+Missing character: There is no α ("3B1) in font ptmr8t!
+Missing character: There is no ₀ ("2080) in font ptmr8t!
+Missing character: There is no Λ ("39B) in font ptmr8t!
+Missing character: There is no ₀ ("2080) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no √ ("221A) in font ptmr8t!
+Missing character: There is no Γ ("393) in font ptmr8t!
+Missing character: There is no τ ("3C4) in font ptmr8t!
+[141
+
+
+]
+Underfull \hbox (badness 1127) in paragraph at lines 475--475
+|[]\T1/ptm/b/n/10 IX.1 peer_restore_next (19 Oc-to-ber, 22:00Z): the
+ []
+
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no √ ("221A) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no Σ ("3A3) in font ptmr8t!
+Missing character: There is no ≤ ("2264) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no ₇ ("2087) in font ptmr8t!
+Missing character: There is no ≈ ("2248) in font ptmr8t!
+Missing character: There is no γ ("3B3) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no ∤ ("2224) in font ptmr8t!
+Missing character: There is no ≥ ("2265) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no ⁻ ("207B) in font ptmr8t!
+Missing character: There is no ⁴ ("2074) in font ptmr8t!
+Missing character: There is no ⁷ ("2077) in font ptmr8t!
+Missing character: There is no ₀ ("2080) in font ptmr8t!
+Missing character: There is no π ("3C0) in font ptmr8t!
+[142
+
+
+]
+Missing character: There is no Δ ("394) in font ptmr8t!
+Missing character: There is no Δ ("394) in font ptmr8t!
+Missing character: There is no κ ("3BA) in font ptmr8t!
+Missing character: There is no → ("2192) in font ptmr8t!
+Missing character: There is no κ ("3BA) in font ptmr8t!
+Missing character: There is no √ ("221A) in font ptmr8t!
+Missing character: There is no Γ ("393) in font ptmr8t!
+[143] [144
+
+
+
+]
+Underfull \hbox (badness 2181) in paragraph at lines 614--617
+[]\T1/ptm/b/n/10 Installed on 20 Oc-to-ber 2026, 23:00Z. \T1/ptm/m/n/10 Duck 2.
+3.1,
+ []
+
+Missing character: There is no √ ("221A) in font ptmr8t!
+Missing character: There is no Γ ("393) in font ptmr8t!
+[145
+
+
+
+]
+Missing character: There is no Φ ("3A6) in font ptmr8t!
+Missing character: There is no → ("2192) in font ptmr8t!
+Missing character: There is no ℓ ("2113) in font ptmr8t!
+Missing character: There is no ̄ ("304) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+Missing character: There is no Δ ("394) in font ptmr8t!
+Missing character: There is no ℓ ("2113) in font ptmr8t!
+Missing character: There is no → ("2192) in font ptmr8t!
+Missing character: There is no Δ ("394) in font ptmr8t!
+Missing character: There is no → ("2192) in font ptmr8t!
+Missing character: There is no − ("2212) in font ptmr8t!
+
+Overfull \hbox (49.96059pt too wide) in paragraph at lines 677--677
+[]|\T1/ptm/m/n/7 FAILED_WITH_RETAINED_OUTCOMES 
+ []
+
+Missing character: There is no π ("3C0) in font ptmr8t!
+
+Overfull \hbox (50.83559pt too wide) in paragraph at lines 678--678
+[]|\T1/ptm/m/n/7 FAILED_WITH_RETAINED_OUTCOMES, 
+ []
+
+Missing character: There is no φ ("3C6) in font ptmr8t!
+
+Overfull \hbox (49.96059pt too wide) in paragraph at lines 682--682
+[]|\T1/ptm/m/n/7 FAILED_WITH_RETAINED_OUTCOMES 
+ []
+
+
+Overfull \hbox (2.02483pt too wide) in paragraph at lines 684--684
+[]|\T1/ptm/m/n/7 STOPPED_INCOMPLETE 
+ []
+
+Missing character: There is no ₄ ("2084) in font ptmr8t!
+
+LaTeX Warning: Float too large for page by 169.60358pt on input line 687.
+
+Missing character: There is no ⁵ ("2075) in font ptmr8t!
+Missing character: There is no ⁷ ("2077) in font ptmr8t!
+Missing character: There is no ≤ ("2264) in font ptmr8t!
+Missing character: There is no ≲ ("2272) in font ptmr8t!
+Missing character: There is no ⁻ ("207B) in font ptmr8t!
+Missing character: There is no ⁶ ("2076) in font ptmr8t!
+
+Underfull \hbox (badness 1960) in paragraph at lines 711--714
+[]\T1/ptm/b/n/10 Peers' host tools. \T1/ptm/m/n/10 sympy's $\T1/pcr/m/n/10 . r 
+a n k()$ \T1/ptm/m/n/10 on a 36-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 728--731
+[]\T1/ptm/b/n/10 The ver-i-fi-ca-tion form \T1/ptm/m/n/10 (adopted 21 Oc-to-ber
+,
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 728--731
+\T1/ptm/m/n/10 and the lead's pre-registered pre-dic-tions are scored,
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 742--745
+[]\T1/ptm/b/n/10 Precheck open-ings of-fline \T1/ptm/m/n/10 through the core's 
+own
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 742--745
+\T1/ptm/m/n/10 adapter be-fore de-ploy-ing; a re-fused open-ing in the
+ []
+
+[146
+
+
+] [147]
+Underfull \hbox (badness 3039) in paragraph at lines 748--750
+[]\T1/ptm/b/n/10 Size ex-act tasks for the win-dow \T1/ptm/m/n/10 (pro-posed af
+-ter
+ []
+
+Missing character: There is no Γ ("393) in font ptmr8t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 773--777
+\T1/ptm/m/n/10 H002729, H002730, H002734, H002736, H002743--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--786
+[]\T1/ptm/m/n/10 Campaign run re-ports (iron-clad $\T1/pcr/m/n/10 c a m p a i g
+ n s/$\T1/ptm/m/n/10 ):
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--786
+\T1/ptm/m/n/10 peer_restore_20261019 (NEXT_RUN_REPORT.md),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--786
+\T1/ptm/m/n/10 aq_identification_20261019, rest-ing_clock_20261019,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--786
+\T1/ptm/m/n/10 feop_bound_c02_20261020 (RUN_REPORT.md,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--786
+\T1/ptm/m/n/10 re-run/, run3/), feop_sidebyside_20261020,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--786
+\T1/ptm/m/n/10 feop_bracket_fiber_20261020, voli_lapse_20261020, ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--786
+\T1/ptm/m/n/10 plore_voli_threads_20261020, spin_work_20261020; the
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 782--786
+\T1/ptm/m/n/10 re-tained Codex cam-paign spin_memory_20261019; sand-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--786
+\T1/ptm/m/n/10 box branch sandbox/feedback-lapse-20261020 (FEED-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 787--788
+[]\T1/ptm/m/n/10 Archive (SAM_Research_Project, read-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 787--788
+\T1/ptm/m/n/10 only): GEN4/furious_open1/PROTOCOL.md;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 787--788
+\T1/ptm/m/n/10 GEN4/duck_process1/RUN_CYCLE.md;
+ []
+
+) [148] (./source_register.tex [149
+
+
+
+
+] [150] [151] [152]) [153] (./book.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+Package rerunfilecheck Info: File `book.out' has not changed.
+(rerunfilecheck)             Checksum: E3449DD4FD0AC909EDB374AD336480AD;14254.
+ ) 
+Here is how much of TeX's memory you used:
+ 16800 strings out of 476878
+ 282957 string characters out of 5805248
+ 1950627 words of memory out of 5000000
+ 38372 multiletter control sequences out of 15000+600000
+ 621929 words of font info for 141 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 77i,14n,82p,1892b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on book.pdf (153 pages).
