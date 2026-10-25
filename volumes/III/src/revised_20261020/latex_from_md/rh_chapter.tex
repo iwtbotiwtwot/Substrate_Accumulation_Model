@@ -1,0 +1,185 @@
+\chapter{Signed Arithmetic Energy and Conditional Continuation}\label{signed-arithmetic-energy-and-conditional-continuation}
+
+\section{Retaining the original full energy makes history computable}\label{retaining-the-original-full-energy-makes-history-computable}
+
+The RH application computes exact signed Möbius source energies while preserving their original mean, centered prefixes and metric. That retained state supports spectral readout, signed scale transport, explanation of excursions and finite future certificates. The attached research paper reports 12,836 complete forcing prefixes, exact conditional four-admission bounds at demanding states and a proved conditional implication from a continuing source estimate to the Riemann Hypothesis. These are distinct results with distinct scopes. {[}RH, pp4--10{]}
+
+For a positive dyadic scale \(s\) and a stop \(0\le t\le s\), define \(a_i=\mu(s+i)\) for \(i<t\) and \(a_i=0\) afterward. The Möbius function is zero on integers with a repeated prime factor and is \((-1)^k\) on a product of \(k\) distinct primes. Put \(M_a=\sum_i a_i\) and define the centered prefix
+
+\[
+q_a(r)=\sum_{i<r}a_i-\frac{rM_a}{s}.
+\]
+
+The full source energy is
+
+\[
+Q_s(a)=\frac{M_a^2}{s}+\sum_{r=1}^{s-1}\frac{q_a(r)^2}{r(s-r)}.
+\]
+
+Its positive-definite kernel \(K_s\) has inverse \(\Pi+L_s\), where \(\Pi\) projects onto constant vectors and \(L_s\) is the path Laplacian with edge weights \(r(s-r)\). The constant eigenvalue of \(K_s\) is one; its other eigenvalues are \(1/[k(k+1)]\), \(1\le k<s\). For normalized eigenmodes \(\phi_k\), define \(z_k=\sum_i a_i\phi_k(i)\). The full energy then has the exact spectral representation
+
+\[
+Q_s(a)=z_0^2+\sum_{k=1}^{s-1}\frac{z_k^2}{k(k+1)}.
+\]
+
+Expanding in these polynomial modes preserves the original energy as a weighted sum of squared source coefficients. {[}RH, pp4--5{]}
+
+A truncated mode sum \(F_m\) through \(m=\min(s-1,\lceil\sqrt s\rceil)\) has uniform omitted energy at most one. Put \(N_a=\sum_i a_i^2\le s\). When \(m<s-1\), orthonormality gives the explicit enclosure
+
+\[
+0\le Q_s(a)-F_m\le\frac{N_a-\sum_{k=0}^{m}z_k^2}{(m+1)(m+2)}\le1.
+\]
+
+When every mode is retained the tail is zero. This is a proved geometric enclosure, rather than an empirical statement inferred from the observed prefixes.
+
+The first nonconstant mode explicitly consumes history. With integer-normalized \(p_1(i)=s-1-2i\) and signed prefixes \(P_r=\sum_{i<r}a_i\), summation by parts gives
+
+\[
+A_1=(s-2t+1)M_a+2\sum_{r=1}^{t-1}P_r.
+\]
+
+At \((s,t)=(8192,6994)\), \(M_a=-10\) and the signed prefix area is −149,308, giving \(A_1=-240{,}666\). Its mode contributes approximately 0.158034139, while the mean contributes 0.01220703125. The endpoint mean alone cannot reproduce that prefix-area contribution. {[}RH, p5{]}
+
+\section{Signed grouping retains the cancellations in the source}\label{signed-grouping-retains-the-cancellations-in-the-source}
+
+The divisor calculation groups actual signed factor-pair terms into product bands while retaining all interband crosses. At (8192,6994), the sum of band self energies is approximately 28,252.560385784 and the signed cross sum is −28,252.184906209; their joint retained energy is 0.375479575. At (8192,1670), the corresponding numbers are 3,340.554542529, −3,339.542843749 and 1.011698779. {[}RH, pp5--6{]}
+
+The large cancellation is part of the exact quantity. Summing only positive band self energies would answer a different question. The returned records retain the original source, stop and metric so that regrouping preserves the same joint energy. A dual calculation also returns the exact maximizing finite test vector and a sum-of-squares attainment certificate, making the demanding direction a readable operand rather than the outcome of a random direction search. {[}RH, p5{]}
+
+\section{Signed scale transport has an explicit arithmetic forcing}\label{signed-scale-transport-has-an-explicit-arithmetic-forcing}
+
+At the next dyadic scale, let \(\mathbf1\) denote an indicator and define the stopped fine source and parity forcing by
+
+\[
+z_j=\mu(2s+j)\mathbf1_{j<2t},
+\]
+
+\[
+b_i=\left[\mathbf1_{s+i\ \mathrm{even}}\mu(s+i)+\mu\bigl(2(s+i)+1\bigr)\right]\mathbf1_{i<t}.
+\]
+
+Pair the fine source into \(v_i=z_{2i}+z_{2i+1}\) and let \(d_i=z_{2i}-z_{2i+1}\). The Möbius parity relation gives \(v=-a+b\). Both even and odd fine cuts are recovered from the coarse centered cuts and the within-pair differences:
+
+\[
+q_z(2r)=q_v(r)=-q_a(r)+q_b(r),
+\]
+
+\[
+q_z(2i+1)=\frac{q_v(i)+q_v(i+1)+d_i}{2}.
+\]
+
+The excess
+
+\[
+\mathcal E(s,t)=\frac12Q_s(b)-\langle a,b\rangle_s-\frac12Q_s(a)=\frac12Q_s(v)-Q_s(a)
+\]
+
+is a signed quantity. The exact full-energy transport is
+
+\[
+Q(2s,2t)=Q(s,t)+\mathcal E(s,t)+\mathcal R(s,t),\qquad\mathcal R(s,t)\le3.
+\]
+
+For an odd fine stop, the additional admission term has upper bound two. The source supplies inherited energy, forcing self energy, signed cross interaction and geometric remainder as parts of one reconstruction. The bound is one-sided; it does not replace negative terms by their magnitudes. {[}RH, p6{]}
+
+At the next admission, write \(\alpha\) for the parent coefficient, \(\beta\) for its forcing coefficient, \(p=(K_sa)_j\), \(q=(K_sb)_j\) and \(k=(K_s)_{jj}\). Exact expansion yields
+
+\[
+\Delta\mathcal E=(\beta-\alpha)q-(\beta+\alpha)p+\left(\frac{\beta^2}{2}-\alpha\beta-\frac{\alpha^2}{2}\right)k.
+\]
+
+The weighted pairings \(p\) and \(q\) determine how the new signed coefficient interacts with the state already present. Signs alone are insufficient. If \(\beta=\alpha\) throughout a consecutive interval, \(v\) is unchanged and the excess telescopes as
+
+\[
+\mathcal E(t)-\mathcal E(t_0)=Q_s(a_{t_0})-Q_s(a_t)\le Q_s(a_{t_0}).
+\]
+
+This is a source-conditioned run identity valid for any length of such a run. {[}RH, pp6--7{]}
+
+\section{Complete finite scans locate the excursions}\label{complete-finite-scans-locate-the-excursions}
+
+\begin{longtable}[]{@{}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedleft
+Scale
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Complete prefixes
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Maximum excess
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Maximizing stop
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Exceedances of one half
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+32 & 33 & 0.063413987429 & 1 & 0 \\
+512 & 513 & 0.210217371429 & 481 & 0 \\
+4096 & 4097 & 0.514400059116 & 1071 & 5 \\
+8192 & 8193 & 0.520439137454 & 7798 & 8 \\
+Total & 12,836 & & & 13 \\
+\end{longtable}
+
+Every prefix in those four listed ranges satisfies the tested ceiling \(\mathcal E\le1\). The proposed half ceiling has thirteen exact counterexamples. The separate 15,364-prefix signed-divisor gain campaign measures another quantity and is not added to this census. {[}RH, pp7--8{]}
+
+At scale 4096, forcing contributes approximately +0.245027 from the stress interval's start to the peak, while weakening inherited energy contributes +0.005809. The excess recrosses one half at stop 1077 and falls below the interval's starting excess at 1130. At the scale-8192 peak admission, \(\alpha=\beta=1\) leaves \(v\) unchanged; the excess rises because the inherited parent energy decreases. The broader buildup is still forcing-led. Retaining the increments distinguishes the cause of a final peak admission from the cause of its preceding accumulated rise. {[}RH, pp7--8{]}
+
+\section{The current weighted state certifies a finite continuation}\label{the-current-weighted-state-certifies-a-finite-continuation}
+
+The prospective certificate starts with the actual current source and permits every future sign compatible with known squarefree support. A squareful coefficient is zero; an unrevealed squarefree coefficient may be either +1 or −1. The method enumerates all such branches through at most four admissions, updates the exact weighted state on each branch, and returns the largest attained excess and terminal drift interval. It does not receive future nonzero Möbius signs. Relaxing their dependencies includes every actual continuation in the admitted family. {[}RH, pp7--9; H001428{]}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1667}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2222}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2222}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1667}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2222}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Starting state at scale 4096
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Current excess
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Upper over next four admissions
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Terminal drift interval
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Branches
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Peak \(t\)=1071 & 0.514400059 & 0.589424759 & {[}−0.069410267,+0.075024700{]} & 32 \\
+Recrossing \(t\)=1077 & 0.493799231 & 0.600499614 & {[}−0.096696737,+0.106700383{]} & 64 \\
+Recovery \(t\)=1130 & 0.261231122 & 0.343086070 & {[}−0.072035796,+0.081854948{]} & 64 \\
+\end{longtable}
+
+All three states certify remaining below one over that horizon. The recovery state also certifies remaining below one half. The recrossing state has a current value below one half but does not certify that tighter horizon bound. The successful operation is a rigorous finite family bound from the weighted state; it is not a forecast of which future branch occurs. The companion frozen sign-pattern predictor failed its proposed overshoot bounds on separate evaluation windows. Those failures delimit the predictor, while the branch certificates retain their different exact basis. {[}RH, pp7--9{]}
+
+\section{A continuing estimate has a proved arithmetic consequence}\label{a-continuing-estimate-has-a-proved-arithmetic-consequence}
+
+The analytic target is a uniform upper bound on the excess. If, for every \(\eta>0\), a constant \(C_\eta\) independent of dyadic scale and stop satisfies
+
+\[
+\mathcal E(s,t)\le C_\eta s^\eta,
+\]
+
+then the original full energy is uniformly subpower and the Riemann Hypothesis follows. This is a proved conditional implication. The finite scans and four-step certificates do not supply its uniform hypothesis. {[}RH, pp9--12{]}
+
+To see the chain, let \(H_j=\max_t Q(2^j,t)\). Signed scale transport and the odd-stop allowance give
+
+\[
+H_{j+1}\le H_j+C_\eta 2^{j\eta}+5.
+\]
+
+Summing that recurrence makes \(H_K\) subpower in \(2^K\). The mean term of the original energy bounds every stopped dyadic Möbius sum by \(\sqrt{sQ}\). Dyadic decomposition then gives the Mertens bound of order \(x^{1/2+\varepsilon}\) for every \(\varepsilon>0\). Partial summation extends the reciprocal zeta Dirichlet series to the half-plane \(\Re w>1/2\), and the zeta reflection relation completes the conditional RH conclusion. The source estimate, the transport implication and the finite evidence remain distinguishable at every step.
+
+The paper also proves a flexible sufficient transfer threshold: a smaller-source energy exponent may approach two from below at a specified logarithmically decreasing saving and still imply the required subpower estimate. At exactly exponent two, that recurrence permits power-law energy. The strict saving belongs to the stated analytic hypothesis. The computational result is that the source-preserving system has made that hypothesis an explicit question about retained signed operands, rather than changing the energy whenever a stricter empirical ceiling fails. {[}RH, pp9--10,12{]}

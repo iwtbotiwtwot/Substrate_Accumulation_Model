@@ -1,0 +1,99 @@
+\chapter{Equal Observations and Executable Histories}\label{equal-observations-and-executable-histories}
+
+\section{A common operation separates two histories with the same total}\label{a-common-operation-separates-two-histories-with-the-same-total}
+
+The SLC constructs exact examples in which two objects give the same declared observation and remain distinguishable under a later operation. The retained information is an operand of that operation. The smallest example begins with the ordered histories {[}1,8{]} and {[}8,1{]}. Both have terminal sum 9. Applying the same connector rule to the first retained entry returns two different rational values. {[}EQ, pp2--4{]}
+
+A declared observation is a map that exports selected information from a complete object. Write \(\pi\) for that map and \(C\) for an admitted response. The object retains its ordered source history in addition to its exported value. For the connector construction, the response rule is the source lift
+
+\[
+L(p)=p+\frac{p^2}{144}.
+\]
+
+The first retained entries are 1 and 8. Direct substitution gives
+
+\[
+L(1)=\frac{145}{144},\qquad L(8)=\frac{76}{9},\qquad L(8)-L(1)=\frac{119}{16}=7.4375.
+\]
+
+The terminal sum is exactly equal while the common response is exactly unequal. These are rational identities, with no fitted tolerance. An order-insensitive whole-contact control gives
+
+\[
+L(1+8)-L(1)-L(8)=\frac{1}{9}
+\]
+
+for either order. The distinction therefore belongs to a specific history-sensitive operation: the lift reads the first retained prefix. The symmetric contact operation reads both operands without their order and agrees. The source's history identifiers name the records; their labels are not numerical operands in the response.
+
+This example states the computational achievement precisely. A system receiving only terminal sum 9 cannot reproduce both required first-prefix responses. It must retain the first prefix, retain the ordered word, or retain another sufficient receipt from which that information can be recovered. The result is about the specified observation and action. It does not claim that the objects agree under an observation vector that already includes the separating response.
+
+\section{The exact criterion for a sufficient observation}\label{the-exact-criterion-for-a-sufficient-observation}
+
+A fiber is the set of complete objects with one exported observation. A response can be computed from that observation alone exactly when it is constant on every relevant fiber. In symbols, a map \(f\) with \(C=f\circ\pi\) exists if and only if
+
+\[
+\pi(x)=\pi(y)\quad\Longrightarrow\quad C(x)=C(y).
+\]
+
+The proof is short. If \(C=f\circ\pi\), equal observations give equal responses by applying \(f\). Conversely, if the response is constant on each fiber, define \(f\) at an observed value by evaluating \(C\) on any object in that fiber. Constancy makes the choice immaterial. {[}EQ, pp3--4{]}
+
+The connector pair violates that condition: \(f(9)\) would have to equal both \(145/144\) and \(76/9\). This is the exact obstruction to deleting the prefix before the response is evaluated. For a partial action, admission is also part of the contract. If two objects share an observation but only one admits the action, the observation cannot determine whether the action is legal.
+
+The criterion also governs composition. Equal exported inputs must have the same admitted actions, immediate responses, and exported targets if they are to remain interchangeable in a sequence. A receipt sufficient for one final scalar can fail under a later operation that reads information that scalar discarded. The relevant compression question is consequently which information suffices for the declared action language.
+
+\section{Receiver sums and directed currents reconstruct the parents}\label{receiver-sums-and-directed-currents-reconstruct-the-parents}
+
+The receiver construction makes the missing coordinate explicit. Let \(L\) and \(R\) be nonnegative integer history tensors in a common source-labeled basis. The even carrier and directed current are
+
+\[
+S=L+R,\qquad J=R-L.
+\]
+
+They reconstruct the parent tensors through
+
+\[
+L=\frac{S-J}{2},\qquad R=\frac{S+J}{2}.
+\]
+
+For integer tensors the two numerators must be even coefficient by coefficient. The native constructor checks that condition and recovers the supplied inputs. The current may be signed while the stored history multiplicities remain nonnegative; those are different types. {[}EQ, pp4--5{]}
+
+Applying the actual current adds \(J\) on the left and subtracts it on the right:
+
+\[
+\Phi_J(L,R)=(L+J,R-J)=(R,L).
+\]
+
+The sum is conserved, and recomputing the oriented current after the exchange gives \(-J\). The inverse transfer therefore uses \(-J\). The completed A3D28 roster contains six unequal history-pair types, each in a two-cycle, and four fixed self-pairs. Deleted-current and wrong-current controls reach none of the six unequal targets. Thus the directed coordinate both distinguishes the orientations and executes the exchange that the sum alone cannot specify.
+
+\section{Ordered paths and the reconstructive address}\label{ordered-paths-and-the-reconstructive-address}
+
+Adjacent receiver exchanges on a triple obey the permutation relations of \(S_3\). Write \(s_1\) and \(s_2\) for exchanging the first two and last two positions. Then \(s_1^2=s_2^2=\mathrm{id}\), \(s_1s_2s_1=s_2s_1s_2\), and \((s_1s_2)^3=\mathrm{id}\), while \(s_1s_2\) and \(s_2s_1\) have different endpoint actions. The braid words \(s_1s_2s_1\) and \(s_2s_1s_2\) reach the same reversed triple through different intermediate triples. Retaining the action word preserves that path distinction after the endpoint permutation has been reported. The completed A3D29 body contains four six-state orbits, 24 states and 48 directed generator edges. {[}EQ, p5{]}
+
+The next source construction joins a rooted triple's exterior residue, terminal position, and orientation. An exterior residue records oriented two-direction area: for source vectors a,\(b\),\(c\) it is \((b-a)\wedge(c-a)\), which changes sign when the directions are exchanged. The source records 48 nonzero two-Write residues and 48 zero one-Write controls. Residue alone recovers roster and orientation but leaves six possible positions. Joining the position coordinate closes that inverse problem.
+
+The completed address has four rosters, six \(S_3\) positions, and two orientations, giving \(4\times6\times2=48\) outcomes. Every combination occurs once. Decoding reconstructs the source and terminal triples, the two-generator word, action-chain receipts, and signed residue; re-encoding is byte-identical. Removing roster leaves 12 classes of four outcomes, removing position leaves eight classes of six, and removing orientation leaves 24 pairs. These erasure controls show exactly which information each coordinate supplies. {[}EQ, pp5--6{]}
+
+For a fixed root, a mixed-radix index \(n=12r+2p+o\), with \(0\le r<4\), \(0\le p<6\) and \(0\le o<2\), selects the 48 outcomes. The shared source tables remain necessary to reconstruct the full semantic object. This is an exact address into a declared source body, rather than a claim that six bits independently contain every source definition.
+
+\section{A whole weave can retain many histories above one invariant}\label{a-whole-weave-can-retain-many-histories-above-one-invariant}
+
+The A3D37 weave carries 48 occurrence-frames per plan: eight cube sites, three rooted slots and multiplicity two. Its roster contains 288 oriented plans, reduced to 144 by the global \(C_2\) quotient. The type-resolved weave separates those plans into six classes of 24, while total holonomy has only one class on the released roster. {[}EQ, pp6--7{]}
+
+The invariant is exact, and its common value is insufficient to select a single plan. The completed result is the retained six-by-twenty-four history structure. Its load-profile census contains 24 plans with quadratic load 240, 72 with load 192, and 48 with load 144. A later source-weighted action can consume those retained distinctions. The failed total-holonomy singleton selector identifies the information that invariant omits; it does not erase the constructed weave.
+
+\section{A receiver functional makes the source difference usable}\label{a-receiver-functional-makes-the-source-difference-usable}
+
+For the occupied receiver example, the before and after vectors are
+
+\[
+h_0=(1,0,0,0,1,1)^{\mathsf T},\qquad h_1=(0,1,1,1,0,0)^{\mathsf T}.
+\]
+
+Let \(Q\) be a real symmetric receiver form and \(\varepsilon\) its scale. The quadratic response difference is
+
+\[
+\Delta H=\varepsilon\operatorname{tr}(QD),\qquad D=h_1h_1^{\mathsf T}-h_0h_0^{\mathsf T}.
+\]
+
+The vectors are orthogonal with squared norm three. Hence \(D\) has rank two and nonzero eigenvalues +3 and −3. The transfer therefore specifies one exact linear functional of the receiver form, supported on two source directions. The source records twelve nonzero coefficient weights when the functional is written in independent symmetric-form coordinates. {[}EQ, pp7--8,13--14{]}
+
+The complete source difference is already available for further calculation. Assigning a physical \(Q\), scale, and energy reference remains a separate source operation. The mathematical functional must not be presented as an already measured nuclear binding energy; its substantive result is the exact form dependence and retained operands.

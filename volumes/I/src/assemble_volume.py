@@ -75,7 +75,8 @@ for ent,file in zip(entries,files):
   # The common typography leaves these running-furniture bands clear of body text.
   p.add_redact_annot(fitz.Rect(0,0,p.rect.width,39),fill=(1,1,1))
   p.add_redact_annot(fitz.Rect(0,750,p.rect.width,792),fill=(1,1,1))
-  p.apply_redactions(images=0,graphics=0)
+  try: p.apply_redactions(images=0,graphics=0)
+  except TypeError: p.apply_redactions(images=0)  # PyMuPDF < 1.24 has no 'graphics' keyword (2026-10-25)
   p.draw_rect(fitz.Rect(0,0,p.rect.width,44),color=None,fill=(1,1,1))
   label='Appendix A' if ent['chapter']=='A' else 'Chapter '+ent['chapter']
   p.insert_text((49,36),'SAM Volume I | '+label,fontname='tiro',fontsize=8,color=(0,0,0))
