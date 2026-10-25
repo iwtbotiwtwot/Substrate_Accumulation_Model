@@ -8,7 +8,9 @@
  "pages": 69,
  "conversion": "pdftotext -enc UTF-8 (reading order; -layout merged the two text columns)",
  "converted_utc": "2026-10-19T23:00:28+00:00",
- "living_text": "volumes/III/SAM_Volume_III.md",
+ "living_text": "volumes/III/src (typeset source; edition of 25 October 2026)",
  "living_text_sha256_at_conversion": "6be5d24b9422085b6d44d285e5181c48fa38ca1384acaf402cd694f295b0ca9a",
- "origin": "/home/lilhelper/Downloads (Sean Brady, 2026-10-19)"
+ "origin": "/home/lilhelper/Downloads (Sean Brady, 2026-10-19)",
+ "built_pdf_20261025": "volumes/III/pdf/SAM_Volume_III_20261025.pdf",
+ "converted_text_retired": "volumes/III/converted/SAM_Volume_III_pdftotext_20261019.md"
 }

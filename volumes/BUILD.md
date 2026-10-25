@@ -1,6 +1,6 @@
 # Building the volumes from source (2026-10-25)
 
-The living texts are the typeset sources under `volumes/<V>/src/`; PDFs are derived from them and the pdftotext dumps are retired to the conversion record.
+The living texts are the typeset sources under `volumes/<V>/src/`; PDFs are derived from them (`volumes/<V>/pdf/`) and the pdftotext dumps are retired to `volumes/<V>/converted/` (`volumes/CONVERTED_RECORD.md`). Volume I builds from `volumes/I/src` (trimmed edition + supplement); Volume II from `volumes/II/src/main.tex`; Volume III from `volumes/III/src/book_20261025/book.tex`.
 Provenance and hashes: `volumes/SRC_MANIFEST_20261025.json`.
 
 | Volume | Source | Engine | Build |
