@@ -714,3 +714,20 @@ GEN4 campaigns behind Chapters XI–XVIII on disk, read-only. Ranked:
 5. Chapter X's interface table and XV's E*, I*, L* as the continuity skeleton (phase three, writing). — open
 6. XIV–XVI: no run until the connector action exists; XVI's 37-isotope panel read as a declared target. 7. XVII reception results and XIII indexing: no run; placement notes. — open
 Lesson carried: the first line of any chart is its weights and its entrance law. — open
+
+## 2026-10-25 — from volii_li6_1 (Duck idea run: the Li-6 receiver algebra natively; proposed by Claude peers ONE–FOUR and the lead; status open; only Sean Brady changes a status)
+- **The affine/oblique law as a GEN5 recipe with declared controls** (TWO), and a native fibered count of the y = 0 class (400 addresses, four offsets ±b, ±J₆b) and the 9,801 reading
+  classes over all 2¹⁸ addresses (THREE). — open
+- **bᵀQ_a b against Volume I's exact inertia statement** on word pairs that are not mirror images (TWO, THREE). — open
+- **The order-16 receiver symmetry group's mirror-law table** and the site meaning of the circulation x(000) − x(003) + x(007) (THREE). — open
+- **The J gauge across the volumes** (lead): which receiver objects of Volume I carry a complex structure, and whether the line of sight's two quadratures are its analogue; the honest
+  continuity entry between the two volumes' "retained history". — open
+- **The same algebra on the four-core 8p8n source** with the archive's physical-memory operands (the carrier is already native) (lead, FOUR). — open
+- **Authoring rules** (lead, ONE, FOUR): a source word's output must carry the declared basis row count (embed smaller outputs); a `supersedes` chain must name the latest failed attempt;
+  never pass rationals through sympy nsimplify; products on rationals are enclosures of width ~2⁻¹²⁶, words are exact. — open
+- **Duck defect: a drain deadline** (lead): after ROUND1_ADMISSION_CLOSED the deployer drains with no wall-clock bound; a late exact rank ran 49 minutes past the window and the lead
+  had to stop the run. Proposed: a per-drain bound (and a per-task bound) after which running tasks are INTERRUPTED and queued ones DEFERRED, as the ledger already labels them on a
+  stop. A Duck change candidate for Sean Brady's word (CLAUDE.md §13). — open
+- **Lead's note on the first Volume II run of the program:** the verification form carried over from RH to Volume II without change — archive operands by hash, separate host code,
+  predictions first — and every number held. What the run adds is a name for the retained complement: a register and a gauge, not a hazard ledger; the two instruments the week
+  built for Volume I (the gate, the inertia identity) are the wrong ones for it, and the equations say why. — open

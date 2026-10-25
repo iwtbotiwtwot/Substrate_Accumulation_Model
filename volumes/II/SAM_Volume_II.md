@@ -10973,6 +10973,30 @@ attempts 1/2; visible bit 0, hidden bit 1; hidden spin s = (−1, −1, 1, 1)); 
   correlation. The one line that reads the bath is Arrhenius through the saddle, θ_s ≈ (1/2)e^{−β} with barrier 1 (the visible step, not the direct 2), T_A → 1/β.
 - Record: ironclad `campaigns/volii_gate_1_20261024/RUN_REPORT.md`, `runs/20261024_volii_gate_1/RECORD.md`. Runtime label COMPLETE; the two- and four-stage staircases not yet gated.
 
+## Chapters XII and XVIII — the Li-6 receiver algebra natively (volii_li6_1, 2026-10-25, H002783)
+
+- **Result.** The retained-history algebra of Chapters XII.1–2 and XVIII.2–4 reproduces natively, exactly, from the archive's own operands (the centre receiver F = WᵀST, its right
+  inverse and retained projector, the nine quarter-turn Writes, the six placement tensors): rank K = 12, rank F = 6; the invariant observation closures 6 → 10 and 6 → 16 for the
+  receiver and 10 → 12 and 10 → 18 for the full current, each reached at depth one (an observation's closure is its row space plus the coordinate plane of every written relation it
+  sees); preparations 14336 and 14591 with equal site currents and zero reading, their twelve recorded responses after the Write on relation 002 (1,150,688,381,184 and
+  988,866,872,064 at the first placement), the visible-only composition predicting zero where the full update does not; FU_eK of rank 2 at the eight centre-visible relations and 0
+  at relation 216; the response-algebra dimensions 9, 18 and 36 with [H₀, J] of rank 6; the reciprocal packing identity; the two closed words' six prefix-action differences; and
+  the four-core carrier of XVIII.4 from its printed definitions alone (R⁶ = −I₆, RᵀG₀R = G₀, the 36 products of rank 36).
+- **Result.** The two preparations are one J-frame: x(14591) = U₀U₁…U₇ x(14336), the receiver intertwines that turn with the complex structure, F(U₀…U₇) = J₆F, so every reading of
+  the second preparation is J₆ times the first's, and every recorded response difference is the J-antilinear part yᵀ(H_a − J₆ᵀH_aJ₆)y of its placement tensor (161,821,509,120 at the
+  first). Four peers reached this by four routes; J-averaged tensors give zero differences.
+- **Result.** Under the centre Writes the reading obeys an affine law y′ = M_e(y − b) + b with a rank-4 exterior label b that those Writes never move (b(14336) = (0, 1, 1, 0, 0, 0),
+  b(14591) = J₆b(14336)); the label-aware M_e commute while the visible compressions do not; an oblique projector freezes the label exactly where the orthogonal one does not. A
+  signed relation swap acts on the receiver as a reflection, FΣ = PF, and the chronology of the two closed words is the mirror-odd part of the placement tensors; the receiver has a
+  symmetry group of order 16.
+- **Reading.** The retained complement h = Kx is a finite Z₄ phase register, read one plane per Write, carrying a conserved affine label and a J gauge the receiver sees only through
+  the J-antilinear part of H_a. It is not a hidden stage in the sense of Volume I's lawfulness gate (depth-one closure leaves no finite-jet blind spot), and the closed-path
+  chronology is not an order payment in the sense of Volume I's inertia identity (it is a state function over visited sites, a symmetry breaking by the placement tensors). The
+  complex structure J, present in both volumes' receivers, is the honest bridge between them.
+- Record: ironclad `campaigns/volii_li6_1_20261024/RUN_REPORT.md`, `runs/20261025_volii_li6_1/RECORD.md`. Runtime label FAILED_WITH_RETAINED_OUTCOMES after an operator stop (one
+  peer's five late words unreturned; everything they would show is covered by completed returns). The catalog reproduction of Chapters II–V (every printed class count on the archive's
+  321 rows) and the nuclear ledger's identities were done in preparation on the host.
+
 ## Instruments built for this volume (recipe library, ironclad)
 
 The staircase library (one admitted recipe per staircase; revision 2 returns every stage state and the lapse ledger; revision 3 adds probe chains and per-chain works),
