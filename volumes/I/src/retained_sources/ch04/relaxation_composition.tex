@@ -1,0 +1,175 @@
+\section{Real elapsed-time memory and finite emission from the original preparation}
+\label{sec:composition6-realtime}
+The positive Euclidean spectrum is not an extra real-time damping law.
+The original canonical source already supplies a non-Markovian elapsed-time
+model. Retain all16 source states, both currents, both counterterms, the
+complete hard field and the full initially vacant soft field. Put
+\(Z_{\rm raw}=D+iC=D-\mathrm{Swap}\,D\) and
+\(B=\mathrm{Swap}\,D^2\). The exact source algebra and complete field
+elimination give, as time-smeared energy-form identities,
+\begin{align}
+ \dot Z_{\rm raw}(t)&=-i\Delta Z_{\rm raw}(t)
+       -2i\epsilon B(t)F_{\rm free}(t)\nonumber\\
+ &\quad-2i\epsilon^2\int_0^t\chi_{RR}(t-s)
+                               B(t)Z_{\rm raw}(s)\,ds,\label{eq:composition6-memory}\\
+ \chi_{RR}(\tau)&=\frac{P_2(1-\tau^2/(2R^2))}{\kappa R^2}
+                        \boldsymbol{1}_{(0,2R)}(\tau).
+\end{align}
+The initially hard-dressed \(F_{\rm free}\) is correlated with the source
+and has a nonzero mean. Its noise term and
+\(\langle B(t)Z_{\rm raw}(s)\rangle\) remain ordered quantum quantities.
+This is an exact operator memory equation, not a factorized scalar equation.
+No sharp-time ultraviolet field variance is assigned.
+
+For \(p(x)=1-3x^2/2+3x^4/8\),
+\begin{equation}
+ m_n=\int_0^2x^np(x)\,dx
+ =\frac{2^{n+1}(n-1)(n-3)}{(n+1)(n+3)(n+5)}.
+\end{equation}
+The first eight moments are
+\begin{align*}
+ (m_0,m_1,m_2,m_3)&=(2/5,0,-8/105,0),\\
+ (m_4,m_5,m_6,m_7)&=(32/105,16/15,640/231,32/5).
+\end{align*}
+In particular \(\int\chi_{RR}=2\mu\), and the first and third odd
+moments vanish. The first dissipative susceptibility term is
+\(\operatorname{Im}\widehat\chi_{RR}(\omega)
+=2R^4\omega^5/(225\kappa)+O(\omega^7)\).
+The negative moment determinant \(m_0m_2-m_1^2=-16/525\) excludes a
+positive time-weight interpretation of this signed causal kernel.
+
+The same original vertex has a real-time vacuum covariance with an
+algebraic tail. For \(t>2R\),
+\begin{align}
+ C_{\rm vac}(t)&=-\frac{I(t/R)}{\kappa\pi R^2},\nonumber\\
+ I(y)&=\sum_{j\ge2}\frac{m_{2j+1}}{y^{2j+2}}>0.
+\end{align}
+so \(C_{\rm vac}(t)=-16R^4/(15\kappa\pi t^6)+O(t^{-8})\).
+It cannot equal a positive mixture of decaying exponentials. This is a
+vertex/covariance identity, not a replacement of the actual initially
+non-Gaussian hard state by a full vacuum. Compact retarded memory does not
+imply compact noise memory.
+
+\paragraph{An actual two-time remainder and emitted-number theorem.}
+Let the original exact hard branches have gap \(\Omega\) and overlap
+\(M\), with unchanged preparation
+\((\Phi_0+\Phi_1)/\sqrt2\otimes|0_{\rm soft}\rangle\),
+\(\lambda=64\Delta\), and
+\(v_s=\int_0^\lambda |u_R(k)|^2dk\).
+For bounded hard/source operators within each original invariant lane,
+\begin{equation}
+ \begin{aligned}
+ &|\langle A(t)B(s)\rangle-\langle A_h(t)B_h(s)\rangle|\\
+ &\qquad\le\|A\|\|B\|\,\mathcal E(T),\quad s,t\le T,\\
+ &\mathcal E(T)=e^{4g^2v_sT^2}-1.
+ \end{aligned}
+ \label{eq:composition6-twotime}
+\end{equation}
+To prove it, use the forward/backward contour of total length
+\(2\max(s,t)\). Odd soft-vacuum words vanish; the order\(2n\) term is
+bounded by \(2^n(2n-1)!!v_s^ng^{2n}(2T)^{2n}/(2n)!
+=(4g^2v_sT^2)^n/n!\). Summing pays every order, both polarizations and
+noncommuting hard insertions. No quantum regression assumption is used.
+
+Define \(D_T(a)=\int_0^T e^{ias}ds\) and
+\begin{equation}
+ \begin{aligned}
+ I_\lambda(T)&=\int_0^\lambda |u_R(k)|^2\\
+ &\quad\times\bigl(|D_T(k-\Omega)|^2+|D_T(k+\Omega)|^2\bigr)\,dk.
+ \end{aligned}
+\end{equation}
+Projection onto the existing hard branches gives the positive component
+\(g^2M^2I_\lambda\). The exact hard complement contributes between zero
+and \(2g^2v_sT^2(1-M^2)\): its instantaneous summed squared source norm is
+\(2(1-M^2)\), and time Cauchy--Schwarz supplies the bound. Combining this
+with \eqref{eq:composition6-twotime}, put
+\(B_T=g^2M^2I_\lambda\) and \(P_T=2g^2v_sT^2\). Then
+\begin{equation}
+ \begin{aligned}
+ \langle N_{\rm soft}(T)\rangle
+   &\ge\max\{0,B_T-P_T\mathcal E\},\\
+ \langle N_{\rm soft}(T)\rangle
+   &\le B_T+P_T(1-M^2+\mathcal E).
+ \end{aligned}
+ \label{eq:composition6-emission}
+\end{equation}
+Both initial cross terms vanish because the soft annihilators kill the
+actual initial state. This argument is not applied to the hard field.
+The \(k+\Omega\) counterrotating contribution is retained. The full
+hard complement is bounded rather than replaced by a finite photon basis.
+
+At the original \(T_0=573049\pi\), conservative positive analytic
+endpoints give the following actual emitted-number enclosures:
+\begin{center}\small
+\begin{tabular}{c|cc}
+Lane&Lower bound&Upper bound\\\hline
+01&\(1.65790\,10^{-35}\)&\(2.86711\,10^{-28}\)\\
+02&\(7.12168\,10^{-35}\)&\(1.23170\,10^{-27}\)\\
+03&\(1.10354\,10^{-32}\)&\(1.94252\,10^{-25}\)\\
+12&\(1.90730\,10^{-35}\)&\(3.29841\,10^{-28}\)\\
+13&\(1.01965\,10^{-32}\)&\(1.79246\,10^{-25}\)\\
+23&\(9.33366\,10^{-33}\)&\(1.63851\,10^{-25}\)
+\end{tabular}\end{center}
+These are finite-time quantum-emission bounds, not thermal occupation or a
+claimed precise Markov rate. The soft free energy is at most
+\(\lambda\langle N_{\rm soft}\rangle\); source inventory still obeys
+the complete Hamiltonian/action account, including interaction energy.
+
+\paragraph{A finite real-time coherence window.}
+For the actual source,
+\(|z(t)-M e^{-i\Omega t}|\le\mathcal E(t)\).
+If the retained outward bound is \(E_0\ge\mathcal E(T_0)\), then for
+\(x=N^2E_0<1\),
+\begin{equation}
+ \mathcal E(NT_0)\le\frac{x}{1-x},\qquad
+ |\delta\theta|\le\frac{\mathcal E}{M_- -\mathcal E}.
+\end{equation}
+For \(N=10{,}000\), the largest six-lane phase bound is
+\(4.115\,10^{-13}\)rad, below \(0.001\)nrad. The same interacting
+preparation remains coupled to every original mode. This establishes a
+finite-window coherence bound; it does not assert absence of eventual
+relaxation. An exact extra factor \(e^{-\gamma t}\) beginning at
+preparation would require
+\(M(1-e^{-\gamma t})\le\mathcal E(t)=O(t^2)\), hence \(\gamma=0\).
+At a fixed endpoint any compatible such interpretation must satisfy
+\(\gamma\le E_0/[(M_--E_0)T_0]\); this is a constraint, not a fitted rate.
+
+\paragraph{A compact physical receiver floor.}
+Use the same two TT angular patterns with any nonnegative normalized smooth
+radial weight in \([R+64-R/10,R+64+R/10]\), and a nonnegative symmetric
+normalized gate of duration at most \(R\), centered at \(T_0/4\).
+The hard total prepared field has mean
+\(gM\chi_h(\Omega;r)e^{-i\Omega t}\), including the correlated incoming
+field. The exact identity
+\(\chi_{\rm out}=(2i\Omega/\kappa)j_2(\Omega R)h_2^{(1)}(\Omega r)\),
+the complete soft principal-value pole subtraction and positive radial
+averaging give hard mean magnitude floors, in lane order,
+\begin{equation}
+ (4.8268,10.0039,124.531,5.1771,119.704,114.527)\,10^{-12}.
+\end{equation}
+The original negative \(g\) orientation is preserved. Symmetry of the
+short gate multiplies the harmonic by a positive real coefficient and
+preserves its phase exactly. The actual soft-drive and source-current
+remainder give a phase disk at most \(1.436\,10^{-10}\)rad
+(\(0.1436\)nrad), before detector, calibration and canonical-comparison
+errors. The complete compact retarded kernel and its incoming hard mean
+are kept. This is a total prepared local field measurement, distinct from
+isolating the very weak soft radiation packet. The annulus/TT angular
+coupling is a finite extended apparatus whose implementation is charged
+separately.
+
+For a positive spatially uniform lapse, the COMPLETE original Hamiltonian
+is exactly \(n(t)H_0\), so all results transfer without approximation to
+\(\tau(t)=\int_0^t n(s)ds\). For
+\(n=1-\eta\sin^4(\pi t/T)/1000\),
+\(\tau(T)=T(1-3\eta/8000)\). A gate
+\(h_{\rm coord}(t)=n(t)h_\tau(\tau(t))\) preserves the exact symmetric-gate
+phase; its ramp-area/timing calibration is explicit.
+
+The autonomous real-time result removes an optional phenomenological
+relaxation factor for this finite protocol. The switched nonuniform
+canonical comparison must still transfer the actual current, Green map and
+initial homogeneous field together. One-time current control alone does
+not transfer two-time photon noise; source-inserted channel control or a
+joint-state plus detector-moment estimate is required. An external QW1
+readout state is not silently substituted for the source's soft vacuum.

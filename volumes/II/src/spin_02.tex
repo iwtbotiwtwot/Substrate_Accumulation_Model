@@ -1,0 +1,455 @@
+\bookchapter{Composition, thermal cancellation and intrinsic spin memory}
+\label{ch:spin-composition}
+
+\subsection{Which changes alter a response, and which change only its clock?}
+
+A spin source can keep the same visible inventory while changing the hidden preparation that supplies its next response. The completed composition sequence gives that statement a detailed mechanism. Exact component factors turn a change in graph composition into a covariance under the full thermal field. A particular integer change cancels its first field term. A unique moment condition removes the next term, and two derived temperature corrections suppress the complete count response further. At sixth order a new hidden interaction survives every shared thermal correction. Its rational dependence on relaxation scale identifies the hidden directions that a receiver detects.\samref{SPC01}\samref{SPC02}\samref{SPC05}
+
+The sequence uses the Kac-normalized pair/triangle/free-spin family introduced in Chapter~\ref{ch:spin-foundation}, its literal fifteen-spin root and the original reading interval $\theta=1/3$. A complementary kinetic calculation uses a distinct four-boundary/24-hidden-spin source. There the microscopic boundary flip keeps the actual hidden coordinates; replacing it by a thermal-boundary flip changes individual edge rates. The completed comparison determines exactly when that change could be a common clock multiplier, and finds that the retained source does not satisfy the condition. These two constructions meet at the source-to-receiver interface while retaining their different Hamiltonians and clocks.\samref{SPC06}\samref{SPC07}
+
+The Hamiltonians, component inventories, preparations and readouts are model assignments inherited from their original sources. The covariance identities, cancellation rules, sixth-order decomposition and kinetic comparison below are completed deductions from those assignments. They are recorded as Codex contributions within Sean Brady's composition investigation. Sean Brady is the originator and conceptual director; OpenAI ChatGPT and Codex are AI research collaborators and co-authors. The completed source campaigns classify their results as: \emph{The test result suggests strong contact with the concept.}\samref{SPC10}\samref{SPC11}\samref{SPC12}\samref{SPC13}\samref{SPC07}
+
+\subsection{An exact component law on a fixed spin inventory}
+
+The composition Hamiltonian and coupling are
+\begin{equation}
+ H=-\frac{M^2-N}{2N}+\kappa C,\qquad
+ \kappa=\frac{15\log3}{128}.
+\end{equation}
+Here $M$ is total spin, $C$ is the retained component interaction account, and the root plus its fixed pair and three free spins occupy twenty sites. For the remaining $n=N-20$ sites, the integer pair, triangle and free counts satisfy
+\begin{equation}
+ 2P+3T+F=n.
+\end{equation}
+At fixed $N,\beta,\kappa$ and fixed source center, let $X=\tanh^2y$ and define
+\begin{equation}
+ b=\tanh(2\beta\kappa),\qquad a=\frac{3b}{1+b+b^2}.
+\end{equation}
+The exact normalized pair and triangle traces are
+\begin{align}
+ \frac{Z_{\rm pair}(y)}{Z_{\rm pair}(0)}
+ &=\cosh^2y(1-bX),\\
+ \frac{Z_{\rm triangle}(y)}{Z_{\rm triangle}(0)}
+ &=\cosh^3y(1-aX).
+\end{align}
+Thus composition changes a complete positive field law through two known logarithmic factors, rather than an assumed phenomenological memory coefficient.\samref{SPC01}
+
+For literal boundary value $j$, let $R_j(y)$ be its positive fifteen-spin root row, reconstructed from the original integer multiplicities. Up to boundary-independent factors, the full Gaussian weight is
+\begin{equation}
+\begin{aligned}
+ W_j(P,T)={}&\int_0^\infty R_j(y)e^{-Ny^2/(2\beta)}\\
+ &\cosh^{N-15}y(1-bX)^{P+1}(1-aX)^T\,dy.
+\end{aligned}
+\end{equation}
+The extra pair is the fixed pair outside the fifteen-spin root. The full source retains its absolute pressure constants. Their common score cancels from normalized preparation and response derivatives, while their source values remain recorded. The origin and infinite upper tail belong to the field law.\samref{SPC01}
+
+Write $R_\Sigma=\sum_jR_j$, $r_j(y)=R_j/R_\Sigma$, and let $\mu$ be the normalized complete field law with root $R_\Sigma$. The boundary probabilities are $\pi_j=\mathbb E_\mu r_j$. Differentiating the actual component factors gives
+\begin{align}
+ \partial_P\pi_j&=\operatorname{Cov}_\mu(r_j,\ell_P),
+ &\ell_P&=\log(1-bX),\\
+ \partial_T\pi_j&=\operatorname{Cov}_\mu(r_j,\ell_T),
+ &\ell_T&=\log(1-aX).
+\end{align}
+These are exact finite-source identities. Continuous count variables provide analytic comparisons between positive partition functions; actual graph endpoints retain integer counts. A derivative is not assigned to a fractional graph.\samref{SPC01}
+
+The covariance also supplies a quantitative payment. If $K_j$ bounds $|dr_j/dX|$, put $\mathcal A=\max_jK_j/\pi_j$ and $\mathcal L_P=b/(1-b)$, $\mathcal L_T=a/(1-a)$. The independent-copy covariance identity yields
+\begin{equation}
+ \operatorname{osc}_j(\partial_i\log\pi_j)
+ \leq2\mathcal A\mathcal L_i\operatorname{Var}_\mu(X).
+\end{equation}
+The root polynomials give explicit finite $K_j$ and a positive probability bound. Propagating this score through the complete receiver pays the between-reading derivative by $12\mathcal A\mathcal L_i\operatorname{Var}(X)$ and the within-interval derivative by $8\mathcal A\mathcal L_i\operatorname{Var}(X)$. The whole field supplies the variance; every preparation and dynamical endpoint remains in the receiving functional.\samref{SPC01}\samref{SPC08}
+
+\subsection{The complete receiver and the compensated direction}
+
+The receiver is the original three-reading protocol. On its retained quotient let $E_\pm=e^{\theta Q_\pm}$, $\mathsf H=(E_++E_-)/2$, and let $p$ be the normalized accepted preparation. Define
+\begin{align}
+ q&=\mathbf1^t\mathsf H p,
+ &r&=\mathbb E_p\rho,
+ &a_\theta&=\frac{1+e^{-2\theta r}}2,\\
+ F_B&=\mathbf1^t\mathsf H^3p-q^3,
+ &F_W&=q^3-a_\theta^3.
+\end{align}
+The literal flip rate is $\rho_b=w_{b\mathbin{\mathrm{xor}}1}/(w_b+w_{b\mathbin{\mathrm{xor}}1})$. Complete differentiation changes $p$, $r$, each propagator and every relay term. In particular, the middle $E_+$ derivative in the ordered relay remains present. For a score oscillation $G$, the original $\theta=1/3$ gives the bounds $|\partial F_B|\leq6G$ and $|\partial F_W|\leq4G$.\samref{SPC08}
+
+The hidden feedback has the full reversible form
+\begin{equation}
+ \Gamma(z)=f^t(zI+D)^{-1}f,\qquad
+ f_b=2(\rho_b-r)\sqrt{p_b},\qquad z>0,
+\end{equation}
+with the preparation direction projected out of $D$. Both its forcing and its operator change under a source derivative:
+\begin{equation}
+ \partial\Gamma
+ =2(\partial f)^t(zI+D)^{-1}f
+ -f^t(zI+D)^{-1}(\partial D)(zI+D)^{-1}f.
+\end{equation}
+The resulting score bound is $(5/z+6/z^2)G$. These formulas explain why cancellation of a complete response is stronger than cancellation in one weight, one rate or one forcing vector.\samref{SPC08}
+
+The two memory channels have complementary operational meanings. The between-reading quantity compares the actual ordered three-reading return with the product formed from its one-interval return. The within-interval quantity compares that one-interval return product with the constant-rate expression using the actual source mean. The two differences retain their signs. Neither is replaced by the variance of a rate distribution. Their composition derivatives can vanish at a selected order even when the underlying memory observables remain nonzero. In the feedback derivative, the second term above is just as necessary as the forcing derivative: changing composition changes the operator that propagates hidden information as well as the information injected into it.\samref{SPC08}
+
+The center subtraction has a similarly explicit role. Each complete thermal quantity compares the integrated source response with the source-center response at the same temperature. A count change at fixed temperature and center has zero derivative on the center side. Its complete center value remains stored, while the count susceptibility comes from the integrated source. Along a changing-temperature path the center has its own tangent. The corrected families below always evaluate the count derivative at their corrected fixed temperature, preserving that distinction between selecting a source and differentiating an observable on it.\samref{SPC08}
+
+The inventory-preserving direction
+\begin{equation}
+ h=(-12\ {\rm pairs},+7\ {\rm triangles},+3\ {\rm free})
+\end{equation}
+has score $\ell_h=-12\log(1-bX)+7\log(1-aX)$. At the retained critical temperature $\beta_c=32/15$, the factors are $b=1/2$, $a=6/7$, and
+\begin{equation}
+\begin{gathered}
+\ell_h'(X)=-\frac{(15/7)X}{(1-X/2)(1-6X/7)},\\
+\ell_h(X)=-\frac{15}{14}X^2+O(X^3).
+\end{gathered}
+\end{equation}
+The linear field term cancels exactly. At a nearby actual temperature the payment retains the departure:
+\begin{equation}
+ \operatorname{osc}(g_h)\leq
+ 2\mathcal A\left[
+ |12b-7a|\operatorname{Var}(X)
+ +\frac{c_\beta}{2}\operatorname{Cov}(X,X^2)\right],
+\end{equation}
+where $c_\beta=12b^2/(1-b)+7a^2/(1-a)$. Setting the critical coefficient to zero at every finite temperature would omit the first term and give the wrong signed expansion.\samref{SPC01}
+
+\subsection{Critical scaling and a unique moment cancellation}
+
+The endpoint family is specified by $\Phi_x=\Phi_{xx}=\Phi_{xxx}=0$, with
+\begin{equation}
+\begin{aligned}
+ \Phi(x)={}&-\frac12\log(1-x)
+ -\frac{\operatorname{atanh}^2\sqrt{x}}{2\beta}\\
+ &+\frac{\nu}{2}\log(1-bx)+\frac{\tau}{3}\log(1-ax).
+\end{aligned}
+\end{equation}
+Its critical parameters are
+\begin{equation}
+\begin{gathered}
+(\beta_c,\nu_c,\tau_c)=
+ \left(\frac{32}{15},\frac9{20},\frac{343}{640}\right),\\
+C_8=\frac3{3584},\\
+\delta=(NC_8)^{-1/4}.
+\end{gathered}
+\end{equation}
+The coefficient Jacobian has determinant $25/351232$, so the three endpoint controls define an analytic branch through this point. Put $x_0=s\delta$. Bounded $O(N^{1/4})$ composition offsets and rounded counts lead to the complete limiting law
+\begin{equation}
+ d\mu_{s,v}(U)=Z^{-1}U^{-1/2}
+ e^{-(U-s)^4+v(U-s)}\,dU,\qquad U>0.
+\end{equation}
+The square-root origin factor is retained. Global quartic domination and the original Gaussian tail control the entire field, giving generic $O(N^{-1/2})$ and compensated $O(N^{-3/4})$ count susceptibilities on compact positive $s$ families.\samref{SPC14}
+
+Let $V=\operatorname{Var}(U)$, $C_3=\operatorname{Cov}(U,U^2)$, and $\mathcal B=81\log3/112$. For each complete response $F_i$,
+\begin{align}
+ \partial_PF_i&=-\frac V2L_i\delta^2+O(\delta^3),\\
+ \partial_TF_i&=-\frac{6V}{7}L_i\delta^2+O(\delta^3),\\
+ \partial_hF_i&=\mathcal Q(s,v)L_i\delta^3+O(\delta^4),\\
+ \mathcal Q(s,v)&=\mathcal B sV-\frac{15}{14}C_3.
+\end{align}
+The $L_i$ are complete critical root/clock tangents. Their shared field coefficient includes the actual temperature slope $\beta_*'(0)=3/5$ as well as the compensated quadratic score. The between and within tangents are approximately $-0.01337089297098$ and $-0.02125803744488$.\samref{SPC02}
+
+Cancellation requires a unique tilt, rather than a chosen response fit. Give independent $U,U'$ the pair law weighted by $(U-U')^2$, normalized by $2V$. Then
+\begin{equation}
+ \frac{C_3}{V}=\mathbb E_{\rm pair}(U+U'),\qquad
+ \partial_v(C_3/V)=\operatorname{Var}_{\rm pair}(U+U')>0.
+\end{equation}
+Its tilted mean ranges from zero to infinity. Hence every $s>0$ has exactly one $v_*(s)$ satisfying
+\begin{equation}
+ \frac{C_3}{V}=\frac{27\log3}{40}s.
+\end{equation}
+The retained roots are approximately
+\[
+\begin{array}{c|r}
+s&v_*(s)\\\hline
+1/2&-8.103016840846506\\
+2&-8.788848955616438\\
+4&-64.23014856254630
+\end{array}
+\]
+The signed coefficient $\mathcal Q$ is positive below this tilt and negative above it.\samref{SPC03}
+
+Actual sources use nearest integers
+\begin{equation}
+\begin{gathered}
+P=\operatorname{nint}\!\left(\frac{n\nu_*(x_0)}2-\frac{2v_*}{\delta}\right),
+ \\
+T=\operatorname{nint}\!\left(\frac{n\tau_*(x_0)}3\right),
+ \\
+F=n-2P-3T.
+\end{gathered}
+\end{equation}
+Their two rounding errors $e_P,e_T$ remain within $[-1/2,1/2]$ and enter every later coefficient. The derivative $\partial_h$ always holds the actual temperature, center and $N$ fixed. It is not differentiation along the temperature-adjusted family.\samref{SPC03}
+
+The limiting free-spin fraction is $9/640$, so the bounded offset and rounding rules leave all three component populations nonnegative beyond a common size threshold. The uniform statements quantify the entire admitted family, rather than only the finite sizes evaluated. Their temperature accuracy is explicit: the signed leading law uses an $O(N^{-1})$ approximation to the endpoint branch, with progressively sharper correction errors at later orders. Integrating the exact derivative over a fixed-temperature count segment also distinguishes susceptibility from an endpoint difference. A segment of length $O(N^{1/4})$ has the corresponding generic $O(N^{-1/4})$ and compensated $O(N^{-1/2})$ upper estimates when it stays in the admitted family.\samref{SPC02}\samref{SPC03}
+
+\subsection{Two shared corrections and their exact symmetry mechanism}
+
+Write $\mathfrak f(U)=\mathcal B sU-(15/14)U^2$ and
+$T_2=\operatorname{Cov}(\mathfrak f,U^2)=\mathcal Q_v<0$ at $v_*$. At the first moment cancellation, the full fourth coefficient is
+\begin{equation}
+ \partial_hF_i=\delta^4
+ \left[\mathcal A_4L_i+\frac{T_2}{2}M_i\right]+O(\delta^5).
+\end{equation}
+The literal root gives the exact identity $M_i=-12L_i$ for both memory channels, mean, complete relay and feedback at every $z>0$. It follows from hidden-flip invariance and homogeneity, with preparation and operator variations included. The whole fourth coefficient is consequently $(\mathcal A_4-6T_2)L_i$.\samref{SPC03}
+
+Let $\chi=\Phi_{\beta x}(0)>0$ and let $\mathcal A_{4,0}$ include the actual rounding at zero additional thermal correction. The derived shift
+\begin{equation}
+ e_0=\frac{6T_2-\mathcal A_{4,0}}{\chi T_2},\qquad
+ \beta_N=\beta_*(s\delta)+\frac{e_0}{N}
+ +O(\delta/N)
+\end{equation}
+cancels this common scalar, giving $O(N^{-5/4})$ susceptibility. Counts and center remain identical between paired sources. The finite correction is calculated from the field/amplitude/rounding formula before evaluating the corrected response.\samref{SPC03}
+
+The fifth coefficient still shares the same complete tangent:
+\begin{equation}
+ \partial_hF_i=\delta^5S_5L_i+O(\delta^6),\qquad
+ S_5=B_1-6B_2+35C_3^{\,f}+m_1T_2,
+\end{equation}
+where $m_j=\mathbb E U^j$ and $C_3^{\,f}=\operatorname{Cov}(\mathfrak f,U^3)$. The $B_1,B_2$ retain the first and second normalized field-law variations, root amplitude, endpoint terms and actual rounding. Their highest required moment is $m_{13}$, supplied by an exact full-half-line integration-by-parts recurrence. A second correction
+\begin{equation}
+ e_1=-\frac{S_5}{\chi T_2},\qquad
+ \beta_N=\beta_*(s\delta)+\frac{e_0+\delta e_1}{N}
+ +O(\delta^2/N)
+\end{equation}
+gives the complete $O(N^{-3/2})$ law.\samref{SPC04}
+
+The fifth scalar can be reconstructed without a response-root search. Expand the score as
+\begin{equation}
+ \ell_h(\delta U)=\delta^2\mathfrak f
+ +\delta^3g+\delta^4h_4+O(\delta^5),
+\end{equation}
+where
+\begin{align}
+ g&=\lambda_2s^2U+\frac{351\kappa}{245}sU^2-\frac{95}{98}U^3,\\
+ \lambda_2&=-\frac{6\kappa(27216\kappa^2-13743\kappa+740)}{1225}.
+\end{align}
+Let $\mathcal V_1(p,q)$ and $\mathcal V_2(p,q)$ be the ordinary first and second coefficients of the normalized covariance under the density proportional to $e^{d\psi_1+d^2\psi_2}d\mu$. Then
+\begin{align}
+ B_1&=\operatorname{Cov}(h_4,U)+\mathcal V_1(g,U)
+       +\mathcal V_2(\mathfrak f,U),\\
+ B_2&=\operatorname{Cov}(g,U^2)+\mathcal V_1(\mathfrak f,U^2).
+\end{align}
+Here $\psi_1,\psi_2$ come from the full source log density, and $h_4$ from the exact component log factors. The reference-amplitude derivatives include the exact values $L_{02}=-30$ and $L_{0\beta}=1125/512-(9/2)\kappa$. These contributions retain the Jacobian, literal root, fixed pair and Gaussian amplitude through the same order as the phase. Their normalization is included when expanding both the expectation of a product and the product of expectations. This is the reason a complete fifth coefficient contains more than the next polynomial term in $\ell_h$.\samref{SPC04}
+
+The fifth-order scalar collapse has an identifiable hidden mechanism. At criticality the visible weights are $(1,3,3,1)$, independent of two hidden bits. Let $\chi_c(h)$ denote their Fourier characters. The root curvature
+$n_0=w_{XX}+12w_X+2w$ lies entirely in character three, with visible amplitude $(2,-6,-6,2)$. A mixed Hessian can couple only equal characters. Its remaining matching perturbation is a pure hidden-factor change $w_{\rm visible}\chi_3$. For a positive factorized source, the visible and hidden heatbath generators form a tensor sum; the accepted visible preparation and readout depend only on the visible factor. The complete first variation in a zero-hidden-average direction therefore vanishes, as does the matching mixed Hessian. An exact mixed-temperature identity removes the remaining thermal-background term.\samref{SPC04}
+
+These are source symmetries, not ratios inferred from a finite panel. The 162-source covariance panel uses $N=10^{16},10^{20},10^{24},10^{32},10^{40},10^{57}+10$, $s=1/2,2,4$, and independent pair/triangle offsets $-2,0,+2$ times $\lfloor N^{1/4}\rfloor$. All 972 leading-sign comparisons agree. The first-correction record uses eighteen integer baselines and eighteen matched sources. The second correction improves all 108 complete memory/feedback/mean/relay comparisons across the eighteen retained families. Actual finite residuals are preserved when they are nonzero; the asymptotic cancellation does not replace them by exact zeros.\samref{SPC10}\samref{SPC11}\samref{SPC12}
+
+For a concrete scale comparison, at $N=10^{57}+10$ the second correction changes the absolute between-channel derivatives from approximately $1.99043\times10^{-73}$ to $1.09443\times10^{-86}$ at $s=1/2$, from $2.44684\times10^{-70}$ to $1.95056\times10^{-83}$ at $s=2$, and from $3.93687\times10^{-70}$ to $6.41114\times10^{-83}$ at $s=4$. These are evaluations of the already specified rule on the retained sources. Actual integer rounding stays inside the coefficient at each size, so a single fitted amplitude across all sizes is unnecessary. Two largest-source intervals initially included zero at inherited tolerances; source-identical field refinements resolved those numerical intervals without changing the physical inputs or searching for another response zero.\samref{SPC12}
+
+\subsection{The full sixth coefficient separates three response directions}
+
+Keep the same integers and allow a bounded next thermal coefficient:
+\begin{equation}
+ \beta_N=\beta_*(s\delta)
+ +\frac{e_0+\delta e_1+\delta^2e_2}{N}
+ +O(\delta^3/N).
+\end{equation}
+For every complete response the finished sixth-order result is
+\begin{equation}
+ \partial_hF_i=\delta^6\left[
+ (S_6+\chi T_2e_2)L_i
+ +\frac{T_2}{2}\left(\frac V2\mathcal H_i+m_1^2\mathcal T_i\right)
+ \right]+O(\delta^7).
+\end{equation}
+Here $\mathcal H_i=D^2F_i[n_0,n_0]$ and
+$\mathcal T_i=D^3F_i[u_1,u_2,n_0]$, with
+$u_1=(2,0,0,-2)\chi_1$ and $u_2=(2,0,0,-2)\chi_2$. The cubic term couples the two different hidden characters to their product character. The common thermal direction and the two intrinsic hidden directions now coexist.\samref{SPC05}
+
+The shared coefficient $S_6$ is fully specified by finite coefficient extraction from the original source. With a formal variable $d$, expand the complete normalized field law through degree three, using
+\begin{equation}
+ \rho_0=1,\quad \rho_1=\psi_1,\quad
+ \rho_2=\psi_2+\frac{\psi_1^2}{2},\quad
+ \rho_3=\psi_3+\psi_1\psi_2+\frac{\psi_1^3}{6},
+\end{equation}
+and
+\begin{equation}
+ \mathbb E_d p=
+ \frac{\mathbb E_\mu[(\rho_0+d\rho_1+d^2\rho_2+d^3\rho_3)p]}
+ {\mathbb E_\mu[\rho_0+d\rho_1+d^2\rho_2+d^3\rho_3]}.
+\end{equation}
+The $\psi_j$ are the ordinary degree-$j$ coefficients of the exact log-field density relative to the retained quartic law. They include stationary-branch phase coefficients through $D_7$, the pair displacement, $e_P,e_T$, $e_0,e_1$, and the complete reference amplitude
+\begin{equation}
+\begin{aligned}
+ \log A(X,\beta)={}&-\frac72\log(1-X)+\log(1-bX)\\
+ &-\frac{10\,\operatorname{atanh}^2\sqrt X}{\beta}
+ +\log R_0(X,\beta).
+\end{aligned}
+\end{equation}
+This keeps the literal root, fixed pair, three free spins, Jacobian and $N$ versus $N-20$ Gaussian amplitude.\samref{SPC05}
+
+Set $S_j=[d^j]\mathbb E_dw$ for $j=0,1,2$, and
+$V_j=[d^j]\operatorname{Cov}_d(w,\ell_h)$ for $j=4,5,6$, using the root quotient through degree four and score through degree five. Define the source mean on absolute weights by
+\begin{equation}
+ r(W)=
+ \frac{\displaystyle\sum_{b\ {\rm even}}
+ W_bW_{b\mathbin{\mathrm{xor}}1}/(W_b+W_{b\mathbin{\mathrm{xor}}1})}
+ {\displaystyle\sum_{b\ {\rm even}}W_b}.
+\end{equation}
+Then the complete shared coefficient is
+\begin{align}
+ C_{6,r}&=[d^2t]\,
+ r\!\left(w+dS_1+d^2S_2+t(V_4+dV_5+d^2V_6)\right),\\
+ S_6&=\frac83\left\{C_{6,r}
+ -\frac{T_2}{2}\left[-\frac98V+\frac9{16}m_1^2\right]\right\}.
+\end{align}
+This construction includes normalization and every actual rounding contribution before comparison with a finite response. Moments through $m_{18}$ suffice; the exact recurrence
+\begin{equation}
+ 4m_{j+4}=12s\,m_{j+3}-12s^2m_{j+2}
+ +(4s^3+v)m_{j+1}+(j+\tfrac12)m_j
+\end{equation}
+retains both vanishing integration-by-parts endpoints.\samref{SPC05}
+
+The independently calculated response rows are
+\begin{equation}
+ \begin{array}{c|rrr}
+ &L&\mathcal H&\mathcal T\\ \hline
+ r&3/8&-9/4&9/16\\
+ \Gamma(1)&-5/36&73/126&-29/84\\
+ \Gamma(4)&-13/196&1927/6370&-14447/127400
+ \end{array}
+\end{equation}
+Their determinant is $-4783/1337700$, so the complete response space has rank three. A further common thermal shift changes only the first column. In particular
+\begin{align}
+ J(1)&=\partial_h\Gamma(1)+\frac{10}{27}\partial_hr\\
+ &=\delta^6\frac{-T_2}{2}
+ \left(\frac8{63}V+\frac{23}{168}m_1^2\right)+O(\delta^7).
+\end{align}
+Its leading coefficient is strictly positive and independent of $e_2$ and leading count rounding.\samref{SPC05}
+
+The error statement is part of the result. On compact positive $s$ and positive resolvent intervals, with bounded $e_2$ and the stated temperature accuracy, the $O(\delta^7)$ constant is uniform. The proof keeps quartic domination, positive normalization, the integrable $U^{-1/2}$ origin and the full Gaussian tail. All eighteen previously evaluated second-corrected sources have positive directed $J(1)$ intervals; no new physical source was evaluated. Their actual degree-seven scaled remainders and full finite field budgets remain recorded. Thus the strict $N^{-3/2}$ law concerns this specified family and its complete retained response.\samref{SPC05}
+
+The remainder construction explains the strength and scope of that statement. On a fixed small-$X$ neighborhood the analytic branch, root and logarithmic factors have uniformly bounded derivatives. The normalized field expansion is an expansion in polynomially weighted integrals over the whole half-line. A small growing-$U$ split controls exponential Taylor remainders, while quartic decay pays the complementary range. Outside that neighborhood the exact negative fourth-derivative bound controls the field; beyond the retained far-field threshold the original Gaussian bound is used. The count covariance supplies an additional factor of $\delta$ from the nonconstant root, converting the score remainder into $O(\delta^7)$ in the response. The full protocol's analytic Hessian and cubic derivative carry the same paid error through preparation, relay and resolvent.\samref{SPC05}
+
+For finite sources the record also retains non-asymptotic field costs. If $G$ is the actual score oscillation and $C_{\rm field}$ its complete field bound, then the mean derivative is paid by $G/2$. Consequently the invariant satisfies both the sum of its separately evaluated feedback and mean costs and the general bound $|J(1)|\leq(302/27)C_{\rm field}$. These remain available even at a size where the degree-seven correction is significant. At $s=4$, for example, the displayed $J/\delta^6$ at $N=10^{16}$ is about $2.02987\times10^{-3}$, while its limiting coefficient is about $5.62137\times10^{-5}$. The finite correction is retained rather than hidden by the limiting positive law.\samref{SPC05}\samref{SPC13}
+
+\subsection{Relaxation scale reveals a sharp one-eighth criterion}
+
+The completed arbitrary-$z$ calculation removes the common tangent at every positive inverse time:
+\begin{equation}
+ J(z)=\partial_h\Gamma(z)
+ +\frac{2(8z+7)}{(4z+5)^2}\partial_hr.
+\end{equation}
+With $d(z)=(2z+5)(2z+7)(4z+5)^2$, it gives
+\begin{align}
+ J(z)&=\delta^6\frac{-T_2}{2}
+ [A(z)V+B(z)m_1^2]+O(\delta^7),\\
+ A(z)&=\frac{72(2z^2+6z+1)}{d(z)},\\
+ B(z)&=-\frac{9(4z^4-44z^3-233z^2-259z-89)}
+ {2(z+1)^2d(z)}.
+\end{align}
+$A$ is positive throughout the positive axis. $B$ changes sign once, at approximately $15.1371500240787$. The whole coefficient has the stronger criterion obtained by putting $r_U=V/m_1^2$:
+\begin{align}
+ P_{r_U}(z)={}&(32r_U-4)z^4+(160r_U+44)z^3\\
+ &+(240r_U+233)z^2+(128r_U+259)z+(16r_U+89).
+\end{align}
+The sign of $A r_U+B$ is the sign of this polynomial. If $r_U\geq1/8$, its nonzero coefficients are positive. Below $1/8$, its leading coefficient is negative and every other coefficient is positive; dividing by $z^4$ gives a strictly decreasing function with exactly one positive zero.\samref{SPC06}
+
+The retained $s=1/2$ family has $r_U\approx1.959954436$ and positive leading response at every $z>0$. The $s=2$ and $s=4$ families have ratios approximately $0.1113078007$ and $0.00602870861$, with leading-coefficient crossovers near $145.18106364$ and $15.94662072$. These are crossovers of the derived leading term. The finite-source sign at its zero needs the next term; the compact-$z$ remainder does not become a uniform all-frequency estimate. The exact critical operator has rates $1,5/4,5/2,3,7/2$. Unperturbed $\Gamma(z)=3/[4(4z+5)]$ sees only $5/4$; the selected composition derivatives expose $1,5/2,7/2$, while rate $3$ remains absent from their denominators.\samref{SPC06}\samref{SPC07}
+
+\subsubsection{Physical parity and port controls}
+
+The rank-three result identifies a constructive next step: change the source directions themselves. The completed successor replaces sixteen formerly free spins by a balanced sixteen-hidden-spin parity module, retaining total $N$, the original integer composition counts, center, Kac fill and literal root. At $t=\beta\kappa$, put $q_y=\operatorname{sech}^2y$, $v_t=\sinh^2(2t)$ and
+\begin{equation}
+ A_m(t,y)=1+4v_t(1+v_t)q_y,\qquad
+ B_m(t,y)=(1+v_tq_y)^4.
+\end{equation}
+The actual even-port factor is $A_m(t+\epsilon,y)B_m(t-\epsilon,y)$; the odd-port factor reverses the two shifts. These are complete field-dependent factors replacing the sixteen free-spin factors. Their neutral product $G_0=A_mB_m$ changes the integrated preparation even at $\epsilon=0$.\samref{SPC15}
+
+At criticality its exact normalized factor and logarithm are
+\begin{align}
+ \frac{G_0(X)}{G_0(0)}
+ &=(1-16X/25)(1-X/4)^4,\\
+ \log\frac{G_0(X)}{G_0(0)}
+ &=-\frac{41}{25}X-\frac{1649}{5000}X^2+O(X^3).
+\end{align}
+A constant boundary coefficient would omit this neutral thermal change. The completed retuning therefore adds $(\Delta e_0+\delta\Delta e_1)/N$ to the original temperature, with
+\begin{equation}
+ \Delta e_0=\frac{41}{25\chi_\beta},\qquad
+ \chi_\beta=\frac{225}{2048}-\frac{171\kappa}{320}>0.
+\end{equation}
+Here $\chi_\beta$ is the earlier critical temperature slope. The first adjustment is approximately $39.93580537194809$; the second adjustments are approximately $7.54942381355810$, $65.4948379976822$ and $138.322394753318$ at $s=1/2,2,4$. A source-derived two-by-two solve determines them before any finite response. It includes moving-branch derivatives, normalized moments, original rounding and the module's actual temperature dependence.\samref{SPC16}\samref{SPC17}
+
+The parity control has literal physical couplings $J_\pm=\kappa\pm\epsilon/\beta$. Its mixed response receives both the direct count variation and the complete protocol Hessian:
+\begin{equation}
+ \partial_\epsilon\partial_hF_i
+ =\delta^4T_2\left(\frac{462}{125}L_i-\frac25\mathcal H_i\right)
+ +O(\delta^5).
+\end{equation}
+Selecting $\epsilon=\lambda\delta^2$ with
+$\lambda=5V/8+(345/512)m_1^2$ suppresses the complete $J(1)$ derivative to $O(\delta^7)$. It leaves
+\begin{equation}
+ \partial_hJ(4)=
+ \frac{4783}{254800}T_2m_1^2\delta^6+O(\delta^7).
+\end{equation}
+The remaining coefficient is negative. This parity-only control cancels one feedback invariant; the three-response structure still determines another intrinsic response. Its eighteen actual fields reduce $J(1)$ in every case, while finite $J(4)$ signs retain their own higher-order corrections.\samref{SPC18}\samref{SPC21}
+
+Four additional physical port edges provide the missing direction. Their exponent is $\zeta q_{\rm port}$, where
+\begin{equation}
+ q_{\rm port}=(\sigma_0+\sigma_1)(\sigma_2+\sigma_3).
+\end{equation}
+Each edge has physical coupling $\zeta/\beta$, linking visible ports $0,1$ to hidden ports $2,3$. Multiplication acts on the full source and count vectors before normalized preparation. For $\zeta=\alpha\delta$, the exact invariant factors as
+\begin{equation}
+ C_{J4}(\alpha)-\frac{171}{455}C_{J1}(\alpha)
+ =\frac{T_2}{254800}(\alpha+m_1)(16823\alpha+4783m_1).
+\end{equation}
+The clean root $\alpha=-m_1$ cancels the extra quadratic and cubic response directions for every named complete observable. The other root, $-(4783/16823)m_1$, cancels the mean and both feedbacks while retaining memory/relay residuals. The clean branch supplies the joint result.\samref{SPC19}
+
+Its source-derived controls are
+\begin{align}
+ \alpha&=-m_1,\qquad \lambda=\frac58V-\frac54m_1^2,\\
+ e_2&=-\frac{S_{6,\rm new}/T_2+2m_1^2+(462/125)\lambda}{\chi_\beta}.
+\end{align}
+$S_{6,\rm new}$ retains the complete neutral-module log-field and score-temperature terms. Negative $\lambda$ is admitted through the actual positive selected module couplings. The full temperature and controls are selected as
+\begin{align}
+ \beta&=\beta_*(s\delta)+
+ \frac{e_0+\Delta e_0+\delta(e_1+\Delta e_1)+\delta^2e_2}{N},\\
+ \epsilon&=\lambda\delta^2,\qquad \zeta=\alpha\delta.
+\end{align}
+The selected errors obey the retained $\delta^3/N$, $\delta^3$ and $\delta^2$ temperature/parity/edge budgets. All choices remain fixed during the count derivative. This cancels the sixth coefficient of between/within memory, ordered relay, source mean and both feedbacks, giving their complete $O(\delta^7)=O(N^{-7/4})$ family law.\samref{SPC19}\samref{SPC20}
+
+The finite recipient is completed, beyond the earlier formal coefficient screen. All eighteen original sources receive actual rational joint temperatures and both physical controls before field evaluation. Their exact even/odd module products and $e^{\zeta q_{\rm port}}$ multiplier retain origin, tails and normalization. The aggregate has 216 installed EXP/SOLVE calls: 54 control solves, 72 formal calls, 72 finite protocol calls and eighteen edge exponentials. All selected-error checks pass. Every finite mean derivative is negative; both memory derivatives, ordered relay and both $J$ derivatives are positive across the panel. These nonzero seventh-order residuals remain recorded.\samref{SPC20}
+
+The temperature test concerns the actually selected source, including uncertainty in $\beta_*$ and all three thermal terms. It is stronger than assigning a small enclosure radius to each coefficient separately. The largest selected temperature error is below $2.922\times10^{-23}$ of its allowed budget; the three previously identified refinement cases all pass. Refinement retains the same quartic law, exact origin Jacobian, analytic tails and original moment-root brackets. Each complete formal protocol has vanishing degree-four, degree-five and degree-six coefficients, with 324 directed zero checks across the eighteen sources. Actual finite protocols then evaluate the full physical products rather than a truncated control polynomial. At the largest retained size the displayed $J(1)/\delta^7$ values are approximately $6.5518216\times10^{-8}$, $0.0015764405$ and $0.00094647497$ at the three retained $s$ values. Their nonzero values are the remaining finite response after the named sixth-order cancellations.\samref{SPC20}
+
+This supplies an actual source successor to the temperature-only obstruction. It also identifies the sixteen-hidden-spin module received by the physical-response work that follows. Equilibrium elimination and the declared $\theta=1/3$ boundary protocol have completed roles here. The module's microscopic transition law and its full uniform Kac clock retain their separate source construction; composition cancellation supplies no automatic physical-seconds conversion. The completed parity, port and thermal results retain the classification: \emph{The test result suggests strong contact with the concept.}\samref{SPC15}\samref{SPC20}
+
+\subsection{Microscopic overlap changes shape as well as speed}
+
+The complementary ratio-one source contains four boundary spins and 24 hidden spins in ten exact groups, representing all $2^{28}$ configurations through 90,000 count tuples per boundary state. At $\beta=1$, boundary attempt one and hidden attempt $\gamma=1$, its energy is
+\begin{equation}
+ E(s,c)=-\sum_gJ_g(a_g\cdot s)(2c_g-m_g).
+\end{equation}
+A boundary flip keeps $c$. Hidden births and deaths use their original conditional heatbath probabilities. Let $\chi_s(c)$ be the complete conditional hidden Gibbs law, and $Z_s$ the boundary partition weight. The projected microscopic rate and thermal-boundary rate satisfy
+\begin{equation}
+ A_{ts}=Q^{\rm th}_{ts}\Omega_{st},\qquad
+ Q^{\rm th}_{ts}=\frac{Z_t}{Z_s+Z_t}.
+\end{equation}
+For $p=\chi_s$, $q=\chi_t$ and $\alpha=Z_s/(Z_s+Z_t)$,
+\begin{equation}
+ \Omega_{st}=1-\alpha(1-\alpha)
+ \sum_c\frac{(p_c-q_c)^2}{\alpha p_c+(1-\alpha)q_c}.
+\end{equation}
+Thus overlap equals one exactly when the two hidden laws coincide. A common multiplier $A=cQ^{\rm th}$ requires identical $\Omega_{st}=c$ on every edge.\samref{SPC06}
+
+The actual 32 undirected edges have overlaps from $0.0039362064510857445$ to $0.057696177945879945$. Two disjoint edge intervals already exclude a common multiplier. The sector mean-rate ratio is approximately $0.0233170441233$, while the RMS ratio is $0.0273573844403$; their disjoint intervals independently expose changed mode ratios. The weighted mismatch $\Delta=a_{\rm th}-a$ is positive semidefinite, with full rank fifteen and even/odd ranks seven/eight. Changing the hidden attempt rate alone leaves these instantaneous overlaps unchanged but changes the later memory.\samref{SPC06}\samref{SPC07}
+
+The complete microscopic resolvent retains that memory:
+\begin{equation}
+ R_{\rm micro}(z)=[zI+a-\widehat K(z)]^{-1}
+ \succeq(zI+a)^{-1}\succeq(zI+a_{\rm th})^{-1}.
+\end{equation}
+Here $\widehat K=b^t(zI+d)^{-1}b$ comes from the unresolved conditional complement. Even microscopic versus projected dynamics lack a source-wide clock conversion: their short-time expansion contains $(a^2+b^tb)t^2/2$, whereas matching a rescaled projected semigroup already fixes its first-order multiplier to one. The nonzero $b^tb$ remains at second order.\samref{SPC06}
+
+For this microscopic source the retained conditional gap is $\gamma_*=1$ and the complement upper bound is $28$ on the declared attempt clock. They bound the unresolved operator $d$ and its memory resolvent. They do not assign a uniform gap to the whole source. This keeps the conditional relaxation input separate from the complete mode ratios tested above.\samref{SPC06}
+
+For the retained two-wait protocol, both waits are $1/100$, both masks select pair $01=+1$, and all 44 preparations carry their actual hidden history. The equilibrium-one accepted masses are approximately $0.9999218641$, $0.9999213163$ and $0.9806835556$ for microscopic, projected and thermal-boundary dynamics. Preparation residual, between-reading memory, within-wait memory and kinetic mismatch are all paid separately. No new large microscopic propagation was needed; the completed assay receives the qualified stored trajectory with its original numerical scope.\samref{SPC07}
+
+The complete comparison keeps unnormalized accepted substates through both readouts. If the initial microscopic state is a conditional lift plus residual $Rq_0+r_0$, then the actual history contains the same $r_0$ throughout its ordered propagators and masks. A conditional lift used to define the projected comparison does not reset that microscopic history. In the weighted Gibbs norm, with total wait $T$ and conditional hidden gap $\gamma_*$, define
+\begin{equation}
+ \psi(t)=\frac{1-e^{-\gamma_*t}}{\gamma_*},\qquad
+ \phi(t)=\frac{\gamma_*t-1+e^{-\gamma_*t}}{\gamma_*^2}.
+\end{equation}
+For $\bar v\geq\|b^tb\|$, preparation costs
+$\sqrt{\bar v}\,\psi(T)\|r_0\|_\pi$; within waits cost
+$\bar v\sum_i\phi(t_i)\|q_0\|_\nu$; between waits cost
+$\bar v[\phi(T)-\sum_i\phi(t_i)]\|q_0\|_\nu$. The extra projected-to-thermal mismatch is $T\|\Delta\|\|q_0\|_\nu$. These quantities are norm payments for the stated kinetic assay. Thermodynamic work requires the separate physical preparation operation.\samref{SPC06}
+
+For the equilibrium-one example, the between and within payments are approximately $0.0003129752011$ and $0.0003150669222$, the preparation payment is zero, and the kinetic-mismatch payment is $2.118659132$, giving complete payment $2.119287174$. The actual weighted microscopic-to-projected discrepancy is $0.000245118417$, while microscopic-to-thermal discrepancy is $1.564677382$. Signed effects can oppose: in the hidden-point preparation the complete discrepancy is $1.069045558$ although the separate memory and mismatch norms are $0.495448315$ and $1.564432276$. Its nonzero preparation residual remains paid. These examples show why adding unsigned costs provides a valid comparison account while summing separately observed signed effects would lose their interaction.\samref{SPC07}
+
+For a genuine global time scaling, $\Gamma_c(z)=c\Gamma(z/c)$ and $J_c(z)=cJ(z/c)$. Such a scaling moves all relaxation rates together. Conditional-law overlap, unresolved memory and the surviving composition directions instead change response shape. Volume I receives this distinction when connecting a source to a clock, ruler and carrier; inverse-time $z$ remains distinct from cosmological redshift. Volume III receives the complete operators and retained preparations needed to calculate it. In Volume II the result is a finite matter-side mechanism: an internal rearrangement can alter later response after every common thermal tangent has been removed. The completed sixteen-hidden-spin parity and port-edge source now supplies an actual constructive response to that mechanism. Chapter~\ref{ch:spin-physical} follows its physical preparation and full-source receiving bounds; the separate 28-spin assay retains its own microscopic clock.\samref{SPC06}\samref{SPC09}\samref{SPC20}

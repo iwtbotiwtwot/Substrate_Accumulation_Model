@@ -1,0 +1,144 @@
+\section{The exact switched reference and its spatial residual}
+The retained SAM\_land action provides an exact reference for the actual
+switch.  Keep the original complete sixteen-state source, both polarizations
+and counterterms, the original hard preparation and the full tensor field.
+For $b(x)=-\sqrt2d/[1000\sqrt{d^2+|x-de_z|^2}]$, its centre value is
+exactly $b(0)=-1/1000$.  Put
+\begin{align*}
+ n(t)&=1-\eta\chi(t)/1000,&
+ \tau(t)&=\int_0^t n(s)\,ds,\\
+ r(t,x)&=\frac{\eta\chi(t)[b(x)-b(0)]}{n(t)}.
+\end{align*}
+In the new time coordinate the \emph{entire} joint receiving Hamiltonian has
+lapse $1+r$.  Its canonical free equations are
+\[
+ \partial_\tau q=(1+r)p,\qquad
+ \partial_\tau p=-D_{1+r}q.
+\]
+The source energy and original counterterm have weight $1+\overline r_R$;
+the original interaction has the actual angular shell weight $1+r_R$.
+There is no extra derivative term in these first-order equations.
+
+For the uniform reference $r=0$, all Hamiltonians commute, so
+\[
+ U_n(T,0)=e^{-iH_0\tau(T)},\qquad
+ \frac{\tau(T)}T=1-\frac{3\eta}{8000}.
+\]
+The full original shell covariance is $C_R(\tau(t)-\tau(s))$.  Its two
+physical interaction vertices carry $n(t)n(s)$.  Thus change of variables
+gives the exact identity
+\begin{align*}
+ &\int_0^T\!\int_0^T n(t)n(s)
+       |C_R(\tau(t)-\tau(s))|\,dt\,ds\\
+ &\hspace{4mm}=\int_0^{\tau(T)}\!\int_0^{\tau(T)}
+                         |C_R(u-v)|\,du\,dv.
+\end{align*}
+The original $Q_2$ kernel, its complete real tail and the uniform Abel
+dominator therefore close the uniform switched sharp-shell cocycle.  The
+retained bound $\int|C_R(u)|du<402/(\kappa\pi R)$ gives a finite existence
+budget.  It is separate from a small phase-error enclosure.
+
+The actual Plummer derivatives obey
+\[
+ |\nabla b|\le\frac3{2000d},\qquad
+ \|\nabla^2b\|\le\frac3{1000d^2}.
+\]
+With $d=10^{30}R$, all six original radius/time intervals give
+\[
+ |r_R|<2^{-109},\qquad |\overline r_R|<2^{-207}.
+\]
+The shell-average bound uses its zero first spherical moment.  The complete
+backward source causal region lies inside $L=2\times10^6$.  A compact
+auxiliary coefficient, equal to the physical residual on that region, can
+be chosen with amplitude $A=2^{-83}$ and support inside $2L$.
+This is a causal proof comparison; the physical Plummer profile and original
+source size are retained.
+
+\section{A complete tensor estimate for the moving frame}
+The additional inverse-energy estimate needed by the moving frame follows
+from the exact complete tensor Green kernel
+\[
+ D^{-1}(x,y)=\frac{q^2U(x,y)}{4\pi\rho},\qquad
+ q=\frac{r+r'-\rho}{r+r'+\rho}.
+\]
+Here $U$ is the original spin-two transport and $D=\omega^2$ has its
+regular origin.  For a compact coefficient satisfying
+\begin{align*}
+ |b|&\le A,& |\nabla b|&\le3A/L,\\
+ |\Delta b|&\le15A/L^2,&
+ \|\nabla^2b\|&\le20A/L^2,
+\end{align*}
+the exact double commutator
+$T_b=D^{-1}[D,[D,b]]D^{-1}$ satisfies
+\begin{align*}
+ \|\omega^{-1}T_b\|_{\rm HS}&\le10^8AL,\\
+ \|\omega^{-1/2}T_b\omega^{-1/2}\|_{\rm HS}
+                                      &\le10^8AL,\\
+ \|\omega^{-3/2}(\Delta b)\omega^{-3/2}\|_{\rm HS}
+                                      &\le400AL.
+\end{align*}
+The proof first combines the two principal Green derivatives; their
+individual squares need not be integrable.  It also strengthens the
+angular endpoint bound before discarding the angular factor:
+\[
+ \|\nabla_x(q^2U)\|\le\frac{14k^2}{r},\qquad
+ k=\frac{4rr'}{(r+r'+\rho)^2}.
+\]
+This pays the regular-origin and exterior limits.  Columnwise
+$L^{6/5}$ bounds and the bundle Sobolev inequality then yield the stated
+Hilbert--Schmidt estimates.  Both real tensor components and every angular
+sector are included.
+
+For the original canonical relative pair coefficient $G_b$, the exact
+spectral identities give
+\[
+ \|\mathcal L_\omega^{-1}G_b\|_{\rm HS}
+       \le4\times10^6AL,\qquad
+ (\mathcal L_\omega^{-1}F)_{ab}=\frac{F_{ab}}{a+b}.
+\]
+The same complete tensor proof gives
+\[
+ \|\omega^{\pm1}H_b\omega^{\mp1}\|\le4A,\qquad
+ \|\omega^{\pm1}G_b\omega^{\mp1}\|\le14A.
+\]
+One useful exact intermediate identity is
+\[
+ \operatorname{Re}\langle Du,u/r^2\rangle
+   =\|\nabla_Eu/r\|^2+3\|u/r^2\|^2.
+\]
+It supplies the required Hardy--Rellich graph bounds without a mass gap.
+
+These estimates extend the \emph{same} Riccati fixed point to the graph
+ideal $W=\omega Z$, where
+$Z=\omega^{-1/2}Y\omega^{-1/2}$.
+They are the full tensor operands used in the companion common-form joint
+propagator proof.  The editable proof records all constants, domains and
+causal identifications.  They do not by themselves evaluate the physical
+nonuniform cap mean, its noise or the external vacuum-work ledger.
+
+\section{Transport the return front before estimating its error}
+The original solved kernel explains an otherwise misleading perturbative
+failure.  Near its shell-return front,
+\[
+ C_R(u)=\frac{\log|u-2R|}{2\kappa\pi R^2}
+                       +\hbox{less singular terms}.
+\]
+Therefore differentiating $C_R(nu)$ with respect to $n$ produces a nonzero
+multiple of $\operatorname{PV}[u/(u-2R)]$, which is not an $L^1$ function.
+The exact kernels and their finite differences remain $L^1$.
+Taking an absolute first Born derivative at this moving front is consequently
+insufficient even for the exactly closed uniform model.
+
+The finite displacement has an explicit integrable modulus.  For
+$0<h\le L_0$,
+\begin{align*}
+ &\int_{-L_0}^{L_0}
+    \big|\log|x-h|-\log|x|\big|\,dx\\
+ &=(L_0+h)\log(L_0+h)\\
+ &\quad -(L_0-h)\log(L_0-h)-2h\log h+2h\log2\\
+ &\le2h\left[1+\log\frac{2(L_0+h)}h\right].
+\end{align*}
+Thus the direct covariance route should transport the actual return front,
+then bound its coefficient and remainder.  The equivalent joint theorem
+uses the compact moving-frame form construction; it does not label this
+unevaluated covariance correction as a computed table.

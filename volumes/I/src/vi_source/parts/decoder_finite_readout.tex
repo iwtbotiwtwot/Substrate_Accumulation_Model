@@ -1,0 +1,376 @@
+\section{Finite source controls and a two-state readout pointer}
+\label{sec:chvisd-finite-readout}
+
+This construction specifies a source-selective receiving model. Its
+controls act on the original sixteen-state source and a finite pointer;
+the complete continuum field remains active. It supplies a finite
+mathematical implementation of the stated source effects with an explicit
+drift and switching-work budget. The actuator implementing these source
+operators, its timing and calibration, and any autonomous replacement for
+the driven controls remain physical apparatus assignments.
+
+\subsection{The retained source energy is enough for short pulses}
+\label{sec:chvisd-readout-form-energy}
+
+In the declared prepared lane retain
+\begin{equation}
+\begin{gathered}
+H_0=\epsilon eI+\epsilon S+K,\\
+ K=H_f+H_{\rm int}+cI\geq0,\\
+ c=2g^2\mu.
+\end{gathered}
+\label{eq:chvisd-readout-source-generator}
+\end{equation}
+Here $S$ is the original Swap restriction, $\|S\|=1$, and the even energy,
+both physical polarizations, both counterterms, hard dressing, soft vacuum,
+and all field complements are retained. On the original common form
+domain the annihilation form estimate gives
+\begin{equation}
+ |\langle H_{\rm int}\rangle|
+      \leq2\sqrt{c\langle H_f\rangle}
+      \leq\langle H_f\rangle+c.
+\end{equation}
+Consequently, with the lane scalar removed only from the comparison phase,
+\begin{equation}
+ \begin{aligned}
+ L&=H_0-\epsilon eI+\epsilon I\geq0,\\
+ L&\leq2\epsilon I+2H_f+2cI
+                   \quad\hbox{as quadratic forms}.
+ \end{aligned}
+ \label{eq:chvisd-readout-positive-form}
+\end{equation}
+The scalar $\epsilon e-\epsilon$ is still part of the physical generator
+and its elapsed phase; removing its common phase from this comparison
+does not subtract its energy or any relative route phase.
+
+Precisely, the positivity and scalar subtraction in
+Eq.~\eqref{eq:chvisd-readout-positive-form} apply on the selected invariant
+lane tensored with the full Fock space and pointer. They are not a global
+all-sixteen-state positivity claim after subtracting one lane's $e$.
+The actual $H_0$ and bounded source controls are defined on all sixteen
+source states. Swap and $P_{ba}$ preserve each invariant source lane, so
+the finite-energy proof restricts to the reference input lane without
+discarding the other states from the physical dynamics.
+
+Suppose the declared reference source--field input to the readout has
+$\langle H_f\rangle\leq F$ at its declared entry age. Adjoin the blank
+finite pointer. Let $V$ be an ideal source--pointer unitary and $B$ a
+self-adjoint contraction, both preserving the selected lane and commuting
+with $H_f$. The controls used below have these properties. Then
+for $\xi=V\psi$ the form bounds imply
+\begin{equation}
+\begin{gathered}
+\langle\xi,L\xi\rangle\leq C,\\
+ \langle B\xi,L B\xi\rangle\leq C,\\
+ C=2\epsilon+2F+2c.
+\end{gathered}
+\label{eq:chvisd-readout-common-C}
+\end{equation}
+The second expression is not normalized: $\|B\xi\|\leq1$ and
+$\langle B\xi,H_fB\xi\rangle\leq F$. Commutation with $H_f$ preserves
+its form domain and is used here; preservation of $D(H_0)$ by $B$ or $V$
+is neither assumed nor needed. A mixed input is covered by a purification,
+with the same expectation bounds and an untouched reference.
+
+The retained source estimate can be inserted before selecting pulse times.
+For example, if the declared input-age bound is
+\begin{equation}
+ F\leq2c+2K_{\rm prep}+2\epsilon E(T_0),
+\end{equation}
+then one may use the outward source-bound ceiling
+\begin{equation}
+ C\leq C^{\rm up}
+   =2\epsilon+6c+4K_{\rm prep}+4\epsilon E(T_0).
+ \label{eq:chvisd-readout-source-C-upper}
+\end{equation}
+This substitution inherits the preparation, input-age window and
+definitions of its source bound. It does not assign a new measured
+accuracy or an energy second moment.
+
+\subsection{A bounded-control drift lemma}
+\label{sec:chvisd-bounded-pulse-lemma}
+
+For $L\geq0$ and any vector in its form domain, the spectral theorem gives
+\begin{equation}
+ \|(e^{-itL}-I)\xi\|^2
+   =\int 2[1-\cos(tE)]\,d\mathcal P_\xi(E)
+   \leq2|t|\langle\xi,L\xi\rangle.
+ \label{eq:chvisd-free-form-increment}
+\end{equation}
+Thus a finite first energy form suffices, even when $L\xi$ is not a
+Hilbert-space vector.
+
+Let a pulse of duration $\tau>0$ have actual generator
+\begin{equation}
+\begin{gathered}
+H(t)=L+\lambda(t)B,\\
+ A_{\rm abs}=\int_0^\tau|\lambda(t)|\,dt<\infty,
+\end{gathered}
+\label{eq:chvisd-readout-driven-generator}
+\end{equation}
+with $B$ as above. The finite pointer is degenerate during this modelled
+control, and $\lambda(t)$ is real. In the interaction picture put
+\begin{equation}
+\begin{gathered}
+B_H(t)=e^{itL}Be^{-itL},\\
+ V(t)=\exp\!\left[-iB\int_0^t\lambda(u)\,du\right].
+\end{gathered}
+\end{equation}
+The ideal $V(t)$ commutes with $H_f$. For
+$\xi_t=V(t)\psi$, split
+\begin{equation}
+ \begin{aligned}
+ (B_H(t)-B)\xi_t
+   ={}&e^{itL}B(e^{-itL}-I)\xi_t\\
+      &+(e^{itL}-I)B\xi_t.
+ \end{aligned}
+\end{equation}
+Equations~\eqref{eq:chvisd-readout-common-C} and
+\eqref{eq:chvisd-free-form-increment} therefore give
+\begin{equation}
+\begin{gathered}
+\|(B_H(t)-B)V(t)\psi\|
+          \leq2\sqrt{2tC},\\
+ 0\leq t\leq\tau.
+\end{gathered}
+\label{eq:chvisd-interaction-control-drift}
+\end{equation}
+All free factors in this calculation are unitary on the Hilbert space.
+No commutator $[L,B]$, derivative $LB\xi_t$, or operator-domain
+preservation is required.
+
+The actual interaction-picture generator $\lambda(t)B_H(t)$ is bounded
+and strongly measurable with integrable norm. Its Dyson propagator exists
+on the full Hilbert space. Bounded-generator Duhamel, applied to the
+ideal reference vectors only, gives
+\begin{equation}
+ \|(U_I(\tau)-V(\tau))\psi\|
+   \leq2\int_0^\tau |\lambda(t)|\sqrt{2tC}\,dt
+   \leq2A_{\rm abs}\sqrt{2\tau C}.
+\end{equation}
+The actual Schr\"odinger propagator is
+$U(\tau)=e^{-i\tau L}U_I(\tau)$. Adding its final free factor, and
+using the form bound on $V(\tau)\psi$, yields the finite-pulse estimate
+\begin{equation}
+ \boxed{\begin{gathered}
+ \|(U(\tau)-V(\tau))\psi\|
+       \leq(1+2A_{\rm abs})\sqrt{2\tau C}.
+ \end{gathered}}
+ \label{eq:chvisd-finite-pulse-error}
+\end{equation}
+This is a state-specific finite-energy estimate. For rectangular pulses,
+$L+\lambda B$ is self-adjoint on $D(L)$ by bounded perturbation and has
+the same form domain after a finite scalar shift. Its unitary preserves
+that form domain. This also makes the endpoint mean energies and bounded
+switching payments well defined for the stated input. The proof of
+Eq.~\eqref{eq:chvisd-finite-pulse-error} itself uses bounded Dyson evolution
+and the reference form estimates, not an assumed invariance of $D(L)$.
+
+\subsection{Exact ideal rotation and phase-free pointer gate}
+\label{sec:chvisd-pointer-gate}
+
+Take the ideal source rotation
+\begin{equation}
+ R=e^{i\pi S/4}.
+ \label{eq:chvisd-source-quarter-rotation}
+\end{equation}
+It is generated by $B_{\rm rot}=S$ with signed area
+$\int\lambda_{\rm rot}=-\pi/4$, hence
+$A_{\rm rot}=\pi/4$. The full source operator is the original
+six-lane Swap with its four unforced directions; it is not replaced by
+a bare Hamiltonian during the pulse.
+
+Let $P_{ba}$ be the declared source-only projector onto the ordered
+state selected by the receiver, and let $X_{\rm ptr}$ be the pointer
+Pauli matrix. Assign the bounded projector generator
+\begin{equation}
+ B_{\rm gate}=P_{ba}\otimes\frac{I-X_{\rm ptr}}{2}.
+ \label{eq:chvisd-projector-pointer-generator}
+\end{equation}
+At area $\int\lambda_{\rm gate}=\pi$,
+\begin{equation}
+ \begin{aligned}
+ G=e^{-i\pi B_{\rm gate}}
+   &=I-2B_{\rm gate}\\
+   &=(I-P_{ba})\otimes I+P_{ba}\otimes X_{\rm ptr}.
+ \end{aligned}
+ \label{eq:chvisd-phase-free-controlled-pointer}
+\end{equation}
+Thus a blank pointer $|0\rangle$ is flipped precisely on the selected
+source subspace, with no extra conditional phase. Both generators have
+norm at most one and commute with $H_f$. Their finite source--pointer
+matrices act on all $16\times2$ coordinates while the entire field
+remains in the dynamics.
+
+For reference, put $P^{\rm ord}_{ab}=|ab\rangle\langle ab|$.
+In the ordered prepared-lane basis $|ab\rangle,|ba\rangle$
+define $Z=P^{\rm ord}_{ab}-P_{ba}$, $X=S$, and
+$Y=-i|ab\rangle\langle ba|+i|ba\rangle\langle ab|$.
+Then
+\begin{equation}
+\begin{gathered}
+P_{ba}=\frac{I-Z}{2},\\
+ R^\dagger P_{ba}R=\frac{I+Y}{2}.
+\end{gathered}
+\label{eq:chvisd-pointer-observable-signs}
+\end{equation}
+The two corresponding ideal signed pointer means are
+$\langle Z\rangle=1-2P(1)$ without $R$ and
+$\langle Y\rangle=2P(1)-1$ after $R$. These signs belong to this
+explicit ordered basis. Any source-current convention used elsewhere
+must be translated by its actual source operator map.
+
+\subsection{Two-pulse error, finite switching work and event time}
+\label{sec:chvisd-readout-two-pulse-budget}
+
+Let $U_{\rm rot},U_{\rm gate}$ be the actual rectangular pulses and
+$R,G$ the ideal ones. Unitary invariance and one hybrid intermediate state
+give
+\begin{equation}
+ \begin{aligned}
+ &\|U_{\rm gate}U_{\rm rot}\psi-GR\psi\|\\
+ &\quad\leq\|(U_{\rm rot}-R)\psi\|
+                +\|(U_{\rm gate}-G)R\psi\|\\
+ &\quad\leq r,\\
+ r={}&\left(1+\frac\pi2\right)\sqrt{2C\tau_{\rm rot}}
+       +(1+2\pi)\sqrt{2C\tau_{\rm gate}}.
+ \end{aligned}
+ \label{eq:chvisd-two-pulse-readout-error}
+\end{equation}
+The second pulse is tested on the ideal state $R\psi$, whose $H_f$
+expectation is still bounded by $F$. The estimate does not require a new
+field-energy estimate on the actual intermediate state. A pointer-only
+readout omitting the rotation uses the second term alone.
+
+For any final pointer event, the probability discrepancy is at most $r$,
+because pure-state trace distance is no larger than the vector difference.
+Partial trace and purification give the same bound for a mixed input.
+A binary pointer value in $\{-1,+1\}$ consequently has mean error at
+most $2r$. Pointer initialization and detector errors, when present,
+must be added using their declared all-outcome probability or joint-state
+bounds. These inequalities introduce no additional measurement rule.
+
+If the actual preparation is known only to satisfy
+$T(\rho_{\rm act},\rho_{\rm ref})\leq\delta_{\rm prep}$, apply the
+same full actual pulse and pointer channel to both states. Trace-distance
+contractivity adds at most $\delta_{\rm prep}$ to each output probability
+error. The reference pulse estimate therefore gives
+\begin{equation}
+ |P_{\rm act}(E)-P_{\rm ideal,ref}(E)|
+       \leq\delta_{\rm prep}+r.
+ \label{eq:chvisd-readout-preparation-contraction}
+\end{equation}
+No field-energy or form-domain assumption is thereby made on
+$\rho_{\rm act}$, which may have a component outside the reference lane.
+The $C$ bound and the pulse-drift proof concern the ideal reference
+states. Finite source-energy claims for an actual preparation, when
+needed for a resource account, require its own supplied energy bound.
+
+\paragraph{Calibrated areas use their actual absolute areas.}
+The nominal analyser angle is $\chi=-\pi/2$, corresponding to the source
+area $\chi/2=-\pi/4$. If a rectangular rotation has
+$|\delta\chi|\leq b$, its frozen-unitary error relative to $R$ is at
+most $b/2$, and its absolute area is at most $\pi/4+b/2$. If the pointer
+area is $\pi+\delta_g$ with $|\delta_g|\leq u$, its frozen-unitary
+error relative to $G$ is at most $u$ and its absolute area is at most
+$\pi+u$. A sufficient full bound is therefore
+\begin{equation}
+ \begin{aligned}
+ r_{\rm cal}\leq{}&\frac b2+u\\
+   &+\left(1+\frac\pi2+b\right)\sqrt{2C\tau_{\rm rot}}\\
+   &+(1+2\pi+2u)\sqrt{2C\tau_{\rm gate}}.
+ \end{aligned}
+ \label{eq:chvisd-calibrated-pulse-error}
+\end{equation}
+This follows from $\|e^{-i\delta B}-I\|\leq|\delta|$ for a
+self-adjoint contraction and the same hybrid comparison. A net-area
+uncertainty does not bound the absolute area of a pulse with uncontrolled
+sign reversals; that case must supply $A_{\rm abs}$ itself. Nominal-area
+feasibility values use $b=u=0$ in the pulse estimate. A separate timing
+or accumulated-phase allowance, for example $|\Omega\,\delta\eta|$,
+is not an analyser-axis error unless its declared control map makes it
+one. General calibrated work bounds likewise replace the nominal areas
+in Eq.~\eqref{eq:chvisd-finite-readout-switch-work} by these actual
+absolute-area ceilings.
+
+There are two equivalent ways to allocate the rotation-axis error, and
+they must not be added together. Equation~\eqref{eq:chvisd-calibrated-pulse-error}
+compares every pulse with the \emph{nominal} ideal rotation; the separate
+decoder phase/age error then excludes the same $b$. Alternatively compare
+the finite rotation with its \emph{actual frozen} area and include $b$ in
+the decoder's ideal-axis phase allowance. The finite-pulse part in that
+allocation is
+\begin{equation}
+ \begin{aligned}
+ r_{\rm actual\ axis}\leq{}&u
+   +\left(1+\frac\pi2+b\right)\sqrt{2C\tau_{\rm rot}}\\
+   &+(1+2\pi+2u)\sqrt{2C\tau_{\rm gate}},
+ \end{aligned}
+ \label{eq:chvisd-actual-axis-drift-budget}
+\end{equation}
+with no additional $b/2$. Both allocations use the actual absolute areas
+in their drift bounds. A nominal-axis benchmark with $b=0$, whose stated
+phase allowance comes entirely from age/timing, has no such axis payment.
+
+For a desired positive vector-error allowance
+$r_{\rm rot}+r_{\rm gate}=r_*$, one sufficient finite choice is
+\begin{equation}
+ \begin{aligned}
+ \tau_{\rm rot}
+   &\leq\frac{r_{\rm rot}^2}
+       {2C^{\rm up}(1+\pi/2)^2},\\
+ \tau_{\rm gate}
+   &\leq\frac{r_{\rm gate}^2}
+       {2C^{\rm up}(1+2\pi)^2}.
+ \end{aligned}
+ \label{eq:chvisd-sufficient-finite-pulse-times}
+\end{equation}
+Choose strictly positive times. Their finite rectangular control heights
+are $\pi/(4\tau_{\rm rot})$ and $\pi/\tau_{\rm gate}$; tightening the
+error allowance charges these larger amplitudes explicitly.
+
+At each on/off jump the changed part of the Hamiltonian is a bounded
+operator. The sum of absolute mean switching payments is therefore at
+most
+\begin{equation}
+ \begin{aligned}
+ W_{\rm abs}^{\rm switch}
+  &\leq2\left(\frac{A_{\rm rot}}{\tau_{\rm rot}}
+                     +\frac{A_{\rm gate}}{\tau_{\rm gate}}\right)\\
+  &=\frac{\pi}{2\tau_{\rm rot}}
+                     +\frac{2\pi}{\tau_{\rm gate}}.
+ \end{aligned}
+ \label{eq:chvisd-finite-readout-switch-work}
+\end{equation}
+Directly changing from one rectangular pulse to the next satisfies this
+same upper bound by the triangle inequality. This is an absolute bound
+on the declared driven switching work, not a deduction of autonomous
+controller capital. Initial source/field energy, the supplied blank
+pointer, actuator resources, retained outcomes, and any eventual reset
+remain separate recipients. Time and energy use the original model
+chart; no new SI assignment is supplied.
+
+The selected projector control need not commute with the original
+source--field charge. Its actuator and phase/action reference are part
+of this external receiving model. The switching-work estimate does not
+by itself supply an autonomous charge-conserving actuator or its
+microscopic SAM realization.
+
+The state to which the ideal readout refers is the state at pulse entry.
+Its ideal $H_f$ bound is used throughout the comparison because the
+reference controls preserve $H_f$. The actual classical pointer result
+is available only after the latency
+$\tau_{\rm rot}+\tau_{\rm gate}$ and its subsequent registered readout.
+Calling it the source value at completion would require the corresponding
+event-time and phase-advance map. If the complete physical readout must
+lie inside the original certified window, choose its entry and positive
+pulse durations accordingly. No rate certificate is extended merely by
+omitting this finite latency.
+
+The same fixed rotation, pointer gate, durations and output convention are
+used for all declared input-age hypotheses $\rho(\eta_j)$. The unknown
+label is not supplied to a control schedule. Its physical preparation and
+the two-arm arrival map are separate receiving-model data; a
+label-dependent ideal timing choice cannot be substituted for a single
+implemented decoder.
+

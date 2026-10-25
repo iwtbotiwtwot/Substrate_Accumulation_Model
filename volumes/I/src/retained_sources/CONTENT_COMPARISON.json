@@ -1,0 +1,73 @@
+{
+  "IV": {
+    "normalized_characters": 244436,
+    "same_total_length": true,
+    "differences": [
+      {
+        "start": 65108,
+        "end": 66190,
+        "length": 1082,
+        "same_characters": true,
+        "cyclic_block_relocation": false,
+        "rotation": -1
+      },
+      {
+        "start": 82216,
+        "end": 83441,
+        "length": 1225,
+        "same_characters": true,
+        "cyclic_block_relocation": false,
+        "rotation": -1
+      },
+      {
+        "start": 187165,
+        "end": 188334,
+        "length": 1169,
+        "same_characters": true,
+        "cyclic_block_relocation": true,
+        "rotation": 846
+      },
+      {
+        "start": 204620,
+        "end": 205260,
+        "length": 640,
+        "same_characters": true,
+        "cyclic_block_relocation": false,
+        "rotation": -1
+      },
+      {
+        "start": 209809,
+        "end": 211850,
+        "length": 2041,
+        "same_characters": true,
+        "cyclic_block_relocation": true,
+        "rotation": 1179
+      },
+      {
+        "start": 214959,
+        "end": 215646,
+        "length": 687,
+        "same_characters": true,
+        "cyclic_block_relocation": false,
+        "rotation": -1
+      }
+    ],
+    "assessment": "Six figure/table extraction-order relocations, all manuscript content retained."
+  },
+  "V": {
+    "normalized_characters": 125389,
+    "same_total_length": true,
+    "differences": [
+      {
+        "start": 27292,
+        "end": 28319,
+        "length": 1027,
+        "same_characters": true,
+        "cyclic_block_relocation": false,
+        "rotation": -1
+      }
+    ],
+    "assessment": "Figure 1 and caption extraction-order relocation, all manuscript content retained."
+  },
+  "normalization": "Unicode NFKC; remove whitespace/hyphens and repeated headers/folios. Character multisets and localized diff inspections; not per-page layout equality."
+}

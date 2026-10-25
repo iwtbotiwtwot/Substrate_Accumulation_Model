@@ -1,0 +1,18 @@
+{
+  "pages_original": 240,
+  "pages_rebuilt": 240,
+  "all_page_text_identical": true,
+  "new_chapters_built": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "all_manifest_hashes_passed_before_rebuild": true,
+  "arithmetic_checks": "passed",
+  "assembly_verification": true
+}

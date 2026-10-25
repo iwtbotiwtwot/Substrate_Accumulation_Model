@@ -1,0 +1,481 @@
+\begin{abstract}
+The carrier partition supplies three compact proposals: a radiated-energy ceiling of one eighth of an initial source budget, a fundamental frequency coefficient $3/8$, and a damping coefficient $4/45$. Their arithmetic is exact, but their interpretation as gravitational radiation requires a source-energy map, a physical unit chart and a causal field boundary condition. This chapter proves the ceiling under explicit reservoir premises, derives an illustrative outgoing-flux identity, and formulates the quasinormal-mode problem with a frequency-dependent surface response. It distinguishes the rational matches from the Schwarzschild spectrum, includes the weak-field binary-radiation obligation, and explains why spin, excitation and mass inference matter for observation. A worked finite pulse and independent arithmetic checks clarify which results are newly established analytically and which remain source-record reports. The same boundary law must ultimately account for the thermal behavior of Chapter VII and the perturbative response studied here.
+\end{abstract}
+
+\section{Radiation as an interface between the source and the exterior}
+The earlier chapters give the carrier sector a precise bookkeeping role. With radix $R=12$, the closed container has $R^2=144$ units, of which $\Theta=18$ are released and $M_{\rm count}=126$ are retained. The original notation used $M$ for the retained count and also for a gravitating mass. Here the count receives a subscript; $M_f$ denotes the final compact-object mass. The distinction prevents an exact integer identity from silently becoming a dimensional energy statement.
+
+The working interpretation is that a disturbance of the released sector can propagate away from a changing source. The original chapter describes a merger as exposing carriers before the common boundary closes. An isolated, perfectly spherical formation would have no analogous time-dependent quadrupole in the general-relativistic comparator. These are different statements. The first proposes a microscopic mechanism; the second follows from the symmetry of a particular gravitational theory. A useful carrier theory must specify which source variables excite its outgoing modes and explain the symmetry suppression without relying on a verbal picture alone.
+
+Several pieces of the required interface already exist elsewhere in the volume. Chapter I provides the source--field action and its two receiving polarizations. Chapter IV retains near-field, induction and radiative contributions in a finite-pulse energy account. Chapter V supplies a causal boundary protocol with surface storage. Chapter VII asks how the same boundary exchanges energy and information. None of these ingredients should be discarded when constructing a radiation model. Conversely, their existence does not establish that the field has the tensor transformation law, source coupling and asymptotic normalization of gravitational waves.
+
+This chapter therefore has two levels. The first records the original numerical proposals, including the $1/8$ energy fraction and the pair $3/8$, $4/45$. The second asks what action, boundary response and measurement procedure would make those proposals physical predictions. A derivation at the second level must identify the clock, ruler and energy calibration inherited from the earlier source problem. It must also survive the weak-field radiation tests that precede any strong-field ringdown comparison.
+
+\section{The count ledger and its exact content}
+The relevant identities are
+\begin{equation}
+ \begin{gathered}
+ R^2=144=8\Theta,\qquad M_{\rm count}=126=7\Theta,\\
+ L=162=9\Theta,\qquad V=27=\widehat d^{\,3},\\
+ S=8,\qquad \widehat d=3.
+ \end{gathered}
+ \label{c11:counts}
+\end{equation}
+The declared closure rule gives
+\begin{equation}
+ R^2=S\Theta,\qquad S=\widehat d^{\,\widehat d-1}-1.
+ \label{c11:closure}
+\end{equation}
+For the particular values in \eqref{c11:counts}, the proposed coefficients reduce to
+\begin{align}
+ \alpha_R&=\frac{\Theta\widehat d}{R^2}
+          =\frac{\widehat d}{S}=\frac38,\label{c11:alphaR}\\
+ \alpha_I&=\frac{R}{L-V}
+          =\frac{12}{135}=\frac4{45},\label{c11:alphaI}\\
+ L-V&=135=R^2-\widehat d^{\,2}.
+ \label{c11:shell}
+\end{align}
+These reductions require no numerical approximation. They establish that several count expressions represent the same rational numbers. They do not identify an eigenfunction, a differential operator, an excitation amplitude or an energy-flux normalization. The distinction is especially important because a rational number may be exact as arithmetic while only approximate as a representation of an independently computed frequency.
+
+The original record CR005 reports 26 exact checks of the ringdown identities. This chapter preserves that report as source provenance; it does not claim to have rerun that record. Similarly, the proposed higher-mode table in CR003b is a retained research lead rather than an independently verified spectrum. A complete expression grammar would need to specify admissible counts, operations, differences, exponent ranges and a selection rule before the comparison target is inspected.
+
+A role restriction can be scientifically meaningful. For example, requiring a damping coefficient to use a boundary leakage count rather than an unrelated geometric constant may follow from an action. Until that restriction is derived, however, rejecting a close alternative because it uses the wrong ``role'' is a model-selection choice. The restriction should be published with the candidate, not introduced after seeing which expression is closest.
+
+\section{An energy ceiling: theorem, assumptions and scope}
+\subsection{The conditional budget statement}
+Let $E_0$ be a declared initial total energy in an asymptotically meaningful accounting convention. Suppose a source class satisfies all of the following premises:
+\begin{enumerate}
+\item Its available carrier reservoir initially obeys $0\leq E_C(0)\leq E_0/8$.
+\item No retained-sector transfer, external work or incoming radiation replenishes that reservoir during the interval under study.
+\item The outgoing gravitational channel is paid entirely from this reservoir.
+\item The remaining reservoir, stored boundary energy and other debited outgoing channels are nonnegative in the same reference convention.
+\end{enumerate}
+Then energy conservation gives
+\begin{equation}
+ E_C(0)=E_C(T)+E_{\rm GW}(0,T)+E_{\rm other}(0,T)
+             +\Delta E_{\rm store},
+ \label{c11:budget}
+\end{equation}
+where the last three terms apart from $E_{\rm GW}$ are assumed nonnegative in the stated ledger. Consequently,
+\begin{equation}
+ 0\leq E_{\rm GW}(0,T)\leq E_C(0)\leq \frac{E_0}{8}.
+ \label{c11:ceiling}
+\end{equation}
+This is a genuine conditional implication. Its proof is subtraction of nonnegative debits from a finite initial reservoir. The physically difficult step is the first premise: a count fraction must be shown to equal an energy fraction for the actual prepared source, including interaction and boundary energy. Counting 18 labels among 144 labels does not prove that their mean energies are equal.
+
+If replenishment is allowed, the correct inequality instead contains its payment:
+\begin{equation}
+ E_{\rm GW}(0,T)\leq E_C(0)+\int_0^T P_{\rm feed}(t)\,dt,
+ \label{c11:replenished}
+\end{equation}
+provided the other debits remain nonnegative. Omitting this term could make an apparent violation merely a change of source class. For that reason a ceiling must declare whether it covers a complete inspiral and merger, only the late merger, or a finite pulse driven by an external controller. Those are not interchangeable experiments.
+
+For a binary initially at large separation, a conventional comparison uses $E_0=(m_1+m_2)c^2$ with an explicit treatment of initial kinetic and binding energy. An energetic encounter with substantial incoming kinetic energy cannot automatically be normalized by the rest-mass sum. For a numerical simulation started at finite separation, the initial total energy is the appropriate comparison quantity, with the radiation already emitted before the chosen start accounted for separately. The final mass appearing in ringdown is a different mass again.
+
+\subsection{How the original catalog comparison should be read}
+The source chapter reports a historical selection of sixteen events below $12.5\%$, with a largest tabulated fraction of $5.98\%$. Its displayed examples are retained here as the original comparison, not as a new catalog extraction:
+\begin{center}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Event & $M_{\rm initial}/M_\odot$ & $E_{\rm rad}/(M_\odot c^2)$ & Fraction\\
+\midrule
+GW150914 &65.3&3.1&0.0475\\
+GW170729 &80.3&4.8&0.0598\\
+GW170817 &2.74&0.025&0.0091\\
+GW190521 &150&7.6&0.0507\\
+GW200115 &6.6&0.025&0.0038\\
+\bottomrule
+\end{tabular}
+\end{center}
+The printed event-class tally in the working draft mixes overlapping categories and does not provide a mutually exclusive sixteen-event list. It should not be used to infer population frequencies. Neutron-star systems also have matter, neutrino and electromagnetic channels; a remnant mass deficit is not automatically all gravitational radiation. A reproducible test must return to event posteriors, document the waveform assumptions and preserve correlations among initial masses, final mass and radiated energy.
+
+Even a perfectly verified set of events below the ceiling would establish consistency, not a measured ceiling. A bound far above all observed values is weakly tested. To reject the proposal, one needs a source demonstrably inside its declared domain with robust support above the bound. A useful statistic is the posterior probability
+\begin{equation}
+ p_{>}=\Pr\!\left(E_{\rm GW}/E_0>1/8\mid d,\mathcal M\right),
+ \label{c11:ceilingtest}
+\end{equation}
+reported together with the likelihood model $\mathcal M$, calibration uncertainty, selection effects and alternative waveform families. A strong rejection cannot be based solely on a point estimate obtained under a model whose radiation law is itself under test.
+
+\subsection{The general-relativistic comparator}
+The classical area theorem gives a different kind of bound. Assume two initially nonspinning holes of masses $m_1,m_2$, initial total ADM energy no greater than $(m_1+m_2)c^2$, no incoming or externally supplied energy, and nonnegative other outgoing energy channels. Then the initial horizon areas are proportional to $m_1^2+m_2^2$. Under the theorem's classical assumptions, the final irreducible mass obeys $M_{{\rm irr},f}^2\geq m_1^2+m_2^2$, and $M_f\geq M_{{\rm irr},f}$. Hence
+\begin{equation}
+ \frac{E_{\rm GW}}{(m_1+m_2)c^2}
+ \leq 1-\frac{\sqrt{m_1^2+m_2^2}}{m_1+m_2}.
+ \label{c11:areabound}
+\end{equation}
+For equal masses this is $1-1/\sqrt2\simeq0.2929$ [XI.1]. This is an upper bound, not the efficiency of a typical merger. It also uses a different set of premises from the carrier-reservoir argument. A value allowed by the area theorem but forbidden by \eqref{c11:ceiling} would discriminate only if the carrier assumptions were independently fixed.
+
+The original draft also refers to numerical efficiencies of order ten percent for particular high-spin configurations. No universal numerical-relativity maximum is asserted here: spin, mass ratio, orbital state and incoming energy change the question. Likewise, the fact that isolated spherical collapse is quiet is not unique evidence for the carrier mechanism. A quantitative discriminator would be a predicted amplitude or angular dependence for a nonspherical source, with a well-defined comparison to the established quadrupole limit.
+
+\section{What the two-polarization action must supply}
+The Original Write construction gives two real receiving fields, $\phi_+$ and $\phi_\times$, with receiving normalization $\kappa=4/5$, boundary source terms proportional to $\epsilon_R J_a\phi_a(R)$, and a counterterm whose cited radial coefficient is $\kappa/4=1/5$. The source labels are $J_+=D$ and $J_\times=C$. Both polarizations survive the circular decomposition. These ingredients identify an interacting model, but the original source and its full energetic complement must remain present when radiation work is computed.
+
+For orientation, consider a separately declared linear comparator action for multipoles $\psi_a(t,x)$,
+\begin{equation}
+ \begin{aligned}
+ I_{\rm cmp}={}&\frac12\sum_a\int dt\,dx\,
+ \bigl[(\partial_t\psi_a)^2-(\partial_x\psi_a)^2\\
+ &\hspace{5em}-V_a(x)\psi_a^2\bigr]
+ +I_{\rm surf}+I_{\rm drive}.
+ \end{aligned}
+ \label{c11:comparatoraction}
+\end{equation}
+This is a mathematical template, not a derivation of the native action. Its bulk equation is
+\begin{equation}
+ \partial_t^2\psi_a-\partial_x^2\psi_a+V_a\psi_a=J_a.
+ \label{c11:wave}
+\end{equation}
+For time-independent real $V_a$, define
+\begin{equation}
+ e_a=\tfrac12\left[(\partial_t\psi_a)^2+(\partial_x\psi_a)^2
+                    +V_a\psi_a^2\right],\qquad
+ j_a=-\partial_t\psi_a\partial_x\psi_a.
+ \label{c11:energycurrent}
+\end{equation}
+Multiplying \eqref{c11:wave} by $\partial_t\psi_a$ and applying the product rule gives
+\begin{equation}
+ \partial_t e_a+\partial_x j_a=J_a\partial_t\psi_a.
+ \label{c11:energyidentity}
+\end{equation}
+An outgoing wave $F(t-x)$ has $j=(F')^2\geq0$. Integration over a finite interval displays boundary work explicitly; adding the surface-energy equation is what produces a closed balance. Positive outward flux alone does not establish the global $1/8$ bound, because the integrated source work still has to be paid from the stated reservoir.
+
+The normalization of \eqref{c11:energycurrent} is conventional. To compare with gravitational strain, a physical map from $\psi_a$ to dimensionless strain $h_a$ and a conversion to seconds, metres and joules are required. In the general-relativistic far-zone comparator, the energy flux involves time derivatives of the transverse-traceless strain with its $c^3/G$ normalization. That normalization must be recovered by a carrier theory, rather than assigned solely because the field has two components.
+
+There is also a representation-theory obligation. Two scalar channels can carry two numbers without behaving as the helicity-two polarizations measured by a detector network. The theory must establish the field's transformation under rotations, its coupling to conserved stress, the absence or suppression of extra propagating modes, and its detector response. The two-polarization action is a promising starting point, not a substitute for these tests.
+
+\section{The weak-field radiation exam comes first}
+A successful strong-field proposal must also account for energy loss from slowly moving binaries. In the general-relativistic comparator, the leading circular-orbit luminosity is
+\begin{equation}
+ P_{\rm GR}=\frac{32}{5}\frac{G^4\mu^2 M_T^3}{c^5 a^5},
+ \qquad M_T=m_1+m_2,\quad \mu=\frac{m_1m_2}{M_T},
+ \label{c11:quadrupole}
+\end{equation}
+where $a$ is the binary separation. This formula is cited as a benchmark [XI.2], not as a result of the native source action. Combining it with $E_{\rm orb}=-G\mu M_T/(2a)$ gives
+\begin{equation}
+ \dot a=-\frac{64}{5}\frac{G^3\mu M_T^2}{c^5a^3}.
+ \label{c11:adot}
+\end{equation}
+Using Kepler's relation $P_b\propto a^{3/2}$ then yields $\dot P_b/P_b=3\dot a/(2a)$. Eccentric binaries require the corresponding orbit-averaged enhancement and eccentricity evolution; replacing them by a circular estimate is inadequate for precision pulsar work.
+
+The derivation a native theory owes is not simply the algebra after \eqref{c11:quadrupole}. It is the luminosity itself, including its coefficient, multipolar structure and conservation law. Dipole emission, additional polarizations or a modified propagation speed can enter before the ringdown regime is reached. A carrier-reservoir ceiling does not constrain these effects strongly enough. The closing review correctly identifies binary-pulsar radiation as a separate missing interface.
+
+A sensible calculation begins with a translation-invariant moving-source action, expands its conserved source in velocity, obtains the retarded field, and integrates the outgoing energy current over a distant sphere. It must show why lower radiative multipoles vanish or are unobservable, and how orbital energy loss agrees with the outgoing work. Only then can one state whether the proposed carrier mechanism recovers the weak-field radiation law or predicts a correction to it.
+
+\section{The ringdown candidates and their numerical comparison}
+Use the time dependence $\exp(-i\omega t)$ and write
+\begin{equation}
+ \omega=\omega_R-i\gamma,\qquad \gamma>0,\qquad
+ \widehat\omega=\frac{GM_f}{c^3}\omega.
+ \label{c11:frequencyconvention}
+\end{equation}
+The proposed fundamental values are $\widehat\omega_R=3/8$ and $\widehat\gamma=4/45$. With the Schwarzschild gravitational quadrupole comparator $0.37367168-0.08896232i$, their fractional residuals are approximately $+0.3555\%$ and $-0.0825\%$. These are residuals relative to a theoretical numerical value; they are not observational standard deviations [XI.3].
+
+The quality factor and physical time scales are
+\begin{align}
+ Q&=\frac{\omega_R}{2\gamma}=\frac{135}{64}=2.109375,
+ \label{c11:q}\\
+ f_R&=\frac{3c^3}{16\pi GM_f},\qquad
+ \tau=\gamma^{-1}=\frac{45GM_f}{4c^3}.
+ \label{c11:physicalscales}
+\end{align}
+The comparator quality factor is about $2.1002$. The factors of $2\pi$ and the distinction between amplitude damping time and energy damping time are essential: an amplitude proportional to $e^{-t/\tau}$ has energy proportional to $e^{-2t/\tau}$. Mixing these conventions can create an apparent factor-of-two agreement or disagreement.
+
+The count identity for one higher example, $(L+\widehat h)/L=164/162$ with $\widehat h=2$, was compared in the working draft with the real part of the $\ell=5$, $n=0$ Schwarzschild mode. It remains an individually selected candidate. A spectrum requires a rule generating both real and imaginary parts for all specified $(\ell,m,n)$, with the same action and boundary law. Separate rational fits to each entry are not equivalent to an eigenvalue calculation.
+
+The historical ``wrong controls'' used $R/R^2$, $R/L$, $R/M_{\rm count}$, $\widehat d/(L-V)$ and $\Theta/(L-V)$, with substantially worse damping matches. They demonstrate that the particular expression is not interchangeable with these few neighbors. They do not count all expressions examined during development. The closing review's larger enumeration found several alternatives under wider grammars. Its tolerance windows for the ringdown numbers were chosen comparison bands, not measured $1\sigma$ errors. Both the grammar and this distinction belong beside any future significance claim.
+
+\section{A well-posed quasinormal-mode problem}
+\subsection{The exterior operator}
+In the Schwarzschild adapter, set $G=c=1$, so $M_f$ has dimensions of length and time. The tortoise coordinate is
+\begin{equation}
+ x=r_* =r+2M_f\log\left(\frac{r}{2M_f}-1\right).
+ \label{c11:tortoise}
+\end{equation}
+For axial gravitational perturbations, the standard comparison potential is
+\begin{equation}
+ V_\ell^{\rm RW}(r)=\left(1-\frac{2M_f}{r}\right)
+ \left[\frac{\ell(\ell+1)}{r^2}-\frac{6M_f}{r^3}\right],
+ \qquad \ell\geq2.
+ \label{c11:rw}
+\end{equation}
+The frequency-domain equation is
+\begin{equation}
+ \frac{d^2\psi_\ell}{dx^2}
+ +\left[\omega^2-V_\ell(x)\right]\psi_\ell=0.
+ \label{c11:eigenproblem}
+\end{equation}
+Writing this equation with $V_\ell^{\rm RW}$ explicitly adopts the gravitational exterior adapter. The carrier theory must derive its own potential, or explain why its linearized equations reduce to this one. The polar sector supplies an additional consistency check; standard Schwarzschild axial--polar spectral relations depend on the field equations and boundary conditions and need not survive an altered surface response.
+
+\subsection{Boundary conditions are part of the theory}
+At spatial infinity an outgoing mode has $\psi\sim e^{+i\omega x}$. A standard absorbing horizon at $x\to-\infty$ has $\psi\sim e^{-i\omega x}$. These two requirements define a non-self-adjoint resonance problem [XI.3]. They are not ordinary standing-wave boundary conditions in a closed cavity. A numerical implementation must handle the exponential spatial growth of a damped quasinormal mode under analytic continuation, rather than mistake it for a physical instability.
+
+For a surface at finite $x_s$ in a locally free region where the potential is negligible, write locally
+\begin{equation}
+ \psi=A_{\rm in}e^{-i\omega(x-x_s)}
+       +A_{\rm out}e^{+i\omega(x-x_s)},\qquad
+ \mathcal R(\omega)=A_{\rm out}/A_{\rm in}.
+ \label{c11:reflectivity}
+\end{equation}
+A corresponding impedance condition is
+\begin{equation}
+ \left.\frac{\psi'}{\psi}\right|_{x_s}
+ =i\omega\frac{\mathcal R(\omega)-1}{\mathcal R(\omega)+1},
+ \label{c11:impedance}
+\end{equation}
+away from zeros of the denominator. This formula follows directly by differentiating the two local waves. It makes the missing datum visible: ``no completed crossing'' does not determine $\mathcal R$. Absorption, reflection and temporary storage are different realizations of a boundary account.
+
+For a passive nonrotating surface in a single propagating channel, real-frequency reflected flux cannot exceed incident flux, so $|\mathcal R|\leq1$. A causal response also constrains the frequency dependence through its time-domain kernel and analyticity. The field may couple to several surface degrees of freedom; eliminating them generally produces a frequency-dependent matrix impedance mixing polarizations. A constant reflectivity is then a phenomenological approximation whose band of validity must be stated.
+
+A minimal storage example makes the point. Let a surface oscillator obey $\ddot q+2\Gamma_s\dot q+\Omega_s^2q=g\psi(x_s,t)$, and couple its response back to the boundary derivative. Its Fourier response contains $(\Omega_s^2-\omega^2-2i\Gamma_s\omega)^{-1}$. Even this simple system introduces resonant memory and absorption. The native theory must fix such frequencies and couplings from its surface action; freely choosing them to reproduce $3/8$ and $4/45$ would fit the desired answer rather than derive it.
+
+\section{What a reproducible calculation would establish}
+A spectral calculation should freeze the action, background, surface location, impedance and unit convention before searching for roots. One then constructs an inner solution satisfying the surface law and an outer solution satisfying the outgoing condition. Their Wronskian at a matching point,
+\begin{equation}
+ W(\omega)=\psi_{\rm in}\psi_{\rm out}'
+              -\psi_{\rm out}\psi_{\rm in}',
+ \label{c11:wronskian}
+\end{equation}
+vanishes at a mode. Rescaling either solution changes the normalization of $W$ but not its zeros. Continued-fraction, contour, spectral or direct-integration methods can be used, provided the chosen method treats the actual boundary law [XI.4].
+
+Verification should include an absorbing Schwarzschild benchmark, changes of matching radius, precision and truncation, and a search for missed or unstable roots. A small value of one residual at one numerical resolution is not a convergence certificate. For a frequency-dependent boundary, poles of the impedance must be distinguished from coupled-system modes. If the eigenproblem is reduced by eliminating surface variables, roots introduced by multiplying denominators must be checked in the unreduced system.
+
+The rational proposal is tested by evaluating whether a converged root equals, approximates or excludes $3/8-4i/45$ at a declared tolerance. If the exterior and both endpoint conditions are exactly the Schwarzschild ones, the resulting spectrum is the Schwarzschild spectrum; the nonzero residuals quoted above remain. An exact absorbing adapter cannot simultaneously make the unequal rational numbers exact eigenfrequencies. They may be a useful compact approximation, but that is a different claim.
+
+If the boundary stores and returns energy, the spectrum and the time-domain waveform can change. A near-horizon surface at $r_s=2M_f(1+\epsilon)$ has $x_s\simeq2M_f\log\epsilon$ plus finite terms. The approximate round-trip delay between that surface and an exterior potential barrier is
+\begin{equation}
+ \Delta t_{\rm echo}\simeq2(x_{\rm barrier}-x_s)
+             \sim4M_f|\log\epsilon|,
+ \label{c11:echo}
+\end{equation}
+when $\epsilon\ll1$. This is a geometric comparator estimate, not a native prediction for $\epsilon$ or an assertion that an echo must be observable. Amplitude, dispersion, absorption and excitation determine whether any delayed signal survives [XI.5].
+
+\section{Spin, excitation and the detector-facing claim}
+Astrophysical merger remnants generally rotate. The relevant dimensionless spin is $\chi_f=cJ_f/(GM_f^2)$, and a Kerr comparison uses mode functions $\widehat\omega_{\ell mn}(\chi_f)$. A Schwarzschild coefficient describes the zero-spin limit. It cannot be directly fitted to a generic binary remnant without a spin map. The source review's statement that every observed remnant has one particular spin is too strong; the correct requirement is event-specific mass and spin inference with their uncertainties.
+
+Spin is not just a correction to one number. It changes angular eigenfunctions, mode splitting, damping, coupling between labels and the meaning of surface passivity in a rotating frame. A native continuation must specify the angular momentum ledger and its flux along with the energy ledger. If a surface exchanges rotational energy, a reflected amplitude greater than unity in an exterior channel need not represent a violation of total energy conservation; the rotation reservoir must then be included explicitly.
+
+An observed ringdown is also not the bare list of poles. A schematic strain is
+\begin{equation}
+ h(t)=\sum_{\ell mn}A_{\ell mn}
+ e^{-(t-t_0)/\tau_{\ell mn}}
+ e^{-i[\omega_{R,\ell mn}(t-t_0)+\varphi_{\ell mn}]}
+ +h_{\rm tail}(t),
+ \label{c11:waveform}
+\end{equation}
+with angular projection and detector response understood. The excitation amplitudes and phases depend on the merger, while $t_0$ controls the interval on which a linear approximation is used. Early starts gain signal but risk nonlinear contamination; late starts reduce contamination but lose signal-to-noise. Overtone studies and catalog tests illustrate why start-time and waveform choices must be reported [XI.6, XI.7]. No new fit to those data is claimed here.
+
+A useful prospective test would publish a single frozen boundary law, its mass--spin spectrum, the expected source classes and the waveform family. It would then compare held-out events or a held-out portion of a numerical waveform, with detector calibration and noise uncertainty propagated. A family with one freely tuned boundary parameter per event would be substantially less predictive than a universal law tied to the source counts.
+
+\section{A worked finite-pulse account}
+An explicit pulse illustrates the difference between finite outgoing energy and a universal reservoir fraction. In the far-zone version of the comparator equation, set $V=0$ and take an outgoing profile $\psi(t,x)=F(t-x)$, where
+\begin{equation}
+ F(u)=
+ \begin{cases}
+ B\sin^2(\pi u/T),&0<u<T,\\
+ 0,&\text{otherwise}.
+ \end{cases}
+ \label{c11:pulseprofile}
+\end{equation}
+Here $T>0$ is the duration in the comparator clock and $B$ is its amplitude in the comparator field normalization. The function and its first derivative vanish continuously at both ends of the pulse. The integrated outgoing energy through any fixed far-zone point is
+\begin{equation}
+ E_{\rm pulse}=\int_{-\infty}^{\infty}(F'(u))^2\,du
+ =\frac{B^2\pi^2}{T^2}\int_0^T\sin^2(2\pi u/T)\,du
+ =\frac{B^2\pi^2}{2T}.
+ \label{c11:pulseenergy}
+\end{equation}
+Translation of the observing point changes the arrival time but not this integral. The pulse therefore gives a direct example of a finite positive outward energy with an exactly checkable dependence on amplitude and duration. It is a calculation in the declared comparator, not an execution of the Chapter IV native compact-carrier protocol.
+
+If the source reservoir is $E_0/8$, the budget permits this pulse only when
+\begin{equation}
+ B^2\leq\frac{E_0T}{4\pi^2}.
+ \label{c11:pulsebudget}
+\end{equation}
+The wave equation does not impose this inequality: it allows any $B$. The source preparation and coupling must enforce it. This simple example locates the exact logical gap in an argument that jumps from a radiative field to a universal count ceiling. A linear field law supplies propagation and flux; the finite source supplies the allowed amplitudes and total available work.
+
+A shorter pulse of the same amplitude carries more energy in this normalization, because its gradients are larger. A source cannot therefore specify an amplitude independent of bandwidth and still claim a fixed universal energy payment. The physical unit chart and detector response are also necessary before $B$ can be interpreted as an observed strain. The earlier chapters' switching and counterterm budgets become relevant precisely at this point.
+
+\section{Stability, scale degeneracy and independent information}
+\subsection{An energy test for a passive exterior}
+For the homogeneous comparator with $V\geq0$, its bulk energy integral is nonnegative. Suppose the outer boundary carries only outward flux and the inner boundary, including its storage variables, is passive. Adding the surface energy to the bulk identity yields a total energy that cannot increase after the drive is removed. A finite-energy solution growing exponentially in time would contradict this monotonicity unless it had zero energy or violated one of the premises. This is a useful sufficient stability screen for a proposed boundary model.
+
+The screen must be applied to the complete energy, not only to the exterior wave. Eliminating a driven surface oscillator can make an effective boundary term look negative while its full source account remains well behaved. Conversely, assuming a passive reflection coefficient while omitting an active controller can conceal a real energy supply. The sign and storage of the counterterms inherited from the Original Write action therefore require explicit attention.
+
+Ordinary damped quasinormal eigenfunctions are not square-integrable on the real tortoise line; their boundary behavior under complex continuation is part of the resonance construction. The finite-energy monotonicity argument applies directly to physical wave packets and admissible growing modes, not to a naive norm of every damped resonance. It complements a spectral calculation rather than replacing it. A trustworthy computation reports both the pole search and a time-domain response to a finite, paid pulse.
+
+\subsection{What one frequency can and cannot determine}
+An overall mass change rescales both the real frequency and damping rate by the same factor. If only the real oscillation frequency is measured and the mass is free, a small difference in $\widehat\omega_R$ can be absorbed into the fitted mass. For a Schwarzschild comparison, matching that frequency with the rational candidate requires
+\begin{equation}
+ \frac{M_{f,\rm candidate}}{M_{f,\rm comparator}}
+ =\frac{3/8}{0.37367168}\simeq1.003555.
+ \label{c11:massdegeneracy}
+\end{equation}
+The quality factor cannot be changed by this rescaling. Measuring both frequency and damping, or comparing several modes with one common mass, is therefore more informative than comparing one dimensional frequency with a freely chosen mass. A rotating remnant introduces an additional spin dependence and makes the joint inference still more important.
+
+The same logic applies to evidence from exact identities. If the target frequency sets a mass calibration, the resulting dimensional agreement is not an independent test of the count coefficient. If the mass and spin come from an inspiral analysis, the uncertainty and the gravitational assumptions of that analysis must accompany the ringdown comparison. A consistency test within one waveform framework is valuable, but it should not be described as an entirely assumption-free measurement.
+
+A prospective report should separate three uncertainty budgets. Numerical error belongs to the computed eigenproblem. Parameter uncertainty belongs to source mass, spin, orientation, calibration and noise. Structural uncertainty belongs to the choice of exterior action, boundary law and excitation model. Shrinking the first budget to many significant figures does not shrink the other two. The small rational residuals are interesting precisely because they invite a clean calculation, but the claimed precision must refer to the quantity actually constrained.
+
+\section{An exactly energy-normalized surface example}
+\subsection{Field, storage and dissipation in one account}
+A solvable boundary model makes the role of the missing impedance more concrete. Consider a real scalar comparator field $u(t,x)$ on the half-line $x\geq0$, with unit propagation speed and bulk action $\tfrac12\int dt\,dx\,(u_t^2-u_x^2)$. Attach the endpoint value $q(t)=u(t,0)$ to a surface mass $m_s>0$ and spring constant $k_s\geq0$. Here ``mass'' means an oscillator inertia in this normalized model, not the astrophysical mass $M_f$. Add a nonnegative damping coefficient $b_s$ whose dissipated energy is recorded in a separate bath.
+
+Variation of the field-plus-surface action, followed by the stated damping law, gives
+\begin{equation}
+ u_{tt}-u_{xx}=0,\qquad
+ u_x(t,0)=m_s\ddot q+b_s\dot q+k_sq.
+ \label{c11:oscillatorboundary}
+\end{equation}
+The sign of the derivative is important because the field occupies the right half-line. Define
+\begin{equation}
+ E_{\rm bulk}=\frac12\int_0^X(u_t^2+u_x^2)\,dx,
+ \qquad E_s=\frac12m_s\dot q^2+\frac12k_sq^2.
+ \label{c11:oscillatorenergy}
+\end{equation}
+An integration by parts gives
+\begin{equation}
+ \frac{d}{dt}(E_{\rm bulk}+E_s)
+ =-j(t,X)-b_s\dot q^2,
+ \qquad j=-u_tu_x.
+ \label{c11:oscillatorbalance}
+\end{equation}
+If the bath energy grows at rate $b_s\dot q^2$, the enlarged account conserves energy apart from the outer flux. The equation therefore distinguishes reversible surface storage from irreversible transfer to an unobserved bath. Both can reduce the immediately reflected signal, but they have different time-dependent consequences.
+
+This example supplies the normalization missing from a bare reflectivity statement. The incoming wave carries a definite energy current; the endpoint motion stores a definite quadratic energy; and the bath receives a nonnegative payment. No unexplained sink is needed. A native boundary construction should provide an analogous identity, including its actual counterterms and quantum state, before thermal and ringdown interpretations are joined.
+
+\subsection{Reflection and absorption calculated explicitly}
+For a real positive frequency, write $u=\operatorname{Re}[(A_{\rm in}e^{-i\omega x}+A_{\rm out}e^{i\omega x})e^{-i\omega t}]$. Equation \eqref{c11:oscillatorboundary} gives the displacement impedance
+\begin{equation}
+ Z_s(\omega)=k_s-m_s\omega^2-i b_s\omega,
+ \qquad
+ \mathcal R_s(\omega)=\frac{i\omega+Z_s}{i\omega-Z_s}.
+ \label{c11:oscillatorR}
+\end{equation}
+Because both channels have the same speed and normalization, the reflected power fraction is $|\mathcal R_s|^2$. Direct evaluation yields
+\begin{equation}
+ |\mathcal R_s|^2=
+ \frac{(k_s-m_s\omega^2)^2+(1-b_s)^2\omega^2}
+ {(k_s-m_s\omega^2)^2+(1+b_s)^2\omega^2}.
+ \label{c11:oscillatorpower}
+\end{equation}
+The missing fraction is consequently
+\begin{equation}
+ \mathcal A_s=1-|\mathcal R_s|^2
+ =\frac{4b_s\omega^2}
+ {(k_s-m_s\omega^2)^2+(1+b_s)^2\omega^2}\geq0.
+ \label{c11:oscillatorabsorption}
+\end{equation}
+It is also at most one, since the denominator minus its numerator is the sum of squares in the numerator of \eqref{c11:oscillatorpower}. This is an exact passivity check, not an imposed inequality.
+
+The time-averaged incident power is $\omega^2|A_{\rm in}|^2/2$. The endpoint amplitude is $(1+\mathcal R_s)A_{\rm in}$, so the average bath payment is $b_s\omega^2|1+\mathcal R_s|^2|A_{\rm in}|^2/2$. Their ratio equals \eqref{c11:oscillatorabsorption}. Thus the scattering and energy accounts agree independently. At $k_s=m_s\omega^2$ and $b_s=1$, the reflected wave vanishes at that frequency. Away from resonance the same surface generally reflects, so perfect absorption at one frequency is not a broadband horizon law.
+
+When $b_s=0$, all incident power eventually returns in steady state, although surface storage can delay it and change its phase. When $b_s>0$, the bath must be included in a quantum description; damping without the corresponding bath fluctuations is not a complete quantum thermal model. This is why a classical impedance can organize the problem without supplying Chapter VII's boundary state or emission occupation by itself.
+
+\subsection{Poles and the freedom to reverse-engineer a match}
+With no incoming wave, the outgoing condition gives the pole equation $i\omega=Z_s(\omega)$. Its roots are
+\begin{equation}
+ \omega_\pm=
+ \frac{-i(1+b_s)\pm\sqrt{4m_sk_s-(1+b_s)^2}}{2m_s}.
+ \label{c11:oscillatorpoles}
+\end{equation}
+In the underdamped case the real parts are opposite and the decay rate is $(1+b_s)/(2m_s)$. The additional one in this rate is radiation into the exterior half-line; $b_s$ is the separate bath loss. The system can therefore ring down even with no material damping, because it is open to outgoing waves.
+
+This model also demonstrates why matching two desired numbers is insufficient. In its arbitrary normalized units, choose $m_s=45/4$, $b_s=1$ and
+\begin{equation}
+ k_s=m_s\left[(3/8)^2+(4/45)^2\right].
+ \label{c11:inversechoice}
+\end{equation}
+Equation \eqref{c11:oscillatorpoles} then has a root exactly $3/8-4i/45$. The equality is a deliberate inverse design: the target frequencies selected the surface parameters. It is not evidence that this oscillator is the SAM boundary. A native derivation must determine $m_s$, $b_s$, $k_s$ or their actual replacements independently of the target, and must include the exterior potential that this half-line example omits.
+
+There is nonetheless a useful lesson. Frequency and damping can arise from different combinations of inertia, restoring response, radiation loss and bath loss. A count expression assigned only to a ``damping shell'' cannot establish which of those mechanisms it represents. The complete response and energy identity identify the physical interpretation and expose any double-counting of losses.
+
+\section{Analytic distinguishability of two ideal ringdowns}
+\subsection{A normalized template calculation}
+A second solvable example shows how close spectral values become an observational question. Consider complex analytic templates on $t\geq0$,
+\begin{equation}
+ s_j(t)=\sqrt{2\gamma_j}\,e^{-\gamma_jt}e^{-i\omega_jt},
+ \qquad \gamma_j>0.
+ \label{c11:templates}
+\end{equation}
+Use the ideal white-noise inner product $\langle s_1,s_2\rangle=\int_0^\infty s_1^*s_2\,dt$. Each template has unit norm. Integrating the exponential exactly gives
+\begin{equation}
+ |\langle s_1,s_2\rangle|
+ =\frac{2\sqrt{\gamma_1\gamma_2}}
+ {\sqrt{(\gamma_1+\gamma_2)^2+(\omega_2-\omega_1)^2}}.
+ \label{c11:overlap}
+\end{equation}
+The modulus allows a constant relative phase to be optimized. The calculation assumes a common fixed start, one mode, analytic complex data, infinite observation time and frequency-independent noise. Actual detector data require a colored-noise inner product and detector projections. The formula is an illustrative sensitivity calculation, not a detection forecast.
+
+For small changes around $(\omega,\gamma)$, write $\delta\omega=\omega_2-\omega_1$ and $\delta\gamma=\gamma_2-\gamma_1$. Expanding \eqref{c11:overlap} gives
+\begin{equation}
+ 1-|\langle s_1,s_2\rangle|
+ =\frac{(\delta\omega)^2+(\delta\gamma)^2}{8\gamma^2}
+ +O\!\left((|\delta\omega|+|\delta\gamma|)^3/\gamma^3\right).
+ \label{c11:mismatch}
+\end{equation}
+The natural comparison is to the linewidth $\gamma$, not simply to the oscillation frequency. A small fractional shift in frequency can still matter for a very long-lived mode; a short-lived mode carries fewer useful cycles. The joint measurement of damping and frequency follows from the shape of the entire decaying signal.
+
+For equal-norm signals of signal-to-noise ratio $\rho$, the phase-optimized squared difference is $2\rho^2(1-|\langle s_1,s_2\rangle|)$. This expresses how a waveform mismatch competes with noise in the ideal inner product. It is not a universal threshold for evidence, because a real comparison also fits amplitudes, times, masses, spins and nuisance parameters, and may compare models with different prior volume.
+
+Using the Schwarzschild comparator and the rational candidate at the same fixed mass gives an overlap near $0.999972$. The corresponding mismatch is about $2.8\times10^{-5}$. The calculation is included in the independent checks. It illustrates why a percent-level table of frequencies does not establish that the difference is detectable in an individual observed signal. It also does not establish that it is undetectable: multiple modes, longer-lived rotating modes and independent parameter information change the inference.
+
+\subsection{Finite windows and parameter fitting}
+For a finite interval $0\leq t\leq T$, the unnormalized cross integral acquires the factor
+\begin{equation}
+ \frac{1-e^{-[\gamma_1+\gamma_2+i(\omega_2-\omega_1)]T}}
+ {\gamma_1+\gamma_2+i(\omega_2-\omega_1)}.
+ \label{c11:finiteoverlap}
+\end{equation}
+The template norms must also be truncated: $\int_0^T e^{-2\gamma_jt}dt=(1-e^{-2\gamma_jT})/(2\gamma_j)$. Applying the infinite-window normalization to a short stretch would misstate the mismatch. Moving the start time changes the retained mixture of modes and can correlate strongly with overtone amplitudes.
+
+Free physical parameters further reduce independent information. A mass rescaling moves both spectral components along one direction in frequency--damping space. Spin moves them along another model-dependent direction. A boundary correction is informative only to the extent that its waveform change cannot be absorbed into those ordinary parameter shifts over the observed band. This is the geometric reason to fit a common mass and spin to multiple modes and to compare the residual pattern, rather than declaring each small offset a separate anomaly.
+
+A complete data-facing report would therefore state the noise weighting, observation window, fitted parameters, waveform derivatives and prior assumptions. The present analytic example supplies a transparent baseline that can be checked without any detector data. It closes a methodological gap between a numerical match and a claim about measurement while leaving the actual likelihood calculation to the declared physical model.
+
+\section{From a normalized field to a strain energy}
+The oscillator and pulse examples use a unit-normalized field, whereas a gravitational-wave detector reports dimensionless strain. To show why that conversion matters, adopt the conventional far-zone gravitational-wave energy account as a separate comparator. In its weak-wave, short-wavelength regime, with transverse-traceless polarizations normalized so that the polarization tensors have squared norm two, the outward power through a large sphere is
+\begin{equation}
+ P_{\rm GW}=\frac{c^3r^2}{16\pi G}
+ \int d\Omega\,\left\langle\dot h_+^2+\dot h_\times^2\right\rangle.
+ \label{c11:strainflux}
+\end{equation}
+The brackets denote the averaging appropriate to the effective stress description. The normalization contains Newton's constant and a polarization convention. It is not supplied by the number of receiving channels alone. This benchmark belongs to the general-relativistic gravitational-wave stress construction [XI.8].
+
+As an angular example, let $h_+=A(u)\sin^2\theta/r$, $h_\times=0$, with retarded time $u=t-r/c$. The amplitude $A$ has dimensions of length. The angular integral is
+\begin{equation}
+ \int\sin^4\theta\,d\Omega
+ =2\pi\int_{-1}^{1}(1-v^2)^2\,dv
+ =\frac{32\pi}{15}.
+ \label{c11:angularintegral}
+\end{equation}
+Substitution into \eqref{c11:strainflux} gives $P_{\rm GW}=(2c^3/15G)\langle\dot A^2\rangle$. The spherical factor and the polarization normalization therefore change the conversion between an amplitude derivative and total power. A detector located at one angle samples only one projection of this pattern; multiplying its local strain by a universal isotropic factor would be incorrect.
+
+For a complete finite waveform, the corresponding energy functional is $(2c^3/15G)\int\dot A^2du$, with the effective-flux assumptions understood. For the compact envelope $A=B\sin^2(\pi u/T)$ on $0<u<T$, the formal integral is $c^3B^2\pi^2/(15GT)$. The example is an algebraic normalization audit rather than a physical merger waveform; if the effective-stress averaging is used, a waveform with a well-separated carrier and envelope must be supplied. Its role is to show precisely which constants and angular factors are absent from the unit-normalized pulse calculation.
+
+A native map could take the form $A=\mathcal C\psi$ after a specified multipole extraction. Then $\mathcal C$ carries the required dimensions and the physical flux is proportional to $\mathcal C^2$. Rescaling the field in its action also rescales its source coupling, canonical momentum and counterterms. One cannot choose $\mathcal C$ from the desired radiation energy while claiming an independently derived amplitude. The source preparation, coupling and receiving calibration must fix it together.
+
+The same discipline applies to two-polarization sums. A circular basis is a linear change of field coordinates; with a unitary normalization it preserves the quadratic polarization sum. A convention lacking the appropriate square-root factors can introduce an apparent factor of two. Any derivation should state the real and circular field definitions and verify the energy identity in both bases. This is a straightforward but decisive audit before comparing an integer carrier fraction to an observed radiated mass.
+
+Finally, total energy and detector observability are different questions. A signal may have finite energy but negligible projection in a particular instrument, or significant projection in a narrow band while much energy lies elsewhere. To turn a carrier budget into a catalog prediction, the model needs the angular pattern, spectrum, source orientation and detector response as well as the total flux. These are consequences to be computed from a physical source, not nuisance details that can be omitted because the final energy ceiling is dimensionless.
+
+A practical benefit of these solved comparators is that each failure can be localized. An incorrect flux normalization changes the relation between amplitude and energy without moving the oscillator poles. A changed damping bath changes absorption and pole widths even when the restoring frequency is unchanged. A different observation window changes template overlap without changing the underlying field equation. Keeping these operations distinct prevents an improved fit at one interface from being presented as a derivation at another. The source theory must eventually select all three: the dynamics that creates a signal, the energy account that pays for it, and the measurement channel that makes it visible. The checks supplied here deliberately test those interfaces separately. Their agreement is a consistency requirement on the illustrative mathematics; it is not additional independent evidence for the carrier ontology. That distinction leaves a clear path for replacing each comparator by the native calculation when the corresponding source and boundary operands become available.
+
+\section{Results, limitations and the shortest route forward}
+The exact result of this chapter is the count reduction and its derived quality factor. The energy bound is proved only under its explicit reservoir premises. The differential and boundary equations provide a clear research problem, but no native eigenproblem has been solved in this expansion and no new observational analysis is represented as completed.
+
+Three interfaces have priority. First, derive the physical stress and outgoing work from the same moving-source action that supplies the static field. This connects the carrier claim to binary-pulsar decay and fixes the energy normalization. Second, derive one causal boundary response usable in Chapters V, VII and XI. Its thermal behavior and ringdown poles should be consequences of the same response, not independent prescriptions. Third, extend that response to a conserved angular momentum account and a spin-dependent exterior.
+
+The possible outcomes are scientifically distinct. An exactly absorbing Schwarzschild limit recovers known ringdown and leaves the rationals as approximations. A derived modified boundary could produce shifted modes, altered damping or delayed returns, all subject to stability and existing observational constraints. A source calculation could instead show that the count energy fraction is not a universal reservoir fraction. Any of these outcomes improves the theory by replacing an ambiguous match with an explicit law and an explicit domain of validity.
+
+\section*{Chapter references and provenance}
+\begin{enumerate}[label={\textnormal{[XI.\arabic*]}}]
+\item S. W. Hawking, ``Gravitational Radiation from Colliding Black Holes,'' \emph{Physical Review Letters} \textbf{26}, 1344 (1971). \url{https://doi.org/10.1103/PhysRevLett.26.1344}.
+\item P. C. Peters and J. Mathews, ``Gravitational Radiation from Point Masses in a Keplerian Orbit,'' \emph{Physical Review} \textbf{131}, 435 (1963). \url{https://doi.org/10.1103/PhysRev.131.435}.
+\item E. Berti, V. Cardoso and A. O. Starinets, ``Quasinormal modes of black holes and black branes,'' \emph{Classical and Quantum Gravity} \textbf{26}, 163001 (2009). \url{https://arxiv.org/abs/0905.2975}.
+\item E. W. Leaver, ``An analytic representation for the quasi-normal modes of Kerr black holes,'' \emph{Proceedings of the Royal Society A} \textbf{402}, 285--298 (1985). \url{https://doi.org/10.1098/rspa.1985.0119}.
+\item V. Cardoso and P. Pani, ``Testing the nature of dark compact objects: a status report,'' \emph{Living Reviews in Relativity} \textbf{22}, 4 (2019). \url{https://arxiv.org/abs/1904.05363}.
+\item M. Isi, M. Giesler, W. M. Farr, M. A. Scheel and S. A. Teukolsky, ``Testing the no-hair theorem with GW150914,'' \emph{Physical Review Letters} \textbf{123}, 111102 (2019). \url{https://arxiv.org/abs/1905.00869}.
+\item LIGO Scientific, Virgo and KAGRA Collaborations, ``Tests of General Relativity with GWTC-3.'' \url{https://arxiv.org/abs/2112.06861}.
+\item R. A. Isaacson, ``Gravitational Radiation in the Limit of High Frequency. II. Nonlinear Terms and the Effective Stress Tensor,'' \emph{Physical Review} \textbf{166}, 1272 (1968). \url{https://doi.org/10.1103/PhysRev.166.1272}.
+\end{enumerate}
+The original SAM content is preserved from Chapter XI of the supplied assembled volume, its cited CR001--CR005b radiation records, the Original Write source--field account, and Chapters IV--V. The closing review supplies the cautions concerning expression selection, the missing binary-pulsar flux and the spin interface. Referenced internal records are provenance supplied by the source manuscript; they were not independently re-executed for this edition.

@@ -1,0 +1,230 @@
+\section{Finite-frequency amplitude and phase certificates}
+The positive transport action now has an explicit finite-frequency estimate.
+Write $B=b_{\rm cos}\sqrt Q>0$, $U=B''/B\in L^1[a,b]$, $c_T=1$, and retain the same incoming initial data for the canonical mode and its plane-wave comparator:
+\[
+ v(a)=1,\quad v'(a)=-\ii k,\qquad
+ v_0(\eta_c)=e^{-\ii k(\eta_c-a)},\quad k>0.
+\]
+Variation of constants gives the exact equation
+\[
+ v=v_0+\int_a^{\eta_c}\frac{\sin[k(\eta_c-s)]}{k}U(s)v(s)\,\dd s.
+\]
+Set $M(\eta_c)=k^{-1}\int_a^{\eta_c}|U|\,\dd s$ and $\rho=e^M-1$. Gronwall, followed by substitution and differentiation, gives
+\[
+ |v-v_0|\le\rho,\qquad |v'-v_0'|\le k\rho.
+\]
+Indeed $|v(s)|\le e^{M(s)}$ and the resulting integral is exactly $e^{M(\eta_c)}-1$. No derivative bound on $U$ is needed. For $h=v/B$ and $h_0=v_0/B$,
+\[
+\begin{split}
+ |h-h_0|&\le\rho/B,\\
+ |h'-h_0'|&\le(k+|B'/B|)\rho/B.
+\end{split}
+\]
+If $\rho<1$, the same disk gives
+\[
+ \big||v|-1\big|\le\rho,\qquad
+ |\arg(v/v_0)|\le\arcsin\rho,
+\]
+with one continuous phase unwrapping from $a$. The real potential preserves $\operatorname{Im}(\bar v v')=-k$, so the actual phase rate is $-k/|v|^2$ and
+\[
+ \left|\frac{\dd\arg v}{\dd\eta_c}+k\right|
+ \le k\big[(1-\rho)^{-2}-1\big].
+\]
+The positive factor $B$ changes no phase. These are separate amplitude, accumulated-phase and phase-rate certificates.
+
+For a fully specified declared example, take $0\le\eta_c\le1$ and
+\[
+ b_{\rm cos}=\frac{10+\eta_c}{11},\qquad
+ Q=\left(\frac{10+\eta_c}{10}\right)^2,\qquad k=100.
+\]
+Then $B=(10+\eta_c)^2/110$, $U=2/(10+\eta_c)^2$ and
+\[
+ M(1)=\frac1{5500},\qquad \rho(1)<\frac1{5499}.
+\]
+The last rational bound uses $e^x\le(1-x)^{-1}$ for $0\le x<1$. The leading endpoint factor is $B_E/B_R=100/121$, and the propagation-only distance ratio is $\sqrt{Q_R/Q_E}=11/10$. The finite-frequency amplitude disk is below $1.819\times10^{-4}$. This receiving example assigns no microscopic SAM $Q$ or physical conformal-time scale. An elementary exact basis,
+\[
+ w(\eta_c)=e^{-\ii k\eta_c}
+ \left(1-\frac{\ii}{k(10+\eta_c)}\right),\quad\bar w,
+\]
+with Wronskian $2\ii k$, supplies the independent matched-initial-data check.
+
+\section{Generation, propagation and detector normalization}
+A source term $\mathcal J h$ in one normalized Fourier mode gives
+\[
+ (B^2h')'+B^2k^2h=\mathcal J,\qquad
+ v''+(k^2-U)v=\mathcal J/B.
+\]
+For a zero incoming incremental mode and impulse $\mathcal J=j\delta(\eta_c-E)$, the canonical momentum jumps by $j$. If $G(R,E)$ has unit initial velocity and zero initial displacement, then
+\[
+ h(R)=\frac{jG(R,E)}{B_EB_R},\qquad
+ W_{\rm impulse}=\frac{j^2}{2B_E^2}.
+\]
+Thus an equal source impulse and an equal emitted field preparation are different protocols when $Q_E$ differs.
+
+Keep the preceding $b_{\rm cos}$ but set $Q=4[(10+\eta_c)/10]^2$. This leaves $U$ unchanged; now $Q_E=4$ and $Q_R=121/25$. Compare an electromagnetic mode with $Q=1$, the same $k=100$, and $E=0$, $R=1$. For $x_E=10$, $x_R=11$ and $L=1$, the complete retarded Green functions are
+\[
+\begin{split}
+ G={}&\left(1+\frac1{k^2x_Ex_R}\right)\frac{\sin kL}{k}\\
+ &+\left(\frac1{x_R}-\frac1{x_E}\right)\frac{\cos kL}{k^2},\\
+ G_{\rm EM}={}&\frac{\sin kL}{k}.
+\end{split}
+\]
+Here $G/G_{\rm EM}=1.0001557233563114\ldots$ at this specified nonzero readout. The absolute Green error also satisfies $k|G-G_{\rm EM}|\le e^M-1$; no ratio is assigned at a zero of $G_{\rm EM}$.
+
+Let $d$ be the receiving detector-gain ratio. The recorded amplitudes obey exactly
+\[
+ \frac{A_T}{A_{\rm EM}}=
+ d\frac{j_T}{j_{\rm EM}}\frac1{\sqrt{Q_EQ_R}}
+ \frac{G}{G_{\rm EM}}.
+\]
+Equal impulses and $d=1$ give $(5/22)(G/G_{\rm EM})$. Matching the emitted $h'$ requires $j_T=Q_Ej_{\rm EM}=4j_{\rm EM}$ and gives $(10/11)(G/G_{\rm EM})$. A detector gain $d=3/2$ changes the latter to $(15/11)(G/G_{\rm EM})$. The inferred amplitude distances are the reciprocal ratios. Only the matched-emission, matched-detector protocol has the leading propagation-only ratio $11/10$.
+
+For $j_{\rm EM}=1$, the electromagnetic impulse costs $121/200$ per normalized mode; the equal-impulse tensor mode costs $121/800$; matched emission costs $121/50$. During propagation the prescribed background also does signed work:
+\[
+ \frac{\dd H}{\dd\eta_c}
+ =BB'k^2h^2-\frac{B'}{B^3}\Pi^2
+\]
+for each real mode outside the impulse. Source preparation, prescribed-background work and a detector's absorbing or disturbing measurement remain in their respective accounts. The displayed linear detector gain is a declared receiving convention.
+
+\section{The original causal tensor carrier as a signal map}
+The next calculation returns to the actual retained quadrupole TT carrier, distinct from the preceding electromagnetic and cosmological adapters. Keep its two signed source quadratures, $\kappa=4/5$, $c_*=1$, regular interior, full outgoing exterior and original radius $R$. For $r=\varrho R$, $\varrho\ge1$, let
+\[
+\begin{split}
+ s(w)&=(r+Rw)/c_*,\\
+ K_{\varrho}(w)&=\frac1{\kappa\varrho}
+ P_2\!\left(-w+\frac{1-w^2}{2\varrho}\right).
+\end{split}
+\]
+The complete driven receiver is
+\[
+ x_{\rm out}(t)=\int_{-1}^{1}K_{\varrho}(w)f(t-s(w))\,\dd w.
+\]
+A homogeneous incoming/prepared field adds its own receiver term. The retained maintained-pulse experiment has zero incremental incoming field on the same stationary reference; the full background and field energy remain. The frequency response is
+\[
+ \chi(\omega)=\frac{2\ii z}{\kappa}j_2(z)h_2^{(1)}(z\varrho),
+ \qquad z=\omega R/c_*.
+\]
+All near, induction and radiation terms are retained. The first and last kernel supports are $(r-R)/c_*$ and $(r+R)/c_*$. On the original small-frequency branch $j_2(z)>0$, the group delay is
+\[
+ \tau=\frac r{c_*}
+ \frac{u^4}{u^4+3u^2+9},\qquad u=\omega r/c_*.
+\]
+A signed kernel can have a group delay outside its causal support interval; the two observables remain distinct.
+
+For a carrier-modulated envelope $f=a(t)e^{-\ii\omega_0t}$, choose $\chi_0=\chi(\omega_0)\ne0$ and $\tau=(\dd\arg\chi/\dd\omega)|_{\omega_0}$. The gain/delay approximation is
+\[
+ x_{\rm app}=\chi_0e^{-\ii\omega_0t}a(t-\tau).
+\]
+More explicitly, write $\tau=(\dd/\dd\omega)\arg\chi|_{\omega_0}$ and define
+\[
+\begin{split}
+ L_1&=|\chi'(\omega_0)-\ii\tau\chi_0|,\\
+ D_2&=\int |K_{\varrho}(w)|[s(w)-\tau]^2\,\dd w.
+\end{split}
+\]
+Taylor's remainder for $e^{\ii\nu(s-\tau)}$ gives
+\[
+ |\chi(\omega_0+\nu)-\chi_0e^{\ii\nu\tau}|
+ \le |\nu|L_1+\tfrac12\nu^2D_2.
+\]
+If the envelope spectrum lies in $|\nu|\le\beta$, Plancherel gives
+\[
+ \|x_{\rm out}-x_{\rm app}\|_2
+ \le(\beta L_1+\tfrac12\beta^2D_2)\|a\|_2.
+\]
+The first term is amplitude dispersion: at the stated group delay $L_1=|\dd|\chi|/\dd\omega|$. For a bounded smooth envelope, direct Taylor expansion instead gives the pointwise bound
+\[
+ |x_{\rm out}-x_{\rm app}|
+ \le L_1\|a'\|_\infty+\tfrac12D_2\|a''\|_\infty.
+\]
+This version needs no frequency truncation, and applies to a compact pulse.
+
+\section{A complete source pulse and a nonzero phase event}
+Retain the actual four-cycle source
+\[
+ f_{ab}(t)=g_{ab}A(\Delta t)e^{-\ii\Delta t},\qquad
+ \Delta=\frac2{573049},
+\]
+where $A(\theta)=\sin^4(\theta/8)$ on $[0,8\pi]$ and zero outside. The six signed $g_{ab}$, equal pair weights $1/6$, both tensor polarizations, four undriven source diagonal states and complete maintenance-work account are unchanged. The envelope is $C^3$ with bounded fourth weak derivative.
+
+The complete signed delay moments satisfy
+\[
+\begin{split}
+ m_0&=\frac2{5\kappa\varrho^3},\quad m_1=m_3=0,\\
+ \frac{m_2}{m_0}&=\frac{R^2}{7c_*^2}-\frac{r^2}{3c_*^2},\quad
+ m_n=\int K_{\varrho}s^n\,\dd w.
+\end{split}
+\]
+These follow by expanding the full argument of $P_2$ and integrating monomials. At $\varrho=2$, with $(R/c_*)^n$ factored out, moments zero through four are
+\[
+ (1/16,\ 0,\ -25/336,\ 0,\ 313/336).
+\]
+Thus odd-moment cancellation and a negative signed second moment quantify the near-field behavior.
+
+Taylor's formula, including both compact-pulse edges, gives
+\[
+\begin{split}
+ |x_{\rm out}-m_0f|
+ &\le\frac{|m_2|}2\|f''\|_\infty
+       +\frac{D_4}{24}\|f^{(4)}\|_\infty,\\
+ D_4&=\int|K_{\varrho}|s^4\,\dd w
+ \le\frac{2(r+R)^4}{\kappa\varrho c_*^4}.
+\end{split}
+\]
+For $\varrho\ge1$, the Legendre argument maps $[-1,1]$ monotonically onto $[1,-1]$, so $|P_2|\le1$. The exact five-frequency interior expansion gives
+\[
+ \|f''\|_\infty\le|g|\Delta^2\frac{17}{16},\qquad
+ \|f^{(4)}\|_\infty\le|g|\Delta^4\frac{709}{512}.
+\]
+The zero extension has the same weak-derivative bounds. No frequency or radial tail is cut.
+
+At the original receiver $r=R+64$, use the complete authenticated Chapter I radius ball, rather than treating a printed decimal as exact. Outward rational arithmetic yields, for every time and every original signed lane,
+\[
+ \frac{|x_{\rm out}-m_0f|}{m_0|g|}<8.994\times10^{-9}.
+\]
+Also $|\chi(\Delta)-m_0|/m_0<8.440\times10^{-9}$ and
+\[
+ 0<\tau<1.792884\times10^{-14}
+\]
+in original model-time units, while first causal arrival remains exactly $64$. Replacing the static gain by the full monochromatic gain and its group delay gives
+\[
+ \frac{\left|x_{\rm out}-g\chi(\Delta)e^{-\ii\Delta t}
+ A[\Delta(t-\tau)]\right|}{m_0|g|}
+ <1.744\times10^{-8}.
+\]
+This is a uniform absolute-envelope error normalized by peak static gain. A phase disk requires a positive received envelope: if $A[\Delta(t-\tau)]\ge a_*>0$, its radius is at most
+\[
+ \arcsin\!\left[\frac{\epsilon_{\rm pulse}}
+ {a_*(1-\epsilon_{\rm gain})}\right],
+\]
+when the argument is below one. It supplies no phase statement at zeros.
+
+A sharper phase certificate is available at the actual peak event $t_*=4\pi/\Delta$. Every retarded source argument then lies inside the smooth pulse. After demodulation and division by signed $g$,
+\[
+ Y=\int K_{\varrho}(w)e^{\ii\Delta s}
+       \cos^4(\Delta s/8)\,\dd w.
+\]
+The sine expansion has positive weights and relative frequencies
+\[
+ \begin{aligned}
+ \text{Weights}:\;&(3/8,1/4,1/4,1/16,1/16),\\
+ \text{Frequency ratios}:\;&(1,5/4,3/4,3/2,1/2).
+ \end{aligned}
+\]
+Their fifth-derivative sum is $857/512$. Since $m_1=m_3=0$,
+\[
+ \begin{aligned}
+ |\operatorname{Im}Y|&\le\frac{857}{512}\frac{\Delta^5D_5}{120},\\
+ |\operatorname{Im}\chi|&\le\frac{\Delta^5D_5}{120},
+ \end{aligned}
+\]
+where $D_5\le2(r+R)^5/(\kappa\varrho c_*^5)$. The preceding real-part lower bounds then give
+\[
+\begin{split}
+ |\arg Y-\arg\chi|\le{}&\frac{\Delta^5D_5}{120m_0}
+ \left[\frac{857/512}{1-\epsilon_{\rm static}}
+       +\frac1{1-\epsilon_{\rm gain}}\right]\\
+ <{}&9.782\times10^{-15}\ \text{radians}.
+\end{split}
+\]
+The gain/delay comparator's envelope is positive at this event and changes no phase. This is one nonzero-amplitude phase event; timing, incoming-field contamination, detector disturbance and statistical error remain in the measurement protocol. Source maintenance, free/drive/counterterm energy and complete emitted-field energy remain in the retained ledger.

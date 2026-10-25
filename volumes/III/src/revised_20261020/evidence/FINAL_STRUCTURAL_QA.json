@@ -1,0 +1,16 @@
+{
+  "pages": 191,
+  "chapters": 28,
+  "native_math_expressions": 2040,
+  "tables": 16,
+  "toc_links": 28,
+  "toc_links_resolved": 28,
+  "visible_math_ampersands": 0,
+  "conversion_warning_bytes": 0,
+  "prohibited_phrase_count": 0,
+  "pdf_sha256": "8da349e5fcfa4b8bcabf2dea77c1267726bf983599802bf46490554722980e63",
+  "docx_sha256": "240fab738a43bbac925afd7766632132222ad83a9160a1eb73e9f1dee9d1f1b8",
+  "scientific_campaigns_run": false,
+  "live_source_edits": false,
+  "page_numbers_present": true
+}

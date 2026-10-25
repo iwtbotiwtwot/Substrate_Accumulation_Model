@@ -1,0 +1,740 @@
+\bookchapter{SAM Language and Exact Program
+Semantics}\label{viii-ch02-sam-language-and-exact-program-semantics}
+
+SAM Language makes source identity, operator type, state and history executable parts of one program contract. The retained formal simulator implements parsing, resolution, checking, evaluation and deterministic receipts; its G01--G16 records test those semantic and custody surfaces. This chapter explains how that finite kernel preserves program meaning through execution and reconstruction.
+
+The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.
+
+\subsection{Overview}\label{viii-ch02-overview}
+
+SAM Language is the semantic boundary between a mathematical grammar and
+an execution. It owns the parser, resolver, checker, type system,
+operator definitions, program registry and evaluator. A UI, wrapper or
+orchestration layer may transport a program, but it cannot acquire
+authority to recognize a phrase and run hidden scientific logic. Exact
+program meaning belongs to one declared language path.
+
+That path carries more than a final state. It carries immutable source
+and program custody, the typed current state, a separately typed
+accumulated history, deterministic receipts and predecessor hashes. Two
+programs may end at the same exact state while retaining different route
+histories. A rejected operation must be atomic, and a tampered receipt
+must fail custody rather than be silently reinterpreted.
+
+The evidence has three time layers that must remain distinct. SAM
+Language v0.6 is the preserved formal-simulator campaign whose G01--G16
+records test the semantic and custody surfaces in detail. SAM Language
+v0.7 is the later typed 12-site reflective-tape candidate. Neither is
+the SLC version or the current SLC release. The live repository
+authority is \texttt{SLCQ2-RZ}; historical language and SLC labels
+remain source lineage, not current-pointer aliases.
+
+\subsection{Opening question and conceptual
+picture}\label{viii-ch02-opening-question-and-conceptual-picture}
+
+The governing question is:
+
+\begin{quote}
+How does a source grammar become one exact, reproducible computation
+without allowing interfaces, profiles, mutable tapes or hidden dispatch
+paths to change its scientific meaning?
+\end{quote}
+
+The required architecture is
+
+\begin{itemize}
+\tightlist
+\item
+  source text or immutable instruction tape
+\item
+  parser
+\item
+  resolver
+\item
+  checker and type system
+\item
+  operator/program registry
+\item
+  evaluator
+\item
+  typed current state + typed history + custody receipt
+\end{itemize}
+
+The forbidden alternative is semantic branching outside the language:
+
+\begin{itemize}
+\tightlist
+\item
+  UI or wrapper recognizes a phrase
+\item
+  runs an unrelated calculation
+\item
+  returns a value as if the language produced it
+\end{itemize}
+
+The first architecture makes source, meaning and result traceable. The
+second creates two semantic authorities and breaks provenance even if
+the returned number happens to match.
+
+\subsection{Version and authority
+firewall}\label{viii-ch02-version-and-authority-firewall}
+
+\subsubsection{v0.6: preserved formal-simulator
+evidence}\label{viii-ch02-v0.6-preserved-formal-simulator-evidence}
+
+The v0.6 campaign supplies the focused evidence in this document. It
+tests one semantic path, formal-profile isolation, the complete 12-site
+basis, frozen B and X1 operators, ordered-pair schedules, native
+decompositions, state/history separation, deterministic interfaces,
+atomic rejection, packaging and 23 wrong controls.
+
+Its source statuses are \texttt{PASS} across G01--G16. Those statuses
+belong to the sealed v0.6 test surface. They are not an authorized SAMA
+result classification and do not make v0.6 the current language or SLC
+revision.
+
+\subsubsection{v0.7: typed reflective-tape
+candidate}\label{viii-ch02-v0.7-typed-reflective-tape-candidate}
+
+The Volume III source spine records v0.7 as a later typed, source-linked
+reflective SLC C1 tape candidate over twelve sites and 4,096 basis
+addresses. Its first-class types include
+
+\begin{itemize}
+\tightlist
+\item
+  SLCInstructionTape
+\item
+  SLCTape12
+\item
+  SLCTapeInspection
+\end{itemize}
+
+Six declared operations create an immutable zero-origin tape, append
+B/request/response records, execute it and inspect custody. The executor
+validates the zero-origin hash chain, dispatches through inherited exact
+state transitions and returns the same \texttt{SLCState12} dossier as
+the corresponding direct program.
+
+The candidate remains bounded to a straight-line 12-site tape. It has no
+self-hosted parser, recursive source generation or general
+SAM-Language-to-Dense-Exact adapter. Tape custody and executed state
+remain different types.
+
+\subsubsection{\texorpdfstring{Source-recorded SLC:
+\texttt{SLCQ2-RZ}}{Source-recorded SLC: SLCQ2-RZ}}\label{viii-ch02-source-recorded-slc-slcq2-rz}
+
+The immutable Volume III spine contains historical SLC-current wording
+from its creation time. At the retained source stage, live authority controlled:
+\texttt{SLCQ2-RZ} is the sole frozen/default SLC, with its delegated
+arithmetic/application base separately typed. SAM Language, the SAM UI
+and SLC each have their own version lineage.
+
+Accordingly:
+
+\begin{itemize}
+\tightlist
+\item
+  SAM Language v0.6 = preserved formal-simulator evidence
+\item
+  SAM Language v0.7 = later typed reflective-tape candidate
+\item
+  SLCQ2-RZ = sole source-recorded default SLC authority
+\end{itemize}
+
+No row in this document promotes one identity into another.
+
+\subsection{Definitions and type
+boundaries}\label{viii-ch02-definitions-and-type-boundaries}
+
+\subsubsection{Source, tape, state and
+history}\label{viii-ch02-source-tape-state-and-history}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{source text.} Mutability: fixed for a declared execution;
+  Semantic role: human-readable program origin.
+\item
+  \textbf{instruction tape.} Mutability: immutable append/custody
+  object; Semantic role: ordered typed program records and predecessor
+  chain.
+\item
+  \textbf{current state.} Mutability: transformed by accepted operators;
+  Semantic role: exact endpoint dossier.
+\item
+  \textbf{accumulated history.} Mutability: append-only typed receipt;
+  Semantic role: ordered route, including distinctions erased at the
+  endpoint.
+\item
+  \textbf{inspection.} Mutability: read-only; Semantic role: custody and
+  semantic trace readback.
+\end{itemize}
+
+Endpoint equality means
+
+\[
+s_{final}^{(1)}=s_{final}^{(2)}.
+\]
+
+It does not imply
+
+\[
+h^{(1)}=h^{(2)}.
+\]
+
+That distinction later supports Complete Exact Write and reciprocal
+history.
+
+\subsubsection{The twelve-site address
+domain}\label{viii-ch02-the-twelve-site-address-domain}
+
+Let a basis state be a twelve-bit vector
+
+\[
+b=(b_0,\ldots,b_{11}),\qquad b_i\in\{0,1\}.
+\]
+
+Its canonical integer address is
+
+\[
+a(b)=\sum_{i=0}^{11}b_i2^i,
+\]
+
+so
+
+\[
+0\le a<2^{12}=4{,}096.
+\]
+
+The finite address surface permits exhaustive basis, arity, range and
+site-ID checks.
+
+\subsubsection{Operators and profiles}\label{viii-ch02-operators-and-profiles}
+
+An operator is resolved by identifier through the registry, checked
+against a typed signature, and executed only after the profile admits
+it. The formal evidence profile is \texttt{FORMAL\_CANDIDATE}; normal
+and research profiles are rejected in G03. This prevents an application
+mode from injecting semantics into a formal campaign.
+
+\subsubsection{Exact receipt}\label{viii-ch02-exact-receipt}
+
+A receipt binds at least the declared program, predecessor lineage,
+exact state, history and operator trace. The relevant invariants are
+byte-stable serialization, deterministic ordering and exact
+coefficients. Recomputing a hash for a mutated object does not authorize
+it; predecessor custody is part of the chain.
+
+\subsection{From source custody to one semantic
+path}\label{viii-ch02-from-source-custody-to-one-semantic-path}
+
+\subsubsection{G01 --- seal the parent and candidate
+delta}\label{viii-ch02-g01-seal-the-parent-and-candidate-delta}
+
+Before executing semantics, G01 inventories:
+
+\begin{itemize}
+\tightlist
+\item
+  parent files 92
+\item
+  frozen-source files 150
+\item
+  candidate executable files 97
+\end{itemize}
+
+Every declared hash matches, no mismatch is reported and the parent
+remains unchanged. The candidate delta is therefore distinguishable from
+inherited source. Filename equality or an unsealed working tree would
+not provide the same custody.
+
+\subsubsection{G02 --- traverse the only authority
+path}\label{viii-ch02-g02-traverse-the-only-authority-path}
+
+G02 checks that parser, checker, evaluator, type system and registry
+exports resolve to one authority. A representative mixed program emits
+the trace
+
+\begin{itemize}
+\tightlist
+\item
+  RESOLVE
+\item
+  \nolinkurl{QP_ORDERED_PAIR}
+\item
+  \nolinkurl{SLC_ZERO_REGISTER}
+\item
+  \nolinkurl{SLC_PREPARE_REQUEST}
+\end{itemize}
+
+Operator digits resolve through the registry. No legacy sidecar or
+source-text dispatch is present. The trace matters because a matching
+endpoint produced through a hidden path would not be the same semantic
+result.
+
+\subsubsection{G03 --- isolate the formal
+profile}\label{viii-ch02-g03-isolate-the-formal-profile}
+
+The same path is then invoked under three profiles.
+\texttt{FORMAL\_CANDIDATE} is accepted; normal and research profiles are
+rejected. Thus the formal evidence does not borrow undeclared
+application or exploratory behavior.
+
+\subsection{Build and exhaust the formal state
+surface}\label{viii-ch02-build-and-exhaust-the-formal-state-surface}
+
+\subsubsection{G04 --- complete basis
+construction}\label{viii-ch02-g04-complete-basis-construction}
+
+G04 enumerates all \texttt{2\^{}12=4,096} addresses. It verifies the
+exact dimension, site-ID order and binary range, then rejects wrong
+arity, out-of-range values, wrong register size and unknown/reordered
+site identifiers.
+
+This establishes a finite formal address space. It does not identify the
+twelve sites with physical hardware or assign coupling magnitudes.
+
+\subsubsection{G05 --- exact canonical-state
+invariant}\label{viii-ch02-g05-exact-canonical-state-invariant}
+
+The evaluator returns an exact sparse state. G05 checks:
+
+\begin{itemize}
+\tightlist
+\item
+  canonical sparse-key order;
+\item
+  integer coefficients;
+\item
+  the engine contract hash; and
+\item
+  exact norm.
+\end{itemize}
+
+Reordering terms before hashing, converting coefficients to floats or
+using an undeclared norm would change the contract even if a display
+looked similar.
+
+\subsubsection{G06 --- freeze B request and X1
+response}\label{viii-ch02-g06-freeze-b-request-and-x1-response}
+
+G06 installs B prepare/request and X1 response as differently typed
+operators. For every declared basis column it verifies frozen hashes,
+matrix shapes, prepare columns, response mapping and involution. B
+contains a binary flip but is not identical to the flip; request and
+response cannot be exchanged.
+
+This is the formal premise used by D39. It defines executable operators
+inside the candidate without assigning a physical B-to-X1 causal weld.
+
+\subsection{Complete reciprocal and decomposition
+schedules}\label{viii-ch02-complete-reciprocal-and-decomposition-schedules}
+
+\subsubsection{G07 --- ordered-pair lift}\label{viii-ch02-g07-ordered-pair-lift}
+
+Twelve sites produce
+
+\[
+12\cdot11=132
+\]
+
+ordered non-self placements. Each placement acts on all 4,096 basis
+states in both directions:
+
+\[
+132\cdot4{,}096=540{,}672
+\]
+
+forward cases and the same number in reverse. Therefore
+
+\[
+2\cdot132\cdot4{,}096=1{,}081{,}344.
+\]
+
+G07 closes all 1,081,344 classicalized schedule cases. Using unordered
+pairs, one direction or a sample would be a different schedule.
+
+\subsubsection{G08 --- request sign and gauge
+diagnostics}\label{viii-ch02-g08-request-sign-and-gauge-diagnostics}
+
+The four frozen real request candidates \texttt{REQ02}, \texttt{REQ08},
+\texttt{REQ09} and \texttt{REQ15} are each tested on all 132 placements:
+
+\[
+4\cdot132=528.
+\]
+
+All 528 placement cases pass, leaving four surviving gauges under the
+installed positive-first-row convention. The diagnostic therefore
+preserves ambiguity among the four real gauges instead of selecting one
+from a desired downstream result.
+
+\subsubsection{G09 --- every declared native
+decomposition}\label{viii-ch02-g09-every-declared-native-decomposition}
+
+The grammar generates five factor-shape families with exact assignment
+counts:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{\texttt{1\ensuremath{\times}12}.} Assignments: 1.
+\item
+  \textbf{\texttt{3\ensuremath{\times}4}.} Assignments: 5,775.
+\item
+  \textbf{\texttt{4\ensuremath{\times}3}.} Assignments: 15,400.
+\item
+  \textbf{\texttt{6\ensuremath{\times}2}.} Assignments: 10,395.
+\item
+  \textbf{\texttt{12\ensuremath{\times}1}.} Assignments: 1.
+\end{itemize}
+
+Their sum is
+
+\[
+1+5{,}775+15{,}400+10{,}395+1=31{,}572.
+\]
+
+All 66 rooted-forest parent cases also pass, and the two induction modes
+agree. The decomposition is native to the declared grammar rather than
+an external factorization imported after execution.
+
+\subsubsection{G10 --- peel and restore the extra
+edge}\label{viii-ch02-g10-peel-and-restore-the-extra-edge}
+
+G10 executes 204 exact controls:
+
+\begin{itemize}
+\tightlist
+\item
+  1\ensuremath{\times}12 : 132 cases
+\item
+  3\ensuremath{\times}4 : 36 cases
+\item
+  4\ensuremath{\times}3 : 24 cases
+\item
+  6\ensuremath{\times}2 : 12 cases
+\item
+  total: 204 cases
+\end{itemize}
+
+For each case, the declared extra edge is peeled, the exposed native
+decomposition is evaluated, the same edge is restored, and the original
+terminal state returns exactly. Restoring a different edge or accepting
+graph isomorphism without exact state equality would weaken the control.
+
+\subsubsection{G11 --- frozen classical-limit
+boundary}\label{viii-ch02-g11-frozen-classical-limit-boundary}
+
+G11 checks all eight forward/reverse two-bit rows in the frozen
+classical limit. Every row matches. The result is deliberately bounded:
+a complete classical table is not evidence that complex-phase or general
+quantum semantics have been installed.
+
+\subsection{State, history and interface
+custody}\label{viii-ch02-state-history-and-interface-custody}
+
+\subsubsection{G12 --- same endpoint, different
+route}\label{viii-ch02-g12-same-endpoint-different-route}
+
+Chain and star programs produce the same exact coefficients and the same
+terminal-state hash, but their history hashes differ. In symbols,
+
+\[
+s_{chain}=s_{star},
+\qquad
+\operatorname{hash}(h_{chain})\ne\operatorname{hash}(h_{star}).
+\]
+
+The component partition is not used to erase the route. This is the
+formal reason an endpoint-returning computation can retain a nontrivial
+receipt.
+
+\subsubsection{G13 --- deterministic API and CLI
+receipts}\label{viii-ch02-g13-deterministic-api-and-cli-receipts}
+
+The same declared program is executed repeatedly through API and CLI.
+Both interfaces are byte-deterministic, their receipts match each other,
+the CLI exits successfully and no traceback occurs. Interface adapters
+therefore do not introduce independent semantics or serialization
+defaults.
+
+\subsubsection{G14 --- atomic rejection and tamper
+detection}\label{viii-ch02-g14-atomic-rejection-and-tamper-detection}
+
+G14 mutates coefficient, exponent, operator argument, predecessor hash
+and receipt content. Every mutation is detected. Invalid operations
+reject atomically, leaving no accepted prefix or partially changed
+state.
+
+This is a semantic property as well as a custody property: malformed
+input does not acquire meaning merely because its first tokens were
+valid.
+
+\subsubsection{G15 --- inherited and new replay on a clean
+wheel}\label{viii-ch02-g15-inherited-and-new-replay-on-a-clean-wheel}
+
+The candidate suite contains
+
+\[
+154\text{ inherited}+29\text{ new}=183\text{ tests}.
+\]
+
+All 183 pass. The clean wheel contains 37 members, and 13 CLI cases pass
+with API/CLI parity, no sidecar or UI dependency, no repository-path
+dependency and no traceback. This retest establishes that the candidate
+package preserves the parent while carrying the new semantics outside
+the source checkout.
+
+\subsubsection{G16 --- keep the wrong controls and open
+boundaries}\label{viii-ch02-g16-keep-the-wrong-controls-and-open-boundaries}
+
+All 23 declared wrong controls produce their diagnostic outcomes. The
+release also retains five open domains:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  complex-phase semantics;
+\item
+  measurement and publication semantics;
+\item
+  physical connectivity;
+\item
+  coupling magnitude and cost; and
+\item
+  hardware realization.
+\end{enumerate}
+
+A passing formal candidate remains scoped because these boundaries
+remain in the artifact rather than being erased after the regression
+run.
+
+\subsection{The v0.7 reflective-tape
+semantics}\label{viii-ch02-the-v0.7-reflective-tape-semantics}
+
+The v0.7 candidate makes the instruction sequence itself typed data. A
+typical execution can be understood as:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  create a zero-origin \texttt{SLCTape12} and record its origin hash;
+\item
+  append a typed B/request record whose predecessor is the current tape
+  tip;
+\item
+  append a typed X1/response record under the same custody law;
+\item
+  seal the straight-line tape;
+\item
+  validate the complete predecessor chain;
+\item
+  dispatch each record through the inherited exact transition;
+\item
+  return \texttt{SLCState12} and a separate \texttt{SLCTapeInspection}.
+\end{enumerate}
+
+If the direct program and tape program contain the same declared
+operations, their current-state dossiers match. Their custody still
+arrives through different source objects, so the tape is not replaced by
+the endpoint.
+
+This reflective layer prepares exact program composition and history
+without making the language self-hosting. Recursive source generation, a
+general parser inside the tape and a complete typed-IR-to-Dense-Exact
+adapter remain open.
+
+\subsection{Source-native N100-to-F81 compiler
+boundary}\label{viii-ch02-source-native-n100-to-f81-compiler-boundary}
+
+G1 asks a different question from G01--G16: whether the exact language
+and N100 source rows already carry a complete elementwise semantic map
+to F81. The audit finds:
+
+\begin{itemize}
+\tightlist
+\item
+  100/100 typed QP source keys
+\item
+  72/100 Shared72 aggregate connector-incidence rows
+\item
+  162 CR211 address rows
+\item
+  0 CR211 QP elementwise assignments
+\item
+  81 F81 semantic sites
+\item
+  10 F81 contact classes
+\item
+  0 N100 rows with a complete elementwise F81 map
+\end{itemize}
+
+The missing relation is
+
+\begin{itemize}
+\tightlist
+\item
+  QP candidate/template
+\item
+  F81 semantic site or source-native F81 address class.
+\end{itemize}
+
+No outcome or residual selects a map. The contact lane is not executed
+and the status remains
+\nolinkurl{PARTIAL_DOMAIN__ELEMENTWISE_F81_JOIN_OPEN}.
+
+The boundary shows why formal determinism and semantic completeness are
+different. The language can parse, type, execute and receipt a program
+while a particular source-to-target scientific join remains absent.
+
+\subsection{Controls, deviations and promotion
+discipline}\label{viii-ch02-controls-deviations-and-promotion-discipline}
+
+The full chain prevents several distinct deviations:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{parent source changes under the candidate.} Detecting
+  evidence: G01 hashes and inventories; Preserved correction or
+  boundary: parent remains sealed; candidate delta stays explicit.
+\item
+  \textbf{hidden semantic dispatch.} Detecting evidence: G02 path and
+  trace; Preserved correction or boundary: one
+  parser/checker/evaluator/registry path.
+\item
+  \textbf{profile leakage.} Detecting evidence: G03; Preserved
+  correction or boundary: formal candidate accepts only its declared
+  profile.
+\item
+  \textbf{malformed address gains meaning.} Detecting evidence: G04;
+  Preserved correction or boundary: range, arity, size and ID rejection.
+\item
+  \textbf{request and response collapse.} Detecting evidence: G06;
+  Preserved correction or boundary: frozen hashes, shapes and typed
+  mappings.
+\item
+  \textbf{sampled schedule called complete.} Detecting evidence: G07;
+  Preserved correction or boundary: all 1,081,344 cases executed.
+\item
+  \textbf{preferred gauge selected after outcome.} Detecting evidence:
+  G08; Preserved correction or boundary: all four survivors preserved.
+\item
+  \textbf{endpoint equality erases history.} Detecting evidence: G12;
+  Preserved correction or boundary: equal state hash, unequal history
+  hash.
+\item
+  \textbf{interface changes semantics.} Detecting evidence: G13;
+  Preserved correction or boundary: byte-identical API/CLI receipts.
+\item
+  \textbf{partial mutation survives rejection.} Detecting evidence: G14;
+  Preserved correction or boundary: atomic rollback and tamper
+  detection.
+\item
+  \textbf{source-tree dependency hidden by tests.} Detecting evidence:
+  G15; Preserved correction or boundary: clean-wheel replay.
+\item
+  \textbf{open physical domains disappear after PASS.} Detecting
+  evidence: G16; Preserved correction or boundary: 23 wrong controls and
+  five boundaries retained.
+\item
+  \textbf{aggregate incidence becomes elementwise mapping.} Detecting
+  evidence: G1; Preserved correction or boundary: zero assignments and
+  unexecuted contact lane preserved.
+\end{itemize}
+
+Passing validation is not promotion. v0.6 stays a preserved
+formal-simulator surface, v0.7 stays a reflective-tape candidate, and
+SLC Recorded authority is resolved through the live \texttt{SLCQ2-RZ}
+pointer rather than a historical filename.
+
+\subsection{Established result and current
+boundaries}\label{viii-ch02-established-result-and-current-boundaries}
+
+The source-bound language result is:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  one declared parser/\allowbreak resolver/\allowbreak checker/\allowbreak type/\allowbreak registry/\allowbreak evaluator path owns
+  exact program semantics;
+\item
+  twelve sites give a complete 4,096-address finite basis;
+\item
+  B request and X1 response are frozen, differently typed operators;
+\item
+  all 1,081,344 ordered-pair schedule cases and all 31,572 declared
+  native decompositions close under their respective tests;
+\item
+  current state, immutable source tape and accumulated history remain
+  separate;
+\item
+  API and CLI produce deterministic identical receipts;
+\item
+  malformed operations reject atomically and declared tampering is
+  detected;
+\item
+  154 inherited plus 29 new tests pass in the clean candidate wheel;
+\item
+  23 wrong controls pass while complex phase, measurement/publication,
+  physical connectivity, coupling/cost and hardware realization stay
+  open;
+\item
+  v0.7 supplies a later typed reflective tape but not general
+  Dense-Exact integration; and
+\item
+  the N100-to-F81 elementwise semantic join remains open and unexecuted.
+\end{enumerate}
+
+The focused G artifacts carry source status \texttt{PASS} or the
+explicit partial G1 status. The registered atomic records assign no
+authorized project result classification to D35, so this revision does
+not create one.
+
+\subsection{Connections and forward
+handoff}\label{viii-ch02-connections-and-forward-handoff}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{\texttt{SAMA-D000034}.} Connection: Supplies the N100 source
+  grammar and exact structure-first certificates that language must
+  serialize..
+\item
+  \textbf{\texttt{SAMA-D000038}.} Connection: Receives immutable
+  programs, signed \texttt{Z4\^{}9} operations, separate state/history
+  and exact readback for Complete Exact Write..
+\item
+  \textbf{\texttt{SAMA-D000039}.} Connection: Uses the typed B request,
+  X1 response and W9 resolution route..
+\item
+  \textbf{\texttt{SAMA-D000042}.} Connection: Receives the separate
+  history receipt for directional event-reel computation..
+\item
+  \textbf{\texttt{SAMA-P000006}.} Connection: Uses the language as the
+  computation interface for particle grammar, Starbreaker and binding..
+\end{itemize}
+
+The forward handoff is to Complete Exact Write: compile a declared
+signed program to its exact group action, apply it without mutating the
+tape, and retain a reconstructible history even when the endpoint
+returns.
+
+\subsection{Sources and evidential
+scope}\label{viii-ch02-sources-and-evidential-scope}
+
+This chapter is assembled from the following fixed source manuscripts.
+Source-reported campaign outcomes retain their original scope; no new
+campaign was executed for this edition.
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://github.com/iwtbotiwtwot/SAMA/blob/4c2b5dc1649da5900c90b90d0ce56c223dbb7717/vol_iii/01-grammar-and-language/sam-language-and-exact-program-semantics.md}{Sam
+  language and exact program semantics}.
+\end{itemize}

@@ -1,0 +1,37 @@
+{
+  "scope": "Analytic and illustrative arithmetic checks; no historical empirical replay",
+  "X_infinity": 3.183098861837907,
+  "f_infinity": 0.7609427763893117,
+  "median_log_SE_dex": 0.03620932955411193,
+  "linear_fractional_SE": 0.08337506245860687,
+  "upper_fractional_SE": 0.08694940602280865,
+  "support_fraction_SE": 0.015166663185438002,
+  "fraction_residual_in_approx_SE": 0.01607317221534796,
+  "scatter_multiplicative_factor": 2.3988329190194904,
+  "illustrative_baryonic_equivalent_mass_solar": 46501786831.15899,
+  "illustrative_halo_mass_solar": 148019784735.69116,
+  "illustrative_speed_km_s": 204.52625410538147,
+  "uniform_component_speed_km_s": 0.49418455560650626,
+  "native_100theta_from_rounded_distances": 1.058905874360126,
+  "native_lA_from_rounded_distances": 296.68289974198035,
+  "ruler_difference_Mpc": 2.962999999999994,
+  "second_peak_fractional_difference": -0.0046511627906976605,
+  "monte_carlo_plus_one_p": 0.000999000999000999,
+  "synthetic_median_identity": "PASS",
+  "analytic_derivatives": "PASS",
+  "additional_checks": "PASS",
+  "toy_visibility_peak_tau": 1.3333333333333333,
+  "covariance_same_sign_chi2": 1.1111111111111112,
+  "covariance_opposite_sign_chi2": 10.000000000000002,
+  "toy_support_fraction_at_b": 0.6141304549049624,
+  "toy_halo_half_mass_radius_over_b": 3.8473221018630723,
+  "individual_68_interval": [
+    0.4168693834703354,
+    2.3988329190194904
+  ],
+  "individual_95_interval": [
+    0.17996995165773574,
+    5.55648312837126
+  ],
+  "median_SE_dex_n100": 0.04762593721798901
+}

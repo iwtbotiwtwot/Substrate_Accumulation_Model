@@ -1,0 +1,163 @@
+{
+  "description": "Independent stdlib checks of printed analytical examples, not native SAM runs.",
+  "checks": {
+    "count_identities": {
+      "passed": true,
+      "values": {
+        "real": "3/8",
+        "damping": "4/45",
+        "quality_factor": "135/64"
+      }
+    },
+    "quality_factor": {
+      "passed": true,
+      "values": {
+        "real_residual_percent": 0.35547783551592715,
+        "damping_residual_percent": -0.08254181220892498,
+        "GR_quality_factor": 2.1001682510078425,
+        "mass_ratio": 1.0035547783551593
+      }
+    },
+    "area_bound": {
+      "passed": true,
+      "values": {
+        "equal_mass_bound": 0.29289321881345254
+      }
+    },
+    "finite_pulse_energy": {
+      "passed": true,
+      "values": {
+        "quadrature": 6.579736267392905,
+        "exact": 6.579736267392906
+      }
+    },
+    "conditional_fate_numbers": {
+      "passed": true,
+      "values": [
+        {
+          "H0": 67.2504,
+          "native_limit": 55.52497474473188,
+          "conditional_fit_limit": 37.85082635337842
+        },
+        {
+          "H0": 68.76,
+          "native_limit": 56.77136884610002,
+          "conditional_fit_limit": 38.70048089019991
+        },
+        {
+          "H0": 73.04,
+          "native_limit": 60.30513060673567,
+          "conditional_fit_limit": 41.109411347007004
+        }
+      ]
+    },
+    "road_domain": {
+      "passed": true,
+      "values": {
+        "road_z1": 0.2785211504108169,
+        "survival_z1": 0.7214788495891831,
+        "q_shift": -1.909859317102744
+      }
+    },
+    "distance_derivative": {
+      "passed": true,
+      "values": {
+        "finite_difference_inferred_H": 0.6741954974324751,
+        "formula": 0.6741954974431038
+      }
+    },
+    "constant_road_fractional_rate": {
+      "passed": true,
+      "values": {
+        "logarithmic_rate": 0.8000000000119872,
+        "H": 0.8,
+        "different_fit_coefficient": 0.5599999999999999
+      }
+    },
+    "home_recurrence": {
+      "passed": true,
+      "values": [
+        {
+          "E": 2,
+          "M": 12
+        },
+        {
+          "E": 4,
+          "M": 14,
+          "area_ratio": 1.9599999999999997
+        },
+        {
+          "E": 1,
+          "M": 11,
+          "area_ratio": 1.2100000000000002
+        },
+        {
+          "E": 0,
+          "M": 10,
+          "area_ratio": 1.0
+        }
+      ]
+    },
+    "handoff": {
+      "passed": true,
+      "values": {
+        "A0": 0.026525823848649224,
+        "RA0": 0.3183098861837907
+      }
+    },
+    "oscillator_flux_0.1": {
+      "passed": true,
+      "values": null
+    },
+    "oscillator_flux_0.4": {
+      "passed": true,
+      "values": null
+    },
+    "oscillator_flux_1.0": {
+      "passed": true,
+      "values": null
+    },
+    "inverse_designed_pole": {
+      "passed": true,
+      "values": {
+        "mass": 11.25,
+        "damping": 1,
+        "spring": 1.6709201388888888,
+        "pole_real": 0.375,
+        "pole_imag": -0.08888888888888889
+      }
+    },
+    "ideal_template_overlap": {
+      "passed": true,
+      "values": {
+        "overlap": 0.9999720250822158,
+        "mismatch": 2.7974917784168163e-05
+      }
+    },
+    "quadrupole_angular_integral": {
+      "passed": true,
+      "values": null
+    },
+    "formation_densities": {
+      "passed": true,
+      "values": {
+        "unbound": 0.0078125,
+        "home": 0.005859375,
+        "radiation": 0.0009765625,
+        "total": 0.0146484375
+      }
+    },
+    "formation_continuity": {
+      "passed": true,
+      "values": null
+    },
+    "interacting_vacuum_continuity": {
+      "passed": true,
+      "values": {
+        "xi": 0.2,
+        "future_power": 3.333333333333333,
+        "event_horizon_exists": true
+      }
+    }
+  }
+}

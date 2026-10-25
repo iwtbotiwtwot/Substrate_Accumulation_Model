@@ -1,0 +1,246 @@
+\section{Two prescribed arms in one original continuum field}
+\label{sec:new-shared}
+The following receiving construction replaces the isolated-arm substitution
+by a specified moving-source action. The geometry is a flat laboratory
+chart with field wave speed one in the original model units. Each rigid
+source centre follows a prescribed piecewise smooth timelike worldtube
+\(x_j(t)\), with \(v_j=\dot x_j\), \(|v_j|\leq1/4\), and
+\(n_j=\sqrt{1-|v_j|^2}\). Smooth pieces have two continuous derivatives
+in \(v_j,n_j\); finitely many joins have continuous velocities. Splitting,
+trajectory control, and recombination are prescribed receiving operations.
+They are not newly derived gravitational or autonomous actuator laws.
+The intrinsic source is the original linear-current \(H_0\) in
+Eq.~\eqref{eq:ch6-full-clock-generator}; the distinct Chapter I quadratic
+completion candidates are not silently substituted for that source.
+
+\subsection{A translated source action and the full field complement}
+Use one full one-particle space containing the two physical polarizations
+and every angular mode. Embed the original two normalized quadrupole
+patterns as orthonormal vectors \(e_+,e_\times\). Their radial factor is
+the original \(u_R\), so \(u_a(\omega,\widehat k)=u_R(\omega)e_a(\widehat k)\)
+and \(\|u_a/\sqrt\omega\|^2=\mu=1/(4R)\).
+An explicit fixed-axis realization uses the two unit Frobenius-norm
+trace-free quadrupoles \(A_+=\operatorname{diag}(1,-1,0)/\sqrt2\)
+and \((A_\times)_{xy}=(A_\times)_{yx}=1/\sqrt2\).
+With \(P=I-\widehat k\widehat k^T\), put
+\(e_a=\sqrt{5/(8\pi)}[PA_aP-\tfrac12P\operatorname{tr}(PA_a)]\).
+The spherical second/fourth moments give
+\(\int e_a:e_b\,d\Omega=\delta_{ab}\). This fixes the actual angular
+profile and orientation of this receiving construction. Other orientations
+are simultaneous tensor rotations; no new amplitude is fitted.
+All orthogonal angular modes remain in the common Fock space, initially
+in their retained vacuum. Translation mixes these modes; none is dropped.
+Let
+\[\begin{gathered}
+H_f=d\Gamma(\omega),\\
+ P_f=d\Gamma(\omega\widehat k),\\
+ T_x=e^{-ix\cdot P_f},\\
+ u_{a,x}(k)=e^{-ik\cdot x}u_a(k).
+\end{gathered}\]
+The interaction prescription is the original current paired with the
+field on that moving worldtube, integrated over its proper time. Explicitly
+the boundary part of its action is
+\[\begin{gathered}
+I_*\int dt\,n_j(t)\left[
+ \epsilon\sum_a J_a\phi(u_{a,x_j})-h_s-H_{ct}\right],\\
+ J_+=D,\ J_\times=C,
+\end{gathered}\]
+where \(h_s=\epsilon H_{\rm pair}\) and
+\(H_{ct}=\epsilon^2\mu(D^2+C^2)\). The common bulk field action uses
+laboratory time. The normalization is a declared rigid-quadrupole receiving
+incidence; boost deformations of the source profile and microscopic routing
+devices are additional physical operands. This action, rather than an
+independent bath for each arm, yields
+\begin{equation}
+ H_j^{lab}(t)=H_f+n_j(t)T_{x_j(t)}(H_0-H_f)T_{x_j(t)}^* .
+ \label{eq:new-lab-generator}
+\end{equation}
+Both original counterterms and all even energy are present. Scaling the
+interaction by \(n_j\) does not authorize replacing the retained source
+counterterm by a newly fitted static completion.
+
+Put \(\psi_j=T_{x_j}^*\Psi_j^{lab}\). Direct differentiation on a
+regularized field core, then closed-form extension, gives
+\begin{equation}
+\begin{gathered}
+K_j(t)=H_f-v_j(t)\cdot P_f+n_j(t)(H_0-H_f),\\
+ U_j^{lab}(t,s)=T_{x_j(t)}U_{K_j}(t,s)T_{x_j(s)}^* .
+\end{gathered}
+\label{eq:new-moving-generator}
+\end{equation}
+In particular the field momentum term is retained. Differentiating the
+singular translated form factor directly would need an ultraviolet norm
+not supplied by the original preparation. Equation~\eqref{eq:new-moving-generator}
+avoids that operation and preserves the original singular coupling.
+Because \(|\langle\xi,P_f\zeta\rangle|\leq
+\|H_f^{1/2}\xi\|\|H_f^{1/2}\zeta\|\), this new term is a continuous
+form on the original common energy domain.
+
+\subsection{Existence, energy, and a quantitative proper-age comparison}
+For a nominated original lane write
+\(H_0=\epsilon eI+\epsilon S+H_f+V+cI\),
+\(c=2g^2\mu\), preserving the sign of \(g\) in \(V\).
+The retained annihilation-map estimate gives
+\[
+ |\langle V\rangle|\leq2\sqrt{c\langle H_f\rangle}
+ \leq\tfrac14\langle H_f\rangle+4c.
+\]
+Define the positive comparison form
+\[\begin{gathered}
+A_j=K_j-n_j\epsilon eI+\epsilon I+3cI,
+ \\
+ b=\epsilon+5c,\\
+ E_j(t)=\langle A_j+bI\rangle.
+\end{gathered}\]
+Then \(A_j\geq H_f/2\), and its form norm is uniformly equivalent,
+after a positive shift, to \(Q_f=D(H_f^{1/2})\). Its coefficients are
+piecewise \(C^2\) as forms on this fixed domain. The constant-form-domain
+propagator theorem therefore supplies unique unitary weak dynamics,
+energy-domain propagation, and the form energy identity on each smooth
+piece; concatenate at the finite joins. The same construction on the
+finite direct sum of every source lane and four diagonal states gives the
+full source16 propagator. This application uses the common-domain
+hypotheses of the standard theorem explicitly.\cite{ConstantForm}
+
+For normalized states the derivative obeys
+\[\begin{gathered}
+|\dot E_j|\leq(2|\dot v_j|+|\dot n_j|)E_j,
+ \\
+ E_j(t)\leq E_j(0)e^{B_j(t)},\\
+ B_j(t)=\int_0^t(2|\dot v_j|+|\dot n_j|)ds.
+\end{gathered}\]
+Indeed \(\langle H_f\rangle\leq2\langle A_j\rangle\) and
+\(|\langle\epsilon S+V+c\rangle|\leq
+\langle A_j\rangle/2+b\), which gives this inequality without
+requiring \(\psi\in D(H_f)\). If the source enters at rest with the
+retained decoder form ceiling \(C\), then
+\(E_j(0)\leq E_*=C+\epsilon+8c\).
+
+The proper-age reference has generator \(n_jH_0\), age
+\(\eta_j(t)=\int_0^t n_j(s)ds\), and field energy at most
+\(2(C+c)\) throughout. Its difference from the actual moving-frame
+generator is exactly
+\[
+ K_j-n_jH_0=(1-n_j)H_f-v_j\cdot P_f.
+\]
+Weak Duhamel between the two energy-domain vectors gives
+\begin{equation}
+\begin{gathered}
+ \|[U_{K_j}(t,0)-e^{-iH_0\eta_j(t)}]\psi\|^2\\
+ \leq2\int_0^t \kappa_j(s)\sqrt{F_j(s)F_{ref,j}(s)}\,ds,\\
+ \kappa_j=|1-n_j|+|v_j|.
+\end{gathered}
+\label{eq:new-form-distance}
+\end{equation}
+Here \(F=\langle H_f\rangle\). To see the norm estimate, differentiate
+the cross inner product as a \(Q_f,Q_f^*\) pairing. The difference form
+is bounded by \(\kappa_j\sqrt{F_jF_{ref,j}}\); integrate it from one
+and use \(\|u-v\|^2=2-2\operatorname{Re}\langle u,v\rangle\).
+This is an energy-form estimate, not an assumed Hilbert-space action of
+the singular interaction on arbitrary dressed vectors.
+
+At a common endpoint \(x_0(t)=x_1(t)\), the translation factors cancel
+from the relative overlap. If \(r_j\) encloses the square root of
+Eq.~\eqref{eq:new-form-distance}, then
+\begin{equation}
+\begin{gathered}
+\Gamma_{12}=\operatorname{Tr}(\rho U_1^*U_0),\\
+ |\Gamma_{12}-\operatorname{Tr}(\rho e^{-iH_0(\eta_0-\eta_1)})|
+ \leq r_0+r_1 .
+\end{gathered}
+\label{eq:new-actual-overlap}
+\end{equation}
+Purification extends the statement to a mixed input with the same energy
+bound. A noncoincident final position supplies the relative translation
+\(T_{x_1}^*T_{x_0}\) and belongs to an unrecombined experiment.
+The proper-age expression is exact when the difference form annihilates
+the relevant evolution; in general its error is now quantified.
+The actual source-lane clock equation also follows directly:
+\[\begin{gathered}
+\dot z_j=n_j[-i\Delta z_j+2g w_j],\\
+ -\frac d{dt}\arg z_j=n_j[\Delta-2g\operatorname{Im}(w_j/z_j)].
+\end{gathered}\]
+Here \(z_j\ne0\), and \(w_j\) is the correlator in the actual common
+field state. The momentum term commutes with the source clock operator,
+but changes the field evolution and this correlator. An old isolated
+clock-rate certificate is therefore not assigned to these new trajectories.
+
+\subsection{Stability under additional source-profile and control data}
+The defined worldtube law has fixed lab-frame quadrupoles. A further
+physical profile, boost, control or microscopic-source assignment can be
+compared quantitatively rather than identified with that law by notation.
+Suppose two such actual/reference propagators exist on the common energy
+domain. In their common frame let the difference form be
+\(\delta h(t)-\delta v(t)\cdot P_f
+ -\epsilon\sum_a J_a\phi(\delta u_a(t))\), with bounded source
+\(\delta h,J_a\) and
+\(m_a(t)=\|\delta u_a(t)/\sqrt\omega\|^2<\infty\).
+Any additional lapse-current difference can be included in \(\delta u_a\)
+and \(\delta h\), retaining its even/counterterm terms. The annihilation
+form estimate between normalized vectors gives
+\[
+ \begin{aligned}|\delta q[\xi,\zeta]|&\leq\|\delta h\|
+ +|\delta v|\sqrt{F_\xi F_\zeta}
+ \\ &\quad+\epsilon\sum_a\|J_a\|\sqrt{m_a}
+            (\sqrt{F_\xi}+\sqrt{F_\zeta}).\end{aligned}
+\]
+Consequently the squared vector distance is at most twice the integral
+of this expression along the actual/reference pair, by the same weak
+Duhamel argument. Finite energy ceilings close that estimate. This
+supplies an explicit extra error radius for independently supplied
+profile/control data without requiring an unweighted ultraviolet norm
+or fitting clock rates. Its work correction must likewise retain the
+corresponding control variation and energy balance. The numerical
+experiment below is for the exactly stated receiving action; no numerical
+profile or microscopic-actuator discrepancy is inferred for it.
+
+\subsection{Actual field response and common-arm coherence}
+At a frequency cutoff, the laboratory Heisenberg equation can be integrated
+exactly:
+\begin{equation}
+\begin{aligned}
+ a_\sigma(k,t)&=e^{-i\omega t}a_\sigma(k,0)\\
+ &\quad+i\epsilon\sum_{j,a}\Pi_j\int_0^t ds\,
+ n_j(s)e^{-i\omega(t-s)}\\
+ &\qquad\times u_{a,x_j(s),\sigma}(k)J_a(s).
+\end{aligned}
+\label{eq:new-retarded-source}
+\end{equation}
+Smearing against an energy-admissible receiving test extends this identity
+as a form limit. The \(J_a(s)\) are the actual interacting operators;
+their source and field backreaction has not been replaced by a classical
+force. Both arms use the same initial field operators. In the route-block
+state the cross block is \(U_0\rho U_1^*\), not a product of two bath
+states. Its trace is the interference operand in
+Eq.~\eqref{eq:new-actual-overlap}. The causal response is retarded in
+time. A spatially distant port additionally needs its actual local
+gauge-invariant observable and propagation geometry; a global frequency
+filter alone is not a local arrival channel.
+
+\subsection{Finite mechanical work and the phase reference}
+Let \(E_{lab,j}=\langle H_j^{lab}\rangle\). The moving-frame identity is
+\(E_{lab,j}=\langle K_j\rangle+v_j\cdot\langle P_f\rangle\).
+For a closed velocity cycle its net work is therefore
+\[
+ W_{lab,j}=\int dt\,\left[-\dot v_j\cdot\langle P_f\rangle
+              +\dot n_j\langle H_0-H_f\rangle\right].
+\]
+This definition follows from endpoint energy balance and the common-form
+energy identity; it does not differentiate the ultraviolet-singular
+laboratory field at a moving point. A finite absolute payment ceiling is
+\[
+ W_{route,j}^{up}\leq\operatorname{Var}(v_j)F^{up}
+ +\operatorname{Var}(n_j)
+ [\tfrac14 F^{up}+\epsilon|e|+\epsilon+5c].
+\]
+The even energy and counterterm remain in that expression. For nonzero
+endpoint velocities include \([v_j\cdot\langle P_f\rangle]_0^t\).
+An extra prescribed carrier rest energy \(m_{ext}\), excluded from
+\(H_0\), contributes its own point action and, for the sinusoidal closed
+speed cycle below, kinetic-energy variation
+\(4m_{ext}[(1-v_*^2)^{-1/2}-1]\). Beam splitters, traps and their
+calibration remain prescribed devices with separately supplied resources;
+the calculation is a driven receiving model, not a microscopic autonomous
+centre-of-mass theory. Their phases are included once in the total
+interference amplitude, as in Section~\ref{sec:ch6-route-phase-account}.
+

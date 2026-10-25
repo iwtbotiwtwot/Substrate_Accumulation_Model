@@ -1,0 +1,235 @@
+\bookchapter{The Nuclear Ledger: Constituents, Channels, and Isotope Structure}
+\label{v2c4:chapter}
+
+A nucleus brings together two questions that are easy to confuse. What constituents have been counted, and what does their combination do? The first question admits a finite accounting answer. The second requires a readout of the bound configuration. This chapter develops the accounting answer in enough detail that its exact content can be inspected independently of any later energy fit. Chapter~\ref{v2c5:chapter} then follows the additional steps needed to compare nuclear readouts with measurements.
+
+The construction has four slots, six aggregate channels, and a restricted population domain. Its value is not that six equations replace nuclear dynamics. Its value is that source support, rest-source bookkeeping, and constituent counts can be carried together without being silently identified. This resolves an ambiguity inherited from the particle problem: a source quantity can participate in matter construction without already being a measured rest mass. Nuclear aggregation makes that distinction particularly visible because balanced and excess neutrons have the same constituent-count entries but different coupling-source assignments.
+
+The primary manuscript statement is SAMA-D000030, preserved in Section 7 of the frozen \textit{Matter and Finite Closure} manuscript. The technical spine, Sections IV.1--IV.3, supplies the CR247--CR248--CR278 consolidation history and the failed control discussed below. These are the sources for the construction. The derivations in this chapter expand their stated equations; they do not introduce a newly fitted nuclear model.\cite{viisama,viispine,viireview}
+
+\subsection{The domain and the meaning of a slot}
+\label{v2c4:domain}
+
+Let $Z$ denote the proton count and $N$ the neutron count. Define the nuclear mass number by
+\begin{equation}
+ A=Z+N.
+ \label{v2c4:massnumber}
+\end{equation}
+Here $A$ is an integer count, not the accumulation field or the conjugation operator bearing the same letter elsewhere in the framework. A count has no energy unit. It also contains no assertion about lifetime, stability, or experimental observation. Those properties require other columns and other evidence.
+
+The stated four-slot decomposition applies to
+\begin{equation}
+ Z\geq 0,\qquad N\geq Z,
+ \label{v2c4:domainineq}
+\end{equation}
+with integer populations. It allocates one balanced neutron per proton and assigns any remaining neutrons to the excess slot. The neutral-system electron bookkeeping contributes one electron per proton. In the order proton, balanced neutron, excess neutron, electron, the population vector is
+\begin{equation}
+ \boldsymbol n=(Z,Z,N-Z,Z).
+ \label{v2c4:population}
+\end{equation}
+The four entries therefore count different roles. Their sum, $N+2Z$, is not the nuclear mass number, because it includes the electron count. The nucleon populations alone sum to $Z+N=A$.
+
+An excess-neutron population cannot be negative. Consequently, substituting a proton-rich isotope into the formulas may produce a formal algebraic expression, but it does not produce an admissible four-population construction under Equation~\eqref{v2c4:domainineq}. This matters for the familiar light examples: ordinary hydrogen and helium-3 cannot be used as literal demonstrations of this population basis. Deuterium, tritium, helium-4, and neutron-rich nuclei can. A larger treatment may adopt another basis for the excluded domain, but the present derivation does not supply one by changing a minus sign.
+
+The electron slot makes this a neutral atomic bookkeeping extension of a nuclear core. It does not locate electrons inside the nucleus. Nor does the slot's zero in the nuclear rest-source column mean that an electron has zero physical rest mass. The column is defined for the nuclear aggregate being constructed. The electron count is retained so that charge balance and the neutral readout convention remain visible; a complete atomic mass comparison must separately respect electron mass and electronic binding conventions.
+
+Finally, ``balanced'' and ``excess'' designate positions in a source-accounting basis. The construction does not establish two experimentally distinguishable neutron species. A basis may separate contributions that are equal in some observables and unequal in another channel. Such a separation is useful precisely when it is kept distinct from a claim about new particles.
+
+\subsection{The four vectors}
+\label{v2c4:vectors}
+
+Each slot carries a six-component vector in the order
+\begin{equation}
+ \phi=(u,d,e,Q_{\rm mass},Q_{\rm sub},\Delta Q).
+ \label{v2c4:vectororder}
+\end{equation}
+The first three entries count the stated constituent channels. The next two are the rest-source and coupling-source channels. The final entry is their signed difference. The inherited coefficient is
+\begin{equation}
+ \kappa=\frac{7117}{768}.
+ \label{v2c4:kappa}
+\end{equation}
+Its appearance here is an input from the preceding construction, not a new determination from nuclear data. With this input, the four vectors are
+\begin{align}
+ \phi_p&=(2,1,0,4\kappa,8\kappa,-4\kappa),
+ \label{v2c4:proton}\\
+ \phi_{n_b}&=(1,2,0,4\kappa,0,4\kappa),
+ \label{v2c4:balanced}\\
+ \phi_{n_e}&=\left(1,2,0,4\kappa,\frac18,
+                  \frac{7093}{192}\right),
+ \label{v2c4:excess}\\
+ \phi_e&=(0,0,1,0,0,0).
+ \label{v2c4:electron}
+\end{align}
+Subscripts $n_b$ and $n_e$ distinguish balanced and excess neutron slots; the unscripted electron label $e$ refers to the separate electron slot. Maintaining that distinction in a table header avoids the misleading impression that the last two slots are interchangeable.
+
+Two features deserve immediate attention. Both neutron vectors carry one up-type and two down-type constituents, and both carry $4\kappa$ in the rest-source channel. Their difference lies entirely in coupling-source and gap accounting. The proton, by contrast, carries $8\kappa$ of coupling source against $4\kappa$ of rest source, so its gap is negative. A negative gap is not a negative particle mass. It is the difference between two separately typed positive-channel assignments.
+
+The excess gap follows directly from the two source entries:
+\begin{align}
+ 4\kappa-\frac18
+ &=\frac{7117}{192}-\frac{24}{192}\nonumber\\
+ &=\frac{7093}{192}.
+ \label{v2c4:excessgap}
+\end{align}
+Thus the last entry of Equation~\eqref{v2c4:excess} is not an independent adjustable coefficient. It is constrained by the fourth and fifth entries. The same relation holds in every slot:
+\begin{equation}
+ \Delta Q=Q_{\rm mass}-Q_{\rm sub}.
+ \label{v2c4:gapdefinition}
+\end{equation}
+A table satisfying the other entries but violating this relation would be internally inconsistent before any comparison with experiment.
+
+The six columns should therefore not be mistaken for six independent degrees of freedom. Once the population pair $(Z,N)$, the slot definitions, and $\kappa$ have been fixed, the aggregate is fixed. This redundancy is deliberate. It supplies independent-looking routes through the same bookkeeping, allowing transcription and implementation errors to be caught without refitting anything.
+
+\subsection{Aggregation and the six identities}
+\label{v2c4:aggregate}
+
+The aggregate vector is defined by a linear sum of typed contributions:
+\begin{equation}
+ \Phi(Z,N)=Z\phi_p+Z\phi_{n_b}
+ +(N-Z)\phi_{n_e}+Z\phi_e.
+ \label{v2c4:aggregatevector}
+\end{equation}
+Linearity here is an accounting property. It states how the entries are accumulated, not how the bound state's energy depends on them. That distinction will become essential when the ledger is passed to the binding layer.
+
+For the up-type count, the proton contributes $2Z$, the balanced neutrons contribute $Z$, and the excess neutrons contribute $N-Z$. Therefore
+\begin{align}
+ u&=2Z+Z+(N-Z)\nonumber\\
+  &=2Z+N.
+ \label{v2c4:u}
+\end{align}
+Similarly,
+\begin{align}
+ d&=Z+2Z+2(N-Z)\nonumber\\
+  &=Z+2N,
+ \label{v2c4:d}\\
+ e&=Z.
+ \label{v2c4:e}
+\end{align}
+The total constituent count is consequently $u+d=3A$. This follows from the three constituents per nucleon already present in the slot definitions. It is a conservation check on the aggregation, not an additional empirical prediction.
+
+For the rest-source channel, every nucleon has the same contribution:
+\begin{align}
+ Q_{\rm mass}
+ &=4\kappa Z+4\kappa Z+4\kappa(N-Z)\nonumber\\
+ &=4\kappa(Z+N)=4A\kappa.
+ \label{v2c4:qmass}
+\end{align}
+For coupling source, only the proton and excess-neutron slots contribute:
+\begin{equation}
+ Q_{\rm sub}=8Z\kappa+\frac{N-Z}{8}.
+ \label{v2c4:qsub}
+\end{equation}
+Finally, adding the gap entries gives
+\begin{align}
+ \Delta Q&=-4\kappa Z+4\kappa Z
+ +(N-Z)\frac{7093}{192}\nonumber\\
+ &=(N-Z)\frac{7093}{192}.
+ \label{v2c4:gap}
+\end{align}
+Equations~\eqref{v2c4:u}--\eqref{v2c4:gap} are the six identities exported by the nuclear ledger. Their exactness is conditional on the input vectors. Once those vectors are accepted, no statistical fit or numerical tolerance is required to obtain them.
+
+One can also subtract Equation~\eqref{v2c4:qsub} from Equation~\eqref{v2c4:qmass}. The result agrees with Equation~\eqref{v2c4:gap}, demonstrating that aggregation commutes with taking the channel difference. This is a useful structural consistency: the gap can be computed locally and summed, or the two full channels can be summed and then subtracted. An implementation that yields different answers has mixed slot meanings or numerical conventions.
+
+\subsection{Balanced cancellation and incremental structure}
+\label{v2c4:balance}
+
+A proton and its balanced neutron have combined vector
+\begin{equation}
+ \phi_p+\phi_{n_b}
+ =(3,3,0,8\kappa,8\kappa,0).
+ \label{v2c4:balancedpair}
+\end{equation}
+The zero in the final column is the central cancellation. It says that the two channels agree for this paired contribution. It does not say that the pair has zero physical binding energy or that it is dynamically inert. Neither energy nor a transition rate appears in the definition of the vector.
+
+Adding the neutralizing electron gives $(3,3,1,8\kappa,8\kappa,0)$. A balanced system with $N=Z$ consists of $Z$ copies of this bookkeeping packet, and so its aggregate gap vanishes. This explains why a gap-based asymmetry term must vanish on the balanced line. Other binding contributions need not vanish there. A system can be balanced in this specific source sense while still having surface, electromagnetic, and pairing structure in a subsequent readout.
+
+Holding $Z$ fixed and adding one neutron in the admissible domain changes the aggregate by precisely $\phi_{n_e}$. Hence
+\begin{align}
+ \Delta_N u&=1,& \Delta_N d&=2,& \Delta_N e&=0,\nonumber\\
+ \Delta_N Q_{\rm mass}&=4\kappa,&
+ \Delta_N Q_{\rm sub}&=\frac18.
+ \label{v2c4:neutronstep}
+\end{align}
+The increment in the gap is $7093/192$. Here $\Delta_N$ means a discrete change in $N$, not the already defined channel gap $\Delta Q$. The notation makes explicit that an isotope-chain step has a predictable ledger increment even when its energy increment remains unknown.
+
+A different operation adds one proton and one neutron together while preserving the neutron excess $N-Z$. It contributes one balanced packet and one electron. The gap remains unchanged, but $A$ grows by two and both source channels grow by $8\kappa$. This distinction becomes important in the next chapter: a normalized squared gap can change when its denominator changes even if the gap itself is fixed. Balanced growth and excess growth are therefore distinct operations in the same finite ledger.
+
+\subsection{Worked ledger examples}
+\label{v2c4:examples}
+
+Small examples expose what the general formulas actually count. They are arithmetic illustrations, not new numerical experiments or energy predictions.
+
+For deuterium, $Z=N=1$, and the population vector is $(1,1,0,1)$. The constituent counts are $u=d=3$ and $e=1$. Both source channels equal $8\kappa$, and the gap is zero. This example shows the cancellation in its smallest neutral admissible instance. The absence of a gap does not remove the measured binding of deuterium; rather, it shows why the gap alone cannot be identified with total binding.
+
+For tritium, $Z=1$ and $N=2$, giving populations $(1,1,1,1)$. Its constituent counts are $u=4$, $d=5$, and $e=1$. The two channels are
+\begin{equation}
+ Q_{\rm mass}=12\kappa,\qquad
+ Q_{\rm sub}=8\kappa+\frac18,
+\end{equation}
+and their difference is $7093/192$. Every slot appears once, making tritium a particularly transparent demonstration of the difference between constituent equality and source-channel equality. It is also the exact equal-population exception in the CR278 control history.
+
+For helium-4, the populations are $(2,2,0,2)$, the constituent counts are $(6,6,2)$, and the two source channels equal $16\kappa$. This is twice the balanced ledger packet. It is not a claim that helium-4's physical energy is twice deuterium's: that inference would apply linear source accounting to a nonlinear bound-state observable.
+
+For an iron-56 ledger example, $Z=26$ and $N=30$. The populations are $(26,26,4,26)$; the constituent counts are $u=82$, $d=86$, and $e=26$. The rest source is $224\kappa$, while the coupling source is $208\kappa+1/2$. Their difference is $7093/48$. Unlike an energy fit, this calculation requires no measured atomic mass. Its inputs are the isotope counts and the frozen slot assignments.
+
+These examples also clarify the role of an isotope name. The label is a convenient way to specify $(Z,N)$ for a known isotope. The algebra operates on the counts. It does not acquire additional predictive authority because a row happens to carry a familiar name. Conversely, applying the same algebra to an unobserved count pair produces a model ledger, not evidence that the corresponding nucleus can be synthesized or will persist.
+
+\subsection{What equal-population symmetry means}
+\label{v2c4:symmetry}
+
+At $N=2Z$, the four population entries are all equal:
+\begin{equation}
+ n_p=n_{n_b}=n_{n_e}=n_e=Z.
+ \label{v2c4:equalpop}
+\end{equation}
+A permutation of equal coefficients leaves their weighted sum unchanged. In particular, swapping the balanced and excess neutron vectors between equal populations cannot change the aggregate. The individual vectors are still different. The invariance belongs to the population-weighted total at this specific relation between $N$ and $Z$.
+
+The technical spine records that CR278 retained a \texttt{BOUNDARY} artifact verdict because a precommitted wrong control required a balanced/excess label swap to break every $N>Z$ row. It broke 55 of 56 such rows. Tritium, with $N=2Z$, was the exception.\cite{viispine} This outcome can be understood exactly, without changing the source verdict.
+
+To see the mechanism, let the original neutron contribution be $Z\phi_{n_b}+(N-Z)\phi_{n_e}$. The swapped contribution is $Z\phi_{n_e}+(N-Z)\phi_{n_b}$. Subtracting the original gives
+\begin{equation}
+ (2Z-N)(\phi_{n_e}-\phi_{n_b}).
+ \label{v2c4:swap}
+\end{equation}
+Because the two neutron vectors differ only in their coupling and gap entries,
+\begin{equation}
+ \phi_{n_e}-\phi_{n_b}
+ =\left(0,0,0,0,\frac18,-\frac18\right).
+ \label{v2c4:slotdifference}
+\end{equation}
+The swap therefore vanishes identically when $N=2Z$. It also leaves constituent counts and rest source unchanged for every row, even away from that line. It tests the source assignment, not the constituent inventory.
+
+The correction is conceptual rather than numerical. A wrong control cannot be required to distinguish transformations that are exactly invariant on part of the admitted domain. The precommitted requirement nevertheless failed as written, and the boundary verdict remains part of the record. Explaining why a control was overstrong does not retroactively convert its recorded outcome into an unqualified pass. Equally, the failed universal requirement does not make the six aggregate identities ambiguous; those identities can be verified directly from the definitions.
+
+\subsection{Recovering counts and distinguishing information content}
+\label{v2c4:inverse}
+
+The count channels provide a simple inverse consistency check. From $u=2Z+N$ and $d=Z+2N$, one obtains
+\begin{equation}
+ Z=\frac{2u-d}{3},\qquad
+ N=\frac{2d-u}{3}.
+ \label{v2c4:inversecounts}
+\end{equation}
+A valid integer ledger must recover nonnegative integral counts and satisfy the chosen domain. The electron column must agree with the recovered $Z$ for the neutral bookkeeping convention. These tests are stronger than checking $u+d=3A$ alone: many inconsistent count pairs can have the same sum.
+
+The source channels also retain complementary information. Rest source determines $A$ through $A=Q_{\rm mass}/(4\kappa)$, while the signed gap determines $N-Z$ through Equation~\eqref{v2c4:gap}. Together these recover $Z$ and $N$ in the admitted domain. Thus two separately typed channels encode both total size and imbalance. A single measured number would not automatically preserve this decomposition, especially after a nonlinear readout combines several effects.
+
+This is the practical meaning of keeping the columns separate. Compression into one scalar can be useful for a particular comparison, but it discards the route by which that scalar was constructed. A binding residual cannot be reverse-engineered into unique slot assignments merely because the ledger itself is invertible in $(Z,N)$. The inversion applies to the stated exact columns, not to a noisy energy measurement or to an arbitrary fitted combination of them.
+
+\subsection{From an isotope row to an element family}
+\label{v2c4:isotopes}
+
+An isotope row is indexed by $(Z,N)$, with $A$ determined by their sum. An element-family row fixes $Z$ while permitting a collection of neutron counts. A representative isotope is one chosen member used to display or evaluate that family. These are three different objects. A table with one row per element does not become a complete isotope inventory merely because each row has a neutron count attached.
+
+At fixed $Z$, changing $N$ traces the source increments described above. The four-slot construction supplies a uniform way to write those increments, but it does not determine which isotope should represent the family. A selector for abundance, longevity, a historical benchmark, or a model frontier would be additional information. That selector must remain visible when a binding score is reported over an element table; otherwise, row selection can be mistaken for a universal claim across all isotopes.
+
+The technical spine distinguishes the historical 162-row scoped isotope roster from the 126-row native periodic surface and the one-representative-per-element CR277 binding readout. Those counts answer different questions. They should not be forced into agreement by adding or deleting rows from the nuclear ledger. The next chapters use these distinct surfaces where appropriate, preserving their selectors and limits.
+
+\subsection{The exact handoff to binding}
+\label{v2c4:handoff}
+
+The ledger exports constituent counts, a total rest source, a coupling source, and a signed imbalance. It does not export a physical radius, a state vector, a force law, a half-life, or a general binding energy. The absence of those outputs is not an algebraic defect. It defines the boundary between the finite construction and the physical readout problem.
+
+A useful handoff is therefore explicit: construct the population vector, accumulate the two source channels, retain their difference, and only then apply a specified readout. The readout must name its geometry, coefficients, unit conversion, and comparison target. If measured binding were allowed to choose the native population assignment, construction and evaluation would no longer be separated. If a linear sum of slot debits were called the full energy law, the accounting identity would be asked to do work it was never defined to do.
+
+The next chapter follows an exact consequence of these channels: squaring the source gap and normalizing by rest source yields $(N-Z)^2/A$. This carries the two-channel structure into the nonlinear asymmetry readout. Its coefficient retains the adopted source assignments, and physical energy conversion uses its own specified map.

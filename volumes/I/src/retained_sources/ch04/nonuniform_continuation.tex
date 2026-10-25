@@ -1,0 +1,150 @@
+\section{A closed nonuniform quantum receiving form}\label{sec:nonuniform}
+The uniform theorem fixes a complete reference operator. A constructive next step is to receive the original continuum energy through a positive weight on its complete residual-energy map. This is a new Codex receiving construction. Its spatial incidence is explicit; it is not assigned to the original ledger or identified with a pointwise renormalized stress tensor.
+
+On each original active lane the complete Hamiltonian has the form
+\[
+ \mathcal H_0=\varepsilon eI+\varepsilon S+K,\qquad
+ q_K[\Psi]=\|T_g\Psi\|^2,
+\]
+where $g=\varepsilon d$ retains the signed lane gap. On the complete two-polarization Fock space, with $\sigma_+=\sigma_z$, $\sigma_\times=\sigma_y$,
+\[
+ (T_g\Psi)_\alpha(\omega)=\sqrt\omega\,a_\alpha(\omega)\Psi
+ -\frac{g\,u(\omega)}{\sqrt\omega}\sigma_\alpha\Psi.
+\]
+The original finite smearing is $\mu=\int|u(\omega)|^2\dd\omega/\omega$, and the bounded shift has squared norm $c_g=2g^2\mu$. The weighted annihilation map $A$ is closed on $\mathcal Q=Q(H_f)$, with $\|A\Psi\|^2=q_f[\Psi]$. Since $T_g=A-F_g$ and $F_g$ is bounded, $T_g$ is closed on precisely the same domain. The elementary squared triangle inequalities give
+\begin{equation}
+ H_f\le2K+2c_gI,\qquad K\le2H_f+2c_gI
+ \label{eq:equivalent-forms}
+\end{equation}
+as quadratic forms. Thus $1+K$ and $1+H_f$ have equivalent form norms, without a frequency or occupation cutoff. The original finite source matrices extend this construction to all sixteen source states, including the four dark dimensions.
+
+Choose a bounded self-adjoint weight on the residual-energy output space. For the six phase certificates below it preserves the original source lane; a source-independent output weight is one sufficient choice. Require
+\[
+ 0<N_-I\le W\le N_+I<\infty,
+ \qquad q_{K,W}[\Phi,\Psi]=\langle T_g\Phi,WT_g\Psi\rangle.
+\]
+For fixed real source coefficient $N_s$, define
+\[
+ q_{\mathcal H[N_s,W]}[\Psi]
+ =N_s\varepsilon e\|\Psi\|^2+N_s\varepsilon\langle\Psi,S\Psi\rangle
+ +q_{K,W}[\Psi].
+\]
+Positive upper and lower bounds on $W$, Eq.~\eqref{eq:equivalent-forms}, and the bounded source term make this a closed semibounded form on $\mathcal Q$. The representation theorem supplies its self-adjoint Hamiltonian. When $W=NI$ and $N_s=N$, it is exactly $N\mathcal H_0$.
+
+Expanding $\langle(A-F_g)\Phi,W(A-F_g)\Psi\rangle$ retains the weighted free term, both signed cross terms and the entire weighted counterterm $\langle F_g\Phi,WF_g\Psi\rangle$. The construction does not weight the free field and then discard the interaction or counterterm. A bounded nonconstant spatial profile may be received by a supplied isometry $J$ as $W_N=J^*M_NJ$. The choice of $J$ is part of the physical receiving interface. The integrated Hamiltonian alone does not reconstruct it, and a different local stress quantization can have additional vacuum, pair-creation, projector or boundary terms.
+
+\section{An energy-form stability theorem for the actual clock}\label{sec:form-stability}
+The free-field part is unbounded, so the bounded-residual criterion above is not automatically applicable. The common form domain supplies a different estimate. Compare a static $H_{\rm ref}=N\mathcal H_0$, $N>0$, with the same-source-coefficient form $H_{\rm act}=H_{\rm ref}+r$, where
+\[
+ |r[\Phi,\Psi]|\le\delta\sqrt{q_K[\Phi]q_K[\Psi]},\qquad
+ 0\le\delta<N.
+\]
+The weight family supplies this bound with $\delta=\|W-NI\|$. Start both evolutions from the identical normalized original preparation in $\mathcal Q$. Write their states as $\Psi(t),\chi(t)$ and their distance as $d_\Psi(t)=\|\Psi(t)-\chi(t)\|$. Common-form weak evolution gives
+\begin{equation}
+ d_\Psi(t)^2\le2\delta\int_0^t
+ \sqrt{K_{\rm act}(s)K_{\rm ref}(s)}\,\dd s.
+ \label{eq:weak-duhamel}
+\end{equation}
+\textit{Proof.} The trajectories are continuous in the common form norm and differentiable into its dual. Pair the two weak Schr\"odinger equations. Their reference terms cancel, giving $\dd\langle\Psi,\chi\rangle/\dd t=\ii r[\Psi,\chi]$. Since $d_\Psi^2=2-2\operatorname{Re}\langle\Psi,\chi\rangle$, integration and the form bound give Eq.~\eqref{eq:weak-duhamel}. Bounded spectral regularization in the two equivalent form norms justifies the product rule before passing to the weak limit. No finite operator norm is assigned to $H_f$ or $r$.
+
+For bounded current $Z$, the two-state expectation expansion gives
+\[
+ |z_{\rm act}-z_{\rm ref}|\le2\|Z\|d_\Psi.
+\]
+On each preserved original lane $\|Z\|=2$. If the reference amplitude is at least $m>0$ and $4d_\Psi<m$ at every prefix, the same unwrapped phase branch exists and its error is at most $\arcsin(4d_\Psi/m)$. Leakage between lanes pays its full receiver norm and preparation account.
+
+\section{A bootstrap uses the original correlated preparation}
+Retain the six original complete-energy preparation ceilings and phase-error certificates. For $N\le1$ and times within the original window, they supply
+\[
+ K_{\rm ref}(t)\le\kappa
+ =K_{{\rm prep},\mathrm{upper}}+\varepsilon_{\rm upper}E(T)_{\rm upper}.
+\]
+This is a ceiling on the complete positive $K$ in the actual correlated preparation. It retains the cancellation between free, signed interaction and counterterm contributions.
+
+Energy conservation in the two static families gives
+\[
+ (N-\delta)K_{\rm act}(t)
+ \le(N+\delta)\kappa+2N\varepsilon d_\Psi(t).
+\]
+For $\delta\le N/2$, it follows that $K_{\rm act}\le3\kappa+4\varepsilon d_\Psi$. Choose $d_*>0$ and put
+\[
+ K_*=3\kappa+4\varepsilon_{\rm upper}d_*,\qquad
+ \delta_*=\min\left\{\frac{N_{\rm lower}}2,
+ \frac{d_*^2}{4T_{\rm upper}\sqrt{\kappa K_*}}\right\}.
+\]
+For $\delta\le\delta_*$, the trajectory cannot first reach $d_*$. Before a first crossing its $K_{\rm act}$ is bounded by $K_*$; Eq.~\eqref{eq:weak-duhamel} at that crossing would give $d_*^2\le d_*^2/2$. Hence $d_\Psi(t)<d_*$ throughout the interval. This is a full-continuum state estimate on the chosen form family.
+
+For the inherited frozen Earth lift, set $N=\sqrt{1-a}$, $x=\ell aT_{\rm lower}/2$, and $m=M_{\rm lower}-E(T)_{\rm upper}$. The actual source certificate has $0<x<1$. Choose
+\[
+ d_*=\frac{m(x-x^3/6)}8.
+\]
+Then $4d_*/m=(x-x^3/6)/2<\sin x$. The perturbed phase error is smaller than the ideal negative correlated shift, preserving its sign. Directed rational evaluation gives the six sufficient dimensionless weight budgets in Table~\ref{tab:form-budgets}.
+
+The source-specific bootstrap yields the first budget column in Table~\ref{tab:form-budgets}. It controls the complete joint vector, which is stronger than needed for a phase readout. The following estimate uses the actual current algebra directly.
+
+\section{A sharper current-specific continuum remainder}
+The receiver supplies additional structure. On a retained lane, $Z=\sigma_z+\ii\sigma_y$ has norm two. The weighted annihilation part commutes with finite source matrices, and direct two-polarization Pauli algebra gives
+\[
+ \|[T_g,Z]\Psi\|\le2\sqrt{c_g}\|\Psi\|,\qquad
+ \|[T_g,Z^*]\Psi\|\le2\sqrt{c_g}\|\Psi\|.
+\]
+Equivalently, the squared polarization commutator sum is exactly $8g^2\mu I=4c_gI$. Thus
+\[
+ \sqrt{K[Z\Xi]}\le2\sqrt{K[\Xi]}+2\sqrt{c_g}\|\Xi\|,
+\]
+and likewise for $Z^*$. Conservation of the complete reference Hamiltonian also gives $K[U_0(t)\Xi]\le K[\Xi]+2\varepsilon\|\Xi\|^2$.
+
+For $\delta\le N/2$, the static actual energy supplies the global ceiling $k_A=3K_{{\rm prep},\rm upper}+4\varepsilon_{\rm upper}$. Applying the preceding evolution, current and evolution bounds to $B_T(s)=U_{\rm ref}(T-s)^*ZU_{\rm ref}(T-s)$ gives, for both $B_T$ and its adjoint on the normalized actual state,
+\[
+ K[B_T(s)\Psi(s)]\le k_B,
+\]
+\[
+ k_B=\left[2\sqrt{k_A+2\varepsilon_{\rm upper}}+2\sqrt{c_{g,\rm upper}}\right]^2
+       +8\varepsilon_{\rm upper}.
+\]
+Weak Heisenberg variation on the same common form domain then gives the exact identity
+\[
+\begin{aligned}
+ z_{\rm act}(T)-z_{\rm ref}(T)=\ii\int_0^T\{&r[\Psi,B_T\Psi]\\
+                    &-r[B_T^*\Psi,\Psi]\}\,\dd s,
+\end{aligned}
+\]
+and hence the observable-specific bound
+\[
+ |z_{\rm act}(T)-z_{\rm ref}(T)|\le2\delta T\sqrt{k_Ak_B}.
+\]
+A sufficient phase-sign weight budget is therefore
+\[
+ \delta_{\rm linear}=\min\left\{\frac{N_{\rm lower}}2,
+ \frac{m(x-x^3/6)}{4T_{\rm upper}\sqrt{k_Ak_B}}\right\}.
+\]
+Directed upper square roots give the second column of Table~\ref{tab:form-budgets}. Its current error is at most half the sine margin. Each estimate separately suffices; the larger of the two budgets can be used without combining their incompatible intermediate bounds.
+
+\begin{table}[htbp]\centering\small
+\caption{Sufficient dimensionless $\|W-NI\|$ budgets for the original six preparations. Rounded displays of exact outward operands; the two columns protect the full state and the actual current, respectively.}\label{tab:form-budgets}
+\begin{tabular}{@{}lrr@{}}\toprule
+Lane & State bootstrap & Current-specific\\\midrule
+01 & $7.090598\!\times\!10^{-11}$ & $2.961257\!\times\!10^{-11}$\\
+02 & $2.262032\!\times\!10^{-11}$ & $2.845597\!\times\!10^{-11}$\\
+03 & $3.199329\!\times\!10^{-15}$ & $1.479745\!\times\!10^{-11}$\\
+12 & $6.476681\!\times\!10^{-11}$ & $2.953179\!\times\!10^{-11}$\\
+13 & $3.745512\!\times\!10^{-15}$ & $1.511229\!\times\!10^{-11}$\\
+23 & $4.467330\!\times\!10^{-15}$ & $1.546471\!\times\!10^{-11}$\\
+\bottomrule\end{tabular}\end{table}
+Protecting the observed phase is substantially less costly than protecting the complete joint vector for lanes 03, 13 and 23. The smallest of the six available sufficient budgets is now approximately $1.4797\times10^{-11}$. The declared illustrative fixture $\delta=a^2$ fits all six. These are receiving-weight bounds in model coordinates, distinct from bounded-Hamiltonian energy norms and from achieved apparatus precision. A physical lapse profile must supply its actual incidence, support and weight error before receiving the certificate.
+
+\section{First variation and the local spatial calculation}
+For an affine static weight $W(\lambda)=NI+\lambda B$ with $\|B\|\le b$, the complete variation is the form
+\[
+ r_B[\Phi,\Psi]=\langle T_g\Phi,BT_g\Psi\rangle,\qquad
+ |r_B[\Phi,\Psi]|\le b\sqrt{q_K[\Phi]q_K[\Psi]}.
+\]
+Let $U_0$ denote the reference evolution and $B_T(s)=U_0(T-s)^*ZU_0(T-s)$. The finite source current and these evolutions preserve $\mathcal Q$, so the weak first-order response is
+\[
+ z_1(T)=\ii\int_0^T\!\left\{
+ r_B[\chi(s),B_T(s)\chi(s)]
+ -r_B[B_T(s)^*\chi(s),\chi(s)]\right\}\dd s.
+\]
+For nonzero reference current, $\theta_1(T)=-\operatorname{Im}[z_1(T)/z_0(T)]$ on the same unwrapped branch. The common-domain justification and complete source-matrix certificate are retained in Appendix~\ref{app:form-proof}. Actual evaluation requires the supplied incidence $J/B$ and two-time joint-state matrix elements; an energy ceiling alone does not assign their value.
+
+A separate source-shell coefficient change $\delta_s$ contributes bounded residual $|\delta_s|\varepsilon$ after keeping the even scalar payment in the energy ledger. It adds at most $|\delta_s|\varepsilon T$ to the state-distance budget. It shares the total phase allowance with the form error; preparation, timing, winding, reference and readout errors add their own terms. The remaining local calculation is to construct the actual stress/energy form and receive every term, including its vacuum and boundary conventions, into this common-domain comparison.

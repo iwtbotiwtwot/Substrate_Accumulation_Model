@@ -1,0 +1,594 @@
+{
+  "repo": "iwtbotiwtwot/SAM_Research_Project",
+  "commit": "6890eae4cb5f33c766c86ce10f43b5165a4c4157",
+  "files": [
+    {
+      "local": "sources/recovered_latest/VI/COMPLETION.json",
+      "sha": "337709ae9c83fd74f1cf2cc5021ed93d67059bdf",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/COMPLETION.json",
+      "recovered": true,
+      "sha256": "28de1e694c03d39df8fda8e8a534dc8b5f32ef6e3a468778bb11a33848c7e68e"
+    },
+    {
+      "local": "sources/recovered_latest/VI/EXPORT_CUSTODY.json",
+      "sha": "b02cf053774068002dc66d9f8b2e01b9a3910a66",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/EXPORT_CUSTODY.json",
+      "recovered": true,
+      "sha256": "facec3ea2e6723dfdde89c568ae56bb4b63f5725e8bb8ddd4c2ff9b7094bfd23"
+    },
+    {
+      "local": "sources/recovered_latest/VI/FINAL_VERIFICATION.json",
+      "sha": "18c52a5a79e1b5e30d7c3fb897ef2de0d8804c4b",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/FINAL_VERIFICATION.json",
+      "recovered": true,
+      "sha256": "7affc8783c18b02f001adddc445a0a80eb8a14255ab9fe71a4432bd397b3cfa7"
+    },
+    {
+      "local": "sources/recovered_latest/VI/REPORT.txt",
+      "sha": "579d6c0c94635b22a8a57f8b4588df4304a680ba",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/REPORT.txt",
+      "recovered": true,
+      "sha256": "726a8025774c7102a9706a68d55e804eafe7f5e9bc6e52743dc23eeed7920bec"
+    },
+    {
+      "local": "sources/recovered_latest/VI/SHA256_MANIFEST.json",
+      "sha": "e46d41e8884048d85a40ce5b199eebd321ae8789",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/SHA256_MANIFEST.json",
+      "recovered": true,
+      "sha256": "2468f43512cca423670aeba5ae7e63b19deebae8893a8e8c949a8b01e1b39e88"
+    },
+    {
+      "local": "sources/recovered_latest/VI/assemble.py",
+      "sha": "cbd25eca187f8c4bb852f880b835effa15b613ed",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/assemble.py",
+      "recovered": true,
+      "sha256": "7020a81e968359270e3810a38ca0da79e0ab110fe50351fab9050a7c3e3c8751"
+    },
+    {
+      "local": "sources/recovered_latest/VI/build.py",
+      "sha": "ab2b0e472ad139f166b8f7f1a1ce1e4187731b1b",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/build.py",
+      "recovered": true,
+      "sha256": "abedf5297311284abcb7283d5af8a7734ea93d02026c47d4ea0d0d6ddb43135b"
+    },
+    {
+      "local": "sources/recovered_latest/VI/chapter.tex",
+      "sha": "28d8313e9e9be49e7b294d019a742b2fc4caf729",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/chapter.tex",
+      "recovered": true,
+      "sha256": "6c8e190693969cc298c58fa98a0ae3e8034b14935696a103414151f3b307e004"
+    },
+    {
+      "local": "sources/recovered_latest/VI/checks/new_rows.tex",
+      "sha": "8d950e9674f202bd3ed37c5efaeb4283853e99b4",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/checks/new_rows.tex",
+      "recovered": true,
+      "sha256": "c7e95655ea3549ff26828fd732e859121190be957d3d7927d74f1a5b54b79fd4"
+    },
+    {
+      "local": "sources/recovered_latest/VI/checks/verify.py",
+      "sha": "edb7c648cedb693d51ab6683582318834df44f53",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/checks/verify.py",
+      "recovered": true,
+      "sha256": "d2136c8bb1d68ab97a96a4485a35133eac954567f7db62fecb4ca767b36eaaa6"
+    },
+    {
+      "local": "sources/recovered_latest/VI/external_references.tex",
+      "sha": "efecd118145745ce59595d7495acf4eb16f9e4cb",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/external_references.tex",
+      "recovered": true,
+      "sha256": "a16e2cc1bc6506efd67d4b365d395fd7e9a729072935038dbe3d356f48f36f0d"
+    },
+    {
+      "local": "sources/recovered_latest/VI/finalize.py",
+      "sha": "6b4f56371ff46fe27b5482521291be84e64818f2",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/finalize.py",
+      "recovered": true,
+      "sha256": "5b0fdfbce126e6bac1b0554295daa632770083d0b302f3ec558accda95f37d64"
+    },
+    {
+      "local": "sources/recovered_latest/VI/native/run_native.py",
+      "sha": "c862e60d6fba45fe7d9e3face8ab3d992d4e0a3f",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/native/run_native.py",
+      "recovered": true,
+      "sha256": "e63dcf12815514cd63a90b12d8ab16b98c2c60998c530e3171da266be04125d3"
+    },
+    {
+      "local": "sources/recovered_latest/VI/native/run_native_v2.py",
+      "sha": "9b140c95328f62238d9249fcd266735429d0eb13",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/native/run_native_v2.py",
+      "recovered": true,
+      "sha256": "33dc4ef8d0ddcbd3edb9fe370dfc53ecb1ced64b0de55af18ddd1f10daefb484"
+    },
+    {
+      "local": "sources/recovered_latest/VI/native/run_native_v3.py",
+      "sha": "16cad7bf2658d014be326651a6aee8ebeb9bbdb6",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/native/run_native_v3.py",
+      "recovered": true,
+      "sha256": "33ff935e16569fc588bd19f4eb1b4a16cd8897732d11ceb9c909111b4a2249fa"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/decoder_decoder.tex",
+      "sha": "0a8f98411215c80ee1fb96c9543e2c844299880b",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/decoder_decoder.tex",
+      "recovered": true,
+      "sha256": "9524e8e7dcfdde68cc6f4b8cf740d09dd2a1685a40b777871b7a274d1d73014f"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/decoder_finite_readout.tex",
+      "sha": "5d863b5aa9f9cfe67288ae641f21f5cf4a0ac345",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/decoder_finite_readout.tex",
+      "recovered": true,
+      "sha256": "029929cfec708aa532e82e950e6b74cc3613ab8eb90a5d819b8318e7dcc952ee"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/decoder_pulses_values.tex",
+      "sha": "06bd4724c214a30681cc6bbe7786ed0328484bce",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/decoder_pulses_values.tex",
+      "recovered": true,
+      "sha256": "797c53cf2e704a7d99249a96fdb1f06ededbe567acdcf60f47d37205977bd046"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/decoder_table_bounds_table.tex",
+      "sha": "fb7225021942052f33ac61c424cf711deb6bdda9",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/decoder_table_bounds_table.tex",
+      "recovered": true,
+      "sha256": "56a58eed5fb21c884d38fbf1cc9d27cedb7efcebef0214e532bf198cc13d60c2"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/decoder_values.tex",
+      "sha": "684716696fe91b7467b5749298602bd851c3eeee",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/decoder_values.tex",
+      "recovered": true,
+      "sha256": "1285739693f142b6c744bbc8521e25f1807ade05bf56fab81d8efdf850987257"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/foundation_error_budget.tex",
+      "sha": "5118c0c6184d6841d0ee869ab0f9eb57677a8885",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/foundation_error_budget.tex",
+      "recovered": true,
+      "sha256": "e08e0c83648cd74e1b2af97cdb98d5f6b588307ff041ba99333b0bf541cedb3e"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/foundation_overlap.tex",
+      "sha": "87b83c559f263d345f702fd39c4524e511532736",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/foundation_overlap.tex",
+      "recovered": true,
+      "sha256": "5886090d784d3a9837374eee4dada72a034f372b707ae37340224f07637b8dc6"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/foundation_records.tex",
+      "sha": "bf94dfbf4c19f0a6dcd79c9ba54ef8c5b04ac841",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/foundation_records.tex",
+      "recovered": true,
+      "sha256": "18a700d11c750661d8dfd61f03c70cbe188d2bedc0f0d357b7f11efea60202e5"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/foundation_table_bounds_rows.tex",
+      "sha": "ee6809efc0c55df7a9a451f96bd16af62d4142a4",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/foundation_table_bounds_rows.tex",
+      "recovered": true,
+      "sha256": "b2544a942170e1b486038165459e92ff2279300b87f5ecf9bf58c79c4ddd526c"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/foundation_values.tex",
+      "sha": "10fe16cae7111557f975fa245504fa80d80d7f4f",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/foundation_values.tex",
+      "recovered": true,
+      "sha256": "079716b005c700f659dd052051d1b43b298a88f5c60701258de4aa880a47b439"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/original_accessibility.tex",
+      "sha": "e080834dde534bee0871b47cf8ca685cd16be240",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/original_accessibility.tex",
+      "recovered": true,
+      "sha256": "5b8224e1301e66e6da319582ed176708a642bb11f8d97be2223a6b8d6fa4831d"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/original_appendix.tex",
+      "sha": "346c4d203262683bfc494b756d76f01573a8186b",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/original_appendix.tex",
+      "recovered": true,
+      "sha256": "587519be78b50934925c55bb12e1eb17ee0ade54e7eb8e94b43d3917f7c083a0"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/original_clock_routes.tex",
+      "sha": "981e0eeadf59afa7b741c772e9d43e74d2fc5159",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/original_clock_routes.tex",
+      "recovered": true,
+      "sha256": "dcb2fb8f89f1b399f27856bd3f5315e8b404715c7c70bd5c12912b609531f113"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/original_history.tex",
+      "sha": "b638325c2f7875ed8d38a732808102c0e44722a2",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/original_history.tex",
+      "recovered": true,
+      "sha256": "da6c8016a5d7c1b67b17b00510a9eb5276b64203c66641f822ba359fa4812796"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/original_introduction.tex",
+      "sha": "c209ff5950167fa0260a909155f9fddf651c900a",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/original_introduction.tex",
+      "recovered": true,
+      "sha256": "4fff591799e1c8166fe7a1978cec4deec3389c49f730a4021e44425eb6bf6670"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/original_records.tex",
+      "sha": "881e77c83a669176d8d1b2fbc8d9834a3345dad1",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/original_records.tex",
+      "recovered": true,
+      "sha256": "e07a62b99af5db906d1d8041016ff5678cfdd8cb4069c4dec802abf2dbf03ce8"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/record_detector_join.tex",
+      "sha": "faa52b7fe03a25563807119a9b335af8faca3117",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/record_detector_join.tex",
+      "recovered": true,
+      "sha256": "c1945f792c734fa574dd891070a44a03c36e2cd42dc200abd0a795a32f721904"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/record_memory_channel.tex",
+      "sha": "5caa73fa31febae441c6670c7af9e0bd86fbdd0b",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/record_memory_channel.tex",
+      "recovered": true,
+      "sha256": "8cc8e6735ec8b35693271622032a4b17523ec62db773e79551e0ee4945bf630b"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/record_table_record_table.tex",
+      "sha": "9318ded2a8b34621a1c07b8173ebccc3f40f9fc3",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/record_table_record_table.tex",
+      "recovered": true,
+      "sha256": "9e413292ce8703f018d86831cac79dcb38449410037944d2a656d8ea85367ae0"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/record_values.tex",
+      "sha": "11741fd78caf7b486cc873a1008fb819408e78da",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/record_values.tex",
+      "recovered": true,
+      "sha256": "742ec69b3da32323c6abc749dc595b392add2760c31757db9040c188a1150202"
+    },
+    {
+      "local": "sources/recovered_latest/VI/parts/references.tex",
+      "sha": "09eda41875a444d9cbadf54e57fcad040a8da1f2",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/parts/references.tex",
+      "recovered": true,
+      "sha256": "90eed520446ae015ad1b366517dd0d2d181311799ad702332ec3d3cb4f7589ca"
+    },
+    {
+      "local": "sources/recovered_latest/VI/proofs/coherent_join.tex",
+      "sha": "0c21e2590590f4fc670fd289a977b9c01a5bfddc",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/proofs/coherent_join.tex",
+      "recovered": true,
+      "sha256": "97cbc5a1304c64bce3aa0c9f82432dc9a2818550559bf95a19c21869e2400325"
+    },
+    {
+      "local": "sources/recovered_latest/VI/proofs/history_reads.tex",
+      "sha": "f35b102c2102eaee3ea957b7c84a88e6d746faea",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/proofs/history_reads.tex",
+      "recovered": true,
+      "sha256": "8a043bdc23d83407b4b61ca03e5747102b74bde569dd8111c248aa29b6e0f65e"
+    },
+    {
+      "local": "sources/recovered_latest/VI/proofs/shared_field.tex",
+      "sha": "67d9b4e59a1a2f883587df228d50febf0fb076d9",
+      "path": "GEN4/voli_chvi_shared_routes1_20261017/proofs/shared_field.tex",
+      "recovered": true,
+      "sha256": "679f86d15d96c2eeaa7336178a87b9c4b4c226f139e320e7acba661fa44bd2bd"
+    },
+    {
+      "local": "sources/recovered_latest/IV/base.tex",
+      "sha": "672c6fb7500508b03dd21658fcb9b455c124ae7a",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/base.tex",
+      "recovered": true,
+      "sha256": "b5333da1db8064a5977b54c1170bce55ecea18d5ec5e5e75eb4dfde52988719e"
+    },
+    {
+      "local": "sources/recovered_latest/IV/canonical_closure.tex",
+      "sha": "0f89ad24c9e5b7a99dce8938bf735492207779ff",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/canonical_closure.tex",
+      "recovered": true,
+      "sha256": "4c18f9adf17e41eb7ed80c48367b2fa63a8eb58e247dce4a9e8f7c5926dd8b57"
+    },
+    {
+      "local": "sources/recovered_latest/IV/canonical_composition.tex",
+      "sha": "4b34d089775704e42648d6a30094d13f57c6368a",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/canonical_composition.tex",
+      "recovered": true,
+      "sha256": "d7dac49cc1df05192953b01b481e13293364f7ce792a8e186513cfadd1d4c535"
+    },
+    {
+      "local": "sources/recovered_latest/IV/canonical_local.tex",
+      "sha": "1d1404b68072c8b99e7719e4e6f566f151a0a801",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/canonical_local.tex",
+      "recovered": true,
+      "sha256": "7303d9f47021fd917790988283610b0f5df16818c7b35d15a3d8b1befaadbe2e"
+    },
+    {
+      "local": "sources/recovered_latest/IV/canonical_update.tex",
+      "sha": "389c95fd9faad82720c2dd9f13c1df21eb5c81fa",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/canonical_update.tex",
+      "recovered": true,
+      "sha256": "9eeb7fdb95a5bd4bdf96c97435069ee4cd1b311fb513a4ce9f315c3294cefa16"
+    },
+    {
+      "local": "sources/recovered_latest/IV/carrier_predecessor.tex",
+      "sha": "7db7a957e890027b826fd6b403a4d0e4e891cbcc",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/carrier_predecessor.tex",
+      "recovered": true,
+      "sha256": "cece5ffe1c5f33ba9cf60ee257f5ea49d7604c358a8b5578b628b414cb0fb682"
+    },
+    {
+      "local": "sources/recovered_latest/IV/chapter.tex",
+      "sha": "d58d03992a55083faa2d4ed996403f19180f84f4",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/chapter.tex",
+      "recovered": true,
+      "sha256": "3dff9557639475035a7717ce878a78409a0f943c65de79c85668f8cfc81a8b02"
+    },
+    {
+      "local": "sources/recovered_latest/IV/closure_status.tex",
+      "sha": "edb91c04050f5f4c015e67b1d33a0ac4c1e644af",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/closure_status.tex",
+      "recovered": true,
+      "sha256": "fabe5baff03e9feec856b317ddf8869afe298c59284f2c48523455c9f5eaddb9"
+    },
+    {
+      "local": "sources/recovered_latest/IV/composition_c7_annotated.tex",
+      "sha": "daf0751422bded59f733ad86f12c6c6f3960ce0d",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/composition_c7_annotated.tex",
+      "recovered": true,
+      "sha256": "2e04b935ba339fd4c320fbb7561e44b29cc61078f8ba6f5441e26aa4684b9602"
+    },
+    {
+      "local": "sources/recovered_latest/IV/composition_composition.tex",
+      "sha": "14121411bee438beddb8cb259719881f68e45a60",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/composition_composition.tex",
+      "recovered": true,
+      "sha256": "2e1dfb82a3c196f53aaaf9a250f43be370ae096fa1258b454f40ac982dd5877c"
+    },
+    {
+      "local": "sources/recovered_latest/IV/confidence_local.tex",
+      "sha": "174d14f7a72d47b346eaef156135bf884b0c6de0",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/confidence_local.tex",
+      "recovered": true,
+      "sha256": "14f3b1f1f33e10ce81656089ef78fef4643eeb20830a3dc2fe971661bf0edd6f"
+    },
+    {
+      "local": "sources/recovered_latest/IV/continuum_update.tex",
+      "sha": "fb5012ecc939d8d93777cd5aa79f9bb41c807acd",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/continuum_update.tex",
+      "recovered": true,
+      "sha256": "e0d63a973ced8d9bcd7a67ead2ad12c5e5ae8da43ac1279359b96696f4c33a13"
+    },
+    {
+      "local": "sources/recovered_latest/IV/covariance_preparation.tex",
+      "sha": "b295ab5c351a193771b277a8ba34a0a9183a2dd1",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/covariance_preparation.tex",
+      "recovered": true,
+      "sha256": "96fb3a505e6715264647ac333b53100becbcaa582d7a67280990e7e5fea2215f"
+    },
+    {
+      "local": "sources/recovered_latest/IV/dependency_ledger.tex",
+      "sha": "1223cf89f4dc587357e4260786241a55a7edb2ce",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/dependency_ledger.tex",
+      "recovered": true,
+      "sha256": "10b76054dbaf993bb5029425d9e09df45932f96605c53b035e04f280fea16224"
+    },
+    {
+      "local": "sources/recovered_latest/IV/detector_composition.tex",
+      "sha": "67cd037e20f82fb5e509ab4c0cf99b3b467d369a",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/detector_composition.tex",
+      "recovered": true,
+      "sha256": "a83195ada4709e04beeb20a083e7a588613d46d0b8779f01732c2e55ef9b3a26"
+    },
+    {
+      "local": "sources/recovered_latest/IV/execution_receipts.tex",
+      "sha": "2076efef91396ca15b30229c16e674eb5fa7fe35",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/execution_receipts.tex",
+      "recovered": true,
+      "sha256": "b525747bdbc324cbea191a543dfaa5a9bb621ffd63642da3b1e85629bc3f7b51"
+    },
+    {
+      "local": "sources/recovered_latest/IV/instrument_preparation.tex",
+      "sha": "5867314f8d6666460a1993cd629caf6e49395fae",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/instrument_preparation.tex",
+      "recovered": true,
+      "sha256": "61101fafaa085dedd67a9768c53a14802d4b741bff7c29791dc28d656e52fc08"
+    },
+    {
+      "local": "sources/recovered_latest/IV/metrology_closure.tex",
+      "sha": "a63a6718d66cb93d7241c61efc8768b19779b8e0",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/metrology_closure.tex",
+      "recovered": true,
+      "sha256": "e91c674275008dd8bfa4b7480663a598fbdef4442d71788b633b9b9579cd5bf9"
+    },
+    {
+      "local": "sources/recovered_latest/IV/modes_predecessor.tex",
+      "sha": "ae5cb095a7d4c69e6a8a3dbda9d20a44e4db086f",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/modes_predecessor.tex",
+      "recovered": true,
+      "sha256": "6c9254d68f0980f770c47944cc01866f3f1443b6c74b7afb37b95239116befc5"
+    },
+    {
+      "local": "sources/recovered_latest/IV/noisy_predecessor.tex",
+      "sha": "e2a0eb10651af6fc336cd355c547075b909bf276",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/noisy_predecessor.tex",
+      "recovered": true,
+      "sha256": "f9452f85808f509887da13521496fd7d215bd94b989a26fbaa2bd2874e4d6461"
+    },
+    {
+      "local": "sources/recovered_latest/IV/nonuniform_continuation.tex",
+      "sha": "b15784d9b099977680d607c01e73f62ad06bc77f",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/nonuniform_continuation.tex",
+      "recovered": true,
+      "sha256": "6688d2a337a30d4dcd344199a6d7b42ceb6c70bc45fb82f6374066517bf29ddc"
+    },
+    {
+      "local": "sources/recovered_latest/IV/preparation_preparation.tex",
+      "sha": "73b69bd844e9459a3af04b827e6085d87b1aded0",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/preparation_preparation.tex",
+      "recovered": true,
+      "sha256": "9472c4f066404a4c6889d80c7b633c02466dffc07688829a2b2fa200e743eaf1"
+    },
+    {
+      "local": "sources/recovered_latest/IV/protocol_predecessor.tex",
+      "sha": "28af0b6f25ff4c490f9aaf88a65dee53e63960ea",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/protocol_predecessor.tex",
+      "recovered": true,
+      "sha256": "3d7354670f3b38bdca9d85406e939f99b783668a9f8ae5676a329e21d8e5e69e"
+    },
+    {
+      "local": "sources/recovered_latest/IV/protocol_preparation.tex",
+      "sha": "9cb9993cb2e3917ad01d27e174fc5f978d679ec1",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/protocol_preparation.tex",
+      "recovered": true,
+      "sha256": "673830fb2d6b8d4b43b49cd549d85dd1792ff3c9d1e6a3c7a4f544d4fa2a43b8"
+    },
+    {
+      "local": "sources/recovered_latest/IV/radiation_energy_update.tex",
+      "sha": "d5944a556a053ef0114433a86cbee59d8ea25cbc",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/radiation_energy_update.tex",
+      "recovered": true,
+      "sha256": "527a4588fce170c6fa50e26baf9344f8b47fcebd00ed54bcb6d47514ceb16886"
+    },
+    {
+      "local": "sources/recovered_latest/IV/radiation_local.tex",
+      "sha": "5a28e2583721ad71cdc76bc8dd04b50d360daffe",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/radiation_local.tex",
+      "recovered": true,
+      "sha256": "636ca8c972911f79aef0496d1c7517f4b6cd2156be3d537cb20b36aed1c3ab14"
+    },
+    {
+      "local": "sources/recovered_latest/IV/radius_predecessor.tex",
+      "sha": "697e8e8afcc77fa17a8c9bc74a463bc87ba5f302",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/radius_predecessor.tex",
+      "recovered": true,
+      "sha256": "9dd65fe798125fcb8a6586b6bd9096669ce2d57784ffc3ff4fd9b81fd72a95f8"
+    },
+    {
+      "local": "sources/recovered_latest/IV/relaxation_composition.tex",
+      "sha": "f174b753fbf2cf970db0258bfb31df66b14368e0",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/relaxation_composition.tex",
+      "recovered": true,
+      "sha256": "bd27693617e819f623defdcac04ef588094003098dca8ca89f13695a35d7f9dc"
+    },
+    {
+      "local": "sources/recovered_latest/IV/response_closure.tex",
+      "sha": "c0ede3ceceba81cb420f4380829998bee9ccc158",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/response_closure.tex",
+      "recovered": true,
+      "sha256": "27d9b1d9f7168d34dd4418b0a9c259f7955db64bb4326caa32ea257338cc7bf8"
+    },
+    {
+      "local": "sources/recovered_latest/IV/response_predecessor.tex",
+      "sha": "202ed6d54fa0784755c9ca17721875c725c0ad99",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/response_predecessor.tex",
+      "recovered": true,
+      "sha256": "096dd1ddbf990392ba17b1cf4dcb93232b6a0d9ff624fc68e15226f3ace6d9b6"
+    },
+    {
+      "local": "sources/recovered_latest/IV/response_update.tex",
+      "sha": "348ae0d33e22ac90823c37d6e4e6d57e46ad23e0",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/response_update.tex",
+      "recovered": true,
+      "sha256": "e0ad438d06f666288c48eb7d257a528493b12be1534124991fda06085d679b55"
+    },
+    {
+      "local": "sources/recovered_latest/IV/scientific_status.tex",
+      "sha": "abbcf3a60d4f55e56dc330612f5bdee3722ab32f",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/scientific_status.tex",
+      "recovered": true,
+      "sha256": "cadd60a813db93f6ca85c1173830dbf8fbada7fdb8dede5d999fd6b095cd3725"
+    },
+    {
+      "local": "sources/recovered_latest/IV/spatial_predecessor.tex",
+      "sha": "230b96ee87c41e3ff90b861424b9fe6508d46ae5",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/spatial_predecessor.tex",
+      "recovered": true,
+      "sha256": "f37abe7b811af397fd1b7d8f6f73808eb2d2950ef3be96a0b2a418c1c842a015"
+    },
+    {
+      "local": "sources/recovered_latest/IV/structure_closure.tex",
+      "sha": "4b48fd35523675a63f104bc9e10f57ec282a0a48",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/structure_closure.tex",
+      "recovered": true,
+      "sha256": "cc2682390537a37b285ca71dea0904c849785ec330709ce3f54d64ba1682ccc8"
+    },
+    {
+      "local": "sources/recovered_latest/IV/tail_coefficient.tex",
+      "sha": "03f097bf7067048d202f3e7cadedaa906c555938",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/tail_coefficient.tex",
+      "recovered": true,
+      "sha256": "bb6c509711c96de69e5344a8e56e1a01b489e67877f35f7d769e19a50eb9d673"
+    },
+    {
+      "local": "sources/recovered_latest/IV/transport_continuation.tex",
+      "sha": "952e7d6006402fdf852672ac809d2847b5bdb9ca",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/transport_continuation.tex",
+      "recovered": true,
+      "sha256": "939f3082690cc8b4094d8f3e728c8584cc8d14d354e1823db6928f5ffd8ec445"
+    },
+    {
+      "local": "sources/recovered_latest/IV/workflux_update.tex",
+      "sha": "03de801813a48ac9bdee7afbaa22cbc7bcacf3af",
+      "path": "GEN4/voli_chapter4_preparation7_20261016/manuscript/workflux_update.tex",
+      "recovered": true,
+      "sha256": "f9ed04596c2440f75d0d806200dc63e7b9bafd92956c1e9ed43ffa3d4dce9ad4"
+    },
+    {
+      "local": "sources/recovered_latest/V/assumptions.tex",
+      "sha": "b9ca3c57c9fd4c1cd60652d68645993363eae55e",
+      "path": "GEN4/voli_chapter5_localization2_20261016/manuscript/assumptions.tex",
+      "recovered": true,
+      "sha256": "80c1aa4850f9057ce8d3acd7ea6e41a14223b19019cdefc1e8b59fc4d6762643"
+    },
+    {
+      "local": "sources/recovered_latest/V/chapter5_base.tex",
+      "sha": "c97d9408f82c20d44b0e9674e2297502b931c5d5",
+      "path": "GEN4/voli_chapter5_localization2_20261016/manuscript/chapter5_base.tex",
+      "recovered": true,
+      "sha256": "efb4bfa41f4fe3254e6e744fb7dddf979e3b45f5c979bb8e7aacbedb9bf38302"
+    },
+    {
+      "local": "sources/recovered_latest/V/chapter5_strong_fields.tex",
+      "sha": "b9905f1dc9527d686a629860cabaa73d70bd1c4d",
+      "path": "GEN4/voli_chapter5_localization2_20261016/manuscript/chapter5_strong_fields.tex",
+      "recovered": true,
+      "sha256": "3834a8d69ce9247ab03fb7847d937f5fbf3409c0644e185f6f1c914631a1b908"
+    },
+    {
+      "local": "sources/recovered_latest/V/next_work.tex",
+      "sha": "f3ec86d76ff36f87082fab1ee8856dc6d09f6152",
+      "path": "GEN4/voli_chapter5_localization2_20261016/manuscript/next_work.tex",
+      "recovered": true,
+      "sha256": "f77ce0b70a3b6d0271b54ab09cb2f54d63cefb719878d9b194c8e972bacc758f"
+    },
+    {
+      "local": "sources/recovered_latest/V/predecessor_replay.tex",
+      "sha": "e99186eda1326e11c49be0840c897f1efa8bde7f",
+      "path": "GEN4/voli_chapter5_localization2_20261016/manuscript/predecessor_replay.tex",
+      "recovered": true,
+      "sha256": "d32f48a61c6d64501c4b70f89e911e1932ffaf8378856c537a419470d5e59d57"
+    },
+    {
+      "local": "sources/recovered_latest/V/replay_update.tex",
+      "sha": "afaae622787a5eb5851046446d1ed5bdceb3a7cd",
+      "path": "GEN4/voli_chapter5_localization2_20261016/manuscript/replay_update.tex",
+      "recovered": true,
+      "sha256": "28a57f1f0a4c05a6a3be215fab07f3dfa182729a5b1b9d2c6ee4c546c338c652"
+    },
+    {
+      "local": "sources/recovered_latest/V/thermal_recovery_intro.tex",
+      "sha": "21e83314082e64374a0f748644eac9b74ace2b25",
+      "path": "GEN4/voli_chapter5_localization2_20261016/manuscript/thermal_recovery_intro.tex",
+      "recovered": true,
+      "sha256": "0cef95b200ab324541dd28ea39b725c40aab153d38b9958661f14ddf28c8cae8"
+    },
+    {
+      "local": "sources/recovered_latest/V/chapter.tex",
+      "sha": "2030574d5f143fdbfb015dd5d50d6278405bbeb9",
+      "path": "GEN4/voli_joint_measurement1_20261016/manuscript/ch5/chapter.tex",
+      "recovered": true,
+      "sha256": "5e4e807cdc71b11b21ee2aae20ee8e96d7c60dbb55d0060c45bfd643b86fbb86"
+    }
+  ]
+}

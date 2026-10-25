@@ -1,0 +1,305 @@
+\section{Readable records and retained route coherence}
+\label{sec:chvif-readable-records}
+
+The following statements use the quantum state, channel, and measurement
+premises already declared in Chapter VI. They make the relation between a
+readable record and an unsorted interference experiment quantitative. The
+record labels must refer to the same routes and the same ensemble as the
+visibility; a reliable record of an unrelated label supplies no such bound.
+
+\subsection{A same-state, worst-label theorem}
+\label{sec:chvif-record-visibility-theorem}
+
+Let $S$ be the two-route system and let $M$ contain the remaining physical
+marker degrees of freedom. At the chosen observation time write an arbitrary
+normalized joint state as
+\begin{equation}
+\begin{gathered}
+\rho_{SM}=\sum_{j,k=0}^{1}|j\rangle\langle k|\otimes R_{jk},
+ \\
+ p=\operatorname{Tr}R_{00},\quad q=\operatorname{Tr}R_{11}=1-p.
+\end{gathered}
+\label{eq:chvif-record-block-state}
+\end{equation}
+For $p,q>0$, the conditional marker states are
+$\sigma_M^0=R_{00}/p$ and $\sigma_M^1=R_{11}/q$. Their labels specify
+the two diagonal route alternatives used by this operational test; this
+notation does not select a unique outcome in a coherent joint state.
+
+Declare a label-independent channel $\Lambda_t:M\longrightarrow D$ that
+includes the storage and access operations available to the reading domain
+at time $t$. It is completely positive and trace preserving, and acts on
+the marker rather than on $S$. Let $F_0(t),F_1(t)$ be one physically
+allowed decoder POVM on $D$, with $F_0+F_1=I_D$. The decoder may depend
+on the declared time and controls, but receives no copy of the unknown
+label. Define
+\begin{equation}
+\begin{gathered}
+\tau_D^j(t)=\Lambda_t(\sigma_M^j),\\
+ r_j(t)=\operatorname{Tr}[F_j(t)\tau_D^j(t)].
+\end{gathered}
+\label{eq:chvif-decoder-conditional-success}
+\end{equation}
+Storage and access can instead be specified jointly on an enlarged marker
+containing a correlated environment, a transport carrier, and retained
+classical records. No product-state or independent-noise assumption is
+required. An environment correlated with the marker must be included in
+that joint channel description when the proposed reduced channel would
+otherwise depend on its correlations. Conditional states for the theorem
+are always the actual conditional states of
+Eq.~\eqref{eq:chvif-record-block-state} under that description.
+
+Let $c=\langle0|\rho_S|1\rangle$. For a lossless two-route preparation
+and the declared balanced, variable-phase analyser, with no
+outcome-dependent filtering, the unsorted single-port visibility is
+\begin{equation}
+ V=2|c|.
+ \label{eq:chvif-unsorted-record-visibility}
+\end{equation}
+The local, unselected channel $\Lambda_t$ does not change $\rho_S$.
+Consequently a decoder can be analysed on $D$ while the visibility refers
+to this same route marginal. A joint controlled inverse or feed-forward
+operation on $S$ would define a different experiment and must be included
+before applying the theorem to its resulting state.
+
+\paragraph{Theorem.}
+If, at the chosen time, both conditional decoder successes satisfy
+\begin{equation}
+\begin{gathered}
+\min\{r_0(t),r_1(t)\}\geq1-\varepsilon,
+ \\
+ 0\leq\varepsilon<\tfrac12,
+\end{gathered}
+\label{eq:chvif-worst-label-readability}
+\end{equation}
+then
+\begin{equation}
+ \boxed{\begin{gathered}
+ V\leq4\sqrt{pq\,\varepsilon(1-\varepsilon)}
+       \leq2\sqrt{\varepsilon(1-\varepsilon)} .\end{gathered}}
+ \label{eq:chvif-readable-visibility-bound}
+\end{equation}
+For balanced priors the two bounds agree. For unequal priors the first
+retains their additional restriction on the fringe. At $p=0$ or $q=0$,
+positivity already gives $c=0$ and $V=0$; a conditional success statement
+about an absent label must be supplied by a separately declared calibration
+preparation if it is wanted.
+
+\paragraph{Derivation.}
+Apply the decoder to $(I_S\otimes\Lambda_t)(\rho_{SM})$ and retain its
+two outcomes. The unnormalized route state for outcome $y$ is positive,
+with diagonal entries $p a_y,q b_y$, where
+\begin{equation}
+\begin{gathered}
+a_y=\operatorname{Tr}[F_y\tau_D^0],\\
+ b_y=\operatorname{Tr}[F_y\tau_D^1].
+\end{gathered}
+\end{equation}
+If its off-diagonal entry is $c_y$, positivity of this $2\times2$ matrix
+and preservation of the unselected marginal give
+\begin{equation}
+\begin{gathered}
+|c_y|\leq\sqrt{pq\,a_yb_y},\\
+ c=\sum_y c_y,
+ \\
+ |c|\leq\sqrt{pq}\sum_y\sqrt{a_yb_y}.
+\end{gathered}
+\label{eq:chvif-decoder-bhattacharyya}
+\end{equation}
+This argument retains arbitrary off-diagonal marker blocks and arbitrary
+correlations with inaccessible degrees of freedom.
+
+Put $a=a_1$ and $b=b_0$, the two conditional error probabilities. The
+readability hypothesis gives $0\leq a,b\leq\varepsilon$, and the last
+sum in Eq.~\eqref{eq:chvif-decoder-bhattacharyya} is
+\begin{equation}
+ \sqrt{(1-a)b}+\sqrt{a(1-b)}.
+\end{equation}
+Write $a=\sin^2\alpha$, $b=\sin^2\beta$, with
+$0\leq\alpha,\beta\leq\arcsin\sqrt{\varepsilon}<\pi/4$. This sum is
+$\sin(\alpha+\beta)$, hence it is at most
+$2\sqrt{\varepsilon(1-\varepsilon)}$. Multiplying by $2\sqrt{pq}$ gives
+Eq.~\eqref{eq:chvif-readable-visibility-bound}, including
+$\varepsilon=0$ by continuity or direct substitution.
+
+The weaker bound also follows immediately from weighted discrimination:
+the stated decoder has prior-weighted success at least $1-\varepsilon$,
+so $D_D=\|p\tau_D^0-q\tau_D^1\|_1\geq1-2\varepsilon$.
+The same-state inequality $D_D^2+V^2\leq1$ then gives
+$V\leq2\sqrt{\varepsilon(1-\varepsilon)}$. The
+Bhattacharyya derivation uses both separate error constraints and therefore
+retains the stronger prior-dependent factor. No optimal decoder needs to
+be physically available: the actual allowed decoder in
+Eq.~\eqref{eq:chvif-worst-label-readability} is enough.
+
+\paragraph{Tight qubit example.}
+For any $0\leq\varepsilon<1/2$, take
+\begin{align}
+ |m_0\rangle&=\sqrt{1-\varepsilon}|0\rangle
+                      +\sqrt{\varepsilon}|1\rangle,\\
+ |m_1\rangle&=\sqrt{\varepsilon}|0\rangle
+                      +\sqrt{1-\varepsilon}|1\rangle,\\
+ |\Psi\rangle&=\sqrt p\,|0\rangle|m_0\rangle
+                 +e^{i\phi}\sqrt q\,|1\rangle|m_1\rangle.
+ \label{eq:chvif-tight-record-qubits}
+\end{align}
+The computational-basis decoder succeeds with probability
+$1-\varepsilon$ on each label, and
+$\langle m_1|m_0\rangle=2\sqrt{\varepsilon(1-\varepsilon)}$.
+Its visibility saturates the first bound in
+Eq.~\eqref{eq:chvif-readable-visibility-bound} for every $p,q$.
+For $\varepsilon=0$ the marker is perfectly readable and the route marginal
+has zero visibility, while the pure joint state still retains its coherent
+superposition. A later joint reversal can recover interference while
+changing the record. The theorem bounds the specified unsorted fringe;
+it does not identify loss of its contrast with deletion of global coherence.
+
+\subsection{Arrival, retention, and the time of reading}
+\label{sec:chvif-record-arrival}
+
+An $(\varepsilon,W_D)$ readable record for domain $D$ requires the
+worst-label condition at every allowed reading time $t\in W_D$, with
+the channel, allowed decoder, and time origin declared. The theorem then
+bounds the contemporaneous visibility at every such time for which the
+same route/marker description applies. The statement concerns one read
+at a chosen time. A sequence of reads requires the actual reading
+instruments and their disturbance; the interval condition alone supplies
+no nondestructive repeated-read guarantee.
+
+There is a precise causal pre-arrival restriction. Suppose a newly encoded
+label has no label-dependent receiver state in its causal past and the
+declared channel has not delivered any label-dependent degree of freedom
+by time $t$. Then
+\begin{equation}
+ \tau_D^0(t)=\tau_D^1(t)=\tau_D(t).
+ \label{eq:chvif-before-arrival-states}
+\end{equation}
+Every binary decoder obeys $r_0+r_1=1$ on this common state, so
+\begin{equation}
+ \min_j r_j(t)\leq\tfrac12.
+ \label{eq:chvif-before-arrival-no-record}
+\end{equation}
+Thus it cannot satisfy the declared $\varepsilon<1/2$ readability before
+arrival. This conclusion needs the explicit identical-state premise,
+provided physically by the causal/no-signalling access model. A receiver
+that already holds a correlated copy of the label is a different resource
+configuration. Unequal priors can improve an average guess before arrival,
+but cannot pass the worst-label condition.
+
+The storage window and receiver window are consequently different objects.
+Let the end of writing be $t=0$, and suppose the stored encoding is
+guaranteed at the memory for emission times $t_e\in[0,T_M]$. For a fixed
+latency $\tau$ and a separately budgeted readout time $\tau_{\rm dec}$,
+the corresponding idealized completion times are
+\begin{equation}
+\begin{gathered}
+t_D=t_e+\tau+\tau_{\rm dec},\\
+ W_D=[\tau+\tau_{\rm dec},\,
+                         T_M+\tau+\tau_{\rm dec}].
+\end{gathered}
+\label{eq:chvif-memory-receiver-windows}
+\end{equation}
+This translated window assumes that the access channel actually samples
+the memory at $t_e$ and that its transport, intervening storage, and decoder
+errors have been paid. A protocol needing the memory throughout a finite
+read instead requires that entire memory-side interval inside its retention
+window. Variable travel times use the declared retarded emission map
+$t_e(t_D)$ and its admissible interval. Starting a receiver guarantee at
+the end of writing would incorrectly include times before delivery unless
+delivery was already available. Choosing the domain time origin at
+arrival is valid when that convention is stated.
+
+\subsection{Composable error budgets and retained failed preparations}
+\label{sec:chvif-record-composition}
+
+Worst-label budgets compose without independent errors. One convenient
+quantum formulation includes all classical outcome flags and relevant
+environmental references in the joint state. Let the ideal decoder have
+error at most $\varepsilon_0$ on each label. Suppose a hybrid comparison
+of the actual preparation, storage, transport, and readout gives
+trace-distance errors $\delta_k$ on the relevant joint conditional states
+at stage $k$. Each stage bound must hold for the hybrid inputs actually
+used, including retained correlations; an entangled reference is included
+in the comparison when present. Equivalently, a uniform channel bound
+can be supplied on that declared joint input class.
+
+Contractivity under the subsequent trace-preserving channels and the
+triangle inequality give a final joint-state distance at most
+$\sum_k\delta_k$. A fixed POVM outcome probability changes by no more
+than that distance. Consequently
+\begin{equation}
+\begin{gathered}
+r_j^{\rm actual}(t)\geq
+       1-\varepsilon_0-\sum_k\delta_k,
+ \\
+ \varepsilon_{\rm tot}=\varepsilon_0+\sum_k\delta_k.
+\end{gathered}
+\label{eq:chvif-additive-record-budget}
+\end{equation}
+The readability and visibility theorem applies when the declared total is
+below $1/2$. Isolated marginal error estimates cannot be substituted for
+these joint-state bounds when unaccounted correlations change the channel.
+The hybrid channels and flags also preserve any feedback used by the
+actual instrument.
+
+A classical alternative is an explicit sequence of bad-event flags whose
+conditional probability, on every reached prior history and each label,
+is at most $\delta_k$. If the final decoder error on the all-good branch
+is at most $\varepsilon_0$, the union bound gives the same additive
+budget. This argument likewise needs no independence. It does need the
+stated conditional bounds; adding unrelated average failure rates would
+not establish a worst-label guarantee.
+
+Preparation failure belongs in the full instrument. Suppose label $j$ has
+failure probability $f_j\leq f$, and the successful preparation has
+worst-label reading error at most $\varepsilon_{\rm succ}$. If an explicit
+failure or abstention is counted as an unsuccessful attempted read, then
+\begin{equation}
+ r_j^{\rm attempt}\geq
+       (1-f_j)(1-\varepsilon_{\rm succ})
+       \geq1-f-\varepsilon_{\rm succ}.
+ \label{eq:chvif-preparation-failure-record}
+\end{equation}
+Success, failure, and abstention flags remain in the normalized all-outcome
+state and in the physical resource account. A larger decoder alphabet can
+be retained explicitly, or its failure outcomes can be assigned a stated
+binary guess without discarding them.
+
+Alternatively a claim may be conditioned on a heralded success. Its
+normalization, conditional record states, and conditional visibility must
+then all use that same accepted ensemble. In a route-preserving heralded
+preparation the accepted priors become
+\begin{equation}
+\begin{gathered}
+p_{\rm acc}=\frac{p(1-f_0)}{p(1-f_0)+q(1-f_1)},\\
+ q_{\rm acc}=1-p_{\rm acc},
+\end{gathered}
+\label{eq:chvif-accepted-record-priors}
+\end{equation}
+when the denominator is positive. Outcome-dependent filtering can also
+change the coherence, so the accepted joint state itself must be used.
+A conditional high-visibility ensemble cannot be compared with a readable
+record certified only in a different, unselected ensemble. No reset of
+failed preparations or deletion of their records is supplied by this
+probability accounting.
+
+\subsection{A finite readable-label capacity consequence}
+\label{sec:chvif-record-capacity}
+
+For $N$ declared labels, suppose the full accessible record input has
+finite Hilbert dimension $d$ and one POVM $\{F_j\}_{j=1}^N$ satisfies
+$\operatorname{Tr}(F_j\sigma_j)\geq1-\varepsilon$ for every normalized
+conditional state $\sigma_j$. Since $0\leq\sigma_j\leq I$,
+\begin{equation}
+ N(1-\varepsilon)
+    \leq\sum_{j=1}^N\operatorname{Tr}(F_j\sigma_j)
+    \leq\sum_{j=1}^N\operatorname{Tr}F_j=d.
+ \label{eq:chvif-approx-readable-capacity}
+\end{equation}
+Thus $d\geq\lceil N(1-\varepsilon)\rceil$. Any correlated side carrier
+available to the decoder belongs in that accessible dimension; alternatively
+the decoder is pulled back to a POVM on the declared input space. This
+bound concerns $N$ physically decodable labels. Merely naming additional
+ordered histories does not add distinguishable record states. It assigns
+neither an energy per label nor a thermal erasure cost.
+

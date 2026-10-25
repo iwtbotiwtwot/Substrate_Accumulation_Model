@@ -1,0 +1,67 @@
+\section*{Part F. Explicit incidence, signed local response, and measurement limits}
+\section{The receiving model has an exact common-form propagator}
+\label{sec:closure-common-form}
+The distinction between defining a propagator and evaluating its prepared-state
+response is essential. The retained radial incidence is the unitary transform
+\[
+ (\mathcal H_2f)(r)=\sqrt{2/\pi}\int_0^\infty k j_2(kr)f(k)\,\dd k
+\]
+from $L^2(\dd k)$ to $L^2(r^2\dd r)$. The normalized original two-polarization
+tensor map $\mathcal U$ has $\mathcal U^*\mathcal U=I$, so
+$J=\mathcal U\mathcal H_2$ is a fixed isometry on the residual-energy output.
+Every actual bounded lapse $0<w_0\le N(t,x)\le w_1$ defines
+$W(t)=J^*N(t)J$, with $w_0I\le W(t)\le w_1I$.
+This includes the complete stated Plummer profile. It does not identify
+the compressed incidence with a full canonical local stress tensor.
+
+Write $T=A-F$ for the original closed completed annihilation/source map on
+$Q=Q(H_f)$, $q_K[\psi]=\|T\psi\|^2$, and $H_s=\varepsilon H_{\rm pair}$
+for the bounded complete sixteen-state source operator, including its even term.
+Assume $s$ is real $C^1$ and $W$ is operator-norm $C^1$, uniformly positive.
+The fixed-domain forms
+\[
+ q_t[\phi,\psi]=s(t)\langle\phi,H_s\psi\rangle
+                    +\langle T\phi,W(t)T\psi\rangle
+\]
+are closed and uniformly semibounded. Indeed, with
+$h=\|H_s\|$, $s_* =\sup|s|$, and $C=1+s_*h$,
+\begin{align}
+ w_0q_K[\psi]+\|\psi\|^2
+ &\le q_t[\psi]+C\|\psi\|^2,\\
+ q_t[\psi]+C\|\psi\|^2
+ &\le w_1q_K[\psi]+(1+2s_*h)\|\psi\|^2.
+\end{align}
+The shifted norms are equivalent on the same $Q$ and
+\[
+ \dot q_t[\phi,\psi]=\dot s\langle\phi,H_s\psi\rangle
+                         +\langle T\phi,\dot W T\psi\rangle
+\]
+is a continuous bounded form $Q\to Q^*$. These are the common-form
+evolution hypotheses; they give a unique unitary weak propagator preserving
+$Q$ [21]. Static profiles give the self-adjoint Stone evolution. $C^2$
+coefficients permit the stronger regularity conclusions of that theorem.
+The original non-$L^2$ shell stays inside the fixed form map; no shell
+Hilbert norm or finite Fock cutoff is assumed.
+
+For normalized solutions let $E(t)=q_t[\psi(t)]+C$. Form regularization and
+the preceding coercivity give
+\[
+ |\dot E|\le\left(\frac{\|\dot W\|}{w_0}+|\dot s|h\right)E.
+\]
+Gronwall therefore supplies an explicit nonautonomous energy interface.
+For two well-posed evolutions with difference form bounded by
+$\delta(t)\sqrt{q_K[\phi]q_K[\psi]}$, their common initial state obeys
+\[
+ \|\psi(t)-\chi(t)\|^2\le
+ 2\int_0^t\delta(u)\sqrt{K_\psi(u)K_\chi(u)}\,\dd u.
+\]
+The original finite currents preserve $Q$ through the bounded commutators
+$[T,Z]$ and $[T,Z^*]$, justifying their weak insertion identities.
+For $s=n(t)$ and $W=n(t)I$, the exact evolution is the original interacting
+evolution at $\tau(t)=\int_0^tn(u)\,\dd u$; its transient is retained.
+
+These results close existence for the positive receiving model.
+They do not evaluate its two-time matrix elements. The canonical local
+pair terms, transported vacuum, source vertex and angular return require
+the separate bounds below; positivity of a classical energy alone does
+not make those quantum forms bounded on the old vacuum domain.

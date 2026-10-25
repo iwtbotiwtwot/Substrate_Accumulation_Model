@@ -1,0 +1,70 @@
+\section{Exact source-bound values for the six original lanes}
+\label{sec:chvisd-six-lane-values}
+
+The original source certificate supplies the exact bare gap
+$\Delta=2/573049$ and $\epsilon=1/573049$. For each lane use its
+retained outward endpoints for $\Omega$, $M$, $c$ and $K_{\rm prep}$.
+Define entirely rational enclosing inputs
+\begin{equation}
+\begin{aligned}
+ d_*&=1-\Omega_{\rm lower}\frac{573049}{2},\\
+ \pi_*&=\frac{\Delta_{\rm upper}T_{0,\rm upper}}2,\\
+ q_*&=g^2v_s^{\rm up}T_0^2\ \text{(retained outward rational)},\\
+ E_*&=8q_* .
+\end{aligned}
+\label{eq:chvisd-rational-inputs}
+\end{equation}
+All six lanes have $0\leq4q_*\leq1/2$, so
+$e^{4q_*}-1\leq8q_*$ by the positive exponential series and
+$e^x\leq(1-x)^{-1}$ for $0\leq x<1$.
+The exact $q_*$ values are inherited from the foundation capsule;
+they use its original continuum soft moment and upper cycle endpoint.
+The certificate endpoints enclose the exact bare gap, making
+$\pi_*\geq\pi$. The exact gap is used in $d_*$ rather than a rounded
+gap display. The independent check verifies all sign, interval and
+nonnegative-cosine conditions before making a bound.
+
+\begin{table*}[t]\centering
+\small\setlength{\tabcolsep}{6pt}
+\input{vi_source/parts/decoder_table_bounds_table.tex}
+\caption{Outward bounds for each original lane. The ideal-entry column
+uses exact preparation and nominal ages. The finite-pulse column uses
+the explicit mathematical controls below. The budgeted column adds the
+declared timing, preparation and $10^{-3}$ control allowances in
+Eq.~\eqref{eq:chvisd-benchmark}. These allowances are receiving inputs.}
+\label{tab:chvisd-six-lane-bounds}
+\end{table*}
+
+The largest ideal-entry bound occurs in lane $03$.
+For the budgeted example declare
+\begin{equation}
+\begin{gathered}
+\Omega_*a=\frac1{100},\\
+ b=0,\\
+ \delta_{\rm prep}=\frac1{10000},\\
+ r_{\rm ctrl}\leq\frac1{1000}.
+\end{gathered}
+\label{eq:chvisd-benchmark}
+\end{equation}
+The phase allowance here is entirely an age/timing allowance;
+the nominal analyser axis is exact. The resulting worst-label
+ready-branch bound is
+\begin{equation}
+\begin{gathered}
+ \epsilon_{\rm ready}\leq\min\left\{1,
+ \frac{1-m_*[1-(3\pi_*d_*/2+1/100)^2/2]+E_*}{2}\right.\\
+ \left.{}+\frac1{10000}+\frac1{1000}\right\}
+ \leq0.0011254539
+\end{gathered}
+\label{eq:chvisd-budget-maximum}
+\end{equation}
+across all six lanes. The age allowance lies inside the original entry
+window in every lane. These values specify a receiving model;
+they do not assign an achieved laboratory preparation, timing or pointer
+accuracy. An ideal blank pointer and its ideal final binary observation
+are assumed in this benchmark. Additional initialization/readout errors
+can instead be supplied as joint-state or outcome-probability bounds.
+Per-label ready failure at most $f$ gives all-attempt error at most
+$f+(1-f)\epsilon_{\rm ready}$, with the failure output retained.
+
+

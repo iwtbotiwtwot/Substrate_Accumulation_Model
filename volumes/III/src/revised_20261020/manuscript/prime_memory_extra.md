@@ -1,0 +1,6 @@
+## Hidden memory is a calculable part of the gate
+
+A separate projection analysis applies the retained-history method to the actual balanced 128-state gate. It projects onto the output probability and lifts through conditional hidden-spin Gibbs states. Eliminating the remaining hidden-state component gives a memory convolution plus an initial-memory term. All four input sectors have nonzero sampled kernels, and output-flip rates vary substantially among microscopic states sharing the same output. The output bit alone consequently does not form a closed Markov state. [PE6]
+
+For a switch from both-return equilibrium to no-return input, duration one and uniform accumulation 1/4, the full three-reading acceptance at Gamma=8 is 0.306867084; a two-state Markov projection gives 0.581372959. At Gamma=64 the corresponding values are 0.984884914 and 0.999052329. At the production rate Gamma=512, the largest tested switching discrepancy is 1.82×10^-12. These calculations identify when hidden preparation and memory materially affect reduced predictions, while explaining why a reduced picture can be accurate at the production cadence. They are separate domain probes, not changes installed retrospectively in the archived billion-index ensembles.
+

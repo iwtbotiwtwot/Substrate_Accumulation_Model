@@ -1,0 +1,309 @@
+\section{The canonical joint static Hamiltonian and its original shell limit}
+The full global relative-pair estimate now has an operator realization.
+Write the original complete canonical number and pair forms as $A_N,B_N$.
+The positive block-form theorem of Derezi\'nski
+(arXiv:1608.03289v2, Theorems~3.20--3.21) applies directly to
+\[
+ \|A_N^{-1/2}B_NA_N^{-T/2}\|<1,\qquad
+ \|A_N^{-1/2}B_NA_N^{-T/2}\|_{\rm HS}<\infty.
+\]
+It constructs the positive closed classical block form and an implementable
+symplectic diagonalizer. Thus the previous operator-domain proviso is
+removed. The actual Plummer field has a positive self-adjoint static
+quantization $K_N$. We specify $\inf K_N=0$ for each fixed profile; this
+static scalar convention does not calculate the work of a changing vacuum.
+
+The unchanged source shell also closes in this quantization. Let
+$n_-=1997/2000$, $n_+=2003/2000$, $c_\mu=n_+^2/n_-$ and
+$S_2=D_{\rm source}^2+C_{\rm source}^2$. In static normal modes the
+original, generally non-$L^2$, shell smearing $v_{\alpha,N}$ satisfies
+\[
+ \|h_N^{-1/2}v_{\alpha,N}\|^2
+ =\langle\xi_{\alpha,N},D_N^{-1}\xi_{\alpha,N}\rangle
+ \le c_\mu\mu,\qquad \mu=\frac1{4R}.
+\]
+The normalization is that of the original $u_R$.
+The complete angular shell eigenvalues
+$[\kappa R(2l+1)]^{-1}$, $l\ge2$, are bounded by $\mu$;
+$D_N\ge n_-D$ and the actual shell multiplier is bounded by $n_+$.
+For every normalized entangled source--field vector,
+\[
+ |\langle H_{\rm int,N}\rangle|
+ \le2\epsilon\sqrt{2c_\mu\mu\langle S_2\rangle
+                                      \langle K_N\rangle}
+ \le\tfrac12\langle K_N\rangle
+                          +4\epsilon^2c_\mu\mu\langle S_2\rangle.
+\]
+Hence the full sixteen-state form, including its original even energy
+and both original counterterms,
+\[
+ H_{{\rm joint},N}=K_N+\overline N_R\epsilon H_{\rm pair}
+      +H_{\rm int,N}+\overline N_R\epsilon^2\mu S_2,
+\]
+is closed and bounded below. It defines a self-adjoint operator and a
+unitary $e^{-itH_{{\rm joint},N}}$ on the original Fock space. Every
+retained preparation has a well-defined bounded source-current evolution.
+This statement does not require that a sudden change of profile give that
+preparation finite new-profile energy.
+
+The shell limit is quantitative and uniform in the angular complement.
+Its exact energy-dual kernel is
+\[
+ \mu_l(r,r')=\frac{r_<^l}{\kappa(2l+1)r_>^{l+1}}.
+\]
+For $r=R(1+x)$, $0\le x\le h$, Bernoulli's inequality gives
+\[
+ \begin{aligned}
+ \|u_{r,l}-u_{R,l}\|_{\rm dual}^2
+ &=\frac{1+(1+x)^{-1}-2(1+x)^{-l-1}}{\kappa R(2l+1)}\\
+ &\le\frac{3h}{2R},\qquad l\ge2.
+ \end{aligned}
+\]
+A positive smooth radial proof mollifier inherits this bound. With the
+actual $N_R$ angular profile kept fixed, the combined original source
+form-error coefficient is
+\[
+              12c_\mu\epsilon^2h\mu S_2\longrightarrow0.
+\]
+This is norm-form convergence against $K_N$, giving norm-resolvent
+convergence and compact-time strong convergence of the joint static
+unitaries. The original shell and counterterms are recovered; the
+mollifier is not a physical cutoff.
+For smooth shells, local hyperbolic finite propagation and the ordinary
+source interaction-picture construction give equality of source
+observables for static profiles agreeing on their whole backward causal
+ball. The shell limit passes this equality to the original joint dynamics.
+This establishes static source causality even on the initially dressed
+state. It does not yet identify the two evolutions of unequal profiles.
+
+\section{A finite local detector moment from the original preparation}
+A compact smooth detector test $f$ obeys
+$f,\omega^{1/2}f,\omega^{-1/2}f\in L^2$.
+For the complete classical canonical flow, conservation of static energy,
+symplectic duality and interpolation give the backward-test bounds
+\[
+ \begin{gathered}
+ \|\omega^{\pm1/2}f_s\|\le C\|\omega^{\pm1/2}f\|,\\
+ \|f_s\|\le C\|f\|,\qquad C_{\rm static}=\sqrt{n_+/n_-}.
+ \end{gathered}
+\]
+For the stated smooth $\sin^4$ pulse, its total variation is two and
+\[
+ C\le\sqrt{n_+/n_-}
+       \exp\!\left(\frac{|\eta|\delta\,\mathrm{TV}(\chi)}{2n_-}\right)
+       <1.00301.
+\]
+These individual-test estimates retain the real symplectic pair mixing.
+They do not assert global weighted Hilbert--Schmidt control.
+
+For the static joint unitary just constructed, the weak field equation
+against a smooth detector gives exactly
+\[
+ X_f(t)=\Phi(f_{\rm free})+
+          \epsilon\sum_\alpha\int_0^tR_\alpha(t,s)J_\alpha(s)\,ds.
+\]
+The detector's smoothness, rather than a fictitious shell $L^2$ norm,
+pays the retarded pairing:
+\[
+ |R_\alpha(t,s)|
+ \le2C n_+\sqrt\mu\,\|\omega^{1/2}f\|.
+\]
+Thus the source term has operator norm at most
+\[
+ A_f=2\epsilon C n_+\sqrt\mu\,t
+                  \sum_\alpha\|J_\alpha\|\,\|\omega^{1/2}f\|.
+\]
+Let $E_0=\langle H_f\rangle$ in the original hard-dressed preparation,
+$a=C\|\omega^{-1/2}f\|$, and $b=C\|f\|$. Then
+\[
+ \langle X_f^2\rangle
+ \le\left[a\sqrt{E_0}+\sqrt{a^2E_0+b^2}+A_f\right]^2.
+\]
+A positive normalized temporal gate inherits the bound by integration.
+It supplies a finite apparatus moment without requiring a final global
+old-Fock energy or photon-number estimate. A short detector gate whose
+causal diamond excludes a source roundtrip has the free canonical
+c-number commutator during that gate; this supports the exact local
+Ramsey construction below. Its signed mean and calibration retain their
+separate source and instrument certificates.
+
+\section{A weighted normal frame closes the free canonical switch}
+The critical source pullback can be controlled by a Hilbert--Schmidt
+construction instead of a generic square-root operator estimate.
+Write the actual number and pair forms against the FIXED original frequency:
+\[
+ \begin{gathered}
+ h_s=\omega+\omega^{1/2}H_s\omega^{1/2},\\
+ g_s=\omega^{1/2}G_s\omega^{1/2},\\
+ \|H_s\|\le |s|\delta,\qquad
+ \|G_s\|_{\rm HS}\le |s|k_0,\\
+ k_0=119\delta/48.
+ \end{gathered}
+\]
+Here $H_s=sH_b$, $G_s=sG_b$ and $\delta=\sqrt2/1000$.
+For the positive real symplectic normal map
+$T=\left(\begin{smallmatrix}p&q\\q&p\end{smallmatrix}\right)$ put
+$Y=pq$, $X=q^2=f(Y)$, $f(z)=(\sqrt{1+4z^2}-1)/2$ and
+$W=\omega^{1/2}Y\omega^{-1/2}$.
+Its exact fixed-point equation is
+\[
+ \begin{aligned}
+ W={}&-\mathcal M_\omega\bigl[G_s+H_sW+W^*H_s\\
+     &\qquad{}+G_sf(W)+f(W)^*G_s\bigr],\\
+ \mathcal M_\omega(a,b)={}&\frac a{a+b}.
+ \end{aligned}
+\]
+This Schur multiplier is a contraction on Hilbert--Schmidt operators;
+no false general operator-norm multiplier estimate is needed.
+The ball $\|W\|_{\rm HS}\le2k_0$ is invariant, with contraction
+\[
+ 2\delta+16k_0^2<0.003026<1.
+\]
+Spectral-core closure gives the exact weighted functional calculus.
+Purity $Y^2=X+X^2$ supplies the remaining stationary equation:
+its residual $F$ obeys $\{F,I+2X\}=0$ and hence vanishes by the
+exponentially decaying Sylvester identity on the energy form space.
+The complete proof retains this domain step in
+\texttt{canonical/}\allowbreak\texttt{WEIGHTED\_RICCATI\_PROOF.md}.
+Consequently
+\[
+ \begin{gathered}
+ \|\omega^{1/2}q\omega^{-1/2}\|_{\rm HS}\le3k_0,\\
+ \|\omega^{1/2}(p-I)\omega^{-1/2}\|_{\rm HS}\le5k_0^2.
+ \end{gathered}
+\]
+The fixed point and frame are real-analytic in $s$. For the ACTUAL
+$s(t)=\eta\sin^4(\pi t/T)$ this supplies a bounded number connection
+and an integrable Hilbert--Schmidt pair connection. The positive diagonal
+frequency is a common $C^1$ form between $0.96\omega$ and $1.04\omega$.
+Add a scalar $I$ to apply the common-form evolution theorem on the
+massless energy domain, then remove its phase. One-particle propagation
+followed by the bounded doubled Volterra equation preserves the restricted
+symplectic group. Its continuous Fock lift is therefore the actual FREE
+canonical quantum propagator, with exact composition. This does not
+assert finite weighted vacuum energy or complete the singular source's
+switched interaction by itself.
+
+\section{Useful-time static canonical clock phases in all six lanes}
+The same weighted proof gives quantitative constants for a compact causal
+AUXILIARY profile matching the ACTUAL static Plummer difference throughout
+the whole backward source ball. With support $r\le2L$ and
+\[
+ |b_c|\le A,\qquad |\nabla b_c|\le3A/L,\qquad
+ |\Delta b_c|\le15A/L^2,
+\]
+the full Green-kernel calculation gives the complete relative-pair
+Hilbert--Schmidt bound $42A$. Its positive normal frame yields
+\[
+ \begin{gathered}
+ |h_{\rm diag}-n\omega|\le500A\omega,\\
+ \|\omega^{-1/2}(v_{\rm pulled,\alpha}-nu_\alpha)\|
+                                      \le220A\sqrt\mu.
+ \end{gathered}
+\]
+Exact static source causality then removes the auxiliary exterior.
+There is no physical spatial truncation.
+
+For each original lane use its actual native intervals and set
+\[
+ \begin{gathered}
+ L=R_++1.002T_{0,+},\qquad d=10^{30}R_-,\\
+ A=\eta\left[\frac{2L}{2000d}+\frac{3(2L)^2}{4000d^2}\right],\\
+ n=1-\eta/1000,\qquad k=\frac{42A}{n-A},\\
+ \rho=2000A.
+ \end{gathered}
+\]
+Lane-even source energies and BOTH original counterterms are scalar
+within each retained invariant lane. Align their exact scalar phases in
+the bounded-current comparison, while retaining their energies in the
+ledger. The positive conserved form
+$X=H_{0,\rm center}+c+2\epsilon\ge K+c+\epsilon$, $c=2g^2\mu$,
+satisfies $H_f\le2(K+c)$ and
+\[
+ |\delta q|\le A[500H_f+880|g|\sqrt{\mu H_f}+\epsilon]
+                  \le1880A X\le\rho X.
+\]
+Put $B=K_{\rm prep}+c+4\epsilon$ and let $N_0$ be the original
+hard-preparation photon ceiling $2g^2b(64/63)^2$.
+The common-form overlap and initial squeeze estimates give
+\[
+ r_{\rm dyn}^2\le2\rho T_0B\sqrt{\frac{n+\rho}{n-\rho}},\qquad
+ r_{\rm frame}^2\le\frac{4k(N_0+1)}{1-2k}.
+\]
+The source current COMMUTES with the field frame. Only the initial
+squeezed vector is replaced; no evolved photon-number or old-Fock energy
+bound is assumed. For $Z=2\sigma_-$, put
+$e_z=4(r_{\rm dyn}+r_{\rm frame})$ and
+$m=M_--\mathcal E(T_0)>0$. Then
+\[
+ |\theta_{\rm can}(T_0)-\theta_{H_0}(nT_0)|
+                         \le\frac{e_z}{m-e_z}.
+\]
+Exact rational replay gives the following nanoradian ceilings:
+\begin{center}
+\begin{tabular}{c|rr}
+lane & $\eta=1$ & $\eta=7\,10^{-7}$\\\hline
+01&0.099821&0.000083514\\
+02&0.100437&0.000084029\\
+03&0.185493&0.000155192\\
+12&0.099849&0.000083538\\
+13&0.180452&0.000150975\\
+23&0.175110&0.000146505
+\end{tabular}
+\end{center}
+ALL six lanes meet $0.2$ nanoradians at the original full $T_0$.
+The second column of profiles has the physical $\alpha=7\,10^{-10}$.
+This is an actual STATIC canonical source-clock certificate against the
+same interacting uniform history. It is distinct from the still-needed
+switched-source, detector output-mean and paid vacuum-energy certificates.
+
+\section{An integrable-covariance construction for the switched source}
+There is a direct route around differentiating the singular shell.
+In the complete canonical free-field interaction picture let
+$C_{\alpha\beta}(t,s)$ be its original-vacuum shell covariance.
+Suppose mixed smooth proof regularizations converge in $L^1([0,T]^2)$,
+with an integrable common envelope and convergent coherent first moments.
+Put
+\[
+ K=\sum_{\alpha\beta}\int_0^T\!\int_0^T
+                   |C_{\alpha\beta}(t,s)|\,dt\,ds,
+ \qquad J=\max_{\alpha,t}\|B_\alpha(t)\|,
+\]
+where the bounded full-source $B_\alpha$ include their actual coupling.
+Wick contraction and the two ordered simplices give the $n$th vacuum
+Dyson-term bound
+\[
+       \|D_n\Omega\|
+       \le \frac{J^n\sqrt{(2n-1)!!\,K^n}}{n!}.
+\]
+The ratio is $J\sqrt{K(2n+1)}/(n+1)\to0$ for every finite $K$.
+Mixed-kernel convergence passes each term to the original shell;
+the same bounds for reversed time give convergence of the inverse and
+therefore a unitary source interaction cocycle. Coherent and finite-particle
+vectors extend the result by density to the actual non-Gaussian prepared
+state. No Gaussian approximation to that preparation is made.
+
+The original flat shell already satisfies the kernel hypothesis:
+\[
+ \begin{gathered}
+ C_R(\tau)=\frac{Q_2(1+(0^++i\tau)^2/(2R^2))}{\kappa\pi R^2},\\
+ Q_2(z)=\frac{3z^2-1}{4}\log\frac{z+1}{z-1}-\frac32z.
+ \end{gathered}
+\]
+This is the ordinary Legendre $Q_2$, with normalization fixed by
+DLMF~10.22.66. Its logarithms at $0,\pm2R$ are integrable and its tail is
+$O(|\tau|^{-6})$. Direct bounds give
+$\int_{\mathrm{R}}|C_R|<402/(\kappa\pi R)$.
+Exponential proof smoothing is a Poisson approximate identity in this
+$L^1$ boundary value. Thus the original singular source admits this
+unitary cocycle construction with bounded time controls.
+
+For the actual nonuniform switched profile the remaining operand is the
+complete two-time covariance and its $L^1$ comparison/regularization
+certificate. The actual free switched implementation is established above. Once its
+actual shell covariance meets the stated integrability certificate, that
+free implementer times the source cocycle supplies the full joint
+Schr\"odinger propagator. The source cocycle theorem by itself does not
+replace this free implementation proof. The static joint implementation
+is already established. A finite renormalized ramp-energy
+account remains separate from all bounded observable identities.

@@ -1,0 +1,67 @@
+\subsection{Exact source work, sphere flux and near-field storage}
+The supplied review asks for an all-time conservation check for the maintained
+incremental pulse. A direct calculation from the original kernel gives it.
+Let $a=R/c_*$ and $\mu(w)=15(1-w^2)^2/16$ on $[-1,1]$, and set
+\[
+ A(u)=\frac{2R^2}{15\kappa c_*^2}
+       \int\mu(w)f(u-aw)\,dw,\qquad u=t-r/c_*.
+\]
+Two integrations by parts give the exact exterior solution
+\[
+ \phi(r,t)=\frac{A''(u)}r+\frac{3c_*A'(u)}{r^2}
+                       +\frac{3c_*^2A(u)}{r^3}.
+\]
+This includes both compact-pulse edges. Write $q_j=A^{(j)}(u)$ and
+$y=(q_2,c_*q_1/r,c_*^2q_0/r^2)$. The complete outward sphere flux is
+\[
+ \begin{gathered}
+ F_r(t)=\frac{\kappa}{2c_*}|q_3|^2+\frac{dS_r(u)}{dt},\\
+ S_r=\frac{\kappa}{2r}y^*G y,\qquad
+ G=\begin{pmatrix}7/2&6&9/2\\6&15&27/2\\9/2&27/2&27/2\end{pmatrix}.
+ \end{gathered}
+\]
+Its exact LDL pivots are $7/2,33/7,27/44$, all positive. Thus $S_r$ is
+nonnegative stored near-field energy on the outgoing characteristic; its
+derivative can have either sign. The instantaneous sphere flux need not be
+positive. The full exterior energy is
+\[
+ E_{>r}(t)=\frac{\kappa}{2c_*}\int_{-\infty}^{u}|A'''(v)|^2dv+S_r(u).
+\]
+Since $A$ is compactly supported, every exterior sphere has the same
+all-time integrated flux $W=\kappa\int|A'''|^2/(2c_*)$.
+
+The original radial energy density and flux are
+\[
+ \begin{gathered}
+ e=\frac\kappa4\left[\frac{r^2|\phi_t|^2}{c_*^2}
+                     +r^2|\phi_r|^2+6|\phi|^2\right],\\
+ F_r=-\frac\kappa2r^2\operatorname{Re}(\phi_t^*\phi_r).
+ \end{gathered}
+\]
+Their local continuity equation and the original source jump give
+$\dot E_{<b}+F_b=\operatorname{Re}(f^*\phi_t(R))$ for $b>R$.
+Keep $H_{\rm drive}=-\operatorname{Re}(f^*\phi(R))$ and
+$H_{\rm ct}=|f|^2/(4R)$ in the actual tensor sector. Explicit control power is
+\[
+ P_{\rm ctrl}=-\operatorname{Re}(\dot f^*\phi(R))+\dot H_{\rm ct}.
+\]
+Hence
+\[
+ \frac d{dt}(E_{<b}+H_{\rm drive}+H_{\rm ct})+F_b=P_{\rm ctrl}.
+\]
+The maintained source's even energy is constant; any different source-energy
+change must be added to its recipient and power account. With zero incoming
+field and zero force endpoints, the completed net control work equals $W$,
+the integrated flux through every $b>R$, and the full outgoing exterior
+energy. Intermediate interaction and counterterm changes remain explicit.
+Signed endpoint cancellation supplies no zero-apparatus-cost assertion.
+
+For nonzero incoming field, retain the incoming, emitted and bilinear cross
+terms in both energy and flux, including
+$\operatorname{Re}(f^*\phi_{{\rm in},t}(R))$ in source power. The frozen native storage check retains the cross block for two outgoing
+jets. A separate exact bidirectional checker uses the inward exterior
+solution $\phi_{\rm in}=A_{\rm in}''/r-3c_*A_{\rm in}'/r^2+
+3c_*^2A_{\rm in}/r^3$ and verifies pure and cross continuity and signed
+radiative flux. A regular incoming background also has its matching
+outgoing component; an inward characteristic alone is only local to the exterior. This maintained classical carrier
+identity remains distinct from autonomous quantum-source depletion.

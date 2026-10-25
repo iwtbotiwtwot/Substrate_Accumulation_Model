@@ -1,0 +1,122 @@
+\section{Six-lane receiving values and a complete finite example}
+\label{sec:chvirec-values}
+
+The native calculation first consumes the source decoder's actual
+form-energy and switching-work returns. It uses
+\begin{equation}
+\begin{gathered}
+E_{\rm rec}^{\rm up}
+ =2(C_{\rm dec}^{\rm up}+W_{\rm dec}^{\rm up})+2c^{\rm up},
+ \\
+ E_{\rm rec}^{\rm up}<514719
+\end{gathered}
+\label{eq:chvirec-energy-number}
+\end{equation}
+in every lane, instead of importing the old accepted-state noise values.
+The cap operands are the retained upward dyadic enclosures
+\begin{equation}
+\begin{aligned}
+ C_f&=\frac{100301}{100000},&
+ \mu_c^{\rm up}&=\frac{1310994537}{281474976710656},\\
+ V_c^{\rm up}&=\frac{2553359}{70368744177664},&
+ D_c^{\rm up}&=\frac{79569}{281474976710656}.
+\end{aligned}
+\label{eq:chvirec-cap-norms}
+\end{equation}
+Each original signed coupling is bounded through its retained absolute
+upper endpoint in the second moment. The source-shell norm and actual
+elapsed horizon are retained from the same Chapter IV input.
+The finite-energy estimate applies to the unselected reference output
+of the actual decoder; preparation error is propagated once through
+the entire final channel.
+
+\begin{table*}[t]\centering
+\small\setlength{\tabcolsep}{5pt}
+\input{vi_source/parts/record_table_record_table.tex}
+\caption{Outward six-lane bounds for the declared receiving example.
+The tail column charges the pointer's central transition band.
+The full ready column also charges source decoding/preparation,
+finite memory writing, initialization, hold and the combined aperture/read
+allowance. It is uniform over the stated retention interval.}
+\label{tab:chvirec-bounds}
+\end{table*}
+
+Use the explicit pointer, translation and memory parameters
+\begin{equation}
+\begin{gathered}
+ a=1024,\quad w=512,\quad L_q=2^{20},\quad k=2^{-40},\\
+ \tau_{\rm tr}=T_{\rm analog}=T_{\rm store}=2^{20},
+ \qquad \tau_w=2^{-20},\\
+ \sigma^2=\frac{C_f^2V_c^{\rm up}}2+kT_{\rm analog},\qquad
+ p_2=\frac1{4\sigma^2}\leq512^2 .
+\end{gathered}
+\label{eq:chvirec-example}
+\end{equation}
+The focused Gaussian has
+\(\sigma^2<9.7192641\times10^{-7}\) and
+pointer kinetic energy \(kp_2<2.3394125\times10^{-7}\).
+The actual continuum/analog moment has \(B_A<16\) in all six lanes.
+Consequently the finite registration aperture contributes
+\begin{equation}
+ \epsilon_{\rm ap}\leq\frac{2(B_A+a^2)}{L_q^2}<2\times10^{-6}.
+ \label{eq:chvirec-aperture-number}
+\end{equation}
+Its compact response has the same derivative bound \(G=3/(4w)\);
+the finite memory-pulse calculation is unchanged. The exact reciprocal
+candidate for \(p_2\) is certified by a native product equal to one,
+before its use in that calculation.
+
+The finite write discrepancy obeys
+\begin{equation}
+\begin{gathered}
+r_w^2\leq4.7337967\times10^{-11},
+ \\
+ r_w\leq6.8802592\times10^{-6}<10^{-4}.
+\end{gathered}
+\label{eq:chvirec-write-number}
+\end{equation}
+For a transparent composable budget retain the parent's declared
+age-phase \(0.01\), marker preparation distance \(10^{-4}\) and
+source-control allowance \(10^{-3}\). Add receiving initialization,
+write and transverse-hold allowances each at most \(10^{-4}\).
+Allocate the final \(10^{-4}\) access allowance as aperture at most
+\(2\times10^{-6}\) plus local copy/read error at most \(98\times10^{-6}\).
+The resulting conservative bound is
+\begin{equation}
+ \begin{aligned}
+ e_{\rm rec}^{\rm r}
+ &\leq e_{\rm dec}^{\rm r}+\frac{4B_A}{a^2}
+       +\frac3{10000}+\frac{98}{10^6}
+       +\frac{2(B_A+a^2)}{L_q^2}\\
+ &\leq0.0015821358\quad\hbox{in every original lane}.
+ \end{aligned}
+ \label{eq:chvirec-numerical-ready}
+\end{equation}
+The bound uses the \(10^{-4}\) write allowance, retaining the smaller
+calculated \(r_w\) as available margin. It does not silently reassign that
+margin to another control. All-attempt failure remains
+\(f+(1-f)e_{\rm rec}^{\rm r}\). The bit and detector may remain correlated;
+no independence assumption was needed for these additions.
+
+\paragraph{Resources and completion time.}
+The pointer mass is \(2^{39}\) in the convention \(k=1/(2M_D)\).
+The translation has \(\lambda=2^{-10}\), positive completion height
+\(2^{18}\) and absolute switch-work bound \(524289\).
+The memory write has peak below \(3294198.7\) and absolute switch-work
+bound below \(6588397.4\). These finite quantities are model-unit payments.
+The detector stabilizer additionally charges its actual gate profile,
+quadratic capital and variation; the focused pointer's initial coordinate
+variance includes the known integrated stabilizer shear.
+All source even/counterterm energy, original field-gate work and residual
+field states remain recipients.
+
+A local read copy can have any declared positive finite duration and
+area \(\pi\), with its finite peak and switch work as above.
+The record becomes readable after the source decode, continuum gate,
+translation, chosen analog wait, memory write, chosen logical hold and
+copy/read have finished. The source clock certificate refers to the
+earlier source entry. The long receiving latency is explicitly retained.
+Repeated reads, cyclic reset, bath preparation and remote delivery use
+additional supplied resources and their own errors.
+
+

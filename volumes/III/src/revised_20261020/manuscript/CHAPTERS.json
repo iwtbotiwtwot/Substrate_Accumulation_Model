@@ -1,0 +1,226 @@
+[
+  {
+    "number": 1,
+    "roman": "I",
+    "title": "N100 Grammar and Exact Work",
+    "source": "manuscript/baseline_edited/body01.tex",
+    "sha256": "da4a0095e75ede0f9f29b1a5cdc39a47ec1b862061a4e4844cb6cfa4b020b768",
+    "blocks": 181
+  },
+  {
+    "number": 2,
+    "roman": "II",
+    "title": "SAM Language and Exact Program Semantics",
+    "source": "manuscript/baseline_edited/body02.tex",
+    "sha256": "c4cf202014182c3c505c839e19d24b9b538f96b3457241a45bc50ae3ab32de3d",
+    "blocks": 139
+  },
+  {
+    "number": 3,
+    "roman": "III",
+    "title": "Exact State Spaces and Thermodynamics",
+    "source": "manuscript/baseline_edited/body03.tex",
+    "sha256": "65c491a8692e8a4b4641d35f48b0d1fa992c562c18420dd48aeffda6c132fb15",
+    "blocks": 145
+  },
+  {
+    "number": 4,
+    "roman": "IV",
+    "title": "Exact Joint Densities at N5000",
+    "source": "manuscript/n5000_chapter.md",
+    "sha256": "fc172d0eb1a591a913b3892bab61169c86ec4ec29d3b6c07c0e7b002f3ec2bae",
+    "blocks": 105
+  },
+  {
+    "number": 5,
+    "roman": "V",
+    "title": "N2000 Ground States and Low Energy Physics",
+    "source": "manuscript/n2000_chapter.md",
+    "sha256": "ef3cb91a794d98567088088f74a77b8c23fda396b6f5493f7bf19a6ad0f8b37b",
+    "blocks": 97
+  },
+  {
+    "number": 6,
+    "roman": "VI",
+    "title": "Joint State Spaces and Layered Exact Sources",
+    "source": "manuscript/baseline_edited/exact_01.tex",
+    "sha256": "d0b2f9ad5c635b478e4210724d8f352e952f71b2d5001450a8e1f8edad2c9db3",
+    "blocks": 31
+  },
+  {
+    "number": 7,
+    "roman": "VII",
+    "title": "The Algebra of a Complete Write",
+    "source": "manuscript/baseline_edited/body04.tex",
+    "sha256": "320c7a9fbde75763f3a7cbff198841373acb7f5e86c9141f093e328001e4f5b3",
+    "blocks": 164
+  },
+  {
+    "number": 8,
+    "roman": "VIII",
+    "title": "Lifecycle Reception and Carrier Return",
+    "source": "manuscript/baseline_edited/body05.tex",
+    "sha256": "e34e7bdd49d2e86d54edc9d64b57e9b54d25f612a9308d70c7c75f0bb1ac6f59",
+    "blocks": 133
+  },
+  {
+    "number": 9,
+    "roman": "IX",
+    "title": "Directional History and Event Reels",
+    "source": "manuscript/baseline_edited/body06.tex",
+    "sha256": "d13a3567329c16c993dda0346f3e0a7294fef55f474b877779d9de0d1843e47b",
+    "blocks": 139
+  },
+  {
+    "number": 10,
+    "roman": "X",
+    "title": "Equal Observable States and Executable Histories",
+    "source": "manuscript/history_chapter.md",
+    "sha256": "0ac22ea86675bb617fc27a58fea169a74fb938d934cdf3117d23dfd95d5765ee",
+    "blocks": 40
+  },
+  {
+    "number": 11,
+    "roman": "XI",
+    "title": "Ordinal Selection and the Delegated Exact Engine",
+    "source": "manuscript/baseline_edited/body07.tex",
+    "sha256": "d91513e7594bbb1271b781a1670841fbe5b98c6fd37898b8f2e9228347323849",
+    "blocks": 136
+  },
+  {
+    "number": 12,
+    "roman": "XII",
+    "title": "Starbreaker Formation on Its Own Grammar",
+    "source": "manuscript/baseline_edited/body08.tex",
+    "sha256": "2519ad6cf98e6e700443b4d541c9f05e0659c2bcac041d8a2eea8291e358dec0",
+    "blocks": 181
+  },
+  {
+    "number": 13,
+    "roman": "XIII",
+    "title": "Source Histories and Inverse Reconstruction",
+    "source": "manuscript/baseline_edited/applications_01.tex",
+    "sha256": "3b06be9a41cac2ea56ce9bc08e194f221f56bc04a7ffc3a4c3ef142dba98e041",
+    "blocks": 34
+  },
+  {
+    "number": 14,
+    "roman": "XIV",
+    "title": "Exact Values Certified Functions and Retained Composition",
+    "source": "manuscript/baseline_edited/runtime_01.tex",
+    "sha256": "5e580cc9d4f031ef2a5f36c10b0e707024c9699143302be6694521052a29541c",
+    "blocks": 38
+  },
+  {
+    "number": 15,
+    "roman": "XV",
+    "title": "Executable Methods and Learned Questions",
+    "source": "manuscript/baseline_edited/runtime_02.tex",
+    "sha256": "2ddc03fdb584a6c637f71d3d3fd40aae96318ef9a02ab5b825f4036e992e1ed0",
+    "blocks": 46
+  },
+  {
+    "number": 16,
+    "roman": "XVI",
+    "title": "Exact Exchange and Symbolic Matter",
+    "source": "manuscript/exchange_chapter.md",
+    "sha256": "ba51cbf3bd4e790974cd2d51f0e475d5b0cd1cc7a4b0bd26b1e67f422669c416",
+    "blocks": 57
+  },
+  {
+    "number": 17,
+    "roman": "XVII",
+    "title": "Exact Application Reuse and Learned Reconstruction",
+    "source": "manuscript/baseline_edited/applications_02.tex",
+    "sha256": "8908dcc69fbb24cc9cfbdfc814b46da458031c0018225c35c4a866c395999cb8",
+    "blocks": 43
+  },
+  {
+    "number": 18,
+    "roman": "XVIII",
+    "title": "Certified Source Integration and Retained Response",
+    "source": "manuscript/baseline_edited/response_01.tex",
+    "sha256": "faedfb242885bc6798566799ddde52def4ca523c90a834733d073503fc071423",
+    "blocks": 35
+  },
+  {
+    "number": 19,
+    "roman": "XIX",
+    "title": "Signed Arithmetic Energy and Conditional Continuation",
+    "source": "manuscript/rh_chapter.md",
+    "sha256": "9ffe72d9c02b6cd95d7e94460a9df58ed5f53e39099adf5f1e874d2c666cc016",
+    "blocks": 51
+  },
+  {
+    "number": 20,
+    "roman": "XX",
+    "title": "Reciprocal History and the Arithmetic Interface",
+    "source": "manuscript/baseline_edited/body09.tex",
+    "sha256": "c4048e1f6267bf8d133e5f34dbb38ef7045ff6d552d1199630be824ab6f202f8",
+    "blocks": 158
+  },
+  {
+    "number": 21,
+    "roman": "XXI",
+    "title": "Signed Arithmetic Sources and Transition Storage",
+    "source": "manuscript/baseline_edited/arithmetic_01.tex",
+    "sha256": "8aab329b69e724b7c73ff06f2b835aff4d7aaf24505bad6baaf77ff6824b00cd",
+    "blocks": 37
+  },
+  {
+    "number": 22,
+    "roman": "XXII",
+    "title": "Prime Coordinates and Exact Mersenne Factors",
+    "source": "manuscript/baseline_edited/body10.tex",
+    "sha256": "633e592fd25d0ca10c25b1b6fbf689824c96aa541d37b21132d5c601ec62ec87",
+    "blocks": 174
+  },
+  {
+    "number": 23,
+    "roman": "XXIII",
+    "title": "Reusable Mersenne Certificates and Arithmetic Compilers",
+    "source": "manuscript/baseline_edited/arithmetic_02.tex",
+    "sha256": "4ebfcae9f9a38434b934db9cfbad673cddf4e3e19ce6daf48992d682f4487660",
+    "blocks": 42
+  },
+  {
+    "number": 24,
+    "roman": "XXIV",
+    "title": "Prime Event Computation and Microscopic Reliability",
+    "source": "manuscript/prime_main.md",
+    "sha256": "f439e84608cc4c5c63365424738c79a5ff2e2f1f7a5eb44a1679da08128cea82",
+    "blocks": 59
+  },
+  {
+    "number": 25,
+    "roman": "XXV",
+    "title": "Prime Event Continuation and Retained Clocks",
+    "source": "manuscript/prime_continuation.tex",
+    "sha256": "fa48458eb6dc988559a25f3095ea6151c140694ec16a78773f1022b41a8b2d27",
+    "blocks": 45
+  },
+  {
+    "number": 26,
+    "roman": "XXVI",
+    "title": "Jacobian Maps Return and Retained History",
+    "source": "manuscript/baseline_edited/body11.tex",
+    "sha256": "fac7277284d91acf70fcf359265d399564bb6828b62519418542d7e2721350ff",
+    "blocks": 169
+  },
+  {
+    "number": 27,
+    "roman": "XXVII",
+    "title": "Relational Composition",
+    "source": "manuscript/baseline_edited/body12.tex",
+    "sha256": "69586d6bc1e4a97ca17eabc73c68b6e3445ab3baa3f1e53337541bded990b7f2",
+    "blocks": 96
+  },
+  {
+    "number": 28,
+    "roman": "XXVIII",
+    "title": "Computational Interfaces Across the Three Volumes",
+    "source": "manuscript/baseline_edited/connections_01.tex",
+    "sha256": "56bf80890ce914ea4115f810ac5b2ee892dd39ee83b2e98535834b31664b9f0a",
+    "blocks": 23
+  }
+]

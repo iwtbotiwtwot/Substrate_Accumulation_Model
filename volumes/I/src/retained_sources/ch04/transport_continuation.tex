@@ -1,0 +1,67 @@
+\section{A propagation action connects phase and amplitude}
+A concrete declared electromagnetic adapter is the minimally coupled action
+\[
+ S_{\rm EM}=-\frac14\int\sqrt{-g}\,g^{\mu\rho}g^{\nu\sigma}
+ F_{\mu\nu}F_{\rho\sigma}\,\dd^4x.
+\]
+Its geometric-optics principal symbol gives $g^{\mu\nu}k_\mu k_\nu=0$ and the static optical metric $h_{ij}/N^2$. A local orthonormal observer measures $c$. A positive scalar multiplier $Z(x)$ leaves this cone unchanged while changing the leading flux equation to $\nabla_\mu(ZA^2k^\mu)=0$. Phase transport therefore does not fix amplitude transport.
+
+For example, all members of the declared family
+\[
+ \dd s_\gamma^2=-(1-a)c^2\dd t^2+(1+\gamma a)|\dd\bm x|^2
+\]
+share the same stationary clock lapse where $0\le a<1$ and $1+\gamma a>0$. Their route indices are $\sqrt{(1+\gamma a)/(1-a)}$, and their first-order Shapiro coefficients differ. The cases $\gamma=0$ and $\gamma=1$ give respectively half and all of the retained road operator. This is a constructive separation of temporal and spatial information; it does not assert that all members solve one source field equation.
+
+\section{A positive tensor action supplies an amplitude bridge}
+Use $b_{\rm cos}(\eta_c)$ for the cosmological scale factor, normalized to one today, and $\mathscr H=b_{\rm cos}'/b_{\rm cos}$. The conformal time $\eta_c$ is distinct from the interacting clock's model-age variable. In units $c=1$, declare the two-polarization action
+\[
+\begin{aligned}
+ S_T&=\frac12\sum_A\int\dd\eta_c\,\dd^3x\ b_{\rm cos}^2Q
+ \left[(h_A')^2-c_T^2|\nabla h_A|^2\right],\\
+ &\hspace{4em}Q>0,\qquad c_T^2>0.
+\end{aligned}
+\]
+This is an explicit propagation construction by Codex, following the amplitude-friction representation retained in Ref.~[19]; $Q$ and $c_T$ are not assigned as source-native SAM coefficients. Its momentum and Hamiltonian are
+\[
+ \Pi_A=b_{\rm cos}^2Qh_A',\quad
+ H_T=\frac12\sum_A\int\left[
+ \frac{\Pi_A^2}{b_{\rm cos}^2Q}+b_{\rm cos}^2Qc_T^2|\nabla h_A|^2
+ \right]\dd^3x.
+\]
+The instantaneous energy is nonnegative. Prescribed changes of the background coefficients supply external work; this is not a conserved total apparatus account.
+
+Varying the action and Fourier transforming gives
+\[
+ h_A''+(2\mathscr H+Q'/Q)h_A'+c_T^2k^2h_A=0.
+\]
+Set $B=b_{\rm cos}\sqrt Q$ and $v_A=Bh_A$. Direct substitution cancels the first derivative and yields the exact equation
+\[
+ v_A''+\left[c_T^2k^2-\frac{B''}{B}\right]v_A=0.
+\]
+For $c_T=1$, a smooth high-frequency regime gives the leading amplitude $h_A\propto1/(b_{\rm cos}\sqrt Q)$ with the radial spreading factor. A quantitative use needs control of $|B''/B|/k^2$ and its variation on the chosen branch, with absorption and mode conversion included if present.
+
+\section{Source, transport, detector and inferred distance}
+If source generation and local detector normalization are matched between the comparison channels, the preceding transport amplitude gives
+\[
+\begin{aligned}
+ \Xi(z)&=\frac{d_L^{\rm GW}}{d_L^{\rm EM}}
+       =\sqrt{\frac{Q(0)}{Q(z)}},\\
+ \delta(s)&=-\frac{\dd\ln\Xi}{\dd s}
+       =\frac12\frac{\dd\ln Q}{\dd s},\qquad s=\ln(1+z).
+\end{aligned}
+\]
+Here $Q(0)$ is the receiver value and $Q(z)$ the emitter value. Since $\dd s/\dd\eta_c=-\mathscr H$, the mode equation is $h_A''+2\mathscr H(1-\delta)h_A'+k^2h_A=0$, the amplitude-friction representation used in the finite-redshift paper.~[19] The amplitude factor is distinct from the principal phase speed $c_T$ and from a travel-time delay.
+
+A source-generation or detector factor $G(z)$ changes the measured ratio to $Y(z)=C_{\rm cal}G(z)\Xi(z)$. The simpler $Y=C_{\rm cal}\Xi$ protocol requires $G$ to be controlled or fitted explicitly. Changing $c_T$ also changes the propagation problem; the displayed distance formula retains $c_T=1$ and the stated matching assumptions.
+
+Conversely every smooth positive normalized $\Xi$ has a compatible positive coefficient
+\[
+ Q(z)=\frac{Q(0)}{\Xi(z)^2}.
+\]
+For $\Xi=\Xi_\infty+(1-\Xi_\infty)e^{-ps}$ with $p>0$ and $\Xi_\infty>0$, this gives
+\[
+ \delta(s)=\frac{p(1-\Xi_\infty)e^{-ps}}{\Xi_\infty+(1-\Xi_\infty)e^{-ps}}.
+\]
+Positivity of this declared action therefore selects neither a single power nor its exponent. An independently derived $Q$, $p$, or rate spectrum is the physical result needed from the common source dynamics.
+
+The practical ratio additionally retains emission properties, inclination and polarization response, background distance, detector gain, opacity and selection. Independent angular-distance information can help separate channels: with $d_A$, define $\eta_{\rm EM}=d_L^{\rm EM}/[(1+z)^2d_A]$ and $\eta_{\rm GW}=d_L^{\rm GW}/[(1+z)^2d_A]$. Then $\Xi=\eta_{\rm GW}/\eta_{\rm EM}$, with ruler calibration and shared covariance retained. A trend in $\Xi$ alone does not determine which sector generated it.~[19]

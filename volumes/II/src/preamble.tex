@@ -1,0 +1,82 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+\usepackage[T1]{fontenc}
+
+\usepackage{amsmath,amssymb,amsthm,mathtools,bm,braket}
+\usepackage{mathptmx}
+\renewcommand{\ttdefault}{pcr}
+\usepackage[margin=0.68in,columnsep=0.26in,headheight=14pt,headsep=0.15in,footskip=0.28in]{geometry}
+\usepackage{graphicx,booktabs,array,tabularx,longtable,multirow}
+\usepackage{microtype,fancyhdr,caption,titlesec,enumitem,float,placeins}
+
+\usepackage[hidelinks,bookmarksnumbered=true,hypertexnames=false]{hyperref}
+\usepackage{xurl}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0.16em}
+\setlength{\emergencystretch}{2em}
+\setlength{\abovedisplayskip}{6pt plus2pt minus2pt}
+\setlength{\belowdisplayskip}{6pt plus2pt minus2pt}
+\captionsetup{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.45em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.45em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection}{0.45em}{}
+\titlespacing*{\section}{0pt}{11pt plus2pt minus2pt}{5pt}
+\titlespacing*{\subsection}{0pt}{8pt plus2pt minus2pt}{3pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\footnotesize SAM Volume \VolumeRoman\ | \leftmark}
+\fancyhead[R]{\footnotesize Brady | 19 October 2026}
+\fancyfoot[C]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\ii}{\mathrm{i}}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\Span}{\operatorname{span}}
+\allowdisplaybreaks[2]
+\raggedbottom
+\usepackage{tocloft}
+\setlength{\cftsecnumwidth}{3.2em}
+
+
+
+\setcounter{tocdepth}{1}
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+\newcommand{\bookchapter}[1]{%
+\clearpage\refstepcounter{section}\setcounter{subsection}{0}%
+\addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}%
+\markboth{Chapter \thesection}{}%
+\twocolumn[{\begin{center}{\small SAM VOLUME \VolumeRoman\par}\vspace{0.5em}
+{\LARGE\bfseries #1\par}\vspace{0.4em}{\large Chapter \thesection\par}
+\vspace{0.65em}\end{center}}]}
+\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+\providecommand{\rank}{\operatorname{rank}}
+\providecommand{\sgn}{\operatorname{sgn}}
+\providecommand{\diag}{\operatorname{diag}}
+\providecommand{\Var}{\operatorname{Var}}
+\providecommand{\Cov}{\operatorname{Cov}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\passthrough}[1]{#1}
+\providecommand{\pandocbounded}[1]{#1}
+\providecommand{\real}{\mathbb R}
+\providecommand{\Complex}{\mathbb C}
+
+\newcommand{\samref}[1]{\cite{#1}}
+
+\newcommand{\bookpart}[2]{%
+\clearpage\onecolumn\markboth{Part #1}{}%
+\phantomsection\addcontentsline{toc}{part}{Part #1: #2}%
+\vspace*{\fill}\begin{center}{\Large\bfseries Part #1\par}\vspace{0.4in}
+{\LARGE\bfseries #2\par}\end{center}\vfill\clearpage}

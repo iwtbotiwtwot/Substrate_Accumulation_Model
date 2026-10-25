@@ -1,0 +1,51 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm,mathtools,bm,braket}
+\usepackage{mathptmx}
+\renewcommand{\ttdefault}{pcr}
+\usepackage[margin=0.68in,columnsep=0.26in,headheight=14pt,headsep=0.15in,footskip=0.28in]{geometry}
+\usepackage{graphicx,booktabs,array,tabularx,longtable,multirow}
+\usepackage{microtype,fancyhdr,caption,titlesec,enumitem,float,placeins}
+\usepackage[most]{tcolorbox}
+\usepackage[hidelinks,bookmarksnumbered=true,hypertexnames=false]{hyperref}
+\usepackage{xurl}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0.16em}
+\setlength{\emergencystretch}{2em}
+\setlength{\abovedisplayskip}{6pt plus2pt minus2pt}
+\setlength{\belowdisplayskip}{6pt plus2pt minus2pt}
+\captionsetup{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.45em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.45em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection}{0.45em}{}
+\titlespacing*{\section}{0pt}{11pt plus2pt minus2pt}{5pt}
+\titlespacing*{\subsection}{0pt}{8pt plus2pt minus2pt}{3pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\footnotesize SAM Volume I | Chapter \ChapterRoman}
+\fancyhead[R]{\footnotesize Brady | Unified edition}
+\fancyfoot[C]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\ii}{\mathrm{i}}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\Span}{\operatorname{span}}
+\allowdisplaybreaks[2]
+\raggedbottom
+\pdfmapfile{+cm.map}
+\pdfmapfile{+cmextra.map}
+\pdfmapfile{+symbols.map}
+\pdfmapfile{+psnfss.map}
+\pdfmapfile{+utm.map}
+\pdfmapfile{=ps2pk35.map}
+\pdfmapfile{+rsfs.map}

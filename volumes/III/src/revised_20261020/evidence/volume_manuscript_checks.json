@@ -1,0 +1,235 @@
+{
+  "scope": "Bounded editorial arithmetic checks of printed formulas and reported counts. No new campaign or producer rerun.",
+  "checks": [
+    {
+      "name": "connector_L1",
+      "actual": "145/144",
+      "expected": "145/144",
+      "pass": true
+    },
+    {
+      "name": "connector_L8",
+      "actual": "76/9",
+      "expected": "76/9",
+      "pass": true
+    },
+    {
+      "name": "connector_gap",
+      "actual": "119/16",
+      "expected": "119/16",
+      "pass": true
+    },
+    {
+      "name": "whole_contact",
+      "actual": "1/9",
+      "expected": "1/9",
+      "pass": true
+    },
+    {
+      "name": "rooted_address_unique",
+      "actual": "48",
+      "expected": "48",
+      "pass": true
+    },
+    {
+      "name": "address_minmax",
+      "actual": "(0, 47)",
+      "expected": "(0, 47)",
+      "pass": true
+    },
+    {
+      "name": "erase_roster_classes",
+      "actual": "12",
+      "expected": "12",
+      "pass": true
+    },
+    {
+      "name": "erase_position_classes",
+      "actual": "8",
+      "expected": "8",
+      "pass": true
+    },
+    {
+      "name": "erase_orientation_classes",
+      "actual": "24",
+      "expected": "24",
+      "pass": true
+    },
+    {
+      "name": "weave_quotient",
+      "actual": "144",
+      "expected": "144",
+      "pass": true
+    },
+    {
+      "name": "weave_class_total",
+      "actual": "144",
+      "expected": "144",
+      "pass": true
+    },
+    {
+      "name": "weave_load_roster",
+      "actual": "144",
+      "expected": "144",
+      "pass": true
+    },
+    {
+      "name": "receiver_dot",
+      "actual": "0",
+      "expected": "0",
+      "pass": true
+    },
+    {
+      "name": "receiver_norm0",
+      "actual": "3",
+      "expected": "3",
+      "pass": true
+    },
+    {
+      "name": "receiver_norm1",
+      "actual": "3",
+      "expected": "3",
+      "pass": true
+    },
+    {
+      "name": "starbreaker_action_ratio",
+      "actual": "33029177/14330565",
+      "expected": "33029177/14330565",
+      "pass": true
+    },
+    {
+      "name": "starbreaker_shell_steps",
+      "actual": "3072",
+      "expected": "3072",
+      "pass": true
+    },
+    {
+      "name": "li6_observed_score",
+      "actual": "737/16",
+      "expected": "737/16",
+      "pass": true
+    },
+    {
+      "name": "li6_native_score",
+      "actual": "969/16",
+      "expected": "969/16",
+      "pass": true
+    },
+    {
+      "name": "li6_family",
+      "actual": "16",
+      "expected": "16",
+      "pass": true
+    },
+    {
+      "name": "fresh_constructions",
+      "actual": "36864",
+      "expected": "36864",
+      "pass": true
+    },
+    {
+      "name": "new_SB_histories",
+      "actual": "1216",
+      "expected": "1216",
+      "pass": true
+    },
+    {
+      "name": "horizon_cases",
+      "actual": "288",
+      "expected": "288",
+      "pass": true
+    },
+    {
+      "name": "exchange_L2",
+      "actual": "16",
+      "expected": "16",
+      "pass": true
+    },
+    {
+      "name": "exchange_L3",
+      "actual": "64",
+      "expected": "64",
+      "pass": true
+    },
+    {
+      "name": "exchange_L4",
+      "actual": "256",
+      "expected": "256",
+      "pass": true
+    },
+    {
+      "name": "exchange_finite_total",
+      "actual": "336",
+      "expected": "336",
+      "pass": true
+    },
+    {
+      "name": "exchange_L13",
+      "actual": "67108864",
+      "expected": "67108864",
+      "pass": true
+    },
+    {
+      "name": "RH_first_mode",
+      "actual": "-240666",
+      "expected": "-240666",
+      "pass": true
+    },
+    {
+      "name": "RH_mean_term",
+      "actual": "25/2048",
+      "expected": "25/2048",
+      "pass": true
+    },
+    {
+      "name": "forcing_prefix_total",
+      "actual": "12836",
+      "expected": "12836",
+      "pass": true
+    },
+    {
+      "name": "half_ceiling_counterexamples",
+      "actual": "13",
+      "expected": "13",
+      "pass": true
+    },
+    {
+      "name": "signed_gain_witness",
+      "actual": "-101401390/837381553",
+      "expected": "-101401390/837381553",
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "standalone_files": [
+    {
+      "file": "manuscript/history_chapter.md",
+      "words": 1262,
+      "display_math_blocks": 9,
+      "balanced_dollar_delimiters": true,
+      "source_key": "EQ"
+    },
+    {
+      "file": "manuscript/starbreaker_supplement.md",
+      "words": 1220,
+      "display_math_blocks": 5,
+      "balanced_dollar_delimiters": true,
+      "source_key": "SB"
+    },
+    {
+      "file": "manuscript/exchange_chapter.md",
+      "words": 1841,
+      "display_math_blocks": 14,
+      "balanced_dollar_delimiters": true,
+      "source_key": "EX"
+    },
+    {
+      "file": "manuscript/rh_chapter.md",
+      "words": 1384,
+      "display_math_blocks": 15,
+      "balanced_dollar_delimiters": true,
+      "source_key": "RH"
+    }
+  ],
+  "final_source_review": "Four complete attached SLC papers reviewed; exact displayed formulas transcribed from the article text and checked against their derivation chains. Local immutable history corroboration H001563, H001565, H001428. No producers rerun."
+}

@@ -1,0 +1,307 @@
+\bookchapter{Mass Channels, Lift Operators, Higgs and Neutrino Packets}
+\label{v2c3:chapter}
+\begingroup
+\setlength{\parskip}{0.04em}
+
+\subsection{The question a mass formula answers}
+
+A formula containing a particle label and a number is not yet a mass prediction. It may compute a native structural value, an admitted source contribution, a debit on a surface, a normalized lift, or a downstream readout expressed in physical units. These quantities can be related, but their relations have to be stated. The particle grammar supplies the row and selects the operator; this chapter follows the distinct channels through that selection. The central lesson of the source record is constructive: retaining the type of a quantity turns several apparently irregular numerical patterns into exact formulas, while also exposing a direct source-to-mass identification that fails.
+
+Write $M_{\rm native}$ for the native generator output, $q_A$ for admitted matter-source support, $X$ for a specified surface debit or credit, and $K$ for the native source used by a lift-table row. The dimensionless quotient $Y=X/K$, when defined, is a fifth object. A measured comparator is another field. In a nuclear aggregation the symbols $Q_{\rm sub}$ and $Q_{\rm mass}$ distinguish coupling-source and rest-source constructions. None of these distinctions can be removed simply because a particular anchor makes two numerical values coincide.
+
+The source symbol $M_{\rm obs}$ is likewise a readout field whose meaning must be obtained from its schema. Its subscript alone is not proof that its value is an experimentally measured mass. A row's source provenance and physical conversion map determine whether the number is native, converted, compared or measured. This matters especially when moving between the compact base 35-row chain, the 139-row lift table and the 80-row tensor-compatible surface. They share some conceptual machinery but do not share an unqualified numerical column.
+
+The detailed source accounts are SAMA-D000028, \emph{Mass, Lift, Debit and Particle Readout}, and SAMA-D000029, \emph{Higgs and Neutrino Packets}. The technical spine preserves the same channel split and the decisive failure-to-correction sequence.\cite{viisama,viispine,viireview} The presentation below derives the arithmetic that can be checked directly, identifies results reported by existing tests, and retains the external anchors on which physical-unit comparisons depend. It does not rerun those tests or supply an unstated universal conversion from structural number to measured mass.
+
+\subsection{Normalization and the undefined endpoint}
+
+For a typed lift row with $K\ne0$, define
+\begin{equation}
+Y=\frac{X}{K},\qquad X=KY.
+\label{v2c3:lift}
+\end{equation}
+Normalization asks what fraction of the native source is represented by the declared debit or credit. It can reveal exact structure obscured by widely varying native magnitudes. The operation is legitimate only after both the row's source convention and its operator class have been fixed. Dividing arbitrary columns with similar names would not reproduce the same mathematical question.
+
+One photon-road carrier in the source table has $K=0$ and $X=0$. Its quotient is undefined. The equation $0=0\cdot Y$ would hold for any finite $Y$, so it cannot determine a unique lift value. Assigning zero would confuse absence of debit with a defined zero fraction; assigning one would confuse this endpoint with the fully supported no-depth class. A limiting argument would require an explicitly specified family approaching the row, and no such limit is part of this table's definition.
+
+The correct statement is therefore 139 rows and 138 evaluable quotients. The carrier remains a valid source row. Only the quotient field is inapplicable. In a computational implementation, a tagged undefined value preserves more information than a numerical zero, because it records the reason normalization was not performed. Summaries must count the row once while excluding it from statistics or identities that require a defined $Y$. This is an elementary mathematical restriction with an important scientific effect: the exact closure does not depend on manufacturing a value for $0/0$.
+
+CR243 resolves 96 evaluable rows into five clean classes. CR244 resolves the remaining 42 into two unequal-pair classes. Their union gives
+\begin{equation}
+96+42=138,
+\end{equation}
+and adding the retained undefined endpoint restores the full table count of 139. These counts, rather than a blanket statement that all 139 quotients close, express the actual finite completion.
+
+\subsection{Five exact lift classes}
+
+The color-triad operator is
+\begin{equation}
+Y_{\rm color}=\operatorname{sgn}(q)\frac{|q|+D}{R}.
+\label{v2c3:colorlift}
+\end{equation}
+At the adopted constants a $q=+1$ row gives $1/3$, while a $q=-2$ row gives $-5/12$. The sign belongs to the operator's source convention and changes the debit into a credit or vice versa according to that convention. It is not an annotation that can be dropped before computing a mean. Fourteen source rows use this class.
+
+For equal bound pairs, the law is
+\begin{equation}
+Y_{\rm equal}=\frac{D+2}{R(D+1)}=\frac5{48}.
+\end{equation}
+Six rows use this rational value. The factor $R$ and the equal-pair depth factor $D+1$ remain visible in the denominator, so the result is more informative than an unexplained decimal. The separate OCTET-pair class uses
+\begin{equation}
+Y_{\rm OCTET}=\frac{D^2+S}{DS^2}=\frac{17}{192}.
+\end{equation}
+Its single row is not absorbed into the equal-pair class. The two values are different because the typed operators are different; averaging them would erase a distinction that the source says is load-bearing.
+
+The remaining clean classes are endpoints with nonzero $K$. A single-write row has $Y=0$ and hence $X=0$. A no-surface-depth support or carrier row has $Y=1$ and hence $X=K$. There are 63 single-write rows and twelve no-depth rows. The latter equality applies to the lift table's declared support channel; it is not permission to overwrite the zero-debit field in a different native-carrier generator schema. The class, source convention and target field travel together.
+
+The full clean-class tally is
+\begin{equation}
+14+6+1+63+12=96.
+\end{equation}
+These are source-reported exact class closures under CR243, not a global approximate regression. Their mathematical content is straightforward: once the class is supplied, the rational expression reconstructs the normalized output. Their scientific scope remains the supplied rows and operator definitions. The chapter preserves that positive result without claiming that a finite table alone establishes the same operator for every future physical system.
+
+\subsection{Unequal pairs and a load-bearing class trigger}
+
+The 42 rows left at CR243's boundary do not require an arbitrary residual correction. CR244 distinguishes thirty ordinary unequal pairs from twelve OCTET-involved unequal pairs. For an ordered unequal pair $(a,b)$, the ordinary law is
+\begin{equation}
+Y_{\rm unequal,ordinary}
+=\operatorname{sgn}(a-b)\frac{|a-b|+D}{R^4}.
+\label{v2c3:ordinarypair}
+\end{equation}
+The OCTET-involved law is
+\begin{equation}
+Y_{\rm unequal,OCTET}
+=\operatorname{sgn}(a-b)\frac{|a-b|+D^2/R}{R^4}.
+\label{v2c3:octetpair}
+\end{equation}
+For $(a,b)=(1,2)$, the first gives $-4/20736=-1/5184$. The second gives $-(7/4)/20736=-7/82944$. Their difference at the same address is not noise: the class trigger changes the operator. Reversing the ordered pair changes the sign while preserving the magnitude within the same class.
+
+The recorded result is 30/30 ordinary and 12/12 OCTET-involved matches. The controls show why both the exponent and the trigger must be retained. Replacing $R^4$ by $R^3$ reduces both exact-match counts to zero. Swapping the class trigger reduces the ordinary match count from thirty to four and the OCTET match count from twelve to zero. The surviving four ordinary matches in the wrong-control route do not vindicate that route; they demonstrate why one must report complete class counts rather than selected successful examples.
+
+This correction has a useful methodological interpretation. The initial unresolved set was preserved, rather than concealed within an overall average. Its internal classification then supplied two exact laws. That is evidence that typing adds explanatory compression on this source table. It is not evidence that any difficult data set can always be made exact by adding labels. Here the labels, formulas, counts and failed substitutions are all part of a finite record that can be inspected.\footnote{SAMA-D000028, sections 3.1--3.3; CR:CR243@09a and CR:CR244@09a; source atomic records SAMA-C000148-R001 through SAMA-C000151-R001. The 139/138 endpoint distinction is also explicit in the technical spine, section II.2.}
+
+\subsection{Compact matter-source laws}
+
+The compact 80-row surface divides into 48 matter rows and 32 antimatter rows. Within its matter portion, 32 charged rows use
+\begin{equation}
+\begin{gathered}
+q_A(p,s,d)=R^d c_s p\left(1+\frac{p}{R^2}\right),\\
+c_+=\frac54,\quad c_-=\frac32.
+\end{gathered}
+\label{v2c3:charged}
+\end{equation}
+CR254 records the compression of these admitted matter-source values. The factor $p(1+p/R^2)$ resembles the hidden-support native law in Chapter~\ref{v2c2:chapter}, but the common algebraic factor does not identify the channels. The hidden rows remain outside matter and have $q_A=0$; equation~\eqref{v2c3:charged} applies on an admitted charged matter surface and includes sign-dependent coefficient and radix depth.
+
+For a positive matter row with $p=1,d=0$, the formula gives $(5/4)(145/144)=725/576$. For the corresponding negative coefficient it gives $(3/2)(145/144)=145/96$. Raising $d$ by one multiplies either value by twelve, with $p$ and class held fixed. These are illustrative substitutions into the stated law, not newly identified particles or extra rows appended to the surface. Their role is to show how the class coefficient, connector response and depth enter independently.
+
+The sixteen neutral matter rows use
+\begin{equation}
+q_A(p,d)=\frac{p}{8}R^d.
+\label{v2c3:neutral}
+\end{equation}
+The coefficient has two equivalent structural readings at the adopted inputs:
+\begin{equation}
+\frac18=2^{-D}=\frac{\Theta}{R^2},\qquad \Theta=18.
+\end{equation}
+This connects the neutral source fraction to the released carrier share. It is an identity among the model's constants, not an independent measurement of a coupling. The sixteen compact neutral rows also must not be confused with the twenty-four neutral generator rows across three depths in CR133; the surface selection differs.
+
+These formulas make a further distinction visible. The bare charged native ladder was $q_{\rm abs}R^dK$, while the compact matter-source law includes the additional connector response $1+p/R^2$. Treating both as one formula called ``mass'' would obscure which stage supplied that factor. Keeping the source channel explicit allows their relation to be discussed without either erasing the earlier ladder or claiming that the new factor is a direct measured rest-mass correction.
+
+\subsection{Non-row A-conjugation and the hard zero}
+
+CR256 acts on the 32 charged matter antecedents through a non-row A-conjugation operator. Its output obeys
+\begin{equation}
+q_{A,\bar m}=q_{A,m}C_A(s,p,d),
+\end{equation}
+where
+\begin{align}
+C_A(-,p,d)&=\frac56\left(1+\frac{p}{R^{d+1}}\right),\\
+C_A(+,p,d)&=\frac65\left(1-\frac{p}{R^{d+1}}\right).
+\label{v2c3:conjugation}
+\end{align}
+The sign, partition and depth are all required inputs. The transform cannot be reconstructed from the word ``antimatter'' alone. Nor should its dependence on depth be replaced by the simpler coefficient swap used in the earlier bare native ladder: the two records act on different channel definitions.
+
+The positive branch at $p=12,d=0$ has
+\begin{equation}
+1-\frac{p}{R^{d+1}}=1-\frac{12}{12}=0.
+\end{equation}
+It therefore produces an exact hard zero, regardless of a finite antecedent value. This is an operator-generated null, not a rounding artifact and not a small positive mass awaiting interpretation. The null-conjugate boundary retains no matter-source promotion. A formula that removed the zero in order to keep every output positive would change the construction it was supposed to preserve.
+
+The transform acts on rows without itself becoming a row. The correct accounting is eighty generated rows together with a non-row operator. This is not eighty-one particles. The capital A in this conjugation notation is also distinct from nuclear mass number $A=Z+N$ and from the radial accumulation function inherited from Volume I. Their common letter is not a mathematical identification.\footnote{SAMA-D000028, section 8; CR:CR254@09a, CR:CR255@09a and CR:CR256@09a. SAMA-D000026 and CR:CR280@09a supply the structural-surface naming boundary.}
+
+\subsection{A direct source-to-mass bridge fails}
+
+The strongest test of channel discipline is a failed proposed identification. CR239 tested
+\begin{equation}
+m_i(P)=m_g(P)=\mu_Q Q(P).
+\label{v2c3:failedbridge}
+\end{equation}
+The source used a carbon-12 anchor
+\begin{equation}
+Q({}^{12}\mathrm C)=\frac{7117}{16},\qquad
+\mu_Q=\frac{192}{7117}\ \mathrm{u}/(Q\text{-unit}).
+\end{equation}
+Their product is exactly $12\ \mathrm u$. The algebra is correct. The question is whether the same conversion makes the coupling-source channel a successful rest-mass channel away from the anchor.
+
+It does not. On the recorded non-anchor roster the RMS residual is 0.189480, compared with 0.00202 for the locked mass-number control. The direct bridge is approximately ninety-four times worse, whereas its precommitted criterion required improvement by a factor of two. The retained verdict is a direct-bridge failure. Exact closure at carbon-12 cannot outweigh a failed comparison on the other rows.
+
+The isotope increment makes the problem concrete. If an excess neutron contributes only $1/8$ to the source being converted, the predicted increment is
+\begin{equation}
+\Delta m=\mu_Q\frac18=\frac{24}{7117}\ \mathrm u
+\simeq0.003372\ \mathrm u.
+\end{equation}
+Across fourteen measured isotope pairs, the source reports mean and median measured-to-predicted increment ratios of 296.45 and 296.66. A single calibration factor that closes balanced carbon does not supply the missing excess-neutron contribution.
+
+The failure has structure. Twelve $N=Z$ rows have RMS 0.0023, while 37 $N\ne Z$ rows have RMS 0.2152. Spearman residual correlation with neutron excess $N-Z$ is $+0.984$, and with $A$ is $+0.961$. Shuffling the source worsens RMS by about a factor of 26. These diagnostics support the narrower conclusion that the source retains organized information while the direct identity omits an important channel. They do not rescue equation~\eqref{v2c3:failedbridge}. The useful response is to distinguish quantities rather than discard the negative result or rename it a success.\footnote{SAMA-D000028, section 5; CR:CR239@09a, retained verdict \texttt{FAIL\_CR239\_DIRECT\_BRIDGE}; atomic record SAMA-C000155-R001. The reported residuals are historical source results, not new comparisons against an updated measurement compilation.}
+
+\subsection{The corrected channels and the holdout boundary}
+
+The compact kernel used by the corrected construction is
+\begin{equation}
+\kappa=\frac{(R-1)(\mathcal F S-1)}{D\alpha_H^S}
+=\frac{7117}{768},\qquad \mathcal F=81.
+\end{equation}
+For the nuclear domain treated here, with $A=Z+N$ and $N\ge Z$, CR240 distinguishes
+\begin{align}
+Q_{\rm mass}&=4A\kappa,\\
+Q_{\rm sub}&=8Z\kappa+\frac{N-Z}{8}.
+\label{v2c3:twochannels}
+\end{align}
+Balanced matter has $A=2Z$, making the two channels equal. With neutron excess, their per-excess difference is
+\begin{equation}
+4\kappa-\frac18
+=\frac{7117}{192}-\frac{24}{192}
+=\frac{7093}{192}.
+\end{equation}
+The complete four-slot derivation and its asymmetry consequences belong to the nuclear and binding chapters. Here the result shows why the corrected typing addresses the organization of the earlier residual rather than merely replacing a failed number with a better number.
+
+The corrected rest-source is not by itself a complete binding-energy law. Indeed, with the carbon conversion above,
+\begin{equation}
+\mu_Q Q_{\rm mass}
+=\frac{192}{7117}\,4A\frac{7117}{768}
+=A\ \mathrm u.
+\end{equation}
+This exact cancellation makes the reference scale explicit. Nuclear mass defects and the finer comparisons require additional construction; they are not hidden in the cancellation. The value of the distinction is that source support and rest-source accounting no longer have to be falsely identified before those refinements are considered.
+
+CR241 evaluates the candidate framework on twenty distinct holdout rows, with no reported collisions. Its inspected summary records RMS relative residual $0.0006864000481$ and maximum absolute residual $0.0011454506714$. Seventy percent of rows lie below absolute residual $0.001$, and all twenty lie below $0.005$. Cross-anchor drift is $650.8135325$ parts per million, which passes the source's candidate-stability criterion. These are favorable finite diagnostics, and they remain part of the record.\cite{viicr241}
+
+They are not a uniqueness result. The expression scan finds thirty hits in the nucleon window and six in the splitting window. Both moderate and strong uniqueness predicates are false. The retained overall verdict is \texttt{FAIL\_CR241\_CANDIDATE\_ARTIFACT}. Its control-integrity and collision checks pass, but the uniqueness condition required by the combined verdict does not. A chapter that reported only the low holdout residual would misrepresent the test just as surely as a chapter that discarded the residual because the overall verdict failed.
+
+The appropriate conclusion has two parts: the typed candidate remains available for downstream conditional analysis, and the scan does not establish that candidate as unique. Passing a finite holdout comparison, remaining reasonably stable under a second anchor, and excluding alternative expressions are different tests. Their outcomes can differ without contradiction. The source's explicit failure preserves this distinction and bounds the authority with which the kernel is used later.
+
+\subsection{The retained-surface Higgs construction}
+
+The first Higgs packet is an ordered retained-parent construction, preserved in LC02. Begin with the radix square $R^2=144$. Release the carrier fraction $2^{-D}=1/8$, giving
+\begin{equation}
+\Theta=144\cdot\frac18=18.
+\end{equation}
+The retained native amount is
+\begin{equation}
+H_{\rm native}=R^2(1-2^{-D})=144-18=126.
+\end{equation}
+Apply the declared surface debit
+\begin{equation}
+\delta_H=\frac{D^2}{R}=\frac9{12}=\frac34,
+\end{equation}
+and obtain
+\begin{equation}
+H_{\rm reveal}=126-\frac34=125.25.
+\label{v2c3:higgsretained}
+\end{equation}
+Every arithmetic step is exact under the adopted inputs. The packet's conceptual order is release, retain, debit. Interchanging a carrier share with a surface debit would change its meaning even if a later numerical adjustment recovered a similar value.
+
+The number 125.25 is first a structural reveal. A statement that it is a mass in GeV additionally uses the packet's physical-unit readout convention. The integer constants and subtraction alone do not derive the unit GeV. Keeping that conversion visible is essential when comparing this packet with the later direct source construction, which begins from an explicitly MeV-valued antecedent.
+
+LC02 reports rejection of thirteen designated wrong controls, including omission of the debit; $D/R$ in place of $D^2/R$; $D^2/R^2$ in place of $D^2/R$; changes to $D$ or $R$; restoration of an older $2\pi$ charge-split route; and substitution of carrier or bounce quantities into the debit slot. These controls identify the packet's adopted structure. They are not an exhaustive exclusion of all expressions that can be constructed from the constants.
+
+Chronology also matters. LC02 is a locked replay of an older construction and preserves that construction's target-visibility history. A later replay with frozen inputs does not convert the original discovery into a forward-blind prediction. The result can be retained as an exact, reproducible structural packet without changing the conditions under which it was found.\footnote{SAMA-D000029, sections 3 and 5; LC:LC02; SAMA-C000157-R001 and SAMA-C000159-R001. The source explicitly separates the retained-parent chronology from the later direct-A-source promotion.}
+
+\subsection{The distinct direct Higgs source packet}
+
+CR279 promotes a later direct-weld result from the G745c/G748c chain. Its recorded antecedent is
+\begin{equation}
+m_{H,\rm native}=125077.36096514532\ \mathrm{MeV}.
+\end{equation}
+The source reports that the measured Higgs target is not used to select this antecedent. That is a statement about this packet's construction custody; it does not relabel the different LC02 history. The role coordinate and bounce factor are
+\begin{equation}
+q_H=3,\qquad r_{\rm bounce,H}=\frac1{64\pi}.
+\end{equation}
+The direct source operation is
+\begin{equation}
+q_{A,H}=m_{H,\rm native}\left(1+\frac1{64\pi}\right).
+\label{v2c3:higgsdirect}
+\end{equation}
+Expanding it separates antecedent and increment:
+\begin{equation}
+q_{A,H}=m_{H,\rm native}+\frac{m_{H,\rm native}}{64\pi}.
+\end{equation}
+The recorded packet values are
+\begin{align}
+q_{A,H}&=125699.44472347321\ \mathrm{MeV},\\
+q_{A,H}-m_{H,\rm native}&\simeq622.08375832789\ \mathrm{MeV},\\
+q_{A,H}/m_{H,\rm native}&\simeq1.004973591971621838.
+\end{align}
+
+The MeV label belongs to this packet's source convention. It does not turn $q_{A,H}$ into the experimental Higgs mass merely by dimensional agreement. The role coordinate $q_H=3$, the MeV-valued antecedent, the direct source output and the measured comparator remain separate fields. The source law is a multiplicative increment on its antecedent, whereas equation~\eqref{v2c3:higgsretained} is an additive debit on a retained structural parent. Combining them into a single unexplained ``Higgs formula'' would lose both operators.
+
+CR279 records seven rejected substitutions: identifying $q_H$ with $q_{A,H}$; omitting the bounce; adding a $9/16$ post-multiplier; using a wrong role coordinate; selecting from the measured target; claiming the earlier surface debit as the origin of the bounce; and inventing a new Higgs operator. The result promotes the direct-weld packet without mutation and preserves CR120 as a neighboring intake or boundary record. The retained-parent packet and the direct-source packet are related pieces of the same program, but their numerical outputs, units and historical roles are not interchangeable.\footnote{SAMA-D000029, sections 4--5; CR:CR279@13; SAMA-C000158-R001. The decimal antecedent and output are quoted as recorded values. The present preparation did not independently regenerate the upstream G745c scalar output or the CR279 execution.}
+
+\subsection{Neutrino ratios before the external scale}
+
+The neutrino packet begins with a dimensionless indexed selector,
+\begin{equation}
+r_1:r_2:r_3=1:\sqrt{\alpha_H}:\alpha_HD=1:\sqrt2:6.
+\label{v2c3:nuratio}
+\end{equation}
+Let $b_\nu>0$ be a common scale and define $m_i=b_\nu r_i$. Squared mass differences then satisfy
+\begin{align}
+\Delta m_{21}^2&=b_\nu^2(2-1)=b_\nu^2,\\
+\Delta m_{31}^2&=b_\nu^2(36-1)=35b_\nu^2.
+\end{align}
+Therefore
+\begin{equation}
+\frac{\Delta m_{31}^2}{\Delta m_{21}^2}=35.
+\label{v2c3:nusplit}
+\end{equation}
+The scale cancels. This is the packet's clean scale-free output. Its exactness follows from the chosen ratios; the selection history of those ratios remains attached to the packet.
+
+More generally, before inserting the adopted constants, the same selector gives $[(\alpha_HD)^2-1]/(\alpha_H-1)$. The denominator is nonzero at $\alpha_H=2$. This expression displays how the ratio depends on the selector architecture, rather than suggesting that the number 35 was separately measured inside the substrate. The distinctions between selecting the triplet, deriving consequences of the triplet and comparing those consequences with measurements remain explicit.
+
+Normal ordering follows conditionally from the same indexed packet. Since $1<\sqrt2<6$ and $b_\nu>0$, multiplication preserves strict order, yielding $m_1<m_2<m_3$. CR002@20 records that result. It is not a separate fitted ordering parameter, but it does rely on the stated assignment of the indices. Reassigning physical labels after inspecting a comparison would be a different packet.
+
+\subsection{The anchored neutrino values and their comparison}
+
+CR001@20 uses the historical large-splitting anchor
+\begin{equation}
+\Delta m_{31}^2=2.515\times10^{-3}\ \mathrm{eV}^2.
+\end{equation}
+It follows that
+\begin{equation}
+b_\nu=\sqrt{\frac{2.515\times10^{-3}}{35}}\ \mathrm{eV}
+\simeq0.0084768593\ \mathrm{eV}.
+\end{equation}
+The reported masses are consequently
+\begin{equation}
+(m_1,m_2,m_3)\simeq(8.477,11.988,50.861)\ \mathrm{meV},
+\end{equation}
+with total $\Sigma m_\nu\simeq71.326\ \mathrm{meV}$. The total is an output of the selected ratio and external anchor, not an additional independent prediction obtained without empirical input.
+
+The smaller splitting is the non-anchored comparison:
+\begin{equation}
+\Delta m_{21}^2=\frac{2.515\times10^{-3}}{35}
+\simeq7.186\times10^{-5}\ \mathrm{eV}^2.
+\end{equation}
+The source compares this with $7.420\times10^{-5}\ \mathrm{eV}^2$, recording a deviation of approximately $-3.16\%$. Retaining that residual is important. The anchored large splitting is reproduced by construction; the smaller splitting is where this packet supplies an independent numerical comparison relative to that anchor. Reporting only the three masses would conceal this distinction.
+
+These are the historical packet's comparator values, not a claim that the manuscript has refreshed external neutrino data or performed a new global analysis. If a different large-splitting anchor were inserted into the same frozen selector, all masses would scale with its square root, while the ratio 35 would remain unchanged. That is an algebraic sensitivity statement. It does not authorize selecting whichever anchor makes the smaller splitting most favorable.
+
+The source leaves the Dirac-versus-Majorana mechanism and mixing structure unresolved. Neither follows from three positive masses and their ordering. The packet also does not establish the unique physical necessity of the $1:\sqrt2:6$ selector. Its preserved accomplishment is narrower and intelligible: a dimensionless ratio construction, an exact squared-splitting ratio and conditional ordering, plus absolute values obtained from one disclosed external scale.\footnote{SAMA-D000029, section 6; CR:CR001@20 and CR:CR002@20; SAMA-C000160-R001 through SAMA-C000162-R001. The explicit large-splitting anchor, smaller-splitting comparator and reported deviation are retained from the source-rich review rather than silently replaced by contemporary external values.}
+
+\subsection{What the mass sector hands forward}
+
+The mass sector now has several finite results that can be used without merging their evidentiary roles. The lift table is complete as a typed table: 139 rows, seven evaluable classes covering 138 quotients, and one explicitly undefined endpoint. The compact admitted surface has charged and neutral source laws, together with a non-row conjugation transform and an exact hard zero. The nuclear branch has a preserved failure of direct source-to-mass conversion and a corrected two-channel construction whose uniqueness test did not pass. The Higgs record contains two distinct packets with different operations and chronology. The neutrino record separates an exact ratio from its measured scale and retains its non-anchored residual.
+
+These results provide the next chapters with a disciplined interface. A nuclear ledger may aggregate the corrected channels, but must not identify them merely because balanced matter makes them equal. A binding readout may use the channel gap, but must supply its own nonlinear operation and energy conversion. A computation may serialize exact rational operators, but must preserve their class triggers and undefined endpoints. A physical comparison may open measured targets, but must keep them separate from the inputs of a target-barred construction.
+
+The benefit of this separation is not only caution. It is also economy. One does not need to solve mixing, resolve candidate uniqueness, or launch a new fitting campaign in order to preserve an exact finite lift table. Conversely, a well-preserved finite table does not solve those other problems by implication. The source record can therefore be complete as a record of what was constructed and tested, while the larger physical interpretation remains bounded by the evidence actually available.
+
+\endgroup

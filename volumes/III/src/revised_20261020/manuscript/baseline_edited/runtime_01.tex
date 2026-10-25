@@ -1,0 +1,135 @@
+\bookchapter{The Native Mathematical Runtime: Exact Values, Certified Functions and Retained Composition}
+\label{v3-runtime-native}
+
+The early exact-state and language chapters establish a grammar whose accepted operations preserve their mathematical meanings. The later native runtime turns that foundation into a shared research system. An exact source can become a certified logarithm, a complete spectral factorization can enter a new matter calculation, and a returned matrix can become an operand of another registered operation. The computation retains the source, basis, error account and derivation needed to interpret each result. This chapter develops that working mathematical architecture through the completed logarithm, capacity and retained-input constructions.\samref{V3R01}\samref{V3R02}
+
+The historical language candidates and Q2 selector retain their original dates and roles. The source snapshot used here selects SLC-GEN5-R1 with CE SLC-GEN5-CEV1-R1 and generation G2-SPIN-CLOCK. Older GEN2 and GEN3 operation prefixes remain supported calls, rather than separate current global engines. The current revision records shared precision from 64 through 4096 bits, general complex matrices through dimension 2048 and supported Hermitian logarithms through 512. These bounds are admission capacities. Individual thermal, polynomial and augmented-response algorithms retain their own smaller envelopes.\samref{V3R01}\samref{V3R03}
+
+\subsection{Three mathematical forms of a returned value}
+\label{v3-runtime-value-types}
+
+An exact rational, an exact finite logarithmic expression and a certified interval answer different questions. Rational arithmetic can return $7/3-4/3=1$ without approximation. A logarithmic calculation can retain $\log2$ as an exact expression even though a finite decimal representation is unavailable. A numerical consumer can then enclose that expression between exact rational endpoints at a declared working precision. The interval is the returned numerical object; its width records the remaining certified uncertainty.
+
+The native scalar contract accepts integers and exact rational or decimal strings. Interval endpoints are exact lower and upper values. Binary floating-point operands are not silently promoted into scientific exactness. Administrative host timing has a separately typed finite representation and does not supply mathematical source data. This separation lets the same engine manage deadlines while preserving the exact scalar semantics of its calculations.\samref{V3R02}
+
+A GEN5 logarithmic expression is a rational-weighted sum
+\[
+ \mathcal L=c+\sum_jq_j\log r_j,
+ \qquad r_j>0,\quad q_j\in\mathbb Q.
+\]
+Arguments can remain factored powers. An exponent such as $10^{18}$ need not be expanded into the corresponding enormous integer before its logarithm is represented. Canonical factor cancellation gives
+\[
+ \log12-\log3-2\log2=0
+\]
+as an exact normalized result. Dimensioned inputs provide a compatible positive reference, so logarithms act on dimensionless ratios with their source meaning attached.\samref{V3R02}
+
+Signed combinations preserve cancellation before numerical exponentiation. Equal positive and negative contributions can disappear exactly; small remaining differences use stable source operations such as \texttt{expm1}. Increasing precision then improves the arithmetic enclosure of the surviving expression. It does not remove a declared source radius, alter a physical unit or infer a missing reference.
+
+This distinction appears directly in the completed precision controls. The normalized expression $\log4-2\log2$ cancels exactly at 64 bits. The positive quantity $\log(1+2^{-400})$ is also certified at 64 bits through the stable logarithm-one-plus path. The apparent number of decimal zeros in an input is consequently an incomplete guide to the arithmetic work. Algebraic structure, cancellation and the requested observable determine the useful route.\samref{V3R04}
+
+\subsection{A source scalar and a spectral profile are different logarithms}
+\label{v3-runtime-source-log}
+
+The certified GEN3 source-log construction makes the target explicit. Its registered mean/cut source admits an ordered rational vector $a_0,\ldots,a_{s-1}$. Put $M=\sum_i a_i$. The source quantity is
+\[
+ Q=\frac{M^2}{s}
+ +\sum_{r=1}^{s-1}
+ \frac{\left(\sum_{i<r}a_i-rM/s\right)^2}{r(s-r)}.
+\]
+The native record's \texttt{mean} field retains the signed sum $M$. Its name is not an instruction to replace $M$ by $M/s$.\samref{V3R05}
+
+The same registered kernel has exact eigenvalue rule
+\[
+ \lambda_0=1,\qquad
+ \lambda_k=\frac1{k(k+1)}\quad(k\geq1).
+\]
+Projection onto its polynomial modes gives weights
+$w_k=A_k^2/\|p_k\|^2$. The scalar target and spectral target are
+\[
+ \log(1+Q),\qquad
+ \sum_kw_k\log(1+\tau\lambda_k).
+\]
+They are separately typed readouts, and neither is a log determinant. For the source $(1,-1)$ and $\tau=1$, the complete spectral expression is $2\log(3/2)$, while the scalar expression is $\log2$. The difference is mathematical content, not numerical disagreement.\samref{V3R05}
+
+After modes through $m$ have been retained, the exact residual mass is
+\[
+ R_m=\sum_i a_i^2-\sum_{k=0}^m w_k.
+\]
+It bounds remaining source energy by $R_m\lambda_{m+1}$. Full degree has zero tail; a negative residual is rejected. Adaptive refinement adds missing modes instead of recomputing the retained projections. New values of $\tau$ reuse the same source modes. A direct source-cut route separately evaluates complete $Q$ without requesting spectral projections.
+
+This eigenvalue rule belongs to the admitted mean/cut kernel. It is not imposed on an arbitrary exchange matrix because both happen to possess spectra. The source contract retains basis, dimensionless units, reference and ordered history. The logarithm consequently acts on a specified source quantity, while other operators use their own registered spectral definitions.\samref{V3R05}
+
+Numerical log evaluation uses rational range reduction and an explicit-tail rational atanh series. A tolerance-met return, a valid budget-limited enclosure and an exact symbolic expression remain distinct result states. Exhausting a term or mode budget retains the last valid certificate. An overlapping interval does not become an exact equality or ordering. These behaviors give a later consumer enough information to choose whether it needs more arithmetic, more source modes or merely the existing expression.\samref{V3R05}
+
+\subsection{Operator functions retain support and order}
+\label{v3-runtime-operator-log}
+
+A matrix logarithm requires its operator domain. The installed supported Hermitian path handles positive support with an exact zero kernel, retaining the projector and zero-extending the supported logarithm. An uncertain kernel remains unresolved. A negative-support input is not reinterpreted as a positive operator. The older modular call returns $-\log$, while ordinary GEN5 operator logarithms return $+\log$; the convention is part of the operation identity.\samref{V3R06}
+
+The completed logarithm expansion found a useful algorithmic change. The previous sixteen-state method returned unresolved spectra for a fully coupled positive repeated-mode source and repeated noncoordinate kernel blocks, although analytical projectors gave their exact spectra. The successor certifies a complete positive spectral window without separating every repeated eigenvalue.
+
+A positive Gershgorin lower bound can supply that window directly. Otherwise directed LDL pivots establish positivity, and a validated inverse row-norm bound $U$ gives
+\[
+ \lambda_{\min}\geq U^{-1}.
+\]
+The existing series then uses the complete spectral window and its tail. Certifying strict positivity before symbolic rank elimination also avoids unnecessary kernel work. Repeated modes retain their complete multiplicity without requiring a separately resolved eigenbasis.\samref{V3R07}
+
+The source-defined gain was visible before the larger capacity change. An initial 64-state attempt spent more than 159 seconds in symbolic rank work and was interrupted. The completed positive-window route took 1.306 seconds for its dense 64-state call. The matched 128-state candidate took 5.939 seconds. These timings belong to the declared nine-family, 256-bit, one-thread comparison, including its native return boundary. They identify the practical value of a better certificate rather than a general dimension-independent speed claim.\samref{V3R07}
+
+The qualification retains noncoordinate rank-one support, repeated kernel blocks, small positive modes, finite term exhaustion and irreducible source widths. Its meaningful failed and unresolved cases remain beside the successful certificates. Independent rational scalar-log/projector references check every emitted matrix entry. The resulting certificates enclose every emitted matrix entry against the separately arranged rational scalar-log and projector references.\samref{V3R07}
+
+Ordered operator response uses the same distinction between a full operator and a scalar summary. For
+\[
+ A(t)=A_0+tA_1+t^2A_2+\cdots,
+\]
+an ordered log jet retains all admitted matrix words. A Fr\'echet direction need not commute with $A_0$. The calculation differentiates the actual operator function rather than substituting a scalar derivative of a selected eigenvalue. Formal derivative order remains separate from a finite-displacement Taylor remainder, which needs its declared source control.\samref{V3R02}
+
+\subsection{Capacity is qualified at a specified workload}
+\label{v3-runtime-capacity}
+
+The capacity extension increased the shared range from 64--1024 to 64--4096 bits, general matrices from 512 to 2048, and supported logarithms from 128 to 512. One native limits definition governs admission, discovery and ordinary refinement. Thermal compatibility retains its matrix-128/log-16 contract; GEN5 thermal jets must fit their complete augmented operator within dimension 512. A large base matrix and a high derivative order cannot each consume the full bound independently.\samref{V3R03}
+
+The completed dense matrix fixture uses $A=I+J$ in dimension 2048 and a source vector with zero sum, so $Ab=b$. Every matrix entry is nonzero, and all 4096 returned real/imaginary components were checked. The supported logarithm fixture uses dimension $n=512$ and
+\[
+ A=2I+\frac{J}{8n},\qquad P=\frac Jn,\quad P^2=P.
+\]
+Its exact operator identity is
+\[
+ \log A=(\log2)I+\log(17/16)P.
+\]
+Every matrix entry and the full trace enclosed the independent reference. The large dimensions were qualified at 128 bits; 4096-bit scalar and small-matrix work was qualified separately. Their combination is an admission capacity, not a measurement of every possible large, high-precision workload.\samref{V3R03}
+
+The same extension reused a completed $N=10^{16}$ Gibbs source for order-two boundary response at 4096 bits with zero repeated original Gibbs integrations. Its original pressure uncertainty remained in the output. More arithmetic headroom improved the downstream numerical work without recasting the retained source as newly integrated at that precision. This gives capacity a useful scientific interpretation: it expands which subsequent calculations a completed source can support.
+
+The measured dense 2048 product took 26.303637 seconds, and the dense 512 supported-log case took 46.675142 seconds at their stated settings. Complete dense output preserves every entry, so storage and exact-certificate work grow with matrix dimension squared and precision. The runtime's compact spectral routes address that output problem when a complete factor representation answers the research question more efficiently.\samref{V3R03}
+
+\subsection{A completed result becomes a native operand}
+\label{v3-runtime-retained}
+
+Retained mathematics makes reuse part of the execution semantics. An object carries a kind, complete source binding, mathematical value, provenance and dependencies. Discovery can list a read-only collection without loading all coefficients. Selecting a reference requires an exact source match. Adopting that reference brings its dependency closure into the ordinary session store; the new calculation can then consume it recursively inside a matrix, polynomial or symbolic payload.\samref{V3R08}
+
+The eleven retained-result operations separate discovery, selection, retrieval, publication, execution/reuse, moments, factor comparison, symbolic composition, dependencies, export and import. Publishing a caller-supplied exact operand identifies its source; it is distinct from obtaining a newly executed mathematical answer. Export carries the chosen roots and their derivation closure. Import authenticates the supplied closure without repeating arithmetic, while preserving its original evidence.
+
+Execution reuse is keyed by the complete scientific payload and exact implementation identity, apart from its immutable output name. A different source, operand, parameter or implementation is a new mathematical request. Conversely, a repeated consumer can receive the same completed calculation under a separately retained consumer lineage. This prevents a file name or friendly label from becoming the mathematical equivalence rule.\samref{V3R08}
+
+The completed collection contains 1441 typed objects. It includes exchange levels $L=2,3,4,8,10,12,13,14$, 846 distinct larger-level integer polynomials, all 165 retained Li7 T/K pairs and 32 symbolic quartic classes. Missing levels $5,6,7,9,11$ remain absent from that seed collection. New research can publish further admitted objects through the same interface without treating an index gap as a previously solved spectrum.\samref{V3R09}
+
+The associated L14 composition demonstrates the mathematical consequence. Each local quartic family closes $268{,}435{,}456$ states over 47 partitions, represented by 90,772 factor/weight terms. The batch composed all 32 families using the retained exchange and local operators. It performed zero new exchange solves and zero new quartic solves. A complete local-pair/collective composition took 1.235260 seconds; the 32-family composition calls took 36.009 seconds.\samref{V3R09}
+
+Those are symbolic spectra retaining $J,\mu,g$ and the optional collective $\nu$. Equal all-to-all unordered-pair coupling is explicit; a physical energy scale is a separate source assignment. Each algebraic root's multiplicity is its factor multiplicity times Schur-weight multiplicity, with coincident specialized energies added. Compact references avoid expanded polynomial-degree limits and repeated coefficient materialization.
+
+Exact moments and factor comparison become inexpensive receiving questions on that retained object. The L14 normalized moment sequence begins $1,7/2,203/8,1393/8$; the L12/L14 comparison finds 23 shared factors while retaining each level's multiplicities. Fresh-process recovery returned the L14 composition with composition and moment arithmetic disabled. The acquired mathematical object, rather than a report about it, was available to the new consumer.\samref{V3R09}
+
+\subsection{From a spectrum to a complete receiving calculation}
+\label{v3-runtime-complete-source}
+
+The six cooperating GEN5 kernel families share exact expressions, operator functions, thermal response, histories/protocols, source/receiver composition and retained refinement. They use one matrix wire and ordinary source-bound references. A finite partition calculation therefore receives all declared degeneracies,
+\[
+ Z=\sum_rg_r
+ \exp\!\left(-\beta E_r+\sum_af_aQ_{ra}\right),
+\]
+while a noncommuting block source receives its full Hermitian exponent and direction. A retained complete Gibbs source supplies its absolute $\log Z=N\,{\rm pressure}$ and boundary response without replacing normalization by boundary ratios.\samref{V3R02}
+
+Complete spectral factors can likewise supply a partition sum after real-root isolation and multiplicity reconstruction. Exact preparation can survive numerical refinement while only arithmetic precision changes. These paths connect the dense exact-state foundations to modern finite thermal and operator calculations. The source remains the same mathematical object through each change of representation.
+
+The architecture also distinguishes a numerical bound from a physical interpretation. A supported log, entropy, source action or complete thermal derivative answers its registered question. It receives a physical energy, clock or matter meaning only through the corresponding source and reference map. This is how Volume III carries the constructive mathematical results of the first two volumes forward: it preserves their actual operands and makes subsequent operations composable, rather than substituting one recurring number or matrix dimension for a complete source definition.\samref{V3R02}\samref{V3R08}

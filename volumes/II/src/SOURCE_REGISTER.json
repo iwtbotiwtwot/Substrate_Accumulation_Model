@@ -1,0 +1,1439 @@
+[
+  {
+    "key": "electronic_source",
+    "path": "GEN4/volii_electronic_source1/REPORT.md",
+    "title": "Electronic construction and radial ground binding on complete nuclear sources (H002295)",
+    "bytes": 12637,
+    "sha256": "f0948064609a4de7d0ae4b3c5376d7306b6c81bb3e6f651dd122431786d83dd2",
+    "aliases": [
+      "electronic_source"
+    ]
+  },
+  {
+    "key": "radial_occupancy",
+    "path": "GEN4/volii_radial_occupancy1/REPORT.md",
+    "title": "Occupied radial atoms and exact nuclear response (H002300)",
+    "bytes": 8256,
+    "sha256": "814bee76fb2022c6689325955ba376873e1fe77dd47aefc248d5adc88ccd4a9c",
+    "aliases": [
+      "radial_occupancy"
+    ]
+  },
+  {
+    "key": "pair_derivation",
+    "path": "GEN4/volii_pair_source1/DERIVATION.md",
+    "title": "Scalar incidence plus retained polarization from one field energy (H002305)",
+    "bytes": 4220,
+    "sha256": "6875913c4aa0ae3246b9538972a1dc9d903fa3ac142dc67df70e24b361a2363a",
+    "aliases": [
+      "pair_derivation"
+    ]
+  },
+  {
+    "key": "pair_source",
+    "path": "GEN4/volii_pair_source1/REPORT.md",
+    "title": "Retained pair field and interacting atomic construction (H002305)",
+    "bytes": 7414,
+    "sha256": "a33bd313b8749de33f13b0e99c4cd543b50375bc96e5a5c27c216583a5b0b42b",
+    "aliases": [
+      "pair_source"
+    ]
+  },
+  {
+    "key": "atomic_derivation",
+    "path": "GEN4/volii_pair_source1/ATOMIC_DERIVATION.md",
+    "title": "Complete configuration interaction and full nuclear reference (H002305)",
+    "bytes": 3489,
+    "sha256": "fb90daaaf92d79ffab6b7089c4f9c1784ee6d0bcc1f4bbbbdf0ded3a0b5904e0",
+    "aliases": [
+      "atomic_derivation"
+    ]
+  },
+  {
+    "key": "outer_filling",
+    "path": "GEN4/volii_outer_filling1/REPORT.md",
+    "title": "Fully occupied atomic witnesses and electron filling (H002309)",
+    "bytes": 5613,
+    "sha256": "8819ff264718cbd2b694eacb0778a587c9a5fb75c26471d5ca015093d65b22ed",
+    "aliases": [
+      "outer_filling"
+    ]
+  },
+  {
+    "key": "radial_pod",
+    "path": "GEN4/volii_electron_radial_pod1/REPORT.md",
+    "title": "He/C/O radial refinement and installed GEN5 method adoption (H002542)",
+    "bytes": 14501,
+    "sha256": "70c17057427f4f3f3b918d8c0fbffce360296389619f7bb284c50b78332da857",
+    "aliases": [
+      "radial_pod"
+    ]
+  },
+  {
+    "key": "radial_correction",
+    "path": "SAM_HISTORY/entries/H002542_2026-10-09_ELECTRON_RADIAL_GEN5_AND_H002539_ENDPOINT_CORRECTION.md",
+    "title": "Corrected electron endpoints, radial refinement and built-in GEN5 adoption",
+    "bytes": 6395,
+    "sha256": "37f7f6a19d8a577ce6cd6f9e6abea76016780839110c3080a41825b8fcf93ee5",
+    "aliases": [
+      "radial_correction"
+    ]
+  },
+  {
+    "key": "radial_geometry",
+    "path": "GEN4/volii_lapse_field1/DERIVATION.md",
+    "title": "One radial geometry for particle and field energy (H002311)",
+    "bytes": 6394,
+    "sha256": "9a96f02787876de36eba1be3f2828b0963bb8ae9921ac9ae8bb92aef0fcb73d8",
+    "aliases": [
+      "radial_geometry"
+    ]
+  },
+  {
+    "key": "common_action",
+    "path": "GEN4/volii_action_kinetic1/REPORT.md",
+    "title": "Common action now reaches the complete occupied atomic source (H002317)",
+    "bytes": 6427,
+    "sha256": "de8c041be270281ed1c1bce17499b8f94e8f76be147938d47412a491174b8888",
+    "aliases": [
+      "common_action"
+    ]
+  },
+  {
+    "key": "recoil_moment",
+    "path": "GEN4/volii_recoil_moment1/PROOF.md",
+    "title": "Actual collective moments and true finite-mass kinetic enclosure (H002381)",
+    "bytes": 3187,
+    "sha256": "7ff111757ca1a237f447dfb746122943ec5c25eaa074f76c7506a6570fb76926",
+    "aliases": [
+      "recoil_moment"
+    ]
+  },
+  {
+    "key": "history_atomic",
+    "path": "GEN4/volii_physical_memory1/INHERITED_HISTORY_ATOMIC_CHANNEL.md",
+    "title": "Ordered atomic evolution driven by the complete retained history (H002375)",
+    "bytes": 5057,
+    "sha256": "d4b9be253df0f9511c0f43fdf779cce7a3abf3970a17a825a64561d38853e4a5",
+    "aliases": [
+      "history_atomic"
+    ]
+  },
+  {
+    "key": "quantum_contact",
+    "path": "GEN4/volii_quantum_contact1/REPORT.md",
+    "title": "Full atomic contact channel and explicit complete energy carrier (H002377)",
+    "bytes": 7589,
+    "sha256": "840f955ed886479ac65c9ceeeb63ae8da568bce6a4d005978e4986dc41dccd83",
+    "aliases": [
+      "quantum_contact"
+    ]
+  },
+  {
+    "key": "actual_atom",
+    "path": "GEN4/samland_atomic_response1/REPORT.md",
+    "title": "Actual original atom, whole-atom gauge and paid transverse contact boundary (H002543)",
+    "bytes": 11991,
+    "sha256": "9ac89363e57e3f654e263c1c8be09139210aab487dcf6c869d1d361492c275ca",
+    "aliases": [
+      "actual_atom"
+    ]
+  },
+  {
+    "key": "molecular_geometry",
+    "path": "GEN4/volii_molecular_source1/DERIVATION.md",
+    "title": "A common molecular field and an actual prepared-assembly attraction term",
+    "bytes": 8755,
+    "sha256": "6cdbcd4ae88f183ca405bcad7d6600a06aaaf8c6efd2a4ceaa90ab8aa07132a7",
+    "aliases": [
+      "molecular_geometry"
+    ]
+  },
+  {
+    "key": "carbon_moving",
+    "path": "GEN4/volii_moving_reference1/REPORT.md",
+    "title": "Complete moving-reference attraction from the retained spin source (H002348)",
+    "bytes": 5610,
+    "sha256": "f78d7831ecf1b75f4ae961d60c9a5ad6e27d6141eb2af6bf60bc589412fdffa1",
+    "aliases": [
+      "carbon_moving"
+    ]
+  },
+  {
+    "key": "oxygen_moving",
+    "path": "GEN4/volii_o16_moving1/REPORT.md",
+    "title": "The actual 8p8n source now has a complete moving molecular recipient (H002351)",
+    "bytes": 6123,
+    "sha256": "a5bdb6641a5ed2898c5279503f4987f2f6d49253ef540f3e39b2a0173256fb76",
+    "aliases": [
+      "oxygen_moving"
+    ]
+  },
+  {
+    "key": "paid_feedback",
+    "path": "GEN4/volii_feedback_field1/REPORT.md",
+    "title": "The isotope contact now has a paid field realization and spatial formation envelope (H002353)",
+    "bytes": 10029,
+    "sha256": "faeb5509d274878fe3101cb6ad0e0d7aa1fede40565be2f077999eb02a0d5801",
+    "aliases": [
+      "paid_feedback"
+    ]
+  },
+  {
+    "key": "molecular_motion",
+    "path": "GEN4/samland_molecular_motion1/REPORT.md",
+    "title": "Carbon virtual binding survives complete molecular motion (H002475)",
+    "bytes": 9167,
+    "sha256": "91600f1496d5a13fc2375d7af8dbed63c1cad727324c9326687152296fe24154",
+    "aliases": [
+      "molecular_motion"
+    ]
+  },
+  {
+    "key": "motion_derivation",
+    "path": "GEN4/samland_molecular_motion1/DERIVATION.md",
+    "title": "A normalized virtual packet with all molecular motion paid (H002475)",
+    "bytes": 8052,
+    "sha256": "def7d6b86a7728f1f37c0e4236e0bef13433a3f174ce68635ec1a805f48ab363",
+    "aliases": [
+      "motion_derivation"
+    ]
+  },
+  {
+    "key": "FND01",
+    "path": "SAM_LIVE/14_VOLII_MODULAR_CURRENT.md",
+    "title": "Volume II modular flow, source geometry and receiver channels: current authority",
+    "bytes": 32765,
+    "sha256": "252cedbf2fd676347d8e46a371b6009f8e646d350529f278f81e823b4f6e15d3",
+    "aliases": [
+      "FND01"
+    ]
+  },
+  {
+    "key": "FND02",
+    "path": "SAM_REVIEW/manuscripts/SLC_EQUAL_OBSERVABLE_DISTINCT_HISTORY_2026-09-05/manuscript.md",
+    "title": "Equal Observable States, Distinct Executable Histories: completed source-bound manuscript",
+    "bytes": 97497,
+    "sha256": "4f221dca5f7185ef631abeb6f73052c2ce90a6869a387f4c5fab3101c48b544d",
+    "aliases": [
+      "FND02"
+    ]
+  },
+  {
+    "key": "FND03",
+    "path": "GEN4/volii_theta_response1/REPORT.md",
+    "title": "Reciprocal interaction, retained source state and the Li-6 receiver algebra (H002269)",
+    "bytes": 12357,
+    "sha256": "45a71b0cfec4b51b109c77c82f65c15c233d7f161fd86d7fc6318716b8caef3c",
+    "aliases": [
+      "FND03",
+      "NUC_THETA"
+    ]
+  },
+  {
+    "key": "FND04",
+    "path": "GEN4/volii_physical_memory1/REPORT.md",
+    "title": "Actual isotope contact/carrier algebra and complete memory recipient (H002374)",
+    "bytes": 9984,
+    "sha256": "ad2c80bc67a2691d7ba2db35f7abcd7027e656031d609003fed2fb406b297314",
+    "aliases": [
+      "FND04",
+      "NUC_PHYSICAL"
+    ]
+  },
+  {
+    "key": "FND05",
+    "path": "GEN4/volii_t18_lift1/REPORT.md",
+    "title": "Actual isotope source in paired full T18 records (H002405)",
+    "bytes": 3329,
+    "sha256": "d0e5004f99109bb8d111fd62a2279821260bb3d116657083fd1ce438923310f7",
+    "aliases": [
+      "FND05"
+    ]
+  },
+  {
+    "key": "FND06",
+    "path": "GEN4/volii_physical_memory1/PROOF_ALGEBRA.md",
+    "title": "Source-defined six-relative-current contact and carrier algebra: exact derivation",
+    "bytes": 2281,
+    "sha256": "0c417ec1b440e240c568ed0d56adebf3890d181205408b316b177a2a673aea53",
+    "aliases": [
+      "FND06",
+      "NUC_ALGEBRA"
+    ]
+  },
+  {
+    "key": "FND07",
+    "path": "GEN4/volii_relative_field1/DERIVATION.md",
+    "title": "The actual matter-to-field dual recipient: relative-current field derivation (H002403)",
+    "bytes": 3111,
+    "sha256": "1942ae8dc6df6974d823ac65cd3b22146b2374d391c24446b8c9a8401e127116",
+    "aliases": [
+      "FND07"
+    ]
+  },
+  {
+    "key": "FND08",
+    "path": "GEN4/volii_quantum_wave1/REPORT.md",
+    "title": "Original isotope wave retains the ordered quantum record (H002385); exact continuum derivation linked therein",
+    "bytes": 4004,
+    "sha256": "aa700ecf31c3f9a334cfcd5a8a0bc70ce14aadd7cfd1ca8f3a5b6176e4c730a5",
+    "aliases": [
+      "FND08"
+    ]
+  },
+  {
+    "key": "FND09",
+    "path": "GEN4/volii_t18_lift1/DERIVATION.md",
+    "title": "Actual eighteen-rotor encoding and the whole receiving operator: complete phase/source map",
+    "bytes": 3627,
+    "sha256": "359dcc95810a4db79e38362fe1509a1be281953f97ce98db052f2ab212fb7862",
+    "aliases": [
+      "FND09"
+    ]
+  },
+  {
+    "key": "FND10",
+    "path": "GEN4/volii_physical_memory1/FINITE_MEMORY_DOMAIN.md",
+    "title": "Finite contact-window second moments and the boundary domain",
+    "bytes": 2108,
+    "sha256": "df5f2d6d397bd674de0eb96fd06eaaf9899bfb27fa51f627839c3a7022701681",
+    "aliases": [
+      "FND10"
+    ]
+  },
+  {
+    "key": "FND11",
+    "path": "GEN4/volii_physical_memory1/PAIR_MEMORY_RECIPIENT.md",
+    "title": "Full paired contact moments on the original source: analytic memory recipient",
+    "bytes": 4434,
+    "sha256": "2879c326809dfacb27a85096b366db335e17f02547555baef609705b7318931f",
+    "aliases": [
+      "FND11"
+    ]
+  },
+  {
+    "key": "FND12",
+    "path": "GEN4/volii_relative_field1/REPORT.md",
+    "title": "Actual relative-current field construction and complete edge formation (H002403)",
+    "bytes": 6138,
+    "sha256": "d9bcb680dde0cfe7746dd90c5c86ef914d6cafbd512793ba5127e41b867796a9",
+    "aliases": [
+      "FND12"
+    ]
+  },
+  {
+    "key": "FND13",
+    "path": "GEN4/volii_quantum_wave1/DERIVATION.md",
+    "title": "Exact continuum source propagation: finite-time Weyl history and complete work ledger",
+    "bytes": 3068,
+    "sha256": "834803938983b3f5405ebd1682b3b18e1e75636c409c71d2483499c5c31dcd79",
+    "aliases": [
+      "FND13"
+    ]
+  },
+  {
+    "key": "NUC_TENSOR",
+    "path": "GEN4/volii_tensor_assembly1/REPORT.md",
+    "title": "Typed tensors, actual Li6 contact receipts and source response",
+    "bytes": 11071,
+    "sha256": "eacc7547f7aec736b7c1ae3e55fb2317e3fe5685b4b3384ce2286a1620a3f1a3",
+    "aliases": [
+      "NUC_TENSOR"
+    ]
+  },
+  {
+    "key": "NUC_ISOTOPE",
+    "path": "GEN4/volii_isotope_spin1/REPORT.md",
+    "title": "Complete Li6 contact-to-spin construction and energy-reference experiments",
+    "bytes": 13060,
+    "sha256": "6827e30235b6650e45844db7a22b39d3cf5583e9da1181d5e2bc984ae21cf510",
+    "aliases": [
+      "NUC_ISOTOPE",
+      "SPX_ISOTOPE"
+    ]
+  },
+  {
+    "key": "NUC_DEPTH",
+    "path": "GEN4/volii_depth_square1/REPORT.md",
+    "title": "Occupied eight-port interface and microscopic quartet channels",
+    "bytes": 6290,
+    "sha256": "e79b8df5156d192545693f8e810c41362dd5e0a0aea3d3a0b1ab25bfb3c409ce",
+    "aliases": [
+      "NUC_DEPTH"
+    ]
+  },
+  {
+    "key": "NUC_DEPTH_DERIV",
+    "path": "GEN4/volii_depth_square1/DERIVATION.md",
+    "title": "Exact occupied-interface, preparation and parity-module derivation",
+    "bytes": 4830,
+    "sha256": "c2e42ba2026356de0bad677099ddf0abe905230869df169a06f7bd75c5bcb97e",
+    "aliases": [
+      "NUC_DEPTH_DERIV"
+    ]
+  },
+  {
+    "key": "NUC_THERMAL",
+    "path": "GEN4/volii_conditional_thermal1/REPORT.md",
+    "title": "Original conditional thermal factors and paid isotope contact",
+    "bytes": 5494,
+    "sha256": "b33989d838f51a5b51bccb1d956d71b18abbd4cf3ccfb908e3e7cbb02f99dc4d",
+    "aliases": [
+      "NUC_THERMAL",
+      "SPX_THERMAL"
+    ]
+  },
+  {
+    "key": "NUC_THERMAL_DERIV",
+    "path": "GEN4/volii_conditional_thermal1/DERIVATION.md",
+    "title": "Complete original-source partition factors and same-preparation work",
+    "bytes": 2847,
+    "sha256": "63fd971d2d4c02579eda0131f481fcb8e059eec11b64ae3f70705a0c66a7d135",
+    "aliases": [
+      "NUC_THERMAL_DERIV"
+    ]
+  },
+  {
+    "key": "NUC_C12",
+    "path": "GEN4/volii_c12_formation1/REPORT.md",
+    "title": "Three complete He4 cores: C12 inventory, formation and thermal contraction",
+    "bytes": 8816,
+    "sha256": "0cdd63459707e849ef530a6cdb7a175546ee3e25ce5fc761f15c928d0a207d66",
+    "aliases": [
+      "NUC_C12"
+    ]
+  },
+  {
+    "key": "NUC_C12_DERIV",
+    "path": "GEN4/volii_c12_formation1/DERIVATION.md",
+    "title": "C12 conditional contraction and common phase-formation reference",
+    "bytes": 4442,
+    "sha256": "209e69d31268c875845c6436fde6eb0d3adec61db065258cb5823d2b5400a353",
+    "aliases": [
+      "NUC_C12_DERIV"
+    ]
+  },
+  {
+    "key": "NUC_FIELD",
+    "path": "GEN4/volii_nuclear_field1/REPORT.md",
+    "title": "Nuclear field response and exact two-factor spin source",
+    "bytes": 12373,
+    "sha256": "eef0b3db04f6674bddc3773f34693c76d020ac6343020c21552ac9e41a3af0a9",
+    "aliases": [
+      "NUC_FIELD"
+    ]
+  },
+  {
+    "key": "NUC_O16",
+    "path": "GEN4/volii_o16_source1/REPORT.md",
+    "title": "Four retained He4 sources, complete 8p8n formation and e8 recipient",
+    "bytes": 7309,
+    "sha256": "7b66c7c7b1e2b0dbb27f4f6fa3a8912c23ef17633ab166e384d89006eba999fa",
+    "aliases": [
+      "NUC_O16"
+    ]
+  },
+  {
+    "key": "NUC_O16_DERIV",
+    "path": "GEN4/volii_o16_source1/DERIVATION.md",
+    "title": "Four-core source, complete shell self and common formation reference",
+    "bytes": 6438,
+    "sha256": "3af55825d2fafe9d692b1ab0dbfe5df6c1bb3ae52a7f716be71daf498490f38a",
+    "aliases": [
+      "NUC_O16_DERIV"
+    ]
+  },
+  {
+    "key": "NUC_CAUSAL",
+    "path": "GEN4/volii_causal_profiles1/REPORT.md",
+    "title": "Full causal shell field, original phase events and outgoing energy",
+    "bytes": 8019,
+    "sha256": "df5d1e05e8bd4ffcdd9689755b75bbef1fe133f52bc27c65de1943011b69a627",
+    "aliases": [
+      "NUC_CAUSAL"
+    ]
+  },
+  {
+    "key": "NUC_JOINT",
+    "path": "GEN4/volii_joint_memory1/REPORT.md",
+    "title": "Joint isotope phase/field thermal source and physical nine-readout memory",
+    "bytes": 13026,
+    "sha256": "afa53f406d2f9ec6ee489630ca980dd8fc9c9deb6b4b9c3d00f11e4cef8620f1",
+    "aliases": [
+      "NUC_JOINT"
+    ]
+  },
+  {
+    "key": "NUC_WHOLE",
+    "path": "GEN4/volii_whole_contact1/REPORT.md",
+    "title": "Whole-source contact form, accepted Palm preparation and changed-source wave leg",
+    "bytes": 9206,
+    "sha256": "51d1838c19e5bcb5f24f2c7377d49c548ea1c03f2ea3f58647d700a13a365013",
+    "aliases": [
+      "NUC_WHOLE"
+    ]
+  },
+  {
+    "key": "NUC_BOUNDARY",
+    "path": "GEN4/volii_boundary_process1/REPORT.md",
+    "title": "Successive isotope contact process and retained-history source bounds",
+    "bytes": 10093,
+    "sha256": "9db2692c83736cfc5b28cfc8666bf994a831529f4a99eb623ecd7a2f391ffcb3",
+    "aliases": [
+      "NUC_BOUNDARY"
+    ]
+  },
+  {
+    "key": "NUC_BOUNDARY_PROOF",
+    "path": "GEN4/volii_boundary_process1/PROOF.md",
+    "title": "Exact Volterra history identity and finite-horizon process construction",
+    "bytes": 14539,
+    "sha256": "ecb9a01cd7e451676f1563a9f6b32d977754ebbaada102353b742fea1e1547a2",
+    "aliases": [
+      "NUC_BOUNDARY_PROOF"
+    ]
+  },
+  {
+    "key": "NUC_WEAK",
+    "path": "GEN4/volii_boundary_process1/WEAK_BOUNDARY_DOMAIN.md",
+    "title": "Complete canonical weak boundary balance and trace domain",
+    "bytes": 4898,
+    "sha256": "37e33801f121f39fb1bf911b4e937c8ca4eaba7b5ff11326335375fd2774b51e",
+    "aliases": [
+      "NUC_WEAK"
+    ]
+  },
+  {
+    "key": "NUC_PHYSICAL_PROOF",
+    "path": "GEN4/volii_physical_memory1/PROOF.md",
+    "title": "Whole source metric, exact relative-memory coefficient and contact window",
+    "bytes": 6283,
+    "sha256": "d3aee5eaffcb52a393773559f2d6a622a458a847d3d17382ee3a382f6be134f6",
+    "aliases": [
+      "NUC_PHYSICAL_PROOF"
+    ]
+  },
+  {
+    "key": "NUC_FRAGMENT",
+    "path": "GEN4/volii_fragment_action1_20261016/REPORT.md",
+    "title": "He3 actual path, independent fragment source and complete paid conditional windows",
+    "bytes": 10004,
+    "sha256": "46baab9f6b0c09aeb79cdf924b03129a0185153de52f27bc5700d0fe58cc0f63",
+    "aliases": [
+      "NUC_FRAGMENT",
+      "map-fragment"
+    ]
+  },
+  {
+    "key": "NUC_FRAGMENT_ACTION",
+    "path": "GEN4/volii_fragment_action1_20261016/action/DERIVATION.md",
+    "title": "Original joint action, connector incidence and mandatory switching work",
+    "bytes": 6784,
+    "sha256": "42ad5c5435a638135b5f1e9d4616465337be00ef3e756e5686f343e0f4e63dfa",
+    "aliases": [
+      "NUC_FRAGMENT_ACTION"
+    ]
+  },
+  {
+    "key": "NUC_NEUTRON",
+    "path": "GEN4/volii_neutron_cell1/REPORT.md",
+    "title": "Ordered unit-neutron source cells and complete signed common-energy work",
+    "bytes": 9767,
+    "sha256": "cffe30d70e996cfca22f5290c228fb6d51edb8110cff5f5d3b6b265285db9680",
+    "aliases": [
+      "NUC_NEUTRON"
+    ]
+  },
+  {
+    "key": "NUC_DC",
+    "path": "GEN4/volii_dc_exchange1/REPORT.md",
+    "title": "Complete paired D/C source, ordered local histories and paid field/free references",
+    "bytes": 11988,
+    "sha256": "9c46bfee547ff3e7543bcfd5c7e16c2fafa84caf47849aad47f04ec7b45f9423",
+    "aliases": [
+      "NUC_DC"
+    ]
+  },
+  {
+    "key": "NUC_CLOCK",
+    "path": "GEN4/volii_contact_clock1/REPORT.md",
+    "title": "Isotope field-contact clock with complete preparation, fast-mode acceptance and boundary balance",
+    "bytes": 10747,
+    "sha256": "c28da5badd49dcd169b3b7835e7356e8ed038e3948c3a47a7daf2b9abd91fc53",
+    "aliases": [
+      "NUC_CLOCK"
+    ]
+  },
+  {
+    "key": "map-carbon",
+    "path": "GEN4/electron_isotope_panel1_20261017/REPORT.md",
+    "title": "C13 electron expansion: complete source-preserving prepared family",
+    "bytes": 7300,
+    "sha256": "ef6ab2a2b25eb86e77d6c133476524a99aca3199f64526119d8bcedbfb556a3b",
+    "aliases": [
+      "map-carbon"
+    ]
+  },
+  {
+    "key": "map-light",
+    "path": "GEN4/neutron_electron_bridge1_20261017/REPORT.md",
+    "title": "Neutron-to-electron source bridge: completed light-isotope test",
+    "bytes": 7447,
+    "sha256": "20ce8043d879d995a70731fe41c337a7a0bd2e85ea06c56c22b427ab0679e2ea",
+    "aliases": [
+      "map-light"
+    ]
+  },
+  {
+    "key": "map-plan",
+    "path": "GEN4/binding_no_fit1_20261017/PLAN.txt",
+    "title": "Binding predictions without fitting nuclear binding energies: completed source preparation",
+    "bytes": 8964,
+    "sha256": "b2b381fc4083499881a8ac0381095c88be1216989b324b3e83e3af1ec9268433",
+    "aliases": [
+      "map-plan"
+    ]
+  },
+  {
+    "key": "SPC01",
+    "path": "GEN4/spin_composition_covariance1/PROOF.md",
+    "title": "Actual composition scores, field covariance and complete memory response (H002242)",
+    "bytes": 8656,
+    "sha256": "bc157d366ea9de8e042417648ffdeabd6f2dac487b8e1d89f8c3c5b952b73476",
+    "aliases": [
+      "SPC01"
+    ]
+  },
+  {
+    "key": "SPC02",
+    "path": "GEN4/spin_composition_covariance1/LEADING.md",
+    "title": "Complete signed leading composition law: source family, root tangents and full-field remainder",
+    "bytes": 6641,
+    "sha256": "c1e042c0552ef19800bb8dc4ae649ffac5ddb3fff7ae76d75128577d3c982a4c",
+    "aliases": [
+      "SPC02"
+    ]
+  },
+  {
+    "key": "SPC03",
+    "path": "GEN4/spin_composition_cancel1/PROOF.md",
+    "title": "Unique composition cancellation and the complete finite correction (H002243)",
+    "bytes": 17611,
+    "sha256": "b4359c5cba622f48c8f25af239337778980d7f79da490eb9eca73ef1d7345b44",
+    "aliases": [
+      "SPC03"
+    ]
+  },
+  {
+    "key": "SPC04",
+    "path": "GEN4/spin_composition_fifth1/PROOF.md",
+    "title": "Complete fifth coefficient and second common thermal correction (H002246)",
+    "bytes": 13290,
+    "sha256": "5eec795cb6ae3b32030b2c7421611a12b2400627b99f2b01228abc3a2be08d4a",
+    "aliases": [
+      "SPC04"
+    ]
+  },
+  {
+    "key": "SPC05",
+    "path": "GEN4/spin_composition_sixth1/PROOF.md",
+    "title": "Complete sixth response and a positive hidden-feedback invariant (H002249)",
+    "bytes": 14221,
+    "sha256": "3c3f3505c0e2ec25a0241917c7c294173c6f3fb77f1eab1e8449ad60a99cf068",
+    "aliases": [
+      "SPC05"
+    ]
+  },
+  {
+    "key": "SPC06",
+    "path": "GEN4/spin_kinetic_overlap1/PROOF.md",
+    "title": "Kinetic overlap, complete-history comparison and the intrinsic response J(z) (H002253)",
+    "bytes": 18597,
+    "sha256": "3d23685ce9a949c7a83b8d809527e2b001955c6d0e7863f266125a7d154a1248",
+    "aliases": [
+      "SPC06"
+    ]
+  },
+  {
+    "key": "SPC07",
+    "path": "GEN4/spin_kinetic_overlap1/REPORT.md",
+    "title": "Exact kinetic mismatch and the relaxation-scale response J(z): completed outcomes",
+    "bytes": 8002,
+    "sha256": "eed9f636c44bd2fcbb62066d261c739558df47088d78039eb7e1a4d551012be7",
+    "aliases": [
+      "SPC07"
+    ]
+  },
+  {
+    "key": "SPC08",
+    "path": "GEN4/spin_composition_response1/PROOF.md",
+    "title": "Signed composition sensitivity with complete mean, forcing and middle relay (H002240)",
+    "bytes": 5562,
+    "sha256": "dbaf35ff937ba6e91c650fe7b0947c7a1161184058cdc865a2cad7c0b11a1192",
+    "aliases": [
+      "SPC08"
+    ]
+  },
+  {
+    "key": "SPC09",
+    "path": "GEN4/spin_kinetic_overlap1/CHANNEL_MAP.md",
+    "title": "Carrying the spin mechanism into the Volume I source-to-clock interface",
+    "bytes": 3454,
+    "sha256": "610e82b81fa1dbe87790f0ccd3ee3bbb8a9b686c978a8b32a6435a9413b70b9a",
+    "aliases": [
+      "SPC09"
+    ]
+  },
+  {
+    "key": "SPC10",
+    "path": "GEN4/spin_composition_covariance1/REPORT.md",
+    "title": "Composition now has an explicit signed memory law: 162-source completed panel",
+    "bytes": 7181,
+    "sha256": "d352fae1aafa513708aa0eba33ed3e4a2072ea13577f317d7633775cde22c974",
+    "aliases": [
+      "SPC10"
+    ]
+  },
+  {
+    "key": "SPC11",
+    "path": "GEN4/spin_composition_cancel1/REPORT.md",
+    "title": "Unique composition cancellation and a shared finite thermal correction: completed source comparisons",
+    "bytes": 4959,
+    "sha256": "6b38d8adb0d791477306884b9e24ffff612c8c401036431c761b1fc626eae069",
+    "aliases": [
+      "SPC11"
+    ]
+  },
+  {
+    "key": "SPC12",
+    "path": "GEN4/spin_composition_fifth1/REPORT.md",
+    "title": "A second common correction gives composition sensitivity O(N^-3/2): completed outcomes",
+    "bytes": 5830,
+    "sha256": "50043cb053ec80956a3bb7f416462b94e31624305eabae55cc78d217bee02dd2",
+    "aliases": [
+      "SPC12"
+    ]
+  },
+  {
+    "key": "SPC13",
+    "path": "GEN4/spin_composition_sixth1/REPORT.md",
+    "title": "Sixth-order composition response: an intrinsic positive hidden effect",
+    "bytes": 4497,
+    "sha256": "e8059ae6af3232241bff478bea9a94ba2e570dc496ca554904dc56a6e48c6ccb",
+    "aliases": [
+      "SPC13"
+    ]
+  },
+  {
+    "key": "SPC14",
+    "path": "GEN4/spin_composition_covariance1/UNIFORM.md",
+    "title": "Uniform composition susceptibility on the compact critical family",
+    "bytes": 9484,
+    "sha256": "857a595eca0fc8a50e48792f849a2d23e33e3c1d333d718c85d0b628c4dbe112",
+    "aliases": [
+      "SPC14"
+    ]
+  },
+  {
+    "key": "SPC15",
+    "path": "GEN4/spin_parity_mixed1/DERIVATION.md",
+    "title": "Complete mixed field recipient: physical sixteen-hidden-spin parity module and neutral normalization (H002294)",
+    "bytes": 5572,
+    "sha256": "2da4688475486c66667354f30cd958752b6c9f3964c13ea6058785cb8e415f36",
+    "aliases": [
+      "SPC15"
+    ]
+  },
+  {
+    "key": "SPC16",
+    "path": "GEN4/spin_parity_tuning1/DERIVATION.md",
+    "title": "Additional thermal corrections for the complete neutral parity source (H002296)",
+    "bytes": 4279,
+    "sha256": "4763ea8e45817b4889b2117b127a4abd84cabb4b1fd9a0f46fcf280e6f173d0e",
+    "aliases": [
+      "SPC16"
+    ]
+  },
+  {
+    "key": "SPC17",
+    "path": "GEN4/spin_parity_tuning1/REPORT.md",
+    "title": "Source-derived parity temperature tuning: completed eighteen-source calculation",
+    "bytes": 5609,
+    "sha256": "c55d65aa35dd8d94829d7a2ffaee821484dfb628032788d7c64826be8a078185",
+    "aliases": [
+      "SPC17"
+    ]
+  },
+  {
+    "key": "SPC18",
+    "path": "GEN4/spin_parity_control1/PROOF.md",
+    "title": "Source-derived physical parity control and its remaining rank-three response (H002301)",
+    "bytes": 6790,
+    "sha256": "c99172c0e3a2895a2f5a5a58db9f3339bf155873ec9cadd64ba102b901480bb0",
+    "aliases": [
+      "SPC18"
+    ]
+  },
+  {
+    "key": "SPC19",
+    "path": "GEN4/spin_port_control1/DERIVATION.md",
+    "title": "Four physical port edges remove the transverse sixth response: complete clean and small-edge branches (H002306)",
+    "bytes": 3842,
+    "sha256": "fb6026d207cb891a318b5bed5e884834161074276117f69fc1708cacaee79514",
+    "aliases": [
+      "SPC19"
+    ]
+  },
+  {
+    "key": "SPC20",
+    "path": "GEN4/spin_port_thermal1/REPORT.md",
+    "title": "Complete finite four-edge/parity/thermal source: eighteen actual controls and 216 native calls (H002314)",
+    "bytes": 5912,
+    "sha256": "25e56f45928c6cab720db1f380a8936528a5a6b99894432baf1502ada290164d",
+    "aliases": [
+      "SPC20"
+    ]
+  },
+  {
+    "key": "SPC21",
+    "path": "GEN4/spin_parity_control1/REPORT.md",
+    "title": "Physical parity control suppresses complete J1 while retaining the J4 response: actual eighteen-source panel",
+    "bytes": 6179,
+    "sha256": "9e951286a327078774fa1f39499798cba231e7f821264837ec49af0a14f5c13b",
+    "aliases": [
+      "SPC21"
+    ]
+  },
+  {
+    "key": "SPX_VOLI",
+    "path": "SAM_LIVE/15_VOLI_EXPANSION_CURRENT.md",
+    "title": "Volume I expansion: current source, clock, geometry and physical interfaces",
+    "bytes": 32645,
+    "sha256": "190835b4dbdcc05b3f546e1252ae8609a0227981b37f764644bd38674b8adc93",
+    "aliases": [
+      "SPX_VOLI"
+    ]
+  },
+  {
+    "key": "SPX_VOLIII",
+    "path": "volume_III/SAM_VOLUME_III_COMPUTATION_TECHNICAL_SPINE.md",
+    "title": "Volume III computation technical spine: exact spin state spaces and executable handoffs",
+    "bytes": 100406,
+    "sha256": "1996303d0940dd5dca12aa03ff3c9a426772272095df683346a75961eab895bb",
+    "aliases": [
+      "SPX_VOLIII"
+    ]
+  },
+  {
+    "key": "SPX_CHANNEL",
+    "path": "GEN4/source_clock_spectrum1/CHANNEL_MAP.md",
+    "title": "Physical channels and the shared microscopic source-clock assay",
+    "bytes": 5332,
+    "sha256": "7a0aebb5128ed66b3b00cf613266f6f8dbeb0ce8c1df2a93e29698252fcffe44",
+    "aliases": [
+      "SPX_CHANNEL"
+    ]
+  },
+  {
+    "key": "SPX_CLOCK",
+    "path": "GEN4/voli_source_clock1/CLOCK_MECHANISM.md",
+    "title": "Uniform source-clock consequences and the Volume I mechanism",
+    "bytes": 3817,
+    "sha256": "0bdbe98d673e080e6377e5fbed6c22d0bc742a8e31171df378676efebe812b48",
+    "aliases": [
+      "SPX_CLOCK"
+    ]
+  },
+  {
+    "key": "SPX_CLOCK_PROOF",
+    "path": "GEN4/voli_source_clock1/PROOF.md",
+    "title": "Microscopic lapse compatibility, seven-spin source deformation and complete masked clocks",
+    "bytes": 9590,
+    "sha256": "ebbe417a518fa8d5038377f0361cc81436733de407855b74f599ca91516f7877",
+    "aliases": [
+      "SPX_CLOCK_PROOF"
+    ]
+  },
+  {
+    "key": "SPX_SHARED",
+    "path": "GEN4/voli_chvi_shared_routes1_20261017/REPORT.txt",
+    "title": "Volume I Chapter VI: integrated quantum routes, shared fields and retained records",
+    "bytes": 7947,
+    "sha256": "726a8025774c7102a9706a68d55e804eafe7f5e9bc6e52743dc23eeed7920bec",
+    "aliases": [
+      "SPX_SHARED"
+    ]
+  },
+  {
+    "key": "SPX_DIRICHLET",
+    "path": "GEN4/spin_source_moments_gcp1_20261017/REPORT.md",
+    "title": "Latest original-source residual Dirichlet result and six-coordinate spin receiver",
+    "bytes": 7698,
+    "sha256": "215b38de50b8162e5584f4b73e44b0c828ed2cf4c2df51d2ec6d977f58de207f",
+    "aliases": [
+      "SPX_DIRICHLET",
+      "SPR_EDGE"
+    ]
+  },
+  {
+    "key": "SPX_METRIC",
+    "path": "GEN4/spin_interaction_metric1/REPORT.md",
+    "title": "Retained interaction mapped to common spin energy and complete receivers",
+    "bytes": 8384,
+    "sha256": "23ddb25320466d2db0718e40a7601df6d563fed5ac228fc07f5b1ccc296cbdf4",
+    "aliases": [
+      "SPX_METRIC"
+    ]
+  },
+  {
+    "key": "SPX_INSTALL",
+    "path": "GEN4/spin_clock_install1_20261014/REPORT.md",
+    "title": "Recorded spin methods, source clock and retained native operand access",
+    "bytes": 6290,
+    "sha256": "bd3a657ce1df174b71fdbe03dcc9057984f7862c3d7f4f5310fac74e129f0dc7",
+    "aliases": [
+      "SPX_INSTALL"
+    ]
+  },
+  {
+    "key": "SPX_LAYERED",
+    "path": "GEN4/spin_layered_install1_20261017/REPORT.md",
+    "title": "Layered dense-source exact method and completed ground-certificate solver installation",
+    "bytes": 1655,
+    "sha256": "0b800d9562f63d1b751f83926308a1d091ba96aa0fe6eb7a6e25dc803fb6e55b",
+    "aliases": [
+      "SPX_LAYERED"
+    ]
+  },
+  {
+    "key": "SPF_SYNTHESIS",
+    "path": "manuscripts/drafts/frustrated-spin-work-to-date-20261006/paper.md",
+    "title": "Exact spectra, critical response and microscopic dynamics in frustrated spin sources: completed work through 6 October",
+    "bytes": 106808,
+    "sha256": "5311e52dc3d84ddb2ce88306a8cbaff2bbeadee576921bbe4a3f980902d20801",
+    "aliases": [
+      "SPF_SYNTHESIS"
+    ]
+  },
+  {
+    "key": "SPF_N2000",
+    "path": "GEN4/frustrated_spin_n2000_manuscript1_v1_2/MANUSCRIPT.md",
+    "title": "Exact joint energy-magnetization-boundary densities for six complete N2000 Ising graphs",
+    "bytes": 58148,
+    "sha256": "62504f3fb5c333ce666106ef63778b5bb651f4bea62c6bb4dbe93f4db18b6401",
+    "aliases": [
+      "SPF_N2000"
+    ]
+  },
+  {
+    "key": "SPF_INSTALL",
+    "path": "GEN4/spin_joint_install1/RESULT.md",
+    "title": "Shared exact packet and joint spin capability: completed installation and domain adoption",
+    "bytes": 6806,
+    "sha256": "0a89289c3aae8d170f87163478c9f36aca761b4da71a6455db313ed75ecff252",
+    "aliases": [
+      "SPF_INSTALL"
+    ]
+  },
+  {
+    "key": "SPF_THERMAL",
+    "path": "manuscripts/drafts/spin-thermal-coefficients-20261002/paper.md",
+    "title": "Exact thermal boundaries and selected densities for structured signed Ising models",
+    "bytes": 25654,
+    "sha256": "e863a5dd2f1189cbbfb091dcd33723d43b39d7f813d2fc402032f8a8597df1aa",
+    "aliases": [
+      "SPF_THERMAL"
+    ]
+  },
+  {
+    "key": "SPF_TRANSITION",
+    "path": "GEN4/spin_transition1/REPORT.md",
+    "title": "Global transition, boundary memory and occupied exact counts",
+    "bytes": 8923,
+    "sha256": "d8c732c7fb0887a6fa1eb4874946f3d5f666887ba17b2389aa47926a8733b18e",
+    "aliases": [
+      "SPF_TRANSITION"
+    ]
+  },
+  {
+    "key": "SPF_RATIO",
+    "path": "GEN4/spin_ratio1/REPORT.md",
+    "title": "Free/core ratios and exact tricritical first ordering",
+    "bytes": 5242,
+    "sha256": "791bb6e35d3ef99a0271b47ed0d4c231a20f4b43edc3bded6ad29f61197f0945",
+    "aliases": [
+      "SPF_RATIO"
+    ]
+  },
+  {
+    "key": "SPF_TRIANGLE",
+    "path": "GEN4/spin_triangle1/REPORT.md",
+    "title": "Negative triangles and the exact globally first eighth-order critical point",
+    "bytes": 6753,
+    "sha256": "47a3c2143d80dac9a31c2f35fdba070a502c0223a5013a8913650143457511f8",
+    "aliases": [
+      "SPF_TRIANGLE"
+    ]
+  },
+  {
+    "key": "SPF_OCTIC",
+    "path": "GEN4/spin_octic1/REPORT.md",
+    "title": "Complete finite eighth-order source and first correction",
+    "bytes": 10500,
+    "sha256": "82e20748dccfaba9ff0ce45f93947ec26f71cf3d9e5ceb6fbc0d71ba2ec5132b",
+    "aliases": [
+      "SPF_OCTIC"
+    ]
+  },
+  {
+    "key": "SPF_UNFOLD",
+    "path": "GEN4/spin_unfold1/REPORT.md",
+    "title": "Global physical unfolding of the mixed critical source",
+    "bytes": 10802,
+    "sha256": "e7ce4640875e5fe5d1da276b3a1ec19a375d6b7744994eb6352d04e1911d5006",
+    "aliases": [
+      "SPF_UNFOLD"
+    ]
+  },
+  {
+    "key": "SPF_CROSSOVER",
+    "path": "GEN4/spin_crossover1/REPORT.md",
+    "title": "Uniform finite crossover from the eighth-order origin to ordered endpoints",
+    "bytes": 7909,
+    "sha256": "7d4b1daec83b5a7170c074b493c1e5a7e24f286193d4a9a826ee90188b5290b1",
+    "aliases": [
+      "SPF_CROSSOVER"
+    ]
+  },
+  {
+    "key": "SPF_FIG_TRANSITION",
+    "path": "manuscripts/drafts/frustrated-spin-work-to-date-20261006/figures/transition_memory.pdf",
+    "title": "Retained transition and boundary-memory figure from completed finite-source data",
+    "bytes": 21328,
+    "sha256": "61ed87574b7968a03050462a91151e39e1ba655f92c984772bdec7e776b27a17",
+    "aliases": [
+      "SPF_FIG_TRANSITION"
+    ]
+  },
+  {
+    "key": "SPF_FIG_OCTIC",
+    "path": "manuscripts/drafts/frustrated-spin-work-to-date-20261006/figures/octic_corrections.pdf",
+    "title": "Retained eighth-order finite-correction figure at the zero thermal coordinate",
+    "bytes": 20641,
+    "sha256": "712e3b8637bce88e428c9102296eef40a88e3f0c9347ec4e94dd977a33ddef98",
+    "aliases": [
+      "SPF_FIG_OCTIC"
+    ]
+  },
+  {
+    "key": "SPM01",
+    "path": "GEN4/hidden_boundary_wildfowl1/REPORT.md",
+    "title": "Hidden-boundary source design, exact parity interactions and invisible interiors",
+    "bytes": 5030,
+    "sha256": "edca59d252460cdcc43712b22895fc81e0a5e5d1bde1859d745337de5ddd34e1",
+    "aliases": [
+      "SPM01"
+    ]
+  },
+  {
+    "key": "SPM02",
+    "path": "GEN4/interaction_compiler1/REPORT.md",
+    "title": "Selective interaction compiler: exact support, nonnegative copies and local modules",
+    "bytes": 4027,
+    "sha256": "9e22abe8ae453b7d5ca96cb5b82a9b3292286b4e06bca41d2a33248c95e2e856",
+    "aliases": [
+      "SPM02"
+    ]
+  },
+  {
+    "key": "SPM03",
+    "path": "GEN4/unequal_copy_ratios1/DERIVATION.md",
+    "title": "Integer ratio compiler, fixed-dictionary minimum counts and invisible copy layers",
+    "bytes": 4303,
+    "sha256": "c892c83d8f2841a0636f6ac7596e2bfbb013106103c1ac31dc6e904598db47c3",
+    "aliases": [
+      "SPM03"
+    ]
+  },
+  {
+    "key": "SPM04",
+    "path": "GEN4/two_scale_ratios1/REPORT.md",
+    "title": "Exact all-temperature pair/quartet ratio construction from two coupling scales",
+    "bytes": 4133,
+    "sha256": "45b03fb3e143c1e7676b8b6c5939c453e685de2bbbeed17782e8088526052938",
+    "aliases": [
+      "SPM04"
+    ]
+  },
+  {
+    "key": "SPM05",
+    "path": "GEN4/two_scale_ratios1/DERIVATION.md",
+    "title": "Two-scale log-cosh identity and rational ratio realization",
+    "bytes": 4093,
+    "sha256": "d9c6177677cc606e846f718c2f507779afddf9e46e94e50ce5067a9a6736f10f",
+    "aliases": [
+      "SPM05"
+    ]
+  },
+  {
+    "key": "SPM06",
+    "path": "GEN4/volii_duck_expansion2/LUMPED_SOURCE.json",
+    "title": "Actual H28 source: ten hidden groups, conditional generator and normalized boundary preparation",
+    "bytes": 6285,
+    "sha256": "e4bcd284e6e11de1493c5df20451a095bbfa9ea13ea6092afb2ed9acd4028fe8",
+    "aliases": [
+      "SPM06"
+    ]
+  },
+  {
+    "key": "SPM07",
+    "path": "GEN4/volii_memory1/DERIVATION.md",
+    "title": "Exact microscopic count grouping, reversal sectors and retained-memory projection",
+    "bytes": 5440,
+    "sha256": "c063c764237130234f36da0b5f5ff558c57ad93ea5e16117f9c36e0e0a2c1039",
+    "aliases": [
+      "SPM07"
+    ]
+  },
+  {
+    "key": "SPM08",
+    "path": "GEN4/volii_feedback1/PROOF.md",
+    "title": "Conditional hidden gap, full rate-covariance Gram and all-lag memory certificate",
+    "bytes": 16615,
+    "sha256": "3c448330ed6766f9594bb33cdda86460c11850a4740bcb11efa87b44c74ede4d",
+    "aliases": [
+      "SPM08"
+    ]
+  },
+  {
+    "key": "SPM09",
+    "path": "GEN4/volii_memory2/REPORT.md",
+    "title": "Complete eight-column memory kernel and direct endpoint-reuse comparison",
+    "bytes": 5827,
+    "sha256": "427024f03f0ed0aa637316e5dace90ab0a59f28176165ca9b9841e15bdbfeb10",
+    "aliases": [
+      "SPM09"
+    ]
+  },
+  {
+    "key": "SPM10",
+    "path": "GEN4/volii_feedback1/REPORT.md",
+    "title": "Uniform hidden-memory control on the original microscopic source",
+    "bytes": 7414,
+    "sha256": "8824b329e8beb70ac744837ea10df03bcbf49dde4f1a019a555fd9c0206eda75",
+    "aliases": [
+      "SPM10"
+    ]
+  },
+  {
+    "key": "SPM11",
+    "path": "GEN4/volii_protocol_cache1/PROOF.md",
+    "title": "Complete protocol map and preparation/between/within memory budget",
+    "bytes": 9215,
+    "sha256": "7a22b95450656fb9f488f4f1353e8c67570a7b9af6bbe9fb807aff75c7a5776f",
+    "aliases": [
+      "SPM11"
+    ]
+  },
+  {
+    "key": "SPM12",
+    "path": "GEN4/volii_protocol_cache1/REPORT.md",
+    "title": "Full microscopic protocol cache and exact stored-consumer reuse",
+    "bytes": 8443,
+    "sha256": "095c9d86dbc4388ac8342d339a873c2713997b2d231312a38514944d00b578ef",
+    "aliases": [
+      "SPM12"
+    ]
+  },
+  {
+    "key": "SPM13",
+    "path": "GEN4/volii_protocol_extend1/REPORT.md",
+    "title": "Source-preserving continuation, actual residual growth and terminal readout changes",
+    "bytes": 9062,
+    "sha256": "ccde6e7d8fd0420895dec21fabecd08a6ea27e419b589a6f0efc4ce9c3bcef8f",
+    "aliases": [
+      "SPM13"
+    ]
+  },
+  {
+    "key": "SPM14",
+    "path": "GEN4/volii_protocol_extend1/PROOF.md",
+    "title": "Inherited-memory Gram, complementary outcome costs and accepted-return limit",
+    "bytes": 11134,
+    "sha256": "6e2e002b458b35a1c54eba5758674c47fe8b5428ce4ea47bdcaeda8aab4b80b3",
+    "aliases": [
+      "SPM14"
+    ]
+  },
+  {
+    "key": "SPM15",
+    "path": "GEN4/volii_return_mode1/REPORT.md",
+    "title": "Original-source accepted-return mode, survival clock and four slow directions",
+    "bytes": 8709,
+    "sha256": "5c9c4c2aae2abe3f8359a9739c80dae5c8a8891713a1dc41056768a23ae71fbf",
+    "aliases": [
+      "SPM15"
+    ]
+  },
+  {
+    "key": "SPM16",
+    "path": "GEN4/volii_four_mode_response1/REPORT.md",
+    "title": "Complete four-mode history consumer, actual survival mass and full fast remainder",
+    "bytes": 5451,
+    "sha256": "c6522bca775dd552589ee02bd20b3c11706208ca5d35ef89d21880428271d472",
+    "aliases": [
+      "SPM16"
+    ]
+  },
+  {
+    "key": "SPM17",
+    "path": "GEN4/volii_four_mode_response1/PROOF.md",
+    "title": "All-integer four-mode response inequality and quadratic slow-block payment",
+    "bytes": 6295,
+    "sha256": "f99f1b46816c68b96f959a12650ad1e474c290fdf12957cdc10ff2509ad6430f",
+    "aliases": [
+      "SPM17"
+    ]
+  },
+  {
+    "key": "SPM18",
+    "path": "GEN4/volii_return_mode1/PROOF.md",
+    "title": "Actual return-mode source stencil, full complement and directed certificate payments",
+    "bytes": 10774,
+    "sha256": "df64a952447d58c9ee58d15e4c7c78e57f230c8232c49e0e158ff0ae6a8a50fb",
+    "aliases": [
+      "SPM18"
+    ]
+  },
+  {
+    "key": "SPM19",
+    "path": "GEN4/volii_four_mode_response1/RECONSTRUCTION.md",
+    "title": "Literal retained source columns, physical admission and complete preparation/readout payments",
+    "bytes": 2874,
+    "sha256": "7f67d209d0a45f6b45f1ac0e860bb7d345d53798b16180714b01e13f9d815ce6",
+    "aliases": [
+      "SPM19"
+    ]
+  },
+  {
+    "key": "SPR_SOURCE",
+    "path": "GEN4/spin_conditional_variance1/DERIVATION.md",
+    "title": "Direct original-source conditional variance: original microscopic operand and complete Gibbs source",
+    "bytes": 9092,
+    "sha256": "d3939b755d3a4766c174c24e6c598f0e75af6ff92096ba2d7861fbc5eae44770",
+    "aliases": [
+      "SPR_SOURCE"
+    ]
+  },
+  {
+    "key": "SPR_CONDITIONAL",
+    "path": "GEN4/spin_conditional_variance1/REPORT.md",
+    "title": "Original conditional-variance residual evaluated (H002594)",
+    "bytes": 8447,
+    "sha256": "81c035e4f886e9992c25892d8ea58ae0cb476eda647b47cb6515ba2589a09f1b",
+    "aliases": [
+      "SPR_CONDITIONAL"
+    ]
+  },
+  {
+    "key": "SPR_FIFTH",
+    "path": "GEN4/spin_difference_fifth1/REPORT.md",
+    "title": "Measured fifth direction and five-coordinate difference response (H002602)",
+    "bytes": 5716,
+    "sha256": "54edc7107b67c7de2463fc4207331f96ece9fcbfedefafc73d9585bb66306e19",
+    "aliases": [
+      "SPR_FIFTH"
+    ]
+  },
+  {
+    "key": "SPR_FIFTH_DERIV",
+    "path": "GEN4/spin_difference_fifth1/DERIVATION.md",
+    "title": "One new source moment for the difference response",
+    "bytes": 7842,
+    "sha256": "6f41b9360fa39790bc8d14aa4963403e9cc17c049fb246de73c020a42fa389a4",
+    "aliases": [
+      "SPR_FIFTH_DERIV"
+    ]
+  },
+  {
+    "key": "SPR_HIDDEN_NEXT",
+    "path": "GEN4/spin_hidden_direction1/NEXT.md",
+    "title": "Exact five-coordinate source assembly and two-scalar continuation from H002611",
+    "bytes": 7982,
+    "sha256": "1251e6c5ce760e881f1ebe99de46b391afccafcdcb8c7fb26a4050556a657875",
+    "aliases": [
+      "SPR_HIDDEN_NEXT"
+    ]
+  },
+  {
+    "key": "SPR_CONNECTIONS",
+    "path": "GEN4/duck_spin_connections1/DERIVATION.md",
+    "title": "Retained receiver and source local-field comparison (H002609)",
+    "bytes": 9249,
+    "sha256": "44f96fd4e50ef3985a7121d1e7976c192b2781c0a726d6e7245c0453d4ebd720",
+    "aliases": [
+      "SPR_CONNECTIONS"
+    ]
+  },
+  {
+    "key": "SPR_HIDDEN",
+    "path": "GEN4/spin_hidden_direction1/REPORT.md",
+    "title": "One dominant hidden residual direction across the original spin preparations (H002611)",
+    "bytes": 7762,
+    "sha256": "e7e1604e4df359fcac855ca82698112f8067938b299b3bad60689aa1b60cd9fd",
+    "aliases": [
+      "SPR_HIDDEN"
+    ]
+  },
+  {
+    "key": "SPR_HIDDEN_DERIV",
+    "path": "GEN4/spin_hidden_direction1/DERIVATION.md",
+    "title": "Generalized directions of the retained hidden receiver",
+    "bytes": 9706,
+    "sha256": "5c1195e51ef0d293a84474fa58560de3fcc05388bad8a14ec8d329ac121d2b00",
+    "aliases": [
+      "SPR_HIDDEN_DERIV"
+    ]
+  },
+  {
+    "key": "SPR_SCHUR",
+    "path": "GEN4/duck_spin_schur1_20261014/REPORT.md",
+    "title": "Scalar completion and a shared-source constraint for the spin upper receiver (H002626)",
+    "bytes": 6941,
+    "sha256": "763ef445fef057286a47b27be76b6188be86cb362a98da601e11b714a04ad108",
+    "aliases": [
+      "SPR_SCHUR"
+    ]
+  },
+  {
+    "key": "SPR_SCHUR_DERIV",
+    "path": "GEN4/duck_spin_schur1_20261014/DERIVATION.md",
+    "title": "Scalar completion of the fifth-coordinate upper response",
+    "bytes": 3099,
+    "sha256": "95fe99bc269aba6023f82d759b094d3e3f0dd679640fb9f8c806f5be9d07c2fb",
+    "aliases": [
+      "SPR_SCHUR_DERIV"
+    ]
+  },
+  {
+    "key": "SPR_UPPER_SOURCE",
+    "path": "GEN4/spin_upper_source1_20261014/DERIVATION.md",
+    "title": "The original J21 and F11 source integrals",
+    "bytes": 4873,
+    "sha256": "200f6a4d0be5b02954df5323dad5a00d8aa8a3db3fc1cbe60a746cfa683db933",
+    "aliases": [
+      "SPR_UPPER_SOURCE"
+    ]
+  },
+  {
+    "key": "SPR_UPPER",
+    "path": "GEN4/duck_spin_upper1_20261014/REPORT.md",
+    "title": "Original J21/F11 source integrals and completed five-coordinate spin upper (H002627)",
+    "bytes": 8186,
+    "sha256": "d2b0e61b7f45ec6307926f80e915ea9faff4cf91f7cd8e1901b0e0de0b8c02b7",
+    "aliases": [
+      "SPR_UPPER"
+    ]
+  },
+  {
+    "key": "SPR_CLOSURE",
+    "path": "GEN4/voli_chapter2_physical3_20261015/closure/DERIVATION.md",
+    "title": "Actual finite-source closure after seven coordinates (H002636)",
+    "bytes": 10881,
+    "sha256": "9ee45c8ee71483a3423dc16a40ea9725cf2d5dbfdf5daed1ea73e23027266b8d",
+    "aliases": [
+      "SPR_CLOSURE"
+    ]
+  },
+  {
+    "key": "SPR_CLOSURE_REPORT",
+    "path": "GEN4/voli_chapter2_physical3_20261015/REPORT.md",
+    "title": "Chapter II: actual closure and specified receiving protocols",
+    "bytes": 15824,
+    "sha256": "a5575702e548c4e78b870d844d2fd2c1ea92e599e01fb121c5511973a7c52826",
+    "aliases": [
+      "SPR_CLOSURE_REPORT"
+    ]
+  },
+  {
+    "key": "SPR_PILOT",
+    "path": "GEN4/spin_gcp_pilot1_20261016/REPORT.md",
+    "title": "First cloud spin pilot: completed and retained locally (H002680)",
+    "bytes": 7625,
+    "sha256": "47b493d44309174a0c67500dc428bf88ae427239495a954e378b8550bcc2c776",
+    "aliases": [
+      "SPR_PILOT"
+    ]
+  },
+  {
+    "key": "SPR_C1",
+    "path": "GEN4/duck_spin_payopt1_20261016/REPORT.md",
+    "title": "Original Duck spin payment and analytic-theta cycle (H002684)",
+    "bytes": 5925,
+    "sha256": "b7d86f4ff934db9ed490f9f4d764972fc3556edb14165cf1eaf7ab98c17d721c",
+    "aliases": [
+      "SPR_C1"
+    ]
+  },
+  {
+    "key": "SPR_INCREMENT",
+    "path": "GEN4/duck_spin_payopt1_20261016/analysis/VARIATIONAL_INCREMENT_LEAD.md",
+    "title": "Source-preserving variational increment from the sharper payment",
+    "bytes": 3181,
+    "sha256": "7cedfb68b0a7291e3f4927f21a6691d95684b22121458ef5cf2d991d00596459",
+    "aliases": [
+      "SPR_INCREMENT"
+    ]
+  },
+  {
+    "key": "SPR_EDGE_DERIV",
+    "path": "GEN4/spin_source_moments_gcp1_20261017/science/DERIVATION.md",
+    "title": "Original-source edge integral for the next residual Dirichlet upper",
+    "bytes": 6794,
+    "sha256": "71a7116b05870416ce5d83e21cf0abe194c27a6da4f32a3bb02ef475f0ba5587",
+    "aliases": [
+      "SPR_EDGE_DERIV"
+    ]
+  },
+  {
+    "key": "SPR_EDGE_REVIEW",
+    "path": "GEN4/spin_source_moments_gcp1_20261017/science/INDEPENDENT_REVIEW.md",
+    "title": "Independent scalar-certificate and edge-kernel review",
+    "bytes": 7735,
+    "sha256": "25c6daedcdf904d517aaacaecfe5d9005d3d31adb394673191b6c3d426518a40",
+    "aliases": [
+      "SPR_EDGE_REVIEW"
+    ]
+  },
+  {
+    "key": "SPR_FRONTIER",
+    "path": "GEN4/spin_source_moments_gcp1_20261017/analysis/CLOUD_FRONTIER_COMPARISON.json",
+    "title": "Exact endpoint selection against frozen C1 and included C2 native WORD snapshot",
+    "bytes": 3516082,
+    "sha256": "41420c3997218e38dd9897b087abe597409ef4cf449a13ee59da8cecb7568c07",
+    "aliases": [
+      "SPR_FRONTIER"
+    ]
+  },
+  {
+    "key": "SPR_RAM",
+    "path": "GEN4/spin_ram_workstore1_20261017/REPORT.md",
+    "title": "Bounded RAM receiver workstore trial: partial three-arm experiment (H002693)",
+    "bytes": 3607,
+    "sha256": "d185535c8294255703a29971914427e99cc135a56170725b0c26beafaaf1fd79",
+    "aliases": [
+      "SPR_RAM"
+    ]
+  },
+  {
+    "key": "SPR_EDGE_NEXT",
+    "path": "GEN4/spin_source_moments_gcp1_20261017/FOLLOW_UP.md",
+    "title": "Selected continuation from the completed source-edge result",
+    "bytes": 3326,
+    "sha256": "3f0e37c3d15ddef80b961e10e4a7b8d78d87547189aa9ee7eb7071493db49ed3",
+    "aliases": [
+      "SPR_EDGE_NEXT"
+    ]
+  }
+]

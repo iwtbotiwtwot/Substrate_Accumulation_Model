@@ -1,0 +1,1455 @@
+--- baseline/body01.tex
++++ edited/body01.tex
+@@ -1,18 +1,9 @@
+ \bookchapter{N100: Grammar and Exact
+ Work}\label{viii-ch01-n100-grammar-and-exact-work}
+ 
+-The first computational question is exact and finite: what object is
+-specified by the admitted source grammar, and how can its complete state
+-sum be evaluated? This chapter keeps the object fixed while following
+-two execution routes. The source census establishes the object; the
+-factorization explains why its formal cardinality need not equal the
+-amount of local enumeration.
+-
+-The account below follows the chapter source as retained at the fixed 8
+-September 2026 SAMA revision. Engine names, installed interfaces and
+-campaign status are historical source statements. They do not describe a
+-freshly inspected October deployment. Later source amendments are
+-distinguished where available; no later engine or campaign is inferred.
++The source-derived N100 Hamiltonian was solved exactly by two routes. H14F returned its complete retained-role density of states in 3.828137395 seconds; conditional-component enumeration and exact convolution returned the same coefficients in 0.500951441 seconds. Both account for all $2^{100}$ assignments. The source census fixes the object, and the factorization explains the smaller amount of local work.
++
++The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.
+ 
+ \subsection{Overview}\label{viii-ch01-overview}
+ 
+@@ -283,8 +274,7 @@
+ \end{itemize}
+ 
+ The requested output is the complete tensor, not only the minimum energy
+-or a small collection of moments. The graph, source roles and tensor
+-schema are fixed before either timing result.
++or a small collection of moments. The graph, source roles and tensor schema are fixed before either timing result. The retained source packet is $p=1,g=0$, with role order plus, minus, anti-plus and anti-minus.
+ 
+ \subsubsection{Why exact routes can be smaller than the state
+ count}\label{viii-ch01-why-exact-routes-can-be-smaller-than-the-state-count}
+@@ -357,11 +347,14 @@
+ 
+ This is both a marginal check and a full-state closure.
+ 
++The conditional spectra depend on the number of positive retained signs. Zero or four positive signs give ground energy $-260$, ground count 128 and 174 occupied bins. One or three give ground energy $-250$, ground count 128 and 174 bins. Two positive signs give ground energy $-244$, ground count 256 and 171 bins. Representative masks are 0, 1, 3, 7 and 15 for positive counts zero through four. Thus the sixteen boundary rows resolve three distinct spectra.
++
+ \subsubsection{Close source symmetries}\label{viii-ch01-close-source-symmetries}
+ 
+ All 24 source-role permutations reproduce the required tensor relation.
+-The global spin complement also closes. These checks distinguish a
+-complete source-role tensor from an accidental scalar DOS total.
++The global spin complement also closes. These checks distinguish a complete source-role tensor from an accidental scalar DOS total.
++
++The four recorded prime-kernel walls are approximately $0.890328$, $0.852483$, $0.797375$ and $0.799622$ seconds, within the 3.828137395-second runner total. The scalar DOS semantic hash is \nolinkurl{6e404623175ba60629110fb17f75ca0f0398e690db9de7b7a97766d32d0c2d30}; the retained tensor semantic hash is \nolinkurl{33ec2e3f5cd3a1e66eb892730181e89bb1aff71d93b97fbbba4959bb238bd78d}. These identities are the equality targets for the structure-first route.
+ 
+ \subsection{Structure-first route from components to the same
+ tensor}\label{viii-ch01-structure-first-route-from-components-to-the-same-tensor}
+@@ -428,8 +421,11 @@
+ retained boundary assignments returns the same retained-role tensor as
+ the complete route.
+ 
+-No state is sampled or dropped. Factorization evaluates the product
+-structure of the full sum.
++No state is sampled or dropped. Factorization evaluates the product structure of the full sum. When local role coordinates must be assembled into the global retained role, the same reconstruction is written
++\[
++P_{100}(z,r)=\sum_{r_1\oplus\cdots\oplus r_8=r}\prod_{a=1}^{8}P_a(z,r_a).
++\]
++At $z=1$, complete local counts give $P_{100}(1)=\prod_a2^{n_a}=2^{\sum_an_a}=2^{100}$.
+ 
+ \subsubsection{Compare complete outputs}\label{viii-ch01-compare-complete-outputs}
+ 
+@@ -598,167 +594,9 @@
+ site/address class has not been supplied. Aggregate Shared72 eligibility
+ cannot substitute for 100 elementwise assignments.
+ 
+-\subsection{Established result and current
+-boundaries}\label{viii-ch01-established-result-and-current-boundaries}
+-
+-The source-bound N100 result is:
+-
+-\begin{enumerate}
+-\def\labelenumi{\arabic{enumi}.}
+-\tightlist
+-\item
+-  CR120R fixes a 100-row independent-content census after the unique
+-  \texttt{p=9,g=0} five-record witness packet is excluded from counting.
+-\item
+-  The A field remains non-row infrastructure, X1 remains
+-  non-row/non-matter, and all 105 records remain visible.
+-\item
+-  The unchanged Hamiltonian has 100 spins, 260 edges and a complete
+-  \texttt{2\^{}100} configuration space.
+-\item
+-  H14F returns the full exact retained-role DOS tensor with 177 occupied
+-  bins and ground sector \texttt{(-260,256)}.
+-\item
+-  The structure-first route evaluates 165,920 local assignments and
+-  exactly convolves them to the same coefficient tensor.
+-\item
+-  Work reduction is not state-space reduction.
+-\item
+-  The exact grammar-to-work identity returns 162 while retaining its
+-  \texttt{2\^{}5} residual as the p9,g1 binary packet.
+-\item
+-  N105, N81 and N72 preserve the source dependence and scope.
+-\item
+-  The source-native elementwise N100-to-F81 compiler join remains open,
+-  and the contact lane was not executed.
+-\item
+-  Historical SLC revision labels in the immutable spine do not replace
+-  the then-live \texttt{SLCQ2-RZ} source-recorded default identity.
+-\end{enumerate}
+-
+-The registered atomic records and focused tests assign no authorized
+-project result classification to this chapter. Exact source verdicts and
+-timings are preserved without manufacturing one or extending the result
+-to arbitrary 100-spin graphs.
+-
+-\subsection{Connections and forward
+-handoff}\label{viii-ch01-connections-and-forward-handoff}
+-
+-\begin{itemize}
+-\tightlist
+-\item
+-  \textbf{\texttt{SAMA-D000027}.} Connection: Supplies the finite source
+-  grammar and row-count distinctions..
+-\item
+-  \textbf{\texttt{SAMA-D000033}.} Connection: Supplies M126/N144/L162
+-  types without merging them with N100..
+-\item
+-  \textbf{\texttt{SAMA-D000035}.} Connection: Makes the grammar, type
+-  system, program custody and exact semantic path explicit..
+-\item
+-  \textbf{\texttt{SAMA-D000036}.} Connection: Receives the exact DOS
+-  definition, coefficient closure and route families..
+-\item
+-  \textbf{\texttt{SAMA-D000037}.} Connection: Receives the
+-  structure-first router and exact fallback policy..
+-\item
+-  \textbf{\texttt{SAMA-P000006}.} Connection: Connects N100 computation
+-  back to the particle, Starbreaker and binding parent route..
+-\end{itemize}
+-
+-The immediate handoff to D35 is a language requirement: source identity,
+-operator type, program tape, state and history must be serialized so the
+-grammar certificates can select an exact route without hidden UI or
+-wrapper semantics.
+-
+-\subsection{Execution architecture and
+-controls}\label{viii-ch01-execution-architecture-and-controls}
+-
+-\subsection{Overview}\label{viii-ch01-overview-1}
+-
+-The central Volume III computational finding is not that a \(2^{100}\)
+-state space disappeared. It is that the source-derived N100 grammar
+-carries an exact factorization certificate. The unchanged 100-spin
+-Hamiltonian has eight conditional components. Evaluating those
+-components locally and convolving their exact tensors reconstructs the
+-same complete result as the H14F variable-elimination route, coefficient
+-for coefficient.
+-
+-This separates three quantities that are often confused:
+-
+-\begin{itemize}
+-\tightlist
+-\item
+-  formal state space = every one of 2\^{}100 assignments counted
+-\item
+-  requested exact output = the complete retained-role DOS tensor
+-\item
+-  fresh local work = 165,920 component assignments
+-\end{itemize}
+-
+-The source grammar determines the first two. A certified execution route
+-changes only the third. H14F remains the exact fallback when a
+-component, orbit, fiber, separator or rank certificate is absent or
+-fails an installation gate. H14F's fourteen-worker surface is a frozen
+-execution contract where declared, not an informal knob that can be
+-reinterpreted as an arbitrary host setting.
+-
+-The controls make the result transferable. N105 restores the excluded
+-source packet; N81 supplies a source-native octahedral comparison; N72
+-remains a dense contrast; mixed partial-join and connected-ring graphs
+-test whether the router can preserve exactness when components are
+-coupled; N96 demonstrates exact cutset branching and fallback. These
+-controls show what the router is: a typed grammar-to-work compiler, not
+-a rule that substitutes the N100 graph for other systems.
+-
+-Historically, H14F and the structure-first receipts belong to the exact
+-arithmetic/application lineage now preserved in the delegated frozen
+-\texttt{SLCV21R} base. Frozen \texttt{SLCQ2-RZ} is the sole
+-source-recorded default SLC selection engine. Q2 consumes the
+-byte-identical base services; it does not turn H14F into the present
+-ordinal selector or erase the earlier exact results.
+-
+-\subsection{Opening question and conceptual
+-picture}\label{viii-ch01-opening-question-and-conceptual-picture-1}
+-
+-The governing question is:
+-
+-\begin{quote}
+-When a finite grammar defines a complete exact calculation, can the
+-grammar itself certify a smaller execution plan without changing the
+-mathematical state space, Hamiltonian or requested output?
+-\end{quote}
+-
+-The answer is represented by
+-
+-\begin{itemize}
+-\tightlist
+-\item
+-  typed source grammar
+-\item
+-  declared Hamiltonian and requested tensor
+-\item
+-  structural certificate discovery
+-\item
+-  admitted exact route
+-\item
+-  component convolution
+-\item
+-  orbit-sector counting
+-\item
+-  separator branching
+-\item
+-  rank-aware readout
+-\item
+-  or H14F exact fallback
+-\item
+-  independent reconstruction of the same tensor
+-\end{itemize}
+-
+-The router never asks which route would make a preferred outcome appear.
+-It asks which exact decomposition is already present in the declared
+-object. If the certificate is missing, the object is not modified to
+-create one.
++\subsection{Execution architecture and additional controls}\label{viii-ch01-execution-architecture-and-controls}
++
++The same reconstruction obligation governs component, orbit, cutset, fiber and rank-aware routes. An admitted structural certificate specifies how the requested complete tensor is rebuilt. H14F supplies the fallback when no reduced route closes. The following contracts and controls extend the N100 example to explicitly different source structures.
+ 
+ \subsection{Typed definitions and execution
+ contract}\label{viii-ch01-typed-definitions-and-execution-contract}
+@@ -853,264 +691,6 @@
+ Every branch returns the complete requested tensor. Failure to certify
+ one branch is a routing outcome, not permission to approximate.
+ 
+-\subsection{The complete H14F N100
+-result}\label{viii-ch01-the-complete-h14f-n100-result}
+-
+-\subsubsection{Source object}\label{viii-ch01-source-object}
+-
+-The source-derived N100 object has
+-
+-\begin{itemize}
+-\tightlist
+-\item
+-  \textbf{independent spins.} Declared value: 100.
+-\item
+-  \textbf{source edges.} Declared value: 260.
+-\item
+-  \textbf{induced width.} Declared value: 5.
+-\item
+-  \textbf{retained source packet.} Declared value: \(p=1,g=0\).
+-\item
+-  \textbf{role order.} Declared value: plus, minus, anti-plus,
+-  anti-minus.
+-\item
+-  \textbf{complete configurations.} Declared value: \(2^{100}\).
+-\end{itemize}
+-
+-The exact configuration count is
+-
+-\[
+-2^{100}
+-=1{,}267{,}650{,}600{,}228{,}229{,}401{,}496{,}703{,}205{,}376.
+-\]
+-
+-H14F treats the complete 100-spin, 260-edge Hamiltonian as one
+-retained-port variable-elimination object. It executes 2,048 singleton
+-root tasks through four CRT primes.
+-
+-\subsubsection{Retained-role closure}\label{viii-ch01-retained-role-closure}
+-
+-Four binary retained roles give \(2^4=16\) port rows. Each row sums to
+-\(2^{96}\), because fixing the four retained role bits leaves 96
+-independent binary coordinates. Summing all rows gives
+-
+-\[
+-\sum_{r=0}^{15}\sum_eG(e,r)
+-=16\cdot2^{96}
+-=2^{100}.
+-\]
+-
+-The scalar result has 177 occupied energy bins and ground sector
+-((-260,256)): energy \(-260\) with degeneracy 256. The conditional port
+-rows organize into three spectra according to plus-spin count:
+-
+-\begin{itemize}
+-\tightlist
+-\item
+-  \textbf{0.} Representative state: 0; Ground energy: -260; Ground
+-  count: 128; Bins: 174.
+-\item
+-  \textbf{1.} Representative state: 1; Ground energy: -250; Ground
+-  count: 128; Bins: 174.
+-\item
+-  \textbf{2.} Representative state: 3; Ground energy: -244; Ground
+-  count: 256; Bins: 171.
+-\item
+-  \textbf{3.} Representative state: 7; Ground energy: -250; Ground
+-  count: 128; Bins: 174.
+-\item
+-  \textbf{4.} Representative state: 15; Ground energy: -260; Ground
+-  count: 128; Bins: 174.
+-\end{itemize}
+-
+-Thus counts 0/4 share one spectrum, 1/3 share a second and 2 supplies
+-the third. All 24 source-role permutations and the global spin
+-complement close exactly. This is a computationally typed conditional
+-tensor, not an elementwise F81 physical-port assignment.
+-
+-\subsubsection{Execution receipt}\label{viii-ch01-execution-receipt}
+-
+-The four prime-kernel walls were approximately
+-
+-\[
+-0.890328, 0.852483, 0.797375, 0.799622\ \text{s},
+-\]
+-
+-and the total runner wall was 3.828137395 seconds. The scalar DOS
+-semantic hash is
+-\nolinkurl{6e404623175ba60629110fb17f75ca0f0398e690db9de7b7a97766d32d0c2d30}
+-and the retained tensor semantic hash is
+-\nolinkurl{33ec2e3f5cd3a1e66eb892730181e89bb1aff71d93b97fbbba4959bb238bd78d}.
+-These hashes become the equality target for the structure-first route.
+-
+-\subsection{Deriving the N100 structure-first
+-work}\label{viii-ch01-deriving-the-n100-structure-first-work}
+-
+-\subsubsection{Component census}\label{viii-ch01-component-census}
+-
+-The unchanged conditional grammar separates into eight exact components
+-of sizes
+-
+-\[
+-15,15,15,15,15,10,10,5.
+-\]
+-
+-The sizes sum to the original independent rank:
+-
+-\[
+-5\cdot15+2\cdot10+5=75+20+5=100.
+-\]
+-
+-For a component of \(n_a\) binary variables, direct local enumeration
+-requires \(2^{n_a}\) assignments. Therefore the total fresh component
+-work is
+-
+-\[
+-W_{100}=5\cdot2^{15}+2\cdot2^{10}+2^5.
+-\]
+-
+-Evaluating each term,
+-
+-\[
+-5\cdot32{,}768=163{,}840,
+-\]
+-
+-\[
+-2\cdot1{,}024=2{,}048,
+-\]
+-
+-and
+-
+-\[
+-W_{100}=163{,}840+2{,}048+32=165{,}920.
+-\]
+-
+-\subsubsection{\texorpdfstring{Why 165,920 does not replace
+-\(2^{100}\)}{Why 165,920 does not replace 2\^{}\{100\}}}\label{viii-ch01-why-165920-does-not-replace-2100}
+-
+-Let component \(a\) return its exact conditional polynomial tensor
+-\(P_a(z,r_a)\). The full tensor is reconstructed by summing compatible
+-role assignments and convolving energies:
+-
+-\[
+-P_{100}(z,r)
+-=\sum_{r_1\oplus\cdots\oplus r_8=r}
+- \prod_{a=1}^8P_a(z,r_a).
+-\]
+-
+-At \(z=1\), each local polynomial counts all local assignments, so
+-
+-\[
+-P_{100}(1)
+-=\prod_{a=1}^82^{n_a}
+-=2^{\sum_an_a}
+-=2^{100}.
+-\]
+-
+-The 165,920 number counts fresh local assignments evaluated by the
+-algorithm. The \(2^{100}\) number counts formal global assignments
+-represented by the reconstructed tensor. They answer different
+-questions.
+-
+-\subsubsection{Same-output equality}\label{viii-ch01-same-output-equality}
+-
+-The structure-first route completed in 0.500951441 seconds. Relative to
+-the 3.828137395-second H14F route, the observed ratio is
+-
+-\[
+-\frac{3.828137395}{0.500951441}\approx7.642.
+-\]
+-
+-This comparison is meaningful because the retained-role tensors are
+-coefficientwise identical and have the same semantic hash. The route did
+-not change the Hamiltonian, sample states, truncate bins or request only
+-the ground sector.
+-
+-\subsubsection{Grammar-to-work
+-identities}\label{viii-ch01-grammar-to-work-identities}
+-
+-The work also admits exact source-grammar decompositions:
+-
+-\[
+-W_{100}=162\cdot2^{10}+2^5
+-=2^5(72^2+1).
+-\]
+-
+-Indeed,
+-
+-\[
+-162\cdot1{,}024+32=165{,}888+32=165{,}920,
+-\]
+-
+-and \(72^2=5{,}184=32\cdot162\). Therefore
+-
+-\[
+-\frac{W_{100}-2^5}{2^{10}}=162,
+-\qquad
+-2^5\cdot162=72^2.
+-\]
+-
+-The residual \(2^5\) is the formal assignment space of the surviving
+-five-role \(p=9,g=1\) packet. It is not X1 and not a physical closure
+-object. The identity interprets source grammar and workload; it does not
+-claim that a ledger total was inserted as an energy coefficient.
+-
+-\subsection{Source-native controls and
+-deviations}\label{viii-ch01-source-native-controls-and-deviations-1}
+-
+-\subsubsection{N105 restoration control}\label{viii-ch01-n105-restoration-control}
+-
+-N100 excludes the historical \(p=9,g=0\) witness packet. Restoring it
+-produces N105 and changes the exact work to
+-
+-\[
+-W_{105}=166{,}912=163\cdot2^{10}.
+-\]
+-
+-The difference is
+-
+-\[
+-\Delta W=W_{105}-W_{100}
+-=166{,}912-165{,}920
+-=992
+-=2^{10}-2^5.
+-\]
+-
+-This is a source-native perturbation: it restores an identified packet
+-rather than adding an arbitrary edge until timing changes. It also
+-changes the N100/N81 completion-path capacity from 40 to 45 rows.
+-
+-\subsubsection{N81 octahedral control}\label{viii-ch01-n81-octahedral-control-1}
+-
+-The N81 control has component sizes
+-
+-\[
+-[11,10,11,10,10,11,10,8]
+-\]
+-
+-and local work
+-
+-\[
+-\begin{aligned}
+-W_{81}&=3\cdot2^{11}+4\cdot2^{10}+2^8\\
+-&=6{,}144+4{,}096+256\\
+-&=10{,}496=2^7(81+1).
+-\end{aligned}
+-\]
+-
+-Its octahedral bridge retains 48 cube embeddings in one full-octahedral
+-orbit, the completion path (1-8-9-12), reflected C4 gluing and 49,152
+-incidences. This is a geometry/compiler control. Its possible causal
+-relation to runtime remains a research question rather than an installed
+-explanation.
+-
+-\subsubsection{N72 dense contrast}\label{viii-ch01-n72-dense-contrast-1}
+-
+-N72 remains dense. It is not edited to reproduce N100's component
+-structure. This is the correct contrast because it asks whether the
+-router recognizes the actual source object rather than imposing one
+-preferred decomposition on every input.
+-
+ \subsubsection{Mixed-connectivity
+ controls}\label{viii-ch01-mixed-connectivity-controls}
+ 
+@@ -1145,30 +725,7 @@
+ regression ran 4,096 fresh tasks and retained the frozen N96 numerical
+ authority.
+ 
+-\subsection{Failure, correction and routing
+-discipline}\label{viii-ch01-failure-correction-and-routing-discipline}
+-
+-The principal wrong route would be to treat N100's favorable graph as
+-the universal computational model. That route is rejected in stages:
+-
+-\begin{itemize}
+-\tightlist
+-\item
+-  wrong control: substitute the N100 component graph for another grammar
+-\item
+-  source identity is lost
+-\item
+-  correction: inspect the new object's own
+-  component/orbit/cutset/fiber/rank certificates
+-\item
+-  choose only an admitted exact route
+-\item
+-  retest: reconstruct the complete tensor independently
+-\item
+-  compare coefficientwise and replay dense regressions
+-\item
+-  fallback: if no certificate closes, retain H14F
+-\end{itemize}
++\subsection{Routing qualification}\label{viii-ch01-failure-correction-and-routing-discipline}
+ 
+ The installation gates execute this logic rather than merely state it.
+ They record 12/12 route checks, 18/18 mixed arithmetic checks, 9/9
+@@ -1177,15 +734,6 @@
+ promotion decision; the gate campaign itself did not silently rewrite a
+ current pointer.
+ 
+-A second deviation is the source-native N100-to-F81 compiler gap. N100
+-has 100/100 typed source keys and Shared72 has aggregate connector
+-incidence for 72/100 rows, while CR211 exposes 162 address rows but zero
+-elementwise QP assignments. The missing elementwise join cannot be
+-replaced by aggregate counts or external labels.
+-\texttt{G:G1@SAM-RESEARCH} preserves that partial-domain boundary in
+-\texttt{SAMA-D000034}; it is not a direct H14F result key for this
+-chapter.
+-
+ \subsection{Recorded authority and delegated-base
+ status}\label{viii-ch01-recorded-authority-and-delegated-base-status}
+ 
+@@ -1221,3 +769,51 @@
+ exact base computation and source-visible selection must remain
+ different types.
+ 
++\subsection{Connections and forward
++handoff}\label{viii-ch01-connections-and-forward-handoff}
++
++\begin{itemize}
++\tightlist
++\item
++  \textbf{\texttt{SAMA-D000027}.} Connection: Supplies the finite source
++  grammar and row-count distinctions..
++\item
++  \textbf{\texttt{SAMA-D000033}.} Connection: Supplies M126/N144/L162
++  types without merging them with N100..
++\item
++  \textbf{\texttt{SAMA-D000035}.} Connection: Makes the grammar, type
++  system, program custody and exact semantic path explicit..
++\item
++  \textbf{\texttt{SAMA-D000036}.} Connection: Receives the exact DOS
++  definition, coefficient closure and route families..
++\item
++  \textbf{\texttt{SAMA-D000037}.} Connection: Receives the
++  structure-first router and exact fallback policy..
++\item
++  \textbf{\texttt{SAMA-P000006}.} Connection: Connects N100 computation
++  back to the particle, Starbreaker and binding parent route..
++\end{itemize}
++
++The immediate handoff to D35 is a language requirement: source identity,
++operator type, program tape, state and history must be serialized so the
++grammar certificates can select an exact route without hidden UI or
++wrapper semantics.
++
++
++% Historical aliases for merged duplicate sections.
++\label{viii-ch01-established-result-and-current-boundaries}
++\label{viii-ch01-overview-1}
++\label{viii-ch01-opening-question-and-conceptual-picture-1}
++\label{viii-ch01-the-complete-h14f-n100-result}
++\label{viii-ch01-source-object}
++\label{viii-ch01-retained-role-closure}
++\label{viii-ch01-execution-receipt}
++\label{viii-ch01-deriving-the-n100-structure-first-work}
++\label{viii-ch01-component-census}
++\label{viii-ch01-why-165920-does-not-replace-2100}
++\label{viii-ch01-same-output-equality}
++\label{viii-ch01-grammar-to-work-identities}
++\label{viii-ch01-source-native-controls-and-deviations-1}
++\label{viii-ch01-n105-restoration-control}
++\label{viii-ch01-n81-octahedral-control-1}
++\label{viii-ch01-n72-dense-contrast-1}
+--- baseline/body02.tex
++++ edited/body02.tex
+@@ -1,17 +1,9 @@
+ \bookchapter{SAM Language and Exact Program
+ Semantics}\label{viii-ch02-sam-language-and-exact-program-semantics}
+ 
+-A favorable graph decomposition is useful only if the program and its
+-inputs retain their meanings. The formal language places source
+-identity, operator type, state and history into one execution contract.
+-Its real finite kernel is a substantial result in its own right; its
+-explicit exclusions are part of the specification.
+-
+-The account below follows the chapter source as retained at the fixed 8
+-September 2026 SAMA revision. Engine names, installed interfaces and
+-campaign status are historical source statements. They do not describe a
+-freshly inspected October deployment. Later source amendments are
+-distinguished where available; no later engine or campaign is inferred.
++SAM Language makes source identity, operator type, state and history executable parts of one program contract. The retained formal simulator implements parsing, resolution, checking, evaluation and deterministic receipts; its G01--G16 records test those semantic and custody surfaces. This chapter explains how that finite kernel preserves program meaning through execution and reconstruction.
++
++The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.
+ 
+ \subsection{Overview}\label{viii-ch02-overview}
+ 
+--- baseline/body03.tex
++++ edited/body03.tex
+@@ -1,17 +1,9 @@
+ \bookchapter{Exact State Spaces and
+ Thermodynamics}\label{viii-ch03-exact-state-spaces-and-thermodynamics}
+ 
+-This chapter moves from one graph to the family of exact methods that
+-may evaluate a declared state-space object. It then follows the
+-resulting density of states into dimensionless thermodynamics. The
+-distinction between an exact numerical object and a physically
+-calibrated energy is maintained throughout.
+-
+-The account below follows the chapter source as retained at the fixed 8
+-September 2026 SAMA revision. Engine names, installed interfaces and
+-campaign status are historical source statements. They do not describe a
+-freshly inspected October deployment. Later source amendments are
+-distinguished where available; no later engine or campaign is inferred.
++Exact density-of-states methods count every assignment by energy and retain the integer coefficients needed for later thermodynamic calculations. This chapter develops enumeration, elimination and polynomial routes to that complete object, then derives the partition function and thermal moments from the frozen N96 density. Physical units enter through a separately specified energy scale.
++
++The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.
+ 
+ \subsection{Overview}\label{viii-ch03-overview}
+ 
+--- baseline/body04.tex
++++ edited/body04.tex
+@@ -1,18 +1,9 @@
+ \bookchapter{The Algebra of a Complete
+ Write}\label{viii-ch04-the-algebra-of-a-complete-write}
+ 
+-Exact state counting and exact writes answer different questions. A
+-write acts on a state, returns a result and retains the record needed to
+-reconstruct what occurred. Here the translation compiler is derived
+-within its finite group action, while the transaction and history
+-interfaces retain the additional information that an endpoint alone
+-cannot carry.
+-
+-The account below follows the chapter source as retained at the fixed 8
+-September 2026 SAMA revision. Engine names, installed interfaces and
+-campaign status are historical source statements. They do not describe a
+-freshly inspected October deployment. Later source amendments are
+-distinguished where available; no later engine or campaign is inferred.
++Complete Write compiles signed translations on all 262,144 addresses of $\mathbb Z_4^9$ and retains a reconstructible rank-161 reciprocal receipt. Sequential and compiled actions are bit-identical, and the inverse returns every address. The derivation explains how endpoint action and retained event history remain available as distinct outputs of the same transaction.
++
++The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.
+ 
+ \subsection{Overview}\label{viii-ch04-overview}
+ 
+--- baseline/body05.tex
++++ edited/body05.tex
+@@ -1,17 +1,9 @@
+ \bookchapter{Lifecycle, Reception and Carrier
+ Return}\label{viii-ch05-lifecycle-reception-and-carrier-return}
+ 
+-The algebraic action must be received by a typed lifecycle. This chapter
+-follows the source roles without treating a carrier, a matter row, an
+-unresolved site and a completed receipt as interchangeable. Corrections
+-to earlier literal and causal interpretations remain visible alongside
+-the corrected finite constructions.
+-
+-The account below follows the chapter source as retained at the fixed 8
+-September 2026 SAMA revision. Engine names, installed interfaces and
+-campaign status are historical source statements. They do not describe a
+-freshly inspected October deployment. Later source amendments are
+-distinguished where available; no later engine or campaign is inferred.
++The W8--X1--W9 lifecycle gives the exact program a typed request, response and completion sequence. The corrected carrier construction uses Theta18 for normalization while retaining X1 as the response type. This chapter follows that construction into ordered execution, reception and return, including the controls that distinguish its source roles.
++
++The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.
+ 
+ \subsection{Overview}\label{viii-ch05-overview}
+ 
+--- baseline/body06.tex
++++ edited/body06.tex
+@@ -1,17 +1,9 @@
+ \bookchapter{Directional History and Event
+ Reels}\label{viii-ch06-directional-history-and-event-reels}
+ 
+-A history is more than a sequence label attached to a state. Reciprocal
+-endpoints define an event incidence, its Gram and a shared-anchor reel.
+-The elementary positivity of an event is established within that
+-construction; it is not promoted to positivity of every completed
+-arithmetic expression that may later consume the event.
+-
+-The account below follows the chapter source as retained at the fixed 8
+-September 2026 SAMA revision. Engine names, installed interfaces and
+-campaign status are historical source statements. They do not describe a
+-freshly inspected October deployment. Later source amendments are
+-distinguished where available; no later engine or campaign is inferred.
++Directional computation acts on all 262,144 Theta18 addresses through 18 maps and retains the reciprocal history needed to reconstruct both directions. An event with incidence $B_e=I-U_e$ contributes the positive Gram $B_e^*B_e$ to an append-only reel. The shared-anchor construction preserves the common stationary state and the complete nonconstant event information.
++
++The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.
+ 
+ \subsection{Overview}\label{viii-ch06-overview}
+ 
+--- baseline/body07.tex
++++ edited/body07.tex
+@@ -1,17 +1,9 @@
+ \bookchapter{Ordinal Selection and the Delegated Exact
+ Engine}\label{viii-ch07-ordinal-selection-and-the-delegated-exact-engine}
+ 
+-The latest global selector described by the retained SAMA material is
+-Q2. Its job is to order an admissible catalog using source-visible
+-features, while exact arithmetic remains delegated. This chapter records
+-its frozen comparisons without turning a learned ordering into a
+-physical law or an unrestricted complexity claim.
+-
+-The account below follows the chapter source as retained at the fixed 8
+-September 2026 SAMA revision. Engine names, installed interfaces and
+-campaign status are historical source statements. They do not describe a
+-freshly inspected October deployment. Later source amendments are
+-distinguished where available; no later engine or campaign is inferred.
++The frozen Q2 selector improves weighted strict-pair ordering over Q1 by $63200/594823$ on HOLDOUT and $83595/773858$ on CONTROL. It recovers every exact best set on both surfaces without a false singleton or abstention. Its 70 source-visible features order admissible receipts while the unchanged arithmetic services remain delegated to SLCV21R.
++
++The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.
+ 
+ The September SAMA selector chapter cites H000531, H000551 and H000552
+ for Q2. The accessible August public SAM Research Project live page
+@@ -20,11 +12,7 @@
+ preserves the later manuscript account with that retrieval limitation;
+ it does not independently certify a live pointer transition.
+ 
+-\textbf{Source-status qualification.} The operational and revision
+-statements in this chapter describe the retained source documents. They
+-are not an instruction to execute, deploy, resume, train, promote or
+-change a service, and they have not been independently verified as
+-present live state for this edition.
++
+ 
+ \subsection{Overview}\label{viii-ch07-overview}
+ 
+@@ -64,8 +52,7 @@
+ strict-pair accuracy by exactly \texttt{63200/594823} on HOLDOUT and
+ \texttt{83595/773858} on CONTROL, while recovering every exact best set,
+ creating no false singleton, making no abstention and producing no
+-strict score tie. The installed classification is exactly: \textbf{The
+-test result suggests strong contact with the concept.}
++strict score tie. The result is exact best-set recovery on both frozen splits with the stated improvement in pair ordering.
+ 
+ The architecture is deliberately layered. Q2 owns the current ordinal
+ selection plane. Frozen \texttt{SLCV21R} remains noncurrent as a
+@@ -560,9 +547,7 @@
+ both \(1/1\) on both splits, with zero false singletons, zero
+ abstentions and zero strict score ties.
+ 
+-The authorized classification is:
+-
+-\textbf{The test result suggests strong contact with the concept.}
++The frozen comparison improves weighted pair ordering while retaining every exact best set and all maximizing ties.
+ 
+ \subsection{Deviation, correction and retest
+ chain}\label{viii-ch07-deviation-correction-and-retest-chain}
+--- baseline/body08.tex
++++ edited/body08.tex
+@@ -1,17 +1,9 @@
+ \bookchapter{Starbreaker: Formation on Its Own
+ Grammar}\label{viii-ch08-starbreaker-formation-on-its-own-grammar}
+ 
+-Starbreaker is the first major formation application in this volume. It
+-receives its own ledgers, events, stages and occurrence views. The
+-useful transfer from exact computation is a routing discipline, not
+-substitution of the N100 graph. Both successful reconstructions and
+-failed physical or numerical controls belong in the account.
+-
+-The account below follows the chapter source as retained at the fixed 8
+-September 2026 SAMA revision. Engine names, installed interfaces and
+-campaign status are historical source statements. They do not describe a
+-freshly inspected October deployment. Later source amendments are
+-distinguished where available; no later engine or campaign is inferred.
++Starbreaker retains 2,976 formation ledgers and 482,112 typed atoms with their stages, event orders, incidence and record origins. A structure-first replay reconstructs the completed parent byte for byte and passes all 78 declared checks using its own grammar. The chapter develops the source construction and the later reception and carrier calculations that consume it.
++
++The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.
+ 
+ \subsection{Overview}\label{viii-ch08-overview}
+ 
+@@ -659,8 +651,7 @@
+ electric and magnetic roles carry the same exact C4 quarter turn as the
+ Complete Write source: the state returns while the relation retains the
+ signed forward/reverse history needed by later interference and receiver
+-stages. \textbf{The test result suggests strong contact with the
+-concept.}
++stages. All 384 source relations retain that exact returning action and signed history.
+ 
+ \subsubsection{SO1 coherent spin-orbit
+ wave}\label{viii-ch08-so1-coherent-spin-orbit-wave}
+@@ -683,8 +674,7 @@
+ 896 constructive, 1,024 destructive and 128 completely cancelling. The
+ nonzero signed wave has period two while its shell-constant Gram has
+ period one. Unit, primary and independent checks pass \texttt{11/11},
+-\texttt{13/13} and \texttt{18/18}. \textbf{The test result suggests
+-strong contact with the concept.}
++\texttt{13/13} and \texttt{18/18}. The complete census distinguishes the 1,920 nonzero coherent waves from the 128 exact cancellations.
+ 
+ \subsubsection{Live ATOM3D reception and
+ re-emission}\label{viii-ch08-live-atom3d-reception-and-re-emission}
+--- baseline/body09.tex
++++ edited/body09.tex
+@@ -1,24 +1,11 @@
+ \bookchapter{Reciprocal History and the Completed Arithmetic
+ Interface}\label{viii-ch09-reciprocal-history-and-the-completed-arithmetic-interface}
+ 
+-Reciprocal History extends the state/history distinction into a
+-mathematical interface with completed arithmetic. This chapter records
+-the finite constructions, the failed direct identification and the
+-corrected source route. It does not supply a proof of the Riemann
+-hypothesis. The universal joins named below remain open in the retained
+-source.
+-
+-The account below follows the chapter source as retained at the fixed 8
+-September 2026 SAMA revision. Engine names, installed interfaces and
+-campaign status are historical source statements. They do not describe a
+-freshly inspected October deployment. Later source amendments are
+-distinguished where available; no later engine or campaign is inferred.
+-
+-\textbf{Source-status qualification.} The operational and revision
+-statements in this chapter describe the retained source documents. They
+-are not an instruction to execute, deploy, resume, train, promote or
+-change a service, and they have not been independently verified as
+-present live state for this edition.
++Reciprocal History constructs a nonbacktracking operator on the 520 directed edges of the N100 source and pairs 10,700 oriented primitive histories into 5,350 reciprocal classes. Its corrected arithmetic interface retains the ordinary-prime tower, coefficient-one grading and completed signed form. The finite constructions and the all-scale nonnegativity question are developed at their respective scopes.
++
++The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.
++
++
+ 
+ \subsection{Overview}\label{viii-ch09-overview}
+ 
+@@ -218,8 +205,7 @@
+ the direct identity is falsified at that scope. The mismatch is
+ structural, not a tolerance or serialization fault.
+ 
+-For this exact direct-identification test, the registered classification
+-is: \textbf{The test falsifies the concept.}
++The coefficient mismatch rules out this direct history-prime to ordinary-prime identification.
+ 
+ The correct record is
+ 
+@@ -540,15 +526,14 @@
+ z^*(K_{bg}'+R_k')z>4w.
+ \]
+ 
+-The relational law and its validation are classified: \textbf{The test
+-result suggests strong contact with the concept.}
++The derived relational law identifies the intrinsic current and retains the exact signed debit and remainder in each admitted prime-power event.
+ 
+ \subsubsection{Particle spin, orbit wave and returning
+ history}\label{viii-ch09-particle-spin-orbit-wave-and-returning-history}
+ 
+ The N100 four-role reciprocal tensor aggregates to
+ \texttt{2\^{}99\ I\_2} across 177 occupied bins and is strict on 174.
+-That tensor result suggests strong contact. Its unaugmented two-mode
++The tensor calculation retains the exact aggregate and all 174 strict occupied bins. Its unaugmented two-mode
+ H000724 innovation has a negative least current at all four sampled
+ supports, so positivity at all four for that unaugmented route is
+ separately falsified.
+@@ -568,7 +553,7 @@
+ derivative. The state returns, but history does not; information does
+ not sit still. Primary, precision, independent and release checks pass
+ \texttt{84/84}, \texttt{12/12}, \texttt{141/141} and \texttt{151/151},
+-and the result suggests strong contact.
++and reconstruct the exact returning state together with its nonzero cumulative wave action.
+ 
+ The active continuation is the exact weight and placement of accumulated
+ dimensionless Theta/wave action in the completed current. Universal mode
+--- baseline/body10.tex
++++ edited/body10.tex
+@@ -1,23 +1,11 @@
+ \bookchapter{Prime Coordinates and Exact Mersenne
+ Factors}\label{viii-ch10-prime-coordinates-and-exact-mersenne-factors}
+ 
+-The prime application asks a narrower question than primality: can a
+-declared structure expose exact factor opportunities? The geometry is an
+-information-coordinate language. Modular certificates decide factors,
+-and a finite failure to find one remains only that. Later bounded
+-application amendments are recorded under their own provenance.
+-
+-The account below follows the chapter source as retained at the fixed 8
+-September 2026 SAMA revision. Engine names, installed interfaces and
+-campaign status are historical source statements. They do not describe a
+-freshly inspected October deployment. Later source amendments are
+-distinguished where available; no later engine or campaign is inferred.
+-
+-\textbf{Source-status qualification.} The operational and revision
+-statements in this chapter describe the retained source documents. They
+-are not an instruction to execute, deploy, resume, train, promote or
+-change a service, and they have not been independently verified as
+-present live state for this edition.
++The prime-coordinate program constructs exact factor opportunities and verifies the resulting divisibility certificates. Its structural scheduler finds 103 factors against 100 at equal budget on the retained comparison, and its frontier deployment assigns 1,282 exact factors across 5,390 prime exponents. This chapter derives the coordinates, compiler and evidence that support those results; a surviving finite search row keeps its primality status unassigned.
++
++The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.
++
++
+ 
+ \subsection{Overview}\label{viii-ch10-overview}
+ 
+@@ -73,8 +61,7 @@
+ A prime \(q\) is assigned as an exact factor of \(M_p=2^p-1\) only
+ through the order certificate \(\operatorname{ord}_q(2)=p\). MP-S5's
+ sealed structural \(k\)-order returns 103 factored objects against 100
+-for equal-budget ascending counting, an installed strong-contact result
+-in the application-scheduler scope. MP-S6 assigns 1,282 exact factors
++for equal-budget ascending counting in the retained application-scheduler comparison. MP-S6 assigns 1,282 exact factors
+ among 5,390 exponents. MP-S7 and MP-S8 preserve a 1,858-row roster after
+ official-factor removal and complete 9,595-coordinate shell misses.
+ Those misses remain \texttt{PRIMALITY\_UNASSIGNED}.
+@@ -82,8 +69,7 @@
+ The clean-sheet route is a successor to two preserved failures. M4's
+ 13,818 RH prime-sidecar ranking and M4A's 7,708 candidate-local
+ Theta18/W9 ranking both fail their fixed direct-successor questions.
+-Their classifications remain \textbf{The test falsifies the concept.}
+-The clean-sheet compiler does not rename those outcomes.
++Neither candidate stably replaced the fixed reference scheduler. The clean-sheet compiler preserves both outcomes.
+ 
+ The owner has resumed only the bounded CEV1/MP successor and its initial
+ training. All other production, farm, frontier and publication work
+@@ -521,17 +507,13 @@
+ \tightlist
+ \item
+   \textbf{MP-S1.} Exact observation: self-harmony exposes factors for
+-  52/158 composites and 0/13 exact positives; Classification:
+-  \textbf{The test result suggests the concept is possible.}.
++  52/158 composites and 0/13 exact positives.
+ \item
+   \textbf{MP-S2.} Exact observation: \(\alpha/\beta_p\) harmony adds
+-  five factors beyond MP-S1; all 37 contacts are phase-shifted echoes;
+-  Classification: \textbf{The test result suggests the concept is
+-  possible.}.
++  five factors beyond MP-S1; all 37 contacts are phase-shifted echoes.
+ \item
+   \textbf{MP-S3.} Exact observation: \(\alpha/\gamma_p\) adds four
+-  held-out factors; all four are delayed echoes; Classification:
+-  \textbf{The test result suggests the concept is possible.}.
++  held-out factors; all four are delayed echoes.
+ \end{itemize}
+ 
+ The zero counts on exact-positive controls remain part of the record.
+@@ -545,8 +527,7 @@
+ ECHO16 with checkpoints. MP-S4B applies it to a blind range and factors
+ 50/136 composites and 0/1 exact prime. Inspecting the exact factor
+ anatomy exposes \(q=2kp+1\), turning the voice/echo structure into the
+-genuine factor-coordinate interface. MP-S4B's classification remains
+-\textbf{The test result suggests the concept is possible.} ECHO16 is a
++genuine factor-coordinate interface. The blind-range result establishes the exact candidate-local factor-coordinate interface. ECHO16 is a
+ language and local compiler at this point, not yet an established global
+ ordering.
+ 
+@@ -555,10 +536,7 @@
+ 
+ MP-S5 seals a structural ordering of \(k=b2^e\) before comparison. At
+ equal budget it factors 103 objects versus 100 under ascending \(k\)
+-counting and reaches shared contacts earlier. Its authorized
+-classification is:
+-
+-\textbf{The test result suggests strong contact with the concept.}
++counting and reaches shared contacts earlier. The sealed structural ordering therefore finds three additional factors at equal budget in this comparison.
+ 
+ The result concerns this Mersenne factor-scheduling application. It does
+ not promote the structural ruler to the global Q2, Starbreaker or RH
+@@ -574,8 +552,7 @@
+ \]
+ 
+ It assigns 1,282 exact factors without constructing \(M_p\); 4,108 rows
+-remain campaign survivors. The classification is \textbf{The test result
+-suggests the concept is possible.}
++remain campaign survivors. Every assigned factor is exact; the 4,108 survivors retain the campaign's finite-search status.
+ 
+ MP-S7 removes 2,250 survivors by independently verified official
+ factors:
+@@ -607,9 +584,7 @@
+ exact positives. Every non-parent route had a negative worst-era change,
+ so M3E remained selected.
+ 
+-The exact direct-ranking concept is classified:
+-
+-\textbf{The test falsifies the concept.}
++The fixed direct-ranking comparison therefore does not improve the selected M3E scheduler.
+ 
+ \subsubsection{M4A candidate-local Theta18/W9
+ ranking}\label{viii-ch10-m4a-candidate-local-theta18w9-ranking}
+@@ -645,9 +620,7 @@
+ 
+ the weight \(\log(p)/\sqrt p\) and the declared pi-bearing floor
+ constant. The fixed candidate-local channel did not stably replace M3E.
+-Its exact-scope classification is:
+-
+-\textbf{The test falsifies the concept.}
++The exact reciprocal checks pass, but the fixed candidate-local ranking does not stably replace M3E on its declared comparison.
+ 
+ Its receipt is typed
+ \nolinkurl{CANDIDATE_LOCAL_COMPLETED_CHANNEL_RECEIPT_NOT_FULL_Q_XI}.
+@@ -737,8 +710,7 @@
+ 
+ Base, independent and complete-source checks pass \texttt{8/8},
+ \texttt{22/22} and \texttt{12/12}; producer-independent reconstruction
+-passes \texttt{19/19}. MP52 is barred from training. \textbf{The test
+-result suggests strong contact with the concept.}
++passes \texttt{19/19}. MP52 is barred from training. The retained held-out census measures the candidate model's source-visible ordering performance.
+ 
+ \subsubsection{MPV2 certified frontier and provenance
+ firewall}\label{viii-ch10-mpv2-certified-frontier-and-provenance-firewall}
+@@ -762,8 +734,7 @@
+ authenticated remote-worker, CPU-replayed 780M and physical-T500
+ execution-custody join is not. Native deployment therefore remains
+ fail-closed. No real-hardware benchmark or continuous MPV2 training
+-process is running. \textbf{The test result suggests strong contact with
+-the concept.}
++process is running. The completed certificate-DAG and reconstruction results remain available independently of that execution-custody join.
+ 
+ For \(p=143064041\), \(k=320000\) would form
+ 
+--- baseline/body11.tex
++++ edited/body11.tex
+@@ -1,18 +1,9 @@
+ \bookchapter{Jacobian Maps, Return and Retained
+ History}\label{viii-ch11-jacobian-maps-return-and-retained-history}
+ 
+-The Jacobian branch uses a polynomial map as a laboratory for the
+-difference between returning endpoints and retained path history. The
+-finite source results are preserved, together with corrections that
+-prevent a chosen auxiliary grammar from becoming an unproved natural
+-invariant. The proposed clean restart remains distinct from executed
+-work.
+-
+-The account below follows the chapter source as retained at the fixed 8
+-September 2026 SAMA revision. Engine names, installed interfaces and
+-campaign status are historical source statements. They do not describe a
+-freshly inspected October deployment. Later source amendments are
+-distinguished where available; no later engine or campaign is inferred.
++The JC1 polynomial map has exact Jacobian determinant $-2$ and a fiber construction whose single and double windings produce different sheet histories. Complete Write programs can return to the same endpoint across all 262,144 addresses while retaining different event counts, orientations and semantic hashes. This chapter derives those distinctions and follows the finite and projective sheet calculations that refine them.
++
++The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.
+ 
+ \subsection{Overview}\label{viii-ch11-overview}
+ 
+@@ -61,8 +52,7 @@
+ zero compiled translation across all 262,144 addresses, yet their
+ ordered W9 receipts retain four, four and eight events with different
+ orientations and semantic hashes. JC1 passes 18/18; independent
+-validation passes 9/9. Its exact classification is \textbf{The test
+-result suggests strong contact with the concept.}
++validation passes 9/9. The exact comparison distinguishes the event histories even when all compiled endpoints coincide.
+ 
+ The portable result is narrower and stronger than an endpoint slogan:
+ endpoint equality does not imply program-history equality. It does not
+@@ -413,9 +403,7 @@
+ \subsubsection{JC1 result and boundary}\label{viii-ch11-jc1-result-and-boundary}
+ 
+ The principal campaign passes 18/18 and independent validation passes
+-9/9. The result is classified:
+-
+-\textbf{The test result suggests strong contact with the concept.}
++9/9. The complete comparison preserves the endpoint equality and the distinct ordered receipts.
+ 
+ The established portable statement is:
+ 
+@@ -449,8 +437,7 @@
+ calibration 41/41 and independent reconstruction 54/54. A first 41/42
+ receipt is preserved: its validator mistook boundary prose for embedded
+ map coefficients. The corrected validator checks actual coefficient
+-markers. HF1's classification is \textbf{The test result suggests strong
+-contact with the concept.}
++markers. HF1 reconstructs the unwrapped signed lift while applying only the declared reciprocal reductions.
+ 
+ \subsubsection{\texorpdfstring{HF2: chosen local \texttt{Z4\^{}2}
+ grammar}{HF2: chosen local Z4\^{}2 grammar}}\label{viii-ch11-hf2-chosen-local-z42-grammar}
+@@ -484,7 +471,7 @@
+ Positive, negative and double filling attempts remain
+ \texttt{NONPROPER\_OBSTRUCTION}; no exact cell is promoted. HF3 passes
+ 28/28, separated promotion 24/24 and independent reconstruction 46/46,
+-with strong contact at the obstruction-localization scope.
++and localize coefficient loss at the nonproper obstruction.
+ 
+ HF4 shows the obstruction is not a fixed-slice artifact by constructing
+ the full nonproper hypersurface and its nonzero meridian linking.
+@@ -501,7 +488,7 @@
+ Two implementation attempts are preserved: NumPy-boolean serialization
+ and a closed-path final-sample tracking defect. Corrected execution
+ passes 37/37; promotion and independent reconstructions pass their
+-declared gates. The result suggests strong contact.
++declared gates. The certified disk discharges the stated regular meridian and leaves the nonproper class retained.
+ 
+ \subsubsection{HF5 and HF5A: selected-sheet fill versus global sheet
+ custody}\label{viii-ch11-hf5-and-hf5a-selected-sheet-fill-versus-global-sheet-custody}
+@@ -535,7 +522,7 @@
+ response \(I_\infty(k,d)=k\) retains the (K/x) global-history class.
+ Current preserved HF authority therefore returns to the rank-one
+ certified lattice above. HF5A passes 26/26 with 22/22 independent
+-reconstruction and suggests strong contact. Three pre-result
++reconstruction. The corrected projective accounting retains the two roots at infinity. Three pre-result
+ field/dependency/alias faults remain preserved.
+ 
+ \subsubsection{HF6 and the path-specific
+@@ -556,7 +543,7 @@
+ 
+ Seven nonslice deformations preserve \(K\)-winding one, the
+ transposition and the surviving class. Execution passes 19/19 and
+-independent validation 24/24; the result suggests strong contact.
++independent validation 24/24. The mixed finite/infinity receipt reconstructs the surviving class through the tested deformations.
+ 
+ H000199 corrects one overgeneralized coefficient. The escape exponent
+ remains \(-1/2\), but the leading coefficient depends on the exact path
+@@ -585,8 +572,7 @@
+ reconstructs path-specific escape and preserves the failed pure-tensor
+ partition. A first 18/19 run used the wrong determinant sign after
+ swapping target coordinate order; correcting only that explicit sign
+-gives 19/19. The result suggests strong contact for the JC1 path-jet
+-discriminator, not a universal tensor law.
++gives 19/19. The frozen path-jet discriminator reconstructs the declared JC1 route roster.
+ 
+ HF6TF freezes the rule unchanged on ten fresh maps. It returns four true
+ positives, zero false positives, two false negatives and four true
+@@ -612,8 +598,7 @@
+ exponent and regular cycle structure. On 15 fresh fibers, projective
+ presence, sheet counts and coefficient winding close 15/15; 34/34
+ exponents and 10/10 regular cycle types reconstruct. A repeated edge
+-remains \texttt{SINGULARITY\_OBSTRUCTION}. The result suggests strong
+-contact without installing a universal Newton law.
++remains \texttt{SINGULARITY\_OBSTRUCTION}. The Newton-signature calculation reconstructs the stated sheet counts, exponents and regular cycle types for its fifteen fresh fibers.
+ 
+ HF6TH then works in the triangular affine-path chart and freezes the
+ complete mixed coefficient
+--- baseline/body12.tex
++++ edited/body12.tex
+@@ -1,18 +1,9 @@
+ \bookchapter{Relational Composition and the Boundary of the
+ Volume}\label{viii-ch12-relational-composition-and-the-boundary-of-the-volume}
+ 
+-The closing chapter of the retained foundation changes evidential level. It preserves two
+-source-originated proposals about composition and interaction, rather
+-than presenting a newly validated universal law. Their role is to state
+-the intended conceptual relation among the finite objects already
+-developed. The volume can end with these questions explicit; they do not
+-create an obligation to run another campaign.
+-
+-The account below follows the chapter source as retained at the fixed 8
+-September 2026 SAMA revision. Engine names, installed interfaces and
+-campaign status are historical source statements. They do not describe a
+-freshly inspected October deployment. Later source amendments are
+-distinguished where available; no later engine or campaign is inferred.
++The retained foundation closes with two source-originated proposals about relational composition and interaction. They connect the finite objects developed in the preceding chapters and state the mathematical assignments that a broader composition law would need. Their status as proposals is kept explicit alongside the completed constructions that motivate them.
++
++The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.
+ 
+ \subsection{Orientation}\label{viii-ch12-orientation}
+ 
+--- baseline/runtime_01.tex
++++ edited/runtime_01.tex
+@@ -76,7 +76,7 @@
+ 
+ The source-defined gain was visible before the larger capacity change. An initial 64-state attempt spent more than 159 seconds in symbolic rank work and was interrupted. The completed positive-window route took 1.306 seconds for its dense 64-state call. The matched 128-state candidate took 5.939 seconds. These timings belong to the declared nine-family, 256-bit, one-thread comparison, including its native return boundary. They identify the practical value of a better certificate rather than a general dimension-independent speed claim.\samref{V3R07}
+ 
+-The qualification retains noncoordinate rank-one support, repeated kernel blocks, small positive modes, finite term exhaustion and irreducible source widths. Its meaningful failed and unresolved cases remain beside the successful certificates. Independent rational scalar-log/projector references check every emitted matrix entry. The report's classification is: \emph{The test result suggests strong contact with the concept.}\samref{V3R07}
++The qualification retains noncoordinate rank-one support, repeated kernel blocks, small positive modes, finite term exhaustion and irreducible source widths. Its meaningful failed and unresolved cases remain beside the successful certificates. Independent rational scalar-log/projector references check every emitted matrix entry. The resulting certificates enclose every emitted matrix entry against the separately arranged rational scalar-log and projector references.\samref{V3R07}
+ 
+ Ordered operator response uses the same distinction between a full operator and a scalar summary. For
+ \[
+--- baseline/runtime_02.tex
++++ edited/runtime_02.tex
+@@ -66,7 +66,7 @@
+ 
+ The completed lesson trained on ten one-log cases and four development cases. Their executions supplied forty witnessed rows, and development selected a depth-one native tree. Six reserved cases used two-log signed expressions with coefficient scales and accuracy goals absent from training. The baseline required eighteen numerical trials; the learned policy required six, reaching the baseline's first successful ladder point in every case. Fresh stores kept the comparison free of preexisting target results. The same imported model repeated eighteen-to-six on the qualified pod.\samref{V3R04}
+ 
+-The primary matched-work result is a 67 percent reduction in numerical trials. Recorded local execution-loop totals were 338.723 milliseconds and 130.001 milliseconds, excluding planning, transfer and cold return. The report retains one exceptional development witness; certification still determines every future acceptance. Its classification is: \emph{The test result suggests strong contact with the concept.}\samref{V3R04}
++The primary matched-work result is a 67 percent reduction in numerical trials. Recorded local execution-loop totals were 338.723 milliseconds and 130.001 milliseconds, excluding planning, transfer and cold return. The report retains one exceptional development witness; certification still determines every future acceptance. The saved proposal policy reduces numerical trials under the declared matched-work protocol, while the native certificate decides each acceptance.\samref{V3R04}
+ 
+ Several controls show what precision learning must distinguish. A declared source radius of $10^{-6}$ against a $2^{-80}$ width goal returns source-refinement-required with zero arithmetic trials. A retained interval $[1,2]$ cannot be narrowed to a point by increasing arithmetic precision; its observed width plateau requests source or truncation review. A goal beyond the policy ceiling returns its unresolved ceiling status. An initially unresolved nearly singular exact solve, by contrast, succeeds after escalation to 256 bits.
+ 
+@@ -85,7 +85,7 @@
+ 
+ Exact information uses the declared probability measure. Binary, uneven and three-way tests retain rational weights and logarithmic terms such as $\log3$. These information quantities remain distinct from source-action ratios. Source restrictions and unavailable probes also remain explicit; an unavailable observation does not remove a compatible source from the relation.
+ 
+-The completed qualification passes 55,917 assertions, covering 384 original source members, 2304 probe extensions, equal-observation fibers, variant receivers, short ordered histories and guards. Appending a probe preserves the original target even when the extended history's barrier changes. A resumed session retains its full sealed decision plan, alternative predictions and all maximizing ties. The result's classification is: \emph{The test result suggests strong contact with the concept.}\samref{V3R15}
++The completed qualification passes 55,917 assertions, covering 384 original source members, 2304 probe extensions, equal-observation fibers, variant receivers, short ordered histories and guards. Appending a probe preserves the original target even when the extended history's barrier changes. A resumed session retains its full sealed decision plan, alternative predictions and all maximizing ties. The retained decision plan preserves the original target and all maximizing query ties across fresh execution and recovery.\samref{V3R15}
+ 
+ This inverse machinery is a completed finite method under its declared source and observation contract. It supplies a useful basis for learned investigative queries: the learner can compare the partitions generated by permitted actions, count their costs and retain a method whose information matches the original question.
+ 
+--- baseline/response_01.tex
++++ edited/response_01.tex
+@@ -36,11 +36,11 @@
+ 
+ \subsection{Five original trajectories received the refined operands}
+ 
+-The original frozen H02--H06 experiment completed with zero of five full trajectories and independently reproduced all five failures. The separate integration successor refines only two incoming source-duration enclosures in each job, with each new enclosure required to lie inside its original one. Original coefficients, waiting gaps, events, initial states and mathematical receiver remain fixed. The receiver stays at 192 bits with logarithm tolerance $10^{-35}$ and a 512-term bound.\samref{V3S08,V3S09}
++The integration successor completes all five original H02--H06 trajectory questions by refining two incoming source-duration enclosures per job. Each refined enclosure lies inside its original one. Coefficients, waiting gaps, events, initial states and the mathematical receiver remain fixed; the receiver stays at 192 bits with logarithm tolerance $10^{-35}$ and a 512-term bound. The frozen parent completed zero of five trajectories, and its five independently reproduced failures retain their separate record.\samref{V3S08,V3S09}
+ 
+ All five successor cases complete, each with its full independent reproduction. They execute 4,781 original DAG operations and pass 481,979 declared predicate/native-status checks. The independent reconstruction contributes 80,940 checks across the five completed comparisons. It reconstructs the signed source paths with separate high-precision angular quadrature and evolves the unchanged full 273/546-dimensional carrier equations before comparing native outputs.\samref{V3S08,V3S10}
+ 
+-The comparison covers all six carrier segments and four paid/image events: complete states, source operators, clocks, memory, outgoing channels, driver and energy accounts. The result therefore concerns the full composed trajectory. The refinement is a numerical successor with its own receipts, alongside the preserved frozen failure record. For this integration transfer and its complete compositions, \emph{The test result suggests strong contact with the concept.}\samref{V3S08}
++The comparison covers all six carrier segments and four paid/image events: complete states, source operators, clocks, memory, outgoing channels, driver and energy accounts. The result therefore concerns the full composed trajectory. The refinement is a numerical successor with its own receipts, alongside the preserved frozen failure record. All five refined compositions are completed and independently reproduced with their full carrier, clock and energy accounts.\samref{V3S08}
+ 
+ The trajectory structure makes the result informative. H02 and H03 have the same source endpoint in different orders. Their active-duration sums are approximately $0.3156476595$ and $0.3181630929$, while their final receiver times at common internal endpoint $0.35$ are approximately $1.5928865558$ and $1.5928814590$. The order of those two source durations and the order of the two final-clock readings concern different observables. Their final native intervals are disjoint in 81 of 273 current coordinates and 162 of 546 first-return coordinates.\samref{V3S08}
+ 
+@@ -121,7 +121,7 @@
+ 
+ There are two distinct endpoint comparisons. All 1,998 new lower endpoints improve the frozen C1 plus explicitly included C2 native WORD frontier. In 1,989 cases, the new lower endpoint also exceeds the upper endpoint of the earlier local-cap variational-lower evaluation. That earlier interval encloses a calculated lower estimate; it is not an upper bound on the full physical response. The comparison therefore demonstrates a separated gain in the lower estimate.\samref{V3S14}
+ 
+-The source classification is \emph{The test result suggests strong contact with the concept.} The full mixed two-residual Dirichlet block and the next squared-action norm $\|Ar\|^2$ retain their separate source questions. The completed scalar does not fill either operand by inference. The full mixed block can reuse retained core edge data, but requires joint physical/background and signed cross-term payments establishing its matrix ordering.\samref{V3S14,V3S16}
++The completed scalar retains its original source metric and the paid signed response. The full mixed two-residual Dirichlet block and the next squared-action norm $\|Ar\|^2$ retain their separate source questions. The completed scalar does not fill either operand by inference. The full mixed block can reuse retained core edge data, but requires joint physical/background and signed cross-term payments establishing its matrix ordering.\samref{V3S14,V3S16}
+ 
+ \subsection{What becomes reusable across the volumes}
+ 
+--- baseline/applications_01.tex
++++ edited/applications_01.tex
+@@ -7,7 +7,7 @@
+ 
+ The applied chain begins with Starbreaker's actual generation-two packets and the A3D41 contact receiver. It then varies supplied initial information, simultaneous sources and spatial observations. Finally, it follows complete accepted-reading histories through declared dynamics. These applications use the exact inverse and retained arithmetic interfaces developed elsewhere in this volume, while keeping their own source maps and executable questions central. Sean Brady supplied the research direction; the technical maps, derivations and independent reconstructions are attributed to Codex in the cited completed records.
+ 
+-The classifications remain those of each executed comparison. Full two-channel reception and the source-history reconstructions achieve \emph{The test result suggests strong contact with the concept.} Mixed and partially observed cases retain their source-defined ambiguities and classifications. The current dynamical constructions use explicit source kinetics and attempt-time units; their energy and physical propagation maps remain attached to their own recipients.
++Full two-channel reception reconstructs the declared source histories exactly. The mixed and partially observed comparisons quantify which histories remain indistinguishable under each supplied observation. The current dynamical constructions use explicit source kinetics and attempt-time units; their energy and physical propagation maps remain attached to their own recipients.
+ 
+ \subsection{Starbreaker's packets retain motion above a returning phase}
+ 
+@@ -22,7 +22,7 @@
+ 
+ This is an immediately useful example of state and history being separate computational objects. The returning phase is the current state; the executed signed lift and winding are retained path information. Raw endpoint equality therefore leaves meaningful distinctions in the saved source computation. The unit-Write decomposition specifies the adapter's intermediate microsteps. Physical spin and orbital motion require their own source assignment rather than being inferred from that decomposition.
+ 
+-Every packet has an authenticated native calculation receipt, with zero failed or incomplete calls. The recorded $277.202$ seconds includes preparation, current-runtime execution, phase attachment and receipt writing. There is no matched earlier-engine timing comparison. The achieved result is exact packet propagation and inverse recovery on the actual roster, with its full phase and signed-history output available to later receivers. For that result, \emph{The test result suggests strong contact with the concept.}
++Every packet has an authenticated native calculation receipt, with zero failed or incomplete calls. The recorded $277.202$ seconds includes preparation, current-runtime execution, phase attachment and receipt writing. There is no matched earlier-engine timing comparison. The achieved result is exact packet propagation and inverse recovery on the actual roster, with its full phase and signed-history output available to later receivers. The complete phase and signed-history outputs can therefore be received by later operations without reconstructing the original packet campaign.
+ 
+ \subsection{One event emits two complementary observations}
+ 
+@@ -49,7 +49,7 @@
+ 
+ The information-bridge series enlarges the application from three distinct Writes to all six signed letters, with repeats, reversals and changing directions. It includes all sixty-four phase triples, every word of length one through three and four response settings. The source executes $16{,}512$ histories and $46{,}464$ Writes, producing $66{,}048$ received histories across those settings. Word length, legal alphabet and calibration remain supplied. \samref{V3PINFO}
+ 
+-Per response setting, full observations with initial phase and directions recover all $16{,}512$ programs, source histories and barriers. With directions alone, the complete program is still recovered in every case, but only $16{,}288$ initial source histories and barriers are unique. With initial phase alone, $10{,}944$ programs are recovered. With neither initial phase nor directions, $8192$ programs are unique. For the two direction-supplied full-program comparisons, \emph{The test result suggests strong contact with the concept.} For the partially supplied comparisons and endpoint-only tests, \emph{The test result suggests the concept is possible.}
++Per response setting, full observations with initial phase and directions recover all $16{,}512$ programs, source histories and barriers. With directions alone, the complete program is still recovered in every case, but only $16{,}288$ initial source histories and barriers are unique. With initial phase alone, $10{,}944$ programs are recovered. With neither initial phase nor directions, $8192$ programs are unique. Direction-supplied observations recover every program; removing direction or initial-phase information gives the smaller exact recovery counts stated above.
+ 
+ A single negative Write on edge 002 illustrates the separation. Starting from $(0,t,t)$ for any of four $t$ values gives the same observed event. Its program is unique while the barrier can be zero or two. The executable answer should consequently contain a unique Write and a retained source/barrier candidate set. Returning only one aggregate success flag would erase this difference.
+ 
+@@ -59,9 +59,9 @@
+ 
+ Two sources writing into the same receiver supply another applied question. Both initial states and directions are known. The series compares all nine source-choice pairs in each family, giving $589{,}824$ mixed received cases. Native vector-current computation supplies the two-lane sum; its separate recovered-parent and odd-current fields are excluded from the mixed observation. \samref{V3PINFO}
+ 
+-The mixed signed-plus-occupancy signal uniquely recovers $137{,}088$ of $147{,}456$ source-choice pairs per response setting, or $92.96875\%$, with maximum answer-set size three. Signed mixing alone recovers $87{,}616$. Duplicating the mixed two-lane signal produces exactly the same inverse partition. Separately observed contributions recover every pair. For the mixed-source result, \emph{The test result suggests the concept is possible.} For the separated-source reference, \emph{The test result suggests strong contact with the concept.} The additional information comes from a genuinely distinct source contribution, rather than another copy of the same scalar output.
++The mixed signed-plus-occupancy signal uniquely recovers $137{,}088$ of $147{,}456$ source-choice pairs per response setting, or $92.96875\%$, with maximum answer-set size three. Signed mixing alone recovers $87{,}616$. Duplicating the mixed two-lane signal produces exactly the same inverse partition. Separately observed contributions recover every pair. The mixed observation recovers most source-choice pairs, while separately observed contributions recover the complete roster. The additional information comes from a genuinely distinct source contribution, rather than another copy of the same scalar output.
+ 
+-The same computational principle appears in a spatial inverse that directly uses the declared radial accumulation law $a(r)=M(<r)/r$. The source roster contains $141$ distributions of six units among six shells, with each shell amount zero, one or two. Six receivers between successive shells recover all distributions. Multiplying each reading by its radius gives enclosed amounts; differences return the shell populations. Reading only after shells one, three and six leaves fifteen classes and only two unique distributions. The outer reading is always $12/13$, so one outer reading or six copies of it retains one class of all $141$ sources. For the full inverse, \emph{The test result suggests strong contact with the concept.} For this fixed-total outer-only recovery, \emph{The test falsifies the concept.}
++The same computational principle appears in a spatial inverse that directly uses the declared radial accumulation law $a(r)=M(<r)/r$. The source roster contains $141$ distributions of six units among six shells, with each shell amount zero, one or two. Six receivers between successive shells recover all distributions. Multiplying each reading by its radius gives enclosed amounts; differences return the shell populations. Reading only after shells one, three and six leaves fifteen classes and only two unique distributions. The outer reading is always $12/13$, so one outer reading or six copies of it retains one class of all $141$ sources. The six distinct radial readings reconstruct the full source; the fixed-total outer reading cannot distinguish any of the 141 distributions.
+ 
+ For the six directions $\pm x,\pm y,\pm z$, total $M$, signed dipole $D$ and trace-free diagonal quadrupole $Q$ also recover every source. Opposite-pair totals obey $P_k=(Q_k+M)/3$, and the directed populations are $(P_k\pm D_k)/2$. Omitting signed quadrupole or dipole leaves larger inverse fibers. The powers $(M^2,\sum D^2,\sum Q^2)$ give only nine classes and one unique distribution. They even merge two geometrically distinct opposite-pair multisets: $(0,0),(1,2),(1,2)$ and $(0,1),(0,1),(2,2)$ share powers $(36,2,54)$. Full signed moments preserve the distinction. This is a completed angular-information application of the exact receiver, with no temperature-spectrum or cosmological parameter assignment added.
+ 
+@@ -106,6 +106,6 @@
+  \text{signed chain}&0.918002&0.009810
+ \end{array}
+ \]
+-All six acceptance curves and memory differences decline from the prior $N=1800$ anchor. Empirical slopes over $N=2000$--$5000$ range approximately $-0.464$ to $-0.474$ for positive fill and $-1.0003$ to $-1.0007$ for negative fill. These are measured finite-range slopes; an asymptotic law remains the source-defined next derivation. For persistent source-dependent boundary memory through the completed roster, \emph{The test result suggests strong contact with the concept.}
++All six acceptance curves and memory differences decline from the prior $N=1800$ anchor. Empirical slopes over $N=2000$--$5000$ range approximately $-0.464$ to $-0.474$ for positive fill and $-1.0003$ to $-1.0007$ for negative fill. These are measured finite-range slopes; an asymptotic law remains the source-defined next derivation. The completed roster therefore retains measurable source-dependent boundary memory through $N=5000$ under the declared finite-source dynamics.
+ 
+ The application sequence now gives Volume III several finished objects: exact returning packets with retained winding, a two-channel local inverse, source and program inverse fibers, spatial distribution inverses, complete ordered accepted-state evolution, and source-factor dynamics that retain quantified memory. Each makes an executable question concrete. Their useful reuse depends on carrying the particular observations, source preparation and clock with the result, so another consumer can apply the completed computation without changing what it answers.
+--- baseline/applications_02.tex
++++ edited/applications_02.tex
+@@ -21,7 +21,7 @@
+ 
+ This source shows two distinct reductions: circulation selects the motif covers, and the hidden-loop response refines their histories. The endpoint-only triad comparison favors the pair-only cover. Replacing it by the retained circulation changes the assembly preference on the same constituent inventory. An explicit same-site-current/different-circulation witness records the information responsible for the change.
+ 
+-The factorized computation retains $245{,}760$ minimum cases and $119$ distinct minimizing sets across its masks, channels, direction maps, receiver variants, covers, placements and response settings. The hardware calculation evaluates $5{,}563{,}227$ primitive response values, agreeing exactly across H14F direct forms, Ryzen independent expansions and actual Radeon 780M integer contractions. Two source-feature batches avoid materializing a large Cartesian product while their inverse maps still cover $2{,}097{,}152$ state/reference rows. For the achieved grammar assembly and source-action selection, \emph{The test result suggests strong contact with the concept.} The action $46.0625$ is in candidate source units; its measured binding-energy assignment has a separate physical recipient.
++The factorized computation retains $245{,}760$ minimum cases and $119$ distinct minimizing sets across its masks, channels, direction maps, receiver variants, covers, placements and response settings. The hardware calculation evaluates $5{,}563{,}227$ primitive response values, agreeing exactly across H14F direct forms, Ryzen independent expansions and actual Radeon 780M integer contractions. Two source-feature batches avoid materializing a large Cartesian product while their inverse maps still cover $2{,}097{,}152$ state/reference rows. The retained minimizing sets and the three agreeing primitive calculations establish exact source-action selection for this construction grammar. The action $46.0625$ is in candidate source units; its measured binding-energy assignment has a separate physical recipient.
+ 
+ \subsection{Active probes resolve a family whose source action is tied}
+ 
+@@ -31,7 +31,7 @@
+ 
+ The selected decoder uses two independent response experiments. Each starts from the same restored initial configuration: one positive Write on the source edge of index two, and one negative Write on the source edge of index five. The measured changes are accompanied by the signed N01 site-current polynomial $\operatorname{Re}\alpha+\operatorname{Im}\alpha$, whose value is $+1$ or $-1$. The two action changes distinguish the reversal pairs; the signed bit supplies orientation. The native finite inverse recovers state, cover and placement in all $192$ cases. The experiments are independent restored-state probes, rather than two consecutive changes to an already perturbed source.
+ 
+-The source computation executes $288$ transitions, $3264$ construction evaluations and $3456$ signed response differences with their retained arithmetic graphs. Independent rational checks match every difference. All ninety-six inverse pairs have the predicted reversal association, and fresh graph recovery applies the usable decoder without replacing its source. For the completed response-based distinction, \emph{The test result suggests strong contact with the concept.}
++The source computation executes $288$ transitions, $3264$ construction evaluations and $3456$ signed response differences with their retained arithmetic graphs. Independent rational checks match every difference. All ninety-six inverse pairs have the predicted reversal association, and fresh graph recovery applies the usable decoder without replacing its source. The signed response differences distinguish the retained constructions and preserve their reversal associations under independent rational reconstruction.
+ 
+ One difference is only $43$ inside response values of order $10^{12}$. Retained exact signed arithmetic computes it while reusing $560$ prior graph nodes. This is a concrete application in which preserving exact operands matters to the scientific receiver: a small cover distinction remains available above a large source baseline. It does not itself assign the experimental resolution, magnetic coefficient or MeV conversion. The decoder identifies the admitted finite source family at response setting one, with every cover and placement still available.
+ 
+@@ -49,7 +49,7 @@
+ 
+ The previous $224$-history reuse comparison keeps all histories correctly recovered while reducing scalar reports from $516$ to $508$. Fresh confirmation declares all $256$ legal length-eight words on one A3D29 orbit, disjoint from $416$ predecessor paths. Both selectors recover $256/256$ histories; the distinct selector uses $625$ reports instead of $633$. Saved policies replay all confirmation cases exactly on the opposite host, with no new source-model generation, ranking or search.
+ 
+-The cost comparison retains its ordering: unresolved histories first, scalar reports second, executed query nodes third. Fewer reports can require additional arithmetic. Query nodes increase from $1899$ to $2163$ on fresh confirmation, while scalar bytes decrease from $2749$ to $2715$. Selector preparation is separately measured; recovery reuses its saved policy. Thus the reported result is improved selection of existing learned methods, not newly trained expressions or a blanket reduction of every computational cost. \emph{The test result suggests strong contact with the concept.}
++The cost comparison retains its ordering: unresolved histories first, scalar reports second, executed query nodes third. Fewer reports can require additional arithmetic. Query nodes increase from $1899$ to $2163$ on fresh confirmation, while scalar bytes decrease from $2749$ to $2715$. Selector preparation is separately measured; recovery reuses its saved policy. The saved selector improves its declared observation objective using existing learned methods. The counts above show separately what happens to scalar storage and executed arithmetic.
+ 
+ The completed tests remain available while this research line is owner-paused. Its eight services are stopped and the verified local checkpoint is retained. The pending final T500 checkpoint-copy status is carried by its live authority. That operational boundary does not alter the completed native equivalence and paired-selector outcomes.
+ 
+@@ -65,7 +65,7 @@
+ 
+ This exact representation retains the preparation dependence exposed by the full source. In one graph, two initial states with the same visible bit have three-read acceptance approximately $0.47596$ and $0.95360$; in the other, corresponding values are $0.40943$ and $0.99147$. Formal refinement of the two visible classes reaches all sixty-four classes in both sources. The parity method accelerates those full histories while retaining their hidden-state information.
+ 
+-The pilot's propagation medians improve by factors $2.004$ and $2.176$ on one i9 core. Including the separately measured common generator cost gives factors $1.343$ and $1.265$. Both endpoint and accepted-substate operators are checked on all sixty-four basis preparations. The source states, timing scopes and complete retained response remain explicit. \emph{The test result suggests strong contact with the concept.} The adapter is a qualified research candidate rather than an unrecorded global operation installation.
++The pilot's propagation medians improve by factors $2.004$ and $2.176$ on one i9 core. Including the separately measured common generator cost gives factors $1.343$ and $1.265$. Both endpoint and accepted-substate operators are checked on all sixty-four basis preparations. The source states, timing scopes and complete retained response remain explicit. The full response is preserved while propagation work is reduced in the measured pilot. The adapter is a qualified research candidate rather than an unrecorded global operation installation.
+ 
+ \subsection{Tau learns correspondence and training utility separately}
+ 
+@@ -83,7 +83,7 @@
+ 
+ Validation selects an established momentum-Q3 direction method with transverse assembly/response, an established charge-mixed identification method and the corrected energy-Q3 decay base. Their new confirmation means are $0.010031877$ radians, $0.982346871$ AUROC and $0.692733319$ macro-F1. The selected direction readout reduces its measured-jet starting error from $0.010917399$ radians by $8.11\%$ on this new sample.
+ 
+-The best learned-bundle alternatives are also fixed by validation. Their new direction error is $0.010072426$ radians, $0.40\%$ above the selected reference; their identification AUROC is $0.982390874$, a gain of $0.000044002$; their decay macro-F1 is $0.692669915$, a change of $-0.000063404$. The declared learned-bundle improvement questions retain their separate classifications. For direction, \emph{The test falsifies the concept.} For identification, \emph{The test result suggests the concept is possible.} For mean decay improvement, \emph{The test falsifies the concept.} For the pilot's acquisition-and-reuse question, \emph{The test result suggests the concept is possible.}
++The best learned-bundle alternatives are also fixed by validation. Their new direction error is $0.010072426$ radians, $0.40\%$ above the selected reference; their identification AUROC is $0.982390874$, a gain of $0.000044002$; their decay macro-F1 is $0.692669915$, a change of $-0.000063404$. The matched test does not improve direction or mean decay accuracy; identification AUROC increases by the stated small amount. The pilot separately completes acquisition and reuse of the learned bundle.
+ 
+ These outcomes locate the distinction between information and training utility. A native report can carry conditional information about a declared task without being the validation-selected input for its trained reconstruction loss. The completed method memory consequently records actual pre-confirmation fitting results alongside correspondence memory. It returns the selected three training plans after restart with zero new fits and zero native ranking calls. Confirmation outcomes do not enter those method rankings.
+ 
+--- baseline/arithmetic_01.tex
++++ edited/arithmetic_01.tex
+@@ -85,9 +85,7 @@
+ \(-137.312426025\); at \(16{,}777{,}216.375\) it is
+ \(-137.3124361512\). The fractional pair retains the moving boundary
+ at \(V=64\). Every GPU discovery value receives a complete independent
+-256-bit native evaluation. For the exact prefix construction and
+-completed source panel, \emph{The test result suggests strong contact
+-with the concept.}\samref{V3A01}
++256-bit native evaluation. The exact prefix construction preserves the moving fractional boundary, and independent 256-bit evaluations reconstruct the complete declared source panel.\samref{V3A01}
+ 
+ \subsection{A common grid separates arithmetic from geometric payments}
+ 
+@@ -164,9 +162,7 @@
+ source target is a joint \(O(A^{-1})\) bound after the exact diagonal
+ repayment. The known terms have formulas for all \(q\); the unknown
+ source-correlation coefficient remains a single named arithmetic
+-assignment. For these completed uniform transport and source
+-reductions, \emph{The test result suggests strong contact with the
+-concept.}\samref{V3A04}
++assignment. The completed identities isolate the unassigned source-correlation coefficient while paying the known scale-dependent terms explicitly.\samref{V3A04}
+ 
+ \subsection{A determinant retains the transverse source direction}
+ 
+@@ -213,12 +209,7 @@
+ signed product readout. The constant-size Gram is retained alongside
+ the growing source-query and product ledger.\samref{V3A27}\samref{V3A28}
+ 
+-The completed exact representations, transport identities and finite
+-certificates have classification \emph{The test result suggests strong
+-contact with the concept.} The uniform route retains
+-\emph{The test result suggests the concept is possible.}
+-Its all-scale determinant estimate remains the named source
+-assignment.\samref{V3A24}
++The exact representations, transport identities and stated finite certificates are completed. Their all-scale continuation requires the named uniform determinant estimate, which remains unassigned.\samref{V3A24}
+ 
+ \subsection{The auxiliary inverse receives its whole complement}
+ 
+@@ -250,8 +241,7 @@
+ full-source sign is carried by
+ \(Q_{EE}-Q_{EK}Q_{KK}^{-1}Q_{KE}\).
+ The completed kernel forms and the proposed mixed Schur have separate
+-status. For the completed whole-inverse and signed-source recipients,
+-\emph{The test result suggests strong contact with the concept.}
++status. The completed recipients retain both exterior tails and all mixed signed-source entries in the whole-inverse response.
+ \samref{V3A25}\samref{V3A26}
+ 
+ \subsection{An ordered Gram forest keeps both quadratures}
+@@ -309,8 +299,7 @@
+ serialization, so this is an arithmetic comparison. Fourteen
+ retained cases at 512 bits agree across 764 complete cuts; the full
+ campaign retains 102,044 checks and 25 cold-exact native results.
+-\emph{The test result suggests strong contact with the concept.}
+-\samref{V3A05}
++The retained complete-cut values agree with the reference while the measured arithmetic work is reduced.\samref{V3A05}
+ 
+ \subsection{Paid subaccounts locate the cross-prime task}
+ 
+@@ -348,10 +337,7 @@
+ \(Y_j=(4/3)2^j\), the terminal prime block has coherent positive
+ overlap. Its positive forcing diverges for fixed
+ \(0<\varepsilon<1\), under the established prime census used in the
+-source derivation. For independent all-real summable prime-block
+-payments in that specified form,
+-\emph{The test falsifies the concept.} Earlier signed sectors must
+-participate in the compensation. At \(Y=16384/3\), the finite
++source derivation. Independent all-real summable prime-block payments cannot compensate that divergent terminal forcing in the specified form. Earlier signed sectors must participate in the compensation. At \(Y=16384/3\), the finite
+ adaptive terminal contribution is \(+0.005434532\), earlier signed
+ forcing is \(-0.245163459\), and the whole receiver is
+ \(-0.239728928\). The failure and the useful complete signed receiver
+@@ -431,8 +417,7 @@
+ At this cut storage release pays the increasing crossing even while
+ the positive payment falls. All 1255 successful external native
+ outputs receive independent reconstruction, totaling 544,057
+-checks. For these tested source and transition relationships,
+-\emph{The test result suggests strong contact with the concept.}
++checks. The source and transition reconstruction verifies the storage identity and its signed payment at the tested crossing.
+ \samref{V3A07}
+ 
+ \subsection{Complete transition recipients and the retained boundary}
+--- baseline/arithmetic_02.tex
++++ edited/arithmetic_02.tex
+@@ -133,8 +133,7 @@
+ \(2.751570008\) seconds, retaining that additional cost.
+ Fresh installed adoption reproduces the outcomes. Repeating
+ the recovered completed packet adds zero checks, components
+-or certificates. For route-order optimization,
+-\emph{The test result suggests strong contact with the concept.}
++or certificates. The changed work order returns the same exact terminals and retained unresolved rows with fewer component builds and trial divisions.
+ \samref{V3A14}
+ 
+ The larger CSV experiment supplies a useful contrast. Its
+@@ -202,9 +201,7 @@
+ retained for later investigation. Source cursors,
+ terminals and reconstruction recipes are durable;
+ evictable GPU buffers retain their volatile role.
+-For the executed sufficient-proof reduction and source-linked
+-history readout, \emph{The test result suggests strong
+-contact with the concept.}\samref{V3A17}
++The completed proof reduction preserves its sufficient premises, and the separate history consumer supplies residue-selected candidates to native verification.\samref{V3A17}
+ 
+ \subsection{Shared powers and source-bound arithmetic plans}
+ 
+@@ -234,9 +231,7 @@
+ validation; native consumption of the shared-power
+ plan is the named next interface. Its two offline
+ Prime95 controls remain external backend results.
+-For this qualified local method composition,
+-\emph{The test result suggests strong contact with the
+-concept.}\samref{V3A18}
++The qualified local composition reduces repeated powers while retaining every required modular premise and the independent validation.\samref{V3A18}
+ 
+ \subsection{Exact skipping, measured acceleration and a retained near-tie}
+ 
+@@ -256,9 +251,7 @@
+ Independent reconstruction matches the complete ordered
+ survivor lists over sixteen windows and 7,340,032
+ coordinates. One unfavorable initial window is retained.
+-For this finite implementation improvement,
+-\emph{The test result suggests strong contact with the
+-concept.}\samref{V3A19}
++The finite implementation preserves the complete ordered survivor lists and reduces the measured confirmation-window time by 10.60 percent.\samref{V3A19}
+ 
+ A distinct GPU experiment learns sieve size, retaining
+ the same factorer and exact candidate classes.
+@@ -278,9 +271,7 @@
+ Moving a class start by \(4620B\) therefore reuses its
+ first-cleared-bit offset. Full reconstruction agrees
+ with the entire 364,544-byte packed state over at least
+-480 transitions. For exact transition reuse,
+-\emph{The test result suggests strong contact with the
+-concept.}
++480 transitions. The recurrence reconstructs the complete packed sieve state across the retained transitions.
+ 
+ The matched runtime comparison nearly ties: three
+ 79--80-bit pairs have medians \(11.561\) and

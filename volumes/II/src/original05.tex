@@ -1,0 +1,308 @@
+\bookchapter{Binding: exact structure, historical fits and the retained held test}
+\label{v2c5:chapter}
+
+Binding is where an exact constituent ledger encounters a harder question: how does the configuration change the observable mass or energy of the combined system? The ledger of Chapter~\ref{v2c4:chapter} answers which typed contributions have been assembled. It does not make their energy additive. A nucleus can share the same total nucleon count with another nucleus while differing in charge, imbalance, parity, and configuration. A useful binding readout must respond to those differences without letting the measured answer determine the construction it is meant to test.
+
+The record contains three distinct achievements. First, the source-channel gap has an exact normalized-square identity. Second, historical models use that structure within fitted nuclear readouts and preserve both successful comparisons and failures. Third, the current B5T authority reports a target-blind informational tensor assignment followed by a leakage-controlled held-chain residual comparison. These achievements are related, but none should be substituted for another. The exact identity is not a complete energy formula; the fit is not a derivation of all its coefficients; and the held comparison is not a physical identification of the tensor.
+
+This chapter follows that sequence. Its sources are the frozen SAMA binding chapter SAMA-D000032, the technical spine's historical synthesis, the inspected CR245 runner, and the binding authority updated on 16 August 2026. That frozen authority records the retained B5T benchmark. The later source, field, atomic and common-energy constructions are developed in the added chapters. Older phrases such as ``present applied closure'' in the technical spine are read in their historical setting rather than used to displace B5T.\cite{viisama,viispine,viicr245,viibinding}
+
+\subsection{Why a direct source-to-mass bridge was abandoned}
+\label{v2c5:directfailure}
+
+The preceding mass analysis established the need to separate native source support from measured mass. The nuclear evidence makes the reason especially concrete. CR239 tried a direct bridge with one carbon-12 anchor. The retained manuscript reports a non-anchor RMS residual of $0.189480$, compared with $0.00202$ for the locked mass-number control. Its residual had Spearman correlation $+0.984$ with neutron excess $N-Z$.\cite{viisama,viireview}
+
+An anchor fixes a conversion or normalization at the anchor point. It cannot establish that the same map carries the correct variation across other isotopes. The large structured residual was therefore more informative than the exact closure at carbon-12. It indicated that the direct readout was missing a dependence associated with neutron imbalance. The failed result survives as a reason for channel separation rather than being discarded after a later construction performs better.
+
+CR240 supplies the corrected distinction between rest source and coupling source. CR241 retains an additional warning about uniqueness: low holdout residuals can coexist with multiple admissible coefficient candidates. Its recorded candidate-artifact failure is not repaired by referring only to its small residual. The nuclear argument requires neither a unique mass candidate nor a universal source-to-mass identity. It requires the two typed channels to remain separate long enough for their difference to be studied.
+
+This is the conceptual starting point of binding in the present volume. A source packet may be exact in its own units while still needing a readout law. The statement that an energy comparison is downstream does not render that comparison arbitrary. It specifies which quantities are constructed, which are calibrated, and which are tested. Keeping those roles separate makes a failed comparison capable of correcting the readout without silently rewriting the input ledger.
+
+\subsection{The channel gap and its normalized square}
+\label{v2c5:exact}
+
+For the admitted four-slot domain $N\geq Z$ and $A=Z+N>0$, the source channels are
+\begin{align}
+ Q_{\rm mass}&=4A\kappa,\nonumber\\
+ Q_{\rm sub}&=8Z\kappa+\frac{N-Z}{8},
+ \label{v2c5:channels}
+\end{align}
+with $\kappa=7117/768$. Define $\Delta Q=Q_{\rm mass}-Q_{\rm sub}$. Substituting $A=Z+N$ gives
+\begin{align}
+ \Delta Q
+ &=4(Z+N)\kappa-8Z\kappa-\frac{N-Z}{8}\nonumber\\
+ &=(N-Z)\left(4\kappa-\frac18\right)\nonumber\\
+ &=(N-Z)\frac{7093}{192}.
+ \label{v2c5:gap}
+\end{align}
+The normalized square is well defined because the nonempty ledger has positive $Q_{\rm mass}$. Squaring the numerator and expressing the denominator in the same rational convention yields
+\begin{align}
+ (\Delta Q)^2&=(N-Z)^2\frac{50310649}{36864},\nonumber\\
+ Q_{\rm mass}&=A\frac{7117}{192}.
+ \label{v2c5:intermediate}
+\end{align}
+Consequently,
+\begin{align}
+ \frac{(\Delta Q)^2}{Q_{\rm mass}}
+ &=\frac{(N-Z)^2}{A}
+   \frac{50310649}{36864}\frac{192}{7117}\nonumber\\
+ &=\frac{(N-Z)^2}{A}
+   \frac{50310649}{1366464}.
+ \label{v2c5:identity}
+\end{align}
+Writing
+\begin{equation}
+ C_{\rm asym}=\frac{7093^2}{192\cdot7117}
+             =\frac{50310649}{1366464},
+ \label{v2c5:coefficient}
+\end{equation}
+the result becomes the compact identity
+\begin{equation}
+ \frac{(\Delta Q)^2}{Q_{\rm mass}}
+ =C_{\rm asym}\frac{(N-Z)^2}{A}.
+ \label{v2c5:compact}
+\end{equation}
+The coefficient is exact under the stated source assignments. It is not independently measured in this derivation. Neither the numerical closeness of a candidate energy coefficient nor a successful fit changes the conditional character of this result: different source assignments would generally produce a different coefficient.
+
+The empty row $A=0$ is excluded from normalization. Its gap may vanish, but $0/0$ does not define a normalized asymmetry observable. The algebra can be formally extended to signed $N-Z$, and its square is even under reversal of that sign. Such an extension does not manufacture nonnegative excess populations for $N<Z$. The identity's algebraic symmetry and the population construction's domain must therefore remain distinct.
+
+\subsection{What the asymmetry shape explains}
+\label{v2c5:shape}
+
+Introduce the dimensionless imbalance fraction
+\begin{equation}
+ I=\frac{N-Z}{A}.
+\end{equation}
+Then Equation~\eqref{v2c5:compact} becomes $C_{\rm asym} A I^2$. At fixed total size, the normalized-square quantity grows quadratically with imbalance. At fixed imbalance fraction, it grows linearly with size. This is the useful structural content of the normalization: the same expression distinguishes an extensive contribution from a relative composition variable.
+
+At $N=Z$, the quantity is zero. If one adds balanced proton--neutron packets while keeping the absolute excess fixed, the numerator stays fixed and the denominator increases. If instead one adds excess neutrons at fixed $Z$, both numerator and denominator change. These are different paths through the ledger, so the normalized result is not simply a constant cost per neutron. The nonlinearity is already present before an energy coefficient is attached.
+
+The square also removes the sign of the gap. That is appropriate for an asymmetry magnitude, but it discards information. The signed gap remains useful when tracing the original source channels. A downstream calculation that retains only its square cannot recover which side of a formally extended balanced line generated it. This does not harm the stated identity; it explains why the squared channel should not replace the complete ledger in storage or interpretation.
+
+To use the identity in an energy readout, suppose a model contains the term
+\begin{equation}
+ -\lambda\frac{(\Delta Q)^2}{Q_{\rm mass}}.
+ \label{v2c5:energyasym}
+\end{equation}
+In the conventional count basis, its coefficient is then $a_{\rm asym}=\lambda C_{\rm asym}$. Equation~\eqref{v2c5:coefficient} fixes the conversion between two representations of the same term. It does not fix $\lambda$, the physical energy unit, or the sign convention for the whole observable. If $\lambda$ is fitted, the resulting energy coefficient remains fitted even though the basis conversion is exact. This is the point at which a conditional algebraic coefficient and an empirical energy coefficient must not be merged.
+
+The source synthesis reports exact verification of the identity on 71 rows in CR245. Such a row check is a valuable implementation receipt: it shows that the program's channels obey the algebra on its data. It is not the reason the identity holds for arbitrary admitted integers. The proof above supplies that reason. Conversely, the proof cannot certify that a particular file was parsed correctly or that every stored row used the intended units; those are tasks for the implementation receipt.\cite{viispine,viicr245}
+
+\subsection{Why binding needs more than the gap}
+\label{v2c5:nonlinear}
+
+The manuscript organizes the larger readout into volume, surface, Coulomb, asymmetry, pairing, and family-gated components. In schematic form,
+\begin{align}
+ \mathcal G_{\rm bind}
+ ={}&\mathcal V+\mathcal S_{\rm nuc}+\mathcal C\nonumber\\
+   &+\mathcal A_{\rm asym}+\mathcal P_{\rm pair}
+    +\mathcal G_{\rm family}.
+ \label{v2c5:geometry}
+\end{align}
+The plus signs mean assembly of components; the signed contributions are contained in their definitions. This is a map of the needed dependencies, not a declaration that the full physical geometry has been derived.
+
+The historical CR245 design matrix makes the distinction explicit. Its five columns are
+\begin{equation}
+ \left(A,-A^{2/3},-\frac{Z(Z-1)}{A^{1/3}},
+       -\frac{(N-Z)^2}{A},\frac{\delta}{\sqrt A}\right),
+ \label{v2c5:design}
+\end{equation}
+where $\delta=+1$ for even--even proton and neutron counts, $-1$ for odd--odd counts, and zero otherwise. The corresponding linear combination can be written without ambiguity as
+\begin{align}
+ y_{\rm model}={}&aA-bA^{2/3}
+ -c\frac{Z(Z-1)}{A^{1/3}}\nonumber\\
+ &-d\frac{(N-Z)^2}{A}+e\frac{\delta}{\sqrt A}.
+ \label{v2c5:bw}
+\end{align}
+It is linear in its five coefficients and nonlinear in the isotope counts. ``Linear fit'' in coefficient space therefore does not mean ``linear constituent binding'' in physical space.
+
+The terms serve different roles. The volume term scales with total count; the surface term introduces a different size dependence; the charge-dependent term distinguishes nuclei with different proton populations; the asymmetry term penalizes composition imbalance in the chosen sign convention; and the parity term distinguishes even--even, odd--odd, and mixed-parity rows. These interpretations explain why a single total-source scalar cannot reproduce every column. They do not establish the coefficients from the substrate or determine shell-local details absent from this basis.
+
+A simple sum of constituent debits or contact fees lacks these distinct dependences unless they have already been inserted into the fees. The historical failure of such a sum is therefore informative. It excludes a particular shortcut from ledger to energy. It does not imply that contact structure is irrelevant; it says that counting contacts with the tested linear rule did not close the binding curvature.
+
+\subsection{Reading the CR245 implementation literally}
+\label{v2c5:runner}
+
+The inspected CR245 runner separates several stages that are sometimes compressed into the phrase ``binding from typed substrate.'' Stage one uses exact rational arithmetic to construct the channels and verify Equation~\eqref{v2c5:compact}. Stage two fits the five-column form to training rows with $A\geq16$. Stage three searches a finite collection of typed-rational candidates near the fitted coefficients. Stage four builds and evaluates the candidate described by the program as ``zero-free.'' The order matters: the candidate choice occurs after a fit to measured data.\cite{viicr245}
+
+The code also identifies the numerical comparison target. For each row it defines
+\begin{equation}
+ B_u^{\rm code}=A-m_{\rm atom,u},
+ \label{v2c5:codetarget}
+\end{equation}
+where $m_{\rm atom,u}$ is the numerical atomic mass in unified atomic mass units. It multiplies residuals in this proxy by the recorded conversion $931.49410242$ to express an MeV-equivalent scale. Equation~\eqref{v2c5:codetarget} is a deficit relative to $A$ atomic mass units. By definition, it is not automatically the total energy required to dissociate a nucleus into free nucleons. That latter quantity uses a different reference state. This chapter therefore calls Equation~\eqref{v2c5:codetarget} the runner's mass-defect proxy and preserves the exact implemented target when describing its fits.
+
+This distinction is not cosmetic. Changing the reference mass changes the target and potentially the fitted coefficients. A familiar-looking basis does not establish that two programs fitted the same observable. Historical reports using ``binding'' must be read together with their actual target definition. No new numerical conversion or refit is performed here, and the stated proxy should not be silently corrected in prose while leaving the reported metrics untouched.
+
+The coefficient search draws its candidates from a specified collection of inherited atoms, reciprocals, ratios, and special combinations. A finite deterministic candidate list is a reproducibility aid. However, selecting the candidate closest to an empirical fit is still data-informed selection. The inspected function \texttt{build\_zero\_free\_coef} replaces a fitted coefficient if the nearest typed candidate is within five percent; otherwise it retains the fitted value. Thus the label ``zero-free'' does not describe a universally parameter-free, preregistered prediction.
+
+In symbolic terms, if $\widehat\beta_j$ is a fitted coefficient and $t_j$ its selected typed candidate, the implementation uses
+\begin{equation}
+ \beta_j^*=\begin{cases}
+ t_j,& |t_j-\widehat\beta_j|/|\widehat\beta_j|\leq0.05,\\
+ \widehat\beta_j,&\text{otherwise},
+ \end{cases}
+ \label{v2c5:snap}
+\end{equation}
+with a separate zero-value convention in the search code. This is a fit-and-snap construction with fitted fallback. Its output can be evaluated honestly as a candidate model, including on held rows. What it cannot establish merely by its name is that all coefficients were deduced before empirical information entered.
+
+The runner's gates retain further useful specificity. It asks for at least three of five coefficients to have candidates within five percent, and for the snapped candidate's training and test RMS to remain within a factor of $1.5$ of the fitted reference. Those are tolerance-based comparisons with a fitted model. Passing them would show that the substitutions preserve a chosen level of performance, not that the substituted constants have been uniquely identified by physics. The technical spine accordingly retains the exact asymmetry bridge while stating that the broader candidate did not close the full binding problem.
+
+\subsection{What the historical controls establish}
+\label{v2c5:controls}
+
+A control earns its meaning from the change it actually makes. In CR245, dropping the asymmetry column and refitting the remaining four columns asks whether that column adds useful structure in the selected training lane. Shuffling the target labels and refitting asks whether the original association between rows and values carries information. Neither control, by itself, identifies a microscopic mechanism. Their value lies in excluding specific explanations of the fit.
+
+The runner also perturbs an $R$-dependent factor on the right-hand side of the asymmetry identity while holding the constructed source channels fixed. The control replaces the denominator $192\cdot7117=16\cdot12\cdot7117$ by $16R'\cdot7117$ for selected alternative $R'$. For a nonzero gap, the equality should then break. This is a check on the frozen identity factor. It is narrower than regenerating an alternative physical theory with every $R$-dependent input changed consistently.
+
+Balanced rows have $N=Z$, so both sides are zero for any such factor. The code explicitly separates those trivial rows from the nontrivial ones. This is the same logical discipline illustrated by the equal-population exception in Chapter~\ref{v2c4:chapter}: a control cannot distinguish a change on rows where the measured expression is invariant under that change. Recording the invariant subset is part of interpreting the test, not a reason to discard the entire control.
+
+Together these controls establish bounded facts about the chosen expression and fit. The exact rational stage checks internal equality; term removal checks usefulness within a basis; shuffling checks row-target association; and coefficient perturbation checks dependence on a frozen factor. Combining them improves the evidence record, but does not collapse their different meanings into a universal proof of nuclear binding.
+
+\subsection{The A-kernel and connection-fee history}
+\label{v2c5:history}
+
+The historical route after the direct-bridge failure explored how a nonlinear nuclear readout might arise. The registered CR249 A-kernel construction recovers the volume, surface, Coulomb, asymmetry, and pairing shapes within its stated geometry. Its fits lie in the few-MeV RMS range, and the candidate scale
+\begin{equation}
+ c_A=\frac{1}{S\mathcal L}=\frac{1}{1296}
+ \label{v2c5:akernelscale}
+\end{equation}
+appears near the isolated fitted value. The notation $\mathcal L$ denotes the ledger quantity, distinguishing it from the nuclear mass number. The synthesis retains sensitivity limits in some controls and treats this result as a geometry bridge.\cite{viispine,viisama}
+
+A separate connection-fee experiment tested the simpler linear route and failed to reproduce the required curvature. The current SAMA synthesis explicitly warns that no exact permanent CR249 connection-fee key has been established for that separate experiment. Accordingly, this chapter preserves the scientific statement as a historical report while reserving the registered CR249 key for the A-kernel artifact. Similar numbering is not adequate evidence of identical custody.
+
+CR250 obtained a monotonic binding shape, but its designated wrong control did not separate the candidate. Monotonicity alone is weak evidence when many simple functions share the same broad trend. CR251 then orthogonalized the asymmetry lane and distinguished the $1/(S\mathcal L)$ scale from the nearby $1/(SR^2)$ scale in its principal lane, while preserving a low-power stress-lane boundary. The distinction between a principal-lane separation and a universal determination remains necessary.
+
+This history supplies a sequence of increasingly specific questions. Can one source scalar serve as measured mass? Can a contact sum reproduce curvature? Can an alternative construction separate from its control? Can a coefficient be isolated from correlated terms? The answers progressively narrow what the successful readout must contain. They do not make the unfinished portions mandatory work before the record can be written coherently. The finished account consists of the derivations, tests, failures, and boundaries already available.
+
+\subsection{The gated CR274 readout}
+\label{v2c5:cr274}
+
+CR274 is the later historical applied model in the technical spine. It starts from a fitted base $K$, retains the exact asymmetry structure, and adds four family-gated operators. Table~\ref{v2c5:gates} gives the recorded coefficients without promoting them to substrate primitives.\cite{viispine}
+
+\begin{table}[tb]
+\centering
+\small
+\begin{tabular}{llr}
+\hline
+Operator & Family role & Coefficient\\
+\hline
+\texttt{op\_82pre} & pre-82 & $-0.7273$\\
+\texttt{op\_3d\_odd} & odd 3d & $+6.9654$\\
+\texttt{op\_dm\_sat} & doubly-magic saturation & $+7.1800$\\
+\texttt{op\_ms\_fill} & mid-shell fill & $-0.4531$\\
+\hline
+\end{tabular}
+\caption{Historical CR274 fitted readout parameters. Their predicates and coefficients belong to the recorded model; they are not new foundational constants.}
+\label{v2c5:gates}
+\end{table}
+
+On the 55-row benchmark, the base model reports RMS $3.9102$ MeV and the gated model $2.7160$ MeV. Fifty of 55 rows lie within 5 MeV. The named anchors oxygen-16, iron-56, gold-197, and lead-208 lie within 10 MeV, while five benchmark residual outliers remain. These statements characterize the reported benchmark. They do not establish performance on every isotope belonging to the same element families.
+
+A gated model can improve a readout by allowing a shared correction on rows satisfying a predicate. The scientific burden then moves partly to the predicate: was it defined independently, was it selected after seeing residuals, and does it retain performance outside the fitted rows? The coefficients remain empirical whether the predicate has a suggestive geometric name or not. Their proper place is downstream of source construction, where they can be compared and replaced without modifying the exact ledger.
+
+The source's phrase that the asymmetry coefficient is locked must be read at the correct level. The exact source normalization and its preserved role in the base model are part of the construction. The full nuclear readout nevertheless contains fitted components. A locked structural term does not make the other terms unfitted, and it does not retroactively make the earlier discovery process blind.
+
+\subsection{The CR277 zero-refit extension}
+\label{v2c5:cr277}
+
+CR277 applied the frozen CR274 base-plus-four-operator model to a canonical 126-element surface with one representative isotope per element. It reports reproducing the earlier model predictions at the benchmark anchors to better than $10^{-3}$ MeV, then extending the readout without refitting at each element. Table~\ref{v2c5:extension} records the observed-label comparisons.\cite{viispine}
+
+\begin{table}[tb]
+\centering
+\small
+\begin{tabular}{lrr}
+\hline
+Subset & Rows & RMS (MeV)\\
+\hline
+Observed representatives, $Z=1$--118 & 118 & 6.672\\
+Light, $Z=1$--7 & 7 & 19.907\\
+Midrange, $Z=8$--82 & 75 & 4.145\\
+Heavy, $Z=83$--118 & 36 & 5.752\\
+Extended-only & 78 & 7.974\\
+\hline
+\end{tabular}
+\caption{Historical CR277 zero-refit extension. The extended-only subset overlaps the size ranges and is not an additional disjoint population.}
+\label{v2c5:extension}
+\end{table}
+
+The larger error in the light subset is part of the result. Those rows lie outside the original base-fit range and expose a transfer limitation that would be hidden by quoting only the earlier 55-row score. The 78 extended-only rows similarly isolate rows absent from the original fitted benchmark. Their RMS is a more relevant description of that particular extension than the training-range improvement.
+
+``Zero refit'' has a precise and useful meaning here: an already fitted model was applied without another fit to the extension rows. It does not mean that the model had never been fitted. The distinction is parallel to the CR245 terminology problem, but the operations are different. CR245 selects candidates near fitted coefficients and may retain those coefficients; CR277 freezes an existing fitted readout and tests its transfer. Both can produce meaningful evidence when their histories remain visible.
+
+The eight frontier rows at $Z=119$ through $126$ receive sealed model outputs, not observed residuals. Their existence in the finite periodic surface cannot be used to enlarge the measured comparison from 118 to 126 observed elements. Nor does one representative per element establish a full isotope-family law. The extension is a preserved historical result, superseded as current binding authority by B5T but not erased by it.
+
+\subsection{B5T: separating representation from measured binding}
+\label{v2c5:b5t}
+
+The current authority names B5T as a completed representation/residual test. Its central separation is temporal and informational: a tensor assignment is selected using the frozen B5R three-dimensional Gram deformation as a target-blind locator, then its identity is frozen before measured binding is opened. Binding receives the resulting ordered tensor-predicted three-dimensional path. It neither selects the tensor nor breaks a tie. Raw $Z$, $N$, and nuclear $A$ remain outside the stated cipher.\cite{viibinding}
+
+The reported search examines all $40{,}320=8!$ bijections across 3,704 unit transitions and identifies one stable minimum assignment. In pointed-role order, the assignment is
+\begin{align}
+ (\mathrm{PR00},\mathrm{PR01},\mathrm{PR02},\mathrm{PR03})
+ &\longmapsto(2,12,4,3),\nonumber\\
+ (\mathrm{PR04},\mathrm{PR05},\mathrm{PR06},\mathrm{PR07})
+ &\longmapsto(1,6,8,9).
+ \label{v2c5:assignment}
+\end{align}
+The exhaustive qualifier refers to this finite assignment space. It does not mean that every conceivable tensor representation, geometry, or physical model has been searched. A stable minimum over a defined orbit is a strong finite result when its orbit and objective are specified.
+
+The target-blind relative RMSE is reported as $0.990887476018$, compared with $0.999998446613$ for the transition-shuffled best and $1.0$ for both the role-rewired best and tensor-erased equal weights. Direct top-64 and common-$S_8$ parity checks pass, and all frozen parts of predicate $T$ are reported true. These values belong to the representation locator, not to the later binding-error table in MeV. Comparing them directly with energy RMSE would mix objectives and units.
+
+The distinction between the target-blind representation and the subsequent binding lane is equally important. A representation can be selected without binding targets while a downstream predictor is still learned from development binding data. Target-blind tensor identity does not imply that the whole residual predictor is an untrained physical law. The reported design aims instead to prevent binding targets from choosing the representation that will later be evaluated for binding utility.
+
+\subsection{The leakage-safe held-chain comparison}
+\label{v2c5:held}
+
+For the measured comparison, the authority reports rebuilding the exact B4 coordinate lane with out-of-fold predictions for 1,982 development rows and the unchanged 393 held isotopes across 17 element chains. Out-of-fold construction matters because a downstream residual model should not receive deceptively accurate in-sample predictions from an upstream component. The reported held-chain split further defines the particular transfer question being tested. It does not turn the held set into an unlimited statement about all nuclear regimes.
+
+\begin{table}[tb]
+\centering
+\small
+\begin{tabular}{lrr}
+\hline
+Lane & RMSE & Within\\
+ & (MeV) & 1 MeV\\
+\hline
+B5T tensor principal & 0.940107903 & 348\\
+B5R direct-3D & 0.948078815 & 341\\
+Inconsistent channel relabel & 0.951935493 & 348\\
+Shuffled binding target & 0.962189748 & 345\\
+Path-length-only & 0.962893201 & 346\\
+Tensor erased & 0.964967377 & 344\\
+Pointed-role rewired & 0.964967377 & 344\\
+External coordinate baseline & 0.966921413 & 345\\
+Tensor-transition shuffled & 0.974958955 & 347\\
+\hline
+\end{tabular}
+\caption{B5T authority's reported held-chain comparison: 393 isotopes across 17 chains. These are source-reported values, not an independent rerun for this volume.}
+\label{v2c5:b5tresults}
+\end{table}
+
+Table~\ref{v2c5:b5tresults} preserves every listed lane. The tensor principal has the lowest reported RMSE among them. Its improvement over the direct-3D comparison is about $0.008$ MeV in this metric, and over the external-coordinate baseline about $0.027$ MeV. The numerical differences are useful precisely at that scale; they need not be described as a qualitative solution of binding to be meaningful.
+
+The count within 1 MeV answers a different question from RMSE. RMSE squares each residual and therefore responds strongly to larger errors; the threshold count treats all rows inside the chosen interval alike. The inconsistent-channel relabel control also has 348 rows within 1 MeV, yet a higher RMSE. Thus the principal's advantage is not that it uniquely maximizes every possible score. It wins the stated RMSE comparisons while sharing one threshold count. Preserving both columns prevents a favorable metric from obscuring the other.
+
+The frozen predicates are reported as $T=A=B=D=\mathrm{true}$. The authority interprets these as target-blind tensor identification and binding improvement over coordinate inventory, tensor-specific controls, and path length. The precise frozen predicate definitions remain part of the campaign record; this chapter does not invent additional thresholds from the reported numbers. Nor does it infer statistical significance, calibrated uncertainty, or universal generalization where the current authority supplies no such certification.
+
+The record reports an independent reconstruction passing 40 of 40 checks, including the complete orbit, minimum assignment, target and count firewalls, tensor paths and kernel, out-of-fold and held baselines, every prediction and metric, classification, semantic seals, and parent nonmutation. Custody is H000258, the 16 August 2026 B5T result entry. This is a repository-reported reconstruction receipt. Preparing the present chapter involved source inspection, not rerunning that validator or independently auditing every held prediction.\cite{viibinding}
+
+\subsection{The direction-erased diagnostic and the current boundary}
+\label{v2c5:diagnostic}
+
+The B5T authority also retains an important unfavorable comparison for the selected directed construction. A direction-erased diagnostic reaches relative RMSE $0.931302002638$, below the directed locator's $0.990887476018$. This diagnostic was not a frozen $T$ threshold and therefore does not change the reported classification. It nevertheless limits how the selected directional representation should be interpreted.
+
+A diagnostic can expose structure that the formal pass conditions did not require the test to optimize. Here it indicates that endpoint sign and role/tensor identity may not be most effectively represented by the selected joint construction. That observation is an existing result, not a license to replace the frozen principal after seeing the outcome. The source recommends a future target-blind factorization route, while explicitly saying it is not yet mapped, owner-confirmed, or authorized for execution. This volume records that boundary without turning it into a new campaign.
+
+B5T installs an informational three-dimensional tensor assignment. The current authority explicitly does not install a physical tensor, nuclear geometry, isotope-local tensor, $A/q_A$ conversion, SI-energy law, Higgs law, or physical W9P crosswalk. It is not B6 and not a final binding formula. These limits describe which bridge remains absent: numerical and representational usefulness has not yet been converted into a physical account of where nuclear energy resides or how the configuration produces it.
+
+The chapter can therefore end at a completed result rather than an unfinished obligation. The exact source identity is established conditionally. Historical fit and transfer results are preserved with their empirical inputs. B5T supplies the retained representation and held-residual benchmark. None requires the author to begin another search in order to state accurately what has already been done.
+
+\subsection{A binding claim with its inputs still visible}
+\label{v2c5:conclusion}
+
+The strongest coherent statement supported by this chain has several parts. The four-slot source construction gives a signed neutron-excess gap. Its normalized square yields the asymmetry shape with an exact rational factor. A full readout requires additional size, charge, parity, and family dependencies; historical attempts demonstrate that linear contact accounting and direct source-to-mass conversion do not suffice. Fitted gates improve a stated benchmark but lose accuracy on some zero-refit extensions. The current B5T representation improves the reported held-chain residual metric relative to its listed comparisons while leaving physical interpretation open.
+
+These are compatible findings, not successive claims that earlier limitations have vanished. The same exact algebra can support several empirical readouts. A better residual model can coexist with an incomplete physical mechanism. A failed historical shortcut can remain valuable after the current method changes. The manuscript's task is to carry those distinctions intact across the transition from mathematical construction to measurement.
+
+The dedicated spin section next develops exact interacting sources, thermal preparation, hidden memory and physical receiving response. The nuclear chapters that follow receive those methods through the actual isotope action and ordered contact history. Element families, representative isotopes, and composites can be organized using the finite framework while retaining separate questions about stability, binding, and chemistry. That separation permits the volume to be complete as an account of its results while carrying the remaining physical assignments explicitly.

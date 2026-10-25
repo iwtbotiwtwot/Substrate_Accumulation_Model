@@ -1,0 +1,641 @@
+<PARSED TEXT FOR PAGE: 1 / 10>
+      Reliability and resource tradeoffs in hidden-spin feedback for prime-sequence
+                                       computation
+                                                          Sean Brady∗
+                                                    Independent Researcher
+                                                  (Dated: September 27, 2026)
+                We investigate a seven-spin stochastic gate coupled to an event-created digital sieve, separating local
+             failure probabilities, whole-trajectory reliability, and the resources used to improve them. Integrating
+             out six hidden spins gives two composite-blocking margins, b and 2a − b. A source change chosen to
+             equalize these margins raises the observed fraction of exact prime/composite trajectories through
+             109 from 1/64 to 47/64 per accumulation profile; 13/16 fresh seeds are also exact. The intervention
+             reduces one-bank false emissions by about a factor of 63 but increases two-bank false emissions by
+             about a factor of 64 and raises the microscopic strength budget. Reanalysis of the archived error
+             counts gives Poisson zero-error predictions of 0.012 and 0.732 for baseline and balanced sources, with
+             dispersion close to unity. A separate ideal-input census and finite-state calculation predict a balanced
+             zero-error probability near 0.717 without fitting trajectory outcomes. Matched-budget controls show
+             that equalizing worst-case margins is not a universal optimum for trajectory survival: uniformly
+             strengthening the unbalanced source is favored when hidden fields are included in the strength budget,
+             whereas the ranking reverses for a coupling-only budget. Four-reading confirmation at unchanged
+             total exposure provides another competitive control. These results delimit the original intervention
+             and identify the resource and opportunity weights required for reliable stochastic sequence design.
+
+
+                 I.    INTRODUCTION                                 Two banks aggregate the returns and supply clamped
+                                                                    inputs to the gate. The digital scheduler supplies the
+   Reliable computation from unreliable components is a             divisibility structure; the stochastic spin system supplies
+classical problem. Von Neumann framed redundancy as a               the decision. Prime enumeration is used because every
+route from unreliable logical elements to reliable compu-           output can be scored against an independent exact refer-
+tation [1]; modern p-bit and probabilistic-spin logic use           ence, not because the stochastic gate discovers divisibility
+controlled stochastic binary elements as computational              without an arithmetic construction.
+primitives [2, 3]; fault-tolerant spin computing asks how
+local spin errors can be suppressed [7]; and recent sequen-
+tial Ising constructions address how causal algorithms can
+                                                                       Earlier stochastic prime-number generators exhibit col-
+be embedded without exponentially degrading couplings
+                                                                    lective and phase-transition behavior [4]; wave-optical
+[8]. The incremental contribution here is narrower and
+                                                                    and neuromorphic sieves provide other unconventional-
+experimentally explicit: a stochastic seven-spin gate sits
+                                                                    computing precedents [5, 6]. The present question is
+inside a recurrence whose accepted outputs create future
+                                                                    narrower: can a microscopic failure mode be identified,
+arithmetic constraints, a microscopic input-sector weak-
+                                                                    repaired through source interactions, and related quanti-
+ness is diagnosed and repaired before successor testing,
+                                                                    tatively to long-horizon sequence fidelity? Related work
+and the resulting billion-index reliability is compared with
+                                                                    on fault-tolerant spin computation and sequential Ising
+Poisson, matched-strength, and temporal-redundancy con-
+                                                                    logic motivates distinguishing source design from an im-
+trols rather than attributed to stochasticity alone.
+                                                                    plementation’s resource costs [7, 8].
+   A second distinction arises when outputs modify future
+inputs. An incorrect event may change the subsequent in-
+put distribution, so the realized process is not generally a
+collection of independent Bernoulli trials. Nevertheless, a            The original experiment supplied a prospective inter-
+closed-loop implementation need not exhibit a statistically         vention: replay identified a weak input sector, hidden-
+large departure from a rare-event Poisson approximation.            spin elimination explained it, and an algebraic margin-
+Demonstrating that a feedback path exists does not es-              balancing condition selected a successor before its trajec-
+tablish its contribution to ensemble error counts. Both             tories were generated. The matched and fresh ensembles
+the microscopic mechanism and an appropriate rare-event             demonstrated a substantial reliability improvement. The
+reference model are therefore needed.                               present expanded analysis adds the comparisons needed
+   We study these questions with a seven-spin heat-bath             to interpret that improvement. We quantify Poisson com-
+gate embedded in an event-created sieve. An accepted                patibility, compute a trajectory-survival envelope directly
+integer installs periodic returns at its positive multiples.        from microscopic probabilities, and compare alternative
+                                                                    sources at explicitly matched budgets. The original trajec-
+                                                                    tory data remain unchanged; the new census, statistical
+                                                                    reanalysis, and finite-state controls are identified sepa-
+∗ sbnvh@missouri.edu
+                                                                    rately throughout.
+<PARSED TEXT FOR PAGE: 2 / 10>
+                                                                                                                                      2
+
+II.       MODEL AND ORIGINAL EXPERIMENTAL                               are fixed. Their exact marginalization gives
+                     DESIGN                                                                         X
+                                                                               F (e | r1 , r2 ) = −   log[2 cosh((W x)j + ηj )]
+     A.    Event-created recurrence and its reference                                               j
+                         sequence                                                            = C(r1 , r2 ) + eH(r1 , r2 ),           (3)
+                                                                                           H = −a(r1 + r2 ) + br1 r2 ,               (4)
+   Candidates n = 2, 3, . . . , N , with N = 109 , are pro-                              a(u) = 12 log cosh(2u),                     (5)
+cessed sequentially. Initially there are no return channels.                                                 4
+Accepting p installs returns at 2p, 3p, . . . up to the horizon.                                         cosh (2t)
+                                                                                         b(t) = 21 log             .                 (6)
+Channels are assigned alternately to banks 0 and 1 in                                                     cosh(4t)
+creation order, beginning with bank 0. At each candidate,
+                                                                        The accepted output is e = −1, with equilibrium probabil-
+ri = −1 denotes no return in bank i, and ri = +1 denotes
+                                                                        ity (1 + e−2H )−1 . No-return inputs give H = 2a + b, one
+one or more returns.
+                                                                        returning bank gives H = −b, and two returning banks
+   An ideal gate accepts only (r1 , r2 ) = (−1, −1). By                 give H = b − 2a. The composite-blocking margins are
+induction this emits precisely the primes: a prime has                  therefore b and 2a − b.
+no earlier prime divisor, whereas every composite has                      This reduction determines equilibrium margins, not
+a smaller prime divisor whose return channel is already                 the complete probability of three finite-duration readings.
+present. The original implementation uses a horizon-                    The latter depends on the microscopic transition matrix
+length byte array to mark the two bank bits. The stan-                  and the incoming state. We retain that dynamics ex-
+dalone reproduction uses a segmented scheduler with the                 plicitly rather than cubing the equilibrium acceptance
+same event ordering. Both are digital implementations of                probability.
+this recurrence.
+   The stochastic replacement can emit a composite or
+omit a prime. The former adds a channel and the latter                     C.   State dynamics, cadence, and confirmation
+removes a channel that the ideal history would contain.
+Either also changes the parity of the event count, poten-                  All 27 = 128 microscopic states are retained. For states
+tially changing later bank assignments. Every candidate                 s, z differing by a single spin flip, the column-generator
+still consumes its prescribed random readings, irrespective             convention is
+of early rejection. An exact trajectory means zero false
+positives and zero false negatives at every candidate up to                       (Q0 )z,s = {1 + exp[E(z) − E(s)]}−1 ,              (7)
+the stated horizon; at 109 this requires exactly 50,847,534                                    X
+emitted primes.                                                                   (Q0 )s,s = −    (Q0 )z,s ,                         (8)
+                                                                                                  z̸=s
+
+                                                                        with other off-diagonal entries zero. For r readings in a
+                                                                        candidate’s total exposure τk ,
+B.    Microscopic source and hidden-spin elimination
+                                                                                   (r)
+                                                                                 Tk,r1 ,r2 = exp(Q0 Γτk /r),           Γ = 512.      (9)
+  Let e ∈ {−1, +1} be the output spin and h1 , . . . , h6
+the hidden spins. At dimensionless inverse temperature                  The original experiments use r = 3. Each sampled state
+β = 1, with x = (e, r1 , r2 )T , define                                 initializes the next reading, and the final state initializes
+                                                                        the next candidate. All readings are taken; acceptance
+                                    6                                   requires all r output spins to equal −1. If D is the diag-
+                                                                        onal indicator for those states, the complete acceptance
+                                    X
+           E(e, h | r1 , r2 ) = −         hj [(W x)j + ηj ].      (1)
+                                    j=1
+                                                                        operator and probability are
+                                                                                 An = (DTn )r ,          paccept (s) = 1T An vs .   (10)
+To express resource controls in the same family, let the
+pair-module strength be u:                                              Here vs is the incoming unit-state vector. Equation (10)
+                                                                        retains correlations between successive readings.
+               u u 0
+                                                                         Both profiles use a common 35-step duration sequence
+             u 0 u                                                    dk , of mean one and range approximately 0.963919–
+             −t −t t 
+                                                                      1.029631. Uniform accumulation has Ak = 1/4. Rough
+          W =        ,              η = (0, 0, t, t, t, t)T .   (2)   accumulation has
+             −t t −t
+              t −t −t                                                                                                  
+                                                                                         1            2π5(k + 1/2) π
+               t t t                                                              Ak = 4 + 0.1 cos                  +
+                                                                                                           35           7
+                                                                                                                   
+The original baseline and balanced experiment use u = 4.                                              2π11(k + 1/2)
+                                                                                         + 0.05 sin                   .     (11)
+Hidden spins are conditionally independent when e, r1 , r2                                                 35
+<PARSED TEXT FOR PAGE: 3 / 10>
+                                                                                                                        3
+                    √
+Exposure is τk = cdk 1 − Ak , with                            III.   RECORDED INTERVENTION RESULTS
+        p      P
+           3/4 k dk                                           A.     Microscopic replay identifies the vulnerable
+   c= P       √       ,    k = (n − 2) mod 35.      (12)
+          k dk 1 − Ak
+                                                                                     input
+
+This matches total exposure per cycle. The arrays are          Only baseline seed 1000063 is exact through 109 under
+released; their geometric precursor is not needed for re-   both profiles. The mechanism study compares the first
+production. The rate mapping is a declared model as-        failure of each other seed against this seed, yielding 126 lo-
+sumption, not a measured physical clock calibration.        cal comparisons. Before a first error, both event histories
+                                                            and bank inputs are identical. Swapping the three draws
+                                                            while retaining the failing incoming state corrects all 126
+D.   Prospective balancing and the original resource        decisions; swapping the incoming state while retaining the
+                      change                                failing draws leaves all 126 decisions incorrect. In 32 com-
+                                                            parisons the incoming states are already identical. The
+  At u = 4, t = 2, the baseline has                         replay therefore locates the realized random triple as the
+                                                            local discriminator rather than an inherently protective
+          a = 3.653426466,     b = 2.960949986.     (13)    state of the successful seed.
+                                                               Of the 126 first errors, 120 are composite emissions and
+At fixed a > 0,                                             six are missed primes. Every first composite emission
+                                                            occurs with one returning bank, where the pair terms
+                   min(b, 2a − b) ≤ a,              (14)
+                                                            cancel in Eq. (4). For example, at prime 3,510,937, two
+                                                            seeds enter the same state 103; the failed reading sequence
+with equality at b = a. Writing C = cosh 8, the chosen
+                                                            is 56 → 56 → 101 rather than 56 → 56 → 56. The final
+successor is
+                                                            draw lands in a rejecting interval about 3.77 × 10−11 wide.
+                                                            Targeted replay covered 230 chunks, 1.15 billion decisions,
+                q      p
+   t∗ = 12 acosh C + C 2 − C = 2.346489729898 . . . .       and 264 local windows. A local intervention at a fixed
+                                                     (15)   history is not a replay of its full subsequent counterfactual
+The rule was fixed before the successor trajectories were   trajectory.
+generated. Pair strength, temperature, scheduler, expo-
+sure, and three-reading rule were unchanged. The four
+triple rows and their hidden fields increased together
+                                                               B.    Both sides of the blocking-margin tradeoff
+by 17.32%. Thus the intervention changed both margin
+balance and total microscopic strength. Equation (14) es-
+tablishes a worst-blocking-margin optimum at fixed a, not      Table I gives the change in effective fields and the
+a fixed-resource or whole-trajectory optimum. Section V     archived/reconstructed finite-state probabilities. The vul-
+tests those distinctions.                                   nerable one-bank false-positive probability decreases from
+                                                            approximately 1.91 × 10−8 to 3.0 × 10−10 , about 63-fold,
+                                                            while the two-bank probability increases from 4.74×10−12
+     E.   Seeds, pairing, and evidence boundaries           to approximately 3.01 × 10−10 , about 64-fold. The prob-
+                                                            ability arrays underlying these ratios are reproduced in
+                                                            analysis/prime gate controls.json; Table VI maps
+   The matched ensemble contains all seeds 1000000–
+                                                            the trajectory and post hoc numerical claims to their
+1000063 under both profiles, using the frozen baseline
+                                                            archived or submitted analysis records. Equalizing mar-
+and successor records. For each seed the profiles share
+                                                            gins deliberately sacrifices the formerly stronger sector.
+random streams; they are 64 paired cases, not 128 in-
+                                                            Its usefulness for the complete sequence depends on how
+dependent replications. The source begins from its own
+                                                            often each sector is encountered, and on missed-prime
+no-return Gibbs sample. NumPy PCG64 supplies the
+                                                            errors as well as composite emissions.
+initial state and third reading from the base stream, and
+the first two readings from a second stream initialized
+with seed plus 1000000. Five-million-candidate chunks
+preserve random-generator state, microscopic state, and               C.   Matched and fresh trajectories
+recurrence state.
+   The frozen successor is subsequently evaluated on all      All 128 balanced profile trajectories complete through
+16 fresh seeds 10000000–10000015, again paired by pro-      109 . Per profile, the exact fraction rises from 1/64 to
+file, without retuning or screening. The fresh roster has   47/64; 62 seeds improve, one is unchanged, and one wors-
+no corresponding fresh baseline ensemble. An indepen-       ens. Every balanced matched seed is exact through 108 ,
+dent deterministic sieve scores every output bit. The       and the worst has two errors at 109 . The paired-profile
+later online learner and checked-repair branches are not    total falls from 569 to 40 errors, a 92.97% descriptive
+additional members of these fixed-source ensembles.         reduction. Both profiles have 17 false positives and three
+<PARSED TEXT FOR PAGE: 4 / 10>
+                                                                                                                            4
+
+
+
+
+FIG. 1. Original effective-margin intervention and complete three-reading probabilities. Balancing decreases one-bank
+susceptibility but increases two-bank susceptibility by approximately the same large factor. Both changes enter the subsequent
+reliability analysis.
+
+
+                                                                  of the underlying dynamics.
+TABLE I. Original intervention at u = 4, β = 1. The last two
+rows summarize the three-reading composite error probabili-
+ties, not single-reading Gibbs probabilities.
+                                                                         D.   An observed history-mediated path
+Quantity                      Baseline              Balanced
+a                         3.653426466            3.653426466        In the baseline, rough seed 1000053 emits an ex-
+b                         2.960949986            3.653426466      tra composite at 312,596,611. That changes creation-
+One-bank margin           2.960949986            3.653426466      count parity, so the later prime 483,920,363 is assigned
+Two-bank margin           4.345902946            3.653426466
+                                                                  to a different bank than in its uniform partner. At
+                                                                  967, 840, 726 = 2 × 483, 920, 363, the return coincides
+t                                    2           2.346489730
+                                                                  with the period-2 channel. The two trajectories then
+One-bank FP                1.91 × 10−8          ≃ 3.0 × 10−10     have one-bank and two-bank inputs and make different
+Two-bank FP               4.74 × 10−12         ≃ 3.01 × 10−10     decisions. The earlier erroneous period does not divide
+                                                                  this later candidate; its influence is transmitted through
+                                                                  bank assignment.
+TABLE II. Recorded error counts and exact trajectories at           This establishes a specific feedback mechanism. It does
+109 . Paired profiles are not pooled for uncertainty estimates.   not measure the average causal effect of feedback on the 64-
+                                                                  seed error distribution. In particular, feedback following
+Source              Profile      Seeds      FP/FN       Exact
+                                                                  an error cannot change whether that first error has already
+Baseline            Uniform         64      271/13          1     occurred. The distinction motivates the survival and
+Baseline            Rough           64      272/13          1     count analyses below.
+Balanced            Uniform         64        17/3         47
+Balanced            Rough           64        17/3         47
+Fresh balanced      Uniform         16         2/1         13     IV.   RARE-EVENT PREDICTION AND POISSON
+                                                                                 DIAGNOSTICS
+Fresh balanced      Rough           16         2/1         13
+
+                                                                        A.    The appropriate one-line benchmark
+
+false negatives after balancing. Table II keeps the sample
+                                                                    Let Ks be the total errors on seed s. Under a Pois-
+sizes and counts separate.
+                                                                  son reference with mean λ, the probability of an exact
+   All 32 fresh profile trajectories also finish. In each         trajectory is
+profile, 13 of 16 are exact, and each failing seed has one
+error: composites at 82,866,449 and 203,033,716, and an                            p0 = Pr(Ks = 0) = e−λ .               (16)
+omitted prime at 997,044,317. Fifteen of 16 fresh seeds
+are exact through 108 . Balanced profiles produce identical       Estimating λ from the same error counts gives a descrip-
+emitted sequences within each of the 80 matched or fresh          tive model check rather than an independent prediction.
+seed pairs, despite differing transition matrices. This is a      The uniform baseline has λb = 284/64 = 4.4375, giving
+measured equality of these realizations, not an equality          p0 = 0.011825, close to the observed 1/64 = 0.015625.
+<PARSED TEXT FOR PAGE: 5 / 10>
+                                                                                                                                                  5
+
+
+
+
+FIG. 2. Original matched-seed results. Exact-sequence fractions complement aggregate errors by requiring all decisions along a
+trajectory to agree with the reference. Their rare-event interpretation is quantified in Sec. IV.
+
+
+Balanced matched counts give λ  b = 20/64 = 0.3125, hence
+p0 = 0.731616, almost identical to 47/64 = 0.734375.                                                                baseline Poisson
+These agreements show that the headline sequence frac-                                                              baseline observed
+                                                                                                                    balanced matched Poisson
+tions do not, by themselves, require an explanation beyond        Fraction of 64 seeds   0.6                        balanced matched observed
+rare local errors.
+  The matched balanced histogram has 47 zero-error, 14
+one-error, and three two-error trajectories. A fitted Pois-                              0.4
+son model predicts approximately 46.82, 14.63, and 2.29
+trajectories in these categories, with a small remaining
+tail. Baseline and balanced Fano factors are near one                                    0.2
+(Table III). A 100,000-sample parametric-bootstrap diag-
+nostic refits the Poisson mean in each simulated ensemble
+and compares dispersion; two-sided tail probabilities are                                0.0
+approximately 0.92, 0.88, and 0.91 for uniform baseline,                                       0      2      4       6      8              10
+rough baseline, and matched balanced counts. This diag-
+nostic finds no substantial excess dispersion, but is not a
+                                                                                                       Errors per trajectory
+proof of independence or a causal estimate of feedback.
+   For a predictive fresh-roster comparison, retain the          FIG. 3. Archived uniform-profile error histograms and their
+matched rate 0.3125 rather than refitting the three fresh        fitted Poisson expectations. The original count arrays, not
+errors. It predicts 11.706 exact trajectories out of 16. The     rounded rates, determine both curves. Balanced and rough
+observed 13/16 is compatible with that reference (two-           matched counts coincide; the rough baseline differs slightly
+sided binomial probability approximately 0.58). The fresh        and is tabulated separately.
+fitted rate 0.1875 in Table III is reported only descrip-
+tively. Uncertainty is dominated by the number of seed
+trajectories, not by treating the billion decisions within a     and (10). The substochastic correct-decision operator is
+feedback path as independent replications.                                        (
+                                                                                    An ,       n prime,
+                                                                            Kn =     r
+                                                                                                                     (17)
+                                                                                    Tn − An , n composite.
+
+                                                                 For the initial no-return Gibbs vector v0 , the exact finite-
+  B.   Exact survival representation before the first            state survival probability is
+                         error
+                                                                                               P0 (N ) = 1T KN KN −1 · · · K2 v0 .              (18)
+
+  The rare-event argument can be made state-aware. On            This is a killed Markov evolution: paths are removed at
+an error-free history, the input at each candidate is deter-     their first incorrect decision. Equation (18) is an identity
+mined by the ideal sieve. Let Tn and An be the transition        for the specified Markov model. It is not evaluated by
+and acceptance operators for this fixed input, as in Eqs. (9)    multiplying a billion matrices in this revision.
+<PARSED TEXT FOR PAGE: 6 / 10>
+                                                                                                                                6
+
+
+TABLE III. New reanalysis of archived error counts. F = s2K /λ
+                                                             b is the sample Fano factor. Zero-fraction intervals are exact
+binomial 95% intervals under an independent-seed interpretation. The paired profile rows are not independent experiments.
+Fresh predictions are discussed separately in the text.
+
+Ensemble                                            λ        e−λ           Observed exact             95% interval            F
+                                                                b
+                                                    b
+Baseline, uniform                              4.4375    0.01183                     1/64        [0.00040,0.08401]        0.9721
+Baseline, rough                              4.453125    0.01164                     1/64        [0.00040,0.08401]        0.9619
+Balanced matched, either profile               0.3125    0.73162                   47/64         [0.60912,0.83702]        1.0032
+Balanced fresh, either profile                 0.1875    0.82903                   13/16         [0.54354,0.95953]        0.8667
+
+
+
+  Instead, let ϵmin       max
+                k,b and ϵk,b be the minimum and maxi-               TABLE IV. New ideal-history input census and cumulative
+mum wrong-decision probabilities over all 128 incoming
+                                                                    uniform-profile hazard contributions. Ranges over incoming
+states for phase k and input mask b. Every distribution of          state are small; midpoint summaries are shown. These are
+states conditioned on previous success lies between these           hazards along the correct history, not directly measured post-
+extrema. If ck,b is the ideal-history opportunity count,            error counts.
+conditional multiplication gives
+                                                                    Input             Opportunities       Baseline     Balanced
+                                                                    No bank             50,847,534        0.18403       0.04607
+          Y
+                 (1 − ϵmax
+                       k,b )
+                            ck,b
+                                 ≤ P0 (N )
+           k,b                                                      Bank 0 only        129,835,417        2.48246       0.03933
+                                    Y                               Bank 1 only         77,222,775        1.47655       0.02339
+                                ≤    (1 − ϵmin
+                                           k,b )
+                                                ck,b
+                                                     .   (19)
+                                                                    Both banks         742,094,273        0.00351       0.22367
+                                    k,b
+                                                                    Total              999,999,999        4.14656       0.33246
+No assumption of independent successive gate deci-
+sions is needed for this inequality. Define Λmin,max =
+   ck,b ϵmin,max
+P
+         k,b     . For small local errors, the products are         sus; neither the observed exact fractions nor fitted error
+approximately e−Λ ; the numerical implementation evalu-             means are used.
+ates their logarithms with log(1 − ϵ) rather than replacing            The balanced envelope predicts approximately 45.90
+them by that approximation.                                         exact cases out of 64 and 11.47 out of 16. Both observed
+   The dependence of the future schedule on wrong out-              counts are compatible with ordinary finite-ensemble varia-
+puts is absent along surviving paths by definition. Thus            tion. The baseline hazard near 4.147 is likewise compatible
+zero-error survival alone cannot identify feedback-induced          with its observed mean near 4.44. More importantly, the
+amplification after errors. Total-error distributions and           census exposes the tradeoff: most composites have two-
+matched counterfactual trajectories are needed for that             bank input, so after balancing that sector supplies about
+separate question.                                                  0.224 of the total 0.332 hazard. Minimizing the worst
+                                                                    local margin need not minimize this opportunity-weighted
+                                                                    total.
+    C.   New ideal-input census and microscopic
+                     prediction
+                                                                      D.   What is and is not measured about feedback
+   A new deterministic census through every candidate
+up to 109 counts each phase and input mask without                     The explicit bank-parity trace establishes that feedback
+using stochastic outcomes. Its aggregate frequencies are            can change a later decision. The Poisson diagnostics show
+shown in Table IV. A separate direct-divisor reconstruc-            that the retained ensembles do not exhibit a conspicuous
+tion checks all phase/mask frequencies at N = 2000. The             departure in total-error dispersion. Together these sup-
+large census returns 50,847,534 no-return events, agreeing          port a modest statement: rare local failures explain the
+with the reference prime count. It does not repeat any of           principal reliability scale, while an ensemble-level contri-
+the archived stochastic trajectories.                               bution from post-error feedback has not been isolated.
+   Numerical evaluation of Eq. (19) gives 0.0158014 ≤                  A direct causal test would hold random streams and
+P0 ≤ 0.0158362 for the uniform baseline, and 0.717107 ≤             spin sampling fixed while comparing the autonomous
+P0 ≤ 0.717210 for the uniform balanced source. Rough-               scheduler with a teacher-forced scheduler driven only by
+profile ranges are approximately [0.015783,0.015824] and            the ideal prime events. The paired difference in total
+[0.717051,0.717175]. These are numerical all-state en-              errors, and the error rate following the first discrepancy,
+velopes using binary64 propagators, not certified interval          would estimate a feedback effect. That counterfactual
+bounds on exact real exponentials. Their inputs are the             ensemble was not generated for this revision. The absence
+microscopic source, fixed cadence, and deterministic cen-           of excess Fano dispersion is not substituted for it.
+<PARSED TEXT FOR PAGE: 7 / 10>
+                                                                                                                            7
+
+ V.    MATCHED-RESOURCE CONTROLS AND                              a complete hazard or directly optimize the state-aware
+              REDUNDANCY                                          survival operator, rather than assume that equal margins
+                                                                  solve every reliability problem.
+      A.   Specifying the resource being held fixed
+
+  The original intervention increases the triple-module           C.   Confirmation redundancy at unchanged exposure
+entries and fields without reducing the pair entries. Two
+natural microscopic L1 strength budgets for Eq. (2) are              Von Neumann’s reliability question also motivates a
+                  X                                               redundancy control rather than an interaction change
+          BJ =       |Wij | = 4u + 12t,               (20)        [1]. We retain baseline (u, t) = (4, 2) but use four or five
+                   ij                                             accepted readings. Equation (9) divides the same total
+                   X               X                              exposure among the readings, and Eq. (10) accounts for
+           BJη =        |Wij | +       |ηj | = 4u + 16t.   (21)
+                                                                  their dependence. This is not an independent repeated-
+                   ij              j
+                                                                  sample approximation.
+The baseline has (BJ , BJη ) = (40, 48). The balanced                Four readings give a predicted zero-error probability
+source has (44.157877, 53.543836): increases of 10.39%            about 0.774, competitive with the strongest matched-
+and 11.55%, respectively. The 17.32% increase describes           strength control while retaining the baseline couplings
+t, not the entire gate. These are dimensionless source-           and fields. The false-positive contribution becomes very
+strength conventions; neither is asserted to equal device         small, but missed primes contribute approximately 0.245
+energy consumption.                                               to the total hazard 0.257. Five readings further sup-
+   An effective-field budget a + b provides a third com-          press false emissions but increase the opportunity for
+parison, but is nonlinear in microscopic strengths and            rejecting a prime; their predicted survival drops to ap-
+therefore answers a different question. The control set           proximately 0.721–0.736. The shorter intervals also make
+below reports the convention explicitly instead of selecting      incoming-state dependence more visible. More confirma-
+one budget after observing which source it favors.                tion is therefore not monotonically better for the two-sided
+                                                                  prime/composite fidelity objective at fixed total exposure.
+                                                                     These controls change the number of samples and
+              B.   New finite-state controls                      thus a real implementation’s measurement and random-
+                                                                  number costs. They are not zero-resource improvements
+   These controls are new model calculations, separate            or matched-random-stream replays of the original exper-
+from the 64-seed and 16-seed experiments. All use the             iments. They supply local-dynamics predictions to be
+same 128-state heat-bath dynamics, cadence arrays, and            tested on newly frozen ensembles. The original interven-
+ideal-history census. For uniformly strengthened unbal-           tion remains a successful change at fixed pair strength
+anced controls, set (u, t) = (4s, 2s) and scale the hidden        and cadence; the expanded comparison places it among
+fields with t. Choose s to match either BJ , BJη , or a + b       explicit alternative reliability strategies.
+of the original balanced source. Another control enforces
+b(t) = a(u) at the original budget BJη = 48.
+   The rankings are informative. At matched coupling-                  VI.   NUMERICAL VERIFICATION AND
+                                                                                REPRODUCIBILITY
+only budget, balancing has a small predicted survival
+advantage over uniform strengthening (about 0.717 ver-
+sus 0.708). At matched coupling-plus-field budget, the                       A.   Numerical claim traceability
+uniformly strengthened unbalanced gate is better (about
+0.770 versus 0.717). At matched a + b, the balanced                  All headline numerical claims are tied either to the
+source is again favored (about 0.717 versus 0.593). En-           frozen v0.1.0 trajectory evidence or to named outputs
+forcing balance at the original coupling-plus-field budget        of the submitted reanalysis. Table VI lists the shortest
+performs worse than the original baseline. The conclusion         provenance path for the values most likely to be checked
+is not that balancing is ineffective, but that the original       independently. The public archive files are immutable
+large improvement cannot be attributed solely to bal-             source summaries; the analysis/ files are generated by
+ance independently of increased strength and the budget           the scripts shipped with this revision. No new stochastic
+definition.                                                       trajectory is used to support a value labeled as a model
+   The opposing results have a mechanistic interpreta-            calculation.
+tion. The strengthened unbalanced source preserves a                 The original builder computes propagators by positive
+very strong two-bank margin, and the census has over 742          uniformization with scaling and squaring, followed by
+million such opportunities. Equalizing margins solves the         column normalization. An independent [13/13] Padé ex-
+fixed-a maximum-minimum problem in Eq. (14); trajec-              ponential checks all 280 profile/phase/input matrices; the
+tory survival instead weighs the three kinds of mistakes          largest normalized entry difference is 1.5821 × 10−14 . The
+by their opportunity frequencies. A general design ob-            original source and short-run qualification contain 1,080
+jective should therefore specify a budget and minimize            and 64,574 checks, including scalar CDF sampling, direct
+<PARSED TEXT FOR PAGE: 8 / 10>
+                                                                                                                                 8
+
+
+TABLE V. New resource and redundancy controls, uniform profile. The probability intervals are the numerical all-state survival
+envelopes of Eq. (19), not newly observed trajectory fractions. “Scaled” preserves the unbalanced microscopic ratio u : t = 2 : 1.
+Total candidate exposure is fixed for every row.
+
+Source/control                          u                   t      r            BJ              BJη             P0 (109 ) envelope
+Original baseline                4.000000            2.000000      3        40.0000          48.0000         [0.015801,0.015836]
+Original balanced                4.000000            2.346490      3        44.1579          53.5438         [0.717107,0.717210]
+Scaled, matched BJ               4.415788            2.207894      3        44.1579          52.9895         [0.708104,0.708408]
+Scaled, matched BJη              4.461986            2.230993      3        44.6199          53.5438         [0.769661,0.769936]
+Scaled, matched a + b            4.346406            2.173203      3        43.4641          52.1569         [0.592883,0.593218]
+Balanced, original BJη           3.538183            2.115454      3        39.5382          48.0000         [0.005023,0.005027]
+Baseline, four readings          4.000000            2.000000      4        40.0000          48.0000         [0.773634,0.773842]
+Baseline, five readings          4.000000            2.000000      5        40.0000          48.0000         [0.720757,0.735827]
+
+
+
+                            Baseline (3 readings)
+                           Balanced (3 readings)
+           Unbalanced: matched coupling budget
+           Unbalanced: matched coupling + fields
+                     Unbalanced: matched a + b
+             Balanced: baseline coupling + fields
+                            Baseline (4 readings)
+                            Baseline (5 readings)
+                                                    0.0   0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8
+                                                          Predicted probability of zero errors through 109
+
+FIG. 4. Numerically predicted error-free survival for the resource controls in Table V. Horizontal bars span incoming-state
+survival bounds. This comparison is a post hoc finite-state calculation; only the original baseline and balanced sources have the
+reported matched/fresh trajectory ensembles.
+
+
+return reconstruction, and final-state/count/checksum              fer from the historical horizon-array format, so scientific
+agreement. Binary64 probabilities are numerical repre-             replay equality is not confused with identical compression
+sentations, not exact real-number certificates.                    layouts.
+   The matched and fresh campaigns contain 25,600                     The new analysis package [9] contains the input count
+and 6,400 checked chunks, respectively, totaling                   arrays, profiles, generalized source definition, ideal-census
+159,999,999,840 scored decisions across the paired pro-            C++ code, bootstrap code, and all-state error probabili-
+files. This is not a count of distinct integers. Original          ties for every control. The new finite-state calculations
+production used 28 workers under a 27.2-CPU quota,                 use NumPy 2.3.5 and SciPy 1.17.0. Recomputed balanced
+with trajectories parallelized across seeds and profiles;          acceptance extrema agree with the archived extrema to
+each trajectory remains sequential. No GPU backend                 7.8 × 10−16 absolute difference. The additional coupling-
+or comparative energy advantage is claimed. The orig-              only control also passes Gibbs-marginal and generator-
+inal approximately 32.172 GB trace archive is retained             stationarity checks. These checks address implementation
+separately from the compact public package.                        consistency; directed interval certification of the new ex-
+                                                                   ponential calculations is not asserted.
+  The standalone package reproduces the original three-
+draw order, source CDFs, event creation order, and                   The fitted Poisson analysis, the model-based census
+running microscopic-state checksum. Its clean baseline-            prediction, and new resource controls can be reproduced
+seed-1000063 replay through 109 emits exactly 50,847,534           without rerunning the original stochastic ensembles. The
+primes, with terminal state, event count, and checksum             full frozen arrays and original trace-generation recipe re-
+matching the original. Segmented output-file hashes dif-           main the authoritative numerical definition of the archived
+<PARSED TEXT FOR PAGE: 9 / 10>
+                                                                                                                             9
+
+
+TABLE VI. Traceability of principal numerical claims. Public archive paths refer to the v0.1.0 prime-event release; submitted-
+analysis paths are included with this manuscript revision.
+
+Claim or displayed value                  Primary table/section            Machine-readable source
+1/64 → 47/64, FP/FN totals, 569→40        Table II                         evidence/baseline summary.json;
+                                                                           evidence/balanced summary.json
+Fresh 13/16 and three error positions     Table II                         evidence/fresh summary.json;
+                                                                           evidence/trajectories.json
+One-bank decrease ∼ 63× and two-          Table I                          Archived source/CDF recipe; reconstructed extrema
+bank increase ∼ 64×                                                        in analysis/prime gate controls.json
+Poisson p0 = 0.011825 and 0.731616,       Table III                        Archived            summaries               above;
+histograms, Fano factors                                                   analysis/prime poisson summary.json
+Ideal-input census and balanced P0 ≃      Table IV, Sec. IV                analysis/ideal census 1e9.json;
+0.7171                                                                     analysis/prime survival envelopes.json
+Matched-budget and four/five-reading      Table V                          analysis/prime gate controls.json;
+predictions                                                                analysis/prime survival envelopes.json
+
+
+
+realizations. The submitted analysis package retains its          more directly. Equalizing blocking margins is a valid
+own inputs and checksums and must accompany this re-              fixed-a maximum-minimum rule, but a source with un-
+vision; the older Zenodo release is not silently claimed to       equal margins can be better for a strongly nonuniform
+contain the new controls.                                         input distribution at a given microscopic budget. The
+                                                                  two-bank sector is frequent enough that sacrificing its
+                                                                  protection has an appreciable cost. The comparison with
+                  VII.   DISCUSSION                               four-reading confirmation further shows that interaction
+                                                                  design and temporal redundancy are competing resources.
+                                                                  A device-oriented optimization would have to price cou-
+   The study has two complementary outcomes. First,               plings, local fields, exposure, readings, and switching cost
+the original baseline-to-successor experiment gives a clear       in a stated physical model; the dimensionless budgets here
+mechanism-to-design chain: first-error replay locates one-        are transparent controls rather than such a calibration.
+bank failures, the hidden-spin field explains pair can-              These qualifications lead to a more specific result: the
+cellation, and a source chosen before successor testing           baseline’s vulnerability can be diagnosed and improved,
+substantially improves complete trajectories. Second, the         while the best intervention depends on the resource and
+new reliability analysis shows why the size of that improve-      fidelity objective. The appropriate next validation is not
+ment must be interpreted through ordinary rare-event              an indefinitely longer selected seed, but frozen matched
+accumulation and explicit resource conventions.                   ensembles for the competing budget designs and a paired
+   The billion-step horizon makes small local probabil-           feedback ablation. Their hypotheses and source recipes
+ities experimentally consequential, but is not by itself          are supplied separately, without including continuing
+evidence for unusual computational power. The digital             learner/repair runs as observations of the present fixed-
+sieve supplies the arithmetic. Exact finite realizations are      source experiment.
+expected with nonzero probability under the stochastic
+model, and their observed frequency is consistent with
+both a fitted Poisson reference and a separate microscopic
+prediction. The Fano analysis does not indicate a large                            VIII.   CONCLUSION
+excess count variance. These results establish reliability at
+the recorded scale without implying a new deterministic              A seven-spin gate embedded in an event-created digital
+prime generator or an unbounded exactness guarantee.              sieve improves from 1/64 to 47/64 exact billion-index
+   The feedback path remains scientifically relevant be-          trajectories per profile after a prospective source change,
+cause it identifies a concrete route by which errors al-          with 13/16 fresh seeds also exact. The change improves
+ter subsequent inputs. Its contribution to average error          the weak one-bank sector while worsening the formerly
+counts has not been measured against an otherwise iden-           stronger two-bank sector and increasing the strength bud-
+tical fixed-input control. Our statements about feedback          get. Archived counts are compatible with Poisson rare-
+therefore distinguish existence, first-error survival, and        event accumulation, and a separate deterministic input
+post-error amplification. The matched teacher-forced de-          census and finite-state survival envelope predict the ob-
+sign described above would measure the third quantity;            served reliability scale without fitting trajectory outcomes.
+it is not needed to recognize the first two or to preserve        Matched-resource calculations establish that margin bal-
+the archived intervention result.                                 ancing is not a universal fixed-budget optimum; the rank-
+   The budget controls change the design interpretation           ing depends on whether hidden fields are included and
+<PARSED TEXT FOR PAGE: 10 / 10>
+                                                                                                                              10
+
+on the allocation of confirmation readings. The resulting         statistical reanalysis, and manuscript preparation. Their
+framework relates microscopic interactions, conditional           outputs were checked through the explicit identities, re-
+survival, and explicit resource tradeoffs without assigning       tained records, and separately implemented calculations
+an unmeasured ensemble-level effect to feedback.                  stated above. Sean Brady directed the research and is
+                                                                  responsible for the scientific claims and final text.
+
+        DATA AVAILABILITY STATEMENT
+
+  The original compact evidence, frozen sources, and
+standalone trajectory reproduction are public [10, 11].
+The approximately 32.172 GB original trace archive is                                     FUNDING
+retained separately. New analysis inputs, deterministic
+census, Poisson diagnostics, source-control probabilities,
+and scripts accompany this manuscript revision and Sup-             This research received no external funding.
+plemental Material [9]. New controls are finite-state model
+calculations, not additions to the archived matched/fresh
+ensembles.
+
+
+               ACKNOWLEDGMENTS                                                  COMPETING INTERESTS
+
+ OpenAI ChatGPT and Codex assisted with mathe-
+matical exposition, code construction, numerical checks,            The author declares no competing interests.
+
+
+
+
+ [1] J. von Neumann, “Probabilistic logics and the synthesis           arXiv:1703.03768.
+     of reliable organisms from unreliable components,” in         [7] I. J. Crosson, D. Bacon, and K. R. Brown,
+     Automata Studies, edited by C. E. Shannon and J. Mc-             “Making classical ground-state spin computing
+     Carthy, Annals of Mathematics Studies Vol. 34 (Princeton          fault-tolerant,” Phys. Rev. E 82, 031106 (2010),
+     University Press, Princeton, 1956), pp. 43–98.                    doi:10.1103/PhysRevE.82.031106.
+ [2] K. Y. Camsari, R. Faria, B. M. Sutton, and S. Datta,          [8] L. Michel, M. Rogier, and F. Lechenault, “Sequential
+    “Stochastic p-Bits for Invertible Logic,” Phys. Rev. X 7,          spin-logic algorithmics for Ising machines,” Phys. Rev. E
+     031014 (2017), doi:10.1103/PhysRevX.7.031014.                     111, 065309 (2025), doi:10.1103/1y39-bgll.
+ [3] K. Y. Camsari, B. M. Sutton, and S. Datta, “p-Bits for        [9] Supplemental Material and accompanying analysis pack-
+     Probabilistic Spin Logic,” Appl. Phys. Rev. 6, 011305             age for the present revision: archived-count Poisson di-
+     (2019), doi:10.1063/1.5055860.                                    agnostics, ideal-bank census, and finite-state resource
+ [4] B. Luque, L. Lacasa, and O. Miramontes, “Phase                    controls. These new calculations are separate from the
+     transition in a stochastic prime-number gen-                      original trajectory ensembles.
+     erator,” Phys. Rev. E 76, 010103(R) (2007),                  [10] S. Brady, prime-event: balanced hidden-spin feedback
+     doi:10.1103/PhysRevE.76.010103.                                   and reproducibility package (2026), https://github.com/
+ [5] T. C. Petersen, M. Ceko, I. D. Svalbe, M. J. Morgan, A. I.        iwtbotiwtwot/prime-event.
+     Bishop, and D. M. Paganin, “Simple wave-optical super-       [11] S. Brady, Prime-event: balanced hidden-spin feedback,
+     positions as prime number sieves,” Phys. Rev. Lett. 122,          learning, and checked repair, software version 0.1.0, Zen-
+     090201 (2019), doi:10.1103/PhysRevLett.122.090201.                odo (2026), doi:10.5281/zenodo.23002149; all versions
+ [6] J. V. Monaco and M. M. Vindiola, “Integer Factoriza-              doi:10.5281/zenodo.23002148.
+     tion with a Neuromorphic Sieve,” in 2017 IEEE Inter-
+     national Symposium on Circuits and Systems (2017),

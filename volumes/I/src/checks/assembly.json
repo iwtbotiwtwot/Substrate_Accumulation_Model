@@ -1,0 +1,98 @@
+{
+  "pages": 240,
+  "chapters": [
+    {
+      "chapter": "I",
+      "title": "Original Write histories and an interacting source-field action",
+      "start": 4,
+      "pages": 16,
+      "file": "assets/ch01_retained.pdf"
+    },
+    {
+      "chapter": "II",
+      "title": "Retention, accumulation, and the finite ledger",
+      "start": 20,
+      "pages": 13,
+      "file": "assets/ch02_retained.pdf"
+    },
+    {
+      "chapter": "III",
+      "title": "The spherical accumulation kernel and the source-to-field interface",
+      "start": 33,
+      "pages": 13,
+      "file": "assets/ch03_retained.pdf"
+    },
+    {
+      "chapter": "IV",
+      "title": "Clocks, signals, and calibrated observation",
+      "start": 46,
+      "pages": 66,
+      "file": "assets/ch04_retained.pdf"
+    },
+    {
+      "chapter": "V",
+      "title": "Strong fields and the approach to unit accumulation",
+      "start": 112,
+      "pages": 34,
+      "file": "assets/ch05_retained.pdf"
+    },
+    {
+      "chapter": "VI",
+      "title": "Quantum routes, shared fields and retained physical records",
+      "start": 146,
+      "pages": 35,
+      "file": "chapter06.pdf"
+    },
+    {
+      "chapter": "VII",
+      "title": "Horizon thermodynamics and accessible information",
+      "start": 181,
+      "pages": 9,
+      "file": "chapter07.pdf"
+    },
+    {
+      "chapter": "VIII",
+      "title": "Cosmic inventory and the Hubble cascade",
+      "start": 190,
+      "pages": 9,
+      "file": "chapter08.pdf"
+    },
+    {
+      "chapter": "IX",
+      "title": "Thermal history, recombination and CMB structure",
+      "start": 199,
+      "pages": 9,
+      "file": "chapter09.pdf"
+    },
+    {
+      "chapter": "X",
+      "title": "Many-source accumulation and galaxy halos",
+      "start": 208,
+      "pages": 9,
+      "file": "chapter10.pdf"
+    },
+    {
+      "chapter": "XI",
+      "title": "Carrier radiation and ringdown dynamics",
+      "start": 217,
+      "pages": 9,
+      "file": "chapter11.pdf"
+    },
+    {
+      "chapter": "XII",
+      "title": "Cosmological fate and the completed boundary",
+      "start": 226,
+      "pages": 9,
+      "file": "chapter12.pdf"
+    },
+    {
+      "chapter": "A",
+      "title": "Evidence, closures and remaining physical assignments",
+      "start": 235,
+      "pages": 6,
+      "file": "chapter13.pdf"
+    }
+  ],
+  "output": "SAM_Volume_I_Unified_Expanded_Chapters_I-XII_20261019.pdf",
+  "sha256": "6e1032f4136d94a4c192d8ea653f8819586c01dd5324268108333ba1c102e814"
+}

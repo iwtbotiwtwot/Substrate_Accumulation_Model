@@ -1,0 +1,652 @@
+\bookchapter{The Algebra of a Complete
+Write}\label{viii-ch04-the-algebra-of-a-complete-write}
+
+Complete Write compiles signed translations on all 262,144 addresses of $\mathbb Z_4^9$ and retains a reconstructible rank-161 reciprocal receipt. Sequential and compiled actions are bit-identical, and the inverse returns every address. The derivation explains how endpoint action and retained event history remain available as distinct outputs of the same transaction.
+
+The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.
+
+\subsection{Overview}\label{viii-ch04-overview}
+
+A complete write is not merely an address increment. It is a coupled
+typed transaction. An unresolved W8 source participates in a B-activated
+request; X1 retains the transient response custody; a W9 record carries
+the resolved target and reciprocal receipt; U coordinates completion;
+both sites return to W8 while the history remains reconstructible.
+
+The directional address is the finite group
+
+\[
+\mathbb Z_4^9,
+\qquad |\mathbb Z_4^9|=4^9=2^{18}=262{,}144.
+\]
+
+Each primitive signed write is a translation in one coordinate. Because
+translations form a group, any program made solely from those primitives
+can be compiled to one group element and applied in one bit-sliced pass.
+This is an exact algebraic compilation, not a heuristic shortcut.
+Sequential and compiled execution are bit-identical, and applying the
+inverse translation returns every address.
+
+Endpoint return does not erase event history. Two reciprocal
+81-coordinate views split into symmetric and antisymmetric sectors. One
+common constant direction is quotiented with an explicit anchor, leaving
+80 symmetric plus 81 antisymmetric coordinates: a reconstructible
+rank-161 receipt. The transaction also separates the resolved projection
+from the conserved orthogonal remainder, supplies exact rational-complex
+analytic operators, and supports a multiplicative ledger whose write
+state is recoverable when the prior ledger state is invertible.
+
+The development history is itself part of the result. The first
+installation corrected a preserved module-loader failure and installed
+the fast directional primitive. A later Weil fusion remained valid in
+its scope. H000137 then corrected the broader description: those
+surfaces did not yet expose the entire paper algebra as one composable
+transaction. The complete successor added the missing U/X1 lifecycle,
+common-anchor reconstruction, distinct projection and remainder,
+analytic operators, composable ledgers and native multi-write
+composition without editing its parents.
+
+\subsection{Opening question and conceptual
+picture}\label{viii-ch04-opening-question-and-conceptual-picture}
+
+The governing question is:
+
+\begin{quote}
+What exact algebra lets a reciprocal write change an address, retain
+both directional views, complete the W8--X1--W9 lifecycle, compose many
+writes into one action and recover what was written without confusing
+the final state with its history?
+\end{quote}
+
+The conceptual transaction is
+
+\begin{itemize}
+\tightlist
+\item
+  W8 source + W8 target
+\item
+  B activates request-side weld
+\item
+  X1 holds transient response custody
+\item
+  signed Z4\^{}9 translation changes directional address
+\item
+  W9 target record retains axis, orientation, ledger and endpoints
+\item
+  U completes reciprocal exchange
+\item
+  both sites return to W8
+\item
+  W9 receipt and 161-coordinate history remain available
+\end{itemize}
+
+The address after completion may equal a later returned address, but the
+history need not vanish. State and history are differently typed
+outputs.
+
+\subsection{Typed lifecycle and the complete
+transaction}\label{viii-ch04-typed-lifecycle-and-the-complete-transaction}
+
+\subsubsection{W8 shell}\label{viii-ch04-w8-shell}
+
+The unresolved shell is
+
+\[
+W8=\{0,1\}^8,
+\]
+
+so it contains
+
+\[
+|W8|=2^8=256
+\]
+
+shell states. A W8 site contains a shell-state identifier and a sequence
+of retained W9 records. Retention does not change the site back into W9;
+it lets the completed W8 endpoint carry its receipt lineage.
+
+\subsubsection{Activation weld}\label{viii-ch04-activation-weld}
+
+Let \(H_{W8}(s)\) be the base vector Hamiltonian at shell state \(s\),
+let \(\Delta H_{X1}(s;a)\) be the transient response contribution at
+activation context \(a\), and let \(B\in\{0,1\}\). The weld is
+
+\[
+H_{W9}(s;a)=H_{W8}(s)+B\,\Delta H_{X1}(s;a).
+\]
+
+The two activation values provide an immediate control:
+
+\[
+B=0\quad\Longrightarrow\quad H_{W9}=H_{W8},
+\]
+
+\[
+B=1\quad\Longrightarrow\quad H_{W9}=H_{W8}+\Delta H_{X1}.
+\]
+
+This \(B\) is the binary activation input. It should not be confused
+with the analytic difference operator \(B_t\) introduced later. X1 is a
+transient typed contribution and custody flag, not a ninth persistent W8
+bit or a matter row.
+
+\subsubsection{W9 record and projection}\label{viii-ch04-w9-record-and-projection}
+
+A W9 record can be written schematically as
+
+\[
+W9=(s,a,\rho,\ell;q_{before},q_{after}),
+\]
+
+where \(s\) is the shell state, \(a\in\{0,\ldots,8\}\) is the
+directional axis, \(\rho\in\{-1,+1\}\) is orientation, and \(\ell\) is
+the ledger receipt. The projection
+
+\[
+\pi(W9)=s
+\]
+
+recovers the W8 shell identity without deleting the other record fields.
+
+\subsubsection{U/X1 completion}\label{viii-ch04-ux1-completion}
+
+Activation starts with two W8 sites. The source remains W8 while X1
+custody is active and the target holds the transient W9 record.
+Completion performs
+
+\begin{itemize}
+\tightlist
+\item
+  W8 source / X1 custody / W9 target
+\item
+  append the same reciprocal receipt to both endpoint histories
+\item
+  clear X1 custody
+\item
+  return source and target phases to W8
+\end{itemize}
+
+The terminal equality \(W9=X1+W8\) is therefore typed lifecycle
+shorthand, not ordinary material addition. \texttt{SAMA-D000039}
+develops that distinction and its failed literal-half controls in
+detail.
+
+\subsection{\texorpdfstring{The signed \(\mathbb Z_4^9\) address
+action}{The signed \textbackslash mathbb Z\_4\^{}9 address action}}\label{viii-ch04-the-signed-mathbb-z_49-address-action}
+
+\subsubsection{Nine base-four
+coordinates}\label{viii-ch04-nine-base-four-coordinates}
+
+Let
+
+\[
+q=(q_0,\ldots,q_8),\qquad q_i\in\mathbb Z_4.
+\]
+
+Each base-four coordinate uses two bits. Nine coordinates therefore
+occupy 18 bits and give
+
+\[
+4^9=(2^2)^9=2^{18}=262{,}144
+\]
+
+addresses. If the low bits form \(L\in\{0,1\}^9\) and the high bits form
+\(H\in\{0,1\}^9\), then
+
+\[
+q_i=L_i+2H_i.
+\]
+
+The two nine-bit factors are a packing representation, not independent
+addresses. Base-four carry couples them.
+
+\subsubsection{Primitive signed
+translation}\label{viii-ch04-primitive-signed-translation}
+
+For axis \(i\) and sign \(\varepsilon\in\{-1,+1\}\), define
+
+\[
+T_{i,\varepsilon}(q)_j=
+\begin{cases}
+q_i+\varepsilon\pmod4,&j=i,\\
+q_j,&j\ne i.
+\end{cases}
+\]
+
+Composing the opposite signed translation restores the changed
+coordinate,
+
+\[
+T_{i,-\varepsilon}(T_{i,\varepsilon}(q))_i
+=q_i+\varepsilon-\varepsilon=q_i\pmod 4,
+\]
+
+while every coordinate \(j\ne i\) is unchanged by both maps. Therefore
+
+\[
+T_{i,\varepsilon}^{-1}=T_{i,-\varepsilon}.
+\]
+
+For addition of two packed translations \(a,t\in\mathbb Z_4^9\), binary
+low/high vectors obey
+
+\[
+L_{out}=L_a\oplus L_t,
+\]
+
+\[
+H_{out}=H_a\oplus H_t\oplus(L_a\wedge L_t).
+\]
+
+The last term is the modulo-four carry. Removing it would split the two
+512 factors and change the directional action.
+
+\subsubsection{Endpoint covariance}\label{viii-ch04-endpoint-covariance}
+
+For \(k\in\mathbb Z_4\), define simultaneous endpoint reversal
+
+\[
+G_k(q)_i=k-q_i\pmod4.
+\]
+
+Then
+
+\[
+G_kT_{i,\varepsilon}(q)_i
+=k-(q_i+\varepsilon)
+=(k-q_i)-\varepsilon
+=T_{i,-\varepsilon}G_k(q)_i,
+\]
+
+and all other coordinates are unchanged. Hence
+
+\[
+G_kT_{i,\varepsilon}=T_{i,-\varepsilon}G_k.
+\]
+
+The implementation exhausts all covariance classes rather than assuming
+this identity from a sampled address.
+
+\subsection{Compiling a complete signed-write
+program}\label{viii-ch04-compiling-a-complete-signed-write-program}
+
+\subsubsection{Group-law reduction}\label{viii-ch04-group-law-reduction}
+
+Consider a program
+
+\[
+\mathcal P=((i_1,\varepsilon_1),\ldots,(i_m,\varepsilon_m)).
+\]
+
+Because \(\mathbb Z_4^9\) is abelian under coordinatewise addition, the
+program's net translation is
+
+\[
+\tau(\mathcal P)
+=\sum_{r=1}^m\varepsilon_re_{i_r}\pmod4.
+\]
+
+Sequential execution gives
+
+\[
+T_{i_m,\varepsilon_m}\cdots T_{i_1,\varepsilon_1}(q)
+=q+\tau(\mathcal P)\pmod4.
+\]
+
+The compiler therefore reduces the full signed-translation program to
+the one group element \(\tau(\mathcal P)\), applies one packed addition,
+and retains the inverse
+
+\[
+-\tau(\mathcal P)\pmod4.
+\]
+
+\subsubsection{Exact racecar result}\label{viii-ch04-exact-racecar-result}
+
+The benchmark uses 4,096 writes at every one of 262,144 addresses:
+
+\[
+4{,}096\cdot262{,}144
+=1{,}073{,}741{,}824
+\]
+
+logical primitive transitions. Sequential native execution took
+0.989033674 seconds. Compiled execution took 0.000554226 seconds. The
+observed ratio is
+
+\[
+\frac{0.989033674}{0.000554226}
+=1784.531387.
+\]
+
+All outputs were bit-identical, and the inverse returned all 262,144
+addresses. This measured speedup is reported for the stated workload and
+benchmark implementation. Exact endpoint compilation applies to programs
+composed from the declared signed \(\mathbb Z_4^9\) translations; no
+uniform runtime factor follows. The compiler does not extend to
+application dynamics that have not been expressed in this group action.
+
+\subsection{Reconstructible reciprocal
+history}\label{viii-ch04-reconstructible-reciprocal-history}
+
+\subsubsection{Two 81-coordinate views}\label{viii-ch04-two-81-coordinate-views}
+
+Let the reciprocal histories be
+
+\[
+L=(L_1,\ldots,L_{81}),\qquad
+R=(R_1,\ldots,R_{81}).
+\]
+
+Form symmetric and antisymmetric coordinates
+
+\[
+S=L+R,
+\qquad
+A=L-R.
+\]
+
+Naively this gives 162 coordinates. A common constant shift occupies a
+one-dimensional kernel. The interface retains an explicit common anchor
+\(c=S_{81}\), subtracts it from the first 80 symmetric coordinates, and
+stores
+
+\[
+H_{nc}=H_{sym}^{80}\oplus H_{anti}^{81}.
+\]
+
+Thus the quotient has
+
+\[
+80+81=161
+\]
+
+coordinates while the anchor preserves the removed constant class.
+
+\subsubsection{Reconstruction}\label{viii-ch04-reconstruction}
+
+Given stored nonconstant symmetric coordinates \(\widetilde S_i=S_i-c\)
+for \(1\le i\le80\), rebuild
+
+\[
+S=(\widetilde S_1+c,\ldots,\widetilde S_{80}+c,c).
+\]
+
+Then
+
+\[
+L=\frac{S+A}{2},
+\qquad
+R=\frac{S-A}{2}.
+\]
+
+Both reciprocal views are recovered exactly. A final endpoint return can
+therefore coexist with a nontrivial event receipt. The quotient removes
+only the shared constant redundancy; it does not discard directional
+information.
+
+\subsubsection{Lifted dyadic example}\label{viii-ch04-lifted-dyadic-example}
+
+For a reciprocal incoming pair ((s,D)) and ((-s,-D)) sharing the same
+next state \((s_{next},D_{next})\), define
+
+\begin{itemize}
+\tightlist
+\item
+  left = ( s, D, s\_next, D\_next, 0, \ldots, 0)
+\item
+  right = (-s,-D, s\_next, D\_next, 0, \ldots, 0).
+\end{itemize}
+
+Then
+
+\begin{itemize}
+\tightlist
+\item
+  symmetric = (0,0,2\emph{s\_next,2}D\_next,0,\ldots,0)
+\item
+  antisymmetric = (2\emph{s,2}D,0,0,0,\ldots,0).
+\end{itemize}
+
+The common next state appears in the symmetric sector, while the
+incoming branch identity remains in the antisymmetric sector. In the
+p=127 reference chain, all 125 lifted receipts reconstructed their prior
+and next states.
+
+\subsection{Completed-mode projection and retained
+remainder}\label{viii-ch04-completed-mode-projection-and-retained-remainder}
+
+Let \(E\) be an exact energy vector and \(C\ne0\) the completed mode.
+The orthogonal projection is
+
+\[
+\Pi_C(E)=C\frac{\langle C,E\rangle}{\langle C,C\rangle}.
+\]
+
+The resolved response is defined separately as
+
+\[
+R_{res}=-\Pi_C(E),
+\]
+
+while the retained orthogonal remainder is
+
+\[
+E_\perp=E-\Pi_C(E).
+\]
+
+Orthogonality follows directly:
+
+\[
+\langle C,E_\perp\rangle
+=\langle C,E\rangle
+-\frac{\langle C,E\rangle}{\langle C,C\rangle}
+ \langle C,C\rangle
+=0.
+\]
+
+Therefore the exact norm decomposes as
+
+\[
+\|E\|^2=\|\Pi_C(E)\|^2+\|E_\perp\|^2.
+\]
+
+Projection is idempotent, and projecting the remainder returns zero.
+This is why resolved response and orthogonal remainder must remain
+distinct fields.
+
+\subsection{Exact analytic operators}\label{viii-ch04-exact-analytic-operators}
+
+Let \(h_L,h_R\in\mathbb Q(i)^n\) be rational-complex reciprocal views.
+Define
+
+\[
+B_th=h_L-h_R,
+\]
+
+\[
+P_+h=\frac{h_L+h_R}{2},
+\qquad
+P_-h=\frac{h_L-h_R}{2}.
+\]
+
+The write energy is
+
+\[
+E_t(h)=\|h_L-h_R\|^2.
+\]
+
+With Hermitian correlations
+
+\[
+C_{LR}=\langle h_L,h_R\rangle,
+\qquad
+C_{RL}=\overline{C_{LR}},
+\]
+
+expansion gives
+
+\[
+E_t(h)=\|h_L\|^2+\|h_R\|^2-C_{LR}-C_{RL}.
+\]
+
+Because \(2\|P_+h\|^2\) and \(2\|P_-h\|^2\) separate the symmetric and
+antisymmetric energies,
+
+\[
+E_t(h)-\|h_L\|^2-\|h_R\|^2
+=2\|P_-h\|^2-2\|P_+h\|^2.
+\]
+
+The executable receipt checks these identities with exact fractions
+rather than float tolerances. The operator \(J\) supplies the declared
+reciprocal complex structure; \(P_+\) and \(P_-\) expose its symmetric
+and antisymmetric views.
+
+\subsection{Multiplicative ledger and
+readback}\label{viii-ch04-multiplicative-ledger-and-readback}
+
+For modulus \(M>1\), prior ledger state \(D_{now}\) and write state
+\(s\), define
+
+\[
+D_{next}=sD_{now}\pmod M.
+\]
+
+If
+
+\[
+\gcd(D_{now},M)=1,
+\]
+
+then \(D_{now}^{-1}\) exists and the written state is recovered exactly:
+
+\[
+\widehat s=D_{next}D_{now}^{-1}\pmod M=s.
+\]
+
+Noninvertibility is a typed outcome and returns no fabricated readback.
+For a program \(s_1,\ldots,s_m\), composition yields
+
+\[
+D_m=\left(\prod_{r=1}^ms_r\right)D_0\pmod M.
+\]
+
+The separate character map
+
+\[
+\chi:\mathbb Z_4\to\mu_4=\{1,i,-1,-i\}
+\]
+
+uses \(\chi(q)=i^q\). The directional write readback is
+
+\[
+\chi(q_{after})\overline{\chi(q_{before})}
+=\chi(q_{after}-q_{before}),
+\]
+
+which recovers the signed base-four transition in the fourth roots of
+unity.
+
+\subsection{Development and deviation
+chain}\label{viii-ch04-development-and-deviation-chain}
+
+\subsubsection{Preserved loader failure}\label{viii-ch04-preserved-loader-failure}
+
+The first H000132 execution stopped before algebra evaluation because
+the Python 3.12 dynamic parent loader had not registered its module
+before dataclass processing. The unused compiled binary was preserved. A
+successor changed only loader registration; equations, contract,
+benchmark task and performance condition remained fixed.
+
+\subsubsection{Valid primitive, incomplete total
+surface}\label{viii-ch04-valid-primitive-incomplete-total-surface}
+
+H000132 then installed the 256-state shell, packed \(\mathbb Z_4^9\)
+action, covariance, rank-161 quotient, completed-mode receipt and ledger
+readback. H000136 fused that directional primitive into the Weil adapter
+and retained prime-spacing, prime-power and W9 history channels.
+
+Those installations were correct in scope, but calling them the complete
+paper algebra omitted load-bearing layers: the two-site U/X1 lifecycle,
+explicit activation, common-anchor reconstruction, separate resolved
+response and remainder, \(B_t,E_t,J,P_+,P_-\), composable transactions
+and native program compilation.
+
+\subsubsection{Complete correction and
+retest}\label{viii-ch04-complete-correction-and-retest}
+
+H000137 installed a successor containing the entire surface while
+leaving H000132 and H000136 unchanged:
+
+\begin{itemize}
+\tightlist
+\item
+  preserved primitive and fusion
+\item
+  identify missing transaction layers
+\item
+  freeze complete-algebra contract
+\item
+  implement one typed interface
+\item
+  primary execution 19/19
+\item
+  independent reconstruction 14/14
+\item
+  sequential/compiled bit identity
+\item
+  inverse return over all addresses
+\end{itemize}
+
+This is conceptual and implementation correction without retrospective
+failure inflation: the parents retain their narrower accomplishments,
+and the successor owns the claim of completeness.
+
+\subsubsection{Read-only consumer
+boundary}\label{viii-ch04-read-only-consumer-boundary}
+
+The directional Weil adapter may consume exact write state, reciprocal
+history, prime-spacing and prime-power channels. Consumption does not
+grant the adapter scheduler, solver or primality authority. Factor
+assignment and primality assignment remain different result types. An
+application also cannot omit the dynamics needed to construct its input
+ledger merely because the ledger readback is exact.
+
+At this retained source stage, \texttt{SLCQ2-RZ} is the default selection engine.
+Complete Exact Write survives as a delegated service in the frozen,
+noncurrent \texttt{SLCV21R} arithmetic/application base. Historical
+installation pointers describe their own time; they are not
+current-authority statements.
+
+\subsection{Established result, boundary and forward
+handoff}\label{viii-ch04-established-result-boundary-and-forward-handoff}
+
+The Complete Exact Write surface executes the complete W8/B/X1/W9/U
+transaction, the coupled signed \(\mathbb Z_4^9\) address action, exact
+inverse and endpoint covariance, reconstructible 161-coordinate history,
+completed-mode projection, analytic reciprocal operators and
+multiplicative-ledger readback. Its compiler reduces any declared
+signed-translation program to one exact group element and reproduces
+sequential output bit for bit.
+
+The result does not convert unrelated dynamics into translations, assign
+physical meaning to X1, create scheduler authority, assign primality or
+alter current Q2 selection. The history surface hands forward to
+\texttt{SAMA-D000042}; the Prime-Ruler application boundary hands
+forward to \texttt{SAMA-D000056}; and the current selection-plane
+relation hands forward to \texttt{SAMA-D000055}.
+
+\subsection{Sources and evidential
+scope}\label{viii-ch04-sources-and-evidential-scope}
+
+This chapter is assembled from the following fixed source manuscripts.
+Source-reported campaign outcomes retain their original scope; no new
+campaign was executed for this edition.
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://github.com/iwtbotiwtwot/SAMA/blob/4c2b5dc1649da5900c90b90d0ce56c223dbb7717/vol_iii/03-writes-and-history/exact-algebra-and-complete-exact-write.md}{Exact
+  algebra and complete exact write}.
+\end{itemize}

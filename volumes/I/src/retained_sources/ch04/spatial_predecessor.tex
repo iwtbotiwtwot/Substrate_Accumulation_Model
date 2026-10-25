@@ -1,0 +1,109 @@
+\section{An explicit spatial receiver for the original radial modes}
+The positive residual-energy form admits a source-bound spatial incidence rather than an unspecified output weight. Retain the original regular quadrupole radial operator and normalized TT tensors. Its unitary spherical-Bessel transform is
+\[
+ (\mathcal H_2 f)(r)=\sqrt{\frac2\pi}\int_0^\infty k j_2(kr)f(k)\,\dd k.
+\]
+It maps $L^2(\dd k)$ unitarily to $L^2(r^2\dd r)$.
+The identity $\int r^2j_2(kr)j_2(k'r)\dd r=\pi\delta(k-k')/(2k^2)$ fixes its normalization and retains the regular finite-energy extension at the origin. With the original angular isometry $\mathcal UQ=\sqrt{5/(8\pi)}\Lambda_nQ$, define
+\[
+ (Jf)(r,n)=\sum_{\alpha=+,\times}\mathcal Ue_\alpha(n)(\mathcal H_2 f_\alpha)(r).
+\]
+This $J$ is an isometry on the original two-polarization residual-energy output. A real bounded profile $0<N_-\le N(\mathbf x)\le N_+$ supplies $W_N=J^*NJ$ with the same positive bounds. The full closed form retains both cross terms and its entire counterterm.
+
+This is a specified positive-frequency square-form spatial receiver. Identifying it with a pointwise canonical quantum stress tensor still requires the common local-action, vacuum, derivative-energy and boundary calculation. Its compressed domain does not silently add the full angular complement dynamics. For
+\[
+ A_{ab}(r)=\int N(r,n)\,\mathcal Ue_a:\mathcal Ue_b\,\dd\Omega,
+\]
+the spectral kernel is
+\[
+ W_{ab}(k,k')=\frac2\pi kk'\int_0^\infty
+ r^2j_2(kr)j_2(k'r)A_{ab}(r)\dd r.
+\]
+A scalar spatial profile can therefore mix radial frequencies.
+
+\section{Exact selection rules and the gradient complement}
+The polarized TT contraction is
+\[
+ \begin{aligned}
+ \Lambda Q:\Lambda Q'={}&\operatorname{tr}(QQ')
+ -n^{\mathrm T}(QQ'+Q'Q)n\\
+ &+\tfrac12(n^{\mathrm T}Qn)(n^{\mathrm T}Q'n).
+ \end{aligned}
+\]
+Its spherical degrees are precisely among $L=0,2,4$. Thus every odd scalar harmonic and every scalar harmonic above degree four has zero compression. For the actual two driven tensors, write $C[h]_{ab}=\int h\,\mathcal Ue_a:\mathcal Ue_b\dd\Omega$. Exact integration gives
+\[
+\begin{gathered}
+ C[1]=I,\quad C[x]=C[y]=C[z]=0,\\
+ C[3z^2-1]=\tfrac47I,\quad C[P_4(z)]=\tfrac1{126}I,\\
+ C[x^2-y^2]=C[2xy]=C[2xz]=C[2yz]=0,\\
+ C[x^4-6x^2y^2+y^4]=\tfrac4{63}\begin{pmatrix}1&0\\0&-1\end{pmatrix},\\
+ C[4xy(x^2-y^2)]=\tfrac4{63}\begin{pmatrix}0&1\\1&0\end{pmatrix}.
+\end{gathered}
+\]
+The other degree-four components vanish. The real scalar angular image on the original pair is exactly the three-dimensional space of real symmetric matrices. On the entire five-STF image, the actual $L=0,2,4$ Gaunt map has rank fifteen. It realizes every small real symmetric five-coordinate weight with a bounded real scalar profile; positivity still constrains finite coefficients. The earlier imaginary antisymmetric polarization fixture belongs to a different realization class. Here $\{D,C\}=0$ and $D^2=C^2$ make the real weighted counterterm proportional to $D^2$, retaining all four original dark dimensions.
+
+A vanishing compressed gradient does not remove its complement. With $P_5$ the full STF angular-image projector,
+\[
+ \begin{gathered}
+ P_5zP_5=0,\\
+ P_5z(I-P_5)zP_5\\
+ =\operatorname{diag}(11/21,11/21,5/21,5/21,1/7).
+ \end{gathered}
+\]
+The latter is positive and rank five, with rank two on the driven pair. A full angular evolution must retain this gradient leakage and its returning effect.
+
+The global profile remains bounded and positive. Every polynomial Taylor expression below is restricted to the finite near ball; the actual bounded exterior remains in the far account. For a smooth source-centered profile, $N=N_0+g_ix_i+H_{ij}x_ix_j/2+\cdots$, its quadratic compression is
+\[
+ A(r)-N_0I=\frac{r^2}{42}(5\operatorname{tr}H+6H_{zz})I+\cdots.
+\]
+Cubic terms also cancel by parity. A fourth directional-derivative bound $M_4$ on $r\le L$ supplies
+\[
+ \delta_{\rm near}\le \frac{L^2}{42}|5\operatorname{tr}H+6H_{zz}|+\frac{M_4L^4}{24}.
+\]
+For $N=1-m/|\mathbf d+\mathbf x|+O(m^2/d^2)$, the leading term is $mr^2(1-3\cos^2\beta)/(7d^3)$. It vanishes at $\cos^2\beta=1/3$. Even a scalar polarization compression varies radially and need not become one common lapse for six different correlated preparations.
+
+\section{An actual-state spatial tail and a finite profile criterion}
+Let $K_{\rm in/out}[\Psi]=\|P_{\rm in/out}JT_g\Psi\|^2$ split the original complete positive form at radius $L$. The physical profile supplies
+\[
+ |r[\Phi,\Psi]|\le\delta_{\rm near}\sqrt{K_{\rm in}[\Phi]K_{\rm in}[\Psi]}
+ +\delta_{\rm far}\sqrt{K_{\rm out}[\Phi]K_{\rm out}[\Psi]}.
+\]
+The exterior stays in this account. If $\|W-N_0I\|<N_0/2$, put $k_A=3K_{{\rm prep},\rm up}+4\varepsilon_{\rm up}$. A reference ceiling $K\le k_R$ and uniform tail ceiling $K_{\rm out}\le\eta_{\rm ref}(L)$ give
+\[
+ \|\Psi_{\rm act}(T)-\chi(T)\|^2
+ \le2T\sqrt{k_A}\left[\delta_{\rm near}\sqrt{k_R}
+                         +\delta_{\rm far}\sqrt{\eta_{\rm ref}(L)}\right].
+\]
+Four times the state-distance bound controls the actual current error. Comparing it to the retained nonzero reference amplitude supplies the same unwrapped arcsine phase criterion as before.
+
+The tail can be bounded for the original exact preparation. The retained hard-branch pull-through identity gives, for $k\ge\lambda=64\Delta$,
+\[
+ a_\alpha(k)\Phi_j=g u_R(k)(H_h-E_j+k)^{-1}\sigma_\alpha\Phi_j,
+ \quad H_h-E_j\ge-\Delta.
+\]
+For $H_j(k)=k(H_h-E_j+k)^{-1}$, spectral calculus gives $\|H_j\|\le64/63$ and $\|H_j'\|\le(1/4+64/3969)/k$. Applying the original Bessel transform to this Hilbert-space-valued function supplies an explicit conservative annihilation bound $\|A_\alpha(r)\|\le C_A(L)/r^2$ for $r\ge L\ge2R$. The retained derivation splits at $1/R$, integrates the low-frequency Bessel derivative envelope, and keeps all nine high-frequency sine/cosine products with phases $k(r\pm R)$.
+
+The shift has the exact profile
+\[
+ F_\alpha(r)=\frac{g}{\pi\sqrt\kappa\,rR}
+ Q_2\!\left(\frac{r^2+R^2}{2rR}\right)\sigma_\alpha\Phi,
+\]
+where its logarithmic shell singularity is square integrable. For $r\ge L$ it is bounded by $C_F(L)/r^4$, with
+\[
+ C_F(L)=\frac{16|g|R^2}{15\pi\sqrt\kappa(1-y_L^2)},\qquad
+ y_L=\frac{2LR}{L^2+R^2}.
+\]
+Keeping both original branches, both polarizations and the common soft vacuum gives
+\[
+ K_{{\rm out},{\rm prep}}(L)\le
+ \min\left\{K_{{\rm prep},\rm up},\frac{8C_A(L)^2}{L}
+                              +\frac{4C_F(L)^2}{5L^5}\right\}.
+\]
+The original energy-norm Duhamel estimate $d_A^2\le8T^2g^2v_s(1+F_T+\lambda)$ then supplies
+\[
+ \eta_{\rm ref}(L)\le\min\{K_{{\rm prep},\rm up}+\varepsilon E(T),
+               2K_{{\rm out},{\rm prep}}(L)+4(1+c_g)d_A^2\}.
+\]
+The comparison payment independent of $L$ is a bound feature, not an actual tail floor. At the illustrative radius $L=10^{15}R$ in model coordinates, the preparation-tail ceilings divided by the inherited $K_{\rm prep}$ ceilings are approximately $0.00275835$, $0.00166416$, $2.06463\times10^{-5}$, $0.00267798$, $2.23339\times10^{-5}$ and $2.43841\times10^{-5}$ in lane order 01,02,03,12,13,23. No SI ruler is assigned by these examples.
+
+These receiving-form results supply an explicit incidence, realizable-weight classification, selection and complement certificates, and actual-state tail bounds. Appendix~\ref{app:tail-coefficient} displays the full standalone $C_A(L)$ coefficient. The Gaunt certificates do not evaluate the six time-dependent current-response integrals. The following six-lane continuation supplies one actual positive profile, a declared common dimensional ruler and evaluated response enclosures. It retains the isolated inhomogeneous two-time matrix elements as unresolved within those enclosures. These are kept separate from the local quantum stress identification.

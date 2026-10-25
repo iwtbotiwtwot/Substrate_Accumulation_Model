@@ -1,0 +1,414 @@
+{
+  "source": "Archived integrated Chapter VI dated17October2026; exact title/abstract match uploaded latest48-page chapter",
+  "all_source_components_preserved": true,
+  "changes": [
+    "Removed chapter-local titlepage/date/author furniture in favor of shared volume opener",
+    "Removed chapter-local three-page table of contents",
+    "Reflowed to10pt Times two-column .68in margins .26in gutter",
+    "Split long mathematical displays without dropping terms or changing claims",
+    "Retained full-precision tables and authenticated vector figure in full-width floats"
+  ],
+  "normalized_source_difference_review": "All26 TeX source components compared after removing layout syntax. Only font-size/figure-width/line-break grouping, invisible continuation delimiters, and one explicit multiplication sign at a line continuation differ. All prose, mathematical operands, sections, proofs and reference entries preserved.",
+  "graphic_sha256": "f522f5024370fd41145e78577a0f9b3e16bd352159eafb8e46a4a5c2319950d7",
+  "standalone_pages": 36,
+  "overfull_boxes": 0,
+  "inputs": [
+    {
+      "file": "checks/new_rows.tex",
+      "source_sha256": "c7e95655ea3549ff26828fd732e859121190be957d3d7927d74f1a5b54b79fd4",
+      "reformatted_sha256": "6a89f4f741bc4a641e2df94b52f772b99cd3150bd4584dda6908f2b0eedd4534"
+    },
+    {
+      "file": "external_references.tex",
+      "source_sha256": "a16e2cc1bc6506efd67d4b365d395fd7e9a729072935038dbe3d356f48f36f0d",
+      "reformatted_sha256": "4ac8b465e9a837d7786e834ce3908c02db22862db811ba204fa6076c099b0ac3"
+    },
+    {
+      "file": "parts/decoder_decoder.tex",
+      "source_sha256": "9524e8e7dcfdde68cc6f4b8cf740d09dd2a1685a40b777871b7a274d1d73014f",
+      "reformatted_sha256": "cd3700d9b00e79f4ec1c4098e47461b5c6cb729ead72a74c6edeccc8093c1f82"
+    },
+    {
+      "file": "parts/decoder_finite_readout.tex",
+      "source_sha256": "029929cfec708aa532e82e950e6b74cc3613ab8eb90a5d819b8318e7dcc952ee",
+      "reformatted_sha256": "ca473cbded5300daec4b3705c87c0a0a7854eb8e41ef06648dbd14ca68e2c161"
+    },
+    {
+      "file": "parts/decoder_pulses_values.tex",
+      "source_sha256": "797c53cf2e704a7d99249a96fdb1f06ededbe567acdcf60f47d37205977bd046",
+      "reformatted_sha256": "352c0b18ffb97637ea03cdda6f028a569bd908089f839418dd7e173a9567e9d7"
+    },
+    {
+      "file": "parts/decoder_table_bounds_table.tex",
+      "source_sha256": "56a58eed5fb21c884d38fbf1cc9d27cedb7efcebef0214e532bf198cc13d60c2",
+      "reformatted_sha256": "04816bf73c9aa58f66171c3cec9602a3734c028873886cb30aa0e0ae0a4dcdc2"
+    },
+    {
+      "file": "parts/decoder_values.tex",
+      "source_sha256": "1285739693f142b6c744bbc8521e25f1807ade05bf56fab81d8efdf850987257",
+      "reformatted_sha256": "518715516ba8c71dfb688b078755d3ad62290f4d987d7a80a70874426a1313ba"
+    },
+    {
+      "file": "parts/foundation_error_budget.tex",
+      "source_sha256": "e08e0c83648cd74e1b2af97cdb98d5f6b588307ff041ba99333b0bf541cedb3e",
+      "reformatted_sha256": "6a15d9d7f4ca2969621232f02123f4b85c671feb8b911482d11e1c0953495c37"
+    },
+    {
+      "file": "parts/foundation_overlap.tex",
+      "source_sha256": "5886090d784d3a9837374eee4dada72a034f372b707ae37340224f07637b8dc6",
+      "reformatted_sha256": "9f9efd647b1cb1960f531564e4c177acbcbad5ddab35b16c2298e19646c81d2d"
+    },
+    {
+      "file": "parts/foundation_records.tex",
+      "source_sha256": "18a700d11c750661d8dfd61f03c70cbe188d2bedc0f0d357b7f11efea60202e5",
+      "reformatted_sha256": "9c394a55fe069a304d6634e6ab2167af8121d57f828c31835f774b4fb4bb0cd2"
+    },
+    {
+      "file": "parts/foundation_table_bounds_rows.tex",
+      "source_sha256": "b2544a942170e1b486038165459e92ff2279300b87f5ecf9bf58c79c4ddd526c",
+      "reformatted_sha256": "951d5ca2ebefa7088d05f9471243490438e5059af484d5af4ec9763fc21e1ca5"
+    },
+    {
+      "file": "parts/foundation_values.tex",
+      "source_sha256": "079716b005c700f659dd052051d1b43b298a88f5c60701258de4aa880a47b439",
+      "reformatted_sha256": "7d8cc992043f48c5b403a88a4292607b97dc143a132c44c91338b37d0a7325a7"
+    },
+    {
+      "file": "parts/original_accessibility.tex",
+      "source_sha256": "5b8224e1301e66e6da319582ed176708a642bb11f8d97be2223a6b8d6fa4831d",
+      "reformatted_sha256": "266e428553be1938d14d0db560e9731eebb023a14a50df850762129de8bc2615"
+    },
+    {
+      "file": "parts/original_appendix.tex",
+      "source_sha256": "587519be78b50934925c55bb12e1eb17ee0ade54e7eb8e94b43d3917f7c083a0",
+      "reformatted_sha256": "cdace229bbfa68a4accba63d676a22e89eceae03b3dab7c6c2e0df56e9bffd0c"
+    },
+    {
+      "file": "parts/original_clock_routes.tex",
+      "source_sha256": "dcb2fb8f89f1b399f27856bd3f5315e8b404715c7c70bd5c12912b609531f113",
+      "reformatted_sha256": "709bd6710b91ed3b84b6620cb4b889f50666b81fd27250f780e89896a0998132"
+    },
+    {
+      "file": "parts/original_history.tex",
+      "source_sha256": "da6c8016a5d7c1b67b17b00510a9eb5276b64203c66641f822ba359fa4812796",
+      "reformatted_sha256": "e202dc38be1c688bb2e919a561d1739ad50aaa4d7c47b4b7d83e5d465a21998e"
+    },
+    {
+      "file": "parts/original_introduction.tex",
+      "source_sha256": "4fff591799e1c8166fe7a1978cec4deec3389c49f730a4021e44425eb6bf6670",
+      "reformatted_sha256": "7573913de5fe31edee1e2b072a5ebf0f27fcf2965cd341731f43fddc83031319"
+    },
+    {
+      "file": "parts/original_records.tex",
+      "source_sha256": "e07a62b99af5db906d1d8041016ff5678cfdd8cb4069c4dec802abf2dbf03ce8",
+      "reformatted_sha256": "aa76082376eb2d656c947ca9090a9c349a5cff9cef4dca98b91a99b7093b8cb7"
+    },
+    {
+      "file": "parts/record_detector_join.tex",
+      "source_sha256": "c1945f792c734fa574dd891070a44a03c36e2cd42dc200abd0a795a32f721904",
+      "reformatted_sha256": "2977e4154fb20bfe38c1061a91dc5a7338d57297172fe1713d592cfcf3aa3245"
+    },
+    {
+      "file": "parts/record_memory_channel.tex",
+      "source_sha256": "8cc8e6735ec8b35693271622032a4b17523ec62db773e79551e0ee4945bf630b",
+      "reformatted_sha256": "c8b43b8f355aa0ee17996c52a4946cb89ad9a83db4a088004bea6580a86101e3"
+    },
+    {
+      "file": "parts/record_table_record_table.tex",
+      "source_sha256": "9e413292ce8703f018d86831cac79dcb38449410037944d2a656d8ea85367ae0",
+      "reformatted_sha256": "ede7dced800bd33ef6cca1e4623aae94a5eae45df66973aaa0e9cfc2175c39de"
+    },
+    {
+      "file": "parts/record_values.tex",
+      "source_sha256": "742ec69b3da32323c6abc749dc595b392add2760c31757db9040c188a1150202",
+      "reformatted_sha256": "c8ec395046768cecca6d5840fed66538bba8ea8c4260b02249cb8475403a521d"
+    },
+    {
+      "file": "parts/references.tex",
+      "source_sha256": "90eed520446ae015ad1b366517dd0d2d181311799ad702332ec3d3cb4f7589ca",
+      "reformatted_sha256": "35807bf342f4608006386905a3693a8a40fa962d07e603b612022dbe38d6c858"
+    },
+    {
+      "file": "proofs/coherent_join.tex",
+      "source_sha256": "97cbc5a1304c64bce3aa0c9f82432dc9a2818550559bf95a19c21869e2400325",
+      "reformatted_sha256": "b43b747cd9a67eac18dfd7110d749de9d84e862f72a4c7d0d2dc1ea41569c7ea"
+    },
+    {
+      "file": "proofs/history_reads.tex",
+      "source_sha256": "8a043bdc23d83407b4b61ca03e5747102b74bde569dd8111c248aa29b6e0f65e",
+      "reformatted_sha256": "1efab7c5273161cc3fcf9c889e93b0c07c4e7687e5f651feec3a76308ace9cce"
+    },
+    {
+      "file": "proofs/shared_field.tex",
+      "source_sha256": "679f86d15d96c2eeaa7336178a87b9c4b4c226f139e320e7acba661fa44bd2bd",
+      "reformatted_sha256": "75dc8ed1c5fd5439da15378d5d35e61d6849f0f7972865dc3e44e60bfd4438a2"
+    }
+  ],
+  "float_containment": "placeins FloatBarrier before reference list retains final values table before bibliography",
+  "component_coverage": [
+    {
+      "component": "checks/new_rows.tex",
+      "source_word_tokens": 11,
+      "output_word_tokens": 11,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 0,
+      "numbered_equation_count_source": 0,
+      "numbered_equation_count_output": 0
+    },
+    {
+      "component": "external_references.tex",
+      "source_word_tokens": 249,
+      "output_word_tokens": 249,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 0,
+      "numbered_equation_count_source": 0,
+      "numbered_equation_count_output": 0
+    },
+    {
+      "component": "parts/decoder_decoder.tex",
+      "source_word_tokens": 1491,
+      "output_word_tokens": 1491,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 21,
+      "numbered_equation_count_source": 21,
+      "numbered_equation_count_output": 21
+    },
+    {
+      "component": "parts/decoder_finite_readout.tex",
+      "source_word_tokens": 1680,
+      "output_word_tokens": 1680,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 23,
+      "numbered_equation_count_source": 23,
+      "numbered_equation_count_output": 23
+    },
+    {
+      "component": "parts/decoder_pulses_values.tex",
+      "source_word_tokens": 264,
+      "output_word_tokens": 264,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 5,
+      "numbered_equation_count_source": 4,
+      "numbered_equation_count_output": 4
+    },
+    {
+      "component": "parts/decoder_table_bounds_table.tex",
+      "source_word_tokens": 11,
+      "output_word_tokens": 11,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 0,
+      "numbered_equation_count_source": 0,
+      "numbered_equation_count_output": 0
+    },
+    {
+      "component": "parts/decoder_values.tex",
+      "source_word_tokens": 277,
+      "output_word_tokens": 277,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 5,
+      "numbered_equation_count_source": 3,
+      "numbered_equation_count_output": 3
+    },
+    {
+      "component": "parts/foundation_error_budget.tex",
+      "source_word_tokens": 1000,
+      "output_word_tokens": 1000,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 7,
+      "numbered_equation_count_source": 7,
+      "numbered_equation_count_output": 7
+    },
+    {
+      "component": "parts/foundation_overlap.tex",
+      "source_word_tokens": 1138,
+      "output_word_tokens": 1138,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 17,
+      "numbered_equation_count_source": 22,
+      "numbered_equation_count_output": 22
+    },
+    {
+      "component": "parts/foundation_records.tex",
+      "source_word_tokens": 1469,
+      "output_word_tokens": 1469,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 19,
+      "numbered_equation_count_source": 15,
+      "numbered_equation_count_output": 15
+    },
+    {
+      "component": "parts/foundation_table_bounds_rows.tex",
+      "source_word_tokens": 9,
+      "output_word_tokens": 9,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 0,
+      "numbered_equation_count_source": 0,
+      "numbered_equation_count_output": 0
+    },
+    {
+      "component": "parts/foundation_values.tex",
+      "source_word_tokens": 45,
+      "output_word_tokens": 45,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 1,
+      "numbered_equation_count_source": 0,
+      "numbered_equation_count_output": 0
+    },
+    {
+      "component": "parts/original_accessibility.tex",
+      "source_word_tokens": 270,
+      "output_word_tokens": 270,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 0,
+      "numbered_equation_count_source": 1,
+      "numbered_equation_count_output": 1
+    },
+    {
+      "component": "parts/original_appendix.tex",
+      "source_word_tokens": 540,
+      "output_word_tokens": 540,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 0,
+      "numbered_equation_count_source": 0,
+      "numbered_equation_count_output": 0
+    },
+    {
+      "component": "parts/original_clock_routes.tex",
+      "source_word_tokens": 1510,
+      "output_word_tokens": 1510,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 13,
+      "numbered_equation_count_source": 12,
+      "numbered_equation_count_output": 12
+    },
+    {
+      "component": "parts/original_history.tex",
+      "source_word_tokens": 1344,
+      "output_word_tokens": 1344,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 11,
+      "numbered_equation_count_source": 12,
+      "numbered_equation_count_output": 12
+    },
+    {
+      "component": "parts/original_introduction.tex",
+      "source_word_tokens": 947,
+      "output_word_tokens": 947,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 1,
+      "numbered_equation_count_source": 7,
+      "numbered_equation_count_output": 7
+    },
+    {
+      "component": "parts/original_records.tex",
+      "source_word_tokens": 1331,
+      "output_word_tokens": 1331,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 9,
+      "numbered_equation_count_source": 14,
+      "numbered_equation_count_output": 14
+    },
+    {
+      "component": "parts/record_detector_join.tex",
+      "source_word_tokens": 2565,
+      "output_word_tokens": 2565,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 35,
+      "numbered_equation_count_source": 29,
+      "numbered_equation_count_output": 29
+    },
+    {
+      "component": "parts/record_memory_channel.tex",
+      "source_word_tokens": 2531,
+      "output_word_tokens": 2531,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 20,
+      "numbered_equation_count_source": 22,
+      "numbered_equation_count_output": 22
+    },
+    {
+      "component": "parts/record_table_record_table.tex",
+      "source_word_tokens": 13,
+      "output_word_tokens": 13,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 0,
+      "numbered_equation_count_source": 0,
+      "numbered_equation_count_output": 0
+    },
+    {
+      "component": "parts/record_values.tex",
+      "source_word_tokens": 498,
+      "output_word_tokens": 498,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 8,
+      "numbered_equation_count_source": 6,
+      "numbered_equation_count_output": 6
+    },
+    {
+      "component": "parts/references.tex",
+      "source_word_tokens": 487,
+      "output_word_tokens": 487,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 0,
+      "numbered_equation_count_source": 0,
+      "numbered_equation_count_output": 0
+    },
+    {
+      "component": "proofs/coherent_join.tex",
+      "source_word_tokens": 1222,
+      "output_word_tokens": 1222,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 5,
+      "numbered_equation_count_source": 4,
+      "numbered_equation_count_output": 4
+    },
+    {
+      "component": "proofs/history_reads.tex",
+      "source_word_tokens": 449,
+      "output_word_tokens": 449,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 1,
+      "numbered_equation_count_source": 0,
+      "numbered_equation_count_output": 0
+    },
+    {
+      "component": "proofs/shared_field.tex",
+      "source_word_tokens": 1193,
+      "output_word_tokens": 1193,
+      "ordered_word_tokens_identical": true,
+      "labels_identical": true,
+      "label_count": 6,
+      "numbered_equation_count_source": 5,
+      "numbered_equation_count_output": 5
+    }
+  ],
+  "total_component_word_tokens": 22544,
+  "ordered_word_tokens_identical": true,
+  "labels_identical": true,
+  "numbered_equations": 207
+}

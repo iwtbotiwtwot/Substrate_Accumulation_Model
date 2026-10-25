@@ -1,0 +1,1642 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,mathtools,bm}
+\usepackage{mathptmx}
+\renewcommand{\ttdefault}{pcr}
+\usepackage[margin=0.68in,columnsep=0.26in,headheight=14pt,headsep=0.15in,footskip=0.28in]{geometry}
+\usepackage{graphicx,booktabs,array,tabularx,longtable}
+\usepackage{microtype,fancyhdr,caption,titlesec,enumitem,balance}
+\usepackage[hidelinks,bookmarksnumbered=true,hypertexnames=false,pdftitle={Original Write histories and an interacting source-field action},pdfauthor={Sean Brady; OpenAI ChatGPT and Codex},pdfsubject={Expanded Chapter I manuscript; 15 October 2026}]{hyperref}
+\usepackage{xurl}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0.10em}
+\setlength{\emergencystretch}{1.6em}
+\setlength{\abovedisplayskip}{6pt plus 2pt minus 2pt}
+\setlength{\belowdisplayskip}{6pt plus 2pt minus 2pt}
+\captionsetup{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.45em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.45em}{}
+\titlespacing*{\section}{0pt}{11pt plus 2pt minus 2pt}{5pt}
+\titlespacing*{\subsection}{0pt}{8pt plus 2pt minus 2pt}{3pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\footnotesize SAM Volume I | Chapter I}
+\fancyhead[R]{\footnotesize Brady \;|\; 15 October 2026}
+\fancyfoot[C]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\ii}{\mathrm{i}}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\Span}{\operatorname{span}}
+\pdfmapfile{+cm.map}
+\pdfmapfile{+cmextra.map}
+\pdfmapfile{+symbols.map}
+\pdfmapfile{+psnfss.map}
+\pdfmapfile{+utm.map}
+\pdfmapfile{=ps2pk35.map}
+\pdfmapfile{+rsfs.map}
+\pdfgentounicode=0
+
+\usepackage{braket,float}
+\linespread{1.08}
+\providecommand{\mathbbm}[1]{\mathbb{#1}}
+\DeclareUnicodeCharacter{03B8}{\ensuremath{\theta}}
+\DeclareUnicodeCharacter{03C6}{\ensuremath{\varphi}}
+\begin{document}
+\lefthyphenmin=2\righthyphenmin=3\hyphenation{two statement clocks numbers}
+\raggedbottom
+\twocolumn[{
+\begin{center}
+{\small SAM VOLUME I\par}
+\vspace{0.4em}
+{\LARGE\bfseries Original Write histories and an\\ interacting source-field action\par}
+\vspace{0.35em}
+{\large Volume I, Chapter I \textbullet\ 15 October 2026\par}
+\vspace{0.5em}
+{\large Sean Brady\par}
+{\small Originator and conceptual director\par}
+{\small OpenAI ChatGPT and Codex \textbullet\ AI research collaborators and co-authors\par}
+{\small Expanded chapter edition \textbullet\ 15 October 2026\par}
+\end{center}
+\begin{minipage}{0.97\textwidth}
+\noindent\textbf{Abstract.} Original signed Write histories supply phase and action data that can be received into a finite pair source coupled to a two-polarization quadrupole field. This chapter keeps the original rules, the receiving laws, and their derived consequences explicit. A four-component source yields six driven spectral lanes and four unforced states. For a declared coherent hard-field preparation in each lane, a weighted continuum comparison bounds the actual source-field correlator. All six instantaneous phase rates remain positive and below the bare gap throughout one bare cycle. The resulting phase coordinate reparameterizes the complete joint action, retaining the even source energy, both counterterms, and the Berry one-form.
+\end{minipage}
+\vspace{0.9em}
+}]
+\section{The physical question and its inputs}
+An original Write is a signed event in an ordered source history. A receiving field observes specified combinations of that source. Chapter I asks how the original phase incidence, a complete finite source, and a declared field law combine into an interacting action with a usable local phase clock.
+
+Three layers carry different authority. \textbf{Original rules} supply the signed Writes, lifted phases, retained tensor map, and source histories. \textbf{Receiving laws} specify the quadrupole bulk field, its quantization, the boundary incidence, and the preparation. \textbf{Derived compositions} include the source spectrum, conserved charge, actual clock equation, and certified phase reparameterization. An exact composition keeps its inputs identifiable. [1-4]
+
+The construction uses the full source space $\mathbb{C}^{4}\otimes\mathbb{C}^{4}$ and both real field polarizations. All field frequencies and photon sectors belong to the model. The six clock certificates concern six separately prepared lanes. Each certificate carries its own signed root difference, coupling, and hard-branch preparation.
+
+The numerical example receives the unit-strength source chart, the retained boundary radius, and a capacity-normalized model time. A physical exchange strength, the reference capacity and its role, the Write-to-seconds assignment, and the incidence between the source sphere and field boundary remain explicit physical inputs. No inverse-seconds rate is selected by the normalized calculation.
+
+\subsection*{How the source-to-clock argument is organized}
+A phase becomes a useful local clock only when three separate questions have answers. The phase must belong to an identified physical observable. That observable must remain nonzero so that its argument can be followed continuously. Finally, its phase must advance with a rate that does not vanish or change sign on the interval being used. A frequency written into a Hamiltonian does not by itself answer all three questions for the interacting system.
+
+Here the observable is a bounded source amplitude whose equation contains a joint source--field expectation. The source spectrum fixes the signed lane coupling; the receiving field supplies the correlation that changes the clock rate. The analysis then compares the full continuum trajectory with a specifically prepared reference trajectory in the same field realization. Controlling the difference between those trajectories gives a bound on the correlation and, through the exact clock equation, a uniform bound on the actual phase rate.
+
+The steps have different responsibilities. Sections 2--4 establish the source incidence, the complete pair space and the normalization. Section 5 constructs the joint dynamics and the weighted field pairings that make its continuum expressions meaningful. Section 6 develops the reference comparison and the six lane certificates. Section 7 changes the parameter of the complete action using the resulting phase. The conclusion is a source-to-clock result for the declared receiving model and preparation.
+
+Each certificate concerns one separately prepared lane. The six results do not assert that the phase of an arbitrary coherent combination of lane amplitudes is monotone: interference can change that combined observable. Likewise, the model-time rate becomes a physical inverse-seconds rate only after the stated time assignment is supplied. These distinctions fix which clock has actually been constructed.
+
+\section{Lifted phases and history}
+
+
+A phase can be recorded in several ways. A wrapped phase specifies a point on the unit circle, represented by $e^{i\phi}$. A lifted phase is a real number obtained after choosing an initial branch and following the accumulated phase without reducing it modulo $2\pi$. The lift therefore retains winding information that the wrapped value discards. An ordered Write history additionally records which signed events occurred and in what order. These are distinct levels of description, even when they describe the same completed process.
+
+The three coordinates below separate three combinations of the lifted endpoint data. The combination $\gamma_{\mathrm W}$ compares the two endpoint phases with their partner; $\delta$ resolves the difference between the endpoints; and $\chi$ retains the partner phase itself. A common increment of all three original phases leaves $\gamma_{\mathrm W}$ and $\delta$ unchanged and shifts $\chi$ by that increment. Keeping $\chi$ is therefore necessary if the coordinate change is to retain the full lifted phase triple.
+
+For lifted endpoint phases $\phi_a$, $\phi_b$ and partner phase $\phi_p$, define
+\begin{equation}
+\begin{aligned}
+\gamma_{\mathrm{W}}&=\phi_a+\phi_b-2\phi_p,\\
+\delta&=\phi_a-\phi_b,\qquad \chi=\phi_p.
+\end{aligned}
+\tag{1}
+\end{equation}
+The invertible incidence is
+\begin{equation}
+\begin{aligned}
+\phi_a&=\frac{1}{2}(\gamma_{\mathrm{W}}+\delta)+\chi,\\
+\phi_b&=\frac{1}{2}(\gamma_{\mathrm{W}}-\delta)+\chi.
+\end{aligned}
+\tag{2}
+\end{equation}
+
+The word ``invertible'' here has a precise domain. On the real lifted coordinates, the forward map has matrix
+\[
+\begin{pmatrix}
+\gamma_{\mathrm W}\\ \delta\\ \chi
+\end{pmatrix}
+=
+\underbrace{\begin{pmatrix}
+1&1&-2\\ 1&-1&0\\ 0&0&1
+\end{pmatrix}}_{M_{\mathrm{inc}}}
+\begin{pmatrix}
+\phi_a\\ \phi_b\\ \phi_p
+\end{pmatrix},
+\qquad \det M_{\mathrm{inc}}=-2.
+\]
+The nonzero determinant guarantees that no coordinate of a supplied lifted phase triple is lost when all three transformed coordinates are retained. Equation (2) is its inverse. If a receiving observable uses only $\gamma_{\mathrm W}$, the remaining coordinates still exist; they have simply not been measured by that observable.
+
+For a concrete illustration of the lift convention, consider the triples $(0,0,0)$ and $(2\pi,0,0)$. Their three wrapped phases are identical. Their lifted coordinates are respectively $(\gamma_{\mathrm W},\delta,\chi)=(0,0,0)$ and $(2\pi,2\pi,0)$, so the lifted incidence distinguishes them. This is an algebraic example of the information retained by a lift, rather than a claim that either triple is reached by an additional legal Write path. Applying the inverse formula requires the lifted coordinates with their branch information; independently wrapping those coordinates discards information that the real inverse needs.
+
+
+On the legal piecewise active Write paths, the original action ledger is
+\begin{equation}
+\omega_{\mathrm{Write}}=\hbar(\mathrm{d}\gamma_{\mathrm{W}}+3\mathrm{d}\chi).
+\tag{3}
+\end{equation}
+The factor three follows by substituting (2) into the sum of the three phase differentials. The retained tensor orientation obeys $\psi=\psi_0-\gamma_{\mathrm{W}}/2$. The common phase $\chi$ remains part of the action account even when a receiving observable is insensitive to it. [1]
+
+The cancellation of $\delta$ from this one-form follows directly from the coordinate change:
+\[
+\begin{aligned}
+\mathrm d\phi_a+\mathrm d\phi_b+\mathrm d\phi_p
+&=\mathrm d\gamma_{\mathrm W}+3\,\mathrm d\chi.
+\end{aligned}
+\]
+Thus an endpoint difference can be retained in the state description while making no separate contribution to this particular sum of phase differentials. Conversely, a common phase increment contributes three times to the sum because it increments each original phase once. This accounts for the coefficient in (3) without identifying the common phase with a receiving clock.
+
+On a supplied legal lifted path from an initial point to a final point, integration gives
+\[
+\int\omega_{\mathrm{Write}}
+=\hbar\bigl(\gamma_{\mathrm W}^{\mathrm{final}}
+-\gamma_{\mathrm W}^{\mathrm{initial}}\bigr)
++3\hbar\bigl(\chi^{\mathrm{final}}-\chi^{\mathrm{initial}}\bigr).
+\]
+This signed integral can vanish through cancellation. Elapsed duration instead adds the positive time spent on the successive active portions of the history. Determining that duration requires the path and its stated timing calibration. The endpoint action integral alone contains no rule assigning how long the intermediate events take.
+
+
+
+Lifted cumulative phase, a wrapped endpoint, and an ordered event word retain different information. The completed H02 and H03 histories reach the same source endpoint with zero total signed phase action, yet have positive durations approximately 0.3156476595 and 0.3181630929 in their stated source calibration. Their difference is a difference of positive durations. [1, \S6]
+
+These completed histories illustrate why coordinate invertibility and history reconstruction must be kept separate. The map (1)--(2) acts point by point. Applied to a supplied trajectory, it expresses that trajectory in another set of coordinates. Applied only to a terminal point, it recovers only the terminal lifted phase triple. It does not supply the event word, the intermediate source states, or the durations of the active segments.
+
+Accordingly, the shared endpoint and zero signed action of H02 and H03 do not require their positive durations to agree. The timing information resides in the histories and their source calibration. Keeping those records alongside the phase incidence preserves the distinction between accumulated signed phase and elapsed time that the receiving calculation will need.
+
+
+
+The interacting clock phase $\theta$ introduced below remains distinct from $\gamma_{\mathrm{W}}$ and $\chi$.
+
+\section{A complete four-component source}
+The original placement codes 46501, 46525, 49061, and 81829 define the retained signed boundary construction. Its $4\times78$ incidence matrix $B$ gives $T=BB^*$, and the retained signed response supplies $K$. The receiving family is $Q(g_H)=T+g_HK$. [1, 4]
+
+The incidence matrix and the signed response enter in different ways. The product $BB^*$ is a Gram operator: for every source vector $v$,
+\[
+\langle v,Tv\rangle=\|B^*v\|^2\geq 0.
+\]
+Its positivity follows from this construction. The additional operator $K$ carries the retained signed response, and the parameter $g_H$ specifies its weight in the receiving family. Displaying the member with $g_H=1$ fixes a particular finite calculation; it does not remove $g_H$ from the family or determine a physical exchange rate.
+
+For the displayed member, real symmetry supplies an orthonormal basis of four eigenvectors $|q_a\rangle$. The next step is therefore a finite spectral problem with explicitly given entries. Establishing its polynomial and its invariant pair sectors is an algebraic consequence of the received matrix. The physical interpretation of that matrix continues to depend on the source construction and the receiving choices already stated.
+
+
+
+At the inherited diagnostic strength $g_H=1$, $Q$ is the following real symmetric matrix:
+\begin{center}
+\small
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrrr@{}}
+\toprule
+ & \textbf{0} & \textbf{1} & \textbf{2} & \textbf{3}\\
+\midrule
+0 & 756 & 104 & 40 & 0\\
+1 & 104 & 2100 & 0 & 0\\
+2 & 40 & 0 & 756 & 40\\
+3 & 0 & 0 & 40 & 756\\
+\bottomrule
+\end{tabular*}
+\end{center}
+With $x=q-756$, its characteristic polynomial is
+\begin{equation}
+\begin{aligned}
+p(x)={}&x^4-1344x^3-14016x^2\\
+&+4300800x+17305600.
+\end{aligned}
+\tag{4}
+\end{equation}
+
+The quartic can be obtained without a numerical fit. Subtracting $756I$ from $Q$ gives
+\[
+A_Q=Q-756I=
+\begin{pmatrix}
+0&104&40&0\\
+104&1344&0&0\\
+40&0&0&40\\
+0&0&40&0
+\end{pmatrix}.
+\]
+In the reordered basis $(1,0,2,3)$ this is a real symmetric tridiagonal matrix with successive off-diagonal entries $104,40,40$. Let $D_j(x)$ be the determinant of the first $j$ rows and columns of $xI-A_Q$ in that ordering. Expanding along the last row at each step gives
+\[
+\begin{aligned}
+D_0&=1,\qquad D_1=x-1344,\\
+D_2&=x(x-1344)-104^2,\\
+D_3&=xD_2-40^2D_1,\\
+D_4&=xD_3-40^2D_2=p(x).
+\end{aligned}
+\]
+Equivalently,
+\[
+\begin{aligned}
+p(x)={}&(x^2-1600)\bigl[x(x-1344)-10816\bigr]\\
+&-1600x(x-1344).
+\end{aligned}
+\]
+Expanding this expression yields exactly (4).
+
+The same tridiagonal form explains why the four eigenvalues are simple. An eigenvector's first component determines its second component through the first row, and then determines the remaining components successively because each off-diagonal entry is nonzero. If the first component vanished, the recurrence would force the entire vector to vanish. Each eigenspace is consequently one-dimensional. Real symmetry makes the operator diagonalizable, so algebraic and geometric multiplicities agree. This establishes simplicity before any rounded eigenvalue is displayed.
+
+
+The ordered simple eigenvalues have the following approximate displays. The calculation uses isolated exact roots and native enclosures, rather than these rounded values.
+\begin{center}
+\small
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}ll@{}}
+\toprule
+\textbf{a} & $\boldsymbol{q_a}$\\
+\midrule
+0 & 697.330492591257\\
+1 & 752.008183657655\\
+2 & 810.654350286272\\
+3 & 2108.006973464815\\
+\bottomrule
+\end{tabular*}
+\end{center}
+The source response ledger and the physical strength $g_H$ remain distinct from this completed matrix example. The source record retains $T$, $K$, the general polynomial, and the spectral calibration weights. [4, 6]
+
+\subsection{Six lanes and four diagonal states}
+
+The two tensor factors retain their order. An ordered product $|q_aq_b\rangle$ means $|q_a\rangle\otimes|q_b\rangle$, with the first and second eigenvectors assigned to the left and right factors. There are four choices in each factor, hence sixteen ordered products. For $a\ne b$, the products $|q_aq_b\rangle$ and $|q_bq_a\rangle$ are distinct orthogonal states. The swap operator exchanges these two states and leaves each $|q_aq_a\rangle$ fixed.
+
+This organizes the source without discarding any states. Terms symmetric in the left and right operators act equally on the two orders of a given unequal pair. Their difference changes sign when the two orders are exchanged. The resulting two-dimensional invariant sector is what we call a lane. Its internal dynamics can be written with Pauli matrices while the direct sum of all sectors remains the full source.
+
+
+Let $Q_L=Q\otimes I$, $Q_R=I\otimes Q$, and $S=\mathrm{Swap}$. The complete pair operators are
+\begin{equation}
+\begin{aligned}
+H_{\mathrm{pair}}&=S+Q_L+Q_R+Q_LQ_R,\\
+D&=Q_L-Q_R,\qquad C=iSD.
+\end{aligned}
+\tag{5}
+\end{equation}
+For $a<b$, the ordered lane basis is $(|q_aq_b\rangle,\,|q_bq_a\rangle)$. Set
+\begin{equation}
+\begin{aligned}
+d_{ab}&=q_a-q_b<0,\\
+e_{ab}&=q_a+q_b+q_aq_b.
+\end{aligned}
+\tag{6}
+\end{equation}
+On that two-dimensional lane,
+\begin{equation}
+\begin{aligned}
+S&=\sigma_x,\quad D=d_{ab}\sigma_z,\quad C=d_{ab}\sigma_y,\\
+H_{\mathrm{pair}}&=e_{ab}I+\sigma_x.
+\end{aligned}
+\tag{7}
+\end{equation}
+
+To see this explicitly, the two ordered states in a lane are exchanged by $S$, whereas $D$ multiplies them by $d_{ab}$ and $-d_{ab}$. Thus
+\[
+S=\begin{pmatrix}0&1\\1&0\end{pmatrix},\qquad
+D=\begin{pmatrix}d_{ab}&0\\0&-d_{ab}\end{pmatrix},
+\]
+\[
+C=iSD=\begin{pmatrix}0&-i d_{ab}\\i d_{ab}&0\end{pmatrix}.
+\]
+The factor $i$ in $C$ gives a Hermitian operator. Indeed, $SD=-DS$, so $(iSD)^*=-iDS=iSD$. This also fixes the sign of the $\sigma_y$ convention in (7). Replacing $d_{ab}$ by its absolute value would change this signed operator relation in the chosen ordered basis.
+
+The symmetric and antisymmetric lane states are
+\[
+|ab;\pm\rangle
+=\frac{|q_aq_b\rangle\pm|q_bq_a\rangle}{\sqrt{2}}.
+\]
+They diagonalize $S$ with eigenvalues $\pm1$. The remaining terms in $H_{\mathrm{pair}}$ multiply either ordered state by the same number $e_{ab}$, which gives the two energies stated below. The common offset and the exchange splitting are therefore separately visible in the lane representation.
+
+
+Thus the source eigenenergies are $e_{ab}\pm1$, while $D^2=C^2=d_{ab}^2I$. The sign of $d_{ab}$ remains in the interaction and correlated clock equation. It is retained when positive energy estimates use $d_{ab}^2$.
+
+The four diagonal states $|q_aq_a\rangle$ have $D=C=0$ and pair energy $(1+q_a)^2$. Together with the six two-state lanes, they exhaust all sixteen source states.
+
+The completeness count is an orthogonal decomposition, not merely a count of displayed eigenvalues:
+\[
+\begin{aligned}
+\mathbb C^4\otimes\mathbb C^4
+={}&\bigoplus_{a=0}^{3}\Span\{|q_aq_a\rangle\}\\
+&\mathrel{\oplus}\bigoplus_{0\leq a<b\leq3}
+\Span\{|q_aq_b\rangle,|q_bq_a\rangle\}.
+\end{aligned}
+\]
+The six unordered pairs are $(0,1)$, $(0,2)$, $(0,3)$, $(1,2)$, $(1,3)$, and $(2,3)$. Each contributes two ordered products, while the four equal pairs each contribute one. Hence $6\times2+4=16$. Every ordered product appears exactly once, and no additional source sector is needed to complete this basis.
+
+On an equal-pair state, $Q_L-Q_R$ vanishes and swap acts as the identity. The stated energy follows from $1+2q_a+q_a^2=(1+q_a)^2$. Calling these states unforced means that the later boundary interaction built from $D$ and $C$ vanishes on them. The field degrees of freedom still belong to the model. Likewise, a clock certificate in one unequal-pair lane concerns a declared preparation in that invariant sector; the existence of six such certificates does not identify six simultaneous preparations of a single source.
+
+
+
+Writing $N_s=(I+S)/2$ gives $H_{\mathrm{pair}}=2N_s+K_{\mathrm{pair}}$, where $K_{\mathrm{pair}}=Q_L+Q_R+Q_LQ_R-I$ commutes with the source currents. This even remainder is scalar within a lane and varies across the full source. It remains distinct from the independent original common phase $\chi$.
+
+The commuting property follows from the operator structure. Since $Q_L$ and $Q_R$ commute, any polynomial in them commutes with $D$. The polynomial defining $K_{\mathrm{pair}}$ is also symmetric under their interchange, so it commutes with $S$ and therefore with $C=iSD$. Within the $ab$ lane it has the value $(e_{ab}-1)I$, while $2N_s=I+S$ supplies the two values $2$ and $0$.
+
+A term scalar on one lane cannot change the relative phase of that lane's two exchange eigenstates. It still contributes to the lane's energy and to the joint action. Moreover, its scalar value changes between lanes, so it need not be a common phase on a superposition spanning different sectors. Keeping this operator is necessary for a complete source action even when it drops out of a particular within-lane clock equation. No equality between this operator contribution and the original coordinate $\chi$ has been assumed.
+
+
+
+\subsection{Observable maps and retained complements}
+The earlier full18 tensor representation and this sixteen-state pair source are distinct objects. The retained endpoint-to-tensor construction has tensor Gram $32I_2$ and pair-observable Gram $11062272I_2$. Its observable composition reconstructs two tensor coordinates, while a retained complementary map reconstructs the other source coordinates. All sixteen joint $C_4$ character sectors remain present. [1, \S2.2]
+
+That composition preserves the difference between an observable map and a complete Hilbert action. The literal endpoint $D/C$ action comparison retains exact residual Gram entry 54272. The full18 complement and that residual travel with the source construction; the lane clock below uses the explicit operators (5), rather than identifying these distinct state spaces.
+
+The Gram statements identify a well-conditioned two-coordinate observable comparison in the retained normalization. They do not, by themselves, identify every degree of freedom in either underlying representation. A map can reconstruct the coordinates it observes while leaving additional source coordinates to a complementary map. Keeping that complement is how the observable comparison remains compatible with a complete source description.
+
+The nonzero residual entry likewise records information that would be lost by declaring the literal endpoint action and the pair action identical. The full18 comparison, its complement, and its residual are retained as source facts. The subsequent lane dynamics has its own fully specified sixteen-state Hilbert space and operators. This makes it possible to use the observable relation without silently replacing a full action by its two measured coordinates.
+
+
+
+\section{Source energy and the time chart}
+
+An energy normalization requires both an operator and a state in which to evaluate it. The placement basis specifies how the source is initially selected, while the spectral basis of $Q$ specifies how that selected state is resolved into eigenvectors. A placement-basis state will generally be a superposition in the spectral basis. Its energy expectation is the weighted mean of its possible energy values; an eigenenergy is the value associated with a state of sharp energy. The distinction can be checked quantitatively by the variance.
+
+Here the same placement vector is used in both tensor factors. That product is symmetric under swap, which simplifies the calibration calculation while leaving its nontrivial spectral distribution intact.
+
+
+The original calibration vector $|e_0e_0\rangle$ is a placement-basis state. Since $Q_{00}=756$, its complete pair-energy expectation is
+\begin{equation}
+\begin{aligned}
+E_{\mathrm{ref}}&=\langle e_0e_0|H_{\mathrm{pair}}|e_0e_0\rangle\\
+E_{\mathrm{ref}}&=(1+756)^2=573049.
+\end{aligned}
+\tag{8}
+\end{equation}
+This expectation fixes the declared capacity normalization. It is not an eigenenergy. The spectral populations reconstruct (8), while the original pure-state density retains its coherences. Its $D$ and $C$ expectations vanish; its nonzero energy variance is 14384109824. It therefore supplies a different preparation from the interacting clock state below. [4, 6]
+
+Both the expectation and the variance can be obtained directly from the displayed finite matrix. Write $v=|e_0\rangle$ and $f=(I+Q)v$. Because $S|vv\rangle=|vv\rangle$,
+\[
+H_{\mathrm{pair}}|vv\rangle=f\otimes f.
+\]
+The expectation is consequently $\langle v,f\rangle^2=(1+Q_{00})^2$. For the second moment, Hermiticity gives
+\[
+\langle vv|H_{\mathrm{pair}}^2|vv\rangle
+=\|f\otimes f\|^2=\|f\|^4.
+\]
+The first row of $Q$ gives
+\[
+(Q^2)_{00}=756^2+104^2+40^2=583952,
+\]
+so
+\[
+\begin{aligned}
+\|f\|^2&=1+2(756)+583952=585465,\\
+\operatorname{Var}_{vv}(H_{\mathrm{pair}})
+&=585465^2-573049^2\\
+&=14384109824.
+\end{aligned}
+\]
+The strictly positive result verifies directly that this calibration state does not have a single pair energy. Choosing its mean as the normalization leaves that energy spread present.
+
+
+
+The spectral calibration weights have an exact resolvent expression. For $x_a=q_a-756$ and $p$ from (4),
+\[
+p_a=\frac{(x_a-1344)(x_a^2-1600)}{p'(x_a)}.
+\]
+\[
+\sum_a p_a=1,\qquad \sum_a p_aq_a=756,
+\]
+\[
+\sum_a p_aq_a^2=583952.
+\]
+The four diagonal populations $p_a^2$ and six pair populations $2p_ap_b$ reconstruct the block-diagonal energy (8). This use of populations retains the coherences in the original pure state.~[6]
+
+The weights are the probabilities with which the placement vector occupies the four one-source eigenvectors. If
+\[
+|e_0\rangle=\sum_a c_a|q_a\rangle,
+\qquad p_a=|c_a|^2,
+\]
+then the scalar resolvent records the complete spectral measure of $Q$ in this vector:
+\[
+G(z)=\langle e_0|(zI-Q)^{-1}|e_0\rangle
+=\sum_a\frac{p_a}{z-q_a}.
+\]
+It can also be evaluated by the $(0,0)$ cofactor. Setting $x=z-756$, deletion of row and column zero from $xI-A_Q$ leaves a one-dimensional factor $x-1344$ and a two-dimensional factor with determinant $x^2-1600$. Therefore
+\[
+G(z)=\frac{(x-1344)(x^2-1600)}{p(x)}.
+\]
+At a simple root $x_a$, the residue of this rational function is the numerator at $x_a$ divided by $p'(x_a)$, which derives the weight formula above. The spectral representation also shows that these residues are nonnegative: each is the squared magnitude of a component of a normalized state.
+
+The normalization and moment identities follow by expanding the resolvent for large $z$:
+\[
+\begin{aligned}
+G(z)&=\frac{1}{z}+\frac{756}{z^2}+\frac{583952}{z^3}
++O(z^{-4})\\
+&=\frac{\sum_a p_a}{z}
++\frac{\sum_a p_aq_a}{z^2}
++\frac{\sum_a p_aq_a^2}{z^3}+O(z^{-4}).
+\end{aligned}
+\]
+Thus the exact root representation, the displayed matrix moments, and the probability interpretation are three descriptions of the same finite calculation.
+
+For the pair calibration, the product state has the more informative decomposition
+\[
+\begin{aligned}
+|e_0e_0\rangle
+={}&\sum_a c_a^2|q_aq_a\rangle\\
+&+\sum_{a<b}\sqrt{2}\,c_ac_b|ab;+\rangle.
+\end{aligned}
+\]
+Its antisymmetric lane amplitudes vanish because the two factors are identical. The diagonal weights are therefore $p_a^2$, and the unequal-pair weights $2p_ap_b$ belong to the symmetric energies $e_{ab}+1$. In particular,
+\[
+\begin{aligned}
+E_{\mathrm{ref}}
+={}&\sum_a p_a^2(1+q_a)^2\\
+&+\sum_{a<b}2p_ap_b(e_{ab}+1)\\
+={}&\left[\sum_a p_a(1+q_a)\right]^2.
+\end{aligned}
+\]
+Using the zeroth and first moment identities gives (8).
+
+These populations suffice for this energy expectation because the displayed states diagonalize $H_{\mathrm{pair}}$. They are not a replacement of the initial pure state by an incoherent mixture. Products of amplitudes between different components remain in its density operator and can matter for other observables. This is why a spectral calibration by probabilities is compatible with retaining the coherences of the original preparation.
+
+
+
+
+
+The finite matrix calculation has so far supplied numbers in the unit-strength source convention. To use them in an action, one must specify an action unit and a time unit. The coordinate $\tau$ is dimensionless, so a dimensionless Hamiltonian contribution $H$ in the model-time action carries physical energy scale $I_*H/t_u$. The coefficient $\varepsilon$ converts the finite source operator into that chart. Its definition keeps the Write time and the reference-capacity factor visible rather than assigning an unstated conversion to seconds.
+
+For action unit $I_*$, physical time unit $t_u$, Write time $t_{\mathrm{SW}}$, and reference capacity $\lambda_{\mathrm{ref}}$, the receiving coefficient is
+\begin{equation}
+\varepsilon=\frac{\hbar}{I_*}\frac{t_u}{t_{\mathrm{SW}}}\frac{\lambda_{\mathrm{ref}}}{E_{\mathrm{ref}}}.
+\tag{9}
+\end{equation}
+
+Multiplying by the reference expectation makes the normalization transparent:
+\[
+\varepsilon E_{\mathrm{ref}}
+=\frac{\hbar}{I_*}\frac{t_u}{t_{\mathrm{SW}}}
+\lambda_{\mathrm{ref}}.
+\]
+Consequently the reference source contribution, when restored to energy units, is
+\[
+\frac{I_*}{t_u}\,\varepsilon E_{\mathrm{ref}}
+=\frac{\hbar\lambda_{\mathrm{ref}}}{t_{\mathrm{SW}}}.
+\]
+This is a conversion relation for the declared capacity convention. A numerical physical energy or rate still requires the physical inputs on its right-hand side. The convenient choice of units below sets the dimensionless mean source contribution to one.
+
+
+The normalized chart $I_*=\hbar$ and $t_u=t_{\mathrm{SW}}/\lambda_{\mathrm{ref}}$ gives
+\begin{equation}
+\varepsilon=\frac{1}{573049},\qquad \Delta=2\varepsilon.
+\tag{10}
+\end{equation}
+We use $\tau=t_{\mathrm{phys}}/t_u$ throughout. A displayed angular rate $\nu$ is per unit $\tau$. Its conditional physical rate is $(\lambda_{\mathrm{ref}}/t_{\mathrm{SW}})\nu$ in this chart. The source-energy normalization and the signed phase-current gap have separate roles.
+
+In this chart, $\varepsilon E_{\mathrm{ref}}=1$, whereas the dimensionless exchange splitting within any lane is $2\varepsilon$. These statements answer different questions. The first specifies the average energy of the calibration preparation in the chosen units. The second specifies the separation between the two exchange eigenvalues of a lane after the same coefficient has been applied. Large lane-dependent even energies remain in the source action even though the unforced exchange splitting is the same in all six lanes.
+
+The conversion of rates follows from the chain rule. For any differentiable phase $\vartheta$,
+\[
+\frac{\mathrm d\vartheta}{\mathrm dt_{\mathrm{phys}}}
+=\frac{1}{t_u}\frac{\mathrm d\vartheta}{\mathrm d\tau}
+=\frac{\lambda_{\mathrm{ref}}}{t_{\mathrm{SW}}}
+\frac{\mathrm d\vartheta}{\mathrm d\tau}
+\]
+in the normalized chart. The signs of the rates and their ratios to a bare rate are unchanged by a positive choice of time unit. Their values in inverse seconds are not fixed until that unit is fixed. This permits a sharp dimensionless clock statement while leaving the physical Write-to-seconds assignment explicit.
+
+
+
+
+\section{The complete interacting action}
+The source, the receiving field, and their interaction must enter one
+variational account.  A source expectation by itself is not that account,
+and a field driven by an independently prescribed source history is not
+the joint quantum system used here.  The state belongs to the tensor
+product of the complete sixteen-dimensional source space and the
+two-polarization field Fock space.  In particular, it may be entangled.
+The six lanes are invariant source blocks of this full model; choosing a
+lane specifies a preparation and a restricted calculation without
+deleting the other blocks from the definition of the model.
+
+Let $\Psi$ be a normalized joint source-field state. The model-time action is
+\begin{equation}
+\begin{aligned}
+\mathcal{S}&=I_*\int\mathrm{d}\tau\,[\mathcal{B}_\tau-\langle H\rangle],\\
+\mathcal{B}_\tau&=\frac{i}{2}(\langle\Psi|\dot\Psi\rangle-\langle\dot\Psi|\Psi\rangle).
+\end{aligned}
+\tag{11}
+\end{equation}
+Here the dot means differentiation with respect to the same normalized
+time $\tau$ used in (9)--(10).  Consequently $H$ is the generator in that
+time coordinate.  The overall factor $I_*$ restores the action unit; it
+does not insert an additional factor into the normalized Schr\"odinger
+equation.  The first term is the joint-state Berry term.  The second is
+the expectation of the complete joint Hamiltonian, interpreted as its
+quadratic form when the state has finite energy but is not in the
+operator domain.
+
+For continuum trajectories, the derivative and energy pairings use the
+form domain and its dual, defined in (18). The smooth-core variational
+expression extends through the closed Hamiltonian form.  This distinction
+will matter below: a finite-energy state need not possess a
+Hilbert-space-valued $H\Psi$, although its energy and its weak evolution
+are well defined.
+
+The full form is
+\begin{equation}
+\begin{aligned}
+H={}&\varepsilon H_{\mathrm{pair}}+H_f-\varepsilon(D\phi_++C\phi_\times)\\
+&+\varepsilon^2\mu(D^2+C^2),\qquad \mu=\frac{1}{4R}.
+\end{aligned}
+\tag{12}
+\end{equation}
+Here $\phi$ denotes the boundary field in the retained receiving
+normalization. Equation (12) contains the entire joint Hamiltonian; the
+source and field actions are already included.  The four contributions
+are the complete source energy, the free field energy, the two boundary
+couplings, and the two static-completion counterterms.  None is an
+additional action to be appended to (11).
+
+In particular, $\langle D\phi_+\rangle$ and
+$\langle C\phi_\times\rangle$ remain joint correlations.  In a product
+state such an expectation can factor, but interacting evolution is not
+assumed to preserve a product state.  Replacing it by
+$\langle D\rangle\langle\phi_+\rangle$, for example, would discard the
+connected correlation and define a different dynamical approximation.
+The actual clock calculation below keeps the correlations.
+
+\paragraph{What remains when a lane is fixed.}
+On one fixed lane, put $g=\varepsilon d_{ab}$ and $e=e_{ab}$. Then
+\begin{equation}
+\begin{aligned}
+H&=\varepsilon eI+\varepsilon S+K,\\
+K&=H_f-g(\sigma_z\phi_++\sigma_y\phi_\times)+cI,\\
+c&=2g^2\mu=\frac{g^2}{2R}.
+\end{aligned}
+\tag{13}
+\end{equation}
+Each real polarization contributes $g^2/(4R)$. Both contributions and the
+even energy $\varepsilon e$ remain in the action.  The source sign also
+remains: $d_{ab}<0$ for the ordered lanes, so $g<0$ in the declared chart.
+Its square enters the energy completion, while $g$ itself enters the
+interaction and the clock equation.
+
+The word ``scalar'' is local to the chosen lane.  The quantity
+$e_{ab}$ is constant on its two source basis states, but differs between
+lanes.  Likewise $D^2+C^2=2d_{ab}^2I$ on a lane, while the full operator
+$D^2+C^2$ is not a common scalar on all sixteen source states.  Its value
+vanishes on the four diagonal states.  Thus dropping lane scalars before
+assembling the full source would also discard relative phases between
+distinct source blocks.
+
+Even within a fixed lane, commuting with a chosen observable does not
+mean contributing no energy or action.  The scalar $\varepsilon e+c$
+drops out of a source commutator, and its effect on a state vector can be
+represented by a common dynamical phase.  Nevertheless, it is present in
+$\langle H\rangle$ in the declared action.  If that phase convention is
+changed, the Berry term must be changed with it: under
+$\Psi\mapsto e^{i\alpha(\tau)}\Psi$,
+\[
+\mathcal B_\tau\mapsto\mathcal B_\tau-\dot\alpha.
+\]
+Deleting an energy term while leaving the Berry account untouched is not
+the same operation.  The later change of time coordinate retains both.
+The alternative decomposition
+$\varepsilon H_{\mathrm{pair}}=2\varepsilon N_s+
+\varepsilon K_{\mathrm{pair}}$ is consistent with (13): on this lane
+$K_{\mathrm{pair}}=(e-1)I$.  It does not identify this commuting source
+remainder with the original common phase $\chi$.
+
+\paragraph{A positive square without commuting displacements.}
+The positive field block is the square form
+\[
+\begin{aligned}
+q_K[\Psi]={}&\sum_{\alpha=+,\,\times}\int_0^\infty\mathrm{d}\omega\\
+&\left\|\sqrt{\omega}\,a_\alpha(\omega)\Psi
+-\frac{g\sigma_\alpha u_R^*(\omega)}{\sqrt{\omega}}\Psi\right\|^2,
+\end{aligned}
+\]
+where $\sigma_+=\sigma_z$ and $\sigma_\times=\sigma_y$. The
+energy-annihilation map and its source shifts act in the same
+direct-integral space. This defines $K\geq0$ without requiring the two
+shifted maps to commute.
+
+Expanding this expression explains every term in (13).  The sum of the
+unshifted squared norms is $\langle H_f\rangle$.  The cross terms give
+$-g\langle\sigma_z\phi_++\sigma_y\phi_\times\rangle$ with the stated
+conjugation convention.  The two shift norms are
+\[
+g^2\int_0^\infty\frac{|u_R(\omega)|^2}{\omega}\,
+\|\sigma_\alpha\Psi\|^2\,\mathrm d\omega
+=g^2\mu\|\Psi\|^2.
+\]
+Since each Pauli matrix squares to the identity, their sum is exactly
+$c\|\Psi\|^2$, including both polarizations.  There is no mixed
+$\sigma_z\sigma_y$ term: the squared norms are added in two distinct
+polarization components of a direct sum.
+
+This positivity argument is not a diagonalization of $K$.  The source
+matrices obey
+\[
+[\sigma_z,\sigma_y]=-2i\sigma_x\ne0.
+\]
+Accordingly the two source-dependent shifts need not be canonical
+annihilation operators for one common displaced Fock vacuum.  Positivity
+of a sum of norm squares requires neither simultaneous diagonalization
+nor a vector annihilated by both shifted maps.  No simultaneous shifted
+vacuum is assumed.
+
+The same construction exists before restricting to a lane.  Replace
+$g\sigma_\alpha$ by $\varepsilon J_\alpha$, with $J_+=D$ and
+$J_\times=C$.  The summed shift norm becomes
+\[
+\varepsilon^2\mu
+\langle\Psi,(D^2+C^2)\Psi\rangle,
+\]
+so the field-plus-coupling-plus-counterterm part of (12) is positive on
+the full source space as well.  The finite source Hamiltonian can then be
+added as a bounded self-adjoint term.  The form construction and its
+domain are made explicit in \S5.2.
+
+\paragraph{Variation and the normalization phase.}
+On a smooth core, vary (11) with respect to the bra and ket, with fixed
+endpoint variations, and impose $\langle\Psi|\Psi\rangle=1$ by a real
+multiplier.  The resulting equation can be written
+\[
+i\dot\Psi=H\Psi+\zeta(\tau)\Psi.
+\]
+The real function $\zeta$ changes only the common phase.  A choice of that
+phase sets $\zeta=0$, giving joint Schr\"odinger evolution.  In the
+continuum form setting the same equation is understood in the dual of
+the form domain.  This variation uses the complete joint state and
+therefore does not introduce a separate source-only or mean-field
+equation. [1, \S3; 5, 6]
+
+\subsection{Boundary and field normalization}
+The receiving free-field Lagrangian is
+\begin{equation}
+\begin{aligned}
+L_f &= \frac{\kappa}{4}\sum_{a=+,\times}\int_0^\infty dr\,\mathcal L_a,\\
+\mathcal L_a &= r^2\dot\varphi_a^2-r^2(\partial_r\varphi_a)^2-6\varphi_a^2.
+\end{aligned}\tag{14}
+\end{equation}
+The angular coefficient is $l(l+1)=6$ for the retained quadrupole
+sector, $l=2$.  The two real polarizations have the same radial law.
+The value of $\kappa$ is not selected by the radial differential
+equation alone.  It is fixed by matching this received bulk law to the
+specified boundary tensor metric.
+
+\paragraph{Why the static pieces contribute two and three.}
+For one polarization and a fixed boundary coordinate
+$x=R\varphi(R)$, the static bulk equation away from the boundary is
+\[
+\frac{d}{dr}\bigl(r^2\varphi'(r)\bigr)-6\varphi(r)=0.
+\]
+Its two independent solutions are $r^2$ and $r^{-3}$.
+Regularity and finite static energy select the first at the origin;
+decay and finite static energy select the second at infinity.
+Continuity of the prescribed boundary value therefore gives
+\[
+\varphi_{\mathrm{in}}(r)=\frac{xr^2}{R^3},
+\qquad
+\varphi_{\mathrm{out}}(r)=\frac{xR^2}{r^3}.
+\]
+The gradient and angular parts are both needed.  In the interior their
+integrands add as
+\[
+r^2(\varphi'_{\mathrm{in}})^2+6\varphi_{\mathrm{in}}^2
+=\frac{10x^2r^4}{R^6},
+\]
+and hence the interior integral is $2x^2/R$.  In the exterior they add as
+\[
+r^2(\varphi'_{\mathrm{out}})^2+6\varphi_{\mathrm{out}}^2
+=\frac{15x^2R^4}{r^6},
+\]
+and the exterior integral is $3x^2/R$.  The total is $5x^2/R$.
+Equivalently, for a static solution,
+\[
+\frac{d}{dr}\bigl(r^2\varphi\varphi'\bigr)
+=r^2(\varphi')^2+6\varphi^2,
+\]
+so the same values follow from the endpoint fluxes.  The factors two and
+three are thus fixed by the regular and decaying quadrupole branches.
+
+For the two-component boundary coordinate $\mathbf x$, the retained
+tensor metric $B_{\mathrm{TT}}=2I_2$ assigns static energy
+\[
+\frac{1}{2R}\mathbf x^{\mathsf T}B_{\mathrm{TT}}\mathbf x
+=\frac{\|\mathbf x\|^2}{R}.
+\]
+The bulk energy obtained from (14) is
+$(5\kappa/4R)\|\mathbf x\|^2$.  Matching these two specified
+normalizations gives
+\begin{equation}
+\frac{5\kappa}{4}=1,\qquad \kappa=\frac45.\tag{15}
+\end{equation}
+This is a conditional normalization result: it receives the literal
+tensor metric, the boundary coordinate $x=R\varphi(R)$, and the bulk
+Lagrangian (14).  It does not choose a new physical time scale or derive
+an alternative field law.  Nor does using a static profile here replace
+the time-dependent continuum by a static field in the subsequent
+Hamiltonian.
+
+\paragraph{Canonical momentum and the boundary sign.}
+With radial measure $r^2dr$, the canonical momentum is
+$p_a=\kappa\dot\varphi_a/2$. With measure $dr$, the same variable is the
+density $\Pi_a=r^2p_a$.  In particular,
+\[
+\int_0^\infty r^2dr\,p_a\,\delta\varphi_a
+=\int_0^\infty dr\,\Pi_a\,\delta\varphi_a.
+\]
+These are two ways of writing the same canonical one-form, not two
+different field normalizations.  The associated free Hamiltonian is
+\[
+H_{f,\mathrm{classical}}=
+\frac{\kappa}{4}\sum_a\int_0^\infty dr\,
+\left[r^2\dot\varphi_a^2+r^2(\varphi_a')^2+6\varphi_a^2\right].
+\]
+
+The boundary source in the Lagrangian is
+$+\varepsilon J_a\varphi_a(R)$, where $J_+=D$ and $J_\times=C$.
+It therefore appears with the opposite sign in the Hamiltonian.
+Integrating the spatial variation separately on $[0,R]$ and
+$[R,\infty)$ gives the boundary coefficient
+\[
+\frac{\kappa R^2}{2}
+\bigl(\varphi_a'(R^+)-\varphi_a'(R^-)\bigr)
++\varepsilon J_a.
+\]
+Its vanishing yields the retained jump
+\begin{equation}
+[\partial_r\varphi_a]_{R^-}^{R^+}=-\frac{2\varepsilon J_a}{\kappa R^2}.\tag{16}
+\end{equation}
+Throughout this chapter the bracket means the exterior value minus the
+interior value.  Reversing that orientation would reverse the left-hand
+side; it would not be permissible to keep the same signed equation
+without changing its convention.
+
+The distributional bulk equation gives an independent check:
+\[
+r^2\ddot\varphi_a-(r^2\varphi_a')'+6\varphi_a
+=\frac{2\varepsilon}{\kappa}J_a\delta(r-R).
+\]
+Integrating it through $R$ gives (16).  At the static minimum found below,
+the profiles also give
+$\varphi'(R^+)-\varphi'(R^-)=-5x/R^2$; inserting
+$x=\varepsilon J/2$ and $\kappa=4/5$ reproduces the same sign and
+coefficient.
+
+\paragraph{From the radial modes to the boundary kernel.}
+The regular radial generalized modes can be normalized as
+\[
+e_\omega(r)=\sqrt{\frac{2}{\pi}}\,\omega j_2(\omega r),
+\qquad \omega>0,
+\]
+using the radial inner product with measure $r^2dr$.
+Their generalized orthogonality is
+\[
+\int_0^\infty r^2dr\,e_\omega(r)e_{\omega'}(r)
+=\delta(\omega-\omega').
+\]
+In this basis each free mode has oscillator Lagrangian
+$\kappa(\dot q^2-\omega^2q^2)/4$ and effective oscillator mass
+$\kappa/2$.  Its coordinate factor is consequently
+$1/\sqrt{\kappa\omega}$ in the chosen quantum normalization.
+Thus the coefficient of $a_a(\omega)+a_a^\dagger(\omega)$ in the
+formal radial field is
+\[
+\frac{e_\omega(r)}{\sqrt{\kappa\omega}}
+=\sqrt{\frac{2\omega}{\kappa\pi}}\,j_2(\omega r).
+\]
+Here and below this mode expression is first read with finite frequency
+cutoffs and then as a form limit.  It is not an assertion that the
+unsmeared boundary field is a Fock-space operator on every vector.
+The convention $H_f=d\Gamma(\omega)$ fixes the free-vacuum energy to
+zero, as already specified by the receiving quantization.
+
+Choose the real radial representative
+$u_R(\omega)=\sqrt{2\omega/(\kappa\pi)}\,j_2(\omega R)$.
+This fixes the conjugation convention in the square form above. The
+quantized boundary kernel is
+\begin{equation}
+\begin{aligned}
+|u_R(\omega)|^2&=\frac{2\omega j_2(\omega R)^2}{\kappa\pi},\\
+\mu&=\int_0^\infty\frac{|u_R(\omega)|^2}{\omega}\,d\omega=\frac1{4R}.
+\end{aligned}\tag{17}
+\end{equation}
+For completeness, the scalar integral underlying the second line is
+\[
+\int_0^\infty j_2(y)^2\,dy=\frac{\pi}{10}.
+\]
+Indeed $j_2(y)=\sqrt{\pi/(2y)}J_{5/2}(y)$ and
+$\int_0^\infty J_\nu(y)^2\,dy/y=1/(2\nu)$ for $\nu>0$.
+Changing variables $y=\omega R$ then gives
+$\mu=1/(5\kappa R)=1/(4R)$.
+The Bessel identity is the equal-order case of the standard product
+integral.\footnote{NIST Digital Library of Mathematical Functions,
+\href{https://dlmf.nist.gov/10.22.E55}{Eq.~10.22.55}; take the two
+integer indices to be zero and the parameter there to be $3/2$.
+The spherical-Bessel definition is
+\href{https://dlmf.nist.gov/10.47.E3}{Eq.~10.47.3}.}
+
+The retained boundary radius is $R\approx0.163544171326059$.
+The static completion pays $\varepsilon^2J^2/(4R)$ per current.
+To see the payment directly, first take a fixed real current $J$ and
+insert the static boundary coordinate into the energy.  The bulk and
+coupling terms give $(x^2-\varepsilon Jx)/R$, whose minimum is
+$-\varepsilon^2J^2/(4R)$.  Adding the declared counterterm gives
+\[
+\frac{x^2-\varepsilon Jx+\varepsilon^2J^2/4}{R}
+=\frac{(x-\varepsilon J/2)^2}{R}.
+\]
+This algebra also explains each operator-valued completion, since source
+operators commute with the field coordinates on the other tensor
+factor.  It does not make $D$ and $C$ commute with one another, nor does
+it imply that their two separate minima can be realized by one common
+source-field vacuum.
+
+The radial and spectral calculations therefore agree: each current
+contributes the same $\varepsilon^2\mu J^2$ to the completion, and the
+same receiving convention gives the sign in (16).  Keeping only an
+exterior static solution, dropping the angular term, or retaining only
+one polarization would change this account.  None of those changes is
+made here.
+
+\subsection{The full continuum and signed charge}
+Take the bosonic Fock space over
+$L^2((0,\infty),d\omega;\mathbb C^2)$, with
+$H_f=d\Gamma(\omega)$.  Its one-particle space contains every positive
+frequency and both polarizations; its Fock construction contains every
+photon sector.  The common energy form domain is
+\begin{equation}
+Q_f=D(H_f^{1/2}),\qquad A=I+H_f.\tag{18}
+\end{equation}
+When source factors are present, $Q_f$ denotes the corresponding finite
+direct sum of this field domain, and $H_f$ and $A$ act as the identity on
+the source.  Its norm is
+\[
+\|\eta\|_{Q_f}^2
+=\|\eta\|^2+\|H_f^{1/2}\eta\|^2
+=\|A^{1/2}\eta\|^2.
+\]
+This definition requires finite free-field energy.  It does not require
+finite expectation of the number operator: arbitrarily low-frequency
+photons can contribute little energy.  That distinction is important
+when interpreting charge conservation below.
+
+\paragraph{Why the energy weight is the right condition.}
+The kernel in (17) satisfies
+$u_R/\sqrt\omega\in L^2(0,\infty)$, with squared norm $\mu$.
+It is not an unweighted $L^2$ function.  To see the two ends of the
+integral explicitly, the small-argument expansion
+$j_2(y)=y^2/15+O(y^4)$ gives
+\[
+u_R(\omega)=O(\omega^{5/2})
+\qquad(\omega\downarrow0).
+\]
+At high frequency the elementary formula
+\[
+j_2(y)=\left(\frac{3}{y^3}-\frac1y\right)\sin y
+-\frac{3}{y^2}\cos y
+\]
+gives
+\[
+|u_R(\omega)|^2
+=\frac{2\sin^2(\omega R)}{\kappa\pi R^2\omega}
++O(\omega^{-2}).
+\]
+The unweighted integral diverges logarithmically, whereas division by
+$\omega$ makes the high-frequency integral convergent.\footnote{The
+explicit formula is NIST DLMF,
+\href{https://dlmf.nist.gov/10.49.E3}{Eq.~10.49.3}; its Taylor expansion
+also gives the stated small-argument behavior.}
+Thus the use of an energy form is substantive.  Introducing a finite
+ultraviolet cutoff as the final model would conceal the relevant domain
+issue rather than resolve it.
+
+For a cutoff kernel $u_R^{(n)}$ supported away from zero and infinity,
+the energy estimate is just Hilbert-space Cauchy--Schwarz applied to
+\[
+a_a(u_R^{(n)})\eta
+=\int_0^\infty
+\frac{u_R^{(n)}(\omega)}{\sqrt\omega}
+\bigl(\sqrt\omega\,a_a(\omega)\eta\bigr)\,d\omega.
+\]
+The squared norm of the second factor, integrated over frequency, is
+$\|H_{f,a}^{1/2}\eta\|^2$.  The
+same estimate applied to differences of cutoffs shows convergence as an
+operator from $Q_f$ to the Hilbert space.  Its limit obeys
+\begin{equation}
+\|a(u_R)\eta\|\le\sqrt\mu\,\|H_{f,a}^{1/2}\eta\|\tag{19}
+\end{equation}
+for the chosen polarization $a$.  In particular, convergence is
+controlled by
+$\|(u_R^{(n)}-u_R^{(m)})/\sqrt\omega\|_{L^2}$, which tends to zero.
+No estimate here uses $\|u_R\|_{L^2}$.
+
+Creation is defined by the adjoint form pairing.  With the inner product
+antilinear in its first entry, the boundary field form is
+\[
+q_{\phi_a}(\xi,\eta)
+=\langle\xi,a_a(u_R)\eta\rangle
++\langle a_a(u_R)\xi,\eta\rangle,
+\qquad \xi,\eta\in Q_f.
+\]
+It is a continuous sesquilinear form on $Q_f\times Q_f$, or
+equivalently a continuous map $Q_f\to Q_f^*$.  In general it is not a
+map $Q_f\to\mathcal H$.  For example, because $u_R\notin L^2$, the
+formal vector $a_a^\dagger(u_R)|0\rangle$ is not an ordinary one-photon
+Hilbert-space vector, even though all the displayed energy-form
+pairings are meaningful.  The word ``continuum'' consequently does not
+assert that a quantum field has pointwise classical sample values.
+
+For a bounded self-adjoint source current $J$, source and field factors
+commute and $J$ preserves $Q_f$.  The field form satisfies
+\[
+|q_{J\phi_a}[\eta]|
+\le2\sqrt\mu\,\|J\eta\|\,
+\|H_{f,a}^{1/2}\eta\|.
+\]
+For every $\delta>0$, Young's inequality therefore gives
+\[
+|\varepsilon q_{J\phi_a}[\eta]|
+\le\delta\|H_{f,a}^{1/2}\eta\|^2
++\frac{\varepsilon^2\mu\|J\|^2}{\delta}\|\eta\|^2.
+\]
+Summing over the two polarizations shows that the interaction is
+infinitesimally bounded relative to the free energy form.  The finite
+source and counterterm operators are bounded.  Hence the closed,
+semibounded-form construction gives a unique self-adjoint Hamiltonian
+associated with (12), with form domain exactly $Q_f$.
+
+\paragraph{The same construction seen as a closed square.}
+There is also a direct way to see why the positive square survives
+removal of frequency cutoffs.  Define the energy-annihilation map by
+\[
+(\mathcal A\eta)_a(\omega)
+=\sqrt\omega\,a_a(\omega)\eta,
+\]
+as a map from $Q_f$ into the direct sum, over polarizations, of
+$L^2((0,\infty),d\omega;\mathcal H)$.  It is closed and has
+\[
+\|\mathcal A\eta\|^2=\|H_f^{1/2}\eta\|^2.
+\]
+The source shift
+\[
+(\mathcal T\eta)_a(\omega)
+=\frac{\varepsilon J_a u_R^*(\omega)}{\sqrt\omega}\eta
+\]
+is bounded from $\mathcal H$ into that same target space, because
+$\mu<\infty$ and each $J_a$ is a finite matrix.  Therefore
+$\mathcal A-\mathcal T$ is closed on the unchanged domain $Q_f$.
+Its norm square is the positive field block in (12).  Adding the
+bounded source energy preserves closedness and semiboundedness.
+This argument makes no reference to commuting shifted annihilation
+operators.
+
+On a fixed lane the resulting lower bound is
+\[
+H\ge (\varepsilon e-\varepsilon)I,
+\]
+because $K\ge0$ and $S$ has eigenvalues $\pm1$.
+Before restricting to a lane one has the corresponding form bound
+$H\ge\varepsilon\lambda_{\min}(H_{\mathrm{pair}})I$ in the present
+positive-$\varepsilon$ chart.  These statements establish a stable
+energy form; they do not by themselves establish a ground-state
+eigenvector or an isolated hard-branch gap.  Those spectral and
+preparation inputs retain their separate provenance in [4--6].
+
+\paragraph{Evolution and the precise Ehrenfest regularity.}
+Let $h_H(\xi,\eta)$ denote the closed Hamiltonian form.  Choose a constant
+$b$ large enough that $H+bI\ge I$.  The norm induced by
+$(H+bI)^{1/2}$ is equivalent to $\|\cdot\|_{Q_f}$, by the form estimates
+above.  The spectral theorem then implies that, for every
+$\Psi_0\in Q_f$,
+\[
+\Psi(\tau)=e^{-i\tau H}\Psi_0
+\]
+stays in $Q_f$ and is continuous there.  Its weak derivative exists
+continuously in $Q_f^*$ and satisfies
+$i\dot\Psi=H\Psi$ in that dual space.  A Hilbert-space-valued derivative
+would require the stronger initial condition $\Psi_0\in D(H)$; that
+stronger condition is not silently imposed on the continuum
+preparations used here.
+
+Every bounded source observable $O$ and its adjoint preserve $Q_f$
+continuously, since they act only on the finite source factor and
+commute with $H_f$.  The expectation difference quotient, using the
+dual pairing, gives the form Ehrenfest identity
+\[
+\begin{aligned}
+\frac{d}{d\tau}\langle\Psi,O\Psi\rangle
+={}&i\,h_H(\Psi,O\Psi)\\
+&-i\,h_H(O^*\Psi,\Psi).
+\end{aligned}
+\]
+On an operator core this is
+$i\langle[H,O]\rangle$.  The form expression is the definition that
+continues to hold for finite-energy states.  Since $h_H$ is continuous on
+$Q_f\times Q_f$ and $\Psi(\tau)$ is continuous in $Q_f$, its right-hand
+side is continuous in time.  Thus bounded source expectations are
+continuously differentiable, not merely differentiable almost
+everywhere.
+
+The same form continuity makes a source--field pairing such as
+$\langle S\phi_a\rangle$ a continuous function of time.  It does not
+assert that every unbounded field observable has a differentiable
+expectation.  These are precisely the regularity facts needed for
+(21)--(22): $z$ is continuously differentiable, its form forcing $w$ is
+continuous, and a nonvanishing $z$ has a continuously differentiable
+lifted phase.  This explains the pointwise meaning of the clock equation
+for the declared preparations in $Q_f$.~[6]
+
+\paragraph{Circular words and the signed conserved charge.}
+Both real polarizations can be expressed in a circular basis without
+discarding either.  To avoid confusing the real plus polarization with
+the circular plus mode, write the change of basis initially as
+\[
+a_\pm^{\mathrm{circ}}
+=\frac{a_{\mathrm{lin},+}\pm i a_{\mathrm{lin},\times}}{\sqrt2},
+\qquad L=\frac{D+iC}{\sqrt2}.
+\]
+The same unitary change of polarization is made at every frequency.
+Because the two real polarizations have the same real radial kernel,
+the interaction contains the four words
+$La_+^\dagger$, $L^\dagger a_+$,
+$L^\dagger a_-^\dagger$, and $La_-$, with their common frequency
+smearing and coupling understood.  In these words and in the charge
+below, the subscripts $+$ and $-$ label the circular modes.
+
+The source commutators follow from (5) and $N_s=(I+S)/2$:
+\[
+[N_s,L]=-L,\qquad [N_s,L^\dagger]=L^\dagger.
+\]
+Thus $L$ lowers the source excitation by one and $L^\dagger$ raises it
+by one, whenever the corresponding matrix element is nonzero.  If
+$N_\pm$ count the circular photons, each of the four interaction words
+preserves
+\begin{equation}
+Q_{\mathrm{ch}}=N_s+N_+-N_-.\tag{20}
+\end{equation}
+The bookkeeping can be checked one word at a time:
+\[
+\begin{array}{c|rr|r}
+\text{word}&\Delta N_s&\Delta(N_+-N_-)&\Delta Q_{\mathrm{ch}}\\ \hline
+La_+^\dagger&-1&+1&0\\
+L^\dagger a_+&+1&-1&0\\
+L^\dagger a_-^\dagger&+1&-1&0\\
+La_-&-1&+1&0
+\end{array}
+\]
+By contrast, the third and fourth words change
+$N_s+N_++N_-$ by $+2$ and $-2$, respectively.  They are the
+counter-rotating words relative to that unsigned count.  Dropping them
+would preserve an additional unsigned excitation number by changing
+the interaction; it is not part of the receiving law here.
+
+The algebraic check can be promoted to a continuum conservation
+statement without assuming finite photon number.  Define
+$Q_{\mathrm{ch}}$ as the self-adjoint signed-number generator, using
+the commuting source and number spectral measures.  Its unitary group
+$U_\beta=e^{i\beta Q_{\mathrm{ch}}}$ preserves $Q_f$.  The factors in
+each interaction word acquire opposite phases under $U_\beta$, while
+the free energy, the source Hamiltonian, and the counterterm are
+invariant.  The cutoff field forms are therefore invariant, and their
+form limits remain invariant:
+\[
+h_H(U_\beta\xi,U_\beta\eta)=h_H(\xi,\eta).
+\]
+Uniqueness of the self-adjoint operator associated with the closed form
+implies that $U_\beta$ commutes with $H$ and its propagator.  Hence every
+signed-charge spectral sector is invariant under the exact evolution.
+When a charge expectation is defined, for example when
+$\langle|Q_{\mathrm{ch}}|\rangle<\infty$, that expectation is
+conserved as well.  Finite free-field energy alone is not used to infer
+this extra integrability.
+
+The tensor angular action is $2I_*Q_{\mathrm{ch}}$ in the retained
+incidence.  The counter-rotating words change the unsigned excitation
+count by two while preserving this signed charge. No rotating-wave or
+photon-number truncation defines the receiving law.  In particular, a
+fixed signed-charge sector can still contain arbitrarily many photons;
+charge conservation is a symmetry statement, not a truncation of the
+field Hilbert space. [1, \S4]
+
+
+\section{The actual interacting clock}
+The clock is the phase of a bounded source amplitude evaluated in the evolving joint state. Its rate receives the field through a joint correlation. We first derive that equation, then compare the actual evolution with an exactly specified hard-field reference. The comparison controls the instantaneous rate throughout a finite interval and supplies the monotone coordinate used in the action.
+
+Fix one of the six lanes and retain its signed difference $d=d_{ab}<0$, its coupling $g=\varepsilon d$, and its even source energy $e=e_{ab}$. In this lane define the bounded source amplitude and joint field form
+\begin{equation}
+\begin{aligned}
+Z&=(D+iC)/d=\sigma_z+i\sigma_y,\\
+z&=\langle Z\rangle,\qquad w=\langle S(\phi_\times-i\phi_+)\rangle.
+\end{aligned}\tag{21}\label{eq:clock-amplitude}
+\end{equation}
+Expectations here and below are in the joint source-field state. The two real coordinates of $z$ are $\langle\sigma_z\rangle$ and $\langle\sigma_y\rangle$. The field quantity $w$ also contains the source operator $S$. Knowledge of the separate source and field means does not in general determine it.
+
+\subsection{Deriving the exact clock equation}
+The source algebra fixes both the sign and the factor of two in the clock equation. Since $S=\sigma_x$, the Pauli commutators give
+\[
+\begin{aligned}
+[S,\sigma_z]&=-2i\sigma_y,\\
+[S,i\sigma_y]&=-2\sigma_z,\\
+[S,Z]&=-2(\sigma_z+i\sigma_y)=-2Z.
+\end{aligned}
+\]
+The even energy $\varepsilon eI$, the field Hamiltonian, and the scalar counterterm commute with $Z$. The remaining source commutators are
+\[
+[\sigma_z,Z]=2S,\qquad [\sigma_y,Z]=2iS.
+\]
+Consequently, the Hamiltonian (13) obeys the form identity
+\[
+\begin{aligned}
+i[H,Z]
+&=i\varepsilon[S,Z]
+ -ig\bigl([\sigma_z,Z]\phi_+
+             +[\sigma_y,Z]\phi_\times\bigr)\\
+&=-2i\varepsilon Z+2gS(\phi_\times-i\phi_+).
+\end{aligned}
+\]
+The form-domain construction in (18)--(19) justifies taking this expectation along the full continuum evolution. In particular, no derivative of an unbounded field operator is being assumed. The bounded source observable has the continuously differentiable expectation established in Section~5.
+
+With $\Delta=2\varepsilon$, the exact form equation and actual phase rate are
+\begin{equation}
+\begin{aligned}
+\dot z&=-i\Delta z+2gw,\\
+\theta&=-\arg z,\qquad\nu=\dot\theta=-\operatorname{Im}(\dot z/z).
+\end{aligned}\tag{22}\label{eq:clock-exact}
+\end{equation}
+The phase is a continuous lift with $\theta(0)=0$. Whenever $z$ remains nonzero, write $z=r e^{-i\theta}$ with $r=|z|>0$. Then
+\[
+\frac{\dot z}{z}=\frac{\dot r}{r}-i\dot\theta,
+\qquad
+\nu=\Delta-2g\operatorname{Im}\frac{w}{z}.
+\]
+This separates the amplitude change from the phase change without discarding either. In the absence of the correlator term, a positive bare gap gives the orientation $z\propto e^{-i\Delta\tau}$ and $\dot\theta=\Delta$. With the interaction present, the sign of $g$ and the complex joint correlation both enter the rate. Replacing $g$ by $|g|$ at this stage would change the exact equation; absolute values enter only the error estimates below.
+
+\subsection{The preparation and an actual reference expectation}
+Split the frequencies at $\lambda=64\Delta$. The declared state is
+\begin{equation}
+\Psi_0=\frac{\Phi_0+\Phi_1}{\sqrt2}\otimes|0_s\rangle.\tag{23}\label{eq:clock-preparation}
+\end{equation}
+Here $\Phi_0$ and $\Phi_1$ are the exact normalized interacting hard-field eigenbranches of signed charges zero and one. The soft field is in its vacuum. Their true hard energy difference is $\Omega>0$, and their relative phase is chosen so that
+\[
+\langle\Phi_0|Z|\Phi_1\rangle=2M,\qquad M>0.
+\]
+Thus the preparation specifies a coherent superposition of two dressed branches. It does not replace those branches by undressed source vectors. [4, 5]
+
+Use a comparison Hamiltonian that keeps the same hard interaction, the same even scalar, the free soft field, and the exact scalar soft counterterm:
+\[
+\begin{aligned}
+H_{\mathrm{ref}}&=\varepsilon e+H_h+H_{f,s}+c_s,\\
+c_s&=2g^2\int_0^\lambda\frac{|u_R(\omega)|^2}{\omega}\,d\omega.
+\end{aligned}
+\]
+The actual and reference Hamiltonians therefore differ only by the linear soft interaction. If $\mathcal E_0$ and $\mathcal E_1$ denote the two hard branch energies, then $\mathcal E_1-\mathcal E_0=\Omega$ and
+\[
+\begin{aligned}
+\Psi_{\mathrm{ref}}(\tau)
+={}&\frac{e^{-i(\varepsilon e+c_s)\tau}}{\sqrt2}
+\bigl(e^{-i\mathcal E_0\tau}\Phi_0
+     +e^{-i\mathcal E_1\tau}\Phi_1\bigr)
+\otimes|0_s\rangle.
+\end{aligned}
+\]
+The common scalar phase has been retained explicitly. It cancels in an expectation, while remaining part of the dynamical action.
+
+The charge rule explains why this trajectory has a single clock frequency. Since $Z$ acts only on the source,
+\[
+[Q_{\mathrm{ch}},Z]=[N_s,Z]=\tfrac12[S,Z]=-Z.
+\]
+It lowers the signed charge by one. Within the two-branch superposition, only the matrix element from the charge-one branch to the charge-zero branch survives. Its coefficient is one half, so the reference amplitude is
+\[
+\langle\Psi_{\mathrm{ref}}(\tau)|Z|\Psi_{\mathrm{ref}}(\tau)\rangle
+=\tfrac12(2M)e^{-i(\mathcal E_1-\mathcal E_0)\tau}
+=Me^{-i\Omega\tau}.
+\]
+The soft part of the reference field mean vanishes. Applying the hard-field form Ehrenfest equation to this actual reference expectation therefore gives
+\[
+-i\Omega h=-i\Delta h+2g w_h.
+\]
+Hence, in the same field realization,
+\begin{equation}
+\begin{aligned}
+h&=Me^{-i\Omega\tau},\qquad
+w_h=\frac{i(\Delta-\Omega)}{2g}h.
+\end{aligned}\tag{24}\label{eq:clock-reference}
+\end{equation}
+The quantity $w_h$ is the expectation of the same form $S(\phi_\times-i\phi_+)$ on the specified reference trajectory. Its relation to $h$ is exact. In particular, it introduces no separately fitted field target or mismatch term.
+
+At $\tau=0$ the actual and reference states coincide. They have $z(0)=h(0)=M$ and $w(0)=w_h(0)$, so (22) gives $\nu(0)=\Omega$. The three rates now have explicit roles: $\Delta$ is the bare source gap, $\Omega$ is the hard reference gap, and $\nu(\tau)$ is the instantaneous rate of the full actual evolution.
+
+\subsection{Centering the comparison at the dressed gap}
+Set $\delta z=z-h$ and $\delta w=w-w_h$. Subtract the reference equation from the actual equation and then add $i\Omega z$. The terms proportional to $h$ cancel:
+\[
+\begin{aligned}
+\dot z+i\Omega z
+&=-i(\Delta-\Omega)(h+\delta z)
+   +2g(w_h+\delta w)\\
+&=\bigl[-i(\Delta-\Omega)h+2gw_h\bigr]
+   -i(\Delta-\Omega)\delta z+2g\delta w.
+\end{aligned}
+\]
+Thus the exact centered residual is
+\begin{equation}
+\dot z+i\Omega z=-i(\Delta-\Omega)\delta z+2g\delta w.\tag{25}\label{eq:clock-centered}
+\end{equation}
+The error multiplying $\delta z$ is weighted by the dressed shift $\Delta-\Omega$. The reference already accounts for the hard dressing. The remaining comparison concerns the soft coupling and its propagation by the complete Hamiltonian.
+
+The retained all-order soft estimate and energy bound are
+\begin{equation}
+\begin{aligned}
+|\delta z|&\le E(\tau)=e^{4g^2v_s^{\mathrm{up}}\tau^2}-1,\\
+v_s^{\mathrm{up}}&=\frac{R^4\lambda^6}{675\kappa\pi},\\
+F_T&=\left[\sqrt c+\sqrt{K_{\mathrm{prep}}+\varepsilon E(T)}\right]^2.
+\end{aligned}\tag{26}\label{eq:clock-soft-estimate}
+\end{equation}
+\subsubsection*{Why the soft-field weight has a sixth power}
+The soft spectral weight in this argument is
+\[
+ v_s=\int_0^\lambda |u_R(\omega)|^2\,\dd\omega.
+\]
+It is different from the full energy-weighted quantity $\mu$, which includes an additional factor $1/\omega$ and integrates over all frequencies. The spherical-Bessel integral representation [7], at order two and real $x$, gives
+\[
+ j_2(x)=\frac{x^2}{16}\int_{-1}^{1}
+       \cos(xt)(1-t^2)^2\,\dd t.
+\]
+Since the weight is nonnegative and its integral is $16/15$, this yields $|j_2(x)|\le x^2/15$. Substituting the boundary kernel from (17) then gives the explicit comparison
+\[
+\begin{aligned}
+v_s&\le\frac{2R^4}{225\kappa\pi}
+       \int_0^\lambda\omega^5\,\dd\omega\\
+   &=\frac{R^4\lambda^6}{675\kappa\pi}
+    =v_s^{\mathrm{up}}.
+\end{aligned}
+\]
+Thus the coefficient in (26) is tied to the declared quadrupole kernel and the soft cutoff. This calculation explains the spectral majorant; the retained all-order amplitude estimate $E(\tau)$ and the preparation-energy bound retain their separate source attribution~[6].
+Here $v_s^{\mathrm{up}}$ bounds the soft field weight $\int_0^\lambda |u_R(\omega)|^2d\omega$. The frequency split is part of the comparison; the actual dynamics still contains the entire continuum.
+
+The preparation quantity $K_{\mathrm{prep}}$ is the retained upper bound on $\langle K\rangle$ in the exact state (23), including its full soft vacuum counterterm. The inherited all-time estimate is
+\[
+\langle K\rangle_\tau\le K_{\mathrm{prep}}+\varepsilon E(\tau).
+\]
+These all-order comparison inputs are supplied by the retained derivation~[6]. The following argument expands how they lead to a propagated field estimate and a clock certificate. A bound on the single amplitude $\delta z$ alone would not supply a bound on every source or field expectation.
+
+The square form of $K$ explains the conversion to free field energy. Let $X\Psi$ be the two-polarization energy-annihilation vector and $Y\Psi$ its source shift in the common direct-integral space. For a normalized state,
+\[
+\|X\Psi\|^2=\langle H_f\rangle,\quad
+\|Y\Psi\|^2=c,\quad
+\|(X-Y)\Psi\|^2=\langle K\rangle.
+\]
+The triangle inequality yields
+\[
+\sqrt{\langle H_f\rangle}
+\le\sqrt{\langle K\rangle}+\sqrt c.
+\]
+Using the retained energy bounds for both trajectories gives $\langle H_f\rangle\le F_T$ throughout $[0,T]$, for the actual and reference states alike. The monotonicity of $E(\tau)$ for $\tau\ge0$ permits the single endpoint value $E(T)$ in this interval estimate.
+
+\subsection{Propagating the field comparison in the energy norm}
+The field insertion in the clock is a form rather than a bounded operator on the unweighted Hilbert space. Introduce $A=I+H_f$ and
+\[
+B=S(\phi_\times-i\phi_+),\qquad
+\|\eta\|_A=\|A^{1/2}\eta\|.
+\]
+The relevant control is on the weighted pairing and on propagation in this energy norm:
+\begin{equation}
+\begin{aligned}
+\|A^{-1/2}BA^{-1/2}\|&\le\sqrt{2\mu},\\
+\|A^{1/2}e^{-i\tau H}\eta\|&\le2\|A^{1/2}\eta\|.
+\end{aligned}\tag{27}\label{eq:clock-weighted-propagator}
+\end{equation}
+The first inequality means that for $\eta,\xi\in Q_f$,
+\[
+|\langle\eta|B|\xi\rangle|
+\le\sqrt{2\mu}\,\|\eta\|_A\|\xi\|_A.
+\]
+It follows from the weighted annihilation estimate (19), its adjoint pairing, and the two-polarization combination. It controls exactly the joint form used in $w$.
+
+For the propagator estimate, first apply the two triangle-square inequalities to the same shifted maps:
+\[
+H_f\le2K+2cI,\qquad K\le2H_f+2cI,
+\]
+where the inequalities are quadratic-form inequalities. Put
+\[
+H_{\mathrm{red}}=\varepsilon S+K,\qquad
+B_0=H_{\mathrm{red}}+(\varepsilon+c+1/2)I.
+\]
+Because $-I\le S\le I$, the lower comparison is
+\[
+A=I+H_f\le2K+(2c+1)I\le2B_0.
+\]
+For the upper comparison,
+\[
+B_0\le2H_f+(2\varepsilon+3c+1/2)I\le2A.
+\]
+The final inequality uses the checked condition $2\varepsilon+3c+1/2\le2$. Together these give $A\le2B_0\le4A$. Since $B_0$ is a positive scalar shift of $H_{\mathrm{red}}$, its form norm is conserved by the full propagator. The even scalar $\varepsilon eI$ only contributes a common phase. Therefore
+\[
+\begin{aligned}
+\|e^{-i\tau H}\eta\|_A^2
+&\le2\|B_0^{1/2}e^{-i\tau H}\eta\|^2\\
+&=2\|B_0^{1/2}\eta\|^2
+\le4\|\eta\|_A^2,
+\end{aligned}
+\]
+which proves the second inequality in (27).
+
+The difference between the Hamiltonians is the soft interaction
+\[
+V_s=H-H_{\mathrm{ref}}
+=-g(\sigma_z\phi_{+,s}+\sigma_y\phi_{\times,s}).
+\]
+On $\Psi_{\mathrm{ref}}$, each soft annihilation term vanishes. Each creation term produces one soft photon, and the two polarization sectors are orthogonal. A photon created at frequency $\omega\le\lambda$ adds at most $\lambda$ to the free energy. Consequently,
+\[
+\begin{aligned}
+\|A^{1/2}V_s\Psi_{\mathrm{ref}}(s)\|^2
+&\le2g^2\int_0^\lambda |u_R(\omega)|^2
+        (1+F_T+\omega)\,d\omega\\
+&\le2g^2v_s^{\mathrm{up}}(1+F_T+\lambda).
+\end{aligned}
+\]
+The factor of two counts the orthogonal polarization insertions. The source Pauli matrices do not change the free field energy norm.
+
+Write $\delta\Psi(\tau)=\Psi(\tau)-\Psi_{\mathrm{ref}}(\tau)$. The two trajectories start from the same vector, so Duhamel propagation gives
+\[
+\delta\Psi(\tau)
+=-i\int_0^\tau e^{-i(\tau-s)H}
+               V_s\Psi_{\mathrm{ref}}(s)\,ds.
+\]
+Using (27) in the energy norm yields, uniformly for $0\le\tau\le T$,
+\[
+\|\delta\Psi(\tau)\|_A
+\le2T\sqrt{2g^2v_s^{\mathrm{up}}(1+F_T+\lambda)}.
+\]
+Finally, expand the difference of the two actual expectations of $B$:
+\[
+\delta w
+=\langle\delta\Psi|B|\Psi\rangle
+ +\langle\Psi_{\mathrm{ref}}|B|\delta\Psi\rangle.
+\]
+Both states have energy norm at most $\sqrt{1+F_T}$. The weighted pairing in (27) therefore contributes the factor $2\sqrt{2\mu(1+F_T)}$. Multiplying the two bounds proves
+\begin{equation}
+\begin{aligned}
+\sup_{0\le\tau\le T}|\delta w(\tau)|&\le W_D(T),\\
+W_D(T)&=8|g|T\sqrt{\mu v_s^{\mathrm{up}}(1+F_T)(1+F_T+\lambda)}.
+\end{aligned}\tag{28}\label{eq:clock-duhamel}
+\end{equation}
+The one-photon statement concerns the forcing vector before propagation. The propagator in the integral is the complete interacting $e^{-i(\tau-s)H}$ and retains all photon sectors. The weighted estimates permit the frequency-cutoff construction to pass to the full form-domain limit. Thus (28) does not impose a photon-number or rotating-wave truncation.~[6]
+
+\subsection{From the centered residual to a uniform rate}
+Two quantities must be controlled to divide by $z$: the residual in (25) and the distance of the amplitude from zero. Since $|h(\tau)|=M$, the reverse triangle inequality gives
+\[
+|z(\tau)|\ge |h(\tau)|-|\delta z(\tau)|
+\ge M-E(T).
+\]
+If $E(T)<M$, this is a positive lower bound on the entire interval. It also justifies a single continuously differentiable phase lift, rather than unrelated choices of a wrapped argument at each time.
+
+Divide (25) by $z$. The result isolates the exact dressed frequency:
+\[
+\frac{\dot z}{z}
+=-i\Omega+
+\frac{-i(\Delta-\Omega)\delta z+2g\delta w}{z}.
+\]
+Taking the negative imaginary part and using $|\operatorname{Im}\zeta|\le|\zeta|$, for $0<\Omega\le\Delta$ one obtains
+\begin{equation}
+|\nu-\Omega|\le
+\frac{(\Delta-\Omega)E(T)+2|g|W_D(T)}{M-E(T)}.
+\tag{29}\label{eq:clock-rate-bound}
+\end{equation}
+This is an instantaneous rate estimate. The time derivative comes from the exact form equation (22). No derivative of the error envelope $E(T)$ has been used.
+
+For clarity, denote the right side of (29) by $\rho_T$. A sufficient positive-rate condition is $\rho_T<\Omega$. The denominator is positive, so its algebra is reversible:
+\[
+\begin{aligned}
+&(\Delta-\Omega)E(T)+2|g|W_D(T)
+       <\Omega\bigl(M-E(T)\bigr)\\
+&\hspace{1em}\Longleftrightarrow\quad
+2|g|W_D(T)+\Delta E(T)<\Omega M.
+\end{aligned}
+\]
+The same true hard gap appears on both sides before simplification. The sufficient positivity condition is therefore
+\begin{equation}
+2|g|W_D(T)+\Delta E(T)<\Omega M.\tag{30}\label{eq:clock-positivity}
+\end{equation}
+The cancellation of the $\Omega E(T)$ terms is the reason the final error term uses $\Delta E(T)$. Since $W_D(T)\ge0$ and $0<\Omega\le\Delta$, strict inequality in (30) also implies $E(T)<M$. Keeping the amplitude check explicit remains useful in the numerical certificate.
+
+\subsection{Six certified intervals and their inverses}
+Native outer evaluation satisfies (30) and the positive amplitude condition in every lane for
+\begin{equation}
+0\le\tau\le T_0=\frac{2\pi}{\Delta}=573049\pi.\tag{31}\label{eq:clock-window}
+\end{equation}
+The calculation uses the lane's own $d$, $g$, $M$, $\Omega$, and preparation bound. The common bare interval does not identify the six separately prepared trajectories with one another.
+
+The analytic implication is now explicit: control the soft amplitude error and free energy, propagate the joint insertion, keep the amplitude denominator positive, and use the centered residual to enclose the rate. The native computation supplies the source and hard-branch enclosures needed to evaluate these expressions. Exact roots and outward enclosures enter that evaluation; the rounded displays below communicate its result.~[6]
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrr@{}}
+\toprule
+Lane & Lower $10^6\nu$ & Upper $10^6\nu$ \\
+\midrule
+01 & 3.490102929541 & 3.490102934505 \\
+02 & 3.490102893142 & 3.490102914462 \\
+03 & 3.490095588823 & 3.490098892473 \\
+12 & 3.490102927880 & 3.490102933590 \\
+13 & 3.490096147687 & 3.490099200196 \\
+23 & 3.490096722560 & 3.490099516734 \\
+\bottomrule
+\end{tabular*}
+\caption{Uniform actual rates per normalized model time. Endpoints are rounded outward to twelve decimal places after multiplication by $10^6$. Exact rational outer endpoints remain in the native certificate.~[6]}
+\end{table}
+
+Every lower endpoint is positive, and every upper endpoint lies below $\Delta\approx3.49010294058623\times10^{-6}$. These are two distinct numerical conclusions: the positivity inequality alone would not imply the upper comparison with $\Delta$. The reported native rate enclosures establish both. The achieved $W_D$ upper bounds range from $1.229714\times10^{-11}$ to $3.172702\times10^{-10}$.
+
+Let $\ell$ and $u$ be the certified lower and upper rates for any one lane, in the unscaled units of $\nu$. For $0\le\tau_1<\tau_2\le T_0$, integrate the pointwise bound:
+\[
+\begin{aligned}
+\ell(\tau_2-\tau_1)
+&\le\theta(\tau_2)-\theta(\tau_1)\\
+&\le u(\tau_2-\tau_1).
+\end{aligned}
+\]
+The lower inequality proves strict monotonicity throughout the interval. It gives a unique inverse $\tau=\tau(\theta)$ on the image $[0,\theta(T_0)]$. The inverse function theorem and the pointwise regularity of (22) give
+\[
+\frac{d\tau}{d\theta}
+=\frac{1}{\nu(\tau(\theta))},
+\qquad
+\frac1u\le\frac{d\tau}{d\theta}\le\frac1\ell.
+\]
+The inverse is continuously differentiable in the interior, with the corresponding one-sided derivatives at the endpoints, and is Lipschitz with constant at most $1/\ell$ on its whole image.
+
+Because $u<\Delta$ and $\theta(0)=0$,
+\[
+0<\theta(T_0)\le uT_0<\Delta T_0=2\pi.
+\]
+Thus $T_0$ is one bare cycle. The interacting clock has accumulated less than a full $2\pi$ phase at that time. The certificate concerns this stated interval; extending it requires the same estimates and positivity checks for the longer window.
+
+\subsection{Worked example for lane 01}
+The ordered spectral roots give $d_{01}=q_0-q_1<0$, and $\varepsilon>0$ then gives $g_{01}<0$. Representative values are
+\begin{center}
+\small
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}ll@{}}
+\toprule
+Quantity & Approximate value \\
+\midrule
+$d_{01}$ & $-54.6776910663982$ \\
+$g_{01}$ & $-9.54153851876510\times10^{-5}$ \\
+$\varepsilon e_{01}$ & $0.917631085332839$ \\
+$c_{01}$ & $2.78337517524759\times10^{-8}$ \\
+\bottomrule
+\end{tabular*}
+\end{center}
+The complete source branch energies are approximately $0.917629340281369$ and $0.917632830384310$. Their midpoint is the retained even source energy, while their separation is $2\varepsilon=\Delta$. The hard dressed gap below is a separate quantity.
+
+For the declared hard preparation, certified outer displays give
+\begin{equation}
+\begin{aligned}
+0.9999999987538952&<M<0.9999999987925324,\\
+3.4901029318881649&<10^6\Omega\\
+&<3.4901029321578596.
+\end{aligned}\tag{32}\label{eq:clock-lane01-inputs}
+\end{equation}
+The amplitude starts on the positive real axis, so the continuous lift begins at $\theta(0)=0$. Equation (24) then fixes the initial correlation as a purely imaginary number,
+\[
+w(0)=\frac{i(\Delta-\Omega)M}{2g}.
+\]
+Both $S\phi_\times$ and $S\phi_+$ have real expectation values, since source and field factors commute. Comparing the real and imaginary parts with $w=\langle S\phi_\times\rangle-i\langle S\phi_+\rangle$ gives
+\begin{equation}
+\begin{aligned}
+\langle S\phi_\times\rangle&=0,\\
+\langle S\phi_+\rangle&=-\frac{(\Delta-\Omega)M}{2g}>0.
+\end{aligned}\tag{33}\label{eq:clock-lane01-correlations}
+\end{equation}
+Here $\Delta-\Omega>0$, $M>0$, and $g<0$, which explains the final sign. The plus correlation lies between $4.4166740\times10^{-11}$ and $4.5580007\times10^{-11}$. Substituting it back into the exact equation checks the initial shift directly:
+\[
+\dot z(0)
+=-i\Delta M+2g\frac{i(\Delta-\Omega)M}{2g}
+=-i\Omega M.
+\]
+Thus the initial clock rate is the hard gap. The joint correlation is precisely the term that carries this shift. Factoring it into marginal means would change this result.
+
+The first row of the rate table then supplies a uniform statement about the subsequent actual evolution. For example, the ratio of the accumulated phase after one bare cycle to $2\pi$ satisfies
+\[
+\begin{aligned}
+0.9999999968352702545
+&\le\frac{\theta(T_0)}{2\pi}\\
+&\le0.9999999982575778725.
+\end{aligned}
+\]
+These two numbers are the exact arithmetic images of the outward displayed lane-01 rate endpoints under multiplication by $573049/2$ and by $10^{-6}$. They illustrate the integral consequence of the existing uniform certificate; they are not additional independently evaluated native enclosures.
+
+The completed Duck campaign evaluated 300 native operations with 1,122 passing native checks. A separate checker passed 23,804 checks over all 300 new outputs and 134 matrix readouts. These are computational verification counts; the continuum argument is supplied analytically. The weighted-form, reference, and Duhamel construction is a Codex contribution developed within this collaboration, receiving the original source rules and retained hard preparation.~[6]
+
+\section{The action in clock phase}
+The certified monotone phase can parameterize the same joint history. Write $\tau=\tau(\theta)$ and understand every state, field coordinate, and rate in this section as evaluated on that history. In particular, $\nu$ means $\nu(\tau(\theta))$. Uniform positivity supplies the change of differential
+\[
+d\tau=\frac{d\theta}{\nu}.
+\]
+This permits the complete action to be expressed in clock phase on $[0,\theta(T_0)]$ while retaining its source, field, and interaction contributions.
+
+\subsection{Energy and field coefficients under the chain rule}
+For any energy term $\mathcal E(\tau)$ in the Hamiltonian expectation,
+\[
+-\int d\tau\,\mathcal E(\tau)
+=-\int d\theta\,\frac{\mathcal E(\tau(\theta))}{\nu}.
+\]
+Every energy term therefore receives the same inverse rate. The scalar terms $\varepsilon e$ and $c$ obey this rule just as the source exchange and the boundary correlation do. Their commutation with $Z$ removes them from the clock commutator, but does not remove them from the action.
+
+The kinetic term in the configuration-space field expression (14) also contains a derivative. At fixed radial coordinate,
+\[
+\dot\varphi_a=\nu\,\partial_\theta\varphi_a.
+\]
+Using $\kappa/4=1/5$, the same field expression becomes
+\[
+\begin{aligned}
+\int d\tau\,L_f
+=\frac15\sum_{a=+,\times}\int d\theta\int_0^\infty dr\,
+\biggl[&\nu r^2(\partial_\theta\varphi_a)^2\\
+&-\frac{r^2(\partial_r\varphi_a)^2}{\nu}
+-\frac{6\varphi_a^2}{\nu}\biggr].
+\end{aligned}
+\]
+The kinetic coefficient has one remaining factor of $\nu$: two arise from the squared derivative and one is canceled by the measure. The gradient and angular terms have no time derivatives and retain the inverse rate. This calculation describes the canonical field representation of the change of parameter. The full joint action (11) already contains the field through its Berry form and Hamiltonian; the field expression is not a second action to add to it.
+
+The resulting coefficient family is listed in Table~2.
+\begin{table}[tbp]
+\centering
+\small
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}ll@{}}
+\toprule
+Contribution & Coefficient in $\theta$ \\
+\midrule
+Field kinetic & $\nu/5$ \\
+Field radial gradient & $-1/(5\nu)$ \\
+Field angular term & $-6/(5\nu)$ \\
+Even source energy & $-\varepsilon e/\nu$ \\
+Source exchange & $-\varepsilon/\nu$ \\
+Boundary coupling & $+g/\nu$ \\
+Both counterterms & $-c/\nu$ \\
+\bottomrule
+\end{tabular*}
+\caption{Coefficients inside the action divided by $I_*$. Field rows multiply their radial integrals; source and boundary rows multiply the corresponding joint expectations in (13). Field rows use (14); (11) already contains the full source-field Berry form. The full counterterm is $c=g^2/(2R)$.}
+\end{table}
+For example, the boundary row multiplies the expectation of $\sigma_z\phi_++\sigma_y\phi_\times$. Its displayed plus sign is inherited from subtracting the Hamiltonian, while its coefficient retains the signed $g<0$ of the ordered lane. The counterterm row includes both real polarizations, each of which contributes $g^2/(4R)$ before the change of parameter.
+
+\subsection{The Berry one-form is unchanged}
+The state derivative obeys the same chain rule,
+\[
+\partial_\tau\Psi=\nu\,\partial_\theta\Psi.
+\]
+Consequently,
+\[
+\mathcal B_\tau=\nu\mathcal B_\theta,
+\qquad
+\mathcal B_\tau\,d\tau=\mathcal B_\theta\,d\theta.
+\]
+The Berry contribution is therefore the unchanged one-form
+\begin{equation}
+\frac{i}{2}(\langle\Psi|d\Psi\rangle-\langle d\Psi|\Psi\rangle).\tag{34}\label{eq:clock-berry}
+\end{equation}
+In the continuum, the derivative pairings retain the form-domain and dual interpretation used in (11) and (18). Positivity and continuity of $\nu$ make the change of parameter regular on the certified interval.
+
+Combining this one-form identity with the common inverse-rate factor for the complete Hamiltonian gives
+\begin{equation}
+\frac{\mathcal S}{I_*}=\int d\theta\left[\mathcal B_\theta-\frac{\langle H\rangle}{\nu}\right].\tag{35}\label{eq:clock-phase-action}
+\end{equation}
+Here $H$ is exactly the Hamiltonian (12), with its even source energy and both counterterms. Equation (35) is the same action evaluated along the same history in its certified phase coordinate.
+
+\subsection{The coefficients share one actual clock}
+The entries of the coefficient table are dependent functions of one rate. If $\ell\le\nu\le u$, then
+\[
+\frac{\ell}{5}\le\frac{\nu}{5}\le\frac{u}{5},
+\qquad
+\frac1u\le\frac1\nu\le\frac1\ell.
+\]
+These interval images are useful for bounding individual terms, but the values cannot be chosen independently. At every point of the history, for example,
+\[
+\left(\frac{\nu}{5}\right)
+\left(-\frac{1}{5\nu}\right)=-\frac1{25},
+\qquad
+-\frac{6}{5\nu}=6\left(-\frac{1}{5\nu}\right).
+\]
+The same common inverse rate also fixes the ratios of the source, coupling, and counterterm coefficients. Selecting unrelated endpoints from their separate intervals would generally violate these identities.
+
+The clock is derived from the actual state through (21)--(22). Equation (35) is a trajectory and history reparameterization on the monotone interval. If one uses it in a variational treatment, the dependence of $\nu$ and of the clock coordinate on the joint history must be retained. Varying the transformed expression while holding a separately prescribed $\nu$ fixed does not, by itself, establish an equivalent variational principle. The established result transports the original joint action into the actual phase coordinate; it does not introduce an independent clock-rate control.
+
+The local inverse also has a different role from a finite-window mean. For $\tau>0$,
+\[
+\theta(\tau)=\int_0^\tau\nu(s)\,ds,
+\qquad
+\frac{\tau}{\theta(\tau)}
+=\left[\frac1\tau\int_0^\tau\nu(s)\,ds\right]^{-1}.
+\]
+Thus $\tau/\theta(\tau)$ is the inverse of the mean rate on a window, while $d\tau/d\theta=1/\nu$ is the pointwise Jacobian required by the action. They coincide for a constant-rate history and need not coincide during interacting evolution.
+
+Finally, for a conserved energy expectation $E$, the positive dynamical energy account has the equivalent expressions $I_*E\tau=I_*\int_0^{\theta(\tau)}E\,d\theta'/\nu$. The full variational action contains the negative energy term together with the Berry contribution. Keeping that distinction preserves the complete source, field, and interaction account under the same change of parameter.
+
+
+\section{Chapter conclusion}
+The signed source construction, complete joint action, continuum form realization, and six uniform clock certificates close the Chapter I source-to-clock argument for the stated receiving law and preparation. \textbf{The test result suggests strong contact with the concept.} The centered target in the refinement note [2] is now supplied by the achieved bound (28) and its native evaluation. The historical derivations remain preserved in their original execution records.
+
+The next source interface is the occupied-path relation between the original ledger $\hbar(d\gamma_W+3d\chi)$ and the quantum generator $H_{\mathrm{pair}}/2$. That work must carry the original common phase, the commuting even operator, and the preparation class. The six lane clocks established here provide the completed receiving calculation for that continuation. Radial geometry and entropy-area results belong to their later chapters. [3]
+
+
+\section*{Data availability}
+The repository for this chapter is \url{https://github.com/iwtbotiwtwot/sam_volume_I_i}.
+
+\section*{Source register}
+\begingroup\footnotesize
+\noindent[1] Brady, with ChatGPT and Codex. \emph{Original Write histories and a coupled source-field action}, v1.1, 15 October 2026. Owner-supplied manuscript.
+
+\noindent[2] Brady, with ChatGPT and Codex. \emph{A Reference-Centered Clock Positivity Condition}, 15 October 2026. Owner-supplied refinement note.
+
+\noindent[3] \emph{SAM Volume I Chapter Map and Research Plan}. Owner-supplied roadmap; its earlier manuscript references are superseded here by [1] and~[6].
+
+\noindent[4] \emph{Original Write source coupling and six clocks}, H002628. Completed source campaign, 15 October 2026.
+
+\noindent[5] \emph{Resolved interacting clock}, retained source and hard-branch derivation, samland\_resolved\_clock1.
+
+\noindent[6] \emph{Chapter I lane01 and six uniform correlated clocks}, H002630, 15 October 2026; continuum, reference, and weighted-propagation derivations with native certificates. Exact source paths and hashes are retained with this draft.
+
+\noindent[7] NIST Digital Library of Mathematical Functions, \S10.54, Eq.~10.54.1, spherical-Bessel integral representation. \url{https://dlmf.nist.gov/10.54.E1}. Accessed 15 October 2026.
+
+\endgroup
+
+\end{document}

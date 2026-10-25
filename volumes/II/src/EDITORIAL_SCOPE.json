@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-19",
+  "previous_edition_pages": 101,
+  "previous_edition_chapters": 14,
+  "spin_chapters_added": 5,
+  "scientific_campaigns_run": false,
+  "prior_edition_preserved": true,
+  "repository_files_edited": false,
+  "scientific_source_head": "H002689",
+  "additional_computational_result": "H002708",
+  "coverage_policy": "Completed sources and exact source-specific maps; stopped, partial and proposed outputs retain their own statuses",
+  "deduplicated_source_paths": true
+}

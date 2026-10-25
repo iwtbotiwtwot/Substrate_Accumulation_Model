@@ -1,0 +1,13 @@
+{
+  "chapters": 22,
+  "retained_chapters": 12,
+  "new_chapters": 10,
+  "format_source": "Supplied Volume III book_preamble.tex",
+  "format_changes": "Engine compatibility only: inputenc/DeclareUnicodeCharacter/pdfTeX map directives removed for XeTeX; unused tcolorbox package omitted. Typography, geometry, headings, columns and numbering preserved.",
+  "historical_prose_changes": "Dated specific present-tense SLCQ2-RZ authority wording in chapters I/II/IV/V, and marked chapter XII as the retained foundation closing chapter. New front matter describes the complete expansion. Chapter I authority bullets consolidated; its two source links moved to the reproducibility register to avoid an isolated source-note page.",
+  "scientific_runs": false,
+  "repository_edits": false,
+  "new_tex_words": 22879,
+  "public_prime_event_commit": "eab9da08608489ef62dc418a4e7113e4e14fb6fe",
+  "public_source_files": 6
+}

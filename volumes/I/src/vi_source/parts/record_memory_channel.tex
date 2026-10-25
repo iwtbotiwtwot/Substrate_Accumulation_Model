@@ -1,0 +1,491 @@
+% Chapter VI detector-to-record successor, 17 October 2026.
+% LaTeX fragment; requires amsmath and amssymb, no preamble.
+% Agent-originated receiving construction; no thermal rate or native run assigned.
+
+\section{A finite pointer-to-memory instrument with causal local access}
+\label{sec:chvi-memory-channel}
+
+\paragraph{Source and scope.}
+The retained SAM\_land donor readout construction supplies neutral record
+bits with degenerate rest channels and positive bounded couplings proportional
+to $I-X$; its finite mark/write/unmark law retains the complete complementary
+cloud. Its final record is held, with reset treated separately
+(\path{samland_donor_readout1/DERIVATION.md}, Section~4, and its
+\path{ENERGY_ACCOUNT.md}). We reuse that kind of record recipient below,
+with a new, explicitly specified smooth coordinate response. The physical
+memory covariance of \path{volii_physical_memory1} and the colored
+classical field bath of \path{voli_radiative_memory1} retain their own
+source laws; neither supplies a spin-register flip rate here.
+
+The new instrument, finite-write estimate and correlated-hold bounds are
+agent-originated derivations by OpenAI ChatGPT and Codex. They join a
+decoded bit to the actual detector pointer under the stated receiving law.
+The coordinate-to-qubit coupling specified below is an explicit apparatus
+assignment; it is not derived here from a microscopic material actuator.
+They do not extract a new positive cap mean from the old field, assign a
+microscopic material or temperature, or replace the later two-arm transport
+calculation. Local controls in this section require the decoded bit, detector
+pointer and memory to be physically co-located, or a previously specified
+causal delivery channel bringing the bit to that location.
+
+\subsection{A correlated loaded pointer and its complete binary conversion}
+
+Let $B$ be the isolated decoder-output qubit from the source-only protocol,
+with $P_b=|b\rangle\langle b|$, $b\in\{0,1\}$. For each operational input
+label $j$, let $\rho_j$ be the finite-energy reference output of the actual
+decoder pulses on the ideal prepared marker. Its error obeys
+$\operatorname{Tr}(P_{1-j}\rho_j)\leq e_{{\rm dec,ref},j}$, excluding
+the marker preparation distance $\delta_{\rm prep}$. The field can remain
+correlated with this bit. Let the actual analog detector noise observable be
+$N$, acting on the pointer/source/field factors outside $B$, so
+$[N,P_b]=0$. Assume the retained full detector calculation supplies the
+per-label moment bound
+\begin{equation}\begin{gathered}
+\operatorname{Tr}(\rho_jN^2)\leq\mathcal B_{\rm ret}
+ \\
+\text{uniformly over the declared}\\\text{analog receiving interval.}
+\label{eq:chvi-memory-noise-input}
+\end{gathered}\end{equation}
+The joint state $\rho_j$ may correlate $B$, $N$ and all other degrees of
+freedom. No conditioning on an exceptionally rare bit value is used to
+claim the same moment bound.
+
+After the detector field gate, the specified bit-controlled translations
+load the same pointer with signs $+a$ for $b=0$ and $-a$ for $b=1$.
+Its loaded coordinate is therefore
+\begin{equation}
+\begin{gathered}
+Q=N+a(P_0-P_1),\\
+ a>0.
+\end{gathered}
+\label{eq:chvi-memory-loaded-coordinate}
+\end{equation}
+Equivalently, in a Schr\"odinger description the loading unitary translates
+the ordinary pointer coordinate and the displayed equation specifies its
+input Heisenberg observable. The source-defined field distribution and its
+correlations remain in $N$. The added sign is the decoded bit's paid
+apparatus displacement, not an assumed intrinsic mean of $N$.
+
+Choose $0<w<a$. With $x=(q+w)/(2w)$ define the $C^1$ threshold response
+\begin{equation}
+\begin{gathered}
+A_w(q)=
+ \begin{cases}
+ 1,&q\leq-w,\\
+ 1-3x^2+2x^3,&-w<q<w,\\
+ 0,&q\geq w.
+ \end{cases}
+ \\
+ 0\leq A_w\leq1,
+ \\
+ G:=\|A_w'\|_\infty=\frac{3}{4w}.
+\end{gathered}
+\label{eq:chvi-memory-threshold}
+\end{equation}
+This $A_w$ is an apparatus response, not the accumulation scalar $A(r)$
+or the computational \texttt{A\_OPERATOR}.
+
+For a finite registration aperture, take $L_q>w$ and a $C^1$ multiplier
+$\chi_{L_q}$ equal to one on $|q|\leq L_q$ and zero on
+$|q|\geq2L_q$, with cubic shoulders and
+$\|\chi_{L_q}'\|_\infty\leq3/(2L_q)$.
+Use $A_{w,L_q}=\chi_{L_q}A_w$ in the physical memory pulse.
+Its response remains in $[0,1]$ and has compact coordinate support.
+The two derivative supports are disjoint, so
+$\|A_{w,L_q}'\|_\infty\leq\max\{G,3/(2L_q)\}$.
+The finite-pulse derivative bounds below apply with that derivative bound.
+The uncut threshold formulas acquire the following additional wrong-bit
+probability, charged once through the final aperture/read allowance:
+\begin{equation}
+ \epsilon_{\rm ap}\leq
+ \frac{(\sqrt{\mathcal B_{\rm ret}}+a)^2}{L_q^2}
+ \leq\frac{2(\mathcal B_{\rm ret}+a^2)}{L_q^2}.
+ \label{eq:chvi-memory-aperture}
+\end{equation}
+This follows from $Q=N+aZ_B$ and the second-moment triangle inequality.
+The trusted-band bound is supplemented by this aperture term; its output
+is still part of the complete binary experiment. For $L_q=2^{20}$ and
+$w=2^9$, the original $G$ is unchanged. The final budget can absorb this
+probability into a stated combined aperture/read allowance.
+
+Supply one memory qubit $R$, initially $|0\rangle_R$, with degenerate
+rest Hamiltonian, and set $X_-=(I-X_R)/2$ and
+$D_w=A_w(Q)\otimes X_-$. The ideal positive write pulse has area $\pi$:
+\begin{equation}
+\begin{gathered}
+V_\theta=e^{-i\theta D_w},\quad 0\leq\theta\leq\pi,
+ \\
+ U_w=V_\pi.
+\end{gathered}
+\label{eq:chvi-memory-ideal-write}
+\end{equation}
+It is exactly the identity on the memory for $q\geq w$, and exactly
+$X_R$ for $q\leq-w$. At every coordinate it is unitary, including the
+finite transition band. Reading the memory in its $Z_R$ basis gives the
+two Kraus operators on the retained incoming system
+\begin{equation}
+\begin{gathered}
+K_0(Q)=e^{-i\pi A_w(Q)/2}\cos[\pi A_w(Q)/2],\\
+ K_1(Q)=i e^{-i\pi A_w(Q)/2}\sin[\pi A_w(Q)/2],
+\end{gathered}
+\label{eq:chvi-memory-kraus}
+\end{equation}
+with $K_0^*K_0+K_1^*K_1=I$. Both outcomes and their conditional residual
+source/pointer/field states are retained. The transition band is not
+postselected away; its possibly erroneous binary output is included.
+The memory need not be read immediately: Eq.~\eqref{eq:chvi-memory-ideal-write}
+first creates a coherent memory correlation, to which the hold channel
+below can be applied.
+
+\noindent\textbf{Proposition (threshold error without independence).}
+For each label $j$, the ideal write obeys
+\begin{equation}
+ e_{{\rm thresh,ref},j}
+ \leq\min\left\{1,e_{{\rm dec,ref},j}
+                  +\frac{\mathcal B_{\rm ret}}{(a-w)^2}\right\}.
+\label{eq:chvi-memory-threshold-error}
+\end{equation}
+\emph{Proof.} On the simultaneous spectral subspace where the decoded
+bit equals $j$ and $|N|<a-w$, Eq.~\eqref{eq:chvi-memory-loaded-coordinate}
+lies strictly beyond the correct side of the transition band. The wrong
+memory effect vanishes there. Since it is a positive contraction, the
+commuting spectral calculus gives
+\begin{equation}
+ K_{1-j}(Q)^*K_{1-j}(Q)
+ \leq P_{1-j}+\mathbf1_{\{|N|\geq a-w\}}.
+\end{equation}
+The spectral second-moment inequality bounds the second term's expectation
+by $\mathcal B_{\rm ret}/(a-w)^2$. Taking the expectation in the full joint
+state establishes Eq.~\eqref{eq:chvi-memory-threshold-error}, with no
+factorization of bit and detector noise. $\square$
+
+\subsection{A finite positive pulse with the pointer kinetic energy retained}
+
+Let the pointer's actual rest Hamiltonian be $H_P=kP^2$, $k>0$,
+$P=-i\partial_Q$, and retain it throughout the write. A rectangular pulse
+of duration $\tau_w>0$ is
+\begin{equation}
+\begin{gathered}
+H_{\rm write}=kP^2+\frac{\pi}{\tau_w}D_w,
+ \\
+ U_{\rm write}=e^{-i\tau_wH_{\rm write}}.
+\end{gathered}
+\label{eq:chvi-memory-finite-write}
+\end{equation}
+Both terms are positive; there is no kinetic parking. The actual
+source--field generator $H_{\rm sf}(t)$ is a spectator commuting with these pointer
+and memory operators. It factors from the comparison even when its state
+is entangled with the pointer. Its own evolution and energy are retained.
+Equation~\eqref{eq:chvi-memory-finite-write} specifies the write-stage
+memory law: any additional noncommuting bath coupling during that stage
+needs a separate write-error bound. Activating a different hold coupling
+afterward retains its switching work rather than parking the pointer.
+
+Suppose the joint write-entry state has $\langle P^2\rangle\leq p_2$.
+In the intended pipeline the detector gate and bit-controlled translations
+depend on the analog pointer momentum and commute with $P^2$; its free
+analog hold does also. Thus the declared Gaussian input moment
+$p_2=1/(4\sigma^2)$ travels unchanged through those stages. A further
+control that does not preserve this moment needs its own bound.
+Purification includes arbitrary correlations with the remaining systems.
+The bounded $C^1$ multiplier $A_w$ preserves $D(P)$, and for a normalized
+purification $\psi$,
+\begin{equation}
+\begin{gathered}
+\|PV_\theta\psi\|\leq\sqrt{p_2}+|\theta|G,
+ \\
+ \|PD_wV_\theta\psi\|\leq\sqrt{p_2}+(|\theta|+1)G.
+\end{gathered}
+\label{eq:chvi-memory-derivative-estimates}
+\end{equation}
+These follow from $[P,D_w]=-iA_w'(Q)X_-$ and differentiation of the
+commuting multiplication exponential. In particular both ideal orbits
+needed by the bounded-control comparison have free-energy form expectation
+at most
+\begin{equation}
+\begin{gathered}
+C_w=k[\sqrt{p_2}+(\pi+1)G]^2
+ \leq C_w^{\rm up}:=2k[p_2+(\pi_*+1)^2G^2],\\
+\pi_*\geq\pi.
+\end{gathered}
+\label{eq:chvi-memory-write-energy}
+\end{equation}
+No $D(P^2)$ assumption on the initial state is required for this estimate.
+The self-adjoint Hamiltonian in Eq.~\eqref{eq:chvi-memory-finite-write}
+is the nonnegative free Hamiltonian plus a bounded self-adjoint control.
+
+\noindent\textbf{Proposition (finite-write discrepancy).}
+For the specified reachable input family,
+\begin{equation}
+\begin{aligned}
+ \|(U_{\rm write}-U_w)\psi\|
+ &\leq r_w:=(1+2\pi)\sqrt{2\tau_w C_w}\\
+ &\leq(1+2\pi_*)\sqrt{2\tau_w C_w^{\rm up}}.
+\end{aligned}
+\label{eq:chvi-memory-write-discrepancy}
+\end{equation}
+The corresponding complete joint-output trace distance and each
+memory-outcome probability error are at most $\min\{1,r_w\}$.
+
+\emph{Proof.} Set $F(t)=e^{-itH_P}$ and move the actual pulse into its
+free interaction picture. Its bounded generator is
+$(\pi/\tau_w)F(t)^*D_wF(t)$; the ideal one is
+$(\pi/\tau_w)D_w$. For any form-domain vector $\xi$, the spectral theorem
+gives
+\begin{equation}
+ \|(F(t)-I)\xi\|^2\leq2|t|\langle\xi,H_P\xi\rangle.
+\end{equation}
+Expanding
+$F(t)^*D_wF(t)-D_w
+ =F(t)^*D_w(F(t)-I)+(F(t)^*-I)D_w$ and using
+Eq.~\eqref{eq:chvi-memory-write-energy} bounds its action on the ideal
+orbit by $2\sqrt{2tC_w}$. Bounded-generator Duhamel therefore bounds
+the interaction-picture difference by
+$2\pi\sqrt{2\tau_wC_w}$, using $t\leq\tau_w$ under the integral.
+Returning from that picture costs at most
+$\sqrt{2\tau_wC_w}$ on the final ideal orbit. Add the two bounds.
+Purifying a mixed input and then taking partial traces gives the same
+output trace-distance conclusion. $\square$
+
+\subsection{Passive hold and correlated transverse disturbances}
+
+After writing, turn off the write pulse. The memory rest law is the same
+degenerate channel used by the retained SAM\_land record construction.
+A more general admitted passive hold is
+\begin{equation}
+\begin{gathered}
+H_d(t)=|0\rangle\langle0|_R\otimes L_0(t)
+       +|1\rangle\langle1|_R\otimes L_1(t),
+ \\
+ [H_d(t),Z_R]=0,
+\end{gathered}
+\label{eq:chvi-memory-diagonal-hold}
+\end{equation}
+with well-defined block propagators on the retained environment. This
+environment includes the pointer, source, field and every noise reference
+needed to describe correlations. The memory may dephase or acquire joint
+environmental records, but each $Z_R$ population is exactly constant.
+Thus its readable binary record is held for every declared finite interval
+under this law. No refresh or measurement is needed during the hold.
+
+For an actual transverse disturbance, split any admitted additional
+interaction into its diagonal part, absorbed in $H_d$, and its bounded
+off-diagonal part
+\begin{equation}
+\begin{gathered}
+V_{\rm off}(t)=\Pi_0V(t)\Pi_1+\Pi_1V(t)\Pi_0,
+ \quad \Pi_b=|b\rangle\langle b|_R\otimes I,
+ \\
+ \Lambda_T=\int_0^T\|V_{\rm off}(u)\|\,\mathrm du.
+\end{gathered}
+\label{eq:chvi-memory-hold-exposure}
+\end{equation}
+The norm is on the full retained joint system, not an average of independent
+cell errors. Interaction-picture bounded-perturbation Duhamel gives a
+joint-channel trace-distance error at most $\min\{1,\Lambda_T\}$ on every
+input and reference. Consequently the wrong-label population can increase
+by at most $\min\{1,\Lambda_T\}$ uniformly for $0\leq t\leq T$.
+
+A sharper population envelope is also available. If its initial value is
+$e_0$, then
+\begin{equation}
+ e(t)\leq
+ \sin^2\!\left(\min\left\{\frac\pi2,
+                  \arcsin\sqrt{e_0}+\Lambda_t\right\}\right).
+\label{eq:chvi-memory-population-envelope}
+\end{equation}
+To see this, purify the complete state. In the diagonal interaction picture,
+the wrong-sector probability obeys, almost everywhere,
+$|\dot e|\leq2\|V_{\rm off}\|\sqrt{e(1-e)}$ by Cauchy--Schwarz between
+the two orthogonal sectors. Integrating the bound on
+$\arcsin\sqrt e$ gives Eq.~\eqref{eq:chvi-memory-population-envelope},
+with endpoint values obtained by continuity. For $e_0=0$ this becomes
+$e(t)\leq\sin^2(\min\{\pi/2,\Lambda_t\})$.
+Use this population envelope or the additive channel error in a budget;
+do not charge the same disturbance twice.
+
+This is a passive finite-spin receiving model, not an assigned Markov
+flip rate. For example a finite correlated thermal environment may be
+declared by a positive Ising Hamiltonian
+\begin{equation}
+\begin{gathered}
+H_E=\sum_\ell h_\ell\frac{I-Z_\ell}{2}
+       +\sum_\ell J_\ell\frac{I-Z_\ell Z_{\ell+1}}{2},
+ \\
+ h_\ell,J_\ell\geq0,
+ \quad \rho_E=\frac{e^{-\beta H_E}}{\operatorname{Tr}e^{-\beta H_E}},
+\end{gathered}
+\end{equation}
+and a static coupling $V_{\rm off}=X_R\otimes B_x+Y_R\otimes B_y$.
+Its actual matrices give
+$\Lambda_T\leq T(\|B_x\|+\|B_y\|)$, regardless of thermal correlations.
+Diagonal $Z_R$ couplings may be retained in Eq.~\eqref{eq:chvi-memory-diagonal-hold}.
+If a nonnegative finite total bath Hamiltonian is desired, include the
+common offset $\|V_{\rm off}\|I$ (and the norm of any additional bounded
+diagonal coupling) in its energy account. This does not change the memory
+probabilities.
+The bath preparation, $\beta$, couplings and energy offsets would be new
+receiving operands; no such numerical thermal model is inferred from an
+isotope covariance or inserted into the example below. No thermal activation
+advantage is claimed by this state-independent norm bound.
+
+\subsection{Readout, complete outcomes and causal access}
+
+For local readout supply a blank qubit $A$. A positive bounded pulse
+\begin{equation}
+\begin{gathered}
+H_{\rm copy}(t)=u(t)\Pi_1\otimes X_{-,A},\\
+ u(t)\geq0,\quad\int u(t)\,\mathrm dt=\pi
+\end{gathered}
+\label{eq:chvi-memory-read-copy}
+\end{equation}
+copies the memory's orthogonal $Z_R$ label to $A$. It commutes with the
+diagonal hold law, even with the full correlated environment retained.
+The final $Z_A$ measurement uses the retained Born/instrument premise.
+This specifies its ideal back-action: it preserves memory label populations,
+while permitting correlation and dephasing. An actual copy/read channel
+may instead carry a declared outcome error $\delta_{\rm read}$ uniform over
+the receiving interval. A transverse exposure during copying is included
+either in the extended hold exposure or in that read error, once.
+
+More explicitly, first append the blank memory, apply the finite write,
+then the full hold channel, append the read qubit and apply its copy unitary.
+Projection onto $|b\rangle_A$ followed by the read-register partial trace
+defines a completely positive instrument map $\mathcal J_b^t$ on the
+retained systems. The two maps sum to a trace-preserving channel.
+No residual source, pointer or environmental cloud is replaced by a pure
+state merely because a classical outcome has been registered.
+For an input already carrying the chapter's ready/failure flags, define
+\begin{equation}
+\begin{gathered}
+\mathcal I_b^t(\widehat\rho)
+     =\mathcal J_b^t(P_{\rm ready}\widehat\rho P_{\rm ready}),
+ \\
+ \mathcal I_{\rm fail}^t(\widehat\rho)
+     =P_{\rm fail}\widehat\rho P_{\rm fail},
+\end{gathered}
+\label{eq:chvi-memory-complete-instrument}
+\end{equation}
+with multiple failure flags kept as separate blocks when supplied. Their
+traces sum to one. Failure is a recorded outcome, not a missing attempt.
+
+For the closed local protocol let the receiving region contain the memory
+worldtube and read apparatus. Its access channel is the local channel just
+specified, available after the finite write/copy completion. Retention is
+tested for one read at any chosen time in its declared interval. Repeated
+reads require their additional copy gates, blank qubits, disturbance and
+work accounts; single-read performance does not automatically pay for them.
+
+For a remote region, an additional causal delivery channel is an explicit
+operand. Before its first allowed arrival $t_{\rm arr}$ the receiver output
+has a common no-access flag, described by the trace-preserving replacement
+map $\omega\mapsto\operatorname{Tr}(\omega)|\bot\rangle\langle\bot|$.
+After arrival, a supplied delivery channel and its error can be composed
+with the memory readout. The actual Chapter~IV hyperbolic propagation
+constrains source-generated changes outside their causal future; neither
+this memory coupling nor the word ``access'' supplies an instantaneous
+remote control. The local construction is complete without selecting a
+new remote carrier. Its remote extension must supply arrival and delivery
+accuracy, rather than infer them from a finite register circuit.
+Memory survival on $[0,T_{\rm store}]$ and remote readability after
+$t_{\rm arr}$ are therefore distinct intervals.
+
+\subsection{The resulting uniform error and resource ledger}
+
+Let $\delta_{\rm acc}=\delta_{\rm read}+\epsilon_{\rm ap}$ include
+the physical aperture term when that response is used. Let $\delta_{\rm init}$
+bound any additional joint ready-state error for
+the analog-pointer and blank-memory receiving preparation, relative to
+the family for which the moment and momentum bounds above hold. Propagate
+this error as a trace distance through the complete instrument. It does
+not imply a second-moment bound for an arbitrary nearby actual state,
+and it is not a second charge for marker preparation. First apply the
+threshold and finite-write estimates to the finite-energy reference pipeline.
+The actual marker preparation is within $\delta_{\rm prep}$ of that
+reference at the original input; contraction through the entire actual
+receiving channel adds $\delta_{\rm prep}$ once at its final output.
+For compact notation write
+$e_{\rm dec}^{\rm r}=e_{\rm dec,ref}^{\rm r}+\delta_{\rm prep}$,
+as in the inherited decoder budget. This notation includes the final
+whole-channel preparation payment; it does not transfer a moment bound
+to an arbitrary nearby actual state.
+Combining the preceding estimates gives the ready-conditional local bound
+\begin{equation}
+ \boxed{\begin{gathered}
+ e_{\rm rec}^{\rm r}
+ \leq\min\left\{1,
+ e_{\rm dec}^{\rm r}
+ +\frac{\mathcal B_{\rm ret}}{(a-w)^2}
+ +r_w+\delta_{\rm init}+\Lambda_{T_{\rm store}}+\delta_{\rm acc}
+ \right\}.
+ \end{gathered}}
+\label{eq:chvi-memory-ready-budget}
+\end{equation}
+All terms are per-label uniform bounds on the states where they are used.
+The threshold argument handles bit/field correlations directly, and the
+channel/hold arguments retain their environment. No independence between
+decoding, analog noise, writing, storage and access is required.
+For a complete attempt with failure probability at most $f$, counted as
+unsuccessful, the bound becomes
+\begin{equation}
+ e_{\rm rec}^{\rm all}\leq f+(1-f)e_{\rm rec}^{\rm r}.
+\label{eq:chvi-memory-all-attempt-budget}
+\end{equation}
+If failure was already included in an all-attempt channel error, it must
+not be charged again by Eq.~\eqref{eq:chvi-memory-all-attempt-budget}.
+
+A rectangular write has peak $\pi/\tau_w$, operator-norm action $\pi$,
+and switch-work variation at most $2\pi/\tau_w$ in the common model chart.
+Indeed its turn-on work lies in $[0,\pi/\tau_w]$ and its turn-off work in
+$[-\pi/\tau_w,0]$. For finite-rest-energy inputs the signed total equals
+the change of pointer rest
+energy when the controller is zero at both endpoints; the spectator
+source--field energy is conserved by this coupling. This signed work is
+not identified with heat. The finite copy pulse has the same action and,
+at duration $\tau_r$, peak $\pi/\tau_r$ and switch-work variation at most
+$2\pi/\tau_r$. Its ideal diagonal-hold commuting limit has cancelling
+signed on/off work; peak and temporary borrow remain charged.
+
+The ledger additionally retains the upstream field-gate and bit-loading
+translation controls, the pointer kinetic preparation, one fresh blank
+memory bit and one read bit per supplied protocol, all failed preparation
+attempts and their ready/failure
+preparation accounts, any hold bath and coupling energy, physical delivery
+when used, and later reset/disposal. A degenerate rest energy is not a
+claim of free pure-state preparation or a Landauer heat formula. A cyclic
+erasure bound would require its own reservoir, temperature and logical
+ensemble. Model energies/work convert through the already declared
+action/time units; no SI calibration is inferred.
+
+For the proposed arithmetic recipient one may use
+\begin{equation}
+\begin{gathered}
+ a=2^{10},\quad w=a/2=2^9,\quad k=2^{-40},
+ \\ T_{\rm analog}=2^{20},\quad\tau_w=2^{-20},\\
+ \sigma^2=C_{\rm prop}^2V_{\rm up}/2+kT_{\rm analog},\\
+ p_2=\frac1{4\sigma^2},\\
+ \mathcal B_{\rm ret}=\mathcal B_{\rm new}+2kT_{\rm analog}.
+\end{gathered}
+\label{eq:chvi-memory-evaluation-inputs}
+\end{equation}
+Here the propagation and detector ceilings retain their previously defined
+source meanings; these equations specify the receiving pointer rather than
+a measured calibration. The analog contribution is
+$4\mathcal B_{\rm ret}/a^2$, and the finite-write allowance $r_w\leq10^{-4}$
+is used only after checking Eq.~\eqref{eq:chvi-memory-write-discrepancy}
+with the corresponding outward inputs.
+A logical hold interval $T_{\rm store}=2^{20}$ with
+$\Lambda_{T_{\rm store}}\leq10^{-4}$, together with
+$\delta_{\rm init}\leq10^{-4}$ and $\delta_{\rm acc}\leq10^{-4}$,
+is an explicit receiving specification, not an observed thermal lifetime.
+The exact local copy/read reference can take $\delta_{\rm read}=0$;
+a finite aperture still retains its separately bounded tail. For the example,
+$\epsilon_{\rm ap}\leq2\cdot10^{-6}$ and
+$\delta_{\rm read}\leq98\cdot10^{-6}$ fit the combined
+$\delta_{\rm acc}\leq10^{-4}$ allowance.
+The diagonal passive hold itself has $\Lambda_T=0$; a nonzero exposure
+budget must be established from the actual admitted transverse interaction.
+These distinctions keep a constructive finite record law, its mathematical
+robustness, and achieved apparatus calibration as separately identified
+parts of the same end-to-end account.
+

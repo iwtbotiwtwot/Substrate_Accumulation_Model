@@ -1,0 +1,384 @@
+\bookchapter{The Physical Spin Source and Its Complete Response Receiver}
+\label{ch:spin-physical}
+
+\subsection{A retained source becomes a quantitative receiver}
+
+The microscopic and composition constructions supply a frustrated-spin source whose visible ports retain a much larger interacting state. Its physical receiver program asks a concrete next question: how much of an original port difference survives a specified history of actual site attempts? The completed work answers with source-derived response intervals, explicit hidden directions and paid refinements of the original finite-system dynamics. Every improvement retains the same Gibbs preparation, all source sites, signed couplings and original attempt clock.
+
+There are eighteen original families, each with \texttt{BASE}, \texttt{H\_MINUS} and \texttt{H\_PLUS} preparations. Each of these fifty-four preparations carries thirty-seven histories, from $N/1000$ through $1000N$ site attempts, giving $1998$ source/history cases. The preparations are distinct Gibbs measures with their original integer inventories. Their inherited count exchanges preserve $N$, inverse temperature, short-source parameters and center. In particular, the exchange $\Delta(P,T,F)=(-12,+7,+3)$ preserves the number of sites because $2(-12)+3(7)+3=0$. Common family parameters permit selected source kernels to be shared; preparation moments and coefficients remain attached to their own measure. \samref{SPR_SOURCE}\samref{SPR_FIFTH}
+
+This chapter is an editorial synthesis of completed source calculations and their derivations. Sean Brady is originator and conceptual director; OpenAI ChatGPT and Codex are research collaborators and co-authors. The residual, source-completion and receiving constructions described below are attributed to Codex in the cited project records. Their completed source and receiver results carry the classification \emph{The test result suggests strong contact with the concept.} The account follows the mathematical mechanism through its successive completed operands, including the current paid source-Dirichlet result.
+
+\subsection{The finite Gibbs system and its physical clock}
+
+The exact inventory separates a labelled twenty-site core from all remaining sites:
+\[
+ (F-6)+2(P+3)+3T+16+4=N.
+\]
+The four ports are $s_0,s_1,s_2,s_3$. Sixteen hidden spins $\tau_p$ carry labels $p\in\{-1,+1\}^4$. The background contains free sites and pair and triangle blocks. Every background block and its integer multiplicity remains in the physical Gibbs law. A conditional twenty-site integral is a way of evaluating that law, with its full background and field payments. \samref{SPR_SOURCE}\samref{SPR_CLOSURE}
+
+Put $\kappa=15\log(3)/128$, $g=2\beta_{\rm ph}\kappa$ and
+\[
+ t_p=\beta_{\rm ph}\kappa+\epsilon\prod_jp_j.
+\]
+For total magnetization $M$, the actual self-excluded port and hidden fields are
+\begin{align*}
+ F_j={}&\frac{\beta_{\rm ph}(M-s_j)}N
+       +\sum_p t_pp_j\tau_p
+       +\zeta\sum_{k\ \mathrm{opposite}}s_k
+       -\mathbf1_{j<2}g s_{1-j},\\
+ F_{\tau_p}={}&\frac{\beta_{\rm ph}(M-\tau_p)}N+t_p(p\cdot s).
+\end{align*}
+A background block of size $b=1,2,3$ and $k$ negative spins has local field
+\[
+ F_{b,k,\sigma}=\frac{\beta_{\rm ph}(M-\sigma)}N
+                         -g(b-2k-\sigma),
+\]
+with the last term absent for a free site. The accepted flip rate is $\rho_i=(1-\sigma_i\tanh F_i)/2$. After flipping $\sigma_i$, the physical field changes by $-2\beta_{\rm ph}\sigma_i/N$. The original state and the actual post-flip state therefore enter every higher action.
+
+Let $P$ attempt one uniformly selected site and perform its original heat-bath update. The self-adjoint positive generator in the original Gibbs inner product is
+\[
+\begin{gathered}
+A=N(I-P)=\sum_{i=1}^NQ_i,
+ \\
+Q_i=I-P_i,
+ \\
+\langle f,g\rangle_\pi=\sum_x\pi(x)f(x)g(x).
+\end{gathered}
+\]
+Each $P_i$ is the corresponding conditional expectation. Consequently
+\[
+ \langle f,Af\rangle_\pi
+ =\frac12\sum_i\mathbb E_\pi\rho_i(x)[f(x)-f(x^i)]^2.
+\]
+This Dirichlet form is a physical source payment. Its sum includes all $N$ sites, rather than treating the twenty core sites as an autonomous process.
+
+In $A$-time $t$, the Poissonized attempted-site count has mean $Nt$. The positive parameter $\xi$ selects mean history $N/\xi$. Thus $\xi=1$ denotes $N$ attempts and $\xi=10^{-3}$ denotes $1000N$ attempts. The source clock is unchanged across lower and upper refinements. A numerical seconds calibration belongs to the source's radius/action/receiving map, with its own physical input.
+
+\subsection{Which hidden field the visible ports receive}
+
+The hidden source has a direct physical signature before the higher receiver is assembled. For an undirected port-flip edge with port endpoints $a,b$, retain every outside configuration $w$ and write $a_w=\pi(a,w)$, $b_w=\pi(b,w)$. Its actual heat-bath conductance satisfies
+\[
+ Nc_e=\sum_w\frac{a_wb_w}{a_w+b_w}.
+\]
+Let $p_a=\sum_w a_w$, $p_b=\sum_w b_w$ and let the old outside receiver be $Y=(H,\mathrm{REST}_M/N)$, where $H$ sums all sixteen hidden spins. The complete conditional-variance payment is the difference between $p_ap_b/(p_a+p_b)$ and this actual conductance. Projection onto $Y$ captures a specified part $\delta_e$; the residual is
+\[
+ R_e=\frac{p_ap_b}{p_a+p_b}-\delta_e-Nc_e.
+\]
+This expression uses the original Gibbs probabilities and the same original site-attempt clock. The completed direct source integration returns strictly positive $R_e$ on all $1728$ port edges across the fifty-four preparations, approximately $0.008606953673$ to $0.025828459100$. \samref{SPR_CONDITIONAL}
+
+The original hidden sum $H$ is informative but does not determine the signed combinations in each port field. Across the complete panel, the old hidden/rest projection captures at most $0.0295005\%$ of the full conditional-variance payment. The actual conductance is $51.178341$--$55.128475\%$ below the previous projected envelope. These source results explain why a larger receiving state is useful: a port's next conditional response can retain information that its present two-observable outside readout omits.
+
+The source residuals retain this information explicitly. Put $p=s_2s_3$ and
+\[
+ \chi_j=\tanh F_j-\mathbb E[\tanh F_j\mid\text{all four ports}].
+\]
+The inherited physical map gives
+\[
+ u_d=\chi_0-\chi_1,\qquad
+ u_e=p u_d-dp(s_2\chi_2+s_3\chi_3).
+\]
+For hidden coefficients $(a,b)$, the actual source function is therefore
+\[
+ au_d+bu_e=(a+bp)(\chi_0-\chi_1)
+                         -bdp(s_2\chi_2+s_3\chi_3).
+\]
+Both signed contributions remain. A generalized direction in the later Gram calculation consequently represents an identifiable combination of real source force contrasts. Its retained lift and its complementary payment can be tracked together. This source interpretation is what connects the finite matrix receiver to the original frustrated spin system.
+
+\subsection{The observable, the resolvent and the original retained matrices}
+
+The exchange-odd observed difference is $d=s_1-s_0$, with its companion $e=d s_2s_3$. Equivalently these are the original Walsh differences $f_1-f_2$ and $f_{13}-f_{14}$, in their recorded label order. Global reversal makes them odd, so their Gibbs means vanish. The geometric-history response and its normalized version are
+\[
+\begin{gathered}
+R(\xi)=\langle d,(A+\xi)^{-1}d\rangle_\pi,
+ \\
+\mathcal R(\xi)=\frac{\xi R(\xi)}V,
+ \\
+V=\langle d,d\rangle_\pi.
+\end{gathered}
+\]
+The Laplace-resolvent identity ties this to the original correlation history. For any trial source function $v$,
+\[
+ R(\xi)\geq2\langle d,v\rangle_\pi
+                       -\langle v,(A+\xi)v\rangle_\pi.
+\]
+A finite receiver supplies a lower bound by optimizing this variational expression in its retained span. Its coefficients are selected by source matrices, without fitting a response target. \samref{SPR_FIFTH_DERIV}\samref{SPR_HIDDEN_NEXT}
+
+The retained four-coordinate row is $b_4=(d,e,u_d,u_e)$. Here $u_d,u_e$ are the first orthogonal source residuals, and $w_d,w_e$ are the next residual pair. Their precise identities are
+\[
+\begin{gathered}
+\langle b_4,w\rangle=0,\\
+Ab_4=b_4H+wE^T,\\
+G=\langle b_4,b_4\rangle,\\
+D=\langle b_4,Ab_4\rangle,
+ \\
+H=G^{-1}D,
+\end{gathered}
+\]
+where $E$ inserts two coordinates into the $u_d,u_e$ slots, and $W=\langle w,w\rangle$. Thus
+\[
+ T_4=\langle Ab_4,Ab_4\rangle=DG^{-1}D+EWE^T.
+\]
+Every diagonal and mixed entry has a source meaning. The same source Grams provide the statistical metric used by the receiver.
+
+The completed fifth direction is $w_d$, originally also labelled $g_1$. Its Dirichlet scalar $J_{11}=\langle w_d,Aw_d\rangle$ is calculated for all fifty-four preparations, spanning approximately $1.0498917407$ to $1.0501393447$. The rate quotient $J_{11}/\langle w_d,w_d\rangle$ spans $4.5960309380$ to $4.5961429481$ in $A$-units; its per-site-attempt relaxation rate is that quotient divided by $N$.
+
+With $b_5=(b_4,w_d)$,
+\[
+ G_5=\begin{pmatrix}G&0\\0&W_{11}\end{pmatrix},\qquad
+ D_5=\begin{pmatrix}D&k\\k^T&J_{11}\end{pmatrix},
+ \qquad k=EWe_1.
+\]
+Writing $g_5=G_5[:,0]$, the completed lower is $L_5=g_5^T(\xi G_5+D_5)^{-1}g_5$. It improves all $1998$ original cases. Around $N$ attempts it removes about $22.953$--$22.955\%$ of the preceding upper-minus-lower interval. At $1000N$, the smaller $0.049978$--$0.049997\%$ removal identifies the long-history upper as a productive next source question. These percentages compare receiving bounds at the original clock; they do not assign an exact mode amplitude.
+
+\subsection{The receiver forces one hidden generalized direction}
+
+An upper receiver uses the unchanged original odd-sector source certificate $A\geq\gamma I$. The local-field construction supplies family bounds $\gamma\simeq0.02658127$--$0.02666111$ in $A$-units. Its complete comparison retains the signed inverse matrices, original fibers and all background updates. A signed matrix with positive spectrum is handled through its trace powers; entrywise positivity is unnecessary. \samref{SPR_CONNECTIONS}
+
+The family gap itself has an exact local-field mechanism. Remove the mutual interaction from the two central port fields and write them as $a,b$, with common part $h=(a+b)/2$ and difference $\Delta=a-b$. The conditional exponent is $Ks_0s_1+h(s_0+s_1)+(\Delta/2)(s_0-s_1)$, where $K=-g+\beta_{\rm ph}/N$. Eliminating the two equal-spin intermediate states in the original two-path conductance gives the uniform common-field factor
+\[
+ c(\Delta)=\min\left(1,
+       \frac{2\cosh\Delta}{\cosh\Delta+e^{-2K}}\right).
+\]
+The actual signed hidden-pair difference determines $\Delta$; the full update-force difference also includes the mutual-pair term and remains a different quantity. This distinction fixes the factor of two and the sign in the comparison.
+
+Summing the local energy inequalities over disjoint original pairs and averaging over their actual Gibbs fibers gives a bound on the full $A$. Remaining site updates contribute their nonnegative Dirichlet energy. All sixteen mixed active subsets reduce by exact coupling symmetry to nine class representatives; the equal-port and empty mixed fibers stay. The largest star has thirty-two states and sixteen odd coordinates. Trace-power bounds of its signed inverse supply the completed family certificate without erasing negative matrix entries. This source-local reduction therefore improves a full finite-$N$ coercivity operand while preserving its microscopic fields and clock. \samref{SPR_CONNECTIONS}
+
+For the optimized four-coordinate receiver define
+\[
+ Z=(D-\gamma G)^{-1}EW,\qquad B_h=Z^TGZ.
+\]
+If $c_u$ is the receiver's two-component hidden coefficient, the retained and complementary residual payments are exactly $c_u^TB_hc_u$ and $c_u^TWc_u$. Their sum is the whole residual norm. The generalized eigenproblem for $(B_h,W)$ resolves two source-metric directions. Its roots span approximately $0.48672930$--$0.48796229$ and $1.46304897$--$1.46350070$ across the preparations. The allowed retained-share extrema $\lambda/(1+\lambda)$ consequently range near $32.74\%$ and $59.40\%$. The payment ratio genuinely varies across source directions. \samref{SPR_HIDDEN}\samref{SPR_HIDDEN_DERIV}
+
+Metric projectors $P_\pm$ split the actual coefficient. Complementary weights and whole-residual weights differ:
+\[
+ p_\pm=\frac{c_u^TWP_\pm c_u}{c_u^TWc_u},\qquad
+ \omega_\pm=\frac{(1+\lambda_\pm)p_\pm}
+                   {1+\lambda_-p_-+\lambda_+p_+}.
+\]
+The $\omega$ weights average the retained-share extrema. Using the $p$ weights in that average would mix two different payments. The full residual functions
+\[
+ q_\pm=b_4ZP_\pm c_u-wP_\pm c_u
+\]
+are orthogonal, so the decomposition concerns actual source functions, including their retained lifts and hidden complements.
+
+In every one of the $1998$ cases, the larger generalized direction carries more than $99.99999\%$ of the whole residual payment. The receiver retained share lies near $59.39991$--$59.40736\%$, with within-preparation history variation at most $0.000002175$ percentage points. The stable split follows a highly aligned actual forcing, although other directions permit substantially different shares. This result selects a useful mathematical route: calculate the missing action of that source residual instead of repeatedly rotating an already aligned receiving direction.
+
+\subsection{A Schur map separates source action from receiving geometry}
+
+The completed five-coordinate lower needs $G_5,D_5$. Its corresponding upper additionally needs $T_5=\langle Ab_5,Ab_5\rangle$. Source self-adjointness reduces all missing entries to just
+\[
+ J_{21}=\langle w_e,Aw_d\rangle,\qquad
+ F_{11}=\langle Aw_d,Aw_d\rangle.
+\]
+The full cross column is $t=H^Tk+E(J_{11},J_{21})^T$, so
+\[
+ T_5=\begin{pmatrix}T_4&t\\t^T&F_{11}\end{pmatrix}.
+\]
+The signed mixed $J_{21}$ and the squared-action norm $F_{11}$ are different observables. Neither is replaced by $J_{11}$. \samref{SPR_HIDDEN_NEXT}
+
+For $r_\gamma=(D_5-\gamma G_5)e_d$ and
+\[
+ K_{\gamma,5}=T_5+(\xi-\gamma)D_5-\xi\gamma G_5,
+\]
+the source upper is
+\[
+ U_5=\frac{V-r_\gamma^TK_{\gamma,5}^{-1}r_\gamma}{\xi+\gamma}.
+\]
+It follows by paying the full residual $q=d-(A+\xi)v$ through $\|q\|^2/(\xi+\gamma)$ and minimizing over $v\in\operatorname{span}b_5$. The fifth component of $r_\gamma$ is zero, but the fifth row and column of $K_{\gamma,5}$ still couple to the retained receiver.
+
+Before the two source contractions were integrated, the completed Schur analysis calculated the exact scalar dependence
+\[
+ U_5=U_4-
+ \frac{(a_0+a_1J_{21})^2}
+ {(\xi+\gamma)(F_{11}+s_0+s_1J_{21}+s_2J_{21}^2)}.
+\]
+All coefficients are source-bound, with signed mixed entries retained. A source Gram inequality imposes the necessary parabola
+\[
+\begin{gathered}
+F_{11}\geq k^TG^{-1}k+\frac{J_{11}^2}{W_{11}}
+ +\frac{(J_{21}-\alpha J_{11})^2}{\delta_W},
+ \\
+\alpha=W_{21}/W_{11},\\
+\delta_W=W_{22}-W_{21}^2/W_{11}.
+\end{gathered}
+\]
+This is an admissible-moment floor, rather than a measured source value. \samref{SPR_SCHUR}\samref{SPR_SCHUR_DERIV}
+
+Each history has an algebraic extremizing $J_{21}^*(\xi)$, obtainable directly from the completed lower receiver without $\gamma$. Yet one original source pair $(J_{21},F_{11})$ must serve all thirty-seven histories. Shortest- and longest-history extremizer intervals are disjoint in twenty-seven of fifty-four preparations. Their separate history extrema therefore cannot both describe that one physical source. The shared-source constraint explains why source integration, rather than choosing a favorable pair independently for each history, is the decisive receiving operand.
+
+\subsection{Completing the two original source contractions}
+
+The original-source calculation evaluates $J_{21},F_{11}$ for all fifty-four preparations. It enumerates every $16\times65536=1{,}048{,}576$ core assignment and all twenty core flips, including actual post-flip mean fields. The seven source features are
+\[
+ \phi=(d,e,Cd,Ce,C^2d,C^2e,C^3d),\qquad A=C+B,
+\]
+where $C$ is the sum of core updates and $B$ contains all background sites. Their full signed Gram supplies the core contractions. Original Arb rate caches, complete normalized Chebyshev moments and source normalizers are reused with their original bindings. \samref{SPR_UPPER_SOURCE}\samref{SPR_UPPER}
+
+The exact decomposition is $w_d=K_d+Bh_d$, $h_d=Cd$, with
+\[
+ Aw_d=CK_d+\epsilon_d,
+ \qquad\epsilon_d=BK_d+CBh_d+B^2h_d.
+\]
+The background remainder includes core/background cross terms, background-field changes and same-block changes. If $a=\beta_{\rm ph}/N$, conditional background-block independence in the auxiliary field gives finite-$N$ norm bounds. For example,
+\[
+ \|Bh\|_{\rm aux}\leq
+ 2aH_1\sqrt{3(N-20)}+(N-20)a^2(H_1+2H_2).
+\]
+The physical Gibbs law receives a separate heat-transfer payment on each complete observable, with factor $a/(\pi/4)^2$ and the appropriate analytic-strip envelope. Thus auxiliary conditional independence is used in its stated calculation space and is paid when the result is transferred to the physical source.
+
+The $J_{21}$ enclosure keeps its signed core/background error; $F_{11}$ retains both its signed cross interval and positive remainder square. Interpolation, complete infinite tails, arithmetic and inherited coefficient uncertainty propagate into each result. For \texttt{V000\_BASE}, displayed intervals are approximately $J_{21}\in[1.0532051,7.4632747]\times10^{-5}$ and $F_{11}\in[6.3832583,6.3834661]$. The actual mixed sign is preserved in every preparation.
+
+With those operands, all $1998$ new upper enclosures are strictly below the retained prior upper. At $1000N$, normalized upper ranges improve from $0.01735396$--$0.01739903$ to $0.01105964$--$0.01108194$, removing $54.76884$--$54.77327\%$ of the previous $U_4-L_5$ interval. Independent direct full-five and scalar Schur routes overlap in all $222$ expanded pilot/history comparisons. In six pilots the source-action excess above the moment parabola is near $1.421$, while the long-history direction factor is essentially one. The remaining upper payment is consequently located in source action, with the aligned geometry already accounted for.
+
+\subsection{Actual finite-source closure and retained memory}
+
+The completed receiving spans are useful projections of a finite source. Their exact action can also be followed. Since the residual definitions have leading coefficient one, their spans equal
+\[
+\begin{gathered}
+V_5=\operatorname{span}(d,e,Ad,Ae,A^2d),\\
+V_7=V_5+AV_5
+ =\operatorname{span}(d,e,Ad,Ae,A^2d,A^2e,A^3d).
+\end{gathered}
+\]
+The literal-source calculation evaluates those functions at actual configurations, with every background multiplicity and self-excluded rate retained. A certified nonzero point minor establishes independence in the original Gibbs space because each literal configuration has positive Gibbs mass. \samref{SPR_CLOSURE}\samref{SPR_CLOSURE_REPORT}
+
+Every preparation has ten independent functions through paired power four. The actual outgoing residual of $V_7$ has exact rank two in all fifty-four cases; $V_9$ remains noninvariant. The selected deeper \texttt{V001\_BASE} calculation reaches fourteen independent functions, with $V_{13}$ still carrying an outgoing direction. Thus the smallest invariant source dimension is at least ten throughout the panel and at least fourteen in that deeper source. An explicit symmetry-lumped invariant upper space is also constructed using the exact free/pair/triangle occupancy multiplicities. Its dimension is finite, with ninety-six to 342 decimal digits across the preparations. The smallest invariant span remains the exact Krylov union, to be identified by an invariant action or minimal-polynomial identity.
+
+Projection explains the physical consequence. In an orthogonal retained/complement split,
+\[
+ A=\begin{pmatrix}B&C^*\\C&D\end{pmatrix},\qquad
+ K(t)=C^*e^{-Dt}C.
+\]
+The retained equation receives both this memory kernel and the term from an initially prepared complement. For the seven-span source, $K(t)$ has rank two at every finite original source time. Its norm is a separately determined quantity. If a nonorthonormal basis has Gram $G_b$, the residual bilinear Gram is $L_b=T_b-D_bG_b^{-1}D_b$, and its physical norm uses $G_b^{-1/2}L_bG_b^{-1/2}$. Ordinary coordinate eigenvalues of $L_b$ would use another metric.
+
+The full-source bound also gives
+\[
+ \|\Pi e^{-At}|_V-e^{-Bt}\|
+ \leq\tfrac12t^2e^{-\gamma t}\|K(0)\|.
+\]
+This connects a source residual to a paid finite-time receiving error in the original $A$-clock. Pointwise closure certificates and integrated global residual moments retain their respective scopes; the latest Dirichlet calculation below supplies one of the identified global source payments.
+
+\subsection{Sharper payments and finite-parameter receiving}
+
+Before adding a new source observable, the program also reuses completed operands to sharpen the paid receiver. The cloud finite-$\theta$ pilot evaluates $\theta=10^{-12},10^{-15}$ on the original signed physical/background forms. It improves retained maximum lower endpoints in $886$ histories; the other $1112$ preserve earlier maxima. The smaller parameter is the sole supplier in $852$ cases and ties above the old maximum in thirty-four more. The head-to-head outcome includes wins, losses and ties, so the retained record uses actual endpoint selection rather than treating smaller $\theta$ as uniformly better. Positive normalized gains span approximately $1.82\times10^{-31}$ to $1.93\times10^{-13}$. \samref{SPR_PILOT}
+
+The completed local C1 payment cycle then calculates quarter-factor and full signed four-corner operands for all fifty-four preparations. Four-corner upper payments are about $0.3337579$ times corresponding trace lower endpoints; quarter trace payments are about $0.5000000$ times the original trace lower endpoints. These compare payment coefficients. Their receiving consequences are recorded separately. Across $3576$ history/variant cases, $11{,}796$ receiving evaluations have positive supports, and stationary proposals have their native derivative flanks. All $1998$ original-trace cases are evaluated, but this cycle improves zero retained canonical endpoint maxima. Prior maxima, ties and their actual suppliers remain intact. \samref{SPR_C1}
+
+That outcome has mathematical content. A smaller physical payment and a tighter recorded response endpoint are different objects when the latter repeats correlated source intervals. The preserved variational-increment construction holds the certified old receiver fixed and bounds a positive increment separately. If a valid sharper payment changes a positive Schur form from $S$ to $S-E$, $E\geq0$, its old receiver $x=S^{-1}z$ gives
+\[
+ z^T(S-E)^{-1}z\geq z^TS^{-1}z+x^TEx.
+\]
+The increment can be added to the exact retained old lower endpoint with full source uncertainty. This is a useful source-preserving receiving route, while full interval stationary-root coverage retains its recorded continuation status. \samref{SPR_INCREMENT}
+
+\subsection{The new source-edge Dirichlet observable}
+
+The latest completed scientific result enriches the source itself. Reuse $G_5,D_5,T_5$ and define
+\[
+ k=D_5[:,4],\quad c=G_5^{-1}k,\quad
+ r=Aw_d-b_5c,
+\]
+\[
+ \beta_r=F_{11}-k^Tc,\qquad
+ h=T_5[:,4]-D_5c.
+\]
+Here $c$ projects the actual source function $Aw_d$ in the Gibbs metric. It is distinct from a receiving parameter chosen separately at each $\xi$. The new direction $r$ is orthogonal to $b_5$, with squared norm $\beta_r$. Only its Dirichlet scalar $d_r=\langle r,Ar\rangle$ is needed to add it to a lower receiver. One source payment serves all thirty-seven histories. \samref{SPR_EDGE_DERIV}
+
+The direct edge identity
+\[
+ d_r=\frac12\sum_{i=1}^N\mathbb E_\pi
+                 \rho_i(x)[r(x)-r(x^i)]^2
+\]
+avoids explicitly forming a fourth source action. The new kernel integrates the complete seven-feature core edge Gram,
+\[
+ E_{{\rm core},ij}(y)=\frac12\sum_xw_y(x)
+          \sum_{\ell=1}^{20}\rho_\ell(x)
+              \Delta_\ell\phi_i\,\Delta_\ell\phi_j.
+\]
+All million labelled core states and all twenty updates participate. Seven first-action, five second-action and three third-action layers retain the actual post-flip fields. The expanded source cache contains $38{,}947$ dyadics; all $27{,}555$ common original entries are authenticated against their retained values. One family kernel serves its three original preparations through their own coefficient maps and moments.
+
+This new observable has its own numerical envelope. The seven feature amplitudes are bounded by $(2,2,4,12,160,480,6400)$. An edge-Gram entry has analytic envelope $40A_iA_j$, whose largest multiplier is $1{,}638{,}400{,}000$. The interpolation payment is enlarged accordingly; the complete omitted tail and every signed arithmetic path are paid entrywise. The original normalizers, moments and source intervals remain, with $144$ new positive source nodes across the eighteen families. \samref{SPR_EDGE_DERIV}\samref{SPR_EDGE_REVIEW}
+
+\subsection{From the core edge integral to the full physical certificate}
+
+The physical source residual splits exactly as $r=r_{\rm core}+v$, with
+\[
+ r_{\rm core}=CK_d-b_{\rm core}c,\qquad
+ v=\epsilon_d-c_4Bh_d.
+\]
+The new edge Gram supplies the full signed quadratic contraction $I_{\rm aux}$ of $r_{\rm core}$. The inherited complete background bounds give $\|v\|_{\rm aux}\leq\varepsilon+|c_4|b_d$. Analytic-strip bounds and the heat-transfer lemma then produce
+\[
+ \|v\|_\pi^2\leq\delta_\pi^2,
+ \qquad\langle r_{\rm core},Cr_{\rm core}\rangle_\pi
+                                  \leq I_{\pi,\rm upper}.
+\]
+Both contain their full physical-field correction. The physical core satisfies $0\leq C\leq20I$, so its Dirichlet triangle inequality pays the complete core mixed term. Adding the inherited background sensitivity yields
+\[
+ d_r\leq
+ \left(\sqrt{I_{\pi,\rm upper}}+\sqrt{20\delta_\pi^2}\right)^2
+ +\frac{(N-20)(\beta_{\rm ph}/N)^2L_r^2}{2}.
+\]
+The square retains the source/complement interference through an explicit upper payment. All background words, finite-$N$ corrections, source coefficients, tails and numerical errors stay in the certificate. \samref{SPR_EDGE_DERIV}
+
+The completed auxiliary core integral spans approximately $9.7459912$--$9.7487630$. After the physical and background payments, the receiving upper certificate spans $9.7473121$--$9.7579030$. The preceding local-cap range was $28.4187261$--$28.4263969$. Comparing these certificate upper endpoints gives a $65.6713$--$65.7013\%$ reduction. This percentage describes the paid cap comparison. The completed source result supplies an upper enclosure for $d_r$, retaining exact $d_r$ as its separately defined source quantity. \samref{SPX_DIRICHLET}
+
+For $K=\xi G_5+D_5$ and $g=G_5[:,0]$, the new separate six-coordinate lower is
+\[
+ L_6=L_5+
+ \frac{(h^TK^{-1}g)^2}
+ {\xi\beta_r+d_{r,\rm upper}-h^TK^{-1}h}.
+\]
+Every one of its $1998$ Schur denominators is strictly positive, and every native gain is positive. Independent full-six solves overlap the Schur route in all $108$ first/last-history controls. The scalar certificate is used in this separate valid one-direction receiver. A joint two-direction matrix requires its own signed mixed block and positive-semidefinite ordering.
+
+\begin{table*}[tbp]\centering\small
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}p{0.16\textwidth}>{\raggedright\arraybackslash}p{0.48\textwidth}}
+\hline
+Line&Status&Retained result or exact continuation\\
+\hline
+Fifth source and $T_5$ upper&Completed&$J_{11}$, then $J_{21},F_{11}$, all original $1998$ lower/upper cases.\\
+Finite-$\theta$ pilot&Completed&$886$ improved maxima; $1112$ retained prior maxima.\\
+Local C1 payment cycle&Completed&Sharper paid forms; all original-trace cases; zero improved endpoint maxima in that cycle.\\
+Source-edge Dirichlet&Completed&Paid one-residual scalar upper and separate six-coordinate lower for all $1998$ cases.\\
+C2 payment cycle&Stopped incomplete&Fifty-one retained returns; explicitly included WORD snapshot governs the frontier comparison.\\
+RAM workstore comparison&Partial three-arm&DISK\_A and RAM complete; DISK\_B partial; full native cold recovery prepared but unexecuted.\\
+Mixed two-residual block&Proposed&Reuse the measured edge Gram, add full joint physical/background cross-term ordering.\\
+Next squared-action norm&Proposed&Supply $\|Ar\|^2$ through its own source observable and complete payments.\\
+\hline
+\end{tabular}
+\vspace{-12pt}
+\end{table*}
+
+\subsection{The completed endpoints and their exact comparison scopes}
+
+Three useful statements follow from the latest result. First, all $1998$ new native gains are positive relative to the retained five-coordinate lower. Second, the new lower endpoints exceed the old local-cap \emph{upper endpoints for those lower-receiver evaluations} in $1989$ histories. That endpoint separation shows a resolved improvement of that receiving construction; those upper endpoints were not full response upper bounds. Third, all $1998$ new lower endpoints improve the separately selected frozen-C1 plus included-C2 native exact-variational frontier. These are different comparisons, with different inherited endpoints. \samref{SPX_DIRICHLET}\samref{SPR_FRONTIER}
+
+The C2 comparison is pinned to the native WORD snapshot observed on 17 October 2026 at 05:49:34 UTC. Other C2 routes are outside that comparison. C2 was subsequently stopped by the user at 05:53:06 UTC with fifty-one retained returns and twenty-seven uncollected admissions. Its status is \texttt{STOPPED\_INCOMPLETE}; the new source result neither finalizes that campaign nor changes its retained observations.
+
+The normalized new lower intervals, as outer ranges over the fifty-four preparations, are
+\[
+\begin{array}{c|c}
+\text{Mean original attempts}&\text{New normalized lower range}\\
+\hline
+N &[0.8353317612,\ 0.8353910019]\\
+10N &[0.3668636508,\ 0.3669667635]\\
+100N &[0.0559939180,\ 0.0560174161]\\
+1000N &[0.0059113331,\ 0.0059139456]
+\end{array}
+\]
+Exact rational endpoints retain every preparation and all thirty-seven history labels. The $1998$-case frontier comparison is exact selection among supplied immutable endpoints; it adds no new source calculation. The completed scientific run contains $24{,}462$ native receiving matrix calls, and the retained selected-root cold recovery covers fifty-five sessions and $163$ native GETs, with no numerical replay. All $84{,}714$ original evidence files checked afterward remain unchanged.
+
+At $1000N$ attempts, the completed sequence can be read in one common normalization. The original fifth-direction lower had an outer lower endpoint near $0.00586236$. The source-preserving finite-parameter pilot retained lower endpoints around $0.005876874$--$0.005879484$. The new paid edge receiver raises its outer range to $0.0059113331$--$0.0059139456$, while the completed $T_5$ response upper remains available around $0.01105964$--$0.01108194$. These displayed ranges summarize different preparations; the exact matched endpoint tables establish the individual comparisons. The progression changes the certified receiving interval through identified source or payment operands while keeping the same observable, physical Gibbs measure and attempt history. It gives a concrete long-history example of why a new source action payment can be more productive than repeating a scalar-parameter grid on unchanged moments. The source's physical time and energy conversion can then be attached to an already explicit response and clock, with its original normalization visible.
+
+\subsection{Completed sources, selected continuations and cross-volume use}
+
+The current record separates source science, receiving optimization and runtime comparison. Its main statuses are compactly stated below.
+
+
+
+The later RAM experiment compares execution/storage on completed operands. DISK\_A and RAM return identical mathematical payloads for all fifty-four preparations and $1998$ histories. Native workstore time changes from $128.69$ to $26.28$ seconds, while durable publication changes from $45.88$ to $110.35$ seconds; their sum improves from $174.57$ to $136.63$ seconds. The third disk arm remains partial. Archive custody passes; prepared native cold recovery was not executed after the owner's pivot. These measurements describe that closed comparison and introduce no new source integral. \samref{SPR_RAM}
+
+The latest scientific follow-up names two distinct operands. The completed seven-feature edge data already contains the core bilinear information for $r_e=w_e-\lambda w_d$ and $r=Aw_d-b_5c$. The full $2\times2$ Dirichlet block needs joint physical-field/background and signed cross-term payments establishing the whole matrix ordering. The separate next upper-response target, $\|Ar\|^2$, needs additional action observables. Neither is assigned a numerical value by the completed scalar certificate. Exact $d_r$, the smallest invariant closure and the next global action norms retain their defined places in the source program. \samref{SPR_EDGE_NEXT}
+
+This receiver chapter supports three connections across SAM. Volume I receives an explicit finite-source time convention, a normalized response and source-metric memory, complementing its accumulation, action and clock constructions. The matter chapters receive a concrete method for carrying an occupied source through a changed physical receiver: retain signed mixed functions, full finite inventory, physical field transfer and complete preparation payments before interpreting the result. Volume III receives executable source functions, exact matrix contracts, retained histories and dependency-bound results. The common count fifty-four in the separate electron sweep supplies no row correspondence with these spin preparations; actual source maps establish any physical join.
+
+The completed progression is consequently a detailed physical source/receiver account: original Gibbs flips determine moments, moments determine hidden direction and action, actual source action tightens upper response, and a newly paid edge observable raises the lower response. Its physical field, background, norm and clock remain identifiable at each stage, so the resulting information can be received and reused across volumes with its original meaning.

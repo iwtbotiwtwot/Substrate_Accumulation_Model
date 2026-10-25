@@ -1,0 +1,370 @@
+% Chapter VI source-only decoder successor, 17 October 2026.
+% LaTeX fragment; requires amsmath and amssymb, without a theorem package.
+% Agent-originated derivation; no native execution or apparatus realization.
+
+\section{A source-only decoder for the retained interacting clock}
+\label{sec:chvi-source-decoder}
+
+\paragraph{Provenance and receiving assumptions.}
+The decoder and bounds below are agent-originated derivations by OpenAI
+ChatGPT and Codex from the retained Chapter~I clock observable and its
+Chapter~VI route interpretation. The source equations are in
+\texttt{CHAPTER\_I\_MODEL.md}, Sections~2 and~5: the exact source-lane
+restrictions, $Z=(D+iC)/d$, the reference expectation
+$h(t)=Me^{-i\Omega t}$, and the actual bound $|z(t)-h(t)|\leq E(t)$.
+The original signed coupling, both field polarizations, even source energy
+and counterterms remain in the actual evolution that supplies $z$.
+The ideal POVM at apparatus entry is source-only. During a finite physical
+readout the same full Hamiltonian can continue to correlate source and
+field; an implemented joint instrument must then approximate this ideal
+POVM on the specified entry states. No direct field readout is prescribed.
+Section~\ref{sec:chvisd-finite-readout} supplies that finite control and
+pointer construction with its explicit drift allowance.
+
+We retain the chapter's conditional route law: the complete marker starts
+in its declared exact hard-eigenbranch/soft-vacuum preparation $\Psi_0$,
+uncorrelated with the route label, and route $j$ supplies
+$e^{-iH_0\eta_j}\Psi_0$. The source output is the partial trace over the
+\emph{complete} field. No field fragment is measured by this decoder.
+
+\subsection{The quadrature embedded in all sixteen source states}
+
+Let $|q_a\rangle$ be the normalized ordered eigenvectors of the original
+four-state source matrix $Q$. For one chosen lane $a<b$, abbreviate
+$|ab\rangle=|q_a\rangle\otimes|q_b\rangle$ and define operators on
+$\mathbb C^4\otimes\mathbb C^4$ by
+\begin{equation}
+\begin{aligned}
+ P&=P^{\rm lane}_{ab}=|ab\rangle\langle ab|+|ba\rangle\langle ba|,\\
+ Z_{ab}&=|ab\rangle\langle ab|-|ba\rangle\langle ba|,\\
+ X_{ab}&=PSP,\qquad Y_{ab}=iSZ_{ab},
+\end{aligned}
+\label{eq:chvi-decoder-embedded-paulis}
+\end{equation}
+where $S$ is the original full source swap. On the ordered lane
+$(|ab\rangle,|ba\rangle)$ these are $I,\sigma_z,\sigma_x,\sigma_y$;
+$Z_{ab}$, $X_{ab}$ and $Y_{ab}$ vanish on the other fourteen source
+states. In particular $Y_{ab}$ is Hermitian,
+$Z_{ab}^2=Y_{ab}^2=P$, and $Z_{ab}Y_{ab}+Y_{ab}Z_{ab}=0$.
+The complex clock observable embedded in this lane is
+\begin{equation}
+\begin{gathered}
+Z^{\rm clk}_{ab}=Z_{ab}+iY_{ab}
+   =\frac{P(D+iC)P}{d_{ab}},
+ \\
+ d_{ab}=q_a-q_b<0.
+\end{gathered}
+\label{eq:chvi-decoder-clock-operator}
+\end{equation}
+Every displayed source operator acts as its tensor product with the
+identity on the field. Thus this is the original source observable,
+not an observable requiring joint access to a dressed hard-field state.
+
+The projector $P$ commutes with $Q_L,Q_R,S,D,C$ and preserves the common
+energy form domain. It consequently reduces the retained form-sum
+Hamiltonian. The exact lane preparation stays in this lane under $H_0$.
+Writing its reduced source state at age $t$ as $\rho_S(t)$, we therefore
+have
+\begin{equation}
+\begin{aligned}
+ z(t)&=\operatorname{Tr}[\rho_S(t)Z^{\rm clk}_{ab}],\\
+ O_\chi&=\frac{e^{-i\chi}Z^{\rm clk}_{ab}
+                    +e^{i\chi}(Z^{\rm clk}_{ab})^*}{2}
+       =\cos\chi\,Z_{ab}+\sin\chi\,Y_{ab},\\
+ O_\chi^2&=P,\qquad \|O_\chi\|=1,\qquad
+ m_j(\chi)=\operatorname{Re}[e^{-i\chi}z(\eta_j)].
+\end{aligned}
+\label{eq:chvi-decoder-quadrature}
+\end{equation}
+
+For an explicitly complete binary measurement, assign every state outside
+the nominated lane to label zero:
+\begin{equation}
+\begin{gathered}
+E_1(\chi)=\frac{P-O_\chi}{2},\\
+ E_0(\chi)=I_{16}-E_1(\chi).
+\end{gathered}
+\label{eq:chvi-decoder-complete-povm}
+\end{equation}
+These are orthogonal projections and sum to $I_{16}$. On the lane they
+are $(P\mp O_\chi)/2$; on its complement $E_0=I$ and $E_1=0$.
+The full binary observable is accordingly
+$E_0-E_1=(I_{16}-P)+O_\chi$, rather than $O_\chi$ on the complement.
+No population has been dropped, and no success-conditioned
+renormalization is used. For lane-supported states the conditional
+correct-label probabilities are
+\begin{equation}
+\begin{gathered}
+p(0|0)=\frac{1+m_0(\chi)}{2},\\
+ p(1|1)=\frac{1-m_1(\chi)}{2}.
+\end{gathered}
+\label{eq:chvi-decoder-correct-probabilities}
+\end{equation}
+These probabilities and their worst-label bounds do not require balanced
+label priors.
+
+\subsection{General ages and a source-only discrimination witness}
+
+\noindent\textbf{Proposition (quadrature contrast).}
+For two exact lane-supported source outputs, let
+$z_j=z(\eta_j)$ and
+$D_S=\tfrac12\|\rho_S(\eta_0)-\rho_S(\eta_1)\|_1$.
+Then
+\begin{equation}
+ D_S\geq\frac{|z_0-z_1|}{2}.
+\label{eq:chvi-decoder-source-distance}
+\end{equation}
+If $z_0\ne z_1$, the quadrature maximizing $m_0-m_1$ is
+$\chi=\arg(z_0-z_1)$ modulo $2\pi$. This maximizes contrast within the
+stated quadrature family; it is not an assertion that this family is the
+unrestricted Helstrom measurement or that it maximizes worst-label
+success for arbitrary unequal-radius outputs.
+
+\emph{Proof.} For any real $\chi$, trace/operator-norm duality gives
+$|m_0-m_1|\leq2D_S\|O_\chi\|=2D_S$.
+Maximizing $\operatorname{Re}[e^{-i\chi}(z_0-z_1)]$ gives
+$|z_0-z_1|$. On lane-supported inputs the completed binary measurement
+also attains the corresponding average success
+$1/2+|z_0-z_1|/4$ for balanced priors. $\square$
+
+For the reference expectations $h_j=Me^{-i\Omega\eta_j}$ with the
+retained $M>0$, put
+$\bar\eta=(\eta_0+\eta_1)/2$ and
+$v=\sin[\Omega(\eta_1-\eta_0)/2]$.
+When $v\ne0$, choose
+\begin{equation}
+ \chi_* =\arg(h_0-h_1)
+ =\frac\pi2-\Omega\bar\eta+
+ \begin{cases}0,&v>0,\\ \pi,&v<0,\end{cases}
+ \quad \pmod{2\pi}.
+\label{eq:chvi-decoder-reference-axis}
+\end{equation}
+The reference quadrature means are then $+M|v|$ and $-M|v|$.
+For a predeclared calibrated implementation of this axis, the retained
+actual-clock bound implies
+\begin{equation}
+\begin{gathered}
+\min_jp(j|j)\geq
+ \frac{1+M|v|-\max_jE(\eta_j)}2,
+ \\
+ D_S\geq\max\left\{0,M|v|-\frac{E(\eta_0)+E(\eta_1)}2\right\}.
+\end{gathered}
+\label{eq:chvi-decoder-general-bounds}
+\end{equation}
+The second bound follows directly from
+$|z_0-z_1|\geq|h_0-h_1|-E(\eta_0)-E(\eta_1)$.
+If the reference contrast vanishes, the displayed distance lower bound
+is zero and no orientation is selected by this contrast criterion.
+Choosing an axis from reference data before a trial does not presume
+knowledge of its unknown label. Parameter uncertainty in that chosen
+axis must be included in its calibration error.
+
+\subsection{A fixed-axis, quarter-cycle protocol}
+
+The following protocol avoids choosing its nominal axis from an absolute
+hard energy or from the measured trial output. Use the retained chart
+\begin{equation}
+\begin{gathered}
+T_0=\frac{2\pi}{\Delta},\\
+ \eta_0=\frac{T_0}{4},\\
+ \eta_1=\frac{3T_0}{4},\\
+ \chi=-\frac\pi2,
+ \\
+ d=1-\frac{\Omega}{\Delta}.
+\end{gathered}
+\label{eq:chvi-decoder-fixed-protocol}
+\end{equation}
+The exact retained lane data satisfy $0<\Omega\leq\Delta$, so $d\geq0$.
+The new symbol $d$ in Eq.~\eqref{eq:chvi-decoder-fixed-protocol} denotes
+the relative gap deficit; it is distinct from the signed source
+difference $d_{ab}$ in Eq.~\eqref{eq:chvi-decoder-clock-operator}.
+The ages describe the two candidate marker histories at a common apparatus
+entry, not two label-dependent readout triggers. The same rotation,
+pointer test and outcome assignment are used for both hypotheses.
+The measured lane quadrature is $O_{-\pi/2}=-Y_{ab}$.
+Its reference means, including their signs, are
+\begin{equation}
+\begin{gathered}
+m_{0,\rm ref}=M\cos(\pi d/2),\\
+ m_{1,\rm ref}=-M\cos(3\pi d/2).
+\end{gathered}
+\label{eq:chvi-decoder-fixed-means}
+\end{equation}
+Thus the two \emph{correct-label margins} are positive cosines, whereas
+the raw means have opposite signs. The retained comparison error gives
+\begin{equation}\begin{gathered}
+p(0|0)\geq\frac{1+M\cos(\pi d/2)-E(\eta_0)}2,
+ \\
+ p(1|1)\geq\frac{1+M\cos(3\pi d/2)-E(\eta_1)}2.
+\label{eq:chvi-decoder-nominal-probabilities}
+\end{gathered}\end{equation}
+
+Let outward inputs satisfy
+\begin{equation}\begin{gathered}
+0\leq m_*\leq M\leq1,\\
+ 0\leq d\leq d_*,\\
+ \pi\leq\pi_*,\\
+ \Omega\leq\Omega_*,\\
+ E(t)\leq E_*\\
+(0\leq t\leq T_0).
+\label{eq:chvi-decoder-outward-inputs}
+\end{gathered}\end{equation}
+Here $m_*$ is a lower bound for the retained $M$, not a rounded display.
+For example $d_*\geq1-\Omega_{\rm lower}/\Delta_{\rm upper}$ is safe
+with positive denominator and the stated $\Omega\leq\Delta$ premise.
+$E_*$ can be supplied by the retained cycle enclosure of
+$E(t)=\exp(4g^2v_s^{\rm up}t^2)-1$, which is nondecreasing on this
+interval. The signed $g$ and the original split remain unchanged.
+
+Set $\Theta_0=3\pi_*d_*/2$. Whenever $\Theta_0\leq\sqrt2$,
+\begin{equation}
+ \boxed{\begin{gathered}
+ \epsilon_{\rm clock}:=\max_j[1-p(j|j)]
+ \leq\frac{1-m_*[1-\Theta_0^2/2]+E_*}{2}.
+ \end{gathered}}
+\label{eq:chvi-decoder-nominal-error}
+\end{equation}
+Indeed $\cos x\geq1-x^2/2$ for real $x$. Both angular offsets in
+Eq.~\eqref{eq:chvi-decoder-fixed-means} have modulus at most $\Theta_0$.
+The condition makes the common lower cosine bound nonnegative, so
+replacing $M$ by its lower bound preserves the inequality. Without
+that condition the same substitution need not be valid; the universal
+fallback is the trivial error bound one.
+
+\subsection{Timing, axis and preparation robustness}
+
+Allow actual ages $t_j=\eta_j+\xi_j$ with $|\xi_j|\leq a$ and
+$0\leq t_j\leq T_0$, and let the actual quadrature axis be
+$\chi=-\pi/2+\zeta$ with $|\zeta|\leq b$. A sufficient age-window
+condition is $a\leq T_0/4$. These are dimensionless ages and angular
+axis errors; no SI time calibration is introduced.
+The signed reference means now obey
+\begin{equation}
+\begin{aligned}
+ m_{0,\rm ref}&=M\cos(-\pi d/2+\Omega\xi_0+\zeta),\\
+ -m_{1,\rm ref}&=M\cos(-3\pi d/2+\Omega\xi_1+\zeta).
+\end{aligned}
+\label{eq:chvi-decoder-jittered-means}
+\end{equation}
+Both correct-label angular errors are bounded by
+\begin{equation}
+ \Theta=\frac{3\pi_*d_*}{2}+\Omega_*a+b.
+\label{eq:chvi-decoder-angle-budget}
+\end{equation}
+Consequently, for $\Theta\leq\sqrt2$,
+\begin{equation}
+ \max_j[1-p(j|j)]
+ \leq\frac{1-m_*[1-\Theta^2/2]+E_*}{2}.
+\label{eq:chvi-decoder-jitter-error}
+\end{equation}
+The timing and axis losses enter through a squared displacement from the
+reference antipodal extrema. The square includes the gap-deficit and
+cross terms; it is not a claim that each uncertainty contributes an
+independent additive quadratic error. This bound is on a source
+probability, so it needs no absolute hard mean energy $\bar E$ or
+absolute route amplitude phase. Indeed a common scalar shift of the
+generator multiplies each branch propagator by a scalar phase, which
+cancels in $U_j\rho U_j^*$ and hence in its source measurement
+probabilities. That invariance does not remove the scalar contribution
+from an interferometric comparison of the route amplitudes themselves.
+
+Suppose an imperfect complete marker preparation $\rho$ satisfies
+\begin{equation}
+ \tfrac12\|\rho-|\Psi_0\rangle\langle\Psi_0|\|_1
+ \leq\delta_{\rm prep},
+\label{eq:chvi-decoder-preparation-budget}
+\end{equation}
+with the same generator and declared ages. Unitary evolution and partial
+trace do not increase this distance. Each completed-POVM outcome
+probability therefore changes by at most $\delta_{\rm prep}$: for an
+effect $0\leq F\leq I$, the trace-distance variational bound is
+$|\operatorname{Tr}[F(\rho-\sigma)]|\leq T(\rho,\sigma)$.
+It follows that
+\begin{equation}
+\begin{gathered}
+\boxed{\begin{gathered}
+ \epsilon_{\rm dec}\leq
+ \min\left\{1,
+ \frac{1-m_*[1-\Theta^2/2]+E_*}{2}+\delta_{\rm prep}
+ \right\},\\
+ \Theta\leq\sqrt2.
+ \end{gathered}}
+\end{gathered}
+\label{eq:chvi-decoder-total-error}
+\end{equation}
+This includes leakage into the other fourteen source states and
+source--field preparation errors covered by
+Eq.~\eqref{eq:chvi-decoder-preparation-budget}. The penalty is
+$\delta_{\rm prep}$ for an outcome probability, rather than the
+$2\delta_{\rm prep}$ bound for a general unitary amplitude.
+If an apparatus construction subsequently bounds an additional per-label
+outcome-probability error by $\delta_{\rm read}$, it may be added to
+the right side before clipping at one. That implementation error is not
+established by the ideal measurement algebra alone. In particular, the
+finite-control Kraus operators may act jointly on source and field even
+when all external controls and the pointer couple only to the source.
+Their approximation to the ideal entry POVM, rather than an exact
+source--field factorization during the pulse, is the required estimate.
+
+If Eq.~\eqref{eq:chvi-decoder-preparation-budget} is established only on a
+heralded ready branch, its resulting error bound is conditional on that
+branch. With per-label failure probability at most $f$, counting a
+failure as unsuccessful gives the all-attempt bound
+$f+(1-f)\epsilon$, where $\epsilon\leq1$ is the complete ready-branch
+error including preparation and readout. The failure outcome remains in
+the instrument; this formula does not assert an additional implemented
+flag or silently discard unsuccessful attempts.
+
+\subsection{Rotation sign and the complete binary readout}
+
+For a general nominal axis let $R_\chi=e^{-i\chi S/2}$. The original
+swap satisfies $S^2=I_{16}$ and commutes with $P$, while it anticommutes
+with $Z_{ab}$ on the lane. Hence
+\begin{equation}
+\begin{gathered}
+R_\chi^*Z_{ab}R_\chi
+   =\cos\chi\,Z_{ab}+\sin\chi\,Y_{ab}=O_\chi,
+ \\
+ E_1(\chi)=R_\chi^*|ba\rangle\langle ba|R_\chi.
+\end{gathered}
+\label{eq:chvi-decoder-rotation}
+\end{equation}
+In particular
+\begin{equation}
+\begin{gathered}
+R=e^{+i\pi S/4},\\
+ R^*Z_{ab}R=-Y_{ab},\\
+ E_1=R^*|ba\rangle\langle ba|R,\\
+ E_0=I_{16}-E_1.
+\end{gathered}
+\label{eq:chvi-decoder-fixed-readout}
+\end{equation}
+Thus rotating by $R$ and testing for $|ba\rangle$ realizes the specified
+\emph{ideal POVM}; every other outcome is assigned label zero.
+Equivalently, a three-valued $Z_{ab}$ read after the rotation can be
+coarse-grained by assigning its zero eigenspace to label zero.
+An exchange-angle error $R=e^{i(\pi/4+\alpha)S}$ gives quadrature-axis
+error $\zeta=-2\alpha$; a bound on $|\alpha|$ must therefore be doubled
+when used as the axis budget $b$. Other errors caused by a concurrently
+running drift or field interaction need their own control estimate.
+
+For a separately declared leakage-calibration experiment one may instead
+use the three effects
+\begin{equation}
+\begin{gathered}
+R^*|ab\rangle\langle ab|R,\\
+ R^*|ba\rangle\langle ba|R,\\
+ I_{16}-P.
+\end{gathered}
+\end{equation}
+The third effect is a failure/leakage outcome and the three sum to
+$I_{16}$. This is a different stated output alphabet; its existence as
+a POVM does not supply a second physical flag apparatus, and conditioning
+away its third outcome would require a separate probability account.
+
+The present section supplies the complete source-only POVM and its
+worst-label error budget. Section~\ref{sec:chvisd-finite-readout} implements
+its rotation and eigenbasis test with finite bounded controls and a
+two-state pointer. The durable memory, causal receiving channel and
+microscopic control actuator form the next apparatus join.
+

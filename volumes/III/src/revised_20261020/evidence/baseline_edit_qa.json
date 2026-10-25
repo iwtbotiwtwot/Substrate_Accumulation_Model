@@ -1,0 +1,170 @@
+[
+  {
+    "file": "applications_01.tex",
+    "labels_retained": true,
+    "labels_original": 1,
+    "labels_edited": 1,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "applications_02.tex",
+    "labels_retained": true,
+    "labels_original": 1,
+    "labels_edited": 1,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "arithmetic_01.tex",
+    "labels_retained": true,
+    "labels_original": 1,
+    "labels_edited": 1,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "arithmetic_02.tex",
+    "labels_retained": true,
+    "labels_original": 1,
+    "labels_edited": 1,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "body01.tex",
+    "labels_retained": true,
+    "labels_original": 60,
+    "labels_edited": 60,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "body02.tex",
+    "labels_retained": true,
+    "labels_original": 38,
+    "labels_edited": 38,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "body03.tex",
+    "labels_retained": true,
+    "labels_original": 29,
+    "labels_edited": 29,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "body04.tex",
+    "labels_retained": true,
+    "labels_original": 29,
+    "labels_edited": 29,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "body05.tex",
+    "labels_retained": true,
+    "labels_original": 30,
+    "labels_edited": 30,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "body06.tex",
+    "labels_retained": true,
+    "labels_original": 27,
+    "labels_edited": 27,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "body07.tex",
+    "labels_retained": true,
+    "labels_original": 33,
+    "labels_edited": 33,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "body08.tex",
+    "labels_retained": true,
+    "labels_original": 33,
+    "labels_edited": 33,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "body09.tex",
+    "labels_retained": true,
+    "labels_original": 32,
+    "labels_edited": 32,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "body10.tex",
+    "labels_retained": true,
+    "labels_original": 35,
+    "labels_edited": 35,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "body11.tex",
+    "labels_retained": true,
+    "labels_original": 33,
+    "labels_edited": 33,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "body12.tex",
+    "labels_retained": true,
+    "labels_original": 23,
+    "labels_edited": 23,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "connections_01.tex",
+    "labels_retained": true,
+    "labels_original": 1,
+    "labels_edited": 1,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "exact_01.tex",
+    "labels_retained": true,
+    "labels_original": 1,
+    "labels_edited": 1,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "response_01.tex",
+    "labels_retained": true,
+    "labels_original": 1,
+    "labels_edited": 1,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "runtime_01.tex",
+    "labels_retained": true,
+    "labels_original": 7,
+    "labels_edited": 7,
+    "environment_balance": true,
+    "vague_phrases": 0
+  },
+  {
+    "file": "runtime_02.tex",
+    "labels_retained": true,
+    "labels_original": 8,
+    "labels_edited": 8,
+    "environment_balance": true,
+    "vague_phrases": 0
+  }
+]

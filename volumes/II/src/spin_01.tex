@@ -1,0 +1,596 @@
+\bookchapter{Microscopic Spin Sources and the Memory of an Accepted History}
+\label{ch:spin-microscopic}
+
+\subsection{An interacting interior behind a finite boundary}
+
+The frustrated-spin program gives Volume II a complete example of how a
+small matter-facing boundary can retain a large, active interior. Pairwise
+microscopic interactions generate collective boundary terms. Exact thermal
+elimination determines the boundary equilibrium, while the microscopic
+generator determines what happens between observations. Those operations
+meet in one source without becoming the same operation. The completed work
+then carries the actual interior through accepted readings, constructs
+reusable response maps, and encloses very long histories with their
+survival probability and complete fast remainder.
+
+The exposition here is a Codex synthesis of the completed source
+derivations. Sean Brady is originator and conceptual director; OpenAI
+ChatGPT and Codex are AI research collaborators and co-authors. The
+compiler, conditional-memory certificates and source-bound consumers are
+identified as Codex mathematical and technical contributions in their
+original records. This chapter develops that original microscopic line.
+The nuclear chapters that follow apply spin representations and memory
+methods to their own actual isotope sources.
+
+\subsection{Exact thermal elimination and programmable interactions}
+
+Take four boundary signs \(s=(s_1,s_2,s_3,s_4)\) and a hidden sign \(h\).
+A full-port star of coupling \(J\) and sign row \(p=(1,p_2,p_3,p_4)\) has
+energy \(-Jh(p\cdot s)\). Summing the hidden sign gives
+\[
+ z_{J,p}(s)=2\cosh[\beta J(p\cdot s)].
+\]
+For independent copies with nonnegative integer multiplicities \(w_p\),
+the conditional partition functions multiply and their free energies add:
+\[
+ Z_s=\prod_pz_{J,p}(s)^{w_p},\qquad
+ F(s)=-\beta^{-1}\log Z_s.
+\]
+The constant part of \(F\) remains part of absolute free energy, although
+it cancels from normalized boundary probabilities.
+\samref{SPM01}\samref{SPM02}
+
+Expand in boundary characters \(\chi_A(s)=\prod_{i\in A}s_i\). A single
+zero-field star has one constant, six pair terms and a quartet. Its
+nonconstant scalar coefficients are
+\[
+\begin{gathered}
+p_J=-\frac{\log\cosh(4\beta J)}{8\beta},\\
+q_J=\frac{4\log\cosh(2\beta J)-\log\cosh(4\beta J)}{8\beta}.
+\end{gathered}
+\]
+Sign copies multiply each coefficient by
+\(T_A=\sum_pw_p\chi_A(p)\). This gives a finite interaction compiler:
+choose the surviving character transforms, invert them to nonnegative
+copy counts, and retain the resulting microscopic source.
+
+The completed selective compiler establishes why subgroup projection
+alone has a particular support. Averaging over a sign subgroup retains
+its annihilator, which is closed under character multiplication.
+Retaining \(s_1s_2\) and \(s_3s_4\) therefore also permits their quartet;
+retaining \(s_1s_2\) and \(s_1s_3\) permits \(s_2s_3\).
+Unequal nonnegative copies can remove those companion terms. Within
+the fixed eight full-port unit-star dictionary, the exact minimum counts
+for a pure quartet, two disjoint pairs, two overlapping pairs, and two
+disjoint pairs plus their quartet are respectively \(4,8,8,2\).
+Local two-port modules give the two-pair supports with two hidden spins.
+These constructions compare declared supports and preserve their actual
+coefficient relations.\samref{SPM02}
+
+The integer compiler makes its count statement explicit. For a primitive
+integer target transform vector \(v_A\), put
+\[
+ d_p=\sum_Av_A\chi_A(p),\qquad
+ k_0=\frac8{\gcd(8,\{d_p-d_{p_0}\}_p)}.
+\]
+Fourier inversion and nonnegativity give
+\[
+ w_p=\frac{k_0(d_p-\min_qd_q)}8,\qquad
+ N_{\min}=-k_0\min_pd_p.
+\]
+This is the minimum within that dictionary and transform-ratio problem.
+Adding one copy of every sign pattern is an invisible uniform layer:
+it changes the interior free energy while leaving normalized boundary
+probabilities unchanged. The completed hidden-boundary work also gives
+connected, nonisomorphic interiors with the same uniform boundary state
+at every temperature, and explicit hidden interventions that distinguish
+them. A complete normalized boundary equilibrium therefore need not
+identify its interior source.\samref{SPM01}\samref{SPM03}
+
+\subsection{The all-temperature ratio-one source}
+
+Different-order coefficients in one coupling layer retain different
+temperature dependence. The two-scale construction supplies the exact
+identity
+\[
+ q_{2J}=p_{2J}-4p_J.
+\]
+Its ratio-one source uses pair/quartet transform units \((4,0)\) at \(J\)
+and \((-1,-1)\) at \(2J\). The resulting coefficients satisfy
+\[
+ P=4(4p_J-p_{2J})=-4q_{2J}=Q<0,
+\]
+so the complete boundary free energy is
+\[
+ F(s)=C(\beta)+P(\beta)s_1s_2(1+s_3s_4).
+\]
+One parity sector of the second pair disables the first pair's effective
+interaction; the other doubles it. The ratio \(Q/P=1\) holds for every
+\(\beta,J>0\), while the strengths themselves vary with beta.
+The derivation follows directly from the two log-cosh functions; the
+positivity of \(q_{2J}\) keeps the denominator nonzero.
+\samref{SPM04}\samref{SPM05}
+
+The sixteen weak and eight strong copies total 24 hidden spins. More
+generally, transform units \((4d,-d,0,-n)\) give quartic/pair ratio \(n/d\)
+with \(20d+4|n|\) hidden copies. The completed native reconstruction
+evaluated ratios \(1,2,1/2,-1,3/2\), requiring \(24,28,44,24,52\) copies.
+Exact character cancellation and the log-vector identity establish the
+all-temperature statement; nine beta samples check the constructed
+sources. The prior one-scale 32-copy ratio was \(1.004288551457\) at
+beta one, with derivative \(0.658276967618\). The two-scale source
+has ratio one and derivative zero throughout. For this exact thermal
+ratio construction, \emph{The test result suggests strong contact with
+the concept.}\samref{SPM04}
+
+The original microscopic memory model is this ratio-one source at \(J=1\).
+Its actual groups, rather than a new effective surrogate, are retained in
+the source artifact:
+\[
+\begin{array}{c|c|c}
+\text{sign pattern }a_g&J_g&m_g\\
+\hline
+(1,1,-1,-1)&1&4\\
+(1,1,-1,1)&1&4\\
+(1,1,1,-1)&1&4\\
+(1,1,1,1)&1&4\\
+(1,-1,-1,-1)&2&2\\
+(1,-1,-1,1)&2&1\\
+(1,-1,1,-1)&2&1\\
+(1,-1,1,1)&2&2\\
+(1,1,-1,1)&2&1\\
+(1,1,1,-1)&2&1
+\end{array}
+\]
+This 24-hidden source differs from the later eight-hidden parity module
+used to realize an isotope quartet's ground energy. Here the full
+conditional partition function and the actual kinetics of both coupling
+layers travel together.\samref{SPM06}
+
+\subsection{Twenty-eight spins, exact multiplicities and the original clock}
+
+If \(c_g\) is the number of plus signs in group \(g\), the exact energy
+and multiplicity are
+\[
+ E(s,c)=-\sum_gJ_g(a_g\cdot s)(2c_g-m_g),\qquad
+ \mu(c)=\prod_g{m_g\choose c_g}.
+\]
+There are \(16\prod_g(m_g+1)=1{,}440{,}000\) grouped coordinates,
+representing all \(2^{28}=268{,}435{,}456\) microscopic configurations.
+The count grouping retains the binomial number of labelled configurations
+in every class. Rates into another count class depend only on the
+present class, including the number of available microscopic flips.
+The resulting reduction is exact for these boundary consumers and
+retains unequilibrated count preparations.\samref{SPM07}
+
+For finite beta and couplings, every Gibbs weight is positive. Write
+\[
+\begin{gathered}
+Z_s=\prod_g[2\cosh(\beta J_ga_g\cdot s)]^{m_g},\\
+\nu_s=\frac{Z_s}{\sum_bZ_b},\\
+\chi_s(c)=\frac{\mu(c)e^{-\beta E(s,c)}}{Z_s},\\
+\pi_{s,c}=\nu_s\chi_s(c).
+\end{gathered}
+\]
+These are normalized boundary, conditional and joint laws. Conditional
+elimination preserves the interior thermodynamics through \(Z_s\);
+microscopic evolution uses the complete state \((s,c)\).
+
+The original clock assigns attempt rate one to each boundary spin and
+positive fixed rate \(\gamma_g\) to each hidden spin in group \(g\).
+With \(F_i(c)=\sum_gJ_ga_{gi}(2c_g-m_g)\), boundary and hidden rates are
+\[
+ \rho_i(s,c)=\frac1{1+e^{2\beta s_iF_i(c)}},\qquad
+ h_g(s)=\frac1{1+e^{-2\beta J_ga_g\cdot s}},
+\]
+\[
+\begin{gathered}
+c_g\longrightarrow c_g+1:
+      (m_g-c_g)\gamma_gh_g(s),\\
+c_g\longrightarrow c_g-1:
+      c_g\gamma_g[1-h_g(s)].
+\end{gathered}
+\]
+The binomial identity
+\({m\choose c}(m-c)={m\choose c+1}(c+1)\) establishes hidden detailed
+balance; the boundary heatbath ratio gives its corresponding Gibbs
+balance. The resulting column generator \(L\) is reversible for \(\pi\).
+The executed memory source uses beta one and common \(\gamma=1\);
+time remains measured on this attempted-spin clock.\samref{SPM08}
+
+\subsection{Exact projection retains the initial hidden forcing}
+
+Let \(C\) sum hidden counts, \(R\) lift a boundary distribution by the
+actual conditional law \(\chi_s\), and \(CR=I\). Decompose
+\[
+\begin{gathered}
+p=Rq+r,\\
+q=Cp,\\
+Cr=0,\\
+A=CLR,\\
+G=(I-RC)LR,\\
+D=(I-RC)L\big|_{\ker C}.
+\end{gathered}
+\]
+Solving the residual equation gives the exact boundary evolution
+\[
+ q'(t)=Aq(t)+g(t)+\int_0^tK(t-u)q(u)\,du,
+\]
+\[
+ g(t)=CLe^{tD}r_0,\qquad K(t)=CLe^{tD}G.
+\]
+Both terms are source operands. \(A\) is the conditionally averaged
+microscopic generator. A heatbath built only from the integrated
+boundary free energy is a different generator, whose equal equilibrium
+does not assign these microscopic rates.\samref{SPM07}\samref{SPM09}
+
+Global reversal \((s,c)\mapsto(-s,m-c)\) preserves energy, multiplicity
+and rates. Its two sectors have 720,000 coordinates each. For representative
+and partner probabilities, \(x=p_{\rm rep}+p_{\rm partner}\) and
+\(y=p_{\rm rep}-p_{\rm partner}\) evolve independently under \(L_+\)
+and \(L_-\). A boundary mask with values \(m_b,m_{\bar b}\) acts by
+\[
+ x_{\rm new}=\tfrac12[(m_b+m_{\bar b})x+(m_b-m_{\bar b})y],
+\]
+with the corresponding expression for \(y_{\rm new}\).
+Reversal-invariant pair selections have \(m_b=m_{\bar b}\); every finite
+history of those masks and unchanged-source propagation is determined
+by the plus sector for arbitrary actual initial preparations.
+Orientation-sensitive selection needs both sectors. This reduction
+retains the hidden residual instead of equilibrating it.
+\samref{SPM07}
+
+The completed eight-column plus kernel covers seventeen lags through
+\(t=0.02\). Its shared-lag values agree with the earlier full-source
+kernel within \(6.94\times10^{-17}\). For the actual hidden-point
+preparation, omitting \(g\) produces endpoint error \(0.0180851\);
+retaining it gives fine-grid error \(9.029\times10^{-8}\).
+For the actual accepted two-readout substate the corresponding errors
+are \(1.655\times10^{-5}\) and \(4.493\times10^{-10}\).
+The accepted state remains unnormalized: its mass is the probability of
+the preceding history. Its residual forcing survives the intervention.
+\samref{SPM09}
+
+The sampled Volterra solver exhibits the expected fourfold error
+reduction when its grid spacing halves. A retained tiny negative
+coordinate records that solver's numerical positivity behavior;
+direct microscopic uniformization supplies the positive propagation
+baseline. The source symmetry identities are exact, the large-source
+propagation is qualified float64, and the numerical integration and
+series-truncation accounts retain their separate recorded scopes.
+For the complete reduced kernel and retained-memory reconstruction,
+\emph{The test result suggests strong contact with the concept.}
+\samref{SPM09}
+
+\subsection{A small covariance controls the entire hidden complement}
+
+Reversibility supplies a stronger uniform result. In Gibbs-weighted
+coordinates let \(H=-\Pi^{-1/2}L\Pi^{1/2}\), let \(\mathcal J\) be the
+conditional isometry, and let \(Q=I-\mathcal J\mathcal J^T\). Define
+\[
+\begin{gathered}
+a=\mathcal J^TH\mathcal J,\\
+b=QH\mathcal J,\\
+d=QHQ\big|_{\operatorname{ran}Q},\\
+{\cal V}=b^Tb,\\
+{\cal K}(t)=b^Te^{-td}b.
+\end{gathered}
+\]
+At fixed boundary, hidden heatbath conditional expectations commute on
+the independent product law. A product of centered single-spin functions
+has eigenvalue equal to the sum of its participating attempt rates.
+Every nonconstant hidden direction therefore costs at least
+\(\gamma_*=\min_g\gamma_g>0\). Boundary heatbaths contribute a positive
+operator bounded by \(4I\). Consequently
+\[
+ \gamma_*I\preceq d\preceq
+ \left(4+\sum_gm_g\gamma_g\right)I.
+\]
+For common \(\gamma\), write \(\Lambda=4+24\gamma\). The complete kernel
+and its Laplace transform obey
+\[
+\begin{gathered}
+e^{-\Lambda t}{\cal V}\preceq{\cal K}(t)
+       \preceq e^{-\gamma t}{\cal V},\\
+\frac{\cal V}{z+\Lambda}\preceq\widehat{\cal K}(z)
+       \preceq\frac{\cal V}{z+\gamma},\\
+z>0.
+\end{gathered}
+\]
+The hypotheses are a finite independent-star source, finite positive
+Gibbs weights, fixed positive hidden rates and the specified microscopic
+clock. They include every hidden-copy count.\samref{SPM08}
+
+The coefficient \({\cal V}\) is computed from the four-by-four
+conditional covariance of the actual boundary flip rates. It includes
+every covariance cross term. It is independent of hidden attempt speed
+at fixed source and boundary clock. Since
+\(0\preceq H_B\preceq4I\),
+\[
+ 0\preceq{\cal V}\preceq4a-a^2\preceq4I,\qquad
+ \int_0^\infty{\cal K}(t)\,dt=b^Td^{-1}b\preceq a.
+\]
+The latter follows by completing the full positive quadratic form.
+The exact response is the Schur inverse
+\([zI+a-\widehat{\cal K}(z)]^{-1}\), with its reciprocal boundary
+background retained. An eight-coordinate coefficient controls output
+coupling to all 719,992 residual directions per sector.
+\samref{SPM08}
+
+For the actual beta-one source, directed calculations give even/odd
+ranks \(7,8\) and norm uppers \(0.11541111,0.11540590\), about 35 times
+tighter than the universal four. The even stationary direction supplies
+its one-dimensional kernel. At \(T=0.2\), the saved complete-boundary
+total-variation errors for \(\gamma=1/4,1,4,16\) are
+\(0.000830225,0.000715785,0.000456950,0.000181530\).
+Their uniform uppers are
+\(0.0439544,\allowbreak0.0418539,\allowbreak0.0348203,\allowbreak0.0195585\).
+All sixteen saved time/speed responses satisfy their complete-source
+budgets. The comparison varies the actual hidden response speed while
+retaining the same source and boundary attempts. Its exact reference
+is \(A=CLR\); both reversal sectors are included for the full boundary
+distribution. These new small-matrix results reused the finished source
+trajectories.
+\emph{The test result suggests strong contact with the concept.}
+\samref{SPM10}
+
+\subsection{Preparation, between-reading and within-wait payments}
+
+For total waiting time \(T\), define
+\[
+ \psi(T)=\frac{1-e^{-\gamma T}}\gamma,\qquad
+ \Phi(T)=\frac{\gamma T-1+e^{-\gamma T}}{\gamma^2},
+ \qquad\bar v\geq\|{\cal V}\|.
+\]
+Any finite ordered history of boundary contractions retains the actual
+initial \(r_0\). The sharper complete-history bound is
+\[
+ \|q_{\rm actual}-q_{\rm coarse}\|_{\nu^{-1}}
+ \leq\sqrt{\bar v}\psi(T)\|r_0\|_{\pi^{-1}}
+      +\bar v\Phi(T)\|q_0\|_{\nu^{-1}}.
+\]
+Its three signed responses have payments
+\[
+\begin{split}
+ E_{\rm preparation}&\leq\sqrt{\bar v}\psi(T)\|r_0\|,\\
+ E_{\rm between}&\leq\bar v
+       [\Phi(T)-\sum_i\Phi(t_i)]\|q_0\|,\\
+ E_{\rm within}&\leq\bar v\sum_i\Phi(t_i)\|q_0\|.
+\end{split}
+\]
+The source norms in the first display specify those in the second.
+The identity \(\Phi(s+t)-\Phi(s)-\Phi(t)=\psi(s)\psi(t)\)
+pays the hidden relay between waits. Masks contract both boundary and
+residual norms, so the budget needs no additional factor counting
+readings. Conditioning divides by the actual acceptance mass.
+\samref{SPM11}
+
+For two waits of \(0.01\), each accepting \(s_0s_1=1\), conditional
+boundary-one preparation has weighted error \(0.000245118417\),
+below payment \(0.000628042124\). Actual acceptance is
+\(0.999921864086\), versus coarse-reference \(0.999921316288\).
+The hidden-point preparation has weighted residual norm \(36423.4512\)
+and initial forcing \(L^1\)-norm \(1.90907536\); the accepted
+post-readout state has \(0.111436857\) and \(0.00172853354\).
+These are their actual preparation costs. Their retained signed
+responses can be much smaller than a general norm budget, and remain
+available without removing that budget.\samref{SPM10}
+
+\subsection{Cache the complete consumer and continue its hidden columns}
+
+The measured fixed-endpoint task selected direct response reuse:
+eight columns of \(Ce^{TL}R\) took \(5.93\) seconds to construct,
+compared with \(77.88\) seconds for seventeen kernel lags. The kernel
+resolves memory; the endpoint cache answers its own specified output.
+For repeated readings the reusable object is the complete ordered
+consumer
+\[
+ {\cal H}_{\rm protocol}
+       =CM e^{L/100}M e^{L/100}R.
+\]
+Separate projected wait maps insert a conditional reset between them.
+The complete cache instead retains the full hidden columns after each
+reading. Two actual residual columns supplement its eight conditional
+inputs, giving \(q={\cal H}_{\rm protocol}q_0+Z\theta\) for the admitted
+residual span and actual positive preparation.\samref{SPM09}\samref{SPM12}
+
+All 44 retained preparations agree with direct microscopic histories
+within \(2.22\times10^{-16}\). Their bank stores ten full columns in
+43,136,071 compressed bytes. Construction takes \(12.269\) seconds;
+direct propagation of 44 preparations takes \(48.080\) seconds;
+installed native application takes \(0.07434\) seconds. The recorded
+reuse ratio is \(646.76\), with first-cohort ratio \(3.895\) including
+construction. These are measured same-worker batches with storage
+charged to the build.\samref{SPM12}
+
+The next completed consumer advances those ten columns once:
+\[
+ B=T[R,r_{\rm point},r_{\rm post}],\qquad
+ B_s=e^{sL}B,\qquad q_m=mCB_sx.
+\]
+One unmasked continuation bank serves alternative terminal readouts.
+Its inherited residual has the complete small Gram
+\[
+ G_{\rm cut}=B^TQ^T\Pi^{-1}QB,\qquad
+ \|r_{\rm cut}\|_{\pi^{-1}}^2=x^TG_{\rm cut}x.
+\]
+Every cross term and the accepted prefix mass remain. If a comparison
+has different prefix mass, acceptance difference contains its source
+mean times that mass difference plus the centered signed response.
+Complementary acceptance and rejection defects have opposite signs.
+\samref{SPM13}\samref{SPM14}
+
+All 44 three-wait histories match within \(5.56\times10^{-16}\).
+For the actual post-readout preparation, two further accepted readings
+raise residual norm from \(0.1114368572\) to \(0.2136700067\).
+For the hidden point, overlapping pair12 exposes a memory acceptance
+change \(-0.004252509014\), versus \(+3.82127050\times10^{-5}\) for
+pair01: \(111.285\) times the magnitude with opposite sign. A fresh
+parity query uses the retained bank with zero microscopic propagation.
+This is actual source memory reused by a newly chosen consumer.
+\samref{SPM13}
+
+\subsection{The accepted-return mode retains its own interior}
+
+For the proper nonempty pair mask \(M\) and wait \(s=1/100\), repeated
+accepted returns use
+\[
+ K_{\rm ret}=Me^{sL}M
+\]
+on the 360,000-coordinate accepted even sector. Its symmetric weighted
+counterpart is \(\mathcal K_{\rm ret}=Me^{-sH}M\). Finite positive source
+rates make the source irreducible; its positive-time transition matrix
+is strictly positive. Reversible weighting makes the accepted principal
+block positive definite. Its largest eigenvalue is therefore simple,
+strictly between zero and one, with a positive mode. Normalized positive
+accepted inputs converge to that mode's actual preparation. The
+acceptance ratio tends to \(\lambda_1\), and the survival rate on the
+original clock is \(-\log\lambda_1/s\). The limiting hidden residual is
+part of this state.\samref{SPM14}
+
+The completed source calculation encloses
+\[
+ \lambda_1\in
+ [0.9999999103303717,\ 0.9999999103304213],
+\]
+\[
+ -\log\lambda_1/s\in
+ [8.96695828353,\ 8.96696322351]\times10^{-6}.
+\]
+The survival e-fold lies between \(11{,}152{,}047.5223\) and
+\(11{,}152{,}053.6662\) readings. Actual hidden residual norm is
+approximately \(0.00076429382521336\). At the same cut, conditional
+reset gives acceptance \(0.9999998972146613\); retaining the interior
+reduces per-reading loss by approximately \(12.76\) percent.
+These are properties of the actual limiting mode and its declared
+readout, with finite-input amplitudes still required for finite survival.
+\samref{SPM15}
+
+The hidden gap also pays the entire remaining space. In symmetric
+coordinates put \({\cal G}=(I-\mathcal K_{\rm ret})/s\). Since \(\|H\|\leq56\),
+\[
+\begin{gathered}
+{\cal G}\succeq \eta_0MHM,\\
+\eta_0=\frac{1-e^{-0.56}}{0.56}=0.7656981002699734\ldots,
+ \\
+d_5({\cal G})\geq \eta_0.
+\end{gathered}
+\]
+Only four directions can have defects below that threshold. The four
+computed defects are approximately
+\(8.96696035\times10^{-6},8.59490215\times10^{-5},
+0.03684778302,0.03685638161\). Exact thin contractions and directed
+small-matrix certificates retain source-table, stencil, normalization
+and residual payments. For the actual return-mode result,
+\emph{The test result suggests strong contact with the concept.}
+\samref{SPM15}\samref{SPM18}
+
+\subsection{Four slow modes with the full fast remainder}
+
+The complete finite-history consumer retains all four slow modes as a
+block. For exact orthonormal stored subspace \(W\), small compression
+\(T=W^T{\cal G}W\) and residual \(F={\cal G}W-WT\), separation from
+\(\eta_0\) gives
+\[
+ \delta=\frac{\|F\|}{\eta_0-\operatorname{top}T}
+          \leq7.06531\times10^{-12}.
+\]
+Writing the exact slow basis as \(Z=WD+(I-WW^T)Z\), \(D=W^TZ\),
+yields the quadratic
+block payment
+\[
+\begin{gathered}
+\|Z^T{\cal G}Z-T\|
+ \leq2b\|T\|+2\|F\|\delta+g_{\max}\delta^2,\\
+b=1-\sqrt{1-\delta^2}.
+\end{gathered}
+\]
+Here \(g_{\max}=(1-e^{-0.56})/s\) bounds the complete defect operator.
+It is at most \(2.21507\times10^{-21}\); the full small-block error,
+including retained source/Ritz arithmetic, is at most
+\(2.469987\times10^{-12}\). Close slow pairs need no separate
+eigenvector identification. The complete fast contraction is
+\(\rho\leq0.992343018997301\).\samref{SPM16}\samref{SPM17}
+
+For an actual accepted prefix \(p\), let \(y=\Pi^{-1/2}p\).
+An immediate readout \(f\) has weighted terminal vector
+\(a_f=M\Pi^{1/2}f\), and its response is
+\(u_f(m)=a_f^T\mathcal K_{\rm ret}^my\). The mass readout gives
+\(M_m\), and conditional response is \(u_f(m)/M_m\).
+Let \(V\) be the actual stored mode columns, \(T_0\) their retained
+small Ritz matrix, \(y_0\) a stored weighted input, and
+\(\epsilon_B\) the complete small-block payment above. Put
+\(v\geq\|V\|\), \(Y\geq\|y_0\|\), \(e\geq\|Z-V\|\),
+\(c_0\geq\|V^Ty_0\|\), \(c_Z=c_0+eY\), and
+\(r_0^{\rm fast}\geq\|(I-WW^T)y_0\|\).
+Choose \(\lambda_*<1\) bounding the exact slow return and retained small
+power. The complete state-response inequality, valid for every integer
+\(m\geq0\), bounds
+\(\|\mathcal K_{\rm ret}^my_0-V(I-sT_0)^mV^Ty_0\|\leq E_m\), where
+\[
+\begin{split}
+ E_m={}&e\lambda_*^m(c_Z+vY)
+       +vms\epsilon_B\lambda_*^{m-1}c_Z\\
+       &+\rho^m(r_0^{\rm fast}+\delta Y).
+\end{split}
+\]
+The middle term is zero at \(m=0\). The first term pays the stored
+subspace and Gram normalization, the second telescopes the small
+power error, and the third retains the entire fast complement.
+For a stored terminal vector \(a_0\), with physical input/readout
+errors \(\sigma_y,\sigma_a\), the actual scalar-response error is bounded by
+\[
+ \|a_0\|E_m+\sigma_a\lambda_*^mY
+       +(\|a_0\|+\sigma_a)\lambda_*^m\sigma_y.
+\]
+The implementation additionally includes directed small-product
+arithmetic and both coefficient-contraction errors. Prefix
+reconstruction enters \(\sigma_y\) with the actual source
+normalization and its earlier accepted mass. An immediate readout and
+a readout after an unmasked wait have their own terminal vectors;
+the latter carries its complete source-propagation payment.
+For numerator and mass errors \(E_u,E_M\),
+\[
+ \left|\frac{u}{M}-\frac{\widehat u}{\widehat M}\right|
+ \leq
+ \frac{E_u+|\widehat u/\widehat M|E_M}{\widehat M-E_M},
+ \qquad\widehat M>E_M.
+\]
+The survival denominator remains inside the prediction.
+\samref{SPM17}
+
+The retained numerical source scopes are part of this construction.
+The large microscopic stencil and stored history columns use the
+qualified floating propagation from their original campaigns. Exact
+binary-rational thin contractions and native directed products certify
+the stored operands they receive. The return-mode and four-mode
+certificates then pay the identified source-table, action, normalization,
+residual and small-block errors needed for their stated enclosures.
+Thus the small consumer has an explicit route back to the original
+state and readout, retaining the spin Hamiltonian, the physical
+preparation and its nonzero fast component.\samref{SPM15}\samref{SPM17}\samref{SPM19}
+
+The completed panel has 44 preparations, seventeen readout/mass rows,
+and twenty checkpoints through \(10^9\) additional accepted readings.
+All 44 have positive enclosed denominators from 2048 onward on that
+panel. The widest conditional interval is \(5.551\times10^{-7}\) at
+4096 readings and \(0.001798\) at \(10^9\); the later width includes
+the accumulated retained Ritz payment. At \(10^9\), equilibrium-zero,
+hidden-point and post-readout inputs retain surviving masses
+\(1.1404748,1.0599825,1.0297777\), each times \(10^{-39}\).
+All 306 full-sector outcome/mass comparisons and eighteen independent
+spectral/block identities pass. The consumer reuses completed modes;
+it performs no new eigeniteration. \emph{The test result suggests
+strong contact with the concept.}\samref{SPM16}
+
+This line supplies a concrete matter-construction method: form the
+complete interior source, derive the visible recipient, and retain
+the preparation and complement that carry its next response.
+Its action, normalization and chronological payments connect to the
+Volume I record and preparation account. Its source-bound caches,
+native thin contractions and recoverable consumers connect to
+Volume III computation. The completed four-mode result leaves a
+focused numerical successor: sharpen the directed small Ritz
+arithmetic on the same source to improve very long conditional
+intervals. The full source, original clock and paid complement
+already belong to the achieved construction.

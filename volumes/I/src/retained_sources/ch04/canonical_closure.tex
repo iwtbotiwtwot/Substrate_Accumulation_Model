@@ -1,0 +1,133 @@
+\subsection{A global tensor Green kernel and the complete relative-pair bound}
+The retained constraint is a local rank-two bundle of tangential tracefree
+symmetric tensors.  It is not an added nonlocal three-dimensional divergence
+constraint.  Differentiating $n_iH_{ij}=0$ gives
+\[
+ |\nabla_{\rm Cart}H|^2=|\nabla_{\rm bundle}H|^2+2|H|^2/r^2.
+\]
+Thus the complete original spatial operator is
+$\mathcal D=\nabla^*\nabla+4/r^2$, with the regular Friedrichs origin.
+Write $\omega=\mathcal D^{1/2}$.  Summing every tensor harmonic gives
+\[
+ \begin{gathered}
+ G_{\mathcal D}(x,y)=\frac{q^2U_2(x,y)}{4\pi\rho},\
+ \rho=|x-y|,\qquad
+ q=\frac{r+r'-\rho}{r+r'+\rho}.
+ \end{gathered}
+\]
+Here $U_2$ is unitary spin-two angular parallel transport.  The antipodal
+product extends by zero.  The scalar amplitude follows from the Jacobi
+addition formula; in particular it retains the complete angular complement.
+With $G_0=(4\pi\rho)^{-1}$, direct prolate-coordinate integration gives
+\[
+ \int G_0^2q^n\,d^3y=\frac{rn}{4\pi(n^2-1)},\qquad n>1.
+\]
+The cases $n=4,2$ are $r/(15\pi)$ and $r/(6\pi)$.
+They pay the massless infrared region and the regular origin.
+
+Keep the actual profile
+$b=-\mu_P/\sqrt{d^2+|x-d e_z|^2}$ and
+$\delta=\mu_P/d=\sqrt2/1000$.  For scalar multiplication $M_b$, set
+\[
+ T_b=\mathcal D^{-1}[\mathcal D,[\mathcal D,M_b]]\mathcal D^{-1}.
+\]
+Its exact kernel contains the sum of the two Laplacian terms and
+$-2(\nabla b(x)\cdot\nabla_xG+\nabla b(y)\cdot\nabla_yG)$.
+The principal free-Green derivatives combine into a gradient difference
+before estimation.  With $u=\cos(\gamma/2)$, $q\le u^2$ and spin-two
+holonomy gives
+$\|\nabla_x(q^2U_2)\|\le14q/r$.
+The three global Hilbert--Schmidt payments satisfy
+\[
+ \begin{aligned}
+ \|A\|_{\rm HS}^2&\le\delta^2(3\pi/8+4/5),\\
+ \|B\|_{\rm HS}^2&\le16\delta^2/3,\\
+ \|C\|_{\rm HS}^2&\le56^2\delta^2(\pi/8-1/12).
+ \end{aligned}
+\]
+The first uses $\int r(\Delta b)^2$, the second the exact homogeneous
+$H^{3/2}$ seminorm of the long-range profile, and the third the Newton-shell
+identity
+\[
+ \int\frac{|\nabla b|^2}{r}\,d^3x
+ =\delta^2(3\pi^2/8-\pi/4).
+\]
+Consequently $\|T_b\|_{\rm HS}<35\delta$.  The complete frequency spectral
+multiplier $ab/(a+b)^2\le1/4$ now proves
+\[
+ \|\omega^{-1}[\omega,[\omega,M_b]]\omega^{-1}\|_{\rm HS}
+ <35\delta/4.
+\]
+This is a global estimate, not a principal-symbol replacement.
+The canonical pair kernel obeys the exact identity
+\[
+ \begin{gathered}
+ \omega^{-1/2}B_b\omega^{-1/2}
+ =\tfrac14\omega^{-1}
+ \bigl([\omega,[\omega,M_b]]+M_{\Delta b}\bigr)\omega^{-1},\\
+ \|\omega^{-1/2}B_b\omega^{-1/2}\|_{\rm HS}<119\delta/48.
+ \end{gathered}
+\]
+Both polarizations and every angular sector are included.  Separately, the
+Laplacian part of the static Born coefficient has squared norm at most
+$\delta^2/48=1/24000000$.
+
+\subsection{What this closes, and the remaining quantum evolution}
+For a fixed positive lapse, the number coefficient satisfies
+$A_N\ge(1-|\eta\chi|\delta)\omega$ and its relative pair operator norm is
+at most $|\eta\chi|\delta/(1-|\eta\chi|\delta)<1$.
+The global Hilbert--Schmidt operand in the static implementability theorem [22]
+is therefore supplied.  Applying the operator theorem still requires its
+operator-domain realization, or a proved extension to these closed block
+forms.  Subject to that step, the static diagonalizer has the explicit
+all-orders bound
+\[
+ \|\beta_N\|_{\rm HS}
+ \le\frac{|\eta\chi|119\delta}{24(1-2|\eta\chi|\delta)}.
+\]
+This does not supply the stronger finite vacuum-energy condition.
+Time regularity, the weighted Berry generator and the original non-$L^2$
+shell pullback remain separate.  A scalar vacuum phase cancels in bounded
+source currents; it still requires its energy-reference prescription for
+switching work.  Field-only frame changes commute with the original source
+current, so their gauge phase cannot itself be counted as a clock shift.
+
+The actual bare source-shell time coefficient is now explicit.  Put
+$n=573049$, $T=n\pi$, $\chi=\sin^4(\pi t/T)$ and
+$\mu_2=1/(4R)$.  With the complete original source operators $D,C$, the
+squared energy-dual norm of the differentiated combined shell map, divided
+by $T\mu_2$, is bounded by the full sixteen-state operator
+\[
+ K_{\rm shell}=\frac{5\delta^2}{4n^4}(D^2+C^2).
+\]
+The factor two pays both source directions without assuming their
+profile-weighted orthogonality.  Native continuation retains both ordered
+current insertions of this positive coefficient.  It is a bare shell
+regularity bound; the static-frame pullback is not substituted for it.
+
+\subsection{A causal route tailored to the actual prepared clocks}
+On all six original radius/time intervals, a common backward ball with
+$L=R_{\max}+1.002T_{0,\max}$ satisfies
+\[
+ \sup_{r\le L}|b(x)-b(0)|
+ \le\frac{L}{2000d_{\min}}+
+      \frac{3L^2}{4000d_{\min}^2}
+ <6\,10^{-27}.
+\]
+A coefficient comparison that equals the actual Plummer lapse throughout
+that ball and differs outside it would give exactly the same source current
+if the full joint causal shell theorem is established.  This is an auxiliary
+operator comparison, with the complete physical field and original profile
+retained; it is not a particle cutoff or a claim about a nonlocal
+positive-frequency receiver.  Initial hard dressing does not defeat an
+operator causal identity, but that identity must survive the singular shell
+limit.  This is a concrete alternative to estimating a global far-zone
+vacuum change as a local clock error.
+
+For a proved joint-state norm comparison $r_*$ with the same
+uniform-reference history, the retained
+$\|Z\|=2$ gives current error $4r_*+2r_*^2$.  Every original lane has
+reference amplitude above $0.999$; thus $r_*\le4\,10^{-11}$ is a sufficient
+conditional requirement for a $0.2$ nrad phase allowance.  No such joint
+remainder, signed susceptibility or achieved apparatus accuracy is assigned
+by the global Hilbert--Schmidt estimate alone.

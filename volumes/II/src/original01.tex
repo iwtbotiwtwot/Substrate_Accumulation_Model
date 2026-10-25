@@ -1,0 +1,214 @@
+\bookchapter{Matter admission and finite closure}
+\label{sec:vii-foundations}
+
+\subsection{The question at the matter boundary}
+
+The Substrate Accumulation Model begins with matter as a source of accumulation. That statement leaves a question on the source side: what counts as matter, and what kind of closed object is allowed to supply the source? Volume I develops the accumulation field and its readouts. This volume develops the finite objects that enter the matter account, the distinctions among their source and mass channels, and the ways in which they return support to the accumulation description.
+
+The central construction is a typed finite closure. Connector support supplies relations; carrier routing supplies the traffic needed by the configuration; an admission condition distinguishes an eligible closed write from a candidate that does not close as matter. A numerical value is one field of such a construction. It is not a substitute for the construction itself. A connector and a material row can carry equal numbers while answering different questions. A carrier can be essential to a material configuration without becoming another material constituent. A finite catalog can contain rejected candidates without declaring those candidates to be physical objects.
+
+The matter account therefore has two complementary directions. In the first, a supported configuration is admitted as a finite material write. In the second, an admitted write emits a source-support quantity that is decomposed and compressed before it enters the accumulation readout. The directions meet at the admitted object, but they are not inverse formulas. In particular, a source-support number is evaluated after the candidate has passed its declared matter-admission gate.
+
+This distinction is the organizing principle of the volume. It makes possible a readable account of particle grammar, mass lift, nuclear ledgers, binding, isotope families and carrier return without treating every occurrence of the same integer as the same object. It also permits failed physical identifications to remain in the record while preserving exact algebra that survives them. The direct source-to-rest-mass bridge is an important example: its failure constrains the interpretation of the source channel; it does not erase the finite ledger from which the channel was constructed.\cite{viisama,viispine}
+
+\subsection{What is inherited and what is being asserted}
+
+The structural values used here are received from the substrate framework:
+\begin{equation}
+\alpha_H=2,\qquad D=3,
+\end{equation}
+with surface multiplicity and route radix
+\begin{equation}
+S=\alpha_H^D=8,\qquad R=\alpha_H^2D=12.
+\end{equation}
+The resulting domain capacity is $R^2=144$. The retained and carrier quantities will be $M=126$ and $\Theta=18$. Other recurring values include the full face $F=81$ and terminal ledger $\mathcal L=162$.
+
+These equations have different logical roles. Choosing the structural framework and interpreting its quantities are model commitments. Once the values and operations are fixed, consequences such as $144/8=18$ are exact arithmetic. A reported test may then establish that a particular implementation reproduces its specified source table or survives selected controls. A comparison against measured masses adds another layer, whose units, anchors and statistical scope must be stated. None of these layers should be silently substituted for another.
+
+The distinction matters even when a formula is short. The equation $R=12$ can be a locked input to a downstream test rather than an independently measured output of that test. The equation $M=126$ can express retained structural capacity while the element roster retains its own source and observation status. A row labeled by a familiar particle name can be the outcome of a reveal stage rather than the object from which a generator was derived blind. The chapters that follow retain the order in which the information enters.
+
+This book describes the established construction at those levels. Exact derivations are given with their domains. Computational results are reported as results of the cited records unless an inspection is specifically described. Measured comparisons remain comparisons. The physical interpretation is developed where the evidence supports it and bounded where the construction has not supplied the necessary bridge.
+
+\subsection{A notation that preserves the source categories}
+
+Three uses of the letter $A$ need to be separated at the outset. Nuclear mass number is
+\begin{equation}
+A_{\rm nuc}=Z+N.
+\end{equation}
+The accumulation field is
+\begin{equation}
+A(r)=\frac{r_s}{r}.
+\end{equation}
+The non-row conjugation operator will be written $\mathsf A$. Its inputs are charged antecedents in a declared row schema. It is not a nuclear count or the radial accumulation field. Subscripts are retained when a passage contains more than one of these objects.
+
+The letter $M$ also needs care. Here $M=126$ is retained capacity. A row-level readout is written $M_{\rm obs}(\mathfrak r)$ when following the source convention. The historical subscript ``obs'' does not by itself guarantee that the number is an independently measured mass. Its meaning is the finite readout field in the source schema. Where an experimental value is used, it is identified separately as the measured comparator and supplied with its physical units.
+
+The native source, debit or credit, and normalized lift are denoted
+\begin{equation}
+K,\qquad X,\qquad Y=\frac{X}{K}.
+\end{equation}
+The normalized quotient requires $K\ne0$. A source table containing a $K=X=0$ carrier does not acquire a defined $Y$ merely because the row belongs in the table. That endpoint will be retained in the mass chapter rather than silently filled.
+
+The matter-side source support is $q_A$. The nuclear rest-source and coupling-source channels are $Q_{\rm mass}$ and $Q_{\rm sub}$. These symbols express a deliberate separation. The volume does not assume a universal equality among $K$, $X$, $q_A$, the two nuclear channels and a measured mass. Their relationships must be established by the operators acting on the corresponding types.
+
+A row is therefore more than a displayed value. We use the source representation
+\begin{equation}
+\mathfrak r=(\mathcal S,\Sigma,a,\mathcal O),
+\end{equation}
+where $\mathcal S$ identifies the source table, $\Sigma$ its schema, $a$ its typed address and $\mathcal O$ the acting operator. Fields such as charge, sign, depth, partition, stability, bin and revealed name belong inside that identity. Two rows with the same native value can have different schemas, addresses or operators. Conversely, different representations of one row can preserve its identity while changing a derived display field.
+
+This notation has practical consequences. A comparison must say which field is compared. A catalog count must say which predicate selects its rows. A transformation must say whether it creates an admitted row, transforms a field of an existing row, or merely supplies an address used by another operation. Such declarations are part of the mathematical specification, not explanatory decoration.
+
+\subsection{The operational closure gate}
+
+Let a supported configuration be
+\begin{equation}
+\mathcal X=(\Gamma,\mathcal T,\mathcal A),
+\end{equation}
+where $\Gamma$ is connector support, $\mathcal T$ is carrier routing and $\mathcal A$ is a typed address. The matter gate evaluates the configuration:
+\begin{equation}
+\mathcal G_{\rm matter}(\mathcal X)
+\in\{\mathrm{ADMIT},\mathrm{REJECT}\}.
+\end{equation}
+On an admitted configuration it emits a finite material write,
+\begin{equation}
+\mathfrak m=\mathcal W_{\rm finite}(\mathcal X).
+\end{equation}
+The notation summarizes the source-defined gate; it does not replace its class-specific predicates with a new universal formula. The point of the abstraction is to show what information the gate receives and what category it may emit.
+
+A native generator acts earlier in the chain. It can assign a number to a candidate that is subsequently rejected by stability or matter admission. This is why a generator identity can hold for a fake closure. The generator and the rejection predicate are not inconsistent: they answer different questions. Likewise, a hidden-support row can carry a nonzero structural value without producing matter-side source support.
+
+This ordering prevents an otherwise easy circular argument. Suppose a formula can be evaluated on any number. If a nonzero output were then taken as sufficient for matter admission, the formula would be both the candidate construction and its own validator. In the retained construction the admission predicate is supplied independently by the row's declared source schema. The support formula is used only after that predicate is satisfied. It reports a consequence of admission rather than creating admission by arithmetic alone.
+
+The distinction between strong support and particle identity already appears in the reported QP034 selector. That run records a stable-lane closure fraction of $0.9999993719460315$ and a strongest-slot self-support score of $0.9880873618629215$, but zero fixed-point slot promotions. These values are reported from the source account, not a fresh calculation in this volume. Their significance is categorical: a high support score did not automatically become a localized particle identity.\cite{viireview}
+
+\subsection{Derivation of the released and retained domain}
+
+The split begins with the closed radix-square domain,
+\begin{equation}
+R^2=12^2=144.
+\end{equation}
+The reciprocal surface multiplicity is $1/S=1/8$. Applying it to the domain gives the released side,
+\begin{align}
+\Theta&=\frac{R^2}{S}\\
+&=144\left(\frac18\right)=18.
+\end{align}
+The complementary fraction is
+\begin{equation}
+1-\frac1S=\frac78,
+\end{equation}
+so retained capacity is
+\begin{align}
+M&=R^2\left(1-\frac1S\right)\\
+&=144\left(\frac78\right)=126.
+\end{align}
+Their sum closes the original domain:
+\begin{equation}
+\Theta+M=18+126=144.
+\end{equation}
+The carrier value is also recovered through the structural expression $\Theta=\alpha_HD^2=18$. This is an exact agreement of the two specified arithmetic routes.
+
+The interpretation is a complementary split into unlike roles. The released side is carrier traffic; the retained side is capacity for finite writes. Nothing in the addition law makes the carrier an ordinary matter row. Nor does the retained capacity equation supply all the predicates needed to decide which individual candidates are admitted. It supplies a finite structural account within which those decisions are made.
+
+The decomposition also explains why the numbers recur at different stages. A construction may use $18$ as a carrier quantity, a coordinate may evaluate to $18$, and a debit may have magnitude $18$. Those occurrences can be related by a specific operator or a tested crosswalk, but the shared numeral is not the crosswalk. This rule becomes especially important when the matter account reaches nuclear coordinates and informational geometry.
+
+\subsection{Source support after admission}
+
+Write the source-defined admission predicate as ${\rm Adm}(\mathfrak r)$. The support gate is
+\begin{equation}
+q_A(\mathfrak r)=
+\begin{cases}
+M_{\rm obs}(\mathfrak r)
+\left(1+\dfrac{|q(\mathfrak r)|}{R^2}\right),
+&{\rm Adm}=1,\\[3pt]
+0,&{\rm Adm}=0.
+\end{cases}
+\end{equation}
+Here $q$ is the charge or role coordinate of the particular schema. It must not be assigned a conventional physical interpretation solely from its letter. On an admitted branch the support expands as
+\begin{equation}
+q_A=M_{\rm obs}+M_{\rm obs}\frac{|q|}{R^2}.
+\end{equation}
+The second term is a role-conditioned increment in the source-support account. Both terms have the source table's declared scale. Their sum does not become measured rest mass without a separately justified conversion and comparison.
+
+The same released/retained fractions act on this support:
+\begin{equation}
+T=\frac{q_A}{8},\qquad
+W=\frac{7q_A}{8}.
+\end{equation}
+Consequently,
+\begin{equation}
+T+W=q_A.
+\end{equation}
+This is an exact conservation statement about the decomposition of one support quantity. It does not create an additional source quantity and does not add a material row. The letters identify channels of an admitted row's support, not independent particles whose masses should be summed again.
+
+An illustrative source calculation makes the sequence explicit. For an already admitted row with $M_{\rm obs}=12$ and $|q|=3$,
+\begin{align}
+q_A&=12\left(1+\frac3{144}\right)\\
+&=12\frac{49}{48}=\frac{49}{4}.
+\end{align}
+Then
+\begin{equation}
+T=\frac{49}{32},\qquad W=\frac{343}{32},
+\end{equation}
+and their sum is $392/32=49/4$. This is a worked instance of the operator, not a new named-particle prediction. The example is useful because every step remains rational and every output retains a declared role.
+
+A rejected row follows the other branch of the gate. Inserting a nonzero native value into the admitted formula would not be legitimate if the predicate failed. The distinction is essential for hidden support and carrier rows. They may be required by the surrounding construction while emitting no ordinary matter source through this gate.
+
+\subsection{The null witness and the cost of ignoring type}
+
+The LC06 replay retains the null-conjugate witness QP093A-0088. In its source account the native value is $18$ and the debit is $18$, leaving
+\begin{equation}
+M_{\rm obs}=0,\qquad q_A=0.
+\end{equation}
+The cancellation occurs before a nonzero material readout could be emitted. The row is particularly informative because the native value equals the carrier number $\Theta$. Neither the equality nor the presence of the row in a catalog licenses a matter promotion.
+
+If the row were counted as material simply because its native value is nonzero, the resulting inventory would lose the distinction between candidate and admitted object. If it were treated as a carrier simply because the number is $18$, its actual source role would also be overwritten. The null witness therefore tests a stronger discipline than numerical consistency: the complete row must be interpreted with its native value, debit, admission status and output together.
+
+The reported CR238 matter-gate regrade applies the same discipline across several source classes. Its account reports reconstruction of 126 admitted matter rows, 13 blocked rows with zero material readout and support, and eight hidden-support rows generated by
+\begin{equation}
+p+\frac{p^2}{R^2}.
+\end{equation}
+These class totals are scoped to that source test. They should not be added or identified with every other inventory in the book. Their purpose is to demonstrate that nonzero hidden structure and a blocked matter channel can coexist within a typed construction.\cite{viireview}
+
+\subsection{Connector roles and the substrate atom}
+
+The connector and partition alphabet is
+\begin{equation}
+\mathcal P=\{1,2,3,4,6,8,9,12\}.
+\end{equation}
+The substrate-atom packet is expressed by
+\begin{equation}
+X1+W8=W9.
+\end{equation}
+In this expression X1 is a transient activator or axis-fee role, W8 is the octahedral relational substrate object, and W9 is their completed relation. The equation must be read operationally. W9 is not an extra ordinary material constituent added alongside X1 and W8. It identifies completion of the relation represented by the packet.
+
+The longer ordered expression
+\begin{equation}
+1,1,2,3,4,6,8,8,9,9,12,18,81
+\end{equation}
+contains heterogeneous roles. The first twelve terms sum to $81$, and appending the final $81$ gives $162$. These equalities are exact. Their interpretation requires the role labels: activator, substrate and completion roles are not identical to the mass-lift values; $\Theta18$ is a carrier/overlap role; F81 is an aggregate full face. The separate A-field carrier is transport infrastructure outside this list.
+
+This distinction repairs an overly uniform reading of the expression as thirteen homogeneous tensors. The list has thirteen positions, but a position count does not erase the differences among its entries. An implementation receiving the expression must preserve those differences, or it can create a false correspondence merely by pairing equal values. Later chapters use the current typed reading when discussing carrier reception and the export to computation.\cite{viiatom}
+
+\subsection{A failure that fixes the source interpretation}
+
+The direct bridge tested in CR239 proposed that one scale could identify a native source quantity with measured inertial and gravitational mass:
+\begin{equation}
+m_i(P)=m_g(P)=\mu_QQ(P).
+\end{equation}
+The carbon-12 anchor was arranged so that
+\begin{equation}
+Q(^{12}{\rm C})=\frac{7117}{16},\qquad
+\mu_Q=\frac{192}{7117}\ \mathrm u
+\end{equation}
+per source unit, giving exactly $12\,\mathrm u$ at the anchor. An exact anchor is necessary to specify the conversion, but it cannot establish how the conversion behaves away from the anchor.
+
+The reported non-anchor result fails the locked comparison. The direct bridge has RMS residual $0.189480$, while the mass-number control has RMS $0.00202$. The source result records a failed direct bridge. Its isotope increment is also too small: the proposed increment $\mu_Q/8=24/7117\,\mathrm u$ is approximately $0.003372\,\mathrm u$, and the reported measured-to-predicted ratios across fourteen isotope pairs have mean $296.45$ and median $296.66$.\cite{viireview}
+
+The residual is structured. The source account reports RMS $0.0023$ for twelve balanced $N=Z$ rows, compared with $0.2152$ for thirty-seven rows with neutron excess, and Spearman correlation $+0.984$ with $N-Z$. The native quantity still contains information: its shuffled control is worse. But information in a source variable is weaker than the claimed direct identification with measured mass.
+
+The correction preserves the coupling channel and separates the rest-source channel. This is the starting point of the nuclear and binding chapters. The finite ledger remains useful because the failure identifies which quantity was being asked to do too much. A different field is not introduced merely to conceal a bad residual; the record retains the rejected identity, its anchor, its control and the neutron-excess structure that motivates the separation.
+
+\subsection{What the first closure supplies}
+
+Finite matter enters through typed closure. Its admitted support splits into complementary carrier and retained channels, while operators, hidden support and matter rows keep their distinct roles. The failed direct source-as-mass bridge supplies the reason to retain separate coupling and rest-source channels. The next chapters develop the finite particle surfaces and nuclear ledger; the later source chapters construct their conditional states, contact histories, occupied atoms and molecular recipients.

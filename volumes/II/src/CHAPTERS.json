@@ -1,0 +1,154 @@
+[
+  {
+    "file": "original01.tex",
+    "title": "Matter admission and finite closure",
+    "part": 1,
+    "original_chapter": 1,
+    "new_spin_chapter": false,
+    "word_count": 2636
+  },
+  {
+    "file": "original02.tex",
+    "title": "Typed Particle Grammar and Finite Surfaces",
+    "part": 1,
+    "original_chapter": 2,
+    "new_spin_chapter": false,
+    "word_count": 3520
+  },
+  {
+    "file": "original03.tex",
+    "title": "Mass Channels, Lift Operators, Higgs and Neutrino Packets",
+    "part": 1,
+    "original_chapter": 3,
+    "new_spin_chapter": false,
+    "word_count": 3796
+  },
+  {
+    "file": "original04.tex",
+    "title": "The Nuclear Ledger: Constituents, Channels, and Isotope Structure",
+    "part": 1,
+    "original_chapter": 4,
+    "new_spin_chapter": false,
+    "word_count": 2703
+  },
+  {
+    "file": "original05.tex",
+    "title": "Binding: exact structure, historical fits and the retained held test",
+    "part": 1,
+    "original_chapter": 5,
+    "new_spin_chapter": false,
+    "word_count": 4447
+  },
+  {
+    "file": "spin_00.tex",
+    "title": "Exact spin sources and finite thermal structure",
+    "part": 2,
+    "original_chapter": null,
+    "new_spin_chapter": true,
+    "word_count": 1951
+  },
+  {
+    "file": "spin_01.tex",
+    "title": "Microscopic Spin Sources and the Memory of an Accepted History",
+    "part": 2,
+    "original_chapter": null,
+    "new_spin_chapter": true,
+    "word_count": 3057
+  },
+  {
+    "file": "spin_02.tex",
+    "title": "Composition, thermal cancellation and intrinsic spin memory",
+    "part": 2,
+    "original_chapter": null,
+    "new_spin_chapter": true,
+    "word_count": 4342
+  },
+  {
+    "file": "spin_03.tex",
+    "title": "The Physical Spin Source and Its Complete Response Receiver",
+    "part": 2,
+    "original_chapter": null,
+    "new_spin_chapter": true,
+    "word_count": 4135
+  },
+  {
+    "file": "spin_04.tex",
+    "title": "Spin across substrate clocks, matter and exact computation",
+    "part": 2,
+    "original_chapter": null,
+    "new_spin_chapter": true,
+    "word_count": 2175
+  },
+  {
+    "file": "nuclear_01.tex",
+    "title": "Occupied Nuclear Sources, Conditional Interactions and Formation",
+    "part": 3,
+    "original_chapter": null,
+    "new_spin_chapter": false,
+    "word_count": 2173
+  },
+  {
+    "file": "nuclear_02.tex",
+    "title": "Retained Nuclear State and the Successive-Contact Process",
+    "part": 3,
+    "original_chapter": null,
+    "new_spin_chapter": false,
+    "word_count": 2507
+  },
+  {
+    "file": "original06.tex",
+    "title": "Elements, isotopes and composite matter",
+    "part": 3,
+    "original_chapter": 6,
+    "new_spin_chapter": false,
+    "word_count": 2439
+  },
+  {
+    "file": "atoms_01.tex",
+    "title": "Occupied Atoms from the Complete Nuclear Source",
+    "part": 3,
+    "original_chapter": null,
+    "new_spin_chapter": false,
+    "word_count": 2773
+  },
+  {
+    "file": "atoms_02.tex",
+    "title": "Common Action, Moving Atoms and Fully Paid Molecular Binding",
+    "part": 3,
+    "original_chapter": null,
+    "new_spin_chapter": false,
+    "word_count": 2570
+  },
+  {
+    "file": "scale_01.tex",
+    "title": "One source, one energy convention: isotope tests and the physical map",
+    "part": 3,
+    "original_chapter": null,
+    "new_spin_chapter": false,
+    "word_count": 2005
+  },
+  {
+    "file": "original07.tex",
+    "title": "Carrier return and matter reception",
+    "part": 3,
+    "original_chapter": 7,
+    "new_spin_chapter": false,
+    "word_count": 3286
+  },
+  {
+    "file": "foundations_01.tex",
+    "title": "Matter, directional history and the quantum receiver",
+    "part": 3,
+    "original_chapter": null,
+    "new_spin_chapter": false,
+    "word_count": 3510
+  },
+  {
+    "file": "original08.tex",
+    "title": "The finite handoff to computation",
+    "part": 3,
+    "original_chapter": 8,
+    "new_spin_chapter": false,
+    "word_count": 2589
+  }
+]

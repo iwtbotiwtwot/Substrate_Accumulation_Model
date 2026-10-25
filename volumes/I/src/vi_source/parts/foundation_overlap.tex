@@ -1,0 +1,327 @@
+% LaTeX fragment: Chapter VI foundation block, 17 October 2026.
+% Requires amsmath and amssymb; no preamble or theorem package is assumed.
+% Agent-originated analytical successor; no native calculation is asserted.
+
+\section{A quadratic overlap enclosure for the declared continuum preparation}
+\label{sec:chvi-foundation-overlap}
+
+\paragraph{Provenance and scope.}
+The quadratic refinement and robustness corollaries in this section are
+agent-originated derivations by OpenAI ChatGPT and Codex in the present work
+block. They use the retained Chapter~VI Hamiltonian, exact hard-eigenbranch
+preparation and continuum form construction. They do not replace that
+preparation by bare source levels, change its hard--soft split, or assert a
+new native certificate or a laboratory preparation. Route interpretation
+continues to use the chapter's declared proper-time controlled evolution.
+
+\subsection{Hamiltonian, preparation and operator-domain hypotheses}
+
+Retain the complete sixteen-state source and both continuum polarizations:
+\begin{equation}
+\begin{split}
+ H_0={}&\epsilon(S+Q_L+Q_R+Q_LQ_R)+H_f
+       -\epsilon(D\phi_++C\phi_\times)\\
+      &+\epsilon^2\mu(D^2+C^2),
+ \\ &D=Q_L-Q_R,\quad C=iSD,\quad \mu=(4R)^{-1}.
+\end{split}
+\label{eq:chvi-foundation-full-generator}
+\end{equation}
+The result below concerns one invariant, separately prepared lane
+$a<b$, with signed $d=q_a-q_b<0$, $g=\epsilon d$, and
+$e=q_a+q_b+q_aq_b$. The restriction of this same generator is
+\begin{equation}
+ H_0=\epsilon eI+\epsilon\sigma_x+H_f
+   -g(\sigma_z\phi_++\sigma_y\phi_\times)+2g^2\mu I.
+\label{eq:chvi-foundation-lane-generator}
+\end{equation}
+The lane restriction specifies the preparation sector; it does not discard
+the remaining source sectors from the model. No claim about an arbitrary
+superposition of different lanes is made here.
+
+Use the chapter's declared split $\lambda=64\Delta$ and factor the field
+into hard and soft Fock factors, including both polarizations in each.
+Let $H_{\rm ref}$ retain the hard interaction, free soft field, even source
+energy and the \emph{same full counterterm} $2g^2\mu I$ as $H_0$.
+Thus their closed quadratic forms have difference
+\begin{equation}
+\begin{gathered}
+V_s=-g(\sigma_z\phi_{+,s}+\sigma_y\phi_{\times,s}),
+ \\
+ v_s=\int_0^\lambda |u_R(\omega)|^2\,\mathrm d\omega
+ \leq v_s^{\rm up}
+ =\frac{R^4\lambda^6}{675\kappa\pi}.
+\end{gathered}
+\label{eq:chvi-foundation-soft-difference}
+\end{equation}
+In particular, no counterterm is subtracted a second time. The signed $g$
+remains in the interaction; its square below comes from a norm.
+
+Both Hamiltonians are the self-adjoint, semibounded operators associated
+with the retained closed forms on the common form domain
+$\mathcal Q=D(H_f^{1/2})$, with the finite source factor understood.
+The full ultraviolet smearing need not be square integrable. The soft
+smearing in Eq.~\eqref{eq:chvi-foundation-soft-difference} is square
+integrable, and the chapter's weighted field estimates define the common
+forms. We do not treat $V_s$ as a bounded operator on the full Fock space
+or subtract unbounded operators on an unspecified domain.
+
+Let the normalized orthogonal exact hard eigenbranches, including the
+matched scalar terms, give
+\begin{equation}
+\begin{gathered}
+\psi_k=\Phi_k\otimes|0_s\rangle\in D(H_{\rm ref}),\\
+ H_{\rm ref}\psi_k=E_k\psi_k,\\
+ \Psi_0=\frac{\psi_0+\psi_1}{\sqrt2},\\
+ \Omega=E_1-E_0>0.
+\end{gathered}
+\label{eq:chvi-foundation-preparation}
+\end{equation}
+Here $|0_s\rangle$ is the joint soft vacuum of both polarizations.
+Set
+\begin{equation}
+\begin{gathered}
+U(t)=e^{-itH_0},\\
+ R(t)=e^{-itH_{\rm ref}},\\
+ b^2=2g^2v_s,\\
+ \bar E=\frac{E_0+E_1}{2}.
+\end{gathered}
+\label{eq:chvi-foundation-notation}
+\end{equation}
+The symbol $R(t)$ denotes the reference propagator, whereas the scalar
+$R$ in the form factor is the retained source radius.
+
+For every real $u$, the form action of $V_s$ on $R(u)\Psi_0$ is represented
+by the Hilbert-space vector
+$f(u)=V_sR(u)\Psi_0$. It lies in the one-soft-photon sector and is
+continuous in $u$. The two polarization insertions are orthogonal, while
+$\sigma_z$ and $\sigma_y$ preserve the source norm. Consequently
+\begin{equation}
+\begin{gathered}
+\|f(u)\|^2=b^2,
+ \\
+ \langle\Psi_0,R(v)f(u)\rangle=0
+ \quad(u,v\in\mathbb R).
+\end{gathered}
+\label{eq:chvi-foundation-forcing-orthogonality}
+\end{equation}
+The last identity uses the zero-soft-photon reference orbit, not a
+truncation of the actual evolution.
+
+For completeness, the representation theorem for the common closed form
+gives, against every test vector in $\mathcal Q$,
+\begin{equation}
+\begin{gathered}
+R(u)\Psi_0\in D(H_0),\\
+ H_0R(u)\Psi_0=H_{\rm ref}R(u)\Psi_0+f(u).
+\end{gathered}
+\label{eq:chvi-foundation-domain}
+\end{equation}
+The right side is Hilbert-space continuous, since the reference orbit is
+a finite sum of eigenvectors and $f$ is continuous. These are sufficient
+strong-Duhamel hypotheses. At $u=0$ they also give
+\begin{equation}
+\begin{gathered}
+\langle H_0\rangle_{\Psi_0}=\bar E,\\
+ \sigma_H^2:=\|(H_0-\bar E)\Psi_0\|^2
+       =\frac{\Omega^2}{4}+b^2.
+\end{gathered}
+\label{eq:chvi-foundation-variance}
+\end{equation}
+This uses $\Psi_0\in D(H_0)$; neither $D(H_0^2)$ nor a fourth energy
+moment is assumed. No numerical value of $\bar E$ is supplied here.
+
+\subsection{The scalar cancellation}
+
+\noindent\textbf{Theorem (quadratic scalar Duhamel enclosure).}
+Under Eqs.~\eqref{eq:chvi-foundation-full-generator}--
+\eqref{eq:chvi-foundation-domain}, define
+\begin{equation}
+\begin{gathered}
+\Gamma_0(s)=\langle\Psi_0,U(s)\Psi_0\rangle,
+ \\
+ \Gamma_{\rm ref}(s)=e^{-i\bar Es}\cos(\Omega s/2).
+\end{gathered}
+\end{equation}
+Then, for every real $s$,
+\begin{equation}
+ \boxed{\begin{gathered}
+ |\Gamma_0(s)-\Gamma_{\rm ref}(s)|
+ \leq\frac{b^2s^2}{2}
+ =g^2v_s s^2
+ \leq q(s):=g^2v_s^{\rm up}s^2.
+ \end{gathered}}
+\label{eq:chvi-foundation-quadratic-overlap}
+\end{equation}
+The actual propagator on the left retains the complete continuum and all
+photon sectors. The statement concerns the scalar survival amplitude;
+it does not replace the first-order bound on the state-vector difference.
+
+\noindent\emph{Proof.}
+Write $\mathcal E(t)=U(t)-R(t)$. Equation~\eqref{eq:chvi-foundation-domain}
+permits differentiating $U(t-u)R(u)\Psi_0$ and integrating in the Hilbert
+space. With the oriented integral for negative $t$,
+\begin{equation}
+\begin{gathered}
+\mathcal E(t)\Psi_0
+   =-i\int_0^t U(t-u)f(u)\,\mathrm du,
+ \\
+ \|\mathcal E(t)\Psi_0\|\leq b|t|.
+\end{gathered}
+\label{eq:chvi-foundation-vector-duhamel}
+\end{equation}
+For $t\geq0$, insert the second identity in
+Eq.~\eqref{eq:chvi-foundation-forcing-orthogonality} into the scalar
+matrix element to obtain
+\begin{equation}
+ \langle\Psi_0,\mathcal E(t)\Psi_0\rangle
+ =-i\int_0^t
+       \langle\Psi_0,\mathcal E(t-u)f(u)\rangle\,\mathrm du.
+\end{equation}
+Here $\mathcal E(v)^*=\mathcal E(-v)$, so
+Cauchy--Schwarz and Eq.~\eqref{eq:chvi-foundation-vector-duhamel} give
+\begin{equation}
+\begin{split}
+ |\langle\Psi_0,\mathcal E(t)\Psi_0\rangle|
+ &\leq\int_0^t
+       \|\mathcal E(-(t-u))\Psi_0\|\,\|f(u)\|\,\mathrm du\\
+ &\leq b^2\int_0^t(t-u)\,\mathrm du
+ =\frac{b^2t^2}{2}.
+\end{split}
+\end{equation}
+For negative $t$, self-adjointness gives the complex conjugate scalar
+difference at $-t$, with the same modulus. Finally,
+Eq.~\eqref{eq:chvi-foundation-preparation} evaluates the reference matrix
+element as the displayed cosine. This establishes
+Eq.~\eqref{eq:chvi-foundation-quadratic-overlap}. $\square$
+
+The chapter's previous radius was
+$\varepsilon_s=|s|\sqrt{2g^2v_s^{\rm up}}$.
+The new radius is $q(s)=\varepsilon_s^2/2$. Both bounds remain valid;
+one may use $\min\{2,\varepsilon_s,q(s)\}$ at long times. This improvement
+does not certify an exact zero, a revival, a phase-clock inverse, or an
+extended physical two-arm coupling.
+
+\subsection{Preparation error and timing uncertainty}
+
+\noindent\textbf{Corollary (full-marker preparation error).}
+Let $\rho$ be a normalized density operator on the \emph{same complete}
+source--field Hilbert space, initially uncorrelated with the route system,
+and suppose
+\begin{equation}
+ T(\rho,|\Psi_0\rangle\langle\Psi_0|)
+ :=\tfrac12\|\rho-|\Psi_0\rangle\langle\Psi_0|\|_1
+ \leq\delta_{\rm prep}.
+\end{equation}
+For the unchanged actual generator, set
+$\Gamma_\rho(s)=\operatorname{Tr}(\rho U(s))$. Then
+\begin{equation}
+ |\Gamma_\rho(s)-e^{-i\bar Es}\cos(\Omega s/2)|
+ \leq q(s)+2\delta_{\rm prep}.
+\label{eq:chvi-foundation-preparation-overlap}
+\end{equation}
+\emph{Proof.} Trace/operator-norm duality and $\|U(s)\|=1$ bound the
+change of amplitude by $2\delta_{\rm prep}$; add
+Eq.~\eqref{eq:chvi-foundation-quadratic-overlap}. $\square$
+
+The factor two follows from the stated trace-distance convention.
+Closeness of only the source marginal does not supply this full-marker
+preparation hypothesis. Trace-distance closeness also does not, by
+itself, give a finite energy variance for $\rho$. Neither inference is
+needed for Eq.~\eqref{eq:chvi-foundation-preparation-overlap}.
+
+\noindent\textbf{Corollary (centered-energy timing bound).}
+Let $s$ be the nominal proper-time difference in the chapter's
+dimensionless chart and let the actual difference be $s+\xi$, with
+$|\xi|\leq a$. Define the centered amplitude
+\begin{equation}
+ G_\rho(t)=e^{i\bar Et}\Gamma_\rho(t)
+          =\operatorname{Tr}[\rho e^{-i(H_0-\bar E)t}].
+\end{equation}
+Then
+\begin{equation}
+ \boxed{\begin{gathered}
+ |G_\rho(s+\xi)-\cos(\Omega s/2)|
+ \leq q(s)+2\delta_{\rm prep}+\sigma_H a.
+ \end{gathered}}
+\label{eq:chvi-foundation-centered-jitter}
+\end{equation}
+A certified upper bound for $\sigma_H$ may replace $\sigma_H$.
+If the two route ages have errors $|\xi_j|\leq a_j$, take
+$\xi=\xi_1-\xi_2$ and $a=a_1+a_2$; a common equal age error cancels.
+
+\emph{Proof.} For $A=H_0-\bar E$, the spectral theorem and
+$|e^{-ix}-1|\leq|x|$ give
+\begin{equation}
+ \|(e^{-iA\xi}-I)\Psi_0\|
+ \leq |\xi|\|A\Psi_0\|=\sigma_H|\xi|.
+\end{equation}
+Consequently $|G_0(s+\xi)-G_0(s)|\leq\sigma_H|\xi|$.
+Compare $G_\rho(s+\xi)$ first with $G_0(s+\xi)$, then with $G_0(s)$,
+and finally with the reference cosine. The three errors are bounded by
+$2\delta_{\rm prep}$, $\sigma_Ha$ and $q(s)$, respectively. Thus only
+the exact preparation's variance is used. $\square$
+
+Centering is an explicit energy-phase assignment, not an instruction to
+discard an observable route phase. In raw amplitudes the conclusion is
+\begin{equation}
+ \left|\Gamma_\rho(s+\xi)
+ -e^{-i\bar E(s+\xi)}\cos(\Omega s/2)\right|
+ \leq q(s)+2\delta_{\rm prep}+\sigma_Ha.
+\label{eq:chvi-foundation-raw-jitter}
+\end{equation}
+If one instead compares with the \emph{nominal} raw reference
+$e^{-i\bar Es}\cos(\Omega s/2)$, add the energy-phase error
+\begin{equation}
+ 2|\cos(\Omega s/2)|\,|\sin(\bar E\xi/2)|
+ \leq |\cos(\Omega s/2)|\min\{2,|\bar E|a\}.
+\label{eq:chvi-foundation-mean-phase-jitter}
+\end{equation}
+Thus variance controls the centered timing error and the modulus error;
+a numerical absolute-phase bound additionally needs the mean energy or
+a specified compensating control phase. No numerical $\bar E$ is inferred
+from the gap $\Omega$.
+
+Under a common scalar reassignment $H_0\mapsto H_0+\beta I$ and
+$H_{\rm ref}\mapsto H_{\rm ref}+\beta I$, $G_\rho$, $\sigma_H$ and
+$q$ are unchanged, whereas $\Gamma_\rho(t)\mapsto
+e^{-i\beta t}\Gamma_\rho(t)$. Preserving a complete controlled-route
+amplitude requires the corresponding external action assignment
+$S_{{\rm ext},j}\mapsto S_{{\rm ext},j}+\hbar\beta\eta_j$ at the
+actual route ages. Even energy and counterterms remain counted once.
+
+\subsection{Modulus and phase disks}
+
+\noindent\textbf{Corollary (readable amplitude and phase enclosure).}
+Suppose any of the preceding estimates gives a complex disk
+$|z-c|\leq r$ for a normalized amplitude $z$. Writing $m=|c|$,
+\begin{equation}
+ \max\{0,m-r\}\leq |z|\leq\min\{1,m+r\}.
+\label{eq:chvi-foundation-modulus-disk}
+\end{equation}
+If $r<m$, the amplitude is nonzero and its circular phase distance obeys
+\begin{equation}
+ \operatorname{dist}_{\mathbb S^1}(\arg z,\arg c)
+ \leq\arcsin(r/m).
+\label{eq:chvi-foundation-phase-disk}
+\end{equation}
+\emph{Proof.} The modulus bounds are the triangle and reverse-triangle
+inequalities, together with $|z|\leq1$. Rotate $c$ to $m>0$.
+For $r<m$ the disk lies in the open right half-plane; the distance from
+$m$ to the ray through $z$ is $m|\sin\theta|\leq r$ with
+$|\theta|<\pi/2$. This gives Eq.~\eqref{eq:chvi-foundation-phase-disk}.
+$\square$
+
+For exact timing use $c=e^{-i\bar Es}\cos(\Omega s/2)$ and
+$r=q(s)+2\delta_{\rm prep}$. For the centered jitter estimate use
+$c=\cos(\Omega s/2)$ and
+$r=q(s)+2\delta_{\rm prep}+\sigma_Ha$.
+The modulus enclosure is then also an enclosure of the raw amplitude's
+modulus, and an ideal recombiner has visibility
+$2\sqrt{p_1p_2}|z|$ under its stated assumptions.
+For the raw jittered phase, restore $-\bar E(s+\xi)$ explicitly.
+If the cosine is negative its reference phase includes $\pi$; at its
+zeros, or whenever $r\geq m$, this disk yields no phase enclosure.
+A valid local phase branch is therefore confined to an interval on
+which the disk excludes zero. Additional beam-splitter, routing and
+recombination phases must still be included in an experimental fringe.
+

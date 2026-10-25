@@ -1,0 +1,56 @@
+[
+  {
+    "chapter": 7,
+    "sha256": "8c280a54405d0dd8bd34c03e50efd5ffefa662b7126978f42dc9e168f555a6e9",
+    "words_rough": 6578,
+    "brace_difference": 0,
+    "duplicate_labels": [],
+    "missing_local_references": [],
+    "missing_figures": []
+  },
+  {
+    "chapter": 8,
+    "sha256": "40b7be6e50aa6ab90a3da8e8579ac66289c300b8cb57fb22f29165952c17245d",
+    "words_rough": 6522,
+    "brace_difference": 0,
+    "duplicate_labels": [],
+    "missing_local_references": [],
+    "missing_figures": []
+  },
+  {
+    "chapter": 9,
+    "sha256": "14d3e269923891b2b14ecb9e6a61eea4b6b4ae3cace96955930e97ae7f65e4e1",
+    "words_rough": 6533,
+    "brace_difference": 0,
+    "duplicate_labels": [],
+    "missing_local_references": [],
+    "missing_figures": []
+  },
+  {
+    "chapter": 10,
+    "sha256": "34c388cdd6f46b7ea6c4239d343ddb836c398776ccf6ec299e0705984decf32b",
+    "words_rough": 6496,
+    "brace_difference": 0,
+    "duplicate_labels": [],
+    "missing_local_references": [],
+    "missing_figures": []
+  },
+  {
+    "chapter": 11,
+    "sha256": "8bdf908024bb2bf4dfbfc694efe6f9df545a34b29705314a3f81124332662052",
+    "words_rough": 6562,
+    "brace_difference": 0,
+    "duplicate_labels": [],
+    "missing_local_references": [],
+    "missing_figures": []
+  },
+  {
+    "chapter": 12,
+    "sha256": "b840b4ddbfe2a88b4224d6df5cc88b37f22940125faf8317129855b9a79a63fe",
+    "words_rough": 6489,
+    "brace_difference": 0,
+    "duplicate_labels": [],
+    "missing_local_references": [],
+    "missing_figures": []
+  }
+]

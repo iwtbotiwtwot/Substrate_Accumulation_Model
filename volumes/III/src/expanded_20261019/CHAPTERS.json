@@ -1,0 +1,146 @@
+[
+  {
+    "number": 1,
+    "file": "body01.tex",
+    "title": "N100: Grammar and Exact Work",
+    "origin": "retained foundation",
+    "source_sha256": "11b2ca0e2658e5ca19372be372a8c8838484f4797d272f2d1705f30c32f11088"
+  },
+  {
+    "number": 2,
+    "file": "body02.tex",
+    "title": "SAM Language and Exact Program Semantics",
+    "origin": "retained foundation",
+    "source_sha256": "d9ab8a1deea9b05ee4d929431b773fb26b690523195805909fea99b7ee260d92"
+  },
+  {
+    "number": 3,
+    "file": "body03.tex",
+    "title": "Exact State Spaces and Thermodynamics",
+    "origin": "retained foundation",
+    "source_sha256": "c3b9a98061992d71bf3b86d0976f11b28f2d7e1f5c2fe0825ecb26d3fc4b70b3"
+  },
+  {
+    "number": 4,
+    "file": "body04.tex",
+    "title": "The Algebra of a Complete Write",
+    "origin": "retained foundation",
+    "source_sha256": "6a20890c958f08ed392f1c1968aef210c9ca33fc9b44534ae03a77546e652b5b"
+  },
+  {
+    "number": 5,
+    "file": "body05.tex",
+    "title": "Lifecycle, Reception and Carrier Return",
+    "origin": "retained foundation",
+    "source_sha256": "5e21e8d4e650ecc7e7a012814b443ba146e9aeb77db35993043bcf3357787520"
+  },
+  {
+    "number": 6,
+    "file": "body06.tex",
+    "title": "Directional History and Event Reels",
+    "origin": "retained foundation",
+    "source_sha256": "67b840d68f8a07d67a47d4a9e60cd9d66e768cfb43bfdf12c93038faadb356fc"
+  },
+  {
+    "number": 7,
+    "file": "body07.tex",
+    "title": "Ordinal Selection and the Delegated Exact Engine",
+    "origin": "retained foundation",
+    "source_sha256": "3c13712b9af3d382bccf08acc95f26b51ea0cac70deaf27e0f139d564b556e73"
+  },
+  {
+    "number": 8,
+    "file": "body08.tex",
+    "title": "Starbreaker: Formation on Its Own Grammar",
+    "origin": "retained foundation",
+    "source_sha256": "c32b71ccec0432e77fd758366c13d608bd00ebed887840e20103116653dba90e"
+  },
+  {
+    "number": 9,
+    "file": "body09.tex",
+    "title": "Reciprocal History and the Completed Arithmetic Interface",
+    "origin": "retained foundation",
+    "source_sha256": "7031166c8cb770a9c654ed8c30919d7b42dc21e2c7b21b0905ffb347e582895e"
+  },
+  {
+    "number": 10,
+    "file": "body10.tex",
+    "title": "Prime Coordinates and Exact Mersenne Factors",
+    "origin": "retained foundation",
+    "source_sha256": "52d0beaa8ddb36a217879707602aab12d203ac9d3238d239898710a49f5c837e"
+  },
+  {
+    "number": 11,
+    "file": "body11.tex",
+    "title": "Jacobian Maps, Return and Retained History",
+    "origin": "retained foundation",
+    "source_sha256": "1ada49b0d64bccec69daeaca9d1ceba6265a6baec7779cc77b18dee98635d447"
+  },
+  {
+    "number": 12,
+    "file": "body12.tex",
+    "title": "Relational Composition and the Boundary of the Volume",
+    "origin": "retained foundation",
+    "source_sha256": "5024e4817cb8f8f01ac3610eda3454eddff5a2c0301ebba7cc5d665a63ca0fde"
+  },
+  {
+    "number": 13,
+    "file": "runtime_01.tex",
+    "title": "The Native Mathematical Runtime: Exact Values, Certified Functions and Retained Composition",
+    "origin": "expanded from completed repository work"
+  },
+  {
+    "number": 14,
+    "file": "runtime_02.tex",
+    "title": "Executable Methods, Adaptive Precision and Learned Questions",
+    "origin": "expanded from completed repository work"
+  },
+  {
+    "number": 15,
+    "file": "exact_01.tex",
+    "title": "Joint State Spaces and Layered Exact Sources",
+    "origin": "expanded from completed repository work"
+  },
+  {
+    "number": 16,
+    "file": "response_01.tex",
+    "title": "Certified Source Integration and Retained Response",
+    "origin": "expanded from completed repository work"
+  },
+  {
+    "number": 17,
+    "file": "applications_01.tex",
+    "title": "Source Histories, Directional Reception and Inverse Reconstruction",
+    "origin": "expanded from completed repository work"
+  },
+  {
+    "number": 18,
+    "file": "applications_02.tex",
+    "title": "Exact Application Reuse in Matter and Learned Reconstruction",
+    "origin": "expanded from completed repository work"
+  },
+  {
+    "number": 19,
+    "file": "arithmetic_01.tex",
+    "title": "Signed Arithmetic Sources and Retained Transition Storage",
+    "origin": "expanded from completed repository work"
+  },
+  {
+    "number": 20,
+    "file": "arithmetic_02.tex",
+    "title": "Reusable Mersenne Certificates and Arithmetic Compiler Boundaries",
+    "origin": "expanded from completed repository work"
+  },
+  {
+    "number": 21,
+    "file": "prime_event_01.tex",
+    "title": "Prime Events from Ising Sources: Boundary Response, Feedback and Native Memory",
+    "origin": "expanded from completed repository work"
+  },
+  {
+    "number": 22,
+    "file": "connections_01.tex",
+    "title": "Computational Interfaces Across the Three Volumes",
+    "origin": "expanded from completed repository work"
+  }
+]

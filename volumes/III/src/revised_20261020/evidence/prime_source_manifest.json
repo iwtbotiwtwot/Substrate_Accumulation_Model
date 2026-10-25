@@ -1,0 +1,90 @@
+{
+  "type": "bounded manuscript transcription and elementary arithmetic checks only",
+  "a": 3.6534264659876117,
+  "t_star": 2.346489729898476,
+  "b_at_t_star": 3.6534264659876117,
+  "coupling_budget_balanced": 44.15787675878171,
+  "coupling_field_budget_balanced": 53.543835678375615,
+  "error_reduction_fraction": 0.929701230228471,
+  "fitted_poisson_baseline_uniform": 0.011825465259096618,
+  "fitted_poisson_balanced": 0.7316156289466418,
+  "ideal_census_total": 999999999,
+  "scientific_campaign_executed": false,
+  "sources": [
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/prime_balance1/REPORT.md",
+      "bytes": 11270,
+      "sha256": "04b3f76141a39096215172bde0ad5574a083e8268072ee026f793445acc0143f"
+    },
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/prime_balance1/DERIVATION.md",
+      "bytes": 1750,
+      "sha256": "b2bdee2e84046aaf37640e85faa65d4598e4bc9f49156a1fac9db5ccbd79d98e"
+    },
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/prime_balance1/DESIGN.md",
+      "bytes": 1971,
+      "sha256": "4ec4dc95e68470d90ea326a23a2b152ab41c2e90769cdd95779d0b4639dad969"
+    },
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/prime_balance1/POD_PLAN.md",
+      "bytes": 956,
+      "sha256": "4002ab1820b3e6fd790159740d13f343ff6d48242eca40473669f1fa144cb760"
+    },
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/prime_balance1/HOLDOUT_PLAN.md",
+      "bytes": 888,
+      "sha256": "486d5c1e4446763925bc57e5eb253ac2a416e94b96ec7e5351b0983cf52f35f4"
+    },
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/prime_balance1/ANALYSIS.json",
+      "bytes": 3535,
+      "sha256": "e44a228d94a2a0910ed1d79747983ce542459538ea84f3b68dcc36798d51947a"
+    },
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/prime_balance1/COMPARISON.json",
+      "bytes": 80368,
+      "sha256": "29b5ee23a05ff22b384b2aae1608a5f7ec9ad33ac9b14f6b4535282498cf195c"
+    },
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/prime_balance1/HOLDOUT_ANALYSIS.json",
+      "bytes": 1484,
+      "sha256": "f8c239f0b995bcb41f7283cd2ef50e3b6755a46d091e5da2f3b9bbe0df7a6df1"
+    },
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/prime_balance1/FINAL_VERIFIED.json",
+      "bytes": 272,
+      "sha256": "8453642e667fe2678974a8a3741a441c0b551467f3b770f4a7d7149bd283b279"
+    },
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/prime_balance1/SOURCE_CHECK.json",
+      "bytes": 330,
+      "sha256": "7ac256aaf5d43412ea23bd964303f7eb282371596d9cad86a2e7277d7928dc5c"
+    },
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/prime_balance1/QUALIFICATION_CHECK.json",
+      "bytes": 288,
+      "sha256": "02721632300fe66e05dd8d986a61b21aba8631d121734016698d9ed1f2f40099"
+    },
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/prime_balance1/HOLDOUT_VERIFIED.json",
+      "bytes": 269,
+      "sha256": "c3e8986b514b9561292cbc9b18c4621f1630fbca3d8337ebd5a7ba4308f76125"
+    },
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/prime_event_report2/REPORT.md",
+      "bytes": 28660,
+      "sha256": "dd154a2cc0a339ac54348602ce0665c35b20c8cf23707e147390e9f66cc96662"
+    },
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_prime_connection1/REPORT.md",
+      "bytes": 8428,
+      "sha256": "f40ae5aa9da546b6ed7976e758ba94053a9f9a125c9c15f18b1c5952e4b55cf1"
+    },
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/prime_sam_dynamics1/REPORT.md",
+      "bytes": 17556,
+      "sha256": "b21d0ef82b304638d572a98379fdb15a874669bf53c33662f46c8062c59f49cc"
+    }
+  ]
+}

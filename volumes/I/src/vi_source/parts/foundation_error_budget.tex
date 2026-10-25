@@ -1,0 +1,167 @@
+\section{Preparation, timing, and causal retention}
+\label{sec:foundation-budget}
+
+The purpose of this section is to specify the common operands for the next
+source-only decoder and detector-to-record calculations. Numerical laboratory
+values are not assigned to an unspecified preparation, control, or memory.
+The estimates below apply to explicitly declared channels and states and can
+be filled with source-derived bounds as those constructions are completed.
+
+\subsection{A preparation specification with retained failure}
+Let $\rho_*=|\Psi_0\rangle\langle\Psi_0|$ denote the exact Chapter VI
+hard-eigenbranch/soft-vacuum preparation in one declared lane. A physical
+preparation must return a complete instrument with a ready flag and all
+failure flags. For each operational input label $j$, write
+\begin{equation}
+ \widehat\rho_j=(1-f_j)|{\rm ready}\rangle\langle{\rm ready}|\otimes\rho_j^{\rm r}
+       +f_j|{\rm fail}\rangle\langle{\rm fail}|\otimes\rho_j^{\rm f}.
+ \label{eq:foundation-ready-state}
+\end{equation}
+Multiple failure outcomes can be retained as separate blocks. Specify the
+ready-branch trace-distance error
+\begin{equation}
+ \delta_{{\rm prep},j}=\tfrac12\|\rho_j^{\rm r}-\rho_{*,j}\|_1.
+\end{equation}
+When $\rho_{*,j}$ is pure, a fidelity floor
+$\langle\Psi_{*,j}|\rho_j^{\rm r}|\Psi_{*,j}\rangle\ge1-\zeta_j$
+gives $\delta_{{\rm prep},j}\le\sqrt{\zeta_j}$ by the standard
+trace-distance/fidelity relation~\cite{Watrous}.
+This requires fidelity with the full specified source--field preparation;
+a source marginal fidelity alone does not certify the joint field state.
+
+If failure and abstention are counted as unsuccessful decoding, the complete
+attempt law obeys the exact identity
+\begin{equation}
+ e_j^{\rm all}=f_j+(1-f_j)e_j^{\rm r}.
+ \label{eq:foundation-failure-error}
+\end{equation}
+Consequently $f_j\le\bar f$ and $e_j^{\rm r}\le\bar e$ imply
+$e_j^{\rm all}\le\bar f+(1-\bar f)\bar e$.
+Conditioning on the ready flag defines a different, explicitly heralded
+protocol. Its success probability and retained failed attempts remain part
+of the resource account. A single experiment must choose whether it reports
+the all-attempt or ready-conditional record criterion.
+
+\subsection{A channel error budget that permits correlations}
+For each label $j$, let $\Phi_k$ and $\widetilde\Phi_k$ be reference and actual
+trace-preserving channels for the successive writing, switching, storage,
+transport, access, and decoding stages. Classical flags are included in their
+outputs. Registers needed to retain environmental correlations are included
+in the stage input. The allowed states must be rich enough that each bound
+below holds for the states on which that stage is actually used; if an
+arbitrary reference is retained, use the corresponding bound with that
+reference. Define
+\begin{equation}
+ \delta_k=\sup_{j,t,\omega\in\mathcal S_{k,j,t}}
+  \tfrac12\|[(\widetilde\Phi_k-\Phi_k)\otimes I](\omega)\|_1.
+ \label{eq:foundation-stage-error}
+\end{equation}
+The time supremum is over the declared receiving interval. A half-diamond-norm
+bound is sufficient; a bound uniform on the relevant reachable states also
+suffices. An environment with memory is retained as part of the joint state;
+independent noise between stages or cells is not assumed.
+
+\begin{proposition}[Composed readout error]
+If the reference decoder has worst-label error at most $e_*(t)$ and all
+stage bounds apply on the declared time interval, then the actual ready-branch
+decoder satisfies
+\begin{equation}
+ \sup_{j,t} e_j^{\rm r}(t)
+ \le \min\{1,\ \sup_t e_*(t)+\delta_{\rm prep}+\sum_k\delta_k\}.
+ \label{eq:foundation-error-budget}
+\end{equation}
+\end{proposition}
+\begin{proof}
+Insert the reference preparation and each reference channel one at a time
+into the composition. The triangle inequality bounds the final trace
+distance by $\delta_{\rm prep}+\sum_k\delta_k$; subsequent trace-preserving
+channels contract each difference. The success effect has spectrum in
+$[0,1]$, so its probability changes by at most that trace distance. Apply the
+bound to every label and time, then take the supremum. This argument also
+applies to a channel whose output contains both a classical instrument label
+and the corresponding quantum state.
+\end{proof}
+Equation~\eqref{eq:foundation-failure-error} then adds retained preparation
+failure when the all-attempt criterion is used. Do not count that same
+failure a second time inside an all-attempt channel-distance term.
+
+\subsection{Timing errors and the energy account}
+All internal ages use the Chapter I dimensionless chart. Let the actual
+readout ages differ from the nominal ages by $\xi_1,\xi_2$. If
+$|\xi_j|\le a_j$, the overlap time difference changes by at most
+$a_1+a_2$. The centered-amplitude estimate in the preceding overlap section
+uses the full prepared energy variance. It is insensitive to a common
+scalar energy reassignment only after the compensating external action
+phase is included. Absolute fringe phase requires the matched hard mean
+energy and the scalar control-action convention. A gap interval alone does
+not fix that absolute phase.
+
+For a switched or noncommuting control Hamiltonian, replacing the entire
+experiment by an age shift is a separate assertion. Instead, a common-domain
+strong Duhamel estimate can bound a declared perturbation $\Delta K_j(t)$:
+\begin{equation}
+ r_j\le\int_0^{t_f}
+       \|\Delta K_j(u)\Psi_{{\rm ref},j}(u)\|\,du.
+ \label{eq:foundation-control-forcing}
+\end{equation}
+The forcing must exist and be integrable in Hilbert norm. The reference
+orbit and domain assumptions must be stated for the actual singular-source
+control law. A nominal pulse duration by itself supplies no value of $r_j$.
+For normalized pure outputs, the resulting state trace distance is at most
+$\min\{1,r_j\}$, so it contributes directly to the decoder error budget.
+For branch overlap it contributes $r_1+r_2$ by the triangle inequality.
+
+If the good-timing event has probability at least $1-\beta$ for every label,
+and the conditional good-event decoding error is at most $e_{\rm good}$,
+then the unconditional error is bounded by
+\begin{equation}
+ e\le\beta+(1-\beta)e_{\rm good}.
+ \label{eq:foundation-timing-tail}
+\end{equation}
+The conditional input on that event must satisfy the preparation and control
+bounds used for $e_{\rm good}$. Independence between timing, preparation,
+and detector noise is not needed when the bounds are uniform or formulated
+on their joint conditioned state.
+
+\subsection{The specification to carry into the next calculation}
+The following ledger distinguishes a defined mathematical operand from an
+unassigned implementation value.
+\begin{center}\small
+\begin{tabularx}{\linewidth}{@{}l >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+Operand & Meaning & Present input or next receiving construction\\
+\midrule
+$\rho_*,\Omega,M,v_s^{\rm up}$ & Joint reference and certified bounds
+ & Retained Chapter VI/Chapter I package; exact hard branches are defined.\\
+$\bar E,\Phi_0,\Phi_1$ & Absolute energy and explicit hard state operands
+ & Recover certified hard-state data for numerical absolute phase and preparation.\\
+$f_j,\delta_{{\rm prep},j}$ & Failure probability and ready-state accuracy
+ & Bound from a complete finite preparation instrument.\\
+$a_j,\beta,r_j$ & Age uncertainty, timing tail, control mismatch
+ & Derive from the specified clock, switch, and actuator.\\
+$\mathcal N_t$ & Storage including correlated noise and read disturbance
+ & Choose a physical memory and retained environment.\\
+$\mathcal A_{\mathcal D,t}$ & Transport and permitted receiving access
+ & State receiver region, causal arrival, and available controls.\\
+$F_j(t),e_*(t)$ & Fixed experiment's decoder and reference error
+ & Next source-only quadrature benchmark, then actual detector bins.\\
+$\mathcal T_{\rm mem},\mathcal T_{\rm read}$ & Memory and receiving windows
+ & Use a causal onset and uniform retention/readout bounds.\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+For repeated reads, the channel sequence includes every earlier read and its
+retained output. Uniform single-read performance alone specifies no bound
+on a sequence of disturbed reads. Initial source--apparatus correlations,
+finite control references, and failure recipients enter the declared state
+and channels rather than being discarded at the composition step.
+
+The interface to the later two-arm transport task is fixed now: one full
+source--field state, declared branch controls and receiving regions, both
+polarizations, all source sectors, even energy and counterterms, and the
+same preparation/clock chart. The next detector calculation can then return
+a complete conditional law and its error budget under the stated transport
+law; actual two-arm transport will supply its additional controlled
+discrepancy.
+

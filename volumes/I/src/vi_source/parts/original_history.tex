@@ -1,0 +1,244 @@
+% Chapter VI component. Standard LaTeX + amsmath, amssymb only.
+% Self-contained finite-dimensional proofs; no external theorem package required.
+\section{Restoration of a local state and retention of a physical history}
+\label{sec:restoration-history}
+
+The source interface is
+\begin{equation}
+ W8+X1\longrightarrow W9\longrightarrow W8'.
+ \label{eq:write-interface}
+\end{equation}
+Here $W8$ names the resting, non-contact local substrate state; $X1$
+names the supplied interaction; and $W9$ names the temporary write state.
+The prime marks return after interaction, not a new substrate atom.
+The source's intended distinction is that a local state can return while
+an event remains recorded elsewhere. This section gives that distinction
+an explicit quantum-information comparator. It does not identify the
+symbols $W8$, $X1$, and $W9$ with Hilbert-space dimensions, derive their
+exact SAM/SLC grammar, or prove a substrate microdynamics.
+
+Chapter II already distinguishes an address from the history of its use.
+Returning to a retained address does not by itself say whether a record
+survives. Nor does a finite alphabet supply unlimited storage: a physical
+history requires distinguishable states of some specified recipient.
+The same discipline applies here. We must name the restored subsystem,
+the other degrees of freedom, and the operations by which a record can
+be read.
+
+\subsection{What a unitary reset can and cannot do}
+\label{subsec:reset-theorem}
+
+Let $L$ be a local record cell and let $E$ include every other degree of
+freedom participating in a closed finite-dimensional evolution. Suppose
+$\{|m_i\rangle_L\}_{i=1}^n$ are orthonormal pointer states and $E$ starts
+in a fixed pure state $|e_0\rangle$. An exact reset of $L$ has the form
+\begin{equation}
+ U\bigl(|m_i\rangle_L|e_0\rangle_E\bigr)
+   =|0\rangle_L|e_i\rangle_E.
+ \label{eq:unitary-reset}
+\end{equation}
+\noindent\textbf{Reset--recipient proposition.}
+If $U$ is unitary, then $\langle e_i|e_j\rangle=\delta_{ij}$.
+Consequently $E$ cannot also return to one fixed state when $n>1$.
+The recipient needs at least $n$ mutually orthogonal states.
+
+\noindent\emph{Proof.}
+Preservation of inner products gives
+\begin{equation}
+ \delta_{ij}
+ =\langle m_i,e_0|m_j,e_0\rangle
+ =\langle 0,e_i|0,e_j\rangle
+ =\langle e_i|e_j\rangle.
+\end{equation}
+An exact pure local output factors from the rest, so this argument also
+covers a purported reset whose output was initially written as a general
+joint pure state. A mixed initial environment may be purified by adding
+its reference to $E$; the conclusion then concerns that enlarged
+recipient. It does not guarantee a record readable from an arbitrarily
+chosen proper part of $E$. $\square$
+
+There is an important scope condition. If a separate system $S$ already
+contains a correlated copy, the input is not the fixed-environment input
+of Eq.~\eqref{eq:unitary-reset}. In the more general pure-state mapping
+\begin{equation}
+ |s_i\rangle|m_i\rangle|e_0\rangle
+ \longmapsto |s_i'\rangle|0\rangle|e_i\rangle,
+\end{equation}
+unitarity requires, for $i\ne j$,
+\begin{equation}
+ \langle s_i'|s_j'\rangle\langle e_i|e_j\rangle=0.
+ \label{eq:reset-factor}
+\end{equation}
+If $S$ returns to one common pure state, the recipient states must be
+orthogonal. If $S$ instead retains orthogonal alternatives, it can itself
+carry the distinction; a new record in $E$ is not compulsory. For example,
+reversing a controlled write resets the cell while retaining the source
+bit. The assertion that ``every reset must write a new history register''
+would therefore be false. The invariant is distinguishability of the
+complete closed state, not the permanence of a selected local mark.
+For mixed or entangled subsystems, surviving information may be in joint
+correlations rather than readable in any one marginal.
+
+\subsection{Three registers: a write, a restoration, and a retained marker}
+\label{subsec:three-register-write}
+
+Use three qubits: route $S$, local cell $L$, and history recipient $H$.
+The history register is initially blank. Define
+\begin{equation}
+\begin{gathered}
+C|r,\ell,h\rangle=|r,\ell\mathbin{\oplus}r,h\rangle,
+ \\
+ T=\operatorname{SWAP}_{LH},
+\end{gathered}
+\end{equation}
+where $r,\ell,h\in\{0,1\}$ and $\oplus$ is addition modulo two.
+Both maps permute the full eight-state computational basis, so both
+are unitary without a restriction to the intended input states.
+Their composition is
+\begin{equation}
+\begin{gathered}
+U=TC,\\
+ U|r,\ell,h\rangle
+     =|r,h,\ell\mathbin{\oplus}r\rangle.
+\end{gathered}
+\label{eq:three-register-unitary}
+\end{equation}
+For a normalized coherent route input,
+\begin{align}
+ |\Psi_{\rm in}\rangle
+  &=(\alpha|0\rangle+\beta|1\rangle)_S|0\rangle_L|0\rangle_H,
+  \nonumber\\
+ |\Psi_{\rm write}\rangle
+  &=\alpha|000\rangle+\beta|110\rangle,
+  \label{eq:write-stage}\\
+ |\Psi_{\rm restored}\rangle
+  &=\alpha|000\rangle+\beta|101\rangle
+  \nonumber\\
+  &=|0\rangle_L\bigl(\alpha|00\rangle_{SH}
+                        +\beta|11\rangle_{SH}\bigr).
+ \label{eq:restored-stage}
+\end{align}
+The local cell is exactly restored. Conditioned on the route alternative,
+the history states are $|0\rangle_H$ and $|1\rangle_H$, which can be
+perfectly discriminated. For a coherent input, however, the final state
+is an entangled superposition, not a derivation of one selected outcome.
+The comparator exhibits a readable pointer correlation and local
+restoration. It does not derive collapse or a unique realized history.
+
+The analogy to Eq.~\eqref{eq:write-interface} is deliberately limited:
+resting cell, interaction-enabled write, restored cell with a retained
+recipient correlation. The interaction $X1$ is not treated as an extra
+qubit or an arithmetical increment. The temporary $W9$ designation may
+refer to the interaction configuration; it need not mean that the cell
+alone has changed in every branch. In particular, the $r=0$ branch leaves
+its pointer value at zero even during the controlled write.
+
+The inverse exists on every input: $U^{-1}=C T$. With joint control of
+$S,L,H$, it returns Eq.~\eqref{eq:restored-stage} to
+$|\Psi_{\rm in}\rangle$. The phase information was never deleted from
+the complete state. By contrast, tracing out the record gives
+\begin{equation}
+ \rho_S=|\alpha|^2|0\rangle\langle0|
+          +|\beta|^2|1\rangle\langle1|
+ \label{eq:restored-route-marginal}
+\end{equation}
+both after the write and after the restoration. Thus the swap does not
+restore route-only interference. Global coherence is preserved throughout;
+its observability depends on access to the correlated degrees of freedom.
+Joint reversal, or suitable measurements of the record with conditioned
+route statistics, can reveal that coherence. An operation on the
+inaccessible record alone cannot change the unconditioned route marginal.
+
+For example, take $\alpha=1/\sqrt2$ and $\beta=e^{\mathrm{i}\phi}/\sqrt2$.
+The joint observable $X_S X_H$ has expectation $\cos\phi$ after restoration,
+whereas every route-only expectation is independent of $\phi$.
+This is the precise distinction between preservation in the closed system
+and accessibility in a restricted domain.
+
+This device stores one binary marker. It does not store an arbitrary
+sequence of writes. If $H$ is already occupied, the swap returns that
+previous content to $L$, rather than resetting $L$ to zero. Repeated
+restoration needs additional blank capacity, a deliberate reversible
+compression when possible, or an explicitly modeled disposal channel.
+Perfectly distinguishing $N$ possible complete histories requires $N$
+orthogonal global record states and hence a record-space dimension at
+least $N$. This is a storage statement, not a heat formula.
+
+\subsection{Pointer copying is not universal quantum cloning}
+
+For a declared orthogonal pointer basis, a controlled operation can copy
+its label:
+\begin{equation}
+ |r\rangle|0\rangle\longmapsto |r\rangle|r\rangle.
+\end{equation}
+Applied to a superposition, it creates the correlated state in
+Eq.~\eqref{eq:write-stage}; it does not produce two copies of
+$\alpha|0\rangle+\beta|1\rangle$. Indeed, let the overlap of two normalized inputs be $z$ and allow the
+cloner to finish in input-dependent auxiliary states $|a_\psi\rangle$ and
+$|a_\varphi\rangle$. Inner-product preservation would require
+$z=z^2\langle a_\psi|a_\varphi\rangle$. For $0<|z|<1$, this implies
+$1\le |z|$, a contradiction. Universal cloning is therefore impossible
+even when the auxiliary state is allowed to change.
+
+Transfer is different. A swap implements
+\begin{equation}
+ |\psi\rangle_L|0\rangle_H\longmapsto
+ |0\rangle_L|\psi\rangle_H
+\end{equation}
+for every $|\psi\rangle$, preserving its entanglement with any reference.
+The input remains present once, at its new location. Resetting $L$
+while leaving both the recipient and all other degrees of freedom fixed
+would instead delete an unknown input, contrary to inner-product
+preservation. These elementary statements suffice for this interface;
+no universal copying or unexplained destruction of quantum information is being assumed. Related no-deleting and no-hiding results have their own hypotheses; no claim that information must reside only in correlations is used here.\cite{PatiBraunstein2000,BraunsteinPati2007}
+
+\subsection{A physical record needs an accessible decoder}
+\label{subsec:accessible-decoder}
+
+The decoder criterion of Eq.~\eqref{eq:operational-record} applies to the nominated recipient, not merely the restored cell. For equal priors, the three-register example has trace distance one between its conditional history states and zero between its conditional local-cell states. The history permits perfect route decoding; the restored cell permits only chance performance. The Helstrom optimum is attainable only if its measurement belongs to the allowed set.
+
+Durability adds a time and noise specification. A useful requirement is
+that a stated decoder recover the label with error at most $\epsilon$
+after a declared storage interval and channel. Orthogonality at the moment
+of writing does not by itself establish durability. For example, encoding
+a classical bit in an odd number $n$ of identical pointer cells and
+reading by majority vote gives
+\begin{equation}
+\begin{gathered}
+P_{\rm err}\le
+ \exp\{-2n(\tfrac12-p)^2\},\\
+ p<\tfrac12,
+\end{gathered}
+\end{equation}
+if, conditional on the stored bit, the cell errors are independent and
+each has probability at most $p$. For error indicators $E_j$ and $t=1/2-p>0$, independence and the
+bounded-variable exponential-moment inequality give
+\begin{equation}
+ \Pr\!\left\{\sum_j(E_j-\mathbb E E_j)\ge nt\right\}
+ \le \inf_{\lambda>0}e^{-\lambda nt+n\lambda^2/8}
+ =e^{-2nt^2}.
+\end{equation}
+Majority failure is contained in the displayed event. Correlated failures need not satisfy it: one
+common flip of all cells leaves a majority decoder with the same error
+probability as a single cell. This example is an optional classical
+storage mechanism, not a derived SAM durability law.
+
+Finally, a history description is not an additional quantum observable.
+If two proposed histories yield the same accessible density operator,
+every accessible POVM gives the same outcome probabilities. Calling one
+state $W8$ and the other $W8'$ cannot change this. If a history can be
+read, its evidence must reside in distinguishable accessible states or
+correlations, with a specified decoding operation. This is the physical
+content of the prime: local return is compatible with a retained record,
+but the notation alone neither guarantees that record nor makes it
+accessible.
+
+No thermodynamic cost is inferred from these unitary maps. A Landauer
+bound belongs to a separately declared cyclic erasure protocol with a
+thermal reservoir, temperature, initial logical ensemble, and work/heat
+accounting. Neither the number of local addresses nor the logarithm of a
+record-space dimension is, by itself, dissipated heat. The present result
+is narrower: a local restoration can transfer a physical distinction;
+it cannot establish the disappearance of that distinction from a closed
+unitary account.
+

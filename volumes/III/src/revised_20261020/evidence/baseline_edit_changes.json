@@ -1,0 +1,543 @@
+[
+  {
+    "file": "body01.tex",
+    "old": "The account below follows the chapter source as retained at the fixed 8 September 2026 SAMA revision. Engine names, installed interfaces and campaign status are historical source statements. They do not describe a freshly inspected October deployment. Later source amendments are distinguished where available; no later engine or campaign is inferred.",
+    "new": "The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.",
+    "count": 1
+  },
+  {
+    "file": "body02.tex",
+    "old": "The account below follows the chapter source as retained at the fixed 8 September 2026 SAMA revision. Engine names, installed interfaces and campaign status are historical source statements. They do not describe a freshly inspected October deployment. Later source amendments are distinguished where available; no later engine or campaign is inferred.",
+    "new": "The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.",
+    "count": 1
+  },
+  {
+    "file": "body03.tex",
+    "old": "The account below follows the chapter source as retained at the fixed 8 September 2026 SAMA revision. Engine names, installed interfaces and campaign status are historical source statements. They do not describe a freshly inspected October deployment. Later source amendments are distinguished where available; no later engine or campaign is inferred.",
+    "new": "The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.",
+    "count": 1
+  },
+  {
+    "file": "body04.tex",
+    "old": "The account below follows the chapter source as retained at the fixed 8 September 2026 SAMA revision. Engine names, installed interfaces and campaign status are historical source statements. They do not describe a freshly inspected October deployment. Later source amendments are distinguished where available; no later engine or campaign is inferred.",
+    "new": "The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.",
+    "count": 1
+  },
+  {
+    "file": "body05.tex",
+    "old": "The account below follows the chapter source as retained at the fixed 8 September 2026 SAMA revision. Engine names, installed interfaces and campaign status are historical source statements. They do not describe a freshly inspected October deployment. Later source amendments are distinguished where available; no later engine or campaign is inferred.",
+    "new": "The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.",
+    "count": 1
+  },
+  {
+    "file": "body06.tex",
+    "old": "The account below follows the chapter source as retained at the fixed 8 September 2026 SAMA revision. Engine names, installed interfaces and campaign status are historical source statements. They do not describe a freshly inspected October deployment. Later source amendments are distinguished where available; no later engine or campaign is inferred.",
+    "new": "The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.",
+    "count": 1
+  },
+  {
+    "file": "body07.tex",
+    "old": "The account below follows the chapter source as retained at the fixed 8 September 2026 SAMA revision. Engine names, installed interfaces and campaign status are historical source statements. They do not describe a freshly inspected October deployment. Later source amendments are distinguished where available; no later engine or campaign is inferred.",
+    "new": "The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.",
+    "count": 1
+  },
+  {
+    "file": "body08.tex",
+    "old": "The account below follows the chapter source as retained at the fixed 8 September 2026 SAMA revision. Engine names, installed interfaces and campaign status are historical source statements. They do not describe a freshly inspected October deployment. Later source amendments are distinguished where available; no later engine or campaign is inferred.",
+    "new": "The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.",
+    "count": 1
+  },
+  {
+    "file": "body09.tex",
+    "old": "The account below follows the chapter source as retained at the fixed 8 September 2026 SAMA revision. Engine names, installed interfaces and campaign status are historical source statements. They do not describe a freshly inspected October deployment. Later source amendments are distinguished where available; no later engine or campaign is inferred.",
+    "new": "The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "The account below follows the chapter source as retained at the fixed 8 September 2026 SAMA revision. Engine names, installed interfaces and campaign status are historical source statements. They do not describe a freshly inspected October deployment. Later source amendments are distinguished where available; no later engine or campaign is inferred.",
+    "new": "The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.",
+    "count": 1
+  },
+  {
+    "file": "body11.tex",
+    "old": "The account below follows the chapter source as retained at the fixed 8 September 2026 SAMA revision. Engine names, installed interfaces and campaign status are historical source statements. They do not describe a freshly inspected October deployment. Later source amendments are distinguished where available; no later engine or campaign is inferred.",
+    "new": "The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.",
+    "count": 1
+  },
+  {
+    "file": "body12.tex",
+    "old": "The account below follows the chapter source as retained at the fixed 8 September 2026 SAMA revision. Engine names, installed interfaces and campaign status are historical source statements. They do not describe a freshly inspected October deployment. Later source amendments are distinguished where available; no later engine or campaign is inferred.",
+    "new": "The historical constructions in this chapter retain the fixed 8 September 2026 SAMA source stage. Later results are identified by their own source records.",
+    "count": 1
+  },
+  {
+    "file": "body07.tex",
+    "old": "\\textbf{Source-status qualification.} The operational and revision statements in this chapter describe the retained source documents. They are not an instruction to execute, deploy, resume, train, promote or change a service, and they have not been independently verified as present live state for this edition.",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "body09.tex",
+    "old": "\\textbf{Source-status qualification.} The operational and revision statements in this chapter describe the retained source documents. They are not an instruction to execute, deploy, resume, train, promote or change a service, and they have not been independently verified as present live state for this edition.",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "\\textbf{Source-status qualification.} The operational and revision statements in this chapter describe the retained source documents. They are not an instruction to execute, deploy, resume, train, promote or change a service, and they have not been independently verified as present live state for this edition.",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "body01.tex",
+    "old": "The first computational question is exact and finite: what object is specified by the admitted source grammar, and how can its complete state sum be evaluated? This chapter keeps the object fixed while following two execution routes. The source census establishes the object; the factorization explains why its formal cardinality need not equal the amount of local enumeration.",
+    "new": "The source-derived N100 Hamiltonian was solved exactly by two routes. H14F returned its complete retained-role density of states in 3.828137395 seconds; conditional-component enumeration and exact convolution returned the same coefficients in 0.500951441 seconds. Both account for all $2^{100}$ assignments. The source census fixes the object, and the factorization explains the smaller amount of local work.",
+    "count": 1
+  },
+  {
+    "file": "body02.tex",
+    "old": "A favorable graph decomposition is useful only if the program and its inputs retain their meanings. The formal language places source identity, operator type, state and history into one execution contract. Its real finite kernel is a substantial result in its own right; its explicit exclusions are part of the specification.",
+    "new": "SAM Language makes source identity, operator type, state and history executable parts of one program contract. The retained formal simulator implements parsing, resolution, checking, evaluation and deterministic receipts; its G01--G16 records test those semantic and custody surfaces. This chapter explains how that finite kernel preserves program meaning through execution and reconstruction.",
+    "count": 1
+  },
+  {
+    "file": "body03.tex",
+    "old": "This chapter moves from one graph to the family of exact methods that may evaluate a declared state-space object. It then follows the resulting density of states into dimensionless thermodynamics. The distinction between an exact numerical object and a physically calibrated energy is maintained throughout.",
+    "new": "Exact density-of-states methods count every assignment by energy and retain the integer coefficients needed for later thermodynamic calculations. This chapter develops enumeration, elimination and polynomial routes to that complete object, then derives the partition function and thermal moments from the frozen N96 density. Physical units enter through a separately specified energy scale.",
+    "count": 1
+  },
+  {
+    "file": "body04.tex",
+    "old": "Exact state counting and exact writes answer different questions. A write acts on a state, returns a result and retains the record needed to reconstruct what occurred. Here the translation compiler is derived within its finite group action, while the transaction and history interfaces retain the additional information that an endpoint alone cannot carry.",
+    "new": "Complete Write compiles signed translations on all 262,144 addresses of $\\mathbb Z_4^9$ and retains a reconstructible rank-161 reciprocal receipt. Sequential and compiled actions are bit-identical, and the inverse returns every address. The derivation explains how endpoint action and retained event history remain available as distinct outputs of the same transaction.",
+    "count": 1
+  },
+  {
+    "file": "body05.tex",
+    "old": "The algebraic action must be received by a typed lifecycle. This chapter follows the source roles without treating a carrier, a matter row, an unresolved site and a completed receipt as interchangeable. Corrections to earlier literal and causal interpretations remain visible alongside the corrected finite constructions.",
+    "new": "The W8--X1--W9 lifecycle gives the exact program a typed request, response and completion sequence. The corrected carrier construction uses Theta18 for normalization while retaining X1 as the response type. This chapter follows that construction into ordered execution, reception and return, including the controls that distinguish its source roles.",
+    "count": 1
+  },
+  {
+    "file": "body06.tex",
+    "old": "A history is more than a sequence label attached to a state. Reciprocal endpoints define an event incidence, its Gram and a shared-anchor reel. The elementary positivity of an event is established within that construction; it is not promoted to positivity of every completed arithmetic expression that may later consume the event.",
+    "new": "Directional computation acts on all 262,144 Theta18 addresses through 18 maps and retains the reciprocal history needed to reconstruct both directions. An event with incidence $B_e=I-U_e$ contributes the positive Gram $B_e^*B_e$ to an append-only reel. The shared-anchor construction preserves the common stationary state and the complete nonconstant event information.",
+    "count": 1
+  },
+  {
+    "file": "body07.tex",
+    "old": "The latest global selector described by the retained SAMA material is Q2. Its job is to order an admissible catalog using source-visible features, while exact arithmetic remains delegated. This chapter records its frozen comparisons without turning a learned ordering into a physical law or an unrestricted complexity claim.",
+    "new": "The frozen Q2 selector improves weighted strict-pair ordering over Q1 by $63200/594823$ on HOLDOUT and $83595/773858$ on CONTROL. It recovers every exact best set on both surfaces without a false singleton or abstention. Its 70 source-visible features order admissible receipts while the unchanged arithmetic services remain delegated to SLCV21R.",
+    "count": 1
+  },
+  {
+    "file": "body08.tex",
+    "old": "Starbreaker is the first major formation application in this volume. It receives its own ledgers, events, stages and occurrence views. The useful transfer from exact computation is a routing discipline, not substitution of the N100 graph. Both successful reconstructions and failed physical or numerical controls belong in the account.",
+    "new": "Starbreaker retains 2,976 formation ledgers and 482,112 typed atoms with their stages, event orders, incidence and record origins. A structure-first replay reconstructs the completed parent byte for byte and passes all 78 declared checks using its own grammar. The chapter develops the source construction and the later reception and carrier calculations that consume it.",
+    "count": 1
+  },
+  {
+    "file": "body09.tex",
+    "old": "Reciprocal History extends the state/history distinction into a mathematical interface with completed arithmetic. This chapter records the finite constructions, the failed direct identification and the corrected source route. It does not supply a proof of the Riemann hypothesis. The universal joins named below remain open in the retained source.",
+    "new": "Reciprocal History constructs a nonbacktracking operator on the 520 directed edges of the N100 source and pairs 10,700 oriented primitive histories into 5,350 reciprocal classes. Its corrected arithmetic interface retains the ordinary-prime tower, coefficient-one grading and completed signed form. The finite constructions and the all-scale nonnegativity question are developed at their respective scopes.",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "The prime application asks a narrower question than primality: can a declared structure expose exact factor opportunities? The geometry is an information-coordinate language. Modular certificates decide factors, and a finite failure to find one remains only that. Later bounded application amendments are recorded under their own provenance.",
+    "new": "The prime-coordinate program constructs exact factor opportunities and verifies the resulting divisibility certificates. Its structural scheduler finds 103 factors against 100 at equal budget on the retained comparison, and its frontier deployment assigns 1,282 exact factors across 5,390 prime exponents. This chapter derives the coordinates, compiler and evidence that support those results; a surviving finite search row keeps its primality status unassigned.",
+    "count": 1
+  },
+  {
+    "file": "body11.tex",
+    "old": "The Jacobian branch uses a polynomial map as a laboratory for the difference between returning endpoints and retained path history. The finite source results are preserved, together with corrections that prevent a chosen auxiliary grammar from becoming an unproved natural invariant. The proposed clean restart remains distinct from executed work.",
+    "new": "The JC1 polynomial map has exact Jacobian determinant $-2$ and a fiber construction whose single and double windings produce different sheet histories. Complete Write programs can return to the same endpoint across all 262,144 addresses while retaining different event counts, orientations and semantic hashes. This chapter derives those distinctions and follows the finite and projective sheet calculations that refine them.",
+    "count": 1
+  },
+  {
+    "file": "body12.tex",
+    "old": "The closing chapter of the retained foundation changes evidential level. It preserves two source-originated proposals about composition and interaction, rather than presenting a newly validated universal law. Their role is to state the intended conceptual relation among the finite objects already developed. The volume can end with these questions explicit; they do not create an obligation to run another campaign.",
+    "new": "The retained foundation closes with two source-originated proposals about relational composition and interaction. They connect the finite objects developed in the preceding chapters and state the mathematical assignments that a broader composition law would need. Their status as proposals is kept explicit alongside the completed constructions that motivate them.",
+    "count": 1
+  },
+  {
+    "file": "applications_01.tex",
+    "old": "The classifications remain those of each executed comparison. Full two-channel reception and the source-history reconstructions achieve \\emph{The test result suggests strong contact with the concept.} Mixed and partially observed cases retain their source-defined ambiguities and classifications.",
+    "new": "Full two-channel reception reconstructs the declared source histories exactly. The mixed and partially observed comparisons quantify which histories remain indistinguishable under each supplied observation.",
+    "count": 1
+  },
+  {
+    "file": "applications_01.tex",
+    "old": "For that result, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The complete phase and signed-history outputs can therefore be received by later operations without reconstructing the original packet campaign.",
+    "count": 1
+  },
+  {
+    "file": "applications_01.tex",
+    "old": "For the two direction-supplied full-program comparisons, \\emph{The test result suggests strong contact with the concept.} For the partially supplied comparisons and endpoint-only tests, \\emph{The test result suggests the concept is possible.}",
+    "new": "Direction-supplied observations recover every program; removing direction or initial-phase information gives the smaller exact recovery counts stated above.",
+    "count": 1
+  },
+  {
+    "file": "applications_01.tex",
+    "old": "For the mixed-source result, \\emph{The test result suggests the concept is possible.} For the separated-source reference, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The mixed observation recovers most source-choice pairs, while separately observed contributions recover the complete roster.",
+    "count": 1
+  },
+  {
+    "file": "applications_01.tex",
+    "old": "For the full inverse, \\emph{The test result suggests strong contact with the concept.} For this fixed-total outer-only recovery, \\emph{The test falsifies the concept.}",
+    "new": "The six distinct radial readings reconstruct the full source; the fixed-total outer reading cannot distinguish any of the 141 distributions.",
+    "count": 1
+  },
+  {
+    "file": "applications_01.tex",
+    "old": "For persistent source-dependent boundary memory through the completed roster, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The completed roster therefore retains measurable source-dependent boundary memory through $N=5000$ under the declared finite-source dynamics.",
+    "count": 1
+  },
+  {
+    "file": "applications_02.tex",
+    "old": "For the achieved grammar assembly and source-action selection, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The retained minimizing sets and the three agreeing primitive calculations establish exact source-action selection for this construction grammar.",
+    "count": 1
+  },
+  {
+    "file": "applications_02.tex",
+    "old": "For the completed response-based distinction, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The signed response differences distinguish the retained constructions and preserve their reversal associations under independent rational reconstruction.",
+    "count": 1
+  },
+  {
+    "file": "applications_02.tex",
+    "old": "\\emph{The test result suggests strong contact with the concept.} The adapter is a qualified research candidate",
+    "new": "The full response is preserved while propagation work is reduced in the measured pilot. The adapter is a qualified research candidate",
+    "count": 1
+  },
+  {
+    "file": "applications_02.tex",
+    "old": "Thus the reported result is improved selection of existing learned methods, not newly trained expressions or a blanket reduction of every computational cost. \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The saved selector improves its declared observation objective using existing learned methods. The counts above show separately what happens to scalar storage and executed arithmetic.",
+    "count": 1
+  },
+  {
+    "file": "applications_02.tex",
+    "old": "The declared learned-bundle improvement questions retain their separate classifications. For direction, \\emph{The test falsifies the concept.} For identification, \\emph{The test result suggests the concept is possible.} For mean decay improvement, \\emph{The test falsifies the concept.} For the pilot's acquisition-and-reuse question, \\emph{The test result suggests the concept is possible.}",
+    "new": "The matched test does not improve direction or mean decay accuracy; identification AUROC increases by the stated small amount. The pilot separately completes acquisition and reuse of the learned bundle.",
+    "count": 1
+  },
+  {
+    "file": "arithmetic_01.tex",
+    "old": "For the exact prefix construction and completed source panel, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The exact prefix construction preserves the moving fractional boundary, and independent 256-bit evaluations reconstruct the complete declared source panel.",
+    "count": 1
+  },
+  {
+    "file": "arithmetic_01.tex",
+    "old": "For these completed uniform transport and source reductions, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The completed identities isolate the unassigned source-correlation coefficient while paying the known scale-dependent terms explicitly.",
+    "count": 1
+  },
+  {
+    "file": "arithmetic_01.tex",
+    "old": "The completed exact representations, transport identities and finite certificates have classification \\emph{The test result suggests strong contact with the concept.} The uniform route retains \\emph{The test result suggests the concept is possible.} Its all-scale determinant estimate remains the named source assignment.",
+    "new": "The exact representations, transport identities and stated finite certificates are completed. Their all-scale continuation requires the named uniform determinant estimate, which remains unassigned.",
+    "count": 1
+  },
+  {
+    "file": "arithmetic_01.tex",
+    "old": "For the completed whole-inverse and signed-source recipients, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The completed recipients retain both exterior tails and all mixed signed-source entries in the whole-inverse response.",
+    "count": 1
+  },
+  {
+    "file": "arithmetic_01.tex",
+    "old": "\\emph{The test result suggests strong contact with the concept.} \\samref{V3A05}",
+    "new": "The retained complete-cut values agree with the reference while the measured arithmetic work is reduced.\\samref{V3A05}",
+    "count": 1
+  },
+  {
+    "file": "arithmetic_01.tex",
+    "old": "For these tested source and transition relationships, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The source and transition reconstruction verifies the storage identity and its signed payment at the tested crossing.",
+    "count": 1
+  },
+  {
+    "file": "arithmetic_02.tex",
+    "old": "For route-order optimization, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The changed work order returns the same exact terminals and retained unresolved rows with fewer component builds and trial divisions.",
+    "count": 1
+  },
+  {
+    "file": "arithmetic_02.tex",
+    "old": "For the executed sufficient-proof reduction and source-linked history readout, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The completed proof reduction preserves its sufficient premises, and the separate history consumer supplies residue-selected candidates to native verification.",
+    "count": 1
+  },
+  {
+    "file": "arithmetic_02.tex",
+    "old": "For this qualified local method composition, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The qualified local composition reduces repeated powers while retaining every required modular premise and the independent validation.",
+    "count": 1
+  },
+  {
+    "file": "arithmetic_02.tex",
+    "old": "For this finite implementation improvement, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The finite implementation preserves the complete ordered survivor lists and reduces the measured confirmation-window time by 10.60 percent.",
+    "count": 1
+  },
+  {
+    "file": "arithmetic_02.tex",
+    "old": "For exact transition reuse, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The recurrence reconstructs the complete packed sieve state across the retained transitions.",
+    "count": 1
+  },
+  {
+    "file": "body07.tex",
+    "old": "The installed classification is exactly: \\textbf{The test result suggests strong contact with the concept.}",
+    "new": "The result is exact best-set recovery on both frozen splits with the stated improvement in pair ordering.",
+    "count": 1
+  },
+  {
+    "file": "body07.tex",
+    "old": "The authorized classification is: \\textbf{The test result suggests strong contact with the concept.}",
+    "new": "The frozen comparison improves weighted pair ordering while retaining every exact best set and all maximizing ties.",
+    "count": 1
+  },
+  {
+    "file": "body08.tex",
+    "old": "stages. \\textbf{The test result suggests strong contact with the concept.}",
+    "new": "stages. All 384 source relations retain that exact returning action and signed history.",
+    "count": 1
+  },
+  {
+    "file": "body08.tex",
+    "old": "\\texttt{13/13} and \\texttt{18/18}. \\textbf{The test result suggests strong contact with the concept.}",
+    "new": "\\texttt{13/13} and \\texttt{18/18}. The complete census distinguishes the 1,920 nonzero coherent waves from the 128 exact cancellations.",
+    "count": 1
+  },
+  {
+    "file": "body09.tex",
+    "old": "The relational law and its validation are classified: \\textbf{The test result suggests strong contact with the concept.}",
+    "new": "The derived relational law identifies the intrinsic current and retains the exact signed debit and remainder in each admitted prime-power event.",
+    "count": 1
+  },
+  {
+    "file": "body09.tex",
+    "old": "That tensor result suggests strong contact.",
+    "new": "The tensor calculation retains the exact aggregate and all 174 strict occupied bins.",
+    "count": 1
+  },
+  {
+    "file": "body09.tex",
+    "old": "and the result suggests strong contact.",
+    "new": "and reconstruct the exact returning state together with its nonzero cumulative wave action.",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "52/158 composites and 0/13 exact positives; Classification: \\textbf{The test result suggests the concept is possible.}.",
+    "new": "52/158 composites and 0/13 exact positives.",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "all 37 contacts are phase-shifted echoes; Classification: \\textbf{The test result suggests the concept is possible.}.",
+    "new": "all 37 contacts are phase-shifted echoes.",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "held-out factors; all four are delayed echoes; Classification: \\textbf{The test result suggests the concept is possible.}.",
+    "new": "held-out factors; all four are delayed echoes.",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "MP-S4B's classification remains \\textbf{The test result suggests the concept is possible.}",
+    "new": "The blind-range result establishes the exact candidate-local factor-coordinate interface.",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "Its authorized classification is: \\textbf{The test result suggests strong contact with the concept.}",
+    "new": "The sealed structural ordering therefore finds three additional factors at equal budget in this comparison.",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "The classification is \\textbf{The test result suggests the concept is possible.}",
+    "new": "Every assigned factor is exact; the 4,108 survivors retain the campaign's finite-search status.",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "passes \\texttt{19/19}. MP52 is barred from training. \\textbf{The test result suggests strong contact with the concept.}",
+    "new": "passes \\texttt{19/19}. MP52 is barred from training. The retained held-out census measures the candidate model's source-visible ordering performance.",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "process is running. \\textbf{The test result suggests strong contact with the concept.}",
+    "new": "process is running. The completed certificate-DAG and reconstruction results remain available independently of that execution-custody join.",
+    "count": 1
+  },
+  {
+    "file": "body11.tex",
+    "old": "Its exact classification is \\textbf{The test result suggests strong contact with the concept.}",
+    "new": "The exact comparison distinguishes the event histories even when all compiled endpoints coincide.",
+    "count": 1
+  },
+  {
+    "file": "body11.tex",
+    "old": "The result is classified: \\textbf{The test result suggests strong contact with the concept.}",
+    "new": "The complete comparison preserves the endpoint equality and the distinct ordered receipts.",
+    "count": 1
+  },
+  {
+    "file": "body11.tex",
+    "old": "HF1's classification is \\textbf{The test result suggests strong contact with the concept.}",
+    "new": "HF1 reconstructs the unwrapped signed lift while applying only the declared reciprocal reductions.",
+    "count": 1
+  },
+  {
+    "file": "body11.tex",
+    "old": "with strong contact at the obstruction-localization scope.",
+    "new": "and localize coefficient loss at the nonproper obstruction.",
+    "count": 1
+  },
+  {
+    "file": "body11.tex",
+    "old": "declared gates. The result suggests strong contact.",
+    "new": "declared gates. The certified disk discharges the stated regular meridian and leaves the nonproper class retained.",
+    "count": 1
+  },
+  {
+    "file": "body11.tex",
+    "old": "reconstruction and suggests strong contact.",
+    "new": "reconstruction. The corrected projective accounting retains the two roots at infinity.",
+    "count": 1
+  },
+  {
+    "file": "body11.tex",
+    "old": "independent validation 24/24; the result suggests strong contact.",
+    "new": "independent validation 24/24. The mixed finite/infinity receipt reconstructs the surviving class through the tested deformations.",
+    "count": 1
+  },
+  {
+    "file": "body11.tex",
+    "old": "gives 19/19. The result suggests strong contact for the JC1 path-jet discriminator, not a universal tensor law.",
+    "new": "gives 19/19. The frozen path-jet discriminator reconstructs the declared JC1 route roster.",
+    "count": 1
+  },
+  {
+    "file": "body11.tex",
+    "old": "remains \\texttt{SINGULARITY\\_OBSTRUCTION}. The result suggests strong contact without installing a universal Newton law.",
+    "new": "remains \\texttt{SINGULARITY\\_OBSTRUCTION}. The Newton-signature calculation reconstructs the stated sheet counts, exponents and regular cycle types for its fifteen fresh fibers.",
+    "count": 1
+  },
+  {
+    "file": "response_01.tex",
+    "old": "For this integration transfer and its complete compositions, \\emph{The test result suggests strong contact with the concept.}",
+    "new": "All five refined compositions are completed and independently reproduced with their full carrier, clock and energy accounts.",
+    "count": 1
+  },
+  {
+    "file": "response_01.tex",
+    "old": "The source classification is \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The completed scalar retains its original source metric and the paid signed response.",
+    "count": 1
+  },
+  {
+    "file": "runtime_01.tex",
+    "old": "The report's classification is: \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The resulting certificates enclose every emitted matrix entry against the separately arranged rational scalar-log and projector references.",
+    "count": 1
+  },
+  {
+    "file": "runtime_02.tex",
+    "old": "Its classification is: \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The saved proposal policy reduces numerical trials under the declared matched-work protocol, while the native certificate decides each acceptance.",
+    "count": 1
+  },
+  {
+    "file": "runtime_02.tex",
+    "old": "The result's classification is: \\emph{The test result suggests strong contact with the concept.}",
+    "new": "The retained decision plan preserves the original target and all maximizing query ties across fresh execution and recovery.",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "for equal-budget ascending counting, an installed strong-contact result in the application-scheduler scope.",
+    "new": "for equal-budget ascending counting in the retained application-scheduler comparison.",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "Their classifications remain \\textbf{The test falsifies the concept.} The clean-sheet compiler does not rename those outcomes.",
+    "new": "Neither candidate stably replaced the fixed reference scheduler. The clean-sheet compiler preserves both outcomes.",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "The exact direct-ranking concept is classified: \\textbf{The test falsifies the concept.}",
+    "new": "The fixed direct-ranking comparison therefore does not improve the selected M3E scheduler.",
+    "count": 1
+  },
+  {
+    "file": "body10.tex",
+    "old": "Its exact-scope classification is: \\textbf{The test falsifies the concept.}",
+    "new": "The exact reciprocal checks pass, but the fixed candidate-local ranking does not stably replace M3E on its declared comparison.",
+    "count": 1
+  },
+  {
+    "file": "body09.tex",
+    "old": "For this exact direct-identification test, the registered classification is: \\textbf{The test falsifies the concept.}",
+    "new": "The coefficient mismatch rules out this direct history-prime to ordinary-prime identification.",
+    "count": 1
+  },
+  {
+    "file": "arithmetic_01.tex",
+    "old": "For independent all-real summable prime-block payments in that specified form, \\emph{The test falsifies the concept.} Earlier signed sectors must participate in the compensation.",
+    "new": "Independent all-real summable prime-block payments cannot compensate that divergent terminal forcing in the specified form. Earlier signed sectors must participate in the compensation.",
+    "count": 1
+  },
+  {
+    "file": "body01.tex",
+    "old": "The graph, source roles and tensor schema are fixed before either timing result.",
+    "new": "The graph, source roles and tensor schema are fixed before either timing result. The retained source packet is $p=1,g=0$, with role order plus, minus, anti-plus and anti-minus.",
+    "count": 1
+  },
+  {
+    "file": "body01.tex",
+    "old": "This is both a marginal check and a full-state closure.",
+    "new": "This is both a marginal check and a full-state closure.\n\nThe conditional spectra depend on the number of positive retained signs. Zero or four positive signs give ground energy $-260$, ground count 128 and 174 occupied bins. One or three give ground energy $-250$, ground count 128 and 174 bins. Two positive signs give ground energy $-244$, ground count 256 and 171 bins. Representative masks are 0, 1, 3, 7 and 15 for positive counts zero through four. Thus the sixteen boundary rows resolve three distinct spectra.",
+    "count": 1
+  },
+  {
+    "file": "body01.tex",
+    "old": "These checks distinguish a complete source-role tensor from an accidental scalar DOS total.",
+    "new": "These checks distinguish a complete source-role tensor from an accidental scalar DOS total.\n\nThe four recorded prime-kernel walls are approximately $0.890328$, $0.852483$, $0.797375$ and $0.799622$ seconds, within the 3.828137395-second runner total. The scalar DOS semantic hash is \\nolinkurl{6e404623175ba60629110fb17f75ca0f0398e690db9de7b7a97766d32d0c2d30}; the retained tensor semantic hash is \\nolinkurl{33ec2e3f5cd3a1e66eb892730181e89bb1aff71d93b97fbbba4959bb238bd78d}. These identities are the equality targets for the structure-first route.",
+    "count": 1
+  },
+  {
+    "file": "body01.tex",
+    "old": "No state is sampled or dropped. Factorization evaluates the product structure of the full sum.",
+    "new": "No state is sampled or dropped. Factorization evaluates the product structure of the full sum. When local role coordinates must be assembled into the global retained role, the same reconstruction is written\n\\[\nP_{100}(z,r)=\\sum_{r_1\\oplus\\cdots\\oplus r_8=r}\\prod_{a=1}^{8}P_a(z,r_a).\n\\]\nAt $z=1$, complete local counts give $P_{100}(1)=\\prod_a2^{n_a}=2^{\\sum_an_a}=2^{100}$.",
+    "count": 1
+  },
+  {
+    "file": "response_01.tex",
+    "old": "The original frozen H02--H06 experiment completed with zero of five full trajectories and independently reproduced all five failures. The separate integration successor refines only two incoming source-duration enclosures in each job, with each new enclosure required to lie inside its original one. Original coefficients, waiting gaps, events, initial states and mathematical receiver remain fixed. The receiver stays at 192 bits with logarithm tolerance $10^{-35}$ and a 512-term bound.\\samref{V3S08,V3S09}",
+    "new": "The integration successor completes all five original H02--H06 trajectory questions by refining two incoming source-duration enclosures per job. Each refined enclosure lies inside its original one. Coefficients, waiting gaps, events, initial states and the mathematical receiver remain fixed; the receiver stays at 192 bits with logarithm tolerance $10^{-35}$ and a 512-term bound. The frozen parent completed zero of five trajectories, and its five independently reproduced failures retain their separate record.\\samref{V3S08,V3S09}",
+    "count": 1
+  },
+  {
+    "file": "body01.tex",
+    "kind": "merge duplicate narrative",
+    "removed_words": 1433,
+    "retained": "source census; full H14F and component derivations; grammar-to-work identity; N105 N81 N72 controls; F81 boundary; typed execution contracts; mixed-connectivity and N96 controls; 75 qualification checks; delegated authority; source connections",
+    "historical_label_aliases": 16
+  }
+]

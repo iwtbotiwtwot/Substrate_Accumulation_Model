@@ -1,0 +1,210 @@
+[
+  {
+    "id": "N5-1",
+    "title": "N5000 exact production specification",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_gpu_n5000_1/README.md",
+    "relative_path": "GEN4/spin_gpu_n5000_1/README.md",
+    "sha256": "575c2f6cc812b6009b6475d51f5a00509a1aaa93bccd1f479b167fae3fdae712",
+    "bytes": 2638
+  },
+  {
+    "id": "N5-2",
+    "title": "Frozen source compilation and exact moment identities",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_gpu_n5000_1/prepare.py",
+    "relative_path": "GEN4/spin_gpu_n5000_1/prepare.py",
+    "sha256": "d1865ecd7e817afc22089200a68429775935ee91e1c0e35d698bc13139a138cb",
+    "bytes": 5210
+  },
+  {
+    "id": "N5-3",
+    "title": "Grouped production and encoding-pair checks",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_gpu_n5000_1/production.py",
+    "relative_path": "GEN4/spin_gpu_n5000_1/production.py",
+    "sha256": "82d9b9bd5c72bf47d2378c94d8a7e3482a0eaae4079f331ccc1b4ab918cfa17a",
+    "bytes": 7614
+  },
+  {
+    "id": "N5-4",
+    "title": "Exact integer NTT and CRT backend",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_gpu_n5000_1/gpu.py",
+    "relative_path": "GEN4/spin_gpu_n5000_1/gpu.py",
+    "sha256": "b63934b9d471c2c629f658caf9c77d439846cc24e218817c9379e9109f467ab7",
+    "bytes": 6191
+  },
+  {
+    "id": "N5-4",
+    "title": "Exact integer NTT and CRT backend",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_gpu_n5000_1/gpu_baseline.py",
+    "relative_path": "GEN4/spin_gpu_n5000_1/gpu_baseline.py",
+    "sha256": "f377dc94b362a492eaac28cd6e61d3443c11601d51fd2e7a7c1ad3e085218da3",
+    "bytes": 4242
+  },
+  {
+    "id": "N5-5",
+    "title": "Exact output decoding and durable validation",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_gpu_n5000_1/output.cpp",
+    "relative_path": "GEN4/spin_gpu_n5000_1/output.cpp",
+    "sha256": "904d006eb631084ad62aecbe6c55847a29c991d3376ececc970bfe55e4bff857",
+    "bytes": 4621
+  },
+  {
+    "id": "N5-5",
+    "title": "Exact output decoding and durable validation",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_gpu_n5000_1/output.py",
+    "relative_path": "GEN4/spin_gpu_n5000_1/output.py",
+    "sha256": "74193c03d261354a392fa2fe9ca56653c38167974edddc688e09fd6aad859790",
+    "bytes": 1600
+  },
+  {
+    "id": "N5-6",
+    "title": "N5000 completed archive and replay summary",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_n5000_archive1/README.md",
+    "relative_path": "GEN4/spin_n5000_archive1/README.md",
+    "sha256": "ac2a63d5e2850c43a0df24088485934b86731230b33fc1b9e761e4cfe067280e",
+    "bytes": 1452
+  },
+  {
+    "id": "N5-7",
+    "title": "N5000 logical-row archive manifest",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_n5000_archive1/ARCHIVE_MANIFEST.json",
+    "relative_path": "GEN4/spin_n5000_archive1/ARCHIVE_MANIFEST.json",
+    "sha256": "e867db125c137f20401e187c5343607a0beb93019ca56eee1ffd8ab0554e9bb4",
+    "bytes": 502704
+  },
+  {
+    "id": "N5-8",
+    "title": "N5000 native CPU control replay",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_n5000_archive1/CHEAP_REPLAY_RESULT.json",
+    "relative_path": "GEN4/spin_n5000_archive1/CHEAP_REPLAY_RESULT.json",
+    "sha256": "0698c469c58e6cbd42c585f96f6d0ec50684b9a813c5a2111dffe907b0fcfdb0",
+    "bytes": 167990
+  },
+  {
+    "id": "N5-9",
+    "title": "N5000 historical reproduction package and CI",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_n5000_archive1/PUBLICATION_READY.json",
+    "relative_path": "GEN4/spin_n5000_archive1/PUBLICATION_READY.json",
+    "sha256": "ff1f4ceb27379e69e5b8a4f8716bd4a849331fb7990a5ee972c6e7d9291511e6",
+    "bytes": 6687
+  },
+  {
+    "id": "N5-9",
+    "title": "N5000 historical reproduction package and CI",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_n5000_archive1/PUBLICATION.json",
+    "relative_path": "GEN4/spin_n5000_archive1/PUBLICATION.json",
+    "sha256": "341d3defbf5ff65ecb6fc3488044f016856d789b3c8065fe6331a550f2eafb02",
+    "bytes": 283
+  },
+  {
+    "id": "N5-9",
+    "title": "N5000 historical reproduction package and CI",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_n5000_archive1/CI_RESULT.json",
+    "relative_path": "GEN4/spin_n5000_archive1/CI_RESULT.json",
+    "sha256": "fb8b7d4aebc44e05ce6fb3838f46e990fb309daa99785c0a2806fbbd7fd0ff55",
+    "bytes": 127
+  },
+  {
+    "id": "N5-10",
+    "title": "Byte-identical restoration of frozen N5000 inputs",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_n5000_source_recovery1/README.md",
+    "relative_path": "GEN4/spin_n5000_source_recovery1/README.md",
+    "sha256": "c15add5387c4a3abaeb7bbfc1eba1f97f65f3409ec11faf157f8572a2c46d954",
+    "bytes": 1116
+  },
+  {
+    "id": "N5-10",
+    "title": "Byte-identical restoration of frozen N5000 inputs",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_n5000_source_recovery1/RESULT.json",
+    "relative_path": "GEN4/spin_n5000_source_recovery1/RESULT.json",
+    "sha256": "b3c81a318be7dc4452e6cf9232cc3095b9381fae6bd2d9c263562c6a19d9b1f7",
+    "bytes": 2218
+  },
+  {
+    "id": "N5-10",
+    "title": "Byte-identical restoration of frozen N5000 inputs",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_n5000_source_recovery1/CHECKPOINT.json",
+    "relative_path": "GEN4/spin_n5000_source_recovery1/CHECKPOINT.json",
+    "sha256": "f1f40e4ae8e8604dee47daddb2296d44195cf8eba3ada6b7ccea954ea70ab363",
+    "bytes": 373
+  },
+  {
+    "id": "N5-11",
+    "title": "Drive verification of N5000 batches one and two",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_n5000_drive12_1/RESULT.json",
+    "relative_path": "GEN4/spin_n5000_drive12_1/RESULT.json",
+    "sha256": "d7187d6d0ae95771364015f0317ee1a71d9ab014afac53e76b338b94ace996ea",
+    "bytes": 796
+  },
+  {
+    "id": "N5-12",
+    "title": "Intermediate T500 N5000 download verification",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_n5000_t500_download1/RESULT.json",
+    "relative_path": "GEN4/spin_n5000_t500_download1/RESULT.json",
+    "sha256": "6f8f3d685d1373bd2abf73f8506cc191622a5d73ed1d4b7f4aba61b96a5f5f61",
+    "bytes": 520
+  },
+  {
+    "id": "N5-13",
+    "title": "Completed final N5000 download and custody",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_n5000_final_download1/RESULT.json",
+    "relative_path": "GEN4/spin_n5000_final_download1/RESULT.json",
+    "sha256": "d42ab974d2effcafdcb3c4cf38073563e66de2685a08567a25e1f288d18acada",
+    "bytes": 475
+  },
+  {
+    "id": "N5-13",
+    "title": "Completed final N5000 download and custody",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_n5000_final_download1/COMPLETE.md",
+    "relative_path": "GEN4/spin_n5000_final_download1/COMPLETE.md",
+    "sha256": "a95b17bda8e881928b05c039a49ca4177ec0d88eb7e1267e3a4cbe6c2939d7a3",
+    "bytes": 951
+  },
+  {
+    "id": "N5-14",
+    "title": "Global transition boundary memory and occupied exact counts",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_transition1/REPORT.md",
+    "relative_path": "GEN4/spin_transition1/REPORT.md",
+    "sha256": "d8c732c7fb0887a6fa1eb4874946f3d5f666887ba17b2389aa47926a8733b18e",
+    "bytes": 8923
+  },
+  {
+    "id": "N5-14",
+    "title": "Global transition boundary memory and occupied exact counts",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_transition1/PROOF.md",
+    "relative_path": "GEN4/spin_transition1/PROOF.md",
+    "sha256": "e3572421036a016b5ec5fb360608816832258da978fcda379e9fe0f951d06e24",
+    "bytes": 11055
+  },
+  {
+    "id": "N5-14",
+    "title": "Global transition boundary memory and occupied exact counts",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_transition1/THEOREM.json",
+    "relative_path": "GEN4/spin_transition1/THEOREM.json",
+    "sha256": "ebbdf51739b40da261de9ec3c0b345b93d80fa1b702a9c05b6910a2c33a19487",
+    "bytes": 9189
+  },
+  {
+    "id": "N5-14",
+    "title": "Global transition boundary memory and occupied exact counts",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/spin_transition1/METHODOLOGY.md",
+    "relative_path": "GEN4/spin_transition1/METHODOLOGY.md",
+    "sha256": "b16161fa2273dbe0c9162e731b5a014121b0e7e2b72ee119032fedc6cb709a74",
+    "bytes": 9911
+  },
+  {
+    "id": "N5-15",
+    "title": "Live exact-spin source and completion routing",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/SAM_LIVE/10_PODS_CURRENT.md",
+    "relative_path": "SAM_LIVE/10_PODS_CURRENT.md",
+    "sha256": "ce9316c7a377b3281f706df66082e3b691188b5059e2394f384c16497fe3cae2",
+    "bytes": 32713
+  },
+  {
+    "id": "N5-16",
+    "title": "Frustrated spin work to date retained synthesis",
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/manuscripts/drafts/frustrated-spin-work-to-date-20261006/paper.md",
+    "relative_path": "manuscripts/drafts/frustrated-spin-work-to-date-20261006/paper.md",
+    "sha256": "5311e52dc3d84ddb2ce88306a8cbaff2bbeadee576921bbe4a3f980902d20801",
+    "bytes": 106808
+  }
+]

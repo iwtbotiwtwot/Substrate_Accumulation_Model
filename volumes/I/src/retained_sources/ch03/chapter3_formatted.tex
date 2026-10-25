@@ -1,0 +1,1032 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,mathtools,bm}
+\usepackage{mathptmx}
+\renewcommand{\ttdefault}{pcr}
+\usepackage[margin=0.68in,columnsep=0.26in,headheight=14pt,headsep=0.15in,footskip=0.28in]{geometry}
+\usepackage{graphicx,booktabs,array,tabularx,longtable}
+\usepackage{microtype,fancyhdr,caption,titlesec,enumitem,balance}
+\usepackage[hidelinks,bookmarksnumbered=true,hypertexnames=false,pdftitle={The spherical accumulation kernel and the source-to-field interface},pdfauthor={Sean Brady; OpenAI ChatGPT and Codex},pdfsubject={Chapter III source-bound development; faithful formatting edition}]{hyperref}
+\usepackage{xurl}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0.10em}
+\setlength{\emergencystretch}{1.6em}
+\setlength{\abovedisplayskip}{6pt plus 2pt minus 2pt}
+\setlength{\belowdisplayskip}{6pt plus 2pt minus 2pt}
+\captionsetup{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false}
+\titleformat{\section}{\large\bfseries\raggedright}{\thesection.}{0.45em}{}
+\titleformat{\subsection}{\normalsize\bfseries\raggedright}{\thesubsection}{0.45em}{}
+\titlespacing*{\section}{0pt}{11pt plus 2pt minus 2pt}{5pt}
+\titlespacing*{\subsection}{0pt}{8pt plus 2pt minus 2pt}{3pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\footnotesize SAM Volume I | Chapter III}
+\fancyhead[R]{\footnotesize Brady \;|\; 15 October 2026}
+\fancyfoot[C]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\ii}{\mathrm{i}}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\Span}{\operatorname{span}}
+\pdfmapfile{+cm.map}
+\pdfmapfile{+cmextra.map}
+\pdfmapfile{+symbols.map}
+\pdfmapfile{+psnfss.map}
+\pdfmapfile{+utm.map}
+\pdfmapfile{=ps2pk35.map}
+\pdfmapfile{+rsfs.map}
+\pdfgentounicode=0
+
+\usepackage{braket,float}
+\linespread{1.06}
+\providecommand{\mathbbm}[1]{\mathbb{#1}}
+\DeclareUnicodeCharacter{03B8}{\ensuremath{\theta}}
+\DeclareUnicodeCharacter{03C6}{\ensuremath{\varphi}}
+
+\newcommand{\sgn}{\operatorname{sgn}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Cov}{\operatorname{Cov}}
+\begin{document}
+\lefthyphenmin=2\righthyphenmin=3
+\raggedbottom
+\twocolumn[{
+\begin{center}
+{\small SAM VOLUME I\par}
+\vspace{0.4em}
+{\LARGE\bfseries The spherical accumulation kernel\\ and the source-to-field interface\par}
+\vspace{0.4em}
+{\large Chapter III \textbullet\ Source-bound development\par}
+\vspace{0.5em}
+{\large Sean Brady\par}
+{\small Originator and conceptual director\par}
+{\small OpenAI ChatGPT and Codex \textbullet\ Research collaborators and co-authors\par}
+{\small 15 October 2026\par}
+\end{center}
+\begin{minipage}{0.97\textwidth}
+\noindent\textbf{Abstract.} A retained energy account becomes a spatial field through a specified localization, coupling and receiving operator. This chapter develops the isolated Poisson kernel, its energy and force proofs, and two complete finite constructions: the actual retained eight-site source profile under a declared physical embedding, and an exactly solvable shell network with boundary and continuum errors. A static Chapter I field-energy example and an exact interacting-clock coupling criterion connect the construction to Chapters I and II. Source identities, physical assignments and computed results are stated separately. All earlier drafts remain preserved.
+\end{minipage}\vspace{0.9em}
+}]
+
+\section{The next source question}
+Chapter I supplies an interacting finite source and continuum field. Chapter II distinguishes a present output, a predictive state, a timed history and an unread energetic complement. Chapter III asks how their physical energy is located and received in space.~[1,2]
+
+The spherical lift is a static receiving profile:
+\[
+a(r)=\frac{2GM}{c^2r},\qquad A_{\mathrm{tot}}=A_0+a,\qquad A_0=\frac{1}{12\pi}.
+\]
+The physical mass $M$, source radius $b$, receiving radius $r$ and Chapter I coupling radius $R$ have different roles. $G$ and $c$ carry the declared physical units. The floor is dimensionless.
+
+This revision carries exact source operands into finite field calculations. The mass/localization and coupling assignments are recorded at each step.
+
+\section{What enters the field}
+For a positive source form $B$ and record $r=L^{\mathsf T}y$, the ambient minimum is
+\[
+\mathcal C(r)=r^{\mathsf T}\mathcal G^+r,\qquad \mathcal G=L^{\mathsf T}B^{-1}L,
+\]
+provided $r$ belongs to the range of the receiver Gram. An infeasible record has no such source; its constrained infimum is $+\infty$. Allowed-state restrictions can raise the minimum. A change from an occupied reference also retains its cross term.~[2]
+
+This is a cost for a specified receiver. To form a physical density, specify the energy operator, physical conversion, reference and spatial incidence. The completed Chapter II now develops these requirements in its source-to-space interface.
+
+The source and receiver below are static. Pressure, motion, retardation and nonlinear self-coupling require their own physical laws.
+
+\section{The declared receiving law}
+For a supplied nonrelativistic mass density $\rho$, use
+\[
+\Delta a=-\frac{8\pi G}{c^2}\rho,\qquad \Phi=-\frac{c^2}{2}a.
+\]
+This is equivalent to $\Delta\Phi=4\pi G\rho$. The field normalization imports the Newtonian coupling. The sign makes $a$ positive for a positive isolated mass when $a$ tends to zero at infinity.
+
+A test body with Lagrangian $L=m|\dot{\mathbf x}|^2/2-m\Phi$ has acceleration
+\[
+\mathbf g=-\nabla\Phi=\frac{c^2}{2}\nabla a.
+\]
+Equality of passive gravitational and inertial mass is part of this test-body coupling. The scalar profile by itself does not select that equality.
+
+For bounded compact density the solution is
+\[
+a(x)=\frac{2G}{c^2}\int\frac{\rho(y)}{|x-y|}\,d^3y.
+\]
+The locally integrable kernel obeys $\Delta(1/r)=-4\pi\delta$. Linearity therefore gives the response to a sum of prescribed sources. Global regularity and isolated boundary data establish uniqueness; an exterior subproblem needs its inner data too.
+
+All three displayed formulas have a fixed energy and time convention. A later rescaling of $a$ must also rescale its source equation and its receiving laws.
+
+\section{Flux and exterior uniqueness}
+In a spherical vacuum exterior,
+\[
+\frac{1}{r^2}(r^2a')'=0,\qquad a=C_0+\frac{C_1}{r}.
+\]
+Decay fixes $C_0$, while the enclosing source flux fixes $C_1$:
+\[
+M(<S)=-\frac{c^2}{8\pi G}\oint_S\nabla a\cdot d\mathbf S.
+\]
+Thus $C_1=2GM/c^2$ and $\mathbf g=-GM\hat{\mathbf r}/r^2$. Decay alone leaves the amplitude free. A regular vacuum ball containing the origin cannot carry a nonzero $1/r$ term.
+
+For a nonspherical source, total mass fixes only the monopole. Higher multipoles carry shape information while contributing zero net enclosing flux. The cube construction below makes the first surviving shape term explicit.
+
+A finite outer wall fixes a different boundary problem. Its correction must be included before comparing potential or clock values to the isolated profile. The shell example supplies that correction exactly, including its energy cost.
+
+The spatially constant floor contributes no source flux. This statement is compatible with a nontrivial floor in an independently specified nonlinear clock receiver.
+
+\section{Finite spherical sources}
+For a spherical source define its enclosed mass:
+\[
+M(r)=4\pi\int_0^r\rho(s)s^2\,ds.
+\]
+Regularity and the source equation give
+\[
+\begin{aligned}
+a'(r)&=-\frac{2GM(r)}{c^2r^2},\\
+a(r)&=\frac{2G}{c^2}\left[\frac{M(r)}{r}+4\pi\int_r^\infty\rho(s)s\,ds\right].
+\end{aligned}
+\]
+Exterior shells supply potential and zero interior acceleration. A thin shell of radius $b$ and mass $M$ has $a=2GM/(c^2b)$ inside and $2GM/(c^2r)$ outside. Its derivative jump carries its surface mass. Values directly on a zero-thickness surface require a limiting convention.
+
+For a uniform ball,
+\[
+\begin{aligned}
+a(r)&=\frac{GM}{c^2b}(3-r^2/b^2),&&r\leq b,\\
+a(r)&=\frac{2GM}{c^2r},&&r\geq b.
+\end{aligned}
+\]
+Both $a$ and $a'$ match at the surface. At the center $a=3GM/(c^2b)$ while $g=0$. Bounded compact density makes the central expression regular; finite mass alone does not. A central $\rho$ proportional to $r^{-2}$ is a useful finite-mass, divergent-potential example.
+
+\section{Mechanical and tidal receivers}
+Circular motion differentiates the potential; escape compares it with a destination:
+\[
+\begin{aligned}
+v_{\mathrm{circ}}^2&=-\frac{c^2r}{2}a'(r),\\
+v_{\mathrm{esc}}^2&=c^2[a(r)-a(\infty)].
+\end{aligned}
+\]
+For the isolated spherical exterior they are $GM/r$ and $2GM/r$. A shell interior has zero circular-force field yet a nonzero escape energy relative to infinity. A truly global potential shift cancels when both endpoint values shift together.
+
+For the exterior monopole, the tidal tensor is
+\[
+T_{ij}=\frac{GM}{r^3}(3n_i n_j-\delta_{ij}).
+\]
+It has zero trace in vacuum, radial stretching $2GM/r^3$, and transverse compression $-GM/r^3$. Inside a uniform ball it is $-GM\delta_{ij}/b^3$, including at the zero-acceleration center; its trace is $-4\pi G\rho$.
+
+The tidal tensor here differentiates Newtonian acceleration. A relativistic spatial curvature or photon receiver requires additional structure. Chapter I's phase clock is another receiving operation, whose response to a supplied coupling is derived below.
+
+\section{Radial controls and scale}
+For a trial $a_p=Kr^{-p}$ away from the origin,
+\[
+\begin{aligned}
+\Delta a_p&=p(p-1)Kr^{-p-2},\\
+g_r&=-\frac{c^2pK}{2}r^{-p-1},\\
+M_{\mathrm{flux}}(r)&=\frac{c^2pK}{2G}r^{1-p}.
+\end{aligned}
+\]
+A nonzero decaying spherical vacuum solution with constant source flux selects $p=1$. Positive attraction alone leaves many powers. The harmonic $p=0$ term is constant and carries no mass flux.
+
+Compare powers using a reference radius: $a_p=a_*(r_*/r)^p$. Matching the potential at $r_*$ gives a force $p$ times the monopole force there. Dividing this profile by $p$ matches that force but changes the potential to $1/p$ of its target. At other radii the force ratio is $(r_*/r)^{p-1}$.
+
+The coefficient $K$ has units length$^p$. Comparing its numerical value across powers without the reference radius changes the dimensional question. A matched datum at one radius therefore supplies less information than a radial profile, flux and potential reference together.
+
+\section{A finite-energy domain}
+For an isolated field, use the homogeneous Sobolev space $D^{1,2}(\mathbb R^3)$: the completion of compact smooth functions under $\|\nabla a\|_2$, represented in $L^6$. This fixes the infinity reference and excludes a nonzero constant ambiguity.
+
+A sufficient source class is $\rho$ in $L^{6/5}$; bounded compact density is an example. The pairing integral $\rho a$ is then bounded by Holder and Sobolev. The functional
+\[
+J[a;\rho]=\frac{c^4}{32\pi G}\int|\nabla a|^2-\frac{c^2}{2}\int\rho a
+\]
+has a unique weak minimizer. Its Euler equation is the declared Poisson problem. Existence follows from the bounded source functional and the positive gradient inner product; uniqueness follows from the same norm.
+
+Compact smooth test variations give
+\[
+\delta J=\int\left[-\frac{c^4}{16\pi G}\Delta a-\frac{c^2}{2}\rho\right]\delta a.
+\]
+An ideal point source still has a distributional exterior solution, but has infinite self-energy. Thin spherical shells have a finite-energy potential with a derivative jump. The finite cube below uses regular balls to specify its self-energy.
+
+\section{The minimum and binding energy}
+Let $a_*$ be the weak solution and let $v$ be an allowed variation with the same boundary reference. Expand $J[a_*+v]$. The linear terms cancel by the weak Poisson equation, leaving the exact identity
+\[
+J[a_*+v]-J[a_*]=\frac{c^4}{32\pi G}\int|\nabla v|^2.
+\]
+This proves the global minimum on the stated domain. Equality requires $v=0$ in $D^{1,2}$. For a bounded Dirichlet region the same proof uses zero-trace variations.
+
+Testing the weak equation against $a_*$ gives
+\[
+\int|\nabla a_*|^2=\frac{8\pi G}{c^2}\int\rho a_*.
+\]
+Consequently,
+\[
+\begin{aligned}
+U=J[a_*]&=-\frac{c^2}{4}\int\rho a_*\\
+&=\frac12\int\rho\Phi=-\frac{c^4}{32\pi G}\int|\nabla a_*|^2.
+\end{aligned}
+\]
+The positive penalty in $J$ and the negative on-shell binding energy are different parts of the same calculation. For a uniform ball, integration over the whole field, including its exterior, gives $U=-3GM^2/(5b)$. Keeping only the material interior loses part of this energy.
+
+\section{Two sources and force}
+Let $a_i$ be the isolated response to $\rho_i$ and $U_i$ its self-energy. Symmetry of the Green kernel gives
+\[
+\begin{aligned}
+U[\rho_1+\rho_2]={}&U_1+U_2\\
+&-G\iint\frac{\rho_1(x)\rho_2(y)}{|x-y|}\,d^3x\,d^3y.
+\end{aligned}
+\]
+Proof: expand $-c^2\int(\rho_1+\rho_2)(a_1+a_2)/4$. The two cross terms coincide and combine to the displayed pair interaction. The factor one-half in the self-energy removes double counting.
+
+For spherical bodies whose enclosing balls are disjoint ($d>b_1+b_2$), the cross term is $-GM_1M_2/d$, with $d$ their center separation. Differentiation at fixed body shapes gives attraction of magnitude $GM_1M_2/d^2$. This uses the same $G$, density reference and mass assigned to the field equation. The force follows from that common energy account.
+
+For general disjoint compact bodies, differentiation under the integral gives the vector force directly. Positive separation bounds the differentiated kernel and justifies the step. Holding a source fixed while varying its field differs from translating that source and re-solving the field; this proof tracks the latter through the on-shell energy.
+
+\section{The floor in a clock receiver}
+A constant floor has zero gradient. It also cancels from an ordinary endpoint subtraction. For the nonlinear diagnostic $N_{\mathrm{raw}}(a)=\sqrt{1-A_0-a}$, source-free normalization instead gives
+\[
+\frac{N_{\mathrm{raw}}(a)}{N_{\mathrm{raw}}(0)}=\sqrt{1-\frac{a}{1-A_0}}.
+\]
+Its logarithmic slope at zero is $-1/[2(1-A_0)]$. With $A_0=1/(12\pi)$, the residual scale factor is approximately 1.027248616.
+
+The locally declared source-only lapse is
+\[
+N_{\mathrm{loc}}(a)=\sqrt{1-a},\qquad N'_{\mathrm{loc}}(0)=-\frac12.
+\]
+It gives the desired leading endpoint coefficient when $a$ retains its Poisson normalization. Defining $\widetilde a=a/(1-A_0)$ changes the source amplitude too; that redefinition must be carried through every equation.
+
+These are explicitly different receiver prescriptions. The six-lane interacting-clock test below asks which perturbation of the full source Hamiltonian actually produces the source-only coefficient. Clock normalization alone supplies no density or absolute energy reference.
+
+\section{The weak metric interface}
+Fix static isotropic weak-field coordinates and write
+\[
+\begin{aligned}
+ds^2={}&-[1-a+O(a^2)]c^2dt^2\\
+&+[1+\gamma a+O(a^2)]d\mathbf x^2.
+\end{aligned}
+\]
+The stationary clock coefficient is one-half. A null path in these coordinates instead has
+\[
+c\,dt=\left[1+\frac{1+\gamma}{2}a+O(a^2)\right]d\ell.
+\]
+The photon-road coefficient depends on the spatial response $\gamma$. In conventional post-Newtonian notation $\gamma=1$ gives coefficient one. These metric coefficients are additional physical input; static Poisson and an endpoint clock do not determine $\gamma$.~[7]
+
+The coordinate convention also matters beyond first order. An exact square-root lapse must be tied to a specified time and radial coordinate before it is used as a nonlinear prediction.
+
+Chapter IV can develop an actual endpoint receiver with reference and motion terms, and Chapter V a path receiver with spatial response. The following finite source constructions provide spatial inputs for both while retaining their separate receiving operations.
+
+\section{The actual spatial source}
+The retained Si29 construction supplies exact finite spatial effects. Its four-component Gram $Q$ has diagonal $(128,136,128,128)$. Its only nonzero off-diagonal entries are 8 on pairs 01, 03 and 23, with symmetric entries. Thus every original entry is retained.~[3]
+
+Write $h=\sqrt Q$. The orthonormal bright generator has zero diagonal blocks and $h$ in both off-diagonal blocks. Its positive excitation account is
+\[
+H_{\mathrm{gen}}^2=\operatorname{diag}(Q,Q),\qquad H_0=\operatorname{diag}(h,h).
+\]
+Here $H_0=|H_{\mathrm{gen}}|$, and the two commute. The signed coherent generator and its positive excitation account have different roles. Replacing the signed spectrum by its magnitude is not a common scalar shift.
+
+For species $t$ at site $x$, let $N_{tx}$ be the exact incoming occupation and $G_{tx}$ the outgoing number Gram. Their retained denominator is 240. Define
+\[
+\begin{aligned}
+O_{tx}&=\frac18\operatorname{diag}(N_{tx},W_{tx}),\\
+W_{tx}&=\frac{1}{240}h^{-1}G_{tx}h^{-1},\\
+E_{tx}&=H_0^{1/2}O_{tx}H_0^{1/2}.
+\end{aligned}
+\]
+Every $N_{tx}$ is nonnegative and every $G_{tx}$ is a positive Gram. Congruence makes $E_{tx}$ positive. Summing every species and site returns $H_0$. The actual source evolution, energy transfer, current and coherence retain their original definitions.~[3]
+
+This account is an inherited excitation-energy choice. It is not added to $H_{\mathrm{gen}}$ as another term or identified with complete rest energy. A spatial density also needs an embedding, physical energy conversion and a common reference.
+
+\section{An exact flatness identity}
+At each of the eight sites the retained matrices obey
+\[
+\sum_tN_{tx}=I,\qquad\sum_tG_{tx}=240Q.
+\]
+Since $Q=h^2$, substitution into the effects gives the short proof
+\[
+\sum_tO_{tx}=\frac I8,\qquad E_x:=\sum_tE_{tx}=\frac{H_0}{8}.
+\]
+Consequently $E_x$ commutes with $H_{\mathrm{gen}}$. Under $H_{\mathrm{gen}}$, every preparation has a stationary one-eighth share of this excitation energy at each site, although species and coherence evolve in the exact 36-coordinate closure.
+
+The total amplitude can still change with preparation. Retained evaluations are:
+\begin{center}
+\small
+\begin{tabular}{@{}lr@{}}
+\toprule
+Preparation & Total relative energy\\
+\midrule
+e0 & 11.302793352678457\\
+plus & 11.828266226372410\\
+minus & 11.131220607210203\\
+phase & 11.479743416791305\\
+\bottomrule
+\end{tabular}
+\end{center}
+Each site's energy is the displayed total divided by eight. The fractions are exact; these decimals are retained evaluations. This scalar receiver fixes a spatial shape and does not retain every changing source coordinate.
+
+The independent checker verifies all spatial Gram principal minors, all eight flatness identities, and agreement with the separately retained observable closure. Two native operator words receive the complete incoming and outgoing identities. Their actual execution is recorded in the campaign receipt map.
+
+The next density question is therefore precise: justify this uniform physical localization or derive a different local energy/stress coupling from the source. Species weights cannot be selected merely to obtain a desired field.
+
+
+\section{A finite cube localization}
+Choose the orthogonal cube embedding $X_x=\ell\xi_x$, with every component of $\xi_x$ equal to $+1$ or $-1$. It matches the retained cube-edge construction. The edge graph alone does not fix these angles. Its source-coordinate edge length is two; $\ell$ assigns a physical length.
+
+Choose a normalized nonnegative spatial profile $\zeta_x$ and an energy unit $e_u$. The explicit excitation-mass account is
+\[
+\begin{aligned}
+\rho_{\rm exc}(z)&=\frac{e_u}{c^2}\sum_x\langle E_x\rangle\zeta_x(z-X_x),\\
+M&=\frac{e_u\langle H_0\rangle}{c^2},\qquad
+\rho_{\rm exc}=\frac M8\sum_x\zeta_x.
+\end{aligned}
+\]
+For the complete worked case, each profile is a uniform ball of radius $\delta<\ell$ and volume $4\pi\delta^3/3$. The balls are disjoint; each carries mass $M/8$. This specifies finite interiors and finite self-energy.
+
+The embedding, smoothing radius and $E/c^2$ conversion are stated assignments. A compatible coupling uses the spatial average of $a$ over each ball, not merely its center value. Other active fields, interactions and reference apparatus still need their own spatial account.
+
+Under the declared Poisson receiver, a point outside every ball has
+\[
+\begin{aligned}
+a(z)&=\frac{2GM}{c^2}K_{\rm cube}(z),\\
+K_{\rm cube}(z)&=\frac18\sum_x\frac1{|z-X_x|}.
+\end{aligned}
+\]
+The shell theorem makes this equality exact outside the balls. It does not make the cube spherical. The enclosing flux returns $M$, and the exterior profile retains shape information beyond its monopole.
+
+Declare $H_{\rm gen}(a)=H_{\rm gen}-aH_0/2$ for a uniform lift. For the actual incoming/outgoing contrast $B=\operatorname{diag}(I,-I)$, $H_0$ commutes with $B$ and $H_{\rm gen}$, so its entire history is unchanged. Scaling $H_{\rm gen}$ itself gives time dilation. This is the Si29 population clock; Chapter I uses a different, certified phase receiver.
+
+\section{Shape and a controlled remainder}
+Let $r=|z|$, $n=z/r$ and $q=\sqrt3\ell/r<1$. The cube centers have common radius $\sqrt3\ell$. Inversion symmetry removes odd multipoles. Its second moment is $\ell^2$ times the identity, so the traceless quadrupole also vanishes.
+
+The fourth moment is
+\[
+\frac18\sum_x(n\cdot X_x)^4=\ell^4\left(3-2\sum_j n_j^4\right).
+\]
+Insert this into $P_4(u)=(35u^4-30u^2+3)/8$. The first surviving correction is
+\[
+\begin{aligned}
+K_{\rm cube}(rn)&=\frac1r+\frac{A_4(n)}{r^5}+R_6,\\
+A_4(n)&=\frac{7\ell^4}{4}\left(3-5\sum_j n_j^4\right).
+\end{aligned}
+\]
+Since $|P_l|\leq1$, the remaining even Legendre series is bounded by
+\[
+|R_6|\leq\frac{q^6}{r(1-q^2)}.
+\]
+The monopole-only bound is $q^4/[r(1-q^2)]$. The degree-four correction is $-7\ell^4/(2r^5)$ on a cube axis and $+7\ell^4/(3r^5)$ along a body diagonal.
+
+This is a source-shape control with no amplitude fit. Its domain requires $r>\sqrt3\ell$ and an observation point outside every ball. The smearing changes the interior and self account while leaving this exterior center sum unchanged.
+
+Low-order isotropy and an exactly spherical field are different conclusions. The finite cube supplies the former through degree three. A proposed macroscopic isotropic limit must specify how source orientations, placements or a graph family approach that limit, and bound the surviving shape terms.
+
+\section{Finite cube binding energy}
+Eight uniform balls each have mass $m=M/8$ and radius $\delta$. Their self energies sum to
+\[
+U_{\rm self}=8\left(-\frac{3Gm^2}{5\delta}\right)=-\frac{3GM^2}{40\delta}.
+\]
+The cube has 12 unordered pairs at distance $2\ell$, 12 at $2\sqrt2\ell$, and four at $2\sqrt3\ell$. Nonoverlap and spherical symmetry give each exact center-pair interaction. Thus
+\[
+U_{\rm pair}=-\frac{GM^2}{64\ell}\left(6+3\sqrt2+\frac2{\sqrt3}\right).
+\]
+The sum is the on-solution Newtonian binding account for this chosen density, using the whole field and one infinity reference. The source masses in the linear equation remain the prescribed $M/8$. Adding $U/c^2$ back into that source would introduce a further self-gravity completion.
+
+This calculation also identifies which energy is missing from an excitation-only mass assignment. A complete account must include active field, interaction, counterterm and reference/apparatus energies under the same reference. Bond interactions need not possess an arbitrary positive site decomposition.
+
+In particular, a positive minimum record cost and this negative binding account are different quantities. Counting the on-solution binding energy and then adding its source-field interaction a second time would double count the same coupling. The finite localization makes this distinction calculable rather than leaving an unregularized point-source self-energy implicit.
+
+\section{An exact radial receiver}
+The retained shell conductance is
+\[
+c_i=i(i+1)=\left(\int_i^{i+1}\frac{du}{u^2}\right)^{-1}.
+\]
+Use radii $r_i=ih$, an outer boundary $a_L=0$, and no inner sink, $c_0=0$. Source shells have masses $M_{\rm unit}m_i$. With $\kappa=2GM_{\rm unit}/(c^2h)$, solve
+\[
+Ka=\kappa m,\qquad K=B^TCB,
+\]
+where $B$ takes outward edge differences and $C=\operatorname{diag}(c_i)$. Its $i$th row is
+\[
+(Ka)_i=c_i(a_i-a_{i+1})+c_{i-1}(a_i-a_{i-1}).
+\]
+For any nonzero $v$, $v^TKv$ is the positive sum of weighted squared edge differences. They cannot all vanish while the outer value is zero. $K$ is therefore positive definite and the finite problem has a unique solution.
+
+The outer exit carries an essential source flux. Removing it gives the closed graph $K_{\rm closed}$ with $K_{\rm closed}\mathbf1=0$. Summing its equations would require zero total injection. It cannot support this positive-total static source without an additional sink.
+
+This is the retained spherical receiving geometry, with an explicit extended source and boundary. It is not an identification of concentric shells with Si29's eight cube sites. The two constructions answer distinct spatial questions while sharing a declared energy and receiver convention.~[3]
+
+\section{Green kernel and flux proof}
+Sum the source equations through shell $i$. Interior edge fluxes cancel, leaving
+\[
+c_i(a_i-a_{i+1})=\kappa M_i,\qquad M_i=\sum_{j\leq i}m_j.
+\]
+The edge resistance telescopes:
+\[
+\frac1{c_i}=\frac1i-\frac1{i+1}.
+\]
+Summing the remaining differences to the outer boundary gives
+\[
+\begin{aligned}
+H_{ij}&=\frac1{\max(i,j)}-\frac1L,\\
+a_i&=\kappa\sum_j H_{ij}m_j,\qquad KH=I.
+\end{aligned}
+\]
+No desired field values enter the right-hand side. The source and conductance determine them. Between shells use exact harmonic interpolation. On $r_i<r<r_{i+1}$ it gives
+\[
+a'(r)=-\frac{2GM_{\rm unit}M_i}{c^2r^2},\qquad
+g_r=-\frac{GM_{\rm unit}M_i}{r^2}.
+\]
+The flux returns the same enclosed mass. Each shell produces its derivative jump and a constant interior potential. At the shell itself choose a one-sided acceleration or the mean self-field used in radial virtual work.
+
+This network samples the exact continuum thin-shell solution. The finite outer reference differs from isolation by the known constant $2GM_{\rm total}/(c^2Lh)$. Gradients and fluxes agree; potential values and escape to infinity require that correction. Refining the radial mesh cannot remove a boundary-reference error held fixed in physical units.
+
+\section{A complete rational example}
+Take $L=9$, $\kappa=1/50$, and the shell masses shown below. Their total is one. These fractions specify a test source, not an inferred microscopic mass spectrum.
+\begin{center}
+\small\begin{tabular}{@{}llll@{}}\toprule
+$i$ & $m_i$ & $a_i$ & Enclosed $M_i$\\\midrule
+1&0&1777/630000&0\\
+2&1/5&1777/630000&1/5\\
+3&0&1357/630000&1/5\\
+4&3/10&1147/630000&1/2\\
+5&1/10&52/39375&3/5\\
+6&0&29/31500&3/5\\
+7&2/5&1/1575&1\\
+8&0&1/3600&1\\\bottomrule
+\end{tabular}
+\end{center}
+Every outgoing flux is $\kappa M_i$, including the final exit. Let $u=a/\kappa$ and measure energy in $GM_{\rm unit}^2/h$. The finite functional is $F=u^TKu/2-m^Tu$. Its minimum is $-m^THm/2$, giving
+\[
+\begin{aligned}
+\frac{U_L}{GM_{\rm unit}^2/h}&=-\frac{9427}{252000},\\
+\frac{U_\infty}{GM_{\rm unit}^2/h}&=-\frac{2603}{28000}.
+\end{aligned}
+\]
+The difference is the exact correction $-GM_{\rm total}^2/(2Lh)$. The exterior positive gradient term and the source-reference change combine into this signed on-solution result.
+
+Varying a shell radius at fixed ordering gives
+\[
+-\frac{dU}{dr_j}=-\frac{GM_j}{r_j^2}\left(M_{<j}+\frac{M_j}2\right).
+\]
+The half self term is the mean of its two one-sided self-fields. This is radial work under spherical expansion, rather than net vector force on the shell center.
+
+\section{A controlled continuum limit}
+For a uniform ball of radius $b$, divide radius into $n$ cells with $h=b/n$. Move each cell's mass to its outer endpoint:
+\[
+\frac{m_j}M=\frac{j^3-(j-1)^3}{n^3}.
+\]
+Write $\eta=GM/(c^2b)$, $\alpha=a/\eta$. The continuous profile is $3-x^2$ inside and $2/x$ outside. The exact potential error obeys
+\[
+0\leq\alpha_{\rm ball}-\alpha_{\rm shells}\leq\frac3n-\frac{2H_n}{n^2},
+\]
+where $H_n$ is the $n$th harmonic sum. The bound is attained at the center. Moving a mass element from $s$ to its endpoint $s_j$ reduces its kernel by at most $1/s-1/s_j$. Integrating that difference gives the displayed bound.
+
+For binding energy the corresponding bound is
+\[
+0\leq\frac{U_{\rm shells}}{GM^2/b}+\frac35\leq\frac3{2n}-\frac{H_n}{n^2}.
+\]
+Use $1/\max(s,t)=\min(1/s,1/t)$ in the pair integral; outward motion changes that minimum by at most the sum of the two reciprocal-radius changes. The energy factor one-half yields the bound.
+
+A finite absorbing radius $R$ adds reduced lift offset $2b/R$ and energy offset $GM^2/(2R)$. Isolation therefore requires both $h/b\to0$ and $b/R\to0$. Refining while $R/b=2$ leaves lift bias one and reduced energy bias one-quarter. The radial continuum limit controls discretization; it does not derive the source graph's angular isotropy.
+
+\section{A Chapter I field density}
+Take the original static classical quadrupole field and average its positive free-field energy over angles. Write $X^2$ for the sum of the two squared source amplitudes. With $\kappa=4/5$, its total free energy is $U_f=X^2/R$.~[1,5]
+
+Conditionally assign $M_f=U_f/c^2$ to that free-field account and $x=r/R$. Its spherical density and enclosed mass are
+\[
+\begin{aligned}
+\rho_{\rm in}&=\frac{M_fr^2}{2\pi R^5},&\rho_{\rm out}&=\frac{3M_fR^5}{4\pi r^8},\\
+\frac{M(<r)}{M_f}&=\frac25x^5&& (x\leq1),\\
+\frac{M(<r)}{M_f}&=1-\frac35x^{-5}&& (x\geq1).
+\end{aligned}
+\]
+Two-fifths of $U_f$ lies inside $R$ and three-fifths outside. Solving the same Poisson receiver, with $x=r/R$, gives
+\[
+\begin{aligned}
+a_{\rm in}&=\frac{2GM_f}{c^2R}\left(1-\frac{x^4}{10}\right),\\
+a_{\rm out}&=\frac{2GM_f}{c^2r}\left(1-\frac{x^{-5}}{10}\right).
+\end{aligned}
+\]
+Both $a$ and $a'$ match at $R$. The source field carries energy outside $R$; treating that energy as mass makes this region nonvacuum. Its exact correction is proportional to $r^{-6}$, rather than a pure vacuum $1/r$ profile.
+
+At the commuting classical static minimum, each boundary amplitude equals half $\varepsilon$ times its source current. Its free energy, interaction and counterterm satisfy
+\[
+U_f+U_{\rm int}+U_{\rm ct}=U_f-2U_f+U_f=0.
+\]
+This cancellation shows why the positive free-field sector alone is a conditional source choice. The quantum $D$ and $C$ do not commute on the nontrivial lanes; their joint local energy account still needs a derivation. $R$ remains the original coupling radius, distinct from the cube scale and radial outer boundary.
+
+\section{Energy unread by the clock}
+Retain the original sixteen-state source: $S$ is Swap, $D=Q_{\rm left}-Q_{\rm right}$, $C=iSD$, and $E_{\rm even}=Q_{\rm left}+Q_{\rm right}+Q_{\rm left}Q_{\rm right}$. Its unnormalized current is $Z_{\rm raw}=D+iC$. Exact multiplication gives
+\[
+\begin{aligned}
+[S,Z_{\rm raw}]&=-2Z_{\rm raw},\\
+[E_{\rm even},Z_{\rm raw}]&=[D^2+C^2,Z_{\rm raw}]=0.
+\end{aligned}
+\]
+The full Hamiltonian is $H_s+H_f+H_{\rm int}+H_{\rm ct}$, with $H_s=\varepsilon(S+E_{\rm even})$, $H_{\rm int}=-\varepsilon(D\phi_++C\phi_\times)$, and $H_{\rm ct}=\varepsilon^2\mu(D^2+C^2)$, $\mu=1/(4R)$. The free field, both polarizations and both counterterms are retained. $E_{\rm even}$ also commutes with the complete interacting Hamiltonian. Adding any bounded real function $F(E_{\rm even})$ therefore changes energy while leaving the entire current history unchanged for every initial state:
+\[
+Z_{\mathcal H_0+F}(t)=Z_{\mathcal H_0}(t).
+\]
+The four diagonal source states have $D=C=0$ yet distinct energies $\varepsilon(1+q_a)^2$. They are current-dark energy controls, not clocks with a nonzero amplitude. Observing the current does not determine all source energy.~[5]
+
+A scalar addition $kI$ supplies the simplest common-energy example. Density evolution and relative frequencies stay fixed while the common amplitude phase changes. An external phase reference can compare that phase through its stated coupling and payment; it does not choose a mass baseline by itself.
+
+This distinction also applies to the Si29 account. Independently shifting its positive $H_0$ by $kI$ changes the candidate assigned mass by $e_uk/c^2$. It does not follow from replacing $H_{\rm gen}$ by $H_{\rm gen}+kI$ and taking its absolute value. Reference energy, signed generator, positive account and actual clock receiver must retain their separate definitions.
+
+\section{The operational clock response}
+Supply a physical static-lift perturbation
+\[
+\mathcal H(a)=\mathcal H_0+aV+O(a^2).
+\]
+On lane $l$, let $Z=(D+iC)/d_l$, $z=\langle Z\rangle$, and $\nu=-\operatorname{Im}(\dot z/z)$, as in Chapter I. For a bounded $V$ and a fixed preparation, Duhamel gives
+\[
+\delta z(t)=i\int_0^t\langle[V_I(s),Z_I(t)]\rangle\,ds.
+\]
+Where the baseline $z_0$ stays away from zero, the actual phase-rate derivative is
+\[
+\delta\nu=-\operatorname{Im}\left(\frac{\delta\dot z}{z_0}-\frac{\dot z_0\delta z}{z_0^2}\right).
+\]
+A field-form perturbation needs common energy-form control and a dominated differentiated evolution. An $a$-dependent preparation supplies an additional state derivative. These requirements belong to the chosen $V$; the original sixteen-dimensional commutator is only its source algebra.
+
+One exact full-continuum control is the declared coupling of the full interacting Hamiltonian:
+\[
+\mathcal H(a)=n(a)\mathcal H_0+f(a)I.
+\]
+It gives
+\[
+\begin{aligned}
+z(t;a)&=z(n(a)t;0),\\
+\nu(t;a)&=n(a)\nu(n(a)t;0).
+\end{aligned}
+\]
+At matched internal age the frequency ratio is $n$. At equal coordinate time, where $\dot\nu$ exists, its derivative also includes $n'(0)t\dot\nu(t;0)$. The actual retained clock is slightly nonstationary. Accumulated phase follows the time change without requiring an additional second derivative.
+
+Thus a square-root $n$ is an explicit coupling control. A first-order redshift test must specify matched age, a stationary reference, or the transient contribution at equal coordinate durations.
+
+\section{Full scaling and \texorpdfstring{$\varepsilon$}{epsilon}}
+The complete scaling control multiplies $H_s$, $H_f$, $H_{\rm int}$ and $H_{\rm ct}$ by the same $n$. Replacing only $\varepsilon$ by $n\varepsilon$ at a fixed field instead gives
+\[
+\mathcal H_\varepsilon=nH_s+H_f+nH_{\rm int}+n^2H_{\rm ct}.
+\]
+For $s=n'(0)$, its first-order difference from full scaling is
+\[
+V_\varepsilon-s\mathcal H_0=s(H_{\rm ct}-H_f).
+\]
+For the source-only slope $s=-1/2$, the residual coefficients on $(H_s,H_f,H_{\rm int},H_{\rm ct})$ are $(0,1/2,0,-1/2)$. This is not a scalar on the full field. The counterterm commutes with the full Hamiltonian and current, so its energy stays unread throughout this history. The free-field part of the residual can change the current.
+
+The retained hard-branch second-order diagnostic is
+\[
+\begin{aligned}
+\Omega_l^{(2)}&=\Delta(1-4g_l^2J),\qquad\Delta=2\varepsilon,\\
+\frac{d\log\Omega_l^{(2)}}{d\log\varepsilon}
+&=1-\frac{8g_l^2J+4g_l^2\Delta J'}{1-4g_l^2J}.
+\end{aligned}
+\]
+The hard split is held fixed in this perturbation. $J$ and $J'$ are positive, so the derivative is below one. The six original coupling squares differ, producing six disjoint derivative enclosures. These are second-order source diagnostics, not finite-lift full-field response certificates.
+
+The actual physical $V$ remains the question. A shared perturbation across six separately prepared lanes can test universality; fitting each lane's $\varepsilon$ independently would change that test.
+
+The energy unit $e_u$, action $I_u$ and length $\ell_{\rm phys}$ must be shared between source, clock and field. They set the source time parameter and cube's lift coefficient:
+\[
+\theta_{\rm source}=\frac{e_ut}{I_u},\qquad\frac{2Ge_u}{c^4\ell_{\rm phys}}.
+\]
+A physical $\varepsilon$ alone does not determine both conversions.
+
+\section{Correlated phase and precision}
+Under the declared full scaling, compare the same baseline phase history at $T$ and $nT$. Within the common certified window, with $\ell\leq\nu_0\leq u$,
+\[
+\begin{gathered}
+\delta\theta(T)=-\int_{nT}^T\nu_0(s)\,ds,\\
+-u(1-n)T\leq\delta\theta\leq-\ell(1-n)T<0.
+\end{gathered}
+\]
+For $n=\sqrt{1-a}$, $0<a<1$, rational bounds on $1-n$ give
+\[
+-\frac{uaT}{2-a}\leq\delta\theta\leq-\frac{\ell aT}{2}.
+\]
+The signed shift exists for every positive $a$ and $T$ in this window. At the frozen Earth surface lift, all six one-bare-cycle shifts lie between $-4.373898$ and $-4.373888$ nanoradians. These are conditional source predictions, not achieved apparatus sensitivity.~[5]
+
+A separate comparison encloses the two phases independently. Those bands are disjoint only under the sufficient condition $a>1-(\ell/u)^2$. Its conservatively rounded thresholds are:
+\begin{center}
+\small\begin{tabular}{@{}ll@{}}\toprule
+Lane & Sufficient $a$\\\midrule
+01 & $2.84407\times10^{-9}$\\
+02 & $1.22170\times10^{-8}$\\
+03 & $1.89316\times10^{-6}$\\
+12 & $3.27189\times10^{-9}$\\
+13 & $1.74924\times10^{-6}$\\
+23 & $1.60120\times10^{-6}$\\\bottomrule
+\end{tabular}
+\end{center}
+These thresholds concern independent enclosures; they are not a minimum lift for the correlated phase sign. A phase error $\delta$ on each comparison needs
+\[
+\ell(1-n)T>2\delta.
+\]
+The physical coupling, common preparation and unwrapped phase branch remain explicit. Chapter II's fresh preparations, timing/error budgets, paid reference and turn counter supply the separate measurement protocol.~[2]
+
+\section{Frozen anchors and reproduction}
+The recovered CR004 premises retain the same declared gravitational parameters and radii. Recalculation gives the following spherical surface values; escape speeds are km/s.~[4]
+\begin{center}
+\small\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llll@{}}\toprule
+Body & Lift $a(b)$ & $g$, m/s$^2$ & Escape\\\midrule
+Earth & $1.39225\times10^{-9}$ &9.82025&11.1861\\
+Moon & $6.28226\times10^{-11}$ &1.62490&2.37618\\
+Sun & $4.24501\times10^{-6}$ &274.200&617.675\\\bottomrule
+\end{tabular}
+\end{center}
+The formulas use the same frozen $\mu=GM$ and radius on both sides. These inputs preserve the intended Newtonian recovery; they do not determine mass from the microscopic account or select $G$. The digits expose arithmetic, rather than measured precision or corrections for shape and rotation.
+
+The finite cube and shell controls add different information: a source-shape correction, exact source flux, boundary energy and quantified continuum error. The interacting-clock controls add the complete perturbation and a visible precision target.
+
+The preceding source-to-field pass retained editable manuscript, exact operands, source snapshots, native receipts, independent code and content hashes. The source checker has 2,040 exact assertions, the radial checker 312, and the clock checker 822. The static-field checker adds 52 assertions, the kernel/frozen-arithmetic checker 45, the uniform-coupling certificate 23, and the correlated-phase supplement 47. Fresh native execution and custody are recorded separately in the campaign receipt map; retained historical calls are not counted as new work.
+
+The old draft's 42 symbolic checks remain historical. They are not relabeled as the present verification. CR004, G224's retrieved index and LC03 retain their original evidence scopes. The original G224 derivation is still unrecovered; LC03 is an imported mechanism replay, and the current retained source route is the Si29 construction used here.
+
+\section{The next physical derivations}
+First derive the actual local energy/stress coupling, including field, interaction and reference terms. Carry its spatial density through one calibrated receiver.
+
+Next derive a graph or field response with a massless isotropic $k^2$ leading term and bounded spatial/frequency error, retaining the radial boundary account.
+
+Then apply one physical $V$ to all six clocks, with matched-age or transient timing explicit. Derive causal kinetics and the spatial metric response, including $\gamma$, using the same source normalization.
+
+Memory and closure methods control eliminated information. The spatial operator and metric coupling need their own derivations.
+
+\subsection*{References and retained sources}
+{\footnotesize\raggedright
+\noindent[1] Brady, ChatGPT and Codex. \emph{Volume I, Chapter I}, final draft and \nolinkurl{sam_volume_I_i} source/certificate, 15 October 2026.
+
+\noindent[2] Same authors. \emph{Chapter II: Retention, accumulation and the finite ledger}, 20-page physical development draft and this revision's companion source-to-space update.
+
+\noindent[3] SAM Research Project. \nolinkurl{volii_duck_expansion1/2}, Si29 effects; \nolinkurl{native_energy_source1}, radial response; current source/radial reports and operands.
+
+\noindent[4] SAM Research Project. CR004 declared premises, precommit and scoped weak-field result. Current arithmetic uses the frozen premises.
+
+\noindent[5] Current clock/static-field derivations, certificates, checks and native receipt map, companion archive.
+
+\noindent[6] SAM Research Project. \nolinkurl{native_coupling_scale1} and \nolinkurl{source_spatial_response1}: selected coupling and frequency-dependent source-response scopes.
+
+\begin{samepage}
+\noindent[7] C. M. Will. \emph{The Confrontation between General Relativity and Experiment}. Living Reviews in Relativity 17, 4 (2014), doi:10.12942/lrr-2014-4. Conventional metric notation.
+\par\end{samepage}
+
+\par}
+
+
+\section{A local angular action with the retained six}
+The actual angular map is the transverse tracefree projection of an STF tensor $Q$, normalized by $UQ=\sqrt{5/(8\pi)}\Lambda_nQ$. Its sphere norm is exactly $\lVert Q\rVert^2$. On the complete five-dimensional STF image, the ordinary Cartesian-component angular gradient has energy $4\lVert Q\rVert^2$. It does not supply the radial coefficient six by itself.~[8]
+
+Let $J_i$ generate rotations, $v_i=J_i n$, $D_i=v_i\cdot\nabla_S$, and $S_iT=[J_i,T]$. The total-rotation derivative and its Casimir are
+\[
+\mathcal L_iT=[J_i,T]-D_iT,\qquad \mathcal C=-\sum_i\mathcal L_i^2.
+\]
+Equivariance gives $\mathcal L_iUQ=U[J_i,Q]$. On STF tensors, $-\sum_i[J_i,[J_i,Q]]=6Q$. Therefore $\mathcal CUQ=6UQ$, including the three undriven STF directions. The positive form retains its orthogonal complement.
+
+For every smooth tangential tracefree tensor section, a stronger local identity holds:
+\[
+\begin{aligned}
+\sum_i\lVert\mathcal L_iT\rVert^2
+ &=\lVert\nabla_S^{\mathrm{Cart}}T\rVert^2+2\lVert T\rVert^2,\\
+ &=\lVert\nabla_S^{\mathrm{LC}}T\rVert^2+4\lVert T\rVert^2.
+\end{aligned}
+\]
+At one ray differentiate $Tn=0$ and $\operatorname{tr}T=0$; the two removed normal components contribute $2\lVert T\rVert^2$. Expanding the rotation derivatives supplies the other identity. Rotational covariance extends the calculation to every ray. Exact first-jet Gram checks and the five-coordinate Casimir certify the coefficients.
+
+This is one local positive receiving extension compatible with the retained radial model. It preserves its normalization and source complements. A global translation-invariant microscopic field or moving-center action remains a further construction.
+
+\section{The unaveraged field source}
+For the actual real boundary vector $x=(x_+,x_\times)$, put $p=x_+^2+x_\times^2$, $z=n_z$ and $w=x_+(n_x^2-n_y^2)+2x_\times n_xn_y$. The local angular kernels are
+\[
+N=pz^2+w^2/4,\qquad M=2p(1+z^2)-w^2.
+\]
+With $\kappa=4/5$, the same static profiles as section 22 give
+\[
+\begin{aligned}
+e_{\mathrm{in}}&=\frac{r^2}{8\pi R^6}\,2p(1+3z^2),\\
+e_{\mathrm{out}}&=\frac{R^4}{8\pi r^8}\left(2p+11pz^2+\frac54w^2\right).
+\end{aligned}
+\]
+Both are nonnegative. Their integral is $p/R$, with fractions $2/5$ inside and $3/5$ outside. Their angular mean is exactly the preceding spherical density; no normalization is fitted.
+
+Conditionally set $\rho=e_{\mathrm{phys}}/c^2$, physical radius $R_c=\ell_uR$ and mass $M_{\mathrm{src}}=e_up/(c^2R)$. Write $\xi=r_{\mathrm{phys}}/R_c$ and $a=2GM_{\mathrm{src}}F/(c^2R_c)$. The complete exterior response is
+\[
+\begin{aligned}
+F_0&=\xi^{-1}-\xi^{-6}/10,\\
+F_2&=(2\xi^{-3}/7-\xi^{-6}/7)P_2,\\
+F_4&=(\xi^{-5}/126-\xi^{-6}/140)P_4\\
+&\quad +(5\xi^{-5}/144-\xi^{-6}/32)H_\beta.
+\end{aligned}
+\]
+For $p>0$, $\beta_c=(x_+^2-x_\times^2)/p$, $\beta_s=2x_+x_\times/p$, and the actual azimuthal harmonic is
+\[
+\begin{aligned}
+H_\beta&=\beta_c(n_x^4-6n_x^2n_y^2+n_y^4)\\
+&\quad +4\beta_sn_xn_y(n_x^2-n_y^2).
+\end{aligned}
+\]
+It is fixed by the plus/cross phase. Matching and
+\[
+D_l\xi^k=[k(k+1)-l(l+1)]\xi^{k-2}
+\]
+verify the regular interior and exterior solutions. Every finite exterior radius still contains source energy.
+
+The complete binding is $-2125/4851$ times $GM_{\mathrm{src}}^2/R_c$; the angular mean alone gives $-421/990$. Orthogonal $L2$ and $L4$ gradient energies account for the difference. This remains the chosen classical free sector, with interaction and quantum density carried separately.~[8]
+
+\section{The product-state quantum variance}
+Keep the complete Chapter I lane Hamiltonian
+\[
+\begin{aligned}
+\mathcal H&=\varepsilon eI+\varepsilon S+K,\\
+K&=H_f-g(\sigma_z\phi_++\sigma_y\phi_\times)+2g^2\mu I.
+\end{aligned}
+\]
+Here $g=\varepsilon d$ retains its original sign and $\mu=1/(4R)$. For source Bloch coordinates $r_x,r_y,r_z$ and field coherent amplitudes $\alpha_+,\alpha_\times$, the same completed square gives
+\[
+\begin{aligned}
+\langle K\rangle&=\sum_\alpha\int\omega\left|\alpha_\alpha-\frac{gr_\alpha u}{\omega}\right|^2\,d\omega\\
+&\quad +g^2\mu(2-r_y^2-r_z^2).
+\end{aligned}
+\]
+The Bloch ball implies $r_y^2+r_z^2\leq1$. Thus every product preparation has $\langle K\rangle\geq g^2\mu$. A pure source in the $yz$ plane and its optimal coherent displacements attain equality. The original displacement and energy norms are finite, so these are actual Fock form-domain vectors. Scalar square completion gives the same lower bound for arbitrary finite-energy product field states and integrable convex product ensembles.
+
+The classical cancellation omits precisely this source variance. It cannot evaluate two noncommuting quantum currents as simultaneously sharp numbers.
+
+The complete-$H$ product minimum also retains source exchange. Put $L=g^2\mu$ and subtract only the displayed common even energy. Minimizing $\varepsilon r_x+L(1+r_x^2)$ on $[-1,1]$ gives
+\[
+E_{\mathrm{prod}}-\varepsilon e=
+\begin{cases}
+-\varepsilon+2L,&\varepsilon\geq2L,\\
+L-\dfrac{\varepsilon^2}{4L},&\varepsilon<2L.
+\end{cases}
+\]
+These are comparison preparations. The actual interacting branch superposition is retained in the next section.~[8]
+
+\section{Actual preparation, energy and kernel}
+The actual pure clock state remains $(\Phi_0+\Phi_1)/\sqrt2$ times the common soft vacuum, with the original exact hard-field branches. Upstream definitions authenticate $K_{\mathrm{prep}}$ as a ceiling on the full positive $K$, including both soft counterterms. It is not a proof-error or displaced excess budget.
+
+\begin{center}\small
+\begin{tabular}{@{}lll@{}}\toprule
+Lane & Product $K$ minimum $\approx$ & Actual $K$ upper $\approx$\\\midrule
+01 & 1.39169e-8 & 8.42278e-17\\
+02 & 5.97811e-8 & 5.99696e-16\\
+03 & 9.26352e-6 & 7.49026e-12\\
+12 & 1.60103e-8 & 9.98060e-17\\
+13 & 8.55933e-6 & 6.39791e-12\\
+23 & 7.83497e-6 & 5.36406e-12\\\bottomrule
+\end{tabular}\end{center}
+Every exact upper/lower ratio is below one. This is an energetic certificate of the source-field entanglement already established by reduced-source purity. Lanes 03,13,23 additionally lie below the complete product-$H$ minimum.
+
+At preparation, $\langle K\rangle\geq2g^2\mu_{\mathrm{soft}}>0$ because the soft field is vacuum and $K_h\geq0$. The alternating $j_2$ series gives rigorous positive rational lower bounds. The retained ceiling gives a complete signed account through
+\[
+\begin{aligned}
+\max(0,\sqrt c-\sqrt{K_{\mathrm{up}}})^2&\leq\langle H_f\rangle,\\
+\langle H_f\rangle&\leq(\sqrt c+\sqrt{K_{\mathrm{up}}})^2,\\
+\langle H_{\mathrm{int}}\rangle&=\langle K\rangle-\langle H_f\rangle-c,
+\end{aligned}
+\]
+with $c=2g^2\mu$; the even source energy is added back, not discarded.
+
+Zero $K$ would annihilate both smeared polarization shifts. Their commutator forces $[D,C]\Psi=-2iSD^2\Psi=0$. Exact $\operatorname{rank}(D^2)=12$ leaves only the four diagonal source states; there $K=H_f$. Hence $\ker K$ is those four states times field vacuum. No positive active-lane spectral-infimum bound is inferred from this kernel statement.~[8]
+
+\section{The complete current-blind source algebra}
+On the actual 16-state source let $Z=D+iC$ and $Z^*=D-iC$. The exact rational commutator maps have dimensions $512\times256$ and $768\times256$. Their certified ranks are 234 and 246, respectively, when $H_{\mathrm{pair}}$ is added. Consequently
+\[
+\begin{aligned}
+\dim_{\mathbb C}\{Z,Z^*\}'&=22,\\
+\dim_{\mathbb C}\{Z,Z^*,H_{\mathrm{pair}}\}'&=10.
+\end{aligned}
+\]
+The six original squared gaps $d^2$ are distinct. Each active 2D lane is irreducible under $D,C$, so a commuting operator is scalar there. The four current-dark states permit an arbitrary $4\times4$ block:
+\[
+W=\bigoplus_{a<b}w_{ab}I_2\ \oplus\ W_{\mathrm{dark}}.
+\]
+Thus the 22-dimensional algebra is $\mathbb C^6\oplus M_4(\mathbb C)$, with Hermitian real dimension 22. Its full rational basis and nonorthogonal dark Gram are retained; no fitted eigenbasis is needed.
+
+For Hermitian source $W$, this condition is necessary and sufficient to leave every current operator history unchanged for every joint initial state. Necessity follows from the zero-time derivative $i[W,Z]$. For sufficiency, $W$ is scalar in each invariant active lane and the remaining block has zero current. Both continuum fields stay present. Time-dependent integrable $W$ in the same algebra are also invisible.
+
+Requiring conservation is stronger. Commutation with the complete Hamiltonian restricts the dark block to its four distinct energy eigenspaces. The resulting ten-dimensional space is exactly the functions $F(E_{\mathrm{even}})$ certified by ten independent powers. A dark mixing operator can remain current-blind while changing its own energy dynamics.
+
+For a compact added-Hamiltonian certificate, let $A$ be the current-commutator map, $U$ its complete 22-vector kernel basis and $B$ the $H_{\mathrm{pair}}$ commutator. Eliminating a complement of $\ker A$ gives
+\[
+\begin{aligned}
+\operatorname{rank}\binom AB
+ &=\operatorname{rank}A+\operatorname{rank}(BU)\\
+ &=234+12.
+\end{aligned}
+\]
+The restricted 12-rank certificate and ten joint-kernel vectors retain the original result. These constraint spaces do not replace the physical 16-state source.~[8]
+
+\section{What six first-order clocks can receive}
+Each original clock preparation occupies one invariant active lane. An inter-sector perturbation has an off-block first-order Duhamel commutator, whose expectation in that prepared lane is zero. It can return to the lane at second order.
+
+There are 216 Hermitian off-block directions. Adding the 22 all-time blind directions gives
+\[
+\dim_{\mathbb R}\mathcal N_{\mathrm{first}}=216+22=238.
+\]
+This is exact when the test requires first-order blindness for every state inside each of the six lanes. The six particular preparations can have additional cancellations. An exact witness satisfies all 18 complementary trace constraints while its double commutator returns a nonzero bright response. Shared first-order slopes test the supplied coupling family; they do not reconstruct arbitrary $V$.
+
+The separate Si29 source yields another exact consequence. Its frozen all-species local energies satisfy $E_x=H_{\mathrm{pos}}/8$. Therefore every prescribed profile gives
+\[
+\begin{aligned}
+\delta H(t)&=-\frac{e_u}{2}a_{\mathrm{eff}}(t)H_{\mathrm{pos}},\\
+a_{\mathrm{eff}}(t)&=\frac18\sum_x\bar a_x(t).
+\end{aligned}
+\]
+$H_{\mathrm{pos}}=|H_{\mathrm{gen}}|$ commutes with both $H_{\mathrm{gen}}$ and the retained incoming/outgoing contrast $B$. Thus the entire $B$ history is unchanged for arbitrary nonuniform, time-dependent integrable profiles in this fixed embedding. A spatial gradient cannot change $B$ through these particular frozen energy effects.
+
+Scaling $H_{\mathrm{gen}}$ instead changes the transfer clock's time. Other species/coherence observables and a different complete local coupling retain their own responses. This calculation distinguishes the two supplied couplings on the actual retained source, without replacing it by a generic two-level system.~[8]
+
+\section{One complete chosen local classical action}
+The local angular identity gives one compatible centered classical bulk action, in retained units:
+\[
+L_f=\frac\kappa4\int\left[|\dot H|^2-|\nabla H|^2-\frac{2|H|^2}{r^2}\right]d^3x.
+\]
+Its positive energy changes all signs to plus. The current $j_i=-(\kappa/2)\dot H:\partial_iH$ satisfies $\partial_t e_f+\operatorname{div}j=0$ away from the source. On the actual STF image the angular integral is six, reproducing the retained radial action and canonical momentum.
+
+Specify $\gamma_R=\delta(r-R)/R^2$ and the normalized shell $w_R=\gamma_R/(4\pi)$. One complete stated incidence is
+\[
+\begin{aligned}
+e_s&=w_RH_s,\qquad e_{\mathrm{ct}}=w_RH_{\mathrm{ct}},\\
+e_{\mathrm{int}}&=-\varepsilon\gamma_R\sum_\alpha J_\alpha\mathcal U(e_\alpha):H.
+\end{aligned}
+\]
+On the retained radial image, $U$'s isometry makes their integrals $H_s,H_{\mathrm{ct}},H_{\mathrm{int}}$. Integrating $e_{\mathrm{total}}=e_f+e_s+e_{\mathrm{int}}+e_{\mathrm{ct}}$ returns the original Hamiltonian there, including its signed interaction and common even energy. The full TT extension keeps its complement.
+
+With $f_\alpha=\varepsilon J_\alpha$, variation gives $[H_r]^+_-=-2U(\sum f_\alpha e_\alpha)/(\kappa R^2)$. Boundary flux and the interaction change cancel with the supplied power $f\cdot\dot\varphi(R)$. Uniform lapse switching pays $\dot N\langle H_0\rangle$; signed entry/release cancellation does not establish zero apparatus cost. Source motion retains its own work, and static support retains stress.
+
+The shell localization of $H_s/H_{\mathrm{ct}}$ is an assignment. A finite-source Berry action and this classical field define the stated mean-field construction; these formal densities are not asserted to be renormalized quantum stress. The full TT complement, regular origin condition and external reference account remain. A moving center and globally translation-invariant microscopic law require further construction.~[8]
+
+\section{Lapse coupling and localization}
+One uniform lapse $N$ multiplying the complete original Hamiltonian gives the exact quantum law on its unchanged domain:
+\[
+\mathcal H_N=N\mathcal H_0.
+\]
+The canonical one-form is retained and every sector receives $N$. For the supplied $N(a)=\sqrt{1-a}$, $V=-H_0/2$. The clock time change follows exactly on the original interacting field, without requiring a new local quantum-density theorem.
+
+A spatially varying lapse requires an actual energy localization $h(x)$, including interaction, counterterm, source support and reference. The chosen classical construction can couple it through
+\[
+H[N]=\int N(x)h(x)\,d^3x.
+\]
+The same stated action gives $\delta H=-(1/2)\int\delta a\,h$. With the positive Poisson gradient term, its fixed-state weak-field equation is $\Delta a=-8\pi G\langle h\rangle/c^4$ after physical conversion. For a translated prescribed compact profile, weak virtual work gives $F=(1/2)\int h\nabla a$. Its active and passive monopoles use the same total energy divided by $c^2$; inertial mass still needs the center-of-mass/boost law.
+
+If $h$ changes to $h+\operatorname{div}B$ while its integrated Hamiltonian stays fixed, the linear coupling changes by
+\[
+\delta V=\frac12\int\nabla a\cdot B\,d^3x-\frac12\oint aB\cdot dS.
+\]
+Thus integrated energy fixes the uniform coupling without selecting every finite-size response. The action must select the improvement and boundary convention.
+
+For a nonuniform quantum lapse the composite-field smearing, common form domain, vacuum prescription and noncommuting source terms remain to be defined. Classical current means lose section 31's variance. The chosen classical action supplies one compatible example, while the microscopic lapse law, quantum spatial stress and metric $\gamma$ retain their own derivations.~[8]
+
+\section{A finite-lift actual-phase certificate}
+For fixed preparation, the bounded-$V$ endpoint response can use the actual accumulated phase directly:
+\[
+\theta_1(T)=-\operatorname{Im}\frac{z_1(T)}{z_0(T)}.
+\]
+Here $z_1$ is the Duhamel integral in section 24. No mixed derivative of $\dot z$ is needed. Preparation variation contributes its own expectation and, when phases are normalized separately, an initial-endpoint term.
+
+Compare the declared full scaling plus an exactly blind source term with a bounded self-adjoint residual $R$. For the same initial state, Duhamel gives $|z-z_{\mathrm{scale}}|\leq2\lVert Z\rVert T\lVert R\rVert$. On a preserved original lane $\lVert Z\rVert=2$; arbitrary leakage needs the full receiver norm or a projected receiver with a leakage budget.
+
+Let $m=M_{\mathrm{lower}}-E_{\mathrm{cycle}}>0$, $T_{\mathrm{lo}}\leq T_0\leq T_{\mathrm{hi}}$, and $x=\ell aT_{\mathrm{lo}}/2$. Since $\sin x\geq x-x^3/6$, a strict sufficient sign budget is
+\[
+\lVert R\rVert<B,\qquad B=\frac{m(x-x^3/6)}{4T_{\mathrm{hi}}},\quad 0<x<1.
+\]
+The current-error disk stays away from zero at every prefix; its angle is smaller than $x$, while the ideal negative shift has magnitude at least $x$. This also fixes the unwrapped branch.
+
+\begin{center}\small
+\begin{tabular}{@{}ll@{}}\toprule
+Lane & $B$, model-energy norm $\approx$\\\midrule
+01 & 6.073891199e-16\\
+02 & 6.073891111e-16\\
+03 & 6.073873394e-16\\
+12 & 6.073891195e-16\\
+13 & 6.073874749e-16\\
+23 & 6.073876144e-16\\\bottomrule
+\end{tabular}\end{center}
+These exact-rational budgets use the frozen Earth lift and original window. A declared lane-preserving $\lVert R\rVert\leq a^2$ fixture keeps all six shifts negative. A physical field-form remainder and attainable readout precision need their separate estimates; no SI sensitivity is assigned.~[8]
+
+\section{Self-consistent finite-shell stability}
+Use the same eight-shell source, Green inverse $H=K^{-1}$, $\kappa=1/50$, total mass one and boundary exit as section 20. A new explicit source-lapse functional is
+\[
+F(a)=\frac{a^TKa}{2\kappa}+2\sum_i m_i\sqrt{1-a_i}.
+\]
+Its stationary equation is no longer the prescribed linear source:
+\[
+Ka=\kappa\left(\frac{m_i}{\sqrt{1-a_i}}\right)_i.
+\]
+It is a declared finite receiving model with fixed positive shell rest energies. It is not the complete quantum-source susceptibility.
+
+On the weak box $0\leq a_i\leq b=1/100$, the positive Green map sends the box into itself. The same linear source gives $a_{0,\max}=1777/630000$. Its sup-norm contraction is bounded by
+\[
+q=\frac{1777}{1234926}<1.
+\]
+Hence the box has exactly one fixed point. Thirty-two directed rational Picard steps enclose it with width below $10^{-70}$; its largest component is approximately $0.0028237945677064$, above the linear $0.0028206349206349$.
+
+The Hessian is bounded below throughout the box by
+\[
+\frac K\kappa-\operatorname{diag}\left(\frac{m_i}{2(1-b)^2}\right).
+\]
+All eight exact leading principal minors are positive. This supplies strict convexity and local stability throughout the chosen weak box. The native inverse of that conservative Hessian has the same retained source and boundary binding.
+
+The result establishes a finite self-consistent extension under its stated lapse law. A source-dependent rest-energy response, a strong-lift continuation and the full spatial metric remain separate calculations.~[8]
+
+\section{An actual restored orbital preparation}
+The verified T500 electron-basis archive supplies the literal normalized mode index 6, $l=3,m=3,t=1$, coefficient one. Occupying it with both orthogonal spins gives an allowed $N=2$ Slater member of the archived 16/20-spin families. It is an explicit prepared-family member, rather than a recovered winning minimum.~[8]
+
+Let $d$ be a declared physical dilation, $s=r/d$ and $u=\cos\theta$. The retained wavefunction and angular modulus are
+\[
+\begin{aligned}
+\psi_{33}&=d^{-3/2}\sqrt{4/315}\,s^3e^{-s}Y_{33},\\
+|Y_{33}|^2&=\frac{35}{64\pi}(1-u^2)^3.
+\end{aligned}
+\]
+Thus the actual two-spin number density is
+\[
+n(r,u)=\frac{s^6e^{-2s}(1-u^2)^3}{72\pi d^3}.
+\]
+Separate radial and angular integrals give $\int n=2$; $n$ is pointwise nonnegative. A number/rest component may be received as $\rho=Mn/2$ after specifying its total component mass $M$. The original kinetic, exchange, interaction, recoil and common-reference energies retain their own accounts.
+
+The exact angular polynomial has only even Legendre modes:
+\begin{center}\small
+\begin{tabular}{@{}ll@{}}\toprule
+$L$ & $c_L$ in $(1-u^2)^3$\\\midrule
+0 & $16/35$\\
+2 & $-16/21$\\
+4 & $144/385$\\
+6 & $-16/231$\\\bottomrule
+\end{tabular}\end{center}
+The full polynomial is reconstructed from all 49 exact angular Gram entries. This restores a source-bound anisotropic density example without identifying a particle count with the complete gravitating energy or assigning the original atomic attachment energy as an absolute mass.
+
+\section{The full noncompact orbital field}
+Under the same declared Poisson receiver, sum over $L=0,2,4,6$ to obtain
+\[
+\begin{aligned}
+a&=\frac{2GM}{c^2d}\sum_L\frac{c_LP_L(u)}{36(2L+1)}\\
+&\quad\times[s^{-L-1}I_{L+8}(s)+s^LJ_{7-L}(s)],
+\end{aligned}
+\]
+The two radial integrals are
+\[
+\begin{aligned}
+I_p(s)&=\int_0^s t^pe^{-2t}\,dt,\\
+J_p(s)&=\int_s^\infty t^pe^{-2t}\,dt.
+\end{aligned}
+\]
+For integer $p$ they are finite exponential polynomials:
+\[
+\begin{aligned}
+J_p&=\frac{p!}{2^{p+1}}e^{-2s}\sum_{k=0}^p\frac{(2s)^k}{k!},\\
+I_p&=\frac{p!}{2^{p+1}}-J_p.
+\end{aligned}
+\]
+Both integrals remain at every finite radius. Their derivatives cancel the source terms and the radial operator returns the full Poisson density. Since $I_p$ begins at $s^{p+1}/(p+1)$, all modes are regular at the origin.
+
+The far potential coefficients multiplying $P_L/s^{L+1}$ are
+\begin{center}\small
+\begin{tabular}{@{}ll@{}}\toprule
+$L$ & Far coefficient\\\midrule
+0 & $1$\\
+2 & $-15/2$\\
+4 & $135/2$\\
+6 & $-1575/4$\\\bottomrule
+\end{tabular}\end{center}
+The omitted term in each asymptotic mode is bounded by
+\[
+\frac{|c_L|}{36(2L+1)}[s^{-L-1}J_{L+8}+s^LJ_{7-L}].
+\]
+The exact enclosed fraction is
+\[
+\frac{M(<r)}M=1-e^{-2s}\sum_{k=0}^8\frac{(2s)^k}{k!}.
+\]
+There is no finite-radius vacuum boundary. The four radial identities have an exact 64-row coefficient certificate and the original source binding.~[8]
+
+\section{Force, tides and source-error bounds}
+The same receiving law supplies the mechanical and tidal observables by differentiation:
+\[
+\mathbf g=\frac{c^2}2\nabla a,\qquad T=\frac{c^2}2\operatorname{Hess}a.
+\]
+The full orbital expressions include their exponential tails; differentiating only a finite far multipole is a different approximation. At the origin use the regular $I_p$ expansion. Inside material the tidal trace remains $-4\pi G\rho$, rather than the vacuum trace zero.
+
+A useful error bound needs its spatial hypothesis. Let a signed density error have total-variation mass $\delta M$, all at distance at least $d_{\mathrm{sep}}>0$ from the receiving point. Differentiating the Newtonian kernel gives
+\[
+\begin{aligned}
+|\delta a|&\leq\frac{2G\delta M}{c^2d_{\mathrm{sep}}},\qquad
+|\delta\mathbf g|\leq\frac{G\delta M}{d_{\mathrm{sep}}^2},\\
+\lVert\delta T\rVert_{\mathrm{op}}&\leq\frac{2G\delta M}{d_{\mathrm{sep}}^3}.
+\end{aligned}
+\]
+The Hessian kernel has eigenvalues proportional to $2,-1,-1$. Thus these are controls on the full derivatives, not an inference from potential convergence alone.
+
+For an orbital tail discarded beyond physical $L$, its exact mass is $\delta M=M\exp(-2L/d)\sum_{k=0}^8(2L/d)^k/k!$. At $r<L$ one may use $d_{\mathrm{sep}}=L-r$. The angular free-sector tail instead has $\delta M=(3/5)M_{\mathrm{src}}(R_c/L)^5$. An overlapping source error requires its own regularity or cancellation estimate; these separated-support bounds cannot be assigned there.
+
+For overlapping finite-energy sources, the Sobolev estimate instead gives
+\[
+\lVert\nabla\delta a\rVert_2\leq\frac{8\pi G}{c^2}C_S\lVert\delta\rho\rVert_{6/5}.
+\]
+This controls field energy; total mass additionally needs $L^1$. Physical energy $e_u$, length $\ell_u$ and action $I_u$ remain shared assignments. They set time $I_u/e_u$ and the field/clock conversion together. An SI ruler or Write rate is not inferred from the source polynomial.~[8]
+
+\section{Reproduction and the remaining interface}
+Sections 1--28 preserve the completed source-to-field pass, with section 6's coupling wording clarified and section 27's counts labeled as that preceding pass. The new local-action calculations retain their own exact input, derivation, code and native receipt bindings.
+
+The new package has 3,055 independent exact checks: 1,068 angular and multipole, 1,223 quantum-energy and phase, 226 visibility, 88 reduced-rank supplement, 72 orbital preparation, 268 orbital Poisson and 110 finite-shell stability. They retain the same source operands, domains and common energy conventions. Editable sources, embedded fonts and a byte-identical relocated PDF rebuild accompany them. Actual native outcomes and resource custody retain their campaign receipts.
+
+The mathematical interfaces are now explicit. The chosen local classical Casimir action reproduces the radial model. The quantum product comparison uses the same full $K$ as the original clock state. Its complete current-blind algebra is distinguished from preparation-specific first-order blindness. A bounded finite-lift control carries an actual phase sign margin.
+
+The next physical work is to define the nonuniform interacting quantum energy/stress form, including its vacuum, source, interaction, counterterm, support and reference convention. Derive its $V$ and energy-form remainder on the original preparation, then carry the actual measurement and apparatus errors through the phase comparison. A translation-invariant moving-source action, microscopic spatial family, SI calibration and the spatial metric response including $\gamma$ remain available for that construction.
+
+\section*{Additional retained sources}
+{\footnotesize\raggedright
+\noindent[8] Brady, ChatGPT and Codex. \emph{Chapter III local action and actual clock continuation}, \nolinkurl{voli_chapter3_local_action2_20261015}: angular, quantum, visibility, action and restored-orbital derivations; exact operands, independent checkers and parent-owned native receipts. The source-to-field predecessor and Chapter II companion remain retained under H002641.
+
+\par}
+
+
+\end{document}

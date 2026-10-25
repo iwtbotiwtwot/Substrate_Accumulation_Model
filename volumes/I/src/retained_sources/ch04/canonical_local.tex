@@ -1,0 +1,272 @@
+\section{The canonical local coupling has a pair kernel}
+The following new calculation starts from the retained compatible local
+tensor action, with $\kappa=4/5$, its complete tangential tracefree bundle,
+regular origin and full exterior.  It selects that action's canonical lapse
+coupling.  A covariant source, support and ruler law is still needed to
+select its complete physical metric stress; flat-space improvements can
+leave the original Hamiltonian unchanged and change a nonuniform lapse
+variation.
+
+With $\Pi=\kappa\dot H/2$, the bulk candidate is
+\[
+ H_f[N]=\int N\left\{\frac{\Pi:\Pi}{\kappa}
+ +\frac\kappa 4\left(|\nabla H|^2+\frac{2|H|^2}{r^2}\right)\right\}d^3x.
+\]
+The declared source shell receives $\bar N_R\varepsilon H_{\rm pair}$,
+$-\varepsilon\sum_\alpha J_\alpha\int N(R,n)Ue_\alpha:H(R,n)d\Omega$,
+and $\bar N_R\varepsilon^2\mu(D^2+C^2)$, where $J=(D,C)$,
+$\mu=1/(4R)$ and $\bar N_R$ is the shell average.  Thus even source energy,
+both signs and both original counterterms remain. The shell average and the receiving form's center value are distinct: for the shared profile $|\bar N_R-N(0)|<1.5\,10^{-63}$. This finite-source incidence mismatch is explicitly retained.  A new counterterm is
+not silently fitted to complete a different square.
+
+For real complete eigenmodes
+$f_i=\sqrt{2/\pi}\,k j_l(kr)Y^P_{lm}(n)$ and $\omega_i=k$, set
+\[
+ M_{ij}=\int Nf_i:f_j,\qquad
+ V_{ij}=\int N(\nabla f_i:\nabla f_j+2f_i:f_j/r^2).
+\]
+Canonical quantization gives, before the ultraviolet limit,
+\begin{align*}
+ :H_f[N]:&=a^\dagger A a+\tfrac 12(a B a+a^\dagger B a^\dagger),\\
+ A_{ij}&=\frac{\omega_i\omega_jM_{ij}+V_{ij}}
+                  {2\sqrt{\omega_i\omega_j}},\\
+ B_{ij}&=\frac{V_{ij}-\omega_i\omega_jM_{ij}}
+                  {2\sqrt{\omega_i\omega_j}}.
+\end{align*}
+Wave-packet integration by parts on the complete space gives
+\[
+ \begin{gathered}
+ B_{ij}=\frac{(\omega_i-\omega_j)^2M_{ij}
+              +\int(\Delta N)f_i:f_j}{4\sqrt{\omega_i\omega_j}},
+ \end{gathered}
+\]
+\[
+ A-A_J=B,\qquad (A_J)_{ij}=\sqrt{\omega_i\omega_j}M_{ij}.
+\]
+Any artificial interface has its own integration boundary term.  The
+original source shell is a vertex, not a boundary deleting exterior modes.
+Operator derivatives in $D_b$ and the return forcing below are projected
+onto the constrained TT bundle; bare Cartesian normal components are not
+added as field coordinates.
+$A_J$ is the free-field part of the positive-frequency receiver.  The
+canonical candidate additionally has $d\Gamma(B)$, a pair kernel, its
+source vertices and a vacuum prescription.  Uniform $N$ makes $B=0$ and
+recovers exactly $NH_0$.
+
+\section{Vacuum domain and paid temporal regularization}
+In a local flat polarization chart the pair kernel has the ultraviolet
+asymptotic, for fixed $K$,
+\[
+ B(p,-p+K)=-\frac{|K_\perp|^2\widehat N(K)}
+                       {4(2\pi)^{3/2}|p|}+O(|p|^{-2}).
+\]
+Its equivalent principal symbol is
+$(\Delta N-\hat p^T\operatorname{Hess}N\hat p)/(4|p|)$.
+Connection and source-centered potential terms have lower symbol order.
+For one local real polarization a cutoff $\Lambda$ yields
+\begin{align*}
+ \|:\delta H_f:|0\rangle\|^2
+   &\sim\frac{\Lambda}{120\pi^2}\int|\Delta\delta N|^2d^3x,\\
+ \|H_f^{-1/2}:\delta H_f:|0\rangle\|^2
+   &\sim\frac{\log\Lambda}{240\pi^2}\int|\Delta\delta N|^2d^3x.
+\end{align*}
+There are two local tensor polarizations.  The original finite shell
+counterterm does not remove this bulk vacuum term.  Hence a sharp-time
+Wick density cannot simply be installed as a continuous form on the
+previous $D(H_f^{1/2})$ containing the original vacuum.  A static
+Bogoliubov map with ultraviolet $\beta\sim|p|^{-2}$ does not make its
+energy integral finite.
+
+For the shared Plummer profile
+\[
+ N(x)=1-\frac{\mu_P}{\sqrt{d^2+|x-de_z|^2}},\quad
+ \mu_P=\frac{\sqrt 2 d}{1000},\quad d=10^{30}R,
+\]
+the coefficient is explicitly
+$\int|\Delta N|^2d^3x=45\pi^2\mu_P^2/(64d^3)>0$.
+A specified entry and release gives a computable continuation.
+For example, use $\chi(t)=\sin^4(\pi t/T_s)$ on $[0,T_s]$, zero outside.
+Its zero extension is $C^3$.
+The outgoing first-order pair coefficient and second-order free energy are
+\[
+ \begin{gathered}
+ \beta_{ij}=-i\eta B_{ij}\widehat\chi(\omega_i+\omega_j),\\
+ E_{\rm pairs}^{(2)}=\frac{\eta^2}{2}\int(\omega_i+\omega_j)|B_{ij}|^2
+                   |\widehat\chi(\omega_i+\omega_j)|^2di\,dj.
+ \end{gathered}
+\]
+The latter is finite and nonnegative for this switching.  It joins the
+signed source work, vacuum-polarization convention and support/controller
+payments.  Higher orders and the complete renormalized protocol remain
+to be bounded; a finite spatial cutoff is not the original preparation.
+
+\section{A gradient leaves through two angular sectors}
+Let $\mathcal C$ be the retained total-rotation Casimir.  For
+$Y=n_zUQ$, direct polynomial calculation gives
+\[
+ Y_{B2}=(12-\mathcal C)Y/6,\qquad
+ Y_{E3}=(\mathcal C-6)Y/6.
+\]
+These are mutually orthogonal, have Casimirs 6 and 12, and are orthogonal
+to the whole original electric $U(\mathrm{STF})$ image. Their normalized
+Grams in its rational five-coordinate chart are
+\[
+ \begin{gathered}
+ G_{B2}=\operatorname{diag}(4/9,4/9,1/9,1/9,0),\\
+ G_{E3}=\operatorname{diag}(5/63,5/63,8/63,8/63,1/7).
+ \end{gathered}
+\]
+Thus the actual plus/cross gradient leakage divides as $4/9+5/63=11/21$;
+fractions $28/33$ and $5/33$ propagate through different radial operators.
+The compressed variance alone supplies no time evolution or inverse gap.
+
+For the exact first Legendre coefficient $n_1(r)$ of the same Plummer
+profile, put $a=r^2+2d^2$, $b=2rd$, $s_\pm=\sqrt{a\pm b}$. Then
+\[
+ n_1(r)=-\frac{2\mu_P b}
+ {(s_++s_-)(a+\sqrt{a^2-b^2})}
+       =-\frac{r}{2000d}+O(r^3/d^3).
+\]
+The radial number and pair kernels of the two complementary sectors are
+obtained from
+\begin{align*}
+ M_l(k,q)&=\int r^2n_1(r)R_2(k,r)R_l(q,r)dr,\\
+ D_l^N(k,q)&=\int r^2(n_1''+2n_1'/r-2n_1/r^2)\\
+ &\hspace{4em}\times R_2(k,r)R_l(q,r)dr,\\
+ B_{2\leftarrow l}&=\frac{(k-q)^2M_l+D_l^N}{4\sqrt{kq}},\\
+ A_{2\leftarrow l}&=\sqrt{kq}M_l+B_{2\leftarrow l}.
+\end{align*}
+where the reverse-sector kernels are $A_{l\leftarrow2}(q,k\prime)=A_{2\leftarrow l}(k\prime,q)$ and likewise for $B$; these reverse labels are not forward functions evaluated with exchanged arguments. Here $R_l=\sqrt{2/\pi}k j_l(kr)$ and angular weights are $c_2^2=4/9$,
+$c_3^2=5/63$.  Eliminating the doubled canonical complement gives the
+leading causal return
+\[
+ \begin{aligned}
+ K_{++}(k,k';\tau)=\eta^2\sum_lc_l^2\int
+ \big[&A_{2\leftarrow l}(k,q)A_{l\leftarrow2}(q,k')e^{-iq\tau}\\
+       &-B_{2\leftarrow l}(k,q)B_{l\leftarrow2}(q,k')e^{iq\tau}\big]dq.
+ \end{aligned}
+\]
+The complementary boundary force
+$\varepsilon n_1(R)c_lJ_\alpha u_{R,l}(q)$ is also retained.  In the
+original quantum source equation it is operator-valued; its expectation
+needs the actual interacting two-time state.
+
+\section{The bounded physical profile has a nonzero static return}
+This exact static field Schur calculation keeps the source boundary.
+Let $v_R=\delta(r-R)/R^2$ and
+\[
+ h_0=D_2^{-1}v_R=
+ \begin{cases}r^2/(5R^3),&r<R,\\R^2/(5r^3),&r>R.\end{cases}
+\]
+For $N=N_0+\eta b$, $D_N=N_0D+\eta D_b$ with
+$D_b=bD-\nabla b\cdot\nabla$, while $v_N=N_0v_R+\eta b(R)v_R$.
+The static field functional is
+$-\varepsilon^2\langle v_N,D_N^{-1}v_N\rangle J_\alpha^2/\kappa$.
+The bulk and boundary insertions cancel their delta-shell pieces:
+\[
+ \begin{gathered}
+ w=b(R)v_R-D_bh_0\\
+ \hphantom{w}=P_{\rm TT}[\nabla b\cdot\nabla(h_0Ue_\alpha)],\qquad
+ E_{\rm all}=\langle w,D^{-1}w\rangle=E_P+E_Q.
+ \end{gathered}
+\]
+Here $P$ is the original electric-$l=2$ driven projector, $Q=I-P$, and $E_Q=\langle Qw,(QDQ)^{-1}Qw\rangle$. The complete inverse retains even forcing in $P$; the isolated odd forcing lies in $Q$. Its quadratic contribution is
+$-\eta^2\varepsilon^2 E_{\rm all}J_\alpha^2/(\kappa N_0)$.
+For the linear-gradient comparator $b=\gamma z$, solving both regular
+interior/decaying exterior Poisson equations gives
+\[
+ E_{B2}=\frac{c_2^2\gamma^2R}{210},\qquad
+ E_{E3}=\frac{2c_3^2\gamma^2R}{105},\qquad
+ E_{\rm linear}=\frac{8\gamma^2R}{2205}.
+\]
+For both source polarizations this coefficient is
+$-2\eta^2\varepsilon^2\gamma^2R(D^2+C^2)/(441N_0)$.
+It is a field Schur functional, not a replacement coherent preparation or
+an exact joint quantum ground-energy formula for noncommuting $D,C$.
+
+Now retain the complete bounded odd part
+$b_o(x)=[N(x)-N(-x)]/2$, including all its higher multipoles.
+For $\gamma=-1/(2000d)$, $\mathcal D=d/R$, $S=L/R$, a dual energy estimate gives
+\[
+ \begin{aligned}
+ &\frac{\|D_Q^{-1/2}(w_o-w_{\rm linear})\|^2}{\gamma^2R}\\
+ &\quad\le\frac 16\left[\frac{10368}{275\mathcal D^4}
+       +\frac{16848(S-1)}{25\mathcal D^4}+\frac{208}{75S^3}\right].
+ \end{aligned}
+\]
+It uses $D_Q\ge 6/r^2$, the actual angular gradient coefficient 4, and
+the full exterior. With $\mathcal D=10^{30}$, $S=10^{15}$,
+\[
+ E_o\in\frac{8\gamma^2R}{2205}[1-10^{-20},1+10^{-20}].
+\]
+Thus the actual bounded profile's returning gradient is calculated.
+Its two signs have identical compressed receiver histories and this
+nonzero canonical return.
+The return is measured against the constant $N_0$ reference. Parity can
+also make the two complete canonical histories equal for the original
+even preparation and source-only readout; this calculation does not
+automatically recover the gradient's sign.
+
+There is an exact finite-profile bound as well.  Set
+$\mathcal B=D^{-1/2}D_bD^{-1/2}$ and $u=D^{-1/2}w$. The nonlinear
+static remainder after the linear part is exactly
+$\eta^2\langle u,(N_0I+\eta\mathcal B)^{-1}u\rangle$.
+Since $\|\mathcal B\|\le\|b\|_\infty$, it lies between
+$\eta^2E_{\rm all}/[N_0(1+\rho)]$ and $\eta^2E_{\rm all}/[N_0(1-\rho)]$ for
+$\rho=|\eta|\|b\|_\infty/N_0<1$.
+For the full Plummer profile, $\|N-N_0\|_\infty=1/1000$, $\rho=1/999$,
+and parity gives $E_{\rm all}=E_e+E_o\ge E_o$. Its finite nonlinear static
+return is therefore at least $E_o$ at $\eta=1$.
+For an isolated odd profile parity improves the relative correction to
+at most $1/998000$. These static bounds do not evaluate the prepared
+quantum clock's two-time expectation.
+
+\section{The source-derived kernel and the amplitude interface}
+Eliminating the original quadratic field gives
+\[
+ \begin{gathered}
+ \chi_R(\omega)=2\int_0^\infty
+ \frac{k u_R(k)^2}{k^2-(\omega+i 0)^2}dk
+ =\frac{G_2(\omega R)}{\kappa R},\\
+ G_2(z)=\int_0^2e^{izs}(1-3s^2/2+3s^4/8)ds.
+ \end{gathered}
+\]
+Its first six signed delay moments are
+$2/5,0,-8/105,0,32/105,16/15$. Therefore
+\[
+ \chi_R(\omega)=\frac 1{2R}+\frac R{21}\omega^2
+ +\frac{R^3}{63}\omega^4+i\frac{R^4}{90}\omega^5+O(\omega^6).
+\]
+For positive frequency, $\operatorname{Im}\chi_R=\pi u_R(\omega)^2\ge 0$.
+This is radiative passivity. The kernel is a signed compact delay response;
+its state-dependent source influence retains time ordering and noise.
+The original superposed hard branches require a two-time susceptibility.
+
+The retained bulk kinetic coefficient is constant $\kappa$.
+Localized source elimination gives a nonlocal self-energy, rather than
+selecting a homogeneous cosmological $Q(t)$ or a positive rate spectrum
+in $\log(1+z)$. Hamiltonian spectral factors oscillate even with positive
+energy and positive passive spectral weight. A relaxation/coarse-graining
+law, its background, common units and a controlled reduction are the
+remaining physical inputs to such a transport coefficient.
+
+One positive-spectrum construction does come directly from the source.
+For its actual finite dressing vector $v=u_R/\sqrt{k}$,
+$\|v\|^2=1/(5\kappa R)$, the normalized Euclidean correlation is
+\[
+ F_E(\tau)=\frac{\langle v,e^{-\tau k}v\rangle}{\|v\|^2}
+  =\int_0^\infty e^{-k\tau}\frac{10R}{\pi}j_2(kR)^2dk.
+\]
+This is a derived continuous positive measure of total mass 1, with rates
+down to zero and $F_E(\tau)\sim 16R^5/(15\pi\tau^5)$.
+It is a Euclidean or contractive-semigroup observable; real Hamiltonian
+time uses $e^{-ik\tau}$.  Its identification with physical relaxation and
+then $\log(1+z)$ still requires a physical law.  No finite mode count or
+positive minimum rate follows from this original continuum.
+
+The independent portable checker supplies 164 exact assertions, including
+the original polynomial angular split, both radial matching problems,
+full-tail Plummer bound and signed source-kernel moments. Native execution
+and custody are recorded separately in the accompanying cycle receipts.
+
+\input{canonical_update.tex}

@@ -1,0 +1,794 @@
+[
+  {
+    "key": "V3PJ4",
+    "path": "SAM_REVIEW/campaigns/STARBREAKER_GEN2_R4_J4_SIMULATION1/RESULT.md",
+    "title": "Starbreaker J4 simulation on SLC-GEN2-R4",
+    "sha256": "4cc9eda576845780b10a279370cdcc5ae2fd989258676e8c7face7c19ddede06",
+    "bytes": 3810
+  },
+  {
+    "key": "V3PCOMMON",
+    "path": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/RESULT.md",
+    "title": "Common reception identifies every declared native history",
+    "sha256": "0372faa092197af43321c2dcd7c28cf0971d4e2a71d9ca7c53ae3132e99900cb",
+    "bytes": 9337
+  },
+  {
+    "key": "V3PCOMMONDERIV",
+    "path": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/DERIVATION.md",
+    "title": "Why the two channels admit a local inverse",
+    "sha256": "f193ef9a1a33164efae2d7b7a5237517d5887ad482fba4cb12338163b0837de4",
+    "bytes": 2685
+  },
+  {
+    "key": "V3PINFO",
+    "path": "SAM_REVIEW/campaigns/SLC_GEN2_INFORMATION_BRIDGE_TESTS1/RESULT.md",
+    "title": "SLC GEN 2 information-bridge series: completed results",
+    "sha256": "3d77c1fe2c21054ba9d8f8e497b7e4ebe798dd1b1d983788e3b0c1823bdb61d1",
+    "bytes": 11925
+  },
+  {
+    "key": "V3PDYNAMICS",
+    "path": "GEN4/dynamics_install1/REPORT.md",
+    "title": "First shared dynamics installation and SB/A3D41 pilots",
+    "sha256": "79034c2a658888bd0dc4412ce0032f5fe6c79c467673fdf16d8bc065f19c7202",
+    "bytes": 6650
+  },
+  {
+    "key": "V3PDYNAMICSGUIDE",
+    "path": "GEN4/dynamics_install1/GUIDE.md",
+    "title": "Shared modular capability and declared finite-state dynamics contracts",
+    "sha256": "16b8e2e5e023be5aeca6d165037888f7fb9b8cf202314a04764944b532fbfa18",
+    "bytes": 9228
+  },
+  {
+    "key": "V3PSBEXT",
+    "path": "GEN4/sb_dynamics_extension1/REPORT.md",
+    "title": "SB dynamics extension through N5000",
+    "sha256": "17da3ff0cc659b4da02bd4262e9ca112092a494f87432badf7ab450eff5495f5",
+    "bytes": 5134
+  },
+  {
+    "key": "V3PLI6",
+    "path": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/README.md",
+    "title": "Li-6 construction grammar, retained circulation and hidden support",
+    "sha256": "319950dd18aa81558a0ffe8df1ebd02e0d042a834e931ee648eaf37304ebdc17",
+    "bytes": 7270
+  },
+  {
+    "key": "V3PLI6DECODER",
+    "path": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/RESULT.md",
+    "title": "GEN2 separates A3D41 tied Li-6 constructions",
+    "sha256": "a8de6a9bb819c4b89f90fb2be4011118d06da12d352f36f72e38ae1c938994d2",
+    "bytes": 5319
+  },
+  {
+    "key": "V3PSELECTOR",
+    "path": "SAM_REVIEW/campaigns/GEN3_ATOM3D_DISTINCT_SELECTOR1/RESULT.md",
+    "title": "GEN3 native distinct-observation selection",
+    "sha256": "3aa8447da6288b5eca67dcc1ed798619e2c31aa64d71293a8e6d8dfefe7d3c8e",
+    "bytes": 7149
+  },
+  {
+    "key": "V3PPARITY",
+    "path": "GEN4/a3d_memory1/REPORT.md",
+    "title": "A3D41 memory-preserving parity qualification",
+    "sha256": "83df52b87ce55c55bf7386564a115d83bac8c44cc628da50adcb350750fd5a8d",
+    "bytes": 5292
+  },
+  {
+    "key": "V3PPARITYDERIV",
+    "path": "GEN4/a3d_memory1/DERIVATION.md",
+    "title": "Exact spin-reversal propagation with measurement memory",
+    "sha256": "27d492062b856da759850644d252685546113f0160d79cf48dc4737c35993b4c",
+    "bytes": 4603
+  },
+  {
+    "key": "V3PTAU",
+    "path": "SAM_REVIEW/campaigns/TAU_GEN3_SEMANTIC_LEARNING1/RESULT.md",
+    "title": "GEN3 tau semantic and training-method learning pilot",
+    "sha256": "53a152303df7a7396fa5f5a75f13572dab30ebebd535c8d6d27aeeae897b7fe1",
+    "bytes": 10248
+  },
+  {
+    "key": "V3PTAUCURRENT",
+    "path": "SAM_LIVE/09_TAU_RECO_CURRENT.md",
+    "title": "Current tau reconstruction application and storage/status authority",
+    "sha256": "4b0c54228225a89e4802867f2decd32b523c9c44a70268129ec7f422b1ccce4f",
+    "bytes": 27361
+  },
+  {
+    "key": "V3A01",
+    "path": "GEN4/rh_typeii_prefix1/REPORT.md",
+    "title": "Exact Type II reduction and completed directed source production",
+    "sha256": "b3830862b81aca0a5227e929815f44503ed835cc9162e12a7ed1bd298089b029",
+    "bytes": 8875,
+    "notes": "H002226; source-bound exact work-count result and recorded production, not an achieved arithmetic exponent"
+  },
+  {
+    "key": "V3A02",
+    "path": "GEN4/rh_typeii_prefix1/DERIVATION.md",
+    "title": "Exact signed interval-prefix evaluator with strict moving integer boundaries",
+    "sha256": "601d8335cf308477fe5a9a94a6fcc6b71db8291bdbe38f70fed8b077a5a8da55",
+    "bytes": 3874,
+    "notes": "Source-defined reduction; all original source/correction/mean terms retained"
+  },
+  {
+    "key": "V3A03",
+    "path": "GEN4/rh_typeii_block_transport1/REPORT.md",
+    "title": "Common-grid Type II covariance and explicit all-real geometric payments",
+    "sha256": "17ba7fc14d5216a3c72f6c3890898da4b2932469dc6d29c603fadb1d2c5f881e",
+    "bytes": 7664,
+    "notes": "H002273; unknown C00 and source exponent remain unassigned"
+  },
+  {
+    "key": "V3A04",
+    "path": "GEN4/rh_subpower_gen4_review1/REPORT.md",
+    "title": "Near-critical all-q payments and precise remaining source target",
+    "sha256": "2474e0f024b02942a654404b5488ba34f313091f3a09d4e91cf38a1222a945ad",
+    "bytes": 3468,
+    "notes": "H002281; completed known payments and retained sufficient source estimate"
+  },
+  {
+    "key": "V3A05",
+    "path": "GEN4/rh_gram_tree_pod1/REPORT.md",
+    "title": "Qualified ordered Gram forest, complete source cuts and measured arithmetic scaling",
+    "sha256": "fe2f658619dce1d0c3eacaaa974ee33908694119657e991288f3ee4d31227db4",
+    "bytes": 12099,
+    "notes": "H002512; scoped source adapter with original signed coefficients"
+  },
+  {
+    "key": "V3A06",
+    "path": "GEN4/rh_gram_tree_pod1/METHOD.md",
+    "title": "Ordered source aggregate, full prime cocycle, logarithmic credit and cross-block task",
+    "sha256": "2e2316b430e07b0410cbbae6c3d6552a56f4ef42c64cb1b84a2ec820dc149697",
+    "bytes": 6804,
+    "notes": "Retains full self, quadratures and actual signed overlap"
+  },
+  {
+    "key": "V3A07",
+    "path": "GEN4/rh_source_action_residual1_20261015/REPORT.md",
+    "title": "Original complete RH crossing, actual signed payment and selected shell derivative",
+    "sha256": "d82209b8c1008bc7dc1170f400154883a87f196ba32c9614a4f2053b9cf7d3f5",
+    "bytes": 11486,
+    "notes": "H002629; latest complete original-source crossing result, frozen-chart derivative"
+  },
+  {
+    "key": "V3A08",
+    "path": "GEN4/rh_source_action_residual1_20261015/DERIVATION.md",
+    "title": "Source-zero quotient, complete exterior square and explicit crossing storage",
+    "sha256": "694aeabbf546c4f4a06dce12da07337fcc2e82420290004f0f1abf179c07e0ec",
+    "bytes": 5995,
+    "notes": "Exact frozen-chart source identity; moving-source terms remain explicit"
+  },
+  {
+    "key": "V3A09",
+    "path": "GEN4/duck_rh_a0_cycle_price3/REPORT.md",
+    "title": "Completed compensated-reference, cycle-allocation and finite boundary-price recipients",
+    "sha256": "c475c34f18d1829d89a53be80fbb04417fe0da8c1ed6a4b80b48ee8e9bd6f4c0",
+    "bytes": 38491,
+    "notes": "H002570; all eight original selected targets retain partial coverage; complete K unconstructed"
+  },
+  {
+    "key": "V3A10",
+    "path": "SAM_REVIEW/campaigns/MP_GEN2_R4_DOMAIN1/RESULT.md",
+    "title": "Installed exact certificate validation, known-evidence reuse and bulk elimination",
+    "sha256": "43581ee3c3b5bd6a9ca9906c808e46cf1d0919918fce18877c1b3fff3c1c020d",
+    "bytes": 6550,
+    "notes": "H001037-H001039; historical installed G2 execution source, current global selector separate"
+  },
+  {
+    "key": "V3A11",
+    "path": "SAM_REVIEW/campaigns/MP_GEN2_R4_DOMAIN1/CAMPAIGN_MAP.md",
+    "title": "MP source-to-native mapping, canonical proof reuse and certified-F history",
+    "sha256": "6c5cc5339cc09aeb941196e3fa83f471ea134a88150607afc085135cf0959df4",
+    "bytes": 1977,
+    "notes": "Original native design and mathematical operation roles"
+  },
+  {
+    "key": "V3A12",
+    "path": "SAM_REVIEW/campaigns/MP_B300_TRAIN1/TOMORROW_HANDOFF.md",
+    "title": "B300 completed cost-learning loop, quiet-pod regression and owner-paused handoff",
+    "sha256": "e96b4861df1608bec964920e2fa311375aae039caaf23665ba55bfb96180fd1d",
+    "bytes": 8519,
+    "notes": "H001318; final remote receipt retrieval was unavailable, observed outputs and source paths retained"
+  },
+  {
+    "key": "V3A13",
+    "path": "SAM_REVIEW/campaigns/MP52_GEN2_R4_TRIAL1/RESULT.md",
+    "title": "MP52 finite exact native trial and recoverable KEEP_LOOKING frontier",
+    "sha256": "370b0e513d3693df77d03ee8f73643e407abd306be1d66c9b16c8c5f6598fc25",
+    "bytes": 2409,
+    "notes": "H001041; complete bounded factor interval, no certificate construction above adapter budget"
+  },
+  {
+    "key": "V3A14",
+    "path": "SAM_REVIEW/campaigns/MP_GEN2_R4_FARM_TRAINING1/RESULT.md",
+    "title": "Completed BULK_FIRST farm learning, matched later-row outcomes and installed adoption",
+    "sha256": "c3c6fbde6250387c1249726a53c10e72303fadc9db9b2e941f95240026d876b2",
+    "bytes": 4993,
+    "notes": "H001040; measured pilot work order, original budgets and split retained"
+  },
+  {
+    "key": "V3A15",
+    "path": "SAM_REVIEW/campaigns/MP_R4_CSV_TRAINING1/README.md",
+    "title": "Exact action definitions and chronological empirical-reward map for CSV training",
+    "sha256": "6be4c65f3a17bc2d675efbb06dc64abc79ba38c0f059893cb94682c653181703",
+    "bytes": 7195,
+    "notes": "Historical running README; final completion and outcome counts supplied by V3A16 and current live authority"
+  },
+  {
+    "key": "V3A16",
+    "path": "GEN4/mp_transition1/FARM_REUSE.md",
+    "title": "Completed farm methods and final deep-CSV equal-terminal lane comparison",
+    "sha256": "4f8dc3788eab77bf8b987ff0690dca52498aea925b847b86cbae82266224ca57",
+    "bytes": 2485,
+    "notes": "H001748; retrospective completed results, no rerun"
+  },
+  {
+    "key": "V3A17",
+    "path": "SAM_REVIEW/campaigns/MP_B300_TRAIN1/FARM_AND_INVERSE_RESULT.md",
+    "title": "Exact inverse root support, recursive child reduction and resident GPU history readout",
+    "sha256": "ced1fc6e532e6e8021bb4a164791f7caacfa0dc671ceba18bc98844f03df8ee7",
+    "bytes": 6190,
+    "notes": "H001315; source/backend scopes and volatile/durable state separated"
+  },
+  {
+    "key": "V3A18",
+    "path": "SAM_REVIEW/campaigns/GEN3_PRIME95_RESEARCH1/README.md",
+    "title": "Qualified local support/power-plan prototype with native certificate admission",
+    "sha256": "d4d9141b2f59bddff0edf5f0a8b47e128989dcfdb588b4c3ba9434791838fce3",
+    "bytes": 4853,
+    "notes": "H001535; 24 source trials, separate external backend; not a global runtime promotion"
+  },
+  {
+    "key": "V3A19",
+    "path": "GEN4/mp_sparse1/REPORT.md",
+    "title": "Exact 4620-wheel sparse survivor iterator with fresh matched confirmation",
+    "sha256": "48103368a3b5db2419c720999ac8288a0f54e0e5313de2e8eaf9a00f2caa0533",
+    "bytes": 6184,
+    "notes": "H002134; finite uint64 CPU implementation, whole-farm integration remains next work"
+  },
+  {
+    "key": "V3A20",
+    "path": "GEN4/mp_gpu_training2/RESULT.md",
+    "title": "Held-out GPU factorer configuration-learning result",
+    "sha256": "606d02fa5e94ebdaadd3ac4745da8ba8300e1a6cdf24c03bae3d694b51a8bfd4",
+    "bytes": 5047,
+    "notes": "H001747; same compiled factorer and first four matched classes, not a full-band timing"
+  },
+  {
+    "key": "V3A21",
+    "path": "GEN4/mp_transition1/RESULT.md",
+    "title": "Exact modular sieve-offset transition and retained near-tied total-runtime comparison",
+    "sha256": "bd8ab3a02c6231e718961ea2462caed74db2336888d4f5a5a03ea2f0586e240e",
+    "bytes": 3615,
+    "notes": "H001748; checked exact state recurrence, no repeatable material whole-runtime gain"
+  },
+  {
+    "key": "V3A22",
+    "path": "volume_III/SAM_VOLUME_III_JACOBIAN_PROGRAM.md",
+    "title": "Current Volume III Jacobian program and clean-restart/bridge boundaries",
+    "sha256": "615ddfd19bb37962369e5ddbff3f5af61ce485a5fd2045703d5bf3c3d5ca64a8",
+    "bytes": 5641,
+    "notes": "Current relocated program; legacy results retained, clean restart unexecuted"
+  },
+  {
+    "key": "V3A23",
+    "path": "volume_III/JACOBIAN_SOURCE_MANIFEST.csv",
+    "title": "Jacobian original-result, validation, compiler and routing source manifest",
+    "sha256": "754434140599393a969a0ab180ac7484ebdd3277961c8602e77095beba531143",
+    "bytes": 3547,
+    "notes": "Typed source custody, not a new Jacobian execution"
+  },
+  {
+    "key": "V3A24",
+    "path": "GEN4/rh_determinant_wildfowl1/REPORT.md",
+    "title": "Two-coordinate RH determinant, exact source transport and finite signed certificates",
+    "sha256": "5730963d5a0c7b648e7545a11ed9305d984fd63530ac90bd69554934d03f43a9",
+    "bytes": 11674,
+    "notes": "H001790; exact finite certificates and separately classified possible uniform route"
+  },
+  {
+    "key": "V3A25",
+    "path": "GEN4/duck_rh_complementary_resolvent1/RUN_REPORT.md",
+    "title": "Whole auxiliary complementary inverse and original full signed source kernels",
+    "sha256": "36aa3097b43b9ff108eef7a9e12bf4b1cb50d583b89a8d0369ca11d35a0da2d9",
+    "bytes": 8166,
+    "notes": "H002382; whole infinite complement retained, failed inverse-heavy successor preserved"
+  },
+  {
+    "key": "V3A26",
+    "path": "GEN4/duck_rh_complementary_resolvent1/FULL_SOURCE_RECIPIENT.md",
+    "title": "Original kernel/pivot signed Schur recipient and retained source requirements",
+    "sha256": "955db42853a0d20e2d4f55da8f2ab2c6eaf09f4ebba2036e152fdfa1cef09cc9",
+    "bytes": 2670,
+    "notes": "Completed kernel forms separated from selected future mixed Schur calculation"
+  },
+  {
+    "key": "V3A27",
+    "path": "GEN4/rh_gap_wildfowl1/REPORT.md",
+    "title": "Exact source-conditioned finite energy-gap certificates across prime bases",
+    "sha256": "9564f735f034cab59ab113b71b09bbb54b2d131fe3a63e0ffb5347fb09a0ff0f",
+    "bytes": 11889,
+    "notes": "Finite complete dual-norm reduction at241-to249 and retained partial-certificate failures"
+  },
+  {
+    "key": "V3A28",
+    "path": "GEN4/rh_support_memory1/REPORT.md",
+    "title": "Signed rough-product support, two-coordinate Gram and endpoint-corrected source memory",
+    "sha256": "5dec5467b96a903108a06de9a4e5ef75c31f3de22c33f74844c84c28872e0b6a",
+    "bytes": 9421,
+    "notes": "First rough triple discriminates independent-layer versus actual signed source certificate"
+  },
+  {
+    "key": "V3S01",
+    "path": "CURRENT_REVISION/engines/SLC/SPIN_JOINT.md",
+    "title": "Shared exact packet and joint spin capability contracts",
+    "sha256": "a69272cc59ba3c3579b1732de8c22504a781c902a0af625b57799e9a58e23c7e",
+    "bytes": 5829
+  },
+  {
+    "key": "V3S02",
+    "path": "GEN4/spin_joint_install1/RESULT.md",
+    "title": "Completed packet/joint capability installation and actual application adoption",
+    "sha256": "0a89289c3aae8d170f87163478c9f36aca761b4da71a6455db313ed75ecff252",
+    "bytes": 6806
+  },
+  {
+    "key": "V3S03",
+    "path": "GEN4/spin_joint_install1/ANALYSIS.md",
+    "title": "Exact source decomposition, observable-dependent boundary equality and C4 phase map",
+    "sha256": "a5a928c1ac680b2b029a761e6cdf8151154fbc123ac022624e1e332ae117f565",
+    "bytes": 8792
+  },
+  {
+    "key": "V3S04",
+    "path": "GEN4/frustrated_spin_joint_readout1/RESULT.md",
+    "title": "Joint energy/magnetization/boundary readout and exact rational crossing example",
+    "sha256": "01fb009463c1139541793a904c767ad7c6d45b2236251d470a34c27c8bd3ec04",
+    "bytes": 4118
+  },
+  {
+    "key": "V3S05",
+    "path": "CURRENT_REVISION/engines/SLC/SPIN_TOOLS.md",
+    "title": "Exact graph solving, joint readout, finite contraction and layered-ground contracts",
+    "sha256": "c30ea3514f0cc134c1ca81017f6c4193c21219bc81dda9f27829fac57b0d8276",
+    "bytes": 29126
+  },
+  {
+    "key": "V3S06",
+    "path": "GEN4/spin_layered_install1_20261017/REPORT.md",
+    "title": "Latest layered dense-source exact ground method and recorded Masquerade use H002708",
+    "sha256": "0b800d9562f63d1b751f83926308a1d091ba96aa0fe6eb7a6e25dc803fb6e55b",
+    "bytes": 1655
+  },
+  {
+    "key": "V3S07",
+    "path": "CURRENT_REVISION/engines/SLC/gen3/spin_layered.py",
+    "title": "Layered residual frontier dynamic program, exact counts and witness implementation",
+    "sha256": "a27934a2b46f2c4ebfec320741d4713c7a831de431f03faa788ee838ea19ae39",
+    "bytes": 9731
+  },
+  {
+    "key": "V3S08",
+    "path": "GEN4/gen6_spin_clock_successor1_20261014/REPORT.md",
+    "title": "Complete five-case signed-source integration successor and independent reproduction",
+    "sha256": "1a894d93466dd490ef723979da7c360282485d5844a7a2b0e11b01ad85830564",
+    "bytes": 11579
+  },
+  {
+    "key": "V3S09",
+    "path": "GEN4/gen6_spin_clock_successor1_20261014/DERIVATION.md",
+    "title": "Original signed source paths, two-coordinate quadrature and complete receiver composition",
+    "sha256": "9df81c1353bce683eaa3971add6c04ef03d9ac0fb480653a140f0e83c7864d25",
+    "bytes": 4406
+  },
+  {
+    "key": "V3S10",
+    "path": "GEN4/gen6_spin_clock_successor1_20261014/INDEPENDENT_DERIVATION.md",
+    "title": "Independent reconstruction of original source paths and full carrier trajectories",
+    "sha256": "2bb9c905382a6cc323d357915fc79addfec8c99ee6548649c31299605d1d6eb4",
+    "bytes": 6244
+  },
+  {
+    "key": "V3S11",
+    "path": "GEN4/spin_clock_install1_20261014/REPORT.md",
+    "title": "Installed certified clock integration, retained spin methods and library qualification",
+    "sha256": "bd3a657ce1df174b71fdbe03dcc9057984f7862c3d7f4f5310fac74e129f0dc7",
+    "bytes": 6290,
+    "aliases": [
+      "V3R13"
+    ]
+  },
+  {
+    "key": "V3S12",
+    "path": "CURRENT_REVISION/engines/SLC/gen5/contracts/SPIN_CLOCK_CONTRACT.md",
+    "title": "Source-stroke and retained research library contract",
+    "sha256": "8fdfd764d6d4261bde8bf00fe387e49f4103c5960b7e1efd899fde9090953c2a",
+    "bytes": 3281
+  },
+  {
+    "key": "V3S13",
+    "path": "GEN4/spin_clock_install1_20261014/methods/README.md",
+    "title": "Five completed spin-source matrix methods and dependency-preserving composition",
+    "sha256": "51ac7d034df78e76329de7cd04cfcc1a2eb0d44b3718ea2b304fd6a93ee34291",
+    "bytes": 4634
+  },
+  {
+    "key": "V3S14",
+    "path": "GEN4/spin_source_moments_gcp1_20261017/REPORT.md",
+    "title": "Latest completed 54-preparation/1998-history source-edge Dirichlet result H002689",
+    "sha256": "215b38de50b8162e5584f4b73e44b0c828ed2cf4c2df51d2ec6d977f58de207f",
+    "bytes": 7698,
+    "aliases": [
+      "V3PE20"
+    ]
+  },
+  {
+    "key": "V3S15",
+    "path": "GEN4/spin_source_moments_gcp1_20261017/science/DERIVATION.md",
+    "title": "Complete core-edge source observable, numerical payments and physical/background certificate",
+    "sha256": "71a7116b05870416ce5d83e21cf0abe194c27a6da4f32a3bb02ef475f0ba5587",
+    "bytes": 6794
+  },
+  {
+    "key": "V3S16",
+    "path": "GEN4/spin_source_moments_gcp1_20261017/FOLLOW_UP.md",
+    "title": "Separate mixed two-residual Dirichlet and next squared-action continuations",
+    "sha256": "3f0e37c3d15ddef80b961e10e4a7b8d78d87547189aa9ee7eb7071493db49ed3",
+    "bytes": 3326
+  },
+  {
+    "key": "V3C01",
+    "path": "volume_I/SAM_VOLUME_I_SUBSTRATE_TECHNICAL_SPINE.md",
+    "title": "Volume I substrate, accumulation, route and clock source interfaces",
+    "sha256": "8fe406d800edc36c2935620289324b815297e99288ae5185062b667cd196ed4e",
+    "bytes": 69854
+  },
+  {
+    "key": "V3C02",
+    "path": "volume_II/SAM_VOLUME_II_MATTER_TECHNICAL_SPINE.md",
+    "title": "Volume II finite matter and computational source handoff",
+    "sha256": "b54e1b7852e745628f1a8057f47b5568a207ce35c6a96a46c6d20ac4392e15d8",
+    "bytes": 116156
+  },
+  {
+    "key": "V3C03",
+    "path": "volume_III/SAM_VOLUME_III_COMPUTATION_TECHNICAL_SPINE.md",
+    "title": "Volume III exact computation and cross-volume type map",
+    "sha256": "1996303d0940dd5dca12aa03ff3c9a426772272095df683346a75961eab895bb",
+    "bytes": 100406
+  },
+  {
+    "key": "V3C04",
+    "path": "GEN4/prime_native_clock1/REPORT.md",
+    "title": "Prime-event Ising-source activity clocks and retained hidden-state timing",
+    "sha256": "926637579d66d5ba7f6225e2b65e840e4c1fcdf3f4fdc4e4f51b83a5da1ddab9",
+    "bytes": 7456,
+    "aliases": [
+      "V3PE16"
+    ]
+  },
+  {
+    "key": "V3PE01",
+    "path": "GEN4/interaction_compiler1/REPORT.md",
+    "title": "Selective interaction compiler: exact support, hidden-field triple and independent modules",
+    "sha256": "9e22abe8ae453b7d5ca96cb5b82a9b3292286b4e06bca41d2a33248c95e2e856",
+    "bytes": 4027
+  },
+  {
+    "key": "V3PE02",
+    "path": "GEN4/prime_event_report2/REPORT.md",
+    "title": "Prime Event consolidated Hamiltonian, hidden marginal, recurrence and finite-rate readout",
+    "sha256": "dd154a2cc0a339ac54348602ce0665c35b20c8cf23707e147390e9f66cc96662",
+    "bytes": 28660,
+    "notes": "Consolidated equations and source interpretation only; later u5 endpoints supersede its then-active rollout snapshot."
+  },
+  {
+    "key": "V3PE03",
+    "path": "GEN4/spin_prime_connection1/REPORT.md",
+    "title": "Measured spin-source to prime-gate transfer through pinned four-port response",
+    "sha256": "f40ae5aa9da546b6ed7976e758ba94053a9f9a125c9c15f18b1c5952e4b55cf1",
+    "bytes": 8428
+  },
+  {
+    "key": "V3PE04",
+    "path": "GEN4/hidden_clock1/REPORT.md",
+    "title": "Full 128-state driven hidden-spin source, rough exposure ordering and fast controls",
+    "sha256": "a1d480a5148ada2e989f80db54a561e2bf44c1400a102704f04dcb895934c5e3",
+    "bytes": 11080
+  },
+  {
+    "key": "V3PE05",
+    "path": "GEN4/prime_feedback1/REPORT.md",
+    "title": "Event-created recurrence channels and raw feedback construction",
+    "sha256": "57410369e529ced6fed13c76d9f90f8b37eaee00b012f352ea1fbb098a6686cb",
+    "bytes": 9679
+  },
+  {
+    "key": "V3PE06",
+    "path": "GEN4/prime_seed_mechanism1/REPORT.md",
+    "title": "Microscopic first-error replay, state/draw swaps and bank-parity mechanism",
+    "sha256": "9eeb13ad4ce21b10f23c7de5ebf2e506b4c9e3c2bd1d39bffd14d191e3659e99",
+    "bytes": 11738
+  },
+  {
+    "key": "V3PE07",
+    "path": "GEN4/prime_balance1/REPORT.md",
+    "title": "Balanced blocked sectors and completed matched/fresh billion-candidate comparisons",
+    "sha256": "04b3f76141a39096215172bde0ad5574a083e8268072ee026f793445acc0143f",
+    "bytes": 11270
+  },
+  {
+    "key": "V3PE08",
+    "path": "GEN4/spin_prime_dataset1/README.md",
+    "title": "Exact spin and Prime Event source dataset, inversion symmetry and historical label joins",
+    "sha256": "e9d17b4400796d8dc8abb055fc6c6db2b2007eb9196d95bc6e0731a04f01861e",
+    "bytes": 6947,
+    "notes": "Completed integration dataset, not new independent trajectory outcomes; no fitted learner."
+  },
+  {
+    "key": "V3PE09",
+    "path": "GEN4/prime_leakage1/REPORT.md",
+    "title": "Uniform 17,920-input improvement from balanced u4 to u5 encoded source",
+    "sha256": "d49b50b6ca72ce40838989fa209abf0f71fe403ac34424239e82019054de7484",
+    "bytes": 5600
+  },
+  {
+    "key": "V3PE10",
+    "path": "GEN4/prime_leakage1/DERIVATION.md",
+    "title": "Analytic balanced strength, exact encoded-CDF paths and conditional first-error theorem",
+    "sha256": "cabd397142a330deaa90fe611d533e64c840dee58405bc862fdf6bf04019f9ca",
+    "bytes": 4844
+  },
+  {
+    "key": "V3PE11",
+    "path": "GEN4/prime_u5_pilot1/REPORT.md",
+    "title": "Raw u5 CPU pilot, full observation/durability timings and prefix replay",
+    "sha256": "a30205c6fd77428d2ca19ef7b006c8ec08f4e3cfa9d3d37c2433599d1f42065b",
+    "bytes": 6395
+  },
+  {
+    "key": "V3PE12",
+    "path": "GEN4/prime_u5_integrate1/REPORT.md",
+    "title": "Indexed raw u5 history, 200M unique prefix and 85M checkpoint recovery",
+    "sha256": "6499657031451698fddc86073f8d3a7e0edded909a59a846b6728e18c9a15832",
+    "bytes": 7328
+  },
+  {
+    "key": "V3PE13",
+    "path": "GEN4/prime_u5_pod2/REPORT.md",
+    "title": "Qualified raw 128-state RTX3090 backend with exact reusable buffers and PCG64 subsequences",
+    "sha256": "4a3067ef9f822818565d354a8662f992e71935688ac1606ac1ee61133120b01e",
+    "bytes": 5500
+  },
+  {
+    "key": "V3PE14",
+    "path": "GEN4/prime_u5_resources1/REPORT.md",
+    "title": "Installed same-seed bounded-cache and format-2 history resource successor",
+    "sha256": "b2f98a9465d4b73ea427fa336493ae60a8f2de695e192e0b84783ce5d68ca37e",
+    "bytes": 5228
+  },
+  {
+    "key": "V3PE15",
+    "path": "GEN4/thermal_response_install1/REPORT.md",
+    "title": "Thermal response installation and historical 908.480B raw Prime Event observation",
+    "sha256": "59dfd8e72ad9412088792d5de3de548ef349cb68e6e9105ea9885c528ab81166",
+    "bytes": 9664,
+    "notes": "Historical dated snapshot, explicitly superseded in chapter by pinned V3PUB01\u201303 local endpoint and V3PE21 pod endpoint."
+  },
+  {
+    "key": "V3PE17",
+    "path": "GEN4/prime_native_clock1/PROOF.md",
+    "title": "Native-clock time change, exact output quotient, speed measure and masked transform",
+    "sha256": "5cc6bfb64e7fa045731213297cebfccdf2c0840e00fae3f7b5ab7308377308ed",
+    "bytes": 9179
+  },
+  {
+    "key": "V3PE18",
+    "path": "GEN4/prime_clock_memory1/REPORT.md",
+    "title": "Complete clock/readout comparison, eight-coordinate omission and finite preparation bounds",
+    "sha256": "d954f1d3270ca84a6aa26ae7a6cc4e557b3a864b8cfec08e6a2d24f9e3ff967f",
+    "bytes": 8868
+  },
+  {
+    "key": "V3PE19",
+    "path": "GEN4/prime_clock_memory1/PROOF.md",
+    "title": "Exact 8+120 recursion and preparation/first-reset/second-reset telescope",
+    "sha256": "733c22d1ec6cbf14a56e70932fd27f800af8f554cd63c422a699bb34ff0ad542",
+    "bytes": 6060
+  },
+  {
+    "key": "V3PUB01",
+    "path": "prime-event/docs/local-trillion.md",
+    "title": "Prime Event final local CPU u5 trillion-decision stop",
+    "sha256": "8b8d6d05209730c63a16765daff1150f9e55e952b1abbebffbe1d8d6ba9c59d1",
+    "bytes": 4651,
+    "origin": "public",
+    "repository": "iwtbotiwtwot/prime-event",
+    "commit": "eab9da08608489ef62dc418a4e7113e4e14fb6fe",
+    "url": "https://github.com/iwtbotiwtwot/prime-event/blob/eab9da08608489ef62dc418a4e7113e4e14fb6fe/docs/local-trillion.md"
+  },
+  {
+    "key": "V3PUB02",
+    "path": "prime-event/docs/latest-u5.md",
+    "title": "Prime Event frozen raw u5 method, microscopic Ising source and reproducibility",
+    "sha256": "5d3900ea4674d24648002a8cb5144e0eab8303b7b2e6a3f5b48626bdab4b878d",
+    "bytes": 7712,
+    "origin": "public",
+    "repository": "iwtbotiwtwot/prime-event",
+    "commit": "eab9da08608489ef62dc418a4e7113e4e14fb6fe",
+    "url": "https://github.com/iwtbotiwtwot/prime-event/blob/eab9da08608489ef62dc418a4e7113e4e14fb6fe/docs/latest-u5.md"
+  },
+  {
+    "key": "V3PUB03",
+    "path": "prime-event/evidence/local-u5-20261003/FINAL.json",
+    "title": "Prime Event compact final receipt for stopped seed9370001",
+    "sha256": "6a567beb779d91bb4c3ac44dcf695ca71568b7f477bd64f42c655ab36fca6c10",
+    "bytes": 60501,
+    "origin": "public",
+    "repository": "iwtbotiwtwot/prime-event",
+    "commit": "eab9da08608489ef62dc418a4e7113e4e14fb6fe",
+    "url": "https://github.com/iwtbotiwtwot/prime-event/blob/eab9da08608489ef62dc418a4e7113e4e14fb6fe/evidence/local-u5-20261003/FINAL.json"
+  },
+  {
+    "key": "V3PUB04",
+    "path": "prime-event/docs/pod-eight-trillion.md",
+    "title": "Prime Event final raw pod u5 eight-trillion-decision stop",
+    "sha256": "0b3ed42970f4f608ff5276a89c980fdc2068e441b4bc35dc0888966de9fb884f",
+    "bytes": 6554,
+    "origin": "public",
+    "repository": "iwtbotiwtwot/prime-event",
+    "commit": "eab9da08608489ef62dc418a4e7113e4e14fb6fe",
+    "url": "https://github.com/iwtbotiwtwot/prime-event/blob/eab9da08608489ef62dc418a4e7113e4e14fb6fe/docs/pod-eight-trillion.md"
+  },
+  {
+    "key": "V3PUB05",
+    "path": "prime-event/evidence/pod/eight-trillion-20261003/FINAL.json",
+    "title": "Prime Event compact final eight-trillion raw pod checkpoint receipt",
+    "sha256": "b6893155c060483ca37e894a77dbd4a46d70daa714195f0ef21aa73801c7503d",
+    "bytes": 10945,
+    "origin": "public",
+    "repository": "iwtbotiwtwot/prime-event",
+    "commit": "eab9da08608489ef62dc418a4e7113e4e14fb6fe",
+    "url": "https://github.com/iwtbotiwtwot/prime-event/blob/eab9da08608489ef62dc418a4e7113e4e14fb6fe/evidence/pod/eight-trillion-20261003/FINAL.json"
+  },
+  {
+    "key": "V3PUB06",
+    "path": "prime-event/docs/pod-production.md",
+    "title": "Prime Event raw u5 pod execution, exact speculative transition method and error replays",
+    "sha256": "0e25a6a4a9937cf40b12a86856ad861b162ea07bf7177c3edb957df5e5cfa9f4",
+    "bytes": 21260,
+    "origin": "public",
+    "repository": "iwtbotiwtwot/prime-event",
+    "commit": "eab9da08608489ef62dc418a4e7113e4e14fb6fe",
+    "url": "https://github.com/iwtbotiwtwot/prime-event/blob/eab9da08608489ef62dc418a4e7113e4e14fb6fe/docs/pod-production.md"
+  },
+  {
+    "key": "V3R01",
+    "path": "CURRENT_REVISION/README.md",
+    "title": "Current global SLC/CE registry, effective capacity and installed method/spin-clock identity",
+    "sha256": "eedef36024162a6849521d3992d87b8c8b2122b7718ce894f8296623424ba398",
+    "bytes": 6307
+  },
+  {
+    "key": "V3R02",
+    "path": "CURRENT_REVISION/engines/SLC/GEN5.md",
+    "title": "SLC-GEN5-R1 cooperating logarithmic kernels: exact values, operators, protocols and retention",
+    "sha256": "4c794c0f0fac39a009595f8f9de8b32a0084bcb16bcf12c597c6f5a7affc8b88",
+    "bytes": 17619
+  },
+  {
+    "key": "V3R03",
+    "path": "GEN4/gen5_capacity_scale1/REPORT.md",
+    "title": "SLC-GEN5-R1 certified capacity expansion: qualified matrix/logarithm and precision workloads",
+    "sha256": "d20884bbf295e3d1d52150c1d02b55ddfe0c614a94ea92f706e2b39a42d6b90e",
+    "bytes": 6652
+  },
+  {
+    "key": "V3R04",
+    "path": "GEN4/g5_adaptive_precision1/REPORT.md",
+    "title": "G5 learned case-by-case certified precision: eighteen-to-six reserved transfer and complete controls",
+    "sha256": "a31090ca3a1121328d328fc4e64cbe3401cf9612e87089c4f340c8952d2cdf0e",
+    "bytes": 11424
+  },
+  {
+    "key": "V3R05",
+    "path": "CURRENT_REVISION/engines/SLC/CERTIFIED_LOG.md",
+    "title": "Certified source logarithms, exact mean/cut source, spectral residuals and signed transport",
+    "sha256": "5c85481827f0ebcb321dcf05cb70aaa78812cb3731e15212cb3019d63db86b3c",
+    "bytes": 7164
+  },
+  {
+    "key": "V3R06",
+    "path": "CURRENT_REVISION/engines/SLC/COMPLEX_LOG_SCALE.md",
+    "title": "Supported Hermitian logarithm through512 states: support, spectral windows and current bounds",
+    "sha256": "3abc6020ac13a23a4434698bb8cd9ad0b4cf518088dede6721c81fa313a299fe",
+    "bytes": 2171
+  },
+  {
+    "key": "V3R07",
+    "path": "GEN4/complex_log_scale1/REPORT.md",
+    "title": "Supported logarithm128 installation: repeated-mode certificate and matched finite comparisons",
+    "sha256": "51863f5cc9c92a37453897c4976cdcac9644375eadae271afad941f4865432c1",
+    "bytes": 6237
+  },
+  {
+    "key": "V3R08",
+    "path": "CURRENT_REVISION/engines/SLC/RETAINED_MATHEMATICS.md",
+    "title": "Retained mathematics as native SLC inputs: reference composition and exact reuse contract",
+    "sha256": "381cde72ca80d8f7bbaebe0a0293d29aa0e4f371db5e09e1a54aaefeeb7775c4",
+    "bytes": 4387
+  },
+  {
+    "key": "V3R09",
+    "path": "SAM_REVIEW/campaigns/SLC_RETAINED_MATH1/RESULT.md",
+    "title": "Retained mathematical results installed as native inputs:1441objects and complete L14 compositions",
+    "sha256": "3a40e719e0a331b262892e3ab003b15e88f8359ba94c70df301dfb4883211b67",
+    "bytes": 5045
+  },
+  {
+    "key": "V3R10",
+    "path": "GEN4/gen5_math_library1/REPORT.md",
+    "title": "GEN5 executable mathematics library and learned method transfer:34recipes,372donor families and actual54 lesson",
+    "sha256": "a5f3a41396f2a4bb259114f51f2ddf5554a5a076682f9bb9ca1ec3b091bc503a",
+    "bytes": 14609
+  },
+  {
+    "key": "V3R11",
+    "path": "SAM_REVIEW/campaigns/GEN3_NATIVE_QUERY_SYNTHESIS1/RESULT.md",
+    "title": "GEN3 learns a composed diagnostic query: exact16context training and48case frozen transfer",
+    "sha256": "7cb8a70606d548dab579677af5bdb6cdfc559d6d5602b53d32d35c3254005e87",
+    "bytes": 9605
+  },
+  {
+    "key": "V3R12",
+    "path": "CURRENT_REVISION/engines/SLC/gen5/contracts/METHOD_CONTRACT.md",
+    "title": "Installed executable method library: typed DAGs, applicability, checks, native training and namespace transfer",
+    "sha256": "f87b25f65c599991965339d31d0787acc95abcb861d0139a1731b598b40f9a3e",
+    "bytes": 10940
+  },
+  {
+    "key": "V3R14",
+    "path": "CURRENT_REVISION/engines/SLC/gen5/contracts/PRECISION_CONTRACT.md",
+    "title": "Source-bound adaptive precision: exact certificate, trial policy and witnessed learning contract",
+    "sha256": "66097f3db84d27cb5d100ab1a1fb75d4833a4e818d5953abaa3803bf13955030",
+    "bytes": 4013
+  },
+  {
+    "key": "V3R15",
+    "path": "SAM_REVIEW/campaigns/SLC_GEN2_INVERSE_QUALIFICATION1/RESULT.md",
+    "title": "GEN2 inverse reconstruction and exact observation selection:55917checks and target-specific stopping",
+    "sha256": "e329a9962498bf3cee7f4a9e87253d0d798ad9cd6592cff323ec16f2a255e6f6",
+    "bytes": 8273
+  },
+  {
+    "key": "V3R16",
+    "path": "SAM_REVIEW/campaigns/GEN3_CLOCK_HISTORY_LEARNING1/RESULT.md",
+    "title": "GEN3 learns observation methods for accumulated clock histories: complete costs, transfer and fresh recovery",
+    "sha256": "9de771c228beb73285125f1d3304126579e386c836de311a91a5d851dbcc6a31",
+    "bytes": 7938
+  },
+  {
+    "key": "V3R17",
+    "path": "SAM_REVIEW/campaigns/GEN3_1_LOG_QUESTION_BUNDLE1/RESULT.md",
+    "title": "Declared-question bundle corrected completion:64questions,32probes and zero-inference recovery",
+    "sha256": "dfab0bbc6008850e1e85b083ddfe4a0f2f628d3fc700eee042c25992d6b1092d",
+    "bytes": 1741
+  },
+  {
+    "key": "V3R18",
+    "path": "CURRENT_REVISION/engines/SLC/LANGUAGE.md",
+    "title": "Native sourced language and conversation-flow contract: typed induction, arithmetic and indexed-library capacity",
+    "sha256": "e18cda33f613d2589c41199025bb9a2dda55312995bfd45399dfac4a022b915d",
+    "bytes": 5958
+  },
+  {
+    "key": "V3R19",
+    "path": "SAM_LIVE/16_TALK_CURRENT.md",
+    "title": "Current native conversation authority: owner-removed chat and training, installed shared code retained",
+    "sha256": "92cc53ae56f2cd6dca3d8bb0ab436efcd0d49751cc3fc690d5eb4cd0e30e6122",
+    "bytes": 2152
+  }
+]

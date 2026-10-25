@@ -1,0 +1,188 @@
+\section{A complete coherent local detector and record join}
+\label{sec:new-join}
+The two-arm evolution just derived is an actual source--continuum
+construction for the stated receiving action. It does not assume that
+every arm pair produces the quarter-cycle age separation used in the
+decoder calibration. We give a finite, explicitly paid route-label
+encoding that supplies a complete worked experiment, while retaining
+the unforced proper-age comparison as a distinct prediction.
+
+\subsection{Closed physical paths and a controlled source encoding}
+Take mirror paths with
+\[\begin{gathered}
+v_{0,1}(t)=\pm v_*\sin(2\pi t/T)\widehat e,\\
+ x_{0,1}(t)=\pm\frac{v_*T}{2\pi}[1-\cos(2\pi t/T)]\widehat e,
+ \\
+ v_*=1/64,\\
+ T=2^{-20}.
+\end{gathered}\]
+Both start and return to the same centre at rest. Their proper ages are
+equal. They still couple at different positions to one common field.
+Their total variation gives
+\(B(T)\leq8v_*+4v_*^2=129/1024<1\), hence
+\(e^{B(T)}\leq(1-129/1024)^{-1}=1024/895\), and
+\(\kappa\leq v_*+v_*^2=65/4096\). The actual continuum route bound is
+\begin{equation}
+ r_{route}^2\leq4T\frac{65}{4096}\frac{1024}{895}
+                  (C+\epsilon+8c).
+ \label{eq:new-numeric-route}
+\end{equation}
+For an initially coherent route state and one common prepared marker,
+the controlled actual-to-reference vector error is at most the largest
+branch radius; it is not the sum of two preparation errors.
+With the encoder absent and ideal unrecorded routing controls, equal
+proper ages give the concrete continuum consequence
+\( |\Gamma_{unencoded}-1|\leq2r_{route}\).
+The source and shared field thus supply a near-unit-overlap control for
+this short closed excursion. This is distinct from the encoded record
+experiment below, whose route correlation is paid by a different physical
+operation.
+
+Prepare the original marker near age \(T_0/4\), with its retained
+preparation-distance budget. After the closed excursion apply the
+positive finite route-controlled source pulse
+\begin{equation}\begin{gathered}
+B_{enc}=\Pi_1\otimes(I_{16}-S)/2,\\
+ B_{enc}^2=B_{enc},\\
+ \int\lambda(t)dt=\pi,\\
+ U_{enc}^{ideal}=\Pi_0\otimes I+\Pi_1\otimes S.
+ \label{eq:new-encoder}
+\end{gathered}\end{equation}
+It acts on all 32 route/source states. It is a quantum controlled
+operation: the apparatus does not receive a classical copy of the unknown
+route label. Swap anticommutes with the source-lane \(Y\), so the two
+reference outputs have opposite \(-Y\) expectations and are decoded by
+the same complete source16 POVM. Swap commutes with \(H_f\) and preserves
+every source lane. The retained first-energy pulse lemma therefore gives
+\[\begin{gathered}
+r_{enc}\leq(1+2\pi)\sqrt{2C\tau_{enc}},\\
+ \tau_{enc}=2^{-30}.
+\end{gathered}\]
+The pulse comparison factors out the same lane scalar phase on both route
+branches, exactly as in the retained finite-energy lemma. That scalar
+remains in the physical action and work account. The physical generator
+during the pulse is \(H_0+\lambda B_{enc}\),
+with the original even phase retained. Its peak is \(\pi/\tau_{enc}\)
+and absolute switch-work payment is at most \(2\pi/\tau_{enc}\).
+Those large finite controls are recorded explicitly. This encodes a
+route label; it is not an intrinsic gravitational age signal. In
+particular the mirror arms have equal proper ages, not the two distinct
+ages of the earlier calibration example. Without the encoder their
+overlap is given by the shared-field dynamics alone.
+
+The small reference age increment obeys
+\(\Omega T\leq\Delta_{up}T<0.01\) in every original lane. Thus the
+same declared phase allowance already present in the parent source
+decoder covers this reference timing. After ideal encoding the source
+field-energy ceiling is unchanged, since \(S\) commutes with \(H_f\).
+The actual finite source decoder then obeys its original uniform
+form-energy and work bounds on either encoded input. No absolute hard
+energy phase needs to be measured by the source-only quadrature.
+
+\subsection{Coherent composition and the noise/work distinction}
+At the common return location couple the source to the finite decoder
+bit B, the actual nonuniform Chapter IV pointer, retained memory R and
+local access bit A. These are the coherent unitary/pulse dilations of
+the preceding integrated constructions. They act on marker and apparatus,
+with identity on the route register. The complete source, common field,
+bit/field/bath correlations and every residual pointer cloud remain.
+
+The scalar response is the actual compact cap background plus the
+bit-controlled signed displacement. The latter is a transducer actuator,
+not an assignment of an uncomputed intrinsic remote cap mean. A local
+station at the common endpoint needs no remote bit-delivery assumption.
+For a remote station the physical bit or source signal must arrive through
+a specified causal channel before this interaction; no remote record is
+being inferred from the local construction.
+
+Use a whole-pipeline hybrid: compare the actual routed and encoded joint
+input with the proper-age reference followed by ideal swap encoding;
+then apply exactly the same full detector/storage channel to both.
+Trace-distance contraction pays \(r_{route}+r_{enc}\) once at the final
+readout. It is not used to transfer an unbounded energy moment.
+The parent detector moment is recalculated on its reference input using
+the unchanged field-energy ceiling and actual decoder work. The actual
+encoder energy has its separate, possibly much larger work ceiling.
+Both payments remain in the physical energy ledger. A small state error
+never licenses assigning the actual encoded state the reference energy.
+There is a separate actual-energy envelope. At the closed return,
+\(\langle L\rangle\leq E_*e^{B(T)}\), and bounded-pulse energy balance
+through encoding and decoding gives
+\begin{equation}
+ F_{actual,in}\leq2\left[E_*e^{B(T)}
+       +W_{enc}^{abs}+W_{dec}^{abs}+c\right].
+ \label{eq:new-actual-energy}
+\end{equation}
+The physical field-gate resource ledger uses this larger ceiling, not
+the reference noise moment used in the final probability comparison.
+For its actual energy-admissible cap test \(f_t\), put
+\(\mu_t=\|f_t/\sqrt\omega\|^2\) and
+\(\dot\mu_t^{test}=\|\dot f_t/\sqrt\omega\|^2\).
+The conserved pointer momentum second moment \(p_2\) and annihilation
+form estimate bound the controlled cap switching work by
+\[
+ \begin{aligned} W_{cap}^{abs}&\leq2\sqrt{p_2}\int dt\,
+  [|\dot h|\sqrt{\mu_t}+|h|\sqrt{\dot\mu_t^{test}}]
+       \sqrt{F_{actual}(t)}\\ &\quad+p_2\operatorname{TV}(s).\end{aligned}
+\]
+This follows from \(|\langle P\phi(f)\rangle|
+\leq2\sqrt{p_2\mu_f F_{actual}}\) on the joint state, with no
+bit/field independence or fourth moment. For the stabilized gate's
+common-form graph, let
+\(a(t)G\leq q_t+b(t)\) and
+\(|\dot q_t+\dot b(t)|\leq\ell(t)G\). Its actual energy satisfies
+\(\mathcal E(t)\leq\mathcal E(0)\exp\int\ell/a\), using
+Eq.~\eqref{eq:new-actual-energy} at entry. The retained smooth compact
+test/gate and positive stabilizer give finite graph coefficients and
+cap-test norms. This is a finite functional ceiling for actual gate work
+even if the actual energy greatly exceeds its reference value. Global
+background vacuum-ramp and material actuator work remain separately
+specified external payments, as in the parent; they are not set to zero
+or inferred from the noise ceiling.
+
+Consequently the worst-label final ready error obeys
+\begin{equation}
+\begin{gathered}
+e_{new}^{r}\leq e_{record}^{r}+r_{route}+r_{enc},\\
+ e_{all}\leq f+(1-f)e_{new}^{r}.
+\end{gathered}
+\label{eq:new-complete-error}
+\end{equation}
+Here the parent record bound already includes preparation, source decode,
+pointer loading, finite writing, initialization, hold, aperture and local
+read error. Those terms are not charged a second time. The native
+operand used here is the parent's conservative \texttt{full\_error}
+return; its smaller refined aperture/read display is not silently used
+to improve this budget. An encoder area-calibration error \(a_{cal}\)
+adds at most \(|a_{cal}|\) by bounded-generator Duhamel. The numerical
+example specifies nominal encoder area exactly, just as its nominal
+trajectory; it assigns no achieved control calibration. The native
+six-lane evaluation certifies \(e_{new}^{r}<0.0016\) with the displayed
+chosen controls; \(f\) remains the supplied per-label failure ceiling.
+The particular \(f=10^{-4}\) line is an explicit budget, not an achieved
+failure measurement.
+
+For the same coherent ensemble, route visibility and this readable
+route record obey the integrated tight theorem
+\[
+ V\leq4\sqrt{pq\,e_{all}(1-e_{all})}.
+\]
+The marker-only decoder, writing and access operations leave the
+unsorted route marginal exactly unchanged. They make an existing route
+correlation readable; they do not additionally suppress that marginal
+merely because a later observer reads it. Conditional erasure or
+route feed-forward is a separately specified experiment.
+
+\subsection{All outcomes, resources and latency}
+Retain read results 0 and 1, every preparation/aperture/control failure
+flag, and all unobserved recipients in one trace-preserving instrument.
+A ready-branch conditional calculation never discards its failed input
+weight from the all-attempt ledger. The source decoder and record pulses
+remain active finite-duration operations with their original positive
+completions and pointer kinetic energy. The new experiment adds the
+route work ceiling, encoder capital/peak/switch work and durations
+\(T+\tau_{enc}\) to those parent resources. The long analog and logical
+holds remain; the source clock certificate applies at source entry, not
+through the entire long receiving latency. Microscopic actuator, absolute
+length/time and mass calibration remain physical model assignments.
+

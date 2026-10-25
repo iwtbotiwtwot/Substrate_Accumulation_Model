@@ -1,0 +1,53 @@
+% Insert within the existing original-carrier section, after W and W_0 are
+% defined in radiation_local.tex, replacing the conservative energy paragraph.
+\subsection{Exact smoothing fixes the integrated energy sign}
+\label{subsec:signed-radiative-energy-update}
+The owner's six-page review supplies a sharper theorem for the same
+maintained pulse. It keeps both original compact edges and all six signed
+source vertices. Put $a=R/c_*$ and let
+\[
+ \mu(w)=\begin{cases}
+  \frac{15}{16}(1-w^2)^2,&|w|\leq1,\\
+  0,&|w|>1.
+ \end{cases}
+\]
+Its mass, mean and variance are $1$, $0$ and $1/7$. Since
+$P_2(w)=[(1-w^2)^2]''/8$, the two endpoint terms vanish under two
+integrations by parts; the equivalent spherical Bessel normalization is also given by DLMF 10.54.1.~[20] Thus the \emph{exact} outgoing radiation is
+\[
+ \psi=\frac{2a^2}{15\kappa}\mathcal C_\mu f'',\qquad
+ \psi'=\frac{2a^2}{15\kappa}\mathcal C_\mu f''',
+\]
+where $(\mathcal C_\mu g)(t)=\int\mu(w)g(t-aw)\,dw$.
+For any $g$ with $g,g'\in L^2$, polarization gives
+\begin{align*}
+ \|g\|_2^2-\|\mathcal C_\mu g\|_2^2
+ &=\frac12\iint\mu(w)\mu(v)\\[-2pt]
+ &\quad\times\|g(\cdot-aw)-g(\cdot-av)\|_2^2\,dw\,dv\\
+ &\leq\frac{a^2}{7}\|g'\|_2^2.
+\end{align*}
+The last inequality uses the Sobolev translation bound and
+$\int\!\int\mu(w)\mu(v)(w-v)^2\,dw\,dv=2/7$.
+The original zero-extended pulse is $C^3$ across its endpoints, so
+$g=f'''$ has weak derivative $g'=f^{(4)}\in L^2$. Its original
+five-frequency expansion gives
+\[
+ \begin{aligned}
+ I_3&=\int_0^{8\pi}|F'''|^2d\theta=\frac{14245\pi}{4096},\\
+ I_4&=\int_0^{8\pi}|F^{(4)}|^2d\theta=\frac{324817\pi}{65536}.
+ \end{aligned}
+\]
+Consequently the same $W,W_0$ satisfy
+\begin{align}
+ 0\leq1-\frac W{W_0}
+ &\leq\frac{a^2\|f^{(4)}\|_2^2}{7\|f'''\|_2^2}
+   =\frac{324817}{1595440}z^2\nonumber\\
+ &<6.633\times10^{-14},\qquad z=\Delta R/c_*.
+ \label{eq:signed-energy-deficit-update}
+\end{align}
+The numerical upper endpoint uses the full original radius ball.
+Finite-source smoothing therefore reduces this integrated energy relative
+to the derivative comparator. It is a signed certificate for the original
+maintained pulse; it changes neither the autonomous-clock preparation nor
+its source-depletion account. The common ratio retains each lane's signed
+waveform and cancels only its common squared vertex in $W/W_0$.

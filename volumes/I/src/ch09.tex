@@ -1,0 +1,456 @@
+\begin{abstract}
+This chapter expands the thermal-history and microwave-background test of the selected SAM inventory. It separates internally implemented hydrogen transport from the standard-physics full-spectrum lane, derives the optical-depth and acoustic bookkeeping, preserves the reported numerical receipts, and corrects their evidential interpretation. The remaining obligations are a converged recombination calculation, a unique drag ruler, a governing perturbation law, and fully specified likelihood comparisons. The native receipt remains a percent-level calculation with documented atomic and time-variable corrections. The full-shape receipts are compatibility checks of a selected packet under inherited transfer physics, rather than independent derivations of that physics. The published second-peak comparator is corrected, and the ACT temperature residual is retained explicitly. New analytical diagnostics distinguish moving recombination endpoints from background-integral changes and show why a visibility peak alone cannot certify the entire ionization history. No historical simulation or likelihood is rerun in this expansion; the numerical execution evidence still required is listed alongside clear validation and failure conditions.
+\end{abstract}
+
+\section{Scope, claims, and the two thermal lanes}
+
+The cosmic microwave background tests several parts of a cosmological account at once. Its angular spectra depend on the expansion history, the inertia of the photon--baryon fluid, the ionization history, the gravitational evolution of perturbations, and the projection of those perturbations onto the sky. Agreement with a density fraction alone therefore does not establish agreement with the microwave sky. Conversely, a successful calculation using an established transfer solver is evidence about the supplied parameter packet; it is not automatically a derivation of the transfer physics from the substrate.
+
+This chapter retains the original distinction between two lanes. The \emph{native lane} is the program's internally implemented hydrogen recombination and optical-depth calculation, anchored by the reported record CR001c@19. The word native identifies the implementation and its upstream inventory; it does not mean that the Peebles atomic model or its rate coefficients have been derived from SAM. The \emph{full-shape lane} passes the selected cosmological packet to standard recombination and CAMB. Its reported Planck and ACT comparisons test the propagation of that packet through established thermal and perturbation physics. Both lanes are informative, but they answer different questions.
+
+The numerical receipts reproduced below come from the supplied Volume I draft. The underlying run directories, spectrum arrays, covariance matrices, and executable configurations were not supplied with this chapter's expansion, and no new native execution is claimed. Analytical identities developed here follow from their stated premises. Proposed validation procedures are requirements for future work, not completed tests.
+
+The seven-entry packet is
+\begin{equation}
+\mathcal C_{\rm SAM}=\{\Omega_m,\Omega_b,\Omega_c,H_0,A_s,n_s,\tau_{\rm rei}\},\qquad
+\Omega_c=\Omega_m-\Omega_b.
+\label{c9:packet}
+\end{equation}
+Its entries are not seven independent degrees of freedom. The density relation already imposes a constraint, and the expansion calculation adds assumptions about curvature, radiation, neutrinos, and the complementary background component. The reported perturbation selectors are
+\begin{equation}
+ A_s=\eta_{\rm SAM}\sqrt{\mathcal R},\qquad
+ n_s=1-\frac{\chi}{2},\qquad \tau_{\rm rei}=2A_0.
+\label{c9:selectors}
+\end{equation}
+Here $\mathcal R$ denotes the upstream radix, avoiding a collision with the baryon-loading variable used below. These are selected identities, not yet solutions of a perturbation-generation equation. Fixing them before a spectrum execution removes continuous retuning during that execution; it does not erase the earlier selection among candidate identities.
+
+\section{The background calculation and its premises}
+\subsection{Expansion, closure, and the thermal clock}
+
+The background adopted in the original calculation is spatially flat, with nonrelativistic matter, radiation, and a constant-density complement. Under these premises,
+\begin{equation}
+ \begin{gathered}
+ H(a)=H_0 E(a),\qquad \Omega_{\Lambda,{\rm bg}}=1-\Omega_m-\Omega_r,\\
+ E^2(a)=\Omega_r a^{-4}+\Omega_m a^{-3}+\Omega_{\Lambda,{\rm bg}}.
+ \end{gathered}
+\label{c9:background}
+\end{equation}
+The scale factor is normalized by $a(t_0)=1$. The clean inventory identity $\Omega_m=1/\pi$ belongs to the matter/complement partition. Once radiation is present in the Friedmann bookkeeping, inserting $(\pi-1)/\pi$ for the complement without subtracting $\Omega_r$ would violate the normalization $E(1)=1$. This is a small correction numerically, but it is a necessary distinction conceptually.
+
+Equation~\eqref{c9:background} imports the Friedmann expansion law and a complement with equation of state $w=-1$. A substrate explanation of the complement requires its stress, conservation equation, and perturbative response. Merely naming the complement does not provide those objects. In this chapter they are assumptions of the comparison model. If a later native law changes $w(a)$, energy exchange, or the relation between redshift and scale factor, the sound horizon and distance must be recomputed rather than retained from this background.
+
+After the relevant entropy-transfer epochs, adiabatically redshifting photons obey $T_\gamma(a)=T_0/a$, with the retained anchor $T_0=2.7255\,\mathrm K$. The corresponding radiation account is
+\begin{equation}
+ \begin{gathered}
+ \Omega_r=\Omega_\gamma[1+0.2271N_{\rm eff}],\quad N_{\rm eff}=3.046,\\
+ 1+z_{\rm eq}=\frac{\omega_m}{\omega_r},\qquad \omega_i=\Omega_i h^2.
+ \end{gathered}
+\label{c9:radiation}
+\end{equation}
+The equality formula follows by setting $\rho_m\propto a^{-3}$ equal to $\rho_r\propto a^{-4}$. It assumes that the species counted as radiation are relativistic near equality. A massive-neutrino implementation should use its actual phase-space energy density through the transition rather than simultaneously counting the same species as a fixed radiation term and a fixed matter term. The draft specifies a baseline neutrino mass but does not print its numerical value, hierarchy, or density convention. Those settings belong in the reproducibility manifest.
+
+The simple $T_0/a$ relation should not be extrapolated through every early thermal epoch without accounting for changing entropy degrees of freedom. This matters when Chapter XII connects primordial compact objects to temperatures far above recombination. A reliable recombination clock is not by itself an early-universe formation calculation.
+
+\subsection{Baryon loading and two distinct distances}
+
+Let $R_b=3\rho_b/(4\rho_\gamma)$. In tight coupling the baryons supply inertia while photons supply most of the pressure. The resulting adiabatic sound speed and baryon loading are
+\begin{equation}
+ c_s(a)=\frac{c}{\sqrt{3(1+R_b)}},\qquad
+ R_b(a)=\frac{3\Omega_b}{4\Omega_\gamma}a.
+\label{c9:soundspeed}
+\end{equation}
+The dependence on $a$ is a direct consequence of the different density dilution laws. Increasing baryon loading slows the sound wave while also changing the relative compression and rarefaction amplitudes. Thus an adjustment that repairs peak spacing can disturb peak heights; the same input is used more than once.
+
+The comoving sound horizon, the radial comoving distance in a flat background, and their observable ratio are
+\begin{align}
+ r_s(a)&=\int_0^a\frac{c_s(a')}{a'^2H(a')}\,da',\label{c9:rs}\\
+ D_M(z)&=c\int_0^z\frac{dz'}{H(z')},\qquad
+ \theta_* =\frac{r_s(a_*)}{D_M(z_*)},\qquad \ell_A=\frac{\pi}{\theta_*}.
+ \label{c9:angle}
+\end{align}
+Here $r_s$ is a sound horizon, not a Schwarzschild source length. The physical angular-diameter distance is $D_A=D_M/(1+z)$, whereas $r_s$ is comoving. Mixing $D_A$ with a comoving sound horizon would introduce an erroneous factor $1+z$. The expression for $r_s$ follows from a physical propagation distance $c_sdt$ divided by $a$, with $dt=da/(aH)$.
+
+A useful first-order sensitivity identity is
+\begin{equation}
+ \delta\ln\theta_* =\delta\ln r_s-\delta\ln D_M.
+ \label{c9:sensitivity}
+\end{equation}
+It prevents an erroneous attribution of every acoustic-angle difference to recombination. A change in $a_*$ shifts the endpoints, but a change in $H(a)$ affects both integrals throughout their domains. Background differences therefore survive even after two recombination codes are made identical. Any claim that improved atomic physics will close a particular geometric residual must be demonstrated with matched-background comparisons.
+
+\section{Hydrogen recombination as an explicit transport problem}
+\subsection{State variables and equilibrium initialization}
+
+Define $n_H$ as the total number density of hydrogen nuclei, ionized or neutral, and $x_e=n_e/n_H$. In a hydrogen-only approximation, charge neutrality gives $n_p=n_e=x_en_H$ and $n_{1s}\simeq(1-x_e)n_H$. Helium modifies the relation between $x_e$ and the hydrogen ionization fraction; an implementation must say whether helium electrons are included. With a helium mass fraction $Y_p$, the approximate hydrogen-nucleus density is $n_H=(1-Y_p)\rho_b/m_H$. A change in $Y_p$ affects Thomson opacity even when $\Omega_b$ is unchanged.
+
+An equilibrium seed may be obtained from the Saha relation, in a stated degeneracy convention,
+\begin{equation}
+ \frac{x_e^2}{1-x_e}=\frac{1}{n_H}
+ \left(\frac{m_e k_BT}{2\pi\hbar^2}\right)^{3/2}
+ \exp\!\left(-\frac{E_H}{k_BT}\right),\qquad E_H\simeq13.6\,\mathrm{eV}.
+ \label{c9:saha}
+\end{equation}
+Saha equilibrium is an initialization approximation, not a description of the entire recombination transition. Once the reaction time becomes comparable to the expansion time, the ionization history retains memory and must be evolved. Numerically, it is sensible to initialize where equilibrium is accurate and demonstrate that moving the switch to nonequilibrium evolution does not move the final observables beyond the stated numerical tolerance.
+
+\subsection{A transparent effective three-level model}
+
+One conventional hydrogen-only form of the Peebles effective equation is
+\begin{align}
+ \frac{dx_e}{dt}&=-C\left[\alpha_B(T_m)n_Hx_e^2
+ -\beta_B(T_\gamma)(1-x_e)e^{-E_\alpha/(k_BT_\gamma)}\right],
+ \label{c9:peebles}\\
+ C&=\frac{1+K\Lambda_{2s,1s}n_{1s}}
+ {1+K[\Lambda_{2s,1s}+\beta_B]n_{1s}},\qquad
+ K=\frac{\lambda_\alpha^3}{8\pi H}.
+ \label{c9:cfactor}
+\end{align}
+This displayed form states an approximation and its conventions; it is not asserted to be the exact source code of CR001c. The case-B coefficient $\alpha_B$ excludes direct recombination to the ground state. Detailed balance relates $\beta_B$ to capture into excited states, with a threshold near $E_2=3.4\,\mathrm{eV}$. The additional excitation factor contains $E_\alpha\simeq10.2\,\mathrm{eV}$. At common matter and radiation temperature, their exponential product involves $E_2+E_\alpha=E_H$, restoring the ground-state equilibrium energy. Rate and degeneracy conventions must be matched consistently when coefficients are imported.
+
+The important lesson is not that every appearance of $3.4\,\mathrm{eV}$ is wrong. That energy belongs in an excited-state photoionization channel. It is wrong when used alone as the net ground-state ionization threshold. The draft's implementation history identifies precisely this distinction. CR001 established a Saha-seeded optical-depth pipeline. CR001b introduced nonequilibrium evolution but used the excited-state threshold in the net balance and also used a conformal denominator in a proper-time optical-depth integral. CR001c corrected both. These stages should remain in the audit history because they describe changes to the physical calculation, not merely presentation.
+
+The factor $C$ expresses competition between successful arrival in the ground state and reionization from excited states. A minimal model already contains effective Lyman-$\alpha$ escape and two-photon decay. Consequently, the next-stage task is not simply to ``add two-photon decay'' as though it were wholly absent: it is to document what the effective model contains and then implement the precision corrections and multilevel radiative transfer that it omits. RECFAST and HyRec are reference implementations with different approximation strategies [IX.1--IX.3]. Matching them channel by channel is more informative than changing one phenomenological correction until $z_*$ happens to agree.
+
+\subsection{Temperature evolution and a controlled domain}
+
+The atomic coefficient depends on the matter temperature $T_m$, which need not equal $T_\gamma$ indefinitely. A schematic thermal equation is
+\begin{equation}
+ \frac{dT_m}{dt}=-2HT_m+\Gamma_C(T_\gamma-T_m)+Q_T,
+ \label{c9:mattertemperature}
+\end{equation}
+where $\Gamma_C$ is the Compton energy-exchange rate and $Q_T$ represents any separately specified heating per unit temperature-time. Setting $T_m=T_\gamma$ throughout is an approximation whose range must be checked. Adding a substrate heating term without specifying its energy source, spectrum, and coupling would introduce new physics rather than finish an existing numerical calculation. A candidate term must also be propagated to the visibility function and the microwave spectra.
+
+Conservation tests are essential. Hydrogen nuclei must remain conserved; ionization fractions must remain physical; the fully ionized and neutral limits must be stable under refinement; and the stiff integrator must not manufacture negative populations. A solution can appear smooth while violating a balance identity, especially when a large exponential is factored inconsistently. Equilibrium recovery is therefore a unit test of the rate equation before any cosmological comparison is attempted.
+
+\section{Optical depth, visibility, and the drag epoch}
+
+Define the optical depth remaining between epoch $a$ and today by
+\begin{equation}
+ \tau_\gamma(a)=\int_a^1\frac{n_e(a')\sigma_Tc}{a'H(a')}\,da'.
+ \label{c9:opticaldepth}
+\end{equation}
+This quantity decreases as $a$ increases. If conformal time is defined by $d\eta=dt/a$, then
+\begin{equation}
+ \frac{d\tau_\gamma}{d\eta}=-a n_e\sigma_Tc,
+ \qquad g_\eta(\eta)=-\frac{d\tau_\gamma}{d\eta}e^{-\tau_\gamma}.
+ \label{c9:visibility}
+\end{equation}
+The visibility is a probability density with respect to its specified variable. Under $z=1/a-1$, the corresponding density is
+\begin{equation}
+ g_z(z)=e^{-\tau_\gamma(z)}\frac{d\tau_\gamma}{dz}
+ =e^{-\tau_\gamma(z)}\frac{n_e(z)\sigma_Tc}{(1+z)H(z)}.
+ \label{c9:gzintegral}
+\end{equation}
+Although $g_z\,dz=g_\eta|d\eta|$, the maxima of the two densities need not occur at the same redshift because of the Jacobian. Thus a quoted visibility peak needs an explicit variable convention. The conventional last-scattering epoch associated with a conformal-time visibility peak must be computed and compared in the same convention. This is a reproducibility requirement for the reported native $z_*$, not evidence that its value has been recomputed here.
+
+The proper-time denominator in Eq.~\eqref{c9:opticaldepth} is $aH$, whereas a comoving propagation distance uses $a^2H$. Holding $n_e(a)$ fixed, the erroneous optical-depth integrand is larger by $1/a=1+z$. Around last scattering this is approximately a factor of eleven hundred. This algebraic check explains why the CR001b correction is consequential without claiming a new numerical history.
+
+The normalization supplies another direct check:
+\begin{equation}
+ \int_{\eta_i}^{\eta_0}g_\eta\,d\eta
+ =1-e^{-\tau_\gamma(\eta_i)}.
+ \label{c9:visibilitynorm}
+\end{equation}
+It follows by differentiating $e^{-\tau_\gamma}$. An early optically thick boundary gives a result close to unity. Omitting a later reionization contribution changes the late visibility and must be documented separately; $\tau_{\rm rei}$ is not the large optical depth before recombination.
+
+Photon decoupling and baryon drag are distinct. The baryon Euler equation weights momentum exchange by the ratio of photon momentum density to baryon inertia. In the usual approximation a drag optical depth is
+\begin{equation}
+ \begin{gathered}
+ \tau_d(a)=\int_a^1\frac{n_e\sigma_Tc}{a'H(a')R_b(a')}\,da',\\
+ \tau_d(a_d)=1,\qquad r_d=r_s(a_d).
+ \end{gathered}
+ \label{c9:drag}
+\end{equation}
+The integration limits and treatment of late ionization should follow the chosen code convention. Replacing the drag criterion with the photon criterion silently changes the ruler. A precision result must retain both histories and the exact numerical root definition.
+
+\section{Reported native results and the single-ruler obligation}
+
+The corrected receipt CR001c@19 reports the following values. The comparison column is the original draft's Planck-2018 compressed baseline, not a new fit or an independent measurement of each listed quantity.
+\begin{center}
+\small\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Quantity & Native receipt & Comparator & Difference\\
+\midrule
+$z_*$ &1073.063&1089.92&$-1.55\%$\\
+$z_d$ &1055.812&1059.94&$-0.39\%$\\
+$r_s(z_*)\ [\mathrm{Mpc}]$ &143.299&144.43&$-0.78\%$\\
+$D_M(z_*)\ [\mathrm{Mpc}]$ &13532.742&13869.6&$-2.43\%$\\
+$100\theta_*$ &1.0589&1.0411&$+1.71\%$\\
+$\ell_A$ &296.683&301.76&$-1.68\%$\\
+$r_d\ [\mathrm{Mpc}]$ &144.806&147.09&$-1.55\%$\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+These are useful percent-level diagnostics, but percent-level agreement is not precision-CMB agreement. The native sound-horizon and distance residuals have different signs in their contribution to the angle. Equation~\eqref{c9:sensitivity} explains why a sound horizon only modestly displaced can coexist with an acoustic-angle residual of order one percent. The table does not show that all remaining disagreement resides in atomic recombination; differences in the supplied background and definitions must be separated first.
+
+The original distance packet also quotes $r_d=147.769\,\mathrm{Mpc}$, whereas the native lane gives $144.806\,\mathrm{Mpc}$. Their difference is $2.963\,\mathrm{Mpc}$, about two percent. They cannot both be used as the same model's uniquely predicted ruler in different data comparisons without a disclosed change of construction. The honest present designation is a native transport ruler and a separate distance-packet ruler. A completed model must choose a physical definition, propagate one value consistently, and explain any approximation connecting the other construction to it.
+
+A controlled comparison should therefore use four calculations: native and reference recombination at the SAM background, followed by the same two calculations at the reference background. The first pair isolates recombination implementation; the second pair tests whether that difference depends on background; comparing backgrounds within one solver isolates the inventory effect. Changing several inputs at once cannot identify the cause of a residual. No convergence toward $147.769\,\mathrm{Mpc}$ is promised in advance: the completed atomic calculation may instead show that the distance-packet construction needs revision.
+
+\section{From primordial selectors to angular spectra}
+
+A common scalar-spectrum convention is
+\begin{equation}
+ \begin{gathered}
+ \mathcal P_{\mathcal R}(k)=A_s\left(\frac{k}{k_*}\right)^{n_s-1},\\
+ C_\ell^{XY}=4\pi\int d\ln k\,
+ \mathcal P_{\mathcal R}(k)\Delta_\ell^X(k)\Delta_\ell^Y(k).
+ \end{gathered}
+ \label{c9:transfer}
+\end{equation}
+for $X,Y\in\{T,E\}$. This expression separates primordial statistics from transfer physics. It assumes the stated initial-mode content, a pivot $k_*$, and a transfer convention. CAMB evolves the perturbations and projects them to anisotropy and polarization spectra [IX.4]. The standard linear framework includes coupled species and metric perturbations [IX.5]. Using that framework is legitimate, but it is an inherited dynamical closure of the full-shape lane.
+
+The original packet values are
+\begin{center}
+\small\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Parameter & Selected value & Reported centroid offset\\
+\midrule
+$A_s$ &$2.1117473568\times10^{-9}$&$+0.392\sigma$\\
+$n_s$ &$0.9646322349$&$-0.064\sigma$\\
+$\tau_{\rm rei}$ &$0.0530516477$&$-0.185\sigma$\\
+\bottomrule
+\end{tabular}
+\end{center}
+The centroid comparison is recorded as CR037A. Six alternative amplitude expressions were tested alongside the chosen one: $\eta$, $\eta\sqrt S$, $\eta\sqrt{\mathcal R}/2$, $\eta\sqrt\Theta$, $\widehat d\eta$, and $\pi\eta$. Thus seven amplitude selectors were examined. A history in which one expression was selected for proximity to a known posterior cannot subsequently be described as an untouched prediction of that posterior.
+
+The useful next theoretical task is to derive a conserved perturbation variable, its evolution equation, its initial state, and its two-point function. A coefficient with the numerical value of $A_s$ is insufficient unless its normalization is tied to $\mathcal P_{\mathcal R}$ at the stated pivot. Likewise, a tilt formula must explain the scale dependence over the tested interval, and a reionization optical depth must arise from an ionization history or be retained as an empirical selector. Reionization depends on late astrophysical sources; its identification with an upstream constant is a separate physical claim from recombination.
+
+At high multipoles, approximately uniform rescattering suppresses primary power roughly as $A_se^{-2\tau_{\rm rei}}$. This exposes a degeneracy: an amplitude comparison alone does not separately validate the amplitude and reionization selectors. Low-multipole polarization and other information are needed to distinguish their roles. A native perturbation account must also specify whether it produces adiabatic or isocurvature modes, Gaussian or non-Gaussian statistics, and a tensor component. These are testable outputs, not optional notation.
+
+\section{The retained full-shape receipts}
+
+CR037B@19 is reported to have used CAMB 1.6.6, standard recombination, $T_0=2.7255\,\mathrm K$, $N_{\rm eff}=3.046$, a standard pivot, and a fixed baseline neutrino mass, without a cosmological optimizer. Its Planck-PR3 residual statistics are
+\begin{equation}
+ \begin{gathered}
+ \chi^2_{TT}/N=1.0339,\quad \chi^2_{TE}/N=1.0454,\\
+ \chi^2_{EE}/N=1.0430.
+ \end{gathered}
+ \label{c9:planckreceipt}
+\end{equation}
+The supplied draft does not provide the complete data-vector sizes, covariance construction, nuisance treatment, or reference-model statistics. Accordingly these are retained comparison statistics, not certified official-likelihood probabilities. The Planck likelihood uses specific spectra, multipole cuts, foreground modeling, and covariance conventions [IX.6]. A plotted residual or a diagonal-error statistic is not interchangeable with that likelihood.
+
+CR037C@19 reports an unchanged packet against ACT DR4 with published windows and full covariance, polarization efficiency fixed at $y_{p2}=1$, no new parameter, and no Planck files read at execution. The retained values are
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+ACT component & Reported $\chi^2/N$\\
+\midrule
+TT&1.2996\\
+TE&0.9495\\
+EE&1.0662\\
+Combined&1.1218\\
+\bottomrule
+\end{tabular}
+\end{center}
+ACT provides a valuable cross-instrument comparison with different instrumental systematics and published spectrum products [IX.7]. It is not automatically statistically independent of Planck in every respect: overlapping sky contains common cosmic variance, and a packet selected with Planck knowledge carries that selection history into the ACT test. These qualifications do not erase the test; they define it correctly.
+
+The TT value must remain visible rather than disappear behind the combined number. If $N_{TT}$ is the number of retained TT entries, then its excess relative to the mean of an ideal fixed-model Gaussian $\chi^2$ is $0.2996N_{TT}$. A comparison against a fitted reference instead requires
+\begin{equation}
+ \Delta\chi^2=\chi^2_{\rm SAM}-\chi^2_{\Lambda{\rm CDM},{\rm ref}}
+ \label{c9:deltachi}
+\end{equation}
+on exactly the same data vector and covariance, with an explicit nuisance policy. Neither this difference nor a probability can be recovered from the quoted ratios alone. Unknown $N$ is therefore a substantive missing quantity, not a cosmetic omission.
+
+The original peak-finder history preserves a faulty CR035A specification and a corrected CR035A2 audit root. The reported SAM peaks are $(220,535,812)$. The earlier comparison $(219,520,814)$ must not be retained as the published Planck peak positions. Published Planck values include $(220.0,537.5,810.8)$ [IX.8]. Relative to those central values the second SAM peak differs by about $-0.47\%$. This corrects the transcription comparator; it does not constitute a same-estimator rerun. A fitted peak location in observed bandpowers and an integer maximum of a theoretical spectrum are different estimators. Both spectra must be passed through identical windows, smoothing, and peak definitions before significance is assigned.
+
+CR038@19 is reported to verify exact propagation through CR035A2, CR036, CR036B, CR037A, CR037B, and CR037C. Such propagation checks establish that a packet was not silently altered between stages. They do not independently verify the atomic rates, covariance, or likelihood. Each audit has a domain, and several domains are needed for a complete result.
+
+\section{Selection, likelihoods, and a decisive validation program}
+
+The original packet lies near the Planck posterior by construction or selection history. Good spectra under the same standard transfer physics are consequently expected to a substantial degree. They remain useful checks of compatibility and implementation, but should not be counted as a wholly independent discovery on top of parameter agreement. A small set of well-motivated discrete choices may eventually be compelling; the relevant evidence requires the allowed grammar, its physical restrictions, the candidates considered, and the information available when each was selected.
+
+For a bandpower vector $d$ and window operator $W$, a reproducible Gaussian comparison begins with $m=W C(\mathcal C,\nu)$ and
+\begin{equation}
+ \chi^2=(d-m)^T\Sigma^{-1}(d-m),
+ \label{c9:bandpower}
+\end{equation}
+where $\nu$ contains nuisance quantities. TT, TE, and EE blocks may be correlated, so the combined statistic is not generally the sum of separately inverted block statistics. A complete release should include the ordered data vector, covariance checksum, window convention, multipole range, calibration factors, foreground assumptions, and the treatment of lensing. It must specify whether $C_\ell$ or $D_\ell=\ell(\ell+1)C_\ell/(2\pi)$ is being convolved. Units and normalization mistakes can otherwise survive a visually plausible plot.
+
+The following completion sequence has definite failure conditions.
+\begin{enumerate}
+\item Freeze the packet, the selector grammar, and all non-packet settings. Record the numerical pivot, neutrino prescription, helium treatment, reionization model, and code versions. A later change is a new model version and must not inherit the earlier test's prospective status.
+\item Validate the native ionization solver against equilibrium limits and against a reference at the same background. Refine step size, tolerances, and starting epoch until $x_e$, $z_*$, $z_d$, and both horizons stabilize. Failure of refinement or population conservation is a numerical failure regardless of observational proximity.
+\item Publish one physical drag-ruler construction across CMB and distance tests. A discrepancy between constructions is a model inconsistency until its cause is resolved; it is not an uncertainty to be hidden by choosing the favorable ruler in each dataset.
+\item Evaluate official Planck and ACT likelihoods with identical frozen cosmology and stated nuisance treatment. Report data counts, log likelihoods, reference differences, and component residuals. Marginalization over instrument nuisance quantities is distinct from cosmological retuning but must still be disclosed.
+\item Add independent physical predictions: a full light-element network at the selected baryon abundance, a native perturbation spectrum, and tests of any predicted departures from standard transfer physics. A helium estimate that overshoots is an unresolved result; a larger network is a test, not a guaranteed repair.
+\end{enumerate}
+
+A useful error budget separates numerical error, atomic-model truncation, uncertain empirical rate inputs, background assumptions, and selector uncertainty. Tight solver tolerances address only the first. The many digits printed in a selected identity describe arithmetic precision, not demonstrated physical accuracy. Similarly, a percent-level recombination residual cannot be called a precision success merely because it is small on a plot.
+
+The chapter therefore establishes a disciplined intermediate position. The reported packet propagates through standard thermal physics with promising spectrum-level comparisons, and the internally implemented hydrogen lane provides a concrete route for improving the native account. The remaining tasks are sharply defined: derive or explicitly inherit the thermal processes, settle the ruler, expose the likelihood evidence, and replace perturbation selectors with a governing calculation. Until then the full-shape lane is a compatibility result under established physics and the native lane is a partially completed transport model.
+
+\section{Worked diagnostics and reproducible numerical experiments}
+\subsection{Endpoint changes versus changes along the path}
+
+A small perturbation of the sound-horizon calculation can be separated into a moving-endpoint term and changes to the integrand. Write $F(a)=c_s(a)/[a^2H(a)]$. To first order,
+\begin{equation}
+ \delta r_s=F(a_*)\delta a_*+
+ \int_0^{a_*}F(a)\left[\delta\ln c_s(a)-\delta\ln H(a)\right]da.
+ \label{c9:rsvariation}
+\end{equation}
+This formula follows directly by varying an integral with a moving upper limit. It is useful because it distinguishes two physically different operations. A recombination-only modification at fixed background moves $a_*$ and changes the visibility width, but it does not change the sound-speed history through a new baryon density. A density modification changes the whole integrand. Their contributions should not be merged into one empirical ``recombination correction.''
+
+For example, from Eq.~\eqref{c9:soundspeed}, a small change in baryon loading produces
+\begin{equation}
+ \delta\ln c_s=-\frac{1}{2}\frac{R_b}{1+R_b}\,\delta\ln R_b.
+ \label{c9:csvariation}
+\end{equation}
+The coefficient tends to zero in the radiation-inertia limit and to $-1/2$ when baryon loading dominates. This is a sign and limiting-case check for numerical sensitivity derivatives. It also demonstrates why a single fractional change in $\Omega_b$ does not create a constant fractional change in the sound speed at all times.
+
+A corresponding distance variation contains an endpoint term $c\,\delta z_*/H(z_*)$ and an integral weighted by $-\delta H/H^2$. The two background integrals probe different redshift ranges. Consequently their responses are correlated but not equal. A future error budget should propagate the input covariance through these responses rather than assign unrelated error bars to $r_s$ and $D_M$. The ratio may be better constrained than either distance separately, or worse constrained under a particular model change; the covariance decides.
+
+\subsection{Visibility width and information beyond one epoch}
+
+A peak redshift compresses a whole distribution into one number. Two ionization histories can share the same $z_*$ while having different widths or residual ionization tails. Those histories need not have the same diffusion damping or polarization source. A native calculation should therefore publish $x_e(a)$ and the normalized visibility array, not merely its maximum. Useful diagnostics include the mean and variance with respect to the chosen probability measure and the integrated late-time visibility contribution.
+
+This recommendation follows from a simple mathematical fact: fixing the location of a maximum imposes only one local condition on a function. It leaves infinitely many functions with different integrals and widths. Agreement in $z_*$ therefore cannot certify agreement in a line-of-sight integral weighted by that function. The same logic applies to matching a drag epoch without checking the preceding drag history.
+
+A controlled numerical test can deliberately perturb the ionization history in a narrow redshift interval while holding its peak position nearly fixed. Passing that history to a transfer calculation then measures which angular scales respond. Such an experiment diagnoses sensitivity; it does not establish that the perturbation corresponds to valid atomic physics. Physical changes must come from rate equations with a consistent energy and particle account. Keeping these two kinds of experiments separate avoids using a numerical sensitivity kernel as an invented mechanism.
+
+\subsection{What a complete execution record must contain}
+
+An executable thermal result should be recoverable from a compact manifest rather than from a prose list of successful numbers. At minimum, the manifest needs the input packet at full machine precision, units, code revision, rate-table versions, numerical tolerances, integration interval, transition criteria, and output definitions. It should also retain the solver warnings and failed runs that motivated corrections. A checksum of an output array proves identity with that array; it does not prove the physical correctness of its construction.
+
+Three independent checks are particularly economical. First, integrate optical depth both in $a$ and in $z$ and verify agreement after the analytic change of variables. Second, compute the visibility normalization directly and through the endpoint identity in Eq.~\eqref{c9:visibilitynorm}. Third, calculate the sound horizon in both scale factor and redshift, checking the common integration boundary and units. These are not independent physical models, but they expose common implementation mistakes without requiring observational data.
+
+The matching-reference experiment should retain residual curves rather than only maximum differences. A broad coherent bias suggests a different rate convention or background input; an isolated discontinuity suggests a switch or interpolation artifact; oscillatory differences that shrink with refinement suggest numerical error. These are diagnostic hypotheses to test, not guaranteed classifications. The purpose is to make the next correction attributable and reproducible.
+
+Finally, a failed comparison should have a declared disposition. A numerical failure requires a corrected implementation and a fresh receipt. A mismatch caused by inherited atomic approximations limits the native lane. A discrepancy that remains after matched inputs, converged numerics, and validated atomic physics is evidence against the selected cosmological packet or its assumed background. The chapter becomes stronger when these possibilities are distinguished before the result is known.
+
+\section{Worked photon--baryon dynamics}
+\subsection{How an acoustic oscillator emerges}
+
+The connection between baryon loading and peaks can be made explicit without pretending to solve the complete microwave sky. Consider a Fourier mode in conformal Newtonian gauge, set $c=1$ in this subsection, and denote the photon temperature monopole by $\Theta_0=\delta_\gamma/4$. Let $\vartheta$ be the common photon--baryon velocity divergence in the tight-coupling limit. Choose the convention in which the continuity equation is $\Theta_0'=-\vartheta/3+\phi'$, with primes denoting conformal-time derivatives and $\phi,\psi$ the scalar metric potentials. On a short interval where $R_b$ and the potentials can be treated as constant and expansion drag neglected, momentum conservation gives
+\begin{equation}
+ \vartheta'=k^2\left[\frac{\Theta_0}{1+R_b}+\psi\right].
+ \label{c9:velocityosc}
+\end{equation}
+Combining the two equations produces
+\begin{equation}
+ \Theta_0''+k^2c_s^2\Theta_0=-\frac{k^2}{3}\psi,
+ \qquad c_s^2=\frac{1}{3(1+R_b)}.
+ \label{c9:oscillator}
+\end{equation}
+This derivation exhibits the origin of the sound speed used in the background integral. The extra baryonic inertia divides the photon pressure force by $1+R_b$, while the gravitational forcing accelerates the combined fluid.
+
+For initial time $\eta_i$, the solution of this constant-coefficient comparator is
+\begin{equation}
+ \begin{split}
+ \Theta_0(\eta)={}&-(1+R_b)\psi
+ +C\cos[kc_s(\eta-\eta_i)]\\
+ &+D\sin[kc_s(\eta-\eta_i)].
+ \end{split}
+ \label{c9:oscillatorsolution}
+\end{equation}
+The constants $C$ and $D$ encode the initial density and velocity. The locally emitted temperature source contains $\Theta_0+\psi$, whose equilibrium is $-R_b\psi$. Baryon loading therefore shifts the oscillation centre as well as lowering its frequency. Compression and rarefaction extrema around that shifted centre differ in magnitude. This is the physical reason a baryon-density change affects peak-height patterns, rather than merely moving all peaks horizontally.
+
+Equation~\eqref{c9:oscillatorsolution} is deliberately restricted. In the real calculation $R_b$ changes with time, expansion introduces drag, potentials evolve, neutrinos contribute stress, and tight coupling eventually fails. Those effects modify the phase and amplitude. The analytical oscillator is a unit-level explanation of the response, not a substitute for the hierarchy [IX.9]. The full transfer calculation must retain the missing terms before a residual at a particular multipole can be assigned a cause.
+
+For slowly varying sound speed the accumulated acoustic phase is approximately $kr_s$. An oversimplified extremum condition would set $kr_s=n\pi$ and project $k$ to $\ell\simeq kD_M$, yielding a spacing near $\pi D_M/r_s=\ell_A$. It does not imply that the first observed peak sits at $\ell_A$. Driving, projection, and phase shifts displace the individual extrema. This makes the distinction between an acoustic scale near 300 and a first temperature peak near 220 physically natural. Comparing a peak finder to $\ell_A$ as though they were the same observable would be a category error.
+
+An instructive perturbation is to increase $R_b$ while holding the potentials and initial displacement fixed. The period grows by the square root of $1+R_b$, but the equilibrium temperature shift grows linearly with $R_b$. A parameter adjustment that restores the spacing by changing $D_M$ will not generally restore the relative amplitudes. The combined peak-height and peak-spacing information is thus more restrictive than either compressed measurement alone.
+
+\subsection{Finite opacity and the damping tail}
+
+Tight coupling means that photons scatter often enough for their anisotropic distribution to remain close to the baryon rest frame. It is not exact locking. A finite mean free path permits diffusion and shear, which erase sufficiently short-wavelength perturbations. In the standard tight-coupling expansion, a useful diffusion-scale comparator is
+\begin{equation}
+ k_D^{-2}(\eta)=\int^{\eta}\frac{d\eta'}{6q(1+R_b)}
+ \left[\frac{R_b^2}{1+R_b}+\frac{16}{15}\right],
+ \label{c9:diffusion}
+\end{equation}
+where $q=a n_e\sigma_T$ in the $c=1$ convention. The two terms represent the inertia-related slip and radiative-viscosity contributions under the standard polarization treatment [IX.9]. Its use here specifies inherited plasma physics. A native calculation must reproduce or replace it consistently with its own collision operator.
+
+Dimensionally, $q$ is inverse conformal length, so $d\eta/q$ has dimensions of length squared, as required for $k_D^{-2}$. Lower electron density increases the mean free path and therefore increases the accumulated diffusion length. Approximate Fourier amplitudes acquire a suppression resembling $\exp[-k^2/k_D^2]$ over the regime where this treatment applies. A small change in recombination can consequently matter strongly in the high-multipole tail even when the peak redshift moves little.
+
+The integral also explains why altering helium abundance affects the spectrum without changing the hydrogen binding energy. Helium changes the available free-electron history, hence $q$, and therefore the diffusion scale. This is an additional reason that $z_*$ alone is not a sufficient benchmark for recombination. The thermal lane should track both acoustic and damping scales, with the same ionization and expansion histories used in each.
+
+\section{Two solvable opacity and energy-account checks}
+\subsection{An expanding, constantly ionized toy medium}
+
+A solvable opacity model helps distinguish a visibility peak from the condition $\tau=1$. Consider an interval with $n_e=n_{e0}a^{-3}$, a constant ionized fraction, and matter-dominated expansion $H=H_m a^{-3/2}$. This is a deliberately simplified medium, not a recombination model. Between $a$ and a later endpoint $a_f$,
+\begin{equation}
+ \tau(a,a_f)=\frac{2n_{e0}\sigma_Tc}{3H_m}
+ \left(a^{-3/2}-a_f^{-3/2}\right).
+ \label{c9:toyopacity}
+\end{equation}
+The result follows by integrating $a^{-5/2}$ in the proper-time expression. It tests both the power of scale factor and the endpoint sign. Optical depth is nonnegative for $a<a_f$ and vanishes at the upper endpoint, as required.
+
+In this toy model the conformal opacity rate is $q=a n_e\sigma_Tc\propto a^{-2}$. Since $a'=a^2H$, differentiation gives
+\begin{equation}
+ \frac{d\ln g_\eta}{d\eta}=-2aH+q.
+ \label{c9:toypeak}
+\end{equation}
+An interior visibility maximum therefore occurs when $n_e\sigma_Tc=2H$. If the later endpoint is far enough away to neglect $a_f^{-3/2}$, Eq.~\eqref{c9:toyopacity} gives $\tau\simeq4/3$ at that maximum, rather than exactly one. This is not a correction to the real recombination epoch. It is an explicit counterexample to the assertion that a visibility maximum must always coincide with $\tau=1$.
+
+Real recombination changes $x_e$ rapidly, adding a large derivative to $q$ and shifting the condition. The toy solution nevertheless supplies a useful integrator test because every term can be evaluated analytically. A code should reproduce it before handling stiff atomic transitions. A discrepancy in this test points to time-variable conversion, normalization, or quadrature, not to missing multilevel atomic physics.
+
+\subsection{Photon heating requires both energy and number accounting}
+
+The retained thermal clock assumes adiabatic radiation. If a new source injects energy into the photon bath, introduce an energy-density transfer rate $Q_\gamma$ and a number-density transfer rate $S_\gamma$. The homogeneous balance equations are
+\begin{equation}
+ \dot\rho_\gamma+4H\rho_\gamma=Q_\gamma,\qquad
+ \dot n_\gamma+3Hn_\gamma=S_\gamma,
+ \label{c9:photonbalances}
+\end{equation}
+where $\rho_\gamma$ denotes energy density in this subsection. For a blackbody, $\rho_\gamma\propto T^4$ and $n_\gamma\propto T^3$. If the spectrum remains exactly blackbody, these two equations require
+\begin{equation}
+ \frac{\dot T}{T}=-H+\frac{Q_\gamma}{4\rho_\gamma}
+ =-H+\frac{S_\gamma}{3n_\gamma}.
+ \label{c9:temperaturebalance}
+\end{equation}
+Thus an arbitrary heat source cannot be added while retaining both $T=T_0/a$ and a fixed blackbody number density. The energy and photon-number rates must satisfy the compatibility relation visible in Eq.~\eqref{c9:temperaturebalance}, or the distribution requires an additional spectral-distortion description. This conclusion follows from the two blackbody scaling laws and conservation; it does not assume a particular injection mechanism.
+
+A transfer between substrate sectors also requires an opposite payment in the donor account. For homogeneous components $i$, equations of the form $\dot\rho_i+3H(\rho_i+p_i)=Q_i$ use energy units with $c=1$ and must satisfy $\sum_iQ_i=0$ when the complete closed system is included. A phenomenological $Q(z)$ inserted only on the receiving side would violate that ledger. Conversely, a microscopic source with an extremely slow radiative rate cannot be declared the origin of an appreciable cosmological $Q$ without calculating the number of sources, their state distribution, available energy, and duration. A rate from one preparation is not automatically a cosmic heating law.
+
+This accounting connects Chapters IX and XII. A formation or evaporation proposal may inject photons, particles, or entropy. Its effects must be propagated into the background, ionization history, primordial abundances, and radiation spectrum. Holding all those quantities fixed while adding an unbudgeted injection would double-count the original thermal anchor. The purpose of the balance equations is to make any proposed extension calculable before it is assessed observationally.
+
+\section{A small covariance example with a large interpretive lesson}
+
+Consider two residual bandpowers of equal magnitude $r$ with covariance $\Sigma=\sigma^2\left(\begin{smallmatrix}1&\rho\\\rho&1\end{smallmatrix}\right)$, where $|\rho|<1$. Direct inversion gives
+\begin{equation}
+ \chi^2_{\rm same}=\frac{2r^2}{\sigma^2(1+\rho)},\qquad
+ \chi^2_{\rm opposite}=\frac{2r^2}{\sigma^2(1-\rho)}.
+ \label{c9:covexample}
+\end{equation}
+The first expression applies to residuals $(r,r)$, the second to $(r,-r)$. Both have the same pointwise error bars and the same sum of squared standardized residuals if correlations are ignored. For $r=\sigma$ and $\rho=0.8$, however, their proper statistics are about $1.11$ and $10$. Correlations make a common-mode deviation inexpensive and an opposing deviation expensive in this example.
+
+This elementary result explains why a near-unity average of pointwise residual squares cannot replace a full covariance likelihood. Calibration and foreground uncertainties can introduce structured directions in data space. Marginalizing a nuisance parameter that shifts both points together may further reduce sensitivity to the common residual while leaving the opposing residual prominent. A model comparison must identify which directions were fitted, integrated over, or held fixed.
+
+The example also separates two uses of a reference cosmology. A frozen reference produces a residual statistic under exactly the same nuisance policy as the SAM packet. An optimized reference has spent additional freedom to lower its statistic. Both comparisons may be useful, but they answer different questions. Reporting the raw difference, the optimization or marginalization policy, and the parameter dimension is more informative than attaching the phrase ``no optimizer'' to one model alone. No two-point toy calculation supplies the missing Planck or ACT likelihood; it demonstrates why their complete definitions are necessary.
+
+\section{Separating numerical accuracy from physical model accuracy}
+
+A practical thermal calculation needs a reproducible criterion for deciding when refinement has finished. Let $O_h$ denote an observable computed with a maximum step size $h$, and suppose a controlled numerical regime admits $O_h=O_*+Ch^p+o(h^p)$. Then two refinements give
+\begin{equation}
+ O_{h/2}-O_h\simeq Ch^p(2^{-p}-1).
+ \label{c9:convergence}
+\end{equation}
+With three resolutions one can test whether the observed difference ratio approaches $2^p$, rather than merely assuming the integrator's formal order applies through switches and stiffness. If the expected scaling holds, the difference supplies an error estimate. If it fails, the solution may be limited by interpolation, a discontinuous switch, inaccurate rates, or a root-finding tolerance. Those causes require separate checks.
+
+For a visibility maximum, the peak-location error is not controlled solely by the error in $g$. A broad or flat peak can move appreciably under a small function perturbation. Locally, if $g'(\eta_*)=0$ and $g''(\eta_*)\ne0$, a perturbation gives
+\begin{equation}
+ \delta\eta_*\simeq-\frac{\delta g'(\eta_*)}{g''(\eta_*)}.
+ \label{c9:peakconditioning}
+\end{equation}
+This follows by linearizing the stationary-point condition. It motivates refining the interpolation and derivative calculation, not simply sampling more points on a plot. The selected conformal-time maximum should then be converted to redshift using the same background map. Maximizing a redshift density instead would change the observable, as discussed earlier.
+
+A drag-epoch root has a similar conditioning test. Linearizing $\tau_d(a_d)=1$ gives $\delta a_d=-\delta\tau_d(a_d)/\tau_d'(a_d)$. Since the derivative is determined by the positive integrand with a negative lower-limit sign, its magnitude identifies how an opacity error propagates into the epoch. These formulas help allocate numerical tolerances according to the final observable rather than assigning identical relative tolerances to unrelated intermediate variables.
+
+Even perfect numerical convergence leaves the physical approximation intact. A converged hydrogen-only effective atom remains hydrogen-only. A converged inherited perturbation hierarchy remains inherited. A converged likelihood evaluated with an incorrect foreground model remains an evaluation of that incorrect model. The value of a numerical certificate is that it isolates these questions, allowing a remaining discrepancy to be attributed to modeling rather than unresolved arithmetic. It should never be used to suggest that a selected physical interpretation has been proved by additional digits.
+
+\section{Sources and provenance}
+\begin{enumerate}[label={[IX.\arabic*]}]
+\item P.~J.~E. Peebles, ``Recombination of the Primeval Plasma,'' \emph{Astrophysical Journal} \textbf{153}, 1 (1968), \href{https://doi.org/10.1086/149628}{doi:10.1086/149628}.
+\item S. Seager, D.~D. Sasselov, and D. Scott, ``A New Calculation of the Recombination Epoch,'' \emph{Astrophysical Journal Letters} \textbf{523}, L1 (1999), \href{https://arxiv.org/abs/astro-ph/9909275}{astro-ph/9909275}; see also the authors' \href{https://www.astro.ubc.ca/people/scott/recfast.html}{RECFAST release page}.
+\item Y. Ali-Ha\"imoud and C.~M. Hirata, ``HyRec: A fast and highly accurate primordial hydrogen and helium recombination code,'' \emph{Physical Review D} \textbf{83}, 043513 (2011), \href{https://doi.org/10.1103/PhysRevD.83.043513}{doi:10.1103/PhysRevD.83.043513}.
+\item A. Lewis, A. Challinor, and A. Lasenby, ``Efficient Computation of CMB Anisotropies in Closed FRW Models,'' \emph{Astrophysical Journal} \textbf{538}, 473 (2000), \href{https://arxiv.org/abs/astro-ph/9911177}{astro-ph/9911177}; \href{https://camb.info/}{CAMB project documentation}.
+\item C.-P. Ma and E. Bertschinger, ``Cosmological Perturbation Theory in the Synchronous and Conformal Newtonian Gauges,'' \emph{Astrophysical Journal} \textbf{455}, 7 (1995), \href{https://arxiv.org/abs/astro-ph/9506072}{astro-ph/9506072}.
+\item Planck Collaboration, ``Planck 2018 results. V. CMB power spectra and likelihoods,'' \emph{Astronomy \& Astrophysics} \textbf{641}, A5 (2020), \href{https://www.aanda.org/articles/aa/full_html/2020/09/aa36386-19/aa36386-19.html}{publisher article}; ``VI. Cosmological parameters,'' \textbf{641}, A6, \href{https://doi.org/10.1051/0004-6361/201833910}{doi:10.1051/0004-6361/201833910}.
+\item S.~K. Choi et al., ACT DR4 power-spectrum analysis, \emph{JCAP} \textbf{12}, 045 (2020); \href{https://lambda.gsfc.nasa.gov/product/act/act_dr4_spectra_info.html}{NASA LAMBDA ACT DR4 spectrum products and documentation}.
+\item Planck Collaboration, ``Planck 2015 results. I. Overview of products and scientific results,'' \emph{Astronomy \& Astrophysics} \textbf{594}, A1 (2016), \href{https://doi.org/10.1051/0004-6361/201527101}{doi:10.1051/0004-6361/201527101}. The peak comparator is used as published; identical-estimator reanalysis remains outstanding.
+\item W. Hu and N. Sugiyama, ``Small-Scale Cosmological Perturbations: An Analytic Approach,'' \emph{Astrophysical Journal} \textbf{471}, 542 (1996), \href{https://arxiv.org/abs/astro-ph/9510117}{astro-ph/9510117}. Used for the standard acoustic and tight-coupling comparator.
+\end{enumerate}
+
+\noindent\textbf{Internal provenance.} Original Chapter IX, upstream inventory in Chapter VIII, and the supplied closing review of 19 October 2026. Historical record identifiers are CR001, CR001b, CR001c, CR035A, CR035A2, CR036, CR036B, CR037A--C, and CR038. Their reported results are preserved as documentary claims, with the missing execution evidence and outstanding tests stated above.

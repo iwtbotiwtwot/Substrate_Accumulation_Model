@@ -1,0 +1,69 @@
+\section{The instrument and an explicit finite pulse choice}
+\label{sec:chvisd-instrument}
+
+Write $P_1=P_{ba}$ and $P_0=I_{16}-P_{ba}$. In the ideal frozen-control
+model with a blank pointer, the joint source--field Kraus operators and
+the measurement channel are
+\begin{equation}
+ \begin{aligned}
+ K_y&=(P_yR)\otimes I_f,\\
+ \mathcal J_y(\rho)&=K_y\rho K_y^*,\\
+ \sum_yK_y^*K_y&=I,\\
+ \mathcal J(\rho)&=\sum_{y=0}^1|y\rangle\langle y|
+                         \otimes\mathcal J_y(\rho).
+ \end{aligned}
+\label{eq:chvisd-ideal-instrument}
+\end{equation}
+Thus $K_y^*K_y=E_y\otimes I_f$. The post-readout source can be disturbed
+by the projector; the field is retained in each output rather than
+replaced by a scalar marker. With the actual full drift and pulses,
+$\widetilde K_y=\langle y|U_{\rm gate}U_{\rm rot}|0\rangle$
+is in general a joint source--field operator. Unitarity still gives
+$\sum_y\widetilde K_y^*\widetilde K_y=I$.
+The complete ideal and actual postmeasurement channels, with outcomes
+and quantum output retained, are within trace distance $r$ on the
+reference input because the corresponding premeasurement pure states
+are within vector distance $r$. Applying the same channel to a
+preparation within trace distance $\delta_{\rm prep}$ adds at most
+$\delta_{\rm prep}$ to this joint-output distance. The two instruments
+therefore carry an all-outcome bound, not only a contrast estimate.
+
+Use rectangular nominal pulses of equal finite duration
+\begin{equation}
+\begin{gathered}
+\tau_{\rm rot}=\tau_{\rm gate}=\tau=\frac1{32768},\\
+ C^{\rm up}=2\epsilon^{\rm up}+6c^{\rm up}
+                   +4K_{\rm prep}^{\rm up}+4\epsilon^{\rm up}E_* .
+\end{gathered}
+\label{eq:chvisd-explicit-times}
+\end{equation}
+The exact native comparison evaluates
+\begin{equation}
+ r^2\leq2C^{\rm up}\tau\left(2+\frac{5\pi_*}{2}\right)^2
+       \leq6.7949588\times10^{-7}<10^{-6}
+\label{eq:chvisd-pulse-feasibility}
+\end{equation}
+for all six lanes. In particular $r\leq0.00082431540$ across the
+six lanes, leaving the declared $10^{-3}$ control allowance sufficient
+for the nominal mathematical pulses. Their strengths and absolute
+switching-work ceiling are finite and explicitly charged:
+\begin{equation}
+\begin{aligned}
+ |\lambda_{\rm rot}|&\leq\frac{\pi_*}{4\tau}
+                                      <25735.928,\\
+ |\lambda_{\rm gate}|&\leq\frac{\pi_*}{\tau}
+                                      <102943.71,\\
+ W_{\rm abs}^{\rm switch}&\leq\frac{5\pi_*}{2\tau}
+                                      <257359.28.
+\end{aligned}
+\label{eq:chvisd-pulse-resources}
+\end{equation}
+These are original model units, without an assigned SI conversion or
+an observed control calibration. They display the strength/work cost
+of this short-pulse construction. An actuator/reference implementing
+the spectral projector and exchange drive must supply its charge,
+phase, timing and energy resources. The two pulses take the positive
+latency $1/16384$ before subsequent pointer registration. The ideal
+observable remains the observable at pulse entry.
+
+

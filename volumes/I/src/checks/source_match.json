@@ -1,0 +1,20 @@
+[
+  {
+    "chapter": 1,
+    "source": "output/chapter1_expanded/chapter1_expanded.pdf",
+    "pages": 16,
+    "matches": true
+  },
+  {
+    "chapter": 2,
+    "source": "output/chapter2_source_field_formatted/chapter2_source_field_formatted.pdf",
+    "pages": 13,
+    "matches": true
+  },
+  {
+    "chapter": 3,
+    "source": "output/chapter3_formatted/chapter3_formatted.pdf",
+    "pages": 13,
+    "matches": true
+  }
+]

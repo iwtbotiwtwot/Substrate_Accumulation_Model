@@ -1,0 +1,64 @@
+\section{Ordered physical histories and repeated access}
+\label{sec:new-histories}
+These extensions follow the route and coherent-record join. An ordered
+word is assigned a unitary only after its physical event/route/control
+incidences have been specified. For such unitaries on the one full marker
+space define
+\[\begin{gathered}
+G_{wv}=\operatorname{Tr}(\rho U_v^*U_w),\\
+ (\rho_{route})_{wv}=a_w a_v^*G_{wv}.
+\end{gathered}\]
+The matrix G is positive semidefinite with diagonal one: purification
+expresses it as the overlap matrix of normalized conditional marker
+vectors (with the indicated index convention). Thus the route density
+operator is normalized and positive for normalized route amplitudes.
+Every multi-history interference measurement follows from that same
+operator and the stated analyser. On a declared accessible domain the
+conditional states are \(\mathcal A(U_w\rho U_w^*)\); equality of these
+states means identical probabilities for its marker-only POVMs.
+It does not imply equality of the coherent cross blocks, nor does a
+computational history label alone supply an extra observable.
+Equal signed action and final address therefore leave a concrete
+question about the ordered physical propagators rather than an
+unassigned rule creating additional states. In the moving-source model,
+\([H_0,P_f]\) need not vanish as a formal core commutator, so ordered
+velocity controls need not be determined by their integrals. The actual
+form propagators, not that potentially unbounded commutator, define
+the history comparison.
+
+\subsection{A finite repeated-read theorem with correlated noise}
+Let Q0,Q1 be the orthogonal populations of the retained memory. An ideal
+copy-read isometry has
+\(W|j\rangle_R|0\rangle_A=|j\rangle_R|j\rangle_A\), extended
+unitarily on its complete finite space. A finite positive controlled
+flip realizes this operation with area \(\pi\), peak \(\pi/\tau\)
+and absolute switch-work at most \(2\pi/\tau\); the memory/bath drift
+must be charged as in the finite pulse construction.
+Diagonal interactions conserve Q populations even with a correlated
+bath. For transverse disturbance \(V_\perp\), retain each interval's
+trace-distance exposure \(d_k\leq\int\|V_\perp(t)\|dt\).
+Suppose actual read k differs from the ideal nondestructive read by
+\(\delta_k\) on the complete reachable joint state, including all
+earlier read registers and the bath. Successive hybrid replacement and
+trace-distance contraction give
+\[
+ \begin{gathered}\Pr\left\{\begin{gathered}\text{any wrong stored/read label}\\\text{through read }N\end{gathered}\right\}\\
+ \leq\min\{1,e_{write}+\sum_{k=1}^N(d_k+\delta_k)\}.\end{gathered}
+\]
+No statistical independence is used. For worst-label uniform bounds
+\(d_k+\delta_k\leq b\), an allowed total error \(e_{max}\) permits
+\(N b\leq e_{max}-e_{write}\); this is a finite guaranteed-read budget,
+not a derived thermal decay rate. Actual sequential joint-state bounds
+are essential: separate one-time marginal read errors do not establish
+this premise. Classical repetition improves reliability exponentially
+only under its additional conditional-independence assumptions.
+
+Every read needs a recipient. An occupied register cannot be reused as
+a blank without an explicit reversible transfer or disposal/reset channel.
+Exact discrimination of N complete histories requires N orthogonal
+recipient states; the integrated approximate label-capacity statement
+gives its finite-error version. Resetting the local cell does not erase
+its globally retained source/bath/history recipients. A thermal heat
+claim additionally needs a specified reservoir, initial correlations and
+cyclic protocol. No universal heat-per-Write number is assigned here.
+

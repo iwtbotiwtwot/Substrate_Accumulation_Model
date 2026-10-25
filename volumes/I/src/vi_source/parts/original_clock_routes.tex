@@ -1,0 +1,304 @@
+\section{The original interacting clock on coherent routes}
+% Chapter VI: original interacting source, conditional proper-time interface.
+\subsection{The full interacting source as a route marker}
+\label{sec:ch6-clock-routes}
+A route-dependent clock requires a receiving rule connecting the local
+interacting dynamics to spacetime transport. The following rule is conditional~\cite{Zych2011}:
+the same isolated, co-moving source--field Hamiltonian acts along each prescribed
+timelike route, with its Chapter I time chart replaced by accumulated proper
+time. External beam splitters, recombination, routing forces, and the spacetime
+geometry are controls; they are not derived from the source Hamiltonian.
+Tidal changes of the internal Hamiltonian, radiation caused by the controls,
+and inaccessible environmental records require additional terms or a larger
+marker system. A field shared nonlocally by both arms does not automatically
+admit this isolated co-moving reduction.
+
+Retain the complete source space $\mathbb C^4\otimes\mathbb C^4$ and the two
+polarizations of the continuum Fock field. In the Chapter I dimensionless
+chart the rest generator is
+\begin{equation}
+\begin{split}
+ H_0={}&\epsilon(S+Q_L+Q_R+Q_LQ_R)+H_f\\
+ &-\epsilon(D\phi_++C\phi_\times)\\
+ &+\epsilon^2\mu(D^2+C^2),\\
+ D={}&Q_L-Q_R,\qquad C=iSD,\qquad \mu=(4R)^{-1}.
+\end{split}
+\label{eq:ch6-full-clock-generator}
+\end{equation}
+This is the original interacting form-sum Hamiltonian, not a bare two-level
+substitution. Its six two-state lanes and four unforced diagonal states are
+all retained. In a chosen prepared lane $a<b$, $d=q_a-q_b<0$,
+$g=\epsilon d$, and the restriction is
+$H_0=\epsilon eI+\epsilon S+H_f-g(\sigma_z\phi_++\sigma_y\phi_\times)+cI$,
+where $e=q_a+q_b+q_aq_b$ and $c=2g^2\mu$. Both the even energy and the two
+counterterms remain in the generator.
+
+For route $j$, define
+\begin{equation}
+ \begin{gathered}
+ \eta_j=s_0\int_{\gamma_j}d\tau_{\rm proper},\qquad
+ U_j=e^{-iH_0\eta_j},\\
+ U_{\rm ctrl}=\sum_{j=1}^2|j\rangle\langle j|\otimes U_j.
+ \end{gathered}
+ \label{eq:ch6-controlled-clock}
+\end{equation}
+Here $s_0=1/t_u$ in the declared Chapter I chart; no new SI calibration is
+inferred. With $I_*=\hbar$, the physical rest energy
+is $(\hbar/t_u)H_0$. Conditional on this transport law, the actual clock
+coordinate obeys $d\theta/dt=\nu(\eta_j)(d\tau_{\rm proper}/dt)/t_u$ wherever
+its certified inverse exists. This does not extend the Chapter I finite-window
+rate certificate beyond its stated preparation and interval.
+
+Let the route input be $\sqrt{p_1}|1\rangle+e^{i\alpha}\sqrt{p_2}|2\rangle$,
+$p_1+p_2=1$, initially uncorrelated with a marker state $\rho$. Tracing the
+marker gives route coherence proportional to
+\begin{equation}
+\begin{gathered}
+\Gamma(\delta\eta)=\operatorname{Tr}(\rho U_2^\dagger U_1)
+ =\operatorname{Tr}(\rho e^{-iH_0\delta\eta}),\\
+ \delta\eta=\eta_1-\eta_2.
+\end{gathered}
+\label{eq:ch6-route-overlap}
+\end{equation}
+An ideal variable-phase recombiner measures fringe visibility
+$\mathcal V=2\sqrt{p_1p_2}|\Gamma|$. The standard Born measurement rule is assumed in this calculation, not
+derived from the original Write histories. The phase of $\Gamma$ shifts the fringes;
+its modulus controls their contrast. Extra uncontrolled route records multiply
+or otherwise modify this coherence and must be included explicitly.
+
+For balanced priors, the operational which-route distinguishability in the
+full marker is
+\begin{equation}
+\begin{gathered}
+\mathcal D=\tfrac12\|U_1\rho U_1^\dagger-U_2\rho U_2^\dagger\|_1,
+ \\
+ \mathcal D^2+|\Gamma|^2\leq1.
+\end{gathered}
+\label{eq:ch6-duality}
+\end{equation}
+Equality holds for a pure initial full marker with unrestricted joint
+measurements. For a mixed marker the inequality follows by purifying $\rho$:
+the two purified states have overlap $\Gamma$, and partial trace contracts
+trace distance. Restricted access to the source alone can only decrease
+$\mathcal D$. For unequal priors the corresponding statement uses
+$\|p_1\rho_1-p_2\rho_2\|_1$ and $\mathcal V$.
+In particular, if $[\rho,H_0]=0$, then $\rho_1=\rho_2$ and $\mathcal D=0$,
+although $|\Gamma|$ may be small. Mixed-state phase averaging is not itself
+accessible which-route information in that marker. Nor does the phase-clock
+expectation $z=\langle Z\rangle$ determine $\Gamma$: one is an expectation
+of an evolved observable, the other a full-state propagator overlap.
+
+\subsection{The needed spectral operand and its domain}
+\label{sec:ch6-spectral-clock-operand}
+Let $P_{H_0}$ be the spectral measure of the full interacting Hamiltonian.
+The new original-source operand needed for exact route contrast is
+\begin{equation}
+\begin{gathered}
+d\mathcal P_\rho(E)=\operatorname{Tr}[\rho P_{H_0}(dE)],\\
+ \Gamma(s)=\int e^{-iEs}\,d\mathcal P_\rho(E).
+\end{gathered}
+\label{eq:ch6-spectral-operand}
+\end{equation}
+Chapter I's bounds on $M$, $\Omega$, $z$, and $\nu$ do not provide this
+entire measure or the exact Loschmidt amplitude. A new spectral enclosure,
+a controlled evaluation of this matrix element, or an overlap enclosure
+with a stated error is needed for a numerical full-continuum fringe curve.
+The matched hard mean energy $\bar E$ is also required for its absolute
+reference phase; a gap enclosure alone does not determine that phase.
+
+If $\int E^2d\mathcal P_\rho(E)<\infty$, set
+$\sigma_H^2=\int(E-\bar E)^2d\mathcal P_\rho(E)$. Then
+\begin{equation}
+\begin{gathered}
+|\Gamma(s)|^2=1-\sigma_H^2s^2+o(s^2),\\
+ |\Gamma(s)|=1-\tfrac12\sigma_H^2s^2+o(s^2).
+\end{gathered}
+\label{eq:ch6-short-time-contrast}
+\end{equation}
+These coefficients use the full prepared joint-energy distribution.
+Neither the bare exchange gap $2\epsilon$ nor the calibration expectation
+$E_{\rm ref}=573049$ is an energy variance. The latter belongs to a different
+placement-basis calibration preparation. For a pure state the requisite
+condition is $\Psi\in D(H_0)$, not merely the energy form domain
+$D(H_f^{1/2})$. Chapter I explicitly has ultraviolet-divergent
+$\int_0^\infty|u_R|^2d\omega$; consequently a generic bare vacuum argument
+cannot supply this second moment.
+
+When this finite-variance condition holds, the standard quantum speed
+bound~\cite{Fleming1973,DeffnerCampbell2017} follows because the projective Hilbert-space
+speed of a purification evolving under $H_0$ is $\sigma_H$. Thus
+\begin{equation}
+\begin{aligned}
+ \arccos|\Gamma(s)|&\leq\sigma_H|s|,\\
+ |\Gamma(s)|&\geq\cos(\sigma_H|s|),
+ \quad \sigma_H|s|\leq\pi/2.
+\end{aligned}
+ \label{eq:ch6-speed-bound}
+\end{equation}
+Any zero of the amplitude requires $|s|\geq\pi/(2\sigma_H)$.
+For a mixed initial marker this is a bound on the specified amplitude (or its
+purification), not a claim that the reduced marker becomes distinguishable
+at that time. The full pure-state marker also obeys
+$\mathcal D\leq\sin(\sigma_H|s|)$ on this interval.
+
+\paragraph{A finite full-H second moment for the actual declared preparation.}
+The ultraviolet qualification does not invalidate the particular hard-branch
+preparation that Chapter I actually declares. Let $H_{\rm ref}$ be its
+matched hard-interacting Hamiltonian, with the same even scalar and soft
+counterterm as $H_0$, and let
+\begin{equation}
+\begin{aligned}
+ \psi_k&=\Phi_k\otimes|0_s\rangle,
+ &\Psi_0&=(\psi_0+\psi_1)/\sqrt2,\\
+ H_{\rm ref}\psi_k&=E_k\psi_k,
+ &E_1-E_0&=\Omega.
+\end{aligned}
+\end{equation}
+The normalized exact hard eigenvectors are operator-domain vectors of their
+hard Hamiltonian. The reference preparation is therefore in
+$D(H_{\rm ref})$. Write
+\begin{equation}
+\begin{aligned}
+ V_s&=H_0-H_{\rm ref}\\
+    &=-g(\sigma_z\phi_{+,s}+\sigma_y\phi_{\times,s}),\\
+ v_s&=\int_0^\lambda|u_R(\omega)|^2\dd\omega
+ \leq v_s^{\rm up}=\frac{R^4\lambda^6}{675\kappa\pi}.
+\end{aligned}
+\end{equation}
+On this soft vacuum, $V_s\Psi_0$ is a Hilbert-space vector with exactly one
+soft photon. The two polarization insertions are orthogonal and both Pauli
+operators preserve norm, giving $\|V_s\Psi_0\|^2=2g^2v_s$.
+The form identity against every test vector in the common form domain is
+represented by the Hilbert vector $H_{\rm ref}\Psi_0+V_s\Psi_0$.
+The representation theorem for the closed form therefore proves
+$\Psi_0\in D(H_0)$ and $H_0\Psi_0=H_{\rm ref}\Psi_0+V_s\Psi_0$.
+Orthogonality of zero and one soft photon sectors now gives the new exact
+identity
+\begin{equation}
+\begin{gathered}
+\bar E=\tfrac12(E_0+E_1),\\
+ \boxed{\ \sigma_H^2=\frac{\Omega^2}{4}+2g^2v_s\ }
+ \leq\frac{\Omega^2}{4}+2g^2v_s^{\rm up}.
+\end{gathered}
+\label{eq:ch6-prepared-full-variance}
+\end{equation}
+This is a full interacting variance, despite its expression in matched
+reference data. It relies on the exact hard eigenbranch preparation; it is
+not a general domain assertion about arbitrary coherent source states.
+It also does not assert $\Psi_0\in D(H_0^2)$ or existence of higher moments.
+The signed $g$ is retained in the Hamiltonian; its square appears here because
+this is a norm. A rigorous numerical speed enclosure follows by using the
+original certificate's upper bounds for $\Omega$, $|g|$, $R$, and $\lambda$,
+with their declared dependencies, rather than rounded lane numbers.
+
+\paragraph{Six-lane consequences of the retained inputs.}
+Table~\ref{tab:ch6-route-clock-bounds} uses the original rational enclosures
+for $\Omega$, signed $g$, $v_s^{\rm up}$ and $T_0=2\pi/\Delta$.
+The new rational operations are recorded in the companion check output;
+each printed bound is verified outward by exact rational comparison.
+These are independently derived enclosures, not a new native-certificate run.
+The lower orthogonality ratio is slightly above one half in every lane,
+while the reference-amplitude error at $T_0$ is at most $4.54\times10^{-11}$.
+This does not imply that an exact zero or a perfect revival occurs.
+\begin{table}[ht]
+\centering\scriptsize
+\begin{tabular}{c c c c}
+\hline
+Lane & $10^6\sigma_H$ upper & error at $T_0$ upper & $s_\perp/T_0$ lower\\
+\hline
+01 & 1.745051466079 & $1.759\times10^{-12}$ & 0.500000001207\\
+02 & 1.745051452191 & $3.644\times10^{-12}$ & 0.500000005186\\
+03 & 1.745048665211 & $4.536\times10^{-11}$ & 0.500000803726\\
+12 & 1.745051465446 & $1.886\times10^{-12}$ & 0.500000001389\\
+13 & 1.745048878445 & $4.360\times10^{-11}$ & 0.500000742629\\
+23 & 1.745049097788 & $4.172\times10^{-11}$ & 0.500000679781\\
+\hline
+\end{tabular}
+\caption{Full interacting hard-branch preparation: variance-speed and
+matched-reference bounds. The error is an amplitude error, and $s_\perp$
+is any first possible overlap zero, in the dimensionless proper-time chart.}
+\label{tab:ch6-route-clock-bounds}
+\end{table}
+
+\paragraph{An independent overlap enclosure from the same preparation.}
+The reference overlap is
+$\Gamma_{\rm ref}(s)=e^{-i\bar Es}\cos(\Omega s/2)$.
+The reference orbit is a finite sum of operator-domain eigenvectors, and its soft insertion is Hilbert-space continuous. Strong Hilbert-space Duhamel, with the full interacting propagator left intact, gives
+\begin{equation}
+\begin{aligned}
+ &\|(e^{-isH_0}-e^{-isH_{\rm ref}})\Psi_0\|\\
+ &\quad\leq\int_0^{|s|}\|V_s e^{-iuH_{\rm ref}}\Psi_0\|\dd u
+ =|s|\sqrt{2g^2v_s}.
+\end{aligned}
+\end{equation}
+The same orthogonal soft-sector norm is constant for every reference time;
+negative $s$ is handled by reversing the integral. Consequently
+\begin{equation}
+\begin{aligned}
+ \varepsilon_s&=|s|\sqrt{2g^2v_s^{\rm up}},\\
+ |\Gamma(s)-e^{-i\bar Es}\cos(\Omega s/2)|&\leq\varepsilon_s,\\
+ |\Gamma(s)|&\geq
+ \max\{0,|\cos(\Omega s/2)|-\varepsilon_s\}.
+\end{aligned}
+ \label{eq:ch6-overlap-enclosure}
+\end{equation}
+This is a newly derived overlap estimate using Chapter I's exact preparation,
+not an inference from its phase-rate certificate. It preserves all photon
+sectors in the actual propagation. The bound can become uninformative at
+long times; it does not certify phase-clock invertibility there.
+
+For another preparation lacking a verified second moment, a safe alternative
+is spectral truncation. For a bounded interval $I$, let
+$p=\operatorname{Tr}[\rho P_{H_0}(I)]>0$ and normalize its restricted spectral
+measure. Its amplitude $\Gamma_I$ satisfies
+$|\Gamma-p\Gamma_I|\leq1-p$ and hence
+$|\Gamma|\geq\max\{0,p|\Gamma_I|-(1-p)\}$.
+A finite-variance speed bound for the restricted measure may then be used,
+but the tail probability $1-p$ must itself be established for the original
+state. A finite matrix cutoff without that tail is a comparator, not a
+continuum certificate.
+
+\subsection{Action phases, energy offsets, and route records}
+\label{sec:ch6-route-phase-account}
+The coherent amplitude of a controlled route may contain a scalar factor
+$e^{iS_{{\rm ext},j}/\hbar}U_j$. Its scalar interference phase is
+$(S_{{\rm ext},1}-S_{{\rm ext},2})/\hbar$, combined with the phase of
+$\Gamma$. This accounting must partition the generator once. If an assigned
+rest mass $m_0$ is excluded from $H_0$, its point-particle contribution is
+$S_{{\rm mass},j}=-m_0c^2\int_{\gamma_j}d\tau_{\rm proper}$.
+If that same energy is already included in the internal generator, adding
+this phase again double counts it. The same warning applies to an even
+source-energy offset and the scalar counterterm in a fixed lane.
+
+Explicitly, replacing $H_0$ by $H_0+bI$ changes
+$\Gamma(s)$ to $e^{-ibs}\Gamma(s)$ without changing visibility, the
+same-history expectation $z$, or which-route distinguishability. Thus an
+energy offset invisible to the original clock-rate equation can produce a
+relative route phase $-b(\eta_1-\eta_2)$. An unchanged total amplitude requires the
+compensating assignment
+$S_{{\rm ext},j}\mapsto S_{{\rm ext},j}+\hbar b\eta_j$.
+A lane-dependent even operator is not a common scalar on a superposition of
+lanes and can affect its full spectral distribution. The original signed
+Write integral, the quantum rest-generator phase, and a relativistic
+point-particle action are therefore distinct operands until a receiving
+identification and a non-overlapping energy account are supplied.
+
+Finally, distinct ordered route or Write records need not imply distinct
+accessible quantum states. If two histories induce the same observable
+state and leave no coupled record, an extra history label alone changes no
+measurement probability. If a physical record is produced, it belongs in
+the marker or environment and its overlap controls the residual coherence.
+This allows different histories with equal endpoint and equal signed action
+without silently creating an additional observable or a new clock law.
+
+\paragraph{Independent finite-source comparator.}
+The companion executable \texttt{check\_clock\_routes.py} retains the exact
+$16$-state source matrices, signed $D,C$, the full even source energy, both
+polarizations, and both discrete counterterms. It checks source calibration,
+controlled-route coherence, pure and mixed duality, the short-time
+coefficient, the hard/soft variance identity, the Duhamel enclosure, and
+scalar-phase accounting. Its finite oscillator modes are explicitly assigned
+comparison data. Their tests neither replace the continuum smearing nor
+certify its spectral measure; the continuum results above follow from the
+stated form-domain and hard-branch arguments.
+
