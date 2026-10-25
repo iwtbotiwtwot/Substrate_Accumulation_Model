@@ -11003,3 +11003,143 @@ The staircase library (one admitted recipe per staircase; revision 2 returns eve
 the staircase front (generators, maps, records and the ceiling in one method; a case to its witness in seven tasks; cross-checked by the classic route to 1e-40), and
 the identities library. Program notes: a method admits at most 64 steps; an admitted method is visible only to the controller that admitted it; about 45 tasks per
 peer per 1500 s window with chain steps ahead of new maps.
+
+## Chapter V — binding-readout ledger: the archive's record after B5T (August–October 2026; added 2026-10-25)
+
+Sean Brady, 2026-10-25: "BST work was done before a lot of the advance work, I thought we had a tensor model that showed a lower RMSE since then." Chapter V ends at the
+16 August 2026 authority (H000258) and records the direction-factorisation route as unmapped. The archive's binding authority (`SAM_LIVE/06_BINDING_CURRENT.md`, 538 lines,
+read-only) carries everything since. This ledger puts every binding readout the archive records on one page, each with its **contract** (roster, reference convention,
+training lane, what the number measures), so that numbers from different contracts are never ranked against each other again. Every figure is quoted from the archive or
+from this volume's own chapters with its record; nothing is rerun; the archive's own classification phrases are quoted as the archive's. Labels: **result** (recorded
+receipt), **reading** (the lead's summary), **open**. Directed by Sean Brady. Executed with Claude Code.
+
+**Reading first.** Three facts the ledger shows. (1) There are four distinct contracts, and the "lower RMSE since B5T" lives on a different one from B5T's: on the 253-isotope
+atomic-mass contract the tensor models reach 2.05 MeV development out-of-fold, while on B5T's own 393-held-isotope contract nothing has beaten 0.940 MeV. (2) The tensor
+features do not exist on the ten light isotopes or the three constituent anchors ("unavailable" in the archive's tables), so no tensor model speaks to the light residual;
+the best light figure on that contract is 5.77 MeV, and the light panel worsens where development improves (neutron-rule cell: 10.96 → 14.29 MeV). (3) The archive's own
+instruction after the B6 sweep stands: a successor "must change the binding action or target construction itself"; the one untried lead it names is the
+endpoint-direction-erased locator (0.931 against the directed 0.991).
+
+### Contract A — B5T's holdout: 1,982 development rows, 393 held isotopes across 17 element chains, B4 coordinate baseline, held RMSE in MeV
+
+| Lane | Record | Held RMSE | within 1 MeV | Archive's status |
+|---|---|---:|---:|---|
+| B5T 3D tensor principal (8 values {1,2,3,4,6,8,9,12} → 8 pointed roles; assignment (2,12,4,3,1,6,8,9), orbit 9624) | H000258 | 0.940107903 | 348 | current benchmark; "installs an informational 3D tensor only" |
+| frozen B5R direct-3D comparison | H000258 | 0.948078815 | 341 | control |
+| inconsistent channel relabel / shuffled target / path length only / tensor erased / pointed-role rewired | H000258 | 0.951935 / 0.962190 / 0.962893 / 0.964967 / 0.964967 | 348 / 345 / 346 / 344 / 344 | controls |
+| A3D40 feature graft (5 feature bodies, 30 development models) | H000903 | 0.942385875 | no gain | STRIKEOUT; "the test falsifies the concept" |
+| B6 architecture sweep (3,168 candidates; 70 improved development OOF; 24 frozen survivors; best survivor) | H000906/H000908 | 0.9424625894 | 345 | "the test falsifies the concept"; same-class append/lift searches stopped |
+| semantic-fiber sweep, best sealed additive typed construction (COULOMB_PER_NUCLEON + Q_SUB_OVER_Q_MASS + RETAINED_HISTORY_DENSITY); held max/MAE/RMSE | H000913 | 94.798104 / 54.636926 / 61.952661 | — | "the test falsifies the concept" (B5T on the same three measures 7.411445 / 0.560103 / 0.940108) |
+| readout-correct successor, principal B_RETAINED_HISTORY_SIGNED_DIRECTION + C_ORDERED_ZZN_TRIAD; held max/MAE/RMSE (observable B_u = (A − m_u)·931.49410242 as total-MeV mass-number offset) | binding authority, readout-correct section (entry beside H000917/H000918; number to confirm) | 7.724017 / 3.848250 / 4.431027 | — | beats its additive control 8.521445 / 4.182385 / 4.593371; does not beat B5T; "the test falsifies the concept" for the registered surface |
+
+**Result.** On this contract B5T is unbeaten. The direction-erased diagnostic (relative RMSE 0.931302 against the directed locator's 0.990887) "has never received its own
+successor" (archive). **Open.** Whether Θ18 belongs among the values is not a question B5T asked (its orbit is the eight-value set); a nine-value locator stage would be a
+change of target construction, which is what the archive says a successor must be.
+
+### Contract B — the CR274 55-isotope roster (Chapter V.8–V.9) and the CR277 118-row zero-refit extension
+
+| Lane | Record | Measure | Value (MeV) |
+|---|---|---|---:|
+| CR274 gated readout (Chapter V.8) | manuscript | RMS, 55 rows | 3.91 → 2.72; max abs 7.254 |
+| matter-magnitude search Run 1, leading three-term affine construction (4,278,975 candidates over 295 exact vectors) | H000909/H000910 | max abs residual, 55 rows | 4.178743433 (all 55 within 5); B5T on this roster 7.355830557 |
+| CR277 zero-refit extension (Chapter V.9) | manuscript | RMS, 118 rows | 6.672; light Z = 1–7 19.907; middle 4.145; heavy 5.752 |
+
+**Reading.** The archive marks Run 1 "a preserved numerical lead, not terminal campaign closure" with its stop condition unmet; CR274 and B5T are "comparison baselines, not
+formula foundations." Contract B's light subset (19.9 against 4.1) is the first appearance of the pattern every later contract repeats.
+
+### Contract C — the 253-isotope source-cell roster, atomic-mass binding convention: 208 development rows in five folds, 32 historical rows (already seen), 10 light cases, 3 constituent anchors
+
+| Model | Record | Development OOF | Historical 32 | Light 10 | Anchors 3 |
+|---|---|---:|---:|---:|---:|
+| binding pilot, selected source D/X/I/C_join candidate | H001616 | 22.126075 | 26.186733 (test) | — | — |
+| binding pilot, five-term empirical comparison | H001616 | 2.293454 | 2.144042 | — | — |
+| SOURCE_CELL baseline (253 full / 208 OOF predictions reproduced exactly) | H002479 | 11.272936 | 12.936466 | 10.962180 | — |
+| CELL_RULE / CELL_ORDER / CELL_SPIN | H002479 | 10.532958 / 10.946888 / 8.535837 | 13.329801 / 12.567023 / 9.728173 | 14.195544 / 12.834872 / 11.262421 | — |
+| **CELL_RULE_ORDER_SPIN** (development-selected) | H002479 | **7.240314** | **6.509155** | **14.288412** | — |
+| CELL_TENSOR / CELL_RULE_TENSOR / CELL_ALL (B5T path-14 features; cover only the 240 development+historical rows) | H002479 | 11.671243 / 10.620231 / 7.261836 | 12.881214 / 13.427844 / 6.655626 | — (no features) | — |
+| CELL_RULE_NORM / CELL_SPIN_PLUS_NORM / CELL_ORDER_PLUS_NORM / CELL_ORDER_SPIN_PLUS_NORM (norm diagnostics) | H002479 | 9.100333 / 8.960532 / 8.518915 / 9.004498 | 10.333588 / 8.207395 / 8.577421 / 6.147401 | 13.303483 / 10.307014 / 13.345650 / 13.331065 | — |
+| SOURCE_FULL_REFERENCE_JOIN | H002487 | 3.326474 | 2.372999 | 10.548052 | 58.663242 |
+| BULK_NORMALIZED_SPIN | H002487 | 2.071766 | 1.464112 | 6.675659 | 37.608104 |
+| **BULK_INTENSIVE_TENSOR** (lowest matched development result) | H002487 | **2.047622** | 1.670701 | unavailable | unavailable |
+| BULK_JOIN_ANCHORED | H002487 | 3.090685 | 2.098420 | 6.786589 | 0.000000 |
+| DC_SOURCE | H002487 | 3.337511 | 2.408786 | 11.706488 | 56.862518 |
+| DC_HYBRID | H002487 | 2.126376 | 1.415771 | 6.683504 | 33.507709 |
+| DC_HYBRID_TENSOR | H002487 | 2.134935 | 1.603628 | unavailable | unavailable |
+| DC_ANCHORED | H002487 | 3.050477 | 2.058236 | 9.923631 | 0.000000 |
+| DC_HISTORY_SOURCE (retained-history construction; nonzero lower-sector response for 252/253 rows) | H002487 | 2.464051 | 1.560439 | 33.512448 | 29.382505 |
+| DC_HISTORY_HYBRID | H002487 | 2.170748 | 1.442716 | **5.769160** | 48.498115 |
+| DC_HISTORY_TENSOR | H002487 | 2.098499 | 1.675566 | unavailable | unavailable |
+| DC_HISTORY_ANCHORED (three exact anchors enforced by a certified nullspace transformation) | H002487 | 2.762401 | 2.134544 | 12.805369 | 0.000000 |
+
+**Result.** The archive states the comparison rule itself: "B5T393's 0.940107903 MeV and 348 within 1 MeV use a separate roster/evaluation contract." Development OOF is the
+selection channel; historical rows "have already been seen and remain descriptive"; light and anchor rows are not in selection. **Reading.** Every anchored model buys its
+zero anchor error with a worse light and development figure; every tensor model has no light figure at all; the one model under 6 MeV on the light panel (DC_HISTORY_HYBRID)
+is 48 MeV wrong on the anchors. The reference convention, not the source, is doing most of the work on the light rows. The archive's own next line after each of these:
+"physical incidence/couplings/MeV law next"; "actual paired history/field/common units" — the connector action and E*, I*, L* of Chapters X and XVI.
+
+### Contract D — local residual lanes on the 467 admitted source sites and 6,977 development stencils (channels PP / PN / NN / PPN / PNN; development only, no held comparison, no fitted coefficient)
+
+| Lane | Record | PP / PN / NN / PPN / PNN residual RMSE (MeV) | Archive's status |
+|---|---|---|---|
+| retained-reference transfer action, E_bound − E_sep = ρ·49K·U/(32A), K = 50310649/1366464 | H000925 | 0.567789 / 0.309412 / 0.743441 / 0.496310 / 0.508402 | "strong contact" for the bounded candidate action |
+| direct fixed WW addition (P_WW = −2W_PW_N/M = (49/32)K·U/A) | H000922 ff. | PP/NN 0.681673 / 0.724103 improve; PPN/PNN 0.897495 / 0.884953 worsen | "the test falsifies the concept" |
+| four-corner (13,15) successor | H000927 | PP/NN 0.562715 / 0.721052; PPN/PNN 0.544294 / 0.551625 | "the test falsifies the concept" |
+| reciprocal receiver K_rx = [[I,−I],[−I,I]], Q_b = diag(K_rx, I_retained); H_bound = Γ_WW(1 − c³) | H000928/H000931 | 0.592108 / 0.302160 / 0.784957 / 0.476130 / 0.488642 | "strong contact" for the scoped receiver; PP/NN worsen |
+| mixed-triad incidence sign U = u_P·u_N (sign agreement 1136/1149 PPN, 1353/1375 PNN; effective Γ medians 0.276704 / 0.260901 MeV, "assign no source-derived energy scale") | H000922 | — | "strong contact" for the exploratory sign question; discovery and test on the same development data |
+
+**Reading.** These are mechanism diagnostics at the 0.3–0.8 MeV scale on development stencils, with the energy scale and the hidden-reference interpretation "explicit
+candidate assignments"; they are the archive's nearest approach to a binding *action*, and none has opened a held comparison.
+
+### Contract E — the light systems, one at a time (the ladder; Chapters XVI–XVII and the archive)
+
+| System | Construction | Prediction | Reference | Miss | Record |
+|---|---|---|---|---:|---|
+| H-2 | hydrogen ladder, calibrated | 2.2245662 MeV | — | calibration point | Chapter XVII |
+| H-3 / He-3 | ladder, frozen increment 4.4491324 MeV | 4.4491324 | measured | 4.03 / 3.27 MeV | Chapter XVII |
+| He-4 | tetrahedral candidate B₄ | 27.9505 | 28.2957 | 0.3451 MeV (T8C1 Θ18 prism correction leaves 369 eV, target visible, unclassified) | Chapter XVII |
+| He-4 | scalar-current law held from the carbon construction | B_at ≥ 102.462 | 28.296 | falsified | H002699; Chapter XVI.6 |
+| Li-6 | coherent unit-increment transfer with c = 2465221801/87453696 MeV | 37.585174231 | AME2020 He-4 + H-2 separation 1.473758321 | falsified ("the nonzero release comes from the fragment reference change") | H000971 |
+| C-12 | frozen separation interval | [6.983, 7.007] | 4.9463 | missed by two | Chapter XVI.4 |
+| H-2, H-3, He-3, He-4 (light 10 panel) | every Contract C model | — | — | 5.77–33.5 MeV | H002479, H002487 |
+
+**Reading.** Every light miss has the same shape: the reference dominates the bound object, and the reference is a convention (frozen increment, separated fragments,
+atomic electronic binding, anchor choice). The volume names the missing operand each time in the same words, the connector action and the common energy/action/ruler
+map, and no run supplies it. The He-3 fragment account (Chapter XII.8, XVI.6; H002668: ppn → p + pn, 192 states against 48, 144-dimensional complement, formation cost 6τ_h,
+positive-gate baseline consuming the source gain) is the one light system with a complete paid ledger in the volume's own form; it stays dimensionless until E* exists.
+
+### What is not in this ledger, and why
+
+Measured bindings are external data and open only on Sean Brady's word; every number above is a recorded comparison quoted from the archive or the manuscript, none is
+recomputed here. The ledger ranks nothing across contracts. Volume I's two rulers and the RH receivers (Volume I received results; H002775) are the same lesson in other
+volumes: the receiver and the preparation decide the number before the physics does.
+
+## Chapters I, II and V — the exchange record of September 2026 that Chapter V predates (added 2026-10-25)
+
+The living text's Chapters I–V are written from the catalog and binding authorities as of 16 August; the exchange authority (`SAM_LIVE/11_VOLII_EXCHANGE_CURRENT.md`)
+records the following between then and 17 October. Each line is the archive's digest with its entry; none is in the manuscript above.
+
+- **Θ18 as both carrier and connector (H001631, extended H001753).** The grammar cross-examination retains the 321-row native/surface/observed/q_A/T/W source join with
+  1,926 exact checks; corrected forward2 has 308 blocks, inverse2 185 blocks/205 cases. "Ordinary values 1,2,3,4,6,8,9,12 have L(p) = p + p²/144. Theta18 is the explicit
+  ninth exception: L = 18, zero direct lift/fee, with connector and carrier roles." The generative return uses eight support blocks and both Θ roles: H_min(P) = (P mod 18)/144
+  with ⌊P/18⌋ + 1 minima distributing the Θ roles; H_max(P) = ⌊P/12⌋ + f_r/144, r = P mod 12, f = (0,1,4,9,16,17,36,37,64,81,82,85), with an exact Bellman certificate; all
+  seven spectra through 144 with witnesses; the nine-value grammar generates 15,484,855 typed constructions at partition 144. This answers Chapter I.8's connector-role
+  question in the affirmative for Θ at the grammar level, and Chapter III's type rule ("the shared numeral is not the crosswalk") is kept by giving Θ its own branch.
+- **Owner-directed residual follow-up joining B5T tensors, B4 Θ coordinates and Bethe-block incidence.** Partial correlation controlling linear A for source
+  residual/asymmetry 0.540561 development, 0.396169 held; cycle count −0.243991/−0.318506; "Theta address coordinates are not connector counts"; all 184 outcomes
+  descriptive. The Θ-as-connector question was therefore asked of the binding residual and answered at the descriptive level only.
+- **Connector multiplicity search (H001627).** 185 exact typed blocks / 18 roles; repeated eight-type counts within fixed packets; Li-6 six-pair motif layer 12 type-1
+  occurrences, He-4 three-pair layer 6 ("named source-layer counts, not selected physical isotope inventories"); hidden-nine inversion 23 candidates → 1 native-account
+  survivor; Θ "keeps a separate zero-direct-fee/site-capacity branch."
+- **Binding pilot (H001616).** Ledger Contract C above; "D/X/I alone erase distinctions: the six Mg25-through-Si30 examples share one triple while template-relative binding
+  spans 29.79957689 MeV"; the archive records "the test falsifies the concept" for completeness of that scalar readout and "the concept is possible" for using binding to
+  expose missing source distinctions.
+- **Pattern synthesis (H001625).** 1,034 retained response columns decomposed exactly; "function span rank 8 is not a physical tensor count"; χ = cos(relative phase) −
+  sin(phase sum); all seven sine-sensitive pairs touch exterior q8; pure order differences X+/Y+ = −8 sin δ, Z+/Z− = −16 sin δ, exact 2:1 on the retained Li-6 family.
+- **Shared mathematics and L14 (H001676, H001673).** 11 native operations, 1,441 objects; all 32 L14 matter families shared, 268,435,456 states each; L14 complete, 255
+  sectors / 47 partitions, catalog 846.
+- **Joint phase response (H001767/H001768)** and **modular receiver channels (H001779):** the 444/z₀ = i switching centre with E(h,g;Ts) = E(2−h,g;s); the latest He-3
+  response 24I + 8P (D = 4) with species interference and receiver-record dependence; "next: receiver instrument, record and reset/time law for accepted work."
+
+**Coverage note for Chapters XI–XVIII.** These chapters were written from the modular authority's GEN4 campaigns (H002264–H002543; `SAM_LIVE/14_VOLII_MODULAR_CURRENT.md`,
+updated 2026-10-17, H002703) and already carry the isotope entries of 17 October (C13 panel H002697; neutron–electron bridge H002699, He-4 ≥ 102.462 vs 28.296 MeV; no-fit
+37-isotope panel H002702) and the He-3 fragment action (H002668). No later archive entry bears on them; their October additions are the Duck runs above.

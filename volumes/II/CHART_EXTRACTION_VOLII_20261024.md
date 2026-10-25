@@ -336,3 +336,5 @@ columns and lane, the receiver's payment split, the upper/lower witness conventi
 chapters should be its weights and its entrance — volii_gate_1 showed the entrance alone decides a ledger's label.
 
 Directed by Sean Brady. Executed with Claude Code.
+
+> Amendment, 2026-10-25: this extraction read Chapter V as the manuscript has it, ending at the 16 August B5T authority. The archive's record after B5T (A3D40, B6, the magnitude and semantic-fiber searches, the readout-correct successor, the binding pilot, the neutron-rule cell, the D/C paired-source models, the local residual lanes) and the September exchange record (Θ18 as ninth value with connector and carrier roles, H001631/H001753) are now in the living text's received-results section as the Chapter V binding-readout ledger. The ranking stands; item 2 (catalog/nuclear-ledger reproduction) now has the ledger as its reference table, and the Θ-connector question is recorded as asked (H001631) and answered descriptively (residual follow-up), not new.
