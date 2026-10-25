@@ -188,3 +188,5 @@ produced; what it did not produce; the open join. A thread is admitted only if i
 - Approval of the layout in §1 (four volumes, two Part 2s, one appendix) and the six threads in §2, or the amendments to them.
 - Whether the spine is a document of its own in `volumes/Spine/` (the lead's recommendation) or a chapter repeated in each volume.
 - Whether Volume IV takes the spine's transfer ledger as its Part 4 verbatim or by reference.
+
+> Correction, 2026-10-25: the volume already has an Appendix A (the closing review). The retired-targets appendix is therefore Appendix B; see `volumes/I/TRIM_PLAN_20261025.md`.
