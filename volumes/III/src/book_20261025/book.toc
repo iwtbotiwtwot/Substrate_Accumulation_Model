@@ -1,0 +1,601 @@
+\contentsline {section}{Reader's contract and source boundary}{4}{section*.1}%
+\contentsline {part}{Part 1: The exact computational record}{5}{section*.2}%
+\contentsline {section}{\numberline {I}N100: Grammar and Exact Work}{6}{section.3}%
+\contentsline {subsection}{\numberline {I.1}Overview}{6}{subsection.4}%
+\contentsline {subsection}{\numberline {I.2}Opening question and conceptual picture}{6}{subsection.5}%
+\contentsline {subsection}{\numberline {I.3}Definitions and cardinality firewall}{6}{subsection.6}%
+\contentsline {subsubsection}{\numberline {I.3.1}Exact frustrated-spin density of states}{6}{subsubsection.7}%
+\contentsline {subsubsection}{\numberline {I.3.2}Four quantities that must not be merged}{6}{subsubsection.8}%
+\contentsline {subsubsection}{\numberline {I.3.3}The row-census exclusions are separately typed}{7}{subsubsection.9}%
+\contentsline {subsubsection}{\numberline {I.3.4}Source values are not Hamiltonian couplings}{7}{subsubsection.10}%
+\contentsline {subsection}{\numberline {I.4}Deriving the 100-row source census}{7}{subsection.11}%
+\contentsline {subsubsection}{\numberline {I.4.1}Begin with the full visible lane}{7}{subsubsection.12}%
+\contentsline {subsubsection}{\numberline {I.4.2}Test every one-packet exclusion}{7}{subsubsection.13}%
+\contentsline {subsubsection}{\numberline {I.4.3}Verify the derived-parent relation}{7}{subsubsection.14}%
+\contentsline {subsubsection}{\numberline {I.4.4}Reconcile the payload}{7}{subsubsection.15}%
+\contentsline {subsection}{\numberline {I.5}Constructing the exact N100 problem}{7}{subsection.16}%
+\contentsline {subsubsection}{\numberline {I.5.1}Freeze the graph and requested output}{7}{subsubsection.17}%
+\contentsline {subsubsection}{\numberline {I.5.2}Why exact routes can be smaller than the state count}{7}{subsubsection.18}%
+\contentsline {subsection}{\numberline {I.6}Complete H14F route from execution to closure}{8}{subsection.19}%
+\contentsline {subsubsection}{\numberline {I.6.1}Execute the declared Hamiltonian}{8}{subsubsection.20}%
+\contentsline {subsubsection}{\numberline {I.6.2}Close the port marginals}{8}{subsubsection.21}%
+\contentsline {subsubsection}{\numberline {I.6.3}Close source symmetries}{8}{subsubsection.22}%
+\contentsline {subsection}{\numberline {I.7}Structure-first route from components to the same tensor}{8}{subsection.23}%
+\contentsline {subsubsection}{\numberline {I.7.1}Detect exact conditional components}{8}{subsubsection.24}%
+\contentsline {subsubsection}{\numberline {I.7.2}Compute local exact tensors}{8}{subsubsection.25}%
+\contentsline {subsubsection}{\numberline {I.7.3}Convolve rather than discard cross-component sums}{8}{subsubsection.26}%
+\contentsline {subsubsection}{\numberline {I.7.4}Compare complete outputs}{8}{subsubsection.27}%
+\contentsline {subsection}{\numberline {I.8}Grammar-to-work identity, derived line by line}{8}{subsection.28}%
+\contentsline {subsection}{\numberline {I.9}Source-native controls and deviations}{9}{subsection.29}%
+\contentsline {subsubsection}{\numberline {I.9.1}N105 restored-packet control}{9}{subsubsection.30}%
+\contentsline {subsubsection}{\numberline {I.9.2}N81 octahedral control}{9}{subsubsection.31}%
+\contentsline {subsubsection}{\numberline {I.9.3}N72 dense contrast}{9}{subsubsection.32}%
+\contentsline {subsubsection}{\numberline {I.9.4}Unchanged-parent control}{9}{subsubsection.33}%
+\contentsline {subsection}{\numberline {I.10}Source-native compiler boundary}{9}{subsection.34}%
+\contentsline {subsection}{\numberline {I.11}Established result and current boundaries}{9}{subsection.35}%
+\contentsline {subsection}{\numberline {I.12}Connections and forward handoff}{10}{subsection.46}%
+\contentsline {subsection}{\numberline {I.13}Execution architecture and controls}{10}{subsection.47}%
+\contentsline {subsection}{\numberline {I.14}Overview}{10}{subsection.48}%
+\contentsline {subsection}{\numberline {I.15}Opening question and conceptual picture}{10}{subsection.49}%
+\contentsline {subsection}{\numberline {I.16}Typed definitions and execution contract}{10}{subsection.50}%
+\contentsline {subsubsection}{\numberline {I.16.1}Mathematical object versus execution profile}{10}{subsubsection.51}%
+\contentsline {subsubsection}{\numberline {I.16.2}H14C and H14F}{11}{subsubsection.52}%
+\contentsline {subsubsection}{\numberline {I.16.3}Structural certificate}{11}{subsubsection.53}%
+\contentsline {subsubsection}{\numberline {I.16.4}Router and fallback}{11}{subsubsection.54}%
+\contentsline {subsection}{\numberline {I.17}The complete H14F N100 result}{11}{subsection.55}%
+\contentsline {subsubsection}{\numberline {I.17.1}Source object}{11}{subsubsection.56}%
+\contentsline {subsubsection}{\numberline {I.17.2}Retained-role closure}{11}{subsubsection.57}%
+\contentsline {subsubsection}{\numberline {I.17.3}Execution receipt}{12}{subsubsection.58}%
+\contentsline {subsection}{\numberline {I.18}Deriving the N100 structure-first work}{12}{subsection.59}%
+\contentsline {subsubsection}{\numberline {I.18.1}Component census}{12}{subsubsection.60}%
+\contentsline {subsubsection}{\numberline {I.18.2}Why 165,920 does not replace \(2^{100}\)}{12}{subsubsection.61}%
+\contentsline {subsubsection}{\numberline {I.18.3}Same-output equality}{12}{subsubsection.62}%
+\contentsline {subsubsection}{\numberline {I.18.4}Grammar-to-work identities}{12}{subsubsection.63}%
+\contentsline {subsection}{\numberline {I.19}Source-native controls and deviations}{12}{subsection.64}%
+\contentsline {subsubsection}{\numberline {I.19.1}N105 restoration control}{12}{subsubsection.65}%
+\contentsline {subsubsection}{\numberline {I.19.2}N81 octahedral control}{12}{subsubsection.66}%
+\contentsline {subsubsection}{\numberline {I.19.3}N72 dense contrast}{13}{subsubsection.67}%
+\contentsline {subsubsection}{\numberline {I.19.4}Mixed-connectivity controls}{13}{subsubsection.68}%
+\contentsline {subsubsection}{\numberline {I.19.5}Dense N96 fallback}{13}{subsubsection.69}%
+\contentsline {subsection}{\numberline {I.20}Failure, correction and routing discipline}{13}{subsection.70}%
+\contentsline {subsection}{\numberline {I.21}Recorded authority and delegated-base status}{13}{subsection.71}%
+\contentsline {subsection}{\numberline {I.22}Established result, boundary and forward handoff}{13}{subsection.72}%
+\contentsline {section}{\numberline {II}SAM Language and Exact Program Semantics}{14}{section.73}%
+\contentsline {subsection}{\numberline {II.1}Overview}{14}{subsection.74}%
+\contentsline {subsection}{\numberline {II.2}Opening question and conceptual picture}{14}{subsection.75}%
+\contentsline {subsection}{\numberline {II.3}Version and authority firewall}{14}{subsection.76}%
+\contentsline {subsubsection}{\numberline {II.3.1}v0.6: preserved formal-simulator evidence}{14}{subsubsection.77}%
+\contentsline {subsubsection}{\numberline {II.3.2}v0.7: typed reflective-tape candidate}{14}{subsubsection.78}%
+\contentsline {subsubsection}{\numberline {II.3.3}Source-recorded SLC: \texttt {SLCQ2-RZ}}{15}{subsubsection.79}%
+\contentsline {subsection}{\numberline {II.4}Definitions and type boundaries}{15}{subsection.80}%
+\contentsline {subsubsection}{\numberline {II.4.1}Source, tape, state and history}{15}{subsubsection.81}%
+\contentsline {subsubsection}{\numberline {II.4.2}The twelve-site address domain}{15}{subsubsection.82}%
+\contentsline {subsubsection}{\numberline {II.4.3}Operators and profiles}{15}{subsubsection.83}%
+\contentsline {subsubsection}{\numberline {II.4.4}Exact receipt}{15}{subsubsection.84}%
+\contentsline {subsection}{\numberline {II.5}From source custody to one semantic path}{15}{subsection.85}%
+\contentsline {subsubsection}{\numberline {II.5.1}G01 --- seal the parent and candidate delta}{15}{subsubsection.86}%
+\contentsline {subsubsection}{\numberline {II.5.2}G02 --- traverse the only authority path}{15}{subsubsection.87}%
+\contentsline {subsubsection}{\numberline {II.5.3}G03 --- isolate the formal profile}{15}{subsubsection.88}%
+\contentsline {subsection}{\numberline {II.6}Build and exhaust the formal state surface}{15}{subsection.89}%
+\contentsline {subsubsection}{\numberline {II.6.1}G04 --- complete basis construction}{15}{subsubsection.90}%
+\contentsline {subsubsection}{\numberline {II.6.2}G05 --- exact canonical-state invariant}{16}{subsubsection.91}%
+\contentsline {subsubsection}{\numberline {II.6.3}G06 --- freeze B request and X1 response}{16}{subsubsection.92}%
+\contentsline {subsection}{\numberline {II.7}Complete reciprocal and decomposition schedules}{16}{subsection.93}%
+\contentsline {subsubsection}{\numberline {II.7.1}G07 --- ordered-pair lift}{16}{subsubsection.94}%
+\contentsline {subsubsection}{\numberline {II.7.2}G08 --- request sign and gauge diagnostics}{16}{subsubsection.95}%
+\contentsline {subsubsection}{\numberline {II.7.3}G09 --- every declared native decomposition}{16}{subsubsection.96}%
+\contentsline {subsubsection}{\numberline {II.7.4}G10 --- peel and restore the extra edge}{16}{subsubsection.97}%
+\contentsline {subsubsection}{\numberline {II.7.5}G11 --- frozen classical-limit boundary}{16}{subsubsection.98}%
+\contentsline {subsection}{\numberline {II.8}State, history and interface custody}{16}{subsection.99}%
+\contentsline {subsubsection}{\numberline {II.8.1}G12 --- same endpoint, different route}{16}{subsubsection.100}%
+\contentsline {subsubsection}{\numberline {II.8.2}G13 --- deterministic API and CLI receipts}{17}{subsubsection.101}%
+\contentsline {subsubsection}{\numberline {II.8.3}G14 --- atomic rejection and tamper detection}{17}{subsubsection.102}%
+\contentsline {subsubsection}{\numberline {II.8.4}G15 --- inherited and new replay on a clean wheel}{17}{subsubsection.103}%
+\contentsline {subsubsection}{\numberline {II.8.5}G16 --- keep the wrong controls and open boundaries}{17}{subsubsection.104}%
+\contentsline {subsection}{\numberline {II.9}The v0.7 reflective-tape semantics}{17}{subsection.110}%
+\contentsline {subsection}{\numberline {II.10}Source-native N100-to-F81 compiler boundary}{17}{subsection.118}%
+\contentsline {subsection}{\numberline {II.11}Controls, deviations and promotion discipline}{17}{subsection.119}%
+\contentsline {subsection}{\numberline {II.12}Established result and current boundaries}{18}{subsection.120}%
+\contentsline {subsection}{\numberline {II.13}Connections and forward handoff}{18}{subsection.132}%
+\contentsline {subsection}{\numberline {II.14}Sources and evidential scope}{18}{subsection.133}%
+\contentsline {section}{\numberline {III}Exact State Spaces and Thermodynamics}{19}{section.134}%
+\contentsline {subsection}{\numberline {III.1}Overview}{19}{subsection.135}%
+\contentsline {subsection}{\numberline {III.2}Opening question and conceptual picture}{19}{subsection.136}%
+\contentsline {subsection}{\numberline {III.3}Typed definitions and domains}{19}{subsection.137}%
+\contentsline {subsubsection}{\numberline {III.3.1}Source grammar, assignment and Hamiltonian}{19}{subsubsection.138}%
+\contentsline {subsubsection}{\numberline {III.3.2}Density of states}{20}{subsubsection.139}%
+\contentsline {subsubsection}{\numberline {III.3.3}Exactness, execution and custody}{20}{subsubsection.140}%
+\contentsline {subsection}{\numberline {III.4}Deriving the exact route family}{20}{subsection.141}%
+\contentsline {subsubsection}{\numberline {III.4.1}Gray exhaustive authority}{20}{subsubsection.142}%
+\contentsline {subsubsection}{\numberline {III.4.2}Variable elimination}{20}{subsubsection.143}%
+\contentsline {subsubsection}{\numberline {III.4.3}Exact component convolution}{20}{subsubsection.144}%
+\contentsline {subsubsection}{\numberline {III.4.4}NTT lanes and CRT reconstruction}{21}{subsubsection.145}%
+\contentsline {subsubsection}{\numberline {III.4.5}Orbit sectors and rank-aware readout}{21}{subsubsection.146}%
+\contentsline {subsubsection}{\numberline {III.4.6}Route-acceptance checklist}{21}{subsubsection.147}%
+\contentsline {subsection}{\numberline {III.5}Deviation chain: SLCX023 to SLCX023A}{21}{subsection.156}%
+\contentsline {subsubsection}{\numberline {III.5.1}The frozen question}{21}{subsubsection.157}%
+\contentsline {subsubsection}{\numberline {III.5.2}Preserved failure}{21}{subsubsection.158}%
+\contentsline {subsubsection}{\numberline {III.5.3}Correction hypothesis}{21}{subsubsection.159}%
+\contentsline {subsubsection}{\numberline {III.5.4}Separate retest and cumulative record}{21}{subsubsection.160}%
+\contentsline {subsection}{\numberline {III.6}Frozen N96 worked example}{22}{subsection.161}%
+\contentsline {subsubsection}{\numberline {III.6.1}Complete configuration count}{22}{subsubsection.162}%
+\contentsline {subsubsection}{\numberline {III.6.2}Shifted exact polynomial}{22}{subsubsection.163}%
+\contentsline {subsection}{\numberline {III.7}From DOS to exact thermodynamics}{22}{subsection.164}%
+\contentsline {subsubsection}{\numberline {III.7.1}Partition function derivation}{22}{subsubsection.165}%
+\contentsline {subsubsection}{\numberline {III.7.2}Euler derivatives and moments}{22}{subsubsection.166}%
+\contentsline {subsubsection}{\numberline {III.7.3}Conditional response and the open/closed boundary}{23}{subsubsection.167}%
+\contentsline {subsection}{\numberline {III.8}Wrong controls and type firewalls}{23}{subsection.168}%
+\contentsline {subsection}{\numberline {III.9}Established result, boundary and forward handoff}{23}{subsection.169}%
+\contentsline {subsection}{\numberline {III.10}Sources and evidential scope}{23}{subsection.173}%
+\contentsline {section}{\numberline {IV}Exact joint densities at N5000}{24}{section.174}%
+\contentsline {subsection}{\numberline {IV.1}The completed object}{24}{subsection.175}%
+\contentsline {subsection}{\numberline {IV.2}What the six sources contain}{24}{subsection.177}%
+\contentsline {subsection}{\numberline {IV.3}Separating the collective interaction}{24}{subsection.178}%
+\contentsline {subsection}{\numberline {IV.4}Local tables and exact composition}{25}{subsection.179}%
+\contentsline {subsection}{\numberline {IV.5}Two encodings and exact GPU arithmetic}{25}{subsection.180}%
+\contentsline {subsection}{\numberline {IV.6}Validation of the completed density}{25}{subsection.181}%
+\contentsline {subsection}{\numberline {IV.7}The computation and its preserved data}{26}{subsection.182}%
+\contentsline {subsection}{\numberline {IV.8}What the result makes available}{26}{subsection.183}%
+\contentsline {subsection}{\numberline {IV.9}N5000 thermal ordering and retained boundary memory}{26}{subsection.184}%
+\contentsline {subsubsection}{\numberline {IV.9.1}A separately defined thermal family}{26}{subsubsection.185}%
+\contentsline {subsubsection}{\numberline {IV.9.2}The first global ordering transition}{27}{subsubsection.186}%
+\contentsline {subsubsection}{\numberline {IV.9.3}Critical fluctuations and a nonzero boundary response}{27}{subsubsection.188}%
+\contentsline {subsubsection}{\numberline {IV.9.4}Exact occupied windows and measured probability}{28}{subsubsection.189}%
+\contentsline {section}{\numberline {V}N2000 Exact Joint Densities and Low Energy Physics}{30}{section.191}%
+\contentsline {subsection}{\numberline {V.1}The computed object and the six sources}{30}{subsection.192}%
+\contentsline {subsection}{\numberline {V.2}Why a complete graph admits an exact construction}{30}{subsection.194}%
+\contentsline {subsection}{\numberline {V.3}The completed joint output and its validation}{31}{subsection.195}%
+\contentsline {subsection}{\numberline {V.4}Exact ground states from the same source definitions}{32}{subsection.197}%
+\contentsline {subsection}{\numberline {V.5}An analytic residual entropy limit}{32}{subsection.199}%
+\contentsline {subsection}{\numberline {V.6}Field thresholds and soft excitations}{33}{subsection.200}%
+\contentsline {subsection}{\numberline {V.7}Exact low energy spectra and entropy resolution}{33}{subsection.202}%
+\contentsline {subsection}{\numberline {V.8}Controlled low temperature heat capacity}{33}{subsection.204}%
+\contentsline {subsection}{\numberline {V.9}Reusing the full joint measure}{34}{subsection.206}%
+\contentsline {section}{\numberline {VI}Joint State Spaces and Layered Exact Sources}{35}{section.207}%
+\contentsline {subsection}{\numberline {VI.1}A joint count is an executable source object}{35}{subsection.208}%
+\contentsline {subsection}{\numberline {VI.2}Dense completion can expose a sparse correction}{35}{subsection.214}%
+\contentsline {subsection}{\numberline {VI.3}Exact contractions beyond packet families}{36}{subsection.217}%
+\contentsline {subsection}{\numberline {VI.4}What the completed inventory contains}{36}{subsection.219}%
+\contentsline {subsection}{\numberline {VI.5}A layered exact ground-state successor}{36}{subsection.221}%
+\contentsline {subsection}{\numberline {VI.6}Latest completed use and the computational boundary}{37}{subsection.225}%
+\contentsline {section}{\numberline {VII}The Algebra of a Complete Write}{38}{section.226}%
+\contentsline {subsection}{\numberline {VII.1}Overview}{38}{subsection.227}%
+\contentsline {subsection}{\numberline {VII.2}Opening question and conceptual picture}{38}{subsection.228}%
+\contentsline {subsection}{\numberline {VII.3}Typed lifecycle and the complete transaction}{38}{subsection.229}%
+\contentsline {subsubsection}{\numberline {VII.3.1}W8 shell}{38}{subsubsection.230}%
+\contentsline {subsubsection}{\numberline {VII.3.2}Activation weld}{38}{subsubsection.231}%
+\contentsline {subsubsection}{\numberline {VII.3.3}W9 record and projection}{39}{subsubsection.232}%
+\contentsline {subsubsection}{\numberline {VII.3.4}U/X1 completion}{39}{subsubsection.233}%
+\contentsline {subsection}{\numberline {VII.4}The signed \(\mathbb Z_4^9\) address action}{39}{subsection.234}%
+\contentsline {subsubsection}{\numberline {VII.4.1}Nine base-four coordinates}{39}{subsubsection.235}%
+\contentsline {subsubsection}{\numberline {VII.4.2}Primitive signed translation}{39}{subsubsection.236}%
+\contentsline {subsubsection}{\numberline {VII.4.3}Endpoint covariance}{39}{subsubsection.237}%
+\contentsline {subsection}{\numberline {VII.5}Compiling a complete signed-write program}{39}{subsection.238}%
+\contentsline {subsubsection}{\numberline {VII.5.1}Group-law reduction}{39}{subsubsection.239}%
+\contentsline {subsubsection}{\numberline {VII.5.2}Exact racecar result}{40}{subsubsection.240}%
+\contentsline {subsection}{\numberline {VII.6}Reconstructible reciprocal history}{40}{subsection.241}%
+\contentsline {subsubsection}{\numberline {VII.6.1}Two 81-coordinate views}{40}{subsubsection.242}%
+\contentsline {subsubsection}{\numberline {VII.6.2}Reconstruction}{40}{subsubsection.243}%
+\contentsline {subsubsection}{\numberline {VII.6.3}Lifted dyadic example}{40}{subsubsection.244}%
+\contentsline {subsection}{\numberline {VII.7}Completed-mode projection and retained remainder}{40}{subsection.245}%
+\contentsline {subsection}{\numberline {VII.8}Exact analytic operators}{41}{subsection.246}%
+\contentsline {subsection}{\numberline {VII.9}Multiplicative ledger and readback}{41}{subsection.247}%
+\contentsline {subsection}{\numberline {VII.10}Development and deviation chain}{41}{subsection.248}%
+\contentsline {subsubsection}{\numberline {VII.10.1}Preserved loader failure}{41}{subsubsection.249}%
+\contentsline {subsubsection}{\numberline {VII.10.2}Valid primitive, incomplete total surface}{41}{subsubsection.250}%
+\contentsline {subsubsection}{\numberline {VII.10.3}Complete correction and retest}{41}{subsubsection.251}%
+\contentsline {subsubsection}{\numberline {VII.10.4}Read-only consumer boundary}{41}{subsubsection.252}%
+\contentsline {subsection}{\numberline {VII.11}Established result, boundary and forward handoff}{42}{subsection.253}%
+\contentsline {subsection}{\numberline {VII.12}Sources and evidential scope}{42}{subsection.254}%
+\contentsline {section}{\numberline {VIII}Lifecycle, Reception and Carrier Return}{43}{section.255}%
+\contentsline {subsection}{\numberline {VIII.1}Overview}{43}{subsection.256}%
+\contentsline {subsection}{\numberline {VIII.2}Opening question and conceptual picture}{43}{subsection.257}%
+\contentsline {subsection}{\numberline {VIII.3}Definitions, domains and type boundaries}{43}{subsection.260}%
+\contentsline {subsubsection}{\numberline {VIII.3.1}The four lifecycle objects}{43}{subsubsection.261}%
+\contentsline {subsubsection}{\numberline {VIII.3.2}Source row, operator, carrier and receipt are different domains}{44}{subsubsection.262}%
+\contentsline {subsubsection}{\numberline {VIII.3.3}Non-row A and the open causal seams}{44}{subsubsection.263}%
+\contentsline {subsubsection}{\numberline {VIII.3.4}Historical language evidence and current SLC identity}{44}{subsubsection.264}%
+\contentsline {subsection}{\numberline {VIII.4}Typed lifecycle construction from start to finish}{44}{subsection.265}%
+\contentsline {subsubsection}{\numberline {VIII.4.1}The formal operator premise}{44}{subsubsection.266}%
+\contentsline {subsubsection}{\numberline {VIII.4.2}The typed \texttt {RESOLVE} gate}{44}{subsubsection.271}%
+\contentsline {subsubsection}{\numberline {VIII.4.3}What the installed runtime computes---and what it only names}{44}{subsubsection.272}%
+\contentsline {subsubsection}{\numberline {VIII.4.4}Structural continuation to V27, F81 and P80}{45}{subsubsection.278}%
+\contentsline {subsubsection}{\numberline {VIII.4.5}Constructed split, residue and mirror-odd candidate}{45}{subsubsection.279}%
+\contentsline {subsection}{\numberline {VIII.5}Derived W9 receipts and the source ledger}{45}{subsection.280}%
+\contentsline {subsubsection}{\numberline {VIII.5.1}The 105-visible/100-independent overlay}{45}{subsubsection.281}%
+\contentsline {subsubsection}{\numberline {VIII.5.2}Worked exact parent examples}{45}{subsubsection.282}%
+\contentsline {subsubsection}{\numberline {VIII.5.3}The CR120T accounting and binding boundary}{45}{subsubsection.283}%
+\contentsline {subsection}{\numberline {VIII.6}The preserved deviation chain}{46}{subsection.284}%
+\contentsline {subsubsection}{\numberline {VIII.6.1}First deviation: the literal two-half entity formula}{46}{subsubsection.285}%
+\contentsline {subsubsection}{\numberline {VIII.6.2}Second deviation: candidate uniqueness is not a weld}{46}{subsubsection.286}%
+\contentsline {subsubsection}{\numberline {VIII.6.3}Correction: the Theta-normalized dual-depth route}{46}{subsubsection.287}%
+\contentsline {subsubsection}{\numberline {VIII.6.4}Retest: model-wide Theta18 stress}{47}{subsubsection.288}%
+\contentsline {subsection}{\numberline {VIII.7}Ordered quantum-sandbox successors}{47}{subsection.289}%
+\contentsline {subsubsection}{\numberline {VIII.7.1}Exact minimal ordered model}{47}{subsubsection.290}%
+\contentsline {subsubsection}{\numberline {VIII.7.2}Finite-shot NV boundary}{47}{subsubsection.291}%
+\contentsline {subsection}{\numberline {VIII.8}What the controls establish}{47}{subsection.292}%
+\contentsline {subsection}{\numberline {VIII.9}Established result and current boundaries}{47}{subsection.293}%
+\contentsline {subsection}{\numberline {VIII.10}Connections and forward handoff}{48}{subsection.304}%
+\contentsline {subsection}{\numberline {VIII.11}Sources and evidential scope}{48}{subsection.305}%
+\contentsline {section}{\numberline {IX}Directional History and Event Reels}{49}{section.306}%
+\contentsline {subsection}{\numberline {IX.1}Overview}{49}{subsection.307}%
+\contentsline {subsection}{\numberline {IX.2}Opening question and conceptual picture}{49}{subsection.308}%
+\contentsline {subsection}{\numberline {IX.3}Generic directional core}{49}{subsection.309}%
+\contentsline {subsubsection}{\numberline {IX.3.1}Exact inventory}{49}{subsubsection.310}%
+\contentsline {subsubsection}{\numberline {IX.3.2}State and path are separate outputs}{50}{subsubsection.311}%
+\contentsline {subsubsection}{\numberline {IX.3.3}Append-only lifecycle}{50}{subsubsection.312}%
+\contentsline {subsection}{\numberline {IX.4}Event incidence and unique Theta Gram}{50}{subsection.313}%
+\contentsline {subsubsection}{\numberline {IX.4.1}One translation, two ends, one event}{50}{subsubsection.314}%
+\contentsline {subsubsection}{\numberline {IX.4.2}Append rule and stationary kernel}{50}{subsubsection.315}%
+\contentsline {subsection}{\numberline {IX.5}N144 AFC frame}{50}{subsection.316}%
+\contentsline {subsubsection}{\numberline {IX.5.1}F81 contact incidence}{50}{subsubsection.317}%
+\contentsline {subsubsection}{\numberline {IX.5.2}Frozen N144-to-L162 wiring}{50}{subsubsection.318}%
+\contentsline {subsection}{\numberline {IX.6}W9P-to-Theta isometry and global reel}{51}{subsection.319}%
+\contentsline {subsubsection}{\numberline {IX.6.1}Equal-energy local write}{51}{subsubsection.320}%
+\contentsline {subsubsection}{\numberline {IX.6.2}Shared-anchor event family}{51}{subsubsection.321}%
+\contentsline {subsection}{\numberline {IX.7}Preserved deviation chain}{51}{subsection.322}%
+\contentsline {subsubsection}{\numberline {IX.7.1}Generic positive-pencil contraction fails}{51}{subsubsection.323}%
+\contentsline {subsubsection}{\numberline {IX.7.2}Scalar RII control is insufficient}{51}{subsubsection.324}%
+\contentsline {subsubsection}{\numberline {IX.7.3}Local-frame debit domination fails}{51}{subsubsection.325}%
+\contentsline {subsubsection}{\numberline {IX.7.4}Isolated recurrence lane fails}{52}{subsubsection.326}%
+\contentsline {subsubsection}{\numberline {IX.7.5}Whole-matrix AFC order fails}{52}{subsubsection.327}%
+\contentsline {subsubsection}{\numberline {IX.7.6}Individual parity factors fail}{52}{subsubsection.328}%
+\contentsline {subsubsection}{\numberline {IX.7.7}Spherical diagonal order fails}{52}{subsubsection.329}%
+\contentsline {subsection}{\numberline {IX.8}Application-adapter authority boundary}{52}{subsection.330}%
+\contentsline {subsection}{\numberline {IX.9}Established result and forward handoff}{52}{subsection.331}%
+\contentsline {subsection}{\numberline {IX.10}Sources and evidential scope}{52}{subsection.332}%
+\contentsline {section}{\numberline {X}Equal Observations and Executable Histories}{53}{section.333}%
+\contentsline {subsection}{\numberline {X.1}A common operation separates two histories with the same total}{53}{subsection.334}%
+\contentsline {subsection}{\numberline {X.2}The exact criterion for a sufficient observation}{53}{subsection.335}%
+\contentsline {subsection}{\numberline {X.3}Receiver sums and directed currents reconstruct the parents}{53}{subsection.336}%
+\contentsline {subsection}{\numberline {X.4}Ordered paths and the reconstructive address}{54}{subsection.337}%
+\contentsline {subsection}{\numberline {X.5}A whole weave can retain many histories above one invariant}{54}{subsection.338}%
+\contentsline {subsection}{\numberline {X.6}A receiver functional makes the source difference usable}{54}{subsection.339}%
+\contentsline {section}{\numberline {XI}Ordinal Selection and the Delegated Exact Engine}{55}{section.340}%
+\contentsline {subsection}{\numberline {XI.1}Overview}{55}{subsection.341}%
+\contentsline {subsection}{\numberline {XI.2}Opening question and conceptual picture}{55}{subsection.342}%
+\contentsline {subsection}{\numberline {XI.3}Recorded authority and architectural planes}{56}{subsection.346}%
+\contentsline {subsubsection}{\numberline {XI.3.1}Sole source-recorded default revision}{56}{subsubsection.347}%
+\contentsline {subsubsection}{\numberline {XI.3.2}Selection is not arithmetic}{56}{subsubsection.348}%
+\contentsline {subsubsection}{\numberline {XI.3.3}Four distinct planes}{56}{subsubsection.349}%
+\contentsline {subsection}{\numberline {XI.4}Target construction and blindness contract}{56}{subsection.350}%
+\contentsline {subsubsection}{\numberline {XI.4.1}Exact target order}{56}{subsubsection.351}%
+\contentsline {subsubsection}{\numberline {XI.4.2}Permitted source fields}{56}{subsubsection.352}%
+\contentsline {subsubsection}{\numberline {XI.4.3}Forbidden target and custody fields}{56}{subsubsection.353}%
+\contentsline {subsection}{\numberline {XI.5}Fresh grouped custody}{56}{subsection.354}%
+\contentsline {subsubsection}{\numberline {XI.5.1}Why the unit is a physical group}{56}{subsubsection.355}%
+\contentsline {subsubsection}{\numberline {XI.5.2}Split derivation}{57}{subsubsection.356}%
+\contentsline {subsection}{\numberline {XI.6}Deriving the 70-feature representation}{57}{subsection.357}%
+\contentsline {subsubsection}{\numberline {XI.6.1}Direct and reciprocal alignment}{57}{subsubsection.358}%
+\contentsline {subsubsection}{\numberline {XI.6.2}Midpoint, span, direction and parity}{57}{subsubsection.359}%
+\contentsline {subsubsection}{\numberline {XI.6.3}Two-adic profiles and typed interactions}{57}{subsubsection.360}%
+\contentsline {subsubsection}{\numberline {XI.6.4}Why Q2 succeeds where the 20-field map collided}{57}{subsubsection.361}%
+\contentsline {subsection}{\numberline {XI.7}Exact ordinal fitting}{57}{subsection.362}%
+\contentsline {subsubsection}{\numberline {XI.7.1}Three predeclared architectures}{57}{subsubsection.363}%
+\contentsline {subsubsection}{\numberline {XI.7.2}Listwise and adjacent observations}{58}{subsubsection.367}%
+\contentsline {subsubsection}{\numberline {XI.7.3}Winner and tie policy}{58}{subsubsection.368}%
+\contentsline {subsection}{\numberline {XI.8}HOLDOUT selection and sealed CONTROL}{58}{subsection.369}%
+\contentsline {subsubsection}{\numberline {XI.8.1}Predeclared material comparator}{58}{subsubsection.370}%
+\contentsline {subsubsection}{\numberline {XI.8.2}Exact results}{58}{subsubsection.371}%
+\contentsline {subsection}{\numberline {XI.9}Deviation, correction and retest chain}{58}{subsection.372}%
+\contentsline {subsubsection}{\numberline {XI.9.1}Candidate-construction failures}{58}{subsubsection.373}%
+\contentsline {subsubsection}{\numberline {XI.9.2}Promotion-wrapper corrections}{59}{subsubsection.374}%
+\contentsline {subsubsection}{\numberline {XI.9.3}Wrong controls retained as lessons}{59}{subsubsection.375}%
+\contentsline {subsection}{\numberline {XI.10}Freeze and promotion process}{59}{subsection.376}%
+\contentsline {subsection}{\numberline {XI.11}Established result and boundary}{59}{subsection.377}%
+\contentsline {subsection}{\numberline {XI.12}Sources and evidential scope}{59}{subsection.378}%
+\contentsline {section}{\numberline {XII}Starbreaker: Formation on Its Own Grammar}{60}{section.379}%
+\contentsline {subsection}{\numberline {XII.1}Overview}{60}{subsection.380}%
+\contentsline {subsection}{\numberline {XII.2}Opening question and conceptual picture}{60}{subsection.381}%
+\contentsline {subsection}{\numberline {XII.3}Native objects, counts and type boundaries}{60}{subsection.382}%
+\contentsline {subsubsection}{\numberline {XII.3.1}Ledger and atom census}{60}{subsubsection.383}%
+\contentsline {subsubsection}{\numberline {XII.3.2}Persistent and transient types}{61}{subsubsection.384}%
+\contentsline {subsubsection}{\numberline {XII.3.3}Stage and control surfaces}{61}{subsubsection.385}%
+\contentsline {subsection}{\numberline {XII.4}Construction interfaces}{61}{subsection.386}%
+\contentsline {subsubsection}{\numberline {XII.4.1}Particle-ledger interface}{61}{subsubsection.387}%
+\contentsline {subsubsection}{\numberline {XII.4.2}Continuous-flow and carrier-QNM bridge}{61}{subsubsection.388}%
+\contentsline {subsection}{\numberline {XII.5}Exact formation-state derivation}{61}{subsection.389}%
+\contentsline {subsubsection}{\numberline {XII.5.1}M126 retention}{61}{subsubsection.390}%
+\contentsline {subsubsection}{\numberline {XII.5.2}Fee-exempt Theta18 lift}{62}{subsubsection.391}%
+\contentsline {subsubsection}{\numberline {XII.5.3}N144+d and L162 readout}{62}{subsubsection.392}%
+\contentsline {subsubsection}{\numberline {XII.5.4}Byte-identical structure-first replay}{62}{subsubsection.393}%
+\contentsline {subsubsection}{\numberline {XII.5.5}Emit-only W9 history}{62}{subsubsection.394}%
+\contentsline {subsection}{\numberline {XII.6}Focused application evidence}{62}{subsection.395}%
+\contentsline {subsubsection}{\numberline {XII.6.1}External-collapse directional-contact replay}{62}{subsubsection.396}%
+\contentsline {subsubsection}{\numberline {XII.6.2}Inventory-corrected pixel-bridge retest}{62}{subsubsection.397}%
+\contentsline {subsubsection}{\numberline {XII.6.3}Independent carrier-ledger replay and freeze}{63}{subsubsection.398}%
+\contentsline {subsection}{\numberline {XII.7}Preserved deviation and correction chains}{63}{subsection.399}%
+\contentsline {subsubsection}{\numberline {XII.7.1}Preserved CR005e numerical stop}{63}{subsubsection.400}%
+\contentsline {subsubsection}{\numberline {XII.7.2}Trace-free projection correction}{63}{subsubsection.401}%
+\contentsline {subsubsection}{\numberline {XII.7.3}Per-carrier ledger control failure}{63}{subsubsection.402}%
+\contentsline {subsubsection}{\numberline {XII.7.4}Control-appeal correction}{63}{subsubsection.403}%
+\contentsline {subsection}{\numberline {XII.8}Observability and physical boundary}{64}{subsection.407}%
+\contentsline {subsubsection}{\numberline {XII.8.1}Escape and closure observability boundary}{64}{subsubsection.408}%
+\contentsline {subsection}{\numberline {XII.9}Moving-information E/M1, SO1 and matter joins}{64}{subsection.409}%
+\contentsline {subsubsection}{\numberline {XII.9.1}E/M1 returning two-body relation}{64}{subsubsection.410}%
+\contentsline {subsubsection}{\numberline {XII.9.2}SO1 coherent spin-orbit wave}{64}{subsubsection.411}%
+\contentsline {subsubsection}{\numberline {XII.9.3}Live ATOM3D reception and re-emission}{64}{subsubsection.412}%
+\contentsline {subsection}{\numberline {XII.10}Established result and forward handoff}{64}{subsection.413}%
+\contentsline {subsection}{\numberline {XII.11}Sources and evidential scope}{64}{subsection.414}%
+\contentsline {section}{\numberline {XIII}Source Histories, Directional Reception and Inverse Reconstruction}{65}{section.415}%
+\contentsline {subsection}{\numberline {XIII.1}From an event address to an executable history}{65}{subsection.416}%
+\contentsline {subsection}{\numberline {XIII.2}Starbreaker's packets retain motion above a returning phase}{65}{subsection.417}%
+\contentsline {subsection}{\numberline {XIII.3}One event emits two complementary observations}{65}{subsection.418}%
+\contentsline {subsection}{\numberline {XIII.4}Recovering a program can require less than recovering its source}{66}{subsection.419}%
+\contentsline {subsection}{\numberline {XIII.5}Superposition and spatial sampling expose different inverse fibers}{66}{subsection.420}%
+\contentsline {subsection}{\numberline {XIII.6}From source factors to declared temporal dynamics}{67}{subsection.421}%
+\contentsline {subsection}{\numberline {XIII.7}The completed Starbreaker extension through five thousand sites}{67}{subsection.422}%
+\contentsline {section}{\numberline {XIV}The Native Mathematical Runtime: Exact Values, Certified Functions and Retained Composition}{68}{section.423}%
+\contentsline {subsection}{\numberline {XIV.1}Three mathematical forms of a returned value}{68}{subsection.424}%
+\contentsline {subsection}{\numberline {XIV.2}A source scalar and a spectral profile are different logarithms}{68}{subsection.425}%
+\contentsline {subsection}{\numberline {XIV.3}Operator functions retain support and order}{69}{subsection.426}%
+\contentsline {subsection}{\numberline {XIV.4}Capacity is qualified at a specified workload}{69}{subsection.427}%
+\contentsline {subsection}{\numberline {XIV.5}A completed result becomes a native operand}{70}{subsection.428}%
+\contentsline {subsection}{\numberline {XIV.6}From a spectrum to a complete receiving calculation}{70}{subsection.429}%
+\contentsline {section}{\numberline {XV}Executable Methods, Adaptive Precision and Learned Questions}{71}{section.430}%
+\contentsline {subsection}{\numberline {XV.1}A method library contains executable definitions}{71}{subsection.431}%
+\contentsline {subsection}{\numberline {XV.2}Source indexing and implemented mathematics have different scopes}{71}{subsection.432}%
+\contentsline {subsection}{\numberline {XV.3}Learning selects equivalent executed routes}{71}{subsection.433}%
+\contentsline {subsection}{\numberline {XV.4}Adaptive precision proposes work; the certificate accepts it}{72}{subsection.434}%
+\contentsline {subsection}{\numberline {XV.5}Exact inverse reconstruction preserves the requested target}{72}{subsection.435}%
+\contentsline {subsection}{\numberline {XV.6}A learned query changes how information is gathered}{73}{subsection.436}%
+\contentsline {subsection}{\numberline {XV.7}Persistent histories and language retain their own boundaries}{73}{subsection.437}%
+\contentsline {section}{\numberline {XVI}Exact Exchange and Symbolic Matter}{75}{section.438}%
+\contentsline {subsection}{\numberline {XVI.1}A local source becomes an interacting exact object}{75}{subsection.439}%
+\contentsline {subsection}{\numberline {XVI.2}The canonical quartic retains the actual source matrix}{75}{subsection.440}%
+\contentsline {subsection}{\numberline {XVI.3}The source extension supplies the exchange law}{75}{subsection.441}%
+\contentsline {subsection}{\numberline {XVI.4}A complete finite polynomial Bethe benchmark}{75}{subsection.442}%
+\contentsline {subsection}{\numberline {XVI.5}Exact representation structure closes length thirteen}{76}{subsection.444}%
+\contentsline {subsection}{\numberline {XVI.6}One retained exchange solution supports thirty two matter families}{76}{subsection.445}%
+\contentsline {subsection}{\numberline {XVI.7}Fusion and a conserved current connect composite channels}{77}{subsection.447}%
+\contentsline {subsection}{\numberline {XVI.8}The collective interaction preserves the exact family}{77}{subsection.448}%
+\contentsline {section}{\numberline {XVII}Exact Application Reuse in Matter and Learned Reconstruction}{78}{section.449}%
+\contentsline {subsection}{\numberline {XVII.1}A method becomes useful through its source contract}{78}{subsection.450}%
+\contentsline {subsection}{\numberline {XVII.2}Li-6 grammar retains the information in circulation}{78}{subsection.451}%
+\contentsline {subsection}{\numberline {XVII.3}Active probes resolve a family whose source action is tied}{78}{subsection.452}%
+\contentsline {subsection}{\numberline {XVII.4}The observer chooses distinct reports without retraining memory}{79}{subsection.453}%
+\contentsline {subsection}{\numberline {XVII.5}An exact symmetry accelerates full memory in a matter source}{79}{subsection.454}%
+\contentsline {subsection}{\numberline {XVII.6}Tau learns correspondence and training utility separately}{80}{subsection.455}%
+\contentsline {subsection}{\numberline {XVII.7}Matched fitting selects methods the information ranking did not}{80}{subsection.456}%
+\contentsline {subsection}{\numberline {XVII.8}The executable application survives its training session}{80}{subsection.457}%
+\contentsline {section}{\numberline {XVIII}Certified Source Integration and Retained Response}{82}{section.458}%
+\contentsline {subsection}{\numberline {XVIII.1}The source path precedes the numerical integral}{82}{subsection.459}%
+\contentsline {subsection}{\numberline {XVIII.2}Five original trajectories received the refined operands}{82}{subsection.466}%
+\contentsline {subsection}{\numberline {XVIII.3}A dependency graph can cross session boundaries}{83}{subsection.467}%
+\contentsline {subsection}{\numberline {XVIII.4}Source matrices become executable methods}{83}{subsection.468}%
+\contentsline {subsection}{\numberline {XVIII.5}A new edge observable enriches the receiver}{83}{subsection.472}%
+\contentsline {subsection}{\numberline {XVIII.6}The latest result and its separate endpoint comparisons}{84}{subsection.477}%
+\contentsline {subsection}{\numberline {XVIII.7}What becomes reusable across the volumes}{84}{subsection.479}%
+\contentsline {section}{\numberline {XIX}Signed Arithmetic Energy and Conditional Continuation}{85}{section.480}%
+\contentsline {subsection}{\numberline {XIX.1}Retaining the original full energy makes history computable}{85}{subsection.481}%
+\contentsline {subsection}{\numberline {XIX.2}Signed grouping retains the cancellations in the source}{85}{subsection.482}%
+\contentsline {subsection}{\numberline {XIX.3}Signed scale transport has an explicit arithmetic forcing}{85}{subsection.483}%
+\contentsline {subsection}{\numberline {XIX.4}Complete finite scans locate the excursions}{86}{subsection.484}%
+\contentsline {subsection}{\numberline {XIX.5}The current weighted state certifies a finite continuation}{86}{subsection.486}%
+\contentsline {subsection}{\numberline {XIX.6}A continuing estimate has a proved arithmetic consequence}{86}{subsection.488}%
+\contentsline {section}{\numberline {XX}Reciprocal History and the Completed Arithmetic Interface}{88}{section.489}%
+\contentsline {subsection}{\numberline {XX.1}Overview}{88}{subsection.490}%
+\contentsline {subsection}{\numberline {XX.2}Opening question and conceptual picture}{88}{subsection.491}%
+\contentsline {subsection}{\numberline {XX.3}The reciprocal-history object}{88}{subsection.492}%
+\contentsline {subsubsection}{\numberline {XX.3.1}Directed-edge state space}{88}{subsubsection.493}%
+\contentsline {subsubsection}{\numberline {XX.3.2}Reciprocal pairing}{89}{subsubsection.494}%
+\contentsline {subsubsection}{\numberline {XX.3.3}Why RH is not DOS}{89}{subsubsection.495}%
+\contentsline {subsection}{\numberline {XX.4}Executed stage chain and deviation}{89}{subsection.496}%
+\contentsline {subsubsection}{\numberline {XX.4.1}P0 through P1B}{89}{subsubsection.497}%
+\contentsline {subsubsection}{\numberline {XX.4.2}Preserved P2 direct failure}{89}{subsubsection.498}%
+\contentsline {subsubsection}{\numberline {XX.4.3}P2A successor: radix-12 first singularity}{89}{subsubsection.499}%
+\contentsline {subsubsection}{\numberline {XX.4.4}P2B successor: source grading}{89}{subsubsection.500}%
+\contentsline {subsection}{\numberline {XX.5}Accumulation to logarithmic translation}{90}{subsection.501}%
+\contentsline {subsubsection}{\numberline {XX.5.1}Field coordinate}{90}{subsubsection.502}%
+\contentsline {subsubsection}{\numberline {XX.5.2}Half-density}{90}{subsubsection.503}%
+\contentsline {subsubsection}{\numberline {XX.5.3}Endpoint operator}{90}{subsubsection.504}%
+\contentsline {subsection}{\numberline {XX.6}Completed arithmetic}{90}{subsection.505}%
+\contentsline {subsubsection}{\numberline {XX.6.1}Lambda and xi}{90}{subsubsection.506}%
+\contentsline {subsubsection}{\numberline {XX.6.2}Translation energy}{90}{subsubsection.507}%
+\contentsline {subsubsection}{\numberline {XX.6.3}Completed Weil form}{90}{subsubsection.508}%
+\contentsline {subsection}{\numberline {XX.7}Spectral and operational successors}{91}{subsection.509}%
+\contentsline {subsubsection}{\numberline {XX.7.1}P4 finite F81 route}{91}{subsubsection.510}%
+\contentsline {subsubsection}{\numberline {XX.7.2}P5A failed scale-extension route}{91}{subsubsection.511}%
+\contentsline {subsubsection}{\numberline {XX.7.3}Source-recorded RH native engine and retained moment oracle}{91}{subsubsection.512}%
+\contentsline {subsection}{\numberline {XX.8}Native mode-6 relational contact continuation}{91}{subsection.513}%
+\contentsline {subsubsection}{\numberline {XX.8.1}Preserved failures redirect the source comparison}{91}{subsubsection.514}%
+\contentsline {subsubsection}{\numberline {XX.8.2}Relational Schur law and intrinsic innovation}{91}{subsubsection.515}%
+\contentsline {subsubsection}{\numberline {XX.8.3}Particle spin, orbit wave and returning history}{91}{subsubsection.516}%
+\contentsline {subsection}{\numberline {XX.9}Four authority surfaces}{91}{subsection.517}%
+\contentsline {subsection}{\numberline {XX.10}Wrong controls and preserved boundaries}{92}{subsection.518}%
+\contentsline {subsection}{\numberline {XX.11}Established result and forward handoff}{92}{subsection.526}%
+\contentsline {subsection}{\numberline {XX.12}Sources and evidential scope}{92}{subsection.527}%
+\contentsline {subsection}{\numberline {XX.13}Results received, 22--24 October 2026: the original source's next transitions}{92}{subsection.528}%
+\contentsline {section}{\numberline {XXI}Signed Arithmetic Sources and Retained Transition Storage}{94}{section.529}%
+\contentsline {subsection}{\numberline {XXI.1}From the arithmetic interface to an executable source}{94}{subsection.530}%
+\contentsline {subsection}{\numberline {XXI.2}Exact range queries preserve the whole signed recipient}{94}{subsection.531}%
+\contentsline {subsection}{\numberline {XXI.3}A common grid separates arithmetic from geometric payments}{94}{subsection.532}%
+\contentsline {subsection}{\numberline {XXI.4}A determinant retains the transverse source direction}{95}{subsection.533}%
+\contentsline {subsection}{\numberline {XXI.5}The auxiliary inverse receives its whole complement}{95}{subsection.534}%
+\contentsline {subsection}{\numberline {XXI.6}An ordered Gram forest keeps both quadratures}{95}{subsection.535}%
+\contentsline {subsection}{\numberline {XXI.7}Paid subaccounts locate the cross-prime task}{96}{subsection.536}%
+\contentsline {subsection}{\numberline {XXI.8}The complete crossing has a signed rank-one payment}{96}{subsection.537}%
+\contentsline {subsection}{\numberline {XXI.9}Complete transition recipients and the retained boundary}{97}{subsection.538}%
+\contentsline {section}{\numberline {XXII}Prime Coordinates and Exact Mersenne Factors}{98}{section.539}%
+\contentsline {subsection}{\numberline {XXII.1}Overview}{98}{subsection.540}%
+\contentsline {subsection}{\numberline {XXII.2}Opening question and conceptual picture}{98}{subsection.541}%
+\contentsline {subsection}{\numberline {XXII.3}Informational radix with exact arithmetic custody}{98}{subsection.542}%
+\contentsline {subsubsection}{\numberline {XXII.3.1}The owner-defined role}{98}{subsubsection.543}%
+\contentsline {subsubsection}{\numberline {XXII.3.2}Orbit and harmony are typed terms}{99}{subsubsection.544}%
+\contentsline {subsection}{\numberline {XXII.4}Closed sphere and prime-only ruler}{99}{subsection.545}%
+\contentsline {subsubsection}{\numberline {XXII.4.1}Rational sphere chart}{99}{subsubsection.546}%
+\contentsline {subsubsection}{\numberline {XXII.4.2}Multiplicative actions and reversal}{99}{subsubsection.547}%
+\contentsline {subsubsection}{\numberline {XXII.4.3}Marks and adjacent cells}{99}{subsubsection.548}%
+\contentsline {subsection}{\numberline {XXII.5}Three reciprocal voices}{99}{subsection.549}%
+\contentsline {subsubsection}{\numberline {XXII.5.1}Native Lucas--Lehmer voice}{99}{subsubsection.550}%
+\contentsline {subsubsection}{\numberline {XXII.5.2}Candidate prime-mark voice}{100}{subsubsection.551}%
+\contentsline {subsubsection}{\numberline {XXII.5.3}Incoming transition beat}{100}{subsubsection.552}%
+\contentsline {subsection}{\numberline {XXII.6}Beats within beats}{100}{subsection.553}%
+\contentsline {subsubsection}{\numberline {XXII.6.1}Dyadic depth and delay}{100}{subsubsection.554}%
+\contentsline {subsubsection}{\numberline {XXII.6.2}Nested compiler}{100}{subsubsection.555}%
+\contentsline {subsection}{\numberline {XXII.7}Exact Mersenne factor certificate}{100}{subsection.556}%
+\contentsline {subsubsection}{\numberline {XXII.7.1}Deriving the candidate form}{100}{subsubsection.557}%
+\contentsline {subsubsection}{\numberline {XXII.7.2}Result-type boundary}{101}{subsubsection.558}%
+\contentsline {subsection}{\numberline {XXII.8}Executed discovery-to-compiler chain}{101}{subsection.559}%
+\contentsline {subsubsection}{\numberline {XXII.8.1}Object installation: MP-S0 through MP-S0B}{101}{subsubsection.560}%
+\contentsline {subsubsection}{\numberline {XXII.8.2}Harmony and transition discovery: MP-S1 through MP-S3}{101}{subsubsection.561}%
+\contentsline {subsubsection}{\numberline {XXII.8.3}Compilation and blind-range anatomy: MP-S4A/MP-S4B}{101}{subsubsection.562}%
+\contentsline {subsubsection}{\numberline {XXII.8.4}Structural scheduler: MP-S5}{101}{subsubsection.563}%
+\contentsline {subsubsection}{\numberline {XXII.8.5}Frontier deployment: MP-S6 through MP-S8}{101}{subsubsection.564}%
+\contentsline {subsection}{\numberline {XXII.9}Preserved direct-ranking failures and wrong controls}{101}{subsection.565}%
+\contentsline {subsubsection}{\numberline {XXII.9.1}M4 direct prime-sidecar ranking}{101}{subsubsection.566}%
+\contentsline {subsubsection}{\numberline {XXII.9.2}M4A candidate-local Theta18/W9 ranking}{101}{subsubsection.567}%
+\contentsline {subsubsection}{\numberline {XXII.9.3}Successor relationship}{102}{subsubsection.568}%
+\contentsline {subsection}{\numberline {XXII.10}Bounded CEV1/MP resumption and exact custody}{102}{subsection.569}%
+\contentsline {subsubsection}{\numberline {XXII.10.1}Native CEV1 MP domain}{102}{subsubsection.570}%
+\contentsline {subsubsection}{\numberline {XXII.10.2}MPV2 certified frontier and provenance firewall}{102}{subsubsection.571}%
+\contentsline {subsection}{\numberline {XXII.11}Established result and forward boundary}{103}{subsection.572}%
+\contentsline {subsection}{\numberline {XXII.12}Sources and evidential scope}{103}{subsection.580}%
+\contentsline {subsection}{\numberline {XXII.13}Results received, 20--21 October 2026: the FEOP local operator and the bound}{103}{subsection.581}%
+\contentsline {section}{\numberline {XXIII}Reusable Mersenne Certificates and Arithmetic Compiler Boundaries}{104}{section.582}%
+\contentsline {subsection}{\numberline {XXIII.1}A certificate is a reusable mathematical object}{104}{subsection.583}%
+\contentsline {subsection}{\numberline {XXIII.2}Certified support and shared premises}{104}{subsection.584}%
+\contentsline {subsection}{\numberline {XXIII.3}Exact bulk elimination retains its frontier}{104}{subsection.585}%
+\contentsline {subsection}{\numberline {XXIII.4}Learning work order without changing terminal mathematics}{104}{subsection.586}%
+\contentsline {subsection}{\numberline {XXIII.5}Inverse support and recursive certificate reduction}{105}{subsection.587}%
+\contentsline {subsection}{\numberline {XXIII.6}Shared powers and source-bound arithmetic plans}{105}{subsection.588}%
+\contentsline {subsection}{\numberline {XXIII.7}Exact skipping, measured acceleration and a retained near-tie}{105}{subsection.589}%
+\contentsline {subsection}{\numberline {XXIII.8}Jacobian compilers retain their source domain}{106}{subsection.590}%
+\contentsline {subsection}{\numberline {XXIII.9}What the arithmetic advances establish}{106}{subsection.591}%
+\contentsline {section}{\numberline {XXIV}Prime Event Computation and Microscopic Reliability}{107}{section.592}%
+\contentsline {subsection}{\numberline {XXIV.1}The event created sieve}{107}{subsection.593}%
+\contentsline {subsection}{\numberline {XXIV.2}The microscopic gate and its effective margins}{107}{subsection.594}%
+\contentsline {subsection}{\numberline {XXIV.3}Carrying microscopic state through the decision}{108}{subsection.595}%
+\contentsline {subsection}{\numberline {XXIV.4}Replay located a correctable microscopic weakness}{108}{subsection.596}%
+\contentsline {subsection}{\numberline {XXIV.5}The algebraically chosen successor}{108}{subsection.597}%
+\contentsline {subsection}{\numberline {XXIV.6}Completed billion index results}{108}{subsection.598}%
+\contentsline {subsection}{\numberline {XXIV.7}How retained history changes a later input}{109}{subsection.600}%
+\contentsline {subsection}{\numberline {XXIV.8}Statistical and state aware explanations of the reliability scale}{109}{subsection.601}%
+\contentsline {subsection}{\numberline {XXIV.9}Resource comparisons make the design conclusion precise}{109}{subsection.602}%
+\contentsline {subsection}{\numberline {XXIV.10}Validation and what the retained records support}{110}{subsection.604}%
+\contentsline {section}{\numberline {XXV}Prime Event Continuation and Retained Clocks}{111}{section.605}%
+\contentsline {subsection}{\numberline {XXV.1}Source support and driven history before the feedback successor}{111}{subsection.606}%
+\contentsline {subsection}{\numberline {XXV.2}A measured bridge from exact graph responses}{111}{subsection.607}%
+\contentsline {subsection}{\numberline {XXV.3}Uniform leakage improvement and the first-error theorem}{112}{subsection.608}%
+\contentsline {subsection}{\numberline {XXV.4}Raw execution, exact continuation and resource evidence}{113}{subsection.609}%
+\contentsline {subsection}{\numberline {XXV.5}Native clocks retain information beyond accepted indices}{113}{subsection.610}%
+\contentsline {subsection}{\numberline {XXV.6}An accurate event quotient can omit clock memory}{114}{subsection.611}%
+\contentsline {subsection}{\numberline {XXV.7}What has been established, and the next source-bound join}{114}{subsection.612}%
+\contentsline {section}{\numberline {XXVI}Jacobian Maps, Return and Retained History}{116}{section.613}%
+\contentsline {subsection}{\numberline {XXVI.1}Overview}{116}{subsection.614}%
+\contentsline {subsection}{\numberline {XXVI.2}Placement, question and authority}{116}{subsection.615}%
+\contentsline {subsubsection}{\numberline {XXVI.2.1}Governing question}{116}{subsubsection.616}%
+\contentsline {subsubsection}{\numberline {XXVI.2.2}Current placement}{117}{subsubsection.617}%
+\contentsline {subsection}{\numberline {XXVI.3}Exact JC1 source algebra}{117}{subsection.618}%
+\contentsline {subsubsection}{\numberline {XXVI.3.1}Polynomial map and constant Jacobian}{117}{subsubsection.619}%
+\contentsline {subsubsection}{\numberline {XXVI.3.2}Elimination chart}{117}{subsubsection.620}%
+\contentsline {subsubsection}{\numberline {XXVI.3.3}Exact calibration and loss fibers}{117}{subsubsection.621}%
+\contentsline {subsection}{\numberline {XXVI.4}Monodromy from the fiber}{117}{subsection.622}%
+\contentsline {subsubsection}{\numberline {XXVI.4.1}Frozen slice}{117}{subsubsection.623}%
+\contentsline {subsubsection}{\numberline {XXVI.4.2}Loop continuation}{118}{subsubsection.624}%
+\contentsline {subsection}{\numberline {XXVI.5}Exact Write compilation and retained history}{118}{subsection.625}%
+\contentsline {subsubsection}{\numberline {XXVI.5.1}Theta18 event map}{118}{subsubsection.626}%
+\contentsline {subsubsection}{\numberline {XXVI.5.2}Ordered receipt construction}{118}{subsubsection.627}%
+\contentsline {subsubsection}{\numberline {XXVI.5.3}JC1 result and boundary}{118}{subsubsection.628}%
+\contentsline {subsection}{\numberline {XXVI.6}Preserved HF1--HF6TH lineage}{118}{subsection.629}%
+\contentsline {subsubsection}{\numberline {XXVI.6.1}HF1: reducer foundation}{118}{subsubsection.630}%
+\contentsline {subsubsection}{\numberline {XXVI.6.2}HF2: chosen local \texttt {Z4\^{}2} grammar}{119}{subsubsection.631}%
+\contentsline {subsubsection}{\numberline {XXVI.6.3}HF3/HF4: nonproper obstruction and exact regular cell}{119}{subsubsection.632}%
+\contentsline {subsubsection}{\numberline {XXVI.6.4}HF5 and HF5A: selected-sheet fill versus global sheet custody}{119}{subsubsection.633}%
+\contentsline {subsubsection}{\numberline {XXVI.6.5}HF6 and the path-specific correction}{119}{subsubsection.634}%
+\contentsline {subsubsection}{\numberline {XXVI.6.6}HF6T/HF6TF: blinded jet rule and transfer boundary}{119}{subsubsection.635}%
+\contentsline {subsubsection}{\numberline {XXVI.6.7}HF6TG/HF6TH: Newton signature and mixed-jet compiler}{120}{subsubsection.636}%
+\contentsline {subsection}{\numberline {XXVI.7}What the legacy lineage does and does not install}{120}{subsection.637}%
+\contentsline {subsection}{\numberline {XXVI.8}Clean restart: frozen method, no execution}{120}{subsection.641}%
+\contentsline {subsubsection}{\numberline {XXVI.8.1}Premise firewall}{120}{subsubsection.642}%
+\contentsline {subsubsection}{\numberline {XXVI.8.2}Stage sequence}{120}{subsubsection.643}%
+\contentsline {subsubsection}{\numberline {XXVI.8.3}Candidate-invariant contract}{120}{subsubsection.644}%
+\contentsline {subsubsection}{\numberline {XXVI.8.4}Current status}{121}{subsubsection.645}%
+\contentsline {subsection}{\numberline {XXVI.9}Future matter-bridge boundary}{121}{subsection.646}%
+\contentsline {subsection}{\numberline {XXVI.10}Established result and forward handoff}{121}{subsection.651}%
+\contentsline {subsection}{\numberline {XXVI.11}Sources and evidential scope}{121}{subsection.652}%
+\contentsline {section}{\numberline {XXVII}Relational Composition and the Boundary of the Volume}{122}{section.653}%
+\contentsline {subsection}{\numberline {XXVII.1}Orientation}{122}{subsection.654}%
+\contentsline {subsection}{\numberline {XXVII.2}Established inputs and new principle}{122}{subsection.655}%
+\contentsline {subsubsection}{\numberline {XXVII.2.1}Established inputs}{122}{subsubsection.656}%
+\contentsline {subsubsection}{\numberline {XXVII.2.2}Owner-originated Nonzero Amplification Principle}{122}{subsubsection.657}%
+\contentsline {subsection}{\numberline {XXVII.3}The information-bearing substrate}{122}{subsection.664}%
+\contentsline {subsection}{\numberline {XXVII.4}Exact composition rather than point-particle messaging}{123}{subsection.665}%
+\contentsline {subsection}{\numberline {XXVII.5}One recursive bridge across three scales}{123}{subsection.666}%
+\contentsline {subsubsection}{\numberline {XXVII.5.1}Quantum to macroscopic}{123}{subsubsection.667}%
+\contentsline {subsubsection}{\numberline {XXVII.5.2}Earth to Moon}{123}{subsubsection.668}%
+\contentsline {subsubsection}{\numberline {XXVII.5.3}Stars to galaxy}{123}{subsubsection.669}%
+\contentsline {subsection}{\numberline {XXVII.6}Technical continuation}{123}{subsection.670}%
+\contentsline {subsection}{\numberline {XXVII.7}Relational interaction and completed composition}{123}{subsection.678}%
+\contentsline {subsection}{\numberline {XXVII.8}Orientation}{123}{subsection.679}%
+\contentsline {subsection}{\numberline {XXVII.9}Inventory and interaction are differently typed}{124}{subsection.680}%
+\contentsline {subsection}{\numberline {XXVII.10}Separation changes the completed write}{124}{subsection.681}%
+\contentsline {subsubsection}{\numberline {XXVII.10.1}Distant state}{124}{subsubsection.682}%
+\contentsline {subsubsection}{\numberline {XXVII.10.2}Nearby orbiting state}{124}{subsubsection.683}%
+\contentsline {subsection}{\numberline {XXVII.11}Many-body amplification}{124}{subsection.684}%
+\contentsline {subsection}{\numberline {XXVII.12}ATOM3D consequence}{124}{subsection.687}%
+\contentsline {subsection}{\numberline {XXVII.13}RH consequence}{124}{subsection.688}%
+\contentsline {subsection}{\numberline {XXVII.14}Technical continuation}{125}{subsection.689}%
+\contentsline {subsection}{\numberline {XXVII.15}Sources and evidential scope}{125}{subsection.696}%
+\contentsline {section}{\numberline {XXVIII}Computational Interfaces Across the Three Volumes}{126}{section.697}%
+\contentsline {subsection}{\numberline {XXVIII.1}What crosses an interface}{126}{subsection.698}%
+\contentsline {subsection}{\numberline {XXVIII.2}Volume I: source time, retained records and actual readouts}{126}{subsection.700}%
+\contentsline {subsection}{\numberline {XXVIII.3}Volume II: exact phase sources and complete material receivers}{126}{subsection.701}%
+\contentsline {subsection}{\numberline {XXVIII.4}Volume III: several useful kinds of exact object}{127}{subsection.702}%
+\contentsline {subsection}{\numberline {XXVIII.5}The record carried into the next three-volume pass}{127}{subsection.703}%
+\contentsline {part}{Part 2: The exact engine, GEN6 and the Duck, as installed on 25 October 2026}{128}{section*.704}%
+\contentsline {section}{Scope of this part}{129}{section*.705}%
+\contentsline {section}{\numberline {I}What the engine is for}{130}{section.706}%
+\contentsline {section}{\numberline {II}Lineage of the exact engine, August to October 2026}{131}{section.707}%
+\contentsline {section}{\numberline {III}The SLC today: SLC-GEN5-R1}{133}{section.708}%
+\contentsline {subsection}{\numberline {III.1}III.1 The session and its contract}{133}{subsection.709}%
+\contentsline {subsection}{\numberline {III.2}III.2 The operation families used by the research}{133}{subsection.710}%
+\contentsline {subsection}{\numberline {III.3}III.3 The mathematical library and the frozen releases}{133}{subsection.712}%
+\contentsline {section}{\numberline {IV}GEN6: the one-principle core and its adapter}{135}{section.713}%
+\contentsline {subsection}{\numberline {IV.1}IV.1 The sealed core and its successors}{135}{subsection.714}%
+\contentsline {subsection}{\numberline {IV.2}IV.2 What ``compile, do not compute'' means}{135}{subsection.715}%
+\contentsline {subsection}{\numberline {IV.3}IV.3 The constructions a run can use}{135}{subsection.716}%
+\contentsline {subsection}{\numberline {IV.4}IV.4 The feedback clock, as an example of a construction's anatomy}{136}{subsection.717}%
+\contentsline {section}{\numberline {V}The Duck: name, lineage and the road to version 2}{137}{section.718}%
+\contentsline {subsection}{\numberline {V.1}V.1 From Furious Wildfowl to Duck (22 September -- 1 October)}{137}{subsection.719}%
+\contentsline {subsection}{\numberline {V.2}V.2 Model peers, controllers, and the twelve-Duck recipe (9--10 October)}{137}{subsection.720}%
+\contentsline {subsection}{\numberline {V.3}V.3 Native controllers and the Codex era (11--17 October)}{137}{subsection.721}%
+\contentsline {subsection}{\numberline {V.4}V.4 ironclad phases B to E (17--19 October)}{137}{subsection.722}%
+\contentsline {subsection}{\numberline {V.5}V.5 The peer recipe restored; Duck 2.0 (19 October)}{137}{subsection.723}%
+\contentsline {subsection}{\numberline {V.6}V.6 Versions 2.0.1 to 2.3.1 (20 October)}{137}{subsection.724}%
+\contentsline {section}{\numberline {VI}The refined Duck method (2.3.1)}{139}{section.726}%
+\contentsline {subsection}{\numberline {VI.1}VI.1 Roles}{139}{subsection.727}%
+\contentsline {subsection}{\numberline {VI.2}VI.2 The window}{139}{subsection.728}%
+\contentsline {subsection}{\numberline {VI.3}VI.3 Submissions, dependencies and causality}{139}{subsection.729}%
+\contentsline {subsection}{\numberline {VI.4}VI.4 Modes, index and topology}{139}{subsection.730}%
+\contentsline {subsection}{\numberline {VI.5}VI.5 Retention and conclusion}{139}{subsection.731}%
+\contentsline {subsection}{\numberline {VI.6}VI.6 Change control}{140}{subsection.732}%
+\contentsline {subsection}{\numberline {VI.7}VI.7 The learning rule}{140}{subsection.733}%
+\contentsline {section}{\numberline {VII}Capabilities, limits and known defects}{141}{section.734}%
+\contentsline {subsection}{\numberline {VII.1}VII.1 What a run can do}{141}{subsection.735}%
+\contentsline {subsection}{\numberline {VII.2}VII.2 Limits, as the peers met them}{141}{subsection.736}%
+\contentsline {subsection}{\numberline {VII.3}VII.3 Known defects and their status}{141}{subsection.737}%
+\contentsline {section}{\numberline {VIII}Connections to Volumes I, II and III}{142}{section.738}%
+\contentsline {subsection}{\numberline {VIII.1}VIII.1 Volume I: substrate and accumulation}{142}{subsection.739}%
+\contentsline {subsection}{\numberline {VIII.2}VIII.2 Volume II: matter, spin sources and retained memory}{142}{subsection.740}%
+\contentsline {subsection}{\numberline {VIII.3}VIII.3 Volume III: computation and reciprocal history}{142}{subsection.741}%
+\contentsline {section}{\numberline {IX}Collaborative work: nine runs and one release}{143}{section.742}%
+\contentsline {subsection}{\numberline {IX.1}IX.1 peer\_restore\_next (19 October, 22:00Z): the recipe works with Claude peers}{143}{subsection.743}%
+\contentsline {subsection}{\numberline {IX.2}IX.2 aq\_identification and resting\_clock (19 October, evening): locating Volume I's fork}{143}{subsection.744}%
+\contentsline {subsection}{\numberline {IX.3}IX.3 feop\_bound\_c02, its blind replication and its 2.0.1 control (20 October, 04:25Z onward)}{143}{subsection.745}%
+\contentsline {subsection}{\numberline {IX.4}IX.4 feop\_sidebyside and feop\_bracket\_fiber (20 October, 06:06Z and 06:49Z): past the 64-row limit without a program change}{143}{subsection.746}%
+\contentsline {subsection}{\numberline {IX.5}IX.5 voli\_lapse (20 October, 08:08Z): the run that changed the method}{143}{subsection.747}%
+\contentsline {subsection}{\numberline {IX.6}IX.6 explore\_voli\_threads\_2 (20 October, 22:22Z): exploration from the owner's material}{144}{subsection.748}%
+\contentsline {subsection}{\numberline {IX.7}IX.7 spin\_work\_1 (20 October, 22:46Z): the gain follows the ceiling once the family is widened}{144}{subsection.749}%
+\contentsline {subsection}{\numberline {IX.8}IX.8 The feedback clock release (20 October): specification by the owner, prototype in the sandbox, fixture before install}{144}{subsection.750}%
+\contentsline {subsection}{\numberline {IX.9}IX.9 What the collaboration looks like from inside a window}{144}{subsection.751}%
+\contentsline {section}{\numberline {X}Lessons of method}{145}{section.752}%
+\contentsline {section}{\numberline {XI}Status, limits and what is not decided}{146}{section.763}%
+\contentsline {section}{\numberline {XII}Continuation to the 25 October 2026 state}{147}{section.764}%
+\contentsline {subsection}{\numberline {XII.1}Chapter IX continued --- the runs and releases of 21--25 October 2026}{147}{subsection.765}%
+\contentsline {subsection}{\numberline {XII.2}Chapter VII addendum --- limits and defects found 21--25 October}{147}{subsection.767}%
+\contentsline {subsection}{\numberline {XII.3}Chapter X continued --- lessons 11--18}{147}{subsection.768}%
+\contentsline {subsection}{\numberline {XII.4}Chapter XI --- status at 25 October 2026}{149}{subsection.777}%
+\contentsline {section}{Record of sources (Part 2)}{149}{subsection.777}%
+\contentsline {section}{Reproducibility and source register}{150}{section*.778}%
+\contentsline {paragraph}{Chapter I source manuscripts.}{150}{paragraph*.779}%

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.10.25)  25 OCT 2026 13:31
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.10.25)  25 OCT 2026 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1616,12 +1616,14 @@ Underfull \hbox (badness 1584) in paragraph at lines 623--626
 []\T1/ptm/m/n/10 Identify the P2 his-tory co-ef-fi-cient di-rectly with the
  []
 
-) (./arithmetic_01.tex [92]
+) (./arithmetic_01.tex [92] [93
+
+]
 Underfull \hbox (badness 1127) in paragraph at lines 4--4
 |[]\T1/ptm/b/n/10 From the arith-metic in-ter-face to an ex-e-cutable
  []
 
-[93
+[94
 
 
 ]
@@ -1655,7 +1657,7 @@ Underfull \hbox (badness 4120) in paragraph at lines 232--240
 /m/n/10 . The rank-40 half-pole cal-cu-la-tion
  []
 
-[94]
+[95]
 Underfull \hbox (badness 1117) in paragraph at lines 327--332
 \T1/ptm/m/n/10 product pay-ment. At $\OML/ztmcm/m/it/10 " \OT1/ztmcm/m/n/10 = 1
 \OML/ztmcm/m/it/10 =\OT1/ztmcm/m/n/10 2$\T1/ptm/m/n/10 , an el-e-men-tary up-pe
@@ -1668,7 +1670,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 395--404
 tmcm/m/it/10 `[]$ \T1/ptm/m/n/10 is
  []
 
-[95]
+[96]
 Underfull \hbox (badness 10000) in paragraph at lines 415--423
 \T1/ptm/m/n/10 Native com-po-si-tion re-tains the full mixed Gram
  []
@@ -1706,7 +1708,7 @@ Underfull \hbox (badness 1102) in paragraph at lines 438--438
 |[]\T1/ptm/b/n/10 Complete tran-si-tion re-cip-i-ents and the re-tained
  []
 
-) (./body10.tex [96
+) (./body10.tex [97
 
 ]
 Underfull \hbox (badness 1527) in paragraph at lines 24--31
@@ -1718,15 +1720,15 @@ Underfull \hbox (badness 4505) in paragraph at lines 125--126
 []\T1/ptm/m/n/10 factor as-signed OR fi-nite miss re-mains PRI-MAL-
  []
 
-[97
+[98
 
 
-] [98]
+] [99]
 Underfull \hbox (badness 1127) in paragraph at lines 356--358
 []\T1/ptm/m/n/10 This ob-ject records change be-tween con-sec-u-tive prime
  []
 
-[99]
+[100]
 Underfull \hbox (badness 3199) in paragraph at lines 499--501
 []\T1/ptm/b/n/10 exact Lucas--Lehmer ter-mi-nal. \T1/ptm/m/n/10 Au-tho-rized ty
 pe:
@@ -1742,7 +1744,7 @@ Underfull \hbox (badness 1635) in paragraph at lines 542--542
 |[]\T1/ptm/b/n/10 Compilation and blind-range anatomy: MP-
  []
 
-[100]
+[101]
 Underfull \hbox (badness 1910) in paragraph at lines 703--706
 []\T1/ptm/m/n/10 the ac-tive re-mote M143064041 power-9 run is not
  []
@@ -1768,14 +1770,14 @@ Underfull \hbox (badness 1199) in paragraph at lines 761--767
 []\T1/ptm/m/n/10 Topology-derived end-point ob-ser-va-tion is in-stalled, but
  []
 
-[101]) (./arithmetic_02.tex [102
+[102]) (./arithmetic_02.tex [103
 
 ]
 Underfull \hbox (badness 7203) in paragraph at lines 90--99
 []\T1/ptm/m/n/10 The staged p2--p292 work-load com-bines composite-
  []
 
-[103
+[104
 
 
 ]
@@ -1805,12 +1807,12 @@ Underfull \hbox (badness 4254) in paragraph at lines 209--209
 |[]\T1/ptm/b/n/10 Shared pow-ers and source-bound arith-metic
  []
 
-[104]
+[105]
 Underfull \hbox (badness 2057) in paragraph at lines 318--332
 \T1/ptm/m/n/10 premises; RH trees con-sume the orig-i-nal signed co-ef-fi-
  []
 
-) (./prime_main.tex [105]
+) (./prime_main.tex [106]
 Overfull \hbox (22.98012pt too wide) detected at line 25
 \OML/ztmcm/m/it/10 F\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 e \OMS/ztmcm/m/n/10 j
  \OML/ztmcm/m/it/10 r[]; r[]\OT1/ztmcm/m/n/10 ) = \OMS/ztmcm/m/n/10 ^^@ [] []f\
@@ -1831,7 +1833,7 @@ Underfull \hbox (badness 4366) in paragraph at lines 35--36
 []\T1/ptm/m/n/10 For the base-line u=4 and t=2, the co-ef-fi-cients are
  []
 
-[106
+[107
 
 
 ]
@@ -1845,7 +1847,7 @@ Underfull \hbox (badness 2237) in paragraph at lines 45--46
 []\T1/ptm/m/n/10 The fi-nal sam-pled state ini-tial-izes the next can-di-date
  []
 
-[107]
+[108]
 Underfull \hbox (badness 7433) in paragraph at lines 106--107
 \T1/ptm/m/n/10 A base-line pro-file pair ex-poses a con-crete feed-back
  []
@@ -1920,7 +1922,7 @@ Underfull \hbox (badness 1253) in paragraph at lines 124--125
 \T1/ptm/m/n/10 are di-men-sion-less source-strength con-ven-tions; no de-vice
  []
 
-[108]) (./prime_continuation.tex [109]
+[109]) (./prime_continuation.tex [110]
 Overfull \hbox (43.15865pt too wide) detected at line 15
 \OML/ztmcm/m/it/10 a\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 ^^L; u\OT1/ztmcm/m/n/
 10 ) = []\OML/ztmcm/m/it/10 ;  b\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 ^^L; t\OT
@@ -1937,7 +1939,7 @@ Underfull \hbox (badness 1163) in paragraph at lines 24--25
 \T1/ptm/m/n/10 or-der-ing, tem-per-a-ture, source point-ers and aliases. The
  []
 
-[110
+[111
 
 
 ]
@@ -1957,7 +1959,7 @@ Underfull \hbox (badness 1584) in paragraph at lines 70--72
 \T1/ptm/m/n/10 through all three read-ings. It es-tab-lishes ex-act-ness for
  []
 
-[111]
+[112]
 Underfull \hbox (badness 1953) in paragraph at lines 84--85
 \T1/ptm/m/n/10 events and zero er-rors. Resident-reference, continuous-
  []
@@ -1978,7 +1980,7 @@ Underfull \hbox (badness 1048) in paragraph at lines 92--93
 m/m/n/10 , $\OT1/ztmcm/m/n/10 2[]379[]059[]006[]438$ \T1/ptm/m/n/10 and
  []
 
-[112]
+[113]
 Underfull \hbox (badness 2913) in paragraph at lines 118--119
 \T1/ptm/m/n/10 put $\OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 1$ \T1/ptm/m/n/10 an
 d have ac-cep-tance mass $\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n
@@ -2009,9 +2011,9 @@ Underfull \hbox (badness 1584) in paragraph at lines 143--145
 
  []
 
-) (./body11.tex [113] [114
+) (./body11.tex [114] [115
 
-] [115
+] [116
 
 
 ]
@@ -2019,7 +2021,7 @@ Underfull \hbox (badness 1057) in paragraph at lines 294--295
 []\T1/ptm/m/n/10 Those branches es-cape with mag-ni-tude pro-por-tional to
  []
 
-[116]
+[117]
 Underfull \hbox (badness 10000) in paragraph at lines 430--433
 []\T1/ptm/m/n/10 This di-rectly joins the append-only reel of
  []
@@ -2029,7 +2031,7 @@ Underfull \hbox (badness 1005) in paragraph at lines 430--433
 \T1/ptm/m/n/10 rier, in-ter-sec-tion or mat-ter ledger con-sumes the full JC1
  []
 
-[117]
+[118]
 Underfull \hbox (badness 2261) in paragraph at lines 501--505
 []\T1/ptm/m/n/10 Two im-ple-men-ta-tion at-tempts are pre-served: NumPy-
  []
@@ -2039,7 +2041,7 @@ Underfull \hbox (badness 1127) in paragraph at lines 568--568
 |[]\T1/ptm/b/n/10 HF6T/HF6TF: blinded jet rule and trans-fer
  []
 
-[118]
+[119]
 Underfull \hbox (badness 1642) in paragraph at lines 610--617
 \T1/ptm/m/n/10 u-lar cy-cle types re-con-struct. A re-peated edge re-mains
  []
@@ -2059,7 +2061,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 715--720
 \T1/ptm/m/n/10 or bound-ary: rediscovered/compatible/scaffold-
  []
 
-[119]
+[120]
 Underfull \hbox (badness 2368) in paragraph at lines 791--796
 \T1/ptm/m/n/10 The es-tab-lished cur-rent re-sult is the iso-lated JC1 al-ge-
  []
@@ -2074,7 +2076,7 @@ Underfull \hbox (badness 1622) in paragraph at lines 797--801
 []\T1/ptm/m/n/10 The next math-e-mat-i-cal step is the un-ex-e-cuted source-
  []
 
-) (./body12.tex [120
+) (./body12.tex [121
 
 ]
 Underfull \hbox (badness 1199) in paragraph at lines 19--24
@@ -2096,7 +2098,7 @@ Underfull \hbox (badness 1708) in paragraph at lines 78--79
 \T1/ptm/b/n/10 macro-scopic and galac-tic ac-cu-mu-la-tion struc-
  []
 
-[121
+[122
 
 
 ]
@@ -2109,7 +2111,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--182
 []\T1/ptm/m/n/10 their source-conditioned do-mains over-lap in the
  []
 
-[122]
+[123]
 Underfull \hbox (badness 1412) in paragraph at lines 345--349
 \T1/ptm/m/n/10 The two source-conditioned writes are car-ried sep-a-rately.
  []
@@ -2119,19 +2121,19 @@ Underfull \hbox (badness 1062) in paragraph at lines 402--408
 \T1/ptm/m/n/10 through counts, in-de-pen-dent re-la-tion rows and sep-a-rately
  []
 
-[123]
+[124]
 Underfull \hbox (badness 1460) in paragraph at lines 467--470
 []\T1/ptm/m/n/10 Determine which in-ter-ac-tion data se-lects or re-duces
  []
 
-) (./connections_01.tex [124
+) (./connections_01.tex [125
 
-] [125
+] [126
 
 
-]) [126
+]) [127
 
-] [127
+] [128
 
 
 ] (./engine_part2.tex
@@ -2139,9 +2141,9 @@ Underfull \hbox (badness 1460) in paragraph at lines 467--470
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 2.
 
-[128
+[129
 
-] [129
+] [130
 
 
 
@@ -2167,15 +2169,15 @@ Underfull \hbox (badness 4927) in paragraph at lines 68--73
  []
 
 Missing character: There is no − ("2212) in font ptmr8t!
-[130
+[131
 
-
-] [131
 
 ] [132
 
-
 ] [133
+
+
+] [134
 
 ]
 Missing character: There is no − ("2212) in font ptmr8t!
@@ -2207,15 +2209,15 @@ Missing character: There is no − ("2212) in font ptmr8t!
 Missing character: There is no ᵀ ("1D40) in font ptmr8t!
 Missing character: There is no ᵀ ("1D40) in font ptmr8t!
 Missing character: There is no Γ ("393) in font ptmr8t!
-[134
+[135
 
-
-] [135
 
 ] [136
 
+] [137
 
-] [137]
+
+] [138]
 Underfull \hbox (badness 1014) in paragraph at lines 345--350
 \T1/ptm/m/n/10 One ad-mis-sion win-dow, 900 sec-onds by de-fault, opened
  []
@@ -2226,10 +2228,10 @@ Underfull \hbox (badness 1454) in paragraph at lines 345--350
 /n/10 and closed by $\T1/pcr/m/n/10 R O U N
  []
 
-[138
+[139
 
 
-] [139
+] [140
 
 ]
 Missing character: There is no ≤ ("2264) in font ptmr8t!
@@ -2249,7 +2251,7 @@ Underfull \hbox (badness 1205) in paragraph at lines 419--422
 \T1/ptm/m/n/10 rank of an ex-actly rank-deficient ma-trix may re-turn
  []
 
-[140
+[141
 
 
 ]
@@ -2274,7 +2276,7 @@ Missing character: There is no − ("2212) in font ptmr8t!
 Missing character: There is no √ ("221A) in font ptmr8t!
 Missing character: There is no Γ ("393) in font ptmr8t!
 Missing character: There is no τ ("3C4) in font ptmr8t!
-[141
+[142
 
 
 ]
@@ -2301,7 +2303,7 @@ Missing character: There is no ⁴ ("2074) in font ptmr8t!
 Missing character: There is no ⁷ ("2077) in font ptmr8t!
 Missing character: There is no ₀ ("2080) in font ptmr8t!
 Missing character: There is no π ("3C0) in font ptmr8t!
-[142
+[143
 
 
 ]
@@ -2312,7 +2314,7 @@ Missing character: There is no → ("2192) in font ptmr8t!
 Missing character: There is no κ ("3BA) in font ptmr8t!
 Missing character: There is no √ ("221A) in font ptmr8t!
 Missing character: There is no Γ ("393) in font ptmr8t!
-[143] [144
+[144] [145
 
 
 
@@ -2324,7 +2326,7 @@ Underfull \hbox (badness 2181) in paragraph at lines 614--617
 
 Missing character: There is no √ ("221A) in font ptmr8t!
 Missing character: There is no Γ ("393) in font ptmr8t!
-[145
+[146
 
 
 
@@ -2400,10 +2402,10 @@ Underfull \hbox (badness 1436) in paragraph at lines 742--745
 \T1/ptm/m/n/10 adapter be-fore de-ploy-ing; a re-fused open-ing in the
  []
 
-[146
+[147
 
 
-] [147]
+] [148]
 Underfull \hbox (badness 3039) in paragraph at lines 748--750
 []\T1/ptm/b/n/10 Size ex-act tasks for the win-dow \T1/ptm/m/n/10 (pro-posed af
 -ter
@@ -2476,12 +2478,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 787--788
 \T1/ptm/m/n/10 GEN4/duck_process1/RUN_CYCLE.md;
  []
 
-) [148] (./source_register.tex [149
+) [149] (./source_register.tex [150
 
 
 
 
-] [150] [151] [152]) [153] (./book.aux)
+] [151] [152] [153]) [154] (./book.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -2496,6 +2498,6 @@ Here is how much of TeX's memory you used:
  38372 multiletter control sequences out of 15000+600000
  621929 words of font info for 141 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 77i,14n,82p,1892b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,14n,82p,2329b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on book.pdf (153 pages).
+Output written on book.pdf (154 pages).
