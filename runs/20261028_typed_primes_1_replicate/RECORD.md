@@ -18,3 +18,5 @@
 - **Independence (CLAUDE.md §8):** none; all code by Claude instances. The two windows are independent of each other (the second saw nothing of the first). Nothing is a claim; no statement about RH.
 
 Directed by Sean Brady. Executed with Claude Code. AI-assisted writing.
+
+- **Correction, 2026-10-28 (appended):** the statement above that research mode "returned nothing" is wrong. Counted from the retrieval receipts, the four queries matched 0, 12, 0, 0 records (the Mersenne / Lucas–Lehmer query at the 12-record cap) in this window and in the replicate alike; rh_window_1 matched 24. The matches are the project's own retained pages and no peer used them, so the operational conclusion stands. ironclad CORRECTION entry H002787; counts in `campaigns/typed_primes_1_20261028/RESEARCH_MATCHES.json`.
