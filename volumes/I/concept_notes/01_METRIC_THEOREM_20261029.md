@@ -27,7 +27,7 @@ which is Schwarzschild's metric in its own coordinates. Consequently:
 3. Light deflection at the solar limb (1+γ)/2 × 4GM/(c²R_⊙) = 1.7512″.
 4. Shapiro delay, one way: (1+γ)GM/c³ × ln(…) with (1+γ)GM/c³ = 9.851 µs; this is Chapter IV's road operator c⁻¹∫a dℓ at γ = 1. Cassini: γ − 1 = (2.1 ± 2.3)×10⁻⁵ (Bertotti, Iess, Tortora 2003), read here as κ_s − 1.
 5. Perihelion advance (2+2γ−β)/3 × 6πGM/(c²a(1−e²)) per orbit: 42.98″ per century for Mercury, the factor equal to 1.
-6. Geodetic precession (1+2γ)/3 × (3/2)(GM_⊕)^{3/2}/(c² r^{5/2}): 6606 mas/yr at Gravity Probe B's semimajor axis of 7027.4 km (measured 6601.8 ± 18.3; at mean Earth radius plus 642 km the same formula gives 6638, the number the case's sealed input produced before the orbit was corrected, kept on record).
+6. Geodetic precession (1+2γ)/3 × (3/2)(GM_⊕)^{3/2}/(c² r^{5/2}): 6604 mas/yr at Gravity Probe B's semimajor axis of 7027.4 km (the mission's full prediction 6606.1 adds small orbit-shape and solar terms; measured 6601.8 ± 18.3). At mean Earth radius plus 642 km the same formula gives 6638, the number the case's sealed input produced before the orbit was corrected; both rows are kept on record.
 
 Controls (computed): γ = ½ gives 1.3134″ and 7.388 µs; β = 2 gives 28.65″ per century. The numbers depend on the readings.
 
