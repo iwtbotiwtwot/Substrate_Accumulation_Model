@@ -8,7 +8,7 @@ A clock in the halo has two reasons to run slow: where it sits and how fast it m
 
 Where the clock stops is the line a + β² = 1. Light lives on that line with zero proper time: its coordinate speed in the halo is β² = 1 − a, which is the c_eff reading again. Mass alone reaches the line at a = 1, the end of the road; speed alone reaches it at β = 1. In SAM's words, velocity adds to accumulation, and closure is one line reached two ways.
 
-The caveat is the most important sentence in the note. β is velocity relative to the frame in which the field is static, not velocity through the floor. If it were velocity through the floor, Earth's 370 km/s against the microwave background would offset every GPS clock by 66 milliseconds a day and modulate it through the year by 21 milliseconds a day, some ten million times what GPS timing tolerates. The term is absent. So the floor, having no gradient, defines no rest frame, and the formula is reciprocal: two observers in relative motion each read the other's accumulation raised by β², and neither is "really" moving.
+The caveat. β is velocity relative to the frame in which the field is static. In SAM this follows from what the floor is, not from a measurement: the floor is the minimum value for space itself to exist, a constant everywhere, and a constant has no gradient no matter how large it is, so there is nothing in it for a speed to be measured against. Only differences in A act, and A₀ (about 0.027) is enormous beside the Earth's lift (about 1.4×10⁻⁹) without doing anything by itself. Nor is the Earth ever at the floor: the Earth, the Sun and the Milky Way all produce accumulation, and the floor stands alone only in the vastest empty regions. The counterfactual below (a clock term in the speed relative to some cosmic rest frame) is therefore a hypothesis SAM does not make; it is computed as a control, to show what the clocks would see if someone proposed it. They would see 66 milliseconds a day of offset and a 21-millisecond yearly wobble, ten million times what GPS tolerates. The term is absent, as SAM says it must be. The formula is reciprocal: two observers in relative motion each read the other's accumulation raised by β², and neither is "really" moving. (Correction, 2026-10-30: the first draft of this paragraph spoke of 'velocity through the floor' as if the floor were a medium one moves through; that was the lead's framing and web Claude's, not SAM's, and Sean Brady struck it.)
 
 ## The law
 
@@ -38,14 +38,14 @@ The two corrections are the clock's two terms; the road's correction (concept no
 
 ## The frame caveat, as a control
 
-| if β were velocity through the floor | value |
+| if a clock term in the speed relative to a cosmic rest frame existed (SAM makes no such term) | value |
 |---|---|
 | β² for 370 km/s | 1.52×10⁻⁶ |
 | rate offset β²/2 | 7.6×10⁻⁷ = 66 ms per day |
 | annual modulation 2 β_CMB β_orb | 2.5×10⁻⁷ = 21 ms per day |
 | GPS timing stability | order 10 ns per day |
 
-Absent by seven orders of magnitude. Velocity is relative to the field's static frame; the floor defines none. (The proposal quoted 10⁻⁸ for this effect; the computed offset is 7.6×10⁻⁷ and the argument is the stronger for it.)
+Absent by seven orders of magnitude. Velocity is relative to the field's static frame; the floor is a constant and defines none. The table is a control on a hypothesis SAM does not make. (The proposal quoted 10⁻⁸ for this effect; the computed offset is 7.6×10⁻⁷.)
 
 ## Corrections to the proposal, recorded
 
@@ -65,6 +65,6 @@ Web Claude: the one-line clock, the GPS closure, the closure-line reading, the f
 
 Two verification cases were added to the campaign, both proposed by Claude Code.
 
-**The frame caveat as a measured limit** (`voli_clock_motion/03_floor_frame_bound`). Suppose the clock carried a term k β_floor² with the floor the microwave-background frame. Clocks moving together cannot see it; the cross term with a clock's own velocity wobbles as the clock turns. At declared stabilities: ground optical clocks over a sidereal day give k < 5×10⁻⁹, the annual motion k < 8×10⁻⁹, and the GPS orbital motion only k < 9×10⁻⁶ (nanosecond residuals over a twelve-hour period are the weakest instrument). Zero is consistent, and the best bound is the order of the published Ives-Stilwell type limit on anomalous time dilation. The stabilities are inputs, stated as such. One sealed prediction missed: the lead wrote the GPS-orbital time-offset amplitude a thousand times too large, so the sealed bound read 10⁻⁸; the miss stands in the record unpatched.
+**The frame caveat as a measured limit** (`voli_clock_motion/03_floor_frame_bound`). Suppose, against SAM, that the clock carried a term k β² in the speed relative to a cosmic rest frame (the case's script and report call this frame 'the floor'; that label is the lead's, struck by Sean Brady on 2026-10-30, since the floor is a constant with no frame and the Earth is nowhere near it). Clocks moving together cannot see it; the cross term with a clock's own velocity wobbles as the clock turns. At declared stabilities: ground optical clocks over a sidereal day give k < 5×10⁻⁹, the annual motion k < 8×10⁻⁹, and the GPS orbital motion only k < 9×10⁻⁶ (nanosecond residuals over a twelve-hour period are the weakest instrument). Zero is consistent, and the best bound is the order of the published Ives-Stilwell type limit on anomalous time dilation. The stabilities are inputs, stated as such. One sealed prediction missed: the lead wrote the GPS-orbital time-offset amplitude a thousand times too large, so the sealed bound read 10⁻⁸; the miss stands in the record unpatched.
 
 **The GPS eccentricity correction** (`voli_clock_motion/04_gps_eccentricity`, HELD). Integrating the clock-in-motion law along an eccentric orbit, the periodic part is the operational correction F e √A sin E, with F = −2√μ/c² matching the interface specification's −4.442807633×10⁻¹⁰ s/√m to 9×10⁻¹¹ relative, amplitudes 11.4, 22.9 and 45.8 ns at eccentricities 0.005, 0.01 and 0.02, closing after each orbit; the constant part is the circular rate, 38.5 µs/day against the ground. One law gives both GPS corrections, and the periodic one tests the velocity term on its own.

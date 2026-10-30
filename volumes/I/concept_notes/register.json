@@ -144,8 +144,8 @@
   },
   {
    "id": "voli.velocity_in_the_fields_frame",
-   "statement": "Velocity adds beta^2 to accumulation in the frame in which the field is static, not through the floor; the floor, having no gradient, defines no rest frame. Control: a floor-velocity term would put 66 ms/day into GPS clocks; it is absent.",
-   "author": "web Claude (the caveat); Claude Code (the numbers)",
+   "statement": "Velocity adds beta^2 to accumulation in the frame in which the field is static. The floor is a constant (the minimum value for space to exist) and a constant has no gradient, so it defines no frame; only differences in A act. Control: a clock term in the speed relative to a cosmic rest frame, which SAM does not make, would put 66 ms/day into GPS clocks; it is absent.",
+   "author": "Sean Brady (the floor as the minimum value of space; no gradient, no frame; differences in A act); web Claude (the caveat); Claude Code (the numbers; 'velocity through the floor' framing struck 2026-10-30)",
    "type": "IDEA",
    "note": "03_CLOCK_IN_MOTION_20261030.md",
    "cases": [
@@ -171,7 +171,7 @@
   },
   {
    "id": "voli.floor_frame_bound",
-   "statement": "A floor-frame velocity term k beta_floor^2 in the clock reading is bounded by k < 5e-9 at declared stabilities (ground optical clocks over a sidereal day; annual motion; GPS orbital motion weakest at 9e-6); zero is consistent; same order as the Ives-Stilwell type literature bound.",
+   "statement": "CONTROL on a hypothesis SAM does not make: a clock term k beta^2 in the speed relative to a cosmic rest frame is bounded by k < 5e-9 at declared stabilities; zero, which SAM requires, is consistent. (The case files label that frame 'the floor'; Sean Brady struck the label on 2026-10-30: the floor is a constant with no frame, and the Earth is never at it.)",
    "author": "Claude Code (proposal, 2026-10-30)",
    "type": "PREDICTION",
    "note": "03_CLOCK_IN_MOTION_20261030.md (frame caveat)",
