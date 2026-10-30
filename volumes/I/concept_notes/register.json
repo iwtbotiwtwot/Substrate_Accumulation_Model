@@ -102,16 +102,17 @@
   },
   {
    "id": "voli.horizon_road_departure",
-   "statement": "The departure: the static coordinate time to A = 1 is SAM's physical statement; the road ends at A = 1 (the astronaut runs out of road, not clock). Equal static numbers do not make equal theories.",
-   "author": "Sean Brady (2026-10-29); Chapter V",
+   "statement": "The departure (headline): the astronaut never arrives at A = 1, even in his own time; his clock runs normally, the road ahead grows without bound (each added nine to his speed as a fraction of c adds road). Under the two declared readings he arrives (tau = 1.2190 r_s/c from 2 r_s); the sentence is a third declaration, a road law with tail exponent q >= 3, which leaves Cassini and the shadow untouched. G11555 lineage.",
+   "author": "Sean Brady (2026-10-29/30); Chapter V (the criterion); Claude Code (the test)",
    "type": "IDEA",
    "note": "01_METRIC_THEOREM_20261029.md (The horizon road)",
    "cases": [
-    "voli_metric/01_static_exterior_theorem"
+    "voli_metric/01_static_exterior_theorem",
+    "g11555r/01_road_to_a1"
    ],
-   "decider": "an observable distinguishing a road ending at A = 1 from an extended interior; none registered (Chapters V, XI)",
+   "decider": "the infaller's own clock in principle; from outside none registered (clock, shadow and weak-field tests are blind to the road exponent); a strong-field time-of-flight observable would be the first outside test",
    "volume": "I",
-   "placement_note": "Chapter V keeps the GR crossing as the comparison control"
+   "placement_note": "Chapter I ends on it as the headline (Sean Brady 2026-10-30); full treatment Chapter V with the road law stated as a declaration and its exponent named"
   },
   {
    "id": "voli.two_numbers",
