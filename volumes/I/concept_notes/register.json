@@ -14,6 +14,17 @@
    "placement_note": "Chapter II\u2013III accumulation language points back to it"
   },
   {
+   "id": "voli.floor_definition",
+   "statement": "Space (the substrate) is made of something and SAM applies a value to it. A_0 is the minimum value for space itself to exist. Matter displaces space, the displacement accumulates, and like land above sea level it lifts from the floor A_0. A constant everywhere has no gradient; only differences in A act.",
+   "author": "Sean Brady (2026-10-30)",
+   "type": "IDEA",
+   "note": "00_STATEMENTS_20261029.md (The floor, A_0)",
+   "cases": [],
+   "decider": "none (a definition); the value 1/(12 pi) is Chapters II-III's convention, tested through the cosmology (Chapter XII) not the static exterior",
+   "volume": "I",
+   "placement_note": "the first of the three objects; the sea-level picture introduces A(r) as the lift"
+  },
+  {
    "id": "voli.sam_law",
    "statement": "The farther you look out into space, the more accumulation you are looking through. (Not a challenge to Hubble's law; a different explanation of the same phenomena.)",
    "author": "Sean Brady (2026-10-29)",
