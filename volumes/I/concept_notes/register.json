@@ -48,7 +48,7 @@
    ],
    "decider": "A_0 convention: source-only reading (floor drops out of the static exterior) adopted; the background-normalized reading rescales the lift by 1/(1-A_0)",
    "volume": "I",
-   "placement_note": "Chapters II (floor), III (kernel), XII (road law) point to the definitions"
+   "placement_note": "Chapters II (floor), III (kernel), XII (road law) point to the definitions A_0 (the floor) already treated in Chapters II\u2013III; concept note 1 defines it; no separate note needed (Sean Brady 2026-10-30)."
   },
   {
    "id": "voli.magic_bell",
@@ -74,7 +74,7 @@
    ],
    "decider": "none needed (theorem); the converse's instance is the measured Cassini delay",
    "volume": "I",
-   "placement_note": "Chapter IV \u00a742\u201344 (finite logarithm, Cassini) supply the instance"
+   "placement_note": "Chapter IV \u00a742\u201344 (finite logarithm, Cassini) supply the instance Sean Brady 2026-10-30: Chapter I introduces this conceptually (clock/road, GPS, Shapiro); full treatment in its own chapter."
   },
   {
    "id": "voli.static_exterior_theorem",
@@ -113,7 +113,7 @@
    ],
    "decider": "a readout changing D_L and D_A by different factors (Chapter XII g_L/g_A); none registered",
    "volume": "I",
-   "placement_note": "Chapter IV \u00a740 (optical receiving law) points to it"
+   "placement_note": "Chapter IV \u00a740 (optical receiving law) points to it Sean Brady 2026-10-30: Chapter I introduces this conceptually (clock/road, GPS, Shapiro); full treatment in its own chapter."
   },
   {
    "id": "voli.gps_two_corrections",
@@ -127,7 +127,7 @@
    ],
    "decider": "the operational figure 38.6 us/day and the eccentricity correction (proposed next case)",
    "volume": "I",
-   "placement_note": "Chapter IV 'GPS comparison' points to Chapter I"
+   "placement_note": "Chapter IV 'GPS comparison' points to Chapter I Sean Brady 2026-10-30: Chapter I introduces this conceptually (clock/road, GPS, Shapiro); full treatment in its own chapter."
   },
   {
    "id": "voli.clock_in_motion",
@@ -140,7 +140,7 @@
    ],
    "decider": "GPS (38.5/38.6 us/day); the eccentric-orbit correction (proposed)",
    "volume": "I",
-   "placement_note": "Chapter IV 'Motion requires a spatial metric' points to it"
+   "placement_note": "Chapter IV 'Motion requires a spatial metric' points to it Sean Brady 2026-10-30: Chapter I introduces this conceptually (clock/road, GPS, Shapiro); full treatment in its own chapter."
   },
   {
    "id": "voli.velocity_in_the_fields_frame",
