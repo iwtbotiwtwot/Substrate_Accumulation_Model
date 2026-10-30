@@ -102,15 +102,16 @@
   },
   {
    "id": "voli.horizon_road_departure",
-   "statement": "The departure (headline): the astronaut never arrives at A = 1, even in his own time; his clock runs normally, the road ahead grows without bound (each added nine to his speed as a fraction of c adds road). Under the two declared readings he arrives (tau = 1.2190 r_s/c from 2 r_s); the sentence is a third declaration, a road law with tail exponent q >= 3, which leaves Cassini and the shadow untouched. G11555 lineage.",
+   "statement": "The departure (headline), published Zenodo 2026-07-08 \u00a73: the measurable road (c_eff = c(1-A); L = int dr/(1-A)) diverges at A = 1 while the metric length is finite; the astronaut runs out of road, not clock; arrives, never crosses. Tested: road half exact; free fall arrives (1.2190 r_s/c); the clock half holds under Chapter V's road-speed postulate dL/dtau <= v_max at the price of unbounded proper acceleration ((ln 10)/2 m c^2 per added nine; no bounded force suffices). The free-faller's local speed -> c (nines on v/c); the road-bounded traveler's -> 0 (the pebble slows).",
    "author": "Sean Brady (2026-10-29/30); Chapter V (the criterion); Claude Code (the test)",
    "type": "IDEA",
    "note": "01_METRIC_THEOREM_20261029.md (The horizon road)",
    "cases": [
     "voli_metric/01_static_exterior_theorem",
-    "g11555r/01_road_to_a1"
+    "g11555r/01_road_to_a1",
+    "g11555r/02_measurable_road"
    ],
-   "decider": "the infaller's own clock in principle; from outside none registered (clock, shadow and weak-field tests are blind to the road exponent); a strong-field time-of-flight observable would be the first outside test",
+   "decider": "derive the road-speed bound from an independently justified dynamical law and its energy budget (Chapter V's stated obligation); from outside none registered (clock, shadow, weak field blind); the traveler's own clock and force budget in principle",
    "volume": "I",
    "placement_note": "Chapter I ends on it as the headline (Sean Brady 2026-10-30); full treatment Chapter V with the road law stated as a declaration and its exponent named"
   },
