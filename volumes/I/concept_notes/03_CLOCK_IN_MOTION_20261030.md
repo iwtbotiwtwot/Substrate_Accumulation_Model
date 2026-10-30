@@ -8,7 +8,7 @@ A clock in the halo has two reasons to run slow: where it sits and how fast it m
 
 Where the clock stops is the line a + β² = 1. Light lives on that line with zero proper time: its coordinate speed in the halo is β² = 1 − a, which is the c_eff reading again. Mass alone reaches the line at a = 1, the end of the road; speed alone reaches it at β = 1. In SAM's words, velocity adds to accumulation, and closure is one line reached two ways.
 
-The caveat is the most important sentence in the note. β is velocity relative to the frame in which the field is static, not velocity through the floor. If it were velocity through the floor, Earth's 370 km/s against the microwave background would offset every GPS clock by 66 milliseconds a day and modulate it through the year by 21 microseconds a day, some ten million times what GPS timing tolerates. The term is absent. So the floor, having no gradient, defines no rest frame, and the formula is reciprocal: two observers in relative motion each read the other's accumulation raised by β², and neither is "really" moving.
+The caveat is the most important sentence in the note. β is velocity relative to the frame in which the field is static, not velocity through the floor. If it were velocity through the floor, Earth's 370 km/s against the microwave background would offset every GPS clock by 66 milliseconds a day and modulate it through the year by 21 milliseconds a day, some ten million times what GPS timing tolerates. The term is absent. So the floor, having no gradient, defines no rest frame, and the formula is reciprocal: two observers in relative motion each read the other's accumulation raised by β², and neither is "really" moving.
 
 ## The law
 
@@ -42,7 +42,7 @@ The two corrections are the clock's two terms; the road's correction (concept no
 |---|---|
 | β² for 370 km/s | 1.52×10⁻⁶ |
 | rate offset β²/2 | 7.6×10⁻⁷ = 66 ms per day |
-| annual modulation 2 β_CMB β_orb | 2.5×10⁻⁷ = 21 µs per day |
+| annual modulation 2 β_CMB β_orb | 2.5×10⁻⁷ = 21 ms per day |
 | GPS timing stability | order 10 ns per day |
 
 Absent by seven orders of magnitude. Velocity is relative to the field's static frame; the floor defines none. (The proposal quoted 10⁻⁸ for this effect; the computed offset is 7.6×10⁻⁷ and the argument is the stronger for it.)
