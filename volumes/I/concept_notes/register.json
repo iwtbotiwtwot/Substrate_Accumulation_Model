@@ -171,27 +171,31 @@
   },
   {
    "id": "voli.floor_frame_bound",
-   "statement": "PROPOSED: a quantitative bound on any floor-frame velocity term k beta_floor^2 in the clock reading, from published GPS and optical-clock timing stability (the frame caveat turned into a measured limit on 'velocity through the substrate').",
+   "statement": "A floor-frame velocity term k beta_floor^2 in the clock reading is bounded by k < 5e-9 at declared stabilities (ground optical clocks over a sidereal day; annual motion; GPS orbital motion weakest at 9e-6); zero is consistent; same order as the Ives-Stilwell type literature bound.",
    "author": "Claude Code (proposal, 2026-10-30)",
    "type": "PREDICTION",
    "note": "03_CLOCK_IN_MOTION_20261030.md (frame caveat)",
-   "cases": [],
-   "proposed_case": "voli_clock_motion/03_floor_frame_bound",
-   "decider": "the bound itself: k < (timing stability per day)/(beta_cmb^2/2 x 86400 s); public inputs",
+   "cases": [
+    "voli_clock_motion/03_floor_frame_bound"
+   ],
+   "decider": "the declared stabilities (inputs, not measured here); a published clock-comparison analysis would tighten or fix the bound",
    "volume": "I",
-   "placement_note": "attaches to the frame caveat (row 12); Appendix A II.3 preferred-frame tests"
+   "placement_note": "attaches to the frame caveat (row 12); Appendix A II.3 preferred-frame tests",
+   "outcome": "HELD WITH ONE PREDICTION MISSED (sealed GPS-orbital bound off by a factor 1000; left standing)"
   },
   {
    "id": "voli.gps_eccentricity",
-   "statement": "PROPOSED: the GPS eccentricity correction (the periodic clock offset along an eccentric orbit, Chapter IV) predicted from a and beta along the orbit by the clock-in-motion law and compared with the operational correction; an independent check of the velocity term on its own.",
+   "statement": "The GPS eccentricity correction F e sqrt(A) sin E is the periodic part of the clock-in-motion law integrated along the orbit; F from the law matches the interface specification to 9e-11 relative; the constant part is the circular rate. One law, both GPS corrections.",
    "author": "Claude Code (proposal, 2026-10-30)",
    "type": "CONTACT",
    "note": "03_CLOCK_IN_MOTION_20261030.md; Chapter IV (periodic unsteered clock offset)",
-   "cases": [],
-   "proposed_case": "voli_clock_motion/04_gps_eccentricity",
-   "decider": "agreement with the operational correction -2 sqrt(GM a) e sin E / c^2 to the published digits",
+   "cases": [
+    "voli_clock_motion/04_gps_eccentricity"
+   ],
+   "decider": "met: F to 9e-11; amplitudes to 1e-4 ns",
    "volume": "I",
-   "placement_note": "attaches to GPS (row 10) and the clock in motion (row 11)"
+   "placement_note": "attaches to GPS (row 10) and the clock in motion (row 11)",
+   "outcome": "HELD"
   }
  ]
 }

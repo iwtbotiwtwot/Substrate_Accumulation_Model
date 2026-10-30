@@ -60,3 +60,11 @@ The chapter's readings become three: the clock, the ruler, and the clock in moti
 ## Credit
 
 Web Claude: the one-line clock, the GPS closure, the closure-line reading, the frame caveat and its reciprocity. Sean Brady: the direction, and the judgement that this is significant enough to carry into Courtroom II. Claude Code: the three corrections, the computation and this note.
+
+## Follow-up, 2026-10-30 (Sean Brady: "Go on both")
+
+Two verification cases were added to the campaign, both proposed by Claude Code.
+
+**The frame caveat as a measured limit** (`voli_clock_motion/03_floor_frame_bound`). Suppose the clock carried a term k β_floor² with the floor the microwave-background frame. Clocks moving together cannot see it; the cross term with a clock's own velocity wobbles as the clock turns. At declared stabilities: ground optical clocks over a sidereal day give k < 5×10⁻⁹, the annual motion k < 8×10⁻⁹, and the GPS orbital motion only k < 9×10⁻⁶ (nanosecond residuals over a twelve-hour period are the weakest instrument). Zero is consistent, and the best bound is the order of the published Ives-Stilwell type limit on anomalous time dilation. The stabilities are inputs, stated as such. One sealed prediction missed: the lead wrote the GPS-orbital time-offset amplitude a thousand times too large, so the sealed bound read 10⁻⁸; the miss stands in the record unpatched.
+
+**The GPS eccentricity correction** (`voli_clock_motion/04_gps_eccentricity`, HELD). Integrating the clock-in-motion law along an eccentric orbit, the periodic part is the operational correction F e √A sin E, with F = −2√μ/c² matching the interface specification's −4.442807633×10⁻¹⁰ s/√m to 9×10⁻¹¹ relative, amplitudes 11.4, 22.9 and 45.8 ns at eccentricities 0.005, 0.01 and 0.02, closing after each orbit; the constant part is the circular rate, 38.5 µs/day against the ground. One law gives both GPS corrections, and the periodic one tests the velocity term on its own.
