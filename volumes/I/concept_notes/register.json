@@ -102,7 +102,7 @@
   },
   {
    "id": "voli.horizon_road_departure",
-   "statement": "The departure (headline), published Zenodo 2026-07-08 \u00a73: the measurable road (c_eff = c(1-A); L = int dr/(1-A)) diverges at A = 1 while the metric length is finite; the astronaut runs out of road, not clock; arrives, never crosses. Tested: road half exact; free fall arrives (1.2190 r_s/c); the clock half holds under Chapter V's road-speed postulate dL/dtau <= v_max at the price of unbounded proper acceleration ((ln 10)/2 m c^2 per added nine; no bounded force suffices). The free-faller's local speed -> c (nines on v/c); the road-bounded traveler's -> 0 (the pebble slows).",
+   "statement": "The departure (headline), published Zenodo 2026-07-08 \u00a73: the measurable road (c_eff = c(1-A); L = int dr/(1-A)) diverges at A = 1 while the metric length is finite; the astronaut runs out of road, not clock; arrives, never crosses. Tested: the road half is exact. The clock half is arithmetic: own time = road / (road per own time); with the road infinite, the own time is infinite exactly when the traveler's road speed stays bounded. GR's geodesic accounting has unbounded road speed and gives arrival; the paper rejects that accounting as the physical one, and SAM has not yet written its own law of motion for mass on the measurable road. Within that declaration the sentence stands; the 'price' (unbounded four-acceleration, (ln 10)/2 m c^2 per nine) is GR's bookkeeping of the same declaration, not a SAM quantity.",
    "author": "Sean Brady (2026-10-29/30); Chapter V (the criterion); Claude Code (the test)",
    "type": "IDEA",
    "note": "01_METRIC_THEOREM_20261029.md (The horizon road)",
@@ -111,7 +111,7 @@
     "g11555r/01_road_to_a1",
     "g11555r/02_measurable_road"
    ],
-   "decider": "derive the road-speed bound from an independently justified dynamical law and its energy budget (Chapter V's stated obligation); from outside none registered (clock, shadow, weak field blind); the traveler's own clock and force budget in principle",
+   "decider": "write SAM's law of motion for mass on the measurable road (Chapter V's stated obligation); it fixes the road-speed bound and the energy budget in SAM's own terms",
    "volume": "I",
    "placement_note": "Chapter I ends on it as the headline (Sean Brady 2026-10-30); full treatment Chapter V with the road law stated as a declaration and its exponent named"
   },
