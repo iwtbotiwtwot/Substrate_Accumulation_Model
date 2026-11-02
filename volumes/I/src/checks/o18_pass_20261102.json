@@ -1,0 +1,45 @@
+{
+ "written_utc": "2026-11-02T03:47:17Z",
+ "replacements": [
+  {
+   "file": "ch01_concepts.tex",
+   "old": "The question that separated the clock from the road was practical: how can accumulation be reconciled with the need to adjust the clocks in GPS satellites? The ",
+   "new": "The question that separated the clock from the road was practical and, at the time, unanswerable in concept: if accumulation is correct and a road delay exists,"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "The question is not answered in this volume, by decision. Its value is the two things it forces apart.",
+   "new": "The bell is the magic: it is granted knowledge, on one planet, of the moment of an event on the other, which no signal can supply. The volume does not answer th"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "The clock in motion is the third reading of the lift, after the clock at rest and the ruler, and Chapter~IV develops it.",
+   "new": "The clock in motion is the clock reading of Section~\\ref{sec:c1-readings} extended to a moving clock, and Chapter~IV develops it."
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "The question of the magic bell is open by decision.",
+   "new": "The magic bell is a thought experiment, not a test; the volume leaves its question to the reader."
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "The question that separated the clock from the road was practical: how can accumulation be reconciled with the need to adjust the clocks in GPS satellites? The ",
+   "new": "The question that separated the clock from the road was practical and, at the time, unanswerable in concept: if accumulation is correct and a road delay exists,"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "The question is not answered in this volume, by decision. Its value is the two things it forces apart.",
+   "new": "The bell is the magic: it is granted knowledge, on one planet, of the moment of an event on the other, which no signal can supply. The volume does not answer th"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "The clock in motion is the third reading of the lift, after the clock at rest and the ruler, and Chapter~IV develops it.",
+   "new": "The clock in motion is the clock reading of Section~\\ref{sec:c1-readings} extended to a moving clock, and Chapter~IV develops it."
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "The question of the magic bell is open by decision.",
+   "new": "The magic bell is a thought experiment, not a test; the volume leaves its question to the reader."
+  }
+ ]
+}
