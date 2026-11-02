@@ -1,0 +1,203 @@
+{
+ "written_utc": "2026-11-02T02:11:21Z",
+ "replacements": [
+  {
+   "file": "live_sources/ch02/chapter2_source_field_formatted.tex",
+   "old": "\\\\noindent\\[12\\] voli\\\\_chapter2\\\\_physical3\\\\_20261015:[^\\n]*",
+   "new": "\\\\noindent[12] voli\\\\_chapter2\\\\_physical3\\\\_20261015: source-bound physical-development packet; GEN6 Duck run chapter2-physical-protocols-20261015-01 (Duck 1.2",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch02/chapter2_source_field_formatted.tex",
+   "old": "\\noindent[1] Owner Chapter II draft and verification ZIP, 15 October 2026.",
+   "new": "\\noindent[1] Chapter II draft and verification ZIP, 15 October 2026 (H002634).",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_as_vii.tex",
+   "old": "The weighted-form, reference, and Duhamel construction was written with OpenAI Codex in GEN6 Duck run chapter1-lane01-20261015-01 (Duck 1.2.2, core 0.10.2) unde",
+   "new": "The weighted-form, reference, and Duhamel construction receives the original source rules and retained hard preparation (GEN6 Duck run chapter1-lane01-20261015-",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_as_vii.tex",
+   "old": "\\noindent[1] S. Brady. \\emph{Original Write histories and a coupled source-field action}, v1.1, 15 October 2026. Owner-supplied manuscript.",
+   "new": "\\noindent[1] \\emph{Original Write histories and a coupled source-field action}, v1.1, 15 October 2026. Supplied manuscript; GEN6 Duck runs write-coupling-clock-",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_as_vii.tex",
+   "old": "\\noindent[2] S. Brady. \\emph{A Reference-Centered Clock Positivity Condition}, 15 October 2026. Owner-supplied refinement note.",
+   "new": "\\noindent[2] \\emph{A Reference-Centered Clock Positivity Condition}, 15 October 2026. Supplied refinement note.",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_as_vii.tex",
+   "old": "Owner-supplied roadmap;",
+   "new": "Supplied roadmap;",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_expanded.tex",
+   "old": "The weighted-form, reference, and Duhamel construction was written with OpenAI Codex in GEN6 Duck run chapter1-lane01-20261015-01 (Duck 1.2.2, core 0.10.2) unde",
+   "new": "The weighted-form, reference, and Duhamel construction receives the original source rules and retained hard preparation (GEN6 Duck run chapter1-lane01-20261015-",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_expanded.tex",
+   "old": "\\noindent[1] S. Brady. \\emph{Original Write histories and a coupled source-field action}, v1.1, 15 October 2026. Owner-supplied manuscript.",
+   "new": "\\noindent[1] \\emph{Original Write histories and a coupled source-field action}, v1.1, 15 October 2026. Supplied manuscript; GEN6 Duck runs write-coupling-clock-",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_expanded.tex",
+   "old": "\\noindent[2] S. Brady. \\emph{A Reference-Centered Clock Positivity Condition}, 15 October 2026. Owner-supplied refinement note.",
+   "new": "\\noindent[2] \\emph{A Reference-Centered Clock Positivity Condition}, 15 October 2026. Supplied refinement note.",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_expanded.tex",
+   "old": "Owner-supplied roadmap;",
+   "new": "Supplied roadmap;",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch03/chapter3_formatted.tex",
+   "old": "\\noindent[1] S. Brady. \\emph{Volume I, Chapter I}",
+   "new": "\\noindent[1] \\emph{Volume I, Chapter I}",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch03/chapter3_formatted.tex",
+   "old": "\\\\noindent\\[8\\] S\\. Brady\\. \\\\emph\\{Chapter III local action and actual clock continuation\\}, \\\\nolinkurl\\{voli_chapter3_local_action2_20261015\\}, GEN6 Duck run",
+   "new": "\\\\noindent[8] \\\\emph{Chapter III local action and actual clock continuation}, \\\\nolinkurl{voli_chapter3_local_action2_20261015}; GEN6 Duck run chapter3-local-ac",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch04/nonuniform_continuation.tex",
+   "old": "This receiving construction was written with OpenAI Codex in campaign voli\\\\_chapter4\\\\_observation1\\\\_20261016 \\(GEN6 Duck run chapter4-observation-20261016-01",
+   "new": "This receiving construction is developed in campaign voli\\\\_chapter4\\\\_observation1\\\\_20261016 (GEN6 Duck run chapter4-observation-20261016-01, Duck 1.2.3, core",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch04/transport_continuation.tex",
+   "old": "This propagation construction was written with OpenAI Codex in campaign voli\\\\_chapter4\\\\_observation1\\\\_20261016 \\(GEN6 Duck run chapter4-observation-20261016-",
+   "new": "This propagation construction is developed in campaign voli\\\\_chapter4\\\\_observation1\\\\_20261016 (GEN6 Duck run chapter4-observation-20261016-01, Duck 1.2.3, co",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch04/chapter.tex",
+   "old": "] S. Brady. ",
+   "new": "] ",
+   "matches": 5
+  },
+  {
+   "file": "live_sources/ch04/continuum_update.tex",
+   "old": "The owner's review derives",
+   "new": "The Chapter IV review of 16 October 2026 (H002654) derives",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch04/radiation_energy_update.tex",
+   "old": "The owner's six-page review supplies",
+   "new": "The six-page Chapter IV review of 16 October 2026 (H002654) supplies",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch05/chapter.tex",
+   "old": "The following apparatus candidate was written with OpenAI Codex in\\ncampaign .*?source--geometry law\\.",
+   "new": "The following apparatus candidate is developed in campaign\nvoli\\\\_chapter5\\\\_localization2\\\\_20261016 (GEN6 Duck run\nchapter5-localization-20261016-01, Duck 1.2",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch05/chapter.tex",
+   "old": "\\bibitem{unified} S. Brady.\n",
+   "new": "\\bibitem{unified}\n",
+   "matches": 1
+  },
+  {
+   "file": "ch06.tex",
+   "old": "New constructions and finite parameter choices in this chapter were written with OpenAI Codex[^\\n]*",
+   "new": "New constructions and finite parameter choices in this chapter are developed in campaigns voli\\\\_chvi\\\\_foundation1, voli\\\\_chvi\\\\_source\\\\_decoder1, voli\\\\_chv",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/foundation_overlap.tex",
+   "old": "The quadratic refinement and robustness corollaries in this section were\nderived with OpenAI Codex in campaign voli\\_chvi\\_foundation1\\_20261017\n(H002700) under",
+   "new": "The quadratic refinement and robustness corollaries in this section are\ndeveloped in campaign voli\\_chvi\\_foundation1\\_20261017 (H002700), with two\nnative SLC-G",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/decoder_decoder.tex",
+   "old": "The decoder and bounds below were derived with OpenAI Codex in campaign\nvoli\\_chvi\\_source\\_decoder1\\_20261017 (H002701) under Sean Brady's\ndirection, from the ",
+   "new": "The decoder and bounds below are developed in campaign\nvoli\\_chvi\\_source\\_decoder1\\_20261017 (H002701) from the retained\nChapter~I clock observable and its Cha",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/record_memory_channel.tex",
+   "old": "The new instrument, finite-write estimate and correlated-hold bounds were\nderived with OpenAI Codex in campaign voli\\_chvi\\_detector\\_record1\\_20261017\nunder Se",
+   "new": "The new instrument, finite-write estimate and correlated-hold bounds are\ndeveloped in campaign voli\\_chvi\\_detector\\_record1\\_20261017, with four\nnative SLC-GEN",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/references.tex",
+   "old": "} S. Brady, ",
+   "new": "} ",
+   "matches": 6
+  },
+  {
+   "file": "vi_source/parts/references.tex",
+   "old": "S. Brady,\n",
+   "new": "",
+   "matches": 6
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "Credit for the ideas is recorded as it fell\\. Sean Brady:.*?Directed by Sean Brady\\.",
+   "new": "The provenance of these ideas and of the mathematical development they draw on is recorded outside the body of the volume: Courtroom~II case \\\\texttt{voli\\\\_pro",
+   "matches": 1
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "Credit for the ideas is recorded as it fell\\. Sean Brady:.*?Directed by Sean Brady\\.",
+   "new": "The provenance of these ideas and of the mathematical development they draw on is recorded outside the body of the volume: Courtroom~II case \\\\texttt{voli\\\\_pro",
+   "matches": 1
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "\\subsection*{Provenance and contribution statement}",
+   "new": "\\subsection*{Provenance}",
+   "matches": 1
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "Sean Brady is the project director\\. The content of Chapters II--VII was produced.*?It does not claim a new native computation\\.",
+   "new": "The content of Chapters II--VII was produced in GEN6 Duck runs on the Substrate Ledger Computer (15--17 October 2026; Duck 1.2.2 and 1.2.3, core 0.10.2), record",
+   "matches": 1
+  },
+  {
+   "file": "ch07.tex",
+   "old": "\\item S. Brady, \\emph{SAM Unified Technical Synthesis, Volume I}",
+   "new": "\\item \\emph{SAM Unified Technical Synthesis, Volume I}",
+   "matches": 1
+  },
+  {
+   "file": "ch08.tex",
+   "old": "\\item S. Brady, \\emph{SAM Unified Technical Synthesis, Volume I}",
+   "new": "\\item \\emph{SAM Unified Technical Synthesis, Volume I}",
+   "matches": 1
+  },
+  {
+   "file": "assemble_first_edition_20261102.py",
+   "old": "\\\\noindent\\\\small The trace behind this decision is Courtroom~II case.*?Directed by Sean Brady\\. Executed with Claude Code\\.",
+   "new": "\\\\noindent\\\\small The trace behind this decision is Courtroom~II case \\\\texttt{voli\\\\_provenance/01\\\\_codex\\\\_credit\\\\_ledger} (ironclad H002821): every stateme",
+   "matches": 1
+  },
+  {
+   "file": "assemble_first_edition_20261102.py",
+   "old": "co-authorship credits to OpenAI ChatGPT and Codex removed throughout; chapter heads carry title and number only;",
+   "new": "co-authorship credits removed throughout; the body carries no person's or instrument's name except for outside sources; chapter heads carry title and number onl",
+   "matches": 1
+  }
+ ]
+}

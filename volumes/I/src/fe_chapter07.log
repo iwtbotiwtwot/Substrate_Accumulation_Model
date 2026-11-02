@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.25)  1 NOV 2026 19:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.25)  1 NOV 2026 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1870,11 +1870,11 @@ Package rerunfilecheck Info: File `fe_chapter07.out' has not changed.
 (rerunfilecheck)             Checksum: FC038E380C4B64F5B47B7EEC1E6A8FF7;8283.
  ) 
 Here is how much of TeX's memory you used:
- 33551 strings out of 476182
- 653051 string characters out of 5795594
+ 33557 strings out of 476182
+ 653108 string characters out of 5795594
  1954975 words of memory out of 5000000
  54523 multiletter control sequences out of 15000+600000
- 641939 words of font info for 356 fonts, out of 8000000 for 9000
+ 642294 words of font info for 360 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  98i,13n,102p,1182b,555s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
@@ -1887,7 +1887,7 @@ mbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmri8a.pfb>
-Output written on fe_chapter07.pdf (9 pages, 216618 bytes).
+Output written on fe_chapter07.pdf (9 pages, 216592 bytes).
 PDF statistics:
  385 PDF objects out of 1000 (max. 8388607)
  314 compressed objects within 4 object streams
