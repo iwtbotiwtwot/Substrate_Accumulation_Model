@@ -761,3 +761,12 @@ Sean Brady: "XIII.5 The reported periodic replay- do you think we have the stren
 - Method: the after-window paragraph ("there is no clock on this") did not move the report timing (three reports within a minute of the close, one before it). Either a mechanism (the finalization packet must exist before a peer may create DONE; the peers' REPORT.md timestamped against it) or the behaviour is accepted as what peers do. Sean Brady's decision.
 - Recipe-gate library rule: a control's expected failure must be reachable (TWO's decoy was identically zero on the diagonal g = L).
 - FEOP, from the peers: the bracket's class counts R1..R6 at k = 24 read from the operators against the openings by `$result` (nobody built it; ONE, TWO); the offset-tree operator as a library recipe and its check past 64 × 64 through the fibered gate (FOUR); a closed form for offsets coinciding mod p (FOUR); a certified change of basis among the 4-, 3- and 2-state operators (TWO); THREE's v_p(Q) blocks with FOUR's p ∤ Q coefficient as one per-prime family (ONE).
+
+## 2026-11-02 — from voli_ceiling_1r (the blind replicate on Duck 2.4.1); proposed by Claude and the Duck peers; status open, not acted on
+
+- **Report timing has a named cause.** Peer ONE: "the hand-back was demanded early." The peers' host harness ends a peer's work, not the briefing. Candidates: the Duck layer refuses DONE before the finalization packet exists and the lead waits for it; or accept the behaviour and read reports as written at the close. Sean Brady's decision. (Claude Code)
+- **`line_of_sight` exact log.** The construction certifies to s = 2 because it takes a numerical certified log of e^{−d s}; the log is exact, −d s. A core change (new version). (peer TWO)
+- **`local_metric_clock` on a floored reservoir** reads q without the floor while c_eff and the Ξ density read q_obs; state whether intended. (peer THREE)
+- **A d = 4 second diluting channel as a control** that must raise the ceiling and break the 3, −6, 10 ratios; a new core construction. (peer FOUR)
+- **A parameter block for `line_of_sight`** in the campaign material generator. (Claude Code)
+- **Keep the two floors Ω_Λ = 1 − 1/π and A_0 = 1/(12π) separate in the Volume I text.** (peer FOUR; recurred from 24 October's THREE)
