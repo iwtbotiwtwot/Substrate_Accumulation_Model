@@ -1,0 +1,71 @@
+\section{A common spatial split and a joint interacting-clock control}
+A shared logarithmic scan fixes $L_p=10^pR_-$ for $p=3,\ldots,29$, keeping
+the same physical profile, radius, preparation and units in every lane.
+At each radius the complete actual-state tail is recomputed and the objective
+is the largest of the six first-variation disk bounds. Exact comparisons
+give the minimum on this declared finite grid at $p=25$, with maximum disk
+$6.13448\,10^{-6}$. The smallest common radius within one percent is
+$p=21$, with maximum disk $6.16321\,10^{-6}$, compared with
+$1.97773\,10^{-5}$ at the previous $p=18$.
+
+At $p=21$ the reference-tail ceilings lie within about0.94 percent of the
+retained soft-Duhamel comparison floor, compared with a factor10.394 at
+$p=18$. That floor is a limitation of the comparison estimate. It is not a
+physical nonzero tail floor. The one-percent radius is about100m in the
+declared SI fixture; it is a mathematical split, not an apparatus extent.
+The grid optimum is not asserted to be the continuous optimum.
+
+The finite-$\alpha$ first-crossing inequality is also verified at this
+single common radius. Its strict margins retain the entire continuum tail.
+The six phase errors improve to at most
+$0.954,1.908,15.260,0.954,7.630,7.630$ microradians. All finite total phase
+responses remain strictly negative.
+
+For an operational cross-lane control use the calibrated inverse of the
+original interacting clock, retaining its transient:
+\[
+ y_{lj}=\frac{\theta_{0,l}^{-1}(\theta_{{\rm obs},l}(t_j))}{T}
+              -n\frac{t_j}{T},\qquad
+ \frac{t_j}{T}=\tfrac14,\tfrac12,\tfrac34,1.
+\]
+The deterministic profile error is bounded by
+$|h_{lj}|\le\phi_l/(T_-\nu_{l,-})$. This is an inverse-calibration
+prescription; the injection fixture does not manufacture exact numerical
+source trajectories. It uses24 observations, with one common affine timing
+nuisance and no individually fitted lane ages.
+
+The declared normalized-age covariance includes independent noise
+$\sigma_i=10^{-7}$, a reference shared by all lanes at each event
+$\sigma_r=3\,10^{-7}$, and global offset/drift uncertainties
+$\sigma_o=\sigma_d=2\,10^{-7}$. With $x_j=t_j/T$,
+\[
+ \Sigma_{lj,km}=\sigma_i^2\delta_{lk}\delta_{jm}
+ +\sigma_r^2\delta_{jm}+\sigma_o^2+\sigma_d^2x_jx_m.
+\]
+These are modeled measurement requirements. For $X=(1,x)$, set
+\[
+ \begin{aligned}
+ A={}&\Sigma^{-1}-\Sigma^{-1}X
+ (X^{\rm T}\Sigma^{-1}X)^{-1}X^{\rm T}\Sigma^{-1},\\
+ Q(y)={}&y^{\rm T}Ay.
+ \end{aligned}
+\]
+Exact checks give $AX=0$, $A\Sigma A=A$, and $\operatorname{tr}(A\Sigma)=22$.
+For zero-mean noise with this covariance, Markov's inequality gives the
+conservative one-percent threshold2200 without a Gaussian assumption.
+The whole profile-error box obeys
+$h^{\rm T}Ah\le B=\sum h_{lj,\max}^2/\sigma_i^2$.
+Thus $[\sqrt{Q(y)}-\sqrt B]_+^2$ is a conservative robust rejection
+statistic; no independence of the unknown profile errors is assumed.
+
+The correct coordinate baseline gives $Q=0$. A common affine clock or
+travel-time injection also gives $Q=0$, exposing the need for an external
+event-map anchor to separate those changes. Lane-dependent coupling
+$(0,0,10^{-4},0,-10^{-4},0)x_j$ instead gives $Q=3{,}750{,}000$;
+a wrong nonlinear common event map $8\,10^{-4}x_j^2$ gives
+$Q=1{,}200{,}000/11$. Their profile-box robust lower statistics exceed
+$3.52\,10^6$ and $73{,}083$, respectively. Both exceed2200 and satisfy the
+separate sufficient modeled-power condition
+$\sqrt{Q_{\rm signal}}>2\sqrt B+2\sqrt{2200}$, giving at least99 percent
+rejection probability under the declared covariance. This is a reproducible
+inference/injection result, not achieved apparatus performance.

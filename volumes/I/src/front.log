@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.25)  30 OCT 2026 01:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.25)  1 NOV 2026 20:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1783,10 +1783,20 @@ Package hyperref Info: Link coloring OFF on input line 3.
 \@outlinefile=\write4
 \openout4 = `front.out'.
 
- [1
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 19
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+[1
 
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd)
@@ -1794,20 +1804,9 @@ Package hyperref Info: Link coloring OFF on input line 3.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd) [2
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd) [3
 
-]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 51
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `pcr' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [3
+] [4
 
 ] (./front.aux)
  ***********
@@ -1818,21 +1817,21 @@ Package rerunfilecheck Info: File `front.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33092 strings out of 476182
- 647012 string characters out of 5795594
+ 33114 strings out of 476182
+ 647215 string characters out of 5795594
  1935975 words of memory out of 5000000
- 54333 multiletter control sequences out of 15000+600000
- 610896 words of font info for 204 fonts, out of 8000000 for 9000
+ 54335 multiletter control sequences out of 15000+600000
+ 612297 words of font info for 218 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 98i,12n,102p,1176b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,12n,102p,1256b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on front.pdf (3 pages, 68958 bytes).
+Output written on front.pdf (4 pages, 72244 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 63133 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
+ 63645 words of extra memory for PDF output out of 74296 (max. 10000000)
 

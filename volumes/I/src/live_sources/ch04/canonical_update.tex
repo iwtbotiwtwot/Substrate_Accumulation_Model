@@ -1,0 +1,237 @@
+\section{A switched canonical protocol and its remaining quantum certificate}
+\label{sec:canonical-switched-update}
+\subsection{An executable directional-kernel control}
+The corrected directional kernels can be checked on nonsymmetric regular
+radial probes before any return contraction is formed. For
+$b(x)=ze^{-r^2}$, use $r^2e^{-ar^2}$ in the retained sector and
+$r^3e^{-br^2}$ in the complementary sector. After factoring
+$105\sqrt\pi/32$, the choices $a=(1,97)$, $b=(2,23)$ give
+\[
+ M_{2\leftarrow3}=\begin{pmatrix}2^{-9}&5^{-9}\\10^{-9}&11^{-9}\end{pmatrix},
+ \qquad M_{3\leftarrow2}=M_{2\leftarrow3}^{T}.
+\]
+The matrix is nonsymmetric, so the executable check detects an incorrect
+forward--forward contraction. These are test functions, not replacement
+clock preparations. Independent actual-Bessel quadrature at $(k,q)=(1,2)$
+gives $A_{2\leftarrow3}(1,2)=A_{3\leftarrow2}(2,1)
+=0.02332496\ldots$, whereas the incorrectly reused forward function is
+$A_{2\leftarrow3}(2,1)=0.00811628\ldots$.
+The quadrature is a numerical diagnostic, not an interval certificate.
+
+\subsection{A paid smooth switching protocol}
+Preserve the original preparations and window $T_s=T_0=573049\pi$.
+Before zero and after $T_s$ use $N=1$; inside prescribe
+\[
+ N_\eta(t,x)=1+\eta\chi(t)b(x),\qquad
+ b(x)=-\frac{\mu_P}{\sqrt{d^2+|x-de_z|^2}},
+\]
+with the same $\mu_P=\sqrt2d/1000$, $d=10^{30}R$, and
+$\chi(t)=\sin^4(\pi t/T_s)$.  Its zero extension is $C^3$ and
+$N_\eta\ge1-|\eta|\sqrt2/1000$.  The bulk, finite source even energy,
+both shell vertices and both original counterterms all receive this same
+lapse at their stated supports.  No angular or frequency cutoff defines
+the protocol. Its two relevant areas are
+\[
+ \int\chi\,dt=\frac{3T_s}{8},\qquad
+ \int\chi^2dt=\frac{35T_s}{128}.
+\]
+The center-lapse reference therefore has age $T_s(1-3\eta/8000)$,
+and keeps the original interacting baseline transient.
+Clock-certificate use of the full original window is restricted to
+$0\le\eta\le1$; signed classical bounds below do not extrapolate its age.
+
+For the canonical pair kernel $B_{ij}$, put $\Omega=\omega_i+\omega_j$.
+The first-Born outgoing pair amplitude and spontaneous vacuum free energy are
+\[
+ \beta_{1,ij}=-iB_{ij}\widehat\chi(\Omega),\qquad
+ E_{\rm spont}^{(2)}=\frac{\eta^2}{2}\int\Omega|B_{ij}|^2
+                                  |\widehat\chi(\Omega)|^2di\,dj.
+\]
+The outgoing energy is finite. At an intermediate nonzero $\chi(t)$,
+$\beta_t$ instead has ultraviolet order $|p|^{-2}$: its number norm can
+be finite while its original free-energy norm diverges logarithmically.
+The expression above is a vacuum component, not the full work on the
+original entangled hard-branch preparation.
+
+Smooth switching also leaves a scalar order-two vacuum loop phase.
+The high-frequency time integral satisfies
+\[
+ \int_{s<t}\chi(t)\chi(s)\sin[\Omega(t-s)]dsdt
+ =\frac{\int\chi^2dt}{\Omega}+O(\Omega^{-3}).
+\]
+For both tensor polarizations of the actual Plummer profile this yields
+\[
+ \Gamma_{2,\Lambda}=
+ \frac{105\mu_P^2T_s}{65536d^3}\log(\Lambda/\Lambda_{\rm ref})+O(1).
+\]
+A bulk scalar vacuum counterterm cancels that divergence; its finite
+energy-reference part must be stated. The original source counterterm
+proportional to $D^2+C^2$ is retained and is not this bulk term.
+The scalar phase cancels every bounded source-current expectation. Thus
+it is an energy/reference issue rather than, by itself, a failure of
+projective observable evolution. Returning the controls to their initial
+values does not remove outgoing field energy or gross switching payments.
+
+\subsection{A controlled transported boundary form for all six preparations}
+The next construction explicitly separates the background field evolution.
+Let $S_\eta(t)$ be complete classical symplectic propagation and $S_0(t)$
+the original free propagation. If $W_\eta(t)$ implements
+$S_\eta(t)S_0(-t)$ projectively, write $U_{\rm joint}=W_\eta V_\eta$.
+The comparison-picture candidate has the original $H_f$ plus transformed
+boundary forms $-\varepsilon\sum_\alpha J_\alpha\phi(f_{\alpha,t})$,
+the full finite source Hamiltonian and the original shell counterterms.
+Every angular mode and coordinate/momentum quadrature in the exact
+symplectic pullback remains; $f_{\alpha,t}$ is not replaced by
+$\bar N_Ru_R$.
+
+A uniform weighted boundary estimate can already be closed. With
+$\delta=\|b\|_\infty$, $n_\pm=1\pm|\eta|\delta$, the classical energy obeys
+\[
+ n_-E_0\le E_N\le n_+E_0,\qquad
+ |\dot E_N|\le\frac{\|\dot N\|_\infty}{n_-}E_N.
+\]
+Since $\int\|\dot N\|_\infty dt\le2|\eta|\delta$, the energy-norm
+propagation bound and complete shell duality give
+\[
+ C_E\le\sqrt{\frac{n_+}{n_-}}e^{|\eta|\delta/n_-},\qquad
+ \left\|\frac{f_{\alpha,t}}{\sqrt k}\right\|_2
+       \le n_+C_E\sqrt{\mu_2}.
+\]
+Here every tensor mode has $\mu_l=1/[\kappa R(2l+1)]\le\mu_2$; the
+angular expansion of $N(R,n)Ue_\alpha$ pays its complete norm.
+For $|\eta|\le1$, exact rational majorants yield
+\[
+ C_E\le\frac{2003}{1994},\qquad
+ M_\alpha:=\sup_t\|f_{\alpha,t}/\sqrt k\|_2
+       <\frac{1007}{1000}\sqrt{\mu_2}.
+\]
+All six original radius balls are used in the independent certificate.
+Consequently the transported source forms are uniformly semibounded:
+\[
+ K_\eta(t)\ge\frac{H_f}{2}
+       -2\varepsilon^2\left(\sum_\alpha\|J_\alpha\|M_\alpha\right)^2.
+\]
+This is an explicit comparison-picture bound, not an inheritance of the
+sharp-time canonical vacuum domain from the positive receiver.
+
+\subsection{A closed static frequency comparison}
+A further constructive route diagonalizes the instantaneous classical field
+before treating its time connection. This is a new partial advance, rather
+than a completed quantum propagator. In normalized canonical variables
+$q=\sqrt{\kappa/2}H$, $p=\sqrt{2/\kappa}\Pi$, put
+\[
+ \begin{gathered}
+ H_f[N]=\tfrac12(\langle p,Np\rangle+\langle q,D_Nq\rangle),\\
+ Q=N^{-1/2}q,\quad P=N^{1/2}p,\\
+ A_N=N^{1/2}D_NN^{1/2},\quad h_N=A_N^{1/2},\quad \omega=D^{1/2}.
+ \end{gathered}
+\]
+Here $D$ and $D_N$ act on the complete regular tensor field; $D_N$ is the
+positive lapse-weighted gradient and potential form. No driven-sector
+compression is used.
+
+For the actual Plummer profile, with $s=|x-de_z|$ and $t=s/d$,
+\[
+ r|\nabla N|\le |\eta\chi|\delta
+       \frac{t(t+1)}{(1+t^2)^{3/2}}
+       \le\frac{|\eta\chi|}{1000}.
+\]
+The global maximum follows from the exact factorization
+\[
+ (1+t^2)^3-2t^2(t+1)^2
+ =(t-1)^2(t^4+2t^3+4t^2+2t+1).
+\]
+This estimate includes the softened body, regular origin and full exterior.
+The original $l\ge2$ angular energy gives
+$\|f/r\|^2\le\langle f,Df\rangle/6$.
+Writing $g=\sup r|\nabla N|$ and $c_g=g/(2\sqrt6)$, the Leibniz rule and
+$n_-D\le D_N\le n_+D$ therefore give the closed-form inequalities
+\[
+ (n_--c_g)^2D\le A_N
+ \le\bigl(n_++c_g\sqrt{n_+/n_-}\bigr)^2D.
+\]
+Operator monotonicity of the positive square root yields
+\[
+ (n_--c_g)\omega\le h_N
+ \le\bigl(n_++c_g\sqrt{n_+/n_-}\bigr)\omega.
+\]
+Using $\delta<3/2000$, $g\le1/1000$ and $\sqrt6\ge2$ supplies the explicit
+uniform frequency-form comparison
+\[
+ \frac{998}{1000}\omega\le h_N\le\frac{1002}{1000}\omega,
+ \qquad |\eta|\le1.
+\]
+This proves equivalence of these frequency form domains. It also bounds the
+static classical change of variables and its inverse on the original energy
+space, so instantaneous shell pullback has a finite energy-dual norm. It
+does not prove the required time derivative or a Fock implementer.
+
+For clarity, the ordered static Bogoliubov factors on a common smooth core
+are
+\[
+ \begin{aligned}
+ T_+&=h_N^{1/2}N^{-1/2}\omega^{-1/2},&
+ T_-&=h_N^{-1/2}N^{1/2}\omega^{1/2},\\
+ \alpha_N&=(T_++T_-)/2,& \beta_N&=(T_+-T_-)/2.
+ \end{aligned}
+\]
+A local Weyl expansion in a normal tensor frame gives the same order
+$|p|^{-1}$ term in $T_+$ and $T_-$; it cancels in $\beta_N$, whose formal
+symbol begins at order $|p|^{-2}$. This principal cancellation is not a
+global Hilbert--Schmidt proof: the remainder, massless infrared limit,
+conical origin, spatial infinity and all angular modes still require
+bounds. A gap-free trace-ideal target is explicit. If
+$AX+XA^T=B$ for positive injective $A$, then
+\[
+ \|X\|_{\rm HS}\le\tfrac12
+       \|A^{-1/2}BA^{-T/2}\|_{\rm HS},
+ \qquad \frac{ab}{(a+b)^2}\le\frac14.
+\]
+This identifies a weighted norm to calculate; its finiteness has not been
+assumed. The nonlinear static transformation requires its own estimate too.
+
+If the static transformation admits a differentiable projective implementer
+$U_N(t)$, its time connection has number coefficient $C_t$ and symmetric
+pair coefficient $F_t$. Sufficient form bounds to establish include
+\[
+ \begin{gathered}
+ c_t=\|\omega^{-1/2}C_t\omega^{-1/2}\|,\qquad
+ g_t=\|\omega^{-1/2}F_t\omega^{-T/2}\|,\\
+ \nu_t=\|\omega^{-1/2}F_t\|_{\rm HS}^2,\qquad E=\langle H_f\rangle,\\
+ |\langle H_{\rm pair}(F_t)\rangle|
+       \le g_tE+\sqrt{\nu_t E}.
+ \end{gathered}
+\]
+The vacuum contraction is included in the last inequality. No finite values
+for $c_t,g_t,\nu_t$ are assigned here. Their relative bounds must leave a
+positive margin below $998/1000$, with time regularity for the transformed
+non-$L^2$ shell form. At entry and release $N=1$, so the static frame returns
+to the original reference in a fixed phase gauge. This route specifies the
+next global kernel calculation while retaining the open joint evolution.
+
+\subsection{The remaining joint quantum certificate}
+To complete the actual switched preparation, one must still establish the
+full symplectic implementability bounds, a nonautonomous propagation theorem
+for these boundary forms, and convergence with a state-specific remainder.
+The original $u_R\notin L^2$ but $u_R/\sqrt k\in L^2$; formal time
+differentiation need not preserve that weighted norm. Uniform lower bounds
+alone do not supply the old $C^1$ common-form theorem. A smooth-background
+theorem requiring $C^\infty$ switching must use a stated bump waveform and
+its actual areas instead of silently assuming the displayed $C^3$ protocol.
+
+For the vacuum field channel, a verified higher-order bound
+$\|\omega^{1/2}(\beta_\eta-\eta\beta_1)\|_{\rm HS}\le C_2\eta^2$
+would imply
+\[
+ |E_{\rm spont}-\eta^2\|\omega^{1/2}\beta_1\|_{\rm HS}^2|
+ \le2|\eta|^3C_2\|\omega^{1/2}\beta_1\|_{\rm HS}+C_2^2\eta^4.
+\]
+No finite $C_2$ is inferred from the first-Born term. For the actual joint
+state, a norm remainder $r$ gives current error at most
+$\|Z\|r(2+r)=4r+2r^2$, then a phase disk on the original nonzero branch.
+First energy alone cannot imply a generic quadratic state Taylor bound:
+a fixed-mean-energy high-occupation probe has remainder of order
+$\sqrt{|\eta|}$.  The actual hard branches may have stronger properties;
+their required correlations and propagation estimates remain the source-
+specific calculation. No Gaussian substitute, finite UV cutoff, or chosen
+energy reference completes that calculation automatically.

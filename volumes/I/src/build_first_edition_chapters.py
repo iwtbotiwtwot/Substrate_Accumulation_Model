@@ -19,7 +19,7 @@ for i,title in TITLES.items():
 \newcommand{\ChapterRoman}{'''+roman+r'''}
 \hypersetup{pdftitle={SAM Volume I: '''+title+r'''},pdfauthor={Sean Brady}}
 \begin{document}
-\fancyhead[R]{\footnotesize Brady | First edition draft, 30 October 2026}
+\fancyhead[R]{\footnotesize First edition draft, 2 November 2026}
 '''+(r'\fancyhead[L]{\footnotesize SAM Volume I | Supplement}' if i==15 else r'\fancyhead[L]{\footnotesize SAM Volume I | Appendix A}' if i==14 else '')+r'''
 \twocolumn[{
 \begin{center}
@@ -29,10 +29,6 @@ for i,title in TITLES.items():
 \vspace{0.4em}
 {\large '''+('Appendix' if i==14 else 'Supplement to Volume I' if i==15 else 'Chapter '+roman)+r'''\par}
 \vspace{0.5em}
-{\large Sean Brady\par}
-{\small Originator and conceptual director\par}
-{\small Research development with OpenAI ChatGPT and Codex\par}
-{\small First edition draft, 30 October 2026 (text of the edition of 25 October 2026)\par}
 \end{center}
 '''
  if abstract:opener+=r'\begin{minipage}{0.97\textwidth}\noindent\textbf{Abstract.} '+abstract+r'\end{minipage}'+'\n'

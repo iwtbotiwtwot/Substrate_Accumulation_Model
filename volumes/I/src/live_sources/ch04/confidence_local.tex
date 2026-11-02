@@ -1,0 +1,43 @@
+\subsection{Positive support constraints inside the confidence event}
+For eight observations let $e_j=Y_j-Y_{j+1}$, $0\le j\le 6$.
+The exact degree-six positive difference-measure constraints on $[0,1]$ are
+\[
+ \begin{gathered}
+ H_4(e)=(e_{i+j})_{i,j=0}^3\succeq 0,\\
+ L_3(e)=(e_{i+j+1}-e_{i+j+2})_{i,j=0}^2\succeq 0.
+ \end{gathered}
+\]
+Intersect these with
+$\|\Sigma^{-1/2}(Y-\widehat Y)\|_2\le\sqrt{24}$.
+These conditions are sufficient as well as necessary by the one-variable
+representation of a nonnegative degree-six polynomial as sums of squares
+plus $\lambda(1-\lambda)$ times sums of squares.
+Maximizing a selected polynomial's linear moment functional over this
+convex set gives a simultaneous upper certificate; the complete conic
+optimization is a specified method, not an executed optimum here.
+
+A finite implemented dual method supplies usable bounds. For positive
+Gram multipliers $P,Q$, write $b=a+H^*P+L^*Q$. Then every feasible $Y$ obeys
+\[
+ a^TY\le b^T\widehat Y+\sqrt{24b^T\Sigma b}.
+\]
+The minus signs give the corresponding lower certificate. A catalogue of 40
+exact Gram choices, including zero, is evaluated with outward rational
+square roots. Selection within this catalogue retains the same confidence
+event. An explicit constant-curve fixture improves the unconstrained
+ellipsoid's positive upper bound on $-e_0$ to exactly 0, with a feasible
+true curve; a separate drift fixture has an exact infeasibility witness.
+
+If the class also requires positive amplitudes and a nonnegative plateau,
+use the stronger positive-$Y$ support constraints
+\[
+ (Y_{i+j+1})_{i,j=0}^3\succeq 0,\qquad
+ (Y_{i+j}-Y_{i+j+1})_{i,j=0}^3\succeq 0.
+\]
+An atom of the difference measure at $\lambda=1$ is a valid anchored
+finite-window linear surrogate, not a finite-amplitude plateau model.
+For a fitted curve, two linear optimizations per grid point bound
+$\pm(Y_j-\widetilde Y_j)$ directly over the chosen intersection; this avoids
+identifying true neighborhood masses with fitted weights. The supplement
+gives the full formulations, exact feasibility witnesses and finite dual
+implementation separately.

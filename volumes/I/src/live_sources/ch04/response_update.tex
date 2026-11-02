@@ -1,0 +1,226 @@
+\section{Isolated susceptibility and weak-amplitude reach}\label{sec:isolated-response-update}
+Retain lanes $01,02,03,12,13,23$, with their unchanged exact hard-eigenbranch
+superpositions and full soft vacuum. The signed couplings, both polarizations, all field frequencies,
+even source energy, both counterterms, original window $T_0=573049\pi$ and
+shared dimensional calibration remain. The complete sixteen-state source,
+including its four dark states, is unchanged. This update concerns the
+selected positive Bessel/TT receiver; the canonical local-stress protocol
+retains its separate domain and renormalization questions.
+
+The common profile is still $N_\alpha=1-\alpha V_{\mathbf e}$, with
+$d=10^{30}R$, $N_\alpha(0)=1-\alpha$, and the single shared split
+$L=10^{21}R_-$. Varying $\alpha$ changes the profile amplitude, not the
+preparation, ruler or source age separately by lane. Below $T=T_0$.
+
+\subsection{Cancel the interacting uniform history first}
+Define the finite inhomogeneous residual by
+\[
+ R_l(\alpha,T)=\theta_{\alpha,l}(T)
+                   -\theta_{0,l}((1-\alpha)T).
+\]
+Its derivative is $r_l=\theta_{1,l}+T\nu_{0,l}(T)$. The exact interacting
+uniform transient has canceled before interval arithmetic. With the original
+trajectory $\chi_l$, $z_{0,l}=\langle Z_l\rangle$ and
+$B_T(s)=U_0(T-s)^*Z_lU_0(T-s)$, the isolated functional is
+\[
+ \begin{aligned}
+ r_l=-\operatorname{Im}\frac{\ii}{z_{0,l}(T)}\int_0^T
+ \bigl\{&r_B[\chi_l,B_T\chi_l]\\
+       &-r_B[B_T^*\chi_l,\chi_l]\bigr\}\dd s.
+ \end{aligned}
+\]
+The actual two-time matrix elements have not been point-evaluated. They are
+enclosed directly using the original trajectory tail and one global energy
+bound for the inserted-current state. The resulting zero-centered intervals
+are for the isolated functional itself. Cross-lane contrasts also remove
+their exact uniform transients first; without further joint information,
+their safe radii add, with no independence assumption.
+
+\subsection{Direct orientation contrasts and exact null controls}
+A correlated orientation calculation cancels additional terms. Put
+\[
+ \begin{gathered}
+ A=r^2+2d^2,\quad C=\tfrac12(A+\sqrt{r^4+4d^4}),\\
+ q=rd/C,\qquad F=\sqrt2d/\sqrt C.
+ \end{gathered}
+\]
+The profile has the exact expansion
+$V_{\mathbf e}=F\sum_{j\ge0}q^jP_j(n\cdot\mathbf e)$, where
+$F\le1$ and $q\le\sqrt2-1<5/12$. Only degrees 0,2,4 survive the TT
+compression. Its anisotropic degree-four part is
+\[
+ \frac5{144}Fq^4\sin^4\beta
+ [\cos(4\phi)\sigma_z+\sin(4\phi)\sigma_x].
+\]
+Consequently an azimuth shift $\phi\mapsto\phi+\pi/4$ cancels the complete
+uniform, radial, quadrupole and axisymmetric degree-four contributions
+before any response error is bounded. The remaining weight has bounds
+\[
+ \begin{gathered}
+ b_{{\rm con},\rm far}=\frac5{72}\left(\frac5{12}\right)^4,\\
+ b_{{\rm con},\rm near}=\frac5{1152}(L/d)^4.
+ \end{gathered}
+\]
+The direct first-phase contrast radius is below
+$1.290030\,10^{-8}$ radians per unit $\alpha$ in every lane, roughly 950
+times tighter than adding two isolated residual disks in the strongest
+lane. These intervals still contain zero.
+
+There are exact null controls at every amplitude:
+$W_{\mathbf e}=W_{-\mathbf e}$ and
+$W(\beta,\phi+\pi/2)=W(\beta,\phi)$. Their receiving Hamiltonians and
+current histories coincide on the same preparation. Gradient reversal
+does not isolate its even return. The original charge selection is also
+retained: the state has charges 0 and 1, $Z$ lowers charge by 1, and the
+scalar receiving perturbation has charge 0 and anisotropic charge $\pm2$.
+Only its charge 0 and $+2$ parts can contribute to the complex $Z$ first
+response. This does not assign the unknown response coefficients.
+
+\subsection{A tight finite energy ceiling}
+The previous square-root amplitude diagnostic loses three nanoradian sign
+tests. A tighter finite certificate uses the same common form domain and
+current theorem, retaining the actual small correlated residual energy.
+Let $n=1-\alpha$, $m_N=1-3\alpha/2$, and let
+$\rho_{\rm prep}$ bound the original prepared expectation of $r_B$:
+\[
+ |r_B[\Psi_{\rm prep}]|\le b_{\rm near}K_{\rm prep}
+                  +K_{{\rm out},\rm prep}(L)\le\rho_{\rm prep}.
+\]
+The complete profile obeys $N_\alpha\ge m_N$. With
+$e(t)=\|\Psi_\alpha(t)-\chi(nt)\|$, exact energy conservation gives
+\[
+ \begin{aligned}
+ K_{\rm act}(t)&\le A_\alpha+B_\alpha e(t),\\
+ A_\alpha&=\frac{n\kappa_0+\alpha\rho_{\rm prep}}{m_N},\\
+ B_\alpha&=\frac{2n\epsilon}{m_N}.
+ \end{aligned}
+\]
+The common even scalar remains in the energy account and cancels only from
+this comparison. A strict state-distance certificate is obtained from
+\[
+ \begin{aligned}
+ e_*^4&>4T^2\alpha^2 b^2(A_\alpha+B_\alpha e_*),\\
+ b&=b_{\rm near}\sqrt{\kappa_0}+\sqrt{\eta_{\rm ref}(L)}.
+ \end{aligned}
+\]
+The ratio $e^4/(A+Be)$ is strictly increasing for $e>0$, so rational bisection
+gives an upper root with an exact positive margin. This certifies the tight
+uniform ceiling $K_A=A_\alpha+B_\alpha e_*$.
+
+\subsection{A linear current certificate and an all-amplitude sign theorem}
+Insert this ceiling into the existing weak Heisenberg theorem. The
+reference propagator's energy bound and the exact current commutator give
+\[
+ \begin{gathered}
+ k_B=[2\sqrt{K_A+2\epsilon}+2\sqrt c]^2+8\epsilon,\\
+ |z_\alpha-z_{\rm ref}|\le2\alpha T\sqrt{K_Ak_B}.
+ \end{gathered}
+\]
+This uses continuity in the common energy form domain and differentiability
+into its dual. It does not assume $r_B\Psi$ exists as a Hilbert-space vector
+or identify the canonical stress with this receiver. The exact variation
+pairs the perturbation with the evolved current and its adjoint; both
+inserted-current energies are bounded by $k_B$.
+
+Take the smaller valid current error
+$E_z=\min(4e_*,2\alpha T\sqrt{K_Ak_B})$. With $m=M_--\mathcal E(T)$,
+\[
+ |R_l(\alpha,T)|\le\arcsin(E_z/m)
+                  \le\frac{E_z/m}{1-E_z/m}.
+\]
+The state certificate is often tighter at larger $\alpha$; the current
+certificate becomes linear in $\alpha$ near zero. Both retain the unchanged
+interacting preparation and every prefix of the original window.
+
+There is an explicit interval theorem, beyond the discrete sweep. The
+retained strict certificate at $\alpha_0=.001$ has
+\[
+ e_0^4>4T^2\alpha_0^2b^2(3\kappa_0+4\epsilon e_0).
+\]
+For $e_\alpha=e_0\sqrt{\alpha/\alpha_0}$, its left side scales by
+$(\alpha/\alpha_0)^2$, while the energy factor on the right decreases.
+The same first-crossing argument therefore gives
+$e(t)<e_\alpha\le e_0$ for every $0<\alpha\le\alpha_0$. Using
+$n\le1$ and $m_N\ge1-3\alpha_0/2$ in the exact energy comparison gives
+\[
+ \overline K_A=
+ \frac{\kappa_0+\alpha_0\rho_{\rm prep}+2\epsilon e_0}
+      {1-3\alpha_0/2}.
+\]
+Insert this ceiling in the current bound and define, lane by lane,
+\[
+ \begin{aligned}
+ \overline k_B&=[2\sqrt{\overline K_A+2\epsilon}+2\sqrt c]^2+8\epsilon,\\
+ C_l&=\frac{2T\sqrt{\overline K_A\overline k_B}}{m_l}.
+ \end{aligned}
+\]
+The exact outward comparisons verify $\alpha_0C_l<1$ and
+\[
+ \begin{gathered}
+ |R_l(\alpha,T)|\le\frac{\alpha C_l}{1-\alpha_0C_l},\\
+ \frac{C_l}{1-\alpha_0C_l}<T_-\nu_{l,-}.
+ \end{gathered}
+\]
+for all six original preparations. The largest error coefficient is below
+$0.2121$, while every signal coefficient exceeds $6.28$. In particular,
+\[
+ \begin{gathered}
+ \theta_{\alpha,l}(T)-\theta_{0,l}(T)\\
+ =-\int_{(1-\alpha)T}^{T}\nu_{0,l}(u)\,\dd u+R_l(\alpha,T)\\
+ \le-\alpha T_-\nu_{l,-}
+       +\frac{\alpha C_l}{1-\alpha_0C_l}<0.
+ \end{gathered}
+\]
+This proves the finite endpoint-phase sign for every
+$0<\alpha\le.001$ in the same receiving model. It uses the entire original
+interacting transient and the strict current-amplitude margin, not six
+independent frequency fits or an inference from a negative derivative alone.
+
+\subsection{Weak-amplitude replay and finite residual contrasts}
+The outward sweep covers $\alpha=10^{-k}$ for $k=3,\ldots,8$,
+adds $\alpha=7\,10^{-10}$, and includes $10^{-10}$, $10^{-11}$ and
+$10^{-12}$. Every lane has a strict finite crossing, nonzero-current and
+total-sign certificate. At
+$\alpha=7\,10^{-10}$, compare the old sufficient rescaling with the new
+finite inhomogeneous phase bounds, in nanoradians:
+\begin{center}\small
+\begin{tabular}{c rr}\toprule
+Lane&Old rescaling&New bound\\\midrule
+01&0.798&0.000162\\
+02&1.596&0.000389\\
+03&12.767&0.088993\\
+12&0.798&0.000174\\
+13&6.384&0.080217\\
+23&6.384&0.071460\\\bottomrule
+\end{tabular}
+\end{center}
+All six new bounds fit a 0.2 nanoradian complete-form allowance and preserve
+the approximately $-4.398$ nanoradian uniform signal. This is a rescaling
+of the declared distant-body fixture, not an Earth-profile calculation or
+achieved apparatus sensitivity. Every other metrological requirement remains.
+
+For a direct finite azimuth contrast, the other nonuniform receiver has
+the arbitrary-vector propagation estimate
+$K[U_B(t)\Xi]\le\gamma K[\Xi]+\beta\|\Xi\|^2$,
+where $\gamma=1/m_N$, $\beta=2n\epsilon/m_N$.
+Its inserted-current ceiling is
+\[
+ k_{B,\rm other}
+ =\gamma[2\sqrt{\gamma K_A+\beta}+2\sqrt c]^2+4\beta.
+\]
+The exact receiving-form difference gives
+$|z_A-z_B|\le2\alpha b_{{\rm con},\rm far}T
+\sqrt{K_Ak_{B,\rm other}}$. Its reference amplitude is at least $m-E_z$.
+At $7\,10^{-10}$ the direct finite orientation-phase contrast has a
+zero-centered enclosure of radius below 0.000186272 nanoradians in every
+lane. The common uniform and axisymmetric operators canceled first.
+
+An explicit finite derivative payment is retained:
+$|R_l(\alpha)-\alpha r_l|\le\Phi_l(\alpha)+\alpha D_l/m_l$.
+The direct orientation contrast uses its own finite bound and direct
+first-contrast radius. These are controlled finite remainders, with no
+claim of a sharp quadratic order. Isolated signs and actual numerical
+two-time matrix elements remain unresolved. For the selected receiver,
+\textbf{the test result suggests strong contact with the concept}: retaining
+the correlated energy closes the weak-amplitude sign test in all six lanes,
+while the canonical quantum protocol remains separate.

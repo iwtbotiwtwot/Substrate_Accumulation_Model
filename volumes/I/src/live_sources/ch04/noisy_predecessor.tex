@@ -1,0 +1,118 @@
+\section{Approximate modes can certify the measured curve}\label{sec:curve-certificate}
+For the positive difference measure $d\mu$ on $[0,1]$, write
+\[
+ e_j=\int\lambda^j d\mu,\qquad
+ Y_0-Y_j=\int q_j(\lambda)d\mu,\quad
+ q_j=\sum_{k=0}^{j-1}\lambda^k.
+\]
+Suppose node neighborhoods of radius at most $\epsilon$ are assigned
+disjointly, with union $S$, and the polynomial certificate gives
+$\mu(S^c)\le\eta/d^2$. Collapse each neighborhood's true mass to its
+center, omit the exterior mass, and anchor at the same $Y_0$. On $[0,1]$,
+$0\le q_j\le j$ and $|q_j'|\le j(j-1)/2$. Splitting the integral gives
+\[
+ |Y_j-\widetilde Y_j|\le
+ \frac{j(j-1)}2\epsilon\mu(S)+\frac{j\eta}{d^2}.
+\]
+This finite-grid curve bound needs no cutoff away from $\lambda=1$.
+Estimated neighborhood weights with total absolute error $\gamma$ and
+anchor error $\epsilon_0$ add $j\gamma+\epsilon_0$. True neighborhood
+masses cannot silently be identified with fitted weights. An atom at 1 is
+an anchored linear finite-window surrogate, not a finite-amplitude plateau.
+Plateau inference still pays the singular factor $(1-\lambda)^{-1}$.
+
+For continuous grid coordinate $t\ge 1$, use
+$q_t=(1-\lambda^t)/(1-\lambda)$ with $q_t(1)=t$.
+Its maximum is $t$ and a Lipschitz bound is
+$\max\{1,t(t-1)/2\}$. Indeed
+\[
+ q_t=t\int_0^1[\lambda+(1-\lambda)u]^{t-1}\,du;
+\]
+differentiation bounds the maximum derivative by its endpoint value 1
+for $1\le t\le 2$, and by $t(t-1)/2$ for $t\ge 2$.
+The same split proves a continuous-window bound on this range. A window
+touching 0 with unrestricted fast modes requires an additional modulus.
+
+\section{Simultaneous noise coverage permits selected certificates}
+Let $\widehat Y=Y+\Sigma^{1/2}g$, where $g$ is an eight-dimensional
+standard Gaussian and the full covariance $\Sigma$ is known. On the
+single event $\|g\|^2\le 24$,
+\[
+ |a^{\rm T}(\widehat Y-Y)|\le\sqrt{24a^{\rm T}\Sigma a}
+ \quad\hbox{for every }a.
+\]
+The Gaussian moment generating function gives
+$\Pr\{\|g\|^2\ge n+2\sqrt{nx}+2x\}\le e^{-x}$.
+For $n=8,x=3$ its threshold is less than 24, so the event has coverage
+at least $1-e^{-3}>0.95$. It holds for vectors selected from the same data.
+In particular, if $c$ selects a polynomial after observing the data,
+$\eta=c^{\rm T}Hc=a(c)^{\rm T}Y$ has the simultaneous upper bound
+\[
+ \eta\le\widehat\eta+\sqrt{24a(c)^{\rm T}\Sigma a(c)}.
+\]
+Estimated covariance, heavy tails and unmodeled drift need a separately
+calibrated confidence event. No Gaussian coverage is assigned to them.
+
+Differences reuse observations: $C=D\Sigma D^{\rm T}$.
+For the declared fixture $\Sigma_{ij}=\sigma^2 2^{-|i-j|}$,
+$\sigma=10^{-6}$, each difference variance is $\sigma^2$.
+The same event therefore bounds every moment entry error by $5\sigma$.
+For a size-$r$ Hankel matrix,
+\[
+ \widehat H_r-5r\sigma I\succ 0
+ \quad\Longrightarrow\quad H_r\succ 0.
+\]
+This certifies at least $r$ visible nodes for every compatible positive
+measure. Failure is unresolved, not proof of smaller exact rank.
+Noise cannot exclude an arbitrarily weak extra positive mode.
+
+The exact two-mode fixture has $\alpha=4/5$, $B=(1/10,1/10)$,
+$\lambda=(1/4,3/4)$ and eight point samples. It passes the size-two lower
+certificate. A seeded covariance-aware calculation uses 2000 catalogs in
+each of five declared cases: separated, nearly coincident, weak second,
+very slow and constant. The separated case certifies a minimum of two;
+the others remain unresolved at two. These are new inference checks,
+separate from the historical Rev 6 benchmark or observational data.
+
+\input{confidence_local.tex}
+
+\subsection{A window mismatch is a model error}
+Point-sample Hankel formulas also apply to common translated bin windows:
+each exponential acquires a common positive amplitude factor and retains
+its node. Unequal windows generally do not. For one true node $1/2$ and amplitude $B=1/5$,
+an alternating positive two-point window factor 1 and 5/4 gives the
+four-point difference determinant $-27/6400$, whereas a common window
+gives 0. This is a failure of the point-sample model, not evidence for a
+positive two-mode model. Appendix~\ref{app:statistics}'s window correction
+is required before the main-text single-mode and rank tests are applied.
+
+\section{Coarse winding and fine final readout use different ensembles}
+The earlier twenty-fine-mean design is sufficient but spends final
+precision on every winding prefix. Assume the controlled initial phase
+is known. Use three intermediate prefixes per history with two coordinates
+each:12 coarse means with coordinate tolerance $d_c=.05$ and 8100 fresh
+preparations per mean. Use only the two final coordinates of each history
+at $d_f=5\,10^{-11}$: four fine means, each with
+$5.432\,10^{21}$ fresh preparations. Hoeffding and the union bound give
+\[
+ \begin{aligned}
+ P_c&\le 24e^{-(8100)d_c^2/2}<.000961568,\\
+ P_f&\le 8e^{-(5.432\,10^{21})d_f^2/2}<.008999751.
+ \end{aligned}
+\]
+The total statistical failure is below $.009961318<.01$ and the sufficient
+preparation count is
+\[
+ 21\,728\,000\,000\,000\,000\,097\,200
+ \simeq 2.1728\,10^{22}.
+\]
+The inherited amplitude lower bound, controlled prefix spacing and
+separate coarse systematic allowance keep every unwrapping increment
+strictly below $\pi$. Fine final sampling retains the earlier statistical
+phase allowance below 0.2 nanoradians. Unknown initial phase requires
+additional sampling. Every original preparation, leakage, readout,
+timing, reference, energy and model requirement remains in force.
+This failure probability is conditional on the stated systematic bounds;
+random calibration failures must receive their own probability allocation.
+These are sufficient mathematical resource estimates, not achieved
+apparatus performance or experimental lower bounds.

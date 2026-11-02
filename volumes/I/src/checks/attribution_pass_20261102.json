@@ -1,0 +1,279 @@
+{
+ "written_utc": "2026-11-02T01:58:54Z",
+ "replacements": [
+  {
+   "step": "live_sources copied from retained_sources ch01..ch05; retained_sources untouched"
+  },
+  {
+   "file": "live_sources/ch01/chapter1_as_vii.tex",
+   "old": "pdfauthor={Sean Brady; OpenAI ChatGPT and Codex}",
+   "new": "pdfauthor={Sean Brady}",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_as_vii.tex",
+   "old": "\\fancyhead[R]{\\footnotesize Brady \\;|\\; 15 October 2026}",
+   "new": "\\fancyhead[R]{\\footnotesize First edition draft, 2 November 2026}",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_expanded.tex",
+   "old": "pdfauthor={Sean Brady; OpenAI ChatGPT and Codex}",
+   "new": "pdfauthor={Sean Brady}",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_expanded.tex",
+   "old": "\\fancyhead[R]{\\footnotesize Brady \\;|\\; 15 October 2026}",
+   "new": "\\fancyhead[R]{\\footnotesize First edition draft, 2 November 2026}",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch02/chapter2_source_field_formatted.tex",
+   "old": "pdfauthor={Sean Brady; OpenAI ChatGPT and Codex}",
+   "new": "pdfauthor={Sean Brady}",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch02/chapter2_source_field_formatted.tex",
+   "old": "\\fancyhead[R]{\\footnotesize Brady \\;|\\; 15 October 2026}",
+   "new": "\\fancyhead[R]{\\footnotesize First edition draft, 2 November 2026}",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch03/chapter3_formatted.tex",
+   "old": "pdfauthor={Sean Brady; OpenAI ChatGPT and Codex}",
+   "new": "pdfauthor={Sean Brady}",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch03/chapter3_formatted.tex",
+   "old": "\\fancyhead[R]{\\footnotesize Brady \\;|\\; 15 October 2026}",
+   "new": "\\fancyhead[R]{\\footnotesize First edition draft, 2 November 2026}",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch04/chapter.tex",
+   "old": "pdfauthor={Sean Brady; OpenAI ChatGPT and Codex}",
+   "new": "pdfauthor={Sean Brady}",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch04/chapter.tex",
+   "old": "\\fancyhead[R]{\\footnotesize Brady \\;|\\; 16 October 2026}",
+   "new": "\\fancyhead[R]{\\footnotesize First edition draft, 2 November 2026}",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch05/chapter.tex",
+   "old": "pdfauthor={Sean Brady; OpenAI ChatGPT and Codex}",
+   "new": "pdfauthor={Sean Brady}",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch05/chapter.tex",
+   "old": "\\fancyhead[R]{\\footnotesize Brady \\;|\\; 16 October 2026}",
+   "new": "\\fancyhead[R]{\\footnotesize First edition draft, 2 November 2026}",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_as_vii.tex",
+   "old": "{\\large Volume I, Chapter VII \\textbullet\\ text of 15 October 2026\\par}\n\\vspace{0.5em}\n{\\large Sean Brady\\par}\n{\\small Originator and conceptual director\\par}\n{\\small OpenAI ChatGPT and Codex \\textbul",
+   "new": "{\\large Chapter VII\\par}\n",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_expanded.tex",
+   "old": "{\\large Sean Brady\\par}\n{\\small Originator and conceptual director\\par}\n{\\small OpenAI ChatGPT and Codex \\textbullet\\ AI research collaborators and co-authors\\par}\n{\\small Expanded chapter edition \\te",
+   "new": "",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch02/chapter2_source_field_formatted.tex",
+   "old": "{\\large Chapter II \\textbullet\\ Source-to-field companion update\\par}\n\\vspace{0.5em}\n{\\large Sean Brady\\par}\n{\\small Originator and conceptual director\\par}\n{\\small OpenAI ChatGPT and Codex \\textbulle",
+   "new": "{\\large Chapter II\\par}\n",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch03/chapter3_formatted.tex",
+   "old": "{\\large Chapter III \\textbullet\\ Source-bound development\\par}\n\\vspace{0.5em}\n{\\large Sean Brady\\par}\n{\\small Originator and conceptual director\\par}\n{\\small OpenAI ChatGPT and Codex \\textbullet\\ Rese",
+   "new": "{\\large Chapter III\\par}\n",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch04/chapter.tex",
+   "old": "{\\large Chapter IV \\textbullet\\ Finite preparation and switched joint composition development\\par}\\vspace{0.5em}\n{\\large Sean Brady\\par}\n{\\small Originator and conceptual director\\par}\n{\\small OpenAI ",
+   "new": "{\\large Chapter IV\\par}\n",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch05/chapter.tex",
+   "old": "{\\large Chapter V \\textbullet Source, thermal and measurement development}\\\\[7pt]\n{\\normalsize Sean Brady}\\\\\n{\\small Originator and conceptual director}\\\\[3pt]\n{\\small OpenAI ChatGPT and Codex \\textbu",
+   "new": "{\\large Chapter V}\n",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch02/chapter2_source_field_formatted.tex",
+   "old": "New mathematical constructions: Codex. Sean Brady: originator/conceptual director. OpenAI ChatGPT and Codex: research collaborators and co-authors.",
+   "new": "Source-bound physical-development packet from GEN6 Duck run chapter2-physical-protocols-20261015-01 (Duck 1.2.2, core 0.10.2; 15 native tasks), directed by Sean Brady; constructions written with OpenA",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch03/chapter3_formatted.tex",
+   "old": "\\noindent[1] Brady, ChatGPT and Codex. \\emph{Volume I, Chapter I}",
+   "new": "\\noindent[1] S. Brady. \\emph{Volume I, Chapter I}",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch03/chapter3_formatted.tex",
+   "old": "\\noindent[8] Brady, ChatGPT and Codex. \\emph{Chapter III local action and actual clock continuation}, \\nolinkurl{voli_chapter3_local_action2_20261015}:",
+   "new": "\\noindent[8] S. Brady. \\emph{Chapter III local action and actual clock continuation}, \\nolinkurl{voli_chapter3_local_action2_20261015}, GEN6 Duck run chapter3-local-action-20261015-03 (Duck 1.2.3, cor",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch04/nonuniform_continuation.tex",
+   "old": "This is a new Codex receiving construction.",
+   "new": "This receiving construction was written with OpenAI Codex in campaign voli\\_chapter4\\_observation1\\_20261016 (GEN6 Duck run chapter4-observation-20261016-01, Duck 1.2.3, core 0.10.2) on the uniform th",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch04/transport_continuation.tex",
+   "old": "This is an explicit propagation construction by Codex, following the amplitude-friction representation retained in Ref.~[19];",
+   "new": "This propagation construction was written with OpenAI Codex in campaign voli\\_chapter4\\_observation1\\_20261016 (GEN6 Duck run chapter4-observation-20261016-01, Duck 1.2.3, core 0.10.2) under Sean Brad",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch04/chapter.tex",
+   "old": "S. Brady, OpenAI ChatGPT and Codex.",
+   "new": "S. Brady.",
+   "matches": 4
+  },
+  {
+   "file": "live_sources/ch05/chapter.tex",
+   "old": "The following is an explicitly Codex-originated candidate for apparatus\nand progress on a fixed background. It is not a selected SAM\nsource--geometry law.",
+   "new": "The following apparatus candidate was written with OpenAI Codex in\ncampaign voli\\_chapter5\\_localization2\\_20261016 (GEN6 Duck run\nchapter5-localization-20261016-01, Duck 1.2.3, core 0.10.2) under Sea",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch05/chapter.tex",
+   "old": "\\bibitem{unified} S. Brady, OpenAI ChatGPT and Codex.",
+   "new": "\\bibitem{unified} S. Brady.",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_as_vii.tex",
+   "old": "The weighted-form, reference, and Duhamel construction is a Codex contribution developed within this collaboration, receiving the original source rules and retained hard preparation.",
+   "new": "The weighted-form, reference, and Duhamel construction was written with OpenAI Codex in GEN6 Duck run chapter1-lane01-20261015-01 (Duck 1.2.2, core 0.10.2) under Sean Brady's direction, receiving the ",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_as_vii.tex",
+   "old": "Brady, with ChatGPT and Codex.",
+   "new": "S. Brady.",
+   "matches": 2
+  },
+  {
+   "file": "live_sources/ch01/chapter1_expanded.tex",
+   "old": "The weighted-form, reference, and Duhamel construction is a Codex contribution developed within this collaboration, receiving the original source rules and retained hard preparation.",
+   "new": "The weighted-form, reference, and Duhamel construction was written with OpenAI Codex in GEN6 Duck run chapter1-lane01-20261015-01 (Duck 1.2.2, core 0.10.2) under Sean Brady's direction, receiving the ",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_expanded.tex",
+   "old": "Brady, with ChatGPT and Codex.",
+   "new": "S. Brady.",
+   "matches": 2
+  },
+  {
+   "file": "chapter01_concepts.tex",
+   "old": "{\\large Sean Brady\\par}\n{\\small Originator and conceptual director\\par}\n{\\small Research development with OpenAI ChatGPT and Codex; concept chapter drafted with Claude Code\\par}\n{\\small First edition ",
+   "new": "",
+   "matches": 1
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "OpenAI ChatGPT and Codex: the mathematical development of Chapters~II to~VI from which the derived statements are drawn.",
+   "new": "The mathematical development of Chapters~II to~VII, from which the derived statements are drawn, was produced in GEN6 Duck runs on the Substrate Ledger Computer (15--17 October 2026) directed by Sean ",
+   "matches": 1
+  },
+  {
+   "file": "ch06.tex",
+   "old": "New constructions and finite parameter choices are Codex contributions.",
+   "new": "New constructions and finite parameter choices in this chapter were written with OpenAI Codex under Sean Brady's direction on the retained Chapter~VI Hamiltonian and source sectors; finite matrices we",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/foundation_overlap.tex",
+   "old": "The quadratic refinement and robustness corollaries in this section are\nagent-originated derivations by OpenAI ChatGPT and Codex in the present work\nblock.",
+   "new": "The quadratic refinement and robustness corollaries in this section were\nderived with OpenAI Codex in campaign voli\\_chvi\\_foundation1\\_20261017\n(H002700) under Sean Brady's direction, with two native",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/decoder_decoder.tex",
+   "old": "The decoder and bounds below are agent-originated derivations by OpenAI\nChatGPT and Codex from the retained Chapter~I clock observable and its\nChapter~VI route interpretation.",
+   "new": "The decoder and bounds below were derived with OpenAI Codex in campaign\nvoli\\_chvi\\_source\\_decoder1\\_20261017 (H002701) under Sean Brady's\ndirection, from the retained Chapter~I clock observable and ",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/record_memory_channel.tex",
+   "old": "The new instrument, finite-write estimate and correlated-hold bounds are\nagent-originated derivations by OpenAI ChatGPT and Codex.",
+   "new": "The new instrument, finite-write estimate and correlated-hold bounds were\nderived with OpenAI Codex in campaign voli\\_chvi\\_detector\\_record1\\_20261017\nunder Sean Brady's direction, with four native S",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/references.tex",
+   "old": "S. Brady, OpenAI ChatGPT and Codex,",
+   "new": "S. Brady,",
+   "matches": 12
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "Sean Brady is the originator and conceptual director. Chapters I--VI retain their recorded OpenAI ChatGPT and Codex research-collaboration and co-authorship credits, including the particular analytica",
+   "new": "Sean Brady is the project director. The content of Chapters II--VII was produced in GEN6 Duck runs on the Substrate Ledger Computer (15--17 October 2026) directed by Sean Brady and operated by OpenAI ",
+   "matches": 1
+  },
+  {
+   "file": "build_first_edition_chapters.py",
+   "old": "{\\large Sean Brady\\par}\n{\\small Originator and conceptual director\\par}\n{\\small Research development with OpenAI ChatGPT and Codex\\par}\n",
+   "new": "",
+   "matches": 1
+  },
+  {
+   "file": "build_new_chapters.py",
+   "old": "{\\large Sean Brady\\par}\n{\\small Originator and conceptual director\\par}\n{\\small Research development with OpenAI ChatGPT and Codex\\par}\n",
+   "new": "",
+   "matches": 1
+  },
+  {
+   "file": "build_first_edition_chapters.py",
+   "old": "{\\small First edition draft, 30 October 2026 (text of the edition of 25 October 2026)\\par}\n",
+   "new": "",
+   "matches": 1
+  },
+  {
+   "file": "build_first_edition_chapters.py",
+   "old": "\\fancyhead[R]{\\footnotesize Brady | First edition draft, 30 October 2026}",
+   "new": "\\fancyhead[R]{\\footnotesize First edition draft, 2 November 2026}",
+   "matches": 1
+  },
+  {
+   "file": "build_new_chapters.py",
+   "old": "\\{\\\\small [^\\n]*2026[^\\n]*\\\\par\\}\\n",
+   "new": "",
+   "matches": 1
+  },
+  {
+   "file": "preamble.tex",
+   "old": "\\fancyhead[R]{\\footnotesize Brady | Edition of 25 October 2026}",
+   "new": "\\fancyhead[R]{\\footnotesize First edition draft, 2 November 2026}",
+   "matches": 1
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "OpenAI ChatGPT and Codex: the mathematical development of Chapters~II to~VI from which the derived statements are drawn.",
+   "new": "The mathematical development of Chapters~II to~VII, from which the derived statements are drawn, was produced in GEN6 Duck runs on the Substrate Ledger Computer (15--17 October 2026) directed by Sean ",
+   "matches": 1,
+   "note": "derived file of ch01_concepts.tex, patched after the first assembly showed the old paragraph on page 9"
+  }
+ ]
+}

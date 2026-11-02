@@ -1,0 +1,158 @@
+\section{Changing profiles retain a common continuum domain}\label{sec:changing-profile}
+The complete positive receiving form also admits controlled time variation. Write $H_s=\varepsilon(eI+S)$ and retain the unchanged $T_g$, $K[\Psi]=\|T_g\Psi\|^2$ and $\mathcal Q=Q(H_f)$. Let $s(t)$ be real and $C^1$, and let the self-adjoint output weight be operator-norm $C^1$, with uniform bounds $0<mI\le W(t)\le MI$. Set
+\[
+ q_t[\Phi,\Psi]=s(t)\langle\Phi,H_s\Psi\rangle
+             +\langle T_g\Phi,W(t)T_g\Psi\rangle.
+\]
+All forms are closed on $\mathcal Q$. With $C=\sup|s|\,\|H_s\|$, the shifted forms satisfy
+\[
+ \begin{aligned}
+ \|\Psi\|^2+mK[\Psi]&\le q_t[\Psi]+(C+1)\|\Psi\|^2\\
+ &\le(2C+1)\|\Psi\|^2+MK[\Psi].
+ \end{aligned}
+\]
+These uniformly equivalent, $C^1$ form inner products meet the common-form propagator hypotheses: a unique unitary evolution preserves $\mathcal Q$ and solves the equation weakly into its dual. The relevant existence statement is Assumption~3.8 and Theorem~3.10 of Balmaseda, Lonigro and P\'erez-Pardo, \emph{On the Schr\"odinger equation for time-dependent Hamiltonians with a constant form domain}, \url{https://arxiv.org/abs/2112.11063}. A time-independent operator domain is unnecessary.
+
+The weak energy rule and a normalized preparation give
+\[
+ \begin{gathered}
+ \dot E=\dot s\langle H_s\rangle+
+       \langle T_g\Psi,\dot W T_g\Psi\rangle,\\
+ K(t)\le\frac{F(0)}m\exp\!\int_0^t
+       \left(|\dot s|\|H_s\|+\frac{\|\dot W\|}{m}\right)\dd u,
+ \end{gathered}
+\]
+where $F=E+C+1\ge1+mK$. This follows by bounding $|\dot F|$ by the displayed coefficient times $F$ and integrating. Piecewise constant controls are obtained by concatenating their self-adjoint evolutions. At a control jump the state remains continuous and its signed work is
+\[
+ w_j=\Delta s_j\langle H_s\rangle_j+
+             \langle T_g\Psi_j,\Delta W_jT_g\Psi_j\rangle.
+\]
+Multiply the preceding energy bound by $1+|\Delta s_j|\|H_s\|+\|\Delta W_j\|/m$ at each jump. Gross work retains the absolute positive and withdrawn pieces. Equal starting and ending Hamiltonians need not give equal mean energies, because the state may have changed.
+
+The actual-current bound extends with this energy account. Compare to $H_{\rm ref}(t)=N(t)H_0$ on the same preparation, and suppose
+\[
+ |r_t[\Phi,\Psi]|\le\delta(t)\sqrt{K[\Phi]K[\Psi]}
+                         +b(t)\|\Phi\|\|\Psi\|.
+\]
+Pairing the two weak equations yields
+\[
+ \|\Psi(t)-\chi(t)\|^2\le2\int_0^t
+        [\delta\sqrt{K_AK_R}+b]\dd u.
+\]
+For $B_t(u)=U_{\rm ref}(t,u)^*ZU_{\rm ref}(t,u)$ the weak Heisenberg identity likewise retains its time-ordered form. If $K_A\le k_A$ and $K[B_t\Psi],K[B_t^*\Psi]\le k_B$, then
+\[
+ |z_A-z_R|\le2\int_0^t\delta\sqrt{k_Ak_B}\dd u+4\int_0^t b\dd u.
+\]
+The earlier $k_B$ formula applies to lane-preserving uniform reference histories. A positive current amplitude converts this error into the same phase disk. Thus changing weights pay their work and their current remainder within one continuum account.
+
+\section*{Part B. Paid control and actual event timing}
+\section{One fully paid switching and reference account}
+A complete scalar example retains every original Hamiltonian term. Put $a=10^{-3}$, hold $n=1-a$ for $h=1/2$ and $n=1+a$ for another $h=1/2$, with $n=1$ before and after. The original unscaled energy $E$ stays in its retained lane01 enclosure $0.917629340281369063<E<0.917632830384309734$. The state is exactly $\exp(-\ii H_0\eta)\Psi_0$ and its mean energy is $nE$.
+
+During these source waits choose the balanced reference $h_R=-2nEP_R$. Its mean energy is $-nE$ and its phase obeys $\dot\beta=-2nE$. It remains active throughout the wait. Entry and release are external linear ramps of duration $b=1/100$, taking $h_R$ from zero to $-2EP_R$ and back while $n=1$. Explicitly, the entry coefficient is $-2Et/b$ and the release coefficient is $-2E(1-t/b)$ on their own local intervals $0\le t\le b$. Each ramp contributes phase area $-Eb$; any alternative waveform must preserve that area to preserve the stated final phase. They are outside ledger matching; the source evolves during both. The final original age is $2b+2h=51/50$ and the final reference phase is $-101E/50$. The source phase remains $\theta_0(51/50)$.
+
+\begin{table}[htbp]\centering\small
+\caption{Signed mean work in the original energy unit. Zero source waits retain nonzero source/reference energies.}\label{tab:switching-work}
+\begin{tabular}{@{}lrr@{}}\toprule
+Piece&Source&Reference\\\midrule
+External entry ramp&$0$&$-E$\\
+$n:1\to1-a$&$-aE$&$+aE$\\
+$n:1-a\to1+a$&$+2aE$&$-2aE$\\
+$n:1+a\to1$&$-aE$&$+aE$\\
+External release ramp&$0$&$+E$\\\midrule
+Signed sum&$0$&$0$\\
+Gross exchanged&$4aE$&$(2+4a)E$\\\bottomrule
+\end{tabular}\end{table}
+
+The opposite matched payments can be recovered internally in an ideal work store. Their cancellation does not erase either recipient or specify dissipation, waveform, state preparation, readout or counter-reset cost. This source-wait/coupling example complements Chapter~II's original forward Write, reverse Write and wait protocol. The reference waveform prescribes the ideal energy history; using an approximate energy adds its calibration residual.
+
+For a coarse reference winding record use prefixes spaced by at most $1/100$, including every control boundary. Here $|\dot\beta|<2.002$. Split coordinate error $1/16$ into statistical $1/32$ and systematic $1/32$, retaining the separate preparation, unwanted evolution, observable and trigger contributions. This gives angular error below $1/8$, and $2.002/100+1/4<\pi$ fixes each increment. At most 110 prefixes and 26624 fresh shots per coordinate give failure below $0.01$, conditional on the systematic coordinate bounds, with at most 5,857,280 fresh reference preparations. This winding account is distinct from precise source-current tomography.
+
+\section{A moving two-way protocol with every event epoch}\label{sec:moving-two-way}
+Use flat $1+1$ spacetime and $c=1$. Endpoint $A$ is at $x=0$ and $B$ follows $x_B=\lambda/10+3t/5$, so $\dd\tau_A/\dd t=1$ and $\dd\tau_B/\dd t=4/5$. Both actual interacting clocks begin at $t=0$. Emit at $t_0=\lambda/10$ and let $B$ wait a proper duration $\lambda/10$ before reemission. The relay stores the incoming encoded phase, with its own specified transfer phase; it does not replace it by $B$'s independent clock phase.
+
+\begin{table}[htbp]\centering\small
+\caption{Actual events for the moving two-way fixture, in units of $\lambda$. Internal ages assume the declared complete proper-time coupling.}\label{tab:moving-events}
+\begin{tabular}{@{}lrrrr@{}}\toprule
+Event&$t/\lambda$&$x/\lambda$&$\eta_A/\lambda$&$\eta_B/\lambda$\\\midrule
+$A$ emits&$1/10$&$0$&$1/10$&$2/25$\\
+$B$ receives&$1/2$&$2/5$&$1/2$&$2/5$\\
+$B$ reemits&$5/8$&$19/40$&$5/8$&$1/2$\\
+$A$ receives&$11/10$&$0$&$11/10$&$22/25$\\\bottomrule
+\end{tabular}\end{table}
+
+The null endpoint equations yield
+\[
+ \begin{aligned}
+ F_{\rm out}(t)&=\tfrac52t+\tfrac\lambda4,\\
+ P(t)&=t+\tfrac\lambda8,\\
+ F_{\rm ret}(t)&=\tfrac85t+\tfrac\lambda{10},\\
+ G(t)&=(F_{\rm ret}\circ P\circ F_{\rm out})(t)\\
+ &=4t+\tfrac{7\lambda}{10}.
+ \end{aligned}
+\]
+After accounting for transfer phase, the encoded rate relative to $A$'s actual current at final reception is $\nu_0(t_0)/[4\nu_0(t_3)]$. The baseline remains nonstationary. For a variable remote proper rate, a fixed proper wait satisfies $\int_t^{P(t)}n_B(u)\dd u=\Delta\tau_B$ and hence $P'=n_B(t)/n_B(P(t))$.
+
+Choose $\lambda=10T_0/11$, with the inherited $T_0=573049\pi$. Then final reception is at $T_0$, emission is at $T_0/11$, and every endpoint age in Table~\ref{tab:moving-events} lies in the original certified interval. This is a declared relativistic model fixture, with its own ruler/time conversion, rather than an assigned GPS trajectory.
+
+\section{Shift, Sagnac and the coordinate-invariant composition}\label{sec:shift-sagnac}
+A rotating coordinate system has a nonzero shift. Write it with velocity units as
+\[
+ \dd s^2=-N^2c^2\dd t^2+h_{ij}(\dd x^i+\beta^i\dd t)
+                                  (\dd x^j+\beta^j\dd t).
+\]
+A worldline with coordinate velocity $v$ has proper rate $n=[N^2-h(v+\beta,v+\beta)/c^2]^{1/2}$. In flat spacetime the change $X=R(t)x$ gives $N=1$, $h=I$ and $\beta=\Omega\times x$. Thus a coordinate-stationary clock has the expected rotational proper rate, and the time--space cross term also enters signal propagation.
+
+For $A=N^2c^2-h(\beta,\beta)>0$, the future null root along a stationary spatial path is
+\[
+ \dd t=\frac{h(\beta,\dd x)+
+ \sqrt{h(\beta,\dd x)^2+A h(\dd x,\dd x)}}A.
+\]
+Opposite traversals of the same fixed loop differ by $2\oint h(\beta,\dd x)/A$. A guided circular ring in rotating flat coordinates consequently gives
+\[
+ \begin{aligned}
+ T_\pm&=\frac{2\pi R}{c\mp\Omega R},\\
+ \Delta T&=\frac{4\pi\Omega R^2}{c^2-\Omega^2R^2},\\
+ \Delta\tau&=\frac{4\pi\Omega R^2}{c^2\sqrt{1-\Omega^2R^2/c^2}}.
+ \end{aligned}
+\]
+The leading coordinate difference is $4\bm\Omega\cdot\bm{\mathcal A}/c^2$. These exact ring expressions retain guided paths; free endpoint-to-endpoint rays require their specified routes.
+
+For an increasing rechart $t'=h(t)$, the event map becomes $\widetilde F=h\circ F\circ h^{-1}$, its derivative is $h'(t_R)F'/h'(t_E)$, and $\widetilde n=n/h'$. Therefore
+\[
+ \frac{\widetilde n_E}{\widetilde n_R\widetilde F'}
+ =\frac{n_E}{n_RF'}.
+\]
+The endpoint internal ages and the actual $\nu_0$ ratio are unchanged. The composed observable is coordinate invariant, including its proper-wait map. This fills the rotating-coordinate propagation interface without deriving a microscopic boost or metric law from the lapse alone.
+
+\section{A nanoradian phase target has its own measurement budget}\label{sec:nanoradian-budget}
+For the inherited Earth-phase comparison at $T_0$, specify two histories and five prefixes $jT_0/4$, $j=0,\ldots,4$. This differential calibration is separate from the flat moving fixture above: its approximately $-4.374$ nrad prediction is not assigned to that fixture. Use fresh source--field preparations for each coordinate and prefix, with the signed lane01 receivers $D/d_{01}$ and $C/d_{01}$. Extend them by zero outside the measured lane so their full-space norms remain one and leakage outcomes are flagged. The retained coarse current amplitude is $m_z=0.99$.
+
+The original sufficient design takes statistical coordinate tolerance $d=5\times10^{-11}$ and $N=7\times10^{21}$ independent bounded shots per mean. Twenty coordinate means need at most $1.4\times10^{23}$ fresh source--field preparations. Hoeffding's inequality and a union bound give
+\[
+ \begin{gathered}
+ P(\hbox{any statistical failure})\le40e^{-Nd^2/2}\\
+              =40e^{-35/4}<0.01,\\
+ |\Delta\theta|_{\rm stat}\le2\arcsin(\sqrt2d/m_z)<0.2\ {\rm nrad}.
+ \end{gathered}
+\]
+These are transparent sufficient counts. The coarse-winding/fine-final refinement below reduces their preparation cost while retaining this systematic ledger; neither design is achieved apparatus performance or an optimal metrological lower bound.
+
+\begin{table}[htbp]\centering\small
+\caption{Specified allowances on the final phase difference. Each condition requires a source or apparatus input; none is recorded as apparatus-achieved.}\label{tab:nanoradian-budget}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.27\linewidth}r>{\raggedright\arraybackslash}X@{}}\toprule
+Contribution&nrad&Sufficient condition\\\midrule
+Complete-form remainder&$0.20$&The two current-error disks from the changing-weight bound fit this allowance.\\
+Within-sector preparation&$0.10$&Trace distance $\le10^{-11}$ per arm; retain a separate $K$-energy ceiling.\\
+Leakage&$0.10$&Generic coherent probability $\le10^{-22}$; incoherent probability $\le10^{-11}$ suffices.\\
+Effective readout&$0.10$&Full observable norm error $\le10^{-11}$ per coordinate.\\
+Internal-age timing&$0.10$&Per-arm age error $\le10^{-5}$ model units, using $u<3.5\times10^{-6}$.\\
+Carrier/relay phase&$0.10$&Residual phase $\le5\times10^{-11}$ rad per arm.\\
+Reference and winding&$0.10$&Residual branch/reference phase $\le5\times10^{-11}$ rad per arm.\\
+Statistical estimates&$0.20$&The twenty means and shot count displayed above.\\\midrule
+Total&$1.00$&Conditional on every source-model and apparatus row.\\\bottomrule
+\end{tabularx}\end{table}
+
+A trace-distance condition controls bounded coordinates, not unbounded energy; rare high-energy leakage must still satisfy the preparation energy account. The generic coherent leakage allowance uses its square-root trace-distance bound. If the complete dynamics preserves the sector and the receiver is block diagonal, cross-sector receiver matrix elements vanish, and the stronger coordinate bound $2p$ allows $p\le10^{-11}$ even for coherent leakage. This is an available apparatus refinement, not an additional requirement.
+
+The original rate certificate gives $uT_0/4<1.58$ rad. Prefix errors leave a strict margin below $\pi$, so continuation from $\theta(0)=0$ fixes the winding; an external record stores that integer. Readout disturbs each copy. Source preparation, phase reference, timing, readout, transfer, work recovery and storage/reset all retain recipients. The $1$ nrad allowance leaves a sign margin against the uniform prediction only when the actual physical form remainder and every apparatus condition fit the ledger. The calculations here specify those conditions and perform no experimental shots.

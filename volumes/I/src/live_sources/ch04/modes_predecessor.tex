@@ -1,0 +1,85 @@
+\section{Positive response modes and finite rank}\label{sec:positive-modes}
+The single-power test extends to a declared positive finite response class. All following Hankel identities assume point samples or common translated bin windows. Unequal windows require Appendix~\ref{app:statistics}'s window-aware treatment; one true mode can otherwise fail the single-mode identity.
+On an equally spaced logarithmic grid $s_j=s_0+jh$, suppose
+\begin{equation}
+ Y_j=\alpha+\sum_{a=1}^r B_a\lambda_a^j,
+ \qquad B_a>0,\quad 0<\lambda_a<1,
+ \label{eq:positive-modes}
+\end{equation}
+with distinct nodes. Here $\lambda_a=e^{-p_a h}$ and $B_a$ includes the
+initial-grid factor. These are inference assumptions; their identification
+with a spectral measure of the physical source remains a separate derivation.
+For $e_j=Y_j-Y_{j+1}$ and $w_a=B_a(1-\lambda_a)$,
+\begin{equation}
+ \begin{gathered}
+ (H_m)_{ij}=e_{i+j},\qquad (V_m)_{ia}=\lambda_a^i,\\
+ H_m=V_m\operatorname{diag}(w_a)V_m^T.
+ \end{gathered}
+ \label{eq:positive-hankel}
+\end{equation}
+Positivity and the Vandermonde minors give
+$H_m\succeq0$ and $\operatorname{rank}H_m=\min(m,r)$.
+A positive $r$-square determinant therefore detects at least $r$ visible
+modes. An increasing branch has the same result after reversing all
+differences when its amplitudes have a common opposite sign. Mixed signed
+amplitudes require another analysis.
+
+Write $p(x)=\prod_a(x-\lambda_a)=x^r+\sum_{k<r}c_kx^k$.
+The moment recurrence and reconstruction system are
+\begin{equation}
+ \begin{gathered}
+ e_{j+r}+\sum_{k<r}c_ke_{j+k}=0,\\
+ H_r\bm c=-(e_r,\ldots,e_{2r-1})^T.
+ \end{gathered}
+ \label{eq:prony-system}
+\end{equation}
+Thus $2r+1$ exact $Y$ samples reconstruct $p$, the distinct nodes, the
+positive weights through the Vandermonde system, $B_a=w_a/(1-\lambda_a)$,
+and $\alpha=Y_0-\sum B_a$. Membership checks on roots and weights are part
+of the reconstruction. One additional sample checks the next recurrence.
+For a general positive moment measure on $[0,1)$, exact flat rank has the
+stronger certificate
+\begin{equation}
+ \begin{gathered}
+ (c_0,\ldots,c_{r-1},1)H_{r+1}(c_0,\ldots,c_{r-1},1)^T\\
+ =\int p(\lambda)^2\,\mathrm d\mu=0.
+ \end{gathered}
+ \label{eq:flat-positive-rank}
+\end{equation}
+The nonnegative integrand forces support onto the roots; rank $H_r=r$
+then gives exactly $r$ visible atoms within this exact positive class.
+
+\subsection{Approximate plateau mass needs a rate restriction}
+If a specified polynomial satisfies $\int p^2\mathrm d\mu\le\eta$ and
+$|p|\ge d>0$ outside proposed node neighborhoods $S$, then
+\begin{equation}
+ \begin{gathered}
+ \mu(S^c)\le\eta/d^2,\\
+ B(S^c)\le\frac{\eta}{d^2(1-\lambda_{\max})}
+ \quad\text{if }\lambda\le\lambda_{\max}<1.
+ \end{gathered}
+ \label{eq:approx-positive-rank}
+\end{equation}
+The first inequality integrates a nonnegative lower bound; the second uses
+$B=\int(1-\lambda)^{-1}\mathrm d\mu$. Without the independently justified
+upper node bound, tiny difference weight can conceal finite plateau mass
+near $\lambda=1$. This is the same slow-mode obstruction as the finite-window
+endpoint construction. A noisy small determinant alone supplies neither exact
+closure nor a physical rate cutoff. Adjacent differences reuse observations;
+their full covariance and any data-dependent polynomial selection enter a
+simultaneous confidence calculation.
+
+\subsection{A compact exact certificate}
+A declared dimensionless example uses
+$\alpha=33/40$, $B=(1/10,1/20,1/40)$ and
+$\lambda=(1/2,1/3,1/4)$. It has $Y_0=1$,
+$\operatorname{rank}H_3=\operatorname{rank}H_4=3$, and
+\[
+ p(x)=x^3-\frac{13}{12}x^2+\frac38x-\frac1{24}.
+\]
+Eight exact samples retain the seventh-sample reconstruction and one
+additional consistency check. The rational checker authenticates every
+moment, recurrence and recovered amplitude. Native rank and solve receipts
+check the same frozen operands separately. The example is a finite inference
+certificate; it does not replace the actual spin-generator closure or supply
+cosmological rates from the source ledger.

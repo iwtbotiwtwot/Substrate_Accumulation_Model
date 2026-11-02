@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.25)  30 OCT 2026 01:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.25)  1 NOV 2026 19:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1841,10 +1841,21 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
- [2] [3] [4] [5])
-[6
+ [2] [3] [4]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 15
+7.
 
-] (./fe_chapter14.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [5]) [6
+
+]
+(./fe_chapter14.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1853,25 +1864,26 @@ Package rerunfilecheck Info: File `fe_chapter14.out' has not changed.
 (rerunfilecheck)             Checksum: A3F11286619CC11FFA0963F8710279A2;402.
  ) 
 Here is how much of TeX's memory you used:
- 33162 strings out of 476182
- 647644 string characters out of 5795594
- 1950975 words of memory out of 5000000
- 54303 multiletter control sequences out of 15000+600000
- 610343 words of font info for 253 fonts, out of 8000000 for 9000
+ 33201 strings out of 476182
+ 648199 string characters out of 5795594
+ 1951975 words of memory out of 5000000
+ 54337 multiletter control sequences out of 15000+600000
+ 610964 words of font info for 255 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  98i,12n,102p,1009b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on fe_chapter14.pdf (6 pages, 118168 bytes).
+/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on fe_chapter14.pdf (6 pages, 126726 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 163 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  36 named destinations out of 1000 (max. 500000)
- 50341 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 50853 words of extra memory for PDF output out of 51595 (max. 10000000)
 

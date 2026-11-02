@@ -1,0 +1,165 @@
+% Source-transform material can follow the Euclidean paragraph at the end of
+% canonical_local.tex (existing source-kernel/amplitude-interface section).
+% The final two subsections can instead be placed after modes_predecessor.tex
+% inside Part D. All headings below are subsections, preserving top-level count.
+\subsection{An exact transform of the original continuum}
+\label{subsec:actual-continuum-transform-update}
+The owner's review derives an elementary transform of the same normalized
+source measure. Write
+\[
+ F_E(\tau)=F(\tau/R),\qquad
+ F(a)=\frac{10}{\pi}\int_0^\infty e^{-ax}j_2(x)^2\,dx.
+\]
+The Legendre representation gives the exact overlap
+\begin{align*}
+ C(v)&=\int_{-1}^{1-v}P_2(t)P_2(t+v)\,dt\\
+ &=\frac25-v+\frac{v^3}{2}-\frac{3v^5}{40},
+       \qquad 0\leq v\leq2,\\
+ F(a)&=\frac5\pi\int_0^2 C(v)\frac{a}{a^2+v^2}\,dv.
+\end{align*}
+Direct integration therefore yields
+\begin{align}
+ 16\pi F(a)&=12a^3+56a+32\arctan(2/a)\nonumber\\
+ &\quad-a(3a^4+20a^2+40)\log(1+4/a^2).
+ \label{eq:exact-continuum-transform-update}
+\end{align}
+The original positive Bessel integral fixes the sign; $C$ itself is signed.
+Its first cancellations, $\int C=\int v^2C=0$, explain why ordinary
+floating-point subtraction loses digits at large $a$.
+
+Range-reduced rational logarithm and arctangent series, with explicit
+remainders and a Machin enclosure of $\pi$, give outward intervals of
+width below $10^{-75}$ at all operands in the following table. Entries
+are midpoint displays; exact rational endpoints are in the source packet.
+\[
+ \begin{array}{c|c}
+ a&F(a)\\\hline
+ 0.01&0.9236282572354819\\
+ 0.1&0.6004698962807585\\
+ 1&0.040468535993562725\\
+ 10&3.254795554745759\times10^{-6}\\
+ 100&3.3938508389223904\times10^{-11}
+ \end{array}
+\]
+A convergent large-$a$ alternative uses
+\[
+ \int_0^2v^mC(v)\,dv
+ =\frac{2^{m+2}m(m-2)}{(m+1)(m+2)(m+4)(m+6)}.
+\]
+After $N$ geometric terms its absolute transform remainder is at most
+$4(4/a^2)^N/[\pi a(2N+1)]$, for $a>2$. The small-$a$ expansion is
+\[
+ \begin{aligned}
+ F(a)=1&+\frac5\pi a\log a\\
+       &+\frac5\pi\left(\frac12-\log2\right)a
+         +O(a^3|\log a|).
+ \end{aligned}
+\]
+Its infinite initial right slope and late-time power-law tail both retain
+the continuous, gapless source rather than a finite family of rates.
+
+\subsection{Soft-spectrum bounds without a minimum rate}
+\label{subsec:source-soft-spectrum-update}
+The compact Bessel representation implies $|j_2(x)|\leq x^2/15$.
+For the original $d\nu_R(k)=(10R/\pi)j_2(kR)^2\,dk$, this gives
+\begin{align}
+ F_E(\tau)&\leq\min\!\left(1,\frac{16R^5}{15\pi\tau^5}\right),\nonumber\\
+ \nu_R([0,q])&\leq\min\!\left(1,\frac{2(Rq)^5}{225\pi}\right).
+ \label{eq:gapfree-source-bounds-update}
+\end{align}
+Suppose a physical reduction independently establishes
+$\Xi(s)=A+(1-A)F(\lambda s/R)$ with $0\leq A\leq1$ and
+$\lambda\geq\lambda_{\min}>0$. Set $E(s)=F(\lambda_{\min}s/R)$. Then
+\[
+ \max\!\left(0,\frac{\Xi(s)-E(s)}{1-E(s)}\right)
+ \leq A\leq\Xi(s),\qquad s>0.
+\]
+Simultaneous data bands and outward upper $E$ values can be mapped and
+intersected. The conversion-scale restriction is distinct from a hard
+spectral gap. The observable and its real-time or logarithmic-redshift
+identification still require the physical reduction.
+
+More generally let $\nu([0,p])\leq Cp^5$, let the transient amplitude
+measure be dominated by $B\nu$, and let an omitted submeasure obey
+$\int(1-e^{-ph})\,d\beta_{\rm omitted}\leq m$, with $h>0$.
+Splitting at any $p_0>0$ gives
+\begin{align*}
+ B_{\rm omitted}&\leq B,\\
+ B_{\rm omitted}&\leq BCp_0^5+\frac{m}{1-e^{-p_0h}}.
+\end{align*}
+Using $(1-e^{-x})^{-1}\leq1+x^{-1}$ and optimizing at
+$p_0=[m/(5BCh)]^{1/6}$ yields
+\begin{equation}
+ \begin{gathered}
+ B_{\rm omitted}\leq B,\\
+ B_{\rm omitted}\leq m+6(BC)^{1/6}
+                          \left(\frac{m}{5h}\right)^{5/6}.
+ \end{gathered}
+ \label{eq:soft-spectrum-payment-update}
+\end{equation}
+Zero-mass cases follow by a limit. For the mapped original source,
+$C=2(R/\lambda_{\min})^5/(225\pi)$. Thus a polynomial residual bound
+$m\leq\eta/d^2$ can supply a plateau payment after these source-class
+operands are specified, without imposing a nonexistent minimum continuum
+rate.
+
+% Inference insertion boundary: this material can be moved intact to Part D.
+\subsection{Infinite exact rank and positive Gaussian surrogates}
+\label{subsec:continuum-Gauss-update}
+On a Euclidean grid $\tau_j=\tau_0+jh$, map $k$ to
+$\lambda=e^{-hk}$. The actual difference measure is
+\[
+ d\mu=B e^{-\tau_0k}(1-e^{-hk})d\nu_R(k).
+\]
+For $B>0$, it has continuous support in $(0,1)$ apart from isolated Bessel
+zeros. A nonzero polynomial has finitely many roots, so $\int|p|^2d\mu>0$.
+Every finite Hankel matrix is positive definite. The original continuum
+therefore has infinite exact Hankel rank.
+
+Let $p_r$ be its monic orthogonal polynomial. Its $r$-node Gaussian
+quadrature has positive weights and is exact through degree $2r-1$.
+Division by $p_r$ establishes exactness; integrating the squared cardinal
+polynomials establishes positivity of the weights. Anchor the surrogate
+at the actual $Y_0$, and put $q_j(\lambda)=\sum_{k=0}^{j-1}\lambda^k$.
+Hermite interpolation then gives
+\begin{align}
+ \widetilde Y_j&=Y_j,\qquad 0\leq j\leq2r,\nonumber\\
+ 0\leq\widetilde Y_j-Y_j
+ &\leq\binom{j}{2r+1}\int p_r^2\,d\mu,
+       \qquad j\geq2r+1.
+ \label{eq:continuum-Gauss-holdout-update}
+\end{align}
+Here $q_j^{(2r)}/(2r)!$ is nonnegative and bounded by the binomial
+coefficient on $[0,1]$; the first missed error equals $\int p_r^2d\mu$.
+If the true amplitude integral is finite and its plateau is nonnegative,
+monotone convergence of $q_j$ also makes the surrogate plateau no smaller
+than the true plateau.
+
+\subsection{Certified surrogates of the actual source curve}
+For $Y_j=F(j)$, namely $\tau_0=0$ and $h=R$, the true plateau is zero.
+Full interval arithmetic gives the following nodes and difference weights;
+these are midpoint displays of certified source intervals.
+\[
+ \begin{array}{c|cc}
+ r&\lambda_i&w_i\\\hline
+ 1&0.03729697269&0.95953146401\\
+ 2&0.02123986980&0.87066215903\\
+  &0.19461014031&0.08886930497
+ \end{array}
+\]
+The corresponding plateaus and first missed errors are
+\[
+ \begin{array}{c|cc}
+ r&\widetilde A&\widetilde Y_{2r+1}-Y_{2r+1}\\\hline
+ 1&0.003294435783&0.002423770451\\
+ 2&0.0001005695591&0.00003902006495
+ \end{array}
+\]
+The exact $H_2$ and $H_3$ determinant enclosures are strictly positive,
+near $0.002325684008961166$ and $9.074834108661564\times10^{-8}$.
+The packet retains all moment, node, weight, plateau and signed holdout
+intervals through $j=7$. These are controlled finite approximations to the
+actual continuous Euclidean source. Their surplus plateaus illustrate why
+an exact fit on a short grid is distinct from a physical finite spectrum.
+Noisy mode recovery retains the chapter's simultaneous feasibility and
+covariance treatment.

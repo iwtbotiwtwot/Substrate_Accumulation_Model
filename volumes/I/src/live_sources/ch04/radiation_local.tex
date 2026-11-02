@@ -1,0 +1,204 @@
+\section{The original carrier from the near field to radiation}
+\label{sec:actual-radiation-zone}
+The user-supplied review derived the exact decomposition and compact-edge
+remainder below. An independent calculation from the retained complete kernel
+agrees. The flux estimate and finite-endpoint examples extend that derivation.
+The original six signed $g_{ab}$, equal pair weights, both tensor polarizations,
+$\kappa=4/5$, radius balls and $\Delta=2/573049$ remain fixed.
+
+Put $a=R/c_*$, $v=r/R\geq1$, $t_r=t-r/c_*$ and
+$x_r=R\phi(r,t)$. Polynomial expansion gives
+\begin{align}
+ P_2\!\left[-w+\frac{1-w^2}{2v}\right]
+ &=P_2(w)-\frac{3w(1-w^2)}{2v}
+             +\frac{3(1-w^2)^2}{8v^2},\\
+ x_r&=x_{\rm rad}+x_{\rm ind}+x_{\rm near},\nonumber\\
+ x_{\rm rad}&=\frac1{\kappa v}\int_{-1}^1P_2(w)f(t_r-aw)\,dw,\nonumber\\
+ x_{\rm ind}&=-\frac3{2\kappa v^2}\int_{-1}^1w(1-w^2)f(t_r-aw)\,dw,\nonumber\\
+ x_{\rm near}&=\frac3{8\kappa v^3}\int_{-1}^1(1-w^2)^2f(t_r-aw)\,dw.
+ \label{eq:exact-three-radial-pieces}
+\end{align}
+These are exact $r^{-1}$, $r^{-2}$ and $r^{-3}$ pieces at fixed retarded time.
+All have the original causal support $[(r-R)/c_*,(r+R)/c_*]$.
+The unchanged homogeneous incoming field is added separately. The normalized
+angular tensor remains $\sqrt{5/(8\pi)}\Lambda_n$ applied to the original
+plus/cross source; its sphere isometry fixes the angular amplitude ruler.
+
+\subsection{A whole-pulse derivative and remainder theorem}
+For $f\in C^3(\mathrm R)$ with bounded fourth weak derivative, parity and
+Taylor's integral remainder yield
+\begin{align}
+ x_r(t)&=\frac{2R^3}{15\kappa}
+ \left[\frac{f''(t_r)}{c_*^2r}
+       +\frac{3f'(t_r)}{c_*r^2}+\frac{3f(t_r)}{r^3}\right]+E(t),\\
+ |E(t)|&\leq\frac{a^4\|f^{(4)}\|_\infty}{60\kappa v}
+       +\frac{a^3\|f'''\|_\infty}{35\kappa v^2}
+       +\frac{a^2\|f''\|_\infty}{35\kappa v^3}.
+ \label{eq:compact-edge-radiation-remainder}
+\end{align}
+For example, the radiative coefficient uses
+$\int P_2=0$ and $\int w^2P_2=4/15$; its remainder follows from
+$\int |P_2|w^4\leq2/5$. The induction and near remainders use respectively
+$\int w^4(1-w^2)=4/35$ and
+$\int w^2(1-w^2)^2=16/105$. These estimates apply on the zero extension,
+including intervals that cross either pulse edge.
+
+The actual maintained pulse is $f=g_{ab}F(\Delta t)$, with
+$F(\theta)=\sin^4(\theta/8)e^{-i\theta}$ on $[0,8\pi]$ and zero elsewhere.
+Its first three derivatives match zero at both endpoints. Its five-frequency
+expansion gives
+\[
+ \begin{gathered}
+ \|f^{(j)}\|_\infty\leq |g_{ab}|\Delta^jD_j,\\
+ (D_0,D_1,D_2,D_3,D_4)
+   =\left(1,1,\frac{17}{16},\frac{19}{16},\frac{709}{512}\right).
+ \end{gathered}
+\]
+Define $z=\Delta R/c_*$, $u=\Delta r/c_*$ and the specified positive ruler
+$A_0=2R^3|g_{ab}|\Delta^2/(15\kappa c_*^2r)$. Then, for every time,
+\begin{equation}
+ \begin{aligned}
+ &\frac{|x_r-A_0\operatorname{sgn}(g_{ab})F''(\Delta t_r)|}{A_0}\\
+ &\quad\leq\frac3u+\frac3{u^2}\\
+ &\qquad+z^2\left(\frac{709}{4096}+\frac{57}{224u}
+                               +\frac{51}{224u^2}\right).
+ \end{aligned}
+ \label{eq:radiation-ruler-bound}
+\end{equation}
+This is an absolute curve bound; phase and relative error need a nonzero
+comparator. The full original radius ball gives $z<5.708\times10^{-7}$.
+For $u=100,1000,10^6$, the right side is below
+$0.030300000001$, $0.003003000001$ and $0.0000030000031$.
+These correspond to $r=u/\Delta$ in the same $c_*=1$ model chart.
+The old receiver $r=R+64$ has $u<0.000224$.
+
+At the retarded envelope peak $\theta=4\pi$, $F''=-17/16$ is real.
+The leading radiative peak therefore has a $6.25\%$ amplitude correction,
+with the same phase, relative to a central-frequency unchanged-envelope
+approximation. Increasing $r$ leaves that waveform correction present.
+The four-cycle maintained pulse and the one-cycle autonomous clock retain
+their different source protocols.
+
+\subsection{A finite-radius amplitude ruler and positive emitted energy}
+The exact monochromatic identity is
+\begin{align}
+ \chi_r&=-\frac{2j_2(z)e^{iu}}{\kappa v}
+                 \left(1+\frac{3i}{u}-\frac3{u^2}\right),\\
+ \chi_{\rm rad}&=-\frac{2j_2(z)e^{iu}}{\kappa v},\\
+ \left|\frac{\chi_r}{\chi_{\rm rad}}\right|^2
+ &=1+\frac3{u^2}+\frac9{u^4},\\
+ \left|\frac{\chi_r}{\chi_{\rm rad}}-1\right|
+ &\leq\frac3{|u|}+\frac3{u^2}.
+\end{align}
+The ratio requires $j_2(z)\ne0$. At $u=100$ the amplitude excess is below
+$0.000150045$; the induction term still contributes an order $1/u$ phase.
+The local detector functional, angular projection, gain, original source
+vertex and $1/r$ factor all enter the recorded amplitude ruler.
+
+The exact coefficient at null infinity and its energy are
+\begin{align}
+ \psi(t_r)&=\lim_{r\to\infty}r\phi(r,t_r+r/c_*)
+       =\frac1\kappa\int_{-1}^1P_2(w)f(t_r-aw)\,dw,\\
+ W&=\frac{\kappa}{2c_*}\int_{\mathrm R}|\psi'|^2dt_r.
+\end{align}
+For $\psi_0=2a^2f''/(15\kappa)$, the comparator is
+\[
+ W_0=\frac{2R^4g_{ab}^2\Delta^5I_3}{225\kappa c_*^5}.
+\]
+\input{radiation_energy_update.tex}
+\input{workflux_update.tex}
+The exact flux, full outgoing exterior, incoming preparation, source work,
+boundary interaction, counterterm and even source/reference energy remain in
+the ledger. This fixed flat-carrier normalization supplies no cosmological
+$Q$, redshift-dependent generation function or SI conversion by itself.
+
+\section{The canonical electromagnetic comparison}
+\label{sec:maxwell-canonical-comparator}
+For one transverse conformal Maxwell mode use
+$L_M=(A'^2-k^2A^2)/2$. The earlier $Q=1$ comparator uses $h=A/b$ and
+$L_h=b^2(h'^2-k^2h^2)/2$. With $\mathcal H=b'/b$,
+\begin{align}
+ L_h&=\frac12\left[A'^2-
+              \left(k^2-\frac{b''}{b}\right)A^2\right]
+                   -\frac12(\mathcal H A^2)',\\
+ J_hh&=\frac{J_h}{b}A,\qquad j_A=\frac{j_h}{b_E},\\
+ D_hh_R&=\frac{D_h}{b_R}A_R.
+\end{align}
+For the displayed linear $b$, $b''=0$, so these are the same free equations
+with the stated canonical boundary term, source and detector transformations.
+Their energies satisfy
+\[
+ \begin{gathered}
+ E_h-E_M=-\mathcal H AA'+\tfrac12\mathcal H^2A^2,\\
+ E_h=\tfrac12[(A'-\mathcal H A)^2+k^2A^2].
+ \end{gathered}
+\]
+An impulse from zero field has the common work
+$j_h^2/(2b_E^2)=j_A^2/2$, recovering the earlier impulse numbers under this
+protocol. At nonzero incoming $A$, the two impulse work changes differ by
+$-\mathcal H A j_A$; that term belongs to the boundary/background account.
+A fixed Maxwell impulse or detector gain requires the corresponding
+transformed $h$ values. This specifies the electromagnetic comparison of
+the linear-$b$ example.
+
+\section{Moving endpoints of the actual travel-time map}
+\label{sec:moving-travel-time-gradient}
+Let a differentiable one-branch travel-time function define actual events by
+\[
+ F(t_E)-t_E=T[t_E,x_E(t_E),F(t_E),x_R(F(t_E))].
+\]
+Implicit differentiation yields the review's event Jacobian, including
+explicit reception-time dependence when present:
+\begin{equation}
+ F'=\frac{1+\partial_ET+\nabla_ET\cdot v_E}
+          {1-\partial_RT-\nabla_RT\cdot v_R}.
+ \label{eq:full-moving-event-jacobian}
+\end{equation}
+The chosen forward causal branch has a nonzero denominator and $F'>0$.
+For stationary isotropic optics, endpoint variation gives
+$\nabla_ET=-p_E$, $\nabla_RT=p_R$, with optical slowness
+$p=n_{\rm opt}\widehat t/c_*$.
+The velocities and gradients use their different actual event epochs.
+With worldline proper rates $a_A=d\tau_A/dt$ and intrinsic interacting-clock
+rates $\nu_A(\tau_A)$, the observed frequency comparison is
+\[
+ \mathcal R=\frac{a_E\nu_E(\tau_E)}{a_RF'\nu_R(\tau_R)}.
+\]
+The interacting transient and proper ages stay in this expression. The
+actual delay derivative along events is $dT/dt_E=F'-1$.
+
+For the retained weak-source, finite-endpoint logarithm let
+$D=|x_R-x_E|$, $A=r_E+r_R$, $n=(x_R-x_E)/D$,
+$e_A=x_A/r_A$ and $K=(1+\gamma)GM/c_*^3$. Then
+\begin{align}
+ T_{\rm app}&=D/c_*+K\log\frac{A+D}{A-D},\\
+ \nabla_ET_{\rm app}
+ &=-n/c_*-\frac{2K(De_E+An)}{A^2-D^2},\\
+ \nabla_RT_{\rm app}
+ &= n/c_*+\frac{2K(An-De_R)}{A^2-D^2}.
+\end{align}
+These gradients enter the actual implicit map. The travel-time approximation
+retains its metric-order error. More quantitatively, write its numerator and
+denominator as $A_*,B_*$. If $B_{\rm app}\geq b>\delta_B$,
+$|A_*-A_{\rm app}|\leq\delta_A$ and
+$|B_*-B_{\rm app}|\leq\delta_B$, then
+\[
+ |F'-F'_{\rm app}|\leq
+ \frac{\delta_A}{b-\delta_B}
+ +\frac{|A_{\rm app}|\delta_B}{b(b-\delta_B)}.
+\]
+The operands include path-gradient and endpoint-velocity uncertainties.
+Compose outgoing, proper-wait and return maps at their actual event epochs.
+
+\section{A signed finite-frequency transport correction}
+For the retained Volterra equation $v=v_0+Vv$ put $v_1=Vv_0$ and
+$M=\int|U|/k$. Ordered integration gives
+$\|V^nv_0\|_\infty\leq M^n/n!$, hence
+\[
+ v=v_0+v_1+R_2,\qquad |R_2|\leq e^M-1-M.
+\]
+The same remainder controls the derivative divided by $k$. A nonzero lower
+bound for $|v_0+v_1|$ turns this disk into amplitude and phase bounds about
+the signed first correction. In the retained $M=1/5500$ example,
+$|R_2|\leq M^2/[2(1-M)]<1.654\times10^{-8}$.
+The source-derived physical transport coefficient remains its own calculation.

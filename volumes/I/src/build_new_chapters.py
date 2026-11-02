@@ -28,10 +28,6 @@ for i,title in TITLES.items():
 \vspace{0.4em}
 {\large '''+('Appendix' if i==14 else 'Supplement to Volume I' if i==15 else 'Chapter '+roman)+r'''\par}
 \vspace{0.5em}
-{\large Sean Brady\par}
-{\small Originator and conceptual director\par}
-{\small Research development with OpenAI ChatGPT and Codex\par}
-{\small Edition of 25 October 2026 (text of the unified expanded edition, 19 October 2026)\par}
 \end{center}
 '''
  if abstract:opener+=r'\begin{minipage}{0.97\textwidth}\noindent\textbf{Abstract.} '+abstract+r'\end{minipage}'+'\n'
