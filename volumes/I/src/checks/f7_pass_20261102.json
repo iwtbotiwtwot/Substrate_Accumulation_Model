@@ -1,0 +1,25 @@
+{
+ "written_utc": "2026-11-02T03:20:04Z",
+ "replacements": [
+  {
+   "file": "ch01_concepts.tex",
+   "old": "the alternative, background-normalized reading rescales the lift by $1/(1-A_0)$ and is labeled as a convention wherever it appears.",
+   "new": "the alternative, background-normalized reading would multiply every redshift coefficient by $1/(1-A_0)=1.0272$; with the gravitational calibration held fixed fr"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "\\emph{Declared}: the radial ruler reading, tested by Cassini; the source-only convention for the floor;",
+   "new": "\\emph{Declared}: the radial ruler reading, tested by Cassini; the source-only reading of the floor, its alternative excluded by redshift tests (\\texttt{voli\\_me"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "the alternative, background-normalized reading rescales the lift by $1/(1-A_0)$ and is labeled as a convention wherever it appears.",
+   "new": "the alternative, background-normalized reading would multiply every redshift coefficient by $1/(1-A_0)=1.0272$; with the gravitational calibration held fixed fr"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "\\emph{Declared}: the radial ruler reading, tested by Cassini; the source-only convention for the floor;",
+   "new": "\\emph{Declared}: the radial ruler reading, tested by Cassini; the source-only reading of the floor, its alternative excluded by redshift tests (\\texttt{voli\\_me"
+  }
+ ]
+}
