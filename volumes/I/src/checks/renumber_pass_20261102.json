@@ -1,0 +1,393 @@
+{
+ "written_utc": "2026-11-02T02:24:25Z",
+ "replacements": [
+  {
+   "file": "live_sources/ch02/chapter2_source_field_formatted.tex",
+   "old": "completed Chapter I and prior Chapter II development sources",
+   "new": "completed Chapter VII (formerly Chapter I) and prior Chapter II development sources",
+   "matches": 0,
+   "note": "already applied by an earlier run of this script"
+  },
+  {
+   "file": "live_sources/ch02/chapter2_source_field_formatted.tex",
+   "old": "\\noindent[2] Final Chapter I and actual full-field clocks;",
+   "new": "\\noindent[2] Final Chapter VII (formerly Chapter I) and actual full-field clocks;",
+   "matches": 0,
+   "note": "already applied by an earlier run of this script"
+  },
+  {
+   "file": "live_sources/ch03/chapter3_formatted.tex",
+   "old": "\\noindent[1] \\emph{Volume I, Chapter I}, final draft",
+   "new": "\\noindent[1] \\emph{Volume I, Chapter I} (now Chapter VII), final draft",
+   "matches": 0,
+   "note": "already applied by an earlier run of this script"
+  },
+  {
+   "file": "live_sources/ch03/chapter3_formatted.tex",
+   "old": "Chapters I and II.",
+   "new": "Chapters II and VII.",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch04/chapter.tex",
+   "old": "Volume I, Chapter I, final source and clock certificates",
+   "new": "Volume I, Chapter VII (formerly Chapter I), final source and clock certificates",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch01/chapter1_as_vii.tex",
+   "old": "\\noindent[6] \\emph{Chapter I lane01 and six uniform correlated clocks}, H002630",
+   "new": "\\noindent[6] \\emph{Chapter I lane01 and six uniform correlated clocks} (this chapter, now Chapter VII), H002630",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/original_appendix.tex",
+   "old": "Chapter I and II public repositories",
+   "new": "Chapter II and VII public repositories",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/original_introduction.tex",
+   "old": "Chapters I--III",
+   "new": "Chapters II, III and VII",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/references.tex",
+   "old": "Volume I, Chapter I, retained model and exact clock certificate",
+   "new": "Volume I, Chapter VII (formerly Chapter I), retained model and exact clock certificate",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/references.tex",
+   "old": "SAM Volume I, Chapter I. Model and exact clock certificate",
+   "new": "SAM Volume I, Chapter VII (formerly Chapter I). Model and exact clock certificate",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch02/chapter2_source_field_formatted.tex",
+   "old": "Chapter I (blanket, Part 1)",
+   "new": "Chapter VII",
+   "matches": 9
+  },
+  {
+   "file": "live_sources/ch03/chapter3_formatted.tex",
+   "old": "Chapter I (blanket, Part 1)",
+   "new": "Chapter VII",
+   "matches": 9
+  },
+  {
+   "file": "live_sources/ch05/chapter.tex",
+   "old": "Chapter I (blanket, Part 1)",
+   "new": "Chapter VII",
+   "matches": 3
+  },
+  {
+   "file": "live_sources/ch04/carrier_predecessor.tex",
+   "old": "Chapter I (blanket, Part 1)",
+   "new": "Chapter VII",
+   "matches": 1
+  },
+  {
+   "file": "live_sources/ch04/chapter.tex",
+   "old": "Chapter I (blanket, Part 1)",
+   "new": "Chapter VII",
+   "matches": 6
+  },
+  {
+   "file": "vi_source/parts/decoder_decoder.tex",
+   "old": "Chapter I (blanket, Part 1)",
+   "new": "Chapter VII",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/foundation_error_budget.tex",
+   "old": "Chapter I (blanket, Part 1)",
+   "new": "Chapter VII",
+   "matches": 2
+  },
+  {
+   "file": "vi_source/parts/original_appendix.tex",
+   "old": "Chapter I (blanket, Part 1)",
+   "new": "Chapter VII",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/original_clock_routes.tex",
+   "old": "Chapter I (blanket, Part 1)",
+   "new": "Chapter VII",
+   "matches": 8
+  },
+  {
+   "file": "vi_source/parts/original_introduction.tex",
+   "old": "Chapter I (blanket, Part 1)",
+   "new": "Chapter VII",
+   "matches": 1
+  },
+  {
+   "file": "vi_source/parts/references.tex",
+   "old": "Chapter I (blanket, Part 1)",
+   "new": "Chapter VII",
+   "matches": 2
+  },
+  {
+   "file": "vi_source/proofs/shared_field.tex",
+   "old": "Chapter I (blanket, Part 1)",
+   "new": "Chapter VII",
+   "matches": 1
+  },
+  {
+   "file": "ch08.tex",
+   "old": "physical horizon area $\\mathcal A_H$ of Chapter VII.",
+   "new": "physical horizon area $\\mathcal A_H$ of Chapter VIII.",
+   "matches": 1
+  },
+  {
+   "file": "ch08.tex",
+   "old": "Chapter X must supply clustering and halo behavior;",
+   "new": "the Supplement (the retired galaxy-halo chapter) must supply clustering and halo behavior;",
+   "matches": 1
+  },
+  {
+   "file": "ch08.tex",
+   "old": "when Chapter IX computes a thermal history",
+   "new": "when Chapter X computes a thermal history",
+   "matches": 1
+  },
+  {
+   "file": "ch08.tex",
+   "old": "essential for Chapter IX and cannot",
+   "new": "essential for Chapter X and cannot",
+   "matches": 1
+  },
+  {
+   "file": "ch08.tex",
+   "old": "The packet delivered to Chapter IX includes",
+   "new": "The packet delivered to Chapter X includes",
+   "matches": 1
+  },
+  {
+   "file": "ch08.tex",
+   "old": "Chapter X receives the clean matter row",
+   "new": "The Supplement (the retired galaxy-halo chapter) receives the clean matter row",
+   "matches": 1
+  },
+  {
+   "file": "ch08.tex",
+   "old": "original Chapter VIII and closing review",
+   "new": "original Chapter VIII (now Chapter IX) and closing review",
+   "matches": 1
+  },
+  {
+   "file": "ch09.tex",
+   "old": "This accounting connects Chapters IX and XII.",
+   "new": "This accounting connects Chapters X and XII.",
+   "matches": 1
+  },
+  {
+   "file": "ch09.tex",
+   "old": "Original Chapter IX, upstream inventory in Chapter VIII,",
+   "new": "Original Chapter IX (now Chapter X), upstream inventory in Chapter IX,",
+   "matches": 1
+  },
+  {
+   "file": "ch11.tex",
+   "old": "the thermal behavior of Chapter VII and the perturbative",
+   "new": "the thermal behavior of Chapter VIII and the perturbative",
+   "matches": 1
+  },
+  {
+   "file": "ch11.tex",
+   "old": "Chapter I provides the source--field action",
+   "new": "Chapter VII provides the source--field action",
+   "matches": 1
+  },
+  {
+   "file": "ch11.tex",
+   "old": "Chapter VII asks how the same boundary exchanges",
+   "new": "Chapter VIII asks how the same boundary exchanges",
+   "matches": 1
+  },
+  {
+   "file": "ch11.tex",
+   "old": "without supplying Chapter VII's boundary state",
+   "new": "without supplying Chapter VIII's boundary state",
+   "matches": 1
+  },
+  {
+   "file": "ch11.tex",
+   "old": "usable in Chapters V, VII and XI.",
+   "new": "usable in Chapters V, VIII and XI.",
+   "matches": 1
+  },
+  {
+   "file": "ch12.tex",
+   "old": "Chapters III--VII follow the source coordinate",
+   "new": "Chapters III--VI and VIII follow the source coordinate",
+   "matches": 1
+  },
+  {
+   "file": "ch12.tex",
+   "old": "Chapters VIII--X use the floor in a proposed cosmic inventory",
+   "new": "Chapters IX and X and the Supplement use the floor in a proposed cosmic inventory",
+   "matches": 1
+  },
+  {
+   "file": "ch12.tex",
+   "old": "The inventory assignment of Chapter VIII is",
+   "new": "The inventory assignment of Chapter IX is",
+   "matches": 1
+  },
+  {
+   "file": "ch12.tex",
+   "old": "the frozen Chapter VIII value",
+   "new": "the frozen Chapter IX value",
+   "matches": 1
+  },
+  {
+   "file": "ch12.tex",
+   "old": "the Chapter VIII horizon projection",
+   "new": "the Chapter IX horizon projection",
+   "matches": 1
+  },
+  {
+   "file": "ch13.tex",
+   "old": "one surface model shared with Chapters VII and XI",
+   "new": "one surface model shared with Chapters VIII and XI",
+   "matches": 1
+  },
+  {
+   "file": "ch13.tex",
+   "old": "This is where Chapter VII's thermal account",
+   "new": "This is where Chapter VIII's thermal account",
+   "matches": 1
+  },
+  {
+   "file": "ch13.tex",
+   "old": "Chapter XI's impedance and Chapter VII's thermal transitions",
+   "new": "Chapter XI's impedance and Chapter VIII's thermal transitions",
+   "matches": 1
+  },
+  {
+   "file": "ch13.tex",
+   "old": "the mass function used in Chapter X, the baryon abundance used in Chapter VIII, or the thermal initial conditions used in Chapter IX.",
+   "new": "the mass function used in the Supplement (the retired galaxy-halo chapter), the baryon abundance used in Chapter IX, or the thermal initial conditions used in C",
+   "matches": 1
+  },
+  {
+   "file": "ch13.tex",
+   "old": "belong to Chapter VII's exact transition account",
+   "new": "belong to Chapter VIII's exact transition account",
+   "matches": 1
+  },
+  {
+   "file": "ch13.tex",
+   "old": "a single surface model shared with Chapters VII and XI.",
+   "new": "a single surface model shared with Chapters VIII and XI.",
+   "matches": 1
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "when the expanded Chapters I--VI were incorporated",
+   "new": "when the expanded Chapters II--VII were incorporated",
+   "matches": 1
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "\\paragraph{Chapter I: the actual interacting clock.}",
+   "new": "\\paragraph{Chapter VII: the actual interacting clock.}",
+   "matches": 1
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "Chapter I, Sections 6--7, establishes",
+   "new": "Chapter VII, Sections 6--7, establishes",
+   "matches": 1
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "identifying its radius with Chapter I's coupling radius",
+   "new": "identifying its radius with Chapter VII's coupling radius",
+   "matches": 1
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "from the earlier Chapters I--VII appendix",
+   "new": "from the earlier appendix to Chapters I--VII of the 19 October edition (now II--VIII)",
+   "matches": 1
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "\\subsubsection*{Chapter I: source preparation, isolation, and calibration}",
+   "new": "\\subsubsection*{Chapter VII: source preparation, isolation, and calibration}",
+   "matches": 1
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "cited by Chapter I. Incorporation",
+   "new": "cited by Chapter VII. Incorporation",
+   "matches": 1
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "Existing Chapter I provenance remains intact.",
+   "new": "Existing Chapter VII provenance remains intact.",
+   "matches": 1
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "\\subsubsection*{Chapter VII: thermal scale, entropy, and information}",
+   "new": "\\subsubsection*{Chapter VIII: thermal scale, entropy, and information}",
+   "matches": 1
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "\\subsubsection*{Chapter VIII: inventory and Hubble cascade}",
+   "new": "\\subsubsection*{Chapter IX: inventory and Hubble cascade}",
+   "matches": 1
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "\\subsubsection*{Chapter IX: recombination and spectrum comparison}",
+   "new": "\\subsubsection*{Chapter X: recombination and spectrum comparison}",
+   "matches": 1
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "\\subsubsection*{Chapter X: many-source organization and halo tests}",
+   "new": "\\subsubsection*{Supplement (the retired Chapter X): many-source organization and halo tests}",
+   "matches": 1
+  },
+  {
+   "file": "assemble_first_edition_20261102.py",
+   "old": "The unified expanded edition of 19 October 2026 brought the twelve chapters into one continuous manuscript. Chapters I--V retain",
+   "new": "The unified expanded edition of 19 October 2026 brought the twelve chapters into one continuous manuscript; in that edition's numbering, Chapters I--V retain",
+   "matches": 1
+  },
+  {
+   "file": "assemble_first_edition_20261102.py",
+   "old": "Chapters I--III match their earlier formatting sources exactly. The integrated source for Chapter IV, Chapter V and Chapter VI was recovered",
+   "new": "Chapters II, III and VII match their earlier formatting sources exactly, built since 2 November 2026 from live copies under \\texttt{src/live\\_sources}. The inte",
+   "matches": 1
+  },
+  {
+   "file": "assemble_first_edition_20261102.py",
+   "old": "The original vector content of Chapters I--V is retained",
+   "new": "The original vector content of Chapters II--V and VII is retained",
+   "matches": 1
+  },
+  {
+   "file": "assemble_first_edition_20261102.py",
+   "old": "The opening chapter's public data repository is",
+   "new": "Chapter VII's public data repository is",
+   "matches": 1
+  },
+  {
+   "file": "assemble_first_edition_20261102.py",
+   "old": "the body carries no person's or instrument's name except for outside sources; chapter heads carry title and number only;",
+   "new": "the body carries no person's or instrument's name except for outside sources; chapter heads carry title and number only; cross-references renumbered to this edi",
+   "matches": 1
+  }
+ ],
+ "total_cross_references_changed": 93
+}
