@@ -50,7 +50,7 @@ largest against the surface of the source and falling with distance. Chapter~III
 \Sigma[\Gamma]=\int_\Gamma a\,\dd\ell,
 \label{eq:c1-road}
 \end{equation}
-the accumulation looked through, where $a$ is the local lift and $\dd\ell$ the measurable length element along the route. Chapter~IV calls this the road operator. It is a property of the path, not of its endpoints, and Section~\ref{sec:c1-two} shows that this one distinction carries most of SAM's content.
+the accumulation looked through, where $a$ is the local lift and $\dd\ell$ the length element along the route, the ruler's reading of Section~\ref{sec:c1-readings}; to first order in $a$ the accumulation looked through is insensitive to which element is used, and the difference between routes of equal integrated accumulation begins at second order (H002043). Chapter~IV calls this the road operator. It is a property of the path, not of its endpoints, and Section~\ref{sec:c1-two} shows that this one distinction carries most of SAM's content.
 
 \paragraph{The ceiling.} Along the longest roads, those that cross the expanding universe, the accumulation looked through does not grow without limit. Chapter~XII writes the line-of-sight accumulation to redshift $z$ as
 \begin{equation}
@@ -59,10 +59,10 @@ A_{\rm los}(z)=\frac{1}{\pi}\left[1-(1+z)^{-3}\right],
 \end{equation}
 which rises from zero and saturates at $1/\pi$. The ceiling is the end of the longest road. It is the counting convention's number, $1/\pi=12A_0 R$ with $R$ the count, and it takes no part in anything static. It is named here because the three objects belong together: the floor is where the substrate starts, the lift is what one source does to it, the ceiling is how much of it a line of sight can ever look through.
 
-\section{Two readings of the lift}
+\section{Three readings of the lift}
 \label{sec:c1-readings}
 
-A lift is a number at a point. Physics enters when an instrument reads it, and SAM declares two readings.
+A lift is a number at a point. Physics enters when an instrument reads it, and SAM reads it three ways: with a clock, with a ruler, and with light.
 
 \paragraph{The clock.} A clock held at rest where the lift is $a$ runs, relative to a clock at the floor, at the rate
 \begin{equation}
@@ -84,6 +84,20 @@ The two readings together are a metric,
 \label{eq:c1-metric}
 \end{equation}
 and this is the static exterior of a spherical source in SAM.
+
+\paragraph{Light.} Light's coordinate speed where the lift is $a$ is $c_{\rm eff}=c(1-a)$, the speed along the road; its speed measured locally is $c$. Integrated along a radial route this reading gives the optical road,
+\begin{equation}
+L_{\rm opt}=\int\frac{\dd r}{1-a},
+\label{eq:c1-optical-road}
+\end{equation}
+which is $c$ times the coordinate time light takes, as distinct from the ruler's length $\int\dd r/\sqrt{1-a}$ along the same route. The three readings are one object: a single generator with $g=\sqrt{1-a}$ gives the clock rate $g$, the ruler $\dd r/g$ and light's coordinate speed $g^2c$ (H001672). Where the ruler's length and the optical road part company is the subject of Section~\ref{sec:c1-home}.
+
+\paragraph{Light.} Light's coordinate speed where the lift is $a$ is $c_{\rm eff}=c(1-a)$, the speed along the road; its speed measured locally is $c$. Integrated along a radial route this reading gives the optical road,
+\begin{equation}
+L_{\rm opt}=\int\frac{\dd r}{1-a},
+\label{eq:c1-optical-road}
+\end{equation}
+which is $c$ times the coordinate time light takes, as distinct from the ruler's length $\int\dd r/\sqrt{1-a}$ along the same route. The three readings are one object: a single generator with $g=\sqrt{1-a}$ gives the clock rate $g$, the ruler $\dd r/g$ and light's coordinate speed $g^2c$ (H001672). Where the ruler's length and the optical road part company is the subject of Section~\ref{sec:c1-home}.
 
 \section{The agreement theorem and what it does and does not say}
 \label{sec:c1-agreement}
@@ -108,17 +122,17 @@ If $A$ is not equal at two endpoints, accumulation must exist between them.
 
 \subsection{The theorem and its failed converse}
 
-In the volume's terms the result is a theorem, and the proof is one line: $a$ is continuous along any route, so if $a_1\ne a_2$ then $a>0$ on a set of positive length, and $\Sigma=\int a\,\dd\ell>0$. Between two endpoints SAM therefore keeps two numbers where most frameworks keep one. The first is the measurable distance of the route,
+In the volume's terms the result is a theorem, and the proof is one line: $a$ is continuous along any route, so if $a_1\ne a_2$ then $a>0$ on a set of positive length, and $\Sigma=\int a\,\dd\ell>0$. Between two endpoints SAM therefore keeps two numbers where most frameworks keep one. The first is the ruler's distance along the route,
 \begin{equation}
 L[\Gamma]=\int_\Gamma \dd\ell,
 \end{equation}
-what a ruler laid along it reads. The second is the accumulation looked through, $\Sigma[\Gamma]$ of Eq.~\eqref{eq:c1-road}. The clock reads the endpoints; the road reads the path.
+The second is the accumulation looked through, $\Sigma[\Gamma]$ of Eq.~\eqref{eq:c1-road}. The clock reads the endpoints; the road reads the path.
 
 The converse fails, and the failure is as important as the theorem. Two endpoints can have the same lift with a great deal of accumulation between them. The Cassini conjunction of 2002 is exactly that case: the Earth at one astronomical unit and the spacecraft at 8.4 had lifts that differed by less than one part in $10^{8}$, so the clock comparison between them was a few parts in $10^9$ and unchanged by the conjunction, while the route between them swung within $1.6$ solar radii of the Sun and the accumulation looked through rose to $\Sigma=13.3\,r_s$, a one-way delay of $131\,\mu$s. The clock did not move; the road did. That is the Shapiro delay read as SAM reads it, and it is the sentence ``accumulation is looked through, not only sat in'' made measurable.
 
 \subsection{GPS and Shapiro, the two instances}
 
-The same displacement gives GPS its two corrections, and they are applied separately because they are the two numbers. The clock correction compares the satellite's endpoint with the ground's: at $26\,560$~km the gravitational term is $+45.7\,\mu$s per day, the velocity term (Section~\ref{sec:c1-motion}) is $-7.2$, and the net is $+38.5$, or $+38.6$ once the ground clock's own rotation is counted, which is the figure engineered into the satellites. The road correction is the accumulation looked through along the signal's path, $\Sigma/c$, and it is $42$~ps for a zenith route and $62$~ps for a horizon route, small because the Earth's hill is low, present because the route crosses it. One displacement, two readings, two corrections. The Shapiro delay is the road correction grown to planetary scale; GPS is the clock correction made daily. Between them they are the first two chapters of any account of accumulation, and the volume gives them a chapter of their own (Chapter~IV) beyond this introduction.
+The same displacement gives GPS its two corrections, and they are applied separately because they are the two numbers. The clock correction compares the satellite's endpoint with the ground's: at $26\,560$~km the gravitational term is $+45.7\,\mu$s per day, the velocity term (Section~\ref{sec:c1-motion}) is $-7.2$, and the net is $+38.5$, or $+38.6$ once the ground clock's own rotation is counted, which is the figure engineered into the satellites. The road correction is the accumulation looked through along the signal's path, $\Sigma/c$, and it is $42$~ps for a zenith route and $62$~ps for a horizon route, small because the Earth's hill is low, present because the route crosses it. The two lengths of Section~\ref{sec:c1-readings} also part here, by a hair: on the overhead link the radar distance read on the ground clock and the ruler's length integrated along the path differ by $7.7$~mm, the one $1.4$~mm below the straight chord and the other $6.3$~mm above it (H001702). The two lengths of Section~\ref{sec:c1-readings} also part here, by a hair: on the overhead link the radar distance read on the ground clock and the ruler's length integrated along the path differ by $7.7$~mm, the one $1.4$~mm below the straight chord and the other $6.3$~mm above it (H001702). One displacement, two readings, two corrections. The Shapiro delay is the road correction grown to planetary scale; GPS is the clock correction made daily. Between them they are the first two chapters of any account of accumulation, and the volume gives them a chapter of their own (Chapter~IV) beyond this introduction.
 
 \section{The SAM law}
 \label{sec:c1-law}
@@ -144,30 +158,36 @@ which to first order is $1-a/2-\beta^2/2$ with $\beta=v/c$: position and speed a
 
 \subsection{The boundary}
 
-The lift reaches unity at $r=r_s$. In SAM, accumulation beyond completion, $A>1$, is not a state that can be written: there is no register past full. A black hole is therefore a closed sphere with no interior. There is no event on the far side of $A=1$ for a crossing to become, and so nothing crosses it. This is a theoretical departure, and it is the headline of the volume, not something to be hidden. It is also structural. It is not a statement about speed or time, and no engine, however fast, changes it. Every observer approaches the boundary; none crosses. Chapter~V develops the approach, and Chapters~XII and~XIII what a completed sphere is and does.
+The lift reaches unity at $r=r_s$. In SAM, accumulation beyond completion, $A>1$, is not a state that can be written: there is no register past full. A black hole is therefore a closed sphere with no interior. There is no event on the far side of $A=1$ for a crossing to become, and so nothing crosses it. This is a theoretical departure, and it is the headline of the volume, not something to be hidden. It is SAM's declaration: every observer approaches the boundary; none crosses. What makes it hold for a traveler's own clock is the postulate of Section~\ref{sec:c1-approach}. Chapter~V develops the approach, and Chapters~XII and~XIII what a completed sphere is and does.
 
 \subsection{The approach, in SAM's accounting}
+\label{sec:c1-approach}
+
+The departure is confined to the approach to $A=1$, where $a+\beta^2\to1$. Wherever Cassini, GPS and the binary pulsars look, motion is geodesic in the metric~\eqref{eq:c1-metric} and the agreement theorem holds.
+\label{sec:c1-approach}
+
+The departure is confined to the approach to $A=1$, where $a+\beta^2\to1$. Wherever Cassini, GPS and the binary pulsars look, motion is geodesic in the metric~\eqref{eq:c1-metric} and the agreement theorem holds.
 
 How long the approach takes is the second question. The outside observer's account is shared by every framework: the coordinate time to reach $r_s$ diverges, and the traveler fades down the redshift rather than winking out. The traveler's own account is where SAM's accounting differs, and SAM's accounting is the one this volume carries.
 
-The distance that decides whether a crossing completes is the measurable road, the distance a ruler built from the field reads, published in July 2026 and carried into Chapter~V. Along the approach that road is
+The distance SAM reads along the approach is the optical road of Section~\ref{sec:c1-readings}, $c$ times the coordinate time light takes, published in July 2026 as the measurable road and carried into Chapter~V. Along the approach it is
 \begin{equation}
 L(r)=\int_r^{r_0}\frac{\dd\rho}{1-A(\rho)},
 \label{eq:c1-measurable-road}
 \end{equation}
-which is $c$ times the time light takes and which diverges logarithmically as $r\downarrow r_s$: every nine added to $A$ adds $r_s\ln 10$ of road, forever, while the metric's own length to the horizon stays finite (from $2r_s$ it is $2.30\,r_s$ in all). An astronaut cannot travel at $c$. The least time his own clock can spend on each nine of road is therefore the road at light speed, $r_s\ln10/c$, and a traveler of any mass spends more. The total is unbounded in either case. He experiences time normally and writes in his journal every day, but the accumulated road in front of him grows without bound, and he never arrives at $A=1$. In the published words: ``The astronaut does not run out of clock. He runs out of road, there is always more measurable distance ahead, and no $A>1$ state behind it to write into. He arrives at $A=1$. He never crosses it.''
+which is $c$ times the time light takes and which diverges logarithmically as $r\downarrow r_s$: every nine added to $A$ adds $r_s\ln 10$ of road, forever, while the ruler's length to the horizon stays finite (from $2r_s$ it is $2.30\,r_s$ in all). SAM declares the road-speed postulate: a traveler's own time per unit of optical road is bounded below by light's, $\dd L/\dd\tau\le c$. Under it the least time his own clock can spend on each nine is $r_s\ln10/c$, a traveler of any mass spends more, and the total is unbounded. He experiences time normally and writes in his journal every day, but the accumulated road in front of him grows without bound, and he never arrives at $A=1$. In the published words: ``The astronaut does not run out of clock. He runs out of road, there is always more measurable distance ahead, and no $A>1$ state behind it to write into. He arrives at $A=1$. He never crosses it.''
 
-How fast a traveler of a given mass covers the measurable road, and so how much longer than the light-speed floor each nine takes him, is a law SAM has yet to write; Chapter~V states it as the volume's obligation. It sets the pace of the approach, not its end.
+How fast a traveler of a given mass covers the optical road, and so how much longer than the light-speed floor each nine takes him, is a law SAM has yet to write; Chapter~V states it as the volume's obligation. It sets the pace of the approach, not its end.
 
 \subsection{The other accounting, and what the two share}
 
-General relativity's accounting is the free-fall geodesic of the metric~\eqref{eq:c1-metric}, with the metric's proper length taken as the physical distance. In that accounting a traveler released from rest far away and passing $2r_s$ reaches $r_s$ after $1.219\,r_s/c$ of his own time, a few microseconds for a stellar-mass hole and under a day for the largest known, and crosses without any local mark of the passage. SAM does not accept that accounting as the physical one, for the reason Section~\ref{sec:c1-two} gave: the metric's length and the measurable road are two different numbers between the same endpoints, and at the boundary they separate completely.
+General relativity's accounting is the free-fall geodesic of the metric~\eqref{eq:c1-metric}, with the metric's proper length taken as the physical distance. In that accounting a traveler released from rest far away and passing $2r_s$ reaches $r_s$ after $1.219\,r_s/c$ of his own time, a few microseconds for a stellar-mass hole and under a day for the largest known, and crosses without any local mark of the passage. SAM's declaration selects the other, for the reason Section~\ref{sec:c1-two} gave: the ruler's length and the optical road are two different numbers between the same endpoints, and at the boundary they separate completely.
 
-The two accountings agree far from the boundary and split at it, and the split is the clock against the road. Time dilation is relational and is not experienced; in both accountings the traveler's clock ticks normally and dilation exists only in comparison with another clock. Road accumulation is local and is experienced; in SAM's accounting there is always more measurable distance ahead, and that is a fact of the traveler's own frame. The same split shows in the traveler's speed as a nearby static observer would measure it: in the free-fall accounting it climbs toward $c$ as $A\to1$; in SAM's accounting it falls toward zero as the road thickens under him, a tenth of $c$ at two nines, a thousandth at six. That is the pebble of Section~\ref{sec:c1-sentence} slowing in the halo. Table~\ref{tab:c1-approach} sets the two accountings side by side for three masses.
+The two accountings agree far from the boundary and split at it, and the split is the clock against the road. Time dilation is relational and is not experienced; in both accountings the traveler's clock ticks normally and dilation exists only in comparison with another clock. Road accumulation is local and is experienced; in SAM's accounting there is always more optical road ahead, and that is a fact of the traveler's own frame. The same split shows in the traveler's speed as a nearby static observer would measure it: in the free-fall accounting it climbs toward $c$ as $A\to1$; in SAM's accounting it falls toward zero as the road thickens under him, a tenth of $c$ at two nines, a thousandth at six. That is the pebble of Section~\ref{sec:c1-sentence} slowing in the halo. Table~\ref{tab:c1-approach} sets the two accountings side by side for three masses.
 
 \begin{table}[t]
 \centering\small
-\caption{The approach to $A=1$ from $2r_s$ in the two accountings. GR: the free-falling traveler's own time to the horizon, in total. SAM: the least possible own time per nine added to $A$, the road at light speed; a traveler of any mass spends more on each nine, and the total is unbounded.}
+\caption{The approach to $A=1$ from $2r_s$ in the two accountings. GR: the free-falling traveler's own time to the horizon, in total. SAM, under the road-speed postulate: the least own time per nine added to $A$, the optical road at light speed; a traveler of any mass spends more on each nine, and the total is unbounded.}
 \label{tab:c1-approach}
 \begin{tabular}{@{}lccc@{}}
 \toprule
@@ -182,18 +202,18 @@ M87$^*$ & $17.8$~h & $22$~h & $41$~h \\
 
 \subsection{The conclusion}
 
-Nothing outside can decide between the accountings: the clock, the shadow and every weak-field test are blind to the difference, and the outside observer sees the same fading approach in both. The traveler can tell, and in SAM he tells by the road, never by his clock. The road to $A=1$ is infinite in measurable distance. Assuming the astronaut cannot travel at the speed of light, he will never experience reaching the horizon.
+Nothing outside can decide between the accountings: the clock, the shadow and every weak-field test are blind to the difference, and the outside observer sees the same fading approach in both. The traveler can tell, and in SAM he tells by the road, never by his clock. The optical road to $A=1$ is infinite. Under the road-speed postulate a traveler never experiences reaching the horizon; the free-fall accounting, which SAM does not adopt, arrives in finite own time. Which is physical is decided by the law of motion Chapter~V owes, not by anything measured outside.
 
 \section{How the volume proceeds}
 \label{sec:c1-map}
 
-Part~1 builds the substrate and reads it. Chapters~II and~III build it from a finite ledger of source histories: the retention rule, the accumulation count, the floor $A_0$ as the count's minimum, and the spherical kernel that turns a source into the lift $A(r)$. Chapter~IV reads the lift with clocks and signals: the clock law, the ruler declaration and its Cassini test, the road operator, the clock in motion, and GPS as the daily instance. Chapter~V takes the lift to unity: the three questions of the approach, the criterion for a finite or infinite own time, the measurable road, and the boundary at $A=1$. Chapter~VI carries the quantum routes by which records are read, and Chapter~VII, the most advanced of the part, the original Write histories and the interacting source-field action beneath them. Part~2 extends the program: horizon thermodynamics (VIII), the cosmic inventory and the Hubble cascade under the road law (IX), the thermal history (X), carrier radiation (XI), the cosmological fate and the completed boundary (XII), and the completed sphere and its chain (XIII). Appendix~A keeps the register of what is derived, what is declared and what remains to be assigned.
+Part~1 builds the substrate and reads it. Chapters~II and~III build it from a finite ledger of source histories: the retention rule, the accumulation count, the floor $A_0$ as the count's minimum, and the spherical kernel that turns a source into the lift $A(r)$. Chapter~IV reads the lift with clocks and signals: the clock law, the ruler declaration and its Cassini test, the road operator, the clock in motion, and GPS as the daily instance. Chapter~V takes the lift to unity: the three questions of the approach, the criterion for a finite or infinite own time, the optical road, and the boundary at $A=1$. Chapter~VI carries the quantum routes by which records are read, and Chapter~VII, the most advanced of the part, the original Write histories and the interacting source-field action beneath them. Part~2 extends the program: horizon thermodynamics (VIII), the cosmic inventory and the Hubble cascade under the road law (IX), the thermal history (X), carrier radiation (XI), the cosmological fate and the completed boundary (XII), and the completed sphere and its chain (XIII). Appendix~A keeps the register of what is derived, what is declared and what remains to be assigned.
 
 \section{Status and verification}
 \label{sec:c1-status}
 
-This chapter is conceptual by design and its claims are of three kinds. \emph{Derived}: the agreement theorem and its classical numbers; the two-numbers theorem and its failed converse; the clock in motion, its circular-orbit form and the GPS corrections; the divergence of the measurable road; the criterion for the traveler's own time. \emph{Declared}: the radial ruler reading, tested by Cassini; the source-only convention for the floor; the road-speed postulate at the boundary. \emph{Open}: the derivation of the ruler from the source action; the law of motion for mass on the measurable road; the differential test of the road law against distance data. The question of the magic bell is open by decision.
+This chapter is conceptual by design and its claims are of three kinds. \emph{Derived}: the agreement theorem and its classical numbers; the two-numbers theorem and its failed converse; the clock in motion, its circular-orbit form and the GPS corrections; the divergence of the optical road. \emph{Declared}: the radial ruler reading, tested by Cassini; the source-only convention for the floor; the closed sphere with no interior; the road-speed postulate at the boundary, which makes the traveler's non-arrival follow. \emph{Open}: the derivation of the ruler from the source action; the law of motion for mass on the optical road; the differential test of the road law against distance data. The question of the magic bell is open by decision.
 
-Each derived or declared statement above was run in the verification form, with predictions sealed before computation, in the Courtroom~II record: the static exterior theorem and its classical numbers (\texttt{voli\_metric/01}); the two numbers, the Cassini conjunction and the GPS road term (\texttt{voli\_clock\_road/01}); the clock in motion, GPS from one line, the closure line and the eccentricity correction (\texttt{voli\_clock\_motion/01} and \texttt{/04}); the approach to $A=1$ under the declared readings and through the measurable road (\texttt{g11555r/01} and \texttt{/02}). These are reproductions with standard tools, not independent verification in the sense of Appendix~A, and nothing in this chapter is classified.
+Each derived or declared statement above was run in the verification form, with predictions sealed before computation, in the Courtroom~II record: the static exterior theorem and its classical numbers (\texttt{voli\_metric/01}); the two numbers, the Cassini conjunction and the GPS road term (\texttt{voli\_clock\_road/01}); the clock in motion, GPS from one line, the closure line and the eccentricity correction (\texttt{voli\_clock\_motion/01} and \texttt{/04}); the approach to $A=1$ under the declared readings and through the optical road (\texttt{g11555r/01} and \texttt{/02}). These are reproductions with standard tools, not independent verification in the sense of Appendix~A, and nothing in this chapter is classified. The native record behind the two lengths is H001672, H001695, H001702 and H002043 (September 2026), which construct the clock, the ruler and the optical road from one generator and measure the two lengths' difference on the GPS link. The native record behind the two lengths is H001672, H001695, H001702 and H002043 (September 2026), which construct the clock, the ruler and the optical road from one generator and measure the two lengths' difference on the GPS link.
 
 The provenance of these ideas and of the mathematical development they draw on is recorded outside the body of the volume: Courtroom~II case \texttt{voli\_provenance/01} (H002821) and the source registers of Chapters~II to~VII, which cite their runs, tests and folders.

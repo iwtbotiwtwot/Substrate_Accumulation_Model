@@ -1,0 +1,272 @@
+{
+ "written_utc": "2026-11-02T02:49:15Z",
+ "replacements": [
+  {
+   "file": "ch01_concepts.tex",
+   "old": "where $a$ is the local lift and $\\dd\\ell$ the measurable length element along the route.",
+   "new": "where $a$ is the local lift and $\\dd\\ell$ the length element along the route, the ruler's reading of Section~\\ref{sec:c1-readings}; to first order in $a$ the accumulation looked through is insensitive",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "\\section{Two readings of the lift}",
+   "new": "\\section{Three readings of the lift}",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "Physics enters when an instrument reads it, and SAM declares two readings.",
+   "new": "Physics enters when an instrument reads it, and SAM reads it three ways: with a clock, with a ruler, and with light.",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "and this is the static exterior of a spherical source in SAM.\n",
+   "new": "and this is the static exterior of a spherical source in SAM.\n\n\\paragraph{Light.} Light's coordinate speed where the lift is $a$ is $c_{\\rm eff}=c(1-a)$, the speed along the road; its speed measured l"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "The first is the measurable distance of the route,",
+   "new": "The first is the ruler's distance along the route,",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "\\end{equation}\nwhat a ruler laid along it reads. The second is the accumulation looked through,",
+   "new": "\\end{equation}\nThe second is the accumulation looked through,",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "small because the Earth's hill is low, present because the route crosses it.",
+   "new": "small because the Earth's hill is low, present because the route crosses it. The two lengths of Section~\\ref{sec:c1-readings} also part here, by a hair: on the overhead link the radar distance read on"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": " This is a theoretical departure, and it is the headline of the volume, not something to be hidden. It is also structural. It is not a statement about speed or time, and no engine, however fast, chang",
+   "new": " This is a theoretical departure, and it is the headline of the volume, not something to be hidden. It is SAM's declaration: every observer approaches the boundary; none crosses. What makes it hold fo",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "\\subsection{The approach, in SAM's accounting}\n",
+   "new": "\\subsection{The approach, in SAM's accounting}\n\\label{sec:c1-approach}\n\nThe departure is confined to the approach to $A=1$, where $a+\\beta^2\\to1$. Wherever Cassini, GPS and the binary pulsars look, mo"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "The distance that decides whether a crossing completes is the measurable road, the distance a ruler built from the field reads, published in July 2026 and carried into Chapter~V. Along the approach th",
+   "new": "The distance SAM reads along the approach is the optical road of Section~\\ref{sec:c1-readings}, $c$ times the coordinate time light takes, published in July 2026 as the measurable road and carried int",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "while the metric's own length to the horizon stays finite",
+   "new": "while the ruler's length to the horizon stays finite",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "An astronaut cannot travel at $c$. The least time his own clock can spend on each nine of road is therefore the road at light speed, $r_s\\ln10/c$, and a traveler of any mass spends more. The total is ",
+   "new": "SAM declares the road-speed postulate: a traveler's own time per unit of optical road is bounded below by light's, $\\dd L/\\dd\\tau\\le c$. Under it the least time his own clock can spend on each nine is",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "SAM does not accept that accounting as the physical one, for the reason Section~\\ref{sec:c1-two} gave: the metric's length and the measurable road are two different numbers between the same endpoints",
+   "new": "SAM's declaration selects the other, for the reason Section~\\ref{sec:c1-two} gave: the ruler's length and the optical road are two different numbers between the same endpoints",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "Road accumulation is local and is experienced; in SAM's accounting there is always more measurable distance ahead",
+   "new": "Road accumulation is local and is experienced; in SAM's accounting there is always more optical road ahead",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "The road to $A=1$ is infinite in measurable distance. Assuming the astronaut cannot travel at the speed of light, he will never experience reaching the horizon.",
+   "new": "The optical road to $A=1$ is infinite. Under the road-speed postulate a traveler never experiences reaching the horizon; the free-fall accounting, which SAM does not adopt, arrives in finite own time.",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "SAM: the least possible own time per nine added to $A$, the road at light speed;",
+   "new": "SAM, under the road-speed postulate: the least own time per nine added to $A$, the optical road at light speed;",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "the criterion for a finite or infinite own time, the measurable road, and the bound",
+   "new": "the criterion for a finite or infinite own time, the optical road, and the bound",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "the divergence of the measurable road; the criterion for the traveler's own time.",
+   "new": "the divergence of the optical road.",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "\\emph{Declared}: the radial ruler reading, tested by Cassini; the source-only convention for the floor; the road-speed postulate at the boundary.",
+   "new": "\\emph{Declared}: the radial ruler reading, tested by Cassini; the source-only convention for the floor; the closed sphere with no interior; the road-speed postulate at the boundary, which makes the tr",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "How fast a traveler of a given mass covers the measurable road, and so how much longer",
+   "new": "How fast a traveler of a given mass covers the optical road, and so how much longer"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "the law of motion for mass on the measurable road;",
+   "new": "the law of motion for mass on the optical road;"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "under the declared readings and through the measurable road (\\texttt{g11555r/01}",
+   "new": "under the declared readings and through the optical road (\\texttt{g11555r/01}"
+  },
+  {
+   "file": "ch01_concepts.tex",
+   "old": "These are reproductions with standard tools, not independent verification in the sense of Appendix~A, and nothing in this chapter is classified.",
+   "new": "These are reproductions with standard tools, not independent verification in the sense of Appendix~A, and nothing in this chapter is classified. The native record behind the two lengths is H001672, H0"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "where $a$ is the local lift and $\\dd\\ell$ the measurable length element along the route.",
+   "new": "where $a$ is the local lift and $\\dd\\ell$ the length element along the route, the ruler's reading of Section~\\ref{sec:c1-readings}; to first order in $a$ the accumulation looked through is insensitive",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "\\section{Two readings of the lift}",
+   "new": "\\section{Three readings of the lift}",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "Physics enters when an instrument reads it, and SAM declares two readings.",
+   "new": "Physics enters when an instrument reads it, and SAM reads it three ways: with a clock, with a ruler, and with light.",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "and this is the static exterior of a spherical source in SAM.\n",
+   "new": "and this is the static exterior of a spherical source in SAM.\n\n\\paragraph{Light.} Light's coordinate speed where the lift is $a$ is $c_{\\rm eff}=c(1-a)$, the speed along the road; its speed measured l"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "The first is the measurable distance of the route,",
+   "new": "The first is the ruler's distance along the route,",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "\\end{equation}\nwhat a ruler laid along it reads. The second is the accumulation looked through,",
+   "new": "\\end{equation}\nThe second is the accumulation looked through,",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "small because the Earth's hill is low, present because the route crosses it.",
+   "new": "small because the Earth's hill is low, present because the route crosses it. The two lengths of Section~\\ref{sec:c1-readings} also part here, by a hair: on the overhead link the radar distance read on"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": " This is a theoretical departure, and it is the headline of the volume, not something to be hidden. It is also structural. It is not a statement about speed or time, and no engine, however fast, chang",
+   "new": " This is a theoretical departure, and it is the headline of the volume, not something to be hidden. It is SAM's declaration: every observer approaches the boundary; none crosses. What makes it hold fo",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "\\subsection{The approach, in SAM's accounting}\n",
+   "new": "\\subsection{The approach, in SAM's accounting}\n\\label{sec:c1-approach}\n\nThe departure is confined to the approach to $A=1$, where $a+\\beta^2\\to1$. Wherever Cassini, GPS and the binary pulsars look, mo"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "The distance that decides whether a crossing completes is the measurable road, the distance a ruler built from the field reads, published in July 2026 and carried into Chapter~V. Along the approach th",
+   "new": "The distance SAM reads along the approach is the optical road of Section~\\ref{sec:c1-readings}, $c$ times the coordinate time light takes, published in July 2026 as the measurable road and carried int",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "while the metric's own length to the horizon stays finite",
+   "new": "while the ruler's length to the horizon stays finite",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "An astronaut cannot travel at $c$. The least time his own clock can spend on each nine of road is therefore the road at light speed, $r_s\\ln10/c$, and a traveler of any mass spends more. The total is ",
+   "new": "SAM declares the road-speed postulate: a traveler's own time per unit of optical road is bounded below by light's, $\\dd L/\\dd\\tau\\le c$. Under it the least time his own clock can spend on each nine is",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "SAM does not accept that accounting as the physical one, for the reason Section~\\ref{sec:c1-two} gave: the metric's length and the measurable road are two different numbers between the same endpoints",
+   "new": "SAM's declaration selects the other, for the reason Section~\\ref{sec:c1-two} gave: the ruler's length and the optical road are two different numbers between the same endpoints",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "Road accumulation is local and is experienced; in SAM's accounting there is always more measurable distance ahead",
+   "new": "Road accumulation is local and is experienced; in SAM's accounting there is always more optical road ahead",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "The road to $A=1$ is infinite in measurable distance. Assuming the astronaut cannot travel at the speed of light, he will never experience reaching the horizon.",
+   "new": "The optical road to $A=1$ is infinite. Under the road-speed postulate a traveler never experiences reaching the horizon; the free-fall accounting, which SAM does not adopt, arrives in finite own time.",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "SAM: the least possible own time per nine added to $A$, the road at light speed;",
+   "new": "SAM, under the road-speed postulate: the least own time per nine added to $A$, the optical road at light speed;",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "the criterion for a finite or infinite own time, the measurable road, and the bound",
+   "new": "the criterion for a finite or infinite own time, the optical road, and the bound",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "the divergence of the measurable road; the criterion for the traveler's own time.",
+   "new": "the divergence of the optical road.",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "\\emph{Declared}: the radial ruler reading, tested by Cassini; the source-only convention for the floor; the road-speed postulate at the boundary.",
+   "new": "\\emph{Declared}: the radial ruler reading, tested by Cassini; the source-only convention for the floor; the closed sphere with no interior; the road-speed postulate at the boundary, which makes the tr",
+   "note": "already applied by an earlier run"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "How fast a traveler of a given mass covers the measurable road, and so how much longer",
+   "new": "How fast a traveler of a given mass covers the optical road, and so how much longer"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "the law of motion for mass on the measurable road;",
+   "new": "the law of motion for mass on the optical road;"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "under the declared readings and through the measurable road (\\texttt{g11555r/01}",
+   "new": "under the declared readings and through the optical road (\\texttt{g11555r/01}"
+  },
+  {
+   "file": "body01_concepts.tex",
+   "old": "These are reproductions with standard tools, not independent verification in the sense of Appendix~A, and nothing in this chapter is classified.",
+   "new": "These are reproductions with standard tools, not independent verification in the sense of Appendix~A, and nothing in this chapter is classified. The native record behind the two lengths is H001672, H0"
+  },
+  {
+   "file": "closure_appendix.tex",
+   "old": "No universal infinite-cost crossing rule follows independently.",
+   "new": "No universal infinite-cost crossing rule follows independently. Chapter~I declares the road-speed postulate (Section~9.2); under that declaration the non-arrival of a massive traveler is unconditional"
+  }
+ ]
+}
