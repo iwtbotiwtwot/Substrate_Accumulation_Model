@@ -770,3 +770,13 @@ Sean Brady: "XIII.5 The reported periodic replay- do you think we have the stren
 - **A d = 4 second diluting channel as a control** that must raise the ceiling and break the 3, −6, 10 ratios; a new core construction. (peer FOUR)
 - **A parameter block for `line_of_sight`** in the campaign material generator. (Claude Code)
 - **Keep the two floors Ω_Λ = 1 − 1/π and A_0 = 1/(12π) separate in the Volume I text.** (peer FOUR; recurred from 24 October's THREE)
+
+## 2026-11-10 — from rh_global_upper_fable_20261110 (ironclad H002972); proposed by Claude, the lead, and the Duck peers; status open; only Sean Brady changes a status
+
+- **A Courtroom II case before another window on this target (Claude Code).** Check the decoy D4 (failure statement and local-cost statement, with the Matomaki-Radziwill-Shao-Tao-Teravainen theorem read in the primary text) and redo the ceiling interval run with separate code. Confidence: high on D4's failure statement, moderate on its local-cost statement. A further Duck window on the paper's Q_A route is not recommended.
+- **If D4 holds: a stated limit in Section 17.3 of the RH paper (Claude Code).** The paid route cannot reach the target; a closing step must use the exact integers. With FOUR's three-way test (Euler product, exact integers, cap; a decoy for any two).
+- **The dilation recurrence with cancellation (peer THREE, sharpened by FOUR).** P(x) = 1 - sum over odd m >= 3 of m^(ik) P(x/m). Any use must count the dilation coefficients to accuracy O(1), since D4 satisfies the same shape.
+- **The ceiling threshold (peer TWO).** It lies in [1.163, 1.23); whether it is the host value 1.2281 and has a closed form. One-condition positivity at the floor beyond support log 2. An independent check of Yoshida 1992, Section 6.
+- **The September proximity 0.3181 against 1/pi (open, unexplained by this run).**
+- **Beurling question (peer FOUR).** Whether a Beurling system exists with integer-count exponent 0 and prime exponent above 1/2.
+- **Primary reading owed (peers ONE, THREE, FOUR).** Pintz 1987 Theorem A, the Montgomery-Vaughan constant, Lee-Leong, and the paper cited as disputing the Davenport-Heilbronn decoy's zeros.
