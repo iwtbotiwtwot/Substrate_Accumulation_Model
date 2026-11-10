@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-11-10T14:06:06.556241+00:00",
+  "scope": "Post-window internal lead consistency review on retained operands. No new scientific window, external verification, CR2 classification, physical calibration or reusable-work claim.",
+  "input_sha256": {
+    "peers/FOUR/gen/STATIC_KERNEL_IDENTIFICATION.json": "6b26a66646cef479464b616e9071b26599a2e297196772959b27cd0697eb84f8",
+    "peers/FOUR/gen/RESPONSE_DISCOVERY.json": "a52504a6ccf21fc04c1825a3d7c4c4ee0e0eefc57382417d05aa132caf1b8b86",
+    "peers/ONE/gen/SPATIAL_FLAVOR_DISCOVERY.json": "cf25c8cdf6870c4b8aacf9013e8d5f51ee381cff1ae96191a53beb3302dc2272"
+  },
+  "checks": [
+    {
+      "name": "Full physical image Grams and static response design",
+      "status": "PASS",
+      "rows": 1503,
+      "density_gram_entries": 968,
+      "old_rank": 6,
+      "new_rank": 8,
+      "determinant": "-940584960000",
+      "calibration_norm_bound": "101/2"
+    },
+    {
+      "name": "Legal current-dark source pair and positive null response",
+      "status": "PASS",
+      "delta_V": "-13/135",
+      "overlap": "1/3",
+      "null_dimension": 4
+    },
+    {
+      "name": "Complete endpoint and calibration ledger",
+      "status": "PASS",
+      "margin": "11191/20250",
+      "net_work": "-538852/2025",
+      "calibrated_margin": "6502151/17718750"
+    },
+    {
+      "name": "Spatial weights, obstruction and instrument mean ledger",
+      "status": "PASS",
+      "weights": [
+        "11/45",
+        "2/9",
+        "8/15"
+      ],
+      "success_probability": "15/17",
+      "failure_weights": [
+        "1/5",
+        "0",
+        "4/5"
+      ],
+      "limitation": "Checks sector data and accounting, not an independently reconstructed full-flavor instrument."
+    },
+    {
+      "name": "Finite timing and conservative battery scalar budgets",
+      "status": "PASS",
+      "timing_allowance": "575056319167/3955078125000",
+      "battery_energy_bound": "69275061085557011987/18421052631310140000000",
+      "limitation": "No claim that collective hardware or a reusable restoration cycle has been supplied."
+    },
+    {
+      "name": "Thermal allowance consistency",
+      "status": "PASS",
+      "log_allowance": "0.104561282325170686025021291162161553680045094675474775740888",
+      "method": "80-digit numerical cross-check plus exact rational margin ladder; rigorous logarithmic bounds are in retained native certificates."
+    }
+  ]
+}

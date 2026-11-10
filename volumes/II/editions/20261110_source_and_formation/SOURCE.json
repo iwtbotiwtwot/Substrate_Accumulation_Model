@@ -1,0 +1,28 @@
+{
+  "edition": "SAM Volume II - Revised Source and Formation Edition",
+  "date": "2026-11-10",
+  "author": "Sean Brady",
+  "pages": 117,
+  "pdf": "pdf/SAM_Volume_II_Revised_Edition_20261110.pdf",
+  "pdf_sha256": "391450c512bfda11682e5a58b6f3f8d27856cdc4381cd962432ae9d3e521a5f3",
+  "baseline_pdf": "/home/lilhelper/SAM_Research_Overflow/Substrate_Accumulation_Model/volumes/II/pdf/SAM_Volume_II_20261105_authorship_draft.pdf",
+  "baseline_pdf_sha256": "bdb9ab125e186609945612033f621eeec50ce213be4792eccd00a7467710746c",
+  "main_chapters": 19,
+  "appendices": 2,
+  "expanded_chapters": [
+    11,
+    12,
+    16
+  ],
+  "context_and_layout_update_chapters": [
+    5
+  ],
+  "evidence_snapshot_count": 40,
+  "new_scientific_runs": 0,
+  "original_files_changed": 0,
+  "added_Codex_OpenAI_credit": false,
+  "build": "bash build.sh",
+  "verification": "qa/EDITION_CHECK.json",
+  "visual_review": "qa/VISUAL_REVIEW.json",
+  "portable_build": "qa/PORTABLE_BUILD.json"
+}

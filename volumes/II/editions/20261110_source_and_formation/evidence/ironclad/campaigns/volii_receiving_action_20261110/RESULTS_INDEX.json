@@ -1,0 +1,108 @@
+{
+  "created_utc": "2026-11-10T14:11:22.425543+00:00",
+  "status": "REVIEWED_CONDITIONAL_RESEARCH_RESULTS",
+  "physical_formation_established": false,
+  "new_cr2_classification": null,
+  "report": "RESEARCH_REPORT.md",
+  "report_sha256": "c2ee805e9fef988037e4df8bdd5d194b224ee46fd32eac2b3f50a3fc906acd54",
+  "results": [
+    {
+      "id": "R1",
+      "result": "Explicit harmonic action and dynamic alternatives; original incidence does not select their constitutive premises.",
+      "scope": "CONDITIONAL_ACTION_FAMILY",
+      "sources": [
+        "peers/ONE/REPORT.md",
+        "peers/FOUR/gen/ACTION_FAMILY_AND_ROBUSTNESS.md"
+      ],
+      "source_sha256": {
+        "peers/ONE/REPORT.md": "2ad999cc1a15d647b001f554500c58f2e51b5b82350296b4b865cece03b08e47",
+        "peers/FOUR/gen/ACTION_FAMILY_AND_ROBUSTNESS.md": "88153b723692d5257312b5564039995b1f7ce915b6df47307e306a425d8a3c06"
+      }
+    },
+    {
+      "id": "R2",
+      "result": "Finite-time full-Fock field loading, complete signed work and positive rational-time/control allowance.",
+      "scope": "CONDITIONAL_CONTROL_THEOREM",
+      "sources": [
+        "peers/THREE/REPORT.md",
+        "peers/THREE/gen/FORMATION_WORK_DERIVATION.md",
+        "peers/FOUR/gen/HALF_FORCE_AND_IDENTIFIABILITY_WORKING.md"
+      ],
+      "source_sha256": {
+        "peers/THREE/REPORT.md": "389ecfd527b0d221eb1fb2203140778c0df63232137c3b496f754c1fb7ac80dc",
+        "peers/THREE/gen/FORMATION_WORK_DERIVATION.md": "043af1b8d1a4887e2d3048642138b8ba837cacb197b7eed9289d3403127059e5",
+        "peers/FOUR/gen/HALF_FORCE_AND_IDENTIFIABILITY_WORKING.md": "efe981f67c6f6abfbc936bb86b45f14940ca7ccecc48a20c2e79b923703cbf6a"
+      }
+    },
+    {
+      "id": "R3",
+      "result": "Legal current-dark pair; actual source11 rank8 static response design and rank4 constant-flavor probe design.",
+      "scope": "EXACT_SOURCE_RESPONSE_CONSTRUCTIONS",
+      "sources": [
+        "peers/ONE/gen/PROBE_FAMILY_DISCOVERY.json",
+        "peers/FOUR/gen/STATIC_KERNEL_IDENTIFICATION.json",
+        "peers/FOUR/gen/FLAVOR_VERTEX_PROBES.json"
+      ],
+      "source_sha256": {
+        "peers/ONE/gen/PROBE_FAMILY_DISCOVERY.json": "6876c870627db1030eddb3f363f3b79639b4ded96b7cbca0bbccb2ab855fac9d",
+        "peers/FOUR/gen/STATIC_KERNEL_IDENTIFICATION.json": "6b26a66646cef479464b616e9071b26599a2e297196772959b27cd0697eb84f8",
+        "peers/FOUR/gen/FLAVOR_VERTEX_PROBES.json": "be9acad4729d08659394811e18229216bd9d1a066895775bec5f7d947ca91569"
+      }
+    },
+    {
+      "id": "R4",
+      "result": "Changed separated-source flavor obstruction and coherent15/17 instrument with retained failure and ideal mean work.",
+      "scope": "DECLARED_CHANGED_SOURCE_ANALYTICAL_REPAIR",
+      "sources": [
+        "peers/ONE/gen/SPATIAL_FLAVOR_OBSTRUCTION_WORKING.md",
+        "peers/ONE/gen/SPATIAL_INSTRUMENT_REPAIR_WORKING.md"
+      ],
+      "source_sha256": {
+        "peers/ONE/gen/SPATIAL_FLAVOR_OBSTRUCTION_WORKING.md": "c47589c9ed7e605f781fd2e99cf4c339719b6e1b0471e8829cd9d4b65530cc41",
+        "peers/ONE/gen/SPATIAL_INSTRUMENT_REPAIR_WORKING.md": "6f68b4376d0bf4b51dfcebdf5b40c72faae3eea8947881c217400f5fe67510ab"
+      }
+    },
+    {
+      "id": "R5",
+      "result": "Full-Fock thermal bound and conditional finite spectral receiving law with complement/control allowance128/10125.",
+      "scope": "CONDITIONAL_THERMAL_AND_ENGINEERED_RESERVOIR",
+      "sources": [
+        "peers/TWO/REPORT.md",
+        "peers/TWO/gen/THERMAL_FORMATION_WORKING.md"
+      ],
+      "source_sha256": {
+        "peers/TWO/REPORT.md": "b8cf48ca3827482993d506c94ca2203e2c7743dd26e67d87664a3fbed35dd548",
+        "peers/TWO/gen/THERMAL_FORMATION_WORKING.md": "cc65b21a3a45c5555f212963afe1209bec0a59ac0ca791b5b042584d10cb6269"
+      }
+    },
+    {
+      "id": "R6",
+      "result": "Source-clean apparatus obstruction; finite battery/clock repairs with one-shot ledger, huge capital and open restoration cost.",
+      "scope": "CONDITIONAL_COLLECTIVE_CONTROLLER_NOT_REUSABLE_CYCLE",
+      "sources": [
+        "peers/THREE/REPORT.md",
+        "peers/FOUR/gen/FINITE_BATTERY_WORKING.md",
+        "peers/ONE/gen/FINITE_WORK_BATTERY_WORKING.md"
+      ],
+      "source_sha256": {
+        "peers/THREE/REPORT.md": "389ecfd527b0d221eb1fb2203140778c0df63232137c3b496f754c1fb7ac80dc",
+        "peers/FOUR/gen/FINITE_BATTERY_WORKING.md": "ba7f7adeea256decfde318ffc322530f4b4c3f9713bd8821c737d8380d437be6",
+        "peers/ONE/gen/FINITE_WORK_BATTERY_WORKING.md": "dc43e598840879e74b52671efe078f9124ffca589a38654c247d51c5a966ccb0"
+      }
+    },
+    {
+      "id": "R7",
+      "result": "Nonzero target-subspace leakage after release; no breakup inference.",
+      "scope": "SOURCE_BOUND_SHORT_TIME_DYNAMICS",
+      "sources": [
+        "peers/FOUR/gen/TARGET_RELEASE_READBACK.json",
+        "peers/THREE/REPORT.md"
+      ],
+      "source_sha256": {
+        "peers/FOUR/gen/TARGET_RELEASE_READBACK.json": "c74b424cb481243b341f6f0fc6c590631c6623a93bac1c503b9591d637cfcae3",
+        "peers/THREE/REPORT.md": "389ecfd527b0d221eb1fb2203140778c0df63232137c3b496f754c1fb7ac80dc"
+      }
+    }
+  ],
+  "next": "Recommend focused independent CR2 on source-arrival instrument and controlled-loading energy/information interfaces, with source11 response design; no next case/window launched."
+}

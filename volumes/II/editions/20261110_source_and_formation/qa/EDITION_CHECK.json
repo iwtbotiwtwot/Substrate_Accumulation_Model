@@ -1,0 +1,180 @@
+{
+  "pages": 117,
+  "baseline_pages": 101,
+  "metadata": {
+    "format": "PDF 1.5",
+    "title": "SAM Volume II: Matter and Finite Closure - Revised Source and Formation Edition",
+    "author": "Sean Brady",
+    "subject": "",
+    "keywords": "",
+    "creator": "LaTeX with hyperref",
+    "producer": "xdvipdfmx (20220710)",
+    "creationDate": "D:20261110125656-06'00'",
+    "modDate": "",
+    "trapped": "",
+    "encryption": null
+  },
+  "baseline_files_checked": 39,
+  "changed_original_files": [],
+  "build_alerts": [],
+  "credit_counts": {
+    "Codex": {
+      "baseline": 0,
+      "revised": 0
+    },
+    "OpenAI": {
+      "baseline": 0,
+      "revised": 0
+    },
+    "ChatGPT": {
+      "baseline": 0,
+      "revised": 0
+    },
+    "Claude": {
+      "baseline": 0,
+      "revised": 0
+    }
+  },
+  "missing_references": [],
+  "missing_citations": [],
+  "duplicate_labels": [],
+  "out_of_page_text": [],
+  "empty_pages": [],
+  "bad_internal_links": [],
+  "evidence_files": 40,
+  "evidence_hash_mismatches": [],
+  "pdf_sha256": "391450c512bfda11682e5a58b6f3f8d27856cdc4381cd962432ae9d3e521a5f3",
+  "toc": [
+    [
+      1,
+      "Part I: Finite matter, typed sources and energy readouts",
+      4
+    ],
+    [
+      2,
+      "I Matter admission and finite closure",
+      5
+    ],
+    [
+      2,
+      "II Typed Particle Grammar and Finite Surfaces",
+      9
+    ],
+    [
+      2,
+      "III Mass Channels, Lift Operators, Higgs and Neutrino Packets",
+      14
+    ],
+    [
+      2,
+      "IV The Nuclear Ledger: Constituents, Channels, and Isotope Structure",
+      19
+    ],
+    [
+      2,
+      "V Binding: exact structure, historical fits and the retained held test",
+      23
+    ],
+    [
+      1,
+      "Part II: Spin: exact sources, memory and physical response",
+      30
+    ],
+    [
+      2,
+      "VI Exact spin sources and finite thermal structure",
+      31
+    ],
+    [
+      2,
+      "VII Microscopic Spin Sources and the Memory of an Accepted History",
+      35
+    ],
+    [
+      2,
+      "VIII Composition, thermal cancellation and intrinsic spin memory",
+      40
+    ],
+    [
+      2,
+      "IX The Physical Spin Source and Its Complete Response Receiver",
+      47
+    ],
+    [
+      2,
+      "X Spin across substrate clocks, matter and exact computation",
+      54
+    ],
+    [
+      1,
+      "Part III: Nuclear, atomic and molecular construction",
+      57
+    ],
+    [
+      2,
+      "XI Occupied Nuclear Sources, Conditional Interactions and Formation",
+      58
+    ],
+    [
+      2,
+      "XII Retained Nuclear State and the Successive-Contact Process",
+      66
+    ],
+    [
+      2,
+      "XIII Elements, isotopes and composite matter",
+      73
+    ],
+    [
+      2,
+      "XIV Occupied Atoms from the Complete Nuclear Source",
+      76
+    ],
+    [
+      2,
+      "XV Common Action, Moving Atoms and Fully Paid Molecular Binding",
+      80
+    ],
+    [
+      2,
+      "XVI One source, one energy convention: isotope tests and the physical map",
+      84
+    ],
+    [
+      2,
+      "XVII Carrier return and matter reception",
+      89
+    ],
+    [
+      2,
+      "XVIII Matter, directional history and the quantum receiver",
+      94
+    ],
+    [
+      2,
+      "XIX The finite handoff to computation",
+      99
+    ],
+    [
+      1,
+      "Appendices: Formation resources and evidence",
+      102
+    ],
+    [
+      2,
+      "A Conditional reservoirs, clocks and thermal formation",
+      103
+    ],
+    [
+      2,
+      "B Evidence and scope of the November revision",
+      106
+    ],
+    [
+      2,
+      "Source register",
+      108
+    ]
+  ],
+  "pass": true
+}

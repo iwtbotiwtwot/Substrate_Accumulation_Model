@@ -1,0 +1,208 @@
+\bookchapter{Typed Particle Grammar and Finite Surfaces}
+\label{v2c2:chapter}
+
+\subsection{What a particle row contains}
+
+The transition from a finite closure to a particle catalog requires more than a list of integers. A partition value supplies an address component; it does not by itself say whether the addressed object is a single write, a composite, a carrier, a hidden support packet, or a rejected closure. The grammar developed here gives those distinctions an explicit place. Its central object is a typed row whose identity includes the source table, the row schema, the address and the operator that acts on that address. A conventional particle name, when available, is attached later. This ordering makes the finite construction recoverable even where a familiar name is absent.
+
+A useful abstract record is
+\begin{equation}
+\begin{split}
+r={}&(\mathsf{source},\mathsf{schema},\mathsf{id},\mathsf{class},\mathsf{address},\\
+ &\mathsf{bin},\mathsf{status},\mathsf{operator},\mathsf{outputs}).
+\end{split}
+\label{v2c2:row}
+\end{equation}
+The address can contain a partition tuple, sign or charge coordinate, radix depth, route combination and surface fields. Not every schema uses every field. In particular, a sign field attached to a debit operator cannot automatically be substituted for an electric charge or for a matter--antimatter status. The output record should likewise keep native value, source support, debit, admission and external comparison distinct. This is an editorial expression of the source's typing requirements, not a claim that one universal row format already implements all physical sectors.
+
+The adopted structural inputs remain $D=3$, $\alpha_H=2$, $R=12$ and $S=8$. They enter exact conditional formulas below. The formulas are exact within their declared domains; the choice of domain and the physical interpretation of the outputs are additional statements. Thus the manuscript can preserve a successful algebraic compression without presenting it as an independently demonstrated ontology of all particles.
+
+The principal sources for this chapter are SAMA-D000026, \emph{Typed Matter Surfaces and Row Grammar}, and SAMA-D000027, \emph{Finite Particle Grammar and 321-Row Census}, as assembled in the unapproved review rendering; the current integrated manuscript supplies the surrounding authority map.\footnote{Source custody: SAMA, frozen commit \texttt{4c2b5dc1649da5900c90b90d0ce56c223dbb7717}, \texttt{vol\_ii/complete-volume.md}, sections 4 and 17.3--17.4; source-rich review, focused documents SAMA-D000026 and SAMA-D000027. The technical spine at SAM\_Research\_Project commit \texttt{81ba5a1f39b244235fdfb80e197abd2bd2a00e96}, sections I.4 and II.1--II.4, supplies a reconciled summary. The review rendering is an unapproved source assembly, not an approval receipt.} \cite{viisama,viispine,viireview} The distinctions in this chapter are necessary for reading the mass formulas in Chapter~\ref{v2c3:chapter} and the nuclear constructions that follow.
+
+\subsection{A family of finite surfaces}
+
+There is no single unqualified ``number of SAM particles'' that can replace all source counts. The compact mass closure contains 35 rows. Its purpose is to recover the compact prediction chain. The full finite catalog contains 321 rows and includes candidates, bound objects, carriers, hidden support and rejected closures. The normalized-lift table contains 139 rows, of which 138 have a defined quotient. The matter inventory contains 126 rows, divided into 63 stable single writes and 63 bound composites. The tensor-compatible stable surface contains 80 rows. The periodic construction contains 126 element-family rows. Finally, the N100 computation basis contains 100 typed rows after its declared pruning. These surfaces answer different questions.
+
+For a source catalog $\mathcal C$ and a source-defined predicate $P$, one may write
+\begin{equation}
+\mathcal S_P=\{r\in\mathcal C:P(r)=1\}.
+\label{v2c2:surface}
+\end{equation}
+Other relations between source universes and surfaces are projections rather than simple subset selections. In either case, the predicate or projection is part of the definition. Equality of cardinalities does not imply equality of members, and equality of members would not, without a schema map, imply equality of interpretation. Two separate surfaces can each have 126 rows while one organizes admitted writes and the other organizes element families.
+
+This distinction resolves an otherwise tempting confusion with the retained capacity $M=126$. The arithmetic $M=7R^2/8$ is a structural capacity statement. A 126-row inventory is a census under a particular gate. A 126-row periodic table is a family-indexed construction. The recurring integer may motivate a proposed structural relation, but the relation has to be supplied rather than inferred from the repeated numeral. The same applies to the 80-row surface and the 81-place full face: one cannot turn an operator into an extra particle merely to make the totals coincide.
+
+The 139-row lift table provides a particularly useful example. Its source construction comprises 126 promoted rows plus 13 carrier-tensor rows. It is neither a new census of 139 material particles nor an inconsistent version of the 126-row inventory. Its question is which normalized lift operator applies to each supplied row. One row has both zero source and zero debit, so the table contains an endpoint that cannot be evaluated as a quotient. Retaining that row is necessary to preserve the schema; excluding it from quotient arithmetic is necessary to preserve mathematics.
+
+The older CR119 reveal records 321 particle-catalog rows, 126 matter rows, 126 periodic rows and 573 identity-assignment rows. Those numbers already belonged to separate schemas. CR252 subsequently establishes the current 321-row reconstruction baseline; it does not erase the older reveal or allow its counts to be recombined into a new physical census. A later computation basis likewise selects a representation for computation without rewriting the source catalog from which it was selected.
+
+\subsection{The current 321-row reconstruction}
+
+CR252 records a deterministic catalog refresh. Its seven bins have the exact distribution
+\begin{equation}
+\begin{split}
+321={}&63+25+42+169+6+8+8,\\
+={}&\text{stable}+\text{resonance}+\text{antimatter}\\
+ &+\text{bound}+\text{carrier}+\text{hidden}+\text{rejected}.
+\end{split}
+\label{v2c2:census}
+\end{equation}
+The words in the second expression stand for the corresponding counts in the first. In full, there are 63 stable-matter rows, 25 unstable-resonance rows, 42 antimatter-conjugate rows, 169 bound-composite rows, six carrier-only rows, eight hidden-source-support rows and eight rejected-fake-closure rows. These are the catalog's organizational bins, not seven lists of experimentally identified species.
+
+The inspected CR252 summary reports 321 baseline rows, 321 regenerated rows, stable candidate identifiers, complete classification and 321 unchanged rows present in both versions. Baseline, regenerated output and the second-run wrong-control receipt share the SHA-256 recorded in the source manifest. The reconstruction retains six carriers with zero promotions. It also records 286 rows satisfying its broader matter-allowed predicate. That field is not a sum to be guessed from the English bin labels: it is a separately evaluated predicate in the 321-row schema. Its value cannot replace either the 126-row inventory or the 80-row promoter.
+
+The available runner makes the meaning of this result concrete. It snapshots the existing QP093A catalog, invokes the QP093A generator, and compares the regenerated output with the baseline. This is evidence of deterministic reconstruction of an existing artifact. It is not a second, independent discovery of the catalog or an empirical observation of all its members. The present manuscript uses the inspected receipts without claiming a new execution of the generator.\footnote{CR:CR252@09a, \path{CR252_summary.json} and \texttt{CR252\_runner.py}, under SAMA's frozen \path{courtroom/09a_PARTICLE_MASS_CHAIN}. The summary preserves the amendment to V-3/F2, the original sealed failure, and the amended PASS.}
+
+\cite{viicr252} The amendment is part of the result. The original V-3/F2 specification produced a failure; a precommit amendment corrected the criterion, while preserving that original failure in the audit trail. A readable account therefore says that the amended reconstruction passes, rather than silently presenting the final PASS as the only event. The amended test's useful content is the unchanged artifact and its correctly typed comparison. The history of a specification correction does not weaken a valid identity check, but neither should an identity check erase its own provenance.
+
+One analytical wrong control changes $R$. A triadic $(2,8,8)$ value changes from 4752 at $R=12$ to 3960 at $R=10$, a difference of 792. A pair $(3,6)$ changes from 225 to 189, a difference of 36. These checks show that the adopted radix is load-bearing in those formulas. They do not establish that no other model can reproduce selected observations. Wrong controls test specified alternatives; their force is proportional to their declared scope.
+
+\subsection{Generation, admission and reveal}
+
+The operational sequence is
+\begin{equation}
+\begin{split}
+\text{typed address}&\longrightarrow\text{native generator}\\
+&\longrightarrow\text{stability classification}\\
+&\longrightarrow\text{matter admission}\\
+&\longrightarrow\text{label or comparator reveal}.
+\end{split}
+\label{v2c2:pipeline}
+\end{equation}
+The stages cannot be compressed into the assertion that a generated number is an observed particle. A generator can evaluate a rejected closure. A stable candidate can remain unnamed. An admitted source can possess a nonzero structural value without that value being a measured rest mass. A known label attached downstream does not become a permissible input to an earlier target-barred construction.
+
+This ordering also explains why rejected objects belong in the evidence record. If every row that matched a native formula were automatically admitted, the formula would have no independent stability content. The three-body extension below supplies a direct counterexample: thirteen rejected source rows match the same generator as stable candidates. They preserve the distinction between structural evaluation and the later gate. Removing them from the presentation would make the successful generator appear stronger than it is.
+
+The identity should remain reversible before an authorized conventional name is attached. A SAM placeholder can identify the source row without implying that an experimental identification exists. When a source does authorize contact with a conventional name, that contact is retained with its provenance. Neither inventing familiar names nor refusing all familiar names serves the construction; the appropriate practice is to carry the exact naming authority with the row.
+
+\subsection{Two-body bound-color grammar}
+
+For a source-classified bound-color pair with partition $(a,b)$, the detailed CR128 law is
+\begin{equation}
+M_2(a,b)=Rab+D|a-b|.
+\label{v2c2:pair}
+\end{equation}
+Both terms are symmetric under exchange. Hence $M_2(a,b)=M_2(b,a)$, even where the catalog retains two orderings because a later signed debit distinguishes them. The generator's exchange symmetry is not permission to merge all downstream fields.
+
+For $(a,b)=(1,2)$, the product contribution is $12\cdot1\cdot2=24$ and the difference contribution is $3|1-2|=3$, giving $M_2=27$. For $(3,3)$, the difference vanishes and $M_2=108$. For $(3,6)$, $M_2=216+9=225$, agreeing with the CR252 radix control. These examples preserve the scale factors rather than only the shape of the formula.
+
+A source reconciliation is important here. The integrated overview abbreviates the two-body shape as product plus absolute difference, displaying $ab+|a-b|$. The focused CR128 account explicitly locks equation~\eqref{v2c2:pair}, gives its weighted examples and reports its match counts. This chapter uses that detailed numerical law; the unweighted overview is not treated as an equivalent implementation.\footnote{SAMA-D000027, section 6.1, CR:CR128@13. The source-rich review gives $Rab+D|a-b|$, 36/36 matches, and the worked values 27 and 108. The same weighted formula reproduces CR252's independent recorded analytical-control values. This is a reconciliation of the available texts, not a newly executed CR128 replication.}
+
+The recorded scope is 36 rows: 30 asymmetric and six symmetric pairs, with no parse or partition-algebra violations. The formula was recovered from this catalog, so 36/36 is an in-sample consistency result. The sealed future-row rule fixes a possible falsifier for a newly eligible pair. That seal specifies how a later case could test the law; it does not retroactively make the discovery sample blind. CR128 also leaves the asymmetric doublet's debit and the symmetric pair's observed-mass offset to separate operators. The native pair law has a definite accomplishment and a definite domain.
+
+\subsection{Three-body symmetry and its extension}
+
+For an OCTET-composite triple, CR129 records
+\begin{equation}
+M_3(a,b,c)=RD(a^2+b^2+c^2)=36(a^2+b^2+c^2).
+\label{v2c2:triple}
+\end{equation}
+Each coordinate enters through its square. Consequently every permutation of a triple gives the same native value. The worked triple $(1,2,3)$ has squared sum $14$ and native value $504$. The source reports 76/76 three-body OCTET matches, while routing 28 two-body OCTET rows through their distinct two-body law, with 28/28 matches in that route.
+
+CR129c extends the same three-body generator to 44 ground-baryon rows: fourteen closed stable candidates, seventeen closed heavy candidates and thirteen rejected fake closures. All 44 match. Together with the OCTET set, this gives 120 reported three-body matches. This number is a scoped test total across these classes, not another replacement census for the 321-row catalog. In particular, the thirteen rejected rows in the extension and the eight rows in the full catalog's rejected bin are counts from different reported class/status selections and must not be silently equated.
+
+The symmetric structure has a transparent algebraic rewrite. Put
+\begin{equation}
+\begin{aligned}
+ s_1&=a+b+c,\\
+ \Delta^2&=(a-b)^2+(b-c)^2+(a-c)^2.
+\end{aligned}
+\end{equation}
+Expansion gives
+\begin{equation}
+\begin{split}
+s_1^2&=a^2+b^2+c^2+2(ab+bc+ac),\\
+\Delta^2&=2(a^2+b^2+c^2)-2(ab+bc+ac).
+\end{split}
+\end{equation}
+The mixed terms cancel, so $s_1^2+\Delta^2=3(a^2+b^2+c^2)$. Because the adopted $D$ is three,
+\begin{equation}
+M_3=R(s_1^2+\Delta^2).
+\label{v2c2:triplebridge}
+\end{equation}
+This identity is directly checkable mathematics. Its use as a native generator remains conditional on the source's class assignment.
+
+The identity does not collapse the two-body and three-body laws. Applying the same-looking sum-and-difference expression to $(1,2)$ gives $12(9+1)=120$, whereas the actual pair law gives 27. The arity is therefore part of the operator. CR130 also records a four-body conjecture, $M_4=4R\sum_i a_i^2=48\sum_i a_i^2$, for a future comparable row. There are no scoped four-body source rows in that record. The conjecture remains a forward-blind, no-in-sample-data boundary rather than a tested addition to the present census.\footnote{SAMA-D000027, sections 6.2 and 6.4; CR:CR129@13, CR:CR129c@13 and CR:CR130@13.}
+
+\subsection{The three-body debit and its failed precursors}
+
+The three-body native value is not its surface debit. CR129b retains a sequence of failed proposals that locates the eventual operator. Summing pairwise two-body debits gave the wrong sign and discrepancies by factors of roughly seven to fifteen. Applying a global $M/8$ surcharge gave the wrong scale. A global $(9/8)M/R^3$ surcharge overshot uniformly by $18/17$. A charge-slot correction then exposed a residual linear in the absolute charge coordinate. The successful neutral construction applies the $9/8$ weighting only to the middle slot of a $1{:}2{:}1$ decomposition.
+
+The neutral slot sum is exact:
+\begin{equation}
+\frac14+\frac98\frac12+\frac14
+=\frac4{16}+\frac9{16}+\frac4{16}
+=\frac{17}{16}.
+\end{equation}
+Thus its debit is
+\begin{equation}
+S_{\rm debit}=\frac{17}{16}\frac{M_{\rm native}}{R^3}.
+\end{equation}
+For the triple with $M_{\rm native}=504$, this yields $119/384$. The coefficient can also be written $(R+D+\alpha_H)/\alpha_H^4$ for the adopted constants. This alternate expression is an exact identity at those inputs; it should not be mistaken for an independent measurement of the coefficient.
+
+The source's unified magnitude law is
+\begin{equation}
+\begin{aligned}
+|S_{3\rm body}|&=M_{\rm native}\frac{4q_{\rm eff}+D}{4R^4},\\
+q_{\rm eff}&=\begin{cases}R,&q_{\rm abs}=0,\\q_{\rm abs},&q_{\rm abs}>0.\end{cases}
+\end{aligned}
+\label{v2c2:debit}
+\end{equation}
+For the neutral branch, $(4R+D)/(4R)=51/48=17/16$, recovering the previous expression. The recorded row-sign rule assigns positive sign to positive or neutral source signs and negative sign to negative source signs. Magnitude and sign each match 76/76 source rows. The source nevertheless leaves a first-principles derivation of the nonzero-charge sign rule open. Matching a stored sign field and deriving its physical necessity are different accomplishments.
+
+The failed global surcharge is especially informative. Its error is not repaired by arbitrary rounding; the uniform factor identifies a misplaced operator. The neutral decomposition says where the extra weighting acts. Preserving this short deviation chain makes the final expression intelligible and keeps the native generator, slot weighting and signed debit in separate roles.
+
+\subsection{One-body ladders, carriers and hidden support}
+
+CR131 assigns the V4\_1 single-write family to a fermion-half-write class. Its 90-row law is
+\begin{equation}
+M_{\rm native}=q_{\rm abs}R^d K(q_{\rm sign},\mathsf{status}).
+\end{equation}
+For matter, $K_+=5/4$ and $K_-=3/2$. For antimatter the coefficients swap across sign: $\bar K_+=3/2$ and $\bar K_-=5/4$. At unit absolute charge, positive matter has the depth sequence $5/4,15,180$ at $d=0,1,2$; negative matter has $3/2,18,216$. Each step multiplies the bare ladder by twelve. An initial sign-only coefficient rule failed on the 42 antimatter rows. Including the status-dependent swap gives the recorded 90/90 closure, comprising 48 matter and 42 antimatter rows. These are generator-class counts, not the later 80-row promoted surface.
+
+CR133 retains the ladder structure for the outer-binary neutral class but changes the coefficient:
+\begin{equation}
+M_{\rm native}=\frac{p}{8}R^d=pR^d2^{-D}.
+\end{equation}
+Eight admitted partition values across three depths produce 24 scoped rows. At $p=3$ the values are $3/8,9/2,54$. All 24 match in the recorded test and have zero surface debit. The charged and neutral tests together cover 114 one-body fermion-half-write rows, with coefficient families $5/4$, $3/2$ and $1/8$. The later compact matter-source laws in Chapter~\ref{v2c3:chapter} add a different channel and must not be substituted into this bare native ladder.
+
+CR132 separates six carrier classes from that fermion construction. Four occupy authorized lattice values $\alpha_H^iD^j$: tensor carrier $2\cdot3^2=18$, weak-vector carrier $3^2=9$, neutral-vector carrier $3^4=81$, and color-owner carrier $2^3=8$. The road-light and A-field carriers are massless entries with native value zero. All six carry zero debit in this carrier-generator record. A proposed $9/8$ surcharge fails at the color-owner row; the retained coefficient is one. The result does not authorize the invention of new carriers at unused lattice addresses. Nor does a zero-debit carrier record fix the normalization of a differently defined lift-table support channel merely because the same carrier language appears in both.
+
+Finally, CR134 supplies eight hidden support packets:
+\begin{equation}
+M_{\rm native}(p)=p+\frac{p^2}{R^2}.
+\end{equation}
+For nonzero admitted $p$, the normalized residual is exactly
+\begin{equation}
+\frac{M_{\rm native}-p}{p^2}=\frac1{144}.
+\end{equation}
+The endpoints $p=1$ and $p=12$ give $145/144$ and 13. Despite their nonzero native values, these rows have zero debit and $q_A=0$ and are explicitly hidden support, not matter. The law was obtained by inspecting these same eight rows. Its 8/8 consistency and forward-blind seal are preserved without promoting the outstanding held-out or first-principles retest into a completed result.\footnote{SAMA-D000027, sections 6.5--6.9; CR:CR131@13 through CR:CR134@13. The source roster reports exact matches in the current catalog and distinguishes its future falsifier seals from completed out-of-sample tests.}
+
+\subsection{How to compare rows without losing the grammar}
+
+Three elementary comparisons summarize the practical use of the grammar. First, compare two differently ordered bound pairs. Their native values agree because both the product and the absolute difference are exchange-symmetric. Their unequal-pair lift can change sign because that operator uses $\operatorname{sgn}(a-b)$. Thus equality in the native column is compatible with inequality in the signed-debit column. The combination is not an inconsistency: it records two different questions about the same ordered address. An implementation that deduplicated rows solely by native value would destroy the information needed for the second question.
+
+Second, compare a stable candidate and a rejected three-body closure. Both can satisfy $M_3=36\sum a_i^2$ exactly. Their difference lies in the later stability and admission fields. A generator-only export would make those rows look equally admissible, while an admission-only export would conceal the useful fact that the formula crosses the stability boundary. The complete record needs both. This is why retaining rejections is scientifically productive rather than merely archival: it identifies precisely which operation has, and which operation lacks, discriminatory power.
+
+Third, compare a hidden support packet with an admitted charged matter row. Both can contain the factor $p(1+p/144)$. In the hidden packet this is a native structural value and the matter source remains zero. In the compact charged row the factor appears inside an admitted $q_A$ law with a sign-dependent coefficient and a depth multiplier. An algebra system may legitimately factor the same polynomial in both expressions; a physical interpretation may not replace one row type with the other. Symbolic identity of a factor is a relation between formulas, not an admission rule.
+
+These examples suggest a minimal comparison contract. A comparison specifies the source versions, the row identifiers or reversible address maps, the columns being compared, the units or native conventions, and the operator domains. An equality claim then says whether it concerns exact rational values, serialized bytes, class membership or agreement with an external comparator. Those four senses of agreement are useful but distinct. CR252's bit identity is stronger than approximate numerical agreement about its serialized artifact, yet it says nothing by itself about how closely every artifact field describes nature. Conversely, an experimental comparison need not be bit-identical to a structural table to be informative.
+
+The same discipline clarifies the term ``zero free parameters.'' Once an in-sample formula has been selected and frozen, it can have no adjustable coefficients when evaluated on that table. That fact does not erase the earlier opportunity to choose the formula after seeing the table. A forward-blind seal constrains future use, but only a subsequently eligible case can supply the future test. The manuscript therefore preserves the exact formulas, their finite match counts and the chronology of selection together. This offers a more useful account than either dismissing all finite exactness or presenting every exact match as a first-principles prediction.
+
+The catalog consequently serves two roles at once. It is a finite mathematical object whose arithmetic and reconstruction can be examined precisely, and it is a structured proposal for contact with physical matter. The first role supplies reproducibility and explicit falsifiers. The second requires the authorized reveal, stability interpretation and empirical comparison appropriate to each row. Keeping those roles visible lets the following mass chapter use the grammar without borrowing evidentiary strength from a different kind of success.
+
+\subsection{The 80-row promoter and the finite export}
+
+CR253 selects a tensor-compatible stable surface using the sufficient predicate: membership in the stable-matter or antimatter-conjugate bins, together with $h_T\in\{0,1\}$. The resulting decomposition is
+\begin{equation}
+\begin{split}
+80&=48\ \text{matter}+32\ \text{antimatter}\\
+&=64\ \text{charged}+16\ \text{neutral}.
+\end{split}
+\end{equation}
+The preregistered bigrade and $I_T=0$ conditions are redundant after those filters. Consequently the source retains a BOUNDARY verdict: two binary wrong controls had been subsumed upstream. Exact membership and that control boundary can both be true. The latter should not be removed merely because the count matches the intended eighty.
+
+CR280 clarifies the semantic type as a tensor-compatible stable matter surface whose rows are structurally stable, not automatically experimentally identified particles. This gives the compact laws a precise domain. It also prevents the non-row A-conjugation operator from being counted as an eighty-first particle. The relation to a full F81 face is a separate geometric question, taken up in the carrier-return chapter. Neither the cardinality nor the existence of a conjugation transform supplies an elementwise face map.
+
+The finite export contains a recoverable catalog, purpose-indexed surfaces, class-specific native operators, explicit admission and reveal stages, exact finite matches and preserved controls. Volume III receives these objects with their row identity, predicates, units, null endpoints and source provenance intact.

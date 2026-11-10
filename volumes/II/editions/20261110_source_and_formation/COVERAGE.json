@@ -1,0 +1,136 @@
+{
+  "citations": {
+    "NOV_A1": {
+      "title": "Light sources: complete operators, preparations and relaxed He3",
+      "owning_path": "ironclad/campaigns/volii_a1_light_sources_20261108/RESEARCH_REPORT.md"
+    },
+    "NOV_HE3_CASE": {
+      "title": "Relaxed He3: complete normalized field payment",
+      "owning_path": "ironclad/campaigns/he3_relaxed_field_cr2_20261108/REPORT.md"
+    },
+    "NOV_HE3_VERIFY": {
+      "title": "Independent verification of the shared complete-payment statement",
+      "owning_path": "ironclad/campaigns/he3_relaxed_field_verification_20261108/REPORT.md"
+    },
+    "NOV_CONSTRUCTOR": {
+      "title": "Isotope constructor: source composition and exact complements",
+      "owning_path": "ironclad/campaigns/volii_isotope_constructor_20261108/RESEARCH_REPORT.md"
+    },
+    "NOV_FREE": {
+      "title": "Full free reference and retained-template preparation: verified case",
+      "owning_path": "Courtroom_II/campaigns/isotope_constructor_checks_20261108/01_free_reference/REPORT.md"
+    },
+    "NOV_COV": {
+      "title": "Shared-field covariance and actual signed source payment: verified case",
+      "owning_path": "Courtroom_II/campaigns/isotope_constructor_checks_20261108/02_shared_field_covariance/REPORT.md"
+    },
+    "NOV_BRIDGE": {
+      "title": "Actual Li6 bridge/action, coherent events and microscopic baselines",
+      "owning_path": "ironclad/campaigns/volii_li6_bridge_action_20261108/RESEARCH_REPORT.md"
+    },
+    "NOV_COMMON_RECEIVER": {
+      "title": "Actual He4 K4 plus H2: common fermionic receiver and complete currents",
+      "owning_path": "ironclad/campaigns/he4_k4_free_receiver_20261108/RESEARCH_REPORT.md"
+    },
+    "NOV_JOINT": {
+      "title": "Joint receiver and complete field continuation",
+      "owning_path": "ironclad/campaigns/volii_joint_receiver_field_20261110_w1/RESEARCH_REPORT.md"
+    },
+    "NOV_RELAX": {
+      "title": "Physical-source relaxation and common spatial energy certificates",
+      "owning_path": "ironclad/campaigns/volii_physical_relaxation_20261110_w2/RESEARCH_REPORT.md"
+    },
+    "NOV_LI6_CASE": {
+      "title": "Source-connected scalar certificates: nine claims held",
+      "owning_path": "Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/REPORT.md"
+    },
+    "NOV_LI6_CHANNEL": {
+      "title": "Common Hamiltonian, full-Fock square and proper-channel lower",
+      "owning_path": "Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/CHANNEL/DERIVATION.md"
+    },
+    "NOV_LI6_TRANSFER": {
+      "title": "Finite actual-source transfer and parameter-box certificate",
+      "owning_path": "Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/TRANSFER/DERIVATION.md"
+    },
+    "NOV_LI6_SYMMETRY": {
+      "title": "Full flavor-preserving source map and unchanged-preparation certificate",
+      "owning_path": "Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/SYMMETRY/DERIVATION.md"
+    },
+    "NOV_RECEIVING": {
+      "title": "Receiving action and formation: completed investigation and review",
+      "owning_path": "ironclad/campaigns/volii_receiving_action_20261110/RESEARCH_REPORT.md"
+    },
+    "NOV_ARRIVAL": {
+      "title": "Spatial source instrument: flavor factorization and work",
+      "owning_path": "ironclad/campaigns/volii_receiving_action_20261110/peers/ONE/gen/SPATIAL_INSTRUMENT_REPAIR_WORKING.md"
+    },
+    "NOV_CONTROL": {
+      "title": "Flavor-preserving controls and source-response constructions",
+      "owning_path": "ironclad/campaigns/volii_receiving_action_20261110/peers/ONE/REPORT.md"
+    },
+    "NOV_LOADING": {
+      "title": "Finite-time loading, energy-form errors and collective clock",
+      "owning_path": "ironclad/campaigns/volii_receiving_action_20261110/peers/THREE/REPORT.md"
+    },
+    "NOV_RESPONSE": {
+      "title": "Receiving action and independent source-response tests",
+      "owning_path": "ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/REPORT.md"
+    },
+    "NOV_ACTION": {
+      "title": "Canonical action family and response-calibrated robustness",
+      "owning_path": "ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/gen/ACTION_FAMILY_AND_ROBUSTNESS.md"
+    },
+    "NOV_BATTERY": {
+      "title": "Finite coherent work reservoir: conditional global construction",
+      "owning_path": "ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/gen/FINITE_BATTERY_WORKING.md"
+    },
+    "NOV_THERMAL": {
+      "title": "Full-Fock thermal energy and conditional spectral formation",
+      "owning_path": "ironclad/campaigns/volii_receiving_action_20261110/peers/TWO/REPORT.md"
+    }
+  },
+  "chapter_map": {
+    "XI": [
+      "NOV_A1",
+      "NOV_HE3_CASE",
+      "NOV_HE3_VERIFY",
+      "NOV_FREE",
+      "NOV_COV",
+      "NOV_CONSTRUCTOR",
+      "NOV_BRIDGE",
+      "NOV_COMMON_RECEIVER",
+      "NOV_JOINT",
+      "NOV_RELAX",
+      "NOV_LI6_CASE",
+      "NOV_LI6_CHANNEL",
+      "NOV_LI6_TRANSFER",
+      "NOV_LI6_SYMMETRY"
+    ],
+    "XII": [
+      "NOV_RECEIVING",
+      "NOV_ARRIVAL",
+      "NOV_CONTROL",
+      "NOV_LOADING"
+    ],
+    "XVI": [
+      "NOV_RESPONSE",
+      "NOV_ACTION",
+      "NOV_CONSTRUCTOR"
+    ],
+    "Appendix A": [
+      "NOV_BATTERY",
+      "NOV_LOADING",
+      "NOV_THERMAL"
+    ],
+    "Appendix B": [
+      "NOV_HE3_VERIFY",
+      "NOV_FREE",
+      "NOV_COV",
+      "NOV_LI6_CASE",
+      "NOV_RECEIVING"
+    ],
+    "V": [
+      "Historical comparisons unchanged; link to November source/action/reference account; wide table reflowed"
+    ]
+  }
+}

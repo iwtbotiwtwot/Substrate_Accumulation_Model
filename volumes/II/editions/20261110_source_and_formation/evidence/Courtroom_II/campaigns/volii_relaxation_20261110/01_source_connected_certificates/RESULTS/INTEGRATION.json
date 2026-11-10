@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "time_utc": "2026-11-10T12:44:05.701095+00:00",
+  "all_claims": {
+    "C1": "HELD",
+    "C2": "HELD",
+    "C3": "HELD",
+    "C4": "HELD",
+    "C5": "HELD",
+    "C6": "HELD",
+    "C7": "HELD",
+    "C8": "HELD",
+    "C9": "HELD"
+  },
+  "dependency_resolution": {
+    "C6": "C3 shift79/10 verified with same Hamiltonian, zero, full Fock and all proper channels",
+    "C9": "C3 shift8 verified with same Hamiltonian, zero, full Fock and all proper channels"
+  },
+  "shared_G_and_raw_G00": "Exact Green equality; all raw Gram entries equal after the explicitly labelled canonical-to-original permutation",
+  "canonical_to_original_pair_permutation": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    6,
+    8,
+    10,
+    9,
+    11,
+    13,
+    14,
+    12,
+    16,
+    17,
+    15,
+    20,
+    19,
+    18,
+    23,
+    22,
+    21
+  ],
+  "main_C3_hypothesis_slack": "117/1360",
+  "box_C3_hypothesis_slack": "81077/1360000",
+  "unchanged_C3_hypothesis_slack": "805/44",
+  "finite_actual_source_allowance": "204347225017/989900828000",
+  "finite_parameter_box_allowance": "3784147145591/29697024840000",
+  "unchanged14336_allowance": "11191/20250",
+  "control_counts": {
+    "CHANNEL": 6,
+    "TRANSFER": 7,
+    "SYMMETRY": 6
+  },
+  "total_controls": 19,
+  "CHANNEL_counts": {
+    "checks": 100,
+    "determinants": 60712,
+    "proper_flavor_sectors": 34,
+    "proper_flavor_partitions": 91
+  },
+  "TRANSFER_checks": 39,
+  "scope": "EXACT conditional model theorems; finite-source selected input and unchanged14336 are distinct receivers; no empirical isotope or paid-autonomous claim",
+  "C2_notation": "Finite PTP and PTQTP factors use T_internal after the nonnegative T_cell is dropped for the lower; localized uppers retain the complete cell diagonal.",
+  "independence": "I1",
+  "reproducibility": "R2",
+  "external_review": false
+}

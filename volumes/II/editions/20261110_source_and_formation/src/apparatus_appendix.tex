@@ -1,0 +1,265 @@
+\bookappendix{Conditional reservoirs, clocks and thermal formation}
+\label{app:apparatus}
+
+The constructions in this appendix are retained analytical developments
+from the receiving-action investigation. They expose sufficient apparatus
+hypotheses and their numerical budgets. They have internal source-bound
+checks and have not undergone the separate CR2 reconstruction completed for
+the underlying Li6 energy certificate. Each construction keeps the full
+source, field and output records.\samref{NOV_RECEIVING}
+
+\subsection{A semibounded coherent work reservoir}
+
+The obstruction in Section~\ref{sec:apparatus-obstruction-new} concerns an
+exact reduced source isometry with one common apparatus output. A coherent
+reservoir instead permits a quantified approximation to the reduced map
+while preserving the complete joint source exactly.
+
+Use the positive spectral coordinate
+\begin{equation}
+\widehat H=H+g^2(928/105)\geq0.
+\end{equation}
+This shift is only for spectral estimates; no branch-dependent physical
+reference is changed. Let $F_i$ and $F_f$ be the bare and target embeddings
+of the full $U(4)$-invariant one-cell matter-vacuum space, of dimension
+906,192. Uniform encoded-image moment bounds give
+\begin{equation}
+\|\widehat HF_i\|\leq C_i,\qquad
+\|\widehat HF_f\|\leq C_f.
+\end{equation}
+At the held point the conservative choices $C_i=409$ and $C_f=382$ suffice.
+They bound these encoded images, not the unbounded Hamiltonian on its
+entire domain.\samref{NOV_BATTERY}\samref{NOV_LOADING}
+
+For $P_R=1_{[0,R]}(\widehat H)$ put $\delta_a=C_a/R$ and
+\begin{equation}
+S_a=F_a^*P_RF_a,\qquad
+F_{a,R}=P_RF_aS_a^{-1/2},\qquad a=i,f.
+\end{equation}
+Then $S_a\geq(1-\delta_a^2)I$. The positive polar normalization preserves
+the full representation because the starting space is $U(4)$ invariant
+and $P_R$ commutes with $U(4)$. Extend the partial intertwiner from
+$F_{i,R}$ to $F_{f,R}$ irrep by irrep, acting identically on flavor factors.
+An arbitrary completion on only the fixed-weight source600 would not
+establish this full symmetry property. Restricting the resulting single
+unitary to the actual600 source retains its raw metric and all Writes.
+
+Take a battery $L^2(\mathbb R_+)$ with energy multiplication operator and
+initial wavepacket
+\begin{equation}
+\psi_B(E)=\sqrt{\frac2W}
+\sin\frac{\pi(E-E_0)}W,\qquad E_0\leq E\leq E_0+W,
+\end{equation}
+zero elsewhere, with $E_0\geq R$. Its mean energy is $E_0+W/2$ and
+$\|\psi_B'\|=\pi/W$. On each allowed total-energy fiber, lift the system
+band unitary by the corresponding battery-energy translation; act
+identically on the remaining fiber. This gives a joint unitary conserving
+$H+H_B$ exactly. The positive-energy boundary introduces no error on the
+specified support.
+
+The derivative of the battery wavepacket bounds the effect of finite
+coherence width. Spectral moments bound the input and output tails. A
+conservative energy-form estimate retained for the clocked construction is
+\begin{equation}
+\begin{split}
+\delta E\leq{}&\frac{C_i^2+C_f^2}{R}
++\frac{C_f(3\delta_i^2+\delta_f^2)}{1-\delta_f^2}
++\frac{2\pi R^2}{W}.
+\end{split}
+\label{eq:battery-error-new}
+\end{equation}
+The high-energy input complement is retained, and cross-band energy forms
+vanish by spectral projection. Thus the estimate does not rely on a Fock
+occupation cutoff or a state-norm estimate for unbounded energy.
+
+At $R=10^8$ and $W=10^{20}$, \eqref{eq:battery-error-new} is less than
+$0.003761$. The initial battery mean is at least $10^8+5\times10^{19}$
+model-energy units. This is a large explicit energy/coherence resource.
+The final battery is allowed to retain source correlations; its restoration
+to a reusable initial state is not priced by the endpoint estimate.
+The distinction between initial resources for accurate reversible
+operations and their consumption is also central to the independent
+resource-theoretic literature.\samref{NOV_BATTERY_LIT}
+
+\subsection{A positive clock with an unfinished branch}
+
+Let $\mathcal V$ be the energy-conserving collective gate just constructed.
+An additional three-state clock has projections $P_0,P_1,P_d$ and
+\begin{align}
+H_C&=\Delta(P_0+P_1),\qquad \Delta>J>0,\\
+H_{\rm gate}&=J\bigl(|1\rangle\langle0|\otimes\mathcal V
++|0\rangle\langle1|\otimes\mathcal V^*\bigr).
+\end{align}
+The gauge
+$\mathcal G=P_0\otimes I+(P_1+P_d)\otimes\mathcal V$
+reduces the coupled problem to a source-independent clock with positive
+transition frequencies $\Delta\pm J$. Under the supplied zero-temperature
+spectral decay law with equal rates $\kappa$, its probabilities are
+\begin{equation}
+p_{\rm exc}=e^{-\kappa t},\qquad
+p_0=e^{-\kappa t}\cos^2(Jt).
+\end{equation}
+After tracing the clock and bath, and suppressing commuting free evolution,
+the state is
+\begin{equation}
+p_0\rho+(1-p_0)\mathcal V\rho\mathcal V^*.
+\end{equation}
+The unformed branch remains in the mixture. The interaction annihilates
+the absorbed state $d$, so the link switches itself off there; no
+postselection is used. The asymptotic clock radiation is $\Delta$.
+\samref{NOV_LOADING}
+
+For $\Delta=0.01$, $J=0.001$, $\kappa=10^{-5}$ and $t=14/\kappa$,
+the retained bound gives $p_{\rm exc}<10^{-6}$. Including the battery
+endpoint error, the unfinished branch and full clock-energy recharge leaves
+an object-plus-explicit-clock allowance greater than $0.53809$. The
+collective energy-resolved gate and the spectral decay law are added
+hardware hypotheses. They are not implied by the local scalar coupling or
+by the prescribed-control reachability result.
+
+This is a one-shot endpoint account. It does not pay restoration of battery
+coherence, source-dependent correlations or a reusable apparatus cycle.
+Its clock radiation has no assigned identity with electromagnetic nuclear
+capture radiation. Keeping these separate recipients makes the conditional
+construction available without introducing an extra energy gain.
+
+\subsection{A full-Fock thermal energy bound}
+\label{app:thermal-new}
+
+The thermal alternative captures all six particles in one cell by
+compensating intercell off-diagonal hopping while retaining $36t_c$.
+Internal matter hopping remains active. Its Hamiltonian is
+\begin{equation}
+H_c=T_{\rm internal}+36t_c+H_b+g\rho^TX.
+\end{equation}
+This is a captured-system Gibbs problem, not a partition function for
+unconfined translational motion. The complete orbital dimensions and
+target capacities are
+\begin{equation}
+d=(5544,2520,5376),\qquad k=(24,12,48)
+\end{equation}
+for sectors $(42,33,321)$. The source Schmidt-span bounds $(5,4,32)$ in
+Table~\ref{tab:flavor-new} serve a different purpose and cannot replace
+$d$ or $k$ in the entropy argument.\samref{NOV_THERMAL}
+
+Write $C_\lambda=g^2v_\lambda$, $D=36(\tau+t_c)$ and
+$U_\lambda=D-C_\lambda$. The eight-mode free-field partition function is
+\begin{equation}
+Z_b(a)=\prod_{w\in\{1,3,5,7\}}(1-e^{-aw})^{-m_w},
+\quad m=(1,3,3,1).
+\end{equation}
+Finite matter dimension, the positive field gap and Weyl completion give
+finite interacting partition functions. Relative entropy against the
+product of uniform orbital measure and free thermal field gives
+\begin{equation}
+S_\beta\leq\log d_\lambda+a(E_{\lambda,\beta}+C_\lambda)
++\log Z_b(a).
+\end{equation}
+The target orbital mixture tensored with a thermal field has energy
+$U_\lambda+E_{b,\beta}$ and entropy
+$\log k_\lambda+S_{b,\beta}$. Its hopping compression vanishes even with
+the full thermal field. The Gibbs variational inequality then yields, for
+$0<a<\beta$,
+\begin{equation}
+E_{\lambda,\beta}-U_\lambda
+\leq\frac{\log(d_\lambda/k_\lambda)+aD+
+\log[Z_b(a)/Z_b(\beta)]}{\beta-a}.
+\label{eq:thermal-bound-new}
+\end{equation}
+
+At the held point, $\beta=36$ and $a=\log(7/6)$ give conserved-weight
+average excess below $1/2$. The retained native interval calculation
+certifies the sufficient logarithmic inequality with positive allowance
+about $0.1045612823$. Hence the conditional Gibbs endpoint lies below the
+proper lower by at least $533/10125$.
+
+The coherent trial's separate field and vertex energies must not be
+assigned to the interacting Gibbs state. Those Gibbs expectations are
+parameter derivatives of $\log Z$ and remain uncomputed individually.
+Equation~\eqref{eq:thermal-bound-new} bounds the complete total without
+omitting them. For an alternative eight-mode receiver of gap at least one
+and the same static kernel, a separate bound works at $\beta=54$ using
+$a=\log(11/9)$ and $Z_b(a)\leq(1-e^{-a})^{-8}$. The benchmark's
+$\beta=36$ frequency multiplicities are not imported unchanged into the
+local spring model.
+
+\subsection{An engineered spectral relaxation law}
+
+Within each full orbital/Fock sector, an expressly supplied reset generator
+uses energy-basis jump operators
+\begin{equation}
+L_{mn}=\sqrt{\kappa p_m}\,|m\rangle\langle n|,
+\qquad p_m=e^{-\beta E_m}/Z,
+\end{equation}
+acting identically on the retained flavor factor. Its complete jump sum
+generates replacement by the interacting Gibbs state at rate $\kappa$;
+the mean energy obeys
+\begin{equation}
+E(t)=E_\beta+e^{-\kappa t}(E_i-E_\beta).
+\end{equation}
+The forward/reverse ratio is the independently testable thermal ratio
+$e^{-\beta(E_m-E_n)}$. The actual input satisfies
+$E_i-E_\beta\leq6118249/20250$, so $\kappa t=10$ pays less than $1/50$
+above equilibrium. No physical nuclear rate is inferred from $\kappa$.
+
+A finite controller can act on
+$P_R=1_{[0,R]}(H_c+928/3)$ and leave the full complementary sector in free
+evolution. For $R=1000$, a twentieth-moment estimate on every bare one-cell
+source tensor vacuum gives
+\begin{equation}
+\langle\mathcal K1_{\{\mathcal K>1000\}}\rangle
+\leq\frac{\prod_{j=0}^{9}B_j^2}{1000^{19}}<\frac1{100},
+\end{equation}
+where $\mathcal K=H_c+928/3$ and
+\begin{equation}
+\begin{split}
+B_j={}&7j+\frac{16009}{250}+\frac{928}{3}\\
+&+27(\lceil\sqrt j\rceil+\lceil\sqrt{j+1}\rceil).
+\end{split}
+\end{equation}
+The norm estimate uses $\rho^2\leq20$ and the complete CAR kinetic bound.
+No high-energy source or Fock sector is discarded. The finite spectral
+dimension upper is
+$23296\binom{1008}{8}=598895878253921290538496$.
+Finiteness here is a mathematical property, not a claim of practical
+controller size.
+
+For approximate jump columns that preserve the stated flavor and $P/Q$
+supports, relative error $\varepsilon\leq1/500000$ gives a further energy
+allowance below $1/100$. Out-of-band leakage would need an additional
+energy-weighted bound. The retained cumulative account is
+Table~\ref{tab:thermal-budgets-new}.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Conditional thermal allowances above the held trial and their
+remaining proper-channel margins. Rows include preceding payments.}
+\begin{tabular}{lrr}\toprule
+Endpoint & Allowance & Margin\\\midrule
+Gibbs, $\beta=36$ & $1/2$ & $533/10125$\\
+Finite time, $\kappa t=10$ & $13/25$ & $661/20250$\\
+Finite spectral control & $53/100$ & $917/40500$\\
+Jump-column error & $54/100$ & $128/10125$\\\bottomrule
+\end{tabular}
+\label{tab:thermal-budgets-new}
+\end{table}
+
+\subsection{Local baths and retained information}
+
+The spectral reset is an added many-body receiving law. A candidate based
+on local physical densities and bounded field Weyl operators has the desired
+Gibbs stationary states and full flavor fixed algebra when its interacting
+Bohr components and thermal rates are supplied. A finite energy-relaxation
+rate and a microscopic realization of those components remain open.
+Ordinary bare $\mathcal D[b]$ loss does not implement interacting Gibbs
+cooling. Freezing matter while cooling only the field also preserves every
+density probability and cannot create the required orbital rearrangement.
+
+Likewise, swapping in an already prepared interacting Gibbs copy transfers
+the resource whose formation was at issue; its preparation and reset must
+be charged. In every dissipative implementation the full system-bath
+isometry can retain source information that the reduced Gibbs state loses.
+The bath outputs, failed arrivals, work-store correlations and source
+replacement records are therefore part of the same formation account.
+These conditional families specify concrete tests of rate, response,
+information and energy for a subsequent physical implementation.

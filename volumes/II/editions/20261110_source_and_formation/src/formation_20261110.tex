@@ -1,0 +1,286 @@
+\subsection{From a retained state to a formation protocol}
+\label{sec:formation-nov}
+
+The certificate in Chapter~\ref{ch:occupied-nuclear} supplies a complete
+target energy for the unchanged Li6 contact preparation. A formation
+protocol additionally specifies its incoming state, allowed controls,
+time dependence, work store and output records. The receiving-action
+continuation makes these ingredients explicit. The results in this section
+are conditional analytical constructions with finite exact and numerical
+checks; they have not acquired the independent CR2 status of the preceding
+energy certificate.\samref{NOV_RECEIVING}
+
+Three preparations occur in the discussion and should remain distinct.
+The certified contact input is $F_0P_9z_{14336}$, with its actual Pauli
+metric, initially tensored with scalar vacuum. A separated spatial input
+places the four core particles in one cell and the residual pair in another.
+An asymptotically prepared He4/H2 input also carries its fragment clouds,
+motion and preparation records. The following accounts start with one of
+the first two specified states. Replacing them by the third requires those
+additional source and energy operands.
+
+\subsection{Separated arrival has a flavor constraint}
+\label{sec:arrival-new}
+
+The natural two-cell source has raw metric $I_{600}$ and, on its unchanged
+phase preparation, orbital-sector weights
+\begin{equation}
+w_{\rm sep}=(11/45,\ 2/9,\ 8/15).
+\end{equation}
+These differ from the contact weights in Table~\ref{tab:flavor-new}.
+A deterministic $U(4)$-scalar unitary preserves the full flavor data and
+therefore cannot turn this separated state into that contact state while
+returning every auxiliary to a common state.
+
+The obstruction holds on the entire declared separated phase9, rather than
+only at one phase choice. If $G_\lambda$ is the sector-weight Gram on that
+space, its exact inequalities are
+\begin{equation}
+G_{321}\geq2G_{33},\qquad G_{42}+3G_{33}\leq I.
+\end{equation}
+The desired contact preparation instead has
+$w_{321}-2w_{33}=-4/675$ and $w_{42}+3w_{33}=679/675$.
+Thus rephasing or changing amplitudes within this separated family cannot
+repair the deterministic transfer. This changes no hypothesis of the
+earlier contact theorem.\samref{NOV_ARRIVAL}
+
+An invariant success/failure instrument provides a conditional repair.
+The analytical flavor-factorization construction maps every vector of the
+separated phase9 coherently to the corresponding contact phase9 on success,
+with optimal constant success probability
+\begin{equation}
+p_{\rm suc}=15/17.
+\end{equation}
+It extends to a joint isometry on the entire source600. Failure has
+probability $2/17$ and, for the unchanged input, conditional flavor weights
+$(1/5,0,4/5)$. The failure branch and its source record remain part of the
+output, rather than being deleted by conditioning.
+
+The ideal signed instrument work is $96\tau/17$ per attempt. For accepted
+outputs obtained from fresh sources this is $32\tau/5$ per success,
+before source replacement, failure handling and record restoration. Adding
+the later contact hopping switch gives
+\begin{equation}
+\frac{32}{5}\tau+\frac{592}{45}\tau=\frac{176}{9}\tau.
+\end{equation}
+Equal failed-branch kinetic energies do not make a failed flavor state a
+reusable fresh input. The instrument's full flavor-factorization argument,
+and the physical control needed to implement it, remain separately
+identified from these work identities.
+
+A deterministic alternative retains $w_{\rm sep}$ and chooses a different
+target. At the original $g^2=35$ its sufficient margin is
+$-5843/6750$; at the separately labelled $g^2=37$ it becomes
+$4637/6750$. A changed-kernel family also has a positive member. These are
+new-source or new-law comparisons, not replacements for
+\eqref{eq:held-margin-new}.\samref{NOV_RECEIVING}
+
+\subsection{Controls that preserve the full flavor information}
+
+An algebraic receiving unitary becomes a control question when its
+generators are specified. One sufficient family consists of flavor-blind
+orbital bilinears, a local density coupled to a controllable flavor-trivial
+qutrit, and signed controls with drift compensation and boundary isolation.
+With three distinct auxiliary levels,
+\begin{equation}
+[A\otimes e_{01},B\otimes e_{12}]=AB\otimes e_{02}.
+\end{equation}
+The reverse product vanishes because the matrix units have incompatible
+indices. Repeated commutators generate ordered orbital products and hence
+the full flavor commutant. Acting on its orbital factors leaves every
+flavor multiplicity unchanged.\samref{NOV_CONTROL}
+
+This is a constructive approximate-reachability result for the stated
+control family. It does not assign a duration or error to the full held
+unitary. A finite ancillary density-squared primitive has separately been
+materialized and checked, establishing an elementary building block rather
+than an entire pulse compilation. Signed drift compensation, the auxiliary
+initial state and its final record are explicit apparatus resources.
+
+\subsection{A complete finite-time field-loading account}
+\label{sec:loading-new}
+
+Write the matter kinetic operator as $T=D+K_{\rm hop}$ with fixed diagonal
+$D=36(\tau+t_c)I$. During preparation cancel only the off-diagonal hopping
+$K_{\rm hop}$. This keeps the absolute kinetic baseline in every stage.
+For the specified bare contact input,
+\begin{equation}
+E_i=\frac{1028}{45}\tau+36t_c,\qquad
+W_{\rm off}=\frac{592}{45}\tau.
+\end{equation}
+The orbital map acts with the scalar coupling off and the kinetic drift
+frozen. Its net ideal pulse work can cancel in that chart, while the
+actuator, gross energy financing and clock remain physical resources.
+\samref{NOV_LOADING}
+
+Now turn on the scalar vertex as $gs(t)$ with $s(t)=t/T$ and frozen matter.
+In an orthonormal field mode of frequency $w\in\{1,3,5,7\}$ the exact
+coherent amplitude from vacuum is
+\begin{equation}
+\alpha_w(t)=-\frac{g\rho_wt}{Tw}
+-i\frac{g\rho_w}{Tw^2}(1-e^{-iwt}).
+\label{eq:ramp-new}
+\end{equation}
+The forced-oscillator equation verifies both the initial condition and the
+phase-space trajectory. At $T=2\pi n$, $n\geq1$, every mode reaches its
+equilibrium displacement $-g\rho_w/w$ exactly. The known density phase is
+\begin{equation}
+\Phi_T=g^2\rho^T(TG/3+G^3/T)\rho.
+\end{equation}
+It is retained in the source map and transported Writes; on each held
+target profile type it is constant. The evolution is one unitary on full
+Fock space and preserves every source overlap.
+
+For arbitrary duration, put $\eta=\alpha(T)+gG\rho$. The residual is
+\begin{equation}
+E_{\rm res}=\eta^\dagger\omega\eta
+=\frac{4g^2}{T^2}\rho^TG^3\sin^2(\omega T/2)\rho\geq0.
+\label{eq:ramp-res-new}
+\end{equation}
+Field and vertex energies have opposite cross terms, so their sum is
+$-g^2V+E_{\rm res}$. The inclusive work in the ramp is the same quantity.
+The loading power is nonpositive mode by mode, using $\sin(wt)\leq wt$.
+The actuator receives the released energy. Restoring hopping on the held
+target has zero mean work.
+
+At exact completion the full signed ledger is
+\begin{equation}
+W_{\rm net}=\frac{592}{45}\tau-g^2\bar v=E_f-E_i,
+\qquad \bar v=\frac{565492}{70875}.
+\end{equation}
+Table~\ref{tab:loading-ledger-new} retains each contribution at the held
+parameter point. In particular, the positive cloud energy is already
+included in the negative field-plus-vertex total. It cannot be counted a
+second time as another attraction.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Complete ideal endpoint and signed work at
+$(\tau,t_c,g^2)=(1,1/1000,35)$. Energies are in model units.}
+\begin{tabular}{lr}\toprule
+Account & Exact value\\\midrule
+Final kinetic & $9009/250$\\
+Final field & $565492/2025$\\
+Final vertex & $-1130984/2025$\\
+Final total & $-4925191/20250$\\
+Net actuator work from bare contact & $-538852/2025$\\
+Proper-channel lower & $-728/3$\\
+Endpoint allowance & $11191/20250$\\\bottomrule
+\end{tabular}
+\label{tab:loading-ledger-new}
+\end{table}
+
+The benchmark also admits a half-force protocol followed by a second
+half-step after time $\pi$, and smooth versions with the same Fourier
+cancellations. More generally, for finitely many independently specified
+positive frequencies $\nu_j$, convolve a normalized nonnegative smooth
+bump with the Bernoulli measures
+$(\delta_0+\delta_{\pi/\nu_j})/2$. Taking the result as $\dot s$ gives a
+smooth monotone ramp whose Fourier transform vanishes at every $\nu_j$.
+It ends at the equilibrium cloud after
+$\sum_j\pi/\nu_j+\varepsilon$. Its clock, kinetic-freezing controls and
+known source phase remain explicit.\samref{NOV_ACTION}
+
+\subsection{Timing error is paid in the energy form}
+
+An exactly recurrent clock is unnecessary for a positive sufficient
+allowance. At $T=25/4$ the retained rational bound is
+\begin{equation}
+e_0\leq\frac{565492}{2025}\left(\frac{83}{15625}\right)^2<0.0079.
+\end{equation}
+Let $\varepsilon_m$ bound the matter compiler's state error, and let
+$R(t)$ be a residual bounded matter interaction during loading. Define
+\begin{equation}
+\mathcal A=\varepsilon_m+\int_0^T\|R(t)\|\,\dd t.
+\end{equation}
+The Heisenberg equation for $C=b+sgG\rho$, together with
+$\|\rho\|_{\rm vector}\leq6$ and
+$\|\dot\rho\|_{\rm vector}\leq12\|R\|$, bounds the field error in its
+energy form by $12|g|\mathcal A$. The bounded matter part $T-g^2V$ has
+width at most
+\begin{equation}
+\mathcal W=72(\tau+t_c)+\frac{928}{105}g^2.
+\end{equation}
+Consequently
+\begin{equation}
+E_{\rm actual}\leq E_{\rm static}+\mathcal W\mathcal A
++(\sqrt{e_0}+12|g|\mathcal A)^2.
+\label{eq:energy-error-new}
+\end{equation}
+This controls the unbounded field through an energy estimate, rather than
+multiplying a state error by a nonexistent finite norm of $H$.
+
+At $\mathcal A\leq10^{-3}$ the conditional allowance after the stated
+errors is
+\begin{equation}
+\frac{575056319167}{3955078125000}>0.14539.
+\end{equation}
+The separately evaluated $T=6$ ramp leaves residual energy approximately
+$0.5977756010$, exceeding the original $0.5526$ allowance. That failed
+duration illustrates why elapsed time belongs in the energy account.
+No conversion of these model times to nuclear seconds is used.
+\samref{NOV_LOADING}
+
+\subsection{Source information must accompany source-dependent work}
+\label{sec:apparatus-obstruction-new}
+
+Suppose an energy-conserving apparatus implements an exact isometry from
+$F_i$ to $F_f$ on every source input, beginning and ending in fixed pure
+apparatus states independent of that input. Conservation requires
+\begin{equation}
+F_i^*HF_i-F_f^*HF_f=(E_{A,f}-E_{A,i})I.
+\label{eq:apparatus-obstruction-new}
+\end{equation}
+The required source-compressed energy change is therefore scalar. At the
+held point, the actual phase9 matrix has off-diagonal $(0,5)$ entry
+$6379/675$. Equation~\eqref{eq:apparatus-obstruction-new} fails before
+the source is enlarged to 600 directions.
+
+A faithful implementation can retain source/work-store correlations,
+accept a quantified approximation with a coherent reservoir, or state a
+smaller input family. Tracing out a common environment while demanding an
+exact pure reduced isometry cannot conceal the information. For two pure
+apparatus outputs of overlap $c$ and energy standard deviations
+$\sigma_1,\sigma_2$, the useful estimate is
+\begin{equation}
+|\Delta E|\,|c|\leq(\sigma_1+\sigma_2)\sqrt{1-|c|^2}.
+\end{equation}
+High overlap at different output energies requires energy spread in the
+apparatus. That spread is an initial resource, distinct from irreversible
+consumption. Appendix~\ref{app:apparatus} develops the retained battery and
+clock constructions with their explicit resource hypotheses.
+\samref{NOV_LOADING}\samref{NOV_BATTERY_LIT}
+
+\subsection{Thermal reception and release}
+
+A complementary construction keeps internal matter motion active while
+compensating intercell hopping. The resulting captured one-cell system has
+a full interacting Gibbs state on matter and eight scalar Fock modes.
+At inverse temperature $\beta=36$, the retained bound puts its conserved
+flavor mixture less than $1/2$ above the held trial. An explicitly
+engineered spectral reset law, finite time, full high-energy complement and
+specified control errors give the conditional endpoint allowance
+\begin{equation}
+\frac{128}{10125}>0.01264.
+\end{equation}
+The derivation and its large spectral-controller requirement appear in
+Appendix~\ref{app:thermal-new}. A local bounded bath has the desired Gibbs
+stationarity and flavor fixed algebra, while its finite energy-convergence
+rate remains to be supplied. Bare oscillator damping is a different law.
+\samref{NOV_THERMAL}
+
+Finally, a prepared low-energy trial need not be stationary after release.
+The full CAR first-hop calculation has a strictly positive short-time
+leakage coefficient from the specified target manifold, greater than
+$14.0195$ at the held point. This is departure from that manifold, not a
+computed breakup probability. Likewise a mean energy below the proper
+threshold does not place all spectral weight below it. The next dynamical
+recipient therefore retains the full state and asks for its evolution,
+spectral distribution and physical emission channel.
+
+The chapter now supplies an explicit chain: source-compatible arrival,
+flavor-preserving control, full-Fock field loading, a signed work account,
+and a receiver for the remaining apparatus information. Each conditional
+mechanism names the physical control or bath that would realize it. The
+energy certificate remains available while those mechanisms are tested
+against independent response data.

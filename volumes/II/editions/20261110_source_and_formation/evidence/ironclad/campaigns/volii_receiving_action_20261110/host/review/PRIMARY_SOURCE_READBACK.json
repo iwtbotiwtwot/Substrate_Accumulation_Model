@@ -1,0 +1,28 @@
+{
+  "scope": "Lead primary-source readback after native admission closed; publisher abstracts only, not whole-paper rederivation.",
+  "sources": [
+    {
+      "url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.73.044002",
+      "authors": "R. W. Hackenburg",
+      "year": 2006,
+      "observed": "Publisher abstract gives triplet scattering length 5.4112(15) fm and singlet -23.7148(43) fm. The discrepancy from exact-U4 identical-channel predictions is the campaign inference, conditional on assigning the pure model to the entire interaction."
+    },
+    {
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.042501",
+      "authors": "M. Anders et al., LUNA",
+      "year": 2014,
+      "observed": "Publisher abstract describes direct 2H(alpha,gamma)6Li cross-section measurement at BBN energies and suppressed electric dipole transition. No modern abundance claim or physical coupling calibration is imported."
+    },
+    {
+      "url": "https://journals.aps.org/prx/abstract/10.1103/PhysRevX.11.021014",
+      "authors": "G. Chiribella, Y. Yang, R. Renner",
+      "year": 2021,
+      "observed": "Publisher abstract states accuracy-dependent initial energy-resource bounds for reversible operations. Lead has not independently checked the peer-specific numerical specialization against the full proof."
+    }
+  ],
+  "initial_doi_access_failures": [
+    "10.1103/PhysRevC.73.044002",
+    "10.1103/PhysRevLett.113.042501"
+  ],
+  "successful_fallback": "Direct publisher abstract pages"
+}
