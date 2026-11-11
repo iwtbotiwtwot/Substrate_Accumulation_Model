@@ -7,9 +7,9 @@ with four gpt-6.1-sol/xhigh peers. The research window began at
 the lead sent no scientific messages during the window.
 
 Complete results and every report/correction are in
-`../../../../ironclad/campaigns/voliii_overnight_cr2_20261111/FULL_RESEARCH_HANDOFF.md`.
+`../../../ironclad/campaigns/voliii_overnight_cr2_20261111/FULL_RESEARCH_HANDOFF.md`.
 The successor's complete report and unranked 42-record opportunity register
-are in `../../../../ironclad/campaigns/voliii_cr2_continuation_20261111/`.
+are in `../../../ironclad/campaigns/voliii_cr2_continuation_20261111/`.
 All nineteen original opportunities have explicit dispositions.
 
 The completed CR2 cases are I1/R2 within their declared exact scopes; the
