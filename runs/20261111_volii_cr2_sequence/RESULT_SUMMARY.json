@@ -45,7 +45,7 @@
     },
     {
       "case": "3",
-      "path": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/03_car_fock_loading",
+      "path": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/03r_car_fock_loading_recovery",
       "status": "COMPLETE_HELD_CONTROL_CORRECTION",
       "claims": 12,
       "claim_counts": {
@@ -55,9 +55,13 @@
       "history_entry": "H003006",
       "independence": "I1",
       "reproducibility": "R2",
-      "archive_members": 4801,
-      "manifest_sha256": "5187f410ab2466a5127b1ca1eaec27f57e22012253a95d0204ae89a51f178957",
-      "outputs_replayed": 24
+      "archive_members": 4814,
+      "manifest_sha256": "1a6c9697e637d7442f7e3d8b45d8ec898394ffc9af723a3ec6a6dcf56922ab84",
+      "outputs_replayed": 24,
+      "original_case_path": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/03_car_fock_loading",
+      "original_manifest_sha256": "5187f410ab2466a5127b1ca1eaec27f57e22012253a95d0204ae89a51f178957",
+      "original_archive_members": 4801,
+      "public_packaging_correction_only": true
     }
   ],
   "outputs_replayed": 65,
@@ -72,5 +76,7 @@
   "manuscript_changes": false,
   "new_duck_windows": 0,
   "courtroom_local_commit": "2c5ee48b7677f4b60a5d34e7626b56c523611e2e",
-  "publication_commit_routes": "ironclad/campaigns/volii_cr2_sequence_20261111/DELIVERY_STATUS.json"
+  "publication_commit_routes": "ironclad/campaigns/volii_cr2_sequence_20261111/DELIVERY_STATUS.json",
+  "public_recovery_correction_history": "H003008",
+  "scientific_claims_unchanged": true
 }

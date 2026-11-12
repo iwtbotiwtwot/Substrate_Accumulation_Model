@@ -52,3 +52,13 @@ Numbered conclusion history: H003004,H003005,H003006, following initiationH00300
 The next use is the precise verified statements/corrections in a separately
 requested Volume II revision. Task-owned paths are committed explicitly;
 other manuscript working-tree changes are excluded.
+
+Public recovery correction: the original third case's manifest was mistakenly
+classified as bulk during packaging. Its original scientific record and full
+archive are preserved. The standing packaging-only appeal is
+[03r_car_fock_loading_recovery](../../../Courtroom_II/campaigns/volii_review_followups_20261111/03r_car_fock_loading_recovery/REPORT.md).
+Every original file is retained, all manifests are directly published, and
+final-manifest public recovery reproduced all24unchanged deterministic files.
+This changes no theorem or mathematical outcome. The correction record is
+H003008; final Git-materialized replay and upload receipts are in the owning
+ironclad capsule.
