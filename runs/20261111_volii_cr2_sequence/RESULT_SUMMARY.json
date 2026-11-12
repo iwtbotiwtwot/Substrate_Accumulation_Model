@@ -1,0 +1,76 @@
+{
+  "claims": 36,
+  "controls": 29,
+  "claim_counts": {
+    "HELD": 33,
+    "HELD WITH CORRECTION": 3
+  },
+  "control_counts": {
+    "HELD": 28,
+    "HELD WITH CORRECTION": 1
+  },
+  "cases": [
+    {
+      "case": "1",
+      "path": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/01_atoms",
+      "status": "COMPLETE_HELD_WITH_CORRECTION",
+      "claims": 13,
+      "claim_counts": {
+        "HELD": 10,
+        "HELD WITH CORRECTION": 3
+      },
+      "controls": 9,
+      "history_entry": "H003004",
+      "independence": "I1",
+      "reproducibility": "R2",
+      "archive_members": 1020,
+      "manifest_sha256": "6067c637ed9efb8c6e2f313c1e57050c9fde36b59e6f6475a8779189b9123e8e",
+      "outputs_replayed": 19
+    },
+    {
+      "case": "2",
+      "path": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/02_spin_memory",
+      "status": "COMPLETE_HELD",
+      "claims": 11,
+      "claim_counts": {
+        "HELD": 11
+      },
+      "controls": 9,
+      "history_entry": "H003005",
+      "independence": "I1",
+      "reproducibility": "R2",
+      "archive_members": 2181,
+      "manifest_sha256": "64464e40003c887ca25e1b85f43c00b15a7b6d668f654c39f5c71e4b3ec435d5",
+      "outputs_replayed": 22
+    },
+    {
+      "case": "3",
+      "path": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/03_car_fock_loading",
+      "status": "COMPLETE_HELD_CONTROL_CORRECTION",
+      "claims": 12,
+      "claim_counts": {
+        "HELD": 12
+      },
+      "controls": 11,
+      "history_entry": "H003006",
+      "independence": "I1",
+      "reproducibility": "R2",
+      "archive_members": 4801,
+      "manifest_sha256": "5187f410ab2466a5127b1ca1eaec27f57e22012253a95d0204ae89a51f178957",
+      "outputs_replayed": 24
+    }
+  ],
+  "outputs_replayed": 65,
+  "complete_handoff_sha256": "c64881b32dec8b221567ae74034541e4d5699b59d014b4608cf76abcad972e92",
+  "lossless_register_sha256": "b2e60a1648719c605d70e114e18c8438dca06b8c0654666cbd10c04826896781",
+  "status": "SCIENTIFIC_AND_ARCHIVE_COMPLETE",
+  "updated_utc": "2026-11-12T00:49:56.741345+00:00",
+  "global_courtroom_validation": "PASS",
+  "independence": "I1",
+  "reproducibility": "R2",
+  "director_approval": false,
+  "manuscript_changes": false,
+  "new_duck_windows": 0,
+  "courtroom_local_commit": "2c5ee48b7677f4b60a5d34e7626b56c523611e2e",
+  "publication_commit_routes": "ironclad/campaigns/volii_cr2_sequence_20261111/DELIVERY_STATUS.json"
+}
