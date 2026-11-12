@@ -1,0 +1,23 @@
+{
+  "analytic_proofs": "DERIVATION.md; finite replay does not replace all-measure/domain arguments",
+  "claims_executed": [
+    "C01",
+    "C02",
+    "C03",
+    "C04"
+  ],
+  "controls_executed": [
+    "LC01",
+    "LC02",
+    "LC03",
+    "LC04"
+  ],
+  "directed_full_spectrum_checks": 11,
+  "earlier_code_executed": false,
+  "engine_use": "none",
+  "limits": "No physical controller, nuclear clock, preparation/reset cost or normal static equilibrium supplied.",
+  "original_schedule_cases_compared": 5,
+  "resources": "one process; one-thread numerical environment; only small rational systems",
+  "source_files_checked": 24,
+  "status": "PASS"
+}

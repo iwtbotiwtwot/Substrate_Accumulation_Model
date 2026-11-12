@@ -1,0 +1,26 @@
+[
+  {
+    "label": "sym",
+    "lower": "0.0273824066891853",
+    "upper": "0.0273824066891854",
+    "exact_square_comparison": true
+  },
+  {
+    "label": "minimax",
+    "lower": "0.0464409230216487",
+    "upper": "0.0464409230216488",
+    "exact_square_comparison": true
+  },
+  {
+    "label": "fixed",
+    "lower": "0.0400557228243080",
+    "upper": "0.0400557228243081",
+    "exact_square_comparison": true
+  },
+  {
+    "label": "known",
+    "lower": "0.0396929079249281",
+    "upper": "0.0396929079249282",
+    "exact_square_comparison": true
+  }
+]

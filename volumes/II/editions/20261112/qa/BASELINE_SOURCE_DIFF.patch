@@ -1,0 +1,389 @@
+--- 20261110/src/atoms_01.tex
++++ 20261112/src/atoms_01.tex
+@@ -63,7 +63,7 @@
+ \[
+  h_U=\tau(-\Delta_{\mathbb R^3})-g\frac{U\cdot n}{r}.
+ \]
+-A free electron has continuum ground infimum zero. The separated reference is therefore the original nuclear ground plus the specified number of free electrons. This ground account and the finite-temperature sphere account retain their respective preparations. Completing the full gradient square gives the whole-space lower bound $-g^2|U|^2/(4\tau)$ per electron. A regular two-state $s/p$ trial has kinetic matrix $(\tau/a^2)I$ and field cross term $-g|U|/(3a)$. Its lower Ritz level selects
++A free electron has continuum ground infimum zero. The separated reference is therefore the original nuclear ground plus the specified number of free electrons. This ground account and the finite-temperature sphere account retain their respective preparations. The initial gradient comparison gave $-g^2|U|^2/(4\tau)$ per electron. The stronger whole-space bound is $-g^2|U|^2/(16\tau)$, proved in Section~\ref{sec:atomic-square-12}. A regular two-state $s/p$ trial has kinetic matrix $(\tau/a^2)I$ and field cross term $-g|U|/(3a)$. Its lower Ritz level selects
+ \[
+ \begin{gathered}
+ a=\frac{6\tau}{g|U|},\\
+@@ -98,13 +98,13 @@
+ \end{array}
+ \]
+ 
+-All forty-four populated whole-source binding lower bounds are positive. At $\tau=g=1$, the six-electron carbon binding intervals are approximately $[5.84105,66]$, $[10.38410,104]$ and $[23.36421,216]$ for the 333, 343 and 444 sources. These source-energy intervals already include the original nuclear minimization. They show explicitly how a complete electronic state can sit on the same retained nuclear history rather than being appended as an integer label.
++All forty-four populated whole-source binding lower bounds are positive. Before the sharper complement and cusp witnesses of Section~\ref{sec:atomic-square-12}, at $\tau=g=1$ the six-electron carbon binding intervals were approximately $[5.84105,66]$, $[10.38410,104]$ and $[23.36421,216]$ for the 333, 343 and 444 sources. These source-energy intervals already include the original nuclear minimization. They show explicitly how a complete electronic state can sit on the same retained nuclear history rather than being appended as an integer label.
+ 
+ \subsection{Electronic occupation feeds back into the nuclear minimum}
+ 
+ The universal full-space electronic ground coefficient $e_{N_e}$ obeys
+ \[
+- -N_e/4\leq e_{N_e}\leq c_{N_e}<0.
++ -N_e/16\leq e_{N_e}\leq c_{N_e}<0.
+ \]
+ The exact coupled nuclear selection is the lower envelope
+ \[
+@@ -116,7 +116,7 @@
+ \]
+ Every original nuclear sector participates in this envelope. The completed calculation obtains eleven response phases and six exact transition values. Helium cover 3 changes from $q=4$ to $36$ at $t=43/8$; cover 4 changes from $16$ to $36$ at $129/5$. Carbon 333 changes from $36$ to $324$ at $35/24$; carbon 343 follows $64\to256\to324$ at $35/24$ and $123/17$; carbon 444 changes from $144$ to $324$ at $124/15$. \samref{radial_occupancy}
+ 
+-Combining the full electronic coefficient bounds with this exact nuclear envelope supplies forty-four nonempty coupling ranges that guarantee a nuclear receiver phase for the whole-space electron ground. The intermediate carbon 343 envelope exists exactly; its six intermediate coupling guarantees are unresolved with those electronic bounds. This is a precise remaining assignment within an otherwise completed response calculation. The envelope retains the nuclear energy price of changing receiver, so a larger $|U|$ is not selected freely.
++Combining the full electronic coefficient bounds with this exact nuclear envelope supplies forty-four nonempty coupling ranges that guarantee a nuclear receiver phase for the whole-space electron ground. The earlier $-N_e/4$ electronic comparison left the six intermediate carbon343 coupling guarantees unresolved. The current $-N_e/16$ comparison and full-Gram cusp witnesses close all six, as shown in Section~\ref{sec:atomic-square-12}. The envelope retains the nuclear energy price of changing receiver, so a larger $|U|$ is not selected freely.
+ 
+ This feature provides an important construction principle for the rest of the volume. The source, recipient and occupied state are solved together through a shared energy. A signed receiver is neither a fixed empirical charge nor a coefficient that can be transferred independently of its nuclear energy. Subsequent scalar and polarization fields preserve that distinction while adding explicit interactions and finite core self energy.
+ 
+@@ -172,7 +172,7 @@
+ 
+ Consider the weak-polarization panel $\tau=r_c=g_c=v_c=1$, $g_p=v_p=1/10$. The original interacting helium cover-3 and cover-4 neutral accounts both return a total binding interval approximately $[0.436748933182,2.22]$. Their equality in this interacting panel is a result of the complete source minima. It is obtained after finite core self and the occupied electronic action have been added, rather than by setting the two receivers equal. In the stronger polarization panel $g_p=v_p=1$, their retained total-binding interval is approximately $[0.368497146536,6]$. The same upper-reference rule is applied in each case. \samref{pair_source}
+ 
+-For carbon 444 with weak polarization, the interacting neutral interval is approximately $[6.0992574809,38.88]$. At that stage its best upper witness localized five of the six electrons. The complete account still contained six electrons: one occupied the separated free-electron continuum. The compact exterior-shell construction subsequently replaced this witness by a normalized six-electron determinant joined to the correlated inner state, lowering its upper energy by about $0.00126403124427$. This is a useful example of how the ledger records a physical improvement. The total reference is held fixed, an explicit additional localized state is supplied, and its complete extra kinetic, direct and exchange cost is calculated. \samref{outer_filling}
++For carbon 444 with weak polarization, the earlier interacting neutral interval was approximately $[6.0992574809,38.88]$. Its binding upper is now $35.1767532368147\ldots$ by Section~\ref{sec:finite-core-12}. At the earlier stage its best upper witness localized five of the six electrons. The complete account still contained six electrons: one occupied the separated free-electron continuum. The compact exterior-shell construction subsequently replaced this witness by a normalized six-electron determinant joined to the correlated inner state, lowering its upper energy by about $0.00126403124427$. This is a useful example of how the ledger records a physical improvement. The total reference is held fixed, an explicit additional localized state is supplied, and its complete extra kinetic, direct and exchange cost is calculated. \samref{outer_filling}
+ 
+ The electron count alone would not reveal that difference between the two witnesses. The actual state specifies it through its support and occupations. The finished neutral atom has a fully occupied variational witness, and the analytic residual-charge construction establishes strict whole-space retention. The numerical ionization interval continues to report the available quantitative gap enclosure. A future tighter interval can be compared with the same reference without revising the meaning of the earlier result.
+ 
+@@ -191,3 +191,5 @@
+ The whole massive action, every same-spin exchange term, full collective recoil and momentum outside the orbital span are retained. Exact angular-sector assembly also reproduces the complete Gram and second/fourth moments through fifty-five small angular sectors. All $432$ difference enclosures contain zero against the primary route. The source's physical content survives this computational rearrangement: the same coefficient map reconstructs all $406$ components.
+ 
+ The preceding one-body upper-endpoint selection was corrected without changing native primitives. Rebuilding $252$ controls and $4788$ endpoints raises an upper by at most $8.281\times10^{-20}$ source units; lower endpoints and winning occupations are unchanged. The retained correction is part of the finished result. Together, the angular trace, occupied radial orbitals, scalar/polarization pair source, charge-filling construction and radial improvement supply an actual atomic chapter with explicit states, energies and references. Their authorized classification is strong contact; their remaining physical assignments are the common energy/action/ruler map and the specifically identified ground and ion recipients.
++
++\input{refinement_20261112/atoms.tex}
+--- 20261110/src/atoms_02.tex
++++ 20261112/src/atoms_02.tex
+@@ -28,7 +28,7 @@
+ \]
+ At $\mathcal N=1$ this is the original Coulomb Green kernel. Its monopole is unchanged, so the uniform nuclear shell retains its core self and scalar potential. Higher angular terms, pair interaction and exchange use the new complete kernel. The all-degree remainder is explicitly bounded, and the finite field determinant stays in the reference.
+ 
+-Three geometries, $\mathcal N=1,3/4,1/2$, produce $132$ positive populated binding accounts on the original helium/carbon sources. Every account has an occupied witness. Thirty numerical ionization lower bounds are positive; $102$ intervals contain zero. The complete source phase and self terms remain inside both nuclear minima. This geometry makes the common radial units explicit:
++Three geometries, $\mathcal N=1,3/4,1/2$, produce $132$ positive populated binding accounts on the original helium/carbon sources. Every account has an occupied witness. The original retained ionization portfolio had thirty positive lower bounds and $102$ overlaps. The new complete lower table and reconstructed spherical portfolio are distinguished from the incomplete historical-CI recount in Section~\ref{sec:geometry-12}. The complete source phase and self terms remain inside both nuclear minima. This geometry makes the common radial units explicit:
+ \[
+ \begin{gathered}
+ \ell_{\rm rad}=\frac{\tau\mathcal N^3}{v_c},\\
+@@ -227,3 +227,5 @@
+ All thirty-six central molecular witnesses improve; the least new full-fragment binding lower bound is $356.88838984$ source units. The $1548$ original preparation rows receive the additional ground witness for their own family and rest chart. Their historical prepared energies remain unchanged. All thirty-six complete references, or $3276$ explicit fragment-channel occurrences, are retained. Three native scientific returns, $40{,}327$ independent assertions, $150$ infinite Laplace quadratures and six derivative checks close this full-motion construction.
+ 
+ The finished result is a fully paid molecular ground-state variational gain, classified strong contact. The clamped exact-eigenvalue intervals retain their own completed meaning. Its physical receiving equations are $\Delta E_{\rm phys}=E_*G_{\rm motion}$, $t_{\rm phys}=(I_*/E_*)t_{\rm model}$ and $x_{\rm phys}=L_*x_{\rm model}$. The same constituent/fragment reference must supply $E_*$, the source/current phase supplies $I_*$, and the spatial source/receiver supplies $L_*$. These are the precise remaining common physical assignments joining atomic attachment, nuclear formation, molecular motion and measured energy, time and length.
++
++\input{refinement_20261112/geometry_rotors.tex}
+--- 20261110/src/bibliography.tex
++++ 20261112/src/bibliography.tex
+@@ -414,4 +414,20 @@
+ 
+ \bibitem{NOV_BATTERY_LIT} G. Chiribella, Y. Yang and R. Renner, ``Fundamental energy requirement of reversible quantum operations,'' \emph{Physical Review X} \textbf{11}, 021014 (2021). \url{https://doi.org/10.1103/PhysRevX.11.021014}.
+ 
++\bibitem{REF12_ATOMS}\emph{Whole-space atomic square, logarithmic cusp witnesses and complete references}. SAM Research Project, H003004. Source: \path{Courtroom_II/campaigns/volii_review_followups_20261111/01_atoms/FULL_REPORTS_AND_PROOFS.md}. Complete report/proof snapshots and SHA-256 identities accompany this edition.
++
++\bibitem{REF12_SPIN}\emph{Actual signed-graph microscopic memory, growing waits and the moment receiver}. SAM Research Project, H003005. Source: \path{Courtroom_II/campaigns/volii_review_followups_20261111/02_spin_memory/FULL_REPORTS_AND_PROOFS.md}. Complete report/proof snapshots and SHA-256 identities accompany this edition.
++
++\bibitem{REF12_CAR}\emph{One-hop Li6, twelve-particle source and continuum-loading verification}. SAM Research Project, H003006 and H003008. Source: \path{Courtroom_II/campaigns/volii_review_followups_20261111/03r_car_fock_loading_recovery/FULL_REPORTS_AND_PROOFS.md}. Complete report/proof snapshots and SHA-256 identities accompany this edition.
++
++\bibitem{REF12_VOLIII}\emph{Volume III refinement incorporation and completed signed-chain moment proof}. SAM Research Project, H003007; TWO-F03. Source: \path{ironclad/campaigns/voliii_refinement_20261111/peers/TWO/gen/CHAIN_MOMENT_PROOF.md}. Complete report/proof snapshots and SHA-256 identities accompany this edition.
++
++\bibitem{REF12_ONE}\emph{Volume II source refinement: complete lane ONE}. SAM Research Project, 12 November 2026. Source: \path{GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/ONE/REPORT.md}. Complete report/proof snapshots and SHA-256 identities accompany this edition.
++
++\bibitem{REF12_TWO}\emph{Volume II source refinement: complete lane TWO}. SAM Research Project, 12 November 2026. Source: \path{GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/TWO/REPORT.md}. Complete report/proof snapshots and SHA-256 identities accompany this edition.
++
++\bibitem{REF12_THREE}\emph{Volume II source refinement: complete lane THREE}. SAM Research Project, 12 November 2026. Source: \path{GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/THREE/REPORT.md}. Complete report/proof snapshots and SHA-256 identities accompany this edition.
++
++\bibitem{REF12_FOUR}\emph{Volume II source refinement: complete lane FOUR}. SAM Research Project, 12 November 2026. Source: \path{GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/FOUR/REPORT.md}. Complete report/proof snapshots and SHA-256 identities accompany this edition.
++
+ \end{thebibliography}
+--- 20261110/src/evidence_appendix.tex
++++ 20261112/src/evidence_appendix.tex
+@@ -1,9 +1,7 @@
+ \bookappendix{Evidence and scope of the November revision}
+ \label{app:evidence-nov}
+ 
+-This edition preserves the 5 November manuscript as its baseline and
+-receives the completed 8--10 November source, verification and formation
+-records into Chapters~XI, XII and XVI, with a revised historical bridge
++The preceding 10 November edition preserved the 5 November manuscript and received the completed 8--10 November source, verification and formation records into Chapters~XI, XII and XVI, with a revised historical bridge
+ and table layout in Chapter~V. Existing atomic, molecular, spin and
+ historical binding results keep their source laws and stated comparisons.
+ The revision is a manuscript synthesis; no scientific campaign was rerun
+@@ -110,3 +108,9 @@
+ pagination; PDF metadata timestamps can change its byte hash. No fitted
+ isotope parameter, new physical unit assignment or new research result is
+ introduced by this editorial build.
++
++The present12November copy additionally receives H003004--H003008 and
++the full GEN7 refinement without replaying their scientific calculations.
++Appendix~\ref{app:refinement-register-12} records that incremental scope;
++the older execution descriptions above keep their original time and
++campaign identity.
+--- 20261110/src/foundations_01.tex
++++ 20261112/src/foundations_01.tex
+@@ -252,3 +252,5 @@
+ \label{v2c18:received}
+ 
+ The phase source of this chapter was reproduced natively from its archive operands on 25 October 2026 (ironclad H002783; Chapter~XII, Section~\ref{v2c12:received}). What the reproduction adds to the chapter is the name of the retained object: the two full phase records are one frame under the complex structure $J$, and the information a current-based readout drops is the $J$-antilinear part of each placement tensor, carried by a $\mathbb Z_4$ register with a conserved label and a gauge. ``A finite object carries more than its present readout'' (Section~XVIII.1) is therefore exact in this sense: the present readout is the $J$-linear part, and the complement is a register, not a payment. Volume~I's inertia identity and the spin engine's hidden stage are different mechanisms with the same symptom, and the three are listed side by side, not equated, in the editorial spine of the volumes.
++
++\input{refinement_20261112/receiver.tex}
+--- 20261110/src/main.tex
++++ 20261112/src/main.tex
+@@ -1,63 +1,62 @@
+ \input{preamble.tex}
+ \newcommand{\VolumeRoman}{II}
+-\hypersetup{pdftitle={SAM Volume II: Matter and Finite Closure - Revised Source and Formation Edition},pdfauthor={Sean Brady}}
++\hypersetup{pdftitle={SAM Volume II: Matter and Finite Closure - Revised Source, Memory and Formation Edition},pdfauthor={Sean Brady}}
+ \begin{document}\onecolumn\thispagestyle{empty}
+ \begin{center}\vspace*{0.8in}
+ {\small SUBSTRATE ACCUMULATION MODEL\par}\vspace{0.35in}
+ {\Huge\bfseries SAM Volume II\par}\vspace{0.15in}
+ {\LARGE Matter and Finite Closure\par}\vspace{0.25in}
+-{\large Spin sources, retained memory\par and the construction of matter\par\vspace{0.15in}\textit{Revised source and formation edition}\par}\vspace{0.4in}
++{\large Spin sources, retained memory\par and the construction of matter\par\vspace{0.15in}\textit{Revised source, memory and formation edition}\par}\vspace{0.4in}
+ {\Large Sean Brady\par}\vspace{0.12in}
+-{\normalsize 10 November 2026\par}\end{center}
++{\normalsize 12 November 2026\par}\end{center}
+ \vfill\noindent Completed source results and their connections across Volumes I, II and III.
+ \clearpage\markboth{Contents}{}\tableofcontents
+ \clearpage\markboth{Reading this edition}{}\section*{Reading this edition}
+-The revised edition connects the retained matter and spin constructions to
+-the completed nuclear-source and formation work of 8--10 November 2026.
+-Its central sequence is source, complete energy comparison, preparation
+-protocol and independent physical response. The 5 November manuscript and
+-its scientific predecessors are preserved separately.
++This edition receives the completed atomic, spin-memory and CAR/Fock
++verification cases H003004--H003006, their public-recovery correction
++H003008, and the complete four-lane GEN7 refinement report of 12 November
++2026. It is a new copy of the 117-page 10 November edition. All nineteen
++chapters, the three-part structure and the preceding scientific comparisons
++remain. H003007 supplies cross-volume documentary context; it is not a new
++Volume II verification case.
+ 
+-Part I establishes finite admission, particle grammar, mass channels, the
+-nuclear ledger and the retained binding benchmark. Part II develops exact
+-spin sources, hidden memory, composition and the complete physical response
+-receiver. Part III carries these objects into nuclear, atomic and molecular
+-construction and the common-energy physical map. Binary contact coordinates,
+-physical particle inventories and electronic spin labels retain their own
+-source definitions.
++Part I establishes admission, typed particle grammar, mass channels, the
++nuclear ledger and historical binding tests. Its new local contrasts remove
++affine reference shifts, and an exact anchor interpolation corrects the
++literal all-weighting impossibility. Part II connects hidden thermal
++normalization to microscopic memory. It now includes the actual signed
++five-thousand-spin certificate, uniform-source growing waits, exact full-port
++star thermodynamics and the completed mixed-residual tests.
+ 
+-Chapter XI now includes the verified relaxed-He3 complete-payment intervals,
+-the earlier free-reference and shared-field covariance theorems, the actual
+-He4/H2 receiver, and the verified source-connected Li6 energy certificates.
+-The latter use one explicitly declared scalar Hamiltonian for joined matter
+-and every proper fragment. The selected hopping construction and the
+-flavor-preserving unchanged preparation are distinct receiving maps.
++Part III strengthens the unchanged Li6 preparation by a full-Fock one-hop
++map, supplies a separate twelve-particle all-proper certificate, and proves
++isolated translation-fiber bands for sectors 42 and 33 under the stated lattice
++law. Arrival optima, a sharp continuum field-loading floor and the complete
++thirty-path carbon optimization retain their preparation and work references.
++The atomic chapters replace the old whole-space complement by a factor-four
++stronger bound, close all six intermediate carbon guarantees, and distinguish
++the exact geometric lower panel from a still-incomplete historical CI
++ionization recount. The new rigid-rotor extension keeps its original Taylor
++coefficient as well as the attractive second-order response.
+ 
+-Chapter XII develops source-compatible arrival, flavor-preserving controls,
+-full-Fock finite-time field loading and its signed work account. Chapter XVI
+-turns the proposed interaction into independent response tests: legal states
+-with equal incidence currents, an eleven-state static-kernel design, flavor
+-vertices, dynamic poles and a quantitative calibration tolerance. Appendix A
+-retains the longer coherent-battery, clock and thermal constructions with
+-their apparatus hypotheses. Appendix B records verification scope and source
+-custody.
++General static-kernel tomography, dressed-source robustness and the actual
++continuum thermal history receiver complete the response interface. New
++figures display exact formulas or retained numerical intervals. No
++illustrative dynamics is substituted for a calculation. Appendix A keeps
++the earlier conditional apparatus constructions, Appendix B preserves their
++original scope, and Appendix C accounts for every new report item, all 36
++case claims and the correction/custody boundaries. Complete reports, proof
++snapshots and hash-bound finite operands accompany the portable source.
+ 
+-The He3, free-reference, covariance and nine-claim Li6 cases retain their
+-internal separate-proof/code verification. The newest arrival, loading,
+-response and reservoir constructions retain their analytical and internal
+-computational evidence without acquiring a new independent case status.
+-A declared Hamiltonian, a variational energy certificate, an implementable
+-formation law and a calibrated isotope prediction remain different stages
+-of the same program. Their precise interfaces are developed in the chapters.
+-
+-Earlier source laws and fitted or held comparisons keep their original
+-meaning. In particular the historical scalar-current helium test in
+-Chapter XVI is distinct from the new scalar cavity benchmark. The spin
+-section retains its source Dirichlet, dense-source and stopped/partial
+-calculation records. No scientific campaign, binding fit or physical unit
+-assignment was performed for this editorial revision. The editable edition
+-includes baseline hashes, selected evidence snapshots, a coverage map and
+-reproducible build instructions.
++The three verification cases retain internal separate-proof/code I1/R2
++scope. The GEN7 report adds analytical proofs, native finite arithmetic,
++exact host reconstruction and directed host enclosures at their recorded
++levels; this editorial synthesis confers no additional independent review.
++Missing historical endpoints and missing receipts from the earlier Volume
++III window remain explicit. No scientific campaign, external thermal-archive
++download, binding fit or physical unit assignment was performed for this
++edition. A declared Hamiltonian, a variational certificate, a realizable
++preparation and a calibrated isotope prediction keep their distinct premises.
+ 
+ \bookpart{I}{Finite matter, typed sources and energy readouts}
+ \input{original01.tex}
+@@ -89,6 +88,7 @@
+ \renewcommand{\thesection}{\Alph{section}}
+ \input{apparatus_appendix.tex}
+ \input{evidence_appendix.tex}
++\input{refinement_20261112/register.tex}
+ \clearpage\onecolumn\markboth{Source register}{}
+ \phantomsection\addcontentsline{toc}{section}{Source register}
+ \input{bibliography.tex}
+--- 20261110/src/nuclear_01.tex
++++ 20261112/src/nuclear_01.tex
+@@ -449,3 +449,6 @@
+ formation and retained information.
+ 
+ \input{nuclear_20261110.tex}
++
++\input{refinement_20261112/he3_chart.tex}
++\input{refinement_20261112/nuclear.tex}
+--- 20261110/src/nuclear_02.tex
++++ 20261112/src/nuclear_02.tex
+@@ -528,3 +528,5 @@
+ The Li-6 receiver algebra of this chapter and Chapter~XVIII was reproduced on the installed exact engine from the archive's exact operands, in the verification form (everything given, separate code, predictions first; ironclad H002783).\cite{viili6run} The nine relations in ledger order, the six sites, the address packing $q_e=((a\gg e)\&1)+2((a\gg(e+9))\&1)$ with $z_e=\mathrm i^{q_e}$, the maps $T$, $S$, $W$, $F=W^{\mathsf T}ST$, the right inverse $R$ and the retained complement $K=I-RF$ of rank 12, the quarter-turn Writes $U_e$ and the six integer placement tensors were built natively, and every predicted number was exact: ranks 12, 6 and 10; closures 10, 16, 12 and 18; the two preparations' twelve responses; the algebra dimensions 9, 18 and 36; the packing and the chronology. New by four separate routes: the two preparations are one frame under the complex structure $J$, $x(14591)=U_0\cdots U_7\,x(14336)$ with $F(U_0\cdots U_7)=J_6F$, and the response differences are the $J$-antilinear part of each placement tensor; an affine law with a frozen exterior label; a mirror law $F\Sigma=PF$ with a symmetry group of order 16; a complex-linear Kalman split. The retained complement that makes equal currents give different next responses is therefore a $\mathbb Z_4$ phase register with a conserved label and a $J$ gauge, a symmetry broken by the placement tensors. It is neither the hidden stage of the spin engine's gate (Chapter~IX) nor Volume~I's order payment, which fixes what this chapter and Chapter~XVIII mean by retained history: a third mechanism beside those two. The run says where the light-isotope residual of Chapter~V is not: it is not in this complement.
+ 
+ \input{formation_20261110.tex}
++
++\input{refinement_20261112/formation.tex}
+--- 20261110/src/nuclear_20261110.tex
++++ 20261112/src/nuclear_20261110.tex
+@@ -472,9 +472,7 @@
+ \samref{NOV_RELAX}
+ 
+ The comparison is between a full energy upper and proper matter-particle
+-fragment lowers. Translation fibers, escaping free bosons and a cluster
+-identification of the essential spectrum require their own spectral
+-argument. Atomic endpoints additionally require the electron and recoil
++fragment lowers. Translation fibers, escaping free bosons and the essential spectrum require a separate spectral argument. Section~\ref{sec:fiber-12} now supplies it for the stated lattice law and sectors42,33; it does not promote321. Atomic endpoints additionally require the electron and recoil
+ recipients developed later in this volume. The immediate next layer is
+ constructive: which controls create the certified state, what source
+ arrives, and where the energy and information go during preparation?
+--- 20261110/src/original02.tex
++++ 20261112/src/original02.tex
+@@ -206,3 +206,5 @@
+ CR280 clarifies the semantic type as a tensor-compatible stable matter surface whose rows are structurally stable, not automatically experimentally identified particles. This gives the compact laws a precise domain. It also prevents the non-row A-conjugation operator from being counted as an eighty-first particle. The relation to a full F81 face is a separate geometric question, taken up in the carrier-return chapter. Neither the cardinality nor the existence of a conjugation transform supplies an elementwise face map.
+ 
+ The finite export contains a recoverable catalog, purpose-indexed surfaces, class-specific native operators, explicit admission and reveal stages, exact finite matches and preserved controls. Volume III receives these objects with their row identity, predicates, units, null endpoints and source provenance intact.
++
++\input{refinement_20261112/grammar.tex}
+--- 20261110/src/original05.tex
++++ 20261112/src/original05.tex
+@@ -338,7 +338,7 @@
+ \label{v2c5:lightrefit}
+ \end{table}
+ 
+-From Li-6 upward the light rows now sit at the heavy rows' error: Li-6 $+1.0$, Li-7 $-0.2$, Be-9 $+1.1$, B-10 $+1.9$, B-11 $+0.8$, C-12 $-1.5$, C-13 $-2.2$, N-14 $-3.0$, N-15 $-2.3$ MeV out of fold. He-4 stays 4 MeV off, and the three free constituents cannot be carried by this linear source model at any weighting (7 to 14 MeV either way). The light-source and fragment ledgers identify the missing source/action/reference account at these endpoints. The revised Chapters~XI, XII and XVI develop that account through conditional complete-energy comparisons and specified formation mechanisms. The empirical refit here remains a separate historical comparison.
++From Li-6 upward the light rows now sit at the heavy rows' error: Li-6 $+1.0$, Li-7 $-0.2$, Be-9 $+1.1$, B-10 $+1.9$, B-11 $+0.8$, C-12 $-1.5$, C-13 $-2.2$, N-14 $-3.0$, N-15 $-2.3$ MeV out of fold. He-4 stays 4 MeV off, and the tested global and out-of-fold weightings leave a sharp accuracy trade-off against the three free constituents (7 to 14 MeV in the reported fits). The three anchors alone do admit exact interpolation; Section~\ref{sec:reference-stencils-12} gives the corrected rank-three statement. The light-source and fragment ledgers identify the missing source/action/reference account at these endpoints. The revised Chapters~XI, XII and XVI develop that account through conditional complete-energy comparisons and specified formation mechanisms. The empirical refit here remains a separate historical comparison.
+ 
+ Two things remain undone and are stated as such. The tensor channel still has no value below $Z=8$; giving the light chains a path means defining it for $Z<8$ with the frozen assignment of Eq.~\eqref{v2c5:assignment}, a change to B5T's construction and the owner's decision. And the two models have not been joined: whether B5T's eight role values say anything in source-cell terms is the $\Theta18$ question of Chapter~I in another form, and no run has asked it.
+ 
+@@ -350,3 +350,5 @@
+ These are compatible findings, not successive claims that earlier limitations have vanished. The same exact algebra can support several empirical readouts. A better residual model can coexist with an incomplete physical mechanism. A failed historical shortcut can remain valuable after the current method changes. Two models with different languages can both stand in the record until a construction joins them. The manuscript's task is to carry those distinctions intact across the transition from mathematical construction to measurement.
+ 
+ The dedicated spin section next develops exact interacting sources, thermal preparation, hidden memory and physical receiving response. The nuclear chapters that follow receive those methods through the actual isotope action and ordered contact history. Element families, representative isotopes, and composites can be organized using the finite framework while retaining separate questions about stability, binding, and chemistry. That separation permits the volume to be complete as an account of its results while carrying the remaining physical assignments explicitly.
++
++\input{refinement_20261112/references.tex}
+--- 20261110/src/original08.tex
++++ 20261112/src/original08.tex
+@@ -104,3 +104,12 @@
+ It also has definite limits. Candidate uniqueness does not follow from a small residual. The absolute neutrino scale retains its external anchor. A periodic frontier identity is not an observation. The completed atomic and molecular recipients retain their declared source and prepared-family scopes. An informational tensor or unscaled graph embedding is not yet a calibrated physical nuclear law. The later chapters identify the achieved source, field, occupied-state and outgoing-record maps, together with the specific physical assignments still open. These statements are the boundary of the present account, not a schedule of obligations appended to it.
+ 
+ Volume III receives the objects on the established side of that boundary together with the statuses that protect their meaning. It can preserve them, transform them under declared operators and examine their computational consequences. It need not solve every open physical question before doing so. The finite handoff is thus the appropriate end of the matter volume: exact structure where the construction is exact, recorded comparison where the evidence is empirical, and explicit limits where the source has not completed the bridge.
++
++\subsection{The current finite handoff}
++Appendix~\ref{app:refinement-register-12} records all 36 case claims,
++29 controls and 30 GEN7 result items, with complete reports, corrections,
++source routes and unresolved operands. The norm-code obstruction
++(Section~\ref{sec:grammar-fibers-12}), three-decision carbon policy
++(Section~\ref{sec:c12-paths-12}) and amplitude dictionary
++(Section~\ref{sec:dictionary-12}) retain their distinct domains:
++source type, optimization information and infinite-Fock statistical modes.
+--- 20261110/src/preamble.tex
++++ 20261112/src/preamble.tex
+@@ -23,7 +23,7 @@
+ \titlespacing*{\subsection}{0pt}{8pt plus2pt minus2pt}{3pt}
+ \pagestyle{fancy}\fancyhf{}
+ \fancyhead[L]{\footnotesize SAM Volume \VolumeRoman\ | \leftmark}
+-\fancyhead[R]{\footnotesize Brady | 10 November 2026}
++\fancyhead[R]{\footnotesize Brady | 12 November 2026}
+ \fancyfoot[C]{\footnotesize\thepage}
+ \renewcommand{\headrulewidth}{0.3pt}
+ \newtheorem{theorem}{Theorem}[section]
+--- 20261110/src/scale_01.tex
++++ 20261112/src/scale_01.tex
+@@ -131,3 +131,5 @@
+ The matter-side achievement is thus a continuous set of recipients: legal source states, complete energy differences, electronic occupation and recoil, declared physical units, and a common-law isotope comparison. The remaining connector/current/radius assignment is stated as an exact source question. It can be developed from the retained operands while every completed structural, atomic and comparative result remains available to the book.
+ 
+ \input{receiving_20261110.tex}
++
++\input{refinement_20261112/tomography.tex}
+--- 20261110/src/spin_01.tex
++++ 20261112/src/spin_01.tex
+@@ -150,7 +150,7 @@
+ and multiplicity are
+ \[
+  E(s,c)=-\sum_gJ_g(a_g\cdot s)(2c_g-m_g),\qquad
+- \mu(c)=\prod_g{m_g\choose c_g}.
++ \mu(c)=\prod_g\binom{m_g}{c_g}.
+ \]
+ There are \(16\prod_g(m_g+1)=1{,}440{,}000\) grouped coordinates,
+ representing all \(2^{28}=268{,}435{,}456\) microscopic configurations.
+@@ -189,7 +189,7 @@
+ \end{gathered}
+ \]
+ The binomial identity
+-\({m\choose c}(m-c)={m\choose c+1}(c+1)\) establishes hidden detailed
++\(\binom{m}{c}(m-c)=\binom{m}{c+1}(c+1)\) establishes hidden detailed
+ balance; the boundary heatbath ratio gives its corresponding Gibbs
+ balance. The resulting column generator \(L\) is reversible for \(\pi\).
+ The executed memory source uses beta one and common \(\gamma=1\);
+@@ -591,3 +591,5 @@
+ arithmetic on the same source to improve very long conditional
+ intervals. The full source, original clock and paid complement
+ already belong to the achieved construction.
++
++\input{refinement_20261112/stars.tex}
+--- 20261110/src/spin_02.tex
++++ 20261112/src/spin_02.tex
+@@ -453,3 +453,5 @@
+ For the equilibrium-one example, the between and within payments are approximately $0.0003129752011$ and $0.0003150669222$, the preparation payment is zero, and the kinetic-mismatch payment is $2.118659132$, giving complete payment $2.119287174$. The actual weighted microscopic-to-projected discrepancy is $0.000245118417$, while microscopic-to-thermal discrepancy is $1.564677382$. Signed effects can oppose: in the hidden-point preparation the complete discrepancy is $1.069045558$ although the separate memory and mismatch norms are $0.495448315$ and $1.564432276$. Its nonzero preparation residual remains paid. These examples show why adding unsigned costs provides a valid comparison account while summing separately observed signed effects would lose their interaction.\samref{SPC07}
+ 
+ For a genuine global time scaling, $\Gamma_c(z)=c\Gamma(z/c)$ and $J_c(z)=cJ(z/c)$. Such a scaling moves all relaxation rates together. Conditional-law overlap, unresolved memory and the surviving composition directions instead change response shape. Volume I receives this distinction when connecting a source to a clock, ruler and carrier; inverse-time $z$ remains distinct from cosmological redshift. Volume III receives the complete operators and retained preparations needed to calculate it. In Volume II the result is a finite matter-side mechanism: an internal rearrangement can alter later response after every common thermal tangent has been removed. The completed sixteen-hidden-spin parity and port-edge source now supplies an actual constructive response to that mechanism. Chapter~\ref{ch:spin-physical} follows its physical preparation and full-source receiving bounds; the separate 28-spin assay retains its own microscopic clock.\samref{SPC06}\samref{SPC09}\samref{SPC20}
++
++\input{refinement_20261112/memory.tex}
+--- 20261110/src/spin_03.tex
++++ 20261112/src/spin_03.tex
+@@ -389,3 +389,5 @@
+ Seven idea runs on the installed exact engine (ironclad H002762--H002767, H002782; four research peers each, the lead outside the window, the prototype source and its library recipes as material, no external data) acted on the objects of Chapters~VII--IX. Their results are readings in the engineering register.\cite{viimatterruns,viigaterun} The prototype's staircase values were reproduced by three implementations to the enclosure width before anything else (the one-stage gain $0.0087532343$ at dwell 4, $0.387$ of the record's information ceiling $I=0.0226357$; two- and four-stage staircases converting $0.65$ and $0.79$ of the hidden information). The two recipients of a lapse were separated natively: a clock recipient rescales time and leaves every stage order invisible, by identity recipe on every stage state; an energy recipient changes the record's law and is order-sensitive, with a lapse term that at gain-optimal fields varies by a factor of four across field families while the gains agree to $1.8\times10^{-6}$. Every chain's continuous total optimum was certified a local maximum natively, the field and lapse ledgers failing the same cross with equal and opposite gradients, which is the mechanism behind that dependence. The switched share at lapse $1/4$ exceeds the share at $1/2$ on every family, witnessed.
+ 
+ The lawfulness gate built for Volume~I's line of sight (realisation, monotonicity, slope) was run on this chapter's objects the same day. The one-stage gain $g(d)$ is neither a positive mixture nor a one-signed relaxation ($g-g_\infty$ changes sign). The hidden spin's autocorrelation is a positive two-mode mixture, and its first flip is a positive mixture from a Gibbs entrance and a hidden-stage ledger from the ground entrance, with the threshold $4/5<p^\ast<5/6$ at $\beta=1$: the label belongs to the entrance, not to the generator. The retained information is monotone and log-convex and not completely monotone. The structure behind these is exact: $Q=(P_v+P_h)/2-I$ with spectrum $\{0,-1,-(1\mp|\rho|)/2\}$, the hazard sum fixed by the attempt clock and split by the Gibbs correlation with a closed form for $|\rho(\mu)|$, the $-1$ mode the parity, weightless. ``Hazard as temperature'' is a change of name (Arrhenius through the saddle, $T_A\to1/\beta$), which bears on Volume~I Chapter~VII. None of this changes the receiver developed in this chapter; it locates the retained memory of this chapter as a hidden-stage mechanism whose label depends on the preparation, which Chapter~XVIII's phase register then shows to be a different mechanism again.
++
++\input{refinement_20261112/residual.tex}
+--- 20261110/src/spin_04.tex
++++ 20261112/src/spin_04.tex
+@@ -144,3 +144,15 @@
+ The dedicated spin section now supplies a continuous scientific account: exact state organization, finite thermal structure, hidden memory, composition control, actual kinetic response, physical source moments and paid receiving bounds. Its connections to matter are explicit phase/action and conditional-preparation maps. Its connections to Volume I identify the full generator and physical source/clock/field recipients. Its connections to Volume III identify the exact data, operators and retained dependencies that make the research reusable.
+ 
+ The latest source review retains a completed one-residual Dirichlet upper and a separate six-coordinate lower receiver. The full mixed two-residual Dirichlet block and next squared-action norm remain the named source targets. C2 optimization remains stopped/incomplete and the RAM comparison remains partial in their own records. These statuses identify the next mathematical operands without turning them into results already present. The following matter chapters can use the completed source constructions now, with their physical coefficients, references and units carried explicitly.\samref{SPX_DIRICHLET}
++
++\subsection{The refined source interface}
++The signed five-thousand-spin certificate and uniform growing-wait law in
++Section~\ref{sec:signed-memory-12} preserve their distinct physical
++generators. Section~\ref{sec:stars-12} supplies an exact example with
++uniform boundary equilibrium, a scalar projected clock and positive
++microscopic memory. The completed joint-residual tests in
++Section~\ref{sec:mixed-residual-12} identify which source covariance is
++still needed. These are concrete operands for the matter construction:
++complete density images, a known source metric and an explicit receiving
++law. The general-kernel designs and the dressed calibration recipient in
++Section~\ref{sec:general-tomography-12} retain precisely those objects.

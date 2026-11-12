@@ -1,0 +1,329 @@
+{
+  "scope": "Submitted assertions only, not case outcomes.",
+  "case": "01_atoms",
+  "selected_ids": [
+    "FOUR-A01",
+    "FOUR-A02",
+    "FOUR-A03",
+    "FOUR-A04"
+  ],
+  "opportunities": [
+    {
+      "id": "FOUR-A01",
+      "peer": "FOUR",
+      "rank": 1,
+      "title": "A fourfold sharper original whole-space atom lower opens six phases and tightens44 bindings",
+      "classification": "new advance",
+      "chapter_ids": [
+        "XIV"
+      ],
+      "pdf_physical_pages": [
+        77
+      ],
+      "claim_or_bottleneck": "Original -n/4 full-space electronic lower leaves all six C12_343 intermediate-phase guarantees unresolved and point-source binding uppers wide.",
+      "original_source_operands": [
+        "Original h_A=tau(-Delta)-A cos(theta)/r, A=g|U|, spin2 Pauli sector; universal e_n",
+        "All five completed exact original nuclear envelopes, including C34364->256->324 at35/24,123/17",
+        "Original panel tau1,g1/10,1 and actual electron inventories; new frozen full Gram Pauli upper witnesses"
+      ],
+      "what_was_tried": [
+        "Constructed bounded real proof field F=A[2(e.n)n-e]/(4tau), checked exact norm/divergence and distributional origin",
+        "Native polynomial source-word residuals; native exact six phase endpoints and44-account contraction",
+        "Tried polynomial homogeneous angular improvements throughdegree6, then proved1/16 optimal in that stated class"
+      ],
+      "actual_result": {
+        "whole_space_bound": "h_A>=-A²/(16tau); e_n>=-n/16",
+        "all_six_intermediate_guarantees": "chi intervals in gen/INTERMEDIATE_PHASE_GUARANTEES.json; n6(437500/48987,328/17), chi=g²/tau",
+        "point_source_neutral_binding_intervals_g1": {
+          "He4_3_N2": [
+            ".37876",
+            ".5"
+          ],
+          "He4_4_N2": [
+            "1.51504",
+            "2"
+          ],
+          "C333_N6": [
+            "5.87844",
+            "13.5"
+          ],
+          "C343_N6": [
+            "10.45056",
+            "24"
+          ],
+          "C444_N6": [
+            "23.51376",
+            "54"
+          ]
+        },
+        "all_original44": "All t<=3/8 below first transition, so B=q0*g²*(-e_n) exactly; complete rational panel retained",
+        "negative_result": "No better lower from the entire tested homogeneous axisymmetric field class; no exact-ground claim"
+      },
+      "proof_code_receipt_evidence": [
+        "gen/ANGULAR_SQUARE_WORKING.md",
+        "gen/FORM_PROOF_CROSSCHECK.md",
+        "gen/FACTOR_SHARPNESS_WORKING.md",
+        "gen/INTERMEDIATE_PHASE_GUARANTEES.json",
+        "gen/POINT_BINDING_AND_ION_SCOPE.md",
+        "gen/WHOLE_POINT_BINDING_PANEL.json",
+        "tasks/FOUR_SQUARE_V2.job.json",
+        "gen/native_FOUR_SQUARE_V2/READBACK.json",
+        "gen/native_FOUR_PHASE_V1/READBACK.json",
+        "gen/native_FOUR_POINT_BINDING44_V1/READBACK.json",
+        "gen/angular_factorization_discovery.py",
+        "gen/ANGULAR_FACTOR_DISCOVERY.json"
+      ],
+      "assumptions": [
+        "tau>0; original pure-point noninteracting Hamiltonian; full H1 form; spin2; original nuclear envelope theorem as completed input"
+      ],
+      "remaining_gap": "Independent CR2 reconstruction remains; no transfer of the pure-point panel to finite-core, pair, massive or physical-unit accounts.",
+      "discriminating_success_failure_check": "Rebuild norm/divergence and absence of an origin delta, test the form identity on independent compact smooth states, reconstruct all six open intervals and original44 minima. A missing complement or altered q invalidates success.",
+      "dependencies": [
+        "FOUR-A04 frozen Pauli upper panel",
+        "Original radial_occupancy1 complete envelope and source definitions"
+      ],
+      "resource_estimate": "Local mathematical/source review1–3hours; replay matrices at most72-dimensional, exact44x2 panel, seconds of native arithmetic; no large bank rebuild.",
+      "recommended_route": "CR2",
+      "scientific_value_1_to_5": 5,
+      "feasibility_1_to_5": 5,
+      "ranking_reason": "Closes an explicitly named six-case gap and sharply improves a complete existing panel without changing its source.",
+      "exact_chapter_locations": [
+        {
+          "chapter_id": "XIV",
+          "physical_page_or_inclusive_range": [
+            77
+          ],
+          "sections_or_role": "3–4"
+        }
+      ]
+    },
+    {
+      "id": "FOUR-A02",
+      "peer": "FOUR",
+      "rank": 2,
+      "title": "Finite-core Pauli lower and improved complete carbon binding references",
+      "classification": "new advance",
+      "chapter_ids": [
+        "XIV",
+        "XV"
+      ],
+      "pdf_physical_pages": [
+        77,
+        78,
+        79,
+        82
+      ],
+      "claim_or_bottleneck": "The old Pauli comparison replaces directional attraction by its maximal scalar magnitude and leaves broad binding/ion intervals.",
+      "original_source_operands": [
+        "Original finite-core -(C+A cos(theta))/max(r,rc), C=gcZ,A=gp sqrtq, spin2, positive full pair kernel vc>=vp",
+        "Original nuclear I(q), core self and independently minimized Esep/Eatom",
+        "Weak panel tau=rc=gc=vc1,gp=vp1/10; C444 exact source M3 intrinsic-gap ratio"
+      ],
+      "what_was_tried": [
+        "Extended bounded proof field with exact radial h inside/outside core",
+        "Split the same kinetic form, applied full Coulomb Pauli occupation on scalar branch, optimized split",
+        "Carried lower through complete source via a continuous q lower relaxation; then used actual C444 intrinsic gap to establish both correct reference minima"
+      ],
+      "actual_result": {
+        "electronic_lower": "Ee,n>=-[C sqrt(w_n)+(A/2)sqrt(n)]²/(4tau), keep max with original core floor",
+        "generic_complete_neutral_uppers": {
+          "C333": "5733/185",
+          "C343": "5992/185",
+          "C444": "6732/185"
+        },
+        "sharper_complete_C444_N6_upper": "1377/50+(27/5)sqrt2 =35.1767532368147..., versus38.88",
+        "C444_gain": "567/50-(27/5)sqrt2 =3.7032467631853...",
+        "source_gap": "Forq<144,I(q)-282>=(144-q)/3; full lower comparison minimized atq144. Exact separated minimum independentlyq144.",
+        "inventory_extension": "Valid same-source spectral uppers for C444n1..6; finite-core floor can dominate, so no six strict final gains claimed"
+      },
+      "proof_code_receipt_evidence": [
+        "gen/FINITE_CORE_PAULI_WORKING.md",
+        "gen/FINITE_CORE_WHOLE_SOURCE_ADVANCE.md",
+        "gen/C444_FULL_PHASE_REFINEMENT.md",
+        "gen/C444_INVENTORY_EXTENSION.md",
+        "gen/native_FOUR_CORE_BOUND_V2/READBACK.json",
+        "gen/native_FOUR_CORE_WHOLE_V1/READBACK.json",
+        "../../sources/registered/GEN4/volii_pair_source1/REPORT.md",
+        "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/volii_moving_reference1/PROOF.md"
+      ],
+      "assumptions": [
+        "Original nonrelativistic kinetic; C,A>=0,rc,tau>0; spin2; nonnegative full pair law",
+        "Whole-source C444 refinement uses original exact q/I gap ratio; nuclear self retained in both minima"
+      ],
+      "remaining_gap": "No new numerical ionization lower gap. Other inventories/parameters need full contraction of competing spectral/core floors; massive kinetic excluded.",
+      "discriminating_success_failure_check": "Independently verify h radial equation, actual q/I gap ratio, Pauli weights and both minima. Compare exact full neutral upper to38.88 while retaining an existing occupied binding lower. Reject a derivation cancelling q-dependent core self before minimization.",
+      "dependencies": [
+        "FOUR-A01 proof-field method",
+        "Original pair_source1 Pauli/reference law and moving_reference1 source gap"
+      ],
+      "resource_estimate": "Local/CR2 proof and small q-roster contraction2–6hours; exact radicals and <=361 source rows, no massive bank recomputation.",
+      "recommended_route": "CR2",
+      "scientific_value_1_to_5": 5,
+      "feasibility_1_to_5": 4,
+      "ranking_reason": "Improves complete interacting-source enclosures and preserves the energy reference, with a small auditable proof dependency.",
+      "exact_chapter_locations": [
+        {
+          "chapter_id": "XIV",
+          "physical_page_or_inclusive_range": [
+            77,
+            79
+          ],
+          "sections_or_role": "5–7"
+        },
+        {
+          "chapter_id": "XV",
+          "physical_page_or_inclusive_range": [
+            82
+          ],
+          "sections_or_role": "6: inherited exact intrinsic-source gap"
+        }
+      ]
+    },
+    {
+      "id": "FOUR-A04",
+      "peer": "FOUR",
+      "rank": 5,
+      "title": "Logarithmic source cusp improves original occupied orbital uppers",
+      "classification": "new advance",
+      "chapter_ids": [
+        "XIV",
+        "XV"
+      ],
+      "pdf_physical_pages": [
+        77,
+        80
+      ],
+      "claim_or_bottleneck": "The regular r^l exponential basis misses the anisotropic1/r source cusp; rounded variational energies are not whole-space lowers.",
+      "original_source_operands": [
+        "Exact universal h=-Delta-cos(theta)/r after original dilation",
+        "Original four radial scales1/2,1,2,4, all signedm/spin labels and full physical Gram",
+        "Added source-derived l=mabs+1 logarithmic seeds; original family retained"
+      ],
+      "what_was_tried": [
+        "Derived formal local Delta(rlogr cosθ)=3cosθ/r",
+        "Host Ritz discovery regular/log families atL2,4,8,16,24; froze rational witnesses",
+        "Host Arb384 complete gamma/log integrals, actual native G/H contractions and Slater trace(G^-1H)",
+        "Independent direct radial/Legendre quadrature on9selected entries; additional balanced six-electron preparation",
+        "Examined exponential cusp Barta shortcut, found unresolved negative log² local energy"
+      ],
+      "actual_result": {
+        "one_electron_upper": "-0.047352649602211895... versus older-0.04720781977",
+        "six_electron_upper": "-0.163295785696720... versus older-0.1622514908",
+        "prefix_safe_c": [
+          ".04734",
+          ".09469",
+          ".11534",
+          ".13599",
+          ".14964",
+          ".16329"
+        ],
+        "preparation": "Original six-state witness hasM=-2; separately stored time-reversal-pairedM0,Sz0 witness has identical certified energy. No implicit averaging.",
+        "negative_result": "Cusp-only exponential cannot give a uniform Barta lower; homogeneous square lower remains separate."
+      },
+      "proof_code_receipt_evidence": [
+        "gen/CUSP_WORKING.md",
+        "gen/CUSP_PREPARATION_AND_LOWER_ATTEMPT.md",
+        "gen/CUSP_INDEPENDENT_QUADRATURE.json",
+        "gen/CUSP_DISCOVERY.json",
+        "gen/CUSP_OCCUPANCY_DISCOVERY.json",
+        "gen/cusp_witness.json",
+        "gen/cusp_occupancy6_witness.json",
+        "gen/cusp_occupancy6_balanced_witness.json",
+        "gen/native_FOUR_CUSP_V1/READBACK.json",
+        "gen/native_FOUR_CUSP6_V2/READBACK.json",
+        "gen/native_FOUR_CUSP_PANEL_V1/READBACK.json",
+        "gen/native_FOUR_CUSP6_BALANCED_V1/READBACK.json"
+      ],
+      "assumptions": [
+        "Actual point-source operator and spin2 Pauli inventory; complete integrals on(0,infinity); finite fourth moment; no finite-core cusp transfer"
+      ],
+      "remaining_gap": "Local cusp expansion not a full regularity theorem. Host discovery conditioning rises to~258403; frozen directed interval energy is the reliable upper. No new physical ion energy or lower from Ritz convergence.",
+      "discriminating_success_failure_check": "Rebuild raw integrals independently, include same-spin cross Gram, reconstruct balanced/unbalanced Slater energies and show a strict upper improvement. CompareL8/16/24 only as observations, not convergence proof.",
+      "dependencies": [
+        "Original radial_occupancy1 orbitals/normalization",
+        "FOUR-A01 for improved full lower comparison"
+      ],
+      "resource_estimate": "CR2 witness/integral audit2–4hours, largest72x72 one-body pencil; seconds to minutes local. Later interacting enrichment is a separate focused task.",
+      "recommended_route": "CR2",
+      "scientific_value_1_to_5": 4,
+      "feasibility_1_to_5": 4,
+      "ranking_reason": "A real source-preserving energy improvement with actual states; modest size and direct independent integral checks.",
+      "exact_chapter_locations": [
+        {
+          "chapter_id": "XIV",
+          "physical_page_or_inclusive_range": [
+            77
+          ],
+          "sections_or_role": "3: pure-point orbital family"
+        },
+        {
+          "chapter_id": "XV",
+          "physical_page_or_inclusive_range": [
+            80
+          ],
+          "sections_or_role": "2: massive boundary only"
+        }
+      ]
+    },
+    {
+      "id": "FOUR-A03",
+      "peer": "FOUR",
+      "rank": 8,
+      "title": "Sharper directional lower on the exact common quadratic geometry",
+      "classification": "conditional result",
+      "chapter_ids": [
+        "XV"
+      ],
+      "pdf_physical_pages": [
+        80
+      ],
+      "claim_or_bottleneck": "Flat-space directional improvement needs a derivation on the actual lapse metric, not a clock-only substitution.",
+      "original_source_operands": [
+        "Metric ds²=nu^-2dr²+r²dOmega², measure nu^-1r²drdOmega",
+        "Original K_nu=tau nu³ radial+tau nu angular; same scalar/polarization core potential",
+        "Retained geometries nu1,3/4,1/2 and positive pair law"
+      ],
+      "what_was_tried": [
+        "Constructed orthonormal-frame proof field with exact geometric divergence and radial finite-core matching",
+        "Used K_nu>=tau nu³(-Delta) for scalar Pauli comparison and optimized the common kinetic split"
+      ],
+      "actual_result": {
+        "anisotropic_lower": "-A²/[4tau nu(nu+1)²]",
+        "Pauli_lower": "Ee>=-[C sqrt(w_n)+A nu sqrt(n)/(nu+1)]²/(4tau nu³)",
+        "boundary": "This cannot be copied to XV.2 massive square-root kinetic, which is smaller than its quadratic recipient."
+      },
+      "proof_code_receipt_evidence": [
+        "gen/LAPSE_PAULI_WORKING.md",
+        "gen/FORM_PROOF_CROSSCHECK.md",
+        "../../sources/manuscript/src/atoms_02.tex"
+      ],
+      "assumptions": [
+        "0<nu<=1; exact original metric and measure; quadratic kinetic; positive pair law"
+      ],
+      "remaining_gap": "No updated132-account numerical table or ion gap; competing floors/source minima still need contraction.",
+      "discriminating_success_failure_check": "Check divergence in the exact measure, recover1/16 atnu1, and contract the actual q/self references for each geometry. A clock-only or massive transfer fails the test.",
+      "dependencies": [
+        "FOUR-A02 finite-core bound",
+        "Original radial_geometry source"
+      ],
+      "resource_estimate": "Local proof and132 small account contractions1–4hours; no new spectra unless upper witnesses change.",
+      "recommended_route": "small local work",
+      "scientific_value_1_to_5": 3,
+      "feasibility_1_to_5": 4,
+      "ranking_reason": "Extends the new method to the intended common action with a clear kinetic boundary, but final numerical gains remain uncontracted.",
+      "exact_chapter_locations": [
+        {
+          "chapter_id": "XV",
+          "physical_page_or_inclusive_range": [
+            80
+          ],
+          "sections_or_role": "1: quadratic metric/action"
+        }
+      ]
+    }
+  ],
+  "complete_original_documents": {
+    "FOUR": "prior/FOUR/OPPORTUNITIES.json"
+  },
+  "baseline_pdf_sha256": "391450c512bfda11682e5a58b6f3f8d27856cdc4381cd962432ae9d3e521a5f3"
+}

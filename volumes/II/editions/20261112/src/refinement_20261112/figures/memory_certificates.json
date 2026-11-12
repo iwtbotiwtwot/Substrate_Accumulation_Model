@@ -1,0 +1,21 @@
+{
+  "source": "H003005; H003007/TWO-F03 completed chain; models and waits kept separate",
+  "display_data": {
+    "bands": [
+      [
+        3.4208196027e-06,
+        3.4208514025e-06
+      ],
+      [
+        3.41219962633e-06,
+        3.41223131098e-06
+      ],
+      [
+        9.70571116858e-05,
+        0.0002503534522325
+      ]
+    ],
+    "signed_fitted_clock_upper": 7.678577136e-09
+  },
+  "scope": "Typesetting plot of retained operands/formulas; no new scientific execution."
+}

@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "bytes": 3864,
+      "path": "CONTROLS.json",
+      "sha256": "1872924dbb0c848533b9e8b731b9c0d89f244ed8877ba8afbdb9e0d777264b94"
+    },
+    {
+      "bytes": 8375,
+      "path": "DIRECTED_SPECTRUM.json",
+      "sha256": "37afcd00e6ad1a275aa968a43fad3af153d28d4b4a7ad727cfb2e718824d2a51"
+    },
+    {
+      "bytes": 10252,
+      "path": "RATES_AND_SMOOTHING.json",
+      "sha256": "249fe3b50bf2b03b82883f9ea4c756dbe24284515a232c5b89b753fa3ab9a6cf"
+    },
+    {
+      "bytes": 13586,
+      "path": "SCHEDULES.json",
+      "sha256": "acab520ad90e4120b7b9362a2ee6ddbbb64569b02be9c62f94777acd692658a6"
+    },
+    {
+      "bytes": 3682,
+      "path": "SOURCE_READBACK.json",
+      "sha256": "e94fe899510a8ba99a9b14cbadd3599977c5605ce6e19e4cc0ffa720a16ede47"
+    },
+    {
+      "bytes": 647,
+      "path": "SUMMARY.json",
+      "sha256": "f5294fd771464489b096827a06a0f2831b64cbe6ccaa1bafc257c92b23813a78"
+    }
+  ]
+}

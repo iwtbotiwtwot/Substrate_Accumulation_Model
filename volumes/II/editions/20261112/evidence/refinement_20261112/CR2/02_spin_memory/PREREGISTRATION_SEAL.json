@@ -1,0 +1,14 @@
+{
+  "sealed_utc": "2026-11-11T23:22:12.266227+00:00",
+  "scope": "Frozen scientific contract and copied input roster; case lifecycle/report fields remain mutable before admission.",
+  "files": {
+    "TARGET.md": "c5eccba7c4becc51c90fc244a32f23fc2187af595fe06d0fb65173eb026f14f6",
+    "SOURCE_CONTRACT.md": "4fc342c0fde4a0377ff8addddca0fa154f5873e243b944e07eaccf3d0d4bb570",
+    "CLAIMS.json": "4b8f5b814721bb32e6dbb80abf84b624b580a73b0e1776142fd8b36a3cd9c0f3",
+    "CONTROLS.json": "67bcaae6cf5ba15d44e471312a3a3547ba8f4ba9df889d1eeb7686854a95ff36",
+    "PREREGISTRATION.json": "0f627b3ea39250a50bdd4561c4c4377485433961abd0102380bfae1785f37193",
+    "VERIFIER_BRIEF.md": "7637bb7071e381dda3f8d4cb552dc4a9c717332ebeeae7b11158aa6191aaf063",
+    "sources/SOURCE_MANIFEST.json": "31076c032e25821cfac93e40421fe65294b7a2457d284f060799cdebee01ee4e",
+    "RESULTS/INPUT_REFERENCE.json": "0214bf222f01233686afd3c5b478beef7a1060d178c3e68dfc514d426d1616cc"
+  }
+}

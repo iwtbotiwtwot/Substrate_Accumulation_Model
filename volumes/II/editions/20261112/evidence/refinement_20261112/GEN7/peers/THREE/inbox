@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+import json, os, sys
+SOURCES = {'ONE': '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/ONE/outbox.jsonl', 'TWO': '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/TWO/outbox.jsonl', 'FOUR': '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/FOUR/outbox.jsonl', 'OPERATOR': '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/board/OPERATOR.jsonl'}
+CURSOR = '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/THREE/.inbox_cursor.json'
+CLOCK = '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/clock.json'
+show_all = "--all" in sys.argv
+try:
+    seen = json.load(open(CURSOR))
+except Exception:
+    seen = {}
+try:
+    opens = json.load(open(CLOCK)).get("opens")
+except Exception:
+    opens = None
+notes = []
+for who, path in SOURCES.items():
+    try:
+        lines = open(path).read().splitlines()
+    except OSError:
+        lines = []
+    start = 0 if show_all else seen.get(who, 0)
+    for line in lines[start:]:
+        try:
+            notes.append(json.loads(line))
+        except ValueError:
+            pass
+    seen[who] = len(lines)
+notes.sort(key=lambda n: n.get("t", 0))
+for n in notes:
+    when = f"{int(n['t'] - opens)} s into the window" if opens else "before the window"
+    print(f"[{n.get('from')}, {when}] {n.get('text')}")
+if not notes:
+    print("no notes yet" if show_all else "no new notes")
+if not show_all:
+    json.dump(seen, open(CURSOR, "w"))

@@ -1,0 +1,22 @@
+{
+  "claims": {
+    "A01": "HELD",
+    "A02": "HELD",
+    "A03": "HELD",
+    "A04": "HELD",
+    "A05": "HELD WITH CORRECTION"
+  },
+  "controls": {
+    "AF01": "DETECTED_AS_PREDICTED",
+    "AF02": "DETECTED_AS_PREDICTED",
+    "AF03": "DETECTED_AS_PREDICTED"
+  },
+  "full_domain_evidence": "DERIVATION.md",
+  "numeric_methods": [
+    "exact rational symbolic identities",
+    "exact rational outward transcendental enclosures"
+  ],
+  "schema": "FORM_REPLAY_SUMMARY_V1",
+  "status": "PASS",
+  "unresolved_assigned_substatements": []
+}

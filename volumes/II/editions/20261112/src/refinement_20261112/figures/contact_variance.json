@@ -1,0 +1,13 @@
+{
+  "source": "GEN7 FOUR-C01/C02 / isolated frozen contact and centered held Gaussian law",
+  "display_data": {
+    "isolated_transfers": [
+      0.005208333333333333,
+      0.005154454667189959
+    ],
+    "variance_slope": 0.18892416368715884,
+    "variance_intercept": 0.0602243080181399,
+    "variance16": 3.0830109270126815
+  },
+  "scope": "Typesetting plot of retained operands/formulas; no new scientific execution."
+}

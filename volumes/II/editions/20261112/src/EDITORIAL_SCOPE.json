@@ -1,0 +1,22 @@
+{
+  "edition": "20261110_source_and_formation",
+  "baseline_pdf": "../../../pdf/SAM_Volume_II_20261105_authorship_draft.pdf",
+  "main_chapters": 19,
+  "appendices": [
+    "Conditional reservoirs, clocks and thermal formation",
+    "Evidence and scope of the November revision"
+  ],
+  "expanded_chapters": [
+    11,
+    12,
+    16
+  ],
+  "new_scientific_runs": 0,
+  "originals_preserved": true,
+  "authorship": "Sean Brady",
+  "new_ai_credit": false,
+  "scope": "Verified He3/free-reference/covariance/Li6 inputs; conditional latest receiving/formation constructions clearly distinguished.",
+  "minor_context_update_chapters": [
+    5
+  ]
+}

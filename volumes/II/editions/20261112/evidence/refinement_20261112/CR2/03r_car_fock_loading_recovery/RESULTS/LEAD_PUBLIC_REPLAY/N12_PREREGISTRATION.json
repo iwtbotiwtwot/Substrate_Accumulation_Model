@@ -1,0 +1,22 @@
+{
+  "sealed_utc": "2026-11-12T00:41:44.838197+00:00",
+  "form": "engineering_replay",
+  "script": "peers/N12/replay.py",
+  "script_sha256": "abec7e3e6e03fd0e1578b4b7e16c17df0174de1195f449db9e91aa8d2f96e758",
+  "guard_sha256": "c96cf2a8b88cbc7c8dc20cd905c7466948e7339f60f345c394c6e024b525617c",
+  "case": "/tmp/volii_car_public_20261112T004141Z",
+  "argv": [
+    "--out",
+    "/tmp/volii_car_public_20261112T004141Z/lead_output_N12"
+  ],
+  "expected_output_sha256": {
+    "controls.json": "13fc9e3cdd50f2871cbc5149231e18e80308e31ce82f3b178855c7ccd9219426",
+    "energy_loading.json": "7aa1893c39eb483d5a84435cad738f125dbf31e5a1dd0951f2537cdb7ae69213",
+    "flavor_source.json": "fd768c20e7770aed409806543a3616905b49382401930ccc8a8354e58497c087",
+    "occupancy.json": "0b095ffb0130cd4066e8e29255a27afc7baa834b72c82327fbc587c425c04d25",
+    "summary.json": "3fb7d7cdb940c7f91bece339416e50d9be97c0c85885018b20ae18139d23f261",
+    "targets.json": "5ade0cca3445384a2bc3ada82f308f00778b8b9ca262421a6c7230b328a9546a",
+    "OUTPUT_MANIFEST.json": "d609d0f696eeef27514df0c9ec2d6436ab35b3c344aa1388a2c5d12f70c6ebae"
+  },
+  "criteria": "Every declared deterministic file byte-matches; all Python data reads remain public-case/standard-library/scientific-venv bound. Written proof and complete code review are separate."
+}

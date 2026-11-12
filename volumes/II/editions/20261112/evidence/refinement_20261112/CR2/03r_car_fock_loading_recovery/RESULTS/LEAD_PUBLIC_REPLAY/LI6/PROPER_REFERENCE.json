@@ -1,0 +1,5026 @@
+{
+  "PSD_evaluated_at": "735/44",
+  "channels": [
+    {
+      "certified_lower_at_point": "-72",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 216,
+      "sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-96",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 242,
+      "sizes": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-96",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 288,
+      "sizes": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 340,
+      "sizes": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-96",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 288,
+      "sizes": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 340,
+      "sizes": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-96",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 288,
+      "sizes": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 314,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 432,
+      "sizes": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 360,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-212",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 510,
+      "sizes": [
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-96",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 242,
+      "sizes": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 268,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 314,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 366,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ]
+      ],
+      "potential_numerator": 340,
+      "sizes": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 360,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-212",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          0
+        ]
+      ],
+      "potential_numerator": 464,
+      "sizes": [
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 360,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 412,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 340,
+      "sizes": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 366,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-212",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          2,
+          0
+        ]
+      ],
+      "potential_numerator": 510,
+      "sizes": [
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 504,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 412,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-728/3",
+      "fragments": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          2,
+          0
+        ]
+      ],
+      "potential_numerator": 660,
+      "sizes": [
+        5,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-96",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "potential_numerator": 288,
+      "sizes": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          1
+        ]
+      ],
+      "potential_numerator": 340,
+      "sizes": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-96",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 288,
+      "sizes": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 314,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ]
+      ],
+      "potential_numerator": 432,
+      "sizes": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 360,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-212",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          1
+        ]
+      ],
+      "potential_numerator": 510,
+      "sizes": [
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-96",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 288,
+      "sizes": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 314,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 360,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 412,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ]
+      ],
+      "potential_numerator": 432,
+      "sizes": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 360,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-212",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          1
+        ]
+      ],
+      "potential_numerator": 510,
+      "sizes": [
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 360,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 412,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "potential_numerator": 360,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          1
+        ]
+      ],
+      "potential_numerator": 412,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 432,
+      "sizes": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 458,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-212",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "potential_numerator": 648,
+      "sizes": [
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 504,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ]
+      ],
+      "potential_numerator": 504,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 504,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-728/3",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          1,
+          1
+        ]
+      ],
+      "potential_numerator": 752,
+      "sizes": [
+        5,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 360,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 412,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 360,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 386,
+      "sizes": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 504,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 432,
+      "sizes": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "certified_lower_at_point": "-236",
+      "fragments": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 582,
+      "sizes": [
+        4,
+        2
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "potential_numerator": 314,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          1
+        ]
+      ],
+      "potential_numerator": 366,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-120",
+      "fragments": [
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 314,
+      "sizes": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 340,
+      "sizes": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ]
+      ],
+      "potential_numerator": 458,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 386,
+      "sizes": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "certified_lower_at_point": "-236",
+      "fragments": [
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          1
+        ]
+      ],
+      "potential_numerator": 536,
+      "sizes": [
+        4,
+        2
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 340,
+      "sizes": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 366,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 412,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-216",
+      "fragments": [
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 464,
+      "sizes": [
+        3,
+        3
+      ]
+    },
+    {
+      "certified_lower_at_point": "-212",
+      "fragments": [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          1
+        ]
+      ],
+      "potential_numerator": 510,
+      "sizes": [
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ]
+      ],
+      "potential_numerator": 412,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ]
+      ],
+      "potential_numerator": 504,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-728/3",
+      "fragments": [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          1
+        ]
+      ],
+      "potential_numerator": 660,
+      "sizes": [
+        5,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ]
+      ],
+      "potential_numerator": 412,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 432,
+      "sizes": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "certified_lower_at_point": "-236",
+      "fragments": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          2,
+          0
+        ]
+      ],
+      "potential_numerator": 536,
+      "sizes": [
+        4,
+        2
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ]
+      ],
+      "potential_numerator": 504,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-144",
+      "fragments": [
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 432,
+      "sizes": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "certified_lower_at_point": "-236",
+      "fragments": [
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          1
+        ]
+      ],
+      "potential_numerator": 582,
+      "sizes": [
+        4,
+        2
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 504,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-216",
+      "fragments": [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 556,
+      "sizes": [
+        3,
+        3
+      ]
+    },
+    {
+      "certified_lower_at_point": "-168",
+      "fragments": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "potential_numerator": 412,
+      "sizes": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-216",
+      "fragments": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          1
+        ]
+      ],
+      "potential_numerator": 464,
+      "sizes": [
+        3,
+        3
+      ]
+    },
+    {
+      "certified_lower_at_point": "-212",
+      "fragments": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 510,
+      "sizes": [
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-236",
+      "fragments": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 536,
+      "sizes": [
+        4,
+        2
+      ]
+    },
+    {
+      "certified_lower_at_point": "-728/3",
+      "fragments": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          2,
+          1
+        ]
+      ],
+      "potential_numerator": 752,
+      "sizes": [
+        5,
+        1
+      ]
+    },
+    {
+      "certified_lower_at_point": "-236",
+      "fragments": [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          2,
+          0
+        ]
+      ],
+      "potential_numerator": 582,
+      "sizes": [
+        4,
+        2
+      ]
+    },
+    {
+      "certified_lower_at_point": "-236",
+      "fragments": [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "potential_numerator": 720,
+      "sizes": [
+        4,
+        2
+      ]
+    },
+    {
+      "certified_lower_at_point": "-216",
+      "fragments": [
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "potential_numerator": 648,
+      "sizes": [
+        3,
+        3
+      ]
+    },
+    {
+      "certified_lower_at_point": "-216",
+      "fragments": [
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ]
+      ],
+      "potential_numerator": 556,
+      "sizes": [
+        3,
+        3
+      ]
+    },
+    {
+      "certified_lower_at_point": "-236",
+      "fragments": [
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "potential_numerator": 582,
+      "sizes": [
+        4,
+        2
+      ]
+    }
+  ],
+  "condition": "735/44",
+  "enumerated_determinants": 60712,
+  "finite_flavor_sectors": {
+    "(0, 0, 0, 1)": {
+      "dimension": 8,
+      "maximizer_count": 8,
+      "maximum_numerator": 36,
+      "population": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "potential_histogram": {
+        "36": 8
+      }
+    },
+    "(0, 0, 1, 0)": {
+      "dimension": 8,
+      "maximizer_count": 8,
+      "maximum_numerator": 36,
+      "population": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "potential_histogram": {
+        "36": 8
+      }
+    },
+    "(0, 0, 1, 1)": {
+      "dimension": 64,
+      "maximizer_count": 8,
+      "maximum_numerator": 144,
+      "population": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "potential_histogram": {
+        "144": 8,
+        "84": 8,
+        "88": 24,
+        "98": 24
+      }
+    },
+    "(0, 0, 2, 0)": {
+      "dimension": 28,
+      "maximizer_count": 12,
+      "maximum_numerator": 98,
+      "population": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "potential_histogram": {
+        "84": 4,
+        "88": 12,
+        "98": 12
+      }
+    },
+    "(0, 0, 2, 1)": {
+      "dimension": 224,
+      "maximizer_count": 24,
+      "maximum_numerator": 232,
+      "population": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "potential_histogram": {
+        "156": 24,
+        "162": 72,
+        "176": 72,
+        "204": 8,
+        "212": 24,
+        "232": 24
+      }
+    },
+    "(0, 1, 0, 0)": {
+      "dimension": 8,
+      "maximizer_count": 8,
+      "maximum_numerator": 36,
+      "population": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "potential_histogram": {
+        "36": 8
+      }
+    },
+    "(0, 1, 0, 1)": {
+      "dimension": 64,
+      "maximizer_count": 8,
+      "maximum_numerator": 144,
+      "population": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "potential_histogram": {
+        "144": 8,
+        "84": 8,
+        "88": 24,
+        "98": 24
+      }
+    },
+    "(0, 1, 1, 0)": {
+      "dimension": 64,
+      "maximizer_count": 8,
+      "maximum_numerator": 144,
+      "population": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "potential_histogram": {
+        "144": 8,
+        "84": 8,
+        "88": 24,
+        "98": 24
+      }
+    },
+    "(0, 1, 1, 1)": {
+      "dimension": 512,
+      "maximizer_count": 8,
+      "maximum_numerator": 324,
+      "population": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "potential_histogram": {
+        "156": 48,
+        "162": 144,
+        "176": 144,
+        "204": 24,
+        "212": 72,
+        "232": 72,
+        "324": 8
+      }
+    },
+    "(0, 1, 2, 0)": {
+      "dimension": 224,
+      "maximizer_count": 24,
+      "maximum_numerator": 232,
+      "population": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "potential_histogram": {
+        "156": 24,
+        "162": 72,
+        "176": 72,
+        "204": 8,
+        "212": 24,
+        "232": 24
+      }
+    },
+    "(0, 1, 2, 1)": {
+      "dimension": 1792,
+      "maximizer_count": 24,
+      "maximum_numerator": 438,
+      "population": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "potential_histogram": {
+        "240": 24,
+        "252": 72,
+        "256": 288,
+        "266": 288,
+        "270": 96,
+        "280": 72,
+        "296": 120,
+        "298": 120,
+        "308": 120,
+        "312": 120,
+        "326": 240,
+        "336": 128,
+        "352": 24,
+        "392": 24,
+        "396": 8,
+        "408": 24,
+        "438": 24
+      }
+    },
+    "(1, 0, 0, 0)": {
+      "dimension": 8,
+      "maximizer_count": 8,
+      "maximum_numerator": 36,
+      "population": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "potential_histogram": {
+        "36": 8
+      }
+    },
+    "(1, 0, 0, 1)": {
+      "dimension": 64,
+      "maximizer_count": 8,
+      "maximum_numerator": 144,
+      "population": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "potential_histogram": {
+        "144": 8,
+        "84": 8,
+        "88": 24,
+        "98": 24
+      }
+    },
+    "(1, 0, 1, 0)": {
+      "dimension": 64,
+      "maximizer_count": 8,
+      "maximum_numerator": 144,
+      "population": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "potential_histogram": {
+        "144": 8,
+        "84": 8,
+        "88": 24,
+        "98": 24
+      }
+    },
+    "(1, 0, 1, 1)": {
+      "dimension": 512,
+      "maximizer_count": 8,
+      "maximum_numerator": 324,
+      "population": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "potential_histogram": {
+        "156": 48,
+        "162": 144,
+        "176": 144,
+        "204": 24,
+        "212": 72,
+        "232": 72,
+        "324": 8
+      }
+    },
+    "(1, 0, 2, 0)": {
+      "dimension": 224,
+      "maximizer_count": 24,
+      "maximum_numerator": 232,
+      "population": [
+        1,
+        0,
+        2,
+        0
+      ],
+      "potential_histogram": {
+        "156": 24,
+        "162": 72,
+        "176": 72,
+        "204": 8,
+        "212": 24,
+        "232": 24
+      }
+    },
+    "(1, 0, 2, 1)": {
+      "dimension": 1792,
+      "maximizer_count": 24,
+      "maximum_numerator": 438,
+      "population": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "potential_histogram": {
+        "240": 24,
+        "252": 72,
+        "256": 288,
+        "266": 288,
+        "270": 96,
+        "280": 72,
+        "296": 120,
+        "298": 120,
+        "308": 120,
+        "312": 120,
+        "326": 240,
+        "336": 128,
+        "352": 24,
+        "392": 24,
+        "396": 8,
+        "408": 24,
+        "438": 24
+      }
+    },
+    "(1, 1, 0, 0)": {
+      "dimension": 64,
+      "maximizer_count": 8,
+      "maximum_numerator": 144,
+      "population": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "potential_histogram": {
+        "144": 8,
+        "84": 8,
+        "88": 24,
+        "98": 24
+      }
+    },
+    "(1, 1, 0, 1)": {
+      "dimension": 512,
+      "maximizer_count": 8,
+      "maximum_numerator": 324,
+      "population": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "potential_histogram": {
+        "156": 48,
+        "162": 144,
+        "176": 144,
+        "204": 24,
+        "212": 72,
+        "232": 72,
+        "324": 8
+      }
+    },
+    "(1, 1, 1, 0)": {
+      "dimension": 512,
+      "maximizer_count": 8,
+      "maximum_numerator": 324,
+      "population": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "potential_histogram": {
+        "156": 48,
+        "162": 144,
+        "176": 144,
+        "204": 24,
+        "212": 72,
+        "232": 72,
+        "324": 8
+      }
+    },
+    "(1, 1, 1, 1)": {
+      "PTP": 24,
+      "PTQTP": [
+        [
+          "48",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "48",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "48",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "48",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "48",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "48",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "48",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "48"
+        ]
+      ],
+      "QTQ_free_floor": 0,
+      "dimension": 4096,
+      "first_Q_image_rows": 96,
+      "gap_numerator": 138,
+      "maximizer_count": 8,
+      "maximum_numerator": 576,
+      "population": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "potential_histogram": {
+        "240": 48,
+        "252": 144,
+        "256": 576,
+        "266": 576,
+        "270": 192,
+        "280": 144,
+        "296": 288,
+        "298": 288,
+        "308": 288,
+        "312": 288,
+        "326": 576,
+        "336": 312,
+        "352": 72,
+        "392": 72,
+        "396": 32,
+        "408": 96,
+        "438": 96,
+        "576": 8
+      }
+    },
+    "(1, 1, 2, 0)": {
+      "dimension": 1792,
+      "maximizer_count": 24,
+      "maximum_numerator": 438,
+      "population": [
+        1,
+        1,
+        2,
+        0
+      ],
+      "potential_histogram": {
+        "240": 24,
+        "252": 72,
+        "256": 288,
+        "266": 288,
+        "270": 96,
+        "280": 72,
+        "296": 120,
+        "298": 120,
+        "308": 120,
+        "312": 120,
+        "326": 240,
+        "336": 128,
+        "352": 24,
+        "392": 24,
+        "396": 8,
+        "408": 24,
+        "438": 24
+      }
+    },
+    "(1, 1, 2, 1)": {
+      "PTP": 30,
+      "PTQTP": [
+        [
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52"
+        ]
+      ],
+      "QTQ_free_floor": 4,
+      "dimension": 14336,
+      "first_Q_image_rows": 264,
+      "gap_numerator": 40,
+      "maximizer_count": 24,
+      "maximum_numerator": 716,
+      "population": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "potential_histogram": {
+        "366": 480,
+        "372": 1440,
+        "386": 1440,
+        "396": 216,
+        "408": 648,
+        "414": 648,
+        "422": 1296,
+        "428": 1944,
+        "436": 648,
+        "442": 1296,
+        "452": 288,
+        "456": 1152,
+        "464": 288,
+        "484": 288,
+        "492": 288,
+        "506": 168,
+        "508": 168,
+        "512": 576,
+        "526": 168,
+        "534": 168,
+        "540": 24,
+        "548": 336,
+        "564": 72,
+        "568": 168,
+        "624": 72,
+        "660": 8,
+        "676": 24,
+        "716": 24
+      }
+    },
+    "(2, 0, 0, 0)": {
+      "dimension": 28,
+      "maximizer_count": 12,
+      "maximum_numerator": 98,
+      "population": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "potential_histogram": {
+        "84": 4,
+        "88": 12,
+        "98": 12
+      }
+    },
+    "(2, 0, 0, 1)": {
+      "dimension": 224,
+      "maximizer_count": 24,
+      "maximum_numerator": 232,
+      "population": [
+        2,
+        0,
+        0,
+        1
+      ],
+      "potential_histogram": {
+        "156": 24,
+        "162": 72,
+        "176": 72,
+        "204": 8,
+        "212": 24,
+        "232": 24
+      }
+    },
+    "(2, 0, 1, 0)": {
+      "dimension": 224,
+      "maximizer_count": 24,
+      "maximum_numerator": 232,
+      "population": [
+        2,
+        0,
+        1,
+        0
+      ],
+      "potential_histogram": {
+        "156": 24,
+        "162": 72,
+        "176": 72,
+        "204": 8,
+        "212": 24,
+        "232": 24
+      }
+    },
+    "(2, 0, 1, 1)": {
+      "dimension": 1792,
+      "maximizer_count": 24,
+      "maximum_numerator": 438,
+      "population": [
+        2,
+        0,
+        1,
+        1
+      ],
+      "potential_histogram": {
+        "240": 24,
+        "252": 72,
+        "256": 288,
+        "266": 288,
+        "270": 96,
+        "280": 72,
+        "296": 120,
+        "298": 120,
+        "308": 120,
+        "312": 120,
+        "326": 240,
+        "336": 128,
+        "352": 24,
+        "392": 24,
+        "396": 8,
+        "408": 24,
+        "438": 24
+      }
+    },
+    "(2, 0, 2, 0)": {
+      "dimension": 784,
+      "maximizer_count": 12,
+      "maximum_numerator": 392,
+      "population": [
+        2,
+        0,
+        2,
+        0
+      ],
+      "potential_histogram": {
+        "240": 12,
+        "252": 36,
+        "256": 144,
+        "266": 144,
+        "270": 48,
+        "280": 36,
+        "296": 48,
+        "298": 48,
+        "308": 48,
+        "312": 48,
+        "326": 96,
+        "336": 52,
+        "352": 12,
+        "392": 12
+      }
+    },
+    "(2, 0, 2, 1)": {
+      "dimension": 6272,
+      "maximizer_count": 24,
+      "maximum_numerator": 624,
+      "population": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "potential_histogram": {
+        "366": 240,
+        "372": 720,
+        "386": 720,
+        "396": 96,
+        "408": 288,
+        "414": 288,
+        "422": 576,
+        "428": 864,
+        "436": 288,
+        "442": 576,
+        "452": 120,
+        "456": 504,
+        "464": 120,
+        "484": 120,
+        "492": 120,
+        "506": 48,
+        "508": 48,
+        "512": 240,
+        "526": 48,
+        "534": 48,
+        "540": 8,
+        "548": 96,
+        "564": 24,
+        "568": 48,
+        "624": 24
+      }
+    },
+    "(2, 1, 0, 0)": {
+      "dimension": 224,
+      "maximizer_count": 24,
+      "maximum_numerator": 232,
+      "population": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "potential_histogram": {
+        "156": 24,
+        "162": 72,
+        "176": 72,
+        "204": 8,
+        "212": 24,
+        "232": 24
+      }
+    },
+    "(2, 1, 0, 1)": {
+      "dimension": 1792,
+      "maximizer_count": 24,
+      "maximum_numerator": 438,
+      "population": [
+        2,
+        1,
+        0,
+        1
+      ],
+      "potential_histogram": {
+        "240": 24,
+        "252": 72,
+        "256": 288,
+        "266": 288,
+        "270": 96,
+        "280": 72,
+        "296": 120,
+        "298": 120,
+        "308": 120,
+        "312": 120,
+        "326": 240,
+        "336": 128,
+        "352": 24,
+        "392": 24,
+        "396": 8,
+        "408": 24,
+        "438": 24
+      }
+    },
+    "(2, 1, 1, 0)": {
+      "dimension": 1792,
+      "maximizer_count": 24,
+      "maximum_numerator": 438,
+      "population": [
+        2,
+        1,
+        1,
+        0
+      ],
+      "potential_histogram": {
+        "240": 24,
+        "252": 72,
+        "256": 288,
+        "266": 288,
+        "270": 96,
+        "280": 72,
+        "296": 120,
+        "298": 120,
+        "308": 120,
+        "312": 120,
+        "326": 240,
+        "336": 128,
+        "352": 24,
+        "392": 24,
+        "396": 8,
+        "408": 24,
+        "438": 24
+      }
+    },
+    "(2, 1, 1, 1)": {
+      "PTP": 30,
+      "PTQTP": [
+        [
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "52"
+        ]
+      ],
+      "QTQ_free_floor": 4,
+      "dimension": 14336,
+      "first_Q_image_rows": 264,
+      "gap_numerator": 40,
+      "maximizer_count": 24,
+      "maximum_numerator": 716,
+      "population": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "potential_histogram": {
+        "366": 480,
+        "372": 1440,
+        "386": 1440,
+        "396": 216,
+        "408": 648,
+        "414": 648,
+        "422": 1296,
+        "428": 1944,
+        "436": 648,
+        "442": 1296,
+        "452": 288,
+        "456": 1152,
+        "464": 288,
+        "484": 288,
+        "492": 288,
+        "506": 168,
+        "508": 168,
+        "512": 576,
+        "526": 168,
+        "534": 168,
+        "540": 24,
+        "548": 336,
+        "564": 72,
+        "568": 168,
+        "624": 72,
+        "660": 8,
+        "676": 24,
+        "716": 24
+      }
+    },
+    "(2, 1, 2, 0)": {
+      "dimension": 6272,
+      "maximizer_count": 24,
+      "maximum_numerator": 624,
+      "population": [
+        2,
+        1,
+        2,
+        0
+      ],
+      "potential_histogram": {
+        "366": 240,
+        "372": 720,
+        "386": 720,
+        "396": 96,
+        "408": 288,
+        "414": 288,
+        "422": 576,
+        "428": 864,
+        "436": 288,
+        "442": 576,
+        "452": 120,
+        "456": 504,
+        "464": 120,
+        "484": 120,
+        "492": 120,
+        "506": 48,
+        "508": 48,
+        "512": 240,
+        "526": 48,
+        "534": 48,
+        "540": 8,
+        "548": 96,
+        "564": 24,
+        "568": 48,
+        "624": 24
+      }
+    }
+  },
+  "five_particle_PSD_diagonal": [
+    22,
+    "26/11"
+  ],
+  "off_diagonal_squared": 52,
+  "point": 35,
+  "proper_lower": "-728/3",
+  "summary": {
+    "1+1+1+1+1+1": {
+      "count": 1,
+      "worst": 216
+    },
+    "2+1+1+1+1": {
+      "count": 8,
+      "worst": 288
+    },
+    "2+2+1+1": {
+      "count": 17,
+      "worst": 360
+    },
+    "2+2+2": {
+      "count": 6,
+      "worst": 432
+    },
+    "3+1+1+1": {
+      "count": 10,
+      "worst": 432
+    },
+    "3+2+1": {
+      "count": 24,
+      "worst": 504
+    },
+    "3+3": {
+      "count": 5,
+      "worst": 648
+    },
+    "4+1+1": {
+      "count": 8,
+      "worst": 648
+    },
+    "4+2": {
+      "count": 8,
+      "worst": 720
+    },
+    "5+1": {
+      "count": 4,
+      "worst": 752
+    }
+  }
+}

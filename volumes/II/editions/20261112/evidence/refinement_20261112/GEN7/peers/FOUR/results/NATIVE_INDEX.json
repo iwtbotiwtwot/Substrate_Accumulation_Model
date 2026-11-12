@@ -1,0 +1,192 @@
+{
+  "FOUR_DP_GRAM_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "a18c6e3cfd15300a67490155de05766fc5dd15489e8b5b8d5c794a93315a0ba2",
+    "return_sha256": "035fa6eacff2f8959bebca3a17f59090b96074929b6af4181e8a763614bae00a",
+    "complete_record_sha256": "035fa6eacff2f8959bebca3a17f59090b96074929b6af4181e8a763614bae00a",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_DP_GRAM_V1.json",
+    "completed_utc": "2026-11-12T04:45:33.869312+00:00",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "native_calls": null
+  },
+  "FOUR_REFERENCE_BANK_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "25ae0ba5e577c65c4a696950c8f3be974dc4975ba440b49f80d8c873cceb25f8",
+    "return_sha256": "e7ea62783729d77adabc2ee4dff1ae7c799b164d659ba4d783a9599034b5e737",
+    "complete_record_sha256": "25ae0ba5e577c65c4a696950c8f3be974dc4975ba440b49f80d8c873cceb25f8",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_REFERENCE_BANK_V1/RESULT.json",
+    "completed_utc": "2026-11-12T04:45:34.634826+00:00",
+    "operation": "GEN3_COMPLEX_PRODUCT",
+    "native_calls": null
+  },
+  "FOUR_ANCHOR_SOLVE_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "58f62a80e5061055154bbc71c90169415c99eab7076a9ec2d1347b62c3d035e4",
+    "return_sha256": "78632144279b32764f2749204c2505a028a72726c53685c19a59e568edf9d80d",
+    "complete_record_sha256": "78632144279b32764f2749204c2505a028a72726c53685c19a59e568edf9d80d",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_ANCHOR_SOLVE_V1.json",
+    "completed_utc": "2026-11-12T04:45:34.806486+00:00",
+    "operation": "GEN3_COMPLEX_SOLVE",
+    "native_calls": null
+  },
+  "FOUR_HE3_CHART_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "0f5bf473b1c5c0afffd090b60275fe83cf6d1a5411b66e62a3affb20e8c23e87",
+    "return_sha256": "13871dad289b8ed46a5154f72ba5d350bf65373702c2aa7bb0811d46a06e495c",
+    "complete_record_sha256": "13871dad289b8ed46a5154f72ba5d350bf65373702c2aa7bb0811d46a06e495c",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_HE3_CHART_V1.json",
+    "completed_utc": "2026-11-12T04:45:35.043285+00:00",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "native_calls": null
+  },
+  "FOUR_HE3_POINTWISE_V2": {
+    "status": "COMPLETED",
+    "receipt_sha256": "f0ee0dc1df66910fd69fb530fc19db9e75079ee350768076f491590042f02a94",
+    "return_sha256": "1b0e74f2973b4ca4462e7053e7e5336b8296a7f960a6d2c385d59a9e17cb2266",
+    "complete_record_sha256": "1b0e74f2973b4ca4462e7053e7e5336b8296a7f960a6d2c385d59a9e17cb2266",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_HE3_POINTWISE_V2.json",
+    "completed_utc": "2026-11-12T04:58:33.404954+00:00",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "native_calls": null
+  },
+  "FOUR_HE3_BROKEN_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "4fa6884caf0b1438b58845d5388421ceb14f1654369e18409e5aacd2f077640e",
+    "return_sha256": "563a9552a9dc601e7adc33ef7362e82c36a44aded1b758441f2b5f363996bbec",
+    "complete_record_sha256": "563a9552a9dc601e7adc33ef7362e82c36a44aded1b758441f2b5f363996bbec",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_HE3_BROKEN_V1.json",
+    "completed_utc": "2026-11-12T04:58:33.550323+00:00",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "native_calls": null
+  },
+  "FOUR_ROLE_ENTROPY_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "232f240bb408cc6a9147107af6c8642dbd795582553d538c5765d28c2a6ba248",
+    "return_sha256": "a0c34fa81064b4728d565cfe192c2dfe8ba1d51f6464200a661a3dd37373654b",
+    "complete_record_sha256": "a0c34fa81064b4728d565cfe192c2dfe8ba1d51f6464200a661a3dd37373654b",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_ROLE_ENTROPY_V1.json",
+    "completed_utc": "2026-11-12T04:58:34.136740+00:00",
+    "operation": "GEN5_ENTROPY",
+    "native_calls": null
+  },
+  "FOUR_GRAMMAR_FIBERS_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "97595973710cdf3aca237a68c9ff716a38460e7db75a6cdc54752a3a25218a01",
+    "return_sha256": "f044b00839fe2187cf311bcea4fa62b96464699eb823a492e6d0c8e9ec835edd",
+    "complete_record_sha256": "f044b00839fe2187cf311bcea4fa62b96464699eb823a492e6d0c8e9ec835edd",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_GRAMMAR_FIBERS_V1.json",
+    "completed_utc": "2026-11-12T04:47:30.620902+00:00",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "native_calls": null
+  },
+  "FOUR_REFERENCE_BROKEN_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "1d64f84143dcd3faa1891d6d72ac7006a9fdd16b264a89b64cd6802ab4468289",
+    "return_sha256": "01ff66b3ab061a6cbe5598736c069abcec001b7955cd5c499359e23b7f7cfc62",
+    "complete_record_sha256": "01ff66b3ab061a6cbe5598736c069abcec001b7955cd5c499359e23b7f7cfc62",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_REFERENCE_BROKEN_V1.json",
+    "completed_utc": "2026-11-12T04:47:30.895219+00:00",
+    "operation": "GEN3_COMPLEX_PRODUCT",
+    "native_calls": null
+  },
+  "FOUR_DP_BROKEN_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "19e156a6d8f40ee0e698f4aaf19d679cb67e77b351a38229b44a5f1fcac91804",
+    "return_sha256": "8d6d28464d93ebf68fa17476389f2371158a0ea917733df8883dfc37f6ac1e53",
+    "complete_record_sha256": "8d6d28464d93ebf68fa17476389f2371158a0ea917733df8883dfc37f6ac1e53",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_DP_BROKEN_V1.json",
+    "completed_utc": "2026-11-12T04:47:30.515049+00:00",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "native_calls": null
+  },
+  "FOUR_WAVE_MOMENTS_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "c7133ec5dc1392ce721939f94ccf4732172cf2d66cbe36d48154e909ad6e1c48",
+    "return_sha256": "339490780804a6b3e07f54f41a0eb8466d53690ace3c202d8e97e8210127963e",
+    "complete_record_sha256": "339490780804a6b3e07f54f41a0eb8466d53690ace3c202d8e97e8210127963e",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_WAVE_MOMENTS_V1.json",
+    "completed_utc": "2026-11-12T04:45:37.855367+00:00",
+    "operation": "GEN3_COMPLEX_PRODUCT",
+    "native_calls": null
+  },
+  "FOUR_WAVE_BROKEN_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "ac31f2643b254bd558bbe3523a4cb09e3d0fef65249cc42c66700577c6bc0df0",
+    "return_sha256": "444c44364090c7942b30d33d614f267d4b6333a675225aeb827c6da0c8a08ae3",
+    "complete_record_sha256": "444c44364090c7942b30d33d614f267d4b6333a675225aeb827c6da0c8a08ae3",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_WAVE_BROKEN_V1.json",
+    "completed_utc": "2026-11-12T04:45:38.132493+00:00",
+    "operation": "GEN3_COMPLEX_PRODUCT",
+    "native_calls": null
+  },
+  "FOUR_WAVE_REBUILD_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "dac6a2f79f6fc4fb123d19814fab7a5ee3ef11ed277fc583933305fa033c1c97",
+    "return_sha256": "a4099341b420691aca5e85973fcd1e050110305b002e2cd7259312b6e21ea674",
+    "complete_record_sha256": "a4099341b420691aca5e85973fcd1e050110305b002e2cd7259312b6e21ea674",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_WAVE_REBUILD_V1.json",
+    "completed_utc": "2026-11-12T04:45:37.707363+00:00",
+    "operation": "GEN3_MODULAR_QUANTUM_WAVE_HISTORY",
+    "native_calls": null
+  },
+  "FOUR_DICTIONARY_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "69c7aa43f641fc27db98c4ab60395fd09887c510af7b53c65c637e36a2b0e1de",
+    "return_sha256": "be1db4b75bb480db99f00ff199acddb7675930097f01f623af7f01ffde278b52",
+    "complete_record_sha256": "be1db4b75bb480db99f00ff199acddb7675930097f01f623af7f01ffde278b52",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_DICTIONARY_V1.json",
+    "completed_utc": "2026-11-12T04:47:37.197939+00:00",
+    "operation": "GEN6_NATIVE_PROGRAM",
+    "native_calls": 5
+  },
+  "FOUR_CONTACT_TRANSFER_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "21118348bc2ee9b3bff6b7b0becbe173843629e11644fddedab031f65b06f92c",
+    "return_sha256": "83742cb243cb33ddfb8db25676b3bca5a0b27ffe3548574077780075ddef2bee",
+    "complete_record_sha256": "83742cb243cb33ddfb8db25676b3bca5a0b27ffe3548574077780075ddef2bee",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_CONTACT_TRANSFER_V1.json",
+    "completed_utc": "2026-11-12T04:47:32.731766+00:00",
+    "operation": "GEN6_NATIVE_PROGRAM",
+    "native_calls": 5
+  },
+  "FOUR_RICE_SCHUR_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "03a9a3a0a9110a145441e3213d30b18b1c2a55dc22524b9bab09d4bdcabe22be",
+    "return_sha256": "301dc44aa7d8536a02f845803bdeb419d82b5faa927507d48e28855523af3198",
+    "complete_record_sha256": "301dc44aa7d8536a02f845803bdeb419d82b5faa927507d48e28855523af3198",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_RICE_SCHUR_V1.json",
+    "completed_utc": "2026-11-12T04:47:31.142572+00:00",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "native_calls": null
+  },
+  "FOUR_RICE_BROKEN_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "246338fb93126600e778a47e440f9c360da694419a2d3a536463a58ce6854d7c",
+    "return_sha256": "36fd057261572a7ba5e034bcd0c2d9bd7a853f7ddb3f7425b60623a1cfc5f669",
+    "complete_record_sha256": "36fd057261572a7ba5e034bcd0c2d9bd7a853f7ddb3f7425b60623a1cfc5f669",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_RICE_BROKEN_V1.json",
+    "completed_utc": "2026-11-12T04:47:31.377739+00:00",
+    "operation": "GEN3_SOURCE_OPERATOR_WORD",
+    "native_calls": null
+  },
+  "FOUR_THERMAL_METHOD_V1": {
+    "status": "COMPLETED",
+    "receipt_sha256": "f9b85241278c4e1f22e34281d8387fbf776bb5b5a377d02812df36d192b2544a",
+    "return_sha256": "b002b726daea8f605a131f3e4683304d136a943faa885729e4fc3b8aeaebdb12",
+    "complete_record_sha256": "b002b726daea8f605a131f3e4683304d136a943faa885729e4fc3b8aeaebdb12",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_THERMAL_METHOD_V1.json",
+    "completed_utc": "2026-11-12T04:50:18.987477+00:00",
+    "operation": "GEN6_NATIVE_PROGRAM",
+    "native_calls": 5
+  },
+  "FOUR_REACHABLE_CONTROL_V1": {
+    "status": "FAILED",
+    "receipt_sha256": "faa8765427f275d27ca9c158f0844d84e86b5cafab4aac97d73023bac8377324",
+    "return_sha256": "287d88fc0ad3935015ee815f768c3c1d0728a5a917f76089300bad1444664349",
+    "complete_record_sha256": "287d88fc0ad3935015ee815f768c3c1d0728a5a917f76089300bad1444664349",
+    "record": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/FOUR_REACHABLE_CONTROL_V1.json",
+    "completed_utc": "2026-11-12T04:50:44.196245+00:00",
+    "operation": null,
+    "native_calls": null
+  }
+}

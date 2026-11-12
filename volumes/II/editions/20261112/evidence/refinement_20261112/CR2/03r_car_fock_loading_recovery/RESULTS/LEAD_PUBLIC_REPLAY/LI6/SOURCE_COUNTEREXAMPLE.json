@@ -1,0 +1,10 @@
+{
+  "adjacency_expectation": "34/3",
+  "energy_formula": "36(tau+t_cell) - (68 tau/3) r_edge - (1783/315) g^2",
+  "irrep": "411",
+  "lower_energy_at_point_using_r_le_1": "-415669/2250",
+  "position_support": 6144,
+  "potential": "1783/315",
+  "raw_metric_norm": "3/2",
+  "unchanged_by_graph_rotation": true
+}

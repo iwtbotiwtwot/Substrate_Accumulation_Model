@@ -1,0 +1,117 @@
+{
+  "checks": 13713,
+  "completed_submissions": 11,
+  "native_operations": 127,
+  "receipts": [
+    {
+      "key": "ONE7_ARRIVAL",
+      "status": "COMPLETED",
+      "native_calls": 8,
+      "receipt_sha256": "e7b7491a290559487a8262303ee2083bedf905d6b29f9e884125ff7af76d5364",
+      "full_return_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/ONE7_ARRIVAL.json",
+      "full_return_sha256": "45c70b3cb943145f3d93d3d6dabcfd2aa5b6c1a9c11539e9a035f8d3846dd405",
+      "trace_operations": 8,
+      "completed_utc": "2026-11-12T04:48:29.144316+00:00"
+    },
+    {
+      "key": "ONE7_COMPLEX6",
+      "status": "COMPLETED",
+      "native_calls": 39,
+      "receipt_sha256": "47b9cdcc47edc829a6e2db895f0429b0485b9b2227be0cde847df94b0991e0e8",
+      "full_return_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_01/tasks/ONE7_COMPLEX6/RESULT.json",
+      "full_return_sha256": "47b9cdcc47edc829a6e2db895f0429b0485b9b2227be0cde847df94b0991e0e8",
+      "trace_operations": 39,
+      "completed_utc": "2026-11-12T04:45:26.756809+00:00"
+    },
+    {
+      "key": "ONE7_DETERMINANTS",
+      "status": "COMPLETED",
+      "native_calls": 4,
+      "receipt_sha256": "dc6bca80fd4f3a3a756ef0725920e24f7fddb2a3c4774303165e204be0d1e32f",
+      "full_return_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/ONE7_DETERMINANTS.json",
+      "full_return_sha256": "fd02e59cab182a72971a8be2494a3662bbe8e2e5c8fc5b62b9a25256ac7c5f41",
+      "trace_operations": 4,
+      "completed_utc": "2026-11-12T04:49:47.888536+00:00"
+    },
+    {
+      "key": "ONE7_DRESSED_DENSITY",
+      "status": "COMPLETED",
+      "native_calls": 14,
+      "receipt_sha256": "eeb755ad95f46cead5a0fea82e233a8793361949819a357e64212831b44f1b51",
+      "full_return_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/ONE7_DRESSED_DENSITY.json",
+      "full_return_sha256": "eca977fe93a95a17110cd7f414e42ee3043a68bd3072cb7940acc32308f36eda",
+      "trace_operations": 14,
+      "completed_utc": "2026-11-12T04:49:49.560799+00:00"
+    },
+    {
+      "key": "ONE7_EXACT_NULLS",
+      "status": "COMPLETED",
+      "native_calls": 4,
+      "receipt_sha256": "74bacddb6d5ae5a843663fc387a858d7fcd9129407772f3883d9dec965e1733b",
+      "full_return_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/ONE7_EXACT_NULLS.json",
+      "full_return_sha256": "4dbffed4ff53bbc122cb39fa84291f6ceafc8b6b7f9eacaf77490626edc73ff4",
+      "trace_operations": 4,
+      "completed_utc": "2026-11-12T04:49:47.057574+00:00"
+    },
+    {
+      "key": "ONE7_FIBER_KINEMATICS",
+      "status": "COMPLETED",
+      "native_calls": 4,
+      "receipt_sha256": "6968c414f139b219a70ee078f4b203580e6511734695d68e7955d1c65886e56a",
+      "full_return_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/ONE7_FIBER_KINEMATICS.json",
+      "full_return_sha256": "5e7c14f9790bbe6348aee2e6227fbe4f8857efea5bd7772ba5a738a01da7c78e",
+      "trace_operations": 4,
+      "completed_utc": "2026-11-12T04:53:29.115919+00:00"
+    },
+    {
+      "key": "ONE7_PAIR_SECTORS",
+      "status": "COMPLETED",
+      "native_calls": 5,
+      "receipt_sha256": "6024a633e08e245a94315e63f4b12718789ecc003e6c7c81826d6141a274b651",
+      "full_return_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/ONE7_PAIR_SECTORS.json",
+      "full_return_sha256": "1c46dfe3533cdef134713a2c5f6a0467d17466a99d1ac330774087a155fdf993",
+      "trace_operations": 5,
+      "completed_utc": "2026-11-12T04:55:22.568360+00:00"
+    },
+    {
+      "key": "ONE7_RANK_CONTROLS",
+      "status": "COMPLETED",
+      "native_calls": 6,
+      "receipt_sha256": "401d56feed74ed01c7682bb8fb4b7271e64dad4fb081722c19618ea577a2d5a1",
+      "full_return_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/ONE7_RANK_CONTROLS.json",
+      "full_return_sha256": "e75e816fa83f78d25e7926895d30a95efd220963650f5cddb04178b060c0c258",
+      "trace_operations": 6,
+      "completed_utc": "2026-11-12T04:45:03.799696+00:00"
+    },
+    {
+      "key": "ONE7_REAL8",
+      "status": "COMPLETED",
+      "native_calls": 39,
+      "receipt_sha256": "a0d30f4c0189158ab5537c36d8d4b4353e51e10820180d19afbc1e61df704d7c",
+      "full_return_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_01/tasks/ONE7_REAL8/RESULT.json",
+      "full_return_sha256": "a0d30f4c0189158ab5537c36d8d4b4353e51e10820180d19afbc1e61df704d7c",
+      "trace_operations": 39,
+      "completed_utc": "2026-11-12T04:45:14.277318+00:00"
+    },
+    {
+      "key": "ONE7_ROBUSTNESS",
+      "status": "COMPLETED",
+      "native_calls": 3,
+      "receipt_sha256": "854402368e5700131f16fbeb1d3ef7bdc2d1ae4e314d4f22002a4aae09e16bd7",
+      "full_return_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/ONE7_ROBUSTNESS.json",
+      "full_return_sha256": "25f914740ad514a048fbfc593a80fc80512fdbeb07acd66db160f41de7a8a29f",
+      "trace_operations": 3,
+      "completed_utc": "2026-11-12T04:48:30.236311+00:00"
+    },
+    {
+      "key": "ONE7_SINGULAR_CONTROL_V3",
+      "status": "COMPLETED",
+      "native_calls": 1,
+      "receipt_sha256": "a12f95c71186115c1fd45cd2bae65d1c9fc04da409b3349b15206e7be5de0d4d",
+      "full_return_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/native_returns/ONE7_SINGULAR_CONTROL_V3.json",
+      "full_return_sha256": "2e913c88d4e975250a3112c626e695ce009a011e716d286d14d5067e1c361e73",
+      "trace_operations": 0,
+      "completed_utc": "2026-11-12T04:45:28.611544+00:00"
+    }
+  ]
+}

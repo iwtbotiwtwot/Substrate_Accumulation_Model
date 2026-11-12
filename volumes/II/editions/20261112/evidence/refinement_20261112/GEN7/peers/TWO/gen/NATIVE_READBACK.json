@@ -1,0 +1,125 @@
+[
+  {
+    "key": "TWO_GEO_WEIGHT_V1",
+    "status": "COMPLETED",
+    "matrix": [
+      [
+        "49/18"
+      ]
+    ],
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_GEO_WEIGHT_V1/RESULT.json",
+    "receipt_sha256": "eca32663b27ad7b0edeaff08a72d0f2dc2fe56c27ef12051a295fa370af5572b",
+    "record_sha256": "97b0f8ab77688890156c3028a6558c4441c829641aeee5cc43a4259f1bc7a1a1",
+    "completed_utc": "2026-11-12T04:47:11.744518+00:00"
+  },
+  {
+    "key": "TWO_GEO_PROFILE_V1",
+    "status": "COMPLETED",
+    "matrix": [
+      [
+        "0"
+      ],
+      [
+        "0"
+      ],
+      [
+        "0"
+      ]
+    ],
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_GEO_PROFILE_V1/RESULT.json",
+    "receipt_sha256": "70d4fe32f0b2f730fc29e39b5ecc1186e683aa03efed4cbaf5caf288f82ca3b2",
+    "record_sha256": "d435377c343e9173f7961b0eaf5d6bd7f6c613d8fd2939687448bf10f157d75a",
+    "completed_utc": "2026-11-12T04:47:18.994936+00:00"
+  },
+  {
+    "key": "TWO_GEO_CONTROL_V3",
+    "status": "COMPLETED",
+    "matrix": [
+      [
+        "6"
+      ]
+    ],
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_GEO_CONTROL_V3/RESULT.json",
+    "receipt_sha256": "4c0b008fead4586703156873ca87b841ff2c2964ece7c1bd1c895c1c36a9880c",
+    "record_sha256": "1cb01c8e3142d0c0023246642a2e24bd7cc7d70303345391085582e07290c340",
+    "completed_utc": "2026-11-12T04:47:49.406634+00:00"
+  },
+  {
+    "key": "TWO_ROTOR_CARBON_V1",
+    "status": "COMPLETED",
+    "matrix": [
+      [
+        "-27/25"
+      ]
+    ],
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_ROTOR_CARBON_V1/RESULT.json",
+    "receipt_sha256": "23b4aaec9df9cf64f0c5dd0c4fd7d123cfdf064b98496a17450590b8f24f43c4",
+    "record_sha256": "8afb2471f9b6e3bb066a050ce05747da0c4fc2467b4a36d13a02f426e01aa821",
+    "completed_utc": "2026-11-12T04:47:19.094146+00:00"
+  },
+  {
+    "key": "TWO_ROTOR_GENERAL_V1",
+    "status": "COMPLETED",
+    "matrix": [
+      [
+        "-673/600"
+      ]
+    ],
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_ROTOR_GENERAL_V1/RESULT.json",
+    "receipt_sha256": "4eed704091dce73f8a755c2132129114111a7fb71b9c509ae261984a13314048",
+    "record_sha256": "4f0a7a7f4775693ed915fe10768d379f5911d0a0dcc736870e18517f6f4e5ed1",
+    "completed_utc": "2026-11-12T04:47:19.312507+00:00"
+  },
+  {
+    "key": "TWO_ROTOR_CONTROL_V3",
+    "status": "COMPLETED",
+    "matrix": [
+      [
+        "-27/25"
+      ]
+    ],
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_ROTOR_CONTROL_V3/RESULT.json",
+    "receipt_sha256": "5382bb6de85b82461009ddffd44371efe2f126e7b041079dc1d82d1e91f8e8a7",
+    "record_sha256": "a73b799b578fadb15a65717a01567b80973dd7be384534ef4c28629a7be4c9fe",
+    "completed_utc": "2026-11-12T04:47:49.568847+00:00"
+  },
+  {
+    "key": "TWO_TAYLOR_PAIR_V1",
+    "status": "COMPLETED",
+    "matrix": [
+      [
+        "714/625"
+      ]
+    ],
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_TAYLOR_PAIR_V1/RESULT.json",
+    "receipt_sha256": "0bb3ba73e587d7d50a9a953c370fa76f9ae4e98bf9875c293bacb0f20adb0d9f",
+    "record_sha256": "db0964e76e959a68f9eff0cfe6baf80b585298e5ee3f78551d160693a73f2796",
+    "completed_utc": "2026-11-12T04:47:19.633177+00:00"
+  },
+  {
+    "key": "TWO_NEUTRALITY_CONTROL_V3",
+    "status": "COMPLETED",
+    "matrix": [
+      [
+        "1"
+      ]
+    ],
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_NEUTRALITY_CONTROL_V3/RESULT.json",
+    "receipt_sha256": "187cb2145db832a634db99ef0b51c7ece3b0c2f70963ab982a7a607f9df0be3b",
+    "record_sha256": "7a5216172607ef95199a318d1fb38e58cb90deafdd593f91aad6e89c2c6c4ed4",
+    "completed_utc": "2026-11-12T04:47:49.832241+00:00"
+  },
+  {
+    "key": "TWO_ROTOR_THERMAL_V3",
+    "status": "COMPLETED",
+    "matrix": [
+      [
+        "-1321/600"
+      ]
+    ],
+    "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_ROTOR_THERMAL_V3/RESULT.json",
+    "receipt_sha256": "c062628736049fda8ea581e3853dca09dc686483c39ea62fb5a19f8534795a5e",
+    "record_sha256": "35fa316f76bd64966fcb2c0846053bd5278e6c7fe247a609d803ddc8122aaad9",
+    "completed_utc": "2026-11-12T04:47:50.117922+00:00"
+  }
+]

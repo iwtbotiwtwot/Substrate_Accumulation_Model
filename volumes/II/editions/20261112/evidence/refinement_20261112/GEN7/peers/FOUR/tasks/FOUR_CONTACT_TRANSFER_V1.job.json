@@ -1,0 +1,243 @@
+{
+ "schema": "SAM_ONE_PRINCIPLE_NATIVE_JOB_V1",
+ "objective": "Exact isolated marked crossing versus regularized hazard, including independent logarithmic form and reachable failing uncalibrated control",
+ "precision_bits": 256,
+ "sources": [
+  {
+   "path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/FOUR/PRECOMMIT.md",
+   "sha256": "8d2fc6cfa0b48024bd4fa36d19c70a0663ead05d0b5d05fab53b9f069801f920"
+  }
+ ],
+ "steps": [
+  {
+   "id": "depth",
+   "operation": "GEN3_COMPLEX_LOG",
+   "purpose": "Shared modular negative log gives positive depth log48/47",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 256,
+    "data": {
+     "matrix": {
+      "entries": [
+       [
+        "47/48",
+        "0"
+       ],
+       [
+        "0",
+        "47/48"
+       ]
+      ],
+      "row_basis": [
+       "BEFORE",
+       "AFTER"
+      ],
+      "column_basis": [
+       "BEFORE",
+       "AFTER"
+      ],
+      "structure": "HERMITIAN"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "logquad",
+   "operation": "GEN5_LOG_QUADRATIC_FORM",
+   "purpose": "Independent ordinary plus-log quadratic form for calibrated depth",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 256,
+    "data": {
+     "matrix": {
+      "entries": [
+       [
+        "48/47"
+       ]
+      ],
+      "row_basis": [
+       "DEPTH"
+      ],
+      "column_basis": [
+       "DEPTH"
+      ],
+      "structure": "HERMITIAN"
+     },
+     "source": [
+      "1"
+     ]
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "calibrated_generator",
+   "operation": "GEN3_COMPLEX_PRODUCT",
+   "purpose": "Original full-gap two-state heatbath generator times calibrated depth",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 256,
+    "data": {
+     "matrix": {
+      "entries": [
+       [
+        "-1/4",
+        "3/4"
+       ],
+       [
+        "1/4",
+        "-3/4"
+       ]
+      ],
+      "row_basis": [
+       "BEFORE",
+       "AFTER"
+      ],
+      "column_basis": [
+       "BEFORE",
+       "AFTER"
+      ],
+      "structure": "GENERAL"
+     },
+     "right": {
+      "$step": "depth",
+      "path": [
+       "result",
+       "output",
+       "matrix"
+      ]
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "calibrated",
+   "operation": "GEN3_COMPLEX_EXP",
+   "purpose": "Calibrated isolated transfer equalsI+A/48",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 256,
+    "data": {
+     "matrix": {
+      "$step": "calibrated_generator",
+      "path": [
+       "result",
+       "output",
+       "matrix"
+      ]
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "uncalibrated",
+   "operation": "GEN3_COMPLEX_EXP",
+   "purpose": "Reachable expected_failed_check=marked-transfer equality at actual a1/4, depth1/48",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 256,
+    "data": {
+     "matrix": {
+      "entries": [
+       [
+        "-1/192",
+        "1/64"
+       ],
+       [
+        "1/192",
+        "-1/64"
+       ]
+      ],
+      "row_basis": [
+       "BEFORE",
+       "AFTER"
+      ],
+      "column_basis": [
+       "BEFORE",
+       "AFTER"
+      ],
+      "structure": "GENERAL"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  }
+ ],
+ "readouts": {
+  "depth": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "depth",
+    "path": []
+   }
+  },
+  "logquad": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "logquad",
+    "path": []
+   }
+  },
+  "calibrated_generator": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "calibrated_generator",
+    "path": []
+   }
+  },
+  "calibrated": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "calibrated",
+    "path": []
+   }
+  },
+  "uncalibrated": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "uncalibrated",
+    "path": []
+   }
+  }
+ },
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ },
+ "law_namespace": "SAM_land"
+}

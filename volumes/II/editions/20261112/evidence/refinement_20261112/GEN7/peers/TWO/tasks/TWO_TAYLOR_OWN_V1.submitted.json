@@ -1,0 +1,139 @@
+{
+ "kind": "native",
+ "key": "TWO_TAYLOR_OWN_V1",
+ "operation": "GEN3_SOURCE_OPERATOR_WORD",
+ "purpose": "Actual Haar-averaged own-core second-order coefficient, r2,dc2,U12,gp1/10; predicted+12/25",
+ "payload": {
+  "name": "TWO_TAYLOR_OWN_V1",
+  "context": {
+   "basis": [
+    "own_C2"
+   ],
+   "field": {
+    "radicand": 0
+   },
+   "units": {
+    "energy": "source units",
+    "geometry": "declared constant lapse or clamped rigid rotor"
+   },
+   "history": {
+    "campaign": "GEN7 lane TWO",
+    "precommit_sha256": "273fb40fff5700d9f262b60d289c5c8d5586ae0f21caeafb3f0b1de169cecd85",
+    "locked_inputs": "H003004-H003008 not replayed"
+   },
+   "spectral_coordinate": "Actual Haar-averaged own-core second-order coefficient, r2,dc2,U12,gp1/10; predicted+12/25"
+  },
+  "data": {
+   "operators": {
+    "N": [
+     [
+      "3/5"
+     ],
+     [
+      "4/5"
+     ],
+     [
+      "0"
+     ]
+    ],
+    "M": [
+     [
+      "1/3",
+      "0",
+      "0"
+     ],
+     [
+      "0",
+      "1/3",
+      "0"
+     ],
+     [
+      "0",
+      "0",
+      "1/3"
+     ]
+    ],
+    "U": [
+     [
+      "12",
+      "0",
+      "0"
+     ]
+    ]
+   },
+   "program": [
+    {
+     "name": "mn",
+     "op": "multiply",
+     "inputs": [
+      "M",
+      "N"
+     ]
+    },
+    {
+     "name": "first",
+     "op": "scale",
+     "inputs": [
+      "N"
+     ],
+     "factor": "2/3"
+    },
+    {
+     "name": "second",
+     "op": "scale",
+     "inputs": [
+      "mn"
+     ],
+     "factor": "3"
+    },
+    {
+     "name": "b",
+     "op": "subtract",
+     "inputs": [
+      "first",
+      "second"
+     ]
+    },
+    {
+     "name": "r2b",
+     "op": "scale",
+     "inputs": [
+      "b"
+     ],
+     "factor": "4"
+    },
+    {
+     "name": "ub",
+     "op": "multiply",
+     "inputs": [
+      "U",
+      "r2b"
+     ]
+    },
+    {
+     "name": "own",
+     "op": "scale",
+     "inputs": [
+      "ub"
+     ],
+     "factor": "-1/20"
+    }
+   ],
+   "output": "own"
+  },
+  "source_binding": {
+   "kind": "GEN7_DUCK",
+   "campaign": "20261112T043202Z",
+   "law_namespace": "SAM_land",
+   "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  }
+ },
+ "controller": "G6_02",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ }
+}

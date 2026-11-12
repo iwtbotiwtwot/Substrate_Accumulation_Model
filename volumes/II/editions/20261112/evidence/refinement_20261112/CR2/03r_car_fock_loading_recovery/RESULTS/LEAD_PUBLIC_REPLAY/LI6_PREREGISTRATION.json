@@ -1,0 +1,25 @@
+{
+  "sealed_utc": "2026-11-12T00:41:42.525213+00:00",
+  "form": "engineering_replay",
+  "script": "peers/LI6/replay.py",
+  "script_sha256": "f1a103a6fdd2f7be3c4909cb886cc96262190c1d45387e55406e45a73f9b8da2",
+  "guard_sha256": "c96cf2a8b88cbc7c8dc20cd905c7466948e7339f60f345c394c6e024b525617c",
+  "case": "/tmp/volii_car_public_20261112T004141Z",
+  "argv": [
+    "--output",
+    "/tmp/volii_car_public_20261112T004141Z/lead_output_LI6"
+  ],
+  "expected_output_sha256": {
+    "BOUNDS.json": "27e6c26776bb095e673bcf8cca30c23a9e994dff18f21b5244a1e232bb0fcdf8",
+    "CONTROLS.json": "7b6ddce9c210237d67b089adb420e69873544d776c7936ea788fc4337deb2ae5",
+    "DIRECTED.json": "e18999df2ac3289a19537a1f5434b37ec6a9bd996cebaf1ed02ac83fe8899f7f",
+    "EXECUTION.json": "a6ee1cfdcae1065d4ce221f67bf83be07a10f9b9a48e199fa0718633b0971c2e",
+    "MOMENTS.json": "929ec03c604ddb80d03995e6de17deabfe33a6f18a2240229e06ebb705f72482",
+    "PHYSICAL_IMAGES.json": "eab597013f2869b4e6241ce58a3fef4a284b8d8dc4ad588ec9d416d2bf2c69d4",
+    "PROPER_REFERENCE.json": "94e90acd3919e3367e609e8860e78fe6410b8a4ec5ac38d1cfefa26fa2fdf34a",
+    "SOURCE.json": "0c55603ea84b156d39e94c1577b5795e08678ff53b0af14fce9ce43f428ef713",
+    "SOURCE_COUNTEREXAMPLE.json": "f5915f1d2d7b6a821a55daf6e34440fa83b277a1b1f1fc458a4251c1a6b7e0a4",
+    "SUMMARY.json": "652d129738fa8f385512021d78047991fc176f250ffd9d1d33daa1066a8ff630"
+  },
+  "criteria": "Every declared deterministic file byte-matches; all Python data reads remain public-case/standard-library/scientific-venv bound. Written proof and complete code review are separate."
+}

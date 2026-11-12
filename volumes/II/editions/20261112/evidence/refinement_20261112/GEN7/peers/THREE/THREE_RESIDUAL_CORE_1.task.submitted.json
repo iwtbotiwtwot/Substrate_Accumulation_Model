@@ -1,0 +1,15 @@
+{
+ "kind": "gen6_job",
+ "key": "THREE_RESIDUAL_CORE_1",
+ "purpose": "Reconstruct all54 native core blocks from original integrated edges and fresh coefficient solves",
+ "job_path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/THREE/THREE_RESIDUAL_CORE_1.job.json",
+ "controller": "G6_03",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ },
+ "job_sha256": "07d5600b0235cbedd1f08b4bbf671cbd7bc0aacecea967a647cf06e4dfbfd978"
+}

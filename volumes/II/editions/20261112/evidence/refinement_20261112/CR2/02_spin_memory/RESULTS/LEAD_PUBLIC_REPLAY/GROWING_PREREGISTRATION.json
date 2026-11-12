@@ -1,0 +1,29 @@
+{
+  "sealed_utc": "2026-11-12T00:23:15.030249+00:00",
+  "form": "engineering_replay",
+  "script": "peers/GROWING/scripts/replay.py",
+  "script_sha256": "e4145effa04b09030b69665e96431b52f6d339f59fcd9d4288d4bfb4e32b179e",
+  "guard_sha256": "c96cf2a8b88cbc7c8dc20cd905c7466948e7339f60f345c394c6e024b525617c",
+  "case": "/tmp/volii_spin_public_20261112T002259Z",
+  "cwd": "/tmp/volii_spin_public_20261112T002259Z/peers/GROWING",
+  "actions": [
+    [
+      "seal",
+      "--output-dir",
+      "/tmp/volii_spin_public_20261112T002259Z/lead_output_GROWING"
+    ],
+    [
+      "run",
+      "--output-dir",
+      "/tmp/volii_spin_public_20261112T002259Z/lead_output_GROWING"
+    ]
+  ],
+  "expected_scientific_hashes": {
+    "RESULTS.json": "ec8e4bc01899c6a2e314c3790ddcb28a6fe4057c4c8243804a25649bd242ff32",
+    "FOLDED_ROWS.json.gz": "6e326716685737c5c065e5441473bdc4532dfd04091baf54447e1704c6a72c3c",
+    "SMALL_SOURCE.json": "c681ff901b93fc2a446e8f5ffa7feaa81055a28a505b1d5c865dd045664d3e78",
+    "STATIC_CHECKPOINT.json": "b839ef6bc039f9fed8f10a9cd765dad23d97b07e9834db7ab1e4d5a35c81153d",
+    "FINITE_CHECKPOINT.json": "8766903f7e557e7e0d793f0d4c523bd870b6fc82b3b40c1709c445d62be4e2a0"
+  },
+  "criteria": "All declared scientific outputs byte-match; public-only file reads; no scientific engine import. Metadata differences are retained, not compared as scientific output."
+}

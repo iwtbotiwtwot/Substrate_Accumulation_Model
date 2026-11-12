@@ -1,0 +1,279 @@
+{
+  "authored_by": "PEER_ONE",
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "aec9c75a8511591b20dc8818d7b4097cfe55481394602873eb933e4fa801de4a",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "1e5d525256be3a07cfbf88603d10b1fd8ef37d32b11f85632fbf8848ee17e0d1",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "completed_utc": "2026-11-12T04:48:30.236311+00:00",
+  "gen6_core_version": "0.11.3",
+  "gen6_execution": {
+    "continuation": null,
+    "error": null,
+    "execution_stage": "POST_DUCK_ENGINEERING_QUALIFICATION",
+    "history_continuation": null,
+    "host_compilation": "Exact symbolic DAG and reciprocal token transcription; native product identities certify reciprocals",
+    "host_domain_arithmetic": false,
+    "imported_history_session_reused": false,
+    "installed_engine_modified": false,
+    "qualification_scope": null,
+    "schema": "SAM_ONE_PRINCIPLE_NATIVE_EXECUTION_V1",
+    "session_reused": false,
+    "status": "PASSED",
+    "time_utc": "2026-11-12T04:48:30.217037+00:00",
+    "trace": [
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "branch_flanks",
+        "input": "000_branch_flanks.input.json",
+        "input_sha256": "f6a963751c35173bdb1a6d00bd2a3e6fef54cc6de4fdc34093761eaf115a7e4a",
+        "operation": "GEN3_SOURCE_OPERATOR_WORD",
+        "output": "000_branch_flanks.output.json",
+        "output_sha256": "2c59ab6700c50df4f4e55ef5d2d4120f241c9e74039d916628c8d2b7ac8abee7"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "branch_beyond_control",
+        "input": "001_branch_beyond_control.input.json",
+        "input_sha256": "45f656e37c334aa223fd0f69b4cf7cdbb92aabf89cab3168cab68c4f41aaaf8c",
+        "operation": "GEN3_SOURCE_OPERATOR_WORD",
+        "output": "001_branch_beyond_control.output.json",
+        "output_sha256": "23ee5f4863160b78ecd39a3e986415c34102578e33cee2fb98aa7d9a5976a385"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "calibration_constants",
+        "input": "002_calibration_constants.input.json",
+        "input_sha256": "fb9c5864fb4726724f5e6e07f0156583c922d3e861f2060aacd832da15298ec6",
+        "operation": "GEN3_SOURCE_OPERATOR_WORD",
+        "output": "002_calibration_constants.output.json",
+        "output_sha256": "788aaf3625b659f97afee5a0c849730ee7c83ace3a9457a4f9bf0d4bc435a2e9"
+      }
+    ]
+  },
+  "gen6_execution_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_01/tasks/ONE7_ROBUSTNESS/gen6",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_01",
+  "imports": [],
+  "key": "ONE7_ROBUSTNESS",
+  "kind": "RESULT",
+  "native_calls": 3,
+  "operation": "GEN6_NATIVE_PROGRAM",
+  "portable_bundle": null,
+  "prior_state_root": null,
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_01/tasks/ONE7_ROBUSTNESS/RESULT.json",
+  "receipt_sha256": "854402368e5700131f16fbeb1d3ef7bdc2d1ae4e314d4f22002a4aae09e16bd7",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 1345096967219793,
+  "returned": {
+    "branch_beyond_control": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+        "execution": {
+          "backend": "NATIVE_CPP_GMP_CPU",
+          "exact_field": {
+            "radicand": 0
+          },
+          "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+          "shared_checkpoint": true
+        },
+        "field": {
+          "radicand": 0
+        },
+        "matrix": [
+          [
+            "-1/50",
+            "-5/4"
+          ]
+        ],
+        "native_assertions": 13,
+        "ordered_program": [
+          {
+            "factor": "1",
+            "inputs": [
+              "A"
+            ],
+            "name": "out",
+            "op": "scale"
+          }
+        ],
+        "output": "out",
+        "rank": 1,
+        "record_sha256": "92cde7e8a85375c062e6e3d54d8756c35c0d90459007de22fdd79f9b959ea8ee"
+      }
+    },
+    "branch_flanks": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+        "execution": {
+          "backend": "NATIVE_CPP_GMP_CPU",
+          "exact_field": {
+            "radicand": 0
+          },
+          "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+          "shared_checkpoint": true
+        },
+        "field": {
+          "radicand": 0
+        },
+        "matrix": [
+          [
+            "512/3",
+            "440/3",
+            "296/3",
+            "368/3",
+            "92/3",
+            "224/3",
+            "0",
+            "296/3",
+            "20/3",
+            "80/3"
+          ],
+          [
+            "632/3",
+            "180",
+            "356/3",
+            "448/3",
+            "92/3",
+            "88",
+            "0",
+            "356/3",
+            "0",
+            "80/3"
+          ],
+          [
+            "2033/12",
+            "3493/24",
+            "2347/24",
+            "365/3",
+            "181/6",
+            "887/12",
+            "0",
+            "2347/24",
+            "151/24",
+            "157/6"
+          ],
+          [
+            "2063/12",
+            "3547/24",
+            "2389/24",
+            "371/3",
+            "187/6",
+            "905/12",
+            "0",
+            "2389/24",
+            "169/24",
+            "163/6"
+          ]
+        ],
+        "native_assertions": 39,
+        "ordered_program": [
+          {
+            "factor": "1",
+            "inputs": [
+              "A"
+            ],
+            "name": "out",
+            "op": "scale"
+          }
+        ],
+        "output": "out",
+        "rank": 3,
+        "record_sha256": "4a208c046314d0a64f1ab624473658facefb2449699672b567aaf0b75dd4599a"
+      }
+    },
+    "calibration_constants": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+        "execution": {
+          "backend": "NATIVE_CPP_GMP_CPU",
+          "exact_field": {
+            "radicand": 0
+          },
+          "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+          "shared_checkpoint": true
+        },
+        "field": {
+          "radicand": 0
+        },
+        "matrix": [
+          [
+            "11191/20250",
+            "23294/675",
+            "2139952734887423053027468631/1335165038749772953286830250",
+            "13798050765910770058944098924/400549511624931885986049075",
+            "6419858204662269159082405893/137980507659107700589440989240"
+          ]
+        ],
+        "native_assertions": 16,
+        "ordered_program": [
+          {
+            "factor": "1",
+            "inputs": [
+              "A"
+            ],
+            "name": "out",
+            "op": "scale"
+          }
+        ],
+        "output": "out",
+        "rank": 1,
+        "record_sha256": "732f3f05573637943e246ae587a9926f7f2d71e3481881807a902f62676a84e7"
+      }
+    }
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND1",
+  "source_binding": {
+    "campaign": "20261112T043202Z",
+    "kind": "GEN7_DUCK",
+    "law_namespace": "SAM_land",
+    "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  },
+  "started_utc": "2026-11-12T04:48:29.556656+00:00",
+  "state": null,
+  "state_root": null,
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "gen6_job",
+  "worker_cpu": 2,
+  "worker_pid": 3816042
+}

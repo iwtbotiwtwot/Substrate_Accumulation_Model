@@ -1,0 +1,148 @@
+#!/usr/bin/env python3
+"""./native: this peer's line to the native engine."""
+import hashlib, json, os, subprocess, sys
+SAM = '/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/sam'
+RUN = '/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z'
+NAME = 'ONE'
+CONTROLLER = 'G6_01'
+BINDING = {'kind': 'GEN7_DUCK', 'campaign': '20261112T043202Z', 'law_namespace': 'SAM_land', 'target_sha256': '821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721'}
+USAGE = """usage:
+  ./native submit TASK.json   send a task to the engine and print its answer
+  ./native returns            list every result so far (all peers), oldest first
+  ./native show KEY           print one result (add --full for every field)
+  ./native binding            print this run's source_binding
+  ./native status             one line on the engine's state"""
+
+
+def sha(path):
+    return hashlib.sha256(open(path, "rb").read()).hexdigest()
+
+
+def submit(path):
+    task = json.load(open(path))
+    if not isinstance(task, dict):
+        sys.exit("a task is one JSON object")
+    filled = []
+    for key, value in (("controller", CONTROLLER), ("target_id", "PARENT"), ("source_binding", BINDING)):
+        if key not in task:
+            task[key] = value
+            filled.append(key)
+    if task.get("kind") == "native" and isinstance(task.get("payload"), dict) \
+            and "source_binding" not in task["payload"]:
+        task["payload"]["source_binding"] = task["source_binding"]
+        filled.append("payload.source_binding")
+    if task.get("kind") == "gen6_job" and task.get("job_path"):
+        job_path = os.path.abspath(task["job_path"])
+        task["job_path"] = job_path
+        if "job_sha256" not in task:
+            job = json.load(open(job_path))
+            changed = False
+            for key, value in (("source_binding", task["source_binding"]),
+                               ("law_namespace", task["source_binding"].get("law_namespace"))):
+                if key not in job and value is not None:
+                    job[key] = value
+                    changed = True
+                    filled.append("job." + key)
+            if changed:
+                json.dump(job, open(job_path, "w"), indent=1)
+            task["job_sha256"] = sha(job_path)
+            filled.append("job_sha256")
+    out = os.path.abspath(os.path.splitext(path)[0] + ".submitted.json")
+    json.dump(task, open(out, "w"), indent=1)
+    reply = subprocess.run([SAM, "duck", "submit", "--run", RUN, "--file", out, "--peer", NAME],
+                           capture_output=True, text=True)
+    if filled:
+        print("filled in: " + ", ".join(filled) + "  (the task as sent: " + out + ")")
+    answer = reply.stdout.strip()
+    if not answer:                      # the engine's command itself failed: show its last line, not a traceback
+        tail = [l for l in reply.stderr.splitlines() if l.strip()]
+        answer = "the engine did not take the request: " + (tail[-1].strip() if tail else "no answer")
+    print(answer)
+    try:
+        status = json.loads(reply.stdout).get("status")
+    except ValueError:
+        status = None
+    if status == "ACCEPTED":
+        print("ACCEPTED means admitted, not computed. The result arrives as a return: ./native show "
+              + str(task.get("key")))
+    elif status == "PENDING":
+        print("PENDING: the engine has not answered yet. Check ./native returns before sending anything twice.")
+
+
+def returns():
+    folder = os.path.join(RUN, "native_returns")
+    rows = []
+    for name in os.listdir(folder) if os.path.isdir(folder) else []:
+        path = os.path.join(folder, name)
+        try:
+            rows.append((os.path.getmtime(path), path, json.load(open(path))))
+        except (OSError, ValueError):
+            pass
+    return sorted(rows, key=lambda r: r[0])
+
+
+BOOKKEEPING = ("implementation", "portable_bundle", "request", "native_payload")
+
+
+def slim(value, left_out):
+    """The return without code-file hashes, the portable copy of the result, and echoes of the input."""
+    if isinstance(value, dict):
+        out = {}
+        for k, v in value.items():
+            if k in BOOKKEEPING and v not in (None, {}, []):
+                left_out.add(k)
+            else:
+                out[k] = slim(v, left_out)
+        return out
+    if isinstance(value, list):
+        return [slim(v, left_out) for v in value]
+    return value
+
+
+def main():
+    a = sys.argv[1:]
+    if len(a) == 2 and a[0] == "submit":
+        submit(a[1])
+    elif a == ["returns"]:
+        rows = returns()
+        for _, path, r in rows:
+            error = r.get("error")
+            print(" | ".join(str(x) for x in (r.get("key"), r.get("status") or r.get("kind"), r.get("authored_by"),
+                  r.get("operation"), ("error: " + " ".join(str(error).split())[:160]) if error else "")))
+        if not rows:
+            print("no returns yet")
+    elif len(a) in (2, 3) and a[0] == "show" and a[2:] in ([], ["--full"]):
+        hits = [(path, r) for _, path, r in returns() if r.get("key") == a[1]]
+        if not hits:
+            sys.exit("no return with key " + a[1] + " yet (./native returns lists what has arrived)")
+        path, r = hits[-1]
+        full = a[2:] == ["--full"]
+        left_out = set()
+        text = json.dumps(r if full else slim(r, left_out), indent=1)
+        print(text[:12000])
+        if len(text) > 12000:
+            print("... cut at 12000 characters")
+        if left_out:
+            print("left out of this view (bookkeeping and copies of your own input): " + ", ".join(sorted(left_out))
+                  + ". ./native show " + a[1] + " --full prints everything.")
+        print("the whole return is the file " + path)
+        if r.get("record_file"):
+            print("full record: " + str(r["record_file"]))
+    elif a == ["binding"]:
+        print(json.dumps(BINDING, indent=1))
+    elif a == ["status"]:
+        def there(name):
+            return os.path.exists(os.path.join(RUN, name))
+        if there("RUNTIME_RESULT.json") or there("COMPLETE.json") or there("FINALIZATION_RESULT.json"):
+            print("the engine has finished; nothing more is admitted")
+        elif there("ROUND1_ADMISSION_CLOSED.json"):
+            print("admission is closed; tasks admitted earlier may still be finishing")
+        elif there("ROUND1_START.json"):
+            print("the engine is live and admitting tasks")
+        else:
+            print("the engine has not started yet (it starts when the window opens)")
+    else:
+        sys.exit(USAGE)
+
+
+main()

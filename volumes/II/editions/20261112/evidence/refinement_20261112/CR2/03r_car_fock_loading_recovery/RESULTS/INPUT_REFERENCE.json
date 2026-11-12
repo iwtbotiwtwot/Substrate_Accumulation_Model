@@ -1,0 +1,283 @@
+{
+  "scope": "Submitted assertions only, not case outcomes.",
+  "case": "03_car_fock_loading",
+  "selected_ids": [
+    "ONE-O1",
+    "THREE-O1",
+    "THREE-O3"
+  ],
+  "opportunities": [
+    {
+      "id": "ONE-O1",
+      "peer": "ONE",
+      "title": "Full-Fock one-hop polar successor on the unchanged Li6 source",
+      "classification": [
+        "new advance",
+        "conditional result"
+      ],
+      "ranking": {
+        "rank": 1,
+        "scientific_value": 10,
+        "feasibility": 8,
+        "weighted_score": 9.2,
+        "rationale": "Directly improves the original complete-energy comparison with sparse exact operands; separate verification is feasible, while physical preparation is explicitly separate."
+      },
+      "chapter_ids": [
+        "XI",
+        "XII",
+        "XVI"
+      ],
+      "physical_pdf_pages": [
+        [
+          63,
+          65
+        ],
+        [
+          70,
+          72
+        ],
+        [
+          87,
+          88
+        ]
+      ],
+      "sections": [
+        "XI.13–XI.17",
+        "XII.10–XII.16",
+        "XVI.12–XVI.13"
+      ],
+      "claim_or_bottleneck": "Improve the complete-energy upper for unchanged14336 while retaining the original full source, coherent field, flavor factors and all-proper lower.",
+      "original_source_and_operands": [
+        "Original full600 polar source; raw I25 tensor G00 metric; phase9; unchanged14336; original U4 flavor factors including 321 coherences.",
+        "Full physical CAR parent50176 in ambient906192. Target orbital dimensions24,12,48 for42,33,321; actual one-hop image dimensions312,144,432.",
+        "Same H=H0+K, equilibrium-cloud embeddings J_lambda, v_lambda=(928,882,770)/105, tau=1, t_cell=1/1000, g^2=35; proper lower−728/3.",
+        "Original sector weights169/675,34/135,112/225 and original mean margin11191/20250. Selected hopping/finite-filter branch remains separate.",
+        "Exact source operands and their lineage are retained in gen/ONE_HOP_OPERANDS.json, gen/ONE_HOP_NATIVE_MAP.json and each native program input."
+      ],
+      "what_was_tried": [
+        "Construct J_alpha=(J−alpha KJ)(I+alpha^2 J* K^2 J)^−1/2 on whole orbital factors, tensor identity on full flavor.",
+        "Reconstruct CAR hopping images and every physical density image before compression; contract complete coherent full-Fock matrix elements, including both mixed terms.",
+        "Use bipartite parity to remove cubic hopping and explicit cell escape. Bound exact V and B forms at the held point and uniformly over the stated same-static-G real harmonic family.",
+        "Check12096 coherent entries independently with host Arb for benchmark and spring laws."
+      ],
+      "actual_result": {
+        "isometry": "A common U4-equivariant isometry on the target factors extends to all600 source directions and transported Writes; the energy upper is on unchanged14336.",
+        "energy_identity": "J_alpha* H J_alpha=E+(I+alpha^2 V)^−1/2(−2alpha V+alpha^2 B)(I+alpha^2 V)^−1/2.",
+        "exact_moments": "Vinternal/(4tau^2)=(14I+2r42 S,12I,12I+2r^2 S); Binternal/(4tau^2 g^2)=((2344/105)I,(96/5)I,(40/3)I+(4/5)rT). In321 S,T are commuting signed involutions.",
+        "held_point": "With alpha42=alpha33=1/56, alpha321=1/40 and certified r42<.001,r<.1, weighted complete-energy gain>1.0501207340, hence original proper margin>1.6027627093.",
+        "same_static_family": "For each stated real passive harmonic law with same staticG and its own normalizable cloud, conservative weighted gain>.7603001617 and proper margin>1.3129421370.",
+        "scope": "Full-Fock internal variational statement; no physical preparation, binding calibration, capture, lifetime or essential-spectrum theorem."
+      },
+      "proof_code_receipt_evidence": {
+        "files": [
+          {
+            "path": "gen/ONE_HOP_DERIVATION.md",
+            "sha256": "d0ab7be84c56abd2225b6ff4791ddb41c8cc9a519401e37defb393f8cd719328"
+          },
+          {
+            "path": "gen/ONE_HOP_OPERANDS.json",
+            "sha256": "cb67b75e739637afe968a1ad8ccafe29b901e54204bdb8085dc34f6c16acc13e"
+          },
+          {
+            "path": "gen/ONE_HOP_NATIVE_EXACT.json",
+            "sha256": "6e6003defe4ad1363f6aa5830ede3724c2d1295a85fbe66a04bcd1adf1e6e6ce"
+          },
+          {
+            "path": "gen/ONE_HOP_SUFFICIENT_BOUNDS.json",
+            "sha256": "c4545e149947952ec010aeb1c9a39ca6a0fa6cd0104117b6007316c5c3c18a5f"
+          },
+          {
+            "path": "gen/ONE_HOP_STATIC_FAMILY_BOUNDS.json",
+            "sha256": "4c1a37e9997182f9ea8fe36c570b86d8b8e7d8afbb359b14cfc8ccd29ce5c186"
+          },
+          {
+            "path": "gen/ONE_HOP_ROBUSTNESS_WORKING.md",
+            "sha256": "0223aa783f2358b097446f8d1c39358d5b848b9066dd044d417fc0f52b984124"
+          },
+          {
+            "path": "gen/independent_onehop_field_check.py",
+            "sha256": "38257d27d9970a887e6cc49c9908fca59a7e74c747bdbe65c1f645fdda4709f3"
+          },
+          {
+            "path": "gen/INDEPENDENT_ONEHOP_FIELD_CHECK.json",
+            "sha256": "bfe8d393358db3f936c855ac5f8ae50d768534c548d19cdc36d691091efe208d"
+          },
+          {
+            "path": "native/ONE_HOP_IMAGES_V1/READBACK.json",
+            "sha256": "54e8c58c5e8851c833c29995e17d7a1c492571cec76534d2d86fd59e33111306"
+          },
+          {
+            "path": "native/ONE_HOP_CERTIFICATE_V1/READBACK.json",
+            "sha256": "a797dd49e62d4202797f767b8c1117c2b896eb7126ec7bc2ee181642e78f34c3"
+          },
+          {
+            "path": "native/ONE_RESPONSE_CHART_FAMILY_V1/READBACK.json",
+            "sha256": "10b0835e4e520a30d31cfef73e329ffc9b405d7b7615aee0e6a0916f4733b73e"
+          }
+        ],
+        "native_task_keys": [
+          "ONE_HOP_IMAGES_V1",
+          "ONE_HOP_CERTIFICATE_V1",
+          "ONE_RESPONSE_CHART_FAMILY_V1"
+        ],
+        "primary_literature": []
+      },
+      "assumptions": [
+        "The original full-Fock source law, proper-fragment lower, coherent embeddings and U4-equivariant source receiving construction.",
+        "The static-family claim is restricted to real passive harmonic fields with the same staticG and normalizable equilibrium coherent clouds."
+      ],
+      "remaining_gap": [
+        "Separate proof/code reconstruction is not yet a CR2 case.",
+        "I−alpha K is a real variational filter; exp(−itK) does not implement it. Local control, field preparation, clock/work store and reusable apparatus remain to be constructed.",
+        "Old ramp errors, selected-trial loading, density tolerances, release estimates and termwise field/vertex tables do not transfer automatically."
+      ],
+      "discriminating_success_failure_check": {
+        "success": "Independent reconstruction reproduces full CAR density images, signed321 moment, cell escape, coherent payments, common polar extension and both strict margins.",
+        "failure": "Any missing mixed term, altered source/flavor weight, nonnormalizable cloud or failed common-map extension invalidates the corresponding bound; unitary real-time hopping alone does not close preparation."
+      },
+      "dependencies": [
+        "Original unchanged-input Li6 certificate and proper lower",
+        "Full physical CAR source and flavor decomposition",
+        "Retained source isometry/Write extension"
+      ],
+      "resource_estimate": {
+        "compute": "888 sparse one-hop image rows; no dense50176 matrix. Existing native run used36 operations plus one family identity in the response job.",
+        "memory": "At most4GiB local allocation; sparse/exact small blocks.",
+        "work": "Estimated1–2 focused proof/code sessions; arithmetic minutes. Physical control construction is a separate uncosted research problem."
+      },
+      "recommended_route": "CR2: separate proof and code verification of this bounded mathematical claim; physical preparation only by a separately selected focused task.",
+      "failures_and_corrections": [],
+      "followup_started": false
+    },
+    {
+      "id": "THREE-O1",
+      "title": "A source-connected N12 all-proper scalar certificate",
+      "classification": "new advance; conditional result",
+      "chapter_ids": [
+        "XI",
+        "XII",
+        "XIII",
+        "XVI",
+        "APP-A"
+      ],
+      "physical_pdf_pages": [
+        58,
+        65,
+        70,
+        75,
+        84,
+        88,
+        103,
+        105
+      ],
+      "claim_or_bottleneck": "Can the full physical scalar law support a larger source while retaining full flavor, source information and every proper fragment, rather than merely add paid light-source energies?",
+      "original_source_operands": [
+        "Held H=T+dGamma(I+L_Q3)+g rho(b+b†), no density counterterm, same per-cell vacuum zero; tau1,tcell1/1000,g²35.",
+        "New explicit total flavor(4,2,4,2), inventory6p6n, fixed one-cell CAR parent dimension3841600. This is NOT the historical three-He4 source/action.",
+        "Two original contact phase9 sources, original full600 raw Pauli encoders and flavor42 Grams; two-source42 phase span has25 orbital directions.",
+        "Actual cube105G entries36,13,8,6 by distance; full0..4 site density spectrum and physical CAR creation words."
+      ],
+      "what_was_tried": [
+        "Enumerated all390625 site occupancies, maximizing the exact density quadratic for141 sorted classes throughN12.",
+        "Used all225 flavor subvectors and complete cell/fragment-split dynamic programming. Independently replayed every class maximum with incremental integer arithmetic and2164 cut/flow/degree checks.",
+        "Selected25 highest-weight Slaters from420 physical(4,4,2,2,0,0,0,0) density profiles; checked complete429-row physical first-hop images and full field-profile Grams natively.",
+        "Built all16 flavor CAR generators on the complete36-state fixed-density flavor fiber and audited Casimir/projectors natively."
+      ],
+      "actual_result": "Every proper matter-particle/flavor channel has lower>=-780. The complete25-direction dressed target upper is<=-98991/125, leaving1491/125=11.928 model units. Generally the sufficient inequality isg²>30(tau+tcell). A full-flavor success/failure source map exists on the two42 source component; unchanged14336 pair success probability is28561/455625 (~6.27%). Full target flavor multiplet has Casimir48, dimension20; other fiber ranks are15 and1. Downstream bare-target field loading alone has conservative allowance25411/12500 atT25/4,A<=1/200. An explicitly labelled two-cell COM-record alternative is retained separately.",
+      "proof_code_receipt_evidence": [
+        "gen/C12_EXTENSION_FULL_PROOF.md",
+        "gen/C12_DENSITY_EXTENSION.json",
+        "gen/N12_DENSITY_REPLAY.json",
+        "gen/N12_CLASS_MAXIMA_REPLAY.json",
+        "gen/N12_FLAVOR_AUDIT_CHECK.json",
+        "gen/LATEST_NATIVE_CHECKS.json",
+        "native/THREE_N12_SOURCE_CONNECTED_V1/READBACK.json",
+        "native/THREE_N12_FULL_FLAVOR_AUDIT_V1/READBACK.json",
+        "gen/N12_CAPACITY_AND_COM_VARIANT.md"
+      ],
+      "assumptions": [
+        "Unchanged declared scalar law extends toN12 with its full Fock field; no physical calibration inferred.",
+        "Original canonical42 full-flavor factorization is inherited analytical/internal input.",
+        "Success is the explicit25-copy branch; the full joint instrument retains failures and all other source directions. Probability is stated only for the unchanged pair.",
+        "All energy/reference terms and cell kinetic diagonal are paid; target hopping compression vanishes by physical occupation parity."
+      ],
+      "remaining_gap": "No independently reconstructed CR2 case, stationary/essential-spectrum theorem, measured C12 binding, physical capture, or reusable apparatus cycle. Actual arriving clouds, branch selection, controller work/coherence and restoration need a common ledger. Full-flavor intertwiner is a written argument supported by target-fiber native checks, not a materialized whole-parent unitary.",
+      "discriminating_success_failure_check": "A separate implementation must recover proper maximum2340/105 (worst11+1), selected target minimum2592/105, full flavor projector ranks1/15/20,25-copy isometry and positive full-energy margin. Failure of the full intertwiner or a missed fragment/cell allocation defeats the construction. Do not test only6+6.",
+      "dependencies": [
+        "Held Li6 CHANNEL all-cell/full-Fock square law and zero",
+        "Original contact42 source decomposition and two-source tensor Pauli injection",
+        "Physical controller/arrival inputs only if proceeding toward formation"
+      ],
+      "resource_estimate": "Discovery/replays each<1CPU second here; native target/flavor jobs6 operations. Estimate1–2 reviewer-days for separate proof/code CR2, minutes of local CPU, within fixed4GiB; no dense3841600 parent or cloud required.",
+      "recommended_route": "CR2",
+      "scientific_value_score_0_5": 5,
+      "feasibility_score_0_5": 4,
+      "rank": 1
+    },
+    {
+      "id": "THREE-O3",
+      "title": "Sharp whole-continuum scalar shell-loading energy",
+      "classification": "new advance; conditional theorem",
+      "chapter_ids": [
+        "X",
+        "XII",
+        "XV",
+        "XVIII",
+        "APP-A"
+      ],
+      "physical_pdf_pages": [
+        54,
+        56,
+        66,
+        69,
+        80,
+        83,
+        96,
+        98,
+        103,
+        105
+      ],
+      "claim_or_bottleneck": "Exact finite-time loading of the8 discrete scalar modes does not determine what finite scalar controls can do to the original continuum shell field.",
+      "original_source_operands": [
+        "Original whitened shell amplitude, actionIstar, tau=R/c, positive source countertermD=||a||²/2.",
+        "Full p(x)=(2/pi)sinc²x continuum spectrum and retained cosine transform(1-|z|/2)+.",
+        "A coupling-off free vacuum loaded toward one fixed legal source drive; intermediate force strengths are an explicitly supplied actuator, not fractional legal C4 nuclear phases."
+      ],
+      "what_was_tried": [
+        "Derived forced-oscillator residual as triangular-kernel energy of a unit-mass ramp measure.",
+        "Found a positive two-grid atomic schedule; native exact constant-potential checks through32 support times.",
+        "Strengthened the initial monotone result to arbitrary finite real signed scalar ramps using box-autocorrelation residue fibers.",
+        "Derived linear-ramp and bounded-rate comparisons, preserving all earlier narrower working notes."
+      ],
+      "actual_result": "IfT/(2tau)=n+r,0<=r<=1, the exact residual infimum isD[(1-r)/(n+1)+r/(n+2)]. Explicit positive atomic increments attain it; atT=2n tau this isD/(n+1). Every finite scalar ramp has positive whole-field excess even when later local means have settled. Smooth bounded-rate ramps approach but do not attain the atomic optimum. For1/M<=T<=2tau the sharp rate-limited excess fraction is1-T/(4tau)+1/(12tau M).",
+      "proof_code_receipt_evidence": [
+        "gen/CONTINUUM_LOADING_PROOF.md",
+        "gen/CONTINUUM_LOADING_WORKING.md",
+        "gen/CONTINUUM_LOADING_CASES.json",
+        "native/THREE_CONTINUUM_LOADING_V1/READBACK.json"
+      ],
+      "assumptions": [
+        "Single common shell radius and scalar coupling control, fixed source during loading, original full positive-counterterm law.",
+        "The clean normal-Fock argument starts with free vacuum. Nonzero static equilibrium shifts are generally not normal Fock vectors; a0!=0 requires a supplied conditional energy-form/Gaussian sector or separately evaluated incoming state.",
+        "The original complete source metric suppliesD; multiple channel radii require summing their kernels and a new joint control optimization."
+      ],
+      "remaining_gap": "No physical controller/clock, nuclear rate or preparation/reset cost is selected. The conditional Gray-event scaling is not an unpriced normal equilibrium preparation. An additional quadrature or frequency-dependent control changes the admissible class.",
+      "discriminating_success_failure_check": "For the original continuum profile compare outgoing energy for the predicted two-grid schedule, a linear ramp and rate-limited endpoint pulses. AtT=2n tau the measured source-normalized residual must not beat1/(n+1) within this scalar-control class. Local mean agreement alone is insufficient. A discrete recurrence result cannot replace the continuum energy integral.",
+      "dependencies": [
+        "Original exact shell spectrum/metric and reference law",
+        "Specified incoming field and scalar control law",
+        "Independent action/radius/seconds assignment for physical use"
+      ],
+      "resource_estimate": "Analytic proof plus5 small exact native operations; standard-library independent proof/energy quadrature audit should take hours, tiny CPU/storage. No N5000 bulk archive or production job.",
+      "recommended_route": "CR2",
+      "scientific_value_score_0_5": 4,
+      "feasibility_score_0_5": 5,
+      "rank": 3
+    }
+  ],
+  "complete_original_documents": {
+    "ONE": "prior/ONE/OPPORTUNITIES.json",
+    "THREE": "prior/THREE/OPPORTUNITIES.json"
+  },
+  "baseline_pdf_sha256": "391450c512bfda11682e5a58b6f3f8d27856cdc4381cd962432ae9d3e521a5f3"
+}

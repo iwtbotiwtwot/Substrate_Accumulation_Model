@@ -1,0 +1,112 @@
+#!/usr/bin/env python3
+"""./search: find text in the reading files."""
+import bisect, re, sys
+FILES = [['00a_NATIVE_ENGINE.md', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/00a_NATIVE_ENGINE.md', 'text', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/00a_NATIVE_ENGINE.md'], ['00b_CAPABILITY_MENU.md', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/00b_CAPABILITY_MENU.md', 'text', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/00b_CAPABILITY_MENU.md'], ['01_SAM_Volume_I_FirstEdition_DRAFT_20261111.pdf', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/text/01_SAM_Volume_I_FirstEdition_DRAFT_20261111.pdf.txt', 'pdf', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/01_SAM_Volume_I_FirstEdition_DRAFT_20261111.pdf'], ['02_SAM_Volume_II_Revised_Edition_20261110.pdf', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/text/02_SAM_Volume_II_Revised_Edition_20261110.pdf.txt', 'pdf', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/02_SAM_Volume_II_Revised_Edition_20261110.pdf'], ['03_SAM_Volume_III_20261111_refined.pdf', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/text/03_SAM_Volume_III_20261111_refined.pdf.txt', 'pdf', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/03_SAM_Volume_III_20261111_refined.pdf'], ['04_REPORTvolii.md', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/04_REPORTvolii.md', 'text', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/04_REPORTvolii.md'], ['05_REPORT.md', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/05_REPORT.md', 'text', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/05_REPORT.md'], ['06_FULL_RESEARCH_HANDOFF.md', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/06_FULL_RESEARCH_HANDOFF.md', 'text', '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/06_FULL_RESEARCH_HANDOFF.md']]        # [name as listed, path of its searchable text or None, "pdf" | "text" | "other", the file]
+PAGE = re.compile(r"^===== page (\d+) =====$")
+LIMIT = 40
+USAGE = """usage:
+  ./search PHRASE          every place in the reading where PHRASE occurs (case and line breaks do not matter)
+  ./search -r REGEX        the same for a regular expression
+  ./search -f 03 PHRASE    only in the file whose name starts with 03 (also with -r)
+  ./search -p 03 57        print page 57 of file 03 as extracted text (PDFs)
+  ./search -l              list the reading files"""
+
+
+def load(path, paged):
+    """Every line of a file as (page or None, line number, text)."""
+    rows, page, n = [], None, 0
+    for line in open(path, encoding="utf-8", errors="replace"):
+        m = PAGE.match(line.strip()) if paged else None
+        if m:
+            page, n = int(m.group(1)), 0
+            continue
+        n += 1
+        rows.append((page, n, line.rstrip("\n")))
+    return rows
+
+
+def pick(prefix):
+    hits = [f for f in FILES if f[0].startswith(prefix)]
+    if len(hits) != 1:
+        sys.exit("no single reading file starts with " + repr(prefix) + " (./search -l lists them)")
+    return hits[0]
+
+
+def search(pattern, only):
+    shown = total = 0
+    counts, skipped = [], []
+    for name, path, kind, _ in FILES:
+        if only and not name.startswith(only):
+            continue
+        if not path:
+            skipped.append(name)
+            continue
+        rows = load(path, kind == "pdf")
+        starts, parts, pos = [], [], 0
+        for _, _, text in rows:
+            t = " ".join(text.split())
+            starts.append(pos)
+            parts.append(t)
+            pos += len(t) + 1
+        blob = " ".join(parts)
+        hits = 0
+        for m in pattern.finditer(blob):
+            hits += 1
+            if shown < LIMIT:
+                shown += 1
+                page, n, _ = rows[bisect.bisect_right(starts, m.start()) - 1]
+                a, b = max(0, m.start() - 110), min(len(blob), m.end() + 110)
+                where = ("p." + str(page) + " line " + str(n)) if page else ("line " + str(n))
+                print(name + "  " + where + ": ..." + blob[a:b] + "...")
+        if hits:
+            counts.append(name + " " + str(hits))
+        total += hits
+    if not total:
+        print("no hits" + (" in the files that can be searched" if skipped else ""))
+    else:
+        print("hits by file: " + "; ".join(counts))
+        if total > shown:
+            print("shown: the first " + str(shown) + " of " + str(total) + ". Narrow the phrase, or use -f.")
+    if skipped:
+        print("not searchable as text (open them directly): " + ", ".join(skipped))
+
+
+def main():
+    a = sys.argv[1:]
+    if a == ["-l"]:
+        for name, path, kind, source in FILES:
+            if not path:
+                print(name + "  (" + kind + ", not searchable as text)  " + source)
+            elif kind == "pdf":
+                rows = load(path, True)
+                print(name + "  (pdf, " + str(max([r[0] or 0 for r in rows] or [0])) + " pages; text: " + path + ")")
+            else:
+                print(name + "  (text, " + str(len(load(path, False))) + " lines)")
+        return
+    if len(a) == 3 and a[0] == "-p" and a[2].isdigit():
+        name, path, kind, source = pick(a[1])
+        if kind != "pdf" or not path:
+            sys.exit(name + " has no pages as extracted text; open it directly: " + source)
+        lines = [text for page, _, text in load(path, True) if page == int(a[2])]
+        print("\n".join(lines) if lines else "no page " + a[2] + " in " + name)
+        print("[" + name + " page " + a[2] + ", as extracted text. The page itself is in " + source + "]")
+        return
+    only, regex = None, False
+    while a and a[0] in ("-f", "-r"):
+        if a[0] == "-f":
+            if len(a) < 2:
+                sys.exit(USAGE)
+            only, a = pick(a[1])[0], a[2:]
+        else:
+            regex, a = True, a[1:]
+    if not a:
+        sys.exit(USAGE)
+    text = " ".join(a)
+    try:
+        pattern = re.compile(text if regex else " ".join(re.escape(w) for w in text.split()), re.IGNORECASE)
+    except re.error as e:
+        sys.exit("not a valid regular expression: " + str(e))
+    search(pattern, only)
+
+
+main()

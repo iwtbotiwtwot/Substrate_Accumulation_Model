@@ -1,0 +1,9 @@
+{
+  "kind": "gen6_job",
+  "key": "THREE_CONTROL_STAR_V2",
+  "purpose": "Deliberately omit one non-null ray; expected_failed_check: all-boundary-uniformity",
+  "job_path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/THREE/THREE_CONTROL_STAR_V2.job.json",
+  "expected_status": "FAILED",
+  "expected_reason": "Native exact_equal check must reject nonzero -875/4 uniformity defect",
+  "supersedes": "THREE_CONTROL_STAR"
+}

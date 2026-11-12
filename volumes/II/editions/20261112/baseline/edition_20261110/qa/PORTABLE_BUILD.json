@@ -1,0 +1,9 @@
+{
+  "standalone_source_archive_build": "PASS",
+  "build_command": "bash build.sh",
+  "fresh_directory": "/tmp/volii-edition-build-9fq148hw/SAM_Volume_II_Revised_Edition_20261110",
+  "pages": 117,
+  "all_page_text_identical": true,
+  "scientific_engines_used": false,
+  "external_manuscript_assets_required": false
+}

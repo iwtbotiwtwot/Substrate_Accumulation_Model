@@ -1,0 +1,46 @@
+{
+  "source": "Fresh lead replay files under RESULTS/LEAD_PUBLIC_REPLAY, each byte-identical to separately authored verifier output.",
+  "claims": 13,
+  "held": 10,
+  "corrected": 3,
+  "controls": 9,
+  "outputs_replayed": 19,
+  "phase_guarantees": 50,
+  "intermediate_guarantees": 6,
+  "point_accounts": 44,
+  "empty_controls": 10,
+  "one_electron": "-0.04735264960221189793807378413284",
+  "six_electron": "-0.16329578569671925116100439108172",
+  "finite_core_complete": [
+    {
+      "source": "C12_333",
+      "generic_upper": "5733/185",
+      "full_interval": {
+        "lower": "23717955821225869941908654076405284391682076249891670463/766247770432944429179173513575154591809369561091801088",
+        "upper": "47435911642451739883817308152810568783364152499783340927/1532495540865888858358347027150309183618739122183602176"
+      },
+      "approximate_display": "30.95337661840736",
+      "source_file": "RESULTS/LEAD_PUBLIC_REPLAY/REFERENCES/FINITE_CORE_COMPLETE.json"
+    },
+    {
+      "source": "C12_343",
+      "generic_upper": "5992/185",
+      "full_interval": {
+        "lower": "49547372054594606784699455114356994276267342247389717781/1532495540865888858358347027150309183618739122183602176",
+        "upper": "24773686027297303392349727557178497138133671123694858891/766247770432944429179173513575154591809369561091801088"
+      },
+      "approximate_display": "32.33116882454314",
+      "source_file": "RESULTS/LEAD_PUBLIC_REPLAY/REFERENCES/FINITE_CORE_COMPLETE.json"
+    },
+    {
+      "source": "C12_444",
+      "generic_upper": "6732/185",
+      "full_interval": {
+        "lower": "6738527184694783822964500033736671636074926032949874461/191561942608236107294793378393788647952342390272950272",
+        "upper": "53908217477558270583716000269893373088599408263598995689/1532495540865888858358347027150309183618739122183602176"
+      },
+      "approximate_display": "35.17675323681471",
+      "source_file": "RESULTS/LEAD_PUBLIC_REPLAY/REFERENCES/FINITE_CORE_COMPLETE.json"
+    }
+  ]
+}

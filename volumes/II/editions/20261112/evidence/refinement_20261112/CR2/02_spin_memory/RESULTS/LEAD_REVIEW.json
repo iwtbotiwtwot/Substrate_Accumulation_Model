@@ -1,0 +1,227 @@
+{
+  "status": "COMPLETE_HELD",
+  "reviewed_utc": "2026-11-12T00:27:50.807756+00:00",
+  "scope": "All eleven source-bound claims, nine controls, full written proofs and separate implementations, plus fresh complete-case replay.",
+  "independence": "I1",
+  "reproducibility": "R2",
+  "meaning": "Fresh same-model verifier contexts and separately authored code; engine-free relocated public replay. No outside-model, external-human or outside-party level.",
+  "claims": [
+    {
+      "id": "A01",
+      "track": "SIGNED",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/SIGNED/OUTCOMES.json"
+    },
+    {
+      "id": "A02",
+      "track": "SIGNED",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/SIGNED/OUTCOMES.json"
+    },
+    {
+      "id": "A03",
+      "track": "SIGNED",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/SIGNED/OUTCOMES.json"
+    },
+    {
+      "id": "A04",
+      "track": "SIGNED",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/SIGNED/OUTCOMES.json"
+    },
+    {
+      "id": "B01",
+      "track": "GROWING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/GROWING/OUTCOMES.json"
+    },
+    {
+      "id": "B02",
+      "track": "GROWING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/GROWING/OUTCOMES.json"
+    },
+    {
+      "id": "B03",
+      "track": "GROWING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/GROWING/OUTCOMES.json"
+    },
+    {
+      "id": "B04",
+      "track": "GROWING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/GROWING/OUTCOMES.json"
+    },
+    {
+      "id": "C01",
+      "track": "QUADRATURE",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/QUADRATURE/OUTCOMES.json"
+    },
+    {
+      "id": "C02",
+      "track": "QUADRATURE",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/QUADRATURE/OUTCOMES.json"
+    },
+    {
+      "id": "C03",
+      "track": "QUADRATURE",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/QUADRATURE/OUTCOMES.json"
+    }
+  ],
+  "controls": [
+    {
+      "id": "SA01",
+      "track": "SIGNED",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/SIGNED/OUTCOMES.json"
+    },
+    {
+      "id": "SA02",
+      "track": "SIGNED",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/SIGNED/OUTCOMES.json"
+    },
+    {
+      "id": "SA03",
+      "track": "SIGNED",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/SIGNED/OUTCOMES.json"
+    },
+    {
+      "id": "GB01",
+      "track": "GROWING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/GROWING/OUTCOMES.json"
+    },
+    {
+      "id": "GB02",
+      "track": "GROWING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/GROWING/OUTCOMES.json"
+    },
+    {
+      "id": "GB03",
+      "track": "GROWING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/GROWING/OUTCOMES.json"
+    },
+    {
+      "id": "QC01",
+      "track": "QUADRATURE",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/QUADRATURE/OUTCOMES.json"
+    },
+    {
+      "id": "QC02",
+      "track": "QUADRATURE",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/QUADRATURE/OUTCOMES.json"
+    },
+    {
+      "id": "QC03",
+      "track": "QUADRATURE",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/QUADRATURE/OUTCOMES.json"
+    }
+  ],
+  "counts": {
+    "HELD": 11
+  },
+  "reviewed_files": [
+    {
+      "path": "peers/SIGNED/REPORT.md",
+      "sha256": "63084d75b2df33575ea31a6708c434787cd47f7d9f345b3ab5c27f0f529dc4dc",
+      "bytes": 6920,
+      "scope": "Complete mathematical/source proof read and review."
+    },
+    {
+      "path": "peers/SIGNED/DERIVATION.md",
+      "sha256": "62e1f066757f1f4593797b8bdbc1a56e4a566204597c5afb355b2cfea6b8bff1",
+      "bytes": 17961,
+      "scope": "Complete mathematical/source proof read and review."
+    },
+    {
+      "path": "peers/SIGNED/HYPOTHESES.md",
+      "sha256": "5eca243d142339783f001589f5d9c3183e0b9d1e18d37c84ec4a80ed62abf3a5",
+      "bytes": 4941,
+      "scope": "Complete mathematical/source proof read and review."
+    },
+    {
+      "path": "peers/SIGNED/scripts/replay_v1.py",
+      "sha256": "d29b5b59388ee71bec9feff725d061175c95fd0017c2e445b2f070040674dedc",
+      "bytes": 35513,
+      "scope": "Complete code read; source, imports, numerical payment, control, output and file IO review."
+    },
+    {
+      "path": "peers/GROWING/REPORT.md",
+      "sha256": "b0bd2be20a6916a930176260beb87281d02d50665200f9f2802798bca2c1371c",
+      "bytes": 6490,
+      "scope": "Complete mathematical/source proof read and review."
+    },
+    {
+      "path": "peers/GROWING/DERIVATION.md",
+      "sha256": "13eb0471f184d6f2df848046b2eb0f3da346055e1a2e1a1d2cde292ec14038ba",
+      "bytes": 23616,
+      "scope": "Complete mathematical/source proof read and review."
+    },
+    {
+      "path": "peers/GROWING/HYPOTHESES.md",
+      "sha256": "81578d9c64a12ab7b4c156a20b1c5d0e66513a772abae524bef65aec3b3ea7a2",
+      "bytes": 5691,
+      "scope": "Complete mathematical/source proof read and review."
+    },
+    {
+      "path": "peers/GROWING/scripts/replay.py",
+      "sha256": "e4145effa04b09030b69665e96431b52f6d339f59fcd9d4288d4bfb4e32b179e",
+      "bytes": 27482,
+      "scope": "Complete code read; source, imports, numerical payment, control, output and file IO review."
+    },
+    {
+      "path": "peers/QUADRATURE/REPORT.md",
+      "sha256": "671e139970199da5f19d512056beec8a3ca80bb2b4782acec3aacd3f82b20eaf",
+      "bytes": 7881,
+      "scope": "Complete mathematical/source proof read and review."
+    },
+    {
+      "path": "peers/QUADRATURE/DERIVATION.md",
+      "sha256": "b83753099b9a2f96f576c525b231e9a85ad770649f5f2ed752c0eb9848f6a778",
+      "bytes": 24351,
+      "scope": "Complete mathematical/source proof read and review."
+    },
+    {
+      "path": "peers/QUADRATURE/HYPOTHESES.md",
+      "sha256": "5859b9706fa268fe58b3e45fcac85b89b73e56ea6eb890705a6441ce64abecee",
+      "bytes": 5332,
+      "scope": "Complete mathematical/source proof read and review."
+    },
+    {
+      "path": "peers/QUADRATURE/replay.py",
+      "sha256": "8c50651a61da8c37f36a81add399c7933ee5200a3879eb3ea606defde442b22c",
+      "bytes": 30635,
+      "scope": "Complete code read; source, imports, numerical payment, control, output and file IO review."
+    }
+  ],
+  "unresolved_assigned_substatements": [],
+  "lead_scientific_messages_during_spin_verifier_work": 0,
+  "source_producer_join": "SIGNED independently regenerates actual N5000 moments and all boundary operands. QUADRATURE independently checks the receiver using sealed inherited moment intervals; that downstream dependency remains explicit. Their combination closes source generation plus receiving bound, without claiming QUADRATURE regenerated the large source.",
+  "retained_failures": [
+    "SIGNED operational source-copy errors retained; no scientific failed attempt.",
+    "GROWING attempt01 compared tiny arithmetic balls for different valid endpoint-derived bound numbers; all signed differences retained. Attempt02 passed an integer to an Arb-only helper; traceback and successor retained.",
+    "QUADRATURE A02 rejected an invalid moment list via the upper-support localizer before the harness expected a singular-recurrence subtype; failure retained, separate recurrence/control checks preserved."
+  ],
+  "scope_boundaries": [
+    "Signed N5000 result: signed_packet positive fill, beta=1/N, stationary site-0 readings, unit attempted heatbath at every physical site; waits1/3 and1/3.",
+    "Comparison covers every common nonnegative scalar rescaling of exactly the declared same-source four-port heatbath, not arbitrary kinetics.",
+    "Uniform growing-time law applies to the complete uniform critical positive-fill source; fixed lower wait and T_N=o(sqrt(N)); saturated coefficient also requires t_N tending to infinity.",
+    "Wait-four gain uses inherited completed uniform short-wait endpoints and independently prepared triples with identical nonnegative overhead; no physical seconds or dependent-sample rate.",
+    "Signed-chain adapter remains unexecuted; negative-fill N5000, all-N signed amplitudes and accepted-mass dynamics are not inferred."
+  ],
+  "director_approval": false,
+  "manuscript_changes": false,
+  "next": "Complete the CAR/Fock/loading package and final archive/history/repository custody."
+}

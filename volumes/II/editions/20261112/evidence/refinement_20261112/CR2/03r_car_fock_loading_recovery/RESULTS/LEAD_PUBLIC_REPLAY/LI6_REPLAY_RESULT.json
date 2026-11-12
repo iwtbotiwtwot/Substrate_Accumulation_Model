@@ -1,0 +1,74 @@
+{
+  "returncode": 0,
+  "command": [
+    "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/.venv/bin/python",
+    "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/host/public_replay_guard_v2.py",
+    "--case",
+    "/tmp/volii_car_public_20261112T004141Z",
+    "--audit",
+    "/tmp/volii_car_public_20261112T004141Z/lead_output_LI6/LEAD_PUBLIC_READ_AUDIT.json",
+    "--script",
+    "/tmp/volii_car_public_20261112T004141Z/peers/LI6/replay.py",
+    "--",
+    "--output",
+    "/tmp/volii_car_public_20261112T004141Z/lead_output_LI6"
+  ],
+  "wall_seconds": 2.3098937661852688,
+  "outputs": {
+    "BOUNDS.json": {
+      "sha256": "27e6c26776bb095e673bcf8cca30c23a9e994dff18f21b5244a1e232bb0fcdf8",
+      "expected_sha256": "27e6c26776bb095e673bcf8cca30c23a9e994dff18f21b5244a1e232bb0fcdf8",
+      "match": true
+    },
+    "CONTROLS.json": {
+      "sha256": "7b6ddce9c210237d67b089adb420e69873544d776c7936ea788fc4337deb2ae5",
+      "expected_sha256": "7b6ddce9c210237d67b089adb420e69873544d776c7936ea788fc4337deb2ae5",
+      "match": true
+    },
+    "DIRECTED.json": {
+      "sha256": "e18999df2ac3289a19537a1f5434b37ec6a9bd996cebaf1ed02ac83fe8899f7f",
+      "expected_sha256": "e18999df2ac3289a19537a1f5434b37ec6a9bd996cebaf1ed02ac83fe8899f7f",
+      "match": true
+    },
+    "EXECUTION.json": {
+      "sha256": "a6ee1cfdcae1065d4ce221f67bf83be07a10f9b9a48e199fa0718633b0971c2e",
+      "expected_sha256": "a6ee1cfdcae1065d4ce221f67bf83be07a10f9b9a48e199fa0718633b0971c2e",
+      "match": true
+    },
+    "MOMENTS.json": {
+      "sha256": "929ec03c604ddb80d03995e6de17deabfe33a6f18a2240229e06ebb705f72482",
+      "expected_sha256": "929ec03c604ddb80d03995e6de17deabfe33a6f18a2240229e06ebb705f72482",
+      "match": true
+    },
+    "PHYSICAL_IMAGES.json": {
+      "sha256": "eab597013f2869b4e6241ce58a3fef4a284b8d8dc4ad588ec9d416d2bf2c69d4",
+      "expected_sha256": "eab597013f2869b4e6241ce58a3fef4a284b8d8dc4ad588ec9d416d2bf2c69d4",
+      "match": true
+    },
+    "PROPER_REFERENCE.json": {
+      "sha256": "94e90acd3919e3367e609e8860e78fe6410b8a4ec5ac38d1cfefa26fa2fdf34a",
+      "expected_sha256": "94e90acd3919e3367e609e8860e78fe6410b8a4ec5ac38d1cfefa26fa2fdf34a",
+      "match": true
+    },
+    "SOURCE.json": {
+      "sha256": "0c55603ea84b156d39e94c1577b5795e08678ff53b0af14fce9ce43f428ef713",
+      "expected_sha256": "0c55603ea84b156d39e94c1577b5795e08678ff53b0af14fce9ce43f428ef713",
+      "match": true
+    },
+    "SOURCE_COUNTEREXAMPLE.json": {
+      "sha256": "f5915f1d2d7b6a821a55daf6e34440fa83b277a1b1f1fc458a4251c1a6b7e0a4",
+      "expected_sha256": "f5915f1d2d7b6a821a55daf6e34440fa83b277a1b1f1fc458a4251c1a6b7e0a4",
+      "match": true
+    },
+    "SUMMARY.json": {
+      "sha256": "652d129738fa8f385512021d78047991fc176f250ffd9d1d33daa1066a8ff630",
+      "expected_sha256": "652d129738fa8f385512021d78047991fc176f250ffd9d1d33daa1066a8ff630",
+      "match": true
+    }
+  },
+  "status": "PASS",
+  "audit_status": "PASS",
+  "other_output_files": [
+    "LEAD_PUBLIC_READ_AUDIT.json"
+  ]
+}

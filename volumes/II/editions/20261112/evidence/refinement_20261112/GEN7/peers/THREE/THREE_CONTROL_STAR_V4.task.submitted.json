@@ -1,0 +1,20 @@
+{
+ "kind": "gen6_job",
+ "key": "THREE_CONTROL_STAR_V4",
+ "purpose": "Deliberately omit one non-null ray; expected_failed_check: all-boundary-uniformity; caller-contract correction of STAR wrapper after rejected formal supersedes",
+ "job_path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/THREE/THREE_CONTROL_STAR_V4.job.json",
+ "expected_status": "FAILED",
+ "expected_reason": "Native result failed declared check",
+ "because": [
+  "THREE_STAR_LEDGER"
+ ],
+ "controller": "G6_03",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ },
+ "job_sha256": "68a9f4a2926659efe742149ca5238ad052b6c62810c04763794322d8f5e11402"
+}

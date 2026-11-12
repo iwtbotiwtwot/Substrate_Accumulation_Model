@@ -1,0 +1,6 @@
+{
+  "kind": "gen6_job",
+  "key": "ONE7_FIBER_KINEMATICS",
+  "purpose": "Anchor Bloch trial support, strict42/33 sector margins,321 countercontrol and optical-boson bandwidth arithmetic for the new explicit localization argument.",
+  "job_path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/ONE/tasks/ONE7_FIBER_KINEMATICS.job.json"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "COMPLETE",
+  "time_utc": "2026-11-10T12:44:05.701095+00:00",
+  "reviewed": "All three reports, hypotheses and complete derivations; key CAR/source/projector/control code; retained errors, registrations, primary representation readback and final seals",
+  "verdict": "HELD",
+  "claims": {
+    "C1": "HELD",
+    "C2": "HELD",
+    "C3": "HELD",
+    "C4": "HELD",
+    "C5": "HELD",
+    "C6": "HELD",
+    "C7": "HELD",
+    "C8": "HELD",
+    "C9": "HELD"
+  },
+  "scientific_statement_corrections": [],
+  "integration": "RESULTS/INTEGRATION.json",
+  "portable_replay": "scripts/replay_all.py",
+  "lead_replays": [
+    "RESULTS/LEAD_PUBLIC_REPLAY/CHANNEL/OUTCOME.json",
+    "RESULTS/LEAD_PUBLIC_REPLAY/TRANSFER/OUTCOME.json",
+    "RESULTS/LEAD_PUBLIC_REPLAY/SYMMETRY/OUTCOME.json"
+  ],
+  "proof_and_replay_distinction": "Finite exact replays substantiate finite operands and controls; written form-domain, cell-partition and representation arguments establish the extensions.",
+  "independence": "I1, separate proof and code, same inherited model; internal review",
+  "reproducibility": "R2, standard-library relocated replay and public written proof",
+  "retained_incidents": [
+    "Lead integration001 compared differently ordered Gram arrays without their labels; corrected with the explicit pair permutation, all576 entries equal",
+    "SYMMETRY attempt001 verifier Green-table error; corrected against independent Walsh inverse, no claim changed",
+    "TRANSFER source-reading python alias unavailable; repeated with python3 before mathematical execution",
+    "SYMMETRY direct primary download DNS failure; successful official web-tool readback retained"
+  ],
+  "lead_scientific_messages_during_tracks": 0,
+  "new_duck_windows": 0,
+  "physical_isotope_binding_established": false,
+  "paid_autonomous_preparation_established": false,
+  "next": "Derive or independently calibrate the physical receiving interaction and its preparation/control account; carry the held theorem and scope into any later manuscript copy."
+}

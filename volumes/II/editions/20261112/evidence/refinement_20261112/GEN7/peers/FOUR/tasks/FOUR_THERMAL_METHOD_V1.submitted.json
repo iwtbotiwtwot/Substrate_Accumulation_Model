@@ -1,0 +1,15 @@
+{
+ "kind": "gen6_job",
+ "key": "FOUR_THERMAL_METHOD_V1",
+ "purpose": "Admit, compile and execute reusable actual O16 thermal-band error receiver for inherited conservative band382.19596 and sharpened382.443 at beta200 eta1/40",
+ "job_path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/FOUR/tasks/FOUR_THERMAL_METHOD_V1.job.json",
+ "controller": "G6_04",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ },
+ "job_sha256": "e3720c1f8df470d5548e01d1679ef973389692067d791e8747dc830eacbf4341"
+}

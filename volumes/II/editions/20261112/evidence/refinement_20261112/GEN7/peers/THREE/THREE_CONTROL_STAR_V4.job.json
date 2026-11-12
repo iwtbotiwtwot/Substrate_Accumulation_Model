@@ -1,0 +1,100 @@
+{
+  "schema": "SAM_ONE_PRINCIPLE_NATIVE_JOB_V1",
+  "objective": "Reachable omission control: broken uniformity must fail",
+  "precision_bits": 384,
+  "sources": [
+    {
+      "path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/THREE/PREDICTIONS.md",
+      "sha256": "51f3d2c3e3267fda1cbd723055493800d80e0aa2142e10a0729fd05042ebb35c"
+    }
+  ],
+  "steps": [
+    {
+      "id": "false_uniformity",
+      "operation": "GEN3_SOURCE_OPERATOR_WORD",
+      "purpose": "Reachable missing-ray failure of uniformity; expected nonzero defect",
+      "payload": {
+        "name": "THREE_MISSING_RAY_EXPECTED_FAILURE_V4",
+        "source_binding": {
+          "$source": true
+        },
+        "context": {
+          "basis": [
+            "lost_uniformity"
+          ],
+          "field": {
+            "radicand": 0
+          },
+          "units": {
+            "energy": "J",
+            "time": "one attempt per physical boundary spin"
+          },
+          "history": {
+            "source": "VolumeII VII.2 eight sign rays",
+            "preparation": "complete Gibbs x=log2/2"
+          },
+          "spectral_coordinate": "lambda(-L)"
+        },
+        "data": {
+          "operators": {
+            "rows": [
+              [
+                "625/2"
+              ],
+              [
+                "2125/4"
+              ]
+            ],
+            "difference": [
+              [
+                1,
+                -1
+              ]
+            ]
+          },
+          "program": [
+            {
+              "name": "defect",
+              "op": "multiply",
+              "inputs": [
+                "difference",
+                "rows"
+              ]
+            }
+          ],
+          "output": "defect"
+        }
+      },
+      "checks": [
+        {
+          "predicate": "native_contract"
+        },
+        {
+          "predicate": "exact_equal",
+          "path": [
+            "matrix",
+            0,
+            0
+          ],
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "readouts": {
+    "defect": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "$step": "false_uniformity",
+        "path": []
+      }
+    }
+  },
+  "source_binding": {
+    "kind": "GEN7_DUCK",
+    "campaign": "20261112T043202Z",
+    "law_namespace": "SAM_land",
+    "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  },
+  "law_namespace": "SAM_land"
+}

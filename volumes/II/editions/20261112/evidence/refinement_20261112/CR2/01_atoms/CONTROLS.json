@@ -1,0 +1,50 @@
+{
+  "controls": [
+    {
+      "id": "AF01",
+      "track": "FORM",
+      "prediction_to_refine_and_seal": "Replace the divergence-matched proof field by an incorrect constant/gradient substitute; a concrete form or pointwise identity must detect the missing source term."
+    },
+    {
+      "id": "AF02",
+      "track": "FORM",
+      "prediction_to_refine_and_seal": "Use an unmatched radial core profile; detect the derivative/interface error while the original profile passes."
+    },
+    {
+      "id": "AF03",
+      "track": "FORM",
+      "prediction_to_refine_and_seal": "Violate the pair-nonnegativity or kinetic hypothesis in a toy member; the claimed full interacting lower must refuse that transfer."
+    },
+    {
+      "id": "AO01",
+      "track": "ORBITALS",
+      "prediction_to_refine_and_seal": "Omit log derivative or signed off-diagonal Gram/kinetic terms; detect a changed exact integral or invalid normalization on a declared witness."
+    },
+    {
+      "id": "AO02",
+      "track": "ORBITALS",
+      "prediction_to_refine_and_seal": "Use nonorthogonal occupied states or exceed spin multiplicity without a valid Gram normalization; detect the invalid Pauli trace."
+    },
+    {
+      "id": "AO03",
+      "track": "ORBITALS",
+      "prediction_to_refine_and_seal": "Retain the regular-basis and genuine full-cross-term computations as comparisons; numerical optimization alone must not replace a directed witness check."
+    },
+    {
+      "id": "AR01",
+      "track": "REFERENCES",
+      "prediction_to_refine_and_seal": "Substitute one shared occupied coefficient for different prefixes or one wrong coupling/source factor; detect a selected phase/binding discrepancy."
+    },
+    {
+      "id": "AR02",
+      "track": "REFERENCES",
+      "prediction_to_refine_and_seal": "Drop the intrinsic gap or core self from one complete minimum; detect the changed/unsupported reference claim on a source-bound comparison."
+    },
+    {
+      "id": "AR03",
+      "track": "REFERENCES",
+      "prediction_to_refine_and_seal": "Present finite-core, ionization or massive-action results as the original point-source account; the source contract must reject the transfer."
+    }
+  ],
+  "policy": "Predictions refined and sealed before execution; a control that does not break as predicted is retained and reported."
+}

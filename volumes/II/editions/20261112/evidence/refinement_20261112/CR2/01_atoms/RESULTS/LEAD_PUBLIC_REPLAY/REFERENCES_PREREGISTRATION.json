@@ -1,0 +1,34 @@
+{
+  "sealed_utc": "2026-11-11T23:54:56.433108+00:00",
+  "form": "engineering_replay",
+  "question": "Does the separately authored frozen public runner reproduce every mathematical output after complete-case relocation?",
+  "source_case": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/01_atoms",
+  "relocated_case": "/tmp/volii_atoms_public_20261111T235454Z",
+  "script": "peers/REFERENCES/scripts/replay_v2.py",
+  "script_sha256": "a5c34575e9c38ed3546b01414c0a0beeef373d63d7705fccdbcb5b5832f814da",
+  "guard_sha256": "9ca28eb25260e401592f0b998f301750d088320c3e1236b19452a696c2e1e9c9",
+  "command": [
+    "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/.venv/bin/python",
+    "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/host/public_replay_guard.py",
+    "--case",
+    "/tmp/volii_atoms_public_20261111T235454Z",
+    "--audit",
+    "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/host/lead_replay/atoms_20261111T235454Z/REFERENCES_PUBLIC_READ_AUDIT.json",
+    "--script",
+    "/tmp/volii_atoms_public_20261111T235454Z/peers/REFERENCES/scripts/replay_v2.py",
+    "--",
+    "--output",
+    "/tmp/volii_atoms_public_20261111T235454Z/lead_output_REFERENCES"
+  ],
+  "cwd": "/tmp/volii_atoms_public_20261111T235454Z",
+  "expected_output_hashes": {
+    "CONTROLS.json": "fafa04e809ce19ea52ccd5e549285df521d35cf9fe935c8efa4f361fec41d2d7",
+    "FINITE_CORE_COMPLETE.json": "5d6b88f312205df93101e126b01d11558110fb6823becaa156f46d05b7fc51d0",
+    "NUCLEAR_RECONSTRUCTION.json": "6e58aab8aeecef64f3ae38f6baf445dcec631f2d3af2b0de963b04537d569339",
+    "OCCUPIED_PREFIXES.json": "a672c866f42faf8b3b9b7938455a752f0d59f00aa227523301cc0861e799d3f6",
+    "POINT_BINDING_ALL44.json": "499bcdb0e150f300479b7de28bf42528c5f44b27f080bf94d1a16352e71a7921",
+    "SIX_PHASE_GUARANTEES.json": "f667ced8dbd67a0643396ea7677ec06c535bc309b344605b68ac739f4fdf26d8",
+    "SUMMARY.json": "300977a9f37487d350b5aa97421dbe5e4cfaa094d9061686ff6abf69826b52a2"
+  },
+  "criterion": "Every deterministic output byte-matches its source-bound reference; no forbidden private input read and no engine call."
+}

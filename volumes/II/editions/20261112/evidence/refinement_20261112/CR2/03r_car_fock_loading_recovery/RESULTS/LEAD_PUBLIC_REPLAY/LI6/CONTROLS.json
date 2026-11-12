@@ -1,0 +1,89 @@
+{
+  "LA01_energy_not_scalar_norm": {
+    "N": "0",
+    "Q": "-4/5",
+    "exact_discrepancy": "2/5",
+    "i": 0,
+    "j": 1,
+    "omitting_second_ordered_vertex": "-2/5",
+    "signed_paths": [
+      {
+        "energy_coefficient": "4/3",
+        "energy_pieces": [
+          "22/3",
+          "106/15",
+          "-98/15",
+          "-98/15"
+        ],
+        "exponent": "17/225",
+        "final_bits": "65846",
+        "i": 0,
+        "j": 1,
+        "sign": -1
+      },
+      {
+        "energy_coefficient": "8/15",
+        "energy_pieces": [
+          "22/3",
+          "106/15",
+          "-104/15",
+          "-104/15"
+        ],
+        "exponent": "17/225",
+        "final_bits": "16777271",
+        "i": 0,
+        "j": 1,
+        "sign": 1
+      }
+    ]
+  },
+  "LA01_initial_coordinate_null": {
+    "N": "0",
+    "Q": "0",
+    "broke_as_initially_predicted": false,
+    "explanation": "Both signed norm and energy paths cancel on this initially chosen null entry. Attempt001 retained.",
+    "initial_pair": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        1
+      ]
+    ]
+  },
+  "LA02_all_input_quantifier": {
+    "adjacency_expectation": "34/3",
+    "energy_formula": "36(tau+t_cell) - (68 tau/3) r_edge - (1783/315) g^2",
+    "irrep": "411",
+    "lower_energy_at_point_using_r_le_1": "-415669/2250",
+    "lower_gap_above_claimed_unchanged_input_upper": "71531315327517344257655071093/1201648534874795657958147225",
+    "position_support": 6144,
+    "potential": "1783/315",
+    "raw_metric_norm": "3/2",
+    "unchanged_by_graph_rotation": true
+  },
+  "LA02_cell_omission": {
+    "energy_moment_losses": {
+      "321": "77/25000",
+      "33": "441/125000",
+      "42": "58/15625"
+    },
+    "norm_loss": "9/250000"
+  },
+  "LA02_sector_omission": {
+    "kept_norm": "113/225",
+    "lost_norm": "112/225",
+    "omitted_irrep": "321"
+  },
+  "LA03_pulse": {
+    "B_positive_from_exact_moments": true,
+    "imaginary_graph_energy_correction": "+(I+a^2 V)^(-1/2) a^2 B (I+a^2 V)^(-1/2)",
+    "real_filter_first_derivative": "-2 V",
+    "real_time_first_derivative": 0,
+    "reason": "H0 J=EJ; J* K J=0; V is positive. The state tangents -KJ and -iKJ differ."
+  }
+}

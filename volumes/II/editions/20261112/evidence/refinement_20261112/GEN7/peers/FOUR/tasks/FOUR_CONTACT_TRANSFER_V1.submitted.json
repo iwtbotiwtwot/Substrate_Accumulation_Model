@@ -1,0 +1,15 @@
+{
+ "kind": "gen6_job",
+ "key": "FOUR_CONTACT_TRANSFER_V1",
+ "job_path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/FOUR/tasks/FOUR_CONTACT_TRANSFER_V1.job.json",
+ "purpose": "Exact isolated marked crossing versus regularized hazard, including independent logarithmic form and reachable failing uncalibrated control",
+ "controller": "G6_04",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ },
+ "job_sha256": "61c5d41253bc674e1b150a911e007a7f2449e6d26a5d89ef833a519ff4cb8061"
+}

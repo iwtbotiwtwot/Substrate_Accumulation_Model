@@ -1,0 +1,521 @@
+{
+  "authored_by": "PEER_FOUR",
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "aec9c75a8511591b20dc8818d7b4097cfe55481394602873eb933e4fa801de4a",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "4a044708f4f5649e7017fe92e51f7fed92f7cf151b4fd736584f93ea86efbb8e",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-11-12T04:47:30.620902+00:00",
+  "gen6_core_version": "0.11.3",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_04",
+  "imports": [],
+  "key": "FOUR_GRAMMAR_FIBERS_V1",
+  "kind": "RESULT",
+  "native_payload": {
+    "context": {
+      "basis": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "history": {
+        "precommit_sha256": "8d2fc6cfa0b48024bd4fa36d19c70a0663ead05d0b5d05fab53b9f069801f920",
+        "scope": "Actual nonzero control or Schur reconstruction"
+      },
+      "spectral_coordinate": "EXACT_CONTROL",
+      "units": {
+        "reference": "Original source units"
+      }
+    },
+    "data": {
+      "operators": {
+        "A": [
+          [
+            "1",
+            "1",
+            "12"
+          ],
+          [
+            "1",
+            "2",
+            "6"
+          ],
+          [
+            "1",
+            "2",
+            "12"
+          ],
+          [
+            "1",
+            "3",
+            "12"
+          ],
+          [
+            "1",
+            "4",
+            "8"
+          ],
+          [
+            "1",
+            "4",
+            "12"
+          ],
+          [
+            "1",
+            "6",
+            "8"
+          ],
+          [
+            "1",
+            "6",
+            "12"
+          ],
+          [
+            "1",
+            "8",
+            "12"
+          ],
+          [
+            "1",
+            "9",
+            "12"
+          ],
+          [
+            "1",
+            "12",
+            "12"
+          ],
+          [
+            "2",
+            "2",
+            "9"
+          ],
+          [
+            "2",
+            "4",
+            "12"
+          ]
+        ],
+        "C": [
+          [
+            "1",
+            "8",
+            "9"
+          ],
+          [
+            "3",
+            "4",
+            "4"
+          ],
+          [
+            "2",
+            "8",
+            "9"
+          ],
+          [
+            "3",
+            "8",
+            "9"
+          ],
+          [
+            "3",
+            "6",
+            "6"
+          ],
+          [
+            "4",
+            "8",
+            "9"
+          ],
+          [
+            "2",
+            "4",
+            "9"
+          ],
+          [
+            "6",
+            "8",
+            "9"
+          ],
+          [
+            "8",
+            "8",
+            "9"
+          ],
+          [
+            "8",
+            "9",
+            "9"
+          ],
+          [
+            "8",
+            "9",
+            "12"
+          ],
+          [
+            "3",
+            "4",
+            "8"
+          ],
+          [
+            "6",
+            "8",
+            "8"
+          ]
+        ]
+      },
+      "output": "difference",
+      "program": [
+        {
+          "inputs": [
+            "A"
+          ],
+          "name": "At",
+          "op": "transpose"
+        },
+        {
+          "inputs": [
+            "C"
+          ],
+          "name": "Ct",
+          "op": "transpose"
+        },
+        {
+          "inputs": [
+            "A",
+            "At"
+          ],
+          "name": "AA",
+          "op": "multiply"
+        },
+        {
+          "inputs": [
+            "C",
+            "Ct"
+          ],
+          "name": "CC",
+          "op": "multiply"
+        },
+        {
+          "inputs": [
+            "AA",
+            "CC"
+          ],
+          "name": "difference",
+          "op": "subtract"
+        }
+      ]
+    },
+    "name": "FOUR_GRAMMAR_FIBERS_V1",
+    "source_binding": {
+      "campaign": "20261112T043202Z",
+      "kind": "GEN7_DUCK",
+      "law_namespace": "SAM_land",
+      "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+    }
+  },
+  "operation": "GEN3_SOURCE_OPERATOR_WORD",
+  "portable_bundle": null,
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_GRAMMAR_FIBERS_V1/RESULT.json",
+  "receipt_sha256": "97595973710cdf3aca237a68c9ff716a38460e7db75a6cdc54752a3a25218a01",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 1345037509374901,
+  "returned": {
+    "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+    "execution": {
+      "backend": "NATIVE_CPP_GMP_CPU",
+      "exact_field": {
+        "radicand": 0
+      },
+      "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+      "shared_checkpoint": true
+    },
+    "field": {
+      "radicand": 0
+    },
+    "matrix": [
+      [
+        "0",
+        "4",
+        "0",
+        "0",
+        "-4",
+        "0",
+        "-12",
+        "0",
+        "0",
+        "-7",
+        "-31",
+        "5",
+        "8"
+      ],
+      [
+        "4",
+        "0",
+        "3",
+        "2",
+        "0",
+        "1",
+        "3",
+        "-1",
+        "-3",
+        "-5",
+        "-11",
+        "3",
+        "0"
+      ],
+      [
+        "0",
+        "3",
+        "0",
+        "0",
+        "-3",
+        "0",
+        "-8",
+        "0",
+        "0",
+        "-6",
+        "-27",
+        "4",
+        "6"
+      ],
+      [
+        "0",
+        "2",
+        "0",
+        "0",
+        "-2",
+        "0",
+        "-4",
+        "0",
+        "0",
+        "-5",
+        "-23",
+        "3",
+        "4"
+      ],
+      [
+        "-4",
+        "0",
+        "-3",
+        "-2",
+        "0",
+        "-1",
+        "5",
+        "1",
+        "3",
+        "1",
+        "-5",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-4",
+        "-19",
+        "2",
+        "2"
+      ],
+      [
+        "-12",
+        "3",
+        "-8",
+        "-4",
+        "5",
+        "0",
+        "0",
+        "8",
+        "16",
+        "18",
+        "9",
+        "-8",
+        "6"
+      ],
+      [
+        "0",
+        "-1",
+        "0",
+        "0",
+        "1",
+        "0",
+        "8",
+        "0",
+        "0",
+        "-2",
+        "-11",
+        "0",
+        "-2"
+      ],
+      [
+        "0",
+        "-3",
+        "0",
+        "0",
+        "3",
+        "0",
+        "16",
+        "0",
+        "0",
+        "0",
+        "-3",
+        "-2",
+        "-6"
+      ],
+      [
+        "-7",
+        "-5",
+        "-6",
+        "-5",
+        "1",
+        "-4",
+        "18",
+        "-2",
+        "0",
+        "0",
+        "0",
+        "-4",
+        "-10"
+      ],
+      [
+        "-31",
+        "-11",
+        "-27",
+        "-23",
+        "-5",
+        "-19",
+        "9",
+        "-11",
+        "-3",
+        "0",
+        "0",
+        "-22",
+        "-22"
+      ],
+      [
+        "5",
+        "3",
+        "4",
+        "3",
+        "1",
+        "2",
+        "-8",
+        "0",
+        "-2",
+        "-4",
+        "-22",
+        "0",
+        "6"
+      ],
+      [
+        "8",
+        "0",
+        "6",
+        "4",
+        "0",
+        "2",
+        "6",
+        "-2",
+        "-6",
+        "-10",
+        "-22",
+        "6",
+        "0"
+      ]
+    ],
+    "native_assertions": 115,
+    "ordered_program": [
+      {
+        "inputs": [
+          "A"
+        ],
+        "name": "At",
+        "op": "transpose"
+      },
+      {
+        "inputs": [
+          "C"
+        ],
+        "name": "Ct",
+        "op": "transpose"
+      },
+      {
+        "inputs": [
+          "A",
+          "At"
+        ],
+        "name": "AA",
+        "op": "multiply"
+      },
+      {
+        "inputs": [
+          "C",
+          "Ct"
+        ],
+        "name": "CC",
+        "op": "multiply"
+      },
+      {
+        "inputs": [
+          "AA",
+          "CC"
+        ],
+        "name": "difference",
+        "op": "subtract"
+      }
+    ],
+    "output": "difference",
+    "rank": 6,
+    "record_sha256": "bd48db58eaaea32ae201155ec570369253b0081615fb2d64946058c57645a241"
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND1",
+  "source_binding": {
+    "campaign": "20261112T043202Z",
+    "kind": "GEN7_DUCK",
+    "law_namespace": "SAM_land",
+    "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  },
+  "source_checks": [],
+  "started_utc": "2026-11-12T04:47:30.573394+00:00",
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "native",
+  "worker_cpu": 5,
+  "worker_pid": 3816048
+}

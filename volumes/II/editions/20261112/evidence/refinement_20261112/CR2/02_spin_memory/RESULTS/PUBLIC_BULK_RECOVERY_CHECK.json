@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "case": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/02_spin_memory",
+  "checked_utc": "2026-11-12T00:30:31.491776+00:00",
+  "missing_bulk_restore": {
+    "status": "PASS",
+    "members_verified": 139,
+    "members_restored": 139,
+    "existing_exact_members": 0,
+    "parts_verified": 2,
+    "verify_only": false
+  },
+  "second_readback": {
+    "status": "PASS",
+    "members_verified": 139,
+    "members_restored": 0,
+    "existing_exact_members": 139,
+    "parts_verified": 2,
+    "verify_only": true
+  },
+  "entire_case_files_compared": 2179,
+  "fresh_tree": "/tmp/volii_bulk_restore_case2_20261112T003029Z",
+  "bulk_index_sha256": "c4cd5bf0b2ebb72a13cc9ece926ce555ad516dc630678d13ce782a68e1b084fc",
+  "restorer_sha256": "8ce31b3cee0cfbb3bba9c9b705dd0e6571a061271b12a8cadfb4d4bbd8518fae",
+  "raw_originals_retained": true
+}

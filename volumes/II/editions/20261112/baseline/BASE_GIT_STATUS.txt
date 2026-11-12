@@ -1,0 +1,186 @@
+ M volumes/I/CHANGELOG.md
+ M volumes/I/src/README.md
+ M volumes/I/src/assets/ch02_live.pdf
+ M volumes/I/src/assets/ch03_live.pdf
+ M volumes/I/src/assets/ch04_live.pdf
+ M volumes/I/src/assets/ch05_live.pdf
+ M volumes/I/src/assets/ch07_write_histories_live.pdf
+ M volumes/I/src/body01_concepts.tex
+ M volumes/I/src/body07.tex
+ M volumes/I/src/body08.tex
+ M volumes/I/src/body09.tex
+ M volumes/I/src/body11.tex
+ M volumes/I/src/body12.tex
+ M volumes/I/src/body13.tex
+ M volumes/I/src/body14.tex
+ M volumes/I/src/ch01_concepts.tex
+ M volumes/I/src/ch08.tex
+ M volumes/I/src/ch09.tex
+ M volumes/I/src/ch12.tex
+ M volumes/I/src/chapter01_concepts.log
+ M volumes/I/src/chapter01_concepts.out
+ M volumes/I/src/chapter01_concepts.pdf
+ M volumes/I/src/chapter06.pdf
+ M volumes/I/src/chapter06.tex
+ M volumes/I/src/chapter07.tex
+ M volumes/I/src/chapter08.tex
+ M volumes/I/src/chapter09.tex
+ M volumes/I/src/chapter11.tex
+ M volumes/I/src/chapter12.tex
+ M volumes/I/src/chapter13.tex
+ M volumes/I/src/chapter14.tex
+ M volumes/I/src/closure_appendix.tex
+ M volumes/I/src/fe_chapter07.pdf
+ M volumes/I/src/fe_chapter08.pdf
+ M volumes/I/src/fe_chapter09.pdf
+ M volumes/I/src/fe_chapter09.tex
+ M volumes/I/src/fe_chapter11.pdf
+ M volumes/I/src/fe_chapter12.log
+ M volumes/I/src/fe_chapter12.out
+ M volumes/I/src/fe_chapter12.pdf
+ M volumes/I/src/fe_chapter12.tex
+ M volumes/I/src/fe_chapter13.pdf
+ M volumes/I/src/fe_chapter14.pdf
+ M volumes/I/src/front.aux
+ M volumes/I/src/front.log
+ M volumes/I/src/front.pdf
+ M volumes/I/src/front.tex
+ M volumes/I/src/live_sources/ch01/chapter1_as_vii.tex
+ M volumes/I/src/live_sources/ch02/chapter2_source_field_formatted.tex
+ M volumes/I/src/live_sources/ch03/chapter3_formatted.tex
+ M volumes/I/src/live_sources/ch04/chapter.tex
+ M volumes/I/src/live_sources/ch04/continuum_update.tex
+ M volumes/I/src/live_sources/ch04/protocol_predecessor.tex
+ M volumes/I/src/live_sources/ch04/radiation_energy_update.tex
+ M volumes/I/src/live_sources/ch04/radiation_local.tex
+ M volumes/I/src/live_sources/ch04/response_update.tex
+ M volumes/I/src/live_sources/ch05/chapter.tex
+ M volumes/I/src/vi_source/parts/decoder_decoder.tex
+ M volumes/I/src/vi_source/parts/foundation_error_budget.tex
+ M volumes/I/src/vi_source/parts/foundation_overlap.tex
+ M volumes/I/src/vi_source/parts/foundation_records.tex
+ M volumes/I/src/vi_source/parts/original_accessibility.tex
+ M volumes/I/src/vi_source/parts/original_history.tex
+ M volumes/I/src/vi_source/parts/original_introduction.tex
+ M volumes/I/src/vi_source/parts/record_detector_join.tex
+ M volumes/I/src/vi_source/parts/record_memory_channel.tex
+ M volumes/I/src/vi_source/parts/record_values.tex
+ M volumes/I/src/vi_source/parts/references.tex
+ M volumes/I/src/vi_source/proofs/coherent_join.tex
+ M volumes/II/CHANGELOG.md
+ M volumes/II/SOURCE.json
+ M volumes/II/src/atoms_01.tex
+ M volumes/II/src/bibliography.tex
+ M volumes/II/src/main.log
+ M volumes/II/src/main.tex
+ M volumes/II/src/nuclear_01.tex
+ M volumes/II/src/nuclear_02.tex
+ M volumes/II/src/preamble.tex
+ M volumes/II/src/scale_01.tex
+ M volumes/II/src/spin_01.tex
+ M volumes/II/src/spin_02.tex
+ M volumes/II/src/spin_03.tex
+ M volumes/III/CHANGELOG.md
+ M volumes/III/src/book_20261025/applications_01.tex
+ M volumes/III/src/book_20261025/arithmetic_01.tex
+ M volumes/III/src/book_20261025/arithmetic_02.tex
+ M volumes/III/src/book_20261025/body05.tex
+ M volumes/III/src/book_20261025/body06.tex
+ M volumes/III/src/book_20261025/body08.tex
+ M volumes/III/src/book_20261025/body09.tex
+ M volumes/III/src/book_20261025/body11.tex
+ M volumes/III/src/book_20261025/book.tex
+ M volumes/III/src/book_20261025/book_preamble.tex
+ M volumes/III/src/book_20261025/engine_part2.tex
+ M volumes/III/src/book_20261025/exchange_chapter.tex
+ M volumes/III/src/book_20261025/n5000_chapter.tex
+ M volumes/III/src/book_20261025/preface.tex
+ M volumes/III/src/book_20261025/prime_continuation.tex
+ M volumes/III/src/book_20261025/prime_event_01.tex
+ M volumes/III/src/book_20261025/prime_main.tex
+ M volumes/III/src/book_20261025/response_01.tex
+ M volumes/III/src/book_20261025/runtime_02.tex
+ M volumes/III/src/book_20261025/source_register.tex
+?? reports/volume_ii_source_packet_20261108.zip
+?? reports/volume_ii_source_packet_20261108.zip.sha256
+?? reports/volume_ii_source_packet_20261108/
+?? reports/volume_ii_source_packet_20261108_DELIVERY.json
+?? volumes/I/EDITORIAL_REVIEW_20261104.txt
+?? volumes/I/pdf/SAM_Volume_I_20261105_authorship_draft.pdf
+?? volumes/I/pdf/SAM_Volume_I_FirstEdition_DRAFT_20261104.pdf
+?? volumes/I/pdf/SAM_Volume_I_FirstEdition_DRAFT_20261105.pdf
+?? volumes/I/pdf/SAM_Volume_I_FirstEdition_DRAFT_20261106.pdf
+?? volumes/I/pdf/SAM_Volume_I_before_authorship_20261105.zip
+?? volumes/I/pdf/archive/
+?? volumes/I/src/assemble_first_edition_20261104.py
+?? volumes/I/src/assemble_first_edition_20261105.py
+?? volumes/I/src/assemble_first_edition_20261106.py
+?? volumes/I/src/assemble_pass2.log
+?? volumes/I/src/assets/fig_closed_sphere_floor_lift_ceiling.pdf
+?? volumes/I/src/build_20261106/
+?? volumes/I/src/build_deduplication_20261106/
+?? volumes/I/src/build_pass2.log
+?? volumes/I/src/checks/a0_reorder_20261106.json
+?? volumes/I/src/checks/a0_reorder_active_sources_20261106.json
+?? volumes/I/src/checks/a0_reorder_baseline_20261106.json
+?? volumes/I/src/checks/a0_reorder_install_20261106.json
+?? volumes/I/src/checks/assembly_first_edition_20261104.json
+?? volumes/I/src/checks/assembly_first_edition_20261105.json
+?? volumes/I/src/checks/assembly_first_edition_20261106.json
+?? volumes/I/src/checks/authorship_20261105.json
+?? volumes/I/src/checks/build_deduplication_20261106.json
+?? volumes/I/src/checks/build_first_edition_20261106.json
+?? volumes/I/src/checks/ch12_source_observation_20261105.json
+?? volumes/I/src/checks/ch12_source_observation_install_20261105.json
+?? volumes/I/src/checks/check_a0_reorder_20261106.py
+?? volumes/I/src/checks/deduplication_20261106.json
+?? volumes/I/src/checks/deduplication_edits_20261106.json
+?? volumes/I/src/checks/deduplication_install_20261106.json
+?? volumes/I/src/checks/editorial_assembly_validation_20261104.json
+?? volumes/I/src/checks/isolated_soft_additions_20261105.json
+?? volumes/I/src/checks/isolated_soft_additions_install_20261105.json
+?? volumes/I/src/checks/isolated_soft_native_evidence_20261105.json
+?? volumes/I/src/checks/journal_rewrite_20261104.json
+?? volumes/I/src/checks/photon_injection_native_evidence_20261105.json
+?? volumes/I/src/checks/source_observation_native_evidence_20261105.json
+?? volumes/I/src/checks/three_corrections_20261104.json
+?? volumes/I/src/checks/toc_restore_20261106.json
+?? volumes/I/src/checks/toc_restore_install_20261106.json
+?? volumes/I/src/checks/voli_pass2_20261104.json
+?? volumes/I/src/checks/voli_pass_20261104.json
+?? volumes/I/src/evidence/
+?? volumes/I/src/live_sources/ch03/a0_origin.tex
+?? volumes/I/src/rebuild_first_edition_20261106.py
+?? volumes/I/src/voli_pass2_20261104.py
+?? volumes/I/src/voli_pass_20261104.py
+?? volumes/II/editions/
+?? volumes/II/pdf/SAM_Volume_II_20261105_authorship_draft.pdf
+?? volumes/II/pdf/SAM_Volume_II_before_authorship_20261105.zip
+?? volumes/II/src/authorship_20261105.json
+?? volumes/II/src/main.pdf
+?? volumes/III/REVISION_ROADMAP_20261105.md
+?? volumes/III/pdf/SAM_Volume_III_20261105.pdf
+?? volumes/III/pdf/SAM_Volume_III_20261105_authorship_draft.pdf
+?? volumes/III/pdf/SAM_Volume_III_20261105_math_draft.pdf
+?? volumes/III/pdf/SAM_Volume_III_20261105_substantive_draft.pdf
+?? volumes/III/pdf/SAM_Volume_III_Chapter_XXIV_20261105.pdf
+?? volumes/III/pdf/SAM_Volume_III_Chapter_XXVI_20261105.pdf
+?? volumes/III/pdf/SAM_Volume_III_Chapter_XXV_20261105.pdf
+?? volumes/III/pdf/SAM_Volume_III_before_20261105_sources.zip
+?? volumes/III/pdf/SAM_Volume_III_before_authorship_20261105.zip
+?? volumes/III/pdf/SAM_Volume_III_before_math_pass_20261105.zip
+?? volumes/III/pdf/SAM_Volume_III_before_substantive_20261105.zip
+?? volumes/III/src/book_20261025/revision_20261105_authorship_build.log
+?? volumes/III/src/book_20261025/revision_20261105_authorship_validation.json
+?? volumes/III/src/book_20261025/revision_20261105_build.log
+?? volumes/III/src/book_20261025/revision_20261105_check.py
+?? volumes/III/src/book_20261025/revision_20261105_followup_build.log
+?? volumes/III/src/book_20261025/revision_20261105_followup_check.py
+?? volumes/III/src/book_20261025/revision_20261105_followup_math.json
+?? volumes/III/src/book_20261025/revision_20261105_followup_validation.json
+?? volumes/III/src/book_20261025/revision_20261105_math.json
+?? volumes/III/src/book_20261025/revision_20261105_substantive_build.log
+?? volumes/III/src/book_20261025/revision_20261105_substantive_validation.json
+?? volumes/III/src/book_20261025/revision_20261105_validation.json
+?? volumes/III/src/book_20261025/substantive_20261105/
+?? volumes/I_Updated_20261108/

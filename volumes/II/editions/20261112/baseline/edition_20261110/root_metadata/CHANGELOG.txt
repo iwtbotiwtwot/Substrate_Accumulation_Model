@@ -1,0 +1,33 @@
+10 November 2026 - Revised source and formation edition
+
+Copied the current 5 November manuscript to a new edition directory.
+Preserved every original Volume II file and its PDF by SHA-256 comparison.
+
+XI: light-source closure and actual preparation; relaxed He3 complete-payment
+intervals and independent verification; free-reference and shared-field
+covariance cases; 37-isotope transfer boundaries; bridge baselines and actual
+common receiver; physical 600-source/Pauli metric; one scalar law, full-Fock
+square, proper-particle lower, selected finite transfer and unchanged14336
+flavor-preserving certificate with exact hypotheses and margins.
+
+XII: incoming contact versus separated preparation; flavor obstruction and
+15/17 instrument; conditional orbital controls; exact finite-time loading;
+complete signed work; timing/control energy-form budget; source-dependent
+apparatus information; thermal and release recipients.
+
+XVI: source-specific constitutive probes; physical density-image complements;
+flavor vertices and eleven-state static-kernel design; harmonic action family;
+response uncertainty budget; independent scattering and radiative-capture
+comparisons; route to further isotope work without binding-based calibration.
+
+Appendix A: explicit coherent reservoir, collective clock, full-Fock Gibbs
+inequality, finite spectral reset/control budget and local-bath boundary.
+Appendix B: evidence levels, source dimensions, common references, preserved
+failed/incomplete execution statuses and edition custody.
+
+V: updated connection from historical comparisons to new chapters; reflowed
+one inherited wide table without changing numerical entries.
+
+Updated cover/date, edition guide, linked contents/bookmarks, bibliography,
+chapter/source metadata and build instructions. Added 40 selected evidence
+snapshots and final QA receipts. No added AI credit; author Sean Brady.

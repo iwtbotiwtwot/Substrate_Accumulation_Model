@@ -1,0 +1,24 @@
+{
+  "form": "verification",
+  "expected_outcome": null,
+  "sealed_utc": "2026-11-12T01:35:14.296734+00:00",
+  "question": "Does the unchanged CAR/Fock/loading source reconstruct from a final-manifest public tree with its bulk restored, while preserving every original scientific operand/outcome and excluding all manifests from bulk?",
+  "material": {
+    "original_case": "volii_review_followups_20261111/03_car_fock_loading",
+    "original_final_manifest_sha256": "5187f410ab2466a5127b1ca1eaec27f57e22012253a95d0204ae89a51f178957",
+    "original_published_commit": "a3027d2e4df820aed5f33e06eea1e18fb2fbf3e4"
+  },
+  "predictions": [
+    "Final MANIFEST.json is directly published and absent from every bulk member list.",
+    "Every archived raw member restores exactly without overwriting a different manifest.",
+    "All24declared deterministic replay files match their retained originals after final-manifest public-tree recovery."
+  ],
+  "controls": [
+    "Reject a manifest classified as raw bulk.",
+    "Detect any missing final tracked manifest.",
+    "Reject any restored raw hash or deterministic output mismatch."
+  ],
+  "scientific_source_changed": false,
+  "new_peers_or_research_window": false,
+  "engine_execution": false
+}

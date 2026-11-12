@@ -1,0 +1,499 @@
+{
+  "schema": "LOSSLESS_SPIN_TRACK_OUTCOMES_V1",
+  "original_documents": {
+    "SIGNED": {
+      "all_assigned_items_completed": true,
+      "assigned_claims": [
+        "A01",
+        "A02",
+        "A03",
+        "A04"
+      ],
+      "assigned_controls": [
+        "SA01",
+        "SA02",
+        "SA03"
+      ],
+      "expected_outcome": null,
+      "failed_scientific_attempts": [],
+      "form": "verification",
+      "fresh_relocated_self_replay": "relocation/COMPARISON.json",
+      "operational_failures": "OPERATIONAL_FAILURES.json",
+      "outside_replay_claimed": false,
+      "rows": [
+        {
+          "established": "Literal complete positive-fill signed source, stationary Gibbs law, ordered ports, per-site attempt clock, every term of Af and A^2f, and all five required moments through degree four.",
+          "evidence": [
+            "DERIVATION.md",
+            "attempts/001/results/SOURCE.json",
+            "attempts/001/results/SMALL_N15.json",
+            "attempts/001/results/SMALL_N20.json",
+            "attempts/001/results/LARGE_MOMENTS.json"
+          ],
+          "id": "A01",
+          "limitations": "No uniform dynamical quotient is substituted. Moments beyond degree four are not needed or claimed.",
+          "outcome": "HELD",
+          "type": "EXACT"
+        },
+        {
+          "established": "Positive paired/free-site expansion, complete insertion tail, four oriented pair categories, all 16 second-factorial terms, marked-pair and folded-center multiplicities, absolute partition, all port weights and absolute log W0 reconstructed.",
+          "evidence": [
+            "DERIVATION.md",
+            "attempts/001/results/LARGE_MOMENTS.json",
+            "attempts/001/results/STATIC_INTERFACE.json",
+            "attempts/001/results/SMALL_N15.json",
+            "attempts/001/results/SMALL_N20.json"
+          ],
+          "id": "A02",
+          "limitations": "N15 and N20 are declared induced original finite sources at their own beta=1/N; they qualify the implementation rather than replace N5000.",
+          "outcome": "HELD",
+          "type": "EXACT"
+        },
+        {
+          "CMI_nats_exact_interval": {
+            "lower": "12023416015330820530174184743688890899507680059989121258340851114871830325477837223704130866444395929704493524352037063639514548334449951130437246165218511/3514776401986872174070733209129673327241950873673372369609965291102998109899599898686750536018664732148375711432438199315006457855854921632037902485050909261824",
+            "upper": "12023527784040117540914986646198283180495822609507270854054269161670653027582449401974250494870432231822916053086013480127210229370559453084449126169736399/3514776401986872174070733209129673327241950873673372369609965291102998109899599898686750536018664732148375711432438199315006457855854921632037902485050909261824"
+          },
+          "established": "Positive source spectral measure, explicit two-node Gaussian and left-zero Radau receiver, full physical correlation hulls and complete four-cell KL/reference calculation with paid series tail.",
+          "evidence": [
+            "DERIVATION.md",
+            "attempts/001/results/RECEIVER_INFORMATION.json"
+          ],
+          "fresh_interval_inside_submitted_exact_interval": true,
+          "id": "A03",
+          "limitations": "Stationary equal waits 1/3 and 1/3, actual signed_packet positive-fill N5000 source only.",
+          "outcome": "HELD",
+          "type": "EXACT"
+        },
+        {
+          "boundary_information_upper": "276649897/36028797018963968",
+          "established": "Same four-port boundary marginal/generator, every nonnegative scalar adjacent-correlation fit, directed endpoint signs, certified information upper and strict ratio reconstructed.",
+          "evidence": [
+            "DERIVATION.md",
+            "attempts/001/results/BOUNDARY_CLOCK.json"
+          ],
+          "fitting_clock_interval": {
+            "lower": "22642349837209210277/23058430092136939520",
+            "upper": "22642349872960681021/23058430092136939520"
+          },
+          "id": "A04",
+          "limitations": "Only scalar rescalings of the declared boundary heatbath generator; no arbitrary kinetic fit or seconds calibration.",
+          "outcome": "HELD",
+          "ratio_lower": "5833205064871272661040370893578121503409766807911168533747945281990703497305606538936814384965551821685242963344544772606537618556915842880065553853693793/13093562431584567480052758787310396608866568184172259157933165472384535185618698219533080369303616628603546736510240284036869026183541572213314110357504",
+          "type": "EXACT"
+        },
+        {
+          "control_behavior": "BROKE_AS_PREDICTED",
+          "established": "Wrong sign exp(-4/N) and wrong exponent exp(2/N), at unchanged absolute prefactor, each give a partition disjoint from literal Gibbs enumeration on both N15 and N20.",
+          "evidence": [
+            "attempts/001/results/SMALL_N15.json",
+            "attempts/001/results/SMALL_N20.json"
+          ],
+          "id": "SA01",
+          "outcome": "HELD",
+          "unexpected_behavior": null
+        },
+        {
+          "control_behavior": "BROKE_AS_PREDICTED",
+          "established": "Dropping only the marked partner's flip, or dropping every nonlocal flip, changes the fourth moment under the unchanged true Gibbs law on both finite sources.",
+          "evidence": [
+            "attempts/001/results/SMALL_N15.json",
+            "attempts/001/results/SMALL_N20.json"
+          ],
+          "id": "SA02",
+          "outcome": "HELD",
+          "unexpected_behavior": null
+        },
+        {
+          "control_behavior": "BROKE_AS_PREDICTED",
+          "established": "Explicit actual-source visible/count and four-port projection witnesses violate aggregate exit-rate equality. The adjacent-correlation-fitted boundary first and second moments also disagree with microscopic moments, so neither clock/source is accepted as the microscopic certificate.",
+          "evidence": [
+            "attempts/001/results/CONTROLS.json",
+            "attempts/001/results/BOUNDARY_CLOCK.json"
+          ],
+          "id": "SA03",
+          "outcome": "HELD",
+          "unexpected_behavior": null
+        }
+      ],
+      "scientific_attempts": [
+        {
+          "id": "001",
+          "outcome": "COMPLETED",
+          "results": "attempts/001/results",
+          "runner": "scripts/replay_v1.py",
+          "stage_seals": "attempts/001/results/*_PREDICTION*.json"
+        }
+      ],
+      "track": "SIGNED"
+    },
+    "GROWING": {
+      "claims_and_controls": {
+        "B01": {
+          "evidence": [
+            "DERIVATION.md sections1–3",
+            "attempts/03/SMALL_SOURCE.json"
+          ],
+          "limitations": [
+            "Numerical all-N static constants are not supplied.",
+            "The valid broad bound does not assert a finite-N long-time plateau."
+          ],
+          "outcome": "HELD",
+          "statement": "All-time original-source Dirichlet and forcing estimates; explicit uniform time remainder."
+        },
+        "B02": {
+          "evidence": [
+            "DERIVATION.md section4",
+            "attempts/03/RESULTS.json:timing.GB02_bounded_wait"
+          ],
+          "limitations": [
+            "No growing-time boundary ratio.",
+            "No inference at square-root or longer times."
+          ],
+          "outcome": "HELD",
+          "statement": "Uniform expansion for fixed t0>0 and t<=T_N=o(sqrtN), with lower-cell margin and both error terms; saturated coefficient only in joint divergent/sub-square-root limit."
+        },
+        "B03": {
+          "CMI_interval": {
+            "lower": "155964765233915913541670145931029697607026061162137045543/1606938044258990275541962092341162602522202993782792835301376",
+            "lower_float": 9.70571116858685e-05,
+            "upper": "402302486903833505126667140353916478301557584883914985079/1606938044258990275541962092341162602522202993782792835301376",
+            "upper_float": 0.0002503534522324088
+          },
+          "evidence": [
+            "DERIVATION.md sections5–6",
+            "attempts/03/FOLDED_ROWS.json.gz",
+            "attempts/03/FINITE_CHECKPOINT.json"
+          ],
+          "limitations": [
+            "The completed short-wait interval is inherited as declared, not independently rerun.",
+            "The certificate is host directed Arb, with no engine execution."
+          ],
+          "outcome": "HELD",
+          "statement": "All 2501 folded source rows and all 5001 independent count rows reproduce the finite wait-four forcing/Pinsker/chi-square interval and short-wait comparison."
+        },
+        "B04": {
+          "evidence": [
+            "DERIVATION.md sections7–8",
+            "attempts/03/RESULTS.json:timing"
+          ],
+          "limitations": [
+            "No global finite-N optimum or calibrated physical rate.",
+            "The boundary leading fixed-time law is inherited as the separate premise of its timing optimization."
+          ],
+          "outcome": "HELD",
+          "statement": "Identical nonnegative cycle overhead preserves the strict per-cycle comparison; distinct leading timing optima, stationary one-pair correction, and equal-total defect optimization retain their exact scopes."
+        },
+        "GB01": {
+          "control_result": "All registered changed-source checks detected their errors.",
+          "details": [
+            "Omitted/doubled central row fails exact dimension by one central binomial count.",
+            "Halved nonconstant Gibbs exponent fails the moment and detailed-balance checks.",
+            "Omitted one-pair initial Gibbs term fails exact derivative by 1/9."
+          ],
+          "evidence": [
+            "attempts/03/RESULTS.json:static.GB01_count_control",
+            "attempts/03/SMALL_SOURCE.json:GB01_Gibbs_control",
+            "attempts/03/RESULTS.json:timing.GB01_stationary_pair"
+          ],
+          "outcome": "HELD"
+        },
+        "GB02": {
+          "control_result": "False bounded-wait saturation rejected.",
+          "details": [
+            "Fixed t_N=1/3 retains tanh²(1/6), strictly between 0 and 1."
+          ],
+          "evidence": [
+            "DERIVATION.md section4",
+            "attempts/03/RESULTS.json:timing.GB02_bounded_wait"
+          ],
+          "outcome": "HELD"
+        },
+        "GB03": {
+          "control_result": "Unsupported range transfer rejected; changed-cost rate reversal certified.",
+          "details": [
+            "N^1/4 covered; N^1/2 and N^3/4 do not have vanishing paid relative error.",
+            "With long preparation 1000 and short preparation zero, the long upper rate is below the short lower rate."
+          ],
+          "evidence": [
+            "DERIVATION.md sections4,7",
+            "attempts/03/RESULTS.json:timing.GB03_range_controls",
+            "attempts/03/RESULTS.json:finite.GB03_changed_cost"
+          ],
+          "limitations": [
+            "The time-range check is a logical hypothesis rejection, not an asserted numerical counterexample to the actual square-root-time dynamics."
+          ],
+          "outcome": "HELD"
+        }
+      },
+      "controls_not_breaking_as_predicted": [],
+      "director_approval_set": false,
+      "evidence_types": [
+        "analytic proof",
+        "exact host integer/rational control",
+        "directed host Arb",
+        "explicit inherited completed short-wait interval and boundary leading law"
+      ],
+      "failed_implementation_attempts": [
+        "attempts/01",
+        "attempts/02"
+      ],
+      "form": "verification",
+      "no_I2_I3_R3_assigned": true,
+      "research_expected_outcome": null,
+      "retained_nonoverlap_diagnostics": {
+        "explanation": "Different outward correlation endpoints generate different valid bound quantities. Arithmetic balls for those bound numbers can be disjoint by about 10^-78; every result is kept.",
+        "source": "attempts/03/RESULTS.json:finite.results[*].submitted_endpoint_diagnostic"
+      },
+      "unresolved_assigned_substatements": []
+    },
+    "QUADRATURE": {
+      "track": "QUADRATURE",
+      "expected_outcome": null,
+      "claims": [
+        {
+          "id": "C01",
+          "outcome": "HELD",
+          "statement_scope": "Source-bound nonnegative spectral probability measure, correct Hankel Grams, Gauss lower and left-zero Radau upper including exact finite-support closure and interval insufficiency.",
+          "evidence": [
+            "DERIVATION.md#1-the-actual-source-and-its-spectral-measure-c01",
+            "DERIVATION.md#2-hankel-geometry-and-gauss-exactness-c01",
+            "DERIVATION.md#3-the-shifted-measure-and-left-zero-radau-upper-c01",
+            "DERIVATION.md#4-singular-cases-and-what-interval-arithmetic-may-certify-c01-qc0102",
+            "attempts/A04_RESULTS/EXACT_CONTROLS.json",
+            "attempts/A04_RESULTS/UNIFORM_N6.json",
+            "attempts/A04_RESULTS/SIGNED_N5000_RECEIVER.json"
+          ],
+          "unresolved_assigned_substatements": []
+        },
+        {
+          "id": "C02",
+          "outcome": "HELD",
+          "statement_scope": "Exact stationary inversion-symmetric binary law, source-dependent rare-cell law, positive-cell domain, interval evaluation and complete series payment; conditional signed certificate from supplied moments.",
+          "new_signed_CMI_nats": {
+            "decimal_diagnostic": "[3.4208e-6 +/- 5.15e-11]",
+            "lower": "12023416015327867215810787656224354444989889904688097879388463640735230456714238649668892172780403709733450912709702865302666768944480608835287545119799663/3514776401986872174070733209129673327241950873673372369609965291102998109899599898686750536018664732148375711432438199315006457855854921632037902485050909261824",
+            "upper": "12023527784043070855278383733487947746127177239086509104888418193007480518788845122610850957348025063682621015363720458234744994249984574122188703496173935/3514776401986872174070733209129673327241950873673372369609965291102998109899599898686750536018664732148375711432438199315006457855854921632037902485050909261824"
+          },
+          "submitted_exact_interval_contains_new": true,
+          "inherited_operand": "The actual signed N5000 moment producer and its paid insertion error; no upstream source regeneration is claimed here.",
+          "retained_noncertifying_case": {
+            "decimal_diagnostic": "[-0.001013117919774248730375 +/- 3.11e-25]",
+            "lower": "-13583690478716120029849947578852582563357136306652384812563049521056682533129445131629910348990009296769983332448100896737318465470665000819638302680543/13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006084096",
+            "upper": "-13583690478716120029849947578852582563357136306652384812563049520598585688589947232132649175633617642132988736599637680222574213906897688961988742620639/13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006084096"
+          },
+          "evidence": [
+            "DERIVATION.md#5-exact-binary-law-and-defect-c02",
+            "DERIVATION.md#6-stable-information-reference-cells-and-full-tail-payment-c02-qc03",
+            "DERIVATION.md#7-the-rare-cell-limit-and-heatbath-clock-identity-c02",
+            "DERIVATION.md#8-what-follows-from-the-supplied-signed-moment-data-c02",
+            "attempts/A04_RESULTS/BINARY_LAW.json",
+            "attempts/A04_RESULTS/RARE_CELL.json",
+            "attempts/A04_RESULTS/SIGNED_N5000_RECEIVER.json",
+            "attempts/A05_AUDIT.json"
+          ],
+          "unresolved_assigned_substatements": []
+        },
+        {
+          "id": "C03",
+          "outcome": "HELD",
+          "statement_scope": "Full-source qualifications, exact static contraction versus dynamical lumpability, fixed-generator monotone clock fit and original uncomputed signed-chain boundary.",
+          "evidence": [
+            "DERIVATION.md#9-full-source-qualifications-and-static-versus-dynamic-reduction-c03",
+            "DERIVATION.md#10-fitted-clocks-and-the-retained-scope-boundary-c03",
+            "attempts/A04_RESULTS/SIGNED_ROOT15.json",
+            "attempts/A04_RESULTS/HIDDEN_CLOCK_CONTROL.json"
+          ],
+          "inherited_outside_this_track": [
+            "Actual signed four-port boundary numerical fitting bracket and CMI ratio are assigned to SIGNED/A04."
+          ],
+          "unresolved_assigned_substatements": []
+        }
+      ],
+      "controls": [
+        {
+          "id": "QC01",
+          "outcome": "HELD",
+          "completed_behavior": "Invalid exact lists are rejected; uncertain interval pivots return insufficiency.",
+          "first_attempt_failure": "A02 invalid singular list was rejected through an upper-support localizer, while its harness required the recurrence-rejection subtype. The implementation assertion failed; no false certificate was accepted.",
+          "correction": "A03 isolates the recurrence check without the optional upper cutoff and preserves the separate upper-support control.",
+          "evidence": [
+            "attempts/A02_RESULTS/FAILURE.txt",
+            "attempts/A02_ASSESSMENT.json",
+            "attempts/replay_A02_failed.py",
+            "attempts/A04_RESULTS/EXACT_CONTROLS.json"
+          ]
+        },
+        {
+          "id": "QC02",
+          "outcome": "HELD",
+          "completed_behavior": "One-atom/zero-atom exact closure; one-positive-atom Gauss/Radau equality; zero-endpoint Radau equality; normalized positive exact weights and interior multi-atom Gauss nodes.",
+          "control_did_not_behave_as_predicted": false,
+          "evidence": [
+            "attempts/A04_RESULTS/EXACT_CONTROLS.json"
+          ]
+        },
+        {
+          "id": "QC03",
+          "outcome": "HELD",
+          "completed_behavior": "Reversed Gauss/Radau signs fail strict finite correlation enclosures. Dropping the KL series payment excludes the exact rational-law information; the paid interval covers it.",
+          "control_did_not_behave_as_predicted": false,
+          "evidence": [
+            "attempts/A04_RESULTS/EXACT_CONTROLS.json"
+          ]
+        }
+      ],
+      "scientific_controls_with_unexplained_nonbreaks": [],
+      "implementation_failures_retained": [
+        "A02"
+      ],
+      "completed_replays": [
+        "A03",
+        "A04",
+        "A05"
+      ],
+      "evidence_types": [
+        "analytic proof",
+        "exact host",
+        "directed Arb",
+        "diagnostic decimal/convergence values",
+        "inherited source-moment producer"
+      ],
+      "scope_limits": [
+        "N5000 signed source producer is inherited here.",
+        "Actual signed numerical boundary-fit certificate is outside this track.",
+        "No signed-chain microscopic CMI is computed or inferred.",
+        "No negative-fill N5000/all-N signed/physical-seconds/accepted-mass transfer."
+      ],
+      "next_step": "Lead proof review, fresh public replay and combination with the assigned upstream SIGNED outcomes."
+    }
+  },
+  "claims": [
+    {
+      "id": "A01",
+      "track": "SIGNED",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/SIGNED/OUTCOMES.json"
+    },
+    {
+      "id": "A02",
+      "track": "SIGNED",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/SIGNED/OUTCOMES.json"
+    },
+    {
+      "id": "A03",
+      "track": "SIGNED",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/SIGNED/OUTCOMES.json"
+    },
+    {
+      "id": "A04",
+      "track": "SIGNED",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/SIGNED/OUTCOMES.json"
+    },
+    {
+      "id": "B01",
+      "track": "GROWING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/GROWING/OUTCOMES.json"
+    },
+    {
+      "id": "B02",
+      "track": "GROWING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/GROWING/OUTCOMES.json"
+    },
+    {
+      "id": "B03",
+      "track": "GROWING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/GROWING/OUTCOMES.json"
+    },
+    {
+      "id": "B04",
+      "track": "GROWING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/GROWING/OUTCOMES.json"
+    },
+    {
+      "id": "C01",
+      "track": "QUADRATURE",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/QUADRATURE/OUTCOMES.json"
+    },
+    {
+      "id": "C02",
+      "track": "QUADRATURE",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/QUADRATURE/OUTCOMES.json"
+    },
+    {
+      "id": "C03",
+      "track": "QUADRATURE",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/QUADRATURE/OUTCOMES.json"
+    }
+  ],
+  "controls": [
+    {
+      "id": "SA01",
+      "track": "SIGNED",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/SIGNED/OUTCOMES.json"
+    },
+    {
+      "id": "SA02",
+      "track": "SIGNED",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/SIGNED/OUTCOMES.json"
+    },
+    {
+      "id": "SA03",
+      "track": "SIGNED",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/SIGNED/OUTCOMES.json"
+    },
+    {
+      "id": "GB01",
+      "track": "GROWING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/GROWING/OUTCOMES.json"
+    },
+    {
+      "id": "GB02",
+      "track": "GROWING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/GROWING/OUTCOMES.json"
+    },
+    {
+      "id": "GB03",
+      "track": "GROWING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/GROWING/OUTCOMES.json"
+    },
+    {
+      "id": "QC01",
+      "track": "QUADRATURE",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/QUADRATURE/OUTCOMES.json"
+    },
+    {
+      "id": "QC02",
+      "track": "QUADRATURE",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/QUADRATURE/OUTCOMES.json"
+    },
+    {
+      "id": "QC03",
+      "track": "QUADRATURE",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/QUADRATURE/OUTCOMES.json"
+    }
+  ],
+  "claim_counts": {
+    "HELD": 11
+  },
+  "original_fields_preserved": true
+}

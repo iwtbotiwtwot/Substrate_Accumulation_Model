@@ -1,0 +1,734 @@
+{
+  "authored_by": "PEER_FOUR",
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "aec9c75a8511591b20dc8818d7b4097cfe55481394602873eb933e4fa801de4a",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "a445f628cf6ba9ad16fe10250ed52c33c4b11cb7cab59c14ed1f97d44a9ed164",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-11-12T04:45:35.043285+00:00",
+  "gen6_core_version": "0.11.3",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_04",
+  "imports": [],
+  "key": "FOUR_HE3_CHART_V1",
+  "kind": "RESULT",
+  "native_payload": {
+    "context": {
+      "basis": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "history": {
+        "scope": "Lane FOUR independent raw operand reconstruction",
+        "source_hashes": {
+          "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/FOUR/PRECOMMIT.md": "8d2fc6cfa0b48024bd4fa36d19c70a0663ead05d0b5d05fab53b9f069801f920",
+          "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/FOUR/reconstruct.py": "6e9374c7204a81f0239c3fd68179c0d7c2cb2e52d286bb8d33183f9884354d49",
+          "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_improvement_review_20261111/peers/ONE/sources/INDUCED_INPUT_H002423.json": "25bff23538dade26cfc3dda3e77c84fa54b0c946244494ecbb90ab5482377c8e",
+          "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_improvement_review_20261111/peers/ONE/sources/isotope_residuals_240_tensor_20261017/ISOTOPE_PREDICTIONS.csv": "3d95741fa75af7070c27d225f336bc63bff37038f8c2d139bc9a7371b91b2cc9",
+          "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_improvement_review_20261111/peers/ONE/sources/isotope_residuals_253_20261017/INPUT_ROWS.json.gz": "52c731ccbd4c470b0653f7768e68024288ca0320e640a39b6563316b765464d4",
+          "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_improvement_review_20261111/peers/ONE/sources/isotope_residuals_253_20261017/ISOTOPE_PREDICTIONS.csv": "91bdfcc34d778e94a2adb92c4bb943094f566b08a877f4bda3e943fe697b04f2"
+        }
+      },
+      "spectral_coordinate": "RETAINED_SOURCE",
+      "units": {
+        "reference": "Original source units, physical calibration unassigned"
+      }
+    },
+    "data": {
+      "operators": {
+        "H0": [
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ]
+        ],
+        "H1": [
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-208547/982800",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-85697/491400",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-44747/327600"
+          ]
+        ],
+        "H2": [
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "311/13860",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "4087/13860",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "2621/4620"
+          ]
+        ],
+        "H3": [
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "2663/2340",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "5911/2340",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "3053/780"
+          ]
+        ],
+        "H4": [
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "16395119/1607364",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "33192079/1607364",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "16663013/535788"
+          ]
+        ],
+        "H5": [
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "154625119199/1543049604",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "309636000799/1543049604",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "154882294133/514349868"
+          ]
+        ],
+        "v0": [
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "v1": [
+          [
+            "1"
+          ],
+          [
+            "25/26"
+          ],
+          [
+            "25/27"
+          ],
+          [
+            "25/28"
+          ]
+        ],
+        "v2": [
+          [
+            "1"
+          ],
+          [
+            "5/7"
+          ],
+          [
+            "5/9"
+          ],
+          [
+            "5/11"
+          ]
+        ],
+        "v3": [
+          [
+            "1"
+          ],
+          [
+            "1/5"
+          ],
+          [
+            "1/9"
+          ],
+          [
+            "1/13"
+          ]
+        ],
+        "v4": [
+          [
+            "1"
+          ],
+          [
+            "1/41"
+          ],
+          [
+            "1/81"
+          ],
+          [
+            "1/121"
+          ]
+        ],
+        "v5": [
+          [
+            "1"
+          ],
+          [
+            "1/401"
+          ],
+          [
+            "1/801"
+          ],
+          [
+            "1/1201"
+          ]
+        ]
+      },
+      "output": "sum4",
+      "program": [
+        {
+          "inputs": [
+            "H0",
+            "v0"
+          ],
+          "name": "hv0",
+          "op": "multiply"
+        },
+        {
+          "factor": "-1",
+          "inputs": [
+            "v0"
+          ],
+          "name": "dv0",
+          "op": "scale"
+        },
+        {
+          "inputs": [
+            "hv0",
+            "dv0"
+          ],
+          "name": "r0",
+          "op": "subtract"
+        },
+        {
+          "inputs": [
+            "H1",
+            "v1"
+          ],
+          "name": "hv1",
+          "op": "multiply"
+        },
+        {
+          "factor": "-37153/39312",
+          "inputs": [
+            "v1"
+          ],
+          "name": "dv1",
+          "op": "scale"
+        },
+        {
+          "inputs": [
+            "hv1",
+            "dv1"
+          ],
+          "name": "r1",
+          "op": "subtract"
+        },
+        {
+          "inputs": [
+            "H2",
+            "v2"
+          ],
+          "name": "hv2",
+          "op": "multiply"
+        },
+        {
+          "factor": "-472/693",
+          "inputs": [
+            "v2"
+          ],
+          "name": "dv2",
+          "op": "scale"
+        },
+        {
+          "inputs": [
+            "hv2",
+            "dv2"
+          ],
+          "name": "r2",
+          "op": "subtract"
+        },
+        {
+          "inputs": [
+            "H3",
+            "v3"
+          ],
+          "name": "hv3",
+          "op": "multiply"
+        },
+        {
+          "factor": "-203/585",
+          "inputs": [
+            "v3"
+          ],
+          "name": "dv3",
+          "op": "scale"
+        },
+        {
+          "inputs": [
+            "hv3",
+            "dv3"
+          ],
+          "name": "r3",
+          "op": "subtract"
+        },
+        {
+          "inputs": [
+            "H4",
+            "v4"
+          ],
+          "name": "hv4",
+          "op": "multiply"
+        },
+        {
+          "factor": "-104981/401841",
+          "inputs": [
+            "v4"
+          ],
+          "name": "dv4",
+          "op": "scale"
+        },
+        {
+          "inputs": [
+            "hv4",
+            "dv4"
+          ],
+          "name": "r4",
+          "op": "subtract"
+        },
+        {
+          "inputs": [
+            "H5",
+            "v5"
+          ],
+          "name": "hv5",
+          "op": "multiply"
+        },
+        {
+          "factor": "-96881801/385762401",
+          "inputs": [
+            "v5"
+          ],
+          "name": "dv5",
+          "op": "scale"
+        },
+        {
+          "inputs": [
+            "hv5",
+            "dv5"
+          ],
+          "name": "r5",
+          "op": "subtract"
+        },
+        {
+          "inputs": [
+            "r0",
+            "r1"
+          ],
+          "name": "sum0",
+          "op": "add"
+        },
+        {
+          "inputs": [
+            "sum0",
+            "r2"
+          ],
+          "name": "sum1",
+          "op": "add"
+        },
+        {
+          "inputs": [
+            "sum1",
+            "r3"
+          ],
+          "name": "sum2",
+          "op": "add"
+        },
+        {
+          "inputs": [
+            "sum2",
+            "r4"
+          ],
+          "name": "sum3",
+          "op": "add"
+        },
+        {
+          "inputs": [
+            "sum3",
+            "r5"
+          ],
+          "name": "sum4",
+          "op": "add"
+        }
+      ]
+    },
+    "name": "FOUR_HE3_CHART_V1",
+    "source_binding": {
+      "campaign": "20261112T043202Z",
+      "kind": "GEN7_DUCK",
+      "law_namespace": "SAM_land",
+      "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+    }
+  },
+  "operation": "GEN3_SOURCE_OPERATOR_WORD",
+  "portable_bundle": null,
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_HE3_CHART_V1/RESULT.json",
+  "receipt_sha256": "0f5bf473b1c5c0afffd090b60275fe83cf6d1a5411b66e62a3affb20e8c23e87",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 1344921943996538,
+  "returned": {
+    "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+    "execution": {
+      "backend": "NATIVE_CPP_GMP_CPU",
+      "exact_field": {
+        "radicand": 0
+      },
+      "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+      "shared_checkpoint": true
+    },
+    "field": {
+      "radicand": 0
+    },
+    "matrix": [
+      [
+        "0"
+      ],
+      [
+        "0"
+      ],
+      [
+        "0"
+      ],
+      [
+        "0"
+      ]
+    ],
+    "native_assertions": 191,
+    "ordered_program": [
+      {
+        "inputs": [
+          "H0",
+          "v0"
+        ],
+        "name": "hv0",
+        "op": "multiply"
+      },
+      {
+        "factor": "-1",
+        "inputs": [
+          "v0"
+        ],
+        "name": "dv0",
+        "op": "scale"
+      },
+      {
+        "inputs": [
+          "hv0",
+          "dv0"
+        ],
+        "name": "r0",
+        "op": "subtract"
+      },
+      {
+        "inputs": [
+          "H1",
+          "v1"
+        ],
+        "name": "hv1",
+        "op": "multiply"
+      },
+      {
+        "factor": "-37153/39312",
+        "inputs": [
+          "v1"
+        ],
+        "name": "dv1",
+        "op": "scale"
+      },
+      {
+        "inputs": [
+          "hv1",
+          "dv1"
+        ],
+        "name": "r1",
+        "op": "subtract"
+      },
+      {
+        "inputs": [
+          "H2",
+          "v2"
+        ],
+        "name": "hv2",
+        "op": "multiply"
+      },
+      {
+        "factor": "-472/693",
+        "inputs": [
+          "v2"
+        ],
+        "name": "dv2",
+        "op": "scale"
+      },
+      {
+        "inputs": [
+          "hv2",
+          "dv2"
+        ],
+        "name": "r2",
+        "op": "subtract"
+      },
+      {
+        "inputs": [
+          "H3",
+          "v3"
+        ],
+        "name": "hv3",
+        "op": "multiply"
+      },
+      {
+        "factor": "-203/585",
+        "inputs": [
+          "v3"
+        ],
+        "name": "dv3",
+        "op": "scale"
+      },
+      {
+        "inputs": [
+          "hv3",
+          "dv3"
+        ],
+        "name": "r3",
+        "op": "subtract"
+      },
+      {
+        "inputs": [
+          "H4",
+          "v4"
+        ],
+        "name": "hv4",
+        "op": "multiply"
+      },
+      {
+        "factor": "-104981/401841",
+        "inputs": [
+          "v4"
+        ],
+        "name": "dv4",
+        "op": "scale"
+      },
+      {
+        "inputs": [
+          "hv4",
+          "dv4"
+        ],
+        "name": "r4",
+        "op": "subtract"
+      },
+      {
+        "inputs": [
+          "H5",
+          "v5"
+        ],
+        "name": "hv5",
+        "op": "multiply"
+      },
+      {
+        "factor": "-96881801/385762401",
+        "inputs": [
+          "v5"
+        ],
+        "name": "dv5",
+        "op": "scale"
+      },
+      {
+        "inputs": [
+          "hv5",
+          "dv5"
+        ],
+        "name": "r5",
+        "op": "subtract"
+      },
+      {
+        "inputs": [
+          "r0",
+          "r1"
+        ],
+        "name": "sum0",
+        "op": "add"
+      },
+      {
+        "inputs": [
+          "sum0",
+          "r2"
+        ],
+        "name": "sum1",
+        "op": "add"
+      },
+      {
+        "inputs": [
+          "sum1",
+          "r3"
+        ],
+        "name": "sum2",
+        "op": "add"
+      },
+      {
+        "inputs": [
+          "sum2",
+          "r4"
+        ],
+        "name": "sum3",
+        "op": "add"
+      },
+      {
+        "inputs": [
+          "sum3",
+          "r5"
+        ],
+        "name": "sum4",
+        "op": "add"
+      }
+    ],
+    "output": "sum4",
+    "rank": 0,
+    "record_sha256": "05504a8c216f3528540f468a45c1855b9158eee784d9494a741582f99a2b5e62"
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND1",
+  "source_binding": {
+    "campaign": "20261112T043202Z",
+    "kind": "GEN7_DUCK",
+    "law_namespace": "SAM_land",
+    "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  },
+  "source_checks": [],
+  "started_utc": "2026-11-12T04:45:34.984298+00:00",
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "native",
+  "worker_cpu": 5,
+  "worker_pid": 3816048
+}

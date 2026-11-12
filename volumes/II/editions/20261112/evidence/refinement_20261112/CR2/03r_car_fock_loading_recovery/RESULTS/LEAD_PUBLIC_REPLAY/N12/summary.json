@@ -1,0 +1,19 @@
+{
+  "all_proper_numerator": 2340,
+  "classes": 141,
+  "complete_margin": "1491/125",
+  "conditional_loading_allowance": "25411/12500",
+  "controls_detected": [
+    "NB01",
+    "NB02",
+    "NB03",
+    "NB04"
+  ],
+  "flavor_subvectors": 225,
+  "flow_comparisons": 2165,
+  "occupancies": 390625,
+  "proper_splits": 223,
+  "status": "PASS",
+  "success_probability": "28561/455625",
+  "target_min_numerator": 2592
+}

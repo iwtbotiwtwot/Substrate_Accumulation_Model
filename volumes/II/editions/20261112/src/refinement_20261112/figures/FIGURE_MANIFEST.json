@@ -1,0 +1,57 @@
+[
+  {
+    "figure": "atomic_bounds",
+    "source": "H003004 / NUMERICAL_DISPLAY_RECEIPT.json",
+    "pdf_sha256": "af5f1545b86e76a5d51a0f1127dde14eabea407943bd9466e7f1b4da9aee0ce5"
+  },
+  {
+    "figure": "li6_margins",
+    "source": "H003006/H003008 / Li6 complete margin",
+    "pdf_sha256": "91d45652ec6310304250a6b97423a5096b93e575521d16d055597c722febb180"
+  },
+  {
+    "figure": "loading_floor",
+    "source": "H003006/H003008 / continuum box-autocorrelation theorem",
+    "pdf_sha256": "330c63ff2594c22c9502aa3fbacd6cd64155f9eb2adaaef4ac8f3de1c9568fe1"
+  },
+  {
+    "figure": "c12_paths",
+    "source": "GEN7 FOUR / C12_DP.json, all 30 exact paths",
+    "pdf_sha256": "b2afcac0a806fd6da4ff55a4dc67b39af6d215ad24250a5202df51145211ab66"
+  },
+  {
+    "figure": "star_memory",
+    "source": "GEN7 THREE / star_host.json and exact C(a)",
+    "pdf_sha256": "ae680ed3bd4e4818a41f524a852ee5cd3b9aeb7756936f51887898ae13a8bb62"
+  },
+  {
+    "figure": "memory_certificates",
+    "source": "H003005; H003007/TWO-F03 completed chain; models and waits kept separate",
+    "pdf_sha256": "65019fbe2241fef95394bd89c95e360be90de210d56d4738ce28e60efe2328c0"
+  },
+  {
+    "figure": "rotor_tail",
+    "source": "GEN7 TWO-M04, sufficient full-C2 inequalities",
+    "pdf_sha256": "33e39686ff9dce0bb3fad1e5f5db96bcc5ace2019cb37c0f2605ad470127330d"
+  },
+  {
+    "figure": "tomography_rank",
+    "source": "GEN7 ONE-T1/T2/T3 / exact full-image designs",
+    "pdf_sha256": "0d59c2829a009c84fae79ca3ee242d027b3a246b943781ef0345d6bb106f36c4"
+  },
+  {
+    "figure": "he3_chart",
+    "source": "GEN7 FOUR-CHART / exact four-pole factor and six rational-r controls",
+    "pdf_sha256": "5fbf377343d6bad4bfdfca9d71fd0caae6885ce4756cad9fa1698f62c3e7669c"
+  },
+  {
+    "figure": "continuum_receiver",
+    "source": "GEN7 FOUR-R01/R02 / full outgoing number and energy forms",
+    "pdf_sha256": "73969ab0e19feb2410765f494e31a727d6eb527780eea1505cc3ceb5dd57fb0b"
+  },
+  {
+    "figure": "contact_variance",
+    "source": "GEN7 FOUR-C01/C02 / isolated frozen contact and centered held Gaussian law",
+    "pdf_sha256": "5af539c824e67109d1d0473cd4600c899046b37f4de24d16fa22cbfcf705a0fe"
+  }
+]

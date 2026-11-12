@@ -1,0 +1,10 @@
+{
+  "recipe": true,
+  "literal_canonical": true,
+  "literal_reverse": true,
+  "endpoint_work": true,
+  "directed_IR": "[0.054036838700394184397340139893001124589899286717653274674 +/- 3.83e-58]",
+  "IR_upper": "54037/1000000",
+  "source_pdf_sha256": "391450c512bfda11682e5a58b6f3f8d27856cdc4381cd962432ae9d3e521a5f3",
+  "environment_readback_correction": "Initial system-python import flint failed before execution; pinned .venv successor succeeds"
+}

@@ -1,0 +1,76 @@
+{
+ "kind": "native",
+ "key": "THREE_HELLINGER",
+ "operation": "GEN3_SOURCE_OPERATOR_WORD",
+ "purpose": "Exact59049/85000 Hellinger affinity from original cosh factors",
+ "payload": {
+  "name": "THREE_HELLINGER_RATIONAL",
+  "context": {
+   "basis": [
+    "h"
+   ],
+   "field": {
+    "radicand": 0
+   },
+   "units": {
+    "coefficient": "dimensionless"
+   },
+   "history": {
+    "source": "x=log2/2 full-port conditional factors"
+   },
+   "spectral_coordinate": "betaJ"
+  },
+  "data": {
+   "operators": {
+    "c3sq": [
+     [
+      "81/32"
+     ]
+    ],
+    "c1pow6": [
+     [
+      "729/512"
+     ]
+    ],
+    "inverse_even": [
+     [
+      "2048/10625"
+     ]
+    ]
+   },
+   "program": [
+    {
+     "name": "n",
+     "op": "multiply",
+     "inputs": [
+      "c3sq",
+      "c1pow6"
+     ]
+    },
+    {
+     "name": "h",
+     "op": "multiply",
+     "inputs": [
+      "n",
+      "inverse_even"
+     ]
+    }
+   ],
+   "output": "h"
+  },
+  "source_binding": {
+   "kind": "GEN7_DUCK",
+   "campaign": "20261112T043202Z",
+   "law_namespace": "SAM_land",
+   "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  }
+ },
+ "controller": "G6_03",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ }
+}

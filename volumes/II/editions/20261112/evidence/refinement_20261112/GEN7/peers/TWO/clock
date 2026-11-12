@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+import json, time
+try:
+    c = json.load(open('/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/clock.json'))
+except Exception:
+    c = {}
+now = time.time()
+if not c.get("opens"):
+    print("the window is not open yet")
+elif now < c["closes"]:
+    print(f"window open: {int(c['closes'] - now)} seconds remaining")
+elif now < c.get("grace_ends", 0):
+    print(f"window closed: {int(c['grace_ends'] - now)} seconds left to put REPORT.md in order")
+else:
+    print("the run is over")

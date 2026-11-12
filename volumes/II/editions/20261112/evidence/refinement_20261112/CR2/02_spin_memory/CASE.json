@@ -1,0 +1,54 @@
+{
+  "case_id": "volii_review_followups_20261111/02_spin_memory",
+  "campaign": "volii_review_followups_20261111",
+  "tier": "verification",
+  "types": {
+    "EXACT": 11
+  },
+  "credit": {
+    "proposed_by": [
+      "Sean Brady"
+    ],
+    "directed_by": "Sean Brady",
+    "executed_with": [
+      "Separate mathematical reconstruction and independently authored exact/directed replay code"
+    ]
+  },
+  "independence": "I1",
+  "reproducibility": "R2",
+  "reviewed_and_approved": false,
+  "withheld": [],
+  "appeal_of": null,
+  "constitution_revision": 2,
+  "status": "COMPLETE_SOURCE_BOUND_VERIFICATION",
+  "method": {
+    "instrument": "Engine-free mathematical proofs and standard Python scientific tools; inherited source/native evidence only at preparation",
+    "form": "verification",
+    "window_start_utc": "2026-11-11T23:50:26.062262+00:00",
+    "window_end_utc": "2026-11-12T00:27:50.807756+00:00",
+    "peers": [
+      "SIGNED",
+      "GROWING",
+      "QUADRATURE"
+    ],
+    "peer_reports": [
+      "peers/SIGNED/REPORT.md",
+      "peers/GROWING/REPORT.md",
+      "peers/QUADRATURE/REPORT.md"
+    ],
+    "preparation_only": false,
+    "reproducibility_scope": "Full assigned exact statements within their hypotheses; fresh complete-case engine-free replay matched all22 scientific outputs; conditional/inherited joins and implementation failures retained.",
+    "active_workers": 0
+  },
+  "edges": [
+    {
+      "type": "USES",
+      "from_type": "EXACT",
+      "to_type": "EXACT",
+      "source_file": "sources/SOURCE_MANIFEST.json",
+      "numerical_coefficients_transferred": true
+    }
+  ],
+  "verdict": "HELD",
+  "history_entry": "H003005"
+}

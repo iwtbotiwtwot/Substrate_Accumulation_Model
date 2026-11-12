@@ -1,0 +1,535 @@
+{
+ "schema": "SAM_ONE_PRINCIPLE_NATIVE_JOB_V1",
+ "objective": "Admit, compile and execute reusable actual O16 thermal-band error receiver for inherited conservative band382.19596 and sharpened382.443 at beta200 eta1/40",
+ "precision_bits": 256,
+ "sources": [
+  {
+   "path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/FOUR/PRECOMMIT.md",
+   "sha256": "8d2fc6cfa0b48024bd4fa36d19c70a0663ead05d0b5d05fab53b9f069801f920"
+  }
+ ],
+ "steps": [
+  {
+   "id": "admit",
+   "operation": "GEN5_METHOD_ADMIT",
+   "purpose": "admit",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 256,
+    "data": {
+     "recipe": {
+      "$literal": {
+       "schema": "GEN5_METHOD_RECIPE_V1",
+       "name": "four.thermal_band_receiver",
+       "revision": 1,
+       "law_namespace": "SAM_land",
+       "task_type": "four.thermal_band_receiver",
+       "parameters": {
+        "generator": {
+         "type": "matrix",
+         "dimension": 2
+        },
+        "signal_weight": {
+         "type": "matrix",
+         "dimension": 1
+        }
+       },
+       "assumptions": [
+        {
+         "parameter": "generator",
+         "predicate": "square"
+        },
+        {
+         "parameter": "signal_weight",
+         "predicate": "square"
+        }
+       ],
+       "steps": [
+        {
+         "id": "hyperbolic",
+         "operation": "GEN3_COMPLEX_EXP",
+         "payload": {
+          "source_binding": {
+           "$source": true
+          },
+          "precision_bits": {
+           "$precision": true
+          },
+          "data": {
+           "matrix": {
+            "$param": "generator"
+           }
+          }
+         }
+        },
+        {
+         "id": "tanh",
+         "operation": "GEN3_COMPLEX_SOLVE",
+         "payload": {
+          "source_binding": {
+           "$source": true
+          },
+          "precision_bits": {
+           "$precision": true
+          },
+          "data": {
+           "matrix": {
+            "entries": [
+             [
+              {
+               "$step": "hyperbolic",
+               "field": [
+                "result",
+                "output",
+                "matrix",
+                "entries",
+                0,
+                0
+               ]
+              }
+             ]
+            ],
+            "row_basis": [
+             0
+            ],
+            "column_basis": [
+             0
+            ],
+            "structure": "GENERAL"
+           },
+           "rhs": {
+            "entries": [
+             [
+              {
+               "$step": "hyperbolic",
+               "field": [
+                "result",
+                "output",
+                "matrix",
+                "entries",
+                1,
+                0
+               ]
+              }
+             ]
+            ],
+            "row_basis": [
+             0
+            ],
+            "column_basis": [
+             0
+            ],
+            "structure": "GENERAL"
+           }
+          }
+         }
+        },
+        {
+         "id": "Q",
+         "operation": "GEN3_COMPLEX_PRODUCT",
+         "payload": {
+          "source_binding": {
+           "$source": true
+          },
+          "precision_bits": {
+           "$precision": true
+          },
+          "data": {
+           "matrix": {
+            "$param": "signal_weight"
+           },
+           "right": {
+            "$step": "tanh",
+            "field": [
+             "result",
+             "output",
+             "matrix"
+            ]
+           }
+          }
+         }
+        },
+        {
+         "id": "exponent",
+         "operation": "GEN3_COMPLEX_PRODUCT",
+         "payload": {
+          "source_binding": {
+           "$source": true
+          },
+          "precision_bits": {
+           "$precision": true
+          },
+          "data": {
+           "matrix": {
+            "entries": [
+             [
+              "-1/2"
+             ]
+            ],
+            "row_basis": [
+             0
+            ],
+            "column_basis": [
+             0
+            ],
+            "structure": "GENERAL"
+           },
+           "right": {
+            "$step": "Q",
+            "field": [
+             "result",
+             "output",
+             "matrix"
+            ]
+           }
+          }
+         }
+        },
+        {
+         "id": "tail",
+         "operation": "GEN3_COMPLEX_EXP",
+         "payload": {
+          "source_binding": {
+           "$source": true
+          },
+          "precision_bits": {
+           "$precision": true
+          },
+          "data": {
+           "matrix": {
+            "$step": "exponent",
+            "field": [
+             "result",
+             "output",
+             "matrix"
+            ]
+           }
+          }
+         }
+        },
+        {
+         "id": "Pe",
+         "operation": "GEN3_COMPLEX_PRODUCT",
+         "payload": {
+          "source_binding": {
+           "$source": true
+          },
+          "precision_bits": {
+           "$precision": true
+          },
+          "data": {
+           "matrix": {
+            "entries": [
+             [
+              "1/2"
+             ]
+            ],
+            "row_basis": [
+             0
+            ],
+            "column_basis": [
+             0
+            ],
+            "structure": "GENERAL"
+           },
+           "right": {
+            "$step": "tail",
+            "field": [
+             "result",
+             "output",
+             "matrix"
+            ]
+           }
+          }
+         }
+        }
+       ],
+       "checks": [
+        {
+         "step": "hyperbolic",
+         "predicate": "native_contract"
+        },
+        {
+         "step": "tanh",
+         "predicate": "native_contract"
+        },
+        {
+         "step": "Q",
+         "predicate": "native_contract"
+        },
+        {
+         "step": "exponent",
+         "predicate": "native_contract"
+        },
+        {
+         "step": "tail",
+         "predicate": "native_contract"
+        },
+        {
+         "step": "Pe",
+         "predicate": "native_contract"
+        }
+       ],
+       "returns": {
+        "Q": {
+         "$step": "Q",
+         "field": [
+          "result",
+          "output",
+          "matrix"
+         ]
+        },
+        "Pe_upper": {
+         "$step": "Pe",
+         "field": [
+          "result",
+          "output",
+          "matrix"
+         ]
+        }
+       },
+       "description": "Supplied nonnegative band signal norm times calibrated eta and tanh(beta*w0/2), then homodyne Chernoff upper; source proof and covariance hypotheses remain external analytic premises",
+       "provenance": {
+        "source": "FOUR O16 actual97event spectral moment cancellation",
+        "scope": "Finite scalar receiving inequality; physical covariance/collection/phase reference not inferred"
+       }
+      }
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "compile_original",
+   "operation": "GEN5_METHOD_COMPILE",
+   "purpose": "compile_original",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 256,
+    "data": {
+     "method_ref": {
+      "$step": "admit",
+      "path": [
+       "result",
+       "output",
+       "method",
+       "result_ref"
+      ]
+     },
+     "inputs": {
+      "generator": {
+       "entries": [
+        [
+         "0",
+         "1"
+        ],
+        [
+         "1",
+         "0"
+        ]
+       ],
+       "row_basis": [
+        0,
+        1
+       ],
+       "column_basis": [
+        0,
+        1
+       ],
+       "structure": "GENERAL"
+      },
+      "signal_weight": {
+       "entries": [
+        [
+         "9554899/1000000"
+        ]
+       ],
+       "row_basis": [
+        0
+       ],
+       "column_basis": [
+        0
+       ],
+       "structure": "GENERAL"
+      }
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "execute_original",
+   "operation": "GEN5_METHOD_EXECUTE",
+   "purpose": "execute_original",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 256,
+    "data": {
+     "compiled_ref": {
+      "$step": "compile_original",
+      "path": [
+       "result",
+       "output",
+       "compiled",
+       "result_ref"
+      ]
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "compile_sharper",
+   "operation": "GEN5_METHOD_COMPILE",
+   "purpose": "compile_sharper",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 256,
+    "data": {
+     "method_ref": {
+      "$step": "admit",
+      "path": [
+       "result",
+       "output",
+       "method",
+       "result_ref"
+      ]
+     },
+     "inputs": {
+      "generator": {
+       "entries": [
+        [
+         "0",
+         "1"
+        ],
+        [
+         "1",
+         "0"
+        ]
+       ],
+       "row_basis": [
+        0,
+        1
+       ],
+       "column_basis": [
+        0,
+        1
+       ],
+       "structure": "GENERAL"
+      },
+      "signal_weight": {
+       "entries": [
+        [
+         "382443/40000"
+        ]
+       ],
+       "row_basis": [
+        0
+       ],
+       "column_basis": [
+        0
+       ],
+       "structure": "GENERAL"
+      }
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "execute_sharper",
+   "operation": "GEN5_METHOD_EXECUTE",
+   "purpose": "execute_sharper",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 256,
+    "data": {
+     "compiled_ref": {
+      "$step": "compile_sharper",
+      "path": [
+       "result",
+       "output",
+       "compiled",
+       "result_ref"
+      ]
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  }
+ ],
+ "readouts": {
+  "admit": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "admit",
+    "path": []
+   }
+  },
+  "compile_original": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "compile_original",
+    "path": []
+   }
+  },
+  "execute_original": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "execute_original",
+    "path": []
+   }
+  },
+  "compile_sharper": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "compile_sharper",
+    "path": []
+   }
+  },
+  "execute_sharper": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "execute_sharper",
+    "path": []
+   }
+  }
+ },
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ },
+ "law_namespace": "SAM_land"
+}

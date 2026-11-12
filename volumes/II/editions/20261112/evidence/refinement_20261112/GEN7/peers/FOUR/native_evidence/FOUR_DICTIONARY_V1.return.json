@@ -1,0 +1,1018 @@
+{
+  "authored_by": "PEER_FOUR",
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "aec9c75a8511591b20dc8818d7b4097cfe55481394602873eb933e4fa801de4a",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "4f65b34fc4cc554233d6233c1644d950ecca75d3cb2f4338aad1f004727abffa",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "completed_utc": "2026-11-12T04:47:37.197939+00:00",
+  "gen6_core_version": "0.11.3",
+  "gen6_execution": {
+    "continuation": null,
+    "error": null,
+    "execution_stage": "POST_DUCK_ENGINEERING_QUALIFICATION",
+    "history_continuation": null,
+    "host_compilation": "Exact symbolic DAG and reciprocal token transcription; native product identities certify reciprocals",
+    "host_domain_arithmetic": false,
+    "imported_history_session_reused": false,
+    "installed_engine_modified": false,
+    "qualification_scope": null,
+    "schema": "SAM_ONE_PRINCIPLE_NATIVE_EXECUTION_V1",
+    "session_reused": false,
+    "status": "PASSED",
+    "time_utc": "2026-11-12T04:47:37.177579+00:00",
+    "trace": [
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "NB",
+        "input": "000_NB.input.json",
+        "input_sha256": "87aa6a067bfa1ce217d08a2669ad8c156618bdae82d1d8e4b84ec26ea813e9bf",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "000_NB.output.json",
+        "output_sha256": "afa54249aebf65314b84f193679e36f13ddc8f4f432e0fd96bf036ce4f26065e"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "NDICT",
+        "input": "001_NDICT.input.json",
+        "input_sha256": "225b5574613290b8161d905903094922bc147a9f444a38863de90e1226f7126c",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "001_NDICT.output.json",
+        "output_sha256": "674d722a01a70808e07d7a4062141bb61b180060e58265fd547188f5a1409710"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "EB",
+        "input": "002_EB.input.json",
+        "input_sha256": "b151d684c0064713da3c8770577ff90e21ec9f3011fe4ec306f489542f2f2b97",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "002_EB.output.json",
+        "output_sha256": "537dfc5bb5f120ccb1e98e2725fc0547cc1e52fc6051227f2ec0e68f834760ce"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "EDICT",
+        "input": "003_EDICT.input.json",
+        "input_sha256": "199d08c2f97085c72eed13cbe11371b5e43d52b1c9db261d5d7df64aa3bc410e",
+        "operation": "GEN3_COMPLEX_PRODUCT",
+        "output": "003_EDICT.output.json",
+        "output_sha256": "f05071a9cf1acd010e5d4cf7a586fb28ebac8f3341f7ca54ab323402ca8092d1"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "rank",
+        "input": "004_rank.input.json",
+        "input_sha256": "ff23377454c62ed1ce858da5a60dccc67ba2ae3a13277d10d9f1452c1513dfe6",
+        "operation": "GEN3_COMPLEX_RANK",
+        "output": "004_rank.output.json",
+        "output_sha256": "622983ae031403889db295396d0d92bca3109e3d7cd982664c86e8f48f84743a"
+      }
+    ]
+  },
+  "gen6_execution_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_DICTIONARY_V1/gen6",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_04",
+  "imports": [],
+  "key": "FOUR_DICTIONARY_V1",
+  "kind": "RESULT",
+  "native_calls": 5,
+  "operation": "GEN6_NATIVE_PROGRAM",
+  "portable_bundle": null,
+  "prior_state_root": null,
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_DICTIONARY_V1/RESULT.json",
+  "receipt_sha256": "69c7aa43f641fc27db98c4ab60395fd09887c510af7b53c65c637e36a2b0e1de",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 1345043930022229,
+  "returned": {
+    "EB": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "recomputed": true,
+        "result": {
+          "implementation": {
+            "files": {
+              "__init__.py": "4084396c52a28e511b1d14388a022761b76e3d35a97333005cc6c71d24b3ecd0",
+              "complex_core.py": "6a4e8d0fb6d794cc2deec9c21a4b861a0cbcf7a204a749d85d64c1ada3d35260",
+              "data/CATALOG.json": "2a53cd91ea89ba5a7ce9ac67234f5859e49008367e5a2e8c76d95300272d30b9",
+              "data/SI29_CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+              "data/vol_ii_modular_emission1__CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+              "data/vol_ii_modular_emission1__INTERPRETATION.json": "656c9fb9ef804033698b3b10dbcc7b3acd467aa291cc6720d3f2fc06371be204",
+              "data/vol_ii_modular_emission1__RECEIVER.json": "9239df8b43e16daea0faffdfaa8f6a098268b03874e5ea894da74872df19fd0c",
+              "data/vol_ii_modular_flow1__AL27_EXACT.json": "1a4cd00afbad0b0c8b211c24f149ed55c43e608eaba73dc4e5aea2a8afc14742",
+              "data/vol_ii_modular_flow1__Al27.json": "8d7079ad1ce63842127335f7516f1955f738faa81c3bc8df25232f08f6de6a00",
+              "data/vol_ii_modular_flow1__Mg25.json": "45f0be2a6040612ba4f9e1b4efe803918fbf36cc2dac63c5c9ec2f525a58f3d8",
+              "data/vol_ii_modular_flow1__Mg26.json": "f96cb7f6e0dab7402345ae08dcdc2649c9903a606e0db3e3a274cb4fa9c877bc",
+              "data/vol_ii_modular_flow1__STATUS.json": "2682ea93316dfe1092d32c86b79da0f7b3be47a2b14bf6770cb0b8de8abc8ae7",
+              "data/vol_ii_modular_flow1__Si28.json": "689340466b0e55d07db928df49b17a822b3e29acedefb55f644750f98e5bbcf0",
+              "data/vol_ii_modular_flow1__Si29.json": "08a853f372370eb302edcc715f3bbde7647d1949f547ef66e84ff1295e02804f",
+              "data/vol_ii_modular_flow1__Si30.json": "32b44bf8967a7680eeac21867a29f94b258eaa8b2a95dd6690c6682ece384aee",
+              "data/vol_ii_modular_geometry1__FINAL_STATUS.json": "b258a0c802b94d071375c7309a724a2d0d82e43836ad7cd68042748ac1f3af4a",
+              "data/vol_ii_modular_geometry1__GEOMETRY.json": "680e5991ae68b029448a54780e7d83c3d5baea90b3d156dab7301c772d730702",
+              "data/vol_ii_modular_geometry1__INTRINSIC.json": "d91a1465bdec2f8a9dc80715041d2ff8359cf98f540e21e95e1eb27fd349c6c8",
+              "data/vol_ii_modular_geometry1__MODULAR.json": "0bfaf7cbedb55cd61b2552d64217cae61775d35ccbf653955010eaaf780ea7c1",
+              "data/vol_ii_modular_geometry1__SECTORS.json": "1ab3f62a8b608687d305e2f15b320975e1e455e57f85b6b96b0ff44bedb6c7e2",
+              "data/vol_ii_modular_geometry1__STATUS.json": "f5bbf791c75e59700c137859f9bbe795636fae2a67564cb270f23bb0df7cc145",
+              "data/vol_ii_modular_radius1__COMPATIBILITY.json": "92c4d85cb52f3a4adfd9213a9aa39f419376b6086765c360a6800e7ceb3d85fa",
+              "data/vol_ii_modular_radius1__FIELD.json": "817bdee4e172f42777ef69026c5497d220779df3cfa95af4b7aca806a71bc84a",
+              "data/vol_ii_modular_radius1__FINAL_STATUS.json": "6c2581d18efe3646adf302569f10d4a69e363e0bdb034f7c33e2d168f759ac92",
+              "data/vol_ii_modular_radius1__FIXED_AREA.json": "0e7e1c80163f663e07a2e2577e1b98af5b6e5af865a3f197c944a4eebc32d133",
+              "data/vol_ii_modular_radius1__FIXED_SOURCE.json": "bbe984d277c0d9e74bccb645adc7b48ba261d47c189e8c547b02ee8d660d6a6b",
+              "data/vol_ii_modular_radius1__MODULAR.json": "0e2e04050cfe702ca2cc7d5f76ec7cd254637f7a7e0428c94eab2847ac34d950",
+              "data/vol_ii_modular_radius1__STATUS.json": "2e79c31639b893a166d175210dab9842ba7ed3fbc818ea2966114a1102529221",
+              "data/vol_ii_modular_receiver1__FOOTPRINT.json": "dcf64c55b21dd1dc0a0fc81575612624cdd3382b20c42b47f72dfac1e5dbef85",
+              "data/vol_ii_modular_receiver1__GREEN.json": "7c3da629710b7189e3350fe9970c77759588fc31cc18e327e1ee07b2e1a0473f",
+              "data/vol_ii_modular_receiver1__MODULAR.json": "fdbc5c3fee1ee9b720692144b66e88603fdb66d3f809c357c48322997c207c2b",
+              "data/vol_ii_modular_receiver1__NETWORK_3.json": "609cb4305825986605134834b3514c310adc6f61da0932fe152e3c85611f4c53",
+              "data/vol_ii_modular_receiver1__NETWORK_5.json": "4a3346dcd9227ba960c82e3f9ac21f21a1f1172a52245516df6aef6859ea57f4",
+              "data/vol_ii_modular_receiver1__SPECIES.json": "4904825dabb9f90cd29fd39ea2a0f7daeae2b43cd76649d515ae07270fa0260a",
+              "data/vol_ii_modular_receiver1__STATUS.json": "2254bcf106cf9ede4be4a466346179b17c55b42ebfe66330cac677d8014e5b18",
+              "data/vol_ii_modular_receiver1__TRANSPORT.json": "6771c059dbd24e06790af465add71f3650d8c127dc40e0a9cba927472520bfb3",
+              "data/vol_ii_modular_si29_1__CERTIFICATE.json": "e64485314e70741bd0c3440c1fe7c70a68e3a745e72271722e5f6e23142e73a8",
+              "data/vol_ii_modular_si29_1__STATUS.json": "7366a65087a37fa4f0962de80989611e39a501b9f3e38bc4e6ef9db5186672b0",
+              "data/vol_ii_modular_si29_1__SURVEY.json": "2d57625fb0b37631480d08a31e9723ea097d442c00aadc5815b5ea84341b7f51",
+              "dynamics.py": "b25e701e110d63a56cd5f88ec6464d1db4683f38a670ff938e11f97c39ba7d77",
+              "full_source/SOURCE_BINDINGS.json": "063a9cb8afc01f812a311bc2024b391e4decc406948924a95e2e46b19a20a1d4",
+              "full_source/__init__.py": "6b19dd7585530ff7dbc717c8573329599b75a92dd197f207820eb7be95123749",
+              "full_source/clock.py": "4d5f305ee7a5638ee314a289e4ec468f9c022e40b21dc0028c0e211a532adecc",
+              "full_source/common.py": "f68ad7717d9f349dd482b38f1e7461f1c44b777bb3ad1e7d0bb0ec2f41f132a3",
+              "full_source/gibbs.py": "cf81302494797edadf863a6db7163c308a2d8ec4458c3933851cb0e9f6267353",
+              "full_source/gibbs_core.py": "c2799a4a3b637c122b7d15a730309cf45b22528b919652b90a7e3981d11bce3d",
+              "full_source/green.py": "0a52fc32bbe88727d37beb584828698dfef8bcbb8680eea7cc7a243fc7bf490a",
+              "full_source/history.py": "1db9286c503a215fed8ac04e87fbdb9a50a2e915a82af3f1f030a2181b6309d6",
+              "full_source/jets_core.py": "c8b3be41afb69ec7837da6d40b5c4353a1363a728633dee7193f9c79d8cf7a26",
+              "full_source/kinetic.py": "467c630bfdecdfda3baaa70e7c432c526926e03ba1b1f6c28ef0af620d361473",
+              "full_source/orbit.py": "69ffdfe0a1c761787c46fe5c6344686a4a620f11c9ca50be0f4d159f7f8339c2",
+              "full_source/projection.py": "93aa8a9b17d7f37f82a846b903c0b2d0673208dd80517eecefb5c405551a2804",
+              "full_source/response.py": "3582b612d9649d4a1c319fcc1ca1b2e6f97813ed464ed917b96af49d417fe02a",
+              "full_source/spherical.py": "5c3924e6beeaf25d010ddd0197d994dde955c618f9b18df1aea35f5db38acc5b",
+              "full_source/wave.py": "0fd87c863e8e35806191fb890a339e67e0db04c44b84c5a11cec1eadec18cd5c",
+              "full_source/wave_core.py": "f0c190acbff640e962eac14cdeec0ee74db7d5c52f66ce46c8d5bc35bb08604e",
+              "hybrid.py": "fd2bd2dd40934be700c09df8ae3a7a0c0a049e3f17dbb5426952815e24d17616",
+              "operations.py": "06042bc028fb62fd8aaec985cd0b2cfb4ca476b9a60d5e4ed2400fbfe7e1150b",
+              "receiver.py": "23a24ef3f12444c02801be66bd5d77d4c6bb44e4c0b22df319899106c5b89ac2",
+              "research_methods.py": "baadef7f93850b4d99e88109932e6dcb293d47d2b682ab72d3e7a67ab0c886a3",
+              "thermal_response/N005000_packet_+1_K_MAJOR.json": "6c62b15b8ef97569b22afe159181548f2d06c457d8a6b2261a2764804dc9c1d8",
+              "thermal_response/N005000_signed_packet_+1_K_MAJOR.json": "659e0515ad89a62597a170b3846b5191de75d41c8d279c70ec20fb84cdfb978d",
+              "thermal_response/N005000_signed_packet_chain_+1_K_MAJOR.json": "bdd6073bad42a81ea5d68facd6f4adf08ac9fb89f24169ac52eaae1c01419e74",
+              "thermal_response/TAIL_SOURCE.json": "8f9137a3b87dac43d8896584550ea75c4f252659454c7eb26b71c1fafe102d66",
+              "thermal_response/__init__.py": "0c38047060847eaec98c8de98f50529cafb94f97fb9657866d4b691e02344a68",
+              "thermal_response/cancel_geometry.py": "cea67073a00e9ab72d8748daeaa4a991c1209194d8f944615eb8345535d7e965",
+              "thermal_response/cancel_math.py": "b69a739423a983cd93aace7aca3a0a25f6dbb1c436ffd65127299115531bdaa7",
+              "thermal_response/complex_core.py": "a20bc4550662f0cf18e1aa3d394c2c71de801099b03fb4139e99236743250fc6",
+              "thermal_response/endpoint.py": "17e41cf1f9460c33a2c36758e601f1d4da113fdd18a7de8d12ddf8a922c73e48",
+              "thermal_response/finite.py": "ae1451a9db30f74be3b23f89acf5484c0cfdb74ebaa1fbbdae86f2b4c7cf88b0",
+              "thermal_response/fixed_thermal.py": "ce72e45fe7af5a9fca182d141204fe9029a56f3880aea5ee1dc8d244b9cd59c9",
+              "thermal_response/geometry.py": "e86f0b91ac5118bf5da655d42c12c9b34fdd8f9c12201a49b3e60651d0927e08",
+              "thermal_response/jets.py": "5e9a0aef9e2a33a53e3378b3e788f49238bc13fd38f6eec227c7eec8faa57de6",
+              "thermal_response/kernel.py": "84cae3a99125f9e985e663b261421ad2e6d984baa357a7e58fa30360d9935da0",
+              "thermal_response/legacy.py": "783f14bf39ba251f6057e5741e17dc247b32923cd952fec0e87bc7f767de1e3d",
+              "thermal_response/model.py": "3039edff30afcf167ad0b9e8a91cf5b38cfc4b34dff646676abf995079c22766",
+              "thermal_response/packet_kernel.py": "37773d9ea42ae5f98a8d7369c9eacd22a72bae03761575dd82adfaf87a472f8e",
+              "thermal_response/protocol.py": "5d19da5a14a43643ac3f8f422b7619ca692e465f9cd950c2fd4889d5df7f0f25",
+              "thermal_response/response.py": "f4b8521eed12ef6db828fd5ed8a8e2dddfe808b373f8f0b5d7a63eaefc1fbba3",
+              "thermal_response/source.py": "85aefc745b1a32b5475383af153d272eb8eaf7adba61342fb78e62df2292d390"
+            },
+            "python_flint": "0.8.0",
+            "version": "SHARED_MODULAR_V4"
+          },
+          "operation": "GEN3_COMPLEX_PRODUCT",
+          "output": {
+            "matrix": {
+              "column_basis": [
+                "F-H",
+                "R-H"
+              ],
+              "entries": [
+                [
+                  {
+                    "im": {
+                      "lower": "-110147629071702841039999724874688904603329581286402539388237668816683838312817/1809251394333065553493296640760748560207343510400633813116524750123642650624",
+                      "upper": "-110147629071702841039999724874688904603329581286402539388237668816683838306737/1809251394333065553493296640760748560207343510400633813116524750123642650624"
+                    },
+                    "re": {
+                      "lower": "-112897287006383290537981710383470710156938235048999549938471144407715301398993/1809251394333065553493296640760748560207343510400633813116524750123642650624",
+                      "upper": "-112897287006383290537981710383470710156938235048999549938471144407715301398895/1809251394333065553493296640760748560207343510400633813116524750123642650624"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "-6966989700042331214934980131515848178679881587662731585619991199669007386165/113078212145816597093331040047546785012958969400039613319782796882727665664",
+                      "upper": "-6966989700042331214934980131515848178679881587662731585619991199669007385785/113078212145816597093331040047546785012958969400039613319782796882727665664"
+                    },
+                    "re": {
+                      "lower": "-60790846849591002597374767129561151622966741949461296120715231604154393060989/904625697166532776746648320380374280103671755200316906558262375061821325312",
+                      "upper": "-60790846849591002597374767129561151622966741949461296120715231604154393060947/904625697166532776746648320380374280103671755200316906558262375061821325312"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "im": {
+                      "lower": "-110147629071702841039999724874688904603329581286402539388237668816683838332503/1809251394333065553493296640760748560207343510400633813116524750123642650624",
+                      "upper": "-110147629071702841039999724874688904603329581286402539388237668816683838285161/1809251394333065553493296640760748560207343510400633813116524750123642650624"
+                    },
+                    "re": {
+                      "lower": "80870710371384384826223026566004271971642930940673330455975661760604758291037/113078212145816597093331040047546785012958969400039613319782796882727665664",
+                      "upper": "80870710371384384826223026566004271971642930940673330455975661760604758291327/113078212145816597093331040047546785012958969400039613319782796882727665664"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "-59318997751976161484479400861840553510695252275276978027342326613869921305927/904625697166532776746648320380374280103671755200316906558262375061821325312",
+                      "upper": "-59318997751976161484479400861840553510695252275276978027342326613869921280935/904625697166532776746648320380374280103671755200316906558262375061821325312"
+                    },
+                    "re": {
+                      "lower": "60722999922303512639118768505532623551958966567821272352723361926024756461185/226156424291633194186662080095093570025917938800079226639565593765455331328",
+                      "upper": "60722999922303512639118768505532623551958966567821272352723361926024756461703/226156424291633194186662080095093570025917938800079226639565593765455331328"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "im": {
+                      "lower": "-102981468768427817510000605255261368440817182138452288703472874783648113923503/1809251394333065553493296640760748560207343510400633813116524750123642650624",
+                      "upper": "-102981468768427817510000605255261368440817182138452288703472874783648113873523/1809251394333065553493296640760748560207343510400633813116524750123642650624"
+                    },
+                    "re": {
+                      "lower": "7726068844862918996401843311248634086010421584257706580074159597012367756445/28269553036454149273332760011886696253239742350009903329945699220681916416",
+                      "upper": "15452137689725837992803686622497268172020843168515413160148319194024735513019/56539106072908298546665520023773392506479484700019806659891398441363832832"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "-13933979400084662429869960263031696357359763175325463171239982399338014774789/226156424291633194186662080095093570025917938800079226639565593765455331328",
+                      "upper": "-55735917600338649719479841052126785429439052701301852684959929597352059075483/904625697166532776746648320380374280103671755200316906558262375061821325312"
+                    },
+                    "re": {
+                      "lower": "80327934953084465160175037573776047403580727887553140312040704335567665495857/113078212145816597093331040047546785012958969400039613319782796882727665664",
+                      "upper": "80327934953084465160175037573776047403580727887553140312040704335567665496137/113078212145816597093331040047546785012958969400039613319782796882727665664"
+                    }
+                  }
+                ]
+              ],
+              "precision_bits": 256,
+              "row_basis": [
+                "HELD",
+                "FORWARD",
+                "REVERSE"
+              ],
+              "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+              "structure": "GENERAL"
+            },
+            "status": "CERTIFIED_ENCLOSURE"
+          },
+          "precision_bits": 256,
+          "schema": "SLC_MODULAR_RESULT_V1",
+          "source_binding": {
+            "campaign": "20261112T043202Z",
+            "candidate_job": {
+              "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_DICTIONARY_V1/gen6/JOB.json",
+              "sha256": "dbea9b7a7662bb6fcdc85964342b1087d57f8cb7fd5bbfeeae6755984e54149c"
+            },
+            "kind": "GEN7_DUCK",
+            "law_namespace": "SAM_land",
+            "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+          }
+        },
+        "result_ref": "15b6829347b49dfa12e29b13cffd9730adec427248695838f83e02b5ed2c5426"
+      }
+    },
+    "EDICT": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "recomputed": true,
+        "result": {
+          "implementation": {
+            "files": {
+              "__init__.py": "4084396c52a28e511b1d14388a022761b76e3d35a97333005cc6c71d24b3ecd0",
+              "complex_core.py": "6a4e8d0fb6d794cc2deec9c21a4b861a0cbcf7a204a749d85d64c1ada3d35260",
+              "data/CATALOG.json": "2a53cd91ea89ba5a7ce9ac67234f5859e49008367e5a2e8c76d95300272d30b9",
+              "data/SI29_CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+              "data/vol_ii_modular_emission1__CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+              "data/vol_ii_modular_emission1__INTERPRETATION.json": "656c9fb9ef804033698b3b10dbcc7b3acd467aa291cc6720d3f2fc06371be204",
+              "data/vol_ii_modular_emission1__RECEIVER.json": "9239df8b43e16daea0faffdfaa8f6a098268b03874e5ea894da74872df19fd0c",
+              "data/vol_ii_modular_flow1__AL27_EXACT.json": "1a4cd00afbad0b0c8b211c24f149ed55c43e608eaba73dc4e5aea2a8afc14742",
+              "data/vol_ii_modular_flow1__Al27.json": "8d7079ad1ce63842127335f7516f1955f738faa81c3bc8df25232f08f6de6a00",
+              "data/vol_ii_modular_flow1__Mg25.json": "45f0be2a6040612ba4f9e1b4efe803918fbf36cc2dac63c5c9ec2f525a58f3d8",
+              "data/vol_ii_modular_flow1__Mg26.json": "f96cb7f6e0dab7402345ae08dcdc2649c9903a606e0db3e3a274cb4fa9c877bc",
+              "data/vol_ii_modular_flow1__STATUS.json": "2682ea93316dfe1092d32c86b79da0f7b3be47a2b14bf6770cb0b8de8abc8ae7",
+              "data/vol_ii_modular_flow1__Si28.json": "689340466b0e55d07db928df49b17a822b3e29acedefb55f644750f98e5bbcf0",
+              "data/vol_ii_modular_flow1__Si29.json": "08a853f372370eb302edcc715f3bbde7647d1949f547ef66e84ff1295e02804f",
+              "data/vol_ii_modular_flow1__Si30.json": "32b44bf8967a7680eeac21867a29f94b258eaa8b2a95dd6690c6682ece384aee",
+              "data/vol_ii_modular_geometry1__FINAL_STATUS.json": "b258a0c802b94d071375c7309a724a2d0d82e43836ad7cd68042748ac1f3af4a",
+              "data/vol_ii_modular_geometry1__GEOMETRY.json": "680e5991ae68b029448a54780e7d83c3d5baea90b3d156dab7301c772d730702",
+              "data/vol_ii_modular_geometry1__INTRINSIC.json": "d91a1465bdec2f8a9dc80715041d2ff8359cf98f540e21e95e1eb27fd349c6c8",
+              "data/vol_ii_modular_geometry1__MODULAR.json": "0bfaf7cbedb55cd61b2552d64217cae61775d35ccbf653955010eaaf780ea7c1",
+              "data/vol_ii_modular_geometry1__SECTORS.json": "1ab3f62a8b608687d305e2f15b320975e1e455e57f85b6b96b0ff44bedb6c7e2",
+              "data/vol_ii_modular_geometry1__STATUS.json": "f5bbf791c75e59700c137859f9bbe795636fae2a67564cb270f23bb0df7cc145",
+              "data/vol_ii_modular_radius1__COMPATIBILITY.json": "92c4d85cb52f3a4adfd9213a9aa39f419376b6086765c360a6800e7ceb3d85fa",
+              "data/vol_ii_modular_radius1__FIELD.json": "817bdee4e172f42777ef69026c5497d220779df3cfa95af4b7aca806a71bc84a",
+              "data/vol_ii_modular_radius1__FINAL_STATUS.json": "6c2581d18efe3646adf302569f10d4a69e363e0bdb034f7c33e2d168f759ac92",
+              "data/vol_ii_modular_radius1__FIXED_AREA.json": "0e7e1c80163f663e07a2e2577e1b98af5b6e5af865a3f197c944a4eebc32d133",
+              "data/vol_ii_modular_radius1__FIXED_SOURCE.json": "bbe984d277c0d9e74bccb645adc7b48ba261d47c189e8c547b02ee8d660d6a6b",
+              "data/vol_ii_modular_radius1__MODULAR.json": "0e2e04050cfe702ca2cc7d5f76ec7cd254637f7a7e0428c94eab2847ac34d950",
+              "data/vol_ii_modular_radius1__STATUS.json": "2e79c31639b893a166d175210dab9842ba7ed3fbc818ea2966114a1102529221",
+              "data/vol_ii_modular_receiver1__FOOTPRINT.json": "dcf64c55b21dd1dc0a0fc81575612624cdd3382b20c42b47f72dfac1e5dbef85",
+              "data/vol_ii_modular_receiver1__GREEN.json": "7c3da629710b7189e3350fe9970c77759588fc31cc18e327e1ee07b2e1a0473f",
+              "data/vol_ii_modular_receiver1__MODULAR.json": "fdbc5c3fee1ee9b720692144b66e88603fdb66d3f809c357c48322997c207c2b",
+              "data/vol_ii_modular_receiver1__NETWORK_3.json": "609cb4305825986605134834b3514c310adc6f61da0932fe152e3c85611f4c53",
+              "data/vol_ii_modular_receiver1__NETWORK_5.json": "4a3346dcd9227ba960c82e3f9ac21f21a1f1172a52245516df6aef6859ea57f4",
+              "data/vol_ii_modular_receiver1__SPECIES.json": "4904825dabb9f90cd29fd39ea2a0f7daeae2b43cd76649d515ae07270fa0260a",
+              "data/vol_ii_modular_receiver1__STATUS.json": "2254bcf106cf9ede4be4a466346179b17c55b42ebfe66330cac677d8014e5b18",
+              "data/vol_ii_modular_receiver1__TRANSPORT.json": "6771c059dbd24e06790af465add71f3650d8c127dc40e0a9cba927472520bfb3",
+              "data/vol_ii_modular_si29_1__CERTIFICATE.json": "e64485314e70741bd0c3440c1fe7c70a68e3a745e72271722e5f6e23142e73a8",
+              "data/vol_ii_modular_si29_1__STATUS.json": "7366a65087a37fa4f0962de80989611e39a501b9f3e38bc4e6ef9db5186672b0",
+              "data/vol_ii_modular_si29_1__SURVEY.json": "2d57625fb0b37631480d08a31e9723ea097d442c00aadc5815b5ea84341b7f51",
+              "dynamics.py": "b25e701e110d63a56cd5f88ec6464d1db4683f38a670ff938e11f97c39ba7d77",
+              "full_source/SOURCE_BINDINGS.json": "063a9cb8afc01f812a311bc2024b391e4decc406948924a95e2e46b19a20a1d4",
+              "full_source/__init__.py": "6b19dd7585530ff7dbc717c8573329599b75a92dd197f207820eb7be95123749",
+              "full_source/clock.py": "4d5f305ee7a5638ee314a289e4ec468f9c022e40b21dc0028c0e211a532adecc",
+              "full_source/common.py": "f68ad7717d9f349dd482b38f1e7461f1c44b777bb3ad1e7d0bb0ec2f41f132a3",
+              "full_source/gibbs.py": "cf81302494797edadf863a6db7163c308a2d8ec4458c3933851cb0e9f6267353",
+              "full_source/gibbs_core.py": "c2799a4a3b637c122b7d15a730309cf45b22528b919652b90a7e3981d11bce3d",
+              "full_source/green.py": "0a52fc32bbe88727d37beb584828698dfef8bcbb8680eea7cc7a243fc7bf490a",
+              "full_source/history.py": "1db9286c503a215fed8ac04e87fbdb9a50a2e915a82af3f1f030a2181b6309d6",
+              "full_source/jets_core.py": "c8b3be41afb69ec7837da6d40b5c4353a1363a728633dee7193f9c79d8cf7a26",
+              "full_source/kinetic.py": "467c630bfdecdfda3baaa70e7c432c526926e03ba1b1f6c28ef0af620d361473",
+              "full_source/orbit.py": "69ffdfe0a1c761787c46fe5c6344686a4a620f11c9ca50be0f4d159f7f8339c2",
+              "full_source/projection.py": "93aa8a9b17d7f37f82a846b903c0b2d0673208dd80517eecefb5c405551a2804",
+              "full_source/response.py": "3582b612d9649d4a1c319fcc1ca1b2e6f97813ed464ed917b96af49d417fe02a",
+              "full_source/spherical.py": "5c3924e6beeaf25d010ddd0197d994dde955c618f9b18df1aea35f5db38acc5b",
+              "full_source/wave.py": "0fd87c863e8e35806191fb890a339e67e0db04c44b84c5a11cec1eadec18cd5c",
+              "full_source/wave_core.py": "f0c190acbff640e962eac14cdeec0ee74db7d5c52f66ce46c8d5bc35bb08604e",
+              "hybrid.py": "fd2bd2dd40934be700c09df8ae3a7a0c0a049e3f17dbb5426952815e24d17616",
+              "operations.py": "06042bc028fb62fd8aaec985cd0b2cfb4ca476b9a60d5e4ed2400fbfe7e1150b",
+              "receiver.py": "23a24ef3f12444c02801be66bd5d77d4c6bb44e4c0b22df319899106c5b89ac2",
+              "research_methods.py": "baadef7f93850b4d99e88109932e6dcb293d47d2b682ab72d3e7a67ab0c886a3",
+              "thermal_response/N005000_packet_+1_K_MAJOR.json": "6c62b15b8ef97569b22afe159181548f2d06c457d8a6b2261a2764804dc9c1d8",
+              "thermal_response/N005000_signed_packet_+1_K_MAJOR.json": "659e0515ad89a62597a170b3846b5191de75d41c8d279c70ec20fb84cdfb978d",
+              "thermal_response/N005000_signed_packet_chain_+1_K_MAJOR.json": "bdd6073bad42a81ea5d68facd6f4adf08ac9fb89f24169ac52eaae1c01419e74",
+              "thermal_response/TAIL_SOURCE.json": "8f9137a3b87dac43d8896584550ea75c4f252659454c7eb26b71c1fafe102d66",
+              "thermal_response/__init__.py": "0c38047060847eaec98c8de98f50529cafb94f97fb9657866d4b691e02344a68",
+              "thermal_response/cancel_geometry.py": "cea67073a00e9ab72d8748daeaa4a991c1209194d8f944615eb8345535d7e965",
+              "thermal_response/cancel_math.py": "b69a739423a983cd93aace7aca3a0a25f6dbb1c436ffd65127299115531bdaa7",
+              "thermal_response/complex_core.py": "a20bc4550662f0cf18e1aa3d394c2c71de801099b03fb4139e99236743250fc6",
+              "thermal_response/endpoint.py": "17e41cf1f9460c33a2c36758e601f1d4da113fdd18a7de8d12ddf8a922c73e48",
+              "thermal_response/finite.py": "ae1451a9db30f74be3b23f89acf5484c0cfdb74ebaa1fbbdae86f2b4c7cf88b0",
+              "thermal_response/fixed_thermal.py": "ce72e45fe7af5a9fca182d141204fe9029a56f3880aea5ee1dc8d244b9cd59c9",
+              "thermal_response/geometry.py": "e86f0b91ac5118bf5da655d42c12c9b34fdd8f9c12201a49b3e60651d0927e08",
+              "thermal_response/jets.py": "5e9a0aef9e2a33a53e3378b3e788f49238bc13fd38f6eec227c7eec8faa57de6",
+              "thermal_response/kernel.py": "84cae3a99125f9e985e663b261421ad2e6d984baa357a7e58fa30360d9935da0",
+              "thermal_response/legacy.py": "783f14bf39ba251f6057e5741e17dc247b32923cd952fec0e87bc7f767de1e3d",
+              "thermal_response/model.py": "3039edff30afcf167ad0b9e8a91cf5b38cfc4b34dff646676abf995079c22766",
+              "thermal_response/packet_kernel.py": "37773d9ea42ae5f98a8d7369c9eacd22a72bae03761575dd82adfaf87a472f8e",
+              "thermal_response/protocol.py": "5d19da5a14a43643ac3f8f422b7619ca692e465f9cd950c2fd4889d5df7f0f25",
+              "thermal_response/response.py": "f4b8521eed12ef6db828fd5ed8a8e2dddfe808b373f8f0b5d7a63eaefc1fbba3",
+              "thermal_response/source.py": "85aefc745b1a32b5475383af153d272eb8eaf7adba61342fb78e62df2292d390"
+            },
+            "python_flint": "0.8.0",
+            "version": "SHARED_MODULAR_V4"
+          },
+          "operation": "GEN3_COMPLEX_PRODUCT",
+          "output": {
+            "matrix": {
+              "column_basis": [
+                "F-H",
+                "R-H"
+              ],
+              "entries": [
+                [
+                  {
+                    "im": {
+                      "lower": "-422150147/29642774844752946028434172162224104410437116074403984394101141506025761187823616",
+                      "upper": "453115907/29642774844752946028434172162224104410437116074403984394101141506025761187823616"
+                    },
+                    "re": {
+                      "lower": "87926790809283340484846883464971191356451570631235802327130108286086964628467/113078212145816597093331040047546785012958969400039613319782796882727665664",
+                      "upper": "87926790809283340484846883464971191356451570631235802327130108286086964628765/113078212145816597093331040047546785012958969400039613319782796882727665664"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "-114658564852400376479985913910840578600198386367204010956236704528571591028705/28948022309329048855892746252171976963317496166410141009864396001978282409984",
+                      "upper": "-114658564852400376479985913910840578600198386367204010956236704528571590131679/28948022309329048855892746252171976963317496166410141009864396001978282409984"
+                    },
+                    "re": {
+                      "lower": "75920711634701263288462460287922911457700652055186596382902169827063354726421/226156424291633194186662080095093570025917938800079226639565593765455331328",
+                      "upper": "75920711634701263288462460287922911457700652055186596382902169827063354726951/226156424291633194186662080095093570025917938800079226639565593765455331328"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "im": {
+                      "lower": "114658564852400376479985913910840578600198386367204010956236704528571590131743/28948022309329048855892746252171976963317496166410141009864396001978282409984",
+                      "upper": "114658564852400376479985913910840578600198386367204010956236704528571591028705/28948022309329048855892746252171976963317496166410141009864396001978282409984"
+                    },
+                    "re": {
+                      "lower": "75920711634701263288462460287922911457700652055186596382902169827063354726421/226156424291633194186662080095093570025917938800079226639565593765455331328",
+                      "upper": "75920711634701263288462460287922911457700652055186596382902169827063354726951/226156424291633194186662080095093570025917938800079226639565593765455331328"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "-421920771/29642774844752946028434172162224104410437116074403984394101141506025761187823616",
+                      "upper": "453410819/29642774844752946028434172162224104410437116074403984394101141506025761187823616"
+                    },
+                    "re": {
+                      "lower": "87926790809283340484846883464971191356451570631235802327130108286086964628475/113078212145816597093331040047546785012958969400039613319782796882727665664",
+                      "upper": "87926790809283340484846883464971191356451570631235802327130108286086964628761/113078212145816597093331040047546785012958969400039613319782796882727665664"
+                    }
+                  }
+                ]
+              ],
+              "precision_bits": 256,
+              "row_basis": [
+                "F-H",
+                "R-H"
+              ],
+              "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+              "structure": "GENERAL"
+            },
+            "status": "CERTIFIED_ENCLOSURE"
+          },
+          "precision_bits": 256,
+          "schema": "SLC_MODULAR_RESULT_V1",
+          "source_binding": {
+            "campaign": "20261112T043202Z",
+            "candidate_job": {
+              "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_DICTIONARY_V1/gen6/JOB.json",
+              "sha256": "dbea9b7a7662bb6fcdc85964342b1087d57f8cb7fd5bbfeeae6755984e54149c"
+            },
+            "kind": "GEN7_DUCK",
+            "law_namespace": "SAM_land",
+            "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+          }
+        },
+        "result_ref": "7773874a5ed1a81a5c8076025182983ed618bf817d7f08cd4dd5541e75e76c82"
+      }
+    },
+    "NB": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "recomputed": true,
+        "result": {
+          "implementation": {
+            "files": {
+              "__init__.py": "4084396c52a28e511b1d14388a022761b76e3d35a97333005cc6c71d24b3ecd0",
+              "complex_core.py": "6a4e8d0fb6d794cc2deec9c21a4b861a0cbcf7a204a749d85d64c1ada3d35260",
+              "data/CATALOG.json": "2a53cd91ea89ba5a7ce9ac67234f5859e49008367e5a2e8c76d95300272d30b9",
+              "data/SI29_CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+              "data/vol_ii_modular_emission1__CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+              "data/vol_ii_modular_emission1__INTERPRETATION.json": "656c9fb9ef804033698b3b10dbcc7b3acd467aa291cc6720d3f2fc06371be204",
+              "data/vol_ii_modular_emission1__RECEIVER.json": "9239df8b43e16daea0faffdfaa8f6a098268b03874e5ea894da74872df19fd0c",
+              "data/vol_ii_modular_flow1__AL27_EXACT.json": "1a4cd00afbad0b0c8b211c24f149ed55c43e608eaba73dc4e5aea2a8afc14742",
+              "data/vol_ii_modular_flow1__Al27.json": "8d7079ad1ce63842127335f7516f1955f738faa81c3bc8df25232f08f6de6a00",
+              "data/vol_ii_modular_flow1__Mg25.json": "45f0be2a6040612ba4f9e1b4efe803918fbf36cc2dac63c5c9ec2f525a58f3d8",
+              "data/vol_ii_modular_flow1__Mg26.json": "f96cb7f6e0dab7402345ae08dcdc2649c9903a606e0db3e3a274cb4fa9c877bc",
+              "data/vol_ii_modular_flow1__STATUS.json": "2682ea93316dfe1092d32c86b79da0f7b3be47a2b14bf6770cb0b8de8abc8ae7",
+              "data/vol_ii_modular_flow1__Si28.json": "689340466b0e55d07db928df49b17a822b3e29acedefb55f644750f98e5bbcf0",
+              "data/vol_ii_modular_flow1__Si29.json": "08a853f372370eb302edcc715f3bbde7647d1949f547ef66e84ff1295e02804f",
+              "data/vol_ii_modular_flow1__Si30.json": "32b44bf8967a7680eeac21867a29f94b258eaa8b2a95dd6690c6682ece384aee",
+              "data/vol_ii_modular_geometry1__FINAL_STATUS.json": "b258a0c802b94d071375c7309a724a2d0d82e43836ad7cd68042748ac1f3af4a",
+              "data/vol_ii_modular_geometry1__GEOMETRY.json": "680e5991ae68b029448a54780e7d83c3d5baea90b3d156dab7301c772d730702",
+              "data/vol_ii_modular_geometry1__INTRINSIC.json": "d91a1465bdec2f8a9dc80715041d2ff8359cf98f540e21e95e1eb27fd349c6c8",
+              "data/vol_ii_modular_geometry1__MODULAR.json": "0bfaf7cbedb55cd61b2552d64217cae61775d35ccbf653955010eaaf780ea7c1",
+              "data/vol_ii_modular_geometry1__SECTORS.json": "1ab3f62a8b608687d305e2f15b320975e1e455e57f85b6b96b0ff44bedb6c7e2",
+              "data/vol_ii_modular_geometry1__STATUS.json": "f5bbf791c75e59700c137859f9bbe795636fae2a67564cb270f23bb0df7cc145",
+              "data/vol_ii_modular_radius1__COMPATIBILITY.json": "92c4d85cb52f3a4adfd9213a9aa39f419376b6086765c360a6800e7ceb3d85fa",
+              "data/vol_ii_modular_radius1__FIELD.json": "817bdee4e172f42777ef69026c5497d220779df3cfa95af4b7aca806a71bc84a",
+              "data/vol_ii_modular_radius1__FINAL_STATUS.json": "6c2581d18efe3646adf302569f10d4a69e363e0bdb034f7c33e2d168f759ac92",
+              "data/vol_ii_modular_radius1__FIXED_AREA.json": "0e7e1c80163f663e07a2e2577e1b98af5b6e5af865a3f197c944a4eebc32d133",
+              "data/vol_ii_modular_radius1__FIXED_SOURCE.json": "bbe984d277c0d9e74bccb645adc7b48ba261d47c189e8c547b02ee8d660d6a6b",
+              "data/vol_ii_modular_radius1__MODULAR.json": "0e2e04050cfe702ca2cc7d5f76ec7cd254637f7a7e0428c94eab2847ac34d950",
+              "data/vol_ii_modular_radius1__STATUS.json": "2e79c31639b893a166d175210dab9842ba7ed3fbc818ea2966114a1102529221",
+              "data/vol_ii_modular_receiver1__FOOTPRINT.json": "dcf64c55b21dd1dc0a0fc81575612624cdd3382b20c42b47f72dfac1e5dbef85",
+              "data/vol_ii_modular_receiver1__GREEN.json": "7c3da629710b7189e3350fe9970c77759588fc31cc18e327e1ee07b2e1a0473f",
+              "data/vol_ii_modular_receiver1__MODULAR.json": "fdbc5c3fee1ee9b720692144b66e88603fdb66d3f809c357c48322997c207c2b",
+              "data/vol_ii_modular_receiver1__NETWORK_3.json": "609cb4305825986605134834b3514c310adc6f61da0932fe152e3c85611f4c53",
+              "data/vol_ii_modular_receiver1__NETWORK_5.json": "4a3346dcd9227ba960c82e3f9ac21f21a1f1172a52245516df6aef6859ea57f4",
+              "data/vol_ii_modular_receiver1__SPECIES.json": "4904825dabb9f90cd29fd39ea2a0f7daeae2b43cd76649d515ae07270fa0260a",
+              "data/vol_ii_modular_receiver1__STATUS.json": "2254bcf106cf9ede4be4a466346179b17c55b42ebfe66330cac677d8014e5b18",
+              "data/vol_ii_modular_receiver1__TRANSPORT.json": "6771c059dbd24e06790af465add71f3650d8c127dc40e0a9cba927472520bfb3",
+              "data/vol_ii_modular_si29_1__CERTIFICATE.json": "e64485314e70741bd0c3440c1fe7c70a68e3a745e72271722e5f6e23142e73a8",
+              "data/vol_ii_modular_si29_1__STATUS.json": "7366a65087a37fa4f0962de80989611e39a501b9f3e38bc4e6ef9db5186672b0",
+              "data/vol_ii_modular_si29_1__SURVEY.json": "2d57625fb0b37631480d08a31e9723ea097d442c00aadc5815b5ea84341b7f51",
+              "dynamics.py": "b25e701e110d63a56cd5f88ec6464d1db4683f38a670ff938e11f97c39ba7d77",
+              "full_source/SOURCE_BINDINGS.json": "063a9cb8afc01f812a311bc2024b391e4decc406948924a95e2e46b19a20a1d4",
+              "full_source/__init__.py": "6b19dd7585530ff7dbc717c8573329599b75a92dd197f207820eb7be95123749",
+              "full_source/clock.py": "4d5f305ee7a5638ee314a289e4ec468f9c022e40b21dc0028c0e211a532adecc",
+              "full_source/common.py": "f68ad7717d9f349dd482b38f1e7461f1c44b777bb3ad1e7d0bb0ec2f41f132a3",
+              "full_source/gibbs.py": "cf81302494797edadf863a6db7163c308a2d8ec4458c3933851cb0e9f6267353",
+              "full_source/gibbs_core.py": "c2799a4a3b637c122b7d15a730309cf45b22528b919652b90a7e3981d11bce3d",
+              "full_source/green.py": "0a52fc32bbe88727d37beb584828698dfef8bcbb8680eea7cc7a243fc7bf490a",
+              "full_source/history.py": "1db9286c503a215fed8ac04e87fbdb9a50a2e915a82af3f1f030a2181b6309d6",
+              "full_source/jets_core.py": "c8b3be41afb69ec7837da6d40b5c4353a1363a728633dee7193f9c79d8cf7a26",
+              "full_source/kinetic.py": "467c630bfdecdfda3baaa70e7c432c526926e03ba1b1f6c28ef0af620d361473",
+              "full_source/orbit.py": "69ffdfe0a1c761787c46fe5c6344686a4a620f11c9ca50be0f4d159f7f8339c2",
+              "full_source/projection.py": "93aa8a9b17d7f37f82a846b903c0b2d0673208dd80517eecefb5c405551a2804",
+              "full_source/response.py": "3582b612d9649d4a1c319fcc1ca1b2e6f97813ed464ed917b96af49d417fe02a",
+              "full_source/spherical.py": "5c3924e6beeaf25d010ddd0197d994dde955c618f9b18df1aea35f5db38acc5b",
+              "full_source/wave.py": "0fd87c863e8e35806191fb890a339e67e0db04c44b84c5a11cec1eadec18cd5c",
+              "full_source/wave_core.py": "f0c190acbff640e962eac14cdeec0ee74db7d5c52f66ce46c8d5bc35bb08604e",
+              "hybrid.py": "fd2bd2dd40934be700c09df8ae3a7a0c0a049e3f17dbb5426952815e24d17616",
+              "operations.py": "06042bc028fb62fd8aaec985cd0b2cfb4ca476b9a60d5e4ed2400fbfe7e1150b",
+              "receiver.py": "23a24ef3f12444c02801be66bd5d77d4c6bb44e4c0b22df319899106c5b89ac2",
+              "research_methods.py": "baadef7f93850b4d99e88109932e6dcb293d47d2b682ab72d3e7a67ab0c886a3",
+              "thermal_response/N005000_packet_+1_K_MAJOR.json": "6c62b15b8ef97569b22afe159181548f2d06c457d8a6b2261a2764804dc9c1d8",
+              "thermal_response/N005000_signed_packet_+1_K_MAJOR.json": "659e0515ad89a62597a170b3846b5191de75d41c8d279c70ec20fb84cdfb978d",
+              "thermal_response/N005000_signed_packet_chain_+1_K_MAJOR.json": "bdd6073bad42a81ea5d68facd6f4adf08ac9fb89f24169ac52eaae1c01419e74",
+              "thermal_response/TAIL_SOURCE.json": "8f9137a3b87dac43d8896584550ea75c4f252659454c7eb26b71c1fafe102d66",
+              "thermal_response/__init__.py": "0c38047060847eaec98c8de98f50529cafb94f97fb9657866d4b691e02344a68",
+              "thermal_response/cancel_geometry.py": "cea67073a00e9ab72d8748daeaa4a991c1209194d8f944615eb8345535d7e965",
+              "thermal_response/cancel_math.py": "b69a739423a983cd93aace7aca3a0a25f6dbb1c436ffd65127299115531bdaa7",
+              "thermal_response/complex_core.py": "a20bc4550662f0cf18e1aa3d394c2c71de801099b03fb4139e99236743250fc6",
+              "thermal_response/endpoint.py": "17e41cf1f9460c33a2c36758e601f1d4da113fdd18a7de8d12ddf8a922c73e48",
+              "thermal_response/finite.py": "ae1451a9db30f74be3b23f89acf5484c0cfdb74ebaa1fbbdae86f2b4c7cf88b0",
+              "thermal_response/fixed_thermal.py": "ce72e45fe7af5a9fca182d141204fe9029a56f3880aea5ee1dc8d244b9cd59c9",
+              "thermal_response/geometry.py": "e86f0b91ac5118bf5da655d42c12c9b34fdd8f9c12201a49b3e60651d0927e08",
+              "thermal_response/jets.py": "5e9a0aef9e2a33a53e3378b3e788f49238bc13fd38f6eec227c7eec8faa57de6",
+              "thermal_response/kernel.py": "84cae3a99125f9e985e663b261421ad2e6d984baa357a7e58fa30360d9935da0",
+              "thermal_response/legacy.py": "783f14bf39ba251f6057e5741e17dc247b32923cd952fec0e87bc7f767de1e3d",
+              "thermal_response/model.py": "3039edff30afcf167ad0b9e8a91cf5b38cfc4b34dff646676abf995079c22766",
+              "thermal_response/packet_kernel.py": "37773d9ea42ae5f98a8d7369c9eacd22a72bae03761575dd82adfaf87a472f8e",
+              "thermal_response/protocol.py": "5d19da5a14a43643ac3f8f422b7619ca692e465f9cd950c2fd4889d5df7f0f25",
+              "thermal_response/response.py": "f4b8521eed12ef6db828fd5ed8a8e2dddfe808b373f8f0b5d7a63eaefc1fbba3",
+              "thermal_response/source.py": "85aefc745b1a32b5475383af153d272eb8eaf7adba61342fb78e62df2292d390"
+            },
+            "python_flint": "0.8.0",
+            "version": "SHARED_MODULAR_V4"
+          },
+          "operation": "GEN3_COMPLEX_PRODUCT",
+          "output": {
+            "matrix": {
+              "column_basis": [
+                "F-H",
+                "R-H"
+              ],
+              "entries": [
+                [
+                  {
+                    "im": {
+                      "lower": "72550980912755928695081195294506017264314474767065415905972642479958070290007/1809251394333065553493296640760748560207343510400633813116524750123642650624",
+                      "upper": "72550980912755928695081195294506017264314474767065415905972642479958070290059/1809251394333065553493296640760748560207343510400633813116524750123642650624"
+                    },
+                    "re": {
+                      "lower": "-14735216651217045902654707847193862779369317735327731142009250124100266477067/28269553036454149273332760011886696253239742350009903329945699220681916416",
+                      "upper": "-29470433302434091805309415694387725558738635470655462284018500248200532952511/56539106072908298546665520023773392506479484700019806659891398441363832832"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "79607061350654884353705052193472936649123114457627887777127089005440276627441/1809251394333065553493296640760748560207343510400633813116524750123642650624",
+                      "upper": "79607061350654884353705052193472936649123114457627887777127089005440276627493/1809251394333065553493296640760748560207343510400633813116524750123642650624"
+                    },
+                    "re": {
+                      "lower": "-59395557180702108528572429826740179769827745868066235201057043073610837596117/113078212145816597093331040047546785012958969400039613319782796882727665664",
+                      "upper": "-59395557180702108528572429826740179769827745868066235201057043073610837592869/113078212145816597093331040047546785012958969400039613319782796882727665664"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "im": {
+                      "lower": "18137745228188982173770298823626504316078618691766353976493160619989517572385/452312848583266388373324160190187140051835877600158453279131187530910662656",
+                      "upper": "36275490456377964347540597647253008632157237383532707952986321239979035145507/904625697166532776746648320380374280103671755200316906558262375061821325312"
+                    },
+                    "re": {
+                      "lower": "35237721483827519547754595116394141528465510442104953035131457701678753001775/28269553036454149273332760011886696253239742350009903329945699220681916416",
+                      "upper": "8809430370956879886938648779098535382116377610526238258782864425419688252103/7067388259113537318333190002971674063309935587502475832486424805170479104"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "42469349526665068453327805365857383781242064932419877772577423939230443031265/1809251394333065553493296640760748560207343510400633813116524750123642650624",
+                      "upper": "21234674763332534226663902682928691890621032466209938886288711969615221516391/904625697166532776746648320380374280103671755200316906558262375061821325312"
+                    },
+                    "re": {
+                      "lower": "34451854494576821712953115870110732847148741829698441374996861987260389648997/56539106072908298546665520023773392506479484700019806659891398441363832832",
+                      "upper": "34451854494576821712953115870110732847148741829698441374996861987260389660069/56539106072908298546665520023773392506479484700019806659891398441363832832"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "im": {
+                      "lower": "27422173184186436148864610530530392533048881073068356477630576886541975971179/452312848583266388373324160190187140051835877600158453279131187530910662656",
+                      "upper": "27422173184186436148864610530530392533048881073068356477630576886541975971559/452312848583266388373324160190187140051835877600158453279131187530910662656"
+                    },
+                    "re": {
+                      "lower": "69358399564987568343859830178186194346647958586152193383013766551730550985841/113078212145816597093331040047546785012958969400039613319782796882727665664",
+                      "upper": "69358399564987568343859830178186194346647958586152193383013766551730551007987/113078212145816597093331040047546785012958969400039613319782796882727665664"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "39803530675327442176852526096736468324561557228813943888563544502720138313487/904625697166532776746648320380374280103671755200316906558262375061821325312",
+                      "upper": "19901765337663721088426263048368234162280778614406971944281772251360069157113/452312848583266388373324160190187140051835877600158453279131187530910662656"
+                    },
+                    "re": {
+                      "lower": "8781012209967259579566548876725739841344472927604031344219111764344077519959/7067388259113537318333190002971674063309935587502475832486424805170479104",
+                      "upper": "17562024419934519159133097753451479682688945855208062688438223528688155043231/14134776518227074636666380005943348126619871175004951664972849610340958208"
+                    }
+                  }
+                ]
+              ],
+              "precision_bits": 256,
+              "row_basis": [
+                "HELD",
+                "FORWARD",
+                "REVERSE"
+              ],
+              "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+              "structure": "GENERAL"
+            },
+            "status": "CERTIFIED_ENCLOSURE"
+          },
+          "precision_bits": 256,
+          "schema": "SLC_MODULAR_RESULT_V1",
+          "source_binding": {
+            "campaign": "20261112T043202Z",
+            "candidate_job": {
+              "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_DICTIONARY_V1/gen6/JOB.json",
+              "sha256": "dbea9b7a7662bb6fcdc85964342b1087d57f8cb7fd5bbfeeae6755984e54149c"
+            },
+            "kind": "GEN7_DUCK",
+            "law_namespace": "SAM_land",
+            "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+          }
+        },
+        "result_ref": "1ff47f264127a65632dfb7ff3d658c75d1a4860e7cea2d4f1aed47dc657fca0d"
+      }
+    },
+    "NDICT": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "recomputed": true,
+        "result": {
+          "implementation": {
+            "files": {
+              "__init__.py": "4084396c52a28e511b1d14388a022761b76e3d35a97333005cc6c71d24b3ecd0",
+              "complex_core.py": "6a4e8d0fb6d794cc2deec9c21a4b861a0cbcf7a204a749d85d64c1ada3d35260",
+              "data/CATALOG.json": "2a53cd91ea89ba5a7ce9ac67234f5859e49008367e5a2e8c76d95300272d30b9",
+              "data/SI29_CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+              "data/vol_ii_modular_emission1__CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+              "data/vol_ii_modular_emission1__INTERPRETATION.json": "656c9fb9ef804033698b3b10dbcc7b3acd467aa291cc6720d3f2fc06371be204",
+              "data/vol_ii_modular_emission1__RECEIVER.json": "9239df8b43e16daea0faffdfaa8f6a098268b03874e5ea894da74872df19fd0c",
+              "data/vol_ii_modular_flow1__AL27_EXACT.json": "1a4cd00afbad0b0c8b211c24f149ed55c43e608eaba73dc4e5aea2a8afc14742",
+              "data/vol_ii_modular_flow1__Al27.json": "8d7079ad1ce63842127335f7516f1955f738faa81c3bc8df25232f08f6de6a00",
+              "data/vol_ii_modular_flow1__Mg25.json": "45f0be2a6040612ba4f9e1b4efe803918fbf36cc2dac63c5c9ec2f525a58f3d8",
+              "data/vol_ii_modular_flow1__Mg26.json": "f96cb7f6e0dab7402345ae08dcdc2649c9903a606e0db3e3a274cb4fa9c877bc",
+              "data/vol_ii_modular_flow1__STATUS.json": "2682ea93316dfe1092d32c86b79da0f7b3be47a2b14bf6770cb0b8de8abc8ae7",
+              "data/vol_ii_modular_flow1__Si28.json": "689340466b0e55d07db928df49b17a822b3e29acedefb55f644750f98e5bbcf0",
+              "data/vol_ii_modular_flow1__Si29.json": "08a853f372370eb302edcc715f3bbde7647d1949f547ef66e84ff1295e02804f",
+              "data/vol_ii_modular_flow1__Si30.json": "32b44bf8967a7680eeac21867a29f94b258eaa8b2a95dd6690c6682ece384aee",
+              "data/vol_ii_modular_geometry1__FINAL_STATUS.json": "b258a0c802b94d071375c7309a724a2d0d82e43836ad7cd68042748ac1f3af4a",
+              "data/vol_ii_modular_geometry1__GEOMETRY.json": "680e5991ae68b029448a54780e7d83c3d5baea90b3d156dab7301c772d730702",
+              "data/vol_ii_modular_geometry1__INTRINSIC.json": "d91a1465bdec2f8a9dc80715041d2ff8359cf98f540e21e95e1eb27fd349c6c8",
+              "data/vol_ii_modular_geometry1__MODULAR.json": "0bfaf7cbedb55cd61b2552d64217cae61775d35ccbf653955010eaaf780ea7c1",
+              "data/vol_ii_modular_geometry1__SECTORS.json": "1ab3f62a8b608687d305e2f15b320975e1e455e57f85b6b96b0ff44bedb6c7e2",
+              "data/vol_ii_modular_geometry1__STATUS.json": "f5bbf791c75e59700c137859f9bbe795636fae2a67564cb270f23bb0df7cc145",
+              "data/vol_ii_modular_radius1__COMPATIBILITY.json": "92c4d85cb52f3a4adfd9213a9aa39f419376b6086765c360a6800e7ceb3d85fa",
+              "data/vol_ii_modular_radius1__FIELD.json": "817bdee4e172f42777ef69026c5497d220779df3cfa95af4b7aca806a71bc84a",
+              "data/vol_ii_modular_radius1__FINAL_STATUS.json": "6c2581d18efe3646adf302569f10d4a69e363e0bdb034f7c33e2d168f759ac92",
+              "data/vol_ii_modular_radius1__FIXED_AREA.json": "0e7e1c80163f663e07a2e2577e1b98af5b6e5af865a3f197c944a4eebc32d133",
+              "data/vol_ii_modular_radius1__FIXED_SOURCE.json": "bbe984d277c0d9e74bccb645adc7b48ba261d47c189e8c547b02ee8d660d6a6b",
+              "data/vol_ii_modular_radius1__MODULAR.json": "0e2e04050cfe702ca2cc7d5f76ec7cd254637f7a7e0428c94eab2847ac34d950",
+              "data/vol_ii_modular_radius1__STATUS.json": "2e79c31639b893a166d175210dab9842ba7ed3fbc818ea2966114a1102529221",
+              "data/vol_ii_modular_receiver1__FOOTPRINT.json": "dcf64c55b21dd1dc0a0fc81575612624cdd3382b20c42b47f72dfac1e5dbef85",
+              "data/vol_ii_modular_receiver1__GREEN.json": "7c3da629710b7189e3350fe9970c77759588fc31cc18e327e1ee07b2e1a0473f",
+              "data/vol_ii_modular_receiver1__MODULAR.json": "fdbc5c3fee1ee9b720692144b66e88603fdb66d3f809c357c48322997c207c2b",
+              "data/vol_ii_modular_receiver1__NETWORK_3.json": "609cb4305825986605134834b3514c310adc6f61da0932fe152e3c85611f4c53",
+              "data/vol_ii_modular_receiver1__NETWORK_5.json": "4a3346dcd9227ba960c82e3f9ac21f21a1f1172a52245516df6aef6859ea57f4",
+              "data/vol_ii_modular_receiver1__SPECIES.json": "4904825dabb9f90cd29fd39ea2a0f7daeae2b43cd76649d515ae07270fa0260a",
+              "data/vol_ii_modular_receiver1__STATUS.json": "2254bcf106cf9ede4be4a466346179b17c55b42ebfe66330cac677d8014e5b18",
+              "data/vol_ii_modular_receiver1__TRANSPORT.json": "6771c059dbd24e06790af465add71f3650d8c127dc40e0a9cba927472520bfb3",
+              "data/vol_ii_modular_si29_1__CERTIFICATE.json": "e64485314e70741bd0c3440c1fe7c70a68e3a745e72271722e5f6e23142e73a8",
+              "data/vol_ii_modular_si29_1__STATUS.json": "7366a65087a37fa4f0962de80989611e39a501b9f3e38bc4e6ef9db5186672b0",
+              "data/vol_ii_modular_si29_1__SURVEY.json": "2d57625fb0b37631480d08a31e9723ea097d442c00aadc5815b5ea84341b7f51",
+              "dynamics.py": "b25e701e110d63a56cd5f88ec6464d1db4683f38a670ff938e11f97c39ba7d77",
+              "full_source/SOURCE_BINDINGS.json": "063a9cb8afc01f812a311bc2024b391e4decc406948924a95e2e46b19a20a1d4",
+              "full_source/__init__.py": "6b19dd7585530ff7dbc717c8573329599b75a92dd197f207820eb7be95123749",
+              "full_source/clock.py": "4d5f305ee7a5638ee314a289e4ec468f9c022e40b21dc0028c0e211a532adecc",
+              "full_source/common.py": "f68ad7717d9f349dd482b38f1e7461f1c44b777bb3ad1e7d0bb0ec2f41f132a3",
+              "full_source/gibbs.py": "cf81302494797edadf863a6db7163c308a2d8ec4458c3933851cb0e9f6267353",
+              "full_source/gibbs_core.py": "c2799a4a3b637c122b7d15a730309cf45b22528b919652b90a7e3981d11bce3d",
+              "full_source/green.py": "0a52fc32bbe88727d37beb584828698dfef8bcbb8680eea7cc7a243fc7bf490a",
+              "full_source/history.py": "1db9286c503a215fed8ac04e87fbdb9a50a2e915a82af3f1f030a2181b6309d6",
+              "full_source/jets_core.py": "c8b3be41afb69ec7837da6d40b5c4353a1363a728633dee7193f9c79d8cf7a26",
+              "full_source/kinetic.py": "467c630bfdecdfda3baaa70e7c432c526926e03ba1b1f6c28ef0af620d361473",
+              "full_source/orbit.py": "69ffdfe0a1c761787c46fe5c6344686a4a620f11c9ca50be0f4d159f7f8339c2",
+              "full_source/projection.py": "93aa8a9b17d7f37f82a846b903c0b2d0673208dd80517eecefb5c405551a2804",
+              "full_source/response.py": "3582b612d9649d4a1c319fcc1ca1b2e6f97813ed464ed917b96af49d417fe02a",
+              "full_source/spherical.py": "5c3924e6beeaf25d010ddd0197d994dde955c618f9b18df1aea35f5db38acc5b",
+              "full_source/wave.py": "0fd87c863e8e35806191fb890a339e67e0db04c44b84c5a11cec1eadec18cd5c",
+              "full_source/wave_core.py": "f0c190acbff640e962eac14cdeec0ee74db7d5c52f66ce46c8d5bc35bb08604e",
+              "hybrid.py": "fd2bd2dd40934be700c09df8ae3a7a0c0a049e3f17dbb5426952815e24d17616",
+              "operations.py": "06042bc028fb62fd8aaec985cd0b2cfb4ca476b9a60d5e4ed2400fbfe7e1150b",
+              "receiver.py": "23a24ef3f12444c02801be66bd5d77d4c6bb44e4c0b22df319899106c5b89ac2",
+              "research_methods.py": "baadef7f93850b4d99e88109932e6dcb293d47d2b682ab72d3e7a67ab0c886a3",
+              "thermal_response/N005000_packet_+1_K_MAJOR.json": "6c62b15b8ef97569b22afe159181548f2d06c457d8a6b2261a2764804dc9c1d8",
+              "thermal_response/N005000_signed_packet_+1_K_MAJOR.json": "659e0515ad89a62597a170b3846b5191de75d41c8d279c70ec20fb84cdfb978d",
+              "thermal_response/N005000_signed_packet_chain_+1_K_MAJOR.json": "bdd6073bad42a81ea5d68facd6f4adf08ac9fb89f24169ac52eaae1c01419e74",
+              "thermal_response/TAIL_SOURCE.json": "8f9137a3b87dac43d8896584550ea75c4f252659454c7eb26b71c1fafe102d66",
+              "thermal_response/__init__.py": "0c38047060847eaec98c8de98f50529cafb94f97fb9657866d4b691e02344a68",
+              "thermal_response/cancel_geometry.py": "cea67073a00e9ab72d8748daeaa4a991c1209194d8f944615eb8345535d7e965",
+              "thermal_response/cancel_math.py": "b69a739423a983cd93aace7aca3a0a25f6dbb1c436ffd65127299115531bdaa7",
+              "thermal_response/complex_core.py": "a20bc4550662f0cf18e1aa3d394c2c71de801099b03fb4139e99236743250fc6",
+              "thermal_response/endpoint.py": "17e41cf1f9460c33a2c36758e601f1d4da113fdd18a7de8d12ddf8a922c73e48",
+              "thermal_response/finite.py": "ae1451a9db30f74be3b23f89acf5484c0cfdb74ebaa1fbbdae86f2b4c7cf88b0",
+              "thermal_response/fixed_thermal.py": "ce72e45fe7af5a9fca182d141204fe9029a56f3880aea5ee1dc8d244b9cd59c9",
+              "thermal_response/geometry.py": "e86f0b91ac5118bf5da655d42c12c9b34fdd8f9c12201a49b3e60651d0927e08",
+              "thermal_response/jets.py": "5e9a0aef9e2a33a53e3378b3e788f49238bc13fd38f6eec227c7eec8faa57de6",
+              "thermal_response/kernel.py": "84cae3a99125f9e985e663b261421ad2e6d984baa357a7e58fa30360d9935da0",
+              "thermal_response/legacy.py": "783f14bf39ba251f6057e5741e17dc247b32923cd952fec0e87bc7f767de1e3d",
+              "thermal_response/model.py": "3039edff30afcf167ad0b9e8a91cf5b38cfc4b34dff646676abf995079c22766",
+              "thermal_response/packet_kernel.py": "37773d9ea42ae5f98a8d7369c9eacd22a72bae03761575dd82adfaf87a472f8e",
+              "thermal_response/protocol.py": "5d19da5a14a43643ac3f8f422b7619ca692e465f9cd950c2fd4889d5df7f0f25",
+              "thermal_response/response.py": "f4b8521eed12ef6db828fd5ed8a8e2dddfe808b373f8f0b5d7a63eaefc1fbba3",
+              "thermal_response/source.py": "85aefc745b1a32b5475383af153d272eb8eaf7adba61342fb78e62df2292d390"
+            },
+            "python_flint": "0.8.0",
+            "version": "SHARED_MODULAR_V4"
+          },
+          "operation": "GEN3_COMPLEX_PRODUCT",
+          "output": {
+            "matrix": {
+              "column_basis": [
+                "F-H",
+                "R-H"
+              ],
+              "entries": [
+                [
+                  {
+                    "im": {
+                      "lower": "-272105475/948568795032094272909893509191171341133987714380927500611236528192824358010355712",
+                      "upper": "527958019/948568795032094272909893509191171341133987714380927500611236528192824358010355712"
+                    },
+                    "re": {
+                      "lower": "99945876270089130900818605927176008615669656354865368354281415651558038956059/56539106072908298546665520023773392506479484700019806659891398441363832832",
+                      "upper": "99945876270089130900818605927176008615669656354865368354281415651558038970959/56539106072908298546665520023773392506479484700019806659891398441363832832"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "-74275423647979631800754493655231105735762099050416020009099330132419667192457/3618502788666131106986593281521497120414687020801267626233049500247285301248",
+                      "upper": "-74275423647979631800754493655231105735762099050416020009099330132419667189317/3618502788666131106986593281521497120414687020801267626233049500247285301248"
+                    },
+                    "re": {
+                      "lower": "64149633084927875977239330783480822732062614763731558975525383524065808445429/56539106072908298546665520023773392506479484700019806659891398441363832832",
+                      "upper": "64149633084927875977239330783480822732062614763731558975525383524065808458129/56539106072908298546665520023773392506479484700019806659891398441363832832"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "im": {
+                      "lower": "74275423647979631800754493655231105735762099050416020009099330132419667189313/3618502788666131106986593281521497120414687020801267626233049500247285301248",
+                      "upper": "74275423647979631800754493655231105735762099050416020009099330132419667192459/3618502788666131106986593281521497120414687020801267626233049500247285301248"
+                    },
+                    "re": {
+                      "lower": "64149633084927875977239330783480822732062614763731558975525383524065808445429/56539106072908298546665520023773392506479484700019806659891398441363832832",
+                      "upper": "64149633084927875977239330783480822732062614763731558975525383524065808458129/56539106072908298546665520023773392506479484700019806659891398441363832832"
+                    }
+                  },
+                  {
+                    "im": {
+                      "lower": "-272105475/948568795032094272909893509191171341133987714380927500611236528192824358010355712",
+                      "upper": "530055171/948568795032094272909893509191171341133987714380927500611236528192824358010355712"
+                    },
+                    "re": {
+                      "lower": "12493234533761141362602325740897001076958707044358171044285176956444754869513/7067388259113537318333190002971674063309935587502475832486424805170479104",
+                      "upper": "12493234533761141362602325740897001076958707044358171044285176956444754871373/7067388259113537318333190002971674063309935587502475832486424805170479104"
+                    }
+                  }
+                ]
+              ],
+              "precision_bits": 256,
+              "row_basis": [
+                "F-H",
+                "R-H"
+              ],
+              "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+              "structure": "GENERAL"
+            },
+            "status": "CERTIFIED_ENCLOSURE"
+          },
+          "precision_bits": 256,
+          "schema": "SLC_MODULAR_RESULT_V1",
+          "source_binding": {
+            "campaign": "20261112T043202Z",
+            "candidate_job": {
+              "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_DICTIONARY_V1/gen6/JOB.json",
+              "sha256": "dbea9b7a7662bb6fcdc85964342b1087d57f8cb7fd5bbfeeae6755984e54149c"
+            },
+            "kind": "GEN7_DUCK",
+            "law_namespace": "SAM_land",
+            "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+          }
+        },
+        "result_ref": "33ce603b3208e89d09464c2706bebe2ddf1f8048790a853c3d3ca6505219a05d"
+      }
+    },
+    "rank": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "recomputed": true,
+        "result": {
+          "implementation": {
+            "files": {
+              "__init__.py": "4084396c52a28e511b1d14388a022761b76e3d35a97333005cc6c71d24b3ecd0",
+              "complex_core.py": "6a4e8d0fb6d794cc2deec9c21a4b861a0cbcf7a204a749d85d64c1ada3d35260",
+              "data/CATALOG.json": "2a53cd91ea89ba5a7ce9ac67234f5859e49008367e5a2e8c76d95300272d30b9",
+              "data/SI29_CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+              "data/vol_ii_modular_emission1__CHANNELS.json": "57f7690353a1f6bc66719cafb96b61a5048523383e12bc7ccc75d9b094cde64e",
+              "data/vol_ii_modular_emission1__INTERPRETATION.json": "656c9fb9ef804033698b3b10dbcc7b3acd467aa291cc6720d3f2fc06371be204",
+              "data/vol_ii_modular_emission1__RECEIVER.json": "9239df8b43e16daea0faffdfaa8f6a098268b03874e5ea894da74872df19fd0c",
+              "data/vol_ii_modular_flow1__AL27_EXACT.json": "1a4cd00afbad0b0c8b211c24f149ed55c43e608eaba73dc4e5aea2a8afc14742",
+              "data/vol_ii_modular_flow1__Al27.json": "8d7079ad1ce63842127335f7516f1955f738faa81c3bc8df25232f08f6de6a00",
+              "data/vol_ii_modular_flow1__Mg25.json": "45f0be2a6040612ba4f9e1b4efe803918fbf36cc2dac63c5c9ec2f525a58f3d8",
+              "data/vol_ii_modular_flow1__Mg26.json": "f96cb7f6e0dab7402345ae08dcdc2649c9903a606e0db3e3a274cb4fa9c877bc",
+              "data/vol_ii_modular_flow1__STATUS.json": "2682ea93316dfe1092d32c86b79da0f7b3be47a2b14bf6770cb0b8de8abc8ae7",
+              "data/vol_ii_modular_flow1__Si28.json": "689340466b0e55d07db928df49b17a822b3e29acedefb55f644750f98e5bbcf0",
+              "data/vol_ii_modular_flow1__Si29.json": "08a853f372370eb302edcc715f3bbde7647d1949f547ef66e84ff1295e02804f",
+              "data/vol_ii_modular_flow1__Si30.json": "32b44bf8967a7680eeac21867a29f94b258eaa8b2a95dd6690c6682ece384aee",
+              "data/vol_ii_modular_geometry1__FINAL_STATUS.json": "b258a0c802b94d071375c7309a724a2d0d82e43836ad7cd68042748ac1f3af4a",
+              "data/vol_ii_modular_geometry1__GEOMETRY.json": "680e5991ae68b029448a54780e7d83c3d5baea90b3d156dab7301c772d730702",
+              "data/vol_ii_modular_geometry1__INTRINSIC.json": "d91a1465bdec2f8a9dc80715041d2ff8359cf98f540e21e95e1eb27fd349c6c8",
+              "data/vol_ii_modular_geometry1__MODULAR.json": "0bfaf7cbedb55cd61b2552d64217cae61775d35ccbf653955010eaaf780ea7c1",
+              "data/vol_ii_modular_geometry1__SECTORS.json": "1ab3f62a8b608687d305e2f15b320975e1e455e57f85b6b96b0ff44bedb6c7e2",
+              "data/vol_ii_modular_geometry1__STATUS.json": "f5bbf791c75e59700c137859f9bbe795636fae2a67564cb270f23bb0df7cc145",
+              "data/vol_ii_modular_radius1__COMPATIBILITY.json": "92c4d85cb52f3a4adfd9213a9aa39f419376b6086765c360a6800e7ceb3d85fa",
+              "data/vol_ii_modular_radius1__FIELD.json": "817bdee4e172f42777ef69026c5497d220779df3cfa95af4b7aca806a71bc84a",
+              "data/vol_ii_modular_radius1__FINAL_STATUS.json": "6c2581d18efe3646adf302569f10d4a69e363e0bdb034f7c33e2d168f759ac92",
+              "data/vol_ii_modular_radius1__FIXED_AREA.json": "0e7e1c80163f663e07a2e2577e1b98af5b6e5af865a3f197c944a4eebc32d133",
+              "data/vol_ii_modular_radius1__FIXED_SOURCE.json": "bbe984d277c0d9e74bccb645adc7b48ba261d47c189e8c547b02ee8d660d6a6b",
+              "data/vol_ii_modular_radius1__MODULAR.json": "0e2e04050cfe702ca2cc7d5f76ec7cd254637f7a7e0428c94eab2847ac34d950",
+              "data/vol_ii_modular_radius1__STATUS.json": "2e79c31639b893a166d175210dab9842ba7ed3fbc818ea2966114a1102529221",
+              "data/vol_ii_modular_receiver1__FOOTPRINT.json": "dcf64c55b21dd1dc0a0fc81575612624cdd3382b20c42b47f72dfac1e5dbef85",
+              "data/vol_ii_modular_receiver1__GREEN.json": "7c3da629710b7189e3350fe9970c77759588fc31cc18e327e1ee07b2e1a0473f",
+              "data/vol_ii_modular_receiver1__MODULAR.json": "fdbc5c3fee1ee9b720692144b66e88603fdb66d3f809c357c48322997c207c2b",
+              "data/vol_ii_modular_receiver1__NETWORK_3.json": "609cb4305825986605134834b3514c310adc6f61da0932fe152e3c85611f4c53",
+              "data/vol_ii_modular_receiver1__NETWORK_5.json": "4a3346dcd9227ba960c82e3f9ac21f21a1f1172a52245516df6aef6859ea57f4",
+              "data/vol_ii_modular_receiver1__SPECIES.json": "4904825dabb9f90cd29fd39ea2a0f7daeae2b43cd76649d515ae07270fa0260a",
+              "data/vol_ii_modular_receiver1__STATUS.json": "2254bcf106cf9ede4be4a466346179b17c55b42ebfe66330cac677d8014e5b18",
+              "data/vol_ii_modular_receiver1__TRANSPORT.json": "6771c059dbd24e06790af465add71f3650d8c127dc40e0a9cba927472520bfb3",
+              "data/vol_ii_modular_si29_1__CERTIFICATE.json": "e64485314e70741bd0c3440c1fe7c70a68e3a745e72271722e5f6e23142e73a8",
+              "data/vol_ii_modular_si29_1__STATUS.json": "7366a65087a37fa4f0962de80989611e39a501b9f3e38bc4e6ef9db5186672b0",
+              "data/vol_ii_modular_si29_1__SURVEY.json": "2d57625fb0b37631480d08a31e9723ea097d442c00aadc5815b5ea84341b7f51",
+              "dynamics.py": "b25e701e110d63a56cd5f88ec6464d1db4683f38a670ff938e11f97c39ba7d77",
+              "full_source/SOURCE_BINDINGS.json": "063a9cb8afc01f812a311bc2024b391e4decc406948924a95e2e46b19a20a1d4",
+              "full_source/__init__.py": "6b19dd7585530ff7dbc717c8573329599b75a92dd197f207820eb7be95123749",
+              "full_source/clock.py": "4d5f305ee7a5638ee314a289e4ec468f9c022e40b21dc0028c0e211a532adecc",
+              "full_source/common.py": "f68ad7717d9f349dd482b38f1e7461f1c44b777bb3ad1e7d0bb0ec2f41f132a3",
+              "full_source/gibbs.py": "cf81302494797edadf863a6db7163c308a2d8ec4458c3933851cb0e9f6267353",
+              "full_source/gibbs_core.py": "c2799a4a3b637c122b7d15a730309cf45b22528b919652b90a7e3981d11bce3d",
+              "full_source/green.py": "0a52fc32bbe88727d37beb584828698dfef8bcbb8680eea7cc7a243fc7bf490a",
+              "full_source/history.py": "1db9286c503a215fed8ac04e87fbdb9a50a2e915a82af3f1f030a2181b6309d6",
+              "full_source/jets_core.py": "c8b3be41afb69ec7837da6d40b5c4353a1363a728633dee7193f9c79d8cf7a26",
+              "full_source/kinetic.py": "467c630bfdecdfda3baaa70e7c432c526926e03ba1b1f6c28ef0af620d361473",
+              "full_source/orbit.py": "69ffdfe0a1c761787c46fe5c6344686a4a620f11c9ca50be0f4d159f7f8339c2",
+              "full_source/projection.py": "93aa8a9b17d7f37f82a846b903c0b2d0673208dd80517eecefb5c405551a2804",
+              "full_source/response.py": "3582b612d9649d4a1c319fcc1ca1b2e6f97813ed464ed917b96af49d417fe02a",
+              "full_source/spherical.py": "5c3924e6beeaf25d010ddd0197d994dde955c618f9b18df1aea35f5db38acc5b",
+              "full_source/wave.py": "0fd87c863e8e35806191fb890a339e67e0db04c44b84c5a11cec1eadec18cd5c",
+              "full_source/wave_core.py": "f0c190acbff640e962eac14cdeec0ee74db7d5c52f66ce46c8d5bc35bb08604e",
+              "hybrid.py": "fd2bd2dd40934be700c09df8ae3a7a0c0a049e3f17dbb5426952815e24d17616",
+              "operations.py": "06042bc028fb62fd8aaec985cd0b2cfb4ca476b9a60d5e4ed2400fbfe7e1150b",
+              "receiver.py": "23a24ef3f12444c02801be66bd5d77d4c6bb44e4c0b22df319899106c5b89ac2",
+              "research_methods.py": "baadef7f93850b4d99e88109932e6dcb293d47d2b682ab72d3e7a67ab0c886a3",
+              "thermal_response/N005000_packet_+1_K_MAJOR.json": "6c62b15b8ef97569b22afe159181548f2d06c457d8a6b2261a2764804dc9c1d8",
+              "thermal_response/N005000_signed_packet_+1_K_MAJOR.json": "659e0515ad89a62597a170b3846b5191de75d41c8d279c70ec20fb84cdfb978d",
+              "thermal_response/N005000_signed_packet_chain_+1_K_MAJOR.json": "bdd6073bad42a81ea5d68facd6f4adf08ac9fb89f24169ac52eaae1c01419e74",
+              "thermal_response/TAIL_SOURCE.json": "8f9137a3b87dac43d8896584550ea75c4f252659454c7eb26b71c1fafe102d66",
+              "thermal_response/__init__.py": "0c38047060847eaec98c8de98f50529cafb94f97fb9657866d4b691e02344a68",
+              "thermal_response/cancel_geometry.py": "cea67073a00e9ab72d8748daeaa4a991c1209194d8f944615eb8345535d7e965",
+              "thermal_response/cancel_math.py": "b69a739423a983cd93aace7aca3a0a25f6dbb1c436ffd65127299115531bdaa7",
+              "thermal_response/complex_core.py": "a20bc4550662f0cf18e1aa3d394c2c71de801099b03fb4139e99236743250fc6",
+              "thermal_response/endpoint.py": "17e41cf1f9460c33a2c36758e601f1d4da113fdd18a7de8d12ddf8a922c73e48",
+              "thermal_response/finite.py": "ae1451a9db30f74be3b23f89acf5484c0cfdb74ebaa1fbbdae86f2b4c7cf88b0",
+              "thermal_response/fixed_thermal.py": "ce72e45fe7af5a9fca182d141204fe9029a56f3880aea5ee1dc8d244b9cd59c9",
+              "thermal_response/geometry.py": "e86f0b91ac5118bf5da655d42c12c9b34fdd8f9c12201a49b3e60651d0927e08",
+              "thermal_response/jets.py": "5e9a0aef9e2a33a53e3378b3e788f49238bc13fd38f6eec227c7eec8faa57de6",
+              "thermal_response/kernel.py": "84cae3a99125f9e985e663b261421ad2e6d984baa357a7e58fa30360d9935da0",
+              "thermal_response/legacy.py": "783f14bf39ba251f6057e5741e17dc247b32923cd952fec0e87bc7f767de1e3d",
+              "thermal_response/model.py": "3039edff30afcf167ad0b9e8a91cf5b38cfc4b34dff646676abf995079c22766",
+              "thermal_response/packet_kernel.py": "37773d9ea42ae5f98a8d7369c9eacd22a72bae03761575dd82adfaf87a472f8e",
+              "thermal_response/protocol.py": "5d19da5a14a43643ac3f8f422b7619ca692e465f9cd950c2fd4889d5df7f0f25",
+              "thermal_response/response.py": "f4b8521eed12ef6db828fd5ed8a8e2dddfe808b373f8f0b5d7a63eaefc1fbba3",
+              "thermal_response/source.py": "85aefc745b1a32b5475383af153d272eb8eaf7adba61342fb78e62df2292d390"
+            },
+            "python_flint": "0.8.0",
+            "version": "SHARED_MODULAR_V4"
+          },
+          "operation": "GEN3_COMPLEX_RANK",
+          "output": {
+            "determinant": [
+              [
+                {
+                  "im": {
+                    "lower": "-41270253980427812257864171116651072124755374746262941422953445343545357547945/6243497100631984462763194459586332611497196285329942301718313919250743477639531240240612206126983942319653862242813245790895951358576570612580352",
+                    "upper": "94504754589001654320266852138016007685312547080725564553203193509606699469999/12486994201263968925526388919172665222994392570659884603436627838501486955279062480481224412253967884639307724485626491581791902717153141225160704"
+                  },
+                  "re": {
+                    "lower": "101434491988748440357813480732900212829158466964193819201166398480878708537493/55213970774324510299478046898216203619608871777363092441300193790394368",
+                    "upper": "101434491988748440357813480732900212829158466964193819201166398480878708617055/55213970774324510299478046898216203619608871777363092441300193790394368"
+                  }
+                }
+              ]
+            ],
+            "minor_columns": [
+              0,
+              1
+            ],
+            "minor_rows": [
+              0,
+              1
+            ],
+            "rank_lower": 2,
+            "rank_upper": 2,
+            "status": "CERTIFIED_FULL_RANK"
+          },
+          "precision_bits": 256,
+          "schema": "SLC_MODULAR_RESULT_V1",
+          "source_binding": {
+            "campaign": "20261112T043202Z",
+            "candidate_job": {
+              "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_DICTIONARY_V1/gen6/JOB.json",
+              "sha256": "dbea9b7a7662bb6fcdc85964342b1087d57f8cb7fd5bbfeeae6755984e54149c"
+            },
+            "kind": "GEN7_DUCK",
+            "law_namespace": "SAM_land",
+            "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+          }
+        },
+        "result_ref": "3ddf847c16140e27b5e7531f5317dc3f772c3c1e40f534838ce4840beddf3065"
+      }
+    }
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND1",
+  "source_binding": {
+    "campaign": "20261112T043202Z",
+    "kind": "GEN7_DUCK",
+    "law_namespace": "SAM_land",
+    "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  },
+  "started_utc": "2026-11-12T04:47:32.846711+00:00",
+  "state": null,
+  "state_root": null,
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "gen6_job",
+  "worker_cpu": 5,
+  "worker_pid": 3816048
+}

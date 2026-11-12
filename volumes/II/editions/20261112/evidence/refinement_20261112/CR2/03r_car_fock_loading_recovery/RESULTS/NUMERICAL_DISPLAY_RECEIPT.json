@@ -1,0 +1,114 @@
+{
+  "authoritative_source": "Exact fresh lead replay files under RESULTS/LEAD_PUBLIC_REPLAY.",
+  "li6_bounds": {
+    "benchmark": {
+      "B_uppers": [
+        "146500174/46875",
+        "336000441/125000",
+        "140840231/75000"
+      ],
+      "V_lowers": [
+        "13998009/250000",
+        "12000009/250000",
+        "11980009/250000"
+      ],
+      "alpha": [
+        "1/56",
+        "1/56",
+        "1/40"
+      ],
+      "energy_upper": "-978420006414496979151894827893/4005495116249318859860490750",
+      "proper_margin": "2139952734887423053027468631/1335165038749772953286830250",
+      "sector_gains": [
+        "2359328240/2393994027",
+        "96000018/113714287",
+        "1466799850/1235940027"
+      ],
+      "weighted_gain": "2271376874625728616285865796/2162967362774632184324665005"
+    },
+    "old_energy": "-4925191/20250",
+    "old_margin": "11191/20250",
+    "sector_potentials": [
+      "928/105",
+      "42/5",
+      "22/3"
+    ],
+    "static_family": {
+      "B_uppers": [
+        "146500174/46875",
+        "336000441/125000",
+        "148400231/75000"
+      ],
+      "V_lowers": [
+        "12000009/250000",
+        "12000009/250000",
+        "10000009/250000"
+      ],
+      "alpha": [
+        "1/56",
+        "1/56",
+        "1/40"
+      ],
+      "energy_upper": "-59718890832993356956973/244770008140500060750",
+      "proper_margin": "321368857565342214973/244770008140500060750",
+      "sector_gains": [
+        "1688000240/2388000027",
+        "96000018/113714287",
+        "915999850/1230000027"
+      ],
+      "weighted_gain": "100493285455942497956/132175804395870032805"
+    },
+    "weights": [
+      "169/675",
+      "34/135",
+      "112/225"
+    ]
+  },
+  "n12_summary": {
+    "all_proper_numerator": 2340,
+    "classes": 141,
+    "complete_margin": "1491/125",
+    "conditional_loading_allowance": "25411/12500",
+    "controls_detected": [
+      "NB01",
+      "NB02",
+      "NB03",
+      "NB04"
+    ],
+    "flavor_subvectors": 225,
+    "flow_comparisons": 2165,
+    "occupancies": 390625,
+    "proper_splits": 223,
+    "status": "PASS",
+    "success_probability": "28561/455625",
+    "target_min_numerator": 2592
+  },
+  "continuum_loading_summary": {
+    "analytic_proofs": "DERIVATION.md; finite replay does not replace all-measure/domain arguments",
+    "claims_executed": [
+      "C01",
+      "C02",
+      "C03",
+      "C04"
+    ],
+    "controls_executed": [
+      "LC01",
+      "LC02",
+      "LC03",
+      "LC04"
+    ],
+    "directed_full_spectrum_checks": 11,
+    "earlier_code_executed": false,
+    "engine_use": "none",
+    "limits": "No physical controller, nuclear clock, preparation/reset cost or normal static equilibrium supplied.",
+    "original_schedule_cases_compared": 5,
+    "resources": "one process; one-thread numerical environment; only small rational systems",
+    "source_files_checked": 24,
+    "status": "PASS"
+  },
+  "n12_margin_decimal": "11.928",
+  "n12_success_probability_decimal": "0.062685322359396433470507544581618655692729766803841",
+  "n12_loading_allowance_decimal": "2.03288",
+  "declared_replay_files": 24,
+  "file_scope": "Includes deterministic execution/version metadata and output manifests; this is not a count of separate scientific results."
+}

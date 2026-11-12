@@ -1,0 +1,72 @@
+{
+ "kind": "native",
+ "key": "TWO_GEO_A05_REPAIR_V1",
+ "operation": "GEN3_SOURCE_OPERATOR_WORD",
+ "purpose": "Exact-w continuation repairs the known A05 flat-weight comparison counterexample at C1,A1/100,nu1/2,N6; expected1093/10000-7sqrt3/225>0",
+ "payload": {
+  "name": "TWO_GEO_A05_REPAIR_V1",
+  "context": {
+   "basis": [
+    "upgraded_minus_original"
+   ],
+   "field": {
+    "radicand": 3
+   },
+   "units": {
+    "energy": "source units",
+    "geometry": "declared constant lapse or clamped rigid rotor"
+   },
+   "history": {
+    "campaign": "GEN7 lane TWO",
+    "precommit_sha256": "273fb40fff5700d9f262b60d289c5c8d5586ae0f21caeafb3f0b1de169cecd85",
+    "locked_inputs": "H003004-H003008 not replayed"
+   },
+   "spectral_coordinate": "Complete geometric weight at nu3/4,N6 in Q(sqrt137), expected(3217-27sqrt137)/1024"
+  },
+  "data": {
+   "operators": {
+    "NEW": [
+     [
+      {
+       "a": "-122503/22500",
+       "b": "-7/225"
+      }
+     ]
+    ],
+    "OLD": [
+     [
+      {
+       "a": "-499849/90000",
+       "b": "0"
+      }
+     ]
+    ]
+   },
+   "program": [
+    {
+     "name": "delta",
+     "op": "subtract",
+     "inputs": [
+      "NEW",
+      "OLD"
+     ]
+    }
+   ],
+   "output": "delta"
+  },
+  "source_binding": {
+   "kind": "GEN7_DUCK",
+   "campaign": "20261112T043202Z",
+   "law_namespace": "SAM_land",
+   "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  }
+ },
+ "controller": "G6_02",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ }
+}

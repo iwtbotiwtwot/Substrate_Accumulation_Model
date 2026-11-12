@@ -1,0 +1,22 @@
+{
+  "sealed_utc": "2026-11-12T00:41:46.457956+00:00",
+  "form": "engineering_replay",
+  "script": "peers/LOADING/replay.py",
+  "script_sha256": "9cd94049ba1bda526069212001725ac49a5997769d1861e0f5777724d54f54b0",
+  "guard_sha256": "c96cf2a8b88cbc7c8dc20cd905c7466948e7339f60f345c394c6e024b525617c",
+  "case": "/tmp/volii_car_public_20261112T004141Z",
+  "argv": [
+    "--output-dir",
+    "/tmp/volii_car_public_20261112T004141Z/lead_output_LOADING"
+  ],
+  "expected_output_sha256": {
+    "CONTROLS.json": "1872924dbb0c848533b9e8b731b9c0d89f244ed8877ba8afbdb9e0d777264b94",
+    "DIRECTED_SPECTRUM.json": "37afcd00e6ad1a275aa968a43fad3af153d28d4b4a7ad727cfb2e718824d2a51",
+    "RATES_AND_SMOOTHING.json": "249fe3b50bf2b03b82883f9ea4c756dbe24284515a232c5b89b753fa3ab9a6cf",
+    "SCHEDULES.json": "acab520ad90e4120b7b9362a2ee6ddbbb64569b02be9c62f94777acd692658a6",
+    "SOURCE_READBACK.json": "e94fe899510a8ba99a9b14cbadd3599977c5605ce6e19e4cc0ffa720a16ede47",
+    "SUMMARY.json": "f5294fd771464489b096827a06a0f2831b64cbe6ccaa1bafc257c92b23813a78",
+    "OUTPUT_MANIFEST.json": "12777f329f471e201e4aca1951121ebf7a15324a4a0faeeb25ebdb9f02e0ad37"
+  },
+  "criteria": "Every declared deterministic file byte-matches; all Python data reads remain public-case/standard-library/scientific-venv bound. Written proof and complete code review are separate."
+}

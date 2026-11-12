@@ -1,0 +1,88 @@
+{
+ "kind": "native",
+ "key": "TWO_GEO_MID_WEIGHT_V1",
+ "operation": "GEN3_SOURCE_OPERATOR_WORD",
+ "purpose": "Complete geometric weight at nu3/4,N6 in Q(sqrt137), expected(3217-27sqrt137)/1024",
+ "payload": {
+  "name": "TWO_GEO_MID_WEIGHT_V1",
+  "context": {
+   "basis": [
+    "w6_three_quarters"
+   ],
+   "field": {
+    "radicand": 137
+   },
+   "units": {
+    "energy": "source units",
+    "geometry": "declared constant lapse or clamped rigid rotor"
+   },
+   "history": {
+    "campaign": "GEN7 lane TWO",
+    "precommit_sha256": "273fb40fff5700d9f262b60d289c5c8d5586ae0f21caeafb3f0b1de169cecd85",
+    "locked_inputs": "H003004-H003008 not replayed"
+   },
+   "spectral_coordinate": "Complete geometric weight at nu3/4,N6 in Q(sqrt137), expected(3217-27sqrt137)/1024"
+  },
+  "data": {
+   "operators": {
+    "DINV": [
+     [
+      {
+       "a": "-9/64",
+       "b": "3/64"
+      }
+     ]
+    ],
+    "BASE": [
+     [
+      {
+       "a": "5/2",
+       "b": "0"
+      }
+     ]
+    ]
+   },
+   "program": [
+    {
+     "name": "sq",
+     "op": "multiply",
+     "inputs": [
+      "DINV",
+      "DINV"
+     ]
+    },
+    {
+     "name": "tw",
+     "op": "scale",
+     "inputs": [
+      "sq"
+     ],
+     "factor": "2"
+    },
+    {
+     "name": "w",
+     "op": "add",
+     "inputs": [
+      "BASE",
+      "tw"
+     ]
+    }
+   ],
+   "output": "w"
+  },
+  "source_binding": {
+   "kind": "GEN7_DUCK",
+   "campaign": "20261112T043202Z",
+   "law_namespace": "SAM_land",
+   "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  }
+ },
+ "controller": "G6_02",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ }
+}

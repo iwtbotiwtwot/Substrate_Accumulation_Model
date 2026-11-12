@@ -1,0 +1,246 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-11-12T00:23:20.482909+00:00",
+  "scope": "Fresh complete-case relocation and public file-open audit; every declared deterministic scientific file compared. Proof/code/source review is separate.",
+  "source_case": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/02_spin_memory",
+  "relocated_case": "/tmp/volii_spin_public_20261112T002259Z",
+  "attempt": "host/lead_replay/spin_20261112T002259Z",
+  "source_files_checked": 2128,
+  "scientific_outputs_checked": 22,
+  "tracks": {
+    "SIGNED": {
+      "status": "PASS",
+      "wall_seconds": 14.794632381992415,
+      "steps": [
+        {
+          "returncode": 0,
+          "command": [
+            "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/.venv/bin/python",
+            "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/host/public_replay_guard_v2.py",
+            "--case",
+            "/tmp/volii_spin_public_20261112T002259Z",
+            "--audit",
+            "/tmp/volii_spin_public_20261112T002259Z/lead_output_SIGNED/LEAD_PUBLIC_READ_AUDIT_0.json",
+            "--script",
+            "/tmp/volii_spin_public_20261112T002259Z/peers/SIGNED/scripts/replay_v1.py",
+            "--",
+            "--output-dir",
+            "/tmp/volii_spin_public_20261112T002259Z/lead_output_SIGNED"
+          ],
+          "audit": "/tmp/volii_spin_public_20261112T002259Z/lead_output_SIGNED/LEAD_PUBLIC_READ_AUDIT_0.json",
+          "audit_status": "PASS"
+        }
+      ],
+      "outputs": {
+        "SOURCE.json": {
+          "sha256": "1bd03b92a6f20565a9a615569d832ba7d8daf21e15444b921e20415b4dd51e2d",
+          "expected_sha256": "1bd03b92a6f20565a9a615569d832ba7d8daf21e15444b921e20415b4dd51e2d",
+          "match": true
+        },
+        "SMALL_N15.json": {
+          "sha256": "bbb0976360a326ff5690198c2029901d50540a7ea5f4d9085bd23df61547080e",
+          "expected_sha256": "bbb0976360a326ff5690198c2029901d50540a7ea5f4d9085bd23df61547080e",
+          "match": true
+        },
+        "SMALL_N20.json": {
+          "sha256": "aba00e94a40e7a37c5689974a71a5edfbef48d0d0ba49ce098cf90f5687ebff5",
+          "expected_sha256": "aba00e94a40e7a37c5689974a71a5edfbef48d0d0ba49ce098cf90f5687ebff5",
+          "match": true
+        },
+        "LARGE_MOMENTS.json": {
+          "sha256": "d4b84deb023e951553d8fead35d1db4d50de27161e3a9bd6650c00410dd3e463",
+          "expected_sha256": "d4b84deb023e951553d8fead35d1db4d50de27161e3a9bd6650c00410dd3e463",
+          "match": true
+        },
+        "STATIC_INTERFACE.json": {
+          "sha256": "1d0017ba1fe8c8c6fee570b465767911de4441a7628fec25e28e637c35aa5f62",
+          "expected_sha256": "1d0017ba1fe8c8c6fee570b465767911de4441a7628fec25e28e637c35aa5f62",
+          "match": true
+        },
+        "RECEIVER_INFORMATION.json": {
+          "sha256": "63224e1479ba04c817d06d3c372baadcba32497047bd0709f40d8eaa03d2c5c9",
+          "expected_sha256": "63224e1479ba04c817d06d3c372baadcba32497047bd0709f40d8eaa03d2c5c9",
+          "match": true
+        },
+        "BOUNDARY_CLOCK.json": {
+          "sha256": "cc841faa6cc9ce6a4335937a94ce47f7c960cae0be89b09349aa9b387cc8a164",
+          "expected_sha256": "cc841faa6cc9ce6a4335937a94ce47f7c960cae0be89b09349aa9b387cc8a164",
+          "match": true
+        },
+        "CONTROLS.json": {
+          "sha256": "c438134ab8207a518fabf93bda6b75d21f8d40791ab8ad122ae34b35b762974e",
+          "expected_sha256": "c438134ab8207a518fabf93bda6b75d21f8d40791ab8ad122ae34b35b762974e",
+          "match": true
+        },
+        "SUMMARY.json": {
+          "sha256": "96f59a64c9f605c4c845e11314529219be640316fa2dcab02c9c8cd11cbe8b91",
+          "expected_sha256": "96f59a64c9f605c4c845e11314529219be640316fa2dcab02c9c8cd11cbe8b91",
+          "match": true
+        }
+      },
+      "other_output_files": [
+        "01_SOURCE_PREDICTION.json",
+        "01_SOURCE_PREDICTION_SEAL.json",
+        "02_SMALL_FULL_SOURCE_PREDICTION.json",
+        "02_SMALL_FULL_SOURCE_PREDICTION_SEAL.json",
+        "03_LARGE_CONTRACTION_PREDICTION.json",
+        "03_LARGE_CONTRACTION_PREDICTION_SEAL.json",
+        "04_MOMENT_RECEIVER_PREDICTION.json",
+        "04_MOMENT_RECEIVER_PREDICTION_SEAL.json",
+        "05_BOUNDARY_CLOCK_PREDICTION.json",
+        "05_BOUNDARY_CLOCK_PREDICTION_SEAL.json",
+        "ENVIRONMENT.json",
+        "LEAD_PUBLIC_READ_AUDIT_0.json",
+        "OUTPUT_HASHES.json"
+      ]
+    },
+    "GROWING": {
+      "status": "PASS",
+      "wall_seconds": 2.8282469981350005,
+      "steps": [
+        {
+          "returncode": 0,
+          "command": [
+            "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/.venv/bin/python",
+            "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/host/public_replay_guard_v2.py",
+            "--case",
+            "/tmp/volii_spin_public_20261112T002259Z",
+            "--audit",
+            "/tmp/volii_spin_public_20261112T002259Z/lead_output_GROWING/LEAD_PUBLIC_READ_AUDIT_0.json",
+            "--script",
+            "/tmp/volii_spin_public_20261112T002259Z/peers/GROWING/scripts/replay.py",
+            "--",
+            "seal",
+            "--output-dir",
+            "/tmp/volii_spin_public_20261112T002259Z/lead_output_GROWING"
+          ],
+          "audit": "/tmp/volii_spin_public_20261112T002259Z/lead_output_GROWING/LEAD_PUBLIC_READ_AUDIT_0.json",
+          "audit_status": "PASS"
+        },
+        {
+          "returncode": 0,
+          "command": [
+            "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/.venv/bin/python",
+            "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/host/public_replay_guard_v2.py",
+            "--case",
+            "/tmp/volii_spin_public_20261112T002259Z",
+            "--audit",
+            "/tmp/volii_spin_public_20261112T002259Z/lead_output_GROWING/LEAD_PUBLIC_READ_AUDIT_1.json",
+            "--script",
+            "/tmp/volii_spin_public_20261112T002259Z/peers/GROWING/scripts/replay.py",
+            "--",
+            "run",
+            "--output-dir",
+            "/tmp/volii_spin_public_20261112T002259Z/lead_output_GROWING"
+          ],
+          "audit": "/tmp/volii_spin_public_20261112T002259Z/lead_output_GROWING/LEAD_PUBLIC_READ_AUDIT_1.json",
+          "audit_status": "PASS"
+        }
+      ],
+      "outputs": {
+        "RESULTS.json": {
+          "sha256": "ec8e4bc01899c6a2e314c3790ddcb28a6fe4057c4c8243804a25649bd242ff32",
+          "expected_sha256": "ec8e4bc01899c6a2e314c3790ddcb28a6fe4057c4c8243804a25649bd242ff32",
+          "match": true
+        },
+        "FOLDED_ROWS.json.gz": {
+          "sha256": "6e326716685737c5c065e5441473bdc4532dfd04091baf54447e1704c6a72c3c",
+          "expected_sha256": "6e326716685737c5c065e5441473bdc4532dfd04091baf54447e1704c6a72c3c",
+          "match": true
+        },
+        "SMALL_SOURCE.json": {
+          "sha256": "c681ff901b93fc2a446e8f5ffa7feaa81055a28a505b1d5c865dd045664d3e78",
+          "expected_sha256": "c681ff901b93fc2a446e8f5ffa7feaa81055a28a505b1d5c865dd045664d3e78",
+          "match": true
+        },
+        "STATIC_CHECKPOINT.json": {
+          "sha256": "b839ef6bc039f9fed8f10a9cd765dad23d97b07e9834db7ab1e4d5a35c81153d",
+          "expected_sha256": "b839ef6bc039f9fed8f10a9cd765dad23d97b07e9834db7ab1e4d5a35c81153d",
+          "match": true
+        },
+        "FINITE_CHECKPOINT.json": {
+          "sha256": "8766903f7e557e7e0d793f0d4c523bd870b6fc82b3b40c1709c445d62be4e2a0",
+          "expected_sha256": "8766903f7e557e7e0d793f0d4c523bd870b6fc82b3b40c1709c445d62be4e2a0",
+          "match": true
+        }
+      },
+      "other_output_files": [
+        "ACCESS_LOG.json",
+        "LEAD_PUBLIC_READ_AUDIT_0.json",
+        "LEAD_PUBLIC_READ_AUDIT_1.json",
+        "RUN_RECEIPT.json",
+        "SEAL.json"
+      ]
+    },
+    "QUADRATURE": {
+      "status": "PASS",
+      "wall_seconds": 2.62218387122266,
+      "steps": [
+        {
+          "returncode": 0,
+          "command": [
+            "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/.venv/bin/python",
+            "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/host/public_replay_guard_v2.py",
+            "--case",
+            "/tmp/volii_spin_public_20261112T002259Z",
+            "--audit",
+            "/tmp/volii_spin_public_20261112T002259Z/lead_output_QUADRATURE/LEAD_PUBLIC_READ_AUDIT_0.json",
+            "--script",
+            "/tmp/volii_spin_public_20261112T002259Z/peers/QUADRATURE/replay.py",
+            "--",
+            "--out",
+            "/tmp/volii_spin_public_20261112T002259Z/lead_output_QUADRATURE"
+          ],
+          "audit": "/tmp/volii_spin_public_20261112T002259Z/lead_output_QUADRATURE/LEAD_PUBLIC_READ_AUDIT_0.json",
+          "audit_status": "PASS"
+        }
+      ],
+      "outputs": {
+        "EXACT_CONTROLS.json": {
+          "sha256": "38c5b6e2ef819f1ea3d434ba93cc6d6408bddcef4f66df84ecda2d6619872ee7",
+          "expected_sha256": "38c5b6e2ef819f1ea3d434ba93cc6d6408bddcef4f66df84ecda2d6619872ee7",
+          "match": true
+        },
+        "UNIFORM_N6.json": {
+          "sha256": "1ef528cb3fb2dcde8e710c5efa255cdd1f4e78d7331b66be87016213f425478b",
+          "expected_sha256": "1ef528cb3fb2dcde8e710c5efa255cdd1f4e78d7331b66be87016213f425478b",
+          "match": true
+        },
+        "SIGNED_N5000_RECEIVER.json": {
+          "sha256": "94dc2d4d7b1d079929f1a311992f660e8df4b168d61fbe0df167638bb10b1b6a",
+          "expected_sha256": "94dc2d4d7b1d079929f1a311992f660e8df4b168d61fbe0df167638bb10b1b6a",
+          "match": true
+        },
+        "SIGNED_ROOT15.json": {
+          "sha256": "386875821dcbdf85106b9123580aac6aebd5e59cc0a8c6bb14d5d9c86fb38d36",
+          "expected_sha256": "386875821dcbdf85106b9123580aac6aebd5e59cc0a8c6bb14d5d9c86fb38d36",
+          "match": true
+        },
+        "HIDDEN_CLOCK_CONTROL.json": {
+          "sha256": "25179b7a3f502de890b684b74e794f03480f180eaafb10c93d5ecc1315bdc1e5",
+          "expected_sha256": "25179b7a3f502de890b684b74e794f03480f180eaafb10c93d5ecc1315bdc1e5",
+          "match": true
+        },
+        "RARE_CELL.json": {
+          "sha256": "1dd58cc8c457fc499c4ed6fc63c7b66dd715e64fdfd793b2515ed63945e37f5e",
+          "expected_sha256": "1dd58cc8c457fc499c4ed6fc63c7b66dd715e64fdfd793b2515ed63945e37f5e",
+          "match": true
+        },
+        "BINARY_LAW.json": {
+          "sha256": "d38e9dc794bfa450655db2a750f9143b6c13e45cb5e85d9f751a71a2265f0666",
+          "expected_sha256": "d38e9dc794bfa450655db2a750f9143b6c13e45cb5e85d9f751a71a2265f0666",
+          "match": true
+        },
+        "CHECKS.json": {
+          "sha256": "5426b65b107ec1adc3f1000c38ed0aeee177b1f2b0bfcbc3da6213a72d4d8b47",
+          "expected_sha256": "5426b65b107ec1adc3f1000c38ed0aeee177b1f2b0bfcbc3da6213a72d4d8b47",
+          "match": true
+        }
+      },
+      "other_output_files": [
+        "LEAD_PUBLIC_READ_AUDIT_0.json",
+        "RUN_SEAL.json"
+      ]
+    }
+  }
+}

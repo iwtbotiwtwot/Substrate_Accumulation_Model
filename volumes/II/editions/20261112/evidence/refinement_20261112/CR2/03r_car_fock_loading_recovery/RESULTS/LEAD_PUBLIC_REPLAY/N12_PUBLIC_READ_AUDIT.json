@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "case": "/tmp/volii_car_public_20261112T004141Z",
+  "script": "/tmp/volii_car_public_20261112T004141Z/peers/N12/replay.py",
+  "scope": "Python file-open audit of all reads plus relocation; public case, scientific venv and standard system paths allowed. Native extension IO is not OS-traced.",
+  "all_file_reads": [
+    "/tmp/volii_car_public_20261112T004141Z/lead_output_N12/controls.json",
+    "/tmp/volii_car_public_20261112T004141Z/lead_output_N12/energy_loading.json",
+    "/tmp/volii_car_public_20261112T004141Z/lead_output_N12/flavor_source.json",
+    "/tmp/volii_car_public_20261112T004141Z/lead_output_N12/occupancy.json",
+    "/tmp/volii_car_public_20261112T004141Z/lead_output_N12/summary.json",
+    "/tmp/volii_car_public_20261112T004141Z/lead_output_N12/targets.json",
+    "/tmp/volii_car_public_20261112T004141Z/peers/N12/replay.py",
+    "/tmp/volii_car_public_20261112T004141Z/prior/THREE/gen/C12_DENSITY_EXTENSION.json",
+    "/tmp/volii_car_public_20261112T004141Z/prior/THREE/gen/N12_CAR_OPERANDS.json",
+    "/tmp/volii_car_public_20261112T004141Z/sources/completed_li6_case/peers/SYMMETRY/inputs/FREE_PAIR_PARENT.json",
+    "/tmp/volii_car_public_20261112T004141Z/sources/completed_li6_case/peers/SYMMETRY/inputs/LI6_EXACT_OPERANDS.json",
+    "/usr/lib/python3.12/__pycache__/contextlib.cpython-312.pyc",
+    "/usr/lib/python3.12/__pycache__/decimal.cpython-312.pyc",
+    "/usr/lib/python3.12/__pycache__/fractions.cpython-312.pyc",
+    "/usr/lib/python3.12/__pycache__/hashlib.cpython-312.pyc",
+    "/usr/lib/python3.12/__pycache__/numbers.cpython-312.pyc",
+    "/usr/lib/python3.12/__pycache__/pkgutil.cpython-312.pyc",
+    "/usr/lib/python3.12/__pycache__/typing.cpython-312.pyc",
+    "/usr/lib/python3.12/__pycache__/weakref.cpython-312.pyc",
+    "/usr/lib/python3.12/collections/__pycache__/abc.cpython-312.pyc"
+  ],
+  "home_reads": [],
+  "violations": [],
+  "error": null
+}

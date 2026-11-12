@@ -1,0 +1,31 @@
+\subsection{A finite norm code does not recover a typed source}
+\label{sec:grammar-fibers-12}
+
+The refinement tests a concrete possible shortcut through the source
+grammar. On the formal alphabet $\{1,2,3,4,6,8,9,12\}$, the unordered
+triples with repetition number $\binom{10}{3}=120$. Their integer squared
+norms have 107 classes, with thirteen two-member fibers. For example
+$(1,6,8)$ and $(2,4,9)$ both have norm square 101 and sum 15, but products
+48 and 72. Hence even sum plus squared norm is not an injective code.
+Norm plus product gives 120 distinct signatures on this particular finite
+dictionary.\samref{REF12_FOUR}
+
+The complete equal-norm fibers are
+\begin{center}\small
+\begin{tabular}{rll}\toprule
+Norm square&First triple&Second triple\\\midrule
+41&(1,2,6)&(3,4,4)\\81&(1,4,8)&(3,6,6)\\
+89&(2,2,9)&(3,4,8)\\101&(1,6,8)&(2,4,9)\\
+146&(1,1,12)&(1,8,9)\\149&(1,2,12)&(2,8,9)\\
+154&(1,3,12)&(3,8,9)\\161&(1,4,12)&(4,8,9)\\
+164&(2,4,12)&(6,8,8)\\181&(1,6,12)&(6,8,9)\\
+209&(1,8,12)&(8,8,9)\\226&(1,9,12)&(8,9,9)\\
+289&(1,12,12)&(8,9,12)\\\bottomrule
+\end{tabular}
+\end{center}
+These formal 120 candidates are not identified with the differently
+selected 120 tested three-body rows earlier in the chapter merely by
+cardinality. Neither code determines source type, admission, stability
+or label reveal, and no universal triple-reconstruction theorem follows.
+The witness instead fixes what must accompany a serialized source: its
+typed construction and retained role/phase information.

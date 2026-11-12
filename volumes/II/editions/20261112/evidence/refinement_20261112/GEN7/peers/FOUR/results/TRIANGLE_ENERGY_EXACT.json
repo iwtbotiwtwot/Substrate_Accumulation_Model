@@ -1,0 +1,6 @@
+{
+  "value": "3535/4",
+  "method": "HOST_EXACT_RAT",
+  "formula": "(1/2)sum_ij Delta_ui^T G Delta_uj (1\u2212|ti\u2212tj|/2)+",
+  "source_sha256": "e39ec1d3ab90d21ed6884f3f2939765b8c953ed83042cbf1df8b7086241821e0"
+}

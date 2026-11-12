@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "case": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/03r_car_fock_loading_recovery",
+  "checked_utc": "2026-11-12T01:35:56.996374+00:00",
+  "missing_bulk_restore": {
+    "status": "PASS",
+    "members_verified": 67,
+    "members_restored": 67,
+    "existing_exact_members": 0,
+    "parts_verified": 1,
+    "verify_only": false
+  },
+  "second_readback": {
+    "status": "PASS",
+    "members_verified": 67,
+    "members_restored": 0,
+    "existing_exact_members": 67,
+    "parts_verified": 1,
+    "verify_only": true
+  },
+  "entire_case_files_compared": 4811,
+  "fresh_tree": "/tmp/volii_bulk_restore_case3_20261112T013554Z",
+  "bulk_index_sha256": "57e272b4186908349a6ba4f65450c6bd8f6de11a0ac5ac32bf118430fe834fb0",
+  "restorer_sha256": "8ce31b3cee0cfbb3bba9c9b705dd0e6571a061271b12a8cadfb4d4bbd8518fae",
+  "raw_originals_retained": true
+}

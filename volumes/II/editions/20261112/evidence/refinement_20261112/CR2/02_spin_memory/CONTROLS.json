@@ -1,0 +1,50 @@
+{
+  "controls": [
+    {
+      "id": "SA01",
+      "track": "SIGNED",
+      "prediction_to_refine_and_seal": "Wrong sign/exponent for the negative-pair factor must fail a small full-state source or absolute normalization check."
+    },
+    {
+      "id": "SA02",
+      "track": "SIGNED",
+      "prediction_to_refine_and_seal": "Drop the marked pair or nonlocal contributions to a physical generator moment; detect a selected small-source/moment discrepancy."
+    },
+    {
+      "id": "SA03",
+      "track": "SIGNED",
+      "prediction_to_refine_and_seal": "Replace the physical clock/source by a uniform quotient or boundary clock without a valid relation; refuse that as the submitted microscopic certificate."
+    },
+    {
+      "id": "GB01",
+      "track": "GROWING",
+      "prediction_to_refine_and_seal": "Wrong folded central multiplicity or stationary Gibbs term must fail an exact normalization/moment check."
+    },
+    {
+      "id": "GB02",
+      "track": "GROWING",
+      "prediction_to_refine_and_seal": "Bounded waits must retain the tanh factor; a nondivergent wait cannot be assigned the saturated limiting coefficient."
+    },
+    {
+      "id": "GB03",
+      "track": "GROWING",
+      "prediction_to_refine_and_seal": "A wait outside the declared uniform range or a changed cycle preparation cost must not inherit the submitted asymptotic/rate conclusion."
+    },
+    {
+      "id": "QC01",
+      "track": "QUADRATURE",
+      "prediction_to_refine_and_seal": "A nonpositive or incompatible Hankel/moment sequence must be rejected rather than assigned a spectral quadrature certificate."
+    },
+    {
+      "id": "QC02",
+      "track": "QUADRATURE",
+      "prediction_to_refine_and_seal": "Check a one-atom/degenerate spectral measure and an explicit small multi-atom measure, including endpoint equality and node placement."
+    },
+    {
+      "id": "QC03",
+      "track": "QUADRATURE",
+      "prediction_to_refine_and_seal": "Reverse a Gauss/Radau inequality or omit a KL/tail payment; expose the bad enclosure on a declared small exact/source test."
+    }
+  ],
+  "policy": "Predictions refined and sealed before execution; a control that does not break as predicted is retained and reported."
+}

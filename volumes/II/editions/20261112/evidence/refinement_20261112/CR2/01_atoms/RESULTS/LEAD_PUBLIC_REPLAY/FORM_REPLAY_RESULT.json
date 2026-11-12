@@ -1,0 +1,28 @@
+{
+  "returncode": 0,
+  "wall_seconds": 0.6969729049596936,
+  "audit": "host/lead_replay/atoms_20261111T235454Z/FORM_PUBLIC_READ_AUDIT.json",
+  "outputs": {
+    "RESULTS.json": {
+      "sha256": "199ea928ed9b03be7a2eca04373380daccf5c129da67ed760772de762cd665f6",
+      "expected_sha256": "199ea928ed9b03be7a2eca04373380daccf5c129da67ed760772de762cd665f6",
+      "match": true
+    },
+    "SUMMARY.json": {
+      "sha256": "34219be62f486d6f839c9eabdc125e3cc7ccf33003651cff885b9bdd062c2cd8",
+      "expected_sha256": "34219be62f486d6f839c9eabdc125e3cc7ccf33003651cff885b9bdd062c2cd8",
+      "match": true
+    },
+    "SOURCE_CHECKS.json": {
+      "sha256": "63c0bd1e1c94c1f62e0a19a31df73558d0c75a64972cbcec591a689ab38a7346",
+      "expected_sha256": "63c0bd1e1c94c1f62e0a19a31df73558d0c75a64972cbcec591a689ab38a7346",
+      "match": true
+    },
+    "OUTPUT_HASHES.json": {
+      "sha256": "a4cae70fc163661dbd3475bd073d0f9227f9ec0ced45b1cfb5abf51a94ef6da7",
+      "expected_sha256": "a4cae70fc163661dbd3475bd073d0f9227f9ec0ced45b1cfb5abf51a94ef6da7",
+      "match": true
+    }
+  },
+  "status": "PASS"
+}

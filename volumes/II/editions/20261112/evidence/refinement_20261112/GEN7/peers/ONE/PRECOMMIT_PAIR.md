@@ -1,0 +1,2 @@
+# Additional reachable full-flavor control
+Before the following execution: reconstruct the separated pair-sector Grams from the retained literal8x8 C2/C3 matrices and8x2 pair-source injection. Predict projected pair Grams42=(3/10)[[1,1],[1,1]],33=(1/6)[[1,-1],[-1,1]],321=(1/15)[[8,-2],[-2,8]],411=0. Ignoring C3 can conflate33 and411. Because411 is invisible on the pair injection, that injection is a symmetry-null control for this alteration; use a basis vector in the full8-dimensional operator domain with nonzero411 expectation instead. Preserve both observations.

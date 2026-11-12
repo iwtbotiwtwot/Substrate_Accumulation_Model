@@ -1,0 +1,139 @@
+{
+  "schema": "PUBLIC_CASE_BULK_V1",
+  "created_utc": "2026-11-12T00:30:16.930850+00:00",
+  "selection": "Raw files >=512KiB or gzip/PDF/NumPy/bit payloads. No raw file is removed and no ignore rule is added.",
+  "members": [
+    {
+      "path": "RESULTS/LEAD_PUBLIC_REPLAY/ORBITALS/CHECKS.json",
+      "bytes": 1852127,
+      "sha256": "e0c59c42bc884d25b29b54d45a2fb8c149c8d4b812ac3a4506635852d3c6f702"
+    },
+    {
+      "path": "RESULTS/LEAD_PUBLIC_REPLAY/ORBITALS/COMPLETE_ONE_MATRICES.json",
+      "bytes": 3039049,
+      "sha256": "9d058291bff3dc19aaf1f678de396f20d84e53b23abb0e609e9bb4f58b5cc853"
+    },
+    {
+      "path": "peers/ORBITALS/attempts/A02_DIRECTED_V1/output/CHECKS.json",
+      "bytes": 1852127,
+      "sha256": "e0c59c42bc884d25b29b54d45a2fb8c149c8d4b812ac3a4506635852d3c6f702"
+    },
+    {
+      "path": "peers/ORBITALS/attempts/A02_DIRECTED_V1/output/COMPLETE_ONE_MATRICES.json",
+      "bytes": 3039049,
+      "sha256": "9d058291bff3dc19aaf1f678de396f20d84e53b23abb0e609e9bb4f58b5cc853"
+    },
+    {
+      "path": "peers/ORBITALS/relocated_public/01_atoms/prior/FOUR/gen/cusp_integrals.json",
+      "bytes": 1197444,
+      "sha256": "f73249d664e16d27371ce0711318ceb4cda7d99b1c67509f12d617c1dd23370e"
+    },
+    {
+      "path": "peers/ORBITALS/relocated_public/01_atoms/sources/manuscript/FULL_TEXT.txt",
+      "bytes": 539767,
+      "sha256": "6db554b5774dfa6209c49f173e5c1b4e247361084e7843690f3c8f0405260e2f"
+    },
+    {
+      "path": "peers/ORBITALS/relocated_public/01_atoms/sources/manuscript/Volume_II_20261110.pdf",
+      "bytes": 782786,
+      "sha256": "391450c512bfda11682e5a58b6f3f8d27856cdc4381cd962432ae9d3e521a5f3"
+    },
+    {
+      "path": "peers/ORBITALS/relocated_public/01_atoms/sources/manuscript/evidence/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/gen/STATIC_KERNEL_IDENTIFICATION.json",
+      "bytes": 2207414,
+      "sha256": "6b26a66646cef479464b616e9071b26599a2e297196772959b27cd0697eb84f8"
+    },
+    {
+      "path": "peers/ORBITALS/relocated_public/01_atoms/sources/manuscript/src/figures/octic_corrections.pdf",
+      "bytes": 20641,
+      "sha256": "712e3b8637bce88e428c9102296eef40a88e3f0c9347ec4e94dd977a33ddef98"
+    },
+    {
+      "path": "peers/ORBITALS/relocated_public/01_atoms/sources/manuscript/src/figures/transition_memory.pdf",
+      "bytes": 21328,
+      "sha256": "61ed87574b7968a03050462a91151e39e1ba655f92c984772bdec7e776b27a17"
+    },
+    {
+      "path": "peers/ORBITALS/relocated_public/01_atoms/sources/registered/GEN4/spin_source_moments_gcp1_20261017/analysis/CLOUD_FRONTIER_COMPARISON.json",
+      "bytes": 3516082,
+      "sha256": "41420c3997218e38dd9897b087abe597409ef4cf449a13ee59da8cecb7568c07"
+    },
+    {
+      "path": "peers/ORBITALS/relocated_public/01_atoms/sources/registered/manuscripts/drafts/frustrated-spin-work-to-date-20261006/figures/octic_corrections.pdf",
+      "bytes": 20641,
+      "sha256": "712e3b8637bce88e428c9102296eef40a88e3f0c9347ec4e94dd977a33ddef98"
+    },
+    {
+      "path": "peers/ORBITALS/relocated_public/01_atoms/sources/registered/manuscripts/drafts/frustrated-spin-work-to-date-20261006/figures/transition_memory.pdf",
+      "bytes": 21328,
+      "sha256": "61ed87574b7968a03050462a91151e39e1ba655f92c984772bdec7e776b27a17"
+    },
+    {
+      "path": "peers/ORBITALS/relocated_public/empty_output/CHECKS.json",
+      "bytes": 1852127,
+      "sha256": "e0c59c42bc884d25b29b54d45a2fb8c149c8d4b812ac3a4506635852d3c6f702"
+    },
+    {
+      "path": "peers/ORBITALS/relocated_public/empty_output/COMPLETE_ONE_MATRICES.json",
+      "bytes": 3039049,
+      "sha256": "9d058291bff3dc19aaf1f678de396f20d84e53b23abb0e609e9bb4f58b5cc853"
+    },
+    {
+      "path": "prior/FOUR/gen/cusp_integrals.json",
+      "bytes": 1197444,
+      "sha256": "f73249d664e16d27371ce0711318ceb4cda7d99b1c67509f12d617c1dd23370e"
+    },
+    {
+      "path": "sources/manuscript/FULL_TEXT.txt",
+      "bytes": 539767,
+      "sha256": "6db554b5774dfa6209c49f173e5c1b4e247361084e7843690f3c8f0405260e2f"
+    },
+    {
+      "path": "sources/manuscript/Volume_II_20261110.pdf",
+      "bytes": 782786,
+      "sha256": "391450c512bfda11682e5a58b6f3f8d27856cdc4381cd962432ae9d3e521a5f3"
+    },
+    {
+      "path": "sources/manuscript/evidence/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/gen/STATIC_KERNEL_IDENTIFICATION.json",
+      "bytes": 2207414,
+      "sha256": "6b26a66646cef479464b616e9071b26599a2e297196772959b27cd0697eb84f8"
+    },
+    {
+      "path": "sources/manuscript/src/figures/octic_corrections.pdf",
+      "bytes": 20641,
+      "sha256": "712e3b8637bce88e428c9102296eef40a88e3f0c9347ec4e94dd977a33ddef98"
+    },
+    {
+      "path": "sources/manuscript/src/figures/transition_memory.pdf",
+      "bytes": 21328,
+      "sha256": "61ed87574b7968a03050462a91151e39e1ba655f92c984772bdec7e776b27a17"
+    },
+    {
+      "path": "sources/registered/GEN4/spin_source_moments_gcp1_20261017/analysis/CLOUD_FRONTIER_COMPARISON.json",
+      "bytes": 3516082,
+      "sha256": "41420c3997218e38dd9897b087abe597409ef4cf449a13ee59da8cecb7568c07"
+    },
+    {
+      "path": "sources/registered/manuscripts/drafts/frustrated-spin-work-to-date-20261006/figures/octic_corrections.pdf",
+      "bytes": 20641,
+      "sha256": "712e3b8637bce88e428c9102296eef40a88e3f0c9347ec4e94dd977a33ddef98"
+    },
+    {
+      "path": "sources/registered/manuscripts/drafts/frustrated-spin-work-to-date-20261006/figures/transition_memory.pdf",
+      "bytes": 21328,
+      "sha256": "61ed87574b7968a03050462a91151e39e1ba655f92c984772bdec7e776b27a17"
+    }
+  ],
+  "parts": [
+    {
+      "path": "public_bulk/PART_0001.tar.gz.part",
+      "bytes": 3236982,
+      "sha256": "7ac9576d5cd574c5f4d958f58be5a8a5cf899fd88bf5127e57a3ec5fecc52758"
+    }
+  ],
+  "raw_bytes": 31328390,
+  "archive_bytes": 3236982,
+  "compression": "Concatenate parts in listed order; deterministic gzip tar.",
+  "recovery": "python3 scripts/restore_bulk.py",
+  "public_reproduction": "Every bulk member needed for engine-free replay is contained in these public parts; no private archive credential is needed."
+}

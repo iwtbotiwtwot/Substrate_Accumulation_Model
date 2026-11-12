@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "time_utc": "2026-11-12T06:35:26.838539+00:00",
+  "source_zip_sha256": "757aa195deda8571aeb4ada26ffec52483f13b14c4acba787d57772c15ac3646",
+  "extraction": "/tmp/volii-20261112-portable-9payk8te/SAM_Volume_II_Revised_Edition_20261112",
+  "all_packaged_manifest_files_verified": 707,
+  "source_zip_members": 708,
+  "independent_clean_build": true,
+  "scientific_scripts_executed": false,
+  "page_count": 136,
+  "matching_page_texts": 136,
+  "external_links_equal": true,
+  "bookmarks_equal": true,
+  "final_latex_warnings": 0,
+  "original_pdf_sha256": "f20350b533e8a5ecb36912dc90c3055fbc20420114e1887e2771b32bd89fab7c",
+  "rebuilt_pdf_sha256": "617ad80c4ee7c0964388c0cb8d0cd511bb1bf317bef5a150ba29474e4ec418b4",
+  "byte_hash_difference_allowed": "PDF creation timestamp; all page texts, pagination, bookmarks and external links match."
+}

@@ -1,0 +1,16 @@
+{
+ "kind": "gen6_job",
+ "key": "THREE_CORE_CONTROL_V2",
+ "purpose": "expected_failed_check: corrupted residual coefficient does not preserve core contraction; native positive defect required",
+ "job_path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/THREE/THREE_CORE_CONTROL.job.json",
+ "expected_failed_check": "Corrupted r2 coefficient cannot preserve the original core quadratic form",
+ "controller": "G6_03",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ },
+ "job_sha256": "62594c90473bf7b72a2ab9899fa764e8e808d981ca857d52aa4da3f57976d788"
+}

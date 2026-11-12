@@ -1,0 +1,10 @@
+{
+  "source": "GEN7 TWO-M04, sufficient full-C2 inequalities",
+  "display_data": {
+    "carbon_zero": 0.9529411764705882,
+    "oxygen_zero": 2.226086956521739,
+    "carbon_upper": "17/15 - 27/(25 BR)",
+    "oxygen_upper": "23/15 - 256/(75 BR)"
+  },
+  "scope": "Typesetting plot of retained operands/formulas; no new scientific execution."
+}

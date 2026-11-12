@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "scope": "Every complete report/proof/hypothesis map retained verbatim.",
+  "documents": [
+    {
+      "path": "peers/LI6/REPORT.md",
+      "sha256": "1514c96f084104e6ee8f4257136471950a3a045d88764ba2bd127633a73591c9",
+      "bytes": 8070
+    },
+    {
+      "path": "peers/LI6/DERIVATION.md",
+      "sha256": "7825c0dbe7d94ed8eafac4b4018c5eeb7da8c626b2536b642c40a193d835a6c3",
+      "bytes": 25743
+    },
+    {
+      "path": "peers/LI6/HYPOTHESES.md",
+      "sha256": "f36cfb2e6a4fa0821fd4262a938d9d4e2f0591130d6e820ab9d1ecb11910119a",
+      "bytes": 4141
+    },
+    {
+      "path": "peers/N12/REPORT.md",
+      "sha256": "62e5ac591990cd1bbc939737829afd9ac4940d507bed8554ce9439e2a0081e62",
+      "bytes": 6764
+    },
+    {
+      "path": "peers/N12/DERIVATION.md",
+      "sha256": "d6a1ee4811f5e939c19c75eff36b13877023fe23fa95046f241fdcd6ee45f07b",
+      "bytes": 26415
+    },
+    {
+      "path": "peers/N12/HYPOTHESES.md",
+      "sha256": "d0b11222ea5a0c0826b7db1b9bc36a7a53623d0bbd07ec0c920d9e034c24764b",
+      "bytes": 5187
+    },
+    {
+      "path": "peers/LOADING/REPORT.md",
+      "sha256": "ff1c9e5da3dac0cdc32608a71a0cce4c6e12cfbef293d4f9458e5f021a23ed94",
+      "bytes": 7046
+    },
+    {
+      "path": "peers/LOADING/DERIVATION.md",
+      "sha256": "305faff3f12b80562e5598d10469b70ed83d410450515e7f40e8b59bc931f657",
+      "bytes": 24205
+    },
+    {
+      "path": "peers/LOADING/HYPOTHESES.md",
+      "sha256": "17ea19164dd592f09979612af40e0e172422fa112558fda134ab938232974b04",
+      "bytes": 5377
+    }
+  ],
+  "handoff_sha256": "02bb79f501190f04d830eff33c9731565566b63c3b7700cc99ac177586bf2cac"
+}

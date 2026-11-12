@@ -1,0 +1,117 @@
+{
+ "kind": "native",
+ "key": "FOUR_HE3_BROKEN_V1",
+ "operation": "GEN3_SOURCE_OPERATOR_WORD",
+ "purpose": "Precommitted q-zero replacement at r1; expected_failed_check=formation consistency; predicted\u22125727442/52966485",
+ "payload": {
+  "name": "FOUR_HE3_BROKEN_V1",
+  "context": {
+   "basis": [
+    0
+   ],
+   "field": {
+    "radicand": 0
+   },
+   "units": {
+    "reference": "Source factor units"
+   },
+   "history": {
+    "source": "Original four-pole He3 intrinsic preparation",
+    "scope": "Independent pointwise factor and reachable q-zero control"
+   },
+   "spectral_coordinate": "SOURCE_RESPONSE"
+  },
+  "data": {
+   "operators": {
+    "B": [
+     [
+      "227/2340",
+      "-1/4",
+      "-1/4",
+      "-1/4"
+     ],
+     [
+      "-1/4",
+      "227/2340",
+      "-1/4",
+      "-1/4"
+     ],
+     [
+      "-1/4",
+      "-1/4",
+      "227/2340",
+      "-1/4"
+     ],
+     [
+      "-1/4",
+      "-1/4",
+      "-1/4",
+      "227/2340"
+     ]
+    ],
+    "a": [
+     [
+      "1"
+     ],
+     [
+      "1/5"
+     ],
+     [
+      "1/9"
+     ],
+     [
+      "1/13"
+     ]
+    ]
+   },
+   "program": [
+    {
+     "name": "ba",
+     "op": "multiply",
+     "inputs": [
+      "B",
+      "a"
+     ]
+    },
+    {
+     "name": "at",
+     "op": "transpose",
+     "inputs": [
+      "a"
+     ]
+    },
+    {
+     "name": "r",
+     "op": "multiply",
+     "inputs": [
+      "at",
+      "ba"
+     ]
+    },
+    {
+     "name": "out",
+     "op": "scale",
+     "inputs": [
+      "r"
+     ],
+     "factor": "342225/362164"
+    }
+   ],
+   "output": "out"
+  },
+  "source_binding": {
+   "kind": "GEN7_DUCK",
+   "campaign": "20261112T043202Z",
+   "law_namespace": "SAM_land",
+   "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  }
+ },
+ "controller": "G6_04",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ }
+}

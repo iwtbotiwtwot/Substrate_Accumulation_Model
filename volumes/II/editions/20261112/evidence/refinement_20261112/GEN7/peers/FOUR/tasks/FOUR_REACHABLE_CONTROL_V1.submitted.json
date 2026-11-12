@@ -1,0 +1,18 @@
+{
+ "kind": "gen6_job",
+ "key": "FOUR_REACHABLE_CONTROL_V1",
+ "job_path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/FOUR/tasks/FOUR_REACHABLE_CONTROL_V1.job.json",
+ "purpose": "Expected failing source identity: diagonal-only B must not reproduce full C12 canonical cross-term variation",
+ "expected_status": "FAILED",
+ "expected_reason": "Malformed diagonal-only source identity has nonzero actual cross-term residual",
+ "expected_failed_check": "rank zero for diagonal-only minus complete canonical C12 Gram",
+ "controller": "G6_04",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ },
+ "job_sha256": "8fe42e23ff0579c75ea12f0692ec241e876d3230cabdc9efc002fe607cab3834"
+}

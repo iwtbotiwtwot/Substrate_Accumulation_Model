@@ -1,0 +1,26 @@
+{
+  "sealed_utc": "2026-11-12T00:23:17.860081+00:00",
+  "form": "engineering_replay",
+  "script": "peers/QUADRATURE/replay.py",
+  "script_sha256": "8c50651a61da8c37f36a81add399c7933ee5200a3879eb3ea606defde442b22c",
+  "guard_sha256": "c96cf2a8b88cbc7c8dc20cd905c7466948e7339f60f345c394c6e024b525617c",
+  "case": "/tmp/volii_spin_public_20261112T002259Z",
+  "cwd": "/tmp/volii_spin_public_20261112T002259Z",
+  "actions": [
+    [
+      "--out",
+      "/tmp/volii_spin_public_20261112T002259Z/lead_output_QUADRATURE"
+    ]
+  ],
+  "expected_scientific_hashes": {
+    "EXACT_CONTROLS.json": "38c5b6e2ef819f1ea3d434ba93cc6d6408bddcef4f66df84ecda2d6619872ee7",
+    "UNIFORM_N6.json": "1ef528cb3fb2dcde8e710c5efa255cdd1f4e78d7331b66be87016213f425478b",
+    "SIGNED_N5000_RECEIVER.json": "94dc2d4d7b1d079929f1a311992f660e8df4b168d61fbe0df167638bb10b1b6a",
+    "SIGNED_ROOT15.json": "386875821dcbdf85106b9123580aac6aebd5e59cc0a8c6bb14d5d9c86fb38d36",
+    "HIDDEN_CLOCK_CONTROL.json": "25179b7a3f502de890b684b74e794f03480f180eaafb10c93d5ecc1315bdc1e5",
+    "RARE_CELL.json": "1dd58cc8c457fc499c4ed6fc63c7b66dd715e64fdfd793b2515ed63945e37f5e",
+    "BINARY_LAW.json": "d38e9dc794bfa450655db2a750f9143b6c13e45cb5e85d9f751a71a2265f0666",
+    "CHECKS.json": "5426b65b107ec1adc3f1000c38ed0aeee177b1f2b0bfcbc3da6213a72d4d8b47"
+  },
+  "criteria": "All declared scientific outputs byte-match; public-only file reads; no scientific engine import. Metadata differences are retained, not compared as scientific output."
+}

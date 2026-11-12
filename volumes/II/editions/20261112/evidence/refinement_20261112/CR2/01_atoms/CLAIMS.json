@@ -1,0 +1,97 @@
+{
+  "form": "verification",
+  "claims": [
+    {
+      "id": "A01",
+      "track": "FORM",
+      "type": "EXACT",
+      "title": "Original point operator and whole form domain",
+      "submitted_statement": "Recover the original point-source operator, dilation, units and H1 form domain. The claimed all-space lower retains every angular/radial direction."
+    },
+    {
+      "id": "A02",
+      "track": "FORM",
+      "type": "EXACT",
+      "title": "Divergence-matched point lower",
+      "submitted_statement": "Prove the stated bounded vector-field norm/divergence, no origin distribution, exact completed gradient-square form and its extension by density; derive the spin-two occupied lower before antisymmetric restriction. Do not infer saturation from a nongradient field."
+    },
+    {
+      "id": "A03",
+      "track": "FORM",
+      "type": "EXACT",
+      "title": "Finite-core form identity",
+      "submitted_statement": "Reconstruct the radial multiplier, matching at the core, distributional divergence and uniform anisotropic lower for the original finite-core potential, without extra sign assumptions."
+    },
+    {
+      "id": "A04",
+      "track": "FORM",
+      "type": "EXACT",
+      "title": "Pauli split and positive pair law",
+      "submitted_statement": "Prove the hydrogenic occupation sum and optimized kinetic split for the original scalar-plus-anisotropic atom, combine with its independent finite-core floor, and retain exact hypotheses on the pair interaction and kinetic law."
+    },
+    {
+      "id": "A05",
+      "track": "FORM",
+      "type": "EXACT",
+      "title": "Declared common-geometry extension",
+      "submitted_statement": "Check the source-defined lapse/orthonormal-frame divergence extension on its actual metric and form domain. State exactly which geometry is covered and whether extra radial-derivative terms are required."
+    },
+    {
+      "id": "B01",
+      "track": "ORBITALS",
+      "type": "EXACT",
+      "title": "Logarithmic basis and complete integrals",
+      "submitted_statement": "Rebuild the regular and logarithmic trial basis, all Gram/gradient/potential integrals, angular couplings and full-domain integrability from definitions. This is a variational witness, not a cutoff lower or regularity theorem."
+    },
+    {
+      "id": "B02",
+      "track": "ORBITALS",
+      "type": "EXACT",
+      "title": "Frozen one-electron witness",
+      "submitted_statement": "Independently certify the frozen logarithmic witness normalization and Rayleigh upper from primary coefficients and complete integrals, and reconstruct its stated improvement. Preserve failed predecessors and floating discovery versus directed verification."
+    },
+    {
+      "id": "B03",
+      "track": "ORBITALS",
+      "type": "EXACT",
+      "title": "Complete occupied Pauli prefixes",
+      "submitted_statement": "Rebuild the frozen spin-two orbital witnesses, their full Gram/cross terms, orthogonality and every occupied prefix used in the phase/binding panel; verify the six-electron trace and the balanced preparation witness under their own conventions."
+    },
+    {
+      "id": "C01",
+      "track": "REFERENCES",
+      "type": "EXACT",
+      "title": "Original envelopes and source reference",
+      "submitted_statement": "Reconstruct the original five point-source nuclear envelopes, sector sets and ground reference. Check the source minima used by the submitted binding panel, not only a selected nuclear sector."
+    },
+    {
+      "id": "C02",
+      "track": "REFERENCES",
+      "type": "EXACT",
+      "title": "Six intermediate phase guarantees",
+      "submitted_statement": "For each electron count independently reconstruct its occupied upper, the complete C12_343 intermediate-sector interval and strict nonemptiness using the whole-space lower; distinguish a sufficient interval from a true transition."
+    },
+    {
+      "id": "C03",
+      "track": "REFERENCES",
+      "type": "EXACT",
+      "title": "Complete point binding panel",
+      "submitted_statement": "Independently reproduce every submitted original point binding account with its source, coupling, electron count, physical convention and full reference; preserve the one-sided meaning of each endpoint and the scope of the fourfold upper improvement."
+    },
+    {
+      "id": "C04",
+      "track": "REFERENCES",
+      "type": "EXACT",
+      "title": "Generic complete finite-core carbon bounds",
+      "submitted_statement": "Recompute the weak-polarization three-carbon complete lower/reference comparisons with core self retained in both minima, and reproduce the reported generic improved upper endpoints."
+    },
+    {
+      "id": "C05",
+      "track": "REFERENCES",
+      "type": "EXACT",
+      "title": "C444 intrinsic-gap refinement",
+      "submitted_statement": "Verify the original intrinsic source gap against its complete source roster/envelope, separately justify both reference minima and reconstruct the sharper complete neutral C444 endpoint. No massive or ionization transfer is implied."
+    }
+  ],
+  "outcome_policy": "HELD, HELD WITH CORRECTION, BROKE, with any unresolved substatement explicit; no desired research outcome."
+}

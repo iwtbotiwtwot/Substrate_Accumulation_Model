@@ -1,0 +1,48 @@
+{
+  "A_upper": "1/200",
+  "COM_25_span_margin": "9473/375",
+  "COM_changed_operand": "one target copy is retained in a distinct external cell; location is a physical record",
+  "bounded_matter_width": "228018/125",
+  "e0_upper": "18131848/732421875",
+  "full_parent_25th_static_numerator": 2592,
+  "loading_allowance": "25411/12500",
+  "loading_error_upper": "123689/12500",
+  "loading_premise": "supplied bare N12 selected target and free field vacuum, frozen density drive, calibrated eight discrete mode frequencies, bounded matter residual with integrated norm plus compiler error <=A",
+  "margin": "1491/125",
+  "margin_formula": "(12/5)*g2-72*(tau+tcell)",
+  "maximum_other_feasible_density_class_numerator": 2576,
+  "omega_times_105G": "105 I8",
+  "one_cell_directions_above_2592_over105": 24,
+  "parameter_variations": [
+    {
+      "g2": "36",
+      "inside_sufficient_region": true,
+      "margin": "1791/125",
+      "tau": "1",
+      "tcell": "1/1000"
+    },
+    {
+      "g2": "20",
+      "inside_sufficient_region": true,
+      "margin": "1482/125",
+      "tau": "1/2",
+      "tcell": "1/500"
+    },
+    {
+      "g2": "35",
+      "inside_sufficient_region": true,
+      "margin": "282/25",
+      "tau": "1",
+      "tcell": "1/100"
+    }
+  ],
+  "pi_bracket": [
+    "708607128199708048393316197825100944557230988/225556654326271834214309451711177825927734375",
+    "69780205110613570752214743907258029213018304/22211729146640973852969847619533538818359375"
+  ],
+  "proper_lower": "-780",
+  "sqrt_e0_upper": "4/25",
+  "sufficient_region": "g2>30*(tau+tcell), tau>=0, tcell>=0",
+  "target_upper": "-98991/125",
+  "timing_relative_error_bound": "83/15625"
+}

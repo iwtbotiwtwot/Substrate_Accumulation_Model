@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "case": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/01_atoms",
+  "checked_utc": "2026-11-12T00:30:17.475027+00:00",
+  "missing_bulk_restore": {
+    "status": "PASS",
+    "members_verified": 24,
+    "members_restored": 24,
+    "existing_exact_members": 0,
+    "parts_verified": 1,
+    "verify_only": false
+  },
+  "second_readback": {
+    "status": "PASS",
+    "members_verified": 24,
+    "members_restored": 0,
+    "existing_exact_members": 24,
+    "parts_verified": 1,
+    "verify_only": true
+  },
+  "entire_case_files_compared": 1018,
+  "fresh_tree": "/tmp/volii_bulk_restore_case1_20261112T003016Z",
+  "bulk_index_sha256": "cca1cd91bc25c30035647892ad6a6b2e23b195091f365fce34685ce3be92d9c3",
+  "restorer_sha256": "8ce31b3cee0cfbb3bba9c9b705dd0e6571a061271b12a8cadfb4d4bbd8518fae",
+  "raw_originals_retained": true
+}

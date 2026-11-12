@@ -1,0 +1,82 @@
+{
+  "all_nuclear_sectors": {
+    "C12_333": 361,
+    "C12_343": 361,
+    "C12_444": 361,
+    "He4_3": 49,
+    "He4_4": 49
+  },
+  "all_phase_inventory_guarantees": 50,
+  "claims": {
+    "C01": {
+      "result": "HELD"
+    },
+    "C02": {
+      "result": "HELD"
+    },
+    "C03": {
+      "result": "HELD"
+    },
+    "C04": {
+      "result": "HELD"
+    },
+    "C05": {
+      "result": "HELD"
+    }
+  },
+  "controls": {
+    "AR01": "HELD",
+    "AR02": "HELD",
+    "AR03": "HELD"
+  },
+  "directed_precision_bits": 512,
+  "engine_used": false,
+  "input_hashes": [
+    {
+      "case_relative_path": "peers/REFERENCES/recovered_sources/li6_GEOMETRY.json",
+      "sha256": "9d390f86a02a22b67f1a0179ba2db7db4af1c3a818532d4d9683ffa686696b05"
+    },
+    {
+      "case_relative_path": "peers/REFERENCES/recovered_sources/original_core_FACTORS_RESULT.json",
+      "sha256": "c6d06688a422a4af34b6e553d404a0e6b3a1da7489875ad943ae41b0a84c4310"
+    },
+    {
+      "case_relative_path": "peers/REFERENCES/recovered_sources/qa_core_CONTRACT.json",
+      "sha256": "800518742afd147468fc6a48163f1692a0c112ce65defc08cebf071a0723517d"
+    },
+    {
+      "case_relative_path": "peers/REFERENCES/RECOVERED_SOURCE_SEAL.json",
+      "sha256": "05c000890fff4b538555793b4112793892ec09ad0aef083e296783a1fed997ef"
+    },
+    {
+      "case_relative_path": "prior/FOUR/gen/cusp_occupancy6_witness.json",
+      "sha256": "2ff97e8f4a6067daac97ed4d31e8d564b64050ed584c66596f28cffbc7ccf503"
+    },
+    {
+      "case_relative_path": "prior/FOUR/gen/INTERMEDIATE_PHASE_GUARANTEES.json",
+      "sha256": "e14b477c2159e42ad7dbbaf1068de229e8a1cfa0eb782084a798f1682b34b6e3"
+    },
+    {
+      "case_relative_path": "prior/FOUR/gen/WHOLE_POINT_BINDING_PANEL.json",
+      "sha256": "1a72587b1e03e7700709426982af5e07599f8f728fa2851292192df2af6d2164"
+    },
+    {
+      "case_relative_path": "sources/manuscript/src/atoms_01.tex",
+      "sha256": "ec743a7eceafd83c11bbc788268a57ceddef0a3cfb41697eefe79097d96e9c4e"
+    },
+    {
+      "case_relative_path": "sources/manuscript/src/atoms_02.tex",
+      "sha256": "212b7e9d9df141ef6b1213b1bdc928facec10103d04429e0e089c62e8663a662"
+    },
+    {
+      "case_relative_path": "SOURCE_CONTRACT.md",
+      "sha256": "7e46ba67633f2133ecf82732ca672c897e3a48ef15a64b1f63863224608e7f48"
+    }
+  ],
+  "intermediate_phase_guarantees": 6,
+  "output_grid_bits": 180,
+  "point_empty_controls": 10,
+  "point_populated_accounts": 44,
+  "runner_sha256": "a5c34575e9c38ed3546b01414c0a0beeef373d63d7705fccdbcb5b5832f814da",
+  "status": "PASS"
+}

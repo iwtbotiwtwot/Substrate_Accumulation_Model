@@ -1,0 +1,68 @@
+{
+ "kind": "native",
+ "key": "TWO_NEUTRALITY_CONTROL_V2",
+ "operation": "GEN3_SOURCE_OPERATOR_WORD",
+ "purpose": "Changing to charges+1,+1 produces singlet C1 mean1 and breaks the zero-first-order neutrality assertion",
+ "payload": {
+  "name": "TWO_NEUTRALITY_CONTROL_V2",
+  "context": {
+   "basis": [
+    "first_order_mean"
+   ],
+   "field": {
+    "radicand": 0
+   },
+   "units": {
+    "energy": "source units",
+    "geometry": "declared constant lapse or clamped rigid rotor"
+   },
+   "history": {
+    "campaign": "GEN7 lane TWO",
+    "precommit_sha256": "273fb40fff5700d9f262b60d289c5c8d5586ae0f21caeafb3f0b1de169cecd85",
+    "locked_inputs": "H003004-H003008 not replayed"
+   },
+   "spectral_coordinate": "Changing to charges+1,+1 produces singlet C1 mean1 and breaks the zero-first-order neutrality assertion"
+  },
+  "data": {
+   "operators": {
+    "QA": [
+     [
+      "1"
+     ]
+    ],
+    "QB": [
+     [
+      "1"
+     ]
+    ]
+   },
+   "program": [
+    {
+     "name": "mean",
+     "op": "multiply",
+     "inputs": [
+      "QA",
+      "QB"
+     ]
+    }
+   ],
+   "output": "mean"
+  },
+  "source_binding": {
+   "kind": "GEN7_DUCK",
+   "campaign": "20261112T043202Z",
+   "law_namespace": "SAM_land",
+   "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  }
+ },
+ "expected_status": "COMPLETED",
+ "supersedes": "TWO_NEUTRALITY_CONTROL_V1",
+ "controller": "G6_02",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ }
+}

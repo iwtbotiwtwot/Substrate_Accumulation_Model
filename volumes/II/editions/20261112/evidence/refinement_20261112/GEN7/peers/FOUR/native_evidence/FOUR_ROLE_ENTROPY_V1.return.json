@@ -1,0 +1,337 @@
+{
+  "authored_by": "PEER_FOUR",
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "aec9c75a8511591b20dc8818d7b4097cfe55481394602873eb933e4fa801de4a",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "b3a8cbf47674f8172c2c6f790378c2bbcee036cfcf291aac5d0af09850790ebe",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-11-12T04:58:34.136740+00:00",
+  "gen6_core_version": "0.11.3",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_04",
+  "imports": [],
+  "key": "FOUR_ROLE_ENTROPY_V1",
+  "kind": "RESULT",
+  "native_payload": {
+    "data": {
+      "probabilities": [
+        "1/4",
+        "1/2",
+        "1/4"
+      ]
+    },
+    "precision_bits": 256,
+    "source_binding": {
+      "campaign": "20261112T043202Z",
+      "kind": "GEN7_DUCK",
+      "law_namespace": "SAM_land",
+      "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+    }
+  },
+  "operation": "GEN5_ENTROPY",
+  "portable_bundle": {
+    "bundle": {
+      "calculations": {},
+      "objects": {
+        "11340c3674e581bb1acaab38569a893ae00a38cc1a6e4a8cebaf37f92d50f079": {
+          "dependencies": [
+            "8d3ade57a2fb622ffe1bd5af570fa72abea5fea6ae99c9dbf6654ed6bebfedd1"
+          ],
+          "kind": "mathematical_result",
+          "provenance": {
+            "operation": "GEN5_ENTROPY",
+            "origin": "SOURCE_BOUND_GEN5_RESULT"
+          },
+          "schema": "SLC_MATHEMATICAL_OBJECT_V1",
+          "source_binding": {
+            "operation": "GEN5_ENTROPY",
+            "request": "25404d338c2f41823345ddc4902ed7b668f6a9d66b20f2ec68bcb07d8685d409",
+            "source": {
+              "campaign": "20261112T043202Z",
+              "kind": "GEN7_DUCK",
+              "law_namespace": "SAM_land",
+              "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+            }
+          },
+          "value": {
+            "calculation": {
+              "result_ref": "8d3ade57a2fb622ffe1bd5af570fa72abea5fea6ae99c9dbf6654ed6bebfedd1"
+            },
+            "implementation": {
+              "files": {
+                "__init__.py": "12fda57375372d607a3bbc53b165d07a4b82bb6b7434a6d333110eb48957fe85",
+                "adaptive_precision.py": "255f4ca4890150c03427d4bc6ede4b2595dde56f7ccc812fc9ffcea1fa98bd19",
+                "algebra.py": "0d15c656477df1aac22390e926e6cffbf300df4b5b232ddafbc53a834d89a1fd",
+                "backend.py": "4c1c85723ed34cc6ecb18e7374a180538fbd8a06cacad12e5eb2c13ffccbac15",
+                "duck.py": "85e28f0a0db24268ab83d73e22dccd31758687ec3b4415396ad368b24c3dd950",
+                "expressions.py": "83c27318445c9227b1c56101fe12e1656e0c72ede3dc928f8dac7b32849ca9e4",
+                "factors.py": "e63755c6bcda2480cebfbf97a230182c622e0c4db808b9efa6a598ffb46cb13a",
+                "frontend.py": "70840cf6ff52eea63dd5cf0a5328da5e5622cef063fe8c314bb1a7f9bfdf983f",
+                "history.py": "04e8fcf3c2b4bf9378f1f9c99c5905982a62224a1e71d8fd55a895d461828f3a",
+                "limits.py": "81c9919c63cf3f5b2cb230687f288b925aac8706b9d9198fc1be5edcad88d892",
+                "method_catalog.py": "f76e652af220bbc7f51de6fce7d011652a5369378202682b92752f825ba1c8fc",
+                "method_sources.json": "e56dd2bf3ff1260769a4f3c1bd45c65e9605c6228906ff5efa41370b81a88d51",
+                "methods.py": "ae2bd89491057d436aaad1fd5afece6efbcb19414988c9843b4993340374ce44",
+                "operator.py": "74b62419717c69a8f9ab9250989e1e32f9b6826560894a6c4ffd0dd32d95b4be",
+                "protocol.py": "2e780225b6004b40457fc60c9800c8bfcd7f6e4a9474fa7cfab333408865d1fb",
+                "research_library.py": "93f42a34f7f872c637d1cd09a80e6ca5933e08bf83b234c4d9c8fc3a66df441a",
+                "source_clock.py": "3eea59401ba2d116dda69cbae5fc4b327f6f17f5e3ba923ae5cd29c5315fc957",
+                "spin_method_catalog.py": "dd31d40a27af5decbfe14388e00d9fffde80649378234c02a7d1630d0797201a",
+                "thermal.py": "d300eea8eadaa4fb5a7af250c0b07148daa318f6e7bbe63249bfd0bc5b25c61a",
+                "transport.py": "61156ee5fb992102ae43a5545499609fcc3f9bc2a700cbd2c79614a60b13e1a0"
+              },
+              "python_flint": "0.8.0",
+              "version": "GEN5_LOG_KERNELS_V1"
+            },
+            "operation": "GEN5_ENTROPY",
+            "output": {
+              "exact_weighted_logs": [
+                {
+                  "argument": "1/4",
+                  "weight": "-1/4"
+                },
+                {
+                  "argument": "1/2",
+                  "weight": "-1/2"
+                },
+                {
+                  "argument": "1/4",
+                  "weight": "-1/4"
+                }
+              ],
+              "kind": "CLASSICAL",
+              "status": "CERTIFIED_ENTROPY",
+              "units": "NATS",
+              "value": {
+                "lower": "1881116254359171301458607129835392278140406272146639373581004707158280241629/1809251394333065553493296640760748560207343510400633813116524750123642650624",
+                "upper": "30097860069746740823337714077366276450246500354346229977296075314532483866065/28948022309329048855892746252171976963317496166410141009864396001978282409984"
+              },
+              "zero_convention": "0 log 0 = 0"
+            },
+            "precision_bits": 256,
+            "request": {
+              "data": {
+                "probabilities": [
+                  "1/4",
+                  "1/2",
+                  "1/4"
+                ]
+              },
+              "precision_bits": 256,
+              "source_binding": {
+                "campaign": "20261112T043202Z",
+                "kind": "GEN7_DUCK",
+                "law_namespace": "SAM_land",
+                "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+              }
+            },
+            "schema": "GEN5_LOG_RESULT_V1",
+            "source_binding": {
+              "campaign": "20261112T043202Z",
+              "kind": "GEN7_DUCK",
+              "law_namespace": "SAM_land",
+              "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+            },
+            "source_operand_identity": "62efad403125c708fa9444b7aef4061182d23f1fc7becffe849f29325af4d6e5"
+          }
+        },
+        "8d3ade57a2fb622ffe1bd5af570fa72abea5fea6ae99c9dbf6654ed6bebfedd1": {
+          "dependencies": [],
+          "kind": "mathematical_result",
+          "provenance": {
+            "operation": "GEN5_ENTROPY",
+            "origin": "NATIVE_GEN5_KERNEL",
+            "prepared_operands": []
+          },
+          "schema": "SLC_MATHEMATICAL_OBJECT_V1",
+          "source_binding": {
+            "identity": "dbbfaf0a83df789e5da5a9ea514d24d8517f34c618745ed6ecdea8d847c4b4eb",
+            "kind": "GEN5_MATHEMATICAL_OPERAND"
+          },
+          "value": {
+            "implementation": {
+              "files": {
+                "__init__.py": "12fda57375372d607a3bbc53b165d07a4b82bb6b7434a6d333110eb48957fe85",
+                "adaptive_precision.py": "255f4ca4890150c03427d4bc6ede4b2595dde56f7ccc812fc9ffcea1fa98bd19",
+                "algebra.py": "0d15c656477df1aac22390e926e6cffbf300df4b5b232ddafbc53a834d89a1fd",
+                "backend.py": "4c1c85723ed34cc6ecb18e7374a180538fbd8a06cacad12e5eb2c13ffccbac15",
+                "duck.py": "85e28f0a0db24268ab83d73e22dccd31758687ec3b4415396ad368b24c3dd950",
+                "expressions.py": "83c27318445c9227b1c56101fe12e1656e0c72ede3dc928f8dac7b32849ca9e4",
+                "factors.py": "e63755c6bcda2480cebfbf97a230182c622e0c4db808b9efa6a598ffb46cb13a",
+                "frontend.py": "70840cf6ff52eea63dd5cf0a5328da5e5622cef063fe8c314bb1a7f9bfdf983f",
+                "history.py": "04e8fcf3c2b4bf9378f1f9c99c5905982a62224a1e71d8fd55a895d461828f3a",
+                "limits.py": "81c9919c63cf3f5b2cb230687f288b925aac8706b9d9198fc1be5edcad88d892",
+                "method_catalog.py": "f76e652af220bbc7f51de6fce7d011652a5369378202682b92752f825ba1c8fc",
+                "method_sources.json": "e56dd2bf3ff1260769a4f3c1bd45c65e9605c6228906ff5efa41370b81a88d51",
+                "methods.py": "ae2bd89491057d436aaad1fd5afece6efbcb19414988c9843b4993340374ce44",
+                "operator.py": "74b62419717c69a8f9ab9250989e1e32f9b6826560894a6c4ffd0dd32d95b4be",
+                "protocol.py": "2e780225b6004b40457fc60c9800c8bfcd7f6e4a9474fa7cfab333408865d1fb",
+                "research_library.py": "93f42a34f7f872c637d1cd09a80e6ca5933e08bf83b234c4d9c8fc3a66df441a",
+                "source_clock.py": "3eea59401ba2d116dda69cbae5fc4b327f6f17f5e3ba923ae5cd29c5315fc957",
+                "spin_method_catalog.py": "dd31d40a27af5decbfe14388e00d9fffde80649378234c02a7d1630d0797201a",
+                "thermal.py": "d300eea8eadaa4fb5a7af250c0b07148daa318f6e7bbe63249bfd0bc5b25c61a",
+                "transport.py": "61156ee5fb992102ae43a5545499609fcc3f9bc2a700cbd2c79614a60b13e1a0"
+              },
+              "python_flint": "0.8.0",
+              "version": "GEN5_LOG_KERNELS_V1"
+            },
+            "operation": "GEN5_ENTROPY",
+            "output": {
+              "exact_weighted_logs": [
+                {
+                  "argument": "1/4",
+                  "weight": "-1/4"
+                },
+                {
+                  "argument": "1/2",
+                  "weight": "-1/2"
+                },
+                {
+                  "argument": "1/4",
+                  "weight": "-1/4"
+                }
+              ],
+              "kind": "CLASSICAL",
+              "status": "CERTIFIED_ENTROPY",
+              "units": "NATS",
+              "value": {
+                "lower": "1881116254359171301458607129835392278140406272146639373581004707158280241629/1809251394333065553493296640760748560207343510400633813116524750123642650624",
+                "upper": "30097860069746740823337714077366276450246500354346229977296075314532483866065/28948022309329048855892746252171976963317496166410141009864396001978282409984"
+              },
+              "zero_convention": "0 log 0 = 0"
+            },
+            "precision_bits": 256,
+            "schema": "GEN5_NATIVE_CALCULATION_V1"
+          }
+        }
+      },
+      "roots": [
+        "11340c3674e581bb1acaab38569a893ae00a38cc1a6e4a8cebaf37f92d50f079"
+      ],
+      "schema": "SLC_MATHEMATICAL_BUNDLE_V1"
+    },
+    "object_count": 2,
+    "portability": "SELF_CONTAINED",
+    "sha256": "bd349fb492a0a31f0772675b6581efa1f69cda3252eb2e789eab31094144c133"
+  },
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_ROLE_ENTROPY_V1/RESULT.json",
+  "receipt_sha256": "232f240bb408cc6a9147107af6c8642dbd795582553d538c5765d28c2a6ba248",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 1345701289471960,
+  "returned": {
+    "calculation_reused": false,
+    "exact_preparation_reused": false,
+    "recomputed": true,
+    "result": {
+      "calculation": {
+        "result_ref": "8d3ade57a2fb622ffe1bd5af570fa72abea5fea6ae99c9dbf6654ed6bebfedd1"
+      },
+      "implementation": {
+        "files": {
+          "__init__.py": "12fda57375372d607a3bbc53b165d07a4b82bb6b7434a6d333110eb48957fe85",
+          "adaptive_precision.py": "255f4ca4890150c03427d4bc6ede4b2595dde56f7ccc812fc9ffcea1fa98bd19",
+          "algebra.py": "0d15c656477df1aac22390e926e6cffbf300df4b5b232ddafbc53a834d89a1fd",
+          "backend.py": "4c1c85723ed34cc6ecb18e7374a180538fbd8a06cacad12e5eb2c13ffccbac15",
+          "duck.py": "85e28f0a0db24268ab83d73e22dccd31758687ec3b4415396ad368b24c3dd950",
+          "expressions.py": "83c27318445c9227b1c56101fe12e1656e0c72ede3dc928f8dac7b32849ca9e4",
+          "factors.py": "e63755c6bcda2480cebfbf97a230182c622e0c4db808b9efa6a598ffb46cb13a",
+          "frontend.py": "70840cf6ff52eea63dd5cf0a5328da5e5622cef063fe8c314bb1a7f9bfdf983f",
+          "history.py": "04e8fcf3c2b4bf9378f1f9c99c5905982a62224a1e71d8fd55a895d461828f3a",
+          "limits.py": "81c9919c63cf3f5b2cb230687f288b925aac8706b9d9198fc1be5edcad88d892",
+          "method_catalog.py": "f76e652af220bbc7f51de6fce7d011652a5369378202682b92752f825ba1c8fc",
+          "method_sources.json": "e56dd2bf3ff1260769a4f3c1bd45c65e9605c6228906ff5efa41370b81a88d51",
+          "methods.py": "ae2bd89491057d436aaad1fd5afece6efbcb19414988c9843b4993340374ce44",
+          "operator.py": "74b62419717c69a8f9ab9250989e1e32f9b6826560894a6c4ffd0dd32d95b4be",
+          "protocol.py": "2e780225b6004b40457fc60c9800c8bfcd7f6e4a9474fa7cfab333408865d1fb",
+          "research_library.py": "93f42a34f7f872c637d1cd09a80e6ca5933e08bf83b234c4d9c8fc3a66df441a",
+          "source_clock.py": "3eea59401ba2d116dda69cbae5fc4b327f6f17f5e3ba923ae5cd29c5315fc957",
+          "spin_method_catalog.py": "dd31d40a27af5decbfe14388e00d9fffde80649378234c02a7d1630d0797201a",
+          "thermal.py": "d300eea8eadaa4fb5a7af250c0b07148daa318f6e7bbe63249bfd0bc5b25c61a",
+          "transport.py": "61156ee5fb992102ae43a5545499609fcc3f9bc2a700cbd2c79614a60b13e1a0"
+        },
+        "python_flint": "0.8.0",
+        "version": "GEN5_LOG_KERNELS_V1"
+      },
+      "operation": "GEN5_ENTROPY",
+      "output": {
+        "exact_weighted_logs": [
+          {
+            "argument": "1/4",
+            "weight": "-1/4"
+          },
+          {
+            "argument": "1/2",
+            "weight": "-1/2"
+          },
+          {
+            "argument": "1/4",
+            "weight": "-1/4"
+          }
+        ],
+        "kind": "CLASSICAL",
+        "status": "CERTIFIED_ENTROPY",
+        "units": "NATS",
+        "value": {
+          "lower": "1881116254359171301458607129835392278140406272146639373581004707158280241629/1809251394333065553493296640760748560207343510400633813116524750123642650624",
+          "upper": "30097860069746740823337714077366276450246500354346229977296075314532483866065/28948022309329048855892746252171976963317496166410141009864396001978282409984"
+        },
+        "zero_convention": "0 log 0 = 0"
+      },
+      "precision_bits": 256,
+      "request": {
+        "data": {
+          "probabilities": [
+            "1/4",
+            "1/2",
+            "1/4"
+          ]
+        },
+        "precision_bits": 256,
+        "source_binding": {
+          "campaign": "20261112T043202Z",
+          "kind": "GEN7_DUCK",
+          "law_namespace": "SAM_land",
+          "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+        }
+      },
+      "schema": "GEN5_LOG_RESULT_V1",
+      "source_binding": {
+        "campaign": "20261112T043202Z",
+        "kind": "GEN7_DUCK",
+        "law_namespace": "SAM_land",
+        "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+      },
+      "source_operand_identity": "62efad403125c708fa9444b7aef4061182d23f1fc7becffe849f29325af4d6e5"
+    },
+    "result_ref": "11340c3674e581bb1acaab38569a893ae00a38cc1a6e4a8cebaf37f92d50f079"
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND1",
+  "source_binding": {
+    "campaign": "20261112T043202Z",
+    "kind": "GEN7_DUCK",
+    "law_namespace": "SAM_land",
+    "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  },
+  "source_checks": [],
+  "started_utc": "2026-11-12T04:58:34.053712+00:00",
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "native",
+  "worker_cpu": 5,
+  "worker_pid": 3816048
+}

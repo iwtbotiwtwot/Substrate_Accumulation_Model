@@ -1,0 +1,10 @@
+{
+  "all_registered_checks_passed": true,
+  "complete_result_files": 7,
+  "no_full_parent_matrix_or_exponential": true,
+  "scientific_evidence": [
+    "exact host",
+    "directed Arb",
+    "inherited signed moment operands"
+  ]
+}

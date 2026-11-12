@@ -1,0 +1,8 @@
+{
+  "kind": "gen6_job",
+  "key": "THREE_CORE_CONTROL",
+  "purpose": "expected_failed_check: corrupted residual coefficient does not preserve core contraction; native positive defect required",
+  "expected_status": "COMPLETED",
+  "expected_reason": "The intended mathematical equality fails by a strictly positive interval defect",
+  "job_path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/THREE/THREE_CORE_CONTROL.job.json"
+}

@@ -1,0 +1,478 @@
+\subsection{Light-source closure and the cost of preparation}
+\label{sec:light-closure-new}
+
+The November source calculations extend the preceding construction by keeping
+the operator parent visible through each reduction. The complete D/C source
+has sixteen coordinates; colour, connected placement, independent-fragment
+placement and shared-cell placement have dimensions 64, 48, 192 and 144,
+respectively. These are distinct spaces. Agreement of selected compressed
+matrices does not identify their complements.\samref{NOV_A1}
+
+For the independent-fragment placement Hamiltonian and its normalized
+48-column injection $J$, the exact identities are
+\begin{align}
+H_{192}&=\bigoplus_{a=1}^{24}(18I_8-2A_{Q_3}),\\
+J^*H_{192}J&=18I_{48},\\
+J^*H_{192}(I-JJ^*)H_{192}J
+&=\bigoplus_{a=1}^{24}\begin{pmatrix}12&8\\8&12\end{pmatrix}.
+\end{align}
+The cyclic space has 144 dimensions: 48 visible and 96 dynamically hidden.
+The remaining 48 directions are invariant dark directions with energies 16
+and 20. A separate isometry from the shared 144-space into the primary
+192-space has a rank-48 intertwining defect. Its missing addresses are not
+the invariant dark space just described. The distinction matters when a
+later interaction acts on the complement.
+
+The preparation itself can enlarge an observable algebra. On the actual
+sixteen-coordinate source, the D/C algebra has dimension 25, adding the
+Hamiltonian gives dimension 28, and adding the actual H2 preparation Gram
+$F_2=e_4e_4^T$ gives the full algebra $M_{16}(\mathbb Q)$ of dimension 256.
+This identifies information accessible to the specified operators. Producing
+that preparation by a physical pulse is a further dynamical operation.
+
+There is also an earlier free-source complement. The 24 adjacent H2
+addresses compress a 64-dimensional free cube-pair parent. Their kinetic
+compression is $12I_{24}$, whereas the full free floor is zero. The
+adjacent-generated cyclic space has dimension 47, leaving seventeen
+invariant dark directions. Thus a prepared adjacent pair carries $12\tau$
+relative to that geometric free floor. Subsequent placement reductions do
+not remove this preparation payment. The separate free-reference case held
+this account with 247 exact checks, including the full Schur complement.
+Its append-only scope correction keeps the He3 theorem in primary192;
+shared144 remains a different source.\samref{NOV_FREE}
+
+\subsection{Relaxed He3 with the complete field payment}
+\label{sec:he3-paid-new}
+
+For the retained full source, let $\epsilon>0$ denote the signed contact
+strength and $\tau>0$ the placement kinetic coefficient. The relaxed
+intrinsic ground has
+\begin{align}
+E_0&=12\tau-\epsilon-\delta,\\
+\frac{\epsilon}{4}\sum_{k=0}^{3}\frac{1}{\delta+4k\tau}&=1,
+\qquad \epsilon/4<\delta<\epsilon.
+\label{eq:he3-secular-new}
+\end{align}
+Here $\delta$ is the unique positive root. If $P=JJ^*$ and $p=\langle
+P\rangle=\partial_\epsilon\delta$, its preparation cost is
+\begin{equation}
+\tau(\langle H\rangle-12)=\epsilon p-\delta\geq0.
+\end{equation}
+The original colour and placement complements are retained in this
+statement.\samref{NOV_A1}
+
+The complete field account is sensitive to the operator $P$, including its
+fluctuations. For the frozen normalized matter/field trial, write
+$\mathcal F_{\rm full}$ and $\mathcal F_{\rm int}$ for the full and internal
+completed-square expectations. The exact projection identity is
+\begin{align}
+\mathcal F_P&=p\mathcal F_{\rm full}+(1-p)\mathcal F_{\rm int}\\
+&=\langle H_f(A_{\rm int}+pA_{\rm cross})\rangle
+  +p(1-p)C_{\rm cross},\nonumber
+\end{align}
+where $C_{\rm cross}>0$. Replacing incidence by its mean deletes the last
+term. For finite positive $\tau$, $1/4<p<1$, so that deletion changes the
+complete payment. Both helicities, the sharp continuum profile, all tensor
+directions, the self and mixed counterterms, massive recoil and
+centre-of-mass motion, and the original gates remain in the retained
+calculation.\samref{NOV_HE3_CASE}\samref{NOV_HE3_VERIFY}
+
+Two independently constructed sufficient gap bounds take the forms
+\begin{equation}
+f_A=A_i+B_i(1-p)-\delta,\qquad
+f_B=P_i+Q_i(1-p)-\delta.
+\end{equation}
+Their coefficients are complete paid uppers in the fixed source chart;
+they are not exact trial energies. The reference is the connector-absent
+fragment lower $12\tau-\epsilon$ in that same chart. In particular, a free
+trial upper cannot replace it.
+
+The interval argument can be expressed without sampling $\tau$. Put
+\begin{equation}
+r=\tau/\delta,\quad a_k=(1+4kr)^{-1},\quad
+S_j=\sum_{k=0}^{3}a_k^j.
+\end{equation}
+Then
+\begin{equation}
+\delta=\frac{\epsilon S_1}{4},\quad
+\tau=\frac{\epsilon rS_1}{4},\quad
+p=\frac{S_1^2}{4S_2},\quad
+\frac{\dd\tau}{\dd r}=\frac{\epsilon S_2}{4}>0.
+\end{equation}
+The moment inequality $S_2^2\leq S_1S_3$ makes $p$ nonincreasing; $\delta$
+decreases. The sufficient gaps consequently increase, and rational endpoint
+brackets establish each whole open interval.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Independently verified sufficient He3 intervals at the frozen
+dimensionless mass--radius product $mR=10^6$. Lane labels retain the four
+source eigenlane enclosures.}
+\begin{tabular}{cc}\toprule
+Lane & Sufficient interval\\\midrule
+0 & $0<\tau<2.52988\times10^{-7}$\\
+1 & $0<\tau<1.46665\times10^{-7}$\\
+2 & $0<\tau<1.48282\times10^{-7}$\\
+3 & $0<\tau<1.50142\times10^{-7}$\\\bottomrule
+\end{tabular}
+\label{tab:he3-paid-new}
+\end{table}
+
+The separate verification recovered all four intervals with a newly written
+rational checker and fresh derivation. Its primary allowance uses the
+universal positive spectral estimate $\kappa_{\rm paid}\leq
+3\Delta b_{\rm upper}$ rather than assuming the historical retarded-cross
+lower. The sharp-profile inverse moments and the complete correlated
+normal-EDGE/localized-gate inequality remain identified inherited premises.
+The scalar overlap alone is insufficient to replace the latter inequality.
+All seven registered controls and the isolated replay passed at the recorded
+internal I1/R2 scope.\samref{NOV_HE3_VERIFY}
+
+The eight lighter-mass/lane controls and twelve positive crossing-gate
+controls give noncertifying sufficient uppers. In particular, replacing the
+signed crossing by $\epsilon P(I+S_{12})$ adds $\epsilon p$; the resulting
+upper contains the nonnegative formation cost $\epsilon p-\delta$.
+This explains the loss of that certificate without turning an unsuccessful
+upper into an exclusion of other trials. The table fixes no measured mass,
+radius, physical time scale or atomic reference.
+
+\subsection{What transfers to a composite source}
+\label{sec:composition-nov}
+
+The 37-isotope constructor transfers definitions and exact reduction
+methods. Its heavy-source graph and aggregate-cell assignments remain
+declared hypotheses. Even fixed constituent inventories and PP/PN/NN
+counts do not select a unique heavy graph: changing endpoint template types
+changes the conditional minima for O18, Ca46 and Pb208 while preserving
+those counts.\samref{NOV_CONSTRUCTOR}
+
+For an independently phased graph with positive site weights, one useful
+exact result is
+\begin{equation}
+\min_{z_e\in\{1,i,-1,-i\}}\sum_v\epsilon_v|(Bz)_v|^2
+=\sum_{\deg(v)\ {
+m odd}}\epsilon_v.
+\end{equation}
+Gaussian-integer parity supplies the lower. An Euler orientation after
+adjoining a dummy vertex supplies a simultaneous witness. Applying this
+formula to retained H3/He3 templates requires their additional local
+quadrature restriction. A successor chain calculation retains that
+restriction and gives different minima; for example O16 changes from
+$6\epsilon_p+6\epsilon_n$ to $6\epsilon_p+10\epsilon_n$.
+The two numbers belong to different admissible phase families.
+
+An ordered preparation port also composes before its Gram is formed. If
+$a$ and $b$ are unnormalized component amplitudes, their common normalized
+pair source includes $aa$, $ab$, $ba$ and $bb$. Adding the two local Grams
+omits the cross terms. The same order of operations applies to one shared
+field: add its actual currents and then complete the square.
+
+For commuting placement incidences and a product placement/internal trial,
+the additional fluctuation payment contains
+\begin{equation}
+\epsilon^2\int\frac{1}{\omega}
+\sum_{ij}\operatorname{Cov}(P_i,P_j)
+\langle A_i^\dagger A_j\rangle.
+\label{eq:shared-cov-new}
+\end{equation}
+The whole covariance contraction is nonnegative and retains both ordered
+cross terms. Actual preparations with the same $p_1=p_2=1/2$ and opposite
+correlations differ by a factor of three in this payment under the common
+equal scalar-profile contract. The separate covariance case held this
+identity with 108 exact checks. With general separable scalar profiles,
+the corresponding ratio can range from $1/3$ to $3$; orthogonal profiles
+give one.\samref{NOV_COV} Individually paid
+He3 factors therefore leave a definite composite covariance question.
+Entangled inputs require the full conditioned source sectors.
+
+The source-current reduction has its own exact complement. For a graph
+with $n$ vertices, $m$ edges and $c$ components, the real two-quadrature
+current rank is $2(n-c)$ and the cycle dimension is $2(m-n+c)$. The actual
+Li6 source needs eight cycle coordinates beside ten independent currents.
+Keeping those coordinates gives an invertible current/chord register with
+its transported metric; eliminating them gives a memory term with an
+initial-hidden-state contribution. A scalar event sum cannot silently
+replace this complete source action. These restrictions explain which parts
+of the light-source construction remain reusable for a heavier isotope.
+
+\subsection{Microscopic bridge baselines and complete current images}
+
+The bridge/action investigation provides a useful conditional link from
+microscopic hopping to exchange. For a species-preserving spinful join with
+hopping coefficient $\tau_h$ and nonnegative doublon cost $U$, retaining
+the complete Pauli-allowed doublon sector gives
+\begin{equation}
+\begin{gathered}
+\delta_{\rm ex}=\frac{\sqrt{U^2+16\tau_h^2}-U}{2},\qquad
+ g_{\rm ex}=\delta_{\rm ex}/2,\\
+H_{\rm eff}=(2\tau_h-g_{\rm ex})I+g_{\rm ex}S_{\rm spin}.
+\end{gathered}
+\end{equation}
+The baseline obeys $2\tau_h-g_{\rm ex}\geq g_{\rm ex}$ and remains in the
+energy account. The full microscopic current excites the doublon at gap
+$U+\delta_{\rm ex}$, not merely the exchange splitting. This keeps the
+field denominator and the signed exchange coefficient distinct.
+\samref{NOV_BRIDGE}
+
+The actual six-object colour companion retains all $4^6=4096$ source
+coordinates. Its equal-strength joined ground lies near $-6.90254584g_s$,
+above the separated seven-edge floor $-7g_s$. In a separately declared
+stronger-join family, an invariant orbit crosses that floor at
+$(11-\sqrt{13})/6$; at join multiplier two, a trial gives
+$-318g_s/43$, leaving $17g_s/43$. This is an orbit threshold and a bare
+colour-source trial. The positive microscopic completion's two mandatory
+baselines cost at least $4g_s$, so it cannot supply that signed allowance
+without a different paid law. The complete 18-current Gram, including both
+complex mixed orders, remains an operand for a field calculation.
+
+The subsequent common-fermion calculation makes current-image payment
+especially clear. In one declared 96-state Slater/register receiver, a
+complete local Hermitian current obeys
+\begin{equation}
+P^*\sum_vD_v^2P=Q_m+L_m,\qquad L_m\geq0,
+\end{equation}
+where $L_m$ is the Gram of the current images outside the source code.
+At unchanged14336 and the stated unit kinetic/register/source parameters,
+activating both joins changes the normalized original contact by $-4/9$
+but changes the complete diagnostic energy by $+16/9$. All six assignments
+retain that reversal. Even when the equal-quadrature Hamiltonian closes on
+ten source directions, individual currents still leave that code.
+\samref{NOV_COMMON_RECEIVER}
+
+This receiver also preserves a correlation that independent fragment
+preparations would lose: its original phase-amplitude source has core versus
+pair/register Schmidt weights $2/3$ and $1/3$. The product-overlap identity
+fails by $2i/81$ on actual core/pair Writes. In a separate actual-adjacent
+H2 calculation, gluing to a filled ground core gives raw norm $5/8$ and
+normalized kinetic energy $96\tau/5$, instead of the unglued $12\tau$.
+The positive Pauli Gram allows a common polar isometry; it does not permit
+the old kinetic compression to be copied unchanged. These earlier
+constructions motivate the physical joins and full-parent calculations
+used next, while retaining their own register and orbital hypotheses.
+
+\subsection{A physical orbital receiver for the retained Li6 source}
+\label{sec:physical600}
+
+The focused continuation replaces an incompatible tensor dictionary with
+actual species-preserving orbital joins. The original proposed
+384-dimensional joint map had rank 382, and its two null directions were
+sent to nonzero states by the proposed lowering operator. Thus that operator
+could not descend to the physical image. The replacement keeps the nine
+original contact coordinates, every placement, the phase overlaps and the
+transported Writes.\samref{NOV_JOINT}
+
+The replacement's source has dimension $600=25\cdot24$, with raw metric
+\begin{equation}
+M_{600}=I_{25}\otimes G_{00}.
+\end{equation}
+The core factors use five retained down-Walsh modes per species; the residual
+pair keeps all 24 oriented adjacent placements with their Pauli Gram
+$G_{00}$. A single positive polar normalization turns this raw source into
+an isometry. Normalizing columns individually would not preserve their
+cross Grams. The 125-dimensional phase kinetic/current closure and the
+600-dimensional source are incomparable subspaces inside a 925-dimensional
+placement closure. Physical densities leave all three.
+
+The complete one-cell fixed-weight CAR parent has 50,176 states at flavor
+population $\mu=(2,1,2,1)$. The ambient space used for full $U(4)$ symmetry
+is $\Lambda^6(\mathbb C^8\otimes\mathbb C^4)$, of dimension 906,192.
+These parents, rather than a source frame, supply the operator domains.
+In the original ledger convention the unchanged preparation is
+\begin{equation}
+z_{14336}=\tfrac13(1,1,-1,-1,-1,1,1,1,1)^T.
+\end{equation}
+Its physical contact kinetic expectation is $(1028/45)\tau$ before the
+external-cell diagonal is added. A physical proton join changes the local
+proton density from $23/72$ to $25/72$ while preserving total proton number.
+This makes the density recipient operationally different from a neutral
+register transition.\samref{NOV_RELAX}\samref{NOV_LI6_CASE}
+
+\subsection{One scalar law for joined matter and every fragment}
+\label{sec:scalar-law-new}
+
+The verified conditional model places four CAR flavors on
+$\mathbb Z^3\times Q_3$ and a full scalar Fock field on the same sites. Its
+positive parameters and common vacuum zero are fixed by
+\begin{align}
+T&=\sum_{a=1}^{N}(2\tau L_{Q_3}+t_cL_{\mathbb Z^3})_a,\\
+\omega&=\bigoplus_{R\in\mathbb Z^3}(I+L_{Q_3}),\\
+H&=T+\dd\Gamma(\omega)
+ +g\sum_{R,x}\rho_{R,x}(b_{R,x}+b_{R,x}^\dagger),
+\label{eq:scalar-law-new}
+\end{align}
+where $\tau>0$, $t_c\geq0$ and $g$ is real. There is no compensating
+density counterterm. This is an explicitly supplied receiving law; the
+earlier incidence action does not select its density vertex or its field
+normalization. If the incidence action is also assigned physical energy,
+it must be transported and paid in both branches of a new comparison.
+\samref{NOV_LI6_CASE}\samref{NOV_RECEIVING}
+
+Put $G=\omega^{-1}$ and $V=\sum_R\rho_R^TG_R\rho_R$. On the common form
+domain the exact completion is
+\begin{equation}
+H=T+(b+gG\rho)^\dagger\omega(b+gG\rho)-g^2V
+\ \geq T-g^2V.
+\label{eq:full-square-new}
+\end{equation}
+All self terms and both ordered mixed terms are present. For fixed particle
+number, $\|\rho\|_2\leq N$ and $I\leq\omega\leq7I$, so the coupling is
+form bounded on the full Fock domain. Conditional Weyl displacement is a
+unitary there, not a zero/one-boson truncation.
+
+The cube Green matrix has $105G_{xy}=36,13,8,6$ at graph distances
+$0,1,2,3$. A coherent cloud over a matter determinant has field energy
+$+g^2V$ and interaction energy $-2g^2V$. The internal hopping retains the
+overlap between different clouds. On the localized six-particle trial,
+the exact expectation compression is
+\begin{equation}
+\begin{split}
+J_g^*HJ_g={}&36(\tau+t_c)I-g^2V\\
+&-2\tau e^{-583g^2/11025}A,
+\end{split}
+\label{eq:dressed-pullback-new}
+\end{equation}
+with $A$ the signed physical CAR adjacency. The exponent follows from
+$\|G(e_x-e_y)\|^2/2=583/11025$ on a cube edge. Equation
+\eqref{eq:dressed-pullback-new} is a form compression; it does not replace
+the full interacting Hamiltonian outside the trial range.
+
+\subsection{The universal proper-particle lower}
+\label{sec:proper-lower-new}
+
+Every proper particle and flavor partition is compared under the same law.
+The deepest potential partition is $5+1$, with coefficient $752/105$;
+testing $4+2$ alone would miss it. The noncommuting kinetic calculation
+retains, for the five-particle maximum-potential space,
+\begin{equation}
+\begin{gathered}
+V_{\max}=716/105,\quad \Delta V=40/105,\\
+PTP=30\tau P,\quad QTQ\geq4\tau Q,\quad
+PTQTP=52\tau^2P.
+\end{gathered}
+\end{equation}
+Here $P$ is the complete maximum space and $Q=I-P$. Cauchy--Schwarz
+therefore bounds the shifted form by the smaller eigenvalue of
+\begin{equation}
+\begin{pmatrix}
+30\tau&-\sqrt{52}\tau\\
+-\sqrt{52}\tau&4\tau+(40/105)g^2
+\end{pmatrix}.
+\end{equation}
+The four-flavor four-particle block has the corresponding factors
+$(24,0,48)$ and potential gap $138/105$.
+
+The proof discards nonnegative cell hopping before resolving every cell
+allocation. Each resulting block is a sum of the complete one-cell fragment
+operators. Combining their bounds over all proper flavor partitions yields
+\begin{equation}
+L_{\rm proper}\geq-\frac{752}{105}g^2+8\tau,
+\qquad g^2\geq\frac{735}{44}\tau.
+\label{eq:proper-lower-new}
+\end{equation}
+A second verified branch is
+\begin{equation}
+L_{\rm proper}\geq-\frac{752}{105}g^2+\frac{79}{10}\tau,
+\qquad g^2\geq\frac{22323}{1360}\tau.
+\label{eq:proper79-new}
+\end{equation}
+The localized uppers still pay $36t_c$. Imposing a one-cell Pauli floor on
+a delocalized fragment without this allocation argument would be invalid.
+The finite verification rebuilt 60,712 determinants in 34 proper sectors
+and 91 proper flavor partitions; the written form argument supplies the
+full-Fock and all-cell extension.\samref{NOV_LI6_CHANNEL}
+
+\subsection{Two source-connected energy certificates}
+\label{sec:li6-certificates-new}
+
+The first construction retains physical hopping and connects a selected
+28-determinant trial to an explicit source preimage. It applies an invertible
+finite filter to all 600 source directions, followed by one common polar
+normalization. At filter parameter 30 the source-metric residual is less
+than $1/62500$ and its energy cost is included. At
+$(\tau,t_c,g^2)=(1,1/1000,33/2)$ the margin against
+\eqref{eq:proper79-new} is
+\begin{equation}
+\frac{204347225017}{989900828000}>0.2064.
+\end{equation}
+The retained parameter box
+\begin{equation}
+\begin{gathered}
+\tau\in[1,1001/1000],\quad t_c\in[1/1000,1/500],\\
+g^2\in[1649/100,33/2]
+\end{gathered}
+\end{equation}
+has lower margin $3784147145591/29697024840000>0.1274$.
+The finite matter map and its source seed remain fixed throughout the box;
+the coherent dressing follows the indicated coupling. This selected source input is different from
+unchanged 14336, and $g^2=33/2$ does not satisfy the condition for the
+$8\tau$ branch.\samref{NOV_LI6_TRANSFER}
+
+The second construction preserves the entire flavor representation of the
+original preparation. Its occupied orbital sectors and capacities are
+shown in Table~\ref{tab:flavor-new}. These are the partitions $42$, $33$
+and $321$ in the orbital/flavor decomposition; a map acts on their orbital
+factors and identically on the flavor factors. The target capacities suffice
+for every Schmidt component of the original phase9 source. Extending this
+map over the full parent supplies one isometry on all 600 source directions
+and transports every original Write.\samref{NOV_LI6_SYMMETRY}
+
+\begin{table}[htbp]
+\centering\small
+\caption{Flavor-preserving reception of unchanged 14336. The last two
+columns are sufficient source Schmidt-span bounds and available target
+orbital capacities, respectively.}
+\begin{tabular}{ccccc}\toprule
+$\lambda$ & Weight & $V_{\max}$ & Span & Capacity\\\midrule
+$42$ & $169/675$ & $928/105$ & 5 &24\\
+$33$ & $34/135$ & $882/105$ & 4 &12\\
+$321$ & $112/225$ & $770/105$ &32 &48\\\bottomrule
+\end{tabular}
+\label{tab:flavor-new}
+\end{table}
+
+The target hopping compression vanishes. Its weighted density value and
+complete upper are
+\begin{equation}
+\bar v=\frac{565492}{70875},\qquad
+U_{14336}=36(\tau+t_c)-g^2\bar v.
+\end{equation}
+At $(\tau,t_c,g^2)=(1,1/1000,35)$,
+\begin{equation}
+\begin{gathered}
+U_{14336}=-\frac{4925191}{20250},\qquad
+L_{\rm proper}\geq-\frac{728}{3},\\
+L_{\rm proper}-U_{14336}\geq\frac{11191}{20250}>0.5526.
+\label{eq:held-margin-new}
+\end{gathered}
+\end{equation}
+This is the unchanged-preparation certificate used in the following
+formation chapter. Full flavor multiplicity, source norm and field
+occupation remain. The energy statement applies to the specified phase
+source and preparation; carrying all 600 directions by an isometry does
+not give each direction the same energy upper.
+
+All nine submitted common-law, channel, transfer and symmetry claims held
+in the separate-code CR2 reconstruction. Nineteen controls detected the
+registered invalid alterations, and three relocated replays matched the
+sealed results. The verification is internal I1/R2: independent derivations
+and code within the inherited model, with portable replay. The two
+receiving maps above are alternative constructions; their gains are not
+additive.\samref{NOV_LI6_CASE}
+
+\subsection{What the successful relaxation changes}
+
+Exact bounds on the earlier trial spaces explain why simply repeating the
+same construction was insufficient. The physical125 family has $V\leq19/3$,
+the original600 source has $V\leq47/7$, and the complete925 kinetic/current
+closure has $V\leq7$. In their stated coherent-field trial families these
+bounds miss the relevant supplied channel lower. The successful maps reach
+the physical complement while preserving source information. An infinite
+filter, by contrast, can discard source directions; a finite filter with
+one polar normalization retains them with a paid residual.
+\samref{NOV_RELAX}
+
+The comparison is between a full energy upper and proper matter-particle
+fragment lowers. Translation fibers, escaping free bosons and the essential spectrum require a separate spectral argument. Section~\ref{sec:fiber-12} now supplies it for the stated lattice law and sectors42,33; it does not promote321. Atomic endpoints additionally require the electron and recoil
+recipients developed later in this volume. The immediate next layer is
+constructive: which controls create the certified state, what source
+arrives, and where the energy and information go during preparation?

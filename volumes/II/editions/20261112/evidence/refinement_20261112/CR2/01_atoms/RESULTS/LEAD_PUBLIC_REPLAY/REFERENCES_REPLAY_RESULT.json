@@ -1,0 +1,43 @@
+{
+  "returncode": 0,
+  "wall_seconds": 1.832030497957021,
+  "audit": "host/lead_replay/atoms_20261111T235454Z/REFERENCES_PUBLIC_READ_AUDIT.json",
+  "outputs": {
+    "CONTROLS.json": {
+      "sha256": "fafa04e809ce19ea52ccd5e549285df521d35cf9fe935c8efa4f361fec41d2d7",
+      "expected_sha256": "fafa04e809ce19ea52ccd5e549285df521d35cf9fe935c8efa4f361fec41d2d7",
+      "match": true
+    },
+    "FINITE_CORE_COMPLETE.json": {
+      "sha256": "5d6b88f312205df93101e126b01d11558110fb6823becaa156f46d05b7fc51d0",
+      "expected_sha256": "5d6b88f312205df93101e126b01d11558110fb6823becaa156f46d05b7fc51d0",
+      "match": true
+    },
+    "NUCLEAR_RECONSTRUCTION.json": {
+      "sha256": "6e58aab8aeecef64f3ae38f6baf445dcec631f2d3af2b0de963b04537d569339",
+      "expected_sha256": "6e58aab8aeecef64f3ae38f6baf445dcec631f2d3af2b0de963b04537d569339",
+      "match": true
+    },
+    "OCCUPIED_PREFIXES.json": {
+      "sha256": "a672c866f42faf8b3b9b7938455a752f0d59f00aa227523301cc0861e799d3f6",
+      "expected_sha256": "a672c866f42faf8b3b9b7938455a752f0d59f00aa227523301cc0861e799d3f6",
+      "match": true
+    },
+    "POINT_BINDING_ALL44.json": {
+      "sha256": "499bcdb0e150f300479b7de28bf42528c5f44b27f080bf94d1a16352e71a7921",
+      "expected_sha256": "499bcdb0e150f300479b7de28bf42528c5f44b27f080bf94d1a16352e71a7921",
+      "match": true
+    },
+    "SIX_PHASE_GUARANTEES.json": {
+      "sha256": "f667ced8dbd67a0643396ea7677ec06c535bc309b344605b68ac739f4fdf26d8",
+      "expected_sha256": "f667ced8dbd67a0643396ea7677ec06c535bc309b344605b68ac739f4fdf26d8",
+      "match": true
+    },
+    "SUMMARY.json": {
+      "sha256": "300977a9f37487d350b5aa97421dbe5e4cfaa094d9061686ff6abf69826b52a2",
+      "expected_sha256": "300977a9f37487d350b5aa97421dbe5e4cfaa094d9061686ff6abf69826b52a2",
+      "match": true
+    }
+  },
+  "status": "PASS"
+}

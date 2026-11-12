@@ -1,0 +1,242 @@
+[
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/he3_relaxed_field_20261108/02_independent_verification/peers/VERIFIER/DERIVATION_BEFORE_EXECUTION.md",
+    "snapshot": "evidence/Courtroom_II/campaigns/he3_relaxed_field_20261108/02_independent_verification/peers/VERIFIER/DERIVATION_BEFORE_EXECUTION.md",
+    "sha256": "906319145b9bec2470482768a8400b6b665612635d94d04a6314f4f6f329204d",
+    "bytes": 5313
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/he3_relaxed_field_20261108/02_independent_verification/peers/VERIFIER/HYPOTHESES.md",
+    "snapshot": "evidence/Courtroom_II/campaigns/he3_relaxed_field_20261108/02_independent_verification/peers/VERIFIER/HYPOTHESES.md",
+    "sha256": "e7d7de33498115c35782dbdd820dcdca3e50e52ae22cb7b9b1b7493095d68321",
+    "bytes": 7352
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/he3_relaxed_field_20261108/02_independent_verification/peers/VERIFIER/NOTES.md",
+    "snapshot": "evidence/Courtroom_II/campaigns/he3_relaxed_field_20261108/02_independent_verification/peers/VERIFIER/NOTES.md",
+    "sha256": "319c500c34bf63bf787acb96f33bb74cf0a8dbbe816d737c3e80e015aa163db3",
+    "bytes": 2510
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/isotope_constructor_checks_20261108/01_free_reference/REPORT.md",
+    "snapshot": "evidence/Courtroom_II/campaigns/isotope_constructor_checks_20261108/01_free_reference/REPORT.md",
+    "sha256": "09eead2163f67207539a3221f051ff1d77c2398210c32cf4f40db309ea42f6a6",
+    "bytes": 4513
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/isotope_constructor_checks_20261108/01_free_reference/peers/VERIFIER/SCOPE_CLARIFICATION.md",
+    "snapshot": "evidence/Courtroom_II/campaigns/isotope_constructor_checks_20261108/01_free_reference/peers/VERIFIER/SCOPE_CLARIFICATION.md",
+    "sha256": "0579d2185f073640129716e1f7d728e2a8957089481b25be08bab6cf65471bf5",
+    "bytes": 5264
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/isotope_constructor_checks_20261108/02_shared_field_covariance/REPORT.md",
+    "snapshot": "evidence/Courtroom_II/campaigns/isotope_constructor_checks_20261108/02_shared_field_covariance/REPORT.md",
+    "sha256": "eb82ad3d99ef453c1def02a4ab237a587bacbc06581421e2a9d278326330185c",
+    "bytes": 4714
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/REPORT.md",
+    "snapshot": "evidence/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/REPORT.md",
+    "sha256": "4c6fbdeef785296acd11b4be557ea0a7789841585837837245faca5ada87ce3f",
+    "bytes": 7344
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/RESULTS/INTEGRATION.json",
+    "snapshot": "evidence/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/RESULTS/INTEGRATION.json",
+    "sha256": "e96ddb6dfd88f73b1ed99cd8c3871121c58a19b2b1e7e44426d5c0e7ad26d65c",
+    "bytes": 1857
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/RESULTS/LEAD_REVIEW.json",
+    "snapshot": "evidence/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/RESULTS/LEAD_REVIEW.json",
+    "sha256": "6bb1df4d714fb0bd1f4eca0aafd620f36366b93e94788014dec9ecc4218f60e5",
+    "bytes": 2031
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/CHANNEL/DERIVATION.md",
+    "snapshot": "evidence/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/CHANNEL/DERIVATION.md",
+    "sha256": "7fc9859ae6c8a22046af5d515f0e451b17c5099e8c66e39b63187bc7cc904e77",
+    "bytes": 18634
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/CHANNEL/HYPOTHESES.md",
+    "snapshot": "evidence/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/CHANNEL/HYPOTHESES.md",
+    "sha256": "6154635bbd02e522c6f704dd9e678bc8f0d0a19d03f72a363748aeb5de5c8a05",
+    "bytes": 3702
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/SYMMETRY/DERIVATION.md",
+    "snapshot": "evidence/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/SYMMETRY/DERIVATION.md",
+    "sha256": "25822f3d3cfc0f0f63ebeb838dbb04783c7bed418e157cf0797f96ba2622029e",
+    "bytes": 20335
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/SYMMETRY/HYPOTHESES.md",
+    "snapshot": "evidence/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/SYMMETRY/HYPOTHESES.md",
+    "sha256": "166a31b10ee783a4588cdb932dcdea6a236466878b1116757d63537299bccbfd",
+    "bytes": 4203
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/TRANSFER/DERIVATION.md",
+    "snapshot": "evidence/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/TRANSFER/DERIVATION.md",
+    "sha256": "9bd41d5b2e1d045b99c804ec4e48f79f6cb936129c3fb48ba5aa939ecb2c05d7",
+    "bytes": 17865
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/TRANSFER/HYPOTHESES.md",
+    "snapshot": "evidence/Courtroom_II/campaigns/volii_relaxation_20261110/01_source_connected_certificates/peers/TRANSFER/HYPOTHESES.md",
+    "sha256": "a0bb6e57e5eb5342d97e0478bc2cf9b1286266fdb877723447496791d2da1db2",
+    "bytes": 3838
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/he3_relaxed_field_cr2_20261108/DERIVATION.md",
+    "snapshot": "evidence/ironclad/campaigns/he3_relaxed_field_cr2_20261108/DERIVATION.md",
+    "sha256": "05ecf30fed217a0f179e721a442687df1200851834f817a34ec3da6a7e44482b",
+    "bytes": 6716
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/he3_relaxed_field_cr2_20261108/REPORT.md",
+    "snapshot": "evidence/ironclad/campaigns/he3_relaxed_field_cr2_20261108/REPORT.md",
+    "sha256": "77bfd1e2289e5da7c8fa6d94e7d524c9f2175baa9dc781778fa9289be38d5f32",
+    "bytes": 6372
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/he3_relaxed_field_verification_20261108/REPORT.md",
+    "snapshot": "evidence/ironclad/campaigns/he3_relaxed_field_verification_20261108/REPORT.md",
+    "sha256": "6b08918eade1736c56d896865626585ec24f0a8da79e619c7d03c4a0c5e198e8",
+    "bytes": 5920
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/he4_k4_free_receiver_20261108/RESEARCH_REPORT.md",
+    "snapshot": "evidence/ironclad/campaigns/he4_k4_free_receiver_20261108/RESEARCH_REPORT.md",
+    "sha256": "9aa64988a7cd0d36fc30ee41dfd067c8988bd5854c03663fc3a332410adb190c",
+    "bytes": 11822
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_a1_light_sources_20261108/RESEARCH_REPORT.md",
+    "snapshot": "evidence/ironclad/campaigns/volii_a1_light_sources_20261108/RESEARCH_REPORT.md",
+    "sha256": "e5fd3db1591499e556a01f90a5ec1cf76fd60c7331c1e8e3c807890741156713",
+    "bytes": 17233
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_isotope_constructor_20261108/RESEARCH_REPORT.md",
+    "snapshot": "evidence/ironclad/campaigns/volii_isotope_constructor_20261108/RESEARCH_REPORT.md",
+    "sha256": "f1cc5bcc346e01ab7497798f6856d87e9ed22e796152a667458be442c53b0b9c",
+    "bytes": 22168
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_joint_receiver_field_20261110_w1/RESEARCH_REPORT.md",
+    "snapshot": "evidence/ironclad/campaigns/volii_joint_receiver_field_20261110_w1/RESEARCH_REPORT.md",
+    "sha256": "c870d3729bef9b199064000cf983dbfd00c8b0cfdab20a64fe2e80a40a75abcb",
+    "bytes": 8925
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_li6_bridge_action_20261108/RESEARCH_REPORT.md",
+    "snapshot": "evidence/ironclad/campaigns/volii_li6_bridge_action_20261108/RESEARCH_REPORT.md",
+    "sha256": "8aca09182b10927ee00d4fb57b18851bcd2109d8e56a143f00363c3928f63348",
+    "bytes": 17248
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_physical_relaxation_20261110_w2/RESEARCH_REPORT.md",
+    "snapshot": "evidence/ironclad/campaigns/volii_physical_relaxation_20261110_w2/RESEARCH_REPORT.md",
+    "sha256": "46e3ca0aeaec6a5be1ac6776992b117da8347663976642a26031d6fadb040bd3",
+    "bytes": 14955
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/RESEARCH_REPORT.md",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/RESEARCH_REPORT.md",
+    "sha256": "c2ee805e9fef988037e4df8bdd5d194b224ee46fd32eac2b3f50a3fc906acd54",
+    "bytes": 16181
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/RESULTS_INDEX.json",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/RESULTS_INDEX.json",
+    "sha256": "8841f3a9609d2bbf588d161b9ab96d318af290d85d3f67102b835710c2a0bef8",
+    "bytes": 5280
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/host/review/LEAD_CONSISTENCY_CHECK.json",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/host/review/LEAD_CONSISTENCY_CHECK.json",
+    "sha256": "8fb5ae3b05b4adfc2ea63a013944bfe7a2dd09e0007e4657dcad2c36f4134789",
+    "bytes": 2436
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/host/review/PRIMARY_SOURCE_READBACK.json",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/host/review/PRIMARY_SOURCE_READBACK.json",
+    "sha256": "4cc46a7f1bdbd6b226c00f9766a2184475f3ac8f5e68b01fa95defca851aac35",
+    "bytes": 1528
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/host/review/lead_consistency_check.py",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/host/review/lead_consistency_check.py",
+    "sha256": "90135078f84c5b26af07d23ac786504c82a0c9cd4cb744af924dde1d35a25b67",
+    "bytes": 6902
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/CLOSING_AUDIT.md",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/CLOSING_AUDIT.md",
+    "sha256": "e16fb830cde745a752c94afb63a0336fcfd31067ff6b670d3a3f9dff9f7a16ee",
+    "bytes": 7595
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/REPORT.md",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/REPORT.md",
+    "sha256": "f1efe313a45abc2c9855974633c3b576f68605e3d88d0a8ba0a7dd5fbbf8e9de",
+    "bytes": 18542
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/gen/ACTION_FAMILY_AND_ROBUSTNESS.md",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/gen/ACTION_FAMILY_AND_ROBUSTNESS.md",
+    "sha256": "88153b723692d5257312b5564039995b1f7ce915b6df47307e306a425d8a3c06",
+    "bytes": 6334
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/gen/FINITE_BATTERY_WORKING.md",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/gen/FINITE_BATTERY_WORKING.md",
+    "sha256": "ba7f7adeea256decfde318ffc322530f4b4c3f9713bd8821c737d8380d437be6",
+    "bytes": 5428
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/gen/FLAVOR_VERTEX_PROBES.json",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/gen/FLAVOR_VERTEX_PROBES.json",
+    "sha256": "be9acad4729d08659394811e18229216bd9d1a066895775bec5f7d947ca91569",
+    "bytes": 59429
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/gen/Q4_SOURCE600_REPAIR.json",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/gen/Q4_SOURCE600_REPAIR.json",
+    "sha256": "361a6af62a472aec4245507a2ab407510c3ba48098f78dd16a2b0d2bf2094c60",
+    "bytes": 157682
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/gen/STATIC_KERNEL_IDENTIFICATION.json",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/peers/FOUR/gen/STATIC_KERNEL_IDENTIFICATION.json",
+    "sha256": "6b26a66646cef479464b616e9071b26599a2e297196772959b27cd0697eb84f8",
+    "bytes": 2207414
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/peers/ONE/REPORT.md",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/peers/ONE/REPORT.md",
+    "sha256": "2ad999cc1a15d647b001f554500c58f2e51b5b82350296b4b865cece03b08e47",
+    "bytes": 27468
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/peers/ONE/gen/SPATIAL_INSTRUMENT_REPAIR_WORKING.md",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/peers/ONE/gen/SPATIAL_INSTRUMENT_REPAIR_WORKING.md",
+    "sha256": "6f68b4376d0bf4b51dfcebdf5b40c72faae3eea8947881c217400f5fe67510ab",
+    "bytes": 6480
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/peers/THREE/REPORT.md",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/peers/THREE/REPORT.md",
+    "sha256": "389ecfd527b0d221eb1fb2203140778c0df63232137c3b496f754c1fb7ac80dc",
+    "bytes": 19675
+  },
+  {
+    "original": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_receiving_action_20261110/peers/TWO/REPORT.md",
+    "snapshot": "evidence/ironclad/campaigns/volii_receiving_action_20261110/peers/TWO/REPORT.md",
+    "sha256": "b8cf48ca3827482993d506c94ca2203e2c7743dd26e67d87664a3fbed35dd548",
+    "bytes": 17426
+  }
+]

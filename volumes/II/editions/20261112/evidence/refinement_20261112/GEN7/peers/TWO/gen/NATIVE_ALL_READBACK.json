@@ -1,0 +1,207 @@
+[
+  {
+    "key": "TWO_GEO_A05_REPAIR_V1",
+    "status": "COMPLETED",
+    "receipt_sha256": "a28e2b27ae1bc9fbf19dfb5af5e508db46cf786e16b6877c02f1a45fa474caa1",
+    "record_sha256": "006d6fa4881ff021a469ce03c8b490a0147a0975fd2e2e5d94d1ce28f9a687f6",
+    "value": [
+      [
+        {
+          "a": "1093/10000",
+          "b": "-7/225"
+        }
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_GEO_A05_REPAIR_V1/RESULT.json"
+  },
+  {
+    "key": "TWO_GEO_CONTROL_V3",
+    "status": "COMPLETED",
+    "receipt_sha256": "4c0b008fead4586703156873ca87b841ff2c2964ece7c1bd1c895c1c36a9880c",
+    "record_sha256": "1cb01c8e3142d0c0023246642a2e24bd7cc7d70303345391085582e07290c340",
+    "value": [
+      [
+        "6"
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_GEO_CONTROL_V3/RESULT.json"
+  },
+  {
+    "key": "TWO_GEO_FLOOR_DOMINANCE_V1",
+    "status": "COMPLETED",
+    "receipt_sha256": "48d725eca9ac3db1bb3664800dc794ca91d6a7884ad27963ec5ae24cd5f1e5c3",
+    "record_sha256": "660eca83f71b66b3533580b34499958ee7d975277830bf49a3fc39d4181773de",
+    "value": [
+      [
+        "213/784",
+        "0"
+      ],
+      [
+        "0",
+        "23/18"
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_GEO_FLOOR_DOMINANCE_V1/RESULT.json"
+  },
+  {
+    "key": "TWO_GEO_MID_WEIGHT_V1",
+    "status": "COMPLETED",
+    "receipt_sha256": "c883e532b5b30ea021a8aa3e38a066d2a7484210bd805308ae739109c21fde9b",
+    "record_sha256": "8d5bf00cf76c292c3acc842b2791194d786d885e3460df85f150cc2bac390ca1",
+    "value": [
+      [
+        {
+          "a": "3217/1024",
+          "b": "-27/1024"
+        }
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_GEO_MID_WEIGHT_V1/RESULT.json"
+  },
+  {
+    "key": "TWO_GEO_PROFILE_V1",
+    "status": "COMPLETED",
+    "receipt_sha256": "70d4fe32f0b2f730fc29e39b5ecc1186e683aa03efed4cbaf5caf288f82ca3b2",
+    "record_sha256": "d435377c343e9173f7961b0eaf5d6bd7f6c613d8fd2939687448bf10f157d75a",
+    "value": [
+      [
+        "0"
+      ],
+      [
+        "0"
+      ],
+      [
+        "0"
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_GEO_PROFILE_V1/RESULT.json"
+  },
+  {
+    "key": "TWO_GEO_WEIGHT_V1",
+    "status": "COMPLETED",
+    "receipt_sha256": "eca32663b27ad7b0edeaff08a72d0f2dc2fe56c27ef12051a295fa370af5572b",
+    "record_sha256": "97b0f8ab77688890156c3028a6558c4441c829641aeee5cc43a4259f1bc7a1a1",
+    "value": [
+      [
+        "49/18"
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_GEO_WEIGHT_V1/RESULT.json"
+  },
+  {
+    "key": "TWO_NEUTRALITY_CONTROL_V3",
+    "status": "COMPLETED",
+    "receipt_sha256": "187cb2145db832a634db99ef0b51c7ece3b0c2f70963ab982a7a607f9df0be3b",
+    "record_sha256": "7a5216172607ef95199a318d1fb38e58cb90deafdd593f91aad6e89c2c6c4ed4",
+    "value": [
+      [
+        "1"
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_NEUTRALITY_CONTROL_V3/RESULT.json"
+  },
+  {
+    "key": "TWO_ROTOR_CARBON_V1",
+    "status": "COMPLETED",
+    "receipt_sha256": "23b4aaec9df9cf64f0c5dd0c4fd7d123cfdf064b98496a17450590b8f24f43c4",
+    "record_sha256": "8afb2471f9b6e3bb066a050ce05747da0c4fc2467b4a36d13a02f426e01aa821",
+    "value": [
+      [
+        "-27/25"
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_ROTOR_CARBON_V1/RESULT.json"
+  },
+  {
+    "key": "TWO_ROTOR_CONTROL_V3",
+    "status": "COMPLETED",
+    "receipt_sha256": "5382bb6de85b82461009ddffd44371efe2f126e7b041079dc1d82d1e91f8e8a7",
+    "record_sha256": "a73b799b578fadb15a65717a01567b80973dd7be384534ef4c28629a7be4c9fe",
+    "value": [
+      [
+        "-27/25"
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_ROTOR_CONTROL_V3/RESULT.json"
+  },
+  {
+    "key": "TWO_ROTOR_GENERAL_V1",
+    "status": "COMPLETED",
+    "receipt_sha256": "4eed704091dce73f8a755c2132129114111a7fb71b9c509ae261984a13314048",
+    "record_sha256": "4f0a7a7f4775693ed915fe10768d379f5911d0a0dcc736870e18517f6f4e5ed1",
+    "value": [
+      [
+        "-673/600"
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_ROTOR_GENERAL_V1/RESULT.json"
+  },
+  {
+    "key": "TWO_ROTOR_RESOLVENT_V1",
+    "status": "COMPLETED",
+    "receipt_sha256": "c9f2b9aedf02ad8ad34bb24129772a2312360553b98c426a84e8b5f3c984d8f4",
+    "record_sha256": "189828cb4de61570a5f13c48b5184a4cb136618b50ccdff9832b7cb0ad0c4173",
+    "value": "15/15 exact rational solution components enclosed; gaps4,2,2",
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_ROTOR_RESOLVENT_V1/RESULT.json"
+  },
+  {
+    "key": "TWO_ROTOR_THERMAL_V1",
+    "status": "COMPLETED",
+    "receipt_sha256": "1a4e5893d78e9de13595a2ca03e98d6717817d67a86685aba0fee6d2eaef1759",
+    "record_sha256": "fa45db08806e70bcbb185ee473011803f0dc5b2943f7c276c59207e223f3a0ff",
+    "value": [
+      [
+        "-673/300"
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_ROTOR_THERMAL_V1/RESULT.json"
+  },
+  {
+    "key": "TWO_ROTOR_THERMAL_V3",
+    "status": "COMPLETED",
+    "receipt_sha256": "c062628736049fda8ea581e3853dca09dc686483c39ea62fb5a19f8534795a5e",
+    "record_sha256": "35fa316f76bd64966fcb2c0846053bd5278e6c7fe247a609d803ddc8122aaad9",
+    "value": [
+      [
+        "-1321/600"
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_ROTOR_THERMAL_V3/RESULT.json"
+  },
+  {
+    "key": "TWO_TAYLOR_OWN_V1",
+    "status": "COMPLETED",
+    "receipt_sha256": "a930b0d0b37fe2b7b452a98ca30c24e127afa4eb0ffbd57c4dfc54b50225901a",
+    "record_sha256": "e42f7e355ddb054573155e3ce92c880da43e9ef8586a5bfdc636e74050295f6c",
+    "value": [
+      [
+        "12/25"
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_TAYLOR_OWN_V1/RESULT.json"
+  },
+  {
+    "key": "TWO_TAYLOR_PAIR_V1",
+    "status": "COMPLETED",
+    "receipt_sha256": "0bb3ba73e587d7d50a9a953c370fa76f9ae4e98bf9875c293bacb0f20adb0d9f",
+    "record_sha256": "db0964e76e959a68f9eff0cfe6baf80b585298e5ee3f78551d160693a73f2796",
+    "value": [
+      [
+        "714/625"
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_TAYLOR_PAIR_V1/RESULT.json"
+  },
+  {
+    "key": "TWO_TAYLOR_SIGN_CONTROL_V1",
+    "status": "COMPLETED",
+    "receipt_sha256": "f995659006113f2ea4e79534039ea96b1f9bc4a152646634af4f7d3860183422",
+    "record_sha256": "da9ae477473e7741295981fbd9f8557fb199ad64a523269c792b40379956aef7",
+    "value": [
+      [
+        "-1"
+      ]
+    ],
+    "receipt_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_02/tasks/TWO_TAYLOR_SIGN_CONTROL_V1/RESULT.json"
+  }
+]

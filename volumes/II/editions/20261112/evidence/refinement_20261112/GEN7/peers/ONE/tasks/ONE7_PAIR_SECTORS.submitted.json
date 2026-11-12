@@ -1,0 +1,15 @@
+{
+ "kind": "gen6_job",
+ "key": "ONE7_PAIR_SECTORS",
+ "purpose": "Reconstruct actual separated full-flavor pair-sector Grams from central CAR operators and demonstrate a reachable C3-omission control.",
+ "job_path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/ONE/tasks/ONE7_PAIR_SECTORS.job.json",
+ "controller": "G6_01",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ },
+ "job_sha256": "3ee32d7268da95c117e725e86539e86abf66881167f91a3451ec08defe21bcd5"
+}

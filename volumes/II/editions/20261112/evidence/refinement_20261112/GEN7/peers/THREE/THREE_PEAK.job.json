@@ -1,0 +1,863 @@
+{
+ "schema": "SAM_ONE_PRINCIPLE_NATIVE_JOB_V1",
+ "objective": "Sharp short-time coefficient and global integer-layer optimum; absolute conditional entropy check",
+ "precision_bits": 384,
+ "sources": [
+  {
+   "path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/THREE/PREDICTIONS.md",
+   "sha256": "51f3d2c3e3267fda1cbd723055493800d80e0aa2142e10a0729fd05042ebb35c"
+  },
+  {
+   "path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/THREE/build_peak.py",
+   "sha256": "1d6a6d65d7ef4d80e012c63476b14461fab79a423a3cfefa59dd24e727429c78"
+  },
+  {
+   "path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/THREE/evidence/star_host.json",
+   "sha256": "d87681208d192a84b668b10728f641b6e8428ccba09eff8c559931ee2924cb1c"
+  }
+ ],
+ "steps": [
+  {
+   "id": "C_k1",
+   "operation": "GEN5_LOG_EVALUATE",
+   "purpose": "Certified exact rational logarithmic coefficient/witness",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "expression": {
+      "terms": [
+       {
+        "argument": "105093049/193109800",
+        "coefficient": "-105093049/772439200"
+       }
+      ],
+      "constant": "-9249948725663799/149165579424160000"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "C_k2",
+   "operation": "GEN5_LOG_EVALUATE",
+   "purpose": "Certified exact rational logarithmic coefficient/witness",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "expression": {
+      "terms": [
+       {
+        "argument": "57007098595961645770832669/174163499373856136885000000",
+        "coefficient": "-57007098595961645770832669/696653997495424547540000000"
+       }
+      ],
+      "constant": "-6678746490293428908786727889610570173949882467336439/121331698056588747939190129266303430012900000000000000"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "C_k3",
+   "operation": "GEN5_LOG_EVALUATE",
+   "purpose": "Certified exact rational logarithmic coefficient/witness",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "expression": {
+      "terms": [
+       {
+        "argument": "41212760287527553529502111787205140357025020124861/201665913641943433960679556770064141175925000000000",
+        "coefficient": "-41212760287527553529502111787205140357025020124861/806663654567773735842718227080256564703700000000000"
+       }
+      ],
+      "constant": "-6612717346573439260488035946288294746624964196598479610664504751584271604587518408629769364969730679/162676562900159147280650680952679949969198244473267175867466701214459796167198422500000000000000000000"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "C_k4",
+   "operation": "GEN5_LOG_EVALUATE",
+   "purpose": "Certified exact rational logarithmic coefficient/witness",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "expression": {
+      "terms": [
+       {
+        "argument": "163824947828855352639526705333591096776735269038715878672975677355227760075384438681/1257316995841854988125588297472053408861346054456982771998526231125743625000000000000",
+        "coefficient": "-163824947828855352639526705333591096776735269038715878672975677355227760075384438681/5029267983367419952502353189888213635445384217827931087994104924502974500000000000000"
+       }
+      ],
+      "constant": "-179141277716997857658856439791725142646261488060234051247797474079440002206375161924537272386348889732475874813053684546932035456663873058301839236638375909750550980239/6323384112131148774001482170405563961425729247426016002544368751203614215886560131806872628911907757303230033791694706489406907611464836912562500000000000000000000000000"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "C_h5",
+   "operation": "GEN5_LOG_EVALUATE",
+   "purpose": "Certified exact rational logarithmic coefficient/witness",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "expression": {
+      "terms": [
+       {
+        "argument": "717897987691852588770249/4437053125000000000000000",
+        "coefficient": "-717897987691852588770249/17748212500000000000000000"
+       }
+      ],
+      "constant": "-2669973988987334735005912102712503727297892477999/78749761736289062500000000000000000000000000000000"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "root_lo",
+   "operation": "GEN5_LOG_EVALUATE",
+   "purpose": "Certified exact rational logarithmic coefficient/witness",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "expression": {
+      "terms": [
+       {
+        "argument": "20318786997997/100000000000000",
+        "coefficient": "-1"
+       }
+      ],
+      "constant": "-79681213002003/50000000000000"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "root_hi",
+   "operation": "GEN5_LOG_EVALUATE",
+   "purpose": "Certified exact rational logarithmic coefficient/witness",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "expression": {
+      "terms": [
+       {
+        "argument": "10159393499/50000000000",
+        "coefficient": "1"
+       }
+      ],
+      "constant": "39840606501/25000000000"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "gap_k1",
+   "operation": "GEN5_LOG_EVALUATE",
+   "purpose": "Certified exact rational logarithmic coefficient/witness",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "expression": {
+      "terms": [
+       {
+        "argument": "41212760287527553529502111787205140357025020124861/201665913641943433960679556770064141175925000000000",
+        "coefficient": "-41212760287527553529502111787205140357025020124861/806663654567773735842718227080256564703700000000000"
+       },
+       {
+        "argument": "105093049/193109800",
+        "coefficient": "105093049/772439200"
+       }
+      ],
+      "constant": "267312675218915127276406091088561037873494858489557304900420542560657782632269124133046587310020717/12513581761550703636973129304052303843784480344097475066728207785727676628246032500000000000000000000"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "gap_k2",
+   "operation": "GEN5_LOG_EVALUATE",
+   "purpose": "Certified exact rational logarithmic coefficient/witness",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "expression": {
+      "terms": [
+       {
+        "argument": "41212760287527553529502111787205140357025020124861/201665913641943433960679556770064141175925000000000",
+        "coefficient": "-41212760287527553529502111787205140357025020124861/806663654567773735842718227080256564703700000000000"
+       },
+       {
+        "argument": "57007098595961645770832669/174163499373856136885000000",
+        "coefficient": "57007098595961645770832669/696653997495424547540000000"
+       }
+      ],
+      "constant": "2341871939861068032486576889314327519090071438882389636788581275400617683988038135970130117005269321/162676562900159147280650680952679949969198244473267175867466701214459796167198422500000000000000000000"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "gap_k4",
+   "operation": "GEN5_LOG_EVALUATE",
+   "purpose": "Certified exact rational logarithmic coefficient/witness",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "expression": {
+      "terms": [
+       {
+        "argument": "41212760287527553529502111787205140357025020124861/201665913641943433960679556770064141175925000000000",
+        "coefficient": "-41212760287527553529502111787205140357025020124861/806663654567773735842718227080256564703700000000000"
+       },
+       {
+        "argument": "163824947828855352639526705333591096776735269038715878672975677355227760075384438681/1257316995841854988125588297472053408861346054456982771998526231125743625000000000000",
+        "coefficient": "163824947828855352639526705333591096776735269038715878672975677355227760075384438681/5029267983367419952502353189888213635445384217827931087994104924502974500000000000000"
+       }
+      ],
+      "constant": "-77900984929034637638449245562268171856907519727944521438106604940402976188378753688518185597963784381319893899743058899257350086628500977645007085152083232489224019761/6323384112131148774001482170405563961425729247426016002544368751203614215886560131806872628911907757303230033791694706489406907611464836912562500000000000000000000000000"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "gap_h5",
+   "operation": "GEN5_LOG_EVALUATE",
+   "purpose": "Certified exact rational logarithmic coefficient/witness",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "expression": {
+      "terms": [
+       {
+        "argument": "41212760287527553529502111787205140357025020124861/201665913641943433960679556770064141175925000000000",
+        "coefficient": "-41212760287527553529502111787205140357025020124861/806663654567773735842718227080256564703700000000000"
+       },
+       {
+        "argument": "717897987691852588770249/4437053125000000000000000",
+        "coefficient": "717897987691852588770249/17748212500000000000000000"
+       }
+      ],
+      "constant": "-4954743604067180521977973235548961091519477086867456479072386194754154062949411819282920202227909765428393652096344409/734586354346031149439188231176945399079660822699597091026529322671545017067505376601562500000000000000000000000000000000"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "ratio",
+   "operation": "GEN3_COMPLEX_SOLVE",
+   "purpose": "Native bound on fraction of universal coefficient maximum",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "matrix": {
+      "entries": [
+       [
+        {
+         "lower": "1619025594729728060717987991/40000000000000000000000000000",
+         "upper": "404756398682476536999/10000000000000000000000"
+        }
+       ]
+      ],
+      "row_basis": [
+       "q"
+      ],
+      "column_basis": [
+       "q"
+      ],
+      "structure": "GENERAL"
+     },
+     "rhs": {
+      "entries": [
+       [
+        {
+         "$step": "C_k3",
+         "path": [
+          "result",
+          "output",
+          "value"
+         ]
+        }
+       ]
+      ],
+      "row_basis": [
+       "q"
+      ],
+      "column_basis": [
+       "q"
+      ],
+      "structure": "GENERAL"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "curvature_control",
+   "operation": "GEN3_COMPLEX_PRODUCT",
+   "purpose": "Expected failed check: global-concavity hypothesis; actual curvature is positive1/6",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "matrix": {
+      "entries": [
+       [
+        "1/4",
+        "-1/4"
+       ]
+      ],
+      "row_basis": [
+       "curvature"
+      ],
+      "column_basis": [
+       "two",
+       "reciprocal"
+      ],
+      "structure": "GENERAL"
+     },
+     "right": {
+      "entries": [
+       [
+        2
+       ],
+       [
+        "4/3"
+       ]
+      ],
+      "row_basis": [
+       "two",
+       "reciprocal"
+      ],
+      "column_basis": [
+       "curvature"
+      ],
+      "structure": "GENERAL"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "conditional_entropy",
+   "operation": "GEN5_ENTROPY",
+   "purpose": "Complete256-state conditional hidden Gibbs entropy with absolute partition retained",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "probabilities": [
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "8/10625",
+      "128/10625",
+      "32/10625",
+      "512/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "8/10625",
+      "128/10625",
+      "32/10625",
+      "512/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "8/10625",
+      "128/10625",
+      "32/10625",
+      "512/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "8/10625",
+      "128/10625",
+      "32/10625",
+      "512/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "8/10625",
+      "128/10625",
+      "32/10625",
+      "512/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "8/10625",
+      "128/10625",
+      "32/10625",
+      "512/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "8/10625",
+      "128/10625",
+      "32/10625",
+      "512/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "8/10625",
+      "128/10625",
+      "32/10625",
+      "512/10625",
+      "1/85000",
+      "2/10625",
+      "1/21250",
+      "8/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "1/85000",
+      "2/10625",
+      "1/21250",
+      "8/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "1/85000",
+      "2/10625",
+      "1/21250",
+      "8/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "1/85000",
+      "2/10625",
+      "1/21250",
+      "8/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "1/85000",
+      "2/10625",
+      "1/21250",
+      "8/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "1/85000",
+      "2/10625",
+      "1/21250",
+      "8/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "1/85000",
+      "2/10625",
+      "1/21250",
+      "8/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "1/85000",
+      "2/10625",
+      "1/21250",
+      "8/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625",
+      "1/21250",
+      "8/10625",
+      "2/10625",
+      "32/10625",
+      "2/10625",
+      "32/10625",
+      "8/10625",
+      "128/10625"
+     ]
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  },
+  {
+   "id": "entropy_ledger",
+   "operation": "GEN5_LOG_EVALUATE",
+   "purpose": "Certified exact rational logarithmic coefficient/witness",
+   "payload": {
+    "source_binding": {
+     "$source": true
+    },
+    "precision_bits": 384,
+    "data": {
+     "expression": {
+      "terms": [
+       {
+        "argument": "10625/8",
+        "coefficient": "1"
+       },
+       {
+        "argument": "2",
+        "coefficient": "-354/85"
+       }
+      ],
+      "constant": "0"
+     }
+    }
+   },
+   "checks": [
+    {
+     "predicate": "native_contract"
+    }
+   ]
+  }
+ ],
+ "readouts": {
+  "C_k1": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "C_k1",
+    "path": []
+   }
+  },
+  "C_k2": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "C_k2",
+    "path": []
+   }
+  },
+  "C_k3": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "C_k3",
+    "path": []
+   }
+  },
+  "C_k4": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "C_k4",
+    "path": []
+   }
+  },
+  "C_h5": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "C_h5",
+    "path": []
+   }
+  },
+  "root_lo": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "root_lo",
+    "path": []
+   }
+  },
+  "root_hi": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "root_hi",
+    "path": []
+   }
+  },
+  "gap_k1": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "gap_k1",
+    "path": []
+   }
+  },
+  "gap_k2": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "gap_k2",
+    "path": []
+   }
+  },
+  "gap_k4": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "gap_k4",
+    "path": []
+   }
+  },
+  "gap_h5": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "gap_h5",
+    "path": []
+   }
+  },
+  "ratio": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "ratio",
+    "path": []
+   }
+  },
+  "curvature_control": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "curvature_control",
+    "path": []
+   }
+  },
+  "conditional_entropy": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "conditional_entropy",
+    "path": []
+   }
+  },
+  "entropy_ledger": {
+   "status": "DERIVED_NATIVE",
+   "value": {
+    "$step": "entropy_ledger",
+    "path": []
+   }
+  }
+ },
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ },
+ "law_namespace": "SAM_land"
+}

@@ -1,0 +1,1121 @@
+{
+  "authored_by": "PEER_FOUR",
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "aec9c75a8511591b20dc8818d7b4097cfe55481394602873eb933e4fa801de4a",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "4f65b34fc4cc554233d6233c1644d950ecca75d3cb2f4338aad1f004727abffa",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "completed_utc": "2026-11-12T04:50:18.987477+00:00",
+  "gen6_core_version": "0.11.3",
+  "gen6_execution": {
+    "continuation": null,
+    "error": null,
+    "execution_stage": "POST_DUCK_ENGINEERING_QUALIFICATION",
+    "history_continuation": null,
+    "host_compilation": "Exact symbolic DAG and reciprocal token transcription; native product identities certify reciprocals",
+    "host_domain_arithmetic": false,
+    "imported_history_session_reused": false,
+    "installed_engine_modified": false,
+    "qualification_scope": null,
+    "schema": "SAM_ONE_PRINCIPLE_NATIVE_EXECUTION_V1",
+    "session_reused": false,
+    "status": "PASSED",
+    "time_utc": "2026-11-12T04:50:18.966145+00:00",
+    "trace": [
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "admit",
+        "input": "000_admit.input.json",
+        "input_sha256": "4eaa23ecc9789b5ced78923770a9e1926778b7c83e29d312141f6945676ecef5",
+        "operation": "GEN5_METHOD_ADMIT",
+        "output": "000_admit.output.json",
+        "output_sha256": "2dc91ffcc06e1043614a62bfc9e0484f60d0b9730e4381bf52a7314487cdba55"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "compile_original",
+        "input": "001_compile_original.input.json",
+        "input_sha256": "a07200849d52c12345253c211db1872424748b2a61e8f84ad0c4d10e48c7374c",
+        "operation": "GEN5_METHOD_COMPILE",
+        "output": "001_compile_original.output.json",
+        "output_sha256": "3b97ed2f8d9c85c86eb06f1c2b904d1d62064cda6ca90012b5ba47bc3d047816"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "execute_original",
+        "input": "002_execute_original.input.json",
+        "input_sha256": "8d24d385cb2dd75b756576116b48f56bb54d2cdaefa5412302897d05111d662c",
+        "operation": "GEN5_METHOD_EXECUTE",
+        "output": "002_execute_original.output.json",
+        "output_sha256": "44456acb9a8f0b5d519614e8f4135731eef1562be4b70163a83c03f183603a1d"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "compile_sharper",
+        "input": "003_compile_sharper.input.json",
+        "input_sha256": "21fcf3f4d20b7aabaee08093e049b474e6c231ad4f2f5eaa522373d60ba307de",
+        "operation": "GEN5_METHOD_COMPILE",
+        "output": "003_compile_sharper.output.json",
+        "output_sha256": "ce75e5b9a3cd827b7f57fe90931d5c429dd04afded1d0deca94c0f337a901efb"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "execute_sharper",
+        "input": "004_execute_sharper.input.json",
+        "input_sha256": "ce36f4add1dc8cd4a7abc3dd5ad5f197493f960c4a1a3dfdf4c569fc282bc2a5",
+        "operation": "GEN5_METHOD_EXECUTE",
+        "output": "004_execute_sharper.output.json",
+        "output_sha256": "9e5b34fe3abd2bab03f73cfadd5468ca092007fe0c0623f6ffb8f3b465cc9e41"
+      }
+    ]
+  },
+  "gen6_execution_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_THERMAL_METHOD_V1/gen6",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_04",
+  "imports": [],
+  "key": "FOUR_THERMAL_METHOD_V1",
+  "kind": "RESULT",
+  "native_calls": 5,
+  "operation": "GEN6_NATIVE_PROGRAM",
+  "portable_bundle": null,
+  "prior_state_root": null,
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_THERMAL_METHOD_V1/RESULT.json",
+  "receipt_sha256": "f9b85241278c4e1f22e34281d8387fbf776bb5b5a377d02812df36d192b2544a",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 1345205719466625,
+  "returned": {
+    "admit": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "calculation_reused": false,
+        "exact_preparation_reused": false,
+        "recomputed": true,
+        "result": {
+          "calculation": {
+            "result_ref": "dfe585cc889b437d895e6313bb2e7af641e002cd59dc33d72ac583b20e14108c"
+          },
+          "implementation": {
+            "files": {
+              "__init__.py": "12fda57375372d607a3bbc53b165d07a4b82bb6b7434a6d333110eb48957fe85",
+              "adaptive_precision.py": "255f4ca4890150c03427d4bc6ede4b2595dde56f7ccc812fc9ffcea1fa98bd19",
+              "algebra.py": "0d15c656477df1aac22390e926e6cffbf300df4b5b232ddafbc53a834d89a1fd",
+              "backend.py": "4c1c85723ed34cc6ecb18e7374a180538fbd8a06cacad12e5eb2c13ffccbac15",
+              "duck.py": "85e28f0a0db24268ab83d73e22dccd31758687ec3b4415396ad368b24c3dd950",
+              "expressions.py": "83c27318445c9227b1c56101fe12e1656e0c72ede3dc928f8dac7b32849ca9e4",
+              "factors.py": "e63755c6bcda2480cebfbf97a230182c622e0c4db808b9efa6a598ffb46cb13a",
+              "frontend.py": "70840cf6ff52eea63dd5cf0a5328da5e5622cef063fe8c314bb1a7f9bfdf983f",
+              "history.py": "04e8fcf3c2b4bf9378f1f9c99c5905982a62224a1e71d8fd55a895d461828f3a",
+              "limits.py": "81c9919c63cf3f5b2cb230687f288b925aac8706b9d9198fc1be5edcad88d892",
+              "method_catalog.py": "f76e652af220bbc7f51de6fce7d011652a5369378202682b92752f825ba1c8fc",
+              "method_sources.json": "e56dd2bf3ff1260769a4f3c1bd45c65e9605c6228906ff5efa41370b81a88d51",
+              "methods.py": "ae2bd89491057d436aaad1fd5afece6efbcb19414988c9843b4993340374ce44",
+              "operator.py": "74b62419717c69a8f9ab9250989e1e32f9b6826560894a6c4ffd0dd32d95b4be",
+              "protocol.py": "2e780225b6004b40457fc60c9800c8bfcd7f6e4a9474fa7cfab333408865d1fb",
+              "research_library.py": "93f42a34f7f872c637d1cd09a80e6ca5933e08bf83b234c4d9c8fc3a66df441a",
+              "source_clock.py": "3eea59401ba2d116dda69cbae5fc4b327f6f17f5e3ba923ae5cd29c5315fc957",
+              "spin_method_catalog.py": "dd31d40a27af5decbfe14388e00d9fffde80649378234c02a7d1630d0797201a",
+              "thermal.py": "d300eea8eadaa4fb5a7af250c0b07148daa318f6e7bbe63249bfd0bc5b25c61a",
+              "transport.py": "61156ee5fb992102ae43a5545499609fcc3f9bc2a700cbd2c79614a60b13e1a0"
+            },
+            "python_flint": "0.8.0",
+            "version": "GEN5_LOG_KERNELS_V1"
+          },
+          "operation": "GEN5_METHOD_ADMIT",
+          "output": {
+            "executed": false,
+            "meaning": "Typed operation graph admitted; execution checks remain per source instance",
+            "method": {
+              "result_ref": "0f4fc8fc1dc21434af1bf501d8c64c90a78b0c3c0caf2b86458d267d12f327c3"
+            },
+            "recipe_sha256": "9ec5e57901e6ceaf068b12f04dd7e6473c5247242922615506a0bbac46ea90c5",
+            "status": "ADMITTED_DEFINITION"
+          },
+          "precision_bits": 256,
+          "request": {
+            "data": {
+              "recipe": {
+                "assumptions": [
+                  {
+                    "parameter": "generator",
+                    "predicate": "square"
+                  },
+                  {
+                    "parameter": "signal_weight",
+                    "predicate": "square"
+                  }
+                ],
+                "checks": [
+                  {
+                    "predicate": "native_contract",
+                    "step": "hyperbolic"
+                  },
+                  {
+                    "predicate": "native_contract",
+                    "step": "tanh"
+                  },
+                  {
+                    "predicate": "native_contract",
+                    "step": "Q"
+                  },
+                  {
+                    "predicate": "native_contract",
+                    "step": "exponent"
+                  },
+                  {
+                    "predicate": "native_contract",
+                    "step": "tail"
+                  },
+                  {
+                    "predicate": "native_contract",
+                    "step": "Pe"
+                  }
+                ],
+                "description": "Supplied nonnegative band signal norm times calibrated eta and tanh(beta*w0/2), then homodyne Chernoff upper; source proof and covariance hypotheses remain external analytic premises",
+                "law_namespace": "SAM_land",
+                "name": "four.thermal_band_receiver",
+                "parameters": {
+                  "generator": {
+                    "dimension": 2,
+                    "type": "matrix"
+                  },
+                  "signal_weight": {
+                    "dimension": 1,
+                    "type": "matrix"
+                  }
+                },
+                "provenance": {
+                  "scope": "Finite scalar receiving inequality; physical covariance/collection/phase reference not inferred",
+                  "source": "FOUR O16 actual97event spectral moment cancellation"
+                },
+                "returns": {
+                  "Pe_upper": {
+                    "$step": "Pe",
+                    "field": [
+                      "result",
+                      "output",
+                      "matrix"
+                    ]
+                  },
+                  "Q": {
+                    "$step": "Q",
+                    "field": [
+                      "result",
+                      "output",
+                      "matrix"
+                    ]
+                  }
+                },
+                "revision": 1,
+                "schema": "GEN5_METHOD_RECIPE_V1",
+                "steps": [
+                  {
+                    "id": "hyperbolic",
+                    "operation": "GEN3_COMPLEX_EXP",
+                    "payload": {
+                      "data": {
+                        "matrix": {
+                          "$param": "generator"
+                        }
+                      },
+                      "precision_bits": {
+                        "$precision": true
+                      },
+                      "source_binding": {
+                        "$source": true
+                      }
+                    }
+                  },
+                  {
+                    "id": "tanh",
+                    "operation": "GEN3_COMPLEX_SOLVE",
+                    "payload": {
+                      "data": {
+                        "matrix": {
+                          "column_basis": [
+                            0
+                          ],
+                          "entries": [
+                            [
+                              {
+                                "$step": "hyperbolic",
+                                "field": [
+                                  "result",
+                                  "output",
+                                  "matrix",
+                                  "entries",
+                                  0,
+                                  0
+                                ]
+                              }
+                            ]
+                          ],
+                          "row_basis": [
+                            0
+                          ],
+                          "structure": "GENERAL"
+                        },
+                        "rhs": {
+                          "column_basis": [
+                            0
+                          ],
+                          "entries": [
+                            [
+                              {
+                                "$step": "hyperbolic",
+                                "field": [
+                                  "result",
+                                  "output",
+                                  "matrix",
+                                  "entries",
+                                  1,
+                                  0
+                                ]
+                              }
+                            ]
+                          ],
+                          "row_basis": [
+                            0
+                          ],
+                          "structure": "GENERAL"
+                        }
+                      },
+                      "precision_bits": {
+                        "$precision": true
+                      },
+                      "source_binding": {
+                        "$source": true
+                      }
+                    }
+                  },
+                  {
+                    "id": "Q",
+                    "operation": "GEN3_COMPLEX_PRODUCT",
+                    "payload": {
+                      "data": {
+                        "matrix": {
+                          "$param": "signal_weight"
+                        },
+                        "right": {
+                          "$step": "tanh",
+                          "field": [
+                            "result",
+                            "output",
+                            "matrix"
+                          ]
+                        }
+                      },
+                      "precision_bits": {
+                        "$precision": true
+                      },
+                      "source_binding": {
+                        "$source": true
+                      }
+                    }
+                  },
+                  {
+                    "id": "exponent",
+                    "operation": "GEN3_COMPLEX_PRODUCT",
+                    "payload": {
+                      "data": {
+                        "matrix": {
+                          "column_basis": [
+                            0
+                          ],
+                          "entries": [
+                            [
+                              "-1/2"
+                            ]
+                          ],
+                          "row_basis": [
+                            0
+                          ],
+                          "structure": "GENERAL"
+                        },
+                        "right": {
+                          "$step": "Q",
+                          "field": [
+                            "result",
+                            "output",
+                            "matrix"
+                          ]
+                        }
+                      },
+                      "precision_bits": {
+                        "$precision": true
+                      },
+                      "source_binding": {
+                        "$source": true
+                      }
+                    }
+                  },
+                  {
+                    "id": "tail",
+                    "operation": "GEN3_COMPLEX_EXP",
+                    "payload": {
+                      "data": {
+                        "matrix": {
+                          "$step": "exponent",
+                          "field": [
+                            "result",
+                            "output",
+                            "matrix"
+                          ]
+                        }
+                      },
+                      "precision_bits": {
+                        "$precision": true
+                      },
+                      "source_binding": {
+                        "$source": true
+                      }
+                    }
+                  },
+                  {
+                    "id": "Pe",
+                    "operation": "GEN3_COMPLEX_PRODUCT",
+                    "payload": {
+                      "data": {
+                        "matrix": {
+                          "column_basis": [
+                            0
+                          ],
+                          "entries": [
+                            [
+                              "1/2"
+                            ]
+                          ],
+                          "row_basis": [
+                            0
+                          ],
+                          "structure": "GENERAL"
+                        },
+                        "right": {
+                          "$step": "tail",
+                          "field": [
+                            "result",
+                            "output",
+                            "matrix"
+                          ]
+                        }
+                      },
+                      "precision_bits": {
+                        "$precision": true
+                      },
+                      "source_binding": {
+                        "$source": true
+                      }
+                    }
+                  }
+                ],
+                "task_type": "four.thermal_band_receiver"
+              }
+            },
+            "precision_bits": 256,
+            "source_binding": {
+              "campaign": "20261112T043202Z",
+              "candidate_job": {
+                "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_THERMAL_METHOD_V1/gen6/JOB.json",
+                "sha256": "cbef0d0acba64a24fe48d6cbd7824ce9fd0117b28bf701be75e605f65ae1cc52"
+              },
+              "kind": "GEN7_DUCK",
+              "law_namespace": "SAM_land",
+              "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+            }
+          },
+          "schema": "GEN5_LOG_RESULT_V1",
+          "source_binding": {
+            "campaign": "20261112T043202Z",
+            "candidate_job": {
+              "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_THERMAL_METHOD_V1/gen6/JOB.json",
+              "sha256": "cbef0d0acba64a24fe48d6cbd7824ce9fd0117b28bf701be75e605f65ae1cc52"
+            },
+            "kind": "GEN7_DUCK",
+            "law_namespace": "SAM_land",
+            "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+          },
+          "source_operand_identity": "4deb949f251c6c780899ef891dacaee7753320609ef56fad18f429520b567d78"
+        },
+        "result_ref": "733b8d1c140a511bdf15ec3a6b822fcc906361e25016d9400178c2f786f559d3"
+      }
+    },
+    "compile_original": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "calculation_reused": false,
+        "exact_preparation_reused": false,
+        "recomputed": true,
+        "result": {
+          "calculation": {
+            "result_ref": "c0d02826f18fe0821889ca7d30cceada95213ec3a051d7a68640ee3001adb26c"
+          },
+          "implementation": {
+            "files": {
+              "__init__.py": "12fda57375372d607a3bbc53b165d07a4b82bb6b7434a6d333110eb48957fe85",
+              "adaptive_precision.py": "255f4ca4890150c03427d4bc6ede4b2595dde56f7ccc812fc9ffcea1fa98bd19",
+              "algebra.py": "0d15c656477df1aac22390e926e6cffbf300df4b5b232ddafbc53a834d89a1fd",
+              "backend.py": "4c1c85723ed34cc6ecb18e7374a180538fbd8a06cacad12e5eb2c13ffccbac15",
+              "duck.py": "85e28f0a0db24268ab83d73e22dccd31758687ec3b4415396ad368b24c3dd950",
+              "expressions.py": "83c27318445c9227b1c56101fe12e1656e0c72ede3dc928f8dac7b32849ca9e4",
+              "factors.py": "e63755c6bcda2480cebfbf97a230182c622e0c4db808b9efa6a598ffb46cb13a",
+              "frontend.py": "70840cf6ff52eea63dd5cf0a5328da5e5622cef063fe8c314bb1a7f9bfdf983f",
+              "history.py": "04e8fcf3c2b4bf9378f1f9c99c5905982a62224a1e71d8fd55a895d461828f3a",
+              "limits.py": "81c9919c63cf3f5b2cb230687f288b925aac8706b9d9198fc1be5edcad88d892",
+              "method_catalog.py": "f76e652af220bbc7f51de6fce7d011652a5369378202682b92752f825ba1c8fc",
+              "method_sources.json": "e56dd2bf3ff1260769a4f3c1bd45c65e9605c6228906ff5efa41370b81a88d51",
+              "methods.py": "ae2bd89491057d436aaad1fd5afece6efbcb19414988c9843b4993340374ce44",
+              "operator.py": "74b62419717c69a8f9ab9250989e1e32f9b6826560894a6c4ffd0dd32d95b4be",
+              "protocol.py": "2e780225b6004b40457fc60c9800c8bfcd7f6e4a9474fa7cfab333408865d1fb",
+              "research_library.py": "93f42a34f7f872c637d1cd09a80e6ca5933e08bf83b234c4d9c8fc3a66df441a",
+              "source_clock.py": "3eea59401ba2d116dda69cbae5fc4b327f6f17f5e3ba923ae5cd29c5315fc957",
+              "spin_method_catalog.py": "dd31d40a27af5decbfe14388e00d9fffde80649378234c02a7d1630d0797201a",
+              "thermal.py": "d300eea8eadaa4fb5a7af250c0b07148daa318f6e7bbe63249bfd0bc5b25c61a",
+              "transport.py": "61156ee5fb992102ae43a5545499609fcc3f9bc2a700cbd2c79614a60b13e1a0"
+            },
+            "python_flint": "0.8.0",
+            "version": "GEN5_LOG_KERNELS_V1"
+          },
+          "operation": "GEN5_METHOD_COMPILE",
+          "output": {
+            "arithmetic_calls": 0,
+            "compiled": {
+              "result_ref": "1fef8fdf95b2c6da78397efb48f778df0d60d6493a6bc37e7bbb88a3212aa1fd"
+            },
+            "features": [
+              2,
+              11,
+              5,
+              0,
+              24,
+              20,
+              2,
+              2,
+              5,
+              6,
+              0,
+              6,
+              0,
+              2,
+              1,
+              0
+            ],
+            "method": {
+              "result_ref": "0f4fc8fc1dc21434af1bf501d8c64c90a78b0c3c0caf2b86458d267d12f327c3"
+            },
+            "recipe_sha256": "9ec5e57901e6ceaf068b12f04dd7e6473c5247242922615506a0bbac46ea90c5",
+            "status": "COMPILED"
+          },
+          "precision_bits": 256,
+          "request": {
+            "data": {
+              "inputs": {
+                "generator": {
+                  "column_basis": [
+                    0,
+                    1
+                  ],
+                  "entries": [
+                    [
+                      "0",
+                      "1"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ],
+                  "row_basis": [
+                    0,
+                    1
+                  ],
+                  "structure": "GENERAL"
+                },
+                "signal_weight": {
+                  "column_basis": [
+                    0
+                  ],
+                  "entries": [
+                    [
+                      "9554899/1000000"
+                    ]
+                  ],
+                  "row_basis": [
+                    0
+                  ],
+                  "structure": "GENERAL"
+                }
+              },
+              "method_ref": "0f4fc8fc1dc21434af1bf501d8c64c90a78b0c3c0caf2b86458d267d12f327c3"
+            },
+            "precision_bits": 256,
+            "source_binding": {
+              "campaign": "20261112T043202Z",
+              "candidate_job": {
+                "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_THERMAL_METHOD_V1/gen6/JOB.json",
+                "sha256": "cbef0d0acba64a24fe48d6cbd7824ce9fd0117b28bf701be75e605f65ae1cc52"
+              },
+              "kind": "GEN7_DUCK",
+              "law_namespace": "SAM_land",
+              "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+            }
+          },
+          "schema": "GEN5_LOG_RESULT_V1",
+          "source_binding": {
+            "campaign": "20261112T043202Z",
+            "candidate_job": {
+              "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_THERMAL_METHOD_V1/gen6/JOB.json",
+              "sha256": "cbef0d0acba64a24fe48d6cbd7824ce9fd0117b28bf701be75e605f65ae1cc52"
+            },
+            "kind": "GEN7_DUCK",
+            "law_namespace": "SAM_land",
+            "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+          },
+          "source_operand_identity": "6178598e5bdb692e35c0cfb342ead723c9f583c0e97a25e09e2b919964e389c1"
+        },
+        "result_ref": "120759d3f6b584078351e039de8f876e40430bd6e89e45611d10a375ede417df"
+      }
+    },
+    "compile_sharper": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "calculation_reused": false,
+        "exact_preparation_reused": false,
+        "recomputed": true,
+        "result": {
+          "calculation": {
+            "result_ref": "9fe83a17ebeede4bff79ad22a6d261a94d640bf517c4550e4035d3b249873cae"
+          },
+          "implementation": {
+            "files": {
+              "__init__.py": "12fda57375372d607a3bbc53b165d07a4b82bb6b7434a6d333110eb48957fe85",
+              "adaptive_precision.py": "255f4ca4890150c03427d4bc6ede4b2595dde56f7ccc812fc9ffcea1fa98bd19",
+              "algebra.py": "0d15c656477df1aac22390e926e6cffbf300df4b5b232ddafbc53a834d89a1fd",
+              "backend.py": "4c1c85723ed34cc6ecb18e7374a180538fbd8a06cacad12e5eb2c13ffccbac15",
+              "duck.py": "85e28f0a0db24268ab83d73e22dccd31758687ec3b4415396ad368b24c3dd950",
+              "expressions.py": "83c27318445c9227b1c56101fe12e1656e0c72ede3dc928f8dac7b32849ca9e4",
+              "factors.py": "e63755c6bcda2480cebfbf97a230182c622e0c4db808b9efa6a598ffb46cb13a",
+              "frontend.py": "70840cf6ff52eea63dd5cf0a5328da5e5622cef063fe8c314bb1a7f9bfdf983f",
+              "history.py": "04e8fcf3c2b4bf9378f1f9c99c5905982a62224a1e71d8fd55a895d461828f3a",
+              "limits.py": "81c9919c63cf3f5b2cb230687f288b925aac8706b9d9198fc1be5edcad88d892",
+              "method_catalog.py": "f76e652af220bbc7f51de6fce7d011652a5369378202682b92752f825ba1c8fc",
+              "method_sources.json": "e56dd2bf3ff1260769a4f3c1bd45c65e9605c6228906ff5efa41370b81a88d51",
+              "methods.py": "ae2bd89491057d436aaad1fd5afece6efbcb19414988c9843b4993340374ce44",
+              "operator.py": "74b62419717c69a8f9ab9250989e1e32f9b6826560894a6c4ffd0dd32d95b4be",
+              "protocol.py": "2e780225b6004b40457fc60c9800c8bfcd7f6e4a9474fa7cfab333408865d1fb",
+              "research_library.py": "93f42a34f7f872c637d1cd09a80e6ca5933e08bf83b234c4d9c8fc3a66df441a",
+              "source_clock.py": "3eea59401ba2d116dda69cbae5fc4b327f6f17f5e3ba923ae5cd29c5315fc957",
+              "spin_method_catalog.py": "dd31d40a27af5decbfe14388e00d9fffde80649378234c02a7d1630d0797201a",
+              "thermal.py": "d300eea8eadaa4fb5a7af250c0b07148daa318f6e7bbe63249bfd0bc5b25c61a",
+              "transport.py": "61156ee5fb992102ae43a5545499609fcc3f9bc2a700cbd2c79614a60b13e1a0"
+            },
+            "python_flint": "0.8.0",
+            "version": "GEN5_LOG_KERNELS_V1"
+          },
+          "operation": "GEN5_METHOD_COMPILE",
+          "output": {
+            "arithmetic_calls": 0,
+            "compiled": {
+              "result_ref": "51736297ecf93051dcd6618c9f4d2a857072a997aaad70fc35933558310b1b6c"
+            },
+            "features": [
+              2,
+              11,
+              5,
+              0,
+              19,
+              16,
+              2,
+              2,
+              5,
+              6,
+              0,
+              6,
+              0,
+              2,
+              1,
+              0
+            ],
+            "method": {
+              "result_ref": "0f4fc8fc1dc21434af1bf501d8c64c90a78b0c3c0caf2b86458d267d12f327c3"
+            },
+            "recipe_sha256": "9ec5e57901e6ceaf068b12f04dd7e6473c5247242922615506a0bbac46ea90c5",
+            "status": "COMPILED"
+          },
+          "precision_bits": 256,
+          "request": {
+            "data": {
+              "inputs": {
+                "generator": {
+                  "column_basis": [
+                    0,
+                    1
+                  ],
+                  "entries": [
+                    [
+                      "0",
+                      "1"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ],
+                  "row_basis": [
+                    0,
+                    1
+                  ],
+                  "structure": "GENERAL"
+                },
+                "signal_weight": {
+                  "column_basis": [
+                    0
+                  ],
+                  "entries": [
+                    [
+                      "382443/40000"
+                    ]
+                  ],
+                  "row_basis": [
+                    0
+                  ],
+                  "structure": "GENERAL"
+                }
+              },
+              "method_ref": "0f4fc8fc1dc21434af1bf501d8c64c90a78b0c3c0caf2b86458d267d12f327c3"
+            },
+            "precision_bits": 256,
+            "source_binding": {
+              "campaign": "20261112T043202Z",
+              "candidate_job": {
+                "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_THERMAL_METHOD_V1/gen6/JOB.json",
+                "sha256": "cbef0d0acba64a24fe48d6cbd7824ce9fd0117b28bf701be75e605f65ae1cc52"
+              },
+              "kind": "GEN7_DUCK",
+              "law_namespace": "SAM_land",
+              "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+            }
+          },
+          "schema": "GEN5_LOG_RESULT_V1",
+          "source_binding": {
+            "campaign": "20261112T043202Z",
+            "candidate_job": {
+              "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_THERMAL_METHOD_V1/gen6/JOB.json",
+              "sha256": "cbef0d0acba64a24fe48d6cbd7824ce9fd0117b28bf701be75e605f65ae1cc52"
+            },
+            "kind": "GEN7_DUCK",
+            "law_namespace": "SAM_land",
+            "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+          },
+          "source_operand_identity": "29b739639b4fba8ea0a2fb5ad9da4fa0455c7d3eada5ba1e2d5f635c09e5eb71"
+        },
+        "result_ref": "0c55cddf8bbada0082fe98a31a466cb5211e5c301386f0f1a3e249217f4c477f"
+      }
+    },
+    "execute_original": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "calculation_reused": false,
+        "exact_preparation_reused": false,
+        "recomputed": true,
+        "result": {
+          "calculation": {
+            "result_ref": "61ca0b15e437ba8ff88852e5df9553badcd73836ce879c9a02c29fc48ce52392"
+          },
+          "implementation": {
+            "files": {
+              "__init__.py": "12fda57375372d607a3bbc53b165d07a4b82bb6b7434a6d333110eb48957fe85",
+              "adaptive_precision.py": "255f4ca4890150c03427d4bc6ede4b2595dde56f7ccc812fc9ffcea1fa98bd19",
+              "algebra.py": "0d15c656477df1aac22390e926e6cffbf300df4b5b232ddafbc53a834d89a1fd",
+              "backend.py": "4c1c85723ed34cc6ecb18e7374a180538fbd8a06cacad12e5eb2c13ffccbac15",
+              "duck.py": "85e28f0a0db24268ab83d73e22dccd31758687ec3b4415396ad368b24c3dd950",
+              "expressions.py": "83c27318445c9227b1c56101fe12e1656e0c72ede3dc928f8dac7b32849ca9e4",
+              "factors.py": "e63755c6bcda2480cebfbf97a230182c622e0c4db808b9efa6a598ffb46cb13a",
+              "frontend.py": "70840cf6ff52eea63dd5cf0a5328da5e5622cef063fe8c314bb1a7f9bfdf983f",
+              "history.py": "04e8fcf3c2b4bf9378f1f9c99c5905982a62224a1e71d8fd55a895d461828f3a",
+              "limits.py": "81c9919c63cf3f5b2cb230687f288b925aac8706b9d9198fc1be5edcad88d892",
+              "method_catalog.py": "f76e652af220bbc7f51de6fce7d011652a5369378202682b92752f825ba1c8fc",
+              "method_sources.json": "e56dd2bf3ff1260769a4f3c1bd45c65e9605c6228906ff5efa41370b81a88d51",
+              "methods.py": "ae2bd89491057d436aaad1fd5afece6efbcb19414988c9843b4993340374ce44",
+              "operator.py": "74b62419717c69a8f9ab9250989e1e32f9b6826560894a6c4ffd0dd32d95b4be",
+              "protocol.py": "2e780225b6004b40457fc60c9800c8bfcd7f6e4a9474fa7cfab333408865d1fb",
+              "research_library.py": "93f42a34f7f872c637d1cd09a80e6ca5933e08bf83b234c4d9c8fc3a66df441a",
+              "source_clock.py": "3eea59401ba2d116dda69cbae5fc4b327f6f17f5e3ba923ae5cd29c5315fc957",
+              "spin_method_catalog.py": "dd31d40a27af5decbfe14388e00d9fffde80649378234c02a7d1630d0797201a",
+              "thermal.py": "d300eea8eadaa4fb5a7af250c0b07148daa318f6e7bbe63249bfd0bc5b25c61a",
+              "transport.py": "61156ee5fb992102ae43a5545499609fcc3f9bc2a700cbd2c79614a60b13e1a0"
+            },
+            "python_flint": "0.8.0",
+            "version": "GEN5_LOG_KERNELS_V1"
+          },
+          "operation": "GEN5_METHOD_EXECUTE",
+          "output": {
+            "checks": [
+              {
+                "evidence_scope": "NATIVE_OPERATION_ADMISSION_AND_RETURN",
+                "passed": true,
+                "predicate": "native_contract",
+                "step": "hyperbolic"
+              },
+              {
+                "evidence_scope": "NATIVE_OPERATION_ADMISSION_AND_RETURN",
+                "passed": true,
+                "predicate": "native_contract",
+                "step": "tanh"
+              },
+              {
+                "evidence_scope": "NATIVE_OPERATION_ADMISSION_AND_RETURN",
+                "passed": true,
+                "predicate": "native_contract",
+                "step": "Q"
+              },
+              {
+                "evidence_scope": "NATIVE_OPERATION_ADMISSION_AND_RETURN",
+                "passed": true,
+                "predicate": "native_contract",
+                "step": "exponent"
+              },
+              {
+                "evidence_scope": "NATIVE_OPERATION_ADMISSION_AND_RETURN",
+                "passed": true,
+                "predicate": "native_contract",
+                "step": "tail"
+              },
+              {
+                "evidence_scope": "NATIVE_OPERATION_ADMISSION_AND_RETURN",
+                "passed": true,
+                "predicate": "native_contract",
+                "step": "Pe"
+              }
+            ],
+            "elapsed_ns": 136433302,
+            "failure": null,
+            "native_operation_count": 6,
+            "output": {
+              "Pe_upper": {
+                "column_basis": [
+                  0
+                ],
+                "entries": [
+                  [
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "97422241040395642720142316754860183209119704368141766955837955099524127614931/7410693711188236507108543040556026102609279018600996098525285376506440296955904",
+                        "upper": "97422241040395642720142316754860183209119704368141766955837955099524127615017/7410693711188236507108543040556026102609279018600996098525285376506440296955904"
+                      }
+                    }
+                  ]
+                ],
+                "precision_bits": 256,
+                "row_basis": [
+                  0
+                ],
+                "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+                "structure": "GENERAL"
+              },
+              "Q": {
+                "column_basis": [
+                  0
+                ],
+                "entries": [
+                  [
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "105326731303416553457350319359701104359980809606197848936161492208101978271893/14474011154664524427946373126085988481658748083205070504932198000989141204992",
+                        "upper": "105326731303416553457350319359701104359980809606197848936161492208101978271915/14474011154664524427946373126085988481658748083205070504932198000989141204992"
+                      }
+                    }
+                  ]
+                ],
+                "precision_bits": 256,
+                "row_basis": [
+                  0
+                ],
+                "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+                "structure": "GENERAL"
+              }
+            },
+            "status": "PASSED",
+            "trace": {
+              "result_ref": "d0bebb7a68493553d1032c916cbd6d7157fb4b5b4a0804fa37b77b98ee06d340"
+            }
+          },
+          "precision_bits": 256,
+          "request": {
+            "data": {
+              "compiled_ref": "1fef8fdf95b2c6da78397efb48f778df0d60d6493a6bc37e7bbb88a3212aa1fd"
+            },
+            "precision_bits": 256,
+            "source_binding": {
+              "campaign": "20261112T043202Z",
+              "candidate_job": {
+                "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_THERMAL_METHOD_V1/gen6/JOB.json",
+                "sha256": "cbef0d0acba64a24fe48d6cbd7824ce9fd0117b28bf701be75e605f65ae1cc52"
+              },
+              "kind": "GEN7_DUCK",
+              "law_namespace": "SAM_land",
+              "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+            }
+          },
+          "schema": "GEN5_LOG_RESULT_V1",
+          "source_binding": {
+            "campaign": "20261112T043202Z",
+            "candidate_job": {
+              "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_THERMAL_METHOD_V1/gen6/JOB.json",
+              "sha256": "cbef0d0acba64a24fe48d6cbd7824ce9fd0117b28bf701be75e605f65ae1cc52"
+            },
+            "kind": "GEN7_DUCK",
+            "law_namespace": "SAM_land",
+            "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+          },
+          "source_operand_identity": "d25c2b5086d8b51d8c8cb28bd3babcfd23909822d8eb01cd6ae6120bcbd921c5"
+        },
+        "result_ref": "7910d921c3dc921406efa242b5d1bc6188711650036597f7d859504daf8ebc3b"
+      }
+    },
+    "execute_sharper": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "calculation_reused": false,
+        "exact_preparation_reused": false,
+        "recomputed": true,
+        "result": {
+          "calculation": {
+            "result_ref": "7f9a836535dc60b65ec40e4d5d9e12b16f62604b52b4586845265fa4919c6904"
+          },
+          "implementation": {
+            "files": {
+              "__init__.py": "12fda57375372d607a3bbc53b165d07a4b82bb6b7434a6d333110eb48957fe85",
+              "adaptive_precision.py": "255f4ca4890150c03427d4bc6ede4b2595dde56f7ccc812fc9ffcea1fa98bd19",
+              "algebra.py": "0d15c656477df1aac22390e926e6cffbf300df4b5b232ddafbc53a834d89a1fd",
+              "backend.py": "4c1c85723ed34cc6ecb18e7374a180538fbd8a06cacad12e5eb2c13ffccbac15",
+              "duck.py": "85e28f0a0db24268ab83d73e22dccd31758687ec3b4415396ad368b24c3dd950",
+              "expressions.py": "83c27318445c9227b1c56101fe12e1656e0c72ede3dc928f8dac7b32849ca9e4",
+              "factors.py": "e63755c6bcda2480cebfbf97a230182c622e0c4db808b9efa6a598ffb46cb13a",
+              "frontend.py": "70840cf6ff52eea63dd5cf0a5328da5e5622cef063fe8c314bb1a7f9bfdf983f",
+              "history.py": "04e8fcf3c2b4bf9378f1f9c99c5905982a62224a1e71d8fd55a895d461828f3a",
+              "limits.py": "81c9919c63cf3f5b2cb230687f288b925aac8706b9d9198fc1be5edcad88d892",
+              "method_catalog.py": "f76e652af220bbc7f51de6fce7d011652a5369378202682b92752f825ba1c8fc",
+              "method_sources.json": "e56dd2bf3ff1260769a4f3c1bd45c65e9605c6228906ff5efa41370b81a88d51",
+              "methods.py": "ae2bd89491057d436aaad1fd5afece6efbcb19414988c9843b4993340374ce44",
+              "operator.py": "74b62419717c69a8f9ab9250989e1e32f9b6826560894a6c4ffd0dd32d95b4be",
+              "protocol.py": "2e780225b6004b40457fc60c9800c8bfcd7f6e4a9474fa7cfab333408865d1fb",
+              "research_library.py": "93f42a34f7f872c637d1cd09a80e6ca5933e08bf83b234c4d9c8fc3a66df441a",
+              "source_clock.py": "3eea59401ba2d116dda69cbae5fc4b327f6f17f5e3ba923ae5cd29c5315fc957",
+              "spin_method_catalog.py": "dd31d40a27af5decbfe14388e00d9fffde80649378234c02a7d1630d0797201a",
+              "thermal.py": "d300eea8eadaa4fb5a7af250c0b07148daa318f6e7bbe63249bfd0bc5b25c61a",
+              "transport.py": "61156ee5fb992102ae43a5545499609fcc3f9bc2a700cbd2c79614a60b13e1a0"
+            },
+            "python_flint": "0.8.0",
+            "version": "GEN5_LOG_KERNELS_V1"
+          },
+          "operation": "GEN5_METHOD_EXECUTE",
+          "output": {
+            "checks": [
+              {
+                "evidence_scope": "NATIVE_OPERATION_ADMISSION_AND_RETURN",
+                "passed": true,
+                "predicate": "native_contract",
+                "step": "hyperbolic"
+              },
+              {
+                "evidence_scope": "NATIVE_OPERATION_ADMISSION_AND_RETURN",
+                "passed": true,
+                "predicate": "native_contract",
+                "step": "tanh"
+              },
+              {
+                "evidence_scope": "NATIVE_OPERATION_ADMISSION_AND_RETURN",
+                "passed": true,
+                "predicate": "native_contract",
+                "step": "Q"
+              },
+              {
+                "evidence_scope": "NATIVE_OPERATION_ADMISSION_AND_RETURN",
+                "passed": true,
+                "predicate": "native_contract",
+                "step": "exponent"
+              },
+              {
+                "evidence_scope": "NATIVE_OPERATION_ADMISSION_AND_RETURN",
+                "passed": true,
+                "predicate": "native_contract",
+                "step": "tail"
+              },
+              {
+                "evidence_scope": "NATIVE_OPERATION_ADMISSION_AND_RETURN",
+                "passed": true,
+                "predicate": "native_contract",
+                "step": "Pe"
+              }
+            ],
+            "elapsed_ns": 119371286,
+            "failure": null,
+            "native_operation_count": 6,
+            "output": {
+              "Pe_upper": {
+                "column_basis": [
+                  0
+                ],
+                "entries": [
+                  [
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "3037293511081880808118207524071596773680753199718397108097720004427700779363/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+                        "upper": "48596696177310092929891320385145548378892051195494353729563520070843212469851/3705346855594118253554271520278013051304639509300498049262642688253220148477952"
+                      }
+                    }
+                  ]
+                ],
+                "precision_bits": 256,
+                "row_basis": [
+                  0
+                ],
+                "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+                "structure": "GENERAL"
+              },
+              "Q": {
+                "column_basis": [
+                  0
+                ],
+                "entries": [
+                  [
+                    {
+                      "im": {
+                        "lower": "0",
+                        "upper": "0"
+                      },
+                      "re": {
+                        "lower": "52697405670997329424792229864075707988572329189747484432714057946273352649041/7237005577332262213973186563042994240829374041602535252466099000494570602496",
+                        "upper": "13174351417749332356198057466018926997143082297436871108178514486568338162263/1809251394333065553493296640760748560207343510400633813116524750123642650624"
+                      }
+                    }
+                  ]
+                ],
+                "precision_bits": 256,
+                "row_basis": [
+                  0
+                ],
+                "schema": "CERTIFIED_COMPLEX_MATRIX_V1",
+                "structure": "GENERAL"
+              }
+            },
+            "status": "PASSED",
+            "trace": {
+              "result_ref": "172a9b1e710346e640dfe6e85cbf89915a97464a23f0d4dc3e5655c430af5d85"
+            }
+          },
+          "precision_bits": 256,
+          "request": {
+            "data": {
+              "compiled_ref": "51736297ecf93051dcd6618c9f4d2a857072a997aaad70fc35933558310b1b6c"
+            },
+            "precision_bits": 256,
+            "source_binding": {
+              "campaign": "20261112T043202Z",
+              "candidate_job": {
+                "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_THERMAL_METHOD_V1/gen6/JOB.json",
+                "sha256": "cbef0d0acba64a24fe48d6cbd7824ce9fd0117b28bf701be75e605f65ae1cc52"
+              },
+              "kind": "GEN7_DUCK",
+              "law_namespace": "SAM_land",
+              "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+            }
+          },
+          "schema": "GEN5_LOG_RESULT_V1",
+          "source_binding": {
+            "campaign": "20261112T043202Z",
+            "candidate_job": {
+              "path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_THERMAL_METHOD_V1/gen6/JOB.json",
+              "sha256": "cbef0d0acba64a24fe48d6cbd7824ce9fd0117b28bf701be75e605f65ae1cc52"
+            },
+            "kind": "GEN7_DUCK",
+            "law_namespace": "SAM_land",
+            "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+          },
+          "source_operand_identity": "b57514e07f19ac3a1b7a0349bca5f4fdd2a0be8a5e84234f46dfbd44903239c0"
+        },
+        "result_ref": "ea19028379d8d6b481536427439822207402243b50ac8d07e7ba0215a0224abe"
+      }
+    }
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND1",
+  "source_binding": {
+    "campaign": "20261112T043202Z",
+    "kind": "GEN7_DUCK",
+    "law_namespace": "SAM_land",
+    "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  },
+  "started_utc": "2026-11-12T04:50:17.878518+00:00",
+  "state": null,
+  "state_root": null,
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "gen6_job",
+  "worker_cpu": 5,
+  "worker_pid": 3816048
+}

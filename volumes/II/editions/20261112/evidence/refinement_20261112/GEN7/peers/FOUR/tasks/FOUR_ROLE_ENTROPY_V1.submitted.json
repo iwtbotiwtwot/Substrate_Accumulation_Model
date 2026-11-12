@@ -1,0 +1,30 @@
+{
+ "kind": "native",
+ "key": "FOUR_ROLE_ENTROPY_V1",
+ "operation": "GEN5_ENTROPY",
+ "purpose": "Uniform24role minimal three-action policy has record entropy3log2/2; this adds no physical reset/heat price",
+ "payload": {
+  "precision_bits": 256,
+  "data": {
+   "probabilities": [
+    "1/4",
+    "1/2",
+    "1/4"
+   ]
+  },
+  "source_binding": {
+   "kind": "GEN7_DUCK",
+   "campaign": "20261112T043202Z",
+   "law_namespace": "SAM_land",
+   "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  }
+ },
+ "controller": "G6_04",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ }
+}

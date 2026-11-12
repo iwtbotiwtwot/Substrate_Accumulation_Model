@@ -1,0 +1,335 @@
+{
+  "scope": "Submitted assertions only, not case outcomes.",
+  "case": "02_spin_memory",
+  "selected_ids": [
+    "ONE-O3",
+    "TWO-O1",
+    "TWO-O2"
+  ],
+  "opportunities": [
+    {
+      "id": "ONE-O3",
+      "peer": "ONE",
+      "title": "Controlled growing waits and finite N5000 microscopic spin memory",
+      "classification": [
+        "new advance",
+        "conditional result"
+      ],
+      "ranking": {
+        "rank": 2,
+        "scientific_value": 9,
+        "feasibility": 9,
+        "weighted_score": 9.0,
+        "rationale": "Adds a source-specific time-uniform theorem and a small finite certificate; the retained scalar reduction makes reconstruction inexpensive."
+      },
+      "chapter_ids": [
+        "VI",
+        "VII",
+        "VIII",
+        "X"
+      ],
+      "physical_pdf_pages": [
+        [
+          31,
+          46
+        ],
+        [
+          54,
+          57
+        ]
+      ],
+      "sections": [
+        "VI–VIII exact source and microscopic memory",
+        "X source clocks",
+        "Latest spin-memory A01–A03/C03"
+      ],
+      "claim_or_bottleneck": "Extend the completed fixed-time microscopic CMI law with an explicit uniform time remainder and identify useful finite waits without changing the source clock.",
+      "original_source_and_operands": [
+        "Original uniform positive-fill microscopic heatbath source at b=N beta=1, stationary Gibbs preparation and one labelled visible spin; original per-site attempt clock.",
+        "Original stationary moments mu2,mu4,mu6 and all-time Dirichlet estimate in ../../sources/spin_memory_cr2/peers/MICROSCOPIC/DERIVATION.md; exact binary KL reduction in REDUCTIONS/DERIVATION.md.",
+        "New scalar finite calculation uses all2501 folded N5000 binomial rows, correct central multiplicity and directed256-bit Arb; it does not consume the large joint archive."
+      ],
+      "what_was_tried": [
+        "Expose time dependence in c_N′=−c_N+mu2+e_N using the exact bound |e_N|≤(1+t)/N+sqrt(mu6 mu2)/3.",
+        "Propagate the explicit remainder into the original positive-cell binary KL expansion.",
+        "Contract source-defined scalar moments and apply retained finite forcing theorem(F) at waits4,8,(logN)/2.",
+        "Run labelled float64 sparse2N diagnostics at N200,800,3200 and certify derivative-sign brackets for leading timing optima natively."
+      ],
+      "actual_result": {
+        "theorem": "Uniformly for fixed t0>0 and t0≤t≤T_N=o(sqrtN), I_micro,N(t)=c_*^2 tanh^2(t/2)/(2N)+O((1+t)N^−3/2+(1+t)^2 N^−2). Thus t_N→infinity and t_N=o(sqrtN) implies N I→c_*^2/2.",
+        "finite_certificate": "Host directed Arb at N5000,wait4 gives CMI∈[.0000970571116858,.000250353452234] nats. Lower/old wait1/3 upper>22.08.",
+        "cost_comparison": "For cycle cost2t plus identical independent stationary preparation/readout overhead≥0, certified information per cycle time improves>1.84 against wait1/3. This is not an achievable channel capacity.",
+        "design": "Leading microscopic CMI/(2t) root sinh t=2t≈2.177318985. Boundary leading CMI root t=1−e^−2t≈.796812130; boundary CMI/(2t) root4t=3(1−e^−2t)≈.437108733.",
+        "diagnostic": "Float64 N I((logN)/2)≈.230179,.364868,.478890 for N200,800,3200; analytical correlation-error budgets contain observations. These are not interval or asymptotic proofs."
+      },
+      "proof_code_receipt_evidence": {
+        "files": [
+          {
+            "path": "gen/SPIN_GROWING_WAIT_WORKING.md",
+            "sha256": "27c1b53974f56ac8193b642d53d51c2364968732baf1311f0b39f36931cde65f"
+          },
+          {
+            "path": "gen/SPIN_GROWING_WAIT_FINITE_ARB.json",
+            "sha256": "a4d3765dacb7ceebc545fe0fc037b01273cafd9c5530532aeb329bab74c4202d"
+          },
+          {
+            "path": "gen/SPIN_N5000_FOLDED_SCALAR_MOMENTS.json.gz",
+            "sha256": "59c681440ee70d62167255694866b963b1fb02ef41a6770ccb544dd6d6daf6b8"
+          },
+          {
+            "path": "gen/growing_wait_finite_arb.py",
+            "sha256": "9a9de9c58a5864374870db5ea03951ca364bbc25c7332518785203e3b2fb1d64"
+          },
+          {
+            "path": "gen/SPIN_GROWING_WAIT_HOST_PANEL.json",
+            "sha256": "2658aecb1be7752f7636a92fcb175e9073166833a2adab0c7dc7d0d30ae47a72"
+          },
+          {
+            "path": "gen/growing_wait_host_panel.py",
+            "sha256": "b199f98000cf9c1790f08f97d3175682bc1800b91aee4cac819abb4d6968fb91"
+          },
+          {
+            "path": "gen/SPIN_WAIT_DERIVATION.md",
+            "sha256": "8510605feafa26455bfa8bd850d1f1a6f566b5fd548f7db6d3be43dff1ffd410"
+          },
+          {
+            "path": "gen/SPIN_WAIT_DESIGN.json",
+            "sha256": "906cc06efbd988b652c9f9a7339f4e153b6a3343971c52cbec87c746f35abe9c"
+          },
+          {
+            "path": "native/ONE_SPIN_WAIT_DESIGN_V1/READBACK.json",
+            "sha256": "b181c6c4cef6d461b1ac5e4af1870c8e7ea4703faa1f4797d76e469717a6923e"
+          },
+          {
+            "path": "gen/FAILURES.md",
+            "sha256": "7728f8ec3c008b6bafccf73e9cf192e0b0a289b086ac82104d9a66da10d57bd8"
+          }
+        ],
+        "native_task_keys": [
+          "ONE_SPIN_WAIT_DESIGN_V1"
+        ],
+        "primary_literature": []
+      },
+      "assumptions": [
+        "Critical uniform positive-fill microscopic source, stationary initial law and declared attempt clock.",
+        "Retained all-time moment/Dirichlet estimates and original exact binary law.",
+        "The rate comparison assumes identically priced independent stationary preparations/readout; its cycle-time convention is2t+t_p."
+      ],
+      "remaining_gap": [
+        "No numerical all-N constants or global finite-N optimum; t comparable to sqrtN is outside the new controlled leading law.",
+        "No transfer to signed, boundary, octic, fixed-sparse-strength or accepted-mass sources; no growing-time boundary ratio.",
+        "Physical seconds, readout noise, source equilibration and dependence between successive triples remain separately priced/calibrated.",
+        "The finite interval is host Arb, not native or separate-proof/code CR2 verification."
+      ],
+      "discriminating_success_failure_check": {
+        "success": "Fresh proof/code reconstruction confirms source moments, every outward finite endpoint, the time-uniform remainder and the rate comparison under its cost convention.",
+        "failure": "Incorrect central multiplicity, stationary law, attempt rate or loss of time-uniform constants invalidates the stated extension; a different source needs its own proof."
+      },
+      "dependencies": [
+        "Completed spin-memory corrected source theorem and finite forcing bound(F)",
+        "Original REDUCTIONS positive-cell KL formula",
+        "Optional physical preparation/readout model"
+      ],
+      "resource_estimate": {
+        "compute": "2501 scalar Arb rows took less than1second locally;18 native timing operations already complete. Optional sparse quotient diagnostics are2N states.",
+        "memory": "Single CPU and<1GiB for scalar reconstruction; no terabyte archive retrieval.",
+        "work": "One focused proof/code reconstruction session; physical timing experiment only after clock and preparation are specified."
+      },
+      "recommended_route": "Small local reconstruction, then CR2 for the new uniform theorem and bounded finite certificate.",
+      "failures_and_corrections": [
+        "gen/growing_wait_host_panel_failed_v1.py stopped at N800 stationarity because float Gibbs weights lost precision; corrected arithmetic preserves the same source and check.",
+        "The overwritten V1 N200 partial source is a disclosed deterministic reconstruction under gen/failed_v1_partial_reconstruction/, not sealed original bytes."
+      ],
+      "followup_started": false
+    },
+    {
+      "id": "TWO-O1",
+      "rank": 1,
+      "title": "Actual signed N5000 finite microscopic information and fitted-clock separation",
+      "classification": "new advance",
+      "chapter_ids": [
+        "VI",
+        "VII",
+        "VIII",
+        "X",
+        "XIX"
+      ],
+      "physical_pdf_pages": [
+        [
+          31,
+          34
+        ],
+        [
+          36,
+          39
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          54,
+          57
+        ],
+        [
+          99,
+          102
+        ]
+      ],
+      "claim_or_bottleneck": "Finite signed microscopic certificate remained open after the corrected uniform-source CR2 result.",
+      "original_source_and_operands": [
+        "sources/spin_memory_cr2/sources/public_spin/n5000/inputs/N005000/signed_packet.parent.json.gz; original source hash12b7e5a07fb776f8e9ff499038e355f5f631d7ad5a4e19f60168542bf39691e3",
+        "N5000,1000 disjoint negative pairs,3000 correction-free sites, positive dense fill, beta1/N, physical unit-site heatbath attempts; observed0/partner1; ordered ports[0,1,60,61]",
+        "Completed corrected CR2 four-port WEIGHTS_N5000_signed_packet_+1.json and inversion-symmetric stationary law"
+      ],
+      "what_was_tried": [
+        "Derived all physical A²s0 contributions at actual M; first/second factorial inserts into positive matching-pair factors",
+        "Paid a48-term insertion tail; computed directed host mu0..mu4 using a native certified rate base",
+        "Qualified all five moments against complete actual-root N15/N20 enumeration and native DOS",
+        "Native Gauss/Radau, stable four-cell KL series and full16-state scalar-clock comparison; matched all16 inherited port weights and absolute normalizer"
+      ],
+      "actual_result": {
+        "CMI_nats_outward_display": [
+          "0.0000034208196",
+          "0.0000034208515"
+        ],
+        "all_fitting_scalar_boundary_clocks_CMI_upper": "0.000000007679734",
+        "ratio_strict_lower": "445.4",
+        "scope": "One actual finite signed_packet positive-fill source; stationary CMI at waits1/3,1/3."
+      },
+      "proof_code_receipt_evidence": [
+        "REPORT.md",
+        "gen/ACTUAL_SIGNED_N5000_DERIVATION.md",
+        "gen/FINITE_SIGNED_N5000_CERTIFICATE.json",
+        "gen/ACTUAL_SIGNED_N5000_MOMENTS.json",
+        "gen/SIGNED_PAIR_MOMENT_QUALIFICATION.json",
+        "gen/ACTUAL_SIGNED_N5000_STATIC_INTERFACE_CHECK.json",
+        "gen/native_evidence/TWO_ACTUAL_SIGNED_N5000_RECEIVER_V1",
+        "gen/native_evidence/TWO_ACTUAL_SIGNED_N5000_CMI_SERIES_V1",
+        "gen/native_evidence/TWO_ACTUAL_SIGNED_N5000_CLOCK_FIT_V1"
+      ],
+      "assumptions": [
+        "Original whole-scaled source and exact matching correction graph",
+        "Gibbs stationarity, reversibility and global inversion",
+        "Unit attempt at every physical site; same declared four-port boundary generator for scalar fit",
+        "Positive coefficient tail and source moment/quadrature proof; no SI calibration"
+      ],
+      "remaining_gap": [
+        "Fresh separate proof/code verification has not occurred",
+        "No signed-chain or negative-fill N5000 certificate, all-N amplitude or arbitrary-kinetics comparison",
+        "Physical seconds and nuclear/atomic receiving maps remain separate"
+      ],
+      "discriminating_success_failure_check": {
+        "success": "A fresh public-input reconstruction retains every physical flip and reproduces moment, source-normalizer, positive information and endpoint clock-fit signs within paid intervals.",
+        "failure": "A nonmatching source hash/port law, missing factorial cross term, wrong detailed-balance sign, unbounded tail or nonpositive final separation rejects the proposed certificate."
+      },
+      "dependencies": [
+        "Corrected spin-memory CR2 stationary law and source custody",
+        "TWO-O2 source-moment receiver",
+        "Original signed parent and completed port weights"
+      ],
+      "resource_estimate": {
+        "measured": "N5000 moment contraction about0.96s; full N20 qualification47.82s and976328KiB peak RSS; no full N5000 state array.",
+        "next_estimate": "One verifier; seconds/minutes of arithmetic, approximately1–3hours proof/code review;4GiB sufficient. These are estimates, not a launched case."
+      },
+      "recommended_route": "CR2",
+      "scientific_value_1_to_5": 5,
+      "feasibility_1_to_5": 5
+    },
+    {
+      "id": "TWO-O2",
+      "rank": 2,
+      "title": "Original-source moment Gauss/Radau finite-time receiver",
+      "classification": "conditional result",
+      "chapter_ids": [
+        "VI",
+        "VII",
+        "IX",
+        "X",
+        "XIX"
+      ],
+      "physical_pdf_pages": [
+        [
+          31,
+          34
+        ],
+        [
+          37,
+          39
+        ],
+        [
+          48,
+          52
+        ],
+        [
+          56,
+          57
+        ],
+        [
+          99,
+          102
+        ]
+      ],
+      "claim_or_bottleneck": "Large microscopic propagation is costly; a static boundary generator alone can erase physical memory.",
+      "original_source_and_operands": [
+        "Full reversible A=-L and original Gibbs metric; mu_j=<s0,A^j s0>",
+        "N6 original uniform control, actual signed rootN15/root+tailN20 and negative-fill rootN15; all source definitions retained",
+        "Positive spectral measure and shifted Hankel Grams"
+      ],
+      "what_was_tried": [
+        "Proved Gauss lower for exp and shifted-measure Radau upper for integrated exp",
+        "Evaluated m1..m4 natively and compared to full64-state N6 propagation",
+        "Computed full directed root moments and finite CMI enclosures; m1 fails to certify desired memory and m2 succeeds",
+        "Applied only after actual source moment construction, including TWO-O1"
+      ],
+      "actual_result": {
+        "theorem": "L_m(t+s)-U_m(t)U_m(s)>0 certifies finite physical spectral defect without a full-state exponential or upper spectral cutoff.",
+        "finite_controls": "All N6 correlation controls enclosed. Approximate CMI: actual signed root15+ .0002143475; root20+ .0002082398; root15- .0000386607.",
+        "negative_result": "The one-node lower defect is nonpositive on relevant controls; its data remain."
+      },
+      "proof_code_receipt_evidence": [
+        "gen/MOMENT_QUADRATURE_WORKING.md",
+        "gen/MOMENT_RECEIVER_HOST.json",
+        "gen/ORIGINAL_ROOT15_MOMENTS_V2.json",
+        "gen/ORIGINAL_ROOT20_MOMENTS_V1.json",
+        "gen/ORIGINAL_ROOT15_NEG_MOMENTS_V1.json",
+        "gen/native_evidence/TWO_MOMENT_N6_ACTION_V1",
+        "gen/native_evidence/TWO_MOMENT_N6_RECEIVER_V1",
+        "gen/native_evidence/TWO_ORIGINAL_ROOT15_RECEIVER_V1",
+        "gen/native_evidence/TWO_ORIGINAL_ROOT20_RECEIVER_V1",
+        "gen/native_evidence/TWO_ORIGINAL_ROOT15_NEG_RECEIVER_V1"
+      ],
+      "assumptions": [
+        "Actual physical source moments, finite required moment order and reversible positive generator",
+        "Correct source-metric Hankel matrices and positive independent retained moments",
+        "Inversion-symmetric stationary binary law for the CMI reduction; no conditional-preparation substitution"
+      ],
+      "remaining_gap": [
+        "No installed reusable method was added",
+        "Other source moment adapters require their own exact source map and payments",
+        "Uncertain Hankel breakdown must be resolved, not silently deflated"
+      ],
+      "discriminating_success_failure_check": {
+        "success": "Source-bound recipe reproduces full small-source propagation enclosures and positive defect from actual moments; returns explicit insufficiency at a nonpositive/uncertain pivot.",
+        "failure": "Incorrect clock/Gibbs lift, replacing physical M by auxiliary field, or an unsupported moment interval invalidates the receiver."
+      },
+      "dependencies": [
+        "Classical Gauss/Radau sign theorem, directly proved in working note and compared to primary Golub/Meurant sources",
+        "Corrected CR2 finite binary KL law",
+        "Source-specific moment producer"
+      ],
+      "resource_estimate": {
+        "measured": "Small native matrices of order1–4; full N6 reference64states; no dense N15/N20 exponentials.",
+        "next_estimate": "Small local source recipe and checks,1–2hours implementation; arithmetic ordinarily seconds; no engine promotion authorized."
+      },
+      "recommended_route": "small local work",
+      "scientific_value_1_to_5": 5,
+      "feasibility_1_to_5": 5
+    }
+  ],
+  "complete_original_documents": {
+    "ONE": "prior/ONE/OPPORTUNITIES.json",
+    "TWO": "prior/TWO/OPPORTUNITIES.json"
+  },
+  "baseline_pdf_sha256": "391450c512bfda11682e5a58b6f3f8d27856cdc4381cd962432ae9d3e521a5f3"
+}

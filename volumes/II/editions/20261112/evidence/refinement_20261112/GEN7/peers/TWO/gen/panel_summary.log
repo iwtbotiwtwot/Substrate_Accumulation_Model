@@ -1,0 +1,21 @@
+{
+  "populated_accounts": 132,
+  "strict_improved_vs_original_geometric": 17,
+  "strict_improved_by_exact_weight_vs_previous_three_way_max": 0,
+  "fresh_spherical_positive_ionization": 30,
+  "by_nu": {
+    "1": {
+      "improved_vs_original": 17,
+      "spherical_positive_ionization": 10
+    },
+    "3/4": {
+      "improved_vs_original": 0,
+      "spherical_positive_ionization": 10
+    },
+    "1/2": {
+      "improved_vs_original": 0,
+      "spherical_positive_ionization": 10
+    }
+  }
+}
+changed [{'nu': '1', 'source': 'He4_3', 'g': '1/10', 'lower_changed_inventory': [1, 2]}, {'nu': '1', 'source': 'He4_3', 'g': '1', 'lower_changed_inventory': [1, 2]}, {'nu': '1', 'source': 'He4_4', 'g': '1/10', 'lower_changed_inventory': [1, 2]}, {'nu': '1', 'source': 'He4_4', 'g': '1', 'lower_changed_inventory': [1, 2]}, {'nu': '1', 'source': 'C12_333', 'g': '1/10', 'lower_changed_inventory': [4, 5, 6]}, {'nu': '1', 'source': 'C12_333', 'g': '1', 'lower_changed_inventory': []}, {'nu': '1', 'source': 'C12_343', 'g': '1/10', 'lower_changed_inventory': [4, 5, 6]}, {'nu': '1', 'source': 'C12_343', 'g': '1', 'lower_changed_inventory': []}, {'nu': '1', 'source': 'C12_444', 'g': '1/10', 'lower_changed_inventory': [4, 5, 6]}, {'nu': '1', 'source': 'C12_444', 'g': '1', 'lower_changed_inventory': []}, {'nu': '3/4', 'source': 'He4_3', 'g': '1/10', 'lower_changed_inventory': []}, {'nu': '3/4', 'source': 'He4_3', 'g': '1', 'lower_changed_inventory': []}, {'nu': '3/4', 'source': 'He4_4', 'g': '1/10', 'lower_changed_inventory': []}, {'nu': '3/4', 'source': 'He4_4', 'g': '1', 'lower_changed_inventory': []}, {'nu': '3/4', 'source': 'C12_333', 'g': '1/10', 'lower_changed_inventory': []}, {'nu': '3/4', 'source': 'C12_333', 'g': '1', 'lower_changed_inventory': []}, {'nu': '3/4', 'source': 'C12_343', 'g': '1/10', 'lower_changed_inventory': []}, {'nu': '3/4', 'source': 'C12_343', 'g': '1', 'lower_changed_inventory': []}, {'nu': '3/4', 'source': 'C12_444', 'g': '1/10', 'lower_changed_inventory': []}, {'nu': '3/4', 'source': 'C12_444', 'g': '1', 'lower_changed_inventory': []}, {'nu': '1/2', 'source': 'He4_3', 'g': '1/10', 'lower_changed_inventory': []}, {'nu': '1/2', 'source': 'He4_3', 'g': '1', 'lower_changed_inventory': []}, {'nu': '1/2', 'source': 'He4_4', 'g': '1/10', 'lower_changed_inventory': []}, {'nu': '1/2', 'source': 'He4_4', 'g': '1', 'lower_changed_inventory': []}, {'nu': '1/2', 'source': 'C12_333', 'g': '1/10', 'lower_changed_inventory': []}, {'nu': '1/2', 'source': 'C12_333', 'g': '1', 'lower_changed_inventory': []}, {'nu': '1/2', 'source': 'C12_343', 'g': '1/10', 'lower_changed_inventory': []}, {'nu': '1/2', 'source': 'C12_343', 'g': '1', 'lower_changed_inventory': []}, {'nu': '1/2', 'source': 'C12_444', 'g': '1/10', 'lower_changed_inventory': []}, {'nu': '1/2', 'source': 'C12_444', 'g': '1', 'lower_changed_inventory': []}]

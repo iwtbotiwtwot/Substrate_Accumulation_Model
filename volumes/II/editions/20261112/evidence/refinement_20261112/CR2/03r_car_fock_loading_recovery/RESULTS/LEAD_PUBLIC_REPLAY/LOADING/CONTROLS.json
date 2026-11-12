@@ -1,0 +1,167 @@
+{
+  "LC01": {
+    "attaining_atoms": [
+      [
+        "0",
+        "1/2"
+      ],
+      [
+        "1",
+        "1/2"
+      ]
+    ],
+    "attaining_residual": "1/2",
+    "distinct": true,
+    "integer_L": "1",
+    "linear_residual": "2/3",
+    "omitting_terminal_atom": {
+      "energy": "1/4",
+      "mass": "1/2",
+      "rejected": "unit-mass premise fails"
+    }
+  },
+  "LC02": {
+    "atoms": [
+      [
+        "0",
+        "3/4"
+      ],
+      [
+        "1/2",
+        "-1/2"
+      ],
+      [
+        "1",
+        "3/4"
+      ]
+    ],
+    "box_energy": "5/8",
+    "box_pieces": [
+      {
+        "left": "0",
+        "midpoint_load": "3/4",
+        "right": "1/2",
+        "slope": "0",
+        "square_integral": "9/32"
+      },
+      {
+        "left": "1/2",
+        "midpoint_load": "1/4",
+        "right": "1",
+        "slope": "0",
+        "square_integral": "1/32"
+      },
+      {
+        "left": "1",
+        "midpoint_load": "1/4",
+        "right": "3/2",
+        "slope": "0",
+        "square_integral": "1/32"
+      },
+      {
+        "left": "3/2",
+        "midpoint_load": "3/4",
+        "right": "2",
+        "slope": "0",
+        "square_integral": "9/32"
+      }
+    ],
+    "energy": "5/8",
+    "fiber_checks": [
+      {
+        "available_slots": 2,
+        "integrated_deficit": "1/16",
+        "loads": [
+          "3/4",
+          "1/4"
+        ],
+        "theta_interval": [
+          "0",
+          "1/2"
+        ]
+      },
+      {
+        "available_slots": 2,
+        "integrated_deficit": "1/16",
+        "loads": [
+          "1/4",
+          "3/4"
+        ],
+        "theta_interval": [
+          "1/2",
+          "1"
+        ]
+      }
+    ],
+    "gap": "1/8",
+    "lower": "1/2"
+  },
+  "LC03": {
+    "discrete_odd_modes": {
+      "continuum_cross_term": "0; directed pi>2 at tau=1",
+      "continuum_residual": "1/2",
+      "discrete_residual": "0",
+      "endpoint_half_step_delay": "pi",
+      "fourier_amplitudes_imaginary": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "fourier_amplitudes_real": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "frequencies": [
+        1,
+        3,
+        5,
+        7
+      ]
+    },
+    "local_mean": {
+      "completed_field_energy_over_D": "1/2",
+      "free_energy_over_D": "3/2",
+      "mean_Phi_over_D": "2",
+      "observation_y": "2",
+      "schedule_L": "1"
+    }
+  },
+  "LC04": {
+    "evidence_class": "analytic domain proof and documentary premise fixtures",
+    "fixtures": [
+      {
+        "accepted": true,
+        "fixture": "free vacuum, coupling off to a fixed legal source, supplied scalar drive",
+        "scope": "normal Fock finite-time coherent evolution; energy-form excess"
+      },
+      {
+        "accepted": false,
+        "fixture": "nonzero exact static shell displacement called a normal incoming Fock vacuum",
+        "reason": "static number integral contains integral_0 p(x)/x dx = infinity"
+      },
+      {
+        "accepted": true,
+        "fixture": "explicitly supplied equilibrium Gaussian/displaced energy-form sector",
+        "scope": "conditional sector statement; no normal-Fock preparation inferred"
+      },
+      {
+        "accepted": false,
+        "fixture": "unspecified arbitrary normalized incoming field substituted for equilibrium",
+        "reason": "incoming energy and interference cross term are absent"
+      },
+      {
+        "accepted": false,
+        "fixture": "unpriced frequency-dependent or second-quadrature actuator",
+        "reason": "outside the common scalar ds control class; operator/domain and work must be supplied"
+      },
+      {
+        "accepted": false,
+        "fixture": "intermediate scalar forces relabeled as legal fractional C4 nuclear phases",
+        "reason": "the external force interpolation does not extend the legal matter-state set"
+      }
+    ]
+  }
+}

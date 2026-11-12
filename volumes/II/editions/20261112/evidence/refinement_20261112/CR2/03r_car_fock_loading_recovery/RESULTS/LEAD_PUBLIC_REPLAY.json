@@ -1,0 +1,204 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-11-12T00:41:46.585143+00:00",
+  "scope": "Fresh complete-case relocation; all deterministic outputs compared; Python public-read audits. Proof/code review separate.",
+  "source_case": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/03_car_fock_loading",
+  "relocated_case": "/tmp/volii_car_public_20261112T004141Z",
+  "attempt": "host/lead_replay/car_20261112T004141Z",
+  "source_files_checked": 4750,
+  "scientific_outputs_checked": 24,
+  "tracks": {
+    "LI6": {
+      "returncode": 0,
+      "command": [
+        "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/.venv/bin/python",
+        "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/host/public_replay_guard_v2.py",
+        "--case",
+        "/tmp/volii_car_public_20261112T004141Z",
+        "--audit",
+        "/tmp/volii_car_public_20261112T004141Z/lead_output_LI6/LEAD_PUBLIC_READ_AUDIT.json",
+        "--script",
+        "/tmp/volii_car_public_20261112T004141Z/peers/LI6/replay.py",
+        "--",
+        "--output",
+        "/tmp/volii_car_public_20261112T004141Z/lead_output_LI6"
+      ],
+      "wall_seconds": 2.3098937661852688,
+      "outputs": {
+        "BOUNDS.json": {
+          "sha256": "27e6c26776bb095e673bcf8cca30c23a9e994dff18f21b5244a1e232bb0fcdf8",
+          "expected_sha256": "27e6c26776bb095e673bcf8cca30c23a9e994dff18f21b5244a1e232bb0fcdf8",
+          "match": true
+        },
+        "CONTROLS.json": {
+          "sha256": "7b6ddce9c210237d67b089adb420e69873544d776c7936ea788fc4337deb2ae5",
+          "expected_sha256": "7b6ddce9c210237d67b089adb420e69873544d776c7936ea788fc4337deb2ae5",
+          "match": true
+        },
+        "DIRECTED.json": {
+          "sha256": "e18999df2ac3289a19537a1f5434b37ec6a9bd996cebaf1ed02ac83fe8899f7f",
+          "expected_sha256": "e18999df2ac3289a19537a1f5434b37ec6a9bd996cebaf1ed02ac83fe8899f7f",
+          "match": true
+        },
+        "EXECUTION.json": {
+          "sha256": "a6ee1cfdcae1065d4ce221f67bf83be07a10f9b9a48e199fa0718633b0971c2e",
+          "expected_sha256": "a6ee1cfdcae1065d4ce221f67bf83be07a10f9b9a48e199fa0718633b0971c2e",
+          "match": true
+        },
+        "MOMENTS.json": {
+          "sha256": "929ec03c604ddb80d03995e6de17deabfe33a6f18a2240229e06ebb705f72482",
+          "expected_sha256": "929ec03c604ddb80d03995e6de17deabfe33a6f18a2240229e06ebb705f72482",
+          "match": true
+        },
+        "PHYSICAL_IMAGES.json": {
+          "sha256": "eab597013f2869b4e6241ce58a3fef4a284b8d8dc4ad588ec9d416d2bf2c69d4",
+          "expected_sha256": "eab597013f2869b4e6241ce58a3fef4a284b8d8dc4ad588ec9d416d2bf2c69d4",
+          "match": true
+        },
+        "PROPER_REFERENCE.json": {
+          "sha256": "94e90acd3919e3367e609e8860e78fe6410b8a4ec5ac38d1cfefa26fa2fdf34a",
+          "expected_sha256": "94e90acd3919e3367e609e8860e78fe6410b8a4ec5ac38d1cfefa26fa2fdf34a",
+          "match": true
+        },
+        "SOURCE.json": {
+          "sha256": "0c55603ea84b156d39e94c1577b5795e08678ff53b0af14fce9ce43f428ef713",
+          "expected_sha256": "0c55603ea84b156d39e94c1577b5795e08678ff53b0af14fce9ce43f428ef713",
+          "match": true
+        },
+        "SOURCE_COUNTEREXAMPLE.json": {
+          "sha256": "f5915f1d2d7b6a821a55daf6e34440fa83b277a1b1f1fc458a4251c1a6b7e0a4",
+          "expected_sha256": "f5915f1d2d7b6a821a55daf6e34440fa83b277a1b1f1fc458a4251c1a6b7e0a4",
+          "match": true
+        },
+        "SUMMARY.json": {
+          "sha256": "652d129738fa8f385512021d78047991fc176f250ffd9d1d33daa1066a8ff630",
+          "expected_sha256": "652d129738fa8f385512021d78047991fc176f250ffd9d1d33daa1066a8ff630",
+          "match": true
+        }
+      },
+      "status": "PASS",
+      "audit_status": "PASS",
+      "other_output_files": [
+        "LEAD_PUBLIC_READ_AUDIT.json"
+      ]
+    },
+    "N12": {
+      "returncode": 0,
+      "command": [
+        "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/.venv/bin/python",
+        "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/host/public_replay_guard_v2.py",
+        "--case",
+        "/tmp/volii_car_public_20261112T004141Z",
+        "--audit",
+        "/tmp/volii_car_public_20261112T004141Z/lead_output_N12/LEAD_PUBLIC_READ_AUDIT.json",
+        "--script",
+        "/tmp/volii_car_public_20261112T004141Z/peers/N12/replay.py",
+        "--",
+        "--out",
+        "/tmp/volii_car_public_20261112T004141Z/lead_output_N12"
+      ],
+      "wall_seconds": 1.618049758952111,
+      "outputs": {
+        "controls.json": {
+          "sha256": "13fc9e3cdd50f2871cbc5149231e18e80308e31ce82f3b178855c7ccd9219426",
+          "expected_sha256": "13fc9e3cdd50f2871cbc5149231e18e80308e31ce82f3b178855c7ccd9219426",
+          "match": true
+        },
+        "energy_loading.json": {
+          "sha256": "7aa1893c39eb483d5a84435cad738f125dbf31e5a1dd0951f2537cdb7ae69213",
+          "expected_sha256": "7aa1893c39eb483d5a84435cad738f125dbf31e5a1dd0951f2537cdb7ae69213",
+          "match": true
+        },
+        "flavor_source.json": {
+          "sha256": "fd768c20e7770aed409806543a3616905b49382401930ccc8a8354e58497c087",
+          "expected_sha256": "fd768c20e7770aed409806543a3616905b49382401930ccc8a8354e58497c087",
+          "match": true
+        },
+        "occupancy.json": {
+          "sha256": "0b095ffb0130cd4066e8e29255a27afc7baa834b72c82327fbc587c425c04d25",
+          "expected_sha256": "0b095ffb0130cd4066e8e29255a27afc7baa834b72c82327fbc587c425c04d25",
+          "match": true
+        },
+        "summary.json": {
+          "sha256": "3fb7d7cdb940c7f91bece339416e50d9be97c0c85885018b20ae18139d23f261",
+          "expected_sha256": "3fb7d7cdb940c7f91bece339416e50d9be97c0c85885018b20ae18139d23f261",
+          "match": true
+        },
+        "targets.json": {
+          "sha256": "5ade0cca3445384a2bc3ada82f308f00778b8b9ca262421a6c7230b328a9546a",
+          "expected_sha256": "5ade0cca3445384a2bc3ada82f308f00778b8b9ca262421a6c7230b328a9546a",
+          "match": true
+        },
+        "OUTPUT_MANIFEST.json": {
+          "sha256": "d609d0f696eeef27514df0c9ec2d6436ab35b3c344aa1388a2c5d12f70c6ebae",
+          "expected_sha256": "d609d0f696eeef27514df0c9ec2d6436ab35b3c344aa1388a2c5d12f70c6ebae",
+          "match": true
+        }
+      },
+      "status": "PASS",
+      "audit_status": "PASS",
+      "other_output_files": [
+        "LEAD_PUBLIC_READ_AUDIT.json"
+      ]
+    },
+    "LOADING": {
+      "returncode": 0,
+      "command": [
+        "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/.venv/bin/python",
+        "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/host/public_replay_guard_v2.py",
+        "--case",
+        "/tmp/volii_car_public_20261112T004141Z",
+        "--audit",
+        "/tmp/volii_car_public_20261112T004141Z/lead_output_LOADING/LEAD_PUBLIC_READ_AUDIT.json",
+        "--script",
+        "/tmp/volii_car_public_20261112T004141Z/peers/LOADING/replay.py",
+        "--",
+        "--output-dir",
+        "/tmp/volii_car_public_20261112T004141Z/lead_output_LOADING"
+      ],
+      "wall_seconds": 0.12643560417927802,
+      "outputs": {
+        "CONTROLS.json": {
+          "sha256": "1872924dbb0c848533b9e8b731b9c0d89f244ed8877ba8afbdb9e0d777264b94",
+          "expected_sha256": "1872924dbb0c848533b9e8b731b9c0d89f244ed8877ba8afbdb9e0d777264b94",
+          "match": true
+        },
+        "DIRECTED_SPECTRUM.json": {
+          "sha256": "37afcd00e6ad1a275aa968a43fad3af153d28d4b4a7ad727cfb2e718824d2a51",
+          "expected_sha256": "37afcd00e6ad1a275aa968a43fad3af153d28d4b4a7ad727cfb2e718824d2a51",
+          "match": true
+        },
+        "RATES_AND_SMOOTHING.json": {
+          "sha256": "249fe3b50bf2b03b82883f9ea4c756dbe24284515a232c5b89b753fa3ab9a6cf",
+          "expected_sha256": "249fe3b50bf2b03b82883f9ea4c756dbe24284515a232c5b89b753fa3ab9a6cf",
+          "match": true
+        },
+        "SCHEDULES.json": {
+          "sha256": "acab520ad90e4120b7b9362a2ee6ddbbb64569b02be9c62f94777acd692658a6",
+          "expected_sha256": "acab520ad90e4120b7b9362a2ee6ddbbb64569b02be9c62f94777acd692658a6",
+          "match": true
+        },
+        "SOURCE_READBACK.json": {
+          "sha256": "e94fe899510a8ba99a9b14cbadd3599977c5605ce6e19e4cc0ffa720a16ede47",
+          "expected_sha256": "e94fe899510a8ba99a9b14cbadd3599977c5605ce6e19e4cc0ffa720a16ede47",
+          "match": true
+        },
+        "SUMMARY.json": {
+          "sha256": "f5294fd771464489b096827a06a0f2831b64cbe6ccaa1bafc257c92b23813a78",
+          "expected_sha256": "f5294fd771464489b096827a06a0f2831b64cbe6ccaa1bafc257c92b23813a78",
+          "match": true
+        },
+        "OUTPUT_MANIFEST.json": {
+          "sha256": "12777f329f471e201e4aca1951121ebf7a15324a4a0faeeb25ebdb9f02e0ad37",
+          "expected_sha256": "12777f329f471e201e4aca1951121ebf7a15324a4a0faeeb25ebdb9f02e0ad37",
+          "match": true
+        }
+      },
+      "status": "PASS",
+      "audit_status": "PASS",
+      "other_output_files": [
+        "LEAD_PUBLIC_READ_AUDIT.json"
+      ]
+    }
+  }
+}

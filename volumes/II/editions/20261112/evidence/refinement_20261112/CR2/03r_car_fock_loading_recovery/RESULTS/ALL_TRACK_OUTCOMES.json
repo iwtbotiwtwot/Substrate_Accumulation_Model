@@ -1,0 +1,875 @@
+{
+  "schema": "LOSSLESS_CAR_FOCK_LOADING_OUTCOMES_V1",
+  "original_documents": {
+    "LI6": {
+      "schema": "LI6_ALL_ASSIGNED_OUTCOMES_V1",
+      "recorded_utc": "2026-11-12T00:35:12.035519+00:00",
+      "claims": [
+        {
+          "id": "A01",
+          "outcome": "HELD",
+          "evidence": [
+            "DERIVATION.md sections1,2,4",
+            "attempts/002/output/SOURCE.json"
+          ],
+          "result": "Original complete source raw rank600, full flavor/CAR decomposition, coherent embedding and common graph-polar/unitary extension with transported Writes.",
+          "boundary": "The weighted energy upper applies to unchanged14336, not every600 input."
+        },
+        {
+          "id": "A02",
+          "outcome": "HELD",
+          "evidence": [
+            "DERIVATION.md sections2,3",
+            "attempts/002/output/MOMENTS.json",
+            "attempts/002/output/PHYSICAL_IMAGES.json",
+            "attempts/002/output/DIRECTED.json"
+          ],
+          "result": "All internal/cell CAR and density images, signed coherent self and both ordered vertex terms, full target norm and cubic parity exactly retained.",
+          "boundary": "Field and vertex pieces are retained in every required matrix element; separate normalized new-state physical response/released-spectrum tables remain uncomputed."
+        },
+        {
+          "id": "A03",
+          "outcome": "HELD",
+          "evidence": [
+            "DERIVATION.md sections4,5,6",
+            "attempts/002/output/BOUNDS.json",
+            "attempts/002/output/PROPER_REFERENCE.json",
+            "attempts/002/output/DIRECTED.json"
+          ],
+          "result": "Benchmark gain>1.0501207340, margin>1.6027627093; same-static own-cloud family gain>0.7603001617, margin>1.3129421370.",
+          "boundary": "Same full proper matter breakup reference, source and parameters. All-family scope requires the stated real passive harmonic and cloud hypotheses."
+        },
+        {
+          "id": "A04",
+          "outcome": "HELD",
+          "evidence": [
+            "DERIVATION.md sections1,4,7",
+            "HYPOTHESES.md",
+            "attempts/002/output/SOURCE_COUNTEREXAMPLE.json",
+            "recovered_sources/FIBER_THRESHOLD_ROUTE.md"
+          ],
+          "result": "Common full-flavor map/source extension and unchanged-input energy quantifier retained precisely.",
+          "boundary": "321 spectral promotion, source-specific fiber threshold/escaping-boson theorem, physical variational-filter implementation/controller/work/information/reference/reset/reuse and response/calibration remain outside the certificate."
+        }
+      ],
+      "controls": [
+        {
+          "id": "LA01",
+          "outcome": "HELD WITH CORRECTION",
+          "invalid_variant_rejected": true,
+          "evidence": [
+            "attempts/001/REGISTERED.json",
+            "attempts/001/OUTCOME.json",
+            "attempts/002/output/CONTROLS.json"
+          ],
+          "result": "Valid mixed witness has N=0,Q=-4/5 and ordered-vertex omission changes it to-2/5. Scalar times N cannot equal Q.",
+          "correction": "Initial concrete pair(0,1,2)/(0,2,1) was a null N=Q=0, so it did not break as predicted. General control retained, concrete witness corrected to(0,1,2)/(0,1,4).",
+          "initial_control_broke_as_predicted": false
+        },
+        {
+          "id": "LA02",
+          "outcome": "HELD",
+          "invalid_variant_rejected": true,
+          "evidence": [
+            "attempts/002/output/CONTROLS.json",
+            "attempts/002/output/SOURCE_COUNTEREXAMPLE.json"
+          ],
+          "result": "Exact cell moment loss,321 lost norm112/225 and actual raw600 pure411 counterexample reject all specified omissions/quantifier change."
+        },
+        {
+          "id": "LA03",
+          "outcome": "HELD",
+          "invalid_variant_rejected": true,
+          "evidence": [
+            "DERIVATION.md section7",
+            "attempts/002/output/CONTROLS.json",
+            "attempts/002/output/DIRECTED.json"
+          ],
+          "result": "Analytic real-time/filter tangent and energy-slope mismatch; directed own-cloud overlaps disjoint for benchmark and spring."
+        }
+      ],
+      "attempts": [
+        {
+          "id": "001",
+          "status": "FAILED_VERIFIER_CONTROL_LABEL_ASSERTION",
+          "path": "attempts/001",
+          "retained": true
+        },
+        {
+          "id": "002",
+          "status": "COMPLETED",
+          "path": "attempts/002",
+          "retained": true
+        },
+        {
+          "id": "003",
+          "status": "COMPLETED_BYTE_IDENTICAL_RELOCATED_REPLAY",
+          "path": "attempts/003",
+          "retained": true
+        }
+      ],
+      "unproved_required_substatements": [],
+      "frozen_inputs_changed": false,
+      "desired_outcome": null,
+      "evidence_types": {
+        "analytic": "Infinite/full-domain, representation and extension proofs",
+        "exact_host": "Rational source/CAR/matrix/combinatorial identities and margins",
+        "directed": "Arb coherent exponent and two-law full moment checks",
+        "inherited": "Original physical model and classical representation structure, with retained primary readback",
+        "diagnostic": "Rejected variants and retained initial null"
+      },
+      "limitations": "See A04 and HYPOTHESES; they are retained scope boundaries, not unresolved steps of A01-A04 as submitted."
+    },
+    "N12": {
+      "schema": "N12_CR2_OUTCOMES_V1",
+      "completed_utc": "2026-11-12T00:37:00.169121+00:00",
+      "claims": {
+        "B01": {
+          "verdict": "HELD",
+          "scope": "Complete fixed-mu full-Fock proper matter-particle/flavor comparison; all occupancies, legal incidences, cell allocations and proper splits.",
+          "evidence": [
+            "DERIVATION.md §§1–2",
+            "attempts/004/output/occupancy.json"
+          ],
+          "observed": {
+            "occupancies": 390625,
+            "classes": 141,
+            "flavor_subvectors": 225,
+            "flow_comparisons_including_zero": 2165,
+            "proper_splits_ordered": 223,
+            "proper_numerator": 2340,
+            "proper_by_smaller_size": {
+              "1": 2340,
+              "2": 2192,
+              "3": 2004,
+              "4": 1960,
+              "5": 1836,
+              "6": 1856
+            },
+            "proper_lower": "-780"
+          },
+          "analytic_extension": "Integral cut/flow proof and induction over occupied cells and fragment blocks; positivity of complete Fock square and T.",
+          "unresolved_assigned_substatements": []
+        },
+        "B02": {
+          "verdict": "HELD",
+          "scope": "Uniform complete expectation upper on selected25 highest copies and their full20-dimensional flavor factors; original fixed-mu comparison.",
+          "evidence": [
+            "DERIVATION.md §§1,3–4",
+            "attempts/004/output/targets.json",
+            "attempts/004/output/flavor_source.json",
+            "attempts/004/output/energy_loading.json"
+          ],
+          "observed": {
+            "target_profiles": 420,
+            "selected_min_numerator": 2592,
+            "full_target_flavor_fiber_dimension": 36,
+            "full_target_flavor_projector_ranks": {
+              "36": "1",
+              "44": "15",
+              "48": "20"
+            },
+            "target_upper": "-98991/125",
+            "complete_margin": "1491/125",
+            "parameter_formula": "(12/5)*g2-72*(tau+tcell)",
+            "sufficient_region": "g2>30*(tau+tcell), tau>=0, tcell>=0"
+          },
+          "analytic_extension": "Normal-Fock conditional Weyl map, even local occupancy, physical kinetic diagonal and complete signed field/vertex payments.",
+          "unresolved_assigned_substatements": []
+        },
+        "B03": {
+          "verdict": "HELD",
+          "scope": "Full-flavor Cartan-product partial isometry and its coherent retained-record source instrument; success energy is conditional.",
+          "evidence": [
+            "DERIVATION.md §4, equations14–18",
+            "attempts/004/output/flavor_source.json",
+            "attempts/004/output/controls.json:NB03"
+          ],
+          "observed": {
+            "raw_source_rank_per_copy": 600,
+            "raw_two_source_rank": 360000,
+            "source_highest_multiplicity_per_copy": 5,
+            "global_success_orbit_dimension": 500,
+            "source_phase_dimension": 81,
+            "phase_success_rank": 25,
+            "phase_failure_rank": 80,
+            "unchanged_success_probability": "28561/455625",
+            "original_positive_Writes_verified": 9
+          },
+          "analytic_extension": "Common lowering-word Gram constructs the full20-dimensional flavor intertwiner; explicit orthogonal source/target swap extends to parent; V*V=I and transported Write formula hold on all360000 source directions.",
+          "clarifications": [
+            "The flag must remain a quantum record for the reversible full-source Gram/Write statement; classical readout alone is a reduced measurement channel.",
+            "This is a new two-contact-Li6 source with total population(4,2,4,2); historical three-He4 carbon action and15/17 arrival instrument are separate.",
+            "No unconditional success-plus-failure energy upper or physical projection/reset payment is claimed."
+          ],
+          "unresolved_assigned_substatements": []
+        },
+        "B04": {
+          "verdict": "HELD",
+          "scope": "Conditional bare-target/free-vacuum discrete-mode loading bound; matter/prescribed-equilibrium-cloud static capacity; separately labelled external-cell record alternative.",
+          "evidence": [
+            "DERIVATION.md §5",
+            "HYPOTHESES.md H12–H15",
+            "attempts/004/output/energy_loading.json"
+          ],
+          "observed": {
+            "A_upper": "1/200",
+            "loading_error_upper": "123689/12500",
+            "loading_allowance": "25411/12500",
+            "full_matter_parent_dimension": 3841600,
+            "one_cell_directions_above2592": 24,
+            "maximum_other_feasible_density_class": 2576,
+            "matter_25th_static_numerator": 2592,
+            "COM_margin": "9473/375"
+          },
+          "analytic_extension": "Exact driven-mode solution, rational Machin timing enclosure, density derivative field-energy-form estimate and centered bounded-matter width. Matter minmax follows the entire exact diagonal spectrum.",
+          "clarifications": [
+            "The one-cell capacity statement is a matter/prescribed-dressing statement, not an unrestricted full-Fock memory-capacity theorem.",
+            "Loading starts after a bare target and vacuum are supplied. Incoming clouds, projection/orbital control, reference formation, clock, work-store, reset and spectral/capture claims are outside this bound."
+          ],
+          "unresolved_assigned_substatements": []
+        }
+      },
+      "controls": {
+        "NB01": {
+          "verdict": "HELD",
+          "malformed_variant": "BROKE AS PREDICTED",
+          "observed": {
+            "actual_worst_smaller_fragment_size": 1,
+            "all_proper_numerator": 2340,
+            "balanced_6_plus6_numerator": 1856,
+            "detected": true
+          },
+          "evidence": [
+            "DERIVATION.md §6",
+            "attempts/004/output/controls.json:NB01"
+          ]
+        },
+        "NB02": {
+          "verdict": "HELD",
+          "malformed_variant": "BROKE AS PREDICTED",
+          "observed": {
+            "detected": true,
+            "fixed_weight_truncated_C2": 40,
+            "full_target_C2": 48,
+            "legal_N12_numerator": 2632,
+            "no_flavor_cut_N12_numerator": 2816,
+            "nonzero_hop_when_even_occupancy_is_dropped": {
+              "from": 22015,
+              "kinetic_coefficient_over_tau": 2,
+              "rho": [
+                3,
+                4,
+                3,
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              "to": 22525
+            }
+          },
+          "evidence": [
+            "DERIVATION.md §6",
+            "attempts/004/output/controls.json:NB02"
+          ]
+        },
+        "NB03": {
+          "verdict": "HELD",
+          "malformed_variant": "BROKE AS PREDICTED",
+          "observed": {
+            "allplus_pair_probability": "203401/455625",
+            "antisymmetric_pair_success_probability": "0",
+            "complete_gram_identity": true,
+            "detected": true,
+            "edge7_pair_probability": "1",
+            "failure_rank": 80,
+            "historical_carbon_source": "three complete He4 phase sources, 4^18 histories, not this two-contact-Li6 source",
+            "old_arrival_probability": "15/17",
+            "success_effect_eigenvalues_multiplicities": {
+              "0": 56,
+              "1": 1,
+              "2209/5625": 16,
+              "47/75": 8
+            },
+            "success_only_gram_error_entry_0_7_diagonal": "103/150",
+            "success_only_rank": 25,
+            "two_Writes_commutator_entry_absolute": "47/75",
+            "unchanged_pair_probability": "28561/455625",
+            "whole_phase_rank": 81
+          },
+          "evidence": [
+            "DERIVATION.md §6",
+            "attempts/004/output/controls.json:NB03"
+          ]
+        },
+        "NB04": {
+          "verdict": "HELD",
+          "malformed_variant": "BROKE AS PREDICTED",
+          "observed": {
+            "benchmark_margin": "1491/125",
+            "detected": true,
+            "parameter_variations": [
+              {
+                "g2": "36",
+                "inside_sufficient_region": true,
+                "margin": "1791/125",
+                "tau": "1",
+                "tcell": "1/1000"
+              },
+              {
+                "g2": "20",
+                "inside_sufficient_region": true,
+                "margin": "1482/125",
+                "tau": "1/2",
+                "tcell": "1/500"
+              },
+              {
+                "g2": "35",
+                "inside_sufficient_region": true,
+                "margin": "282/25",
+                "tau": "1",
+                "tcell": "1/100"
+              }
+            ]
+          },
+          "evidence": [
+            "DERIVATION.md §6",
+            "attempts/004/output/controls.json:NB04"
+          ]
+        }
+      },
+      "evidence_types": {
+        "analytic": "Full-Fock, all-cell, all-fragment, representation/intertwiner, full-source and energy-form proofs in DERIVATION.md",
+        "exact_host": "Independently authored standard-library integer/Fraction arithmetic, integral flows, CAR, projectors, Grams and source checks",
+        "directed_interval": "No floating interval dependency needed; pi is enclosed by exact alternating rational series",
+        "diagnostic": "Hypothesis-breaking malformed variants NB01–NB04",
+        "inherited": "Original contact-source definition/polar convention and declared constitutive scalar law; all retained source hashes sealed"
+      },
+      "attempts": [
+        {
+          "id": "001",
+          "status": "IMPLEMENTATION_FAULT",
+          "cause": "fresh first-hop sign +2 instead of physical -2",
+          "retained": "attempts/001"
+        },
+        {
+          "id": "002",
+          "status": "PASS",
+          "purpose": "corrected complete reconstruction"
+        },
+        {
+          "id": "003",
+          "status": "PASS",
+          "purpose": "explicit source effect/Write/moment/capacity audit"
+        },
+        {
+          "id": "004",
+          "status": "PASS",
+          "purpose": "relocated public replay; byte-identical outputs"
+        }
+      ],
+      "independence": "I1 separate code, same model",
+      "reproducibility": "R2 engine-free relocated public replay",
+      "external_verification": false,
+      "not_claimed": [
+        "I2",
+        "I3",
+        "R3"
+      ],
+      "additional_recovered_sources": [],
+      "next_step": "Lead case review/admission using the full new-source certificate. A physical source-to-target formation ledger requires its actual incoming/cloud/control/work-store/reset operands if separately selected."
+    },
+    "LOADING": {
+      "schema": "LOADING_CLAIM_CONTROL_OUTCOMES_V1",
+      "completed_utc": "2026-11-12T00:32:15.660826+00:00",
+      "track": "LOADING",
+      "claims": [
+        {
+          "id": "C01",
+          "outcome": "HELD",
+          "statement": "The original complete common-shell spectrum gives the exact signed-ramp triangular residual with D_jump=||Delta a||^2/2.",
+          "proof": "DERIVATION.md sections 1-2, equations (1)-(9)",
+          "evidence": [
+            "analytic full-spectrum transform and forced-oscillator/energy-form derivation",
+            "exact source custody and normalization definitions",
+            "directed original-spectrum checks in output/DIRECTED_SPECTRUM.json"
+          ],
+          "conditions": [
+            "The original complete whitened norm and factored common-radius shell spectrum are supplied.",
+            "Clean normal-Fock case starts from free vacuum with fixed legal endpoint drive and supplied scalar actuator.",
+            "Nonzero-to-nonzero endpoints require the specified equilibrium energy-form sector, or an actual incoming-state calculation including its cross term.",
+            "Normalized and strictly positive energy statements use nonzero D_jump; for zero displacement the unnormalized residual is zero."
+          ],
+          "unresolved_substatements": []
+        },
+        {
+          "id": "C02",
+          "outcome": "HELD",
+          "statement": "The sharp lower holds for every finite real signed unit-mass measure on [0,T], with positive atomic attainment and all integer/endpoint cases.",
+          "proof": "DERIVATION.md sections 3-4, equations (10)-(14)",
+          "evidence": [
+            "analytic residue-fiber proof for every allowed measure and time",
+            "independent rational stationary solves, exact box integrals and exact residue deficits in output/SCHEDULES.json",
+            "all original supplied finite schedule values compared after independent reconstruction"
+          ],
+          "original_cases_compared": 5,
+          "conditions": [
+            "Finite T>=0, real signed finite total variation and total mass one.",
+            "No frequency-dependent, second-quadrature or independent-direction control is added."
+          ],
+          "unresolved_substatements": []
+        },
+        {
+          "id": "C03",
+          "outcome": "HELD",
+          "statement": "Linear-ramp, constrained nonnegative bounded-rate and smooth-approximation formulas hold within their stated ranges. Discrete cancellation/local-mean settlement retain positive continuum excess.",
+          "proof": "DERIVATION.md sections 5 and 7, equations (15)-(19), (22)-(23)",
+          "evidence": [
+            "analytic linear integral, all-density cumulative-function maximization and positive transport smoothing proof",
+            "independent exact piecewise-affine box-load integration in output/RATES_AND_SMOOTHING.json",
+            "actual exact discrete Fourier parity and local-energy checks in output/CONTROLS.json",
+            "directed full-spectrum integration of both original discrete recurrence schedules"
+          ],
+          "conditions": [
+            "Rate formula uses 0<=s_prime<=M and 1/M<=T<=2*tau.",
+            "The smooth approximation is at T>0 with rates permitted to grow as smoothing width shrinks; its C-infinity regularity is analytic, while executable smoothing uses uniform bumps.",
+            "A finite-mode one-particle spectrum and a continuum spectrum are kept distinct, although both use full bosonic Fock space."
+          ],
+          "unresolved_substatements": []
+        },
+        {
+          "id": "C04",
+          "outcome": "HELD",
+          "statement": "Normal finite-time Fock evolution, nonnormal static displaced shell sectors and the actual additional formation operands are distinguished correctly.",
+          "proof": "DERIVATION.md sections 1-2, 6-7, equations (5), (9), (20)-(24)",
+          "evidence": [
+            "analytic static infrared divergence and full-Fock no-ground-vector argument",
+            "analytic endpoint-inclusive energy/reference formula",
+            "documentary premise fixtures in output/CONTROLS.json"
+          ],
+          "conditions": [
+            "A supplied equilibrium energy form is not called a normal Fock incoming vacuum.",
+            "Original endpoint counterterm is retained. The coupling-off scalar baseline is stated before assigning inclusive signed work.",
+            "A bare scalar loading theorem does not price source rearrangement, incoming cloud, controller/clock, additional controls, recording or reset."
+          ],
+          "unresolved_substatements": []
+        }
+      ],
+      "controls": [
+        {
+          "id": "LC01",
+          "outcome": "HELD",
+          "description": "Integer-time optimum versus simple ramp, retaining terminal atom",
+          "preregistered_expectation": "Distinct exact energies; omitted terminal half is rejected for mass failure.",
+          "expectation_met": true,
+          "actual": {
+            "attaining_atoms": [
+              [
+                "0",
+                "1/2"
+              ],
+              [
+                "1",
+                "1/2"
+              ]
+            ],
+            "attaining_residual": "1/2",
+            "distinct": true,
+            "integer_L": "1",
+            "linear_residual": "2/3",
+            "omitting_terminal_atom": {
+              "energy": "1/4",
+              "mass": "1/2",
+              "rejected": "unit-mass premise fails"
+            }
+          },
+          "evidence": [
+            "DERIVATION.md section 4",
+            "output/CONTROLS.json",
+            "output/SCHEDULES.json",
+            "output/DIRECTED_SPECTRUM.json"
+          ],
+          "unexpected_control_behavior": null
+        },
+        {
+          "id": "LC02",
+          "outcome": "HELD",
+          "description": "Concrete nonmonotone signed ramp",
+          "preregistered_expectation": "Legal signed control remains above the sharp lower and directed lower endpoint exceeds it.",
+          "expectation_met": true,
+          "actual": {
+            "atoms": [
+              [
+                "0",
+                "3/4"
+              ],
+              [
+                "1/2",
+                "-1/2"
+              ],
+              [
+                "1",
+                "3/4"
+              ]
+            ],
+            "box_energy": "5/8",
+            "box_pieces": [
+              {
+                "left": "0",
+                "midpoint_load": "3/4",
+                "right": "1/2",
+                "slope": "0",
+                "square_integral": "9/32"
+              },
+              {
+                "left": "1/2",
+                "midpoint_load": "1/4",
+                "right": "1",
+                "slope": "0",
+                "square_integral": "1/32"
+              },
+              {
+                "left": "1",
+                "midpoint_load": "1/4",
+                "right": "3/2",
+                "slope": "0",
+                "square_integral": "1/32"
+              },
+              {
+                "left": "3/2",
+                "midpoint_load": "3/4",
+                "right": "2",
+                "slope": "0",
+                "square_integral": "9/32"
+              }
+            ],
+            "energy": "5/8",
+            "fiber_checks": [
+              {
+                "available_slots": 2,
+                "integrated_deficit": "1/16",
+                "loads": [
+                  "3/4",
+                  "1/4"
+                ],
+                "theta_interval": [
+                  "0",
+                  "1/2"
+                ]
+              },
+              {
+                "available_slots": 2,
+                "integrated_deficit": "1/16",
+                "loads": [
+                  "1/4",
+                  "3/4"
+                ],
+                "theta_interval": [
+                  "1/2",
+                  "1"
+                ]
+              }
+            ],
+            "gap": "1/8",
+            "lower": "1/2"
+          },
+          "evidence": [
+            "DERIVATION.md sections 3-4",
+            "output/CONTROLS.json",
+            "output/DIRECTED_SPECTRUM.json"
+          ],
+          "unexpected_control_behavior": null
+        },
+        {
+          "id": "LC03",
+          "outcome": "HELD",
+          "description": "Discrete recurrence and settled local mean versus complete continuum energy",
+          "preregistered_expectation": "Original discrete parity zeros coexist with positive whole-continuum residual; local mean settles with excess retained.",
+          "expectation_met": true,
+          "actual": {
+            "discrete_odd_modes": {
+              "continuum_cross_term": "0; directed pi>2 at tau=1",
+              "continuum_residual": "1/2",
+              "discrete_residual": "0",
+              "endpoint_half_step_delay": "pi",
+              "fourier_amplitudes_imaginary": [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "fourier_amplitudes_real": [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "frequencies": [
+                1,
+                3,
+                5,
+                7
+              ]
+            },
+            "local_mean": {
+              "completed_field_energy_over_D": "1/2",
+              "free_energy_over_D": "3/2",
+              "mean_Phi_over_D": "2",
+              "observation_y": "2",
+              "schedule_L": "1"
+            }
+          },
+          "evidence": [
+            "DERIVATION.md section 7",
+            "output/CONTROLS.json",
+            "output/DIRECTED_SPECTRUM.json"
+          ],
+          "unexpected_control_behavior": null
+        },
+        {
+          "id": "LC04",
+          "outcome": "HELD",
+          "description": "Static incoming-vacuum and additional-control premise checks",
+          "preregistered_expectation": "Invalid normal static-vacuum and unpriced extra-control variants are refused; free-vacuum scalar loading remains valid.",
+          "expectation_met": true,
+          "actual": {
+            "evidence_class": "analytic domain proof and documentary premise fixtures",
+            "fixtures": [
+              {
+                "accepted": true,
+                "fixture": "free vacuum, coupling off to a fixed legal source, supplied scalar drive",
+                "scope": "normal Fock finite-time coherent evolution; energy-form excess"
+              },
+              {
+                "accepted": false,
+                "fixture": "nonzero exact static shell displacement called a normal incoming Fock vacuum",
+                "reason": "static number integral contains integral_0 p(x)/x dx = infinity"
+              },
+              {
+                "accepted": true,
+                "fixture": "explicitly supplied equilibrium Gaussian/displaced energy-form sector",
+                "scope": "conditional sector statement; no normal-Fock preparation inferred"
+              },
+              {
+                "accepted": false,
+                "fixture": "unspecified arbitrary normalized incoming field substituted for equilibrium",
+                "reason": "incoming energy and interference cross term are absent"
+              },
+              {
+                "accepted": false,
+                "fixture": "unpriced frequency-dependent or second-quadrature actuator",
+                "reason": "outside the common scalar ds control class; operator/domain and work must be supplied"
+              },
+              {
+                "accepted": false,
+                "fixture": "intermediate scalar forces relabeled as legal fractional C4 nuclear phases",
+                "reason": "the external force interpolation does not extend the legal matter-state set"
+              }
+            ]
+          },
+          "evidence": [
+            "DERIVATION.md section 6",
+            "HYPOTHESES.md",
+            "output/CONTROLS.json"
+          ],
+          "unexpected_control_behavior": null
+        }
+      ],
+      "scientific_runtime_failures": [],
+      "scientific_claim_failures": [],
+      "coverage_corrections": [
+        {
+          "attempt": "001 -> 002",
+          "detail": "The initial successful replay represented LC03 discrete parity only by analytic text; successor computes the exact mode amplitudes and directly encloses both original recurrence schedules in the continuum. Earlier code, inputs, preexecution seals and successful outputs remain intact."
+        }
+      ],
+      "operational_read_edit_issues": "ATTEMPTS.md and EDITING_LOG.json",
+      "source_recovery": "recovered_sources/CAUSAL_PROFILES_REPORT.md; original/copy hashes sealed before arithmetic in SOURCE_CUSTODY.json",
+      "self_relocated_replay": {
+        "status": "PASS",
+        "comparison": "attempts/003/COMPARISON.json",
+        "all_output_files_byte_identical": true,
+        "external_party_replay": false
+      },
+      "evidence_classes": [
+        "analytic all-measure/all-domain proof",
+        "exact host rational replay",
+        "directed continuum integration plus rigorously bounded infinite tail",
+        "documentary premise diagnostic",
+        "inherited original source definitions and Gray-event normalization"
+      ],
+      "physical_operands_not_supplied": [
+        "controller Hamiltonian and clock/error/rate in physical seconds",
+        "actual nonzero equilibrium incoming preparation or its alternative incoming-state energy/cross terms",
+        "matter rearrangement/arrival and compatible source map",
+        "actuator construction, additional quadrature/frequency control and its work/domain",
+        "record/failure handling, work-store restoration and reusable reset",
+        "absolute R,I,energy and seconds calibration"
+      ],
+      "counterterm_baseline_clarification": "For scalar counterterm c_i, W=Delta C+(c_1-D_1)-(c_0-D_0)+E_res. Suppressing only a vertex while retaining +D_1 differs from the free-law coupling-off baseline; residual is unchanged.",
+      "classifications_not_assigned": [
+        "I2",
+        "I3",
+        "R3"
+      ],
+      "next_step": "Lead reviews the complete records and runs REPLAY.json from a clean relocated public case after all peer tracks finish."
+    }
+  },
+  "claims": [
+    {
+      "id": "A01",
+      "track": "LI6",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/LI6/OUTCOMES.json"
+    },
+    {
+      "id": "A02",
+      "track": "LI6",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/LI6/OUTCOMES.json"
+    },
+    {
+      "id": "A03",
+      "track": "LI6",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/LI6/OUTCOMES.json"
+    },
+    {
+      "id": "A04",
+      "track": "LI6",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/LI6/OUTCOMES.json"
+    },
+    {
+      "id": "B01",
+      "track": "N12",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/N12/OUTCOMES.json"
+    },
+    {
+      "id": "B02",
+      "track": "N12",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/N12/OUTCOMES.json"
+    },
+    {
+      "id": "B03",
+      "track": "N12",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/N12/OUTCOMES.json"
+    },
+    {
+      "id": "B04",
+      "track": "N12",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/N12/OUTCOMES.json"
+    },
+    {
+      "id": "C01",
+      "track": "LOADING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/LOADING/OUTCOMES.json"
+    },
+    {
+      "id": "C02",
+      "track": "LOADING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/LOADING/OUTCOMES.json"
+    },
+    {
+      "id": "C03",
+      "track": "LOADING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/LOADING/OUTCOMES.json"
+    },
+    {
+      "id": "C04",
+      "track": "LOADING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/LOADING/OUTCOMES.json"
+    }
+  ],
+  "controls": [
+    {
+      "id": "LA01",
+      "track": "LI6",
+      "verdict": "HELD WITH CORRECTION",
+      "original_outcome_file": "peers/LI6/OUTCOMES.json"
+    },
+    {
+      "id": "LA02",
+      "track": "LI6",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/LI6/OUTCOMES.json"
+    },
+    {
+      "id": "LA03",
+      "track": "LI6",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/LI6/OUTCOMES.json"
+    },
+    {
+      "id": "NB01",
+      "track": "N12",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/N12/OUTCOMES.json"
+    },
+    {
+      "id": "NB02",
+      "track": "N12",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/N12/OUTCOMES.json"
+    },
+    {
+      "id": "NB03",
+      "track": "N12",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/N12/OUTCOMES.json"
+    },
+    {
+      "id": "NB04",
+      "track": "N12",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/N12/OUTCOMES.json"
+    },
+    {
+      "id": "LC01",
+      "track": "LOADING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/LOADING/OUTCOMES.json"
+    },
+    {
+      "id": "LC02",
+      "track": "LOADING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/LOADING/OUTCOMES.json"
+    },
+    {
+      "id": "LC03",
+      "track": "LOADING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/LOADING/OUTCOMES.json"
+    },
+    {
+      "id": "LC04",
+      "track": "LOADING",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/LOADING/OUTCOMES.json"
+    }
+  ],
+  "claim_counts": {
+    "HELD": 12
+  },
+  "control_counts": {
+    "HELD WITH CORRECTION": 1,
+    "HELD": 10
+  },
+  "original_fields_preserved": true,
+  "initial_control_not_breaking_as_predicted": {
+    "track": "LI6",
+    "id": "LA01",
+    "detail": "Initial concrete mixed entry had N=Q=0 and did not detect the invalid substitution. Failed attempt and null remain; corrected nonzero witness rejects it."
+  }
+}

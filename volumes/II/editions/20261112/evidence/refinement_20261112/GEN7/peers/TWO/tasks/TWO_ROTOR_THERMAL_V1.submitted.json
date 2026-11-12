@@ -1,0 +1,66 @@
+{
+ "kind": "native",
+ "key": "TWO_ROTOR_THERMAL_V1",
+ "operation": "GEN3_SOURCE_OPERATOR_WORD",
+ "purpose": "Classical independent-Haar orientational free-energy coefficient at beta1 equals minus half the full C1 variance: -673/300",
+ "payload": {
+  "name": "TWO_ROTOR_THERMAL_V1",
+  "context": {
+   "basis": [
+    "F2_beta1"
+   ],
+   "field": {
+    "radicand": 0
+   },
+   "units": {
+    "energy": "source units",
+    "geometry": "declared constant lapse or clamped rigid rotor"
+   },
+   "history": {
+    "campaign": "GEN7 lane TWO",
+    "precommit_sha256": "273fb40fff5700d9f262b60d289c5c8d5586ae0f21caeafb3f0b1de169cecd85",
+    "locked_inputs": "H003004-H003008 not replayed"
+   },
+   "spectral_coordinate": "Classical independent-Haar orientational free-energy coefficient at beta1 equals minus half the full C1 variance: -673/300"
+  },
+  "data": {
+   "operators": {
+    "NORM": [
+     [
+      "673/150"
+     ]
+    ],
+    "NEG_HALF": [
+     [
+      "-1/2"
+     ]
+    ]
+   },
+   "program": [
+    {
+     "name": "f2",
+     "op": "multiply",
+     "inputs": [
+      "NEG_HALF",
+      "NORM"
+     ]
+    }
+   ],
+   "output": "f2"
+  },
+  "source_binding": {
+   "kind": "GEN7_DUCK",
+   "campaign": "20261112T043202Z",
+   "law_namespace": "SAM_land",
+   "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  }
+ },
+ "controller": "G6_02",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ }
+}

@@ -1,0 +1,867 @@
+{
+  "A01": {
+    "dilation_kinetic_ratio": "1",
+    "dilation_potential_ratio": "1",
+    "form_domain": "H1(R3;C2)",
+    "units": {
+      "A": "energy*length",
+      "energy_scale": "A^2/tau",
+      "length_scale": "tau/A",
+      "tau": "energy*length^2"
+    },
+    "zero_A_branch": "free continuum infimum zero; do not divide by A"
+  },
+  "A02": {
+    "curl_F0": [
+      "-y/(2*(x**2 + y**2 + z**2))",
+      "x/(2*(x**2 + y**2 + z**2))",
+      "0"
+    ],
+    "curl_residual": [
+      "0",
+      "0",
+      "0"
+    ],
+    "direct_state": {
+      "energy": "2/3",
+      "identity_residual": "0",
+      "kinetic": "1",
+      "source_c_over_r": "1/3",
+      "square": "35/48",
+      "unnormalized_norm_over_2pi": "1"
+    },
+    "divergence": "z/(x**2 + y**2 + z**2)",
+    "divergence_residual": "0",
+    "norm_residual": "0",
+    "norm_squared": "1/16",
+    "occupied_universal_lower": "-N/16",
+    "one_body_lower": "-A^2/(16*tau)",
+    "origin_distribution": "none; bounded flux O(epsilon^2)",
+    "point_field_F0": [
+      "x*z/(2*(x**2 + y**2 + z**2))",
+      "y*z/(2*(x**2 + y**2 + z**2))",
+      "-(x**2 + y**2 - z**2)/(4*(x**2 + y**2 + z**2))"
+    ]
+  },
+  "A03": {
+    "bound": "-A^2/(16*tau)",
+    "derivative_jump": "0",
+    "exact_subtracted_norm": "A^2/(16*tau)*integral(h^2*abs(psi)^2)",
+    "interface_distribution": "none; normal field jump zero",
+    "origin_distribution": "none; O(r) field",
+    "profile_inside": "4*r/(5*rc)",
+    "profile_outside": "(5*r**4 - rc**4)/(5*r**4)",
+    "radial_ode_residuals": [
+      "0",
+      "0"
+    ],
+    "signed_core_condition": "C>=A is not required",
+    "value_jump": "0"
+  },
+  "A04": {
+    "all_shell_degeneracy_residual": "0",
+    "complete_occupation_formula": "M_K=K(K+1)(2K+1)/3; w_N=2(K-1)+(N-M_(K-1))/K^2",
+    "core_floor": "-N*(C+A)/rc",
+    "endpoint_limits": "alpha=0 => theta->0; beta=0 => theta->1; both=0 => 0",
+    "final_lower": "maximum(spectral lower, core floor)",
+    "occupation_samples": [
+      {
+        "closed_formula_matches": true,
+        "electrons": 0,
+        "shells": [],
+        "w_n": "0"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 1,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 1
+          }
+        ],
+        "w_n": "1"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 2,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          }
+        ],
+        "w_n": "2"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 3,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 1
+          }
+        ],
+        "w_n": "9/4"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 4,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 2
+          }
+        ],
+        "w_n": "5/2"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 5,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 3
+          }
+        ],
+        "w_n": "11/4"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 6,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 4
+          }
+        ],
+        "w_n": "3"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 7,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 5
+          }
+        ],
+        "w_n": "13/4"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 8,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 6
+          }
+        ],
+        "w_n": "7/2"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 9,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 7
+          }
+        ],
+        "w_n": "15/4"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 10,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          }
+        ],
+        "w_n": "4"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 11,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 1
+          }
+        ],
+        "w_n": "37/9"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 12,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 2
+          }
+        ],
+        "w_n": "38/9"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 13,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 3
+          }
+        ],
+        "w_n": "13/3"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 14,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 4
+          }
+        ],
+        "w_n": "40/9"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 15,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 5
+          }
+        ],
+        "w_n": "41/9"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 16,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 6
+          }
+        ],
+        "w_n": "14/3"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 17,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 7
+          }
+        ],
+        "w_n": "43/9"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 18,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 8
+          }
+        ],
+        "w_n": "44/9"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 19,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 9
+          }
+        ],
+        "w_n": "5"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 20,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 10
+          }
+        ],
+        "w_n": "46/9"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 21,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 11
+          }
+        ],
+        "w_n": "47/9"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 22,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 12
+          }
+        ],
+        "w_n": "16/3"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 23,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 13
+          }
+        ],
+        "w_n": "49/9"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 24,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 14
+          }
+        ],
+        "w_n": "50/9"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 25,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 15
+          }
+        ],
+        "w_n": "17/3"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 26,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 16
+          }
+        ],
+        "w_n": "52/9"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 27,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 17
+          }
+        ],
+        "w_n": "53/9"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 28,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 18
+          }
+        ],
+        "w_n": "6"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 29,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 18
+          },
+          {
+            "principal_shell": 4,
+            "spin_slots": 32,
+            "taken": 1
+          }
+        ],
+        "w_n": "97/16"
+      },
+      {
+        "closed_formula_matches": true,
+        "electrons": 30,
+        "shells": [
+          {
+            "principal_shell": 1,
+            "spin_slots": 2,
+            "taken": 2
+          },
+          {
+            "principal_shell": 2,
+            "spin_slots": 8,
+            "taken": 8
+          },
+          {
+            "principal_shell": 3,
+            "spin_slots": 18,
+            "taken": 18
+          },
+          {
+            "principal_shell": 4,
+            "spin_slots": 32,
+            "taken": 2
+          }
+        ],
+        "w_n": "49/8"
+      }
+    ],
+    "optimal_theta": "alpha/(alpha + beta)",
+    "pair_numerator_minimum": "vc-vp >= 0 under original vc>=vp>=0",
+    "split_bound": "-[C*sqrt(w_N)+(A/2)*sqrt(N)]^2/(4*tau)",
+    "split_square_residual": "0",
+    "weak_carbon_electronic_sample": {
+      "core_floor": "-216/5",
+      "new_spectral": "-27*(10*sqrt(2) + 51)/50",
+      "new_spectral_interval": {
+        "arithmetic": "exact rational outward enclosure",
+        "lower": "-1758837661840735663176455955536618481213819/50000000000000000000000000000000000000000",
+        "upper": "-54963676932522989474264248610519327537931/1562500000000000000000000000000000000000",
+        "width": "27/50000000000000000000000000000000000000000"
+      },
+      "new_spectral_strictly_above_both": true,
+      "old_spectral": "-972/25"
+    }
+  },
+  "A05": {
+    "anisotropic_norm_constant": "A**2/(4*nu*tau*(nu + 1)**2)",
+    "constant_lapse_range": "0<nu<=1",
+    "constant_metric_divergence_residual": "0",
+    "derivative_jump": "0",
+    "extra_variable_weight_term": "b(r)*v(r)*cos(angle)*Derivative(v(r), r)",
+    "geometry_samples": [
+      {
+        "anisotropic_A2_over_tau_coefficient": "1/16",
+        "nu": "1",
+        "polarization_split_ratio": "1/2",
+        "profile_d": "4",
+        "scalar_C2w_over_tau_coefficient": "1/4"
+      },
+      {
+        "anisotropic_A2_over_tau_coefficient": "16/147",
+        "nu": "3/4",
+        "polarization_split_ratio": "3/7",
+        "profile_d": "14/3",
+        "scalar_C2w_over_tau_coefficient": "16/27"
+      },
+      {
+        "anisotropic_A2_over_tau_coefficient": "2/9",
+        "nu": "1/2",
+        "polarization_split_ratio": "1/3",
+        "profile_d": "6",
+        "scalar_C2w_over_tau_coefficient": "2"
+      }
+    ],
+    "matched_source_multiplier": "1",
+    "nonconstant_probe": "1",
+    "nu1_reduction": true,
+    "occupied_lower": "-[C*sqrt(w_N)+A*nu*sqrt(N)/(nu+1)]^2/(4*tau*nu^3)",
+    "profile_d": "2*(nu + 1)/nu",
+    "profile_inside": "d*r/(rc*(d + 1))",
+    "profile_outside": "(d + 1 - rc**d/r**d)/(d + 1)",
+    "radial_ode_residuals": [
+      "0",
+      "0"
+    ],
+    "scalar_comparison_excess_angular_coefficient": "-nu*(nu - 1)*(nu + 1)",
+    "source_comparison_correction": {
+      "complement_proof": "alpha_1=(sqrt(33)-1)/2>2; all l>=1 denominators>3; l=0,n_r>=3 denominators>=4",
+      "core_floor": "-303/50",
+      "corrected_wording": "The lower holds; retain the maximum with the original geometric Pauli branch and core floor. Strict improvement is account dependent.",
+      "original_complete_geometric_weight": "49/18",
+      "original_geometric_lower": "-499849/90000",
+      "parameters": {
+        "A": "1/100",
+        "C": "1",
+        "N": 6,
+        "nu": "1/2",
+        "rc": "1",
+        "tau": "1"
+      },
+      "submitted_branch_strictly_weaker_than_original": true,
+      "submitted_valid_lower": "-6-1/7500-sqrt(2)/25",
+      "submitted_valid_lower_interval": {
+        "arithmetic": "exact rational outward enclosure",
+        "lower": "-4542526406871192851464050661726290942357091/750000000000000000000000000000000000000000",
+        "upper": "-141953950214724776608251583178946591948659/23437500000000000000000000000000000000000",
+        "width": "1/250000000000000000000000000000000000000000"
+      },
+      "verdict": "HELD WITH CORRECTION"
+    },
+    "value_jump": "0",
+    "variable_lapse_transfer": "not asserted; requires complete radial derivatives and changed measure",
+    "variable_weight_formula_residual": "0"
+  },
+  "AF01": {
+    "bad_constant_divergence": "0",
+    "bad_constant_norm": "1/16",
+    "detected": true,
+    "predicted_detection": true,
+    "source_energy": "2/3",
+    "source_minus_wrong_reconstruction": "-1/3",
+    "wrong_reconstructed_energy": "1"
+  },
+  "AF02": {
+    "bad_inside_radial_residual": "1/rc",
+    "bad_profile_normal_jump_multiplier": "-1/5",
+    "bulk_density_pairing": "(-19 + 3*exp(2))*exp(-2)/24",
+    "detected": true,
+    "original_bulk_and_interface_residuals_zero": true,
+    "predicted_detection": true,
+    "surface_coefficient_from_density": "-1/15",
+    "surface_density_pairing": "-exp(-2)/15",
+    "surface_density_pairing_interval": {
+      "arithmetic": "exact rational outward enclosure",
+      "lower": "-11760823395487394947984483003602325878509765625/1303520757583086214319496127506282532816289015959",
+      "upper": "-75167001701593350319726913109980082788736328125/8331197885422333630650692641018414448869325449826",
+      "width": "12783503690747168421722264134350354215771484375/10859889379180326234689849043616604902979044361909133175983293891683570819837915231050580567773134"
+    },
+    "total_divergence_defect": "(-103 + 15*exp(2))*exp(-2)/120",
+    "total_divergence_defect_interval": {
+      "arithmetic": "exact rational outward enclosure",
+      "lower": "11519493480985566834636797266905370916222894573/1303520757583086214319496127506282532816289015959",
+      "upper": "588996710158218547718820590690465921629483652951/66649583083378669045205541128147315590954603598608",
+      "width": "1316700880146958347437393205838086484224462890625/86879115033442609877518792348932839223832354895273065407866351133468566558703321848404644542185072"
+    }
+  },
+  "AF03": {
+    "detected": true,
+    "kinetic_coefficient_violation": {
+      "allowed": false,
+      "reasons": [
+        "actual quadratic kinetic coefficient differs from declared tau"
+      ]
+    },
+    "kinetic_toy": {
+      "A": "0",
+      "C": "1",
+      "N": 1,
+      "actual_tau": "1/4",
+      "actual_trial_energy": "-3*(-34 + 33*exp(1/25))*exp(-1/25)",
+      "actual_trial_interval": {
+        "arithmetic": "exact rational outward enclosure",
+        "lower": "-3325149235709646257510178638017350477900482372848958007718309582156296280040504574743875491404849004926562279207734179321058205110883/3326888511521680761920464657359386942109440239865219965197956551660728832959066758251832075670756050554813760396037718983040991970817",
+        "upper": "-162994848239880700846890343524649130466846082883398539617897236098575004331980093858460261665896750294597912413574983055230708899/163080105465025772222045292921327442792247197261411739932253879102991560577069006629883436986524209598935332448621969525810411201",
+        "width": "266365593213294512485593227594779461766093774099939395227920613251626491546630859375000000000000000000000000000000000000000000000000/542549329329338307597489803078000779028688648403686249239597676691855823638010586980158143319354643258578742696345682717097394030742802963769943231202660634730054980806887889324188093063452573165363966463892922812403859377979736657823261483980612287226161921217"
+      },
+      "actual_trial_strictly_below_copied_lower": true,
+      "copied_lower": "-1/4",
+      "core_expectation_from_radial_integrals": "2*(-51 + 50*exp(1/25))*exp(-1/25)",
+      "declared_tau": "1",
+      "orbital_rate": "2",
+      "rc": "1/100"
+    },
+    "massive_kinetic_violation": {
+      "allowed": false,
+      "reasons": [
+        "kinetic law is not the declared quadratic Laplacian"
+      ]
+    },
+    "massive_positive_momentum_quadratic_minus_square_root": {
+      "expression": "2-sqrt(3)",
+      "interval": {
+        "arithmetic": "exact rational outward enclosure",
+        "lower": "2679491924311227064725536584941276330571/10000000000000000000000000000000000000000",
+        "upper": "669872981077806766181384146235319082643/2500000000000000000000000000000000000000",
+        "width": "1/10000000000000000000000000000000000000000"
+      }
+    },
+    "original_member": {
+      "allowed": true,
+      "reasons": []
+    },
+    "pair_toy": {
+      "N": 2,
+      "actual_trial_energy": "-1/2",
+      "copied_lower": "0",
+      "orbital_rate": "1/2",
+      "pair_constant": "-1"
+    },
+    "pair_violation": {
+      "allowed": false,
+      "reasons": [
+        "original sufficient pair nonnegativity vc>=vp>=0 fails"
+      ]
+    },
+    "predicted_refusals": true
+  },
+  "schema": "FORM_EXACT_DIRECTED_RECONSTRUCTION_V1",
+  "scope": "Full-domain statements are proved in DERIVATION.md; finite samples are cross-checks.",
+  "unresolved_assigned_substatements": []
+}

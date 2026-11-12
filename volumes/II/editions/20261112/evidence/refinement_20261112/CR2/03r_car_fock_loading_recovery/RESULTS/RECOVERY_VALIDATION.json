@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "scope": "Pre-admission restored public file-selection test, all raw hashes and all24unchanged deterministic files. Final manifest/Git tree check is retained in the campaign parent and owning capsule.",
+  "pre_admission": {
+    "status": "PASS",
+    "completed_utc": "2026-11-12T01:38:41.158731+00:00",
+    "case": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/03r_car_fock_loading_recovery",
+    "public_tree": "/tmp/volii_recovery_public_20261112T013836Z",
+    "source_commit": null,
+    "manifest_sha256": "c5129411e19b6ef7d7a2f008a5d62b7a82e1d2b23c72e1c42601a23119a58295",
+    "public_files": 4746,
+    "restored_bulk_files": 67,
+    "full_source_files_checked": 4813,
+    "original_bad_manifest_bulk_control_rejected": true,
+    "all_final_input_hashes_unchanged": true,
+    "outputs_replayed": 24,
+    "tracks": {
+      "LI6": {
+        "status": "PASS",
+        "files": {
+          "BOUNDS.json": "27e6c26776bb095e673bcf8cca30c23a9e994dff18f21b5244a1e232bb0fcdf8",
+          "CONTROLS.json": "7b6ddce9c210237d67b089adb420e69873544d776c7936ea788fc4337deb2ae5",
+          "DIRECTED.json": "e18999df2ac3289a19537a1f5434b37ec6a9bd996cebaf1ed02ac83fe8899f7f",
+          "EXECUTION.json": "a6ee1cfdcae1065d4ce221f67bf83be07a10f9b9a48e199fa0718633b0971c2e",
+          "MOMENTS.json": "929ec03c604ddb80d03995e6de17deabfe33a6f18a2240229e06ebb705f72482",
+          "PHYSICAL_IMAGES.json": "eab597013f2869b4e6241ce58a3fef4a284b8d8dc4ad588ec9d416d2bf2c69d4",
+          "PROPER_REFERENCE.json": "94e90acd3919e3367e609e8860e78fe6410b8a4ec5ac38d1cfefa26fa2fdf34a",
+          "SOURCE.json": "0c55603ea84b156d39e94c1577b5795e08678ff53b0af14fce9ce43f428ef713",
+          "SOURCE_COUNTEREXAMPLE.json": "f5915f1d2d7b6a821a55daf6e34440fa83b277a1b1f1fc458a4251c1a6b7e0a4",
+          "SUMMARY.json": "652d129738fa8f385512021d78047991fc176f250ffd9d1d33daa1066a8ff630"
+        }
+      },
+      "N12": {
+        "status": "PASS",
+        "files": {
+          "controls.json": "13fc9e3cdd50f2871cbc5149231e18e80308e31ce82f3b178855c7ccd9219426",
+          "energy_loading.json": "7aa1893c39eb483d5a84435cad738f125dbf31e5a1dd0951f2537cdb7ae69213",
+          "flavor_source.json": "fd768c20e7770aed409806543a3616905b49382401930ccc8a8354e58497c087",
+          "occupancy.json": "0b095ffb0130cd4066e8e29255a27afc7baa834b72c82327fbc587c425c04d25",
+          "summary.json": "3fb7d7cdb940c7f91bece339416e50d9be97c0c85885018b20ae18139d23f261",
+          "targets.json": "5ade0cca3445384a2bc3ada82f308f00778b8b9ca262421a6c7230b328a9546a",
+          "OUTPUT_MANIFEST.json": "d609d0f696eeef27514df0c9ec2d6436ab35b3c344aa1388a2c5d12f70c6ebae"
+        }
+      },
+      "LOADING": {
+        "status": "PASS",
+        "files": {
+          "CONTROLS.json": "1872924dbb0c848533b9e8b731b9c0d89f244ed8877ba8afbdb9e0d777264b94",
+          "DIRECTED_SPECTRUM.json": "37afcd00e6ad1a275aa968a43fad3af153d28d4b4a7ad727cfb2e718824d2a51",
+          "RATES_AND_SMOOTHING.json": "249fe3b50bf2b03b82883f9ea4c756dbe24284515a232c5b89b753fa3ab9a6cf",
+          "SCHEDULES.json": "acab520ad90e4120b7b9362a2ee6ddbbb64569b02be9c62f94777acd692658a6",
+          "SOURCE_READBACK.json": "e94fe899510a8ba99a9b14cbadd3599977c5605ce6e19e4cc0ffa720a16ede47",
+          "SUMMARY.json": "f5294fd771464489b096827a06a0f2831b64cbe6ccaa1bafc257c92b23813a78",
+          "OUTPUT_MANIFEST.json": "12777f329f471e201e4aca1951121ebf7a15324a4a0faeeb25ebdb9f02e0ad37"
+        }
+      }
+    },
+    "restore": {
+      "status": "PASS",
+      "members_verified": 67,
+      "members_restored": 67,
+      "existing_exact_members": 0,
+      "parts_verified": 1,
+      "verify_only": false
+    },
+    "scientific_source_or_claim_change": false
+  },
+  "claim_count": 12,
+  "control_count": 11,
+  "scientific_source_changed": false,
+  "original_bad_manifest_bulk_control_rejected": true
+}

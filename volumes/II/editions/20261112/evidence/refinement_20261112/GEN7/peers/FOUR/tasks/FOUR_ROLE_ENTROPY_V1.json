@@ -1,0 +1,16 @@
+{
+  "kind": "native",
+  "key": "FOUR_ROLE_ENTROPY_V1",
+  "operation": "GEN5_ENTROPY",
+  "purpose": "Uniform24role minimal three-action policy has record entropy3log2/2; this adds no physical reset/heat price",
+  "payload": {
+    "precision_bits": 256,
+    "data": {
+      "probabilities": [
+        "1/4",
+        "1/2",
+        "1/4"
+      ]
+    }
+  }
+}

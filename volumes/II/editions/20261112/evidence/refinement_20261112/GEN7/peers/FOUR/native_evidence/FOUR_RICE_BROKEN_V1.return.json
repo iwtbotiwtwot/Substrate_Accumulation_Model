@@ -1,0 +1,231 @@
+{
+  "authored_by": "PEER_FOUR",
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "aec9c75a8511591b20dc8818d7b4097cfe55481394602873eb933e4fa801de4a",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "4f65b34fc4cc554233d6233c1644d950ecca75d3cb2f4338aad1f004727abffa",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "checks": [
+    {
+      "passed": true,
+      "predicate": "native_contract"
+    }
+  ],
+  "completed_utc": "2026-11-12T04:47:31.377739+00:00",
+  "gen6_core_version": "0.11.3",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_04",
+  "imports": [],
+  "key": "FOUR_RICE_BROKEN_V1",
+  "kind": "RESULT",
+  "native_payload": {
+    "context": {
+      "basis": [
+        0,
+        1
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "history": {
+        "precommit_sha256": "8d2fc6cfa0b48024bd4fa36d19c70a0663ead05d0b5d05fab53b9f069801f920",
+        "scope": "Actual nonzero control or Schur reconstruction"
+      },
+      "spectral_coordinate": "EXACT_CONTROL",
+      "units": {
+        "reference": "Original source units"
+      }
+    },
+    "data": {
+      "operators": {
+        "I": [
+          [
+            "1073741824/196599",
+            "-1073643520/196599"
+          ],
+          [
+            "-1073643520/196599",
+            "1073741824/196599"
+          ]
+        ],
+        "S": [
+          [
+            1,
+            "32765/32768"
+          ],
+          [
+            "32765/32768",
+            1
+          ]
+        ],
+        "V": [
+          [
+            "3/4",
+            "3/4"
+          ],
+          [
+            "3/4",
+            "3/4"
+          ]
+        ],
+        "X": [
+          [
+            0,
+            "3/256"
+          ],
+          [
+            "-3/256",
+            0
+          ]
+        ]
+      },
+      "output": "scaled",
+      "program": [
+        {
+          "inputs": [
+            "X"
+          ],
+          "name": "xt",
+          "op": "transpose"
+        },
+        {
+          "inputs": [
+            "X",
+            "I"
+          ],
+          "name": "xi",
+          "op": "multiply"
+        },
+        {
+          "inputs": [
+            "xi",
+            "xt"
+          ],
+          "name": "pay",
+          "op": "multiply"
+        },
+        {
+          "inputs": [
+            "V",
+            "pay"
+          ],
+          "name": "cond",
+          "op": "subtract"
+        },
+        {
+          "factor": "64",
+          "inputs": [
+            "cond"
+          ],
+          "name": "scaled",
+          "op": "scale"
+        }
+      ]
+    },
+    "name": "FOUR_RICE_BROKEN_V1",
+    "source_binding": {
+      "campaign": "20261112T043202Z",
+      "kind": "GEN7_DUCK",
+      "law_namespace": "SAM_land",
+      "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+    }
+  },
+  "operation": "GEN3_SOURCE_OPERATOR_WORD",
+  "portable_bundle": null,
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_04/tasks/FOUR_RICE_BROKEN_V1/RESULT.json",
+  "receipt_sha256": "246338fb93126600e778a47e440f9c360da694419a2d3a536463a58ce6854d7c",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 1345038283039529,
+  "returned": {
+    "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+    "execution": {
+      "backend": "NATIVE_CPP_GMP_CPU",
+      "exact_field": {
+        "radicand": 0
+      },
+      "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+      "shared_checkpoint": true
+    },
+    "field": {
+      "radicand": 0
+    },
+    "matrix": [
+      [
+        "-144/65533",
+        "144/65533"
+      ],
+      [
+        "144/65533",
+        "-144/65533"
+      ]
+    ],
+    "native_assertions": 45,
+    "ordered_program": [
+      {
+        "inputs": [
+          "X"
+        ],
+        "name": "xt",
+        "op": "transpose"
+      },
+      {
+        "inputs": [
+          "X",
+          "I"
+        ],
+        "name": "xi",
+        "op": "multiply"
+      },
+      {
+        "inputs": [
+          "xi",
+          "xt"
+        ],
+        "name": "pay",
+        "op": "multiply"
+      },
+      {
+        "inputs": [
+          "V",
+          "pay"
+        ],
+        "name": "cond",
+        "op": "subtract"
+      },
+      {
+        "factor": "64",
+        "inputs": [
+          "cond"
+        ],
+        "name": "scaled",
+        "op": "scale"
+      }
+    ],
+    "output": "scaled",
+    "rank": 1,
+    "record_sha256": "9103bc40ab2bc74987b73c1c4ebc8d35aeddc1f6050d2e1cd27898005c0614e0"
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND1",
+  "source_binding": {
+    "campaign": "20261112T043202Z",
+    "kind": "GEN7_DUCK",
+    "law_namespace": "SAM_land",
+    "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  },
+  "source_checks": [],
+  "started_utc": "2026-11-12T04:47:31.327990+00:00",
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "native",
+  "worker_cpu": 5,
+  "worker_pid": 3816048
+}

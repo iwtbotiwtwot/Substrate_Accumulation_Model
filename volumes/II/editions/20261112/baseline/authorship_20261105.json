@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "volume": "II",
+  "scope": "Current manuscript authorship and personal-credit cleanup",
+  "title_names": [
+    "Sean Brady"
+  ],
+  "title_date": "5 November 2026",
+  "pages": 101,
+  "pdf_author": "Sean Brady",
+  "credit_scan": "PASS",
+  "all_mathematical_expressions_preserved": true,
+  "bibliography_keys_preserved": true,
+  "changed_tex_files": [
+    "atoms_01.tex",
+    "bibliography.tex",
+    "main.tex",
+    "nuclear_01.tex",
+    "nuclear_02.tex",
+    "preamble.tex",
+    "scale_01.tex",
+    "spin_01.tex",
+    "spin_02.tex",
+    "spin_03.tex"
+  ],
+  "source_sha256": {
+    "atoms_01.tex": "ec743a7eceafd83c11bbc788268a57ceddef0a3cfb41697eefe79097d96e9c4e",
+    "bibliography.tex": "4219f31372d11d8fc37304bb976e57e18d01877256093bb8935e9c8c565c11e5",
+    "main.tex": "52d4887248f083e1aa6f8a7bd36c2e1fa4d2742f6b276dbfa93937ede879eb9f",
+    "nuclear_01.tex": "9b60101e33cb9f1b4c99c068d504904a61fe6c6827e37eb42b308c670c744ce5",
+    "nuclear_02.tex": "1940505e75780467d514fcd9ace258fac497bf619ffbbc587a4c824fb9ad3da9",
+    "preamble.tex": "76f5d6473cc08fd881a92692424d3e012190dd0f27f50bf291a36e6f48d9ea1a",
+    "scale_01.tex": "5fc946e0ea0631bc6ba4ef34c86b577060840257fa58c7379ec1d68fdb3c009c",
+    "spin_01.tex": "b34a704fc9ea7e598f9abaaff2301562f097f98cb21e4839d819cdaf5e2b260f",
+    "spin_02.tex": "2e0c5585dcb732e29e95d5b81624cc8146027c543a17a93750dcb2c9711a18d1",
+    "spin_03.tex": "bcbc8cfce0f21e877ce47c5a2aea72ac996e00bca7586469a7da12108bf4732d"
+  },
+  "pdf": {
+    "path": "/home/lilhelper/SAM_Research_Overflow/Substrate_Accumulation_Model/volumes/II/pdf/SAM_Volume_II_20261105_authorship_draft.pdf",
+    "bytes": 688570,
+    "sha256": "bdb9ab125e186609945612033f621eeec50ce213be4792eccd00a7467710746c"
+  },
+  "backup": {
+    "path": "/home/lilhelper/SAM_Research_Overflow/Substrate_Accumulation_Model/volumes/II/pdf/SAM_Volume_II_before_authorship_20261105.zip",
+    "bytes": 768580,
+    "sha256": "742ea65678015252b65c5f940ec5c6702956361fa7a52926e4e45507372bb209"
+  },
+  "original_source_reports_native_evidence_or_sealed_cases_modified": false,
+  "Duck_core_code_or_documents_modified": false,
+  "installation_readback": "PASS",
+  "new_scientific_calculation": false,
+  "new_overfull_warnings": 0,
+  "visual_review_pages": [
+    1,
+    35,
+    40,
+    47,
+    58,
+    62,
+    70,
+    78,
+    94,
+    101
+  ],
+  "negative_drift_completion": "CLEAR",
+  "closing_spin_review": "No additional contribution to this authorship edit was identified in the bounded read-only review."
+}

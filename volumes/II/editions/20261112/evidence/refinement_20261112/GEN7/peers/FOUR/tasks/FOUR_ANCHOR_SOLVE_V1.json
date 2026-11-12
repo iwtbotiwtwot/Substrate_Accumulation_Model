@@ -1,0 +1,63 @@
+{
+  "kind": "native",
+  "key": "FOUR_ANCHOR_SOLVE_V1",
+  "operation": "GEN3_COMPLEX_SOLVE",
+  "purpose": "Exact rank3 anchor interpolation on original source decimals; no global fit or refit",
+  "payload": {
+    "precision_bits": 256,
+    "data": {
+      "matrix": {
+        "entries": [
+          [
+            "1",
+            "1",
+            "0"
+          ],
+          [
+            "2",
+            "24803141437/15625000000",
+            "0"
+          ],
+          [
+            "3",
+            "520020955763/250000000000",
+            "1386722548701/1000000000000"
+          ]
+        ],
+        "row_basis": [
+          "H1",
+          "H2",
+          "He3"
+        ],
+        "column_basis": [
+          "A",
+          "surface",
+          "C"
+        ],
+        "structure": "GENERAL"
+      },
+      "rhs": {
+        "entries": [
+          [
+            "0"
+          ],
+          [
+            "2224566269/1000000000"
+          ],
+          [
+            "1929510337/250000000"
+          ]
+        ],
+        "row_basis": [
+          "H1",
+          "H2",
+          "He3"
+        ],
+        "column_basis": [
+          "BINDING"
+        ],
+        "structure": "GENERAL"
+      }
+    }
+  }
+}

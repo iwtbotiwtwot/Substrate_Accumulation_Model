@@ -1,0 +1,42 @@
+{
+  "benchmark_gain": "2271376874625728616285865796/2162967362774632184324665005",
+  "benchmark_margin": "2139952734887423053027468631/1335165038749772953286830250",
+  "cell_image_rows": {
+    "321": 1728,
+    "33": 432,
+    "42": 864
+  },
+  "claims": {
+    "A01": "HELD",
+    "A02": "HELD",
+    "A03": "HELD",
+    "A04": "HELD"
+  },
+  "controls": {
+    "LA01": "INVALID_VARIANT_REJECTED",
+    "LA02": "INVALID_VARIANT_REJECTED",
+    "LA03": "INVALID_VARIANT_REJECTED"
+  },
+  "directed_entry_checks": 12096,
+  "exact_source_weights": {
+    "111111": "0",
+    "21111": "0",
+    "2211": "0",
+    "222": "0",
+    "3111": "0",
+    "321": "112/225",
+    "33": "34/135",
+    "411": "0",
+    "42": "169/675"
+  },
+  "family_gain": "100493285455942497956/132175804395870032805",
+  "family_margin": "321368857565342214973/244770008140500060750",
+  "internal_image_rows": {
+    "321": 432,
+    "33": 144,
+    "42": 312
+  },
+  "proper_determinants": 60712,
+  "proper_partitions": 91,
+  "scope": "Variational full-Fock/full-flavor map, unchanged14336 energy; no physical filter implementation or spectral promotion."
+}

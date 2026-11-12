@@ -1,0 +1,250 @@
+{
+  "status": "COMPLETE_HELD_WITH_CORRECTION",
+  "reviewed_utc": "2026-11-12T00:08:08.494019+00:00",
+  "scope": "All assigned source/domain proofs, independent reconstruction code, every claim/control and fresh complete-case public replay.",
+  "independence": "I1",
+  "reproducibility": "R2",
+  "meaning": "Separate code in fresh same-model contexts; engine-free relocated replay. No external-model/human/outside-party level claimed.",
+  "claims": [
+    {
+      "id": "A01",
+      "track": "FORM",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "A02",
+      "track": "FORM",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "A03",
+      "track": "FORM",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "A04",
+      "track": "FORM",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "A05",
+      "track": "FORM",
+      "verdict": "HELD WITH CORRECTION",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "B01",
+      "track": "ORBITALS",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/ORBITALS/OUTCOMES.json"
+    },
+    {
+      "id": "B02",
+      "track": "ORBITALS",
+      "verdict": "HELD WITH CORRECTION",
+      "original_outcome_file": "peers/ORBITALS/OUTCOMES.json"
+    },
+    {
+      "id": "B03",
+      "track": "ORBITALS",
+      "verdict": "HELD WITH CORRECTION",
+      "original_outcome_file": "peers/ORBITALS/OUTCOMES.json"
+    },
+    {
+      "id": "C01",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    },
+    {
+      "id": "C02",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    },
+    {
+      "id": "C03",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    },
+    {
+      "id": "C04",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    },
+    {
+      "id": "C05",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    }
+  ],
+  "controls": [
+    {
+      "id": "AF01",
+      "track": "FORM",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "AF02",
+      "track": "FORM",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "AF03",
+      "track": "FORM",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "AO01",
+      "track": "ORBITALS",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/ORBITALS/OUTCOMES.json"
+    },
+    {
+      "id": "AO02",
+      "track": "ORBITALS",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/ORBITALS/OUTCOMES.json"
+    },
+    {
+      "id": "AO03",
+      "track": "ORBITALS",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/ORBITALS/OUTCOMES.json"
+    },
+    {
+      "id": "AR01",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    },
+    {
+      "id": "AR02",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    },
+    {
+      "id": "AR03",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    }
+  ],
+  "counts": {
+    "HELD": 10,
+    "HELD WITH CORRECTION": 3
+  },
+  "unresolved_assigned_substatements": [],
+  "reviewed_files": [
+    {
+      "path": "peers/FORM/REPORT.md",
+      "sha256": "32b5723ba865fe77886a397a6ba95b671ee30060482134ec0ab84cf4adddbd7a",
+      "bytes": 6294,
+      "scope": "Complete file read; mathematical/source/code review, not just output equality."
+    },
+    {
+      "path": "peers/FORM/DERIVATION.md",
+      "sha256": "eac7f30484c0ceb8d4a0692ea752f6f00b25e3e471e747b9787c63964c54a342",
+      "bytes": 19633,
+      "scope": "Complete file read; mathematical/source/code review, not just output equality."
+    },
+    {
+      "path": "peers/FORM/HYPOTHESES.md",
+      "sha256": "393a653df59d547f954e6ecb7236ae64f5527633f66b2b72b8326f385a830b21",
+      "bytes": 3601,
+      "scope": "Complete file read; mathematical/source/code review, not just output equality."
+    },
+    {
+      "path": "peers/FORM/replay.py",
+      "sha256": "89e71788cd24ba4cfe8fea909592eeb8323617947862190d093b7a016abf6a78",
+      "bytes": 25075,
+      "scope": "Complete file read; mathematical/source/code review, not just output equality."
+    },
+    {
+      "path": "peers/ORBITALS/REPORT.md",
+      "sha256": "57ac11ef420f04bef43e2f59fad997ea62d27ad7f253de2a2d129040d8cfb560",
+      "bytes": 7830,
+      "scope": "Complete file read; mathematical/source/code review, not just output equality."
+    },
+    {
+      "path": "peers/ORBITALS/DERIVATION.md",
+      "sha256": "be542e4fe523b14b0aa15cb5bd7d674735016d31e357ae5bedbaa46a531576d2",
+      "bytes": 11610,
+      "scope": "Complete file read; mathematical/source/code review, not just output equality."
+    },
+    {
+      "path": "peers/ORBITALS/HYPOTHESES.md",
+      "sha256": "2fbe940542bdfd7e6fa25ae96c2029eb525f5c184ecc43cac856b7a752735f77",
+      "bytes": 4877,
+      "scope": "Complete file read; mathematical/source/code review, not just output equality."
+    },
+    {
+      "path": "peers/ORBITALS/DERIVATION_SUPPLEMENT.md",
+      "sha256": "e1c3892ca514899620ad49544b7b1203ad408d7edbe2255ef48410b765672d38",
+      "bytes": 3819,
+      "scope": "Complete file read; mathematical/source/code review, not just output equality."
+    },
+    {
+      "path": "peers/ORBITALS/scripts/replay_v1.py",
+      "sha256": "505fe3cea260941bdf43fff1f9bcaf403e9238853d73dd473f478b0af2167174",
+      "bytes": 23328,
+      "scope": "Complete file read; mathematical/source/code review, not just output equality."
+    },
+    {
+      "path": "peers/REFERENCES/REPORT.md",
+      "sha256": "26cee052de161167a9c61468ac0b6553e3fb0b0166aeda75b0ca5a5c5dbcd8b7",
+      "bytes": 7414,
+      "scope": "Complete file read; mathematical/source/code review, not just output equality."
+    },
+    {
+      "path": "peers/REFERENCES/DERIVATION.md",
+      "sha256": "204c86f7be308db8a9b15a649f0a3449fa19385aa4c88e2503a962ee5ed2954a",
+      "bytes": 33810,
+      "scope": "Complete file read; mathematical/source/code review, not just output equality."
+    },
+    {
+      "path": "peers/REFERENCES/HYPOTHESES.md",
+      "sha256": "ce83a39b5fd95f8c8c7efa3aa184f5aea669f88087c29d622a1a1be39e563b7d",
+      "bytes": 6209,
+      "scope": "Complete file read; mathematical/source/code review, not just output equality."
+    },
+    {
+      "path": "peers/REFERENCES/scripts/replay_v2.py",
+      "sha256": "a5c34575e9c38ed3546b01414c0a0beeef373d63d7705fccdbcb5b5832f814da",
+      "bytes": 36878,
+      "scope": "Complete file read; mathematical/source/code review, not just output equality."
+    }
+  ],
+  "fresh_replay": "RESULTS/LEAD_PUBLIC_REPLAY.json",
+  "corrections": {
+    "A05": "Constant-lapse directional bound holds; universal strict improvement over the original lapse-dependent Pauli branch fails. Retain all valid branches and core floor.",
+    "B02": "Use exact frozen-rational Rayleigh quotient divided by its actual Gram norm; correct binary64 prose digits.",
+    "B03": "Use full Slater trace(G^-1H), including tiny rounded-column overlaps, and correct floating-discovery prose digits; all safe prefixes remain valid."
+  },
+  "additional_findings": [
+    "All fifty original phase/inventory guarantees explicit, all nonempty under the improved lower.",
+    "Full finite-roster carbon contraction tightens the first two generic bounds; complete C444 refinement confirmed.",
+    "Complete point cap improvement exceeds fourfold for two old phase-changing neutral accounts; electronic cap itself improves exactly fourfold.",
+    "The point noninteracting predecessor has arbitrarily many negative one-body levels; its finite panel does not establish a maximal physical charge inventory."
+  ],
+  "lead_scientific_messages_during_atomic_verifier_work": 0,
+  "retained_failure_records": [
+    "FORM attempts preserve structural equality failure and relocation-label amendment.",
+    "ORBITALS preserves inherited parser/partial-trace/Barta failures; no new scientific failure.",
+    "REFERENCES preserves docstring audit false positive; no scientific attempt failure."
+  ],
+  "director_approval": false,
+  "manuscript_changes": false,
+  "next": "Continue spin-memory and CAR/Fock/loading cases, retaining these corrected exact statements for later manuscript use."
+}

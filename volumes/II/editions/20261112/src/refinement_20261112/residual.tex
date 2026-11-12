@@ -1,0 +1,91 @@
+\subsection{The mixed residual: completed reconstruction and a linked test}
+\label{sec:mixed-residual-12}
+
+The proposed mixed two-residual continuation has now been evaluated.
+In the original Gibbs $L^2(\pi)$ metric let $A=C+B$, $0\le C\le20I$,
+and retain $b_5=(d,e,u_d,u_e,w_d)$, $G_5=\langle b_5,b_5\rangle$,
+$D_5=\langle b_5,Ab_5\rangle$. Write
+\begin{equation}
+\begin{gathered}
+ c=G_5^{-1}D_5[:,4],\qquad\lambda=W_{de}/W_{dd},\\
+ r_1=w_e-\lambda w_d,\qquad r_2=Aw_d-b_5c.
+\end{gathered}
+\end{equation}
+The full residual pair $R=(r_1,r_2)$ has Gram
+\begin{equation}
+ G_R=\begin{pmatrix}\delta W&j\\j&\beta_r\end{pmatrix},
+ \quad H=\langle b_5,AR\rangle
+ =\begin{pmatrix}0&0\\0&0\\0&0\\\delta W&j\\j&\beta_r\end{pmatrix},
+\end{equation}
+where $\delta W=W_{ee}-W_{de}^2/W_{dd}$,
+$j=J_{21}-\lambda J_{11}$ and
+$\beta_r=F_{11}-D_5[:,4]^TG_5^{-1}D_5[:,4]$.
+The exact zero entries follow from source action and self-adjointness;
+small nonzero enclosure midpoints are not extra couplings.
+\samref{REF12_THREE}
+
+The signed $2\times2$ core blocks were freshly reconstructed on all
+54 preparations from the seven physical features
+$(d,e,Cd,Ce,C^2d,C^2e,C^3d)$. Full mixed terms and all source intervals
+remain. A conservative Young/Cauchy full-action cap retains both
+remainder columns, every background flip and the physical strip transfer.
+With $R=U+V_{\rm rem}$ and $\|v_i\|^2\le\delta_i^2$, it uses
+$\|V_{\rm rem}z\|^2\le2\sum_i\delta_i^2|z_i|^2$. The resulting cap is
+\begin{equation}
+\begin{split}
+ J_+={}&(1+\eta)M_++2\diag(b_1,b_2)\\
+ &+40(1+\eta^{-1})\diag(\delta_1^2,\delta_2^2),\quad\eta>0.
+\end{split}
+\end{equation}
+Here $M_+$ includes signed core radius uncertainty and the full physical
+field transfer. For $K=\xi G_5+D_5$, $g=G_5[:,0]$,
+$v=H^TK^{-1}g$, the extended lower is
+\begin{equation}
+ L_{7,+}=g^TK^{-1}g+
+ v^T[\xi G_R+J_+-H^TK^{-1}H]^{-1}v.
+\end{equation}
+All 162 first/middle/last-history comparisons overlap their independently
+reconstructed directed host values. None separates above the completed
+scalar receiver. One can always retain that scalar lower; a weaker
+extended cap does not reduce the available baseline.
+
+A new linked calculation then preserves the original scalar $C_{22}$
+at the same upstream source point, avoiding baseline inflation. For a
+symmetric action completion $C$ define
+\begin{equation}
+ S=\xi G_R+C-H^TK^{-1}H,\qquad
+ q=v_1-S_{12}v_2/S_{22}.
+\end{equation}
+Schur elimination gives the exact additional gain over the retained
+$r_2$ receiver,
+\begin{equation}
+ \Delta L=\frac{q^2}{S_{11}-S_{12}^2/S_{22}}\ge0.
+\label{eq:linked-gain-12}
+\end{equation}
+The old value is the same dependent source expression on both sides;
+subtracting independent rounded receiver intervals would lose this fact.
+The full physical mixed-action payment contains the core/remainder and
+background terms and at V000\_BASE is conservatively inside
+$[-.00476,.00476]$, much wider than its core midpoint
+$3.76957\,10^{-6}$.
+
+At one exact rational upstream point, each of the 37 histories admits a
+positive-cap completion
+\begin{equation}
+ C_{12}^{\rm crit}=H_1^TK^{-1}H_2-\xi(G_R)_{12}
+                                      +S_{22}v_1/v_2
+\end{equation}
+within that payment, making $q=0$. They range from
+$-.000892975820706$ to $-.000010412731066$. Exact seven- and six-coordinate
+solve residuals vanish and their values are equal. Changing only $C_{12}$
+by $1/1000$ at history 18 gives a strictly positive native gain in
+$[561461163,561461164]10^{-20}$, a reachable non-null control.
+
+These are 37 alternative completions, one for each history, at a common
+upstream point. They are not one physical mixed action canceling all
+histories simultaneously. The tested linked interval relaxation certifies
+no strict individual endpoint separation; it is not a universal physical
+no-gain theorem. A tighter shared-source covariance or a paid direct
+physical mixed action remains a meaningful continuation. The additional
+norm $\|Ar_2\|^2$, minimal invariant closure, physical units and apparatus
+payments remain unsupplied.

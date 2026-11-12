@@ -1,0 +1,15 @@
+volume /home/lilhelper/SAM_Research_Overflow/Substrate_Accumulation_Model/volumes/I_Updated_20261111/pdf/SAM_Volume_I_FirstEdition_DRAFT_20261111.pdf
+
+volume /home/lilhelper/SAM_Research_Overflow/Substrate_Accumulation_Model/volumes/II/SAM_Volume_II_Revised_Edition_20261110/SAM_Volume_II_Revised_Edition_20261110.pdf
+
+volume /home/lilhelper/SAM_Research_Overflow/Substrate_Accumulation_Model/volumes/III/pdf/SAM_Volume_III_20261111_refined.pdf
+
+data /home/lilhelper/Desktop/REPORTvolii.md
+
+data /home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/rh_screened_remainder_20261111/REPORT.md
+
+data /home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/FULL_RESEARCH_HANDOFF.md
+
+
+
+

@@ -1,0 +1,21 @@
+{
+  "N": 5000,
+  "all_fields_zero": true,
+  "all_negative_edges_disjoint": true,
+  "beta": "1/5000",
+  "clock": "Unit attempted heatbath at each of the N physical sites",
+  "complete_pairs_checked": 12497500,
+  "every_complete_pair_bit_matches": true,
+  "free_sites": 3000,
+  "logical_parent_source_sha256": "12b7e5a07fb776f8e9ff499038e355f5f631d7ad5a4e19f60168542bf39691e3",
+  "negative_pairs": 1000,
+  "ordered_ports": [
+    0,
+    1,
+    60,
+    61
+  ],
+  "parent_edges_checked": 13330,
+  "parent_file_sha256": "44b7476bd7ec0d9cf0def0cb5989805ecc0130a9cde030eab19ef87225787ebd",
+  "raw_dense_bits_sha256": "7508f46b4b0ebf2fdb2d715c21fd6e2039e52e1fe0c80d0a4281392d35eb1883"
+}

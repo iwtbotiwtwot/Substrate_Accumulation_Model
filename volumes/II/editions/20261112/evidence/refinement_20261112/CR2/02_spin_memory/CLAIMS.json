@@ -1,0 +1,83 @@
+{
+  "form": "verification",
+  "claims": [
+    {
+      "id": "A01",
+      "track": "SIGNED",
+      "type": "EXACT",
+      "title": "Actual signed physical source and moments",
+      "submitted_statement": "Reconstruct the actual signed_packet positive-fill source, stationary law, retained ports and per-site heatbath clock, including all physical spin flips. Rebuild the complete observable generator moments without replacing it by a uniform dynamical lump."
+    },
+    {
+      "id": "A02",
+      "track": "SIGNED",
+      "type": "EXACT",
+      "title": "Positive source contraction and absolute normalization",
+      "submitted_statement": "Independently rebuild the paired/free-site generating factors and positive insertion/tail calculation, central and marked-pair multiplicities, all required moments and absolute partition/source-interface checks. Small-source full-state qualifications must use the same law."
+    },
+    {
+      "id": "A03",
+      "track": "SIGNED",
+      "type": "EXACT",
+      "title": "Finite signed microscopic certificate",
+      "submitted_statement": "Use fresh directed arithmetic and a proved moment receiver to reconstruct the submitted equal-wait microscopic information interval and all error/tail payments for the actual signed source."
+    },
+    {
+      "id": "A04",
+      "track": "SIGNED",
+      "type": "EXACT",
+      "title": "Same-boundary fitted clock",
+      "submitted_statement": "Reconstruct the original boundary marginal/generator, adjacent-correlation calibration and all fitting roots under the stated monotonicity; certify the boundary information upper and strict reported ratio against the actual signed microscopic lower."
+    },
+    {
+      "id": "B01",
+      "track": "GROWING",
+      "type": "EXACT",
+      "title": "Uniform-source all-time correlation remainder",
+      "submitted_statement": "Starting from the completed corrected uniform microscopic source theorem, derive a time-explicit correlation estimate and its full stationary moment/Dirichlet justification. Keep the original attempt-rate convention."
+    },
+    {
+      "id": "B02",
+      "track": "GROWING",
+      "type": "EXACT",
+      "title": "Uniform growing-wait information theorem",
+      "submitted_statement": "Prove the submitted information expansion uniformly on its declared growing-time range, retain lower-cell positivity conditions and distinguish bounded waits from the joint divergent-wait/sub-square-root limit."
+    },
+    {
+      "id": "B03",
+      "track": "GROWING",
+      "type": "EXACT",
+      "title": "Finite wait-four directed certificate",
+      "submitted_statement": "Independently contract all folded critical source rows, including central multiplicity, and reconstruct the finite forcing/KL interval and certified comparison to the completed short-wait upper."
+    },
+    {
+      "id": "B04",
+      "track": "GROWING",
+      "type": "EXACT",
+      "title": "Timing and source restrictions",
+      "submitted_statement": "Derive the stated per-cycle comparison under its preparation/readout cost convention and the separate leading timing optima; preserve the distinction from a global finite-source optimum or physical rate."
+    },
+    {
+      "id": "C01",
+      "track": "QUADRATURE",
+      "type": "EXACT",
+      "title": "Original-source finite moment receiver",
+      "submitted_statement": "Prove the source-specific spectral-measure/Hankel assumptions and Gauss/left-Radau finite-time enclosures on the actual support, including singular/degenerate cases and all normalization and endpoint signs."
+    },
+    {
+      "id": "C02",
+      "track": "QUADRATURE",
+      "type": "EXACT",
+      "title": "Three-time law and stable information bounds",
+      "submitted_statement": "Independently reconstruct the stationary binary law, positive-cell or rare-cell hypotheses as applicable, interval information evaluation and paid series tail. Assess whether the signed finite certificate follows from the supplied moment data."
+    },
+    {
+      "id": "C03",
+      "track": "QUADRATURE",
+      "type": "EXACT",
+      "title": "Qualification and scope audit",
+      "submitted_statement": "Use separately authored small full-source tests and counterexamples to qualify the moment receiver and fitted-clock use. Check static moment contraction versus dynamical lumpability and retain the uncomputed signed-chain boundary."
+    }
+  ],
+  "outcome_policy": "HELD, HELD WITH CORRECTION, BROKE, with any unresolved substatement explicit; no desired research outcome."
+}

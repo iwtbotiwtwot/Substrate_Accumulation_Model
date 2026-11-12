@@ -1,0 +1,72 @@
+{
+  "kind": "native",
+  "key": "TWO_GEO_PROFILE_V1",
+  "operation": "GEN3_SOURCE_OPERATOR_WORD",
+  "purpose": "Matched geometric directional radial profile ODE and boundary residuals at all three actual geometries",
+  "payload": {
+    "name": "TWO_GEO_PROFILE_V1",
+    "context": {
+      "basis": [
+        "nu1",
+        "nu3/4",
+        "nu1/2"
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "units": {
+        "energy": "source units",
+        "geometry": "declared constant lapse or clamped rigid rotor"
+      },
+      "history": {
+        "campaign": "GEN7 lane TWO",
+        "precommit_sha256": "273fb40fff5700d9f262b60d289c5c8d5586ae0f21caeafb3f0b1de169cecd85",
+        "locked_inputs": "H003004-H003008 not replayed"
+      },
+      "spectral_coordinate": "Matched geometric directional radial profile ODE and boundary residuals at all three actual geometries"
+    },
+    "data": {
+      "operators": {
+        "MATCH": [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "ONE": [
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ]
+        ]
+      },
+      "program": [
+        {
+          "name": "r",
+          "op": "multiply",
+          "inputs": [
+            "MATCH",
+            "ONE"
+          ]
+        }
+      ],
+      "output": "r"
+    }
+  }
+}

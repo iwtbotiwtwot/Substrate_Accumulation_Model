@@ -1,0 +1,1594 @@
+{
+  "schema": "LOSSLESS_ATOMIC_TRACK_OUTCOMES_V1",
+  "original_documents": {
+    "FORM": {
+      "schema": "FORM_OUTCOMES_V1",
+      "completed_utc": "2026-11-11T23:42:34.161128+00:00",
+      "track": "FORM",
+      "claims": [
+        {
+          "id": "A01",
+          "type": "EXACT",
+          "result": "HELD",
+          "statement": "Original point operator, source units, unitary universal dilation and full H1 form domain reconstructed, including A=0.",
+          "evidence": {
+            "analytic_proof": {
+              "file": "DERIVATION.md",
+              "section": "A01: original operator, units, dilation and full domain",
+              "scope": "full assigned domain and declared source family"
+            },
+            "exact_host_replay": {
+              "file": "attempts/007_final_replay_v4/output/RESULTS.json",
+              "json_pointer": "/A01"
+            },
+            "inherited_evidence": "Original reports and definitions were read-only inputs, not independent outcome evidence."
+          },
+          "unresolved_substatements": []
+        },
+        {
+          "id": "A02",
+          "type": "EXACT",
+          "result": "HELD",
+          "statement": "Bounded point field has exact constant norm and source divergence, no origin distribution; exact square extends by density and sums before antisymmetric restriction. No saturation inferred.",
+          "evidence": {
+            "analytic_proof": {
+              "file": "DERIVATION.md",
+              "section": "A02: the divergence-matched point field",
+              "scope": "full assigned domain and declared source family"
+            },
+            "exact_host_replay": {
+              "file": "attempts/007_final_replay_v4/output/RESULTS.json",
+              "json_pointer": "/A02"
+            },
+            "inherited_evidence": "Original reports and definitions were read-only inputs, not independent outcome evidence."
+          },
+          "unresolved_substatements": []
+        },
+        {
+          "id": "A03",
+          "type": "EXACT",
+          "result": "HELD",
+          "statement": "Matched core multiplier gives exact divergence and h^2 form remainder, no interface/origin distribution, and the uniform anisotropic lower without C>=A.",
+          "evidence": {
+            "analytic_proof": {
+              "file": "DERIVATION.md",
+              "section": "A03: the original finite-core potential",
+              "scope": "full assigned domain and declared source family"
+            },
+            "exact_host_replay": {
+              "file": "attempts/007_final_replay_v4/output/RESULTS.json",
+              "json_pointer": "/A03"
+            },
+            "inherited_evidence": "Original reports and definitions were read-only inputs, not independent outcome evidence."
+          },
+          "unresolved_substatements": []
+        },
+        {
+          "id": "A04",
+          "type": "EXACT",
+          "result": "HELD",
+          "statement": "Complete Coulomb spectrum and spin-two occupation give w_N; optimized split of the same kinetic plus positive pair law yields the bound, with endpoint limits and independent core floor.",
+          "evidence": {
+            "analytic_proof": {
+              "file": "DERIVATION.md",
+              "section": "A04: complete Coulomb occupation, kinetic split, pair law and core floor",
+              "scope": "full assigned domain and declared source family"
+            },
+            "exact_host_replay": {
+              "file": "attempts/007_final_replay_v4/output/RESULTS.json",
+              "json_pointer": "/A04"
+            },
+            "inherited_evidence": "Original reports and definitions were read-only inputs, not independent outcome evidence."
+          },
+          "unresolved_substatements": []
+        },
+        {
+          "id": "A05",
+          "type": "EXACT",
+          "result": "HELD WITH CORRECTION",
+          "statement": "Constant-lapse metric/domain/divergence and displayed lower hold; variable lapse requires weighted radial derivatives. Prior blanket strict-improvement wording is false relative to the original geometric weight and is corrected.",
+          "evidence": {
+            "analytic_proof": {
+              "file": "DERIVATION.md",
+              "section": "A05: actual common geometry and its domain; A05 correction: compare the original geometric occupation weight",
+              "scope": "full assigned domain and declared source family"
+            },
+            "exact_host_replay": {
+              "file": "attempts/007_final_replay_v4/output/RESULTS.json",
+              "json_pointer": "/A05"
+            },
+            "inherited_evidence": "Original reports and definitions were read-only inputs, not independent outcome evidence."
+          },
+          "unresolved_substatements": [],
+          "substatements": [
+            {
+              "name": "constant-lapse form/domain identity and displayed lower",
+              "result": "HELD"
+            },
+            {
+              "name": "universal strict improvement over original lapse-dependent Pauli branch in recovered full source note",
+              "result": "BROKE",
+              "counterexample": {
+                "complement_proof": "alpha_1=(sqrt(33)-1)/2>2; all l>=1 denominators>3; l=0,n_r>=3 denominators>=4",
+                "core_floor": "-303/50",
+                "corrected_wording": "The lower holds; retain the maximum with the original geometric Pauli branch and core floor. Strict improvement is account dependent.",
+                "original_complete_geometric_weight": "49/18",
+                "original_geometric_lower": "-499849/90000",
+                "parameters": {
+                  "A": "1/100",
+                  "C": "1",
+                  "N": 6,
+                  "nu": "1/2",
+                  "rc": "1",
+                  "tau": "1"
+                },
+                "submitted_branch_strictly_weaker_than_original": true,
+                "submitted_valid_lower": "-6-1/7500-sqrt(2)/25",
+                "submitted_valid_lower_interval": {
+                  "arithmetic": "exact rational outward enclosure",
+                  "lower": "-4542526406871192851464050661726290942357091/750000000000000000000000000000000000000000",
+                  "upper": "-141953950214724776608251583178946591948659/23437500000000000000000000000000000000000",
+                  "width": "1/250000000000000000000000000000000000000000"
+                },
+                "verdict": "HELD WITH CORRECTION"
+              }
+            },
+            {
+              "name": "corrected comparison wording",
+              "result": "HELD WITH CORRECTION",
+              "wording": "Keep the valid directional branch, original geometric Pauli branch and core floor; use their maximum. Strict improvement is account dependent."
+            }
+          ],
+          "not_claimed": "A variable-lapse, massive-kinetic or new complete numerical panel extension."
+        }
+      ],
+      "controls": [
+        {
+          "id": "AF01",
+          "type": "EXACT",
+          "result": "HELD",
+          "control_outcome": "DETECTED_AS_PREDICTED",
+          "evidence": {
+            "analytic_proof": "DERIVATION.md, Controls and their exact failures",
+            "exact_directed_replay": "attempts/007_final_replay_v4/output/RESULTS.json",
+            "json_pointer": "/AF01"
+          },
+          "observation": {
+            "bad_constant_divergence": "0",
+            "bad_constant_norm": "1/16",
+            "detected": true,
+            "predicted_detection": true,
+            "source_energy": "2/3",
+            "source_minus_wrong_reconstruction": "-1/3",
+            "wrong_reconstructed_energy": "1"
+          },
+          "prediction_mismatch": false
+        },
+        {
+          "id": "AF02",
+          "type": "EXACT",
+          "result": "HELD",
+          "control_outcome": "DETECTED_AS_PREDICTED",
+          "evidence": {
+            "analytic_proof": "DERIVATION.md, Controls and their exact failures",
+            "exact_directed_replay": "attempts/007_final_replay_v4/output/RESULTS.json",
+            "json_pointer": "/AF02"
+          },
+          "observation": {
+            "bad_inside_radial_residual": "1/rc",
+            "bad_profile_normal_jump_multiplier": "-1/5",
+            "bulk_density_pairing": "(-19 + 3*exp(2))*exp(-2)/24",
+            "detected": true,
+            "original_bulk_and_interface_residuals_zero": true,
+            "predicted_detection": true,
+            "surface_coefficient_from_density": "-1/15",
+            "surface_density_pairing": "-exp(-2)/15",
+            "surface_density_pairing_interval": {
+              "arithmetic": "exact rational outward enclosure",
+              "lower": "-11760823395487394947984483003602325878509765625/1303520757583086214319496127506282532816289015959",
+              "upper": "-75167001701593350319726913109980082788736328125/8331197885422333630650692641018414448869325449826",
+              "width": "12783503690747168421722264134350354215771484375/10859889379180326234689849043616604902979044361909133175983293891683570819837915231050580567773134"
+            },
+            "total_divergence_defect": "(-103 + 15*exp(2))*exp(-2)/120",
+            "total_divergence_defect_interval": {
+              "arithmetic": "exact rational outward enclosure",
+              "lower": "11519493480985566834636797266905370916222894573/1303520757583086214319496127506282532816289015959",
+              "upper": "588996710158218547718820590690465921629483652951/66649583083378669045205541128147315590954603598608",
+              "width": "1316700880146958347437393205838086484224462890625/86879115033442609877518792348932839223832354895273065407866351133468566558703321848404644542185072"
+            }
+          },
+          "prediction_mismatch": false
+        },
+        {
+          "id": "AF03",
+          "type": "EXACT",
+          "result": "HELD",
+          "control_outcome": "DETECTED_AS_PREDICTED",
+          "evidence": {
+            "analytic_proof": "DERIVATION.md, Controls and their exact failures",
+            "exact_directed_replay": "attempts/007_final_replay_v4/output/RESULTS.json",
+            "json_pointer": "/AF03"
+          },
+          "observation": {
+            "detected": true,
+            "kinetic_coefficient_violation": {
+              "allowed": false,
+              "reasons": [
+                "actual quadratic kinetic coefficient differs from declared tau"
+              ]
+            },
+            "kinetic_toy": {
+              "A": "0",
+              "C": "1",
+              "N": 1,
+              "actual_tau": "1/4",
+              "actual_trial_energy": "-3*(-34 + 33*exp(1/25))*exp(-1/25)",
+              "actual_trial_interval": {
+                "arithmetic": "exact rational outward enclosure",
+                "lower": "-3325149235709646257510178638017350477900482372848958007718309582156296280040504574743875491404849004926562279207734179321058205110883/3326888511521680761920464657359386942109440239865219965197956551660728832959066758251832075670756050554813760396037718983040991970817",
+                "upper": "-162994848239880700846890343524649130466846082883398539617897236098575004331980093858460261665896750294597912413574983055230708899/163080105465025772222045292921327442792247197261411739932253879102991560577069006629883436986524209598935332448621969525810411201",
+                "width": "266365593213294512485593227594779461766093774099939395227920613251626491546630859375000000000000000000000000000000000000000000000000/542549329329338307597489803078000779028688648403686249239597676691855823638010586980158143319354643258578742696345682717097394030742802963769943231202660634730054980806887889324188093063452573165363966463892922812403859377979736657823261483980612287226161921217"
+              },
+              "actual_trial_strictly_below_copied_lower": true,
+              "copied_lower": "-1/4",
+              "core_expectation_from_radial_integrals": "2*(-51 + 50*exp(1/25))*exp(-1/25)",
+              "declared_tau": "1",
+              "orbital_rate": "2",
+              "rc": "1/100"
+            },
+            "massive_kinetic_violation": {
+              "allowed": false,
+              "reasons": [
+                "kinetic law is not the declared quadratic Laplacian"
+              ]
+            },
+            "massive_positive_momentum_quadratic_minus_square_root": {
+              "expression": "2-sqrt(3)",
+              "interval": {
+                "arithmetic": "exact rational outward enclosure",
+                "lower": "2679491924311227064725536584941276330571/10000000000000000000000000000000000000000",
+                "upper": "669872981077806766181384146235319082643/2500000000000000000000000000000000000000",
+                "width": "1/10000000000000000000000000000000000000000"
+              }
+            },
+            "original_member": {
+              "allowed": true,
+              "reasons": []
+            },
+            "pair_toy": {
+              "N": 2,
+              "actual_trial_energy": "-1/2",
+              "copied_lower": "0",
+              "orbital_rate": "1/2",
+              "pair_constant": "-1"
+            },
+            "pair_violation": {
+              "allowed": false,
+              "reasons": [
+                "original sufficient pair nonnegativity vc>=vp>=0 fails"
+              ]
+            },
+            "predicted_refusals": true
+          },
+          "prediction_mismatch": false
+        }
+      ],
+      "coverage": {
+        "assigned_claim_ids": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05"
+        ],
+        "assigned_control_ids": [
+          "AF01",
+          "AF02",
+          "AF03"
+        ],
+        "all_recorded": true
+      },
+      "method_labels": {
+        "analytic": "Full-domain written proofs, density/distribution arguments, full spectral occupation and complete geometric complement comparison.",
+        "exact_host": "Fresh SymPy and Fraction code; no original witness or installed research engine executed.",
+        "directed": "Rational root brackets and positive-exponential-series remainder bounds.",
+        "diagnostic": "Finite state and inventory samples are cross-checks, not full-domain proofs.",
+        "inherited": "Original reports/source definitions only."
+      },
+      "retained_failures": [
+        {
+          "attempt": "002_exact_replay_v1",
+          "status": "FAILED_RETAINED",
+          "reason": "Structural SymPy Matrix equality rejected equivalent curl expressions; successor uses componentwise algebraic zero residuals.",
+          "retained_files": [
+            "attempts/002_exact_replay_v1/replay_v1.py",
+            "attempts/002_exact_replay_v1/PREDICTIONS.json",
+            "attempts/002_exact_replay_v1/stderr.log",
+            "attempts/002_exact_replay_v1/RESULT.json"
+          ]
+        }
+      ],
+      "scientific_corrections": [
+        {
+          "claim": "A05",
+          "attempt": "006_geometry_comparison",
+          "description": "The valid bound does not always strictly improve the old geometric Pauli branch. Final v4 includes the exact counterexample and corrected scope."
+        }
+      ],
+      "controls_that_did_not_behave_as_predicted": [],
+      "unresolved_assigned_substatements": [],
+      "scope_limits": [
+        "No new source-reference minima or binding/phase panel proof is asserted by this track.",
+        "No transfer to massive kinetic, physical ionization or calibrated units.",
+        "No variable-lapse extension.",
+        "Local relocated replay does not establish outside-party replay."
+      ],
+      "next_step": "Lead review of the complete FORM proof and source-comparison correction, then fresh relocated case replay; retain all assigned outcomes.",
+      "record_corrections": [
+        {
+          "attempt": "008_final_relocated",
+          "issue": "One inherited success-criterion sentence named attempt 004 while the prediction and sealed reference hashes correctly named final 007.",
+          "retained_amendment": "attempts/008_final_relocated/PREREGISTRATION_LABEL_AMENDMENT.json",
+          "successor": "009_final_relocation_record",
+          "successor_result": "PASS; exact byte equality with final attempt 007."
+        }
+      ]
+    },
+    "ORBITALS": {
+      "claims": [
+        {
+          "analytic_evidence": [
+            "DERIVATION.md",
+            "DERIVATION_SUPPLEMENT.md"
+          ],
+          "directed_evidence": [
+            "attempts/A02_DIRECTED_V1/output/COMPLETE_ONE_MATRICES.json",
+            "attempts/A02_DIRECTED_V1/output/CHECKS.json"
+          ],
+          "id": "B01",
+          "scope": "Every finite member of source-defined regular/log family; complete angular/radial formulas, H1/H2 domain and finite fourth momentum moment; source-defined unitary dilation",
+          "status": "HELD",
+          "title": "Logarithmic basis and complete integrals",
+          "unresolved_substatements": []
+        },
+        {
+          "correction": {
+            "claim": "B02",
+            "corrected_display": "-0.04735264960221189793807378413284",
+            "kind": "display_precision",
+            "meaning": "Earlier prose used a binary64 midpoint display; the exact frozen-rational ray matches the original directed interval. Use the new interval or label the old text as a binary64 display.",
+            "original": "-0.047352649602211895..."
+          },
+          "directed_evidence": [
+            "attempts/A02_DIRECTED_V1/output/ONE_ELECTRON.json"
+          ],
+          "energy": {
+            "lower": "-236763248011059489690368920664196802302887722661382410906410770868857/5000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper": "-473526496022118979380737841328393604605775445322764821812821541737713/10000000000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "id": "B02",
+          "improvement_against_earlier_displayed_value": {
+            "lower": "1448298322118979380737841328393604605775445322764821812821541737713/10000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper": "724149161059489690368920664196802302887722661382410906410770868857/5000000000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "normalization": "Exact full physical Gram, not exact unit norm inferred from rounded discovery",
+          "status": "HELD WITH CORRECTION",
+          "title": "Frozen one-electron witness",
+          "unresolved_substatements": []
+        },
+        {
+          "analytic_evidence": [
+            "DERIVATION.md",
+            "DERIVATION_SUPPLEMENT.md"
+          ],
+          "balanced_quantum_numbers": {
+            "M": 0,
+            "twice_Sz": 0
+          },
+          "correction": {
+            "claim": "B03",
+            "corrected_display": "-0.16329578569671925116100439108172",
+            "kind": "display_precision",
+            "meaning": "Earlier prose retained floating discovery digits. The exact frozen-rational Slater trace matches the original directed interval and all six safe c_n remain valid.",
+            "original": "-0.163295785696720..."
+          },
+          "directed_evidence": [
+            "attempts/A02_DIRECTED_V1/output/OCCUPIED.json"
+          ],
+          "full_gram_normalization": "trace(S^-1 H), all same-spin cross terms retained; all principal LDL pivots strictly positive",
+          "id": "B03",
+          "original_quantum_numbers": {
+            "M": -2,
+            "twice_Sz": 0
+          },
+          "prefixes": [
+            {
+              "energy": {
+                "lower": "-29591654470635561752939244393716671603039800179821886309688911165173/625000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "-473466471530168988047027910299466745648636802877150180955022578642767/10000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "energy_display": "-0.04734664715301689880470279102995",
+              "n": 1,
+              "naive_individually_normalized_sum": {
+                "lower": "-29591654470635561752939244393716671603039800179821886309688911165173/625000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "-473466471530168988047027910299466745648636802877150180955022578642767/10000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "naive_minus_full": {
+                "lower": "-1/10000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "1/10000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "positive_ldl_pivots": [
+                {
+                  "lower": "10000000000000004807395972602416978614391706257457096624092424982657599/10000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "6250000000000003004622482876510611633994816410910685390057765614161/6250000000000000000000000000000000000000000000000000000000000000000"
+                }
+              ],
+              "safe_positive_c": "2367/50000",
+              "slater_norm_determinant": {
+                "lower": "10000000000000004807395972602416978614391706257457096624092424982657599/10000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "6250000000000003004622482876510611633994816410910685390057765614161/6250000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "solve_residual_absolute_upper": "635637735/82631996098781074868989413504096379978550585370535152410581099409300723904538918228148651304964410605948901503127919788032"
+            },
+            {
+              "energy": {
+                "lower": "-29591654470635561752939244393716671603039800179821886309688911165173/312500000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "-189386588612067595218811164119786698259454721150860072382009031457107/2000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "energy_display": "-0.09469329430603379760940558205989",
+              "n": 2,
+              "naive_individually_normalized_sum": {
+                "lower": "-29591654470635561752939244393716671603039800179821886309688911165173/312500000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "-189386588612067595218811164119786698259454721150860072382009031457107/2000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "naive_minus_full": {
+                "lower": "-1/10000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "1/10000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "positive_ldl_pivots": [
+                {
+                  "lower": "10000000000000004807395972602416978614391706257457096624092424982657599/10000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "6250000000000003004622482876510611633994816410910685390057765614161/6250000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "10000000000000004807395972602416978614391706257457096624092424982657599/10000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "6250000000000003004622482876510611633994816410910685390057765614161/6250000000000000000000000000000000000000000000000000000000000000000"
+                }
+              ],
+              "safe_positive_c": "9469/100000",
+              "slater_norm_determinant": {
+                "lower": "10000000000000009614791945204836268334387151908783920586172440715850889/10000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "1000000000000000961479194520483626833438715190878392058617244071585089/1000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "solve_residual_absolute_upper": "635637735/82631996098781074868989413504096379978550585370535152410581099409300723904538918228148651304964410605948901503127919788032"
+            },
+            {
+              "energy": {
+                "lower": "-288363055613307782930375595869631868094168154942913794669410671173953/2500000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "-1153452222453231131721502383478527472376672619771655178677642684695811/10000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "energy_display": "-0.11534522224532311317215023834785",
+              "n": 3,
+              "naive_individually_normalized_sum": {
+                "lower": "-1153452222453231131721502383476972958544667973427042415581695746589597/10000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "-288363055613307782930375595869243239636166993356760603895423936647399/2500000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "naive_minus_full": {
+                "lower": "777256916002323172306381547973469053107/5000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "310902766400929268922552619189387621243/2000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "positive_ldl_pivots": [
+                {
+                  "lower": "10000000000000004807395972602416978614391706257457096624092424982657599/10000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "6250000000000003004622482876510611633994816410910685390057765614161/6250000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "10000000000000004807395972602416978614391706257457096624092424982657599/10000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "6250000000000003004622482876510611633994816410910685390057765614161/6250000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "5000000000000006293904669208654587362327721145034643557580643623301497/5000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "2000000000000002517561867683461834944931088458013857423032257449320599/2000000000000000000000000000000000000000000000000000000000000000000000"
+                }
+              ],
+              "safe_positive_c": "5767/50000",
+              "slater_norm_determinant": {
+                "lower": "2000000000000004440520256724431509195165214619034503607608562150220173/2000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "5000000000000011101300641811078772987913036547586259019021405375550433/5000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "solve_residual_absolute_upper": "79487485/10328999512347634358623676688012047497318823171316894051322637426162590488067364778518581413120551325743612687890989973504"
+            },
+            {
+              "energy": {
+                "lower": "-1359971501846124287348948946358121453456071633789009995445240212106087/10000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "-679985750923062143674474473179060726728035816894504997722620106053043/5000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "energy_display": "-0.13599715018461242873489489463581",
+              "n": 4,
+              "naive_individually_normalized_sum": {
+                "lower": "-1359971501846124287348948946355012425792062341099784469253346335893657/10000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "-169996437730765535918618618294376553224007792637473058656668291986707/1250000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "naive_minus_full": {
+                "lower": "3109027664009292689225526191893876212429/10000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "310902766400929268922552619189387621243/1000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "positive_ldl_pivots": [
+                {
+                  "lower": "10000000000000004807395972602416978614391706257457096624092424982657599/10000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "6250000000000003004622482876510611633994816410910685390057765614161/6250000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "10000000000000004807395972602416978614391706257457096624092424982657599/10000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "6250000000000003004622482876510611633994816410910685390057765614161/6250000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "5000000000000006293904669208654587362327721145034643557580643623301497/5000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "2000000000000002517561867683461834944931088458013857423032257449320599/2000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "5000000000000006293904669208654587362327721145034643557580643623301497/5000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "2000000000000002517561867683461834944931088458013857423032257449320599/2000000000000000000000000000000000000000000000000000000000000000000000"
+                }
+              ],
+              "safe_positive_c": "13599/100000",
+              "slater_norm_determinant": {
+                "lower": "1250000000000004348801327754936833613957378612285717526724411669673629/1250000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "10000000000000034790410622039494668911659028898285740213795293357389033/10000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "solve_residual_absolute_upper": "79487485/10328999512347634358623676688012047497318823171316894051322637426162590488067364778518581413120551325743612687890989973504"
+            },
+            {
+              "energy": {
+                "lower": "-1496464679406658399479496428587649227628983052790066272745724060383863/10000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "-748232339703329199739748214293824613814491526395033136372862030191931/5000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "energy_display": "-0.14964646794066583994794964285876",
+              "n": 5,
+              "naive_individually_normalized_sum": {
+                "lower": "-1496464679406658399479496428584540199964973760100840746553830184171433/10000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "-187058084925832299934937053573067524995621720012605093319228773021429/1250000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "naive_minus_full": {
+                "lower": "3109027664009292689225526191893876212429/10000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "310902766400929268922552619189387621243/1000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "positive_ldl_pivots": [
+                {
+                  "lower": "10000000000000004807395972602416978614391706257457096624092424982657599/10000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "6250000000000003004622482876510611633994816410910685390057765614161/6250000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "10000000000000004807395972602416978614391706257457096624092424982657599/10000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "6250000000000003004622482876510611633994816410910685390057765614161/6250000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "5000000000000006293904669208654587362327721145034643557580643623301497/5000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "2000000000000002517561867683461834944931088458013857423032257449320599/2000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "5000000000000006293904669208654587362327721145034643557580643623301497/5000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "2000000000000002517561867683461834944931088458013857423032257449320599/2000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "5000000000000000366945096294120883819825789029224716634092697883010679/5000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "10000000000000000733890192588241767639651578058449433268185395766021359/10000000000000000000000000000000000000000000000000000000000000000000000"
+                }
+              ],
+              "safe_positive_c": "3741/25000",
+              "slater_norm_determinant": {
+                "lower": "2500000000000008881075203656934747446356442553604177579905654115224391/2500000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "2000000000000007104860162925547797957085154042883342063924523292179513/2000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "solve_residual_absolute_upper": "79487485/10328999512347634358623676688012047497318823171316894051322637426162590488067364778518581413120551325743612687890989973504"
+            },
+            {
+              "energy": {
+                "lower": "-40823946424179812790251097770429425045047361794778063751155197716541/250000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "-1632957856967192511610043910817177001801894471791122550046207908661639/10000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "energy_display": "-0.16329578569671925116100439108172",
+              "n": 6,
+              "naive_individually_normalized_sum": {
+                "lower": "-163295785696719251161004391081406797413788517910189702385431403244921/1000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "-1632957856967192511610043910814067974137885179101897023854314032449209/10000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "naive_minus_full": {
+                "lower": "3109027664009292689225526191893876212429/10000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "310902766400929268922552619189387621243/1000000000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "positive_ldl_pivots": [
+                {
+                  "lower": "10000000000000004807395972602416978614391706257457096624092424982657599/10000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "6250000000000003004622482876510611633994816410910685390057765614161/6250000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "10000000000000004807395972602416978614391706257457096624092424982657599/10000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "6250000000000003004622482876510611633994816410910685390057765614161/6250000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "5000000000000006293904669208654587362327721145034643557580643623301497/5000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "2000000000000002517561867683461834944931088458013857423032257449320599/2000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "5000000000000006293904669208654587362327721145034643557580643623301497/5000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "2000000000000002517561867683461834944931088458013857423032257449320599/2000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "5000000000000000366945096294120883819825789029224716634092697883010679/5000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "10000000000000000733890192588241767639651578058449433268185395766021359/10000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                {
+                  "lower": "5000000000000000366945096294120883819825789029224716634092697883010679/5000000000000000000000000000000000000000000000000000000000000000000000",
+                  "upper": "10000000000000000733890192588241767639651578058449433268185395766021359/10000000000000000000000000000000000000000000000000000000000000000000000"
+                }
+              ],
+              "safe_positive_c": "16329/100000",
+              "slater_norm_determinant": {
+                "lower": "10000000000000036258191007215983364518673989251394253472594349254313311/10000000000000000000000000000000000000000000000000000000000000000000000",
+                "upper": "312500000000001133068468975499480141208562164106070421018573414197291/312500000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "solve_residual_absolute_upper": "79487485/10328999512347634358623676688012047497318823171316894051322637426162590488067364778518581413120551325743612687890989973504"
+            }
+          ],
+          "status": "HELD WITH CORRECTION",
+          "title": "Complete occupied Pauli prefixes",
+          "unresolved_substatements": []
+        }
+      ],
+      "controls": [
+        {
+          "actual_one_bad_log_energy": {
+            "lower": "-515666227970170687951590701340015279387399938682667342704897949302789/10000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper": "-128916556992542671987897675335003819846849984670666835676224487325697/2500000000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "actual_one_correct_energy": {
+            "lower": "-236763248011059489690368920664196802302887722661382410906410770868857/5000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper": "-473526496022118979380737841328393604605775445322764821812821541737713/10000000000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "actual_one_diagonal_G": {
+            "lower": "25462129334254237838913156077622902940710954001970838867008118359999999/10000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper": "25462129334254237838913156077622902940710954001970838867008118360000001/10000000000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "actual_one_diagonal_G_minus_full": {
+            "lower": "15462129334254237844746420596884825036125050905815799177743577039618569/10000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper": "1546212933425423784474642059688482503612505090581579917774357703961857/1000000000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "actual_one_diagonal_T_minus_full": {
+            "lower": "1273477011661583859576125624498584347249616515477955612285509352389989/5000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper": "2546954023323167719152251248997168694499233030955911224571018704779979/10000000000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "actual_one_full_G": {
+            "lower": "999999999999999999416673548073807790458590309615503968926454132038143/1000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper": "9999999999999999994166735480738077904585903096155039689264541320381431/10000000000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "all_mutations_detected": true,
+          "correct_minus_omitted_unnormalized_log_T": {
+            "lower": "-574092886346304574940639471148552502205851324249552867683881889054347/10000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper": "-287046443173152287470319735574276251102925662124776433841940944527173/5000000000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "id": "AO01",
+          "mutation": "Omit the log derivative; separately drop all off-diagonal Gram/kinetic terms",
+          "status": "HELD"
+        },
+        {
+          "duplicate_same_spin_refused": true,
+          "id": "AO02",
+          "status": "HELD",
+          "third_same_spatial_ray_refused": true,
+          "toy_exact_difference": "128/217",
+          "toy_exact_trace": "1597/868",
+          "toy_full_trace": {
+            "lower": "18398617511520737327188940092165898617511520737327188940092165898617511/10000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper": "2299827188940092165898617511520737327188940092165898617511520737327189/1250000000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "toy_gram_determinant": {
+            "lower": "1488340192043895747599451303155006858710562414266117969821673525377229/5000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper": "2976680384087791495198902606310013717421124828532235939643347050754459/10000000000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "toy_invalid_individual_sum": "5/4",
+          "toy_overlap": {
+            "lower": "8380524814062785474380377624946358984116574076307840433639583632537673/10000000000000000000000000000000000000000000000000000000000000000000000",
+            "upper": "4190262407031392737190188812473179492058287038153920216819791816268837/5000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        },
+        {
+          "all_cross_terms_retained": true,
+          "id": "AO03",
+          "log_directed": "ONE_ELECTRON.json and OCCUPIED.json",
+          "no_optimization_output_used_as_certificate": true,
+          "regular_directed": "REGULAR_COMPARISONS.json",
+          "regular_discovery_retained": "attempts/A01_REGULAR_DISCOVERY",
+          "status": "HELD"
+        }
+      ],
+      "corrections": [
+        {
+          "claim": "B02",
+          "corrected_display": "-0.04735264960221189793807378413284",
+          "kind": "display_precision",
+          "meaning": "Earlier prose used a binary64 midpoint display; the exact frozen-rational ray matches the original directed interval. Use the new interval or label the old text as a binary64 display.",
+          "original": "-0.047352649602211895..."
+        },
+        {
+          "claim": "B03",
+          "corrected_display": "-0.16329578569671925116100439108172",
+          "kind": "display_precision",
+          "meaning": "Earlier prose retained floating discovery digits. The exact frozen-rational Slater trace matches the original directed interval and all six safe c_n remain valid.",
+          "original": "-0.163295785696720..."
+        }
+      ],
+      "evidence_types": [
+        "analytic",
+        "exact_host",
+        "directed_host",
+        "floating_diagnostic",
+        "inherited_reference"
+      ],
+      "new_scientific_attempt_failures": [],
+      "no_external_review_classification_assigned": true,
+      "schema": "ORBITALS_OUTCOMES_V1",
+      "unresolved_assigned_substatements": []
+    },
+    "REFERENCES": {
+      "track": "REFERENCES",
+      "form": "verification",
+      "expected_verdict": null,
+      "claims": {
+        "C01": {
+          "result": "HELD",
+          "unresolved_substatements": [],
+          "proof": "DERIVATION.md",
+          "title": "Original envelopes and source reference",
+          "evidence_types": [
+            "analytic source elimination",
+            "exact host enumeration"
+          ],
+          "evidence": "attempts/002/output/NUCLEAR_RECONSTRUCTION.json",
+          "sources": [
+            {
+              "source": "He4_3",
+              "I0": "110",
+              "all_source_histories": 4096,
+              "conditional_sectors": 49,
+              "q_classes": 10,
+              "ground_count": 144,
+              "phases": [
+                {
+                  "I": "110",
+                  "ground_count": 36,
+                  "q": 4,
+                  "source_sectors": [
+                    [
+                      -2,
+                      0
+                    ],
+                    [
+                      0,
+                      -2
+                    ],
+                    [
+                      0,
+                      2
+                    ],
+                    [
+                      2,
+                      0
+                    ]
+                  ],
+                  "t_left": "0",
+                  "t_right": "43/8"
+                },
+                {
+                  "I": "282",
+                  "ground_count": 4,
+                  "q": 36,
+                  "source_sectors": [
+                    [
+                      -6,
+                      0
+                    ],
+                    [
+                      0,
+                      -6
+                    ],
+                    [
+                      0,
+                      6
+                    ],
+                    [
+                      6,
+                      0
+                    ]
+                  ],
+                  "t_left": "43/8",
+                  "t_right": null
+                }
+              ]
+            },
+            {
+              "source": "He4_4",
+              "I0": "110",
+              "all_source_histories": 4096,
+              "conditional_sectors": 49,
+              "q_classes": 10,
+              "ground_count": 144,
+              "phases": [
+                {
+                  "I": "110",
+                  "ground_count": 4,
+                  "q": 16,
+                  "source_sectors": [
+                    [
+                      -4,
+                      0
+                    ],
+                    [
+                      0,
+                      -4
+                    ],
+                    [
+                      0,
+                      4
+                    ],
+                    [
+                      4,
+                      0
+                    ]
+                  ],
+                  "t_left": "0",
+                  "t_right": "129/5"
+                },
+                {
+                  "I": "626",
+                  "ground_count": 4,
+                  "q": 36,
+                  "source_sectors": [
+                    [
+                      -6,
+                      0
+                    ],
+                    [
+                      0,
+                      -6
+                    ],
+                    [
+                      0,
+                      6
+                    ],
+                    [
+                      6,
+                      0
+                    ]
+                  ],
+                  "t_left": "129/5",
+                  "t_right": null
+                }
+              ]
+            },
+            {
+              "source": "C12_333",
+              "I0": "318",
+              "all_source_histories": 68719476736,
+              "conditional_sectors": 361,
+              "q_classes": 51,
+              "ground_count": 2916,
+              "phases": [
+                {
+                  "I": "318",
+                  "ground_count": 2916,
+                  "q": 36,
+                  "source_sectors": [
+                    [
+                      -6,
+                      0
+                    ],
+                    [
+                      0,
+                      -6
+                    ],
+                    [
+                      0,
+                      6
+                    ],
+                    [
+                      6,
+                      0
+                    ]
+                  ],
+                  "t_left": "0",
+                  "t_right": "35/24"
+                },
+                {
+                  "I": "738",
+                  "ground_count": 4,
+                  "q": 324,
+                  "source_sectors": [
+                    [
+                      -18,
+                      0
+                    ],
+                    [
+                      0,
+                      -18
+                    ],
+                    [
+                      0,
+                      18
+                    ],
+                    [
+                      18,
+                      0
+                    ]
+                  ],
+                  "t_left": "35/24",
+                  "t_right": null
+                }
+              ]
+            },
+            {
+              "source": "C12_343",
+              "I0": "310",
+              "all_source_histories": 68719476736,
+              "conditional_sectors": 361,
+              "q_classes": 51,
+              "ground_count": 324,
+              "phases": [
+                {
+                  "I": "310",
+                  "ground_count": 324,
+                  "q": 64,
+                  "source_sectors": [
+                    [
+                      -8,
+                      0
+                    ],
+                    [
+                      0,
+                      -8
+                    ],
+                    [
+                      0,
+                      8
+                    ],
+                    [
+                      8,
+                      0
+                    ]
+                  ],
+                  "t_left": "0",
+                  "t_right": "35/24"
+                },
+                {
+                  "I": "590",
+                  "ground_count": 4,
+                  "q": 256,
+                  "source_sectors": [
+                    [
+                      -16,
+                      0
+                    ],
+                    [
+                      0,
+                      -16
+                    ],
+                    [
+                      0,
+                      16
+                    ],
+                    [
+                      16,
+                      0
+                    ]
+                  ],
+                  "t_left": "35/24",
+                  "t_right": "123/17"
+                },
+                {
+                  "I": "1082",
+                  "ground_count": 4,
+                  "q": 324,
+                  "source_sectors": [
+                    [
+                      -18,
+                      0
+                    ],
+                    [
+                      0,
+                      -18
+                    ],
+                    [
+                      0,
+                      18
+                    ],
+                    [
+                      18,
+                      0
+                    ]
+                  ],
+                  "t_left": "123/17",
+                  "t_right": null
+                }
+              ]
+            },
+            {
+              "source": "C12_444",
+              "I0": "282",
+              "all_source_histories": 68719476736,
+              "conditional_sectors": 361,
+              "q_classes": 51,
+              "ground_count": 4,
+              "phases": [
+                {
+                  "I": "282",
+                  "ground_count": 4,
+                  "q": 144,
+                  "source_sectors": [
+                    [
+                      -12,
+                      0
+                    ],
+                    [
+                      0,
+                      -12
+                    ],
+                    [
+                      0,
+                      12
+                    ],
+                    [
+                      12,
+                      0
+                    ]
+                  ],
+                  "t_left": "0",
+                  "t_right": "124/15"
+                },
+                {
+                  "I": "1770",
+                  "ground_count": 4,
+                  "q": 324,
+                  "source_sectors": [
+                    [
+                      -18,
+                      0
+                    ],
+                    [
+                      0,
+                      -18
+                    ],
+                    [
+                      0,
+                      18
+                    ],
+                    [
+                      18,
+                      0
+                    ]
+                  ],
+                  "t_left": "124/15",
+                  "t_right": null
+                }
+              ]
+            }
+          ],
+          "boundary_note": "At zero t the helium intrinsic grounds include all recorded q ties; positive-t baseline phases do not assert uniqueness at t=0."
+        },
+        "C02": {
+          "result": "HELD",
+          "unresolved_substatements": [],
+          "proof": "DERIVATION.md",
+          "title": "Six intermediate phase guarantees",
+          "evidence_types": [
+            "analytic whole-H1 form and scaling proof",
+            "directed complete orbital integrals",
+            "exact rational endpoint arithmetic"
+          ],
+          "evidence": [
+            "attempts/002/output/OCCUPIED_PREFIXES.json",
+            "attempts/002/output/SIX_PHASE_GUARANTEES.json"
+          ],
+          "prefixes": [
+            {
+              "n": 1,
+              "energy_expectation": {
+                "lower": "-72558525636949029213259642292469205610897768315283277/1532495540865888858358347027150309183618739122183602176",
+                "upper": "-18139631409237257303314910573117301402724442078820819/383123885216472214589586756787577295904684780545900544"
+              },
+              "safe_c": "2367/50000",
+              "safe_upper_certified": true
+            },
+            {
+              "n": 2,
+              "energy_expectation": {
+                "lower": "-145117051273898058426519284584938411221795536630566553/1532495540865888858358347027150309183618739122183602176",
+                "upper": "-18139631409237257303314910573117301402724442078820819/191561942608236107294793378393788647952342390272950272"
+              },
+              "safe_c": "9469/100000",
+              "safe_upper_certified": true
+            },
+            {
+              "n": 3,
+              "energy_expectation": {
+                "lower": "-11047877421946412475145508516953904965972721401447793/95780971304118053647396689196894323976171195136475136",
+                "upper": "-176766038751142599602328136271262479455563542423164687/1532495540865888858358347027150309183618739122183602176"
+              },
+              "safe_c": "5767/50000",
+              "safe_upper_certified": true
+            },
+            {
+              "n": 4,
+              "energy_expectation": {
+                "lower": "-26051878278548392597267123494698318461166443526970353/191561942608236107294793378393788647952342390272950272",
+                "upper": "-208415026228387140778136987957586547689331548215762823/1532495540865888858358347027150309183618739122183602176"
+              },
+              "safe_c": "13599/100000",
+              "safe_upper_certified": true
+            },
+            {
+              "n": 5,
+              "energy_expectation": {
+                "lower": "-114666272412700296816544391323936322156232416464739871/766247770432944429179173513575154591809369561091801088",
+                "upper": "-229332544825400593633088782647872644312464832929479741/1532495540865888858358347027150309183618739122183602176"
+              },
+              "safe_c": "3741/25000",
+              "safe_upper_certified": true
+            },
+            {
+              "n": 6,
+              "energy_expectation": {
+                "lower": "-62562515855603511622010144334539685233899529410799165/383123885216472214589586756787577295904684780545900544",
+                "upper": "-250250063422414046488040577338158740935598117643196659/1532495540865888858358347027150309183618739122183602176"
+              },
+              "safe_c": "16329/100000",
+              "safe_upper_certified": true
+            }
+          ],
+          "six_intermediate_intervals": [
+            {
+              "chi_open": [
+                "218750/7101",
+                "1968/17"
+              ],
+              "n": 1,
+              "safe_c": "2367/50000",
+              "strict_width": "10256018/120717",
+              "whole_space_t_coefficient_interval": [
+                "2367/50000",
+                "1/16"
+              ]
+            },
+            {
+              "chi_open": [
+                "437500/28407",
+                "984/17"
+              ],
+              "n": 2,
+              "safe_c": "9469/100000",
+              "strict_width": "1206764/28407",
+              "whole_space_t_coefficient_interval": [
+                "9469/100000",
+                "1/8"
+              ]
+            },
+            {
+              "chi_open": [
+                "218750/17301",
+                "656/17"
+              ],
+              "n": 3,
+              "safe_c": "5767/50000",
+              "strict_width": "7630706/294117",
+              "whole_space_t_coefficient_interval": [
+                "5767/50000",
+                "3/16"
+              ]
+            },
+            {
+              "chi_open": [
+                "437500/40797",
+                "492/17"
+              ],
+              "n": 4,
+              "safe_c": "13599/100000",
+              "strict_width": "12634624/693549",
+              "whole_space_t_coefficient_interval": [
+                "13599/100000",
+                "1/4"
+              ]
+            },
+            {
+              "chi_open": [
+                "109375/11223",
+                "1968/85"
+              ],
+              "n": 5,
+              "safe_c": "3741/25000",
+              "strict_width": "12789989/953955",
+              "whole_space_t_coefficient_interval": [
+                "3741/25000",
+                "5/16"
+              ]
+            },
+            {
+              "chi_open": [
+                "437500/48987",
+                "328/17"
+              ],
+              "n": 6,
+              "safe_c": "16329/100000",
+              "strict_width": "8630236/832779",
+              "whole_space_t_coefficient_interval": [
+                "16329/100000",
+                "3/8"
+              ]
+            }
+          ],
+          "all_phase_inventory_guarantees": 50,
+          "boundary_note": "Each prefix has its own full physical Gram; these are sufficient open coupling intervals, not exact electronic transitions. The first six-electron-family prefix is distinct from a separately optimized one-electron witness."
+        },
+        "C03": {
+          "result": "HELD",
+          "unresolved_substatements": [],
+          "proof": "DERIVATION.md",
+          "title": "Complete point binding panel",
+          "evidence_types": [
+            "analytic complete-source reduction",
+            "exact host full reference minima"
+          ],
+          "evidence": "attempts/002/output/POINT_BINDING_ALL44.json",
+          "populated_accounts": 44,
+          "empty_controls": 10,
+          "couplings": [
+            "1/10",
+            "1"
+          ],
+          "tau": "1",
+          "all_submitted_rational_accounts_match": true,
+          "boundary_note": "Binding lower is supplied by a trial upper, binding upper by the whole-space lower. The electronic cap improves exactly fourfold; old full nuclear phase changes make two complete neutral binding-cap ratios larger."
+        },
+        "C04": {
+          "result": "HELD",
+          "unresolved_substatements": [],
+          "proof": "DERIVATION.md",
+          "title": "Generic complete finite-core carbon bounds",
+          "evidence_types": [
+            "analytic finite-core/Pauli/reference proof",
+            "exact separated minima",
+            "directed complete max-bound minima"
+          ],
+          "evidence": "attempts/002/output/FINITE_CORE_COMPLETE.json",
+          "sources": [
+            {
+              "source": "C12_333",
+              "I0": "318",
+              "exact_separated_minimum": "1689/5",
+              "separated_minimizing_q": [
+                36
+              ],
+              "continuous_atom_lower": "11352/37",
+              "submitted_generic_binding_upper": "5733/185",
+              "full_finite_atom_lower_comparison": {
+                "lower": "235120541031022758234816158809281936721522961486918737063/766247770432944429179173513575154591809369561091801088",
+                "upper": "470241082062045516469632317618563873443045922973837474127/1532495540865888858358347027150309183618739122183602176"
+              },
+              "full_finite_atom_lower_minimizing_q": 36,
+              "finite_roster_binding_upper": {
+                "lower": "23717955821225869941908654076405284391682076249891670463/766247770432944429179173513575154591809369561091801088",
+                "upper": "47435911642451739883817308152810568783364152499783340927/1532495540865888858358347027150309183618739122183602176"
+              }
+            },
+            {
+              "source": "C12_343",
+              "I0": "310",
+              "exact_separated_minimum": "1656/5",
+              "separated_minimizing_q": [
+                64
+              ],
+              "continuous_atom_lower": "11056/37",
+              "submitted_generic_binding_upper": "5992/185",
+              "full_finite_atom_lower_comparison": {
+                "lower": "458015151080187783103585080277825407338259055019819322909/1532495540865888858358347027150309183618739122183602176",
+                "upper": "229007575540093891551792540138912703669129527509909661455/766247770432944429179173513575154591809369561091801088"
+              },
+              "full_finite_atom_lower_minimizing_q": 64,
+              "finite_roster_binding_upper": {
+                "lower": "49547372054594606784699455114356994276267342247389717781/1532495540865888858358347027150309183618739122183602176",
+                "upper": "24773686027297303392349727557178497138133671123694858891/766247770432944429179173513575154591809369561091801088"
+              }
+            },
+            {
+              "source": "C12_444",
+              "I0": "282",
+              "exact_separated_minimum": "1536/5",
+              "separated_minimizing_q": [
+                144
+              ],
+              "continuous_atom_lower": "10020/37",
+              "submitted_generic_binding_upper": "6732/185",
+              "full_finite_atom_lower_comparison": {
+                "lower": "208437206338221393351984103235340804059538625035601796389/766247770432944429179173513575154591809369561091801088",
+                "upper": "416874412676442786703968206470681608119077250071203592779/1532495540865888858358347027150309183618739122183602176"
+              },
+              "full_finite_atom_lower_minimizing_q": 144,
+              "finite_roster_binding_upper": {
+                "lower": "6738527184694783822964500033736671636074926032949874461/191561942608236107294793378393788647952342390272950272",
+                "upper": "53908217477558270583716000269893373088599408263598995689/1532495540865888858358347027150309183618739122183602176"
+              }
+            }
+          ],
+          "boundary_note": "Core self stays in both independent minima. The first two finite-roster endpoints are additional tighter contractions of valid generic bounds; these comparisons do not compute exact interacting electronic ground energies."
+        },
+        "C05": {
+          "result": "HELD",
+          "unresolved_substatements": [],
+          "proof": "DERIVATION.md",
+          "title": "C444 intrinsic-gap refinement",
+          "evidence_types": [
+            "exact original source gap",
+            "analytic all-source minimization",
+            "directed radical comparison"
+          ],
+          "evidence": "attempts/002/output/FINITE_CORE_COMPLETE.json",
+          "gap_ratio_max": "3/20",
+          "gap_ratio_attaining_q": [
+            0,
+            18,
+            36,
+            72,
+            90
+          ],
+          "exact_separated_minimum": "1536/5",
+          "atom_lower_comparison": {
+            "lower": "208437206338221393351984103235340804059538625035601796389/766247770432944429179173513575154591809369561091801088",
+            "upper": "416874412676442786703968206470681608119077250071203592779/1532495540865888858358347027150309183618739122183602176"
+          },
+          "atom_lower_comparison_minimizing_q": 144,
+          "binding_upper_expression": "1377/50 + (27/5)*sqrt(2)",
+          "binding_upper": {
+            "lower": "6738527184694783822964500033736671636074926032949874461/191561942608236107294793378393788647952342390272950272",
+            "upper": "53908217477558270583716000269893373088599408263598995689/1532495540865888858358347027150309183618739122183602176"
+          },
+          "gain_from_38_88": {
+            "lower": "2837604575653744114628266072855323985248584403449728457/766247770432944429179173513575154591809369561091801088",
+            "upper": "5675209151307488229256532145710647970497168806899456915/1532495540865888858358347027150309183618739122183602176"
+          },
+          "inventory_spectral_extension_count": 6,
+          "boundary_note": "The lower-comparison minimizer is proved; the exact interacting ground phase is not inferred. Core-floor dominance for n1..3 is retained; no six strict final gains, massive or ionization transfer is claimed."
+        }
+      },
+      "controls": {
+        "AR01": {
+          "result": "HELD",
+          "criterion": "Every wrong shared prefix cap refuted; wrong g factor changes exact account by10.",
+          "rejected_shared_prefixes": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "correct_binding_lower": "146961/625000",
+          "wrong_binding_lower": "146961/62500",
+          "evidence": "attempts/002/output/CONTROLS.json:AR01",
+          "unexpected_behavior": null
+        },
+        "AR02": {
+          "result": "HELD",
+          "criterion": "Missing intrinsic gap loses q144 comparison; missing core self is not a separated upper for original source.",
+          "flattened_gap_spectral_minimizing_q": 50,
+          "correct_separated_minimum": "1536/5",
+          "self_omitted_value": "282",
+          "reference_shortfall": "126/5",
+          "evidence": "attempts/002/output/CONTROLS.json:AR02",
+          "unexpected_behavior": null
+        },
+        "AR03": {
+          "result": "HELD",
+          "criterion": "Accept original point contract; reject each finite-core, ionization, massive and eV transfer.",
+          "original_contract_accepted": true,
+          "rejected_transfers": [
+            {
+              "mutation": "finite_core_interacting",
+              "rejected_fields": [
+                "potential",
+                "pair",
+                "core_self"
+              ]
+            },
+            {
+              "mutation": "ionization",
+              "rejected_fields": [
+                "reference",
+                "readout"
+              ]
+            },
+            {
+              "mutation": "massive_action",
+              "rejected_fields": [
+                "kinetic"
+              ]
+            },
+            {
+              "mutation": "physical_eV",
+              "rejected_fields": [
+                "units"
+              ]
+            }
+          ],
+          "evidence": "attempts/002/output/CONTROLS.json:AR03",
+          "unexpected_behavior": null
+        }
+      },
+      "failed_scientific_attempts": [],
+      "unexpected_control_outcomes": [],
+      "corrections_to_submitted_claims": [],
+      "new_observations": [
+        {
+          "description": "Full finite-roster neutral C333 and C343 comparison endpoints are slightly tighter than the submitted generic continuous relaxation.",
+          "evidence": "attempts/002/output/FINITE_CORE_COMPLETE.json:generic_three_carbon",
+          "status": "additional exact-source directed finite comparison, separately recorded"
+        }
+      ],
+      "independence_and_replay": {
+        "newly_authored_code": true,
+        "original_scripts_executed": false,
+        "installed_engine_used": false,
+        "local_relocated_dependency_closure_replay": "PASS, all7 outputs byte-identical",
+        "external_party_replay_claimed": false,
+        "classification_assignment": "Aggregate lead review remains outside this track; no I2/I3/R3 assignment."
+      },
+      "operational_audit_failures": [
+        {
+          "record": "audits/001_false_positive.json",
+          "cause": "Naive substring scan matched explanatory subprocesses in a module docstring.",
+          "scientific_results_affected": false,
+          "successor": "audits/final_audit_v2.py",
+          "successor_status": "PASS",
+          "receipt": "FINAL_AUDIT.json"
+        }
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "A01",
+      "track": "FORM",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "A02",
+      "track": "FORM",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "A03",
+      "track": "FORM",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "A04",
+      "track": "FORM",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "A05",
+      "track": "FORM",
+      "verdict": "HELD WITH CORRECTION",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "B01",
+      "track": "ORBITALS",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/ORBITALS/OUTCOMES.json"
+    },
+    {
+      "id": "B02",
+      "track": "ORBITALS",
+      "verdict": "HELD WITH CORRECTION",
+      "original_outcome_file": "peers/ORBITALS/OUTCOMES.json"
+    },
+    {
+      "id": "B03",
+      "track": "ORBITALS",
+      "verdict": "HELD WITH CORRECTION",
+      "original_outcome_file": "peers/ORBITALS/OUTCOMES.json"
+    },
+    {
+      "id": "C01",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    },
+    {
+      "id": "C02",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    },
+    {
+      "id": "C03",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    },
+    {
+      "id": "C04",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    },
+    {
+      "id": "C05",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    }
+  ],
+  "controls": [
+    {
+      "id": "AF01",
+      "track": "FORM",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "AF02",
+      "track": "FORM",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "AF03",
+      "track": "FORM",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/FORM/OUTCOMES.json"
+    },
+    {
+      "id": "AO01",
+      "track": "ORBITALS",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/ORBITALS/OUTCOMES.json"
+    },
+    {
+      "id": "AO02",
+      "track": "ORBITALS",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/ORBITALS/OUTCOMES.json"
+    },
+    {
+      "id": "AO03",
+      "track": "ORBITALS",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/ORBITALS/OUTCOMES.json"
+    },
+    {
+      "id": "AR01",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    },
+    {
+      "id": "AR02",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    },
+    {
+      "id": "AR03",
+      "track": "REFERENCES",
+      "verdict": "HELD",
+      "original_outcome_file": "peers/REFERENCES/OUTCOMES.json"
+    }
+  ],
+  "claim_counts": {
+    "HELD": 10,
+    "HELD WITH CORRECTION": 3
+  },
+  "original_fields_preserved": true
+}

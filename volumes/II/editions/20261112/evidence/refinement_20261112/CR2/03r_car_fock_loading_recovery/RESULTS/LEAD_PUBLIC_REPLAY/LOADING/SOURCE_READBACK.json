@@ -1,0 +1,98 @@
+[
+  {
+    "case_relative_path": "VERIFIER_BRIEF.md",
+    "sha256": "7637bb7071e381dda3f8d4cb552dc4a9c717332ebeeae7b11158aa6191aaf063"
+  },
+  {
+    "case_relative_path": "TARGET.md",
+    "sha256": "e9dbe186f4aad5dd48b22af030578a34f4579986b271ceaad1f891535e14c286"
+  },
+  {
+    "case_relative_path": "SOURCE_CONTRACT.md",
+    "sha256": "457ed40d7ffcbcf54aea9c0c3a8cc0504f367d0fe2d471e29790227baa0ca446"
+  },
+  {
+    "case_relative_path": "CLAIMS.json",
+    "sha256": "326f15a58d589725777a10b202d299fd7a79ad052bac908d56d6cd141ad6f8b8"
+  },
+  {
+    "case_relative_path": "CONTROLS.json",
+    "sha256": "4b5c2739bd2169e5fca2e582db7bbbc735cbce720a0ba8329338290f96d6f597"
+  },
+  {
+    "case_relative_path": "RESULTS/INPUT_REFERENCE.json",
+    "sha256": "b25a6a00c80301310c9a94f1db9833e3ebf4b37e75b306ea77d99357fe103e86"
+  },
+  {
+    "case_relative_path": "prior/THREE/REPORT.md",
+    "sha256": "dd9edf881f60dd1339cabccb823c038da1daa465ac74f8ca34b25f9f699784fd"
+  },
+  {
+    "case_relative_path": "prior/THREE/gen/CONTINUUM_LOADING_PROOF.md",
+    "sha256": "bbfa72e977f9972e8b552459989dc129ca3a9ee488f8a94f8c66a7e804e96cbb"
+  },
+  {
+    "case_relative_path": "prior/THREE/gen/CONTINUUM_LOADING_WORKING.md",
+    "sha256": "75e22d52eaa29760c576731f578ee1198e56cc2f0dd84e4587d7e09e531fe8a7"
+  },
+  {
+    "case_relative_path": "prior/THREE/gen/CONTINUUM_LOADING_CASES.json",
+    "sha256": "aee176ab1120b06f566f7a8722b7fd56a1dc2fc380f0c9dd666e54919118d697"
+  },
+  {
+    "case_relative_path": "prior/THREE/gen/build_continuum_loading.py",
+    "sha256": "b5d44da31071df778d1fe064b30eedd3937722696026c17aa8b1efcd49a986d6"
+  },
+  {
+    "case_relative_path": "sources/registered/GEN4/volii_quantum_wave1/DERIVATION.md",
+    "sha256": "834803938983b3f5405ebd1682b3b18e1e75636c409c71d2483499c5c31dcd79"
+  },
+  {
+    "case_relative_path": "sources/registered/GEN4/volii_quantum_wave1/REPORT.md",
+    "sha256": "aa700ecf31c3f9a334cfcd5a8a0bc70ce14aadd7cfd1ca8f3a5b6176e4c730a5"
+  },
+  {
+    "case_relative_path": "sources/registered/GEN4/volii_feedback_field1/REPORT.md",
+    "sha256": "faeb5509d274878fe3101cb6ad0e0d7aa1fede40565be2f077999eb02a0d5801"
+  },
+  {
+    "case_relative_path": "sources/manuscript/src/nuclear_02.tex",
+    "sha256": "b596213f49b76645844bc161e662132f7be4adfbc5badd417139655b31b91365"
+  },
+  {
+    "case_relative_path": "sources/manuscript/src/formation_20261110.tex",
+    "sha256": "e5dcb57bd00bb2df6327be0603aa3d32198c63b7c62aab23091742f383213a5e"
+  },
+  {
+    "case_relative_path": "sources/manuscript/src/bibliography.tex",
+    "sha256": "c6984b5d5cd775ba1ac6dd0f52146a7a855d08a5678f0586245345c4cb0b5392"
+  },
+  {
+    "case_relative_path": "sources/OPERATING_POLICY.md",
+    "sha256": "505e893c11eb7778be900e7c3396a782b12ff9d1ac36d9f9fb61dfff9b0216dc"
+  },
+  {
+    "case_relative_path": "sources/courtroom/CONSTITUTION.md",
+    "sha256": "cc8966c6d12a75f407be40d92a0d2a43184a4b6016491518150a474d82e00937"
+  },
+  {
+    "case_relative_path": "sources/courtroom/AGENTS.md",
+    "sha256": "7a1a52ef3cde80652b72839cee71109b33ba9ae15dea083bd83840507f0bd57e"
+  },
+  {
+    "case_relative_path": "sources/SOURCE_MANIFEST.json",
+    "sha256": "1ec483b8d7864c2e08591dad95bf8c5a36a60cf9c6134ef47c2202a3b20470f3"
+  },
+  {
+    "case_relative_path": "peers/LOADING/ASSIGNMENT.json",
+    "sha256": "adee5c2e04d280c1d815161720719cb74f187f0a63ee52b3f951ff519831fe3b"
+  },
+  {
+    "case_relative_path": "peers/LOADING/PROMPT.md",
+    "sha256": "d8eb821d4e79f673f00065304ceeec7b3ccf190e0a9a0fee4efb66cb24172075"
+  },
+  {
+    "case_relative_path": "peers/LOADING/recovered_sources/CAUSAL_PROFILES_REPORT.md",
+    "sha256": "df5d1e05e8bd4ffcdd9689755b75bbef1fe133f52bc27c65de1943011b69a627"
+  }
+]

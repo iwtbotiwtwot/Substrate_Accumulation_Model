@@ -1,0 +1,203 @@
+{
+  "backend": "python-flint 0.8.0",
+  "discrete_linear_duration_2pi_tau1": {
+    "continuum_energy": "[0.284536158303011414389807705675 +/- 1.20e-31]",
+    "sharp_same_duration": "[0.242920367320510338076867830836 +/- 2.49e-32]",
+    "strictly_positive": true
+  },
+  "infrared_static_norm_lower_coefficient": "[0.442097064144153710469121564924 +/- 3.50e-31]",
+  "kernel_checks": [
+    {
+      "contains_expected": true,
+      "cutoff_x": 128,
+      "diagnostic_decimal_endpoints": [
+        "0.9925493144886135",
+        "1.002496498431857"
+      ],
+      "expected_exact": "1",
+      "finite_integral_ball": "[0.997522906460235235822481 +/- 7.72e-25]",
+      "full_integral_enclosure": [
+        "21615809921276180779217105587733845492383/21778071482940061661655974875633165533184",
+        "21832440404246090415310922568293663940705/21778071482940061661655974875633165533184"
+      ],
+      "label": "cosine transform z=0",
+      "nonnegative_tail": false,
+      "tail_bound": "108315241484954818046902227470560947937/21778071482940061661655974875633165533184"
+    },
+    {
+      "contains_expected": true,
+      "cutoff_x": 128,
+      "diagnostic_decimal_endpoints": [
+        "0.4950313785246951",
+        "0.5049785624679386"
+      ],
+      "expected_exact": "1/2",
+      "finite_integral_ball": "[0.500004970496316838874258 +/- 8.91e-25]",
+      "full_integral_enclosure": [
+        "10780828747809169820077959819984714599071/21778071482940061661655974875633165533184",
+        "10997459230779079456171783467934943602785/21778071482940061661655974875633165533184"
+      ],
+      "label": "cosine transform z=1",
+      "nonnegative_tail": false,
+      "tail_bound": "108315241484954818046902227470560947937/21778071482940061661655974875633165533184"
+    },
+    {
+      "contains_expected": true,
+      "cutoff_x": 128,
+      "diagnostic_decimal_endpoints": [
+        "-0.0037400989878376084",
+        "0.00620708495540585"
+      ],
+      "expected_exact": "0",
+      "finite_integral_ball": "[0.001233492983784120642075 +/- 8.53e-25]",
+      "full_integral_enclosure": [
+        "-325808572441596849533243857529100363777/87112285931760246646623899502532662132736",
+        "540713359438041694842075889101370461959/87112285931760246646623899502532662132736"
+      ],
+      "label": "cosine transform z=2",
+      "nonnegative_tail": false,
+      "tail_bound": "108315241484954818046902227470560947937/21778071482940061661655974875633165533184"
+    },
+    {
+      "contains_expected": true,
+      "cutoff_x": 128,
+      "diagnostic_decimal_endpoints": [
+        "-0.004974918968767017",
+        "0.004972264974476441"
+      ],
+      "expected_exact": "0",
+      "finite_integral_ball": "[-1.32699714528780496354194124786e-6 +/- 2.15e-36]",
+      "full_integral_enclosure": [
+        "-887555202446479796322324727889972027102063/178405961588244985132285746181186892047843328",
+        "887081714043019942558121366987698619301999/178405961588244985132285746181186892047843328"
+      ],
+      "label": "cosine transform z=3",
+      "nonnegative_tail": false,
+      "tail_bound": "108315241484954818046902227470560947937/21778071482940061661655974875633165533184"
+    }
+  ],
+  "method": "Acb analytic finite integration plus explicit absolute infinite-tail bound",
+  "precision_bits": 128,
+  "residual_checks": [
+    {
+      "contains_expected": true,
+      "cutoff_x": 128,
+      "diagnostic_decimal_endpoints": [
+        "0.4993781997220097",
+        "0.5043517916936314"
+      ],
+      "expected_exact": "1/2",
+      "finite_integral_ball": "[0.4993781997220096782322779 +/- 3.56e-26]",
+      "full_integral_enclosure": [
+        "339859191580245175045744013787207020303/680564733841876926926749214863536422912",
+        "10983809372052800419510711868249959583937/21778071482940061661655974875633165533184"
+      ],
+      "label": "integer attaining schedule",
+      "nonnegative_tail": true,
+      "tail_bound": "108315241484954818046902227470560947937/21778071482940061661655974875633165533184"
+    },
+    {
+      "contains_expected": true,
+      "cutoff_x": 128,
+      "diagnostic_decimal_endpoints": [
+        "0.4440292744144808",
+        "0.44900286638610254"
+      ],
+      "expected_exact": "4/9",
+      "finite_integral_ball": "[0.444029274414480806655172 +/- 4.11e-25]",
+      "full_integral_enclosure": [
+        "151095332479946431262239404425600539699/340282366920938463463374607431768211456",
+        "9778416520201526418830227146965669477281/21778071482940061661655974875633165533184"
+      ],
+      "label": "noninteger attaining schedule",
+      "nonnegative_tail": true,
+      "tail_bound": "108315241484954818046902227470560947937/21778071482940061661655974875633165533184"
+    },
+    {
+      "contains_expected": true,
+      "cutoff_x": 128,
+      "diagnostic_decimal_endpoints": [
+        "0.6229742202451053",
+        "0.6428685881315922"
+      ],
+      "expected_exact": "5/8",
+      "finite_integral_ball": "[0.622974220245105326666859 +/- 1.23e-25]",
+      "full_integral_enclosure": [
+        "211987142195730461647222891347655611577/340282366920938463463374607431768211456",
+        "3500109516616642204402469163801739508337/5444517870735015415413993718908291383296"
+      ],
+      "label": "signed nonmonotone control",
+      "nonnegative_tail": true,
+      "tail_bound": "108315241484954818046902227470560947937/5444517870735015415413993718908291383296"
+    },
+    {
+      "contains_expected": true,
+      "cutoff_x": 128,
+      "diagnostic_decimal_endpoints": [
+        "0.6666666293195209",
+        "0.6716402212911426"
+      ],
+      "expected_exact": "2/3",
+      "finite_integral_ball": "[0.666666629319520905605290 +/- 4.68e-25]",
+      "full_integral_enclosure": [
+        "113427449286025242496828645303897863211/170141183460469231731687303715884105728",
+        "14627028750096185857640972833831764919393/21778071482940061661655974875633165533184"
+      ],
+      "label": "linear ramp L=1",
+      "nonnegative_tail": true,
+      "tail_bound": "108315241484954818046902227470560947937/21778071482940061661655974875633165533184"
+    },
+    {
+      "contains_expected": true,
+      "cutoff_x": 128,
+      "diagnostic_decimal_endpoints": [
+        "0.583333067986306",
+        "0.5883066599579277"
+      ],
+      "expected_exact": "7/12",
+      "finite_integral_ball": "[0.583333067986306020165517210 +/- 6.07e-28]",
+      "full_integral_enclosure": [
+        "99248978538816463730325405230091069823/170141183460469231731687303715884105728",
+        "12812184494453462175528554110846207225441/21778071482940061661655974875633165533184"
+      ],
+      "label": "bounded endpoint pulses L=1,m=2",
+      "nonnegative_tail": true,
+      "tail_bound": "108315241484954818046902227470560947937/21778071482940061661655974875633165533184"
+    },
+    {
+      "contains_expected": true,
+      "cutoff_x": 128,
+      "diagnostic_decimal_endpoints": [
+        "0.49875812927484103",
+        "0.5037317212464628"
+      ],
+      "expected_exact": "1/2",
+      "finite_integral_ball": "[0.498758129274841053385818973001 +/- 4.02e-31]",
+      "full_integral_enclosure": [
+        "42429649187675580783574516902725827317/85070591730234615865843651857942052864",
+        "10970305433529903498641978554568372858529/21778071482940061661655974875633165533184"
+      ],
+      "label": "discrete half-step recurrence schedule in continuum tau=1",
+      "nonnegative_tail": true,
+      "tail_bound": "108315241484954818046902227470560947937/21778071482940061661655974875633165533184"
+    },
+    {
+      "contains_expected": true,
+      "cutoff_x": 128,
+      "diagnostic_decimal_endpoints": [
+        "0.2845361557733082",
+        "0.28950974774492994"
+      ],
+      "expected_exact": "[0.284536158303011414389807705675 +/- 1.20e-31]",
+      "finite_integral_ball": "[0.284536155773308226726004523 +/- 8.32e-28]",
+      "full_integral_enclosure": [
+        "96822636561126173135235136762818140065/340282366920938463463374607431768211456",
+        "6304963981397029898701951016215805974305/21778071482940061661655974875633165533184"
+      ],
+      "label": "discrete linear recurrence schedule in continuum tau=1",
+      "nonnegative_tail": true,
+      "tail_bound": "108315241484954818046902227470560947937/21778071482940061661655974875633165533184"
+    }
+  ],
+  "tail_proof": "p(x)<=2/(pi*x^2); |mu_hat|<=total_variation; positive-energy tail is nonnegative"
+}

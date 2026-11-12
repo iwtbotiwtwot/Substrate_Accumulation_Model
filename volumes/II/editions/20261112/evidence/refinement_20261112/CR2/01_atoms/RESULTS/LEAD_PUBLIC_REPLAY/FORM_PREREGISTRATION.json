@@ -1,0 +1,31 @@
+{
+  "sealed_utc": "2026-11-11T23:54:55.036190+00:00",
+  "form": "engineering_replay",
+  "question": "Does the separately authored frozen public runner reproduce every mathematical output after complete-case relocation?",
+  "source_case": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/01_atoms",
+  "relocated_case": "/tmp/volii_atoms_public_20261111T235454Z",
+  "script": "peers/FORM/replay.py",
+  "script_sha256": "89e71788cd24ba4cfe8fea909592eeb8323617947862190d093b7a016abf6a78",
+  "guard_sha256": "9ca28eb25260e401592f0b998f301750d088320c3e1236b19452a696c2e1e9c9",
+  "command": [
+    "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/.venv/bin/python",
+    "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/host/public_replay_guard.py",
+    "--case",
+    "/tmp/volii_atoms_public_20261111T235454Z",
+    "--audit",
+    "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/host/lead_replay/atoms_20261111T235454Z/FORM_PUBLIC_READ_AUDIT.json",
+    "--script",
+    "/tmp/volii_atoms_public_20261111T235454Z/peers/FORM/replay.py",
+    "--",
+    "--output-dir",
+    "/tmp/volii_atoms_public_20261111T235454Z/lead_output_FORM"
+  ],
+  "cwd": "/",
+  "expected_output_hashes": {
+    "RESULTS.json": "199ea928ed9b03be7a2eca04373380daccf5c129da67ed760772de762cd665f6",
+    "SUMMARY.json": "34219be62f486d6f839c9eabdc125e3cc7ccf33003651cff885b9bdd062c2cd8",
+    "SOURCE_CHECKS.json": "63c0bd1e1c94c1f62e0a19a31df73558d0c75a64972cbcec591a689ab38a7346",
+    "OUTPUT_HASHES.json": "a4cae70fc163661dbd3475bd073d0f9227f9ec0ced45b1cfb5abf51a94ef6da7"
+  },
+  "criterion": "Every deterministic output byte-matches its source-bound reference; no forbidden private input read and no engine call."
+}

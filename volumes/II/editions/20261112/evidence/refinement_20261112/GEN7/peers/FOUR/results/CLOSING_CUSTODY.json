@@ -1,0 +1,9 @@
+{
+  "sources_unchanged": true,
+  "native_returns": 19,
+  "completed": 18,
+  "expected_failed": 1,
+  "latest_completed_utc": "2026-11-12T04:58:34.136740+00:00",
+  "final180_policy": "All submissions completed and observed before final180; no additional native work planned",
+  "report_sha256_at_readback": "4acbfb391d5759009ed5318ec9c507d4c1fc9b6df8e5027846122baf6665ce2e"
+}

@@ -1,0 +1,112 @@
+{
+  "kind": "native",
+  "key": "FOUR_RICE_BROKEN_V1",
+  "operation": "GEN3_SOURCE_OPERATOR_WORD",
+  "purpose": "Omit actual cubic covariance term; expected_failed_check=positive actual conditional velocity covariance/h and nonzero Rice limit; local surrogate can fail positivity",
+  "payload": {
+    "name": "FOUR_RICE_BROKEN_V1",
+    "context": {
+      "basis": [
+        0,
+        1
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "units": {
+        "reference": "Original source units"
+      },
+      "history": {
+        "precommit_sha256": "8d2fc6cfa0b48024bd4fa36d19c70a0663ead05d0b5d05fab53b9f069801f920",
+        "scope": "Actual nonzero control or Schur reconstruction"
+      },
+      "spectral_coordinate": "EXACT_CONTROL"
+    },
+    "data": {
+      "operators": {
+        "S": [
+          [
+            1,
+            "32765/32768"
+          ],
+          [
+            "32765/32768",
+            1
+          ]
+        ],
+        "I": [
+          [
+            "1073741824/196599",
+            "-1073643520/196599"
+          ],
+          [
+            "-1073643520/196599",
+            "1073741824/196599"
+          ]
+        ],
+        "X": [
+          [
+            0,
+            "3/256"
+          ],
+          [
+            "-3/256",
+            0
+          ]
+        ],
+        "V": [
+          [
+            "3/4",
+            "3/4"
+          ],
+          [
+            "3/4",
+            "3/4"
+          ]
+        ]
+      },
+      "program": [
+        {
+          "name": "xt",
+          "op": "transpose",
+          "inputs": [
+            "X"
+          ]
+        },
+        {
+          "name": "xi",
+          "op": "multiply",
+          "inputs": [
+            "X",
+            "I"
+          ]
+        },
+        {
+          "name": "pay",
+          "op": "multiply",
+          "inputs": [
+            "xi",
+            "xt"
+          ]
+        },
+        {
+          "name": "cond",
+          "op": "subtract",
+          "inputs": [
+            "V",
+            "pay"
+          ]
+        },
+        {
+          "name": "scaled",
+          "op": "scale",
+          "inputs": [
+            "cond"
+          ],
+          "factor": "64"
+        }
+      ],
+      "output": "scaled"
+    }
+  }
+}

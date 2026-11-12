@@ -1,0 +1,48 @@
+{
+  "returncode": 0,
+  "wall_seconds": 0.6931508819106966,
+  "audit": "host/lead_replay/atoms_20261111T235454Z/ORBITALS_PUBLIC_READ_AUDIT.json",
+  "outputs": {
+    "CHECKS.json": {
+      "sha256": "e0c59c42bc884d25b29b54d45a2fb8c149c8d4b812ac3a4506635852d3c6f702",
+      "expected_sha256": "e0c59c42bc884d25b29b54d45a2fb8c149c8d4b812ac3a4506635852d3c6f702",
+      "match": true
+    },
+    "COMPLETE_ONE_MATRICES.json": {
+      "sha256": "9d058291bff3dc19aaf1f678de396f20d84e53b23abb0e609e9bb4f58b5cc853",
+      "expected_sha256": "9d058291bff3dc19aaf1f678de396f20d84e53b23abb0e609e9bb4f58b5cc853",
+      "match": true
+    },
+    "CONTROLS.json": {
+      "sha256": "ec27a70c63ece7d49983b77fe3cb0f12a280c195c3014e543f2892aac7d17ffa",
+      "expected_sha256": "ec27a70c63ece7d49983b77fe3cb0f12a280c195c3014e543f2892aac7d17ffa",
+      "match": true
+    },
+    "OCCUPIED.json": {
+      "sha256": "e305706d2385ee0746bbe0158433b400bc0e7a88e103830d28b2880fb5ace527",
+      "expected_sha256": "e305706d2385ee0746bbe0158433b400bc0e7a88e103830d28b2880fb5ace527",
+      "match": true
+    },
+    "ONE_ELECTRON.json": {
+      "sha256": "5db665a3a1322bde17bfaa6f01679b758cad7de4a4e25134e728e7848a882ec6",
+      "expected_sha256": "5db665a3a1322bde17bfaa6f01679b758cad7de4a4e25134e728e7848a882ec6",
+      "match": true
+    },
+    "OUTPUT_HASHES.json": {
+      "sha256": "dc67df19eb1b2bb8bf2532449bc583f2367578c296d73caf6701379e491fec6d",
+      "expected_sha256": "dc67df19eb1b2bb8bf2532449bc583f2367578c296d73caf6701379e491fec6d",
+      "match": true
+    },
+    "REGULAR_COMPARISONS.json": {
+      "sha256": "8db7fe366b88c86cd6f5ed43ad23bf3b01ef88ad756e92e4ab426c4e7aa55468",
+      "expected_sha256": "8db7fe366b88c86cd6f5ed43ad23bf3b01ef88ad756e92e4ab426c4e7aa55468",
+      "match": true
+    },
+    "SUMMARY.json": {
+      "sha256": "00e2a6b3e0799b5025d389a083d6bcd8c4d9421c0e2339baa420a0ba872b72e3",
+      "expected_sha256": "00e2a6b3e0799b5025d389a083d6bcd8c4d9421c0e2339baa420a0ba872b72e3",
+      "match": true
+    }
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "n_coefficient": "c*r*z + z**2*(7*c**2*r**2/2 - r**2/2) + 1",
+  "e_coefficient": "-3*c*r**2*z**2 - r*z",
+  "Taylor_residuals": [
+    "0",
+    "0"
+  ],
+  "unit_norm_second_order_residual": "0",
+  "method": "independent symbolic expansion of the original normalized direction; not native"
+}

@@ -1,0 +1,63 @@
+{
+  "kind": "native",
+  "key": "TWO_GEO_FLOOR_DOMINANCE_V1",
+  "operation": "GEN3_SOURCE_OPERATOR_WORD",
+  "purpose": "Uniform lower margin in charge-scaled spectral-cost/core-floor comparison for all132 source accounts",
+  "payload": {
+    "name": "TWO_GEO_FLOOR_DOMINANCE_V1",
+    "context": {
+      "basis": [
+        "nu3/4",
+        "nu1/2"
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "units": {
+        "energy": "source units",
+        "geometry": "declared constant lapse or clamped rigid rotor"
+      },
+      "history": {
+        "campaign": "GEN7 lane TWO",
+        "precommit_sha256": "273fb40fff5700d9f262b60d289c5c8d5586ae0f21caeafb3f0b1de169cecd85",
+        "locked_inputs": "H003004-H003008 not replayed"
+      },
+      "spectral_coordinate": "Uniform lower margin in charge-scaled spectral-cost/core-floor comparison for all132 source accounts"
+    },
+    "data": {
+      "operators": {
+        "LOW": [
+          [
+            "96/49",
+            "0"
+          ],
+          [
+            "0",
+            "16/9"
+          ]
+        ],
+        "RHS": [
+          [
+            "27/16",
+            "0"
+          ],
+          [
+            "0",
+            "1/2"
+          ]
+        ]
+      },
+      "program": [
+        {
+          "name": "margin",
+          "op": "subtract",
+          "inputs": [
+            "LOW",
+            "RHS"
+          ]
+        }
+      ],
+      "output": "margin"
+    }
+  }
+}

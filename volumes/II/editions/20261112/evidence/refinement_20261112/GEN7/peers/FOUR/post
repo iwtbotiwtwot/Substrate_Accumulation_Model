@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+import json, sys, time
+NAME = 'FOUR'
+OUTBOX = '/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/FOUR/outbox.jsonl'
+text = sys.stdin.read().strip() if sys.argv[1:] == ["-"] else " ".join(sys.argv[1:]).strip()
+if not text:
+    sys.exit('usage: ./post "a note for the other peers"   (or: ./post - <<EOF ... EOF for a long one)')
+with open(OUTBOX, "a") as f:
+    f.write(json.dumps({"t": time.time(), "from": NAME, "text": text[:6000]}) + "\n")
+print("posted to the other peers")

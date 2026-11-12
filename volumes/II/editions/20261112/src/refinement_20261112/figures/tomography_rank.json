@@ -1,0 +1,25 @@
+{
+  "source": "GEN7 ONE-T1/T2/T3 / exact full-image designs",
+  "display_data": {
+    "rank": [
+      18,
+      21,
+      36,
+      36
+    ],
+    "unknowns": 36,
+    "source_span": [
+      9,
+      11,
+      8,
+      6
+    ],
+    "readings": [
+      null,
+      null,
+      64,
+      66
+    ]
+  },
+  "scope": "Typesetting plot of retained operands/formulas; no new scientific execution."
+}

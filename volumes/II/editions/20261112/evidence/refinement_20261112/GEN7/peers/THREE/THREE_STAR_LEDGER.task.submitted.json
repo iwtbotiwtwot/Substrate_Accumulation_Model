@@ -1,0 +1,15 @@
+{
+ "kind": "gen6_job",
+ "key": "THREE_STAR_LEDGER",
+ "purpose": "Independent lane THREE exact source verification; see sealed predictions",
+ "job_path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/THREE/THREE_STAR_LEDGER.job.json",
+ "controller": "G6_03",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ },
+ "job_sha256": "e752c2bbb384f33a028dbb3521cff6eba06c16a384d9c54171218fa50f427f38"
+}

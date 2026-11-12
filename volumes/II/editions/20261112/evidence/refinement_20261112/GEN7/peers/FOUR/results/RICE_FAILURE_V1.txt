@@ -1,0 +1,1 @@
+Initial directed integral failed before any result: python-flint acb.asin has no analytic keyword. Successor checks its argument real enclosure strictly inside(-1,1) whenever analyticity requested; sqrt retains analytic flag. Mathematics/tolerances unchanged.

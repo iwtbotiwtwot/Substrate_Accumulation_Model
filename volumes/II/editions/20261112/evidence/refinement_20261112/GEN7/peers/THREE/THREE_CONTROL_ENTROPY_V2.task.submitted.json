@@ -1,0 +1,31 @@
+{
+ "kind": "native",
+ "key": "THREE_CONTROL_ENTROPY_V2",
+ "operation": "GEN5_ENTROPY",
+ "purpose": "Hypothesis-breaking support control: negative statistical weight is not a Gibbs probability",
+ "payload": {
+  "precision_bits": 384,
+  "data": {
+   "probabilities": [
+    "-1/2",
+    "3/2"
+   ]
+  },
+  "source_binding": {
+   "kind": "GEN7_DUCK",
+   "campaign": "20261112T043202Z",
+   "law_namespace": "SAM_land",
+   "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  }
+ },
+ "expected_status": "FAILED",
+ "expected_reason": "Probabilities must be exact nonnegative values summing to one",
+ "controller": "G6_03",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ }
+}

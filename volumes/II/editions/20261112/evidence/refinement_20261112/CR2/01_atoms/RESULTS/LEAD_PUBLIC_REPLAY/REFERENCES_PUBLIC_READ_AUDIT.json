@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "case": "/tmp/volii_atoms_public_20261111T235454Z",
+  "script": "/tmp/volii_atoms_public_20261111T235454Z/peers/REFERENCES/scripts/replay_v2.py",
+  "scope": "Python file-open audit plus relocation; standard scientific venv allowed. Native extension IO is not OS-traced.",
+  "home_reads": [
+    "/home/lilhelper/SAM_Research_Overflow/ironclad/.venv/lib/python3.12/site-packages/flint/__pycache__/__init__.cpython-312.pyc",
+    "/home/lilhelper/SAM_Research_Overflow/ironclad/.venv/lib/python3.12/site-packages/flint/flint_base/__pycache__/__init__.cpython-312.pyc",
+    "/home/lilhelper/SAM_Research_Overflow/ironclad/.venv/lib/python3.12/site-packages/flint/functions/__pycache__/__init__.cpython-312.pyc",
+    "/home/lilhelper/SAM_Research_Overflow/ironclad/.venv/lib/python3.12/site-packages/flint/types/__pycache__/__init__.cpython-312.pyc",
+    "/home/lilhelper/SAM_Research_Overflow/ironclad/.venv/lib/python3.12/site-packages/flint/utils/__pycache__/__init__.cpython-312.pyc",
+    "/home/lilhelper/SAM_Research_Overflow/ironclad/.venv/lib/python3.12/site-packages/flint/utils/__pycache__/flint_exceptions.cpython-312.pyc"
+  ],
+  "violations": [],
+  "error": null
+}

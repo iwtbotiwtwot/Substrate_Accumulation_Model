@@ -1,0 +1,207 @@
+{
+  "partitions": [
+    {
+      "partition": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "lower": "-72",
+      "D2cap": 6,
+      "Ncell2cap": 6,
+      "generic_endpoint_slack": [
+        "512/3",
+        "632/3"
+      ],
+      "uniform_endpoint_slack": [
+        "2033/12",
+        "2063/12"
+      ]
+    },
+    {
+      "partition": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "lower": "-96",
+      "D2cap": 8,
+      "Ncell2cap": 8,
+      "generic_endpoint_slack": [
+        "440/3",
+        "180"
+      ],
+      "uniform_endpoint_slack": [
+        "3493/24",
+        "3547/24"
+      ]
+    },
+    {
+      "partition": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "lower": "-144",
+      "D2cap": 12,
+      "Ncell2cap": 12,
+      "generic_endpoint_slack": [
+        "296/3",
+        "356/3"
+      ],
+      "uniform_endpoint_slack": [
+        "2347/24",
+        "2389/24"
+      ]
+    },
+    {
+      "partition": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "lower": "-120",
+      "D2cap": 10,
+      "Ncell2cap": 10,
+      "generic_endpoint_slack": [
+        "368/3",
+        "448/3"
+      ],
+      "uniform_endpoint_slack": [
+        "365/3",
+        "371/3"
+      ]
+    },
+    {
+      "partition": [
+        1,
+        1,
+        4
+      ],
+      "lower": "-212",
+      "D2cap": 18,
+      "Ncell2cap": 18,
+      "generic_endpoint_slack": [
+        "92/3",
+        "92/3"
+      ],
+      "uniform_endpoint_slack": [
+        "181/6",
+        "187/6"
+      ]
+    },
+    {
+      "partition": [
+        1,
+        2,
+        3
+      ],
+      "lower": "-168",
+      "D2cap": 14,
+      "Ncell2cap": 14,
+      "generic_endpoint_slack": [
+        "224/3",
+        "88"
+      ],
+      "uniform_endpoint_slack": [
+        "887/12",
+        "905/12"
+      ]
+    },
+    {
+      "partition": [
+        1,
+        5
+      ],
+      "lower": "-728/3",
+      "D2cap": 18,
+      "Ncell2cap": 26,
+      "generic_endpoint_slack": [
+        "0",
+        "0"
+      ],
+      "uniform_endpoint_slack": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "partition": [
+        2,
+        2,
+        2
+      ],
+      "lower": "-144",
+      "D2cap": 12,
+      "Ncell2cap": 12,
+      "generic_endpoint_slack": [
+        "296/3",
+        "356/3"
+      ],
+      "uniform_endpoint_slack": [
+        "2347/24",
+        "2389/24"
+      ]
+    },
+    {
+      "partition": [
+        2,
+        4
+      ],
+      "lower": "-236",
+      "D2cap": 20,
+      "Ncell2cap": 20,
+      "generic_endpoint_slack": [
+        "20/3",
+        "0"
+      ],
+      "uniform_endpoint_slack": [
+        "151/24",
+        "169/24"
+      ]
+    },
+    {
+      "partition": [
+        3,
+        3
+      ],
+      "lower": "-216",
+      "D2cap": 18,
+      "Ncell2cap": 18,
+      "generic_endpoint_slack": [
+        "80/3",
+        "80/3"
+      ],
+      "uniform_endpoint_slack": [
+        "157/6",
+        "163/6"
+      ]
+    }
+  ],
+  "old_margin": "11191/20250",
+  "old_error_coefficient": "23294/675",
+  "old_sufficient_delta": "589/36780",
+  "branch_break_slack": "-1/50",
+  "uniform_old_slope": "5/4",
+  "uniform_old_negative_tolerance": "-22382/50625",
+  "dressed_margin": "2139952734887423053027468631/1335165038749772953286830250",
+  "dressed_D2_upper": "6588159556661996111195215574/400549511624931885986049075",
+  "dressed_error_coefficient": "13798050765910770058944098924/400549511624931885986049075",
+  "dressed_sufficient_delta": "6419858204662269159082405893/137980507659107700589440989240",
+  "dressed_eps_sufficient": {
+    "real8": "10510975448427450774711306415394800985776190005717815550146374841876458036052/299440397216540268173578352962847009557529231732491829727140165538009260635514507",
+    "complex6": "8667206610526617680531014921716148962823813872428977779829604794164208777823014500567/419855501894648397069786630795890295839838063423923818034371014001729157503597826229999056"
+  },
+  "dressed_eps_decimal": {
+    "real8": 3.51020622004667e-05,
+    "complex6": 2.0643308403521703e-05
+  },
+  "affine_reference_control_joining_shift_per_Delta": "-5/4"
+}

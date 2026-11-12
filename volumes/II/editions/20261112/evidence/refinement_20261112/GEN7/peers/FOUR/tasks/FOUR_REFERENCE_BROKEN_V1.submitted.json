@@ -1,0 +1,73 @@
+{
+ "kind": "native",
+ "key": "FOUR_REFERENCE_BROKEN_V1",
+ "operation": "GEN3_COMPLEX_PRODUCT",
+ "purpose": "Reachable affine-reference control: center coefficient\u22121 instead of\u22122; expected_failed_check=constant annihilation, predicted1",
+ "payload": {
+  "precision_bits": 256,
+  "data": {
+   "matrix": {
+    "entries": [
+     [
+      1,
+      -1,
+      1
+     ]
+    ],
+    "row_basis": [
+     "BROKEN"
+    ],
+    "column_basis": [
+     "L",
+     "C",
+     "R"
+    ],
+    "structure": "GENERAL"
+   },
+   "right": {
+    "entries": [
+     [
+      1,
+      8,
+      8
+     ],
+     [
+      1,
+      8,
+      9
+     ],
+     [
+      1,
+      8,
+      10
+     ]
+    ],
+    "row_basis": [
+     "L",
+     "C",
+     "R"
+    ],
+    "column_basis": [
+     "1",
+     "Z",
+     "N"
+    ],
+    "structure": "GENERAL"
+   }
+  },
+  "source_binding": {
+   "kind": "GEN7_DUCK",
+   "campaign": "20261112T043202Z",
+   "law_namespace": "SAM_land",
+   "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  }
+ },
+ "controller": "G6_04",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ }
+}

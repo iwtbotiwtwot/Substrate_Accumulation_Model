@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "wall_seconds": 2.8282469981350005,
+  "steps": [
+    {
+      "returncode": 0,
+      "command": [
+        "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/.venv/bin/python",
+        "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/host/public_replay_guard_v2.py",
+        "--case",
+        "/tmp/volii_spin_public_20261112T002259Z",
+        "--audit",
+        "/tmp/volii_spin_public_20261112T002259Z/lead_output_GROWING/LEAD_PUBLIC_READ_AUDIT_0.json",
+        "--script",
+        "/tmp/volii_spin_public_20261112T002259Z/peers/GROWING/scripts/replay.py",
+        "--",
+        "seal",
+        "--output-dir",
+        "/tmp/volii_spin_public_20261112T002259Z/lead_output_GROWING"
+      ],
+      "audit": "/tmp/volii_spin_public_20261112T002259Z/lead_output_GROWING/LEAD_PUBLIC_READ_AUDIT_0.json",
+      "audit_status": "PASS"
+    },
+    {
+      "returncode": 0,
+      "command": [
+        "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/.venv/bin/python",
+        "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_cr2_sequence_20261111/host/public_replay_guard_v2.py",
+        "--case",
+        "/tmp/volii_spin_public_20261112T002259Z",
+        "--audit",
+        "/tmp/volii_spin_public_20261112T002259Z/lead_output_GROWING/LEAD_PUBLIC_READ_AUDIT_1.json",
+        "--script",
+        "/tmp/volii_spin_public_20261112T002259Z/peers/GROWING/scripts/replay.py",
+        "--",
+        "run",
+        "--output-dir",
+        "/tmp/volii_spin_public_20261112T002259Z/lead_output_GROWING"
+      ],
+      "audit": "/tmp/volii_spin_public_20261112T002259Z/lead_output_GROWING/LEAD_PUBLIC_READ_AUDIT_1.json",
+      "audit_status": "PASS"
+    }
+  ],
+  "outputs": {
+    "RESULTS.json": {
+      "sha256": "ec8e4bc01899c6a2e314c3790ddcb28a6fe4057c4c8243804a25649bd242ff32",
+      "expected_sha256": "ec8e4bc01899c6a2e314c3790ddcb28a6fe4057c4c8243804a25649bd242ff32",
+      "match": true
+    },
+    "FOLDED_ROWS.json.gz": {
+      "sha256": "6e326716685737c5c065e5441473bdc4532dfd04091baf54447e1704c6a72c3c",
+      "expected_sha256": "6e326716685737c5c065e5441473bdc4532dfd04091baf54447e1704c6a72c3c",
+      "match": true
+    },
+    "SMALL_SOURCE.json": {
+      "sha256": "c681ff901b93fc2a446e8f5ffa7feaa81055a28a505b1d5c865dd045664d3e78",
+      "expected_sha256": "c681ff901b93fc2a446e8f5ffa7feaa81055a28a505b1d5c865dd045664d3e78",
+      "match": true
+    },
+    "STATIC_CHECKPOINT.json": {
+      "sha256": "b839ef6bc039f9fed8f10a9cd765dad23d97b07e9834db7ab1e4d5a35c81153d",
+      "expected_sha256": "b839ef6bc039f9fed8f10a9cd765dad23d97b07e9834db7ab1e4d5a35c81153d",
+      "match": true
+    },
+    "FINITE_CHECKPOINT.json": {
+      "sha256": "8766903f7e557e7e0d793f0d4c523bd870b6fc82b3b40c1709c445d62be4e2a0",
+      "expected_sha256": "8766903f7e557e7e0d793f0d4c523bd870b6fc82b3b40c1709c445d62be4e2a0",
+      "match": true
+    }
+  },
+  "other_output_files": [
+    "ACCESS_LOG.json",
+    "LEAD_PUBLIC_READ_AUDIT_0.json",
+    "LEAD_PUBLIC_READ_AUDIT_1.json",
+    "RUN_RECEIPT.json",
+    "SEAL.json"
+  ]
+}

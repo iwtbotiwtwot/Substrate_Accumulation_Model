@@ -1,0 +1,60 @@
+{
+  "controls": [
+    {
+      "id": "LA01",
+      "track": "LI6",
+      "prediction_to_refine_and_seal": "Omit a signed mixed coherent term or substitute a scalar multiple of the norm moment for the energy moment; detect the selected exact discrepancy."
+    },
+    {
+      "id": "LA02",
+      "track": "LI6",
+      "prediction_to_refine_and_seal": "Omit cell escape or one flavor sector, or claim a weighted upper for every input; source/moment or quantifier checks must reject that variant."
+    },
+    {
+      "id": "LA03",
+      "track": "LI6",
+      "prediction_to_refine_and_seal": "Replace the real polar filter by real-time hopping or copy a different field own-cloud overlap; do not accept that as the proved map/family certificate."
+    },
+    {
+      "id": "NB01",
+      "track": "N12",
+      "prediction_to_refine_and_seal": "Restrict the proper partition test to balanced fragments; detect loss of the actual worst channel."
+    },
+    {
+      "id": "NB02",
+      "track": "N12",
+      "prediction_to_refine_and_seal": "Drop a flavor feasibility cut, weight-changing intermediate or parity restriction; detect an invalid target/proper/flavor assertion."
+    },
+    {
+      "id": "NB03",
+      "track": "N12",
+      "prediction_to_refine_and_seal": "Treat the success branch as the whole source or transfer the earlier arrival probability/old carbon action; source/Gram/probability checks must refuse it."
+    },
+    {
+      "id": "NB04",
+      "track": "N12",
+      "prediction_to_refine_and_seal": "Vary parameters inside the sufficient region: the actual margin must follow its parameter formula rather than stay at the benchmark constant."
+    },
+    {
+      "id": "LC01",
+      "track": "LOADING",
+      "prediction_to_refine_and_seal": "An integer-time attaining schedule and a simple ramp are distinct full-energy checks; retain endpoint conventions."
+    },
+    {
+      "id": "LC02",
+      "track": "LOADING",
+      "prediction_to_refine_and_seal": "A signed finite ramp cannot bypass the proved lower; check a concrete nonmonotone example independently."
+    },
+    {
+      "id": "LC03",
+      "track": "LOADING",
+      "prediction_to_refine_and_seal": "A discrete-mode recurrence or settled local mean must not be mistaken for zero full-continuum excess."
+    },
+    {
+      "id": "LC04",
+      "track": "LOADING",
+      "prediction_to_refine_and_seal": "An unspecified static displaced incoming Fock vacuum or unpriced additional control violates the declared source/control premise; retain the valid free-vacuum supplied-drive case."
+    }
+  ],
+  "policy": "Predictions refined and sealed before execution; a control that does not break as predicted is retained and reported."
+}

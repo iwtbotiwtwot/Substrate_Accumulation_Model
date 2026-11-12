@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "scope": "Verbatim complete report/proof/hypothesis retention; no selected-text summary.",
+  "documents": [
+    {
+      "path": "peers/FORM/REPORT.md",
+      "sha256": "32b5723ba865fe77886a397a6ba95b671ee30060482134ec0ab84cf4adddbd7a",
+      "bytes": 6294
+    },
+    {
+      "path": "peers/FORM/DERIVATION.md",
+      "sha256": "eac7f30484c0ceb8d4a0692ea752f6f00b25e3e471e747b9787c63964c54a342",
+      "bytes": 19633
+    },
+    {
+      "path": "peers/FORM/HYPOTHESES.md",
+      "sha256": "393a653df59d547f954e6ecb7236ae64f5527633f66b2b72b8326f385a830b21",
+      "bytes": 3601
+    },
+    {
+      "path": "peers/ORBITALS/REPORT.md",
+      "sha256": "57ac11ef420f04bef43e2f59fad997ea62d27ad7f253de2a2d129040d8cfb560",
+      "bytes": 7830
+    },
+    {
+      "path": "peers/ORBITALS/DERIVATION.md",
+      "sha256": "be542e4fe523b14b0aa15cb5bd7d674735016d31e357ae5bedbaa46a531576d2",
+      "bytes": 11610
+    },
+    {
+      "path": "peers/ORBITALS/DERIVATION_SUPPLEMENT.md",
+      "sha256": "e1c3892ca514899620ad49544b7b1203ad408d7edbe2255ef48410b765672d38",
+      "bytes": 3819
+    },
+    {
+      "path": "peers/ORBITALS/HYPOTHESES.md",
+      "sha256": "2fbe940542bdfd7e6fa25ae96c2029eb525f5c184ecc43cac856b7a752735f77",
+      "bytes": 4877
+    },
+    {
+      "path": "peers/REFERENCES/REPORT.md",
+      "sha256": "26cee052de161167a9c61468ac0b6553e3fb0b0166aeda75b0ca5a5c5dbcd8b7",
+      "bytes": 7414
+    },
+    {
+      "path": "peers/REFERENCES/DERIVATION.md",
+      "sha256": "204c86f7be308db8a9b15a649f0a3449fa19385aa4c88e2503a962ee5ed2954a",
+      "bytes": 33810
+    },
+    {
+      "path": "peers/REFERENCES/HYPOTHESES.md",
+      "sha256": "ce83a39b5fd95f8c8c7efa3aa184f5aea669f88087c29d622a1a1be39e563b7d",
+      "bytes": 6209
+    }
+  ],
+  "handoff_sha256": "c8343ab2b5216ef2cbadea9f3aaf39f77ec628b74aaa5090313ce6b34ad79421"
+}

@@ -1,0 +1,466 @@
+{
+  "kind": "native",
+  "key": "FOUR_HE3_CHART_V1",
+  "operation": "GEN3_SOURCE_OPERATOR_WORD",
+  "purpose": "Six exact four-pole factor eigen-equations and independent scale-free response identities, full192 theorem retained as locked input",
+  "payload": {
+    "name": "FOUR_HE3_CHART_V1",
+    "context": {
+      "basis": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "field": {
+        "radicand": 0
+      },
+      "units": {
+        "reference": "Original source units, physical calibration unassigned"
+      },
+      "history": {
+        "source_hashes": {
+          "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_improvement_review_20261111/peers/ONE/sources/INDUCED_INPUT_H002423.json": "25bff23538dade26cfc3dda3e77c84fa54b0c946244494ecbb90ab5482377c8e",
+          "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_improvement_review_20261111/peers/ONE/sources/isotope_residuals_253_20261017/INPUT_ROWS.json.gz": "52c731ccbd4c470b0653f7768e68024288ca0320e640a39b6563316b765464d4",
+          "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_improvement_review_20261111/peers/ONE/sources/isotope_residuals_253_20261017/ISOTOPE_PREDICTIONS.csv": "91bdfcc34d778e94a2adb92c4bb943094f566b08a877f4bda3e943fe697b04f2",
+          "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_improvement_review_20261111/peers/ONE/sources/isotope_residuals_240_tensor_20261017/ISOTOPE_PREDICTIONS.csv": "3d95741fa75af7070c27d225f336bc63bff37038f8c2d139bc9a7371b91b2cc9",
+          "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/FOUR/PRECOMMIT.md": "8d2fc6cfa0b48024bd4fa36d19c70a0663ead05d0b5d05fab53b9f069801f920",
+          "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/FOUR/reconstruct.py": "6e9374c7204a81f0239c3fd68179c0d7c2cb2e52d286bb8d33183f9884354d49"
+        },
+        "scope": "Lane FOUR independent raw operand reconstruction"
+      },
+      "spectral_coordinate": "RETAINED_SOURCE"
+    },
+    "data": {
+      "operators": {
+        "H0": [
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ]
+        ],
+        "v0": [
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "H1": [
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-208547/982800",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-85697/491400",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-44747/327600"
+          ]
+        ],
+        "v1": [
+          [
+            "1"
+          ],
+          [
+            "25/26"
+          ],
+          [
+            "25/27"
+          ],
+          [
+            "25/28"
+          ]
+        ],
+        "H2": [
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "311/13860",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "4087/13860",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "2621/4620"
+          ]
+        ],
+        "v2": [
+          [
+            "1"
+          ],
+          [
+            "5/7"
+          ],
+          [
+            "5/9"
+          ],
+          [
+            "5/11"
+          ]
+        ],
+        "H3": [
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "2663/2340",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "5911/2340",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "3053/780"
+          ]
+        ],
+        "v3": [
+          [
+            "1"
+          ],
+          [
+            "1/5"
+          ],
+          [
+            "1/9"
+          ],
+          [
+            "1/13"
+          ]
+        ],
+        "H4": [
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "16395119/1607364",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "33192079/1607364",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "16663013/535788"
+          ]
+        ],
+        "v4": [
+          [
+            "1"
+          ],
+          [
+            "1/41"
+          ],
+          [
+            "1/81"
+          ],
+          [
+            "1/121"
+          ]
+        ],
+        "H5": [
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "154625119199/1543049604",
+            "-1/4",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "309636000799/1543049604",
+            "-1/4"
+          ],
+          [
+            "-1/4",
+            "-1/4",
+            "-1/4",
+            "154882294133/514349868"
+          ]
+        ],
+        "v5": [
+          [
+            "1"
+          ],
+          [
+            "1/401"
+          ],
+          [
+            "1/801"
+          ],
+          [
+            "1/1201"
+          ]
+        ]
+      },
+      "program": [
+        {
+          "name": "hv0",
+          "op": "multiply",
+          "inputs": [
+            "H0",
+            "v0"
+          ]
+        },
+        {
+          "name": "dv0",
+          "op": "scale",
+          "inputs": [
+            "v0"
+          ],
+          "factor": "-1"
+        },
+        {
+          "name": "r0",
+          "op": "subtract",
+          "inputs": [
+            "hv0",
+            "dv0"
+          ]
+        },
+        {
+          "name": "hv1",
+          "op": "multiply",
+          "inputs": [
+            "H1",
+            "v1"
+          ]
+        },
+        {
+          "name": "dv1",
+          "op": "scale",
+          "inputs": [
+            "v1"
+          ],
+          "factor": "-37153/39312"
+        },
+        {
+          "name": "r1",
+          "op": "subtract",
+          "inputs": [
+            "hv1",
+            "dv1"
+          ]
+        },
+        {
+          "name": "hv2",
+          "op": "multiply",
+          "inputs": [
+            "H2",
+            "v2"
+          ]
+        },
+        {
+          "name": "dv2",
+          "op": "scale",
+          "inputs": [
+            "v2"
+          ],
+          "factor": "-472/693"
+        },
+        {
+          "name": "r2",
+          "op": "subtract",
+          "inputs": [
+            "hv2",
+            "dv2"
+          ]
+        },
+        {
+          "name": "hv3",
+          "op": "multiply",
+          "inputs": [
+            "H3",
+            "v3"
+          ]
+        },
+        {
+          "name": "dv3",
+          "op": "scale",
+          "inputs": [
+            "v3"
+          ],
+          "factor": "-203/585"
+        },
+        {
+          "name": "r3",
+          "op": "subtract",
+          "inputs": [
+            "hv3",
+            "dv3"
+          ]
+        },
+        {
+          "name": "hv4",
+          "op": "multiply",
+          "inputs": [
+            "H4",
+            "v4"
+          ]
+        },
+        {
+          "name": "dv4",
+          "op": "scale",
+          "inputs": [
+            "v4"
+          ],
+          "factor": "-104981/401841"
+        },
+        {
+          "name": "r4",
+          "op": "subtract",
+          "inputs": [
+            "hv4",
+            "dv4"
+          ]
+        },
+        {
+          "name": "hv5",
+          "op": "multiply",
+          "inputs": [
+            "H5",
+            "v5"
+          ]
+        },
+        {
+          "name": "dv5",
+          "op": "scale",
+          "inputs": [
+            "v5"
+          ],
+          "factor": "-96881801/385762401"
+        },
+        {
+          "name": "r5",
+          "op": "subtract",
+          "inputs": [
+            "hv5",
+            "dv5"
+          ]
+        },
+        {
+          "name": "sum0",
+          "op": "add",
+          "inputs": [
+            "r0",
+            "r1"
+          ]
+        },
+        {
+          "name": "sum1",
+          "op": "add",
+          "inputs": [
+            "sum0",
+            "r2"
+          ]
+        },
+        {
+          "name": "sum2",
+          "op": "add",
+          "inputs": [
+            "sum1",
+            "r3"
+          ]
+        },
+        {
+          "name": "sum3",
+          "op": "add",
+          "inputs": [
+            "sum2",
+            "r4"
+          ]
+        },
+        {
+          "name": "sum4",
+          "op": "add",
+          "inputs": [
+            "sum3",
+            "r5"
+          ]
+        }
+      ],
+      "output": "sum4"
+    }
+  }
+}

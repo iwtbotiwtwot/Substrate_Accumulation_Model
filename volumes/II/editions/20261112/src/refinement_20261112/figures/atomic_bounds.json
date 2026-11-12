@@ -1,0 +1,16 @@
+{
+  "source": "H003004 / NUMERICAL_DISPLAY_RECEIPT.json",
+  "display_data": {
+    "earlier": [
+      32.67,
+      34.68,
+      38.88
+    ],
+    "new": [
+      30.9533766184074,
+      32.3311688245431,
+      35.1767532368147
+    ]
+  },
+  "scope": "Typesetting plot of retained operands/formulas; no new scientific execution."
+}

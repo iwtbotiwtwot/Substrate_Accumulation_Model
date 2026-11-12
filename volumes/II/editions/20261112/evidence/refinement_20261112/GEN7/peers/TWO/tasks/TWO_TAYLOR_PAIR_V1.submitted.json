@@ -1,0 +1,278 @@
+{
+ "kind": "native",
+ "key": "TWO_TAYLOR_PAIR_V1",
+ "operation": "GEN3_SOURCE_OPERATOR_WORD",
+ "purpose": "Exact independent-Haar second-order internal-pair numerator for rational physical directions; expected714/625",
+ "payload": {
+  "name": "TWO_TAYLOR_PAIR_V1",
+  "context": {
+   "basis": [
+    "pair_numerator"
+   ],
+   "field": {
+    "radicand": 0
+   },
+   "units": {
+    "energy": "source units",
+    "geometry": "declared constant lapse or clamped rigid rotor"
+   },
+   "history": {
+    "campaign": "GEN7 lane TWO",
+    "precommit_sha256": "273fb40fff5700d9f262b60d289c5c8d5586ae0f21caeafb3f0b1de169cecd85",
+    "locked_inputs": "H003004-H003008 not replayed"
+   },
+   "spectral_coordinate": "Exact independent-Haar second-order internal-pair numerator for rational physical directions; expected714/625"
+  },
+  "data": {
+   "operators": {
+    "A": [
+     [
+      "-32/25",
+      "24/25",
+      "0"
+     ],
+     [
+      "24/25",
+      "-18/25",
+      "0"
+     ],
+     [
+      "0",
+      "0",
+      "-2"
+     ]
+    ],
+    "B": [
+     [
+      "-3",
+      "0",
+      "0"
+     ],
+     [
+      "0",
+      "-48/25",
+      "36/25"
+     ],
+     [
+      "0",
+      "36/25",
+      "-27/25"
+     ]
+    ],
+    "I3": [
+     [
+      "1/3",
+      "0",
+      "0"
+     ],
+     [
+      "0",
+      "1/3",
+      "0"
+     ],
+     [
+      "0",
+      "0",
+      "1/3"
+     ]
+    ],
+    "N": [
+     [
+      "3/5",
+      "4/5",
+      "0"
+     ]
+    ],
+    "M": [
+     [
+      "0"
+     ],
+     [
+      "3/5"
+     ],
+     [
+      "4/5"
+     ]
+    ],
+    "BN": [
+     [
+      "-52/25"
+     ]
+    ],
+    "ONE": [
+     [
+      "1"
+     ],
+     [
+      "1"
+     ],
+     [
+      "1"
+     ]
+    ],
+    "E0": [
+     [
+      "1",
+      "0",
+      "0"
+     ]
+    ],
+    "E1": [
+     [
+      "0",
+      "1",
+      "0"
+     ]
+    ],
+    "E2": [
+     [
+      "0",
+      "0",
+      "1"
+     ]
+    ]
+   },
+   "program": [
+    {
+     "name": "at",
+     "op": "transpose",
+     "inputs": [
+      "A"
+     ]
+    },
+    {
+     "name": "ab",
+     "op": "multiply",
+     "inputs": [
+      "at",
+      "B"
+     ]
+    },
+    {
+     "name": "scaled",
+     "op": "multiply",
+     "inputs": [
+      "I3",
+      "ab"
+     ]
+    },
+    {
+     "name": "et0",
+     "op": "transpose",
+     "inputs": [
+      "E0"
+     ]
+    },
+    {
+     "name": "row0",
+     "op": "multiply",
+     "inputs": [
+      "E0",
+      "scaled"
+     ]
+    },
+    {
+     "name": "d0",
+     "op": "multiply",
+     "inputs": [
+      "row0",
+      "et0"
+     ]
+    },
+    {
+     "name": "et1",
+     "op": "transpose",
+     "inputs": [
+      "E1"
+     ]
+    },
+    {
+     "name": "row1",
+     "op": "multiply",
+     "inputs": [
+      "E1",
+      "scaled"
+     ]
+    },
+    {
+     "name": "d1",
+     "op": "multiply",
+     "inputs": [
+      "row1",
+      "et1"
+     ]
+    },
+    {
+     "name": "et2",
+     "op": "transpose",
+     "inputs": [
+      "E2"
+     ]
+    },
+    {
+     "name": "row2",
+     "op": "multiply",
+     "inputs": [
+      "E2",
+      "scaled"
+     ]
+    },
+    {
+     "name": "d2",
+     "op": "multiply",
+     "inputs": [
+      "row2",
+      "et2"
+     ]
+    },
+    {
+     "name": "d01",
+     "op": "add",
+     "inputs": [
+      "d0",
+      "d1"
+     ]
+    },
+    {
+     "name": "trace",
+     "op": "add",
+     "inputs": [
+      "d01",
+      "d2"
+     ]
+    },
+    {
+     "name": "pair",
+     "op": "add",
+     "inputs": [
+      "trace",
+      "BN"
+     ]
+    },
+    {
+     "name": "numer",
+     "op": "scale",
+     "inputs": [
+      "pair"
+     ],
+     "factor": "3"
+    }
+   ],
+   "output": "numer"
+  },
+  "source_binding": {
+   "kind": "GEN7_DUCK",
+   "campaign": "20261112T043202Z",
+   "law_namespace": "SAM_land",
+   "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  }
+ },
+ "controller": "G6_02",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ }
+}

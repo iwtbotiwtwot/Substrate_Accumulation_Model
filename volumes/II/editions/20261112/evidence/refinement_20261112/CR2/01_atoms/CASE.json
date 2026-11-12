@@ -1,0 +1,54 @@
+{
+  "case_id": "volii_review_followups_20261111/01_atoms",
+  "campaign": "volii_review_followups_20261111",
+  "tier": "verification",
+  "types": {
+    "EXACT": 13
+  },
+  "credit": {
+    "proposed_by": [
+      "Sean Brady"
+    ],
+    "directed_by": "Sean Brady",
+    "executed_with": [
+      "Separate mathematical reconstruction and independently authored exact/directed replay code"
+    ]
+  },
+  "independence": "I1",
+  "reproducibility": "R2",
+  "reviewed_and_approved": false,
+  "withheld": [],
+  "appeal_of": null,
+  "constitution_revision": 2,
+  "status": "COMPLETE_SOURCE_BOUND_VERIFICATION",
+  "method": {
+    "instrument": "Engine-free mathematical proofs and standard Python scientific tools; inherited source/native evidence only at preparation",
+    "form": "verification",
+    "window_start_utc": "2026-11-11T23:24:35.717709+00:00",
+    "window_end_utc": "2026-11-12T00:08:08.494019+00:00",
+    "peers": [
+      "FORM",
+      "ORBITALS",
+      "REFERENCES"
+    ],
+    "peer_reports": [
+      "peers/FORM/REPORT.md",
+      "peers/ORBITALS/REPORT.md",
+      "peers/REFERENCES/REPORT.md"
+    ],
+    "preparation_only": false,
+    "reproducibility_scope": "All assigned exact claims within their declared hypotheses; fresh full-case engine-free replay matched all19 deterministic outputs; three scientific wording/precision corrections retained.",
+    "active_workers": 0
+  },
+  "edges": [
+    {
+      "type": "USES",
+      "from_type": "EXACT",
+      "to_type": "EXACT",
+      "source_file": "sources/SOURCE_MANIFEST.json",
+      "numerical_coefficients_transferred": true
+    }
+  ],
+  "verdict": "HELD WITH CORRECTION",
+  "history_entry": "H003004"
+}

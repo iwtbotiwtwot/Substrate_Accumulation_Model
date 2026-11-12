@@ -1,0 +1,59 @@
+{
+  "case_id": "volii_review_followups_20261111/03r_car_fock_loading_recovery",
+  "campaign": "volii_review_followups_20261111",
+  "tier": "verification",
+  "types": {
+    "EXACT": 12
+  },
+  "credit": {
+    "proposed_by": [
+      "Sean Brady"
+    ],
+    "directed_by": "Sean Brady",
+    "executed_with": [
+      "Separate mathematical reconstruction and independently authored exact/directed replay code"
+    ]
+  },
+  "independence": "I1",
+  "reproducibility": "R2",
+  "reviewed_and_approved": false,
+  "withheld": [],
+  "appeal_of": "volii_review_followups_20261111/03_car_fock_loading",
+  "constitution_revision": 2,
+  "status": "COMPLETE_PUBLIC_RECOVERY_CORRECTION",
+  "method": {
+    "instrument": "Standard Python archive/hash recovery and unchanged source replay with python-flint0.8.0; scientific proof/code lineage inherited unchanged",
+    "form": "verification",
+    "window_start_utc": "2026-11-12T01:35:14.296734+00:00",
+    "window_end_utc": "2026-11-12T01:41:31.838421+00:00",
+    "peers": [],
+    "peer_reports": [],
+    "inherited_reports": [
+      "peers/LI6/REPORT.md",
+      "peers/N12/REPORT.md",
+      "peers/LOADING/REPORT.md"
+    ],
+    "new_scientific_window": false,
+    "reproducibility_scope": "Unchanged inherited scientific source and24deterministic replay files; public recovery packaging corrected, final Git-materialized content checked separately."
+  },
+  "edges": [
+    {
+      "type": "USES",
+      "from_type": "EXACT",
+      "to_type": "EXACT",
+      "source_file": "sources/SOURCE_MANIFEST.json",
+      "numerical_coefficients_transferred": true
+    },
+    {
+      "type": "SUPERSEDES",
+      "source_file": "RESULTS/RECOVERY_SOURCE_IDENTITY.json",
+      "from": "volii_review_followups_20261111/03r_car_fock_loading_recovery",
+      "to": "volii_review_followups_20261111/03_car_fock_loading",
+      "scope": "Public recovery only; mathematical statements and original outcomes unchanged."
+    }
+  ],
+  "verdict": "HELD WITH CORRECTION",
+  "control_correction": "LA01 initial null witness did not break; failed original and corrected nonzero witness retained.",
+  "history_entry": "H003008",
+  "revision_scope": "Public manifest/archive recovery correction only. The same twelve claims, eleven controls, scientific operands and verifier programs are unchanged."
+}

@@ -1,0 +1,30 @@
+{
+  "arithmetic": "Fraction exact / Arb directed",
+  "code_hashes": {
+    "rebuild.py": "9fe4be66db6bd379b7a9cdd76c23502c1b5580811f2dcdf10126defcca6bd269",
+    "replay.py": "f1a103a6fdd2f7be3c4909cb886cc96262190c1d45387e55406e45a73f9b8da2"
+  },
+  "engine": "none",
+  "input_hashes": {
+    "public_inputs/CHANNEL_DERIVATION.md": "7fc9859ae6c8a22046af5d515f0e451b17c5099e8c66e39b63187bc7cc904e77",
+    "public_inputs/FREE_PAIR_PARENT.json": "ed752763e2bf12a52dc3aedd85bb5e92ff8f2adca8e851c207fcb9e85bff5d03",
+    "public_inputs/JOINT_METRIC.json": "313cb7d19eb8aff257b614df7c31ae8dbc150568b59412a3d13dd9de11d8074e",
+    "public_inputs/LI6_EXACT_OPERANDS.json": "d13b07a49c6bf393f5ae13b5a92373e5c80e92ab10f5af12677c485fc7323526",
+    "public_inputs/LI6_PRINCIPAL_LEDGER.json": "666aea4d96633ab17df5ce83162cb4fcb60bf569bb976124e437d40782ec9764",
+    "public_inputs/PRIMARY_REPRESENTATION_READBACK.txt": "23600a9f8067fe0bd570665cdf2c1224d5c11f837c49315fb0fa582474311eab",
+    "public_inputs/REGISTER_FREE_RECEIVER.json": "b212f6fdc64910f0868bf5278de1c528d77d2f5925588eb7ec45a2a586c39465",
+    "public_inputs/SOURCE_DERIVATION.md": "25822f3d3cfc0f0f63ebeb838dbb04783c7bed418e157cf0797f96ba2622029e",
+    "public_inputs/SUBMITTED_BENCHMARK_BOUNDS.json": "c4545e149947952ec010aeb1c9a39ca6a0fa6cd0104117b6007316c5c3c18a5f",
+    "public_inputs/SUBMITTED_DERIVATION.md": "d0ab7be84c56abd2225b6ff4791ddb41c8cc9a519401e37defb393f8cd719328",
+    "public_inputs/SUBMITTED_FAMILY_BOUNDS.json": "4c1a37e9997182f9ea8fe36c570b86d8b8e7d8afbb359b14cfc8ccd29ce5c186",
+    "public_inputs/SUBMITTED_ONE_HOP_OPERANDS.json": "cb67b75e739637afe968a1ad8ccafe29b901e54204bdb8085dc34f6c16acc13e",
+    "public_inputs/SUBMITTED_SCOPE.md": "0223aa783f2358b097446f8d1c39358d5b848b9066dd044d417fc0f52b984124"
+  },
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "python_flint": "0.8.0",
+  "threading": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  }
+}

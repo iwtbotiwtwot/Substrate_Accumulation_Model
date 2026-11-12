@@ -1,0 +1,117 @@
+[
+  {
+    "matches_seal": true,
+    "path": "CLAIMS.json",
+    "sha256": "17a85b9942ac9fd1600772031ec1bc5e22ce71b4d2913de03b6cfe1e51ab8c61"
+  },
+  {
+    "matches_seal": true,
+    "path": "CONTROLS.json",
+    "sha256": "97288a8163e1a173e415c41e34f3f34e20834582569d0efca016c309db2f345d"
+  },
+  {
+    "matches_seal": true,
+    "path": "SOURCE_CONTRACT.md",
+    "sha256": "7e46ba67633f2133ecf82732ca672c897e3a48ef15a64b1f63863224608e7f48"
+  },
+  {
+    "matches_seal": true,
+    "path": "sources/manuscript/src/atoms_01.tex",
+    "sha256": "ec743a7eceafd83c11bbc788268a57ceddef0a3cfb41697eefe79097d96e9c4e"
+  },
+  {
+    "matches_seal": true,
+    "path": "sources/manuscript/src/atoms_02.tex",
+    "sha256": "212b7e9d9df141ef6b1213b1bdc928facec10103d04429e0e089c62e8663a662"
+  },
+  {
+    "matches_seal": true,
+    "path": "sources/registered/GEN4/volii_pair_source1/DERIVATION.md",
+    "sha256": "6875913c4aa0ae3246b9538972a1dc9d903fa3ac142dc67df70e24b361a2363a"
+  },
+  {
+    "matches_seal": true,
+    "path": "sources/registered/GEN4/volii_pair_source1/ATOMIC_DERIVATION.md",
+    "sha256": "fb90daaaf92d79ffab6b7089c4f9c1784ee6d0bcc1f4bbbbdf0ded3a0b5904e0"
+  },
+  {
+    "matches_seal": true,
+    "path": "sources/registered/GEN4/volii_lapse_field1/DERIVATION.md",
+    "sha256": "9a96f02787876de36eba1be3f2828b0963bb8ae9921ac9ae8bb92aef0fcb73d8"
+  },
+  {
+    "matches_seal": true,
+    "path": "sources/registered/GEN4/volii_radial_occupancy1/REPORT.md",
+    "sha256": "814bee76fb2022c6689325955ba376873e1fe77dd47aefc248d5adc88ccd4a9c"
+  },
+  {
+    "matches_seal": true,
+    "path": "sources/registered/GEN4/volii_action_kinetic1/REPORT.md",
+    "sha256": "de8c041be270281ed1c1bce17499b8f94e8f76be147938d47412a491174b8888"
+  },
+  {
+    "matches_seal": true,
+    "path": "prior/FOUR/REPORT.md",
+    "sha256": "a4c2f930cc8c668ae241c91d233f0fe7bbbce788ab07d7960b611440c98d3c26"
+  },
+  {
+    "matches_seal": true,
+    "path": "prior/FOUR/gen/ANGULAR_SQUARE_WORKING.md",
+    "sha256": "2c07a50ad135c4c281346fc8c55c9f783050e231d7cdf3fa4de9661b10a933b8"
+  },
+  {
+    "matches_seal": true,
+    "path": "prior/FOUR/gen/FINITE_CORE_PAULI_WORKING.md",
+    "sha256": "e80bd29f30f7ab9254c8fc426f0892fb0270775b89f699c8900fe2a19f3ca5d2"
+  },
+  {
+    "matches_seal": true,
+    "path": "peers/FORM/recovered_sources/FORM_PROOF_CROSSCHECK.md",
+    "sha256": "d17422ed29e63f2328716bb73d47da1b8728b58ac41dfbf78e3c213d8be57bc8"
+  },
+  {
+    "matches_seal": true,
+    "path": "peers/FORM/recovered_sources/LAPSE_PAULI_WORKING.md",
+    "sha256": "0952ee142831f07eab808cfae6ad0bc56b9a4a61167bac7ccf29df5abd391328"
+  },
+  {
+    "matches_seal": true,
+    "path": "peers/FORM/recovered_sources/PAULI_BOUND.md",
+    "sha256": "db01ef62ecb24a8623ef13982c8c7cec4ee853e726b8a1f0d3ffd380c02b78c2"
+  },
+  {
+    "matches_seal": true,
+    "path": "peers/FORM/recovered_sources/RADIAL_DERIVATION.md",
+    "sha256": "cbefb70cbbe399774c65f39672aa733d9cc8bf18aa3d5bf9e64bc8ece69f9364"
+  },
+  {
+    "matches_seal": true,
+    "path": "peers/FORM/recovered_sources/SOURCE_MANIFEST.json",
+    "sha256": "8932c13db2754b72c3998ac9ef078ef4fb7ac558cd761ef58c5785fd052394d4"
+  },
+  {
+    "matches_seal": true,
+    "path": "peers/FORM/recovered_sources/SEAL.json",
+    "sha256": "0078843a1a6d07f01d8a3b3ac28eda8f5b2f6dc6c53399aa76ed56621cfaa331"
+  },
+  {
+    "matches_seal": true,
+    "path": "peers/FORM/requirements.txt",
+    "sha256": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94"
+  },
+  {
+    "matches_seal": true,
+    "path": "peers/FORM/replay.py",
+    "sha256": "89e71788cd24ba4cfe8fea909592eeb8323617947862190d093b7a016abf6a78"
+  },
+  {
+    "matches_seal": true,
+    "path": "peers/FORM/DERIVATION.md",
+    "sha256": "eac7f30484c0ceb8d4a0692ea752f6f00b25e3e471e747b9787c63964c54a342"
+  },
+  {
+    "matches_seal": true,
+    "path": "peers/FORM/HYPOTHESES.md",
+    "sha256": "393a653df59d547f954e6ecb7236ae64f5527633f66b2b72b8326f385a830b21"
+  }
+]

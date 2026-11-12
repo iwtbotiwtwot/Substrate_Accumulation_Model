@@ -1,0 +1,27 @@
+{
+  "sealed_utc": "2026-11-12T00:23:00.233587+00:00",
+  "form": "engineering_replay",
+  "script": "peers/SIGNED/scripts/replay_v1.py",
+  "script_sha256": "d29b5b59388ee71bec9feff725d061175c95fd0017c2e445b2f070040674dedc",
+  "guard_sha256": "c96cf2a8b88cbc7c8dc20cd905c7466948e7339f60f345c394c6e024b525617c",
+  "case": "/tmp/volii_spin_public_20261112T002259Z",
+  "cwd": "/tmp/volii_spin_public_20261112T002259Z/peers/SIGNED",
+  "actions": [
+    [
+      "--output-dir",
+      "/tmp/volii_spin_public_20261112T002259Z/lead_output_SIGNED"
+    ]
+  ],
+  "expected_scientific_hashes": {
+    "SOURCE.json": "1bd03b92a6f20565a9a615569d832ba7d8daf21e15444b921e20415b4dd51e2d",
+    "SMALL_N15.json": "bbb0976360a326ff5690198c2029901d50540a7ea5f4d9085bd23df61547080e",
+    "SMALL_N20.json": "aba00e94a40e7a37c5689974a71a5edfbef48d0d0ba49ce098cf90f5687ebff5",
+    "LARGE_MOMENTS.json": "d4b84deb023e951553d8fead35d1db4d50de27161e3a9bd6650c00410dd3e463",
+    "STATIC_INTERFACE.json": "1d0017ba1fe8c8c6fee570b465767911de4441a7628fec25e28e637c35aa5f62",
+    "RECEIVER_INFORMATION.json": "63224e1479ba04c817d06d3c372baadcba32497047bd0709f40d8eaa03d2c5c9",
+    "BOUNDARY_CLOCK.json": "cc841faa6cc9ce6a4335937a94ce47f7c960cae0be89b09349aa9b387cc8a164",
+    "CONTROLS.json": "c438134ab8207a518fabf93bda6b75d21f8d40791ab8ad122ae34b35b762974e",
+    "SUMMARY.json": "96f59a64c9f605c4c845e11314529219be640316fa2dcab02c9c8cd11cbe8b91"
+  },
+  "criteria": "All declared scientific outputs byte-match; public-only file reads; no scientific engine import. Metadata differences are retained, not compared as scientific output."
+}

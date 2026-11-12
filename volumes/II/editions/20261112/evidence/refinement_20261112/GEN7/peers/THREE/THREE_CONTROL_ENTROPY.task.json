@@ -1,0 +1,17 @@
+{
+  "kind": "native",
+  "key": "THREE_CONTROL_ENTROPY",
+  "operation": "GEN5_ENTROPY",
+  "purpose": "Hypothesis-breaking support control: negative statistical weight is not a Gibbs probability",
+  "payload": {
+    "precision_bits": 384,
+    "data": {
+      "probabilities": [
+        "-1/2",
+        "3/2"
+      ]
+    }
+  },
+  "expected_status": "FAILED",
+  "expected_reason": "Negative classical probability must be rejected"
+}

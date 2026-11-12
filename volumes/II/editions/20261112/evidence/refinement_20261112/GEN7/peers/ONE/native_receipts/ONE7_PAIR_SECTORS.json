@@ -1,0 +1,942 @@
+{
+  "authored_by": "PEER_ONE",
+  "because": [],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+      "implementation_sha256": "aec9c75a8511591b20dc8818d7b4097cfe55481394602873eb933e4fa801de4a",
+      "version": "SLC-GEN5-R1"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "1e5d525256be3a07cfbf88603d10b1fd8ef37d32b11f85632fbf8848ee17e0d1",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "completed_utc": "2026-11-12T04:55:22.568360+00:00",
+  "gen6_core_version": "0.11.3",
+  "gen6_execution": {
+    "continuation": null,
+    "error": null,
+    "execution_stage": "POST_DUCK_ENGINEERING_QUALIFICATION",
+    "history_continuation": null,
+    "host_compilation": "Exact symbolic DAG and reciprocal token transcription; native product identities certify reciprocals",
+    "host_domain_arithmetic": false,
+    "imported_history_session_reused": false,
+    "installed_engine_modified": false,
+    "qualification_scope": null,
+    "schema": "SAM_ONE_PRINCIPLE_NATIVE_EXECUTION_V1",
+    "session_reused": false,
+    "status": "PASSED",
+    "time_utc": "2026-11-12T04:55:22.547525+00:00",
+    "trace": [
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "pair_42",
+        "input": "000_pair_42.input.json",
+        "input_sha256": "37a0d007fe95e2742b4241bad601d808581dbcbd870b14bd0e3a976137a7bdc4",
+        "operation": "GEN3_SOURCE_OPERATOR_WORD",
+        "output": "000_pair_42.output.json",
+        "output_sha256": "8274b9a7a9179e057534c8a24652894cf4365181bde41c059b17a6a3fe602396"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "pair_33",
+        "input": "001_pair_33.input.json",
+        "input_sha256": "4fec76459ef110857e67f5f76a8a5fd3bcc851ed4ea69f554263d652f159061a",
+        "operation": "GEN3_SOURCE_OPERATOR_WORD",
+        "output": "001_pair_33.output.json",
+        "output_sha256": "484bcbf0f6d1108f1b589980e42e0a170e1de2d7d85efd95493de13217c0b76b"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "pair_411",
+        "input": "002_pair_411.input.json",
+        "input_sha256": "be1ea82c5a337826e9697dd3a0bdcf9ffa8969590c0514c83df696433c51c818",
+        "operation": "GEN3_SOURCE_OPERATOR_WORD",
+        "output": "002_pair_411.output.json",
+        "output_sha256": "8e70140099c4f84e5b996db53e1b6c4d3caa35a47c37f3bf4b01d9325c5096a9"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "C3_control",
+        "input": "003_C3_control.input.json",
+        "input_sha256": "9528a43f99b5bacffd7182ece677f786f0352c8f61de6e480db19441fef204e9",
+        "operation": "GEN3_SOURCE_OPERATOR_WORD",
+        "output": "003_C3_control.output.json",
+        "output_sha256": "6008537442d654f6a789cdc4893a3684fa4f23f0740dae81111ff1d874bb0b3e"
+      },
+      {
+        "checks": [
+          {
+            "passed": true,
+            "predicate": "native_contract"
+          },
+          {
+            "passed": true,
+            "predicate": "native_status"
+          }
+        ],
+        "id": "pair_321",
+        "input": "004_pair_321.input.json",
+        "input_sha256": "16dbe4c84442d256c983193b44f6cb774c405dc09825c2a474f82835ba37b997",
+        "operation": "GEN3_SOURCE_OPERATOR_WORD",
+        "output": "004_pair_321.output.json",
+        "output_sha256": "d8f506e7ffab97c97f7c1fa8d1869395e7f0c6e99e193df092a3281bc23ce812"
+      }
+    ]
+  },
+  "gen6_execution_path": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_01/tasks/ONE7_PAIR_SECTORS/gen6",
+  "generation": "GEN5-COOPERATING-LOG1-20261008-G2-SPIN-CLOCK",
+  "host_domain_arithmetic": false,
+  "id": "G6_01",
+  "imports": [],
+  "key": "ONE7_PAIR_SECTORS",
+  "kind": "RESULT",
+  "native_calls": 5,
+  "operation": "GEN6_NATIVE_PROGRAM",
+  "portable_bundle": null,
+  "prior_state_root": null,
+  "receipt": "/home/lilhelper/SAM_Research_Overflow/ironclad-235-source-clock-20261105T181633Z/runs/duck/gen7_20261112T043202Z/workers/G6_01/tasks/ONE7_PAIR_SECTORS/RESULT.json",
+  "receipt_sha256": "6024a633e08e245a94315e63f4b12718789ecc003e6c7c81826d6141a274b651",
+  "return_after_admission_deadline": false,
+  "return_observed_monotonic_ns": 1345509299602669,
+  "returned": {
+    "C3_control": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+        "execution": {
+          "backend": "NATIVE_CPP_GMP_CPU",
+          "exact_field": {
+            "radicand": 0
+          },
+          "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+          "shared_checkpoint": true
+        },
+        "field": {
+          "radicand": 0
+        },
+        "matrix": [
+          [
+            "1/6",
+            "1/6",
+            "0",
+            "-1/6",
+            "0",
+            "-1/6",
+            "1/6",
+            "1/6"
+          ],
+          [
+            "1/6",
+            "1/6",
+            "0",
+            "-1/6",
+            "0",
+            "-1/6",
+            "1/6",
+            "1/6"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-1/6",
+            "-1/6",
+            "0",
+            "1/6",
+            "0",
+            "1/6",
+            "-1/6",
+            "-1/6"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-1/6",
+            "-1/6",
+            "0",
+            "1/6",
+            "0",
+            "1/6",
+            "-1/6",
+            "-1/6"
+          ],
+          [
+            "1/6",
+            "1/6",
+            "0",
+            "-1/6",
+            "0",
+            "-1/6",
+            "1/6",
+            "1/6"
+          ],
+          [
+            "1/6",
+            "1/6",
+            "0",
+            "-1/6",
+            "0",
+            "-1/6",
+            "1/6",
+            "1/6"
+          ]
+        ],
+        "native_assertions": 26,
+        "ordered_program": [
+          {
+            "factor": "1",
+            "inputs": [
+              "P411"
+            ],
+            "name": "out",
+            "op": "scale"
+          }
+        ],
+        "output": "out",
+        "rank": 1,
+        "record_sha256": "6c92b1eefad3aaf1abf4f4b3e8947daf90783f626fdfdc87bc1ef884ad5acb87"
+      }
+    },
+    "pair_321": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+        "execution": {
+          "backend": "NATIVE_CPP_GMP_CPU",
+          "exact_field": {
+            "radicand": 0
+          },
+          "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+          "shared_checkpoint": true
+        },
+        "field": {
+          "radicand": 0
+        },
+        "matrix": [
+          [
+            "8/15",
+            "-2/15"
+          ],
+          [
+            "-2/15",
+            "8/15"
+          ]
+        ],
+        "native_assertions": 130,
+        "ordered_program": [
+          {
+            "factor": "100",
+            "inputs": [
+              "C2"
+            ],
+            "name": "c2s",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "c2s",
+              "C3"
+            ],
+            "name": "L",
+            "op": "add"
+          },
+          {
+            "factor": "1446",
+            "inputs": [
+              "I"
+            ],
+            "name": "d42",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "L",
+              "d42"
+            ],
+            "name": "f42",
+            "op": "subtract"
+          },
+          {
+            "factor": "1/1065",
+            "inputs": [
+              "f42"
+            ],
+            "name": "n42",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "I",
+              "n42"
+            ],
+            "name": "p42",
+            "op": "multiply"
+          },
+          {
+            "factor": "1854",
+            "inputs": [
+              "I"
+            ],
+            "name": "d33",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "L",
+              "d33"
+            ],
+            "name": "f33",
+            "op": "subtract"
+          },
+          {
+            "factor": "1/657",
+            "inputs": [
+              "f33"
+            ],
+            "name": "n33",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "p42",
+              "n33"
+            ],
+            "name": "p33",
+            "op": "multiply"
+          },
+          {
+            "factor": "1890",
+            "inputs": [
+              "I"
+            ],
+            "name": "d411",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "L",
+              "d411"
+            ],
+            "name": "f411",
+            "op": "subtract"
+          },
+          {
+            "factor": "1/621",
+            "inputs": [
+              "f411"
+            ],
+            "name": "n411",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "p33",
+              "n411"
+            ],
+            "name": "p411",
+            "op": "multiply"
+          },
+          {
+            "inputs": [
+              "p411",
+              "E"
+            ],
+            "name": "pe",
+            "op": "multiply"
+          },
+          {
+            "inputs": [
+              "E"
+            ],
+            "name": "et",
+            "op": "transpose"
+          },
+          {
+            "inputs": [
+              "et",
+              "pe"
+            ],
+            "name": "out",
+            "op": "multiply"
+          }
+        ],
+        "output": "out",
+        "rank": 2,
+        "record_sha256": "eae7136e358993b11f4126ce60aeaed4b37a4e87883dc6b8bdfad16f8c09d759"
+      }
+    },
+    "pair_33": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+        "execution": {
+          "backend": "NATIVE_CPP_GMP_CPU",
+          "exact_field": {
+            "radicand": 0
+          },
+          "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+          "shared_checkpoint": true
+        },
+        "field": {
+          "radicand": 0
+        },
+        "matrix": [
+          [
+            "1/6",
+            "-1/6"
+          ],
+          [
+            "-1/6",
+            "1/6"
+          ]
+        ],
+        "native_assertions": 129,
+        "ordered_program": [
+          {
+            "factor": "100",
+            "inputs": [
+              "C2"
+            ],
+            "name": "c2s",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "c2s",
+              "C3"
+            ],
+            "name": "L",
+            "op": "add"
+          },
+          {
+            "factor": "1446",
+            "inputs": [
+              "I"
+            ],
+            "name": "d42",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "L",
+              "d42"
+            ],
+            "name": "f42",
+            "op": "subtract"
+          },
+          {
+            "factor": "1/408",
+            "inputs": [
+              "f42"
+            ],
+            "name": "n42",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "I",
+              "n42"
+            ],
+            "name": "p42",
+            "op": "multiply"
+          },
+          {
+            "factor": "1890",
+            "inputs": [
+              "I"
+            ],
+            "name": "d411",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "L",
+              "d411"
+            ],
+            "name": "f411",
+            "op": "subtract"
+          },
+          {
+            "factor": "-1/36",
+            "inputs": [
+              "f411"
+            ],
+            "name": "n411",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "p42",
+              "n411"
+            ],
+            "name": "p411",
+            "op": "multiply"
+          },
+          {
+            "factor": "2511",
+            "inputs": [
+              "I"
+            ],
+            "name": "d321",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "L",
+              "d321"
+            ],
+            "name": "f321",
+            "op": "subtract"
+          },
+          {
+            "factor": "-1/657",
+            "inputs": [
+              "f321"
+            ],
+            "name": "n321",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "p411",
+              "n321"
+            ],
+            "name": "p321",
+            "op": "multiply"
+          },
+          {
+            "inputs": [
+              "p321",
+              "E"
+            ],
+            "name": "pe",
+            "op": "multiply"
+          },
+          {
+            "inputs": [
+              "E"
+            ],
+            "name": "et",
+            "op": "transpose"
+          },
+          {
+            "inputs": [
+              "et",
+              "pe"
+            ],
+            "name": "out",
+            "op": "multiply"
+          }
+        ],
+        "output": "out",
+        "rank": 1,
+        "record_sha256": "8258529accc61d592a90b5a3068666cbfc51188e5cd57f32e8e7d34c98a7ee68"
+      }
+    },
+    "pair_411": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+        "execution": {
+          "backend": "NATIVE_CPP_GMP_CPU",
+          "exact_field": {
+            "radicand": 0
+          },
+          "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+          "shared_checkpoint": true
+        },
+        "field": {
+          "radicand": 0
+        },
+        "matrix": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "native_assertions": 127,
+        "ordered_program": [
+          {
+            "factor": "100",
+            "inputs": [
+              "C2"
+            ],
+            "name": "c2s",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "c2s",
+              "C3"
+            ],
+            "name": "L",
+            "op": "add"
+          },
+          {
+            "factor": "1446",
+            "inputs": [
+              "I"
+            ],
+            "name": "d42",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "L",
+              "d42"
+            ],
+            "name": "f42",
+            "op": "subtract"
+          },
+          {
+            "factor": "1/444",
+            "inputs": [
+              "f42"
+            ],
+            "name": "n42",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "I",
+              "n42"
+            ],
+            "name": "p42",
+            "op": "multiply"
+          },
+          {
+            "factor": "1854",
+            "inputs": [
+              "I"
+            ],
+            "name": "d33",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "L",
+              "d33"
+            ],
+            "name": "f33",
+            "op": "subtract"
+          },
+          {
+            "factor": "1/36",
+            "inputs": [
+              "f33"
+            ],
+            "name": "n33",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "p42",
+              "n33"
+            ],
+            "name": "p33",
+            "op": "multiply"
+          },
+          {
+            "factor": "2511",
+            "inputs": [
+              "I"
+            ],
+            "name": "d321",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "L",
+              "d321"
+            ],
+            "name": "f321",
+            "op": "subtract"
+          },
+          {
+            "factor": "-1/621",
+            "inputs": [
+              "f321"
+            ],
+            "name": "n321",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "p33",
+              "n321"
+            ],
+            "name": "p321",
+            "op": "multiply"
+          },
+          {
+            "inputs": [
+              "p321",
+              "E"
+            ],
+            "name": "pe",
+            "op": "multiply"
+          },
+          {
+            "inputs": [
+              "E"
+            ],
+            "name": "et",
+            "op": "transpose"
+          },
+          {
+            "inputs": [
+              "et",
+              "pe"
+            ],
+            "name": "out",
+            "op": "multiply"
+          }
+        ],
+        "output": "out",
+        "rank": 0,
+        "record_sha256": "9607ec3b5a6d3e24d32dd79e32dd5e60cf9fb85e33dc2f7ecb6a66f8caadbfd9"
+      }
+    },
+    "pair_42": {
+      "status": "DERIVED_NATIVE",
+      "value": {
+        "arithmetic": "EXACT_Q_OR_REAL_QUADRATIC_GMP",
+        "execution": {
+          "backend": "NATIVE_CPP_GMP_CPU",
+          "exact_field": {
+            "radicand": 0
+          },
+          "native_source_manifest": "72525de1e9faabc6b89884926ed02b6d5e0c5cc6aa691033fc6513b38562b718",
+          "shared_checkpoint": true
+        },
+        "field": {
+          "radicand": 0
+        },
+        "matrix": [
+          [
+            "3/10",
+            "3/10"
+          ],
+          [
+            "3/10",
+            "3/10"
+          ]
+        ],
+        "native_assertions": 129,
+        "ordered_program": [
+          {
+            "factor": "100",
+            "inputs": [
+              "C2"
+            ],
+            "name": "c2s",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "c2s",
+              "C3"
+            ],
+            "name": "L",
+            "op": "add"
+          },
+          {
+            "factor": "1854",
+            "inputs": [
+              "I"
+            ],
+            "name": "d33",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "L",
+              "d33"
+            ],
+            "name": "f33",
+            "op": "subtract"
+          },
+          {
+            "factor": "-1/408",
+            "inputs": [
+              "f33"
+            ],
+            "name": "n33",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "I",
+              "n33"
+            ],
+            "name": "p33",
+            "op": "multiply"
+          },
+          {
+            "factor": "1890",
+            "inputs": [
+              "I"
+            ],
+            "name": "d411",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "L",
+              "d411"
+            ],
+            "name": "f411",
+            "op": "subtract"
+          },
+          {
+            "factor": "-1/444",
+            "inputs": [
+              "f411"
+            ],
+            "name": "n411",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "p33",
+              "n411"
+            ],
+            "name": "p411",
+            "op": "multiply"
+          },
+          {
+            "factor": "2511",
+            "inputs": [
+              "I"
+            ],
+            "name": "d321",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "L",
+              "d321"
+            ],
+            "name": "f321",
+            "op": "subtract"
+          },
+          {
+            "factor": "-1/1065",
+            "inputs": [
+              "f321"
+            ],
+            "name": "n321",
+            "op": "scale"
+          },
+          {
+            "inputs": [
+              "p411",
+              "n321"
+            ],
+            "name": "p321",
+            "op": "multiply"
+          },
+          {
+            "inputs": [
+              "p321",
+              "E"
+            ],
+            "name": "pe",
+            "op": "multiply"
+          },
+          {
+            "inputs": [
+              "E"
+            ],
+            "name": "et",
+            "op": "transpose"
+          },
+          {
+            "inputs": [
+              "et",
+              "pe"
+            ],
+            "name": "out",
+            "op": "multiply"
+          }
+        ],
+        "output": "out",
+        "rank": 1,
+        "record_sha256": "005b56e7a5ad99d0ff040076e49160f575f68c5750d2a7917a31c3a81fe739f3"
+      }
+    }
+  },
+  "role": "GEN6_CONTROLLER",
+  "round": "ROUND1",
+  "source_binding": {
+    "campaign": "20261112T043202Z",
+    "kind": "GEN7_DUCK",
+    "law_namespace": "SAM_land",
+    "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+  },
+  "started_utc": "2026-11-12T04:55:21.820047+00:00",
+  "state": null,
+  "state_root": null,
+  "status": "COMPLETED",
+  "target_id": "PARENT",
+  "task_kind": "gen6_job",
+  "worker_cpu": 2,
+  "worker_pid": 3816042
+}

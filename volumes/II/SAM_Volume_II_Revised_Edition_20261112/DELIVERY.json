@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE_VERIFIED",
+  "created_utc": "2026-11-12T06:34:52.261561+00:00",
+  "pdf": "/home/lilhelper/SAM_Research_Overflow/Substrate_Accumulation_Model/volumes/II/SAM_Volume_II_Revised_Edition_20261112/SAM_Volume_II_Revised_Edition_20261112.pdf",
+  "pdf_sha256": "f20350b533e8a5ecb36912dc90c3055fbc20420114e1887e2771b32bd89fab7c",
+  "pages": 136,
+  "figures": 13,
+  "source_zip": "/home/lilhelper/SAM_Research_Overflow/Substrate_Accumulation_Model/volumes/II/SAM_Volume_II_Revised_Edition_20261112/SAM_Volume_II_Revised_Edition_20261112_Source.zip",
+  "source_zip_sha256": "757aa195deda8571aeb4ada26ffec52483f13b14c4acba787d57772c15ac3646",
+  "source_zip_bytes": 33165135,
+  "source_members_checked": 708,
+  "full_report_count": 4,
+  "gen7_records": 30,
+  "case_claims": 36,
+  "case_controls": 29,
+  "evidence_snapshots": 571,
+  "baseline_unchanged": true,
+  "scientific_runs_started": 0,
+  "portable_build": "PORTABLE_BUILD.json",
+  "portable_build_pass": true
+}

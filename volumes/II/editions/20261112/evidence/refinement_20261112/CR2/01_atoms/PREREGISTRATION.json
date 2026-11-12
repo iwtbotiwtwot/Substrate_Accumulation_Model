@@ -1,0 +1,20 @@
+{
+  "form": "verification",
+  "sealed_utc": "2026-11-11T23:22:12.266227+00:00",
+  "expected_outcome": null,
+  "tracks": [
+    "FORM",
+    "ORBITALS",
+    "REFERENCES"
+  ],
+  "claims_file": "CLAIMS.json",
+  "controls_file": "CONTROLS.json",
+  "source_manifest": "sources/SOURCE_MANIFEST.json",
+  "independence_route": "Fresh contexts and separately authored proof/code. I1 only if reached; same-model instance agreement alone is not external verification.",
+  "replay_route": "Fresh relocated public-only replay using documented standard scientific dependencies; R2 only if reached.",
+  "prediction_policy": "Before every attempt seal predictions and code/input hashes, including extra recovered sources. Keep every prior version/failure.",
+  "resource_policy": "Untimed bounded local CR2, one process per track, existing shared arithmetic budget. No Duck or remote compute.",
+  "lead_policy": "No scientific steering or scratch reading during verifier work; full review and fresh replay afterward.",
+  "manuscript_changes": false,
+  "external_publication": "Separate upload authorization applies only to its named payload; no automatic export from preparation."
+}

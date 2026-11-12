@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "scope": "Verbatim retention, no selected passages.",
+  "documents": [
+    {
+      "path": "peers/SIGNED/REPORT.md",
+      "sha256": "63084d75b2df33575ea31a6708c434787cd47f7d9f345b3ab5c27f0f529dc4dc",
+      "bytes": 6920
+    },
+    {
+      "path": "peers/SIGNED/DERIVATION.md",
+      "sha256": "62e1f066757f1f4593797b8bdbc1a56e4a566204597c5afb355b2cfea6b8bff1",
+      "bytes": 17961
+    },
+    {
+      "path": "peers/SIGNED/HYPOTHESES.md",
+      "sha256": "5eca243d142339783f001589f5d9c3183e0b9d1e18d37c84ec4a80ed62abf3a5",
+      "bytes": 4941
+    },
+    {
+      "path": "peers/GROWING/REPORT.md",
+      "sha256": "b0bd2be20a6916a930176260beb87281d02d50665200f9f2802798bca2c1371c",
+      "bytes": 6490
+    },
+    {
+      "path": "peers/GROWING/DERIVATION.md",
+      "sha256": "13eb0471f184d6f2df848046b2eb0f3da346055e1a2e1a1d2cde292ec14038ba",
+      "bytes": 23616
+    },
+    {
+      "path": "peers/GROWING/HYPOTHESES.md",
+      "sha256": "81578d9c64a12ab7b4c156a20b1c5d0e66513a772abae524bef65aec3b3ea7a2",
+      "bytes": 5691
+    },
+    {
+      "path": "peers/QUADRATURE/REPORT.md",
+      "sha256": "671e139970199da5f19d512056beec8a3ca80bb2b4782acec3aacd3f82b20eaf",
+      "bytes": 7881
+    },
+    {
+      "path": "peers/QUADRATURE/DERIVATION.md",
+      "sha256": "b83753099b9a2f96f576c525b231e9a85ad770649f5f2ed752c0eb9848f6a778",
+      "bytes": 24351
+    },
+    {
+      "path": "peers/QUADRATURE/HYPOTHESES.md",
+      "sha256": "5859b9706fa268fe58b3e45fcac85b89b73e56ea6eb890705a6441ce64abecee",
+      "bytes": 5332
+    }
+  ],
+  "handoff_sha256": "b2f41073eabd87b522f198dc10eba0dc4ff0eb3cd60d55645a49a1a79ee6c531"
+}

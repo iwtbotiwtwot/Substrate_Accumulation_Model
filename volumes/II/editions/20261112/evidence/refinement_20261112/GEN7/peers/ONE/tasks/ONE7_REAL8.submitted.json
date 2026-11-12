@@ -1,0 +1,16 @@
+{
+ "kind": "gen6_job",
+ "key": "ONE7_REAL8",
+ "purpose": "ONE7_REAL8 lane ONE source-bound verification",
+ "job_path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/ONE/tasks/ONE7_REAL8.job.json",
+ "estimated_memory_bytes": 150000000,
+ "controller": "G6_01",
+ "target_id": "PARENT",
+ "source_binding": {
+  "kind": "GEN7_DUCK",
+  "campaign": "20261112T043202Z",
+  "law_namespace": "SAM_land",
+  "target_sha256": "821ae35dfa3c40c1cec69487ee426ac1215d6859cce16a64c48c8d477c0a3721"
+ },
+ "job_sha256": "0e11119a9f36d616153b1f4bd202ec381585f480753d24da906025a462fa38d0"
+}

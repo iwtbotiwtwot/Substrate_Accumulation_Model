@@ -1,0 +1,33 @@
+{
+  "dp": {
+    "path_count": 30,
+    "rank": 10,
+    "min_variation": "225002149/139250907",
+    "min_gross": "66534041/557003628",
+    "min_storage": "124789553/61889292",
+    "rolewise_mean": "3476627797/2228014512",
+    "value_of_information": "13711843/247557168",
+    "minimum_policy_actions": 3,
+    "fibers": [
+      [
+        6,
+        12,
+        6
+      ]
+    ],
+    "control_residual": "5454347/557003628"
+  },
+  "reference_counts": {
+    "N1": 61,
+    "N2": 68,
+    "ZN2": 47
+  },
+  "anchors": [
+    "278070783625/51574868504",
+    "-278070783625/51574868504",
+    "35563788859572595628875/17880008275196452753326"
+  ],
+  "grammar_norm_count": 107,
+  "grammar_double_fibers": 13,
+  "wave_cap": "10864751071/40"
+}

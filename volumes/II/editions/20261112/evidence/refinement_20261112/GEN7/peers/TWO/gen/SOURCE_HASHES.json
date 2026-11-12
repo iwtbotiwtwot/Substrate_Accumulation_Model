@@ -1,0 +1,42 @@
+{
+  "Volume II controlling PDF": {
+    "path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/reading/02_SAM_Volume_II_Revised_Edition_20261110.pdf",
+    "sha256": "391450c512bfda11682e5a58b6f3f8d27856cdc4381cd962432ae9d3e521a5f3"
+  },
+  "H003004 complete q/I operand": {
+    "path": "/home/lilhelper/SAM_Research_Overflow/Courtroom_II/campaigns/volii_review_followups_20261111/01_atoms/peers/REFERENCES/attempts/002/output/NUCLEAR_RECONSTRUCTION.json",
+    "sha256": "6e58aab8aeecef64f3ae38f6baf445dcec631f2d3af2b0de963b04537d569339"
+  },
+  "Original geometry derivation": {
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/volii_lapse_field1/DERIVATION.md",
+    "sha256": "9a96f02787876de36eba1be3f2828b0963bb8ae9921ac9ae8bb92aef0fcb73d8"
+  },
+  "Original geometry adapter (read only)": {
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/volii_lapse_field1/native_route/adapter.py",
+    "sha256": "62b649edb2b4fe7336691caf64d98d455ee609cdf662c70598a8523952c09908"
+  },
+  "Original geometry completion manifest": {
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/volii_lapse_field1/MANIFEST.json",
+    "sha256": "22929e334b84063817427081bdc5c8f88ca46b6537be4162c834ec925c6acd50"
+  },
+  "Original molecular direction/energy law": {
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/volii_molecular_source1/DERIVATION.md",
+    "sha256": "6cdbcd4ae88f183ca405bcad7d6600a06aaaf8c6efd2a4ceaa90ab8aa07132a7"
+  },
+  "Full signed molecular C1 proof": {
+    "path": "/home/lilhelper/SAM_Research_Overflow/SAM_Research_Project/GEN4/volii_moving_reference1/PROOF.md",
+    "sha256": "4e60a39bb635b8b65e1a647619b17996a253f8f44c2caa64f089a712d2bdb27e"
+  },
+  "Original FOUR-M01 submission/scope": {
+    "path": "/home/lilhelper/SAM_Research_Overflow/ironclad/campaigns/volii_improvement_review_20261111/peers/FOUR/gen/MOLECULAR_TAIL_WORKING_UPDATED.md",
+    "sha256": "4ce636042050f64988a7379b4df1f6c72ad61bc6d030b65f3e864eaee9a7012d"
+  },
+  "New predictions": {
+    "path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/TWO/PRECOMMIT.md",
+    "sha256": "273fb40fff5700d9f262b60d289c5c8d5586ae0f21caeafb3f0b1de169cecd85"
+  },
+  "New panel implementation": {
+    "path": "/home/lilhelper/SAM_Research_Overflow/GEN7/vol_ii_refine_1111901/duck_run_20261112T043202Z/peers/TWO/gen/panel.py",
+    "sha256": "055bea6821a59698193e9327994fd7a38a727242d0742fc48137d74469f469f3"
+  }
+}

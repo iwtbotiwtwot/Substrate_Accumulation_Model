@@ -1,0 +1,90 @@
+{
+  "form": "verification",
+  "claims": [
+    {
+      "id": "A01",
+      "track": "LI6",
+      "type": "EXACT",
+      "title": "Original complete Li6 source and one-hop map",
+      "submitted_statement": "Reconstruct the unchanged full source, physical CAR/flavor decomposition, equilibrium-cloud embedding, common polar isometry and full-source/transported-Write extension. The energy upper is scoped to the submitted unchanged input."
+    },
+    {
+      "id": "A02",
+      "track": "LI6",
+      "type": "EXACT",
+      "title": "Complete coherent/CAR moments",
+      "submitted_statement": "Independently rebuild all one-hop physical density images, signed mixed terms, coherent self/vertex payments, cubic parity and cell-escape moments, retaining the full Fock reference and target norm."
+    },
+    {
+      "id": "A03",
+      "track": "LI6",
+      "type": "EXACT",
+      "title": "Both strict margins",
+      "submitted_statement": "Certify the submitted benchmark weighted energy gain and same-proper-reference margin, and the separate conservative same-static-G real harmonic family statement using each field member own normalizable cloud."
+    },
+    {
+      "id": "A04",
+      "track": "LI6",
+      "type": "EXACT",
+      "title": "Preparation and sector boundaries",
+      "submitted_statement": "Check precisely which common map, flavor sectors and input are covered. Preserve the open 321 spectral promotion and physical variational-filter implementation/response/control gaps without borrowing old-trial constants."
+    },
+    {
+      "id": "B01",
+      "track": "N12",
+      "type": "EXACT",
+      "title": "New source and complete proper lower",
+      "submitted_statement": "Reconstruct the new population, all physical occupancy classes, degree/flow feasibility and all flavor/cell/fragment dynamic programming. Check every proper split and the stated worst numerator without restricting to one split type."
+    },
+    {
+      "id": "B02",
+      "track": "N12",
+      "type": "EXACT",
+      "title": "Full-flavor target and energy",
+      "submitted_statement": "Independently rebuild the selected target Slaters and coherent Gram, all kinetic/parity terms, target-potential minimum, full flavor/Casimir images and exact parameter-dependent complete-energy margin."
+    },
+    {
+      "id": "B03",
+      "track": "N12",
+      "type": "EXACT",
+      "title": "Full source success/failure instrument",
+      "submitted_statement": "Check full-flavor multiplicity/intertwiner and extension to the complete source instrument, including failure branch, source Gram/Writes and the submitted unchanged-pair success probability. Keep the different source and earlier arrival repair separate."
+    },
+    {
+      "id": "B04",
+      "track": "N12",
+      "type": "EXACT",
+      "title": "Loading and complete-reference limits",
+      "submitted_statement": "Audit the bounded downstream bare-target loading allowance with its exact supplied inputs, and the one-cell capacity/COM alternatives. State which incoming cloud, controller, reference, reset and spectral claims remain outside the certificate."
+    },
+    {
+      "id": "C01",
+      "track": "LOADING",
+      "type": "EXACT",
+      "title": "Whole continuum residual functional",
+      "submitted_statement": "From the original shell spectrum and supplied scalar control derive the exact triangular-kernel residual, source displacement normalization and field/reference/initial-state conditions."
+    },
+    {
+      "id": "C02",
+      "track": "LOADING",
+      "type": "EXACT",
+      "title": "Sharp finite signed-ramp lower",
+      "submitted_statement": "Prove the box-autocorrelation/residue-fiber lower for every finite real signed unit-mass scalar ramp, including integer-time and endpoint cases, and independently reconstruct attaining positive schedules."
+    },
+    {
+      "id": "C03",
+      "track": "LOADING",
+      "type": "EXACT",
+      "title": "Rate and comparison formulas",
+      "submitted_statement": "Verify the linear-ramp, bounded-rate and smooth-approximation formulas under their precise constraints. Compare the full continuum energy to discrete cancellation and local-mean agreement without transferring their conclusions."
+    },
+    {
+      "id": "C04",
+      "track": "LOADING",
+      "type": "EXACT",
+      "title": "Fock/control and formation join",
+      "submitted_statement": "Audit normal-Fock versus static displaced-sector statements, supplied counterterm and fixed legal source, and identify which controller/clock/preparation/reset quantities are actual additional operands."
+    }
+  ],
+  "outcome_policy": "HELD, HELD WITH CORRECTION, BROKE, with any unresolved substatement explicit; no desired research outcome."
+}

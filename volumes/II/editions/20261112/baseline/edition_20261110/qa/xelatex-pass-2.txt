@@ -1,0 +1,614 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(./preamble.tex (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)
+(/home/lilhelper/SAM_Research_Overflow/Substrate_Accumulation_Model/volumes/II/
+editions/20261110_source_and_formation/tmp/pdfs/build/main.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg)
+(/home/lilhelper/SAM_Research_Overflow/Substrate_Accumulation_Model/volumes/II/
+editions/20261110_source_and_formation/tmp/pdfs/build/main.out)
+(/home/lilhelper/SAM_Research_Overflow/Substrate_Accumulation_Model/volumes/II/
+editions/20261110_source_and_formation/tmp/pdfs/build/main.out) [1]
+(/home/lilhelper/SAM_Research_Overflow/Substrate_Accumulation_Model/volumes/II/
+editions/20261110_source_and_formation/tmp/pdfs/build/main.toc
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd)) [2] [3] [4]
+(./original01.tex (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-euf.cfg
+) [5]
+Underfull \hbox (badness 1082) in paragraph at lines 52--53
+\T1/ptm/m/n/10 source and coupling-source chan-nels are $\OML/ztmcm/m/it/10 Q[]
+$ \T1/ptm/m/n/10 and $\OML/ztmcm/m/it/10 Q[]$\T1/ptm/m/n/10 .
+
+Underfull \hbox (badness 4954) in paragraph at lines 83--84
+[]\T1/ptm/m/n/10 The dis-tinc-tion be-tween strong sup-port and par-ti-cle
+
+Underfull \hbox (badness 4660) in paragraph at lines 83--84
+\T1/ptm/m/n/10 iden-tity al-ready ap-pears in the re-ported QP034 se-lec-
+
+Underfull \hbox (badness 1596) in paragraph at lines 83--84
+\T1/ptm/m/n/10 tor. That run records a stable-lane clo-sure frac-tion of
+[6] [7]) (./original02.tex [8]
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[][][]\T1/ptm/m/n/8 Source cus-tody: SAMA, frozen com-mit
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\T1/pcr/m/n/8 4c2b5dc1649da5900c90b90d0ce56c223dbb7717\T1/ptm/m/n/8 ,
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\T1/pcr/m/n/8 vol_ii/complete-volume.md\T1/ptm/m/n/8 , sec-tions 4 and 17.3--17
+.4;
+
+Underfull \hbox (badness 4492) in paragraph at lines 20--20
+\T1/ptm/m/n/8 source-rich re-view, fo-cused doc-u-ments SAMA-D000026 and SAMA-
+
+Underfull \hbox (badness 6493) in paragraph at lines 20--20
+\T1/ptm/m/n/8 D000027. The tech-ni-cal spine at SAM_Research_Project com-mit
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\T1/pcr/m/n/8 81ba5a1f39b244235fdfb80e197abd2bd2a00e96\T1/ptm/m/n/8 , sec-tions
+ I.4
+
+Underfull \hbox (badness 1484) in paragraph at lines 20--21
+\T1/ptm/m/it/10 Typed Mat-ter Sur-faces and Row Gram-mar\T1/ptm/m/n/10 , and SA
+MA-
+
+Underfull \hbox (badness 3000) in paragraph at lines 37--38
+\T1/ptm/m/n/10 126 mat-ter rows, 126 pe-ri-odic rows and 573 identity-
+[9] [10]
+Underfull \hbox (badness 1565) in paragraph at lines 102--103
+[]\T1/ptm/m/n/10 CR129c ex-tends the same three-body gen-er-a-tor to 44
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+[][][]\T1/ptm/m/n/8 SAMA-D000027, sec-tions 6.5--6.9; CR:CR131@13 through
+[12]
+Underfull \hbox (badness 1661) in paragraph at lines 197--198
+\T1/ptm/m/n/10 suf-fi-cient pred-i-cate: mem-ber-ship in the stable-matter or
+) (./original03.tex [13] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[][][]\T1/ptm/m/n/8 SAMA-D000028, sec-tions 3.1--3.3; CR:CR243@09a and
+
+Underfull \hbox (badness 1342) in paragraph at lines 80--80
+\T1/ptm/m/n/8 CR:CR244@09a; source atomic records SAMA-C000148-R001 through
+[15]
+Underfull \hbox (badness 4084) in paragraph at lines 129--129
+\T1/ptm/m/n/8 CR:CR256@09a. SAMA-D000026 and CR:CR280@09a sup-ply the
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[][][]\T1/ptm/m/n/8 SAMA-D000028, sec-tion 5; CR:CR239@09a, re-tained ver-dict
+[16]
+Underfull \hbox (badness 3302) in paragraph at lines 187--188
+[]\T1/ptm/m/n/10 They are not a unique-ness re-sult. The ex-pres-sion
+
+Underfull \hbox (badness 1038) in paragraph at lines 187--188
+\T1/ptm/m/n/10 scan finds thirty hits in the nu-cleon win-dow and six in
+
+Underfull \hbox (badness 5050) in paragraph at lines 187--188
+\T1/ptm/m/n/10 ness pred-i-cates are false. The re-tained over-all ver-
+
+Underfull \hbox (badness 7308) in paragraph at lines 220--221
+\T1/ptm/m/n/10 CR279 pro-motes a later direct-weld re-sult from the
+[17]
+Underfull \hbox (badness 3590) in paragraph at lines 297--297
+[][][]\T1/ptm/m/n/8 SAMA-D000029, sec-tion 6; CR:CR001@20 and CR:CR002@20;
+) (./original04.tex [18] [19]
+Underfull \hbox (badness 4229) in paragraph at lines 131--132
+[]\T1/ptm/m/n/10 One can also sub-tract Equa-tion [] from Equa-
+[20]
+Underfull \hbox (badness 5091) in paragraph at lines 187--188
+[]\T1/ptm/m/n/10 The tech-ni-cal spine records that CR278 re-tained a
+
+Underfull \hbox (badness 1281) in paragraph at lines 204--204
+|[]\T1/ptm/b/n/10 Recovering counts and dis-tin-guish-ing in-for-ma-tion
+[21]) (./original05.tex [22]
+Underfull \hbox (badness 1681) in paragraph at lines 17--18
+[]\T1/ptm/m/n/10 CR240 sup-plies the cor-rected dis-tinc-tion be-tween rest
+[23] [24] [25]
+Underfull \hbox (badness 1424) in paragraph at lines 209--210
+\T1/ptm/m/n/10 CR277 ap-plied the frozen CR274 base-plus-four-operator
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+[]\T1/ptm/m/n/10 The target-blind rel-a-tive RMSE is re-ported as
+
+Underfull \hbox (badness 2735) in paragraph at lines 290--290
+|[]\T1/ptm/b/n/10 The direction-erased di-ag-nos-tic and the cur-rent
+[27]
+Underfull \hbox (badness 3189) in paragraph at lines 312--313
+\T1/ptm/m/n/10 reference trans-fer ac-tion $\OML/ztmcm/m/it/10 E[] \OMS/ztmcm/m
+/n/10 ^^@ \OML/ztmcm/m/it/10 E[] \OT1/ztmcm/m/n/10 = \OML/ztmcm/m/it/10 ^^Z \OT
+1/ztmcm/m/n/10 49\OML/ztmcm/m/it/10 K U=\OT1/ztmcm/m/n/10 (32\OML/ztmcm/m/it/10
+ A\OT1/ztmcm/m/n/10 )$
+
+Underfull \hbox (badness 7888) in paragraph at lines 312--313
+\T1/ptm/m/n/10 with $\OML/ztmcm/m/it/10 K \OT1/ztmcm/m/n/10 = 50310649\OML/ztmc
+m/m/it/10 =\OT1/ztmcm/m/n/10 1366464$ \T1/ptm/m/n/10 reaches resid-ual RMSE
+[28]) [29] [30] (./spin_00.tex
+Underfull \hbox (badness 1033) in paragraph at lines 30--31
+[]\T1/ptm/m/n/10 The com-pleted six-case $\OML/ztmcm/m/it/10 N \OT1/ztmcm/m/n/1
+0 = 2000$ \T1/ptm/m/n/10 cal-cu-la-tion con-tains
+
+Underfull \hbox (badness 1515) in paragraph at lines 45--47
+\T1/ptm/m/n/10 eval-u-ate this full mea-sure. In the recorded pro-duc-tion,
+
+Underfull \hbox (badness 2894) in paragraph at lines 45--47
+\T1/ptm/m/n/10 sep-a-rately com-puted global en-cod-ings agree for all 96
+
+Underfull \hbox (badness 1102) in paragraph at lines 45--47
+\T1/ptm/m/n/10 case/boundary ta-bles. The large in-te-ger state counts re-
+[31] [32]
+Underfull \hbox (badness 2088) in paragraph at lines 140--140
+|[]\T1/ptm/b/n/10 A fi-nite crossover pre-serves ac-tual con-trols and
+[33]) (./spin_01.tex [34]
+Underfull \hbox (badness 1845) in paragraph at lines 16--21
+[]\T1/ptm/m/n/10 The ex-po-si-tion here syn-the-sizes the com-pleted source
+[35]
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 153.
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 317--333
+[]\T1/ptm/m/n/10 For the ac-tual beta-one source, di-rected cal-cu-
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--333
+\T1/ptm/m/n/10 la-tions give even/odd ranks $\OT1/ztmcm/m/n/10 7\OML/ztmcm/m/it
+/10 ; \OT1/ztmcm/m/n/10 8$ \T1/ptm/m/n/10 and norm up-pers
+
+Underfull \hbox (badness 1331) in paragraph at lines 317--333
+\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 11541111\OML/ztmcm/m/i
+t/10 ; \OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 11540590$\T1/pt
+m/m/n/10 , about 35 times tighter than the
+
+Underfull \hbox (badness 3838) in paragraph at lines 317--333
+\T1/ptm/m/n/10 boundary total-variation er-rors for $\OML/ztmcm/m/it/10 ^^M \OT
+1/ztmcm/m/n/10 = 1\OML/ztmcm/m/it/10 =\OT1/ztmcm/m/n/10 4\OML/ztmcm/m/it/10 ; \
+OT1/ztmcm/m/n/10 1\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 4\OML/ztmcm/m/it/10 ; 
+\OT1/ztmcm/m/n/10 16$ \T1/ptm/m/n/10 are
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--333
+\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 000830225\OML/ztmcm/m/
+it/10 ; \OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 000715785\OML/
+ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 000456
+950\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/1
+0 000181530$\T1/ptm/m/n/10 .
+
+Underfull \hbox (badness 6944) in paragraph at lines 365--375
+[]\T1/ptm/m/n/10 For two waits of $\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/
+ztmcm/m/n/10 01$\T1/ptm/m/n/10 , each ac-cept-ing $\OML/ztmcm/m/it/10 s[]s[] \O
+T1/ztmcm/m/n/10 = 1$\T1/ptm/m/n/10 ,
+
+Underfull \hbox (badness 2119) in paragraph at lines 365--375
+\T1/ptm/m/n/10 con-di-tional boundary-one prepa-ra-tion has weighted er-ror
+
+Underfull \hbox (badness 2012) in paragraph at lines 365--375
+\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 000245118417$\T1/ptm/m
+/n/10 , be-low pay-ment $\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/
+10 000628042124$\T1/ptm/m/n/10 . Ac-
+
+Underfull \hbox (badness 4569) in paragraph at lines 365--375
+\T1/ptm/m/n/10 resid-ual norm $\OT1/ztmcm/m/n/10 36423\OML/ztmcm/m/it/10 :\OT1/
+ztmcm/m/n/10 4512$ \T1/ptm/m/n/10 and ini-tial forc-ing $\OML/ztmcm/m/it/10 L[]
+$\T1/ptm/m/n/10 -norm
+[37]
+Underfull \hbox (badness 4832) in paragraph at lines 456--465
+\T1/ptm/m/n/10 The sur-vival e-fold lies be-tween $\OT1/ztmcm/m/n/10 11[]152[]0
+47\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 5223$ \T1/ptm/m/n/10 and
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--484
+\OT1/ztmcm/m/n/10 10[]\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 8\OML/ztmcm/m/it/1
+0 :\OT1/ztmcm/m/n/10 59490215 \OMS/ztmcm/m/n/10 ^^B \OT1/ztmcm/m/n/10 10[]\OML/
+ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 036847
+78302\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n
+/10 03685638161$\T1/ptm/m/n/10 .
+[38]
+Underfull \hbox (badness 2326) in paragraph at lines 542--550
+\T1/ptm/m/n/10 The im-ple-men-ta-tion ad-di-tion-ally in-cludes di-rected small
+-
+
+Underfull \hbox (badness 2165) in paragraph at lines 570--582
+\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 001798$ \T1/ptm/m/n/10
+ at $\OT1/ztmcm/m/n/10 10[]$\T1/ptm/m/n/10 ; the later width in-cludes the ac-c
+u-mu-
+
+Underfull \hbox (badness 1824) in paragraph at lines 570--582
+\T1/ptm/m/n/10 lated re-tained Ritz pay-ment. At $\OT1/ztmcm/m/n/10 10[]$\T1/pt
+m/m/n/10 , equilibrium-zero,
+) (./spin_02.tex [39]
+Underfull \hbox (badness 1460) in paragraph at lines 33--35
+\T1/ptm/m/n/10 Thus com-po-si-tion changes a com-plete pos-i-tive field law
+[40] [41]
+Underfull \hbox (badness 1137) in paragraph at lines 194--196
+\T1/ptm/m/n/10 ity. Counts and cen-ter re-main iden-ti-cal be-tween paired
+
+Underfull \hbox (badness 3118) in paragraph at lines 194--196
+\T1/ptm/m/n/10 sources. The fi-nite cor-rec-tion is cal-cu-lated from the
+[42] [43]
+Underfull \hbox (badness 1975) in paragraph at lines 343--344
+\T1/ptm/m/n/10 pos-i-tive lead-ing re-sponse at ev-ery $\OML/ztmcm/m/it/10 z > 
+\OT1/ztmcm/m/n/10 0$\T1/ptm/m/n/10 . The $\OML/ztmcm/m/it/10 s \OT1/ztmcm/m/n/1
+0 = 2$
+
+Underfull \hbox (badness 1655) in paragraph at lines 365--367
+\T1/ptm/m/n/10 Here $\OML/ztmcm/m/it/10 ^^_[]$ \T1/ptm/m/n/10 is the ear-lier c
+rit-i-cal tem-per-a-ture slope. The
+
+Underfull \hbox (badness 1286) in paragraph at lines 365--367
+\T1/ptm/m/n/10 sec-ond ad-just-ments are ap-prox-i-mately $\OT1/ztmcm/m/n/10 7\
+OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 54942381355810$\T1/ptm/m/n/10 ,
+[44]
+Underfull \hbox (badness 3746) in paragraph at lines 430--431
+[]\T1/ptm/m/n/10 The ac-tual 32 undi-rected edges have over-laps from
+[45]
+Underfull \hbox (badness 4254) in paragraph at lines 441--442
+\T1/ptm/m/n/10 masses are ap-prox-i-mately $\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/
+10 :\OT1/ztmcm/m/n/10 9999218641$\T1/ptm/m/n/10 , $\OT1/ztmcm/m/n/10 0\OML/ztmc
+m/m/it/10 :\OT1/ztmcm/m/n/10 9999213163$
+
+Underfull \hbox (badness 1810) in paragraph at lines 447--452
+\T1/ptm/m/n/10 For $[] \OMS/ztmcm/m/n/10 ^^U k\OML/ztmcm/m/it/10 b[]b\OMS/ztmcm
+/m/n/10 k$\T1/ptm/m/n/10 , prepa-ra-tion costs $[] \OML/ztmcm/m/it/10  \OT1/ztm
+cm/m/n/10 (\OML/ztmcm/m/it/10 T\OT1/ztmcm/m/n/10 )\OMS/ztmcm/m/n/10 k\OML/ztmcm
+/m/it/10 r[]\OMS/ztmcm/m/n/10 k[]$\T1/ptm/m/n/10 ; within
+
+Underfull \hbox (badness 1721) in paragraph at lines 447--452
+\T1/ptm/m/n/10 waits cost $[] [][] \OML/ztmcm/m/it/10 ^^^\OT1/ztmcm/m/n/10 (\OM
+L/ztmcm/m/it/10 t[]\OT1/ztmcm/m/n/10 )\OMS/ztmcm/m/n/10 k\OML/ztmcm/m/it/10 q[]
+\OMS/ztmcm/m/n/10 k[]$\T1/ptm/m/n/10 ; be-tween waits cost $[]\OT1/ztmcm/m/n/10
+ [\OML/ztmcm/m/it/10 ^^^\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 T\OT1/ztmcm/m/n/1
+0 ) \OMS/ztmcm/m/n/10 ^^@
+
+Underfull \hbox (badness 6141) in paragraph at lines 453--454
+[]\T1/ptm/m/n/10 For the equilibrium-one ex-am-ple, the be-tween and
+) (./spin_03.tex [46]
+Underfull \hbox (badness 1297) in paragraph at lines 6--7
+\T1/ptm/m/n/10 The mi-cro-scopic and com-po-si-tion con-struc-tions sup-ply a
+
+Underfull \hbox (badness 1158) in paragraph at lines 8--9
+[]\T1/ptm/m/n/10 There are eigh-teen orig-i-nal fam-i-lies, each with \T1/pcr/m
+/n/10 BASE\T1/ptm/m/n/10 ,
+[47]
+Underfull \hbox (badness 1292) in paragraph at lines 124--125
+\T1/ptm/m/n/10 to $\OT1/ztmcm/m/n/10 1\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 050
+1393447$\T1/ptm/m/n/10 . The rate quo-tient $\OML/ztmcm/m/it/10 J[]=\OMS/ztmcm/
+m/n/10 h\OML/ztmcm/m/it/10 w[]; w[]\OMS/ztmcm/m/n/10 i$ \T1/ptm/m/n/10 spans
+[48]
+Underfull \hbox (badness 2573) in paragraph at lines 212--213
+\T1/ptm/m/n/10 The original-source cal-cu-la-tion eval-u-ates $\OML/ztmcm/m/it/
+10 J[]; F[]$ \T1/ptm/m/n/10 for all
+[49]
+Underfull \hbox (badness 1014) in paragraph at lines 230--231
+\T1/ptm/m/n/10 metic and in-her-ited co-ef-fi-cient un-cer-tainty prop-a-gate i
+nto
+[50]
+Underfull \hbox (badness 7397) in paragraph at lines 300--301
+[]\T1/ptm/m/n/10 This new ob-serv-able has its own nu-mer-i-cal en-ve-
+
+Underfull \hbox (badness 3679) in paragraph at lines 300--301
+\T1/ptm/m/n/10 lope. The seven fea-ture am-pli-tudes are bounded by
+
+Underfull \hbox (badness 6268) in paragraph at lines 320--322
+\T1/ptm/m/n/10 The square re-tains the source/complement in-ter-fer-ence
+[51]
+Underfull \hbox (badness 4467) in paragraph at lines 372--372
+|[]\T1/ptm/b/n/10 Completed sources, se-lected con-tin-u-a-tions and
+
+Underfull \hbox (badness 1701) in paragraph at lines 389--390
+\T1/ptm/m/n/10 Seven idea runs on the in-stalled ex-act en-gine (iron-clad
+[52]) (./spin_04.tex [53]
+Underfull \hbox (badness 1019) in paragraph at lines 6--7
+\T1/ptm/m/n/10 The com-pleted spin pro-gram con-nects the three vol-umes
+
+Underfull \hbox (badness 5417) in paragraph at lines 53--54
+[]\T1/ptm/m/n/10 Changing source com-po-si-tion or di-men-sion-less gaps
+[54] [55]
+Underfull \hbox (badness 1565) in paragraph at lines 121--122
+[]\T1/ptm/m/n/10 The shared joint-spin in-stal-la-tion al-ready adopts those
+) [56] [57] (./nuclear_01.tex [58] [59]
+Underfull \hbox (badness 1248) in paragraph at lines 272--272
+|[]\T1/ptm/b/n/10 Three com-plete He4 cores form a C12-inventory
+
+Underfull \hbox (badness 2126) in paragraph at lines 334--341
+\T1/ptm/m/n/10 At $\OML/ztmcm/m/it/10 ^^L \OT1/ztmcm/m/n/10 = 1\OML/ztmcm/m/it/
+10 =\OT1/ztmcm/m/n/10 1000$\T1/ptm/m/n/10 , con-tact low-er-ings for 333,343,44
+4 are
+
+Underfull \hbox (badness 4378) in paragraph at lines 334--341
+\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 027386518\OML/ztmcm/m/
+it/10 ; \OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 026430222\OML/
+ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 024592
+906$\T1/ptm/m/n/10 ; at $\OML/ztmcm/m/it/10 ^^L \OT1/ztmcm/m/n/10 = 1$ \T1/ptm/
+m/n/10 they
+
+Underfull \hbox (badness 2600) in paragraph at lines 334--341
+\T1/ptm/m/n/10 be-come $\OT1/ztmcm/m/n/10 5\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/1
+0 352521918\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 11\OML/ztmcm/m/it/10 :\OT1/zt
+mcm/m/n/10 010756182\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 34\OML/ztmcm/m/it/10
+ :\OT1/ztmcm/m/n/10 482932348$\T1/ptm/m/n/10 . The
+
+Underfull \hbox (badness 4981) in paragraph at lines 387--395
+\T1/ptm/m/n/10 This all-beta iden-tity comes from the orig-i-nal source
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--395
+\T1/ptm/m/n/10 fac-tor-iza-tion. At beta one the sus-cep-ti-bil-i-ties are
+
+Underfull \hbox (badness 1968) in paragraph at lines 387--395
+\OT1/ztmcm/m/n/10 16\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 433365151\OML/ztmcm/m
+/it/10 ; \OT1/ztmcm/m/n/10 30\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 977625987\OM
+L/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 71\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 932
+798026$\T1/ptm/m/n/10 ; all 24 equal-
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 433--441
+\T1/ptm/m/n/10 At beta $\OT1/ztmcm/m/n/10 1\OML/ztmcm/m/it/10 =\OT1/ztmcm/m/n/1
+0 1000$\T1/ptm/m/n/10 , the free for-ma-tion dif-fer-ence is
+
+Underfull \hbox (badness 1286) in paragraph at lines 433--441
+\T1/ptm/m/n/10 a-tive en-tropy $\OT1/ztmcm/m/n/10 65\OML/ztmcm/m/it/10 :\OT1/zt
+mcm/m/n/10 573088854$\T1/ptm/m/n/10 . These val-ues pre-serve the
+(./nuclear_20261110.tex [61]
+Underfull \hbox (badness 1852) in paragraph at lines 149--151
+[]\T1/ptm/m/n/10 For an in-de-pen-dently phased graph with pos-i-tive site
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 228--231
+[]\T1/ptm/m/n/10 The sub-se-quent common-fermion cal-cu-la-tion makes
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 403--409
+\T1/ptm/m/n/10 has lower mar-gin $\OT1/ztmcm/m/n/10 3784147145591\OML/ztmcm/m/i
+t/10 =\OT1/ztmcm/m/n/10 29697024840000 \OML/ztmcm/m/it/10 >
+[64])) (./nuclear_02.tex [65]
+Underfull \hbox (badness 2384) in paragraph at lines 119--123
+[]\T1/ptm/m/n/10 Different changes of this source se-lect dif-fer-ent low-
+[66]
+Underfull \hbox (badness 5077) in paragraph at lines 143--149
+\T1/ptm/m/n/10 The com-plete hori-zon is $\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10
+ a[]S \OT1/ztmcm/m/n/10 + 2\OML/ztmcm/m/it/10 R\OT1/ztmcm/m/n/10 )\OML/ztmcm/m/
+it/10 =c$\T1/ptm/m/n/10 , where $\OML/ztmcm/m/it/10 a[] \OT1/ztmcm/m/n/10 =
+
+Underfull \hbox (badness 1394) in paragraph at lines 202--210
+\T1/ptm/m/n/10 scalar and po-lar-iza-tion chan-nels. The ref-er-ence ground
+[67]
+Underfull \hbox (badness 1888) in paragraph at lines 303--305
+\T1/ptm/m/n/10 The com-plete sta-tion-ary ac-cepted in-ten-sity per oc-cu-pied
+[68]
+Underfull \hbox (badness 3965) in paragraph at lines 450--450
+|[]\T1/ptm/b/n/10 Source prepa-ra-tion also changes the frag-ment
+[69] (./formation_20261110.tex [70]
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+|[]\T1/ptm/b/n/10 Source in-for-ma-tion must ac-com-pany source-
+[71])) (./original06.tex
+Underfull \hbox (badness 2326) in paragraph at lines 281--1
+[]\T1/ptm/m/n/10 The chap-ter now sup-plies an ex-plicit chain: source-
+[72] [73] [74]) (./atoms_01.tex [75]
+Underfull \hbox (badness 1173) in paragraph at lines 58--59
+\T1/ptm/m/n/10 played one- and two-electron in-ter-vals are ap-prox-i-mately
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+\OT1/ztmcm/m/n/10 [\OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :
+\OT1/ztmcm/m/n/10 233294\OML/ztmcm/m/it/10 ; \OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/
+n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 232789]$ \T1/ptm/m/n/10 and $\OT1/z
+tmcm/m/n/10 [\OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/z
+tmcm/m/n/10 433514\OML/ztmcm/m/it/10 ; \OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 0
+\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 432425]$\T1/ptm/m/n/10 ;
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+\T1/ptm/m/n/10 for cover 4 they are $\OT1/ztmcm/m/n/10 [\OMS/ztmcm/m/n/10 ^^@\O
+T1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 551141\OML/ztmcm/m/it/10
+ ; \OMS/ztmcm/m/n/10 ^^@\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/1
+0 549727]$ \T1/ptm/m/n/10 and
+[76]
+Underfull \hbox (badness 5022) in paragraph at lines 101--102
+[]\T1/ptm/m/n/10 All forty-four pop-u-lated whole-source bind-ing lower
+
+Underfull \hbox (badness 1112) in paragraph at lines 105--106
+\T1/ptm/m/n/10 The uni-ver-sal full-space elec-tronic ground co-ef-fi-cient $\O
+ML/ztmcm/m/it/10 e[]$
+[77] [78]) (./atoms_02.tex [79]
+Underfull \hbox (badness 1454) in paragraph at lines 50--51
+\T1/ptm/m/n/10 count, $\OML/ztmcm/m/it/10 E[]=E[] \OMS/ztmcm/m/n/10 ^^U \OT1/zt
+mcm/m/n/10 1167221$ \T1/ptm/m/n/10 is a suf-fi-cient regime for a
+[80]
+Underfull \hbox (badness 1515) in paragraph at lines 124--126
+\T1/ptm/m/n/10 For $\OML/ztmcm/m/it/10 N[] \OT1/ztmcm/m/n/10 = 8\OML/ztmcm/m/it
+/10 ; r[] \OT1/ztmcm/m/n/10 = 1$\T1/ptm/m/n/10 , its min-i-mum is $\OMS/ztmcm/m
+/n/10 ^^@\OT1/ztmcm/m/n/10 53$\T1/ptm/m/n/10 . With orig-i-
+
+Underfull \hbox (badness 1917) in paragraph at lines 127--128
+\T1/ptm/m/n/10 Gibbs re-ceiver yield selected-contact ac-cep-tance at least
+[81]
+Underfull \hbox (badness 2418) in paragraph at lines 145--146
+[]\T1/ptm/m/n/10 Antisymmetric prod-ucts of com-pactly lo-cal-ized ac-tual
+
+Underfull \hbox (badness 1082) in paragraph at lines 147--147
+|[]\T1/ptm/b/n/10 Complete moving-reference at-trac-tion for car-bon
+
+Underfull \hbox (badness 1286) in paragraph at lines 188--189
+[]\T1/ptm/m/n/10 The same source iden-ti-fies $\OML/ztmcm/m/it/10 ^^O[] \OT1/zt
+mcm/m/n/10 = \OML/ztmcm/m/it/10 G[]=R$ \T1/ptm/m/n/10 and $\OML/ztmcm/m/it/10 ^
+^Ur[] \OT1/ztmcm/m/n/10 =
+[82]
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
+\T1/ptm/m/n/10 All six orig-i-nal car-bon fam-i-lies re-tain pos-i-tive full-
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
+\T1/ptm/m/n/10 tion they are ap-prox-i-mately $\OT1/ztmcm/m/n/10 7\OML/ztmcm/m/
+it/10 :\OT1/ztmcm/m/n/10 19359\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 7\OML/ztmc
+m/m/it/10 :\OT1/ztmcm/m/n/10 75886\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 8\OML/
+ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 90615$
+
+Underfull \hbox (badness 1221) in paragraph at lines 224--226
+\T1/ptm/m/n/10 times $\OT1/ztmcm/m/n/10 10[]$ \T1/ptm/m/n/10 source units; at s
+trong po-lar-iza-tion they are
+) (./scale_01.tex
+Underfull \hbox (badness 1163) in paragraph at lines 229--1
+\T1/ptm/m/n/10 vari-a-tional gain, clas-si-fied strong con-tact. The clamped
+[83]
+Underfull \hbox (badness 1062) in paragraph at lines 45--45
+|[]\T1/ptm/b/n/10 Carbon: a com-pleted source-preserving iso-tope
+[84] [85]
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+\T1/ptm/m/n/10 The staged ros-ter con-tains 31 pri-mary iso-
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+\T1/ptm/m/n/10 topes in six el-e-ment chains: O16--18;
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+\T1/ptm/m/n/10 Ca40,42,43,44,46; Fe54,56,57,58; Ni58,60,61,62,64;
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+\T1/ptm/m/n/10 Sn112,114,115,116,117,118,119,120,122,124; and
+(./receiving_20261110.tex
+Underfull \hbox (badness 6332) in paragraph at lines 1--1
+|[]\T1/ptm/b/n/10 The Novem-ber con-struc-tor changes the next
+[86]
+Underfull \hbox (badness 3579) in paragraph at lines 84--87
+[]\T1/ptm/m/n/10 Four ad-di-tional probe com-bi-na-tions in the same ac-
+
+Underfull \hbox (badness 1688) in paragraph at lines 106--111
+\T1/ptm/m/n/10 Equal-modulus phase Writes alone see four in-de-pen-dent
+[87]
+Underfull \hbox (badness 1163) in paragraph at lines 158--164
+\T1/ptm/m/n/10 static en-ergy $\OMS/ztmcm/m/n/10 ^^@\OML/ztmcm/m/it/10 g[]^^Z[]
+K[]^^Z$\T1/ptm/m/n/10 . Thus the poles are $\OT1/ztmcm/m/n/10 1\OML/ztmcm/m/it/
+10 ; \OT1/ztmcm/m/n/10 3\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 5\OML/ztmcm/m/it
+/10 ; \OT1/ztmcm/m/n/10 7$
+
+Underfull \hbox (badness 2213) in paragraph at lines 158--164
+\T1/ptm/m/n/10 in the bench-mark and $\OT1/ztmcm/m/n/10 1\OML/ztmcm/m/it/10 ; [
+]; []; []$ \T1/ptm/m/n/10 in the spring law.
+
+Underfull \hbox (badness 3872) in paragraph at lines 165--174
+\T1/ptm/m/n/10 tar-get's hop-ping com-pres-sion still van-ishes, so its un-
+
+Underfull \hbox (badness 1033) in paragraph at lines 165--174
+\T1/ptm/m/n/10 changed14336 up-per and $\OT1/ztmcm/m/n/10 11191\OML/ztmcm/m/it/
+10 =\OT1/ztmcm/m/n/10 20250$ \T1/ptm/m/n/10 al-lowance sur-vive
+)) (./original07.tex [88] [89] [90]
+Underfull \hbox (badness 1067) in paragraph at lines 120--121
+\T1/ptm/m/n/10 eight-face Theta18 prism to the na-tive par-ti-tion al-pha-bet.
+
+Underfull \hbox (badness 1087) in paragraph at lines 120--121
+\T1/ptm/m/n/10 Scaled by the A=3 mir-ror split, it yields a com-po-si-tion
+
+Underfull \hbox (badness 1043) in paragraph at lines 120--121
+\T1/ptm/m/n/10 cor-rec-tion of $\OT1/ztmcm/m/n/10 0\OML/ztmcm/m/it/10 :\OT1/ztm
+cm/m/n/10 344750466666 []$ \T1/ptm/m/n/10 MeV. The re-sult-ing He-
+
+Underfull \hbox (badness 3098) in paragraph at lines 140--141
+[]\T1/ptm/m/n/10 The bal-anced relation-emergence test re-ports clo-sures
+[91]
+Underfull \hbox (badness 1616) in paragraph at lines 168--169
+[]\T1/ptm/m/n/10 The fi-nite de-liv-ery test enu-mer-ates all 512 reciprocal-
+[92]) (./foundations_01.tex [93] [94] [95] [96] [97]
+Underfull \hbox (badness 1102) in paragraph at lines 240--242
+\T1/ptm/m/n/10 re-tain-ing ev-ery orig-i-nal $\OT1/ztmcm/m/n/10 2[]$ \T1/ptm/m/
+n/10 prepa-ra-tion and the full self
+) (./original08.tex [98] [99] [100]) [101] [102] (./apparatus_appendix.tex
+[103] [104]) (./evidence_appendix.tex
+Underfull \hbox (badness 1320) in paragraph at lines 258--1
+[]\T1/ptm/m/n/10 Likewise, swap-ping in an al-ready pre-pared in-ter-act-ing
+[105]
+Underfull \hbox (badness 1728) in paragraph at lines 90--99
+\T1/ptm/m/n/10 The broad iso-tope run re-tained a com-pleted ex-plo-ration
+
+Underfull \hbox (badness 1902) in paragraph at lines 90--99
+\T1/ptm/m/n/10 ter-mi-nal record is in-com-plete; un-re-turned steps are not
+[106])
+Underfull \hbox (badness 1303) in paragraph at lines 108--92
+[]\T1/ptm/m/n/10 The pre-vi-ous PDF and manuscript sources re-main un-
+[107] (./bibliography.tex [108] [109] [110] [111] [112] [113] [114] [115]
+[116]) [117]
+(/home/lilhelper/SAM_Research_Overflow/Substrate_Accumulation_Model/volumes/II/
+editions/20261110_source_and_formation/tmp/pdfs/build/main.aux) )
+(see the transcript file for additional information)
+Output written on /home/lilhelper/SAM_Research_Overflow/Substrate_Accumulation_
+Model/volumes/II/editions/20261110_source_and_formation/tmp/pdfs/build/main.pdf
+ (117 pages).
+Transcript written on /home/lilhelper/SAM_Research_Overflow/Substrate_Accumulat
+ion_Model/volumes/II/editions/20261110_source_and_formation/tmp/pdfs/build/main
+.log.
